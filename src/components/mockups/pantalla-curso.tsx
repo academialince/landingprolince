@@ -1,3 +1,4 @@
+import { Logo } from "@/components/ui/logo";
 import { BookOpen, CircleCheck, House, ListChecks, Megaphone, Play, Timer } from "lucide-react";
 
 const menu = [
@@ -21,17 +22,7 @@ export function PantallaCurso() {
     <div className="flex h-full bg-surface-subtle text-[0.62rem]">
       <aside className="hidden w-[24%] shrink-0 flex-col gap-0.5 border-r border-border bg-surface p-3 sm:flex">
         <div className="mb-3 flex items-center gap-1.5 px-1">
-          <span
-            className="size-4 shrink-0 bg-primary"
-            style={{
-              WebkitMaskImage: "url(/brand/prolince-isotipo-mono.svg)",
-              maskImage: "url(/brand/prolince-isotipo-mono.svg)",
-              WebkitMaskSize: "contain",
-              maskSize: "contain",
-              WebkitMaskRepeat: "no-repeat",
-              maskRepeat: "no-repeat",
-            }}
-          />
+          <Logo alto={14} decorativo />
           <span className="font-extrabold tracking-tight">ProLince</span>
         </div>
         {menu.map((m) => (

@@ -9,14 +9,16 @@
   --color-surface-subtle: oklch(0.985 0.003 163);
   --color-surface-tinted: oklch(0.975 0.009 163);
 
-  /* Rampa anclada al verde del isotipo, #024334. Contrastes verificados en AAA. */
-  --color-primary: oklch(0.341 0.065 171.5);
-  --color-primary-hover: oklch(0.296 0.061 171.5);
-  --color-primary-active: oklch(0.262 0.055 171.5);
-  --color-primary-fg: oklch(0.99 0.005 171.5);
-  --color-primary-soft: oklch(0.951 0.017 171.5);
-  --color-primary-soft-fg: oklch(0.31 0.063 171.5);
-  --color-primary-deep: oklch(0.228 0.045 171.5);
+  /* Rampa anclada al verde del isotipo, #03512D. Contrastes verificados en AAA:
+     blanco sobre primary 9,46:1; sobre hover 11,49:1; sobre deep 15,57:1; soft-fg sobre
+     soft 9,68:1. Al tocar cualquier valor hay que volver a medir. */
+  --color-primary: oklch(0.383 0.092 155.6);
+  --color-primary-hover: oklch(0.335 0.086 155.6);
+  --color-primary-active: oklch(0.298 0.078 155.6);
+  --color-primary-fg: oklch(0.99 0.006 155.6);
+  --color-primary-soft: oklch(0.952 0.024 155.6);
+  --color-primary-soft-fg: oklch(0.345 0.088 155.6);
+  --color-primary-deep: oklch(0.252 0.062 155.6);
 
   --color-muted: oklch(0.972 0.006 163);
   --color-muted-foreground: oklch(0.47 0.017 158);
@@ -118,6 +120,32 @@
 
   .tabular { font-variant-numeric: tabular-nums; }
 
+  /* Marquesina reutilizable (KPI y testimonios).
+     La pista lleva dos copias de la lista y se desplaza media anchura, así el salto al
+     reiniciar es invisible. La segunda copia va `aria-hidden` para que un lector de pantalla no
+     lea el contenido dos veces.
+
+     Los bordes se funden con `mask-image`, no con un degradado de color encima: así el mismo
+     componente vale sobre el verde oscuro de los KPI y sobre el gris claro de los testimonios,
+     sin tener que replicar el fondo de cada sección. */
+  .marquesina {
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to right, transparent 0, black 7%, black 93%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0, black 7%, black 93%, transparent 100%);
+  }
+
+  .marquesina-pista {
+    display: flex;
+    align-items: stretch;
+    width: max-content;
+    animation: marquesina-desplazar var(--marquesina-duracion, 34s) linear infinite;
+  }
+
+  @keyframes marquesina-desplazar {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
   /* Cuerpo de los artículos del blog: el HTML lo genera remark, así que se estiliza por
      etiqueta. Ancho de lectura acotado e interlineado de lectura larga, no de interfaz. */
   .prosa { font-size: var(--text-body-lg); line-height: 1.75; }
@@ -149,6 +177,19 @@
   .prosa table { width: 100%; border-collapse: collapse; font-size: var(--text-body-sm); }
   .prosa th, .prosa td { border: 1px solid var(--color-border); padding: 0.6em 0.8em; text-align: left; }
   .prosa hr { border: 0; border-top: 1px solid var(--color-border); margin-block: 2.4em; }
+}
+
+/*
+ * Sin movimiento: se para la animación, se esconde la copia y la tira se puede arrastrar.
+ *
+ * Va fuera de `@layer` a propósito. Dentro de `@layer components` esto no ocultaba nada: la
+ * copia lleva la utilidad `flex` de Tailwind, que está en `@layer utilities` y gana por orden
+ * de capas. Las reglas sin capa vencen a cualquier capa, así que aquí sí se aplica.
+ */
+@media (prefers-reduced-motion: reduce) {
+  .marquesina { overflow-x: auto; }
+  .marquesina-pista { animation: none; }
+  .marquesina-copia { display: none; }
 }
 
 /*

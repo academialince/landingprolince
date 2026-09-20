@@ -1,41 +1,33 @@
+import Image from "next/image";
+
 /**
- * El isotipo se pinta como máscara CSS sobre un color del sistema, no como imagen coloreada.
- * Así la marca de la cabecera y el verde de los CTA salen literalmente del mismo token, el
- * fichero se cachea aparte en lugar de inflar el HTML, y la variante sobre fondo oscuro no
- * necesita un segundo SVG.
+ * El isotipo es bicolor —círculo verde con el león, la espada y los laureles en blanco—, así
+ * que se pinta como imagen y no como máscara CSS. La máscara solo valdría para una marca de una
+ * tinta, y aquí aplanaría el emblema entero a un color.
+ *
+ * Sobre el verde oscuro del pie el círculo casi no separa (1,65:1), pero el aro y el león
+ * blancos llevan el contraste, así que la misma imagen sirve en claro y en oscuro.
  */
-const RATIO = 945.1 / 1010.9;
-const MASK = "url(/brand/prolince-isotipo-mono.svg)";
+const FUENTE = "/brand/prolince-logo.svg";
+const RATIO = 1143 / 1136;
 
 type Props = {
   alto?: number;
-  tono?: "marca" | "actual";
   decorativo?: boolean;
   className?: string;
 };
 
-export function Logo({ alto = 32, tono = "marca", decorativo = false, className }: Props) {
+export function Logo({ alto = 32, decorativo = false, className }: Props) {
   return (
-    <span
-      className={className}
-      role={decorativo ? undefined : "img"}
-      aria-label={decorativo ? undefined : "ProLince"}
+    <Image
+      src={FUENTE}
+      alt={decorativo ? "" : "ProLince"}
       aria-hidden={decorativo || undefined}
-      style={{
-        display: "inline-block",
-        flex: "0 0 auto",
-        height: alto,
-        width: Math.round(alto * RATIO * 100) / 100,
-        backgroundColor: tono === "actual" ? "currentColor" : "var(--color-primary)",
-        WebkitMaskImage: MASK,
-        maskImage: MASK,
-        WebkitMaskRepeat: "no-repeat",
-        maskRepeat: "no-repeat",
-        WebkitMaskSize: "contain",
-        maskSize: "contain",
-        WebkitMaskPosition: "center",
-        maskPosition: "center",
-      }}
+      width={Math.round(alto * RATIO)}
+      height={alto}
+      priority
+      className={`shrink-0 ${className ?? ""}`}
+      style={{ height: alto, width: "auto" }}
     />
   );
 }
@@ -51,11 +43,15 @@ export function Marca({
 }) {
   return (
     <span className={`inline-flex items-center gap-2.5 ${className ?? ""}`}>
-      {/* El nombre va como texto al lado, así que el isotipo es decorativo y no se lee dos veces. */}
-      <Logo alto={alto} tono={tono} decorativo />
+      {/* El nombre va como texto al lado, así que el isotipo es decorativo. */}
+      <Logo alto={alto} decorativo />
       <span
         className="hidden font-extrabold tracking-[-0.03em] xs:inline"
-        style={{ fontSize: Math.round(alto * 0.62), fontWeight: 780 }}
+        style={{
+          fontSize: Math.round(alto * 0.62),
+          fontWeight: 780,
+          color: tono === "actual" ? "currentColor" : undefined,
+        }}
       >
         ProLince
       </span>

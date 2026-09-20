@@ -11,7 +11,7 @@ const variantes: Record<Variante, string> = {
   primario:
     "bg-primary text-primary-fg shadow-[0_8px_22px_color-mix(in_oklch,var(--color-primary)_18%,transparent)] hover:bg-primary-hover active:bg-primary-active",
   secundario:
-    "bg-surface text-foreground border border-border hover:bg-surface-tinted hover:border-border-strong",
+    "bg-surface text-primary border border-primary/35 hover:bg-primary-soft hover:border-primary",
   fantasma: "text-foreground hover:bg-surface-tinted",
   claro: "bg-white text-primary-deep hover:bg-primary-soft",
 };

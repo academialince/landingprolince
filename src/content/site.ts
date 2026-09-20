@@ -37,7 +37,8 @@ export const site = {
 
 export type ItemNav = {
   etiqueta: string;
-  href: string;
+  /** Ausente en los grupos: «Cursos» abre un desplegable, no lleva a ninguna página. */
+  href?: string;
   hijos?: { etiqueta: string; descripcion: string; href: string }[];
 };
 
@@ -45,7 +46,6 @@ export const navegacion: ItemNav[] = [
   { etiqueta: "Inicio", href: rutas.inicio },
   {
     etiqueta: "Cursos",
-    href: rutas.curso(cursos[0].slug),
     hijos: cursos.map((c) => ({
       etiqueta: c.nombre,
       descripcion: c.eyebrow,

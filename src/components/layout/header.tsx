@@ -11,8 +11,9 @@ import { navegacion, type ItemNav } from "@/content/site";
 import { links } from "@/lib/links";
 
 function activo(ruta: string, item: ItemNav) {
-  if (item.href === "/") return ruta === "/";
   if (item.hijos) return item.hijos.some((h) => ruta.startsWith(h.href));
+  if (!item.href) return false;
+  if (item.href === "/") return ruta === "/";
   return ruta.startsWith(item.href);
 }
 
@@ -48,10 +49,27 @@ export function Header() {
     };
   }, [abierto, desplegado]);
 
+  /*
+   * Bloqueo de scroll que conserva la posición. `overflow: hidden` a secas basta en escritorio,
+   * pero en iOS la página salta al principio al cerrar. Fijando el body con un `top` negativo y
+   * restaurando el scroll al soltar, se queda donde estaba.
+   */
   useEffect(() => {
-    document.body.style.overflow = abierto ? "hidden" : "";
+    if (!abierto) return;
+    const y = window.scrollY;
+    const { style } = document.body;
+    style.position = "fixed";
+    style.top = `-${y}px`;
+    style.left = "0";
+    style.right = "0";
+    style.overflow = "hidden";
     return () => {
-      document.body.style.overflow = "";
+      style.position = "";
+      style.top = "";
+      style.left = "";
+      style.right = "";
+      style.overflow = "";
+      window.scrollTo(0, y);
     };
   }, [abierto]);
 
@@ -61,7 +79,8 @@ export function Header() {
   };
 
   return (
-    <header
+    <>
+      <header
       className={`sticky top-0 z-40 transition-[background-color,border-color] duration-200 ease-[var(--ease-product)] ${
         desplazado
           ? "border-b border-border bg-background/85 backdrop-blur-md"
@@ -84,7 +103,7 @@ export function Header() {
               }`;
 
               if (!item.hijos) {
-                return (
+                return item.href ? (
                   <Link
                     key={item.etiqueta}
                     href={item.href}
@@ -93,9 +112,10 @@ export function Header() {
                   >
                     {item.etiqueta}
                   </Link>
-                );
+                ) : null;
               }
 
+              const hijos = item.hijos;
               const desplegadoAqui = desplegado === item.etiqueta;
               return (
                 <div key={item.etiqueta} className="relative">
@@ -114,7 +134,7 @@ export function Header() {
                   </button>
                   {desplegadoAqui && (
                     <div className="absolute left-0 top-full z-50 mt-2 w-72 overflow-hidden rounded-xl border border-border bg-surface p-1.5 shadow-[0_18px_40px_-12px_rgba(2,67,52,0.24)]">
-                      {item.hijos.map((h) => (
+                      {hijos.map((h) => (
                         <Link
                           key={h.href}
                           href={h.href}
@@ -158,38 +178,54 @@ export function Header() {
         </div>
       </Container>
 
-      {abierto && (
-        <div id="menu-movil" className="border-t border-border bg-background lg:hidden">
-          <Container>
-            <nav aria-label="Principal, móvil" className="grid py-3">
-              {navegacion.map((item) => (
-                <div key={item.etiqueta} className="border-b border-border last:border-0">
-                  <Link href={item.href} onClick={cerrar} className="block py-3 font-semibold">
-                    {item.etiqueta}
-                  </Link>
-                  {item.hijos && (
-                    <div className="grid pb-3 pl-4">
-                      {item.hijos.map((h) => (
-                        <Link
-                          key={h.href}
-                          href={h.href}
-                          onClick={cerrar}
-                          className="py-2 text-body-sm text-muted-foreground"
-                        >
-                          {h.etiqueta}
-                        </Link>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              ))}
-              <a href={links.login} className="py-3 font-semibold text-primary">
-                Entrar en mi cuenta
-              </a>
-            </nav>
-          </Container>
-        </div>
-      )}
     </header>
+
+      {abierto && (
+      <div
+        id="menu-movil"
+        className="fixed inset-x-0 bottom-0 top-[4.5rem] z-50 overflow-y-auto overscroll-contain border-t border-border bg-background lg:hidden"
+      >
+        <Container>
+          <nav aria-label="Principal, móvil" className="grid py-2">
+            {navegacion.map((item) =>
+              item.hijos ? (
+                <div key={item.etiqueta} className="border-b border-border py-3">
+                  {/* Un grupo no es un destino: enlazarlo al primer curso duplicaba la entrada. */}
+                  <p className="text-eyebrow uppercase text-muted-foreground">{item.etiqueta}</p>
+                  <div className="mt-1 grid">
+                    {item.hijos.map((h) => (
+                      <Link
+                        key={h.href}
+                        href={h.href}
+                        onClick={cerrar}
+                        className="py-2.5 font-semibold"
+                      >
+                        {h.etiqueta}
+                        <span className="block text-body-sm font-normal text-muted-foreground">
+                          {h.descripcion}
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <Link
+                  key={item.etiqueta}
+                  href={item.href!}
+                  onClick={cerrar}
+                  className="border-b border-border py-4 font-semibold"
+                >
+                  {item.etiqueta}
+                </Link>
+              ),
+            )}
+            <a href={links.login} className="py-4 font-semibold text-primary">
+              Entrar en mi cuenta
+            </a>
+          </nav>
+        </Container>
+      </div>
+    )}
+    </>
   );
 }

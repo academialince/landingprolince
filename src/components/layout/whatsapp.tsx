@@ -22,7 +22,7 @@ export function BotonWhatsapp() {
       aria-label="Hablar por WhatsApp"
       className="group fixed bottom-5 right-5 z-50 flex items-center gap-3"
     >
-      <span className="rounded-full bg-white/95 px-4 py-2 text-[0.875rem] font-semibold text-[#1A1A1A] shadow-[0_0_0_1px_rgba(0,0,0,0.05),0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-4px_rgba(0,0,0,0.1)]">
+      <span className="hidden rounded-full bg-white/95 px-4 py-2 sm:inline-block text-[0.875rem] font-semibold text-[#1A1A1A] shadow-[0_0_0_1px_rgba(0,0,0,0.05),0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-4px_rgba(0,0,0,0.1)]">
         ¿Hablamos por WhatsApp?
       </span>
       <span className="flex size-16 shrink-0 items-center justify-center rounded-full bg-[#4FCE5D] shadow-[0_14px_30px_-12px_rgba(0,0,0,0.65)] transition-transform duration-200 ease-[var(--ease-product)] group-hover:scale-105 group-focus-visible:scale-105">

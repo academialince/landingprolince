@@ -17,7 +17,14 @@ export const links = {
   catalogo: `${APP}/${ACADEMY}/registro`,
 } as const;
 
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+/**
+ * En producción manda `NEXT_PUBLIC_SITE_URL`. En una preview de Vercel no puede haber un valor
+ * fijo —cada despliegue tiene su URL—, así que se cae a `VERCEL_URL`: sin eso, las canónicas y
+ * el sitemap de una preview apuntarían a producción y se indexaría el sitio equivocado.
+ */
+export const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
 
 export function absoluteUrl(path = "/") {
   return new URL(path, siteUrl).toString();

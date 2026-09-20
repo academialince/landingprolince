@@ -6,6 +6,7 @@ import { Container } from "@/components/layout/container";
 import { Section } from "@/components/layout/section";
 import { Reveal } from "@/components/layout/reveal";
 import { SubmenuCurso } from "@/components/layout/submenu-curso";
+import { VolverInicio } from "@/components/layout/volver-inicio";
 import { Button } from "@/components/ui/button";
 import { Icono } from "@/components/ui/icon";
 import { CtaFinal } from "@/components/sections/cta-final";
@@ -40,6 +41,8 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
 
   return (
     <>
+      <VolverInicio />
+
       <section className="relative overflow-hidden border-b border-border">
         <div
           aria-hidden

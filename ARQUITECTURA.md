@@ -107,8 +107,6 @@ escrita.
 
 ## 4. Frontera con la plataforma
 
-Dos fronteras distintas que conviene no confundir.
-
 ### 4.1. Enlaces salientes
 
 > **La landing nunca conoce rutas internas de la plataforma salvo a través de `src/lib/links.ts`.**
@@ -124,27 +122,27 @@ export const links = {
 } as const;
 ```
 
-Comprobado contra la plataforma en marcha: `/academiaprolince/` **es** la pantalla de acceso, y
-el alta cuelga de `/academiaprolince/registro`. El catálogo de cursos vive detrás del muro de
-acceso, así que «ver cursos» lleva al alta y no a una página que devolvería un login.
+Comprobado contra la plataforma en marcha: `/academiaprolince/` **es** la pantalla de acceso y
+el alta cuelga de `/academiaprolince/registro`. El catálogo vive detrás del muro de acceso, así
+que «ver cursos» lleva al alta y no a una página que devolvería un login.
 
-El mismo fichero exporta `rutas`, con las rutas internas de esta web, para que la navegación,
-el pie y el sitemap no se separen entre sí.
+El mismo fichero exporta `rutas`, con las rutas internas de esta web, para que la navegación, el
+pie y el sitemap no se separen entre sí.
 
-### 4.2. Base de datos compartida
+### 4.2. Backends separados
 
-Llega con el blog (§8). La web usará **el mismo proyecto Supabase** que el producto y se apoyará
-en piezas que ya existen allí en lugar de duplicarlas:
+**La web no comparte base de datos con el producto.** Tiene su propio proyecto de Supabase,
+`prolince-landing` (`mfclhieniekxksdfnabj`), dentro de la misma organización. Lo único que
+comparten es la organización y el enlace saliente de §4.1.
 
-| Pieza existente | Uso aquí |
-| --- | --- |
-| `public.is_superadmin()` sobre `public.platform_admins` | Única puerta de escritura del blog. El blog es contenido **de marca**, no de academia, así que el rol correcto es el de plataforma y no `academy_admin`. |
-| Bucket `public-assets` (lectura pública, escritura para superadmin) | Portadas e imágenes de los artículos. Ya tiene las políticas puestas. |
-| Supabase Auth | Entrada al admin. Sin sistema de identidad propio. |
+Consecuencia práctica: el blog no puede apoyarse en piezas del producto. La puerta de escritura
+es `public.es_editor_blog()`, que comprueba el correo del editor y es autónoma, en lugar de
+`is_superadmin()` sobre `platform_admins`. Y no hay bucket de imágenes: el editor acepta la
+portada como URL, y si algún día se quieren subidas habrá que crear uno en este proyecto.
 
-**Regla innegociable:** la web usa exclusivamente la **clave anónima** más la sesión del
-usuario. La *service role key* nunca entra en este repositorio, ni en variables de entorno, ni
-en una ruta de API: se salta RLS por diseño y este sitio es público.
+**Regla innegociable:** solo la **clave anónima**, que va en el bundle del navegador por diseño.
+La *service role key* no entra en este repositorio ni en Vercel: se salta RLS y este sitio es
+público.
 
 
 ## 5. Estructura de carpetas
@@ -202,30 +200,22 @@ Cinco reglas que mantienen esto ordenado:
 
 ### 6.1. El logo
 
-El isotipo ya está vectorizado en `public/brand/`, trazado desde el PNG original con
-`scripts/build-logo.py` (marching squares con interpolación subpíxel → RDP → cúbicas con
-detección de esquinas). Fidelidad medida: **IoU 0,976** contra el original, con la diferencia
-concentrada en un fleco de un píxel en los bordes. 13 subtrazados, `fill-rule="evenodd"`, sin
-rectángulo de fondo, 13,4 KB con gzip.
+`public/brand/prolince-logo.svg`: emblema circular verde con el león, la espada y los laureles
+en blanco. El mismo fichero sirve de favicon en `src/app/icon.svg`. 20,6 KB, con el `viewBox`
+ajustado al contenido (`64 25 1143 1136`) porque el original dejaba unos 100 px muertos a la
+derecha y eso desajustaba cualquier medida.
 
-| Fichero | Relleno | Uso |
-| --- | --- | --- |
-| `prolince-isotipo.svg` | `#024334` fijo | Cabecera, hero, favicon, OG |
-| `prolince-isotipo-mono.svg` | `currentColor` | Pie oscuro, sobre fotografía, cualquier fondo donde el verde no contraste |
+**Se pinta como imagen, no como máscara CSS.** El isotipo anterior era de una tinta y se
+enmascaraba sobre un color del sistema; este es bicolor, y una máscara lo aplanaría entero a un
+solo color. Por eso `components/ui/logo.tsx` usa `next/image`.
 
-Reglas heredadas del sistema de diseño del producto:
+Sobre el verde oscuro del pie el círculo apenas separa del fondo (1,65:1), pero el aro y el león
+blancos llevan el contraste, así que la misma imagen vale en claro y en oscuro sin variante
+aparte. Verificado en el pie.
 
-- No redibujar, deformar, simplificar ni añadir efectos.
-- Mantener proporción con `object-fit: contain`.
-- No aplicar filtros CSS para recolorear: para eso existe la variante `currentColor`.
-- Altura en cabecera: 28–34 px. En el hero puede crecer sin límite.
-- Si el nombre «ProLince» aparece como texto al lado, el SVG es decorativo (`aria-hidden`).
-
-Para regenerarlo desde un PNG nuevo:
-
-```bash
-python3 scripts/build-logo.py ruta/al/logo.png public/brand
-```
+Reglas que siguen vigentes: no redibujar ni deformar, proporción con `object-fit: contain`,
+28–34 px de altura en cabecera, y tratarlo como decorativo (`aria-hidden`) cuando el nombre
+«ProLince» aparece como texto al lado, para no leerlo dos veces.
 
 ### 6.2. Color
 
@@ -650,92 +640,124 @@ Corta, porque ahora hay superficie de escritura donde antes no había ninguna.
 
 ## 13. Despliegue
 
-Vercel, misma organización que el producto, repositorio distinto. Producción en `prolince.es`;
-la plataforma en `app.prolince.es`. Dominios separados desde el principio: mucho más barato que
-separarlos con enlaces ya indexados.
+**En producción desde el 2026-09-20**, en infraestructura propia y separada del producto.
 
-| Variable | Producción | Preview |
+| Pieza | Web | Producto |
 | --- | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | `https://prolince.es` | URL de preview propia |
-| `NEXT_PUBLIC_APP_URL` | `https://app.prolince.es` | Preview de la plataforma |
-| `NEXT_PUBLIC_SUPABASE_URL` | Proyecto compartido | Mismo |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Clave anónima | Misma |
+| Vercel | `landingprolince` → **landingprolince.vercel.app** | `prolince` → prolince-lovat.vercel.app |
+| Supabase | `prolince-landing` · `mfclhieniekxksdfnabj` | `AcademiaProlince` · `nmazxerskrvofjtepkfk` |
 
-`NEXT_PUBLIC_SITE_URL` alimenta `metadataBase`, el sitemap y las canónicas: sin él, las
-canónicas de preview apuntarían a producción y se indexaría el sitio equivocado.
+Comparten la cuenta de Vercel (`academia-prolince`) y la organización de Supabase (`Prolince`).
+Nada más: ni base de datos, ni despliegues, ni variables.
 
-Cron de Vercel diario para revalidar el índice del blog y sacar a la luz lo programado.
+### El preset del proyecto estaba mal
 
----
+El proyecto de Vercel venía con **Framework Preset «Other»**, así que los despliegues salían
+como sitio estático sirviendo `public/` y `landingprolince.vercel.app` devolvía 404. Se arregla
+con `vercel.json` en el repositorio, que manda sobre el ajuste del panel:
+
+```json
+{ "framework": "nextjs", "buildCommand": "next build", "regions": ["cdg1"] }
+```
+
+Tenerlo en el repositorio y no en el panel significa que la configuración viaja con el código y
+se revisa en el diff.
+
+### Variables
+
+En los tres entornos: `NEXT_PUBLIC_APP_URL`, `NEXT_PUBLIC_SUPABASE_URL`,
+`NEXT_PUBLIC_SUPABASE_ANON_KEY` y `NEXT_PUBLIC_ADMIN_EMAIL`. `NEXT_PUBLIC_SITE_URL` solo en
+producción: en una preview no puede haber un valor fijo, así que `lib/links.ts` cae a
+`VERCEL_URL`. Sin eso, las canónicas de una preview apuntarían a producción.
+
+### La indexación está cerrada
+
+`src/app/robots.ts` devuelve `Disallow: /` mientras no exista `ALLOW_INDEXING=true`. Es
+deliberado: el faldón de KPI, los testimonios y los precios son datos de relleno, y son
+afirmaciones sobre resultados y sobre personas que todavía no se pueden sostener. Para abrirlo,
+cuando el contenido sea real:
+
+```bash
+printf 'true' | vercel env add ALLOW_INDEXING production && vercel deploy --prod
+```
+
+### Previews
+
+Las previews están tras el SSO de Vercel y responden 302 a quien no tenga sesión en el equipo.
+Es el comportamiento por defecto, no un fallo del despliegue.
+
 
 ## 14. Estado y siguientes pasos
 
 ### Hecho
 
-**La web pública y el panel del blog están construidos.** Dieciocho rutas, el sistema visual
-completo, los mockups, el faldón de KPIs, el WhatsApp flotante, las dos landings de curso con
-submenú, la tienda, las fichas de equipo, metadatos, JSON-LD, sitemap, robots y OG.
+La web pública y el panel del blog están construidos, y **Supabase y Vercel están conectados**.
 
-Verificaciones pasadas: `tsc --noEmit` y `eslint --max-warnings=0` limpios, todas las rutas
-responden 200, las redirecciones antiguas devuelven 308, y **cero desborde horizontal a 390 px
-y 1440 px** en todas las páginas, medido con el protocolo DevTools de Chrome.
+- Migración `20260920154500_blog.sql` aplicada sobre la base de datos real.
+- RLS verificada contra la API: lectura anónima devuelve 200 con lista vacía, escritura anónima
+  devuelve 401 con violación de política.
+- `src/proxy.ts` protegiendo `/admin`: sin sesión redirige a `/admin/entrar?desde=…`, y
+  `/admin/entrar` queda abierto.
+- Proyecto de Vercel enlazado con las variables en producción, preview y desarrollo.
 
-Fallos que solo aparecieron al mirar el render y conviene no repetir:
+Verificaciones: `tsc --noEmit` y `eslint --max-warnings=0` limpios, todas las rutas responden,
+las redirecciones antiguas devuelven 308, y cero desborde horizontal a 390 y 1440 px.
+
+### Lo único que falta para publicar en el blog
+
+**Crear la cuenta editora.** En el panel de Supabase → Authentication → Users → Add user:
+
+- Correo: `admin@academiaprolince.com`
+- Contraseña: la que elijáis
+- Marcar **Auto Confirm User**, para no depender del correo de confirmación
+
+El correo está escrito en `public.es_editor_blog()`. Para cambiarlo hay que editar esa función
+y volver a aplicar la migración.
+
+Después, entrar en `/admin/entrar`, crear una entrada de prueba y comprobar tres cosas: que en
+borrador no se ve en `/blog`, que al publicar aparece en segundos, y que una cuenta distinta no
+puede escribir.
+
+### Trampas que ya costaron tiempo
 
 1. **Clases de `display` en conflicto.** `hidden sm:inline` sobre un componente cuya clase base
-   ya trae `inline-flex` no oculta nada: gana el orden del CSS generado, no el del atributo. Se
-   resuelve envolviendo, no pasando la clase.
-2. **`!important` cambió de sitio en Tailwind v4.** Es sufijo (`bg-transparent!`).
-3. **La animación de entrada tiene que fallar abriendo.** Ver `components/layout/reveal.tsx`.
+   trae `inline-flex` no oculta nada: gana el orden del CSS generado. Se envuelve, no se pasa.
+2. **`!important` es sufijo en Tailwind v4** (`bg-transparent!`).
+3. **La animación de entrada tiene que fallar abriendo** (`components/layout/reveal.tsx`).
 4. **Los mockups heredan el color de texto** de la banda que los contiene.
-
-### Para que el blog funcione de verdad
-
-El código está entero, pero el panel no se ha podido probar contra una base de datos real
-porque no hay credenciales en este entorno. Quedan tres pasos:
-
-1. Rellenar `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_ANON_KEY` en `.env.local` y en
-   Vercel. Sin ellas, `/blog` enseña su estado vacío y `/admin/entrar` explica lo que falta, en
-   lugar de romper el build.
-2. Aplicar `supabase/migrations/20260920100000_blog.sql` sobre el proyecto del producto.
-3. Dar de alta **`admin@academiaprolince.com`** en Supabase Auth con una contraseña. El correo
-   está en `public.es_editor_blog()`: para cambiarlo, se edita ahí y se vuelve a aplicar.
-
-Después, comprobar de verdad: que un anónimo no ve borradores, que una cuenta distinta no puede
-escribir, y que al publicar la entrada aparece en `/blog` en segundos.
-
-### Pendiente en el panel
-
-Deliberadamente fuera: papelera, versiones, flujo de aprobación, roles intermedios y subida de
-imágenes al bucket (de momento la portada se pega como URL). Se añaden el día que haya dos
-personas escribiendo, no antes.
+5. **Con carpeta `src/`, el proxy va en `src/proxy.ts`.** En la raíz se ignora sin avisar, y el
+   panel queda sin guardia.
+6. **Un elemento de menú con hijos no puede tener destino propio.** Darle el href del primer
+   hijo duplicaba la entrada en el menú móvil y en el pie.
 
 
 ## 15. Pendiente
 
-**Bloquea la publicación:**
+**Bloquea la publicación** (todo son datos que no se pueden inventar):
 
-1. **Número de WhatsApp real.** `site.contacto.whatsapp` tiene un marcador de un rango no
+1. **Cuenta editora del blog** en Supabase Auth (§14).
+2. **Número de WhatsApp real.** `site.contacto.whatsapp` tiene un marcador de un rango no
    asignado: el botón no abre conversación con nadie.
-2. **Las cifras del faldón de KPIs.** Son provisionales. Publicar datos de resultados que no se
+3. **Las cifras del faldón de KPIs.** Son provisionales. Publicar datos de resultados que no se
    puedan sostener es publicidad engañosa, y en una academia de oposiciones es lo que más caro
-   sale. Los tres últimos KPI son hechos del producto y se comprueban mirando la plataforma.
-3. **Los precios de la tienda.** Provisionales, junto con la política de bajas y devoluciones.
-4. **Identidad fiscal**: razón social, NIF y domicilio. Las páginas legales avisan en pantalla
+   sale.
+4. **Los testimonios.** Los seis actuales son un borrador. Un testimonio es una afirmación sobre
+   una persona: o es real y está autorizado por escrito, o no se publica.
+5. **Los precios de la tienda**, y la política de bajas y devoluciones.
+6. **Identidad fiscal**: razón social, NIF y domicilio. Las páginas legales avisan en pantalla
    mientras falten.
-5. **Correo y teléfono públicos.**
+7. **Correo y teléfono públicos.**
 
 **Mejora lo que ya hay:**
 
-6. **Biografías del equipo**: las actuales son un borrador.
-7. **Retratos del equipo** en `public/equipo/<slug>.jpg`, 4:5 y 800×1000 mínimo.
-8. **Datos de convocatoria** de cada curso: plazas, fechas y enlace al BOE. Mientras
-   `convocatoria` sea `null`, la web omite esos bloques.
-9. **Edades y titulación exactas** del Colegio de Guardias Jóvenes, cotejadas con el BOE: es el
-   requisito donde más gente se equivoca.
-10. **Testimonios reales.** La sección no aparece hasta tenerlos.
-11. **Capturas reales del producto** para sustituir las pantallas simuladas.
-12. **Dominio definitivo** y variables de entorno en Vercel.
+8. **Biografías del equipo**: las actuales son un borrador.
+9. **Fotos**: equipo en `public/equipo/<slug>.jpg` (4:5, 800×1000 mínimo) y testimonios en
+   `public/testimonios/<slug>.jpg` (cuadradas, 400×400 mínimo). Mientras no existan, las
+   tarjetas enseñan las iniciales.
+10. **Datos de convocatoria** de cada curso: plazas, fechas y enlace al BOE.
+11. **Edades y titulación exactas** del Colegio de Guardias Jóvenes, cotejadas con el BOE.
+12. **Capturas reales del producto** para sustituir las pantallas simuladas.
+13. **Dominio propio** en lugar de `landingprolince.vercel.app`.
 
 
 ## 16. Cuando lleguen las especialidades

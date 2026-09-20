@@ -62,13 +62,15 @@ export function Footer() {
           <nav aria-label="Secciones">
             <h2 className="mb-4 text-eyebrow uppercase text-white/50">Secciones</h2>
             <ul className="grid gap-2.5 text-body-sm">
-              {navegacion.map((item) => (
-                <li key={item.etiqueta}>
-                  <Link href={item.href} className="text-white/80 hover:text-white">
-                    {item.etiqueta}
-                  </Link>
-                </li>
-              ))}
+              {navegacion
+                .filter((item) => item.href && !item.hijos)
+                .map((item) => (
+                  <li key={item.etiqueta}>
+                    <Link href={item.href!} className="text-white/80 hover:text-white">
+                      {item.etiqueta}
+                    </Link>
+                  </li>
+                ))}
             </ul>
           </nav>
 

@@ -1,9 +1,7 @@
 -- Blog de la web pública de ProLince.
 --
--- Una sola tabla: los tipos de entrada son datos (columna `tipo` más `datos` jsonb), no
--- esquema, así que añadir «convocatoria» o «prueba física» no es una migración.
---
--- El vocabulario de `estado` es el mismo que usa el módulo de Novedades del producto.
+-- Esta base de datos es exclusiva de la web: no la comparte con el producto, así que el
+-- historial de migraciones de este repositorio es el único que la toca.
 
 create table if not exists public.blog_posts (
   id             uuid primary key default gen_random_uuid(),
