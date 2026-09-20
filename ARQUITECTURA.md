@@ -500,6 +500,36 @@ la sesión y redirige a quien no la tenga; **la comprobación real de permisos e
 proxy solo evita enseñar un panel vacío. `layout.tsx` del admin emite `noindex, nofollow` y
 `robots.ts` bloquea `/admin`.
 
+### 8.6. Los artículos de arranque
+
+Un blog vacío no posiciona, así que el sitio sale con diez artículos ya escritos. Viven en
+`contenido/blog/*.md`, con un frontmatter que se corresponde uno a uno con las columnas de
+`blog_posts`, y se llevan a la base de datos con `scripts/importar-blog.mjs`.
+
+**La fuente de verdad es la base de datos, no estos ficheros.** Son el borrador con el que se
+redactó cada artículo y quedan en el repositorio para poder releerlos y rehacer la importación
+en un entorno nuevo. En cuanto un artículo se toca desde `/admin`, el `.md` queda viejo:
+reimportarlo lo sobrescribiría.
+
+El script entra con el correo y la contraseña del editor y escribe con la clave anónima, es
+decir, pasando por RLS igual que el panel. No hay service role key de por medio:
+
+```sh
+BLOG_EMAIL=admin@academiaprolince.com BLOG_PASSWORD=… node scripts/importar-blog.mjs
+node scripts/importar-blog.mjs --borrador     # entra todo como borrador, para revisar antes
+node scripts/importar-blog.mjs --sql > semilla.sql   # alternativa: pegar en el editor SQL
+```
+
+Las portadas son tipográficas y se generan con `scripts/generar-portadas.mjs`, que compone cada
+imagen con Manrope y el verde de marca y la deja en `public/blog/<slug>.jpg`. Es una decisión de
+contenido, no de diseño: no hay banco de fotos que aguante diez artículos sobre la misma
+oposición sin repetirse, y una foto de archivo dice menos que el titular. El script necesita
+Chrome y `sips`, que es lo que hay en el equipo donde se edita el sitio.
+
+Sobre el contenido en sí, una regla que no se negocia: **plazas, marcas, fechas y baremos salen
+del BOE o no se publican**. Cada artículo que da una cifra dice de qué convocatoria viene y
+remite al texto oficial, porque todas caducan.
+
 ---
 
 ## 9. El contenido estático también es dato
