@@ -3,14 +3,13 @@ import { Mail, MessageCircle, Phone } from "lucide-react";
 import { Marca } from "@/components/ui/logo";
 import { Container } from "./container";
 import { navegacion, site } from "@/content/site";
-import { oposicionesActivas, oposicionesProximas } from "@/content/oposiciones";
+import { cursos } from "@/content/cursos";
 import { links, rutas } from "@/lib/links";
 
 const legales = [
   { etiqueta: "Aviso legal", href: rutas.avisoLegal },
   { etiqueta: "Privacidad", href: rutas.privacidad },
   { etiqueta: "Cookies", href: rutas.cookies },
-  { etiqueta: "Preguntas frecuentes", href: rutas.preguntas },
 ];
 
 export function Footer() {
@@ -20,10 +19,10 @@ export function Footer() {
   return (
     <footer className="bg-primary-deep text-white">
       <Container>
-        <div className="py-16 grid gap-12 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
+        <div className="grid gap-12 py-16 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
           <div>
             <Marca alto={30} tono="actual" />
-            <p className="mt-4 text-body-sm text-white/70 max-w-xs">
+            <p className="mt-4 max-w-xs text-body-sm text-white/70">
               Preparación online de oposiciones. El acceso a tu curso, tus tests y tus simulacros
               ocurre en la plataforma.
             </p>
@@ -61,10 +60,10 @@ export function Footer() {
           </div>
 
           <nav aria-label="Secciones">
-            <h2 className="text-eyebrow uppercase text-white/50 mb-4">Secciones</h2>
+            <h2 className="mb-4 text-eyebrow uppercase text-white/50">Secciones</h2>
             <ul className="grid gap-2.5 text-body-sm">
               {navegacion.map((item) => (
-                <li key={item.href}>
+                <li key={item.etiqueta}>
                   <Link href={item.href} className="text-white/80 hover:text-white">
                     {item.etiqueta}
                   </Link>
@@ -73,26 +72,21 @@ export function Footer() {
             </ul>
           </nav>
 
-          <div>
-            <h2 className="text-eyebrow uppercase text-white/50 mb-4">Oposiciones</h2>
+          <nav aria-label="Cursos">
+            <h2 className="mb-4 text-eyebrow uppercase text-white/50">Cursos</h2>
             <ul className="grid gap-2.5 text-body-sm">
-              {oposicionesActivas.map((o) => (
-                <li key={o.slug}>
-                  <Link href={rutas.oposicion} className="text-white/80 hover:text-white">
-                    {o.nombre}
+              {cursos.map((c) => (
+                <li key={c.slug}>
+                  <Link href={rutas.curso(c.slug)} className="text-white/80 hover:text-white">
+                    {c.nombre}
                   </Link>
                 </li>
               ))}
-              {oposicionesProximas.map((o) => (
-                <li key={o.slug} className="text-white/45">
-                  {o.nombre} · próximamente
-                </li>
-              ))}
             </ul>
-          </div>
+          </nav>
 
           <nav aria-label="Legal">
-            <h2 className="text-eyebrow uppercase text-white/50 mb-4">Legal</h2>
+            <h2 className="mb-4 text-eyebrow uppercase text-white/50">Legal</h2>
             <ul className="grid gap-2.5 text-body-sm">
               {legales.map((item) => (
                 <li key={item.href}>
@@ -110,7 +104,7 @@ export function Footer() {
           </nav>
         </div>
 
-        <div className="py-6 border-t border-white/12 flex flex-wrap items-center justify-between gap-3 text-body-sm text-white/55">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-t border-white/12 py-6 text-body-sm text-white/55">
           <p>
             © {new Date().getFullYear()} {site.legal.razonSocial ?? site.nombreLargo}
           </p>

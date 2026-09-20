@@ -11,32 +11,28 @@ declara explícitamente que no incluye landing, blog ni SEO. Este repositorio cu
 
 ## 1. Alcance
 
-**Qué es.** Una web pública escrita para el opositor, con tres piezas: un **sitio de varias
-páginas** que convierte visitas en registros, un **blog** que trae tráfico orgánico, y un
-**panel de administración** propio para publicar en ese blog. Arranca con **Acceso a la Guardia
-Civil** como única oposición viva.
+**Qué es.** La web pública de la academia ProLince: un sitio de varias páginas que convierte
+visitas en registros, un blog con su panel de administración, y una tienda que presenta las
+suscripciones. El alta, el pago y el estudio ocurren en la plataforma, no aquí.
 
-**Qué no es.** No es el producto. Aquí no hay alumnos, ni cursos, ni progreso, ni pagos. Todo
-eso ocurre al otro lado del CTA, en la plataforma.
+**Cursos publicados:** de momento dos, **Acceso a la Guardia Civil** y **Acceso al Colegio de
+Guardias Jóvenes**. Las especialidades (SEPRONA, UCO, Tráfico…) quedan fuera hasta que sean
+vendibles.
 
 ### Decisiones tomadas
 
 | Decisión | Elección | Consecuencia |
 | --- | --- | --- |
-| Papel de ProLince | **Es la academia**, un tenant de la plataforma | Los CTA apuntan a `/academiaprolince/...`. No hay selector de academia. |
-| Conversión | **Registro directo** | Sin formularios de lead ni captación por correo. El CTA lleva a crear cuenta. |
-| Estructura | **Varias páginas, no one-page** | Una ruta por tema, enlazadas desde la portada. Mejor para SEO y para leer sin scroll infinito. |
-| Audiencia | **El alumno, no el sector** | Rige el tono, el contenido y el orden de las secciones (§2). |
-| SEO | **Objetivo primario, no acabado** | Condiciona el renderizado, el enlazado interno y el modelo de datos (§10). |
-| Presencia visual | **Mockups de producto** | Marcos de móvil y navegador con la interfaz real representada (§7.3). |
-| Contacto | **WhatsApp flotante** | Botón fijo abajo a la derecha, presente en todas las páginas. |
-| Blog | **Con admin propio en este repo** | La web suma Supabase, sesión y editor (§8). |
-| Tipos de contenido | **Flexibles** | Un solo modelo de entrada con tipo y campos libres; añadir un tipo no toca la base de datos. |
-
-> **El alcance creció sobre la marcha.** El plan de partida era un one-page estático sin
-> backend. Hoy es un sitio de varias páginas y, con el blog, tendrá base de datos, sesión y
-> superficie de escritura. Es la decisión correcta si el SEO es prioridad, pero conviene saber
-> que **el editor del blog es la pieza más cara del proyecto**, por encima de la web entera.
+| Papel de ProLince | **Es la academia**, un tenant de la plataforma | Los CTA apuntan a `/academiaprolince/...`. |
+| Conversión | **Registro directo** | Sin formularios de lead. El CTA lleva a crear cuenta. |
+| Arquitectura | **Inicio · Cursos · Blog · Nosotros · Tienda** | Cursos es un desplegable con los dos cursos. |
+| Landing de curso | **Una sola página con submenú de anclas** | Verde, pegado bajo la cabecera y solo en escritorio (§7.3). |
+| Audiencia | **El alumno, no el sector** | Rige tono, contenido y orden de las secciones (§2). |
+| SEO | **Objetivo primario** | Condiciona renderizado, enlazado interno y modelo de datos (§10). |
+| Presencia visual | **Mockups de producto y fotos reales** | Marcos de móvil y navegador, más las fotos de curso (§7.4). |
+| Contacto | **WhatsApp flotante** | Calcado del de revelao.cam, en todas las páginas públicas. |
+| Blog | **Admin propio, editor único** | Supabase Auth, la cuenta `admin@academiaprolince.com` (§8). |
+| Tipos de contenido | **Flexibles** | Una tabla con `tipo` y `datos` jsonb; añadir un tipo no toca la base de datos. |
 
 
 ## 2. El alumno en el centro
@@ -322,42 +318,44 @@ toda animación, no la suaviza.
 
 ### 7.1. Las páginas
 
-| Ruta | Qué responde | Contenido |
-| --- | --- | --- |
-| `/` | «¿Esto es para mí?» | Hero con mockup, y un resumen de cada página con enlace. Es el índice comercial del sitio. |
-| `/la-oposicion` | «¿Qué se pide exactamente?» | Requisitos, las cuatro fases del proceso, convocatoria y hoja de ruta de especialidades. |
-| `/metodo` | «¿Qué hago el lunes por la mañana?» | Los cuatro pasos, una semana tipo hora a hora y el bloque de compaginar con el trabajo. |
-| `/plataforma` | «¿Qué me llevo por mi dinero?» | Mockups de móvil y escritorio, todo lo que incluye y el bloque de simulacros. |
-| `/quienes-somos` | «¿Y estos quiénes son?» | Por qué existe la academia, cuatro principios y una lista explícita de lo que se hace y lo que no. |
-| `/precios` | «¿Cuánto cuesta?» | Los tres planes y las preguntas frecuentes. |
-| `/preguntas` | Las dudas que quedan | Acordeón completo, que alimenta el JSON-LD de `FAQPage`. |
-| `/aviso-legal`, `/privacidad`, `/cookies` | Obligación legal | Con `noindex`. Avisan en pantalla mientras falten los datos fiscales. |
+| Ruta | Qué responde |
+| --- | --- |
+| `/` | «¿Esto es para mí?» Hero con mockup, faldón de KPIs, las dos tarjetas de curso, la plataforma, los simulacros y los principios. |
+| `/cursos/acceso-guardia-civil` | Todo sobre la oposición ordinaria, en una sola página. |
+| `/cursos/colegio-guardias-jovenes` | Lo mismo para la vía del Colegio Duque de Ahumada. |
+| `/blog` y `/blog/[slug]` | Convocatorias, guías y preparación física. Vacío hasta que haya entradas. |
+| `/nosotros` | Historia, principios, las cuatro fichas del equipo y los compromisos. |
+| `/tienda` | Tres suscripciones, comparativa y complementos de pago único. |
+| `/admin/**` | Panel del blog. Fuera del grupo `(web)`, con `noindex`. |
+| `/aviso-legal`, `/privacidad`, `/cookies` | Obligación legal, con `noindex`. |
 
-Cabecera fija con las cinco secciones y los dos CTA, pie con todo el mapa, y **botón flotante
-de WhatsApp** abajo a la derecha en todas las páginas.
+Las rutas del desarrollo anterior (`/la-oposicion`, `/precios`, `/quienes-somos`…) redirigen
+con 301 desde `next.config.ts`.
 
-### 7.2. Cómo se compone la portada
+### 7.2. Los dos armazones
 
-Hero · La oposición · La plataforma · Método · Simulacros · Quiénes somos · Precios ·
-Resultados · Preguntas · CTA final. Cada bloque cierra con un enlace a su página, de modo que
-la portada nunca es un callejón sin salida.
+`src/app/(web)/layout.tsx` monta cabecera, pie y WhatsApp. El panel vive fuera de ese grupo y
+no hereda nada: su ritmo de cambio no tiene que ver con el de la web pública, y así el bundle
+del editor no llega nunca al visitante.
 
-`Resultados` **no se renderiza** mientras `content/testimonios.ts` esté vacío. Un testimonio es
-una afirmación sobre una persona: o es real y está autorizado, o no se publica.
+### 7.3. El submenú de curso
 
-### 7.3. Los mockups
+Barra verde pegada bajo la cabecera, con las anclas de la página y la sección activa resuelta
+con `IntersectionObserver`. Solo en escritorio: en móvil ocuparía media pantalla y competiría
+con el menú principal. Las secciones llevan `scroll-mt-[7.75rem]` porque cabecera y submenú
+suman 7,5 rem.
 
-`components/mockups/` tiene dos marcos —`Telefono` y `Navegador`— y tres pantallas construidas
-con HTML: el test del alumno, el área de curso y el resultado de un simulacro con su ranking.
+### 7.4. Imágenes y mockups
 
-- **No son capturas.** Escalan sin pixelarse, pesan lo que pesa el HTML y se actualizan solas
-  si cambian los tokens.
-- **Aceptan `imagen`**, así que el día que haya capturas reales del producto se sustituyen sin
-  tocar el resto.
-- **Van marcadas como decorativas** salvo que lleven imagen real: el texto que las acompaña es
-  el que carga con el significado.
-- **Restablecen el color de texto** en el marco. Se usan también dentro de bandas oscuras y, sin
-  eso, heredan `text-white` sobre sus propios fondos claros y el contenido desaparece.
+- **Fotos de curso**: `public/cursos/`, reutilizadas del producto. Son generadas con IA y
+  muestran a gente estudiando, no a agentes en acto de servicio.
+- **Mockups**: `components/mockups/` tiene dos marcos —`Telefono` y `Navegador`— y tres
+  pantallas hechas con HTML. No son capturas: escalan sin pixelarse y aceptan `imagen` para
+  sustituirlas por capturas reales sin tocar nada más. Restablecen el color de texto, porque se
+  usan dentro de bandas oscuras y si no heredan `text-white` sobre sus propios fondos claros.
+- **Retratos del equipo**: `public/equipo/<slug>.jpg`, en 4:5 y 800×1000 como mínimo. Mientras
+  el fichero no exista, `components/ui/foto.tsx` comprueba en build si está y pinta las
+  iniciales sobre el verde suave en lugar de dejar un hueco roto.
 
 
 ## 8. El blog
@@ -674,77 +672,70 @@ Cron de Vercel diario para revalidar el índice del blog y sacar a la luz lo pro
 
 ### Hecho
 
-**La web pública está construida y verificada.** Diez rutas estáticas, el sistema visual
-completo, los mockups, el botón de WhatsApp, metadatos, JSON-LD, sitemap, robots e imagen
-Open Graph generada.
+**La web pública y el panel del blog están construidos.** Dieciocho rutas, el sistema visual
+completo, los mockups, el faldón de KPIs, el WhatsApp flotante, las dos landings de curso con
+submenú, la tienda, las fichas de equipo, metadatos, JSON-LD, sitemap, robots y OG.
 
-Verificaciones pasadas: `tsc --noEmit` y `eslint --max-warnings=0` limpios, y **cero desborde
-horizontal en las diez páginas a 390 px y 1440 px**, medido con el protocolo DevTools de Chrome
-(a 320 px quedan 2 px residuales, por debajo del umbral de barra de desplazamiento).
+Verificaciones pasadas: `tsc --noEmit` y `eslint --max-warnings=0` limpios, todas las rutas
+responden 200, las redirecciones antiguas devuelven 308, y **cero desborde horizontal a 390 px
+y 1440 px** en todas las páginas, medido con el protocolo DevTools de Chrome.
 
-Tres fallos que solo aparecieron al mirar el render y conviene no repetir:
+Fallos que solo aparecieron al mirar el render y conviene no repetir:
 
 1. **Clases de `display` en conflicto.** `hidden sm:inline` sobre un componente cuya clase base
-   ya trae `inline-flex` no oculta nada: en Tailwind gana el orden del CSS generado, no el del
-   atributo. Se resuelve envolviendo, no pasando la clase.
-2. **`!important` cambió de sitio en Tailwind v4.** Es sufijo (`bg-transparent!`), no prefijo.
-3. **La animación de entrada tiene que fallar abriendo.** Ocultar con `IntersectionObserver`
-   deja el contenido a opacidad cero para quien no se desplaza: una captura de página completa,
-   una impresión o un rastreador que no haga scroll. De ahí el respaldo por tiempo y el
-   `beforeprint` de `components/layout/reveal.tsx`.
+   ya trae `inline-flex` no oculta nada: gana el orden del CSS generado, no el del atributo. Se
+   resuelve envolviendo, no pasando la clase.
+2. **`!important` cambió de sitio en Tailwind v4.** Es sufijo (`bg-transparent!`).
+3. **La animación de entrada tiene que fallar abriendo.** Ver `components/layout/reveal.tsx`.
+4. **Los mockups heredan el color de texto** de la banda que los contiene.
 
-### Siguiente: el blog
+### Para que el blog funcione de verdad
 
-```bash
-npm i unified remark-parse remark-gfm remark-rehype rehype-sanitize rehype-slug rehype-stringify
-```
+El código está entero, pero el panel no se ha podido probar contra una base de datos real
+porque no hay credenciales en este entorno. Quedan tres pasos:
 
-1. **Migración** de `blog_posts` con sus índices y políticas (§8.1), y prueba de que un anónimo
-   no ve borradores.
-2. **Lectura**: `lib/supabase/server.ts`, `lib/supabase/posts.ts` y `lib/markdown.ts`.
-3. **Rutas** `/blog`, `/blog/[slug]` y `/blog/tipo/[tipo]`, con una entrada sembrada a mano.
-   Recuerda que en Next 16 `params` es una promesa.
-4. **SEO del blog**: JSON-LD por tipo, entradas en el sitemap y RSS.
+1. Rellenar `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_ANON_KEY` en `.env.local` y en
+   Vercel. Sin ellas, `/blog` enseña su estado vacío y `/admin/entrar` explica lo que falta, en
+   lugar de romper el build.
+2. Aplicar `supabase/migrations/20260920100000_blog.sql` sobre el proyecto del producto.
+3. Dar de alta **`admin@academiaprolince.com`** en Supabase Auth con una contraseña. El correo
+   está en `public.es_editor_blog()`: para cambiarlo, se edita ahí y se vuelve a aplicar.
 
-### Después: el panel
+Después, comprobar de verdad: que un anónimo no ve borradores, que una cuenta distinta no puede
+escribir, y que al publicar la entrada aparece en `/blog` en segundos.
 
-5. **Sesión**: `proxy.ts` (no `middleware.ts`), `/admin/entrar`, guardia del segmento.
-6. **Listado** con filtros por estado y tipo.
-7. **Editor**: formulario con Zod, campos por tipo, markdown con vista previa.
-8. **Subida de imágenes** al bucket `public-assets`.
-9. **Publicación** con `revalidatePath` y el cron para lo programado.
+### Pendiente en el panel
 
-### Cierre
-
-10. Lighthouse en móvil, navegación solo con teclado y lectura con VoiceOver.
-11. Vercel, dominio, y verificar que los CTA llegan de verdad al alta.
+Deliberadamente fuera: papelera, versiones, flujo de aprobación, roles intermedios y subida de
+imágenes al bucket (de momento la portada se pega como URL). Se añaden el día que haya dos
+personas escribiendo, no antes.
 
 
 ## 15. Pendiente
 
-Nada de esto se puede deducir del código, y varias cosas impiden publicar.
-
 **Bloquea la publicación:**
 
 1. **Número de WhatsApp real.** `site.contacto.whatsapp` tiene un marcador de un rango no
-   asignado, así que hoy el botón no abre conversación con nadie.
-2. **Identidad fiscal**: razón social, NIF y domicilio. Las páginas legales avisan en pantalla
+   asignado: el botón no abre conversación con nadie.
+2. **Las cifras del faldón de KPIs.** Son provisionales. Publicar datos de resultados que no se
+   puedan sostener es publicidad engañosa, y en una academia de oposiciones es lo que más caro
+   sale. Los tres últimos KPI son hechos del producto y se comprueban mirando la plataforma.
+3. **Los precios de la tienda.** Provisionales, junto con la política de bajas y devoluciones.
+4. **Identidad fiscal**: razón social, NIF y domicilio. Las páginas legales avisan en pantalla
    mientras falten.
-3. **Precios.** Los planes se muestran sin cifra y el botón dice «Ver precio y matricularme».
-   En cuanto haya importes, se rellena `precio` en `content/planes.ts`.
-4. **Correo y teléfono públicos**, para el pie y el aviso legal.
+5. **Correo y teléfono públicos.**
 
 **Mejora lo que ya hay:**
 
-5. **Datos de la convocatoria vigente**: plazas, fechas y enlace al BOE. Mientras
-   `convocatoria` sea `null`, la web omite esos bloques en lugar de inventarlos.
-6. **Testimonios reales** con nombre, promoción y destino. La sección no aparece hasta tenerlos.
-7. **Equipo**: nombres, cargos y fotos con permiso, para `content/quienes-somos.ts`.
-8. **Capturas reales del producto**, para sustituir las pantallas simuladas de los mockups.
-9. **Dominio definitivo** y variables de entorno en Vercel.
-10. **Alta en `platform_admins`** de quien vaya a escribir en el blog. Sin eso no hay panel.
-11. **Analítica**: si entra algo, qué y con qué base legal. Sin analítica no hace falta banner
-    de cookies, y eso es una ventaja que conviene no regalar.
+6. **Biografías del equipo**: las actuales son un borrador.
+7. **Retratos del equipo** en `public/equipo/<slug>.jpg`, 4:5 y 800×1000 mínimo.
+8. **Datos de convocatoria** de cada curso: plazas, fechas y enlace al BOE. Mientras
+   `convocatoria` sea `null`, la web omite esos bloques.
+9. **Edades y titulación exactas** del Colegio de Guardias Jóvenes, cotejadas con el BOE: es el
+   requisito donde más gente se equivoca.
+10. **Testimonios reales.** La sección no aparece hasta tenerlos.
+11. **Capturas reales del producto** para sustituir las pantallas simuladas.
+12. **Dominio definitivo** y variables de entorno en Vercel.
 
 
 ## 16. Cuando lleguen las especialidades

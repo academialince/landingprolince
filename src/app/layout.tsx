@@ -1,9 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import "./globals.css";
-import { Header } from "@/components/layout/header";
-import { Footer } from "@/components/layout/footer";
-import { BotonWhatsapp } from "@/components/layout/whatsapp";
 import { JsonLd, organizacionJsonLd } from "@/lib/seo";
 import { site } from "@/content/site";
 import { siteUrl } from "@/lib/links";
@@ -45,13 +42,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
   return (
     <html lang="es-ES" data-scroll-behavior="smooth">
       <body>
-        <a className="skip-link" href="#contenido">
-          Saltar al contenido
-        </a>
-        <Header />
-        <main id="contenido">{children}</main>
-        <Footer />
-        <BotonWhatsapp />
+        {children}
         <JsonLd data={organizacionJsonLd()} />
       </body>
     </html>

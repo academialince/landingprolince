@@ -26,12 +26,11 @@ export function absoluteUrl(path = "/") {
 /** Rutas internas de esta web. Centralizadas para que la navegación y el sitemap no se separen. */
 export const rutas = {
   inicio: "/",
-  oposicion: "/la-oposicion",
-  metodo: "/metodo",
-  plataforma: "/plataforma",
-  quienesSomos: "/quienes-somos",
-  precios: "/precios",
-  preguntas: "/preguntas",
+  curso: (slug: string) => `/cursos/${slug}`,
+  blog: "/blog",
+  nosotros: "/nosotros",
+  tienda: "/tienda",
+  admin: "/admin",
   avisoLegal: "/aviso-legal",
   privacidad: "/privacidad",
   cookies: "/cookies",

@@ -11,6 +11,7 @@ type Props = {
   fondo?: "base" | "suave" | "marca";
   ancho?: "normal" | "estrecho";
   centrado?: boolean;
+  className?: string;
 };
 
 const fondos = {
@@ -28,10 +29,11 @@ export function Section({
   fondo = "base",
   ancho = "normal",
   centrado = false,
+  className,
 }: Props) {
   const esMarca = fondo === "marca";
   return (
-    <section id={id} className={`py-16 sm:py-24 ${fondos[fondo]}`}>
+    <section id={id} className={`py-16 sm:py-24 ${fondos[fondo]} ${className ?? ""}`}>
       <Container ancho={ancho}>
         {(eyebrow || titulo || entradilla) && (
           <Reveal className={`max-w-[46rem] ${centrado ? "mx-auto text-center" : ""}`}>

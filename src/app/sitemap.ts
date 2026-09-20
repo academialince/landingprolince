@@ -1,19 +1,17 @@
 import type { MetadataRoute } from "next";
 import { absoluteUrl, rutas } from "@/lib/links";
+import { cursos } from "@/content/cursos";
 
 /** Las páginas legales van con `noindex`, así que no entran en el sitemap. */
-const publicas = [
-  { ruta: rutas.inicio, prioridad: 1 },
-  { ruta: rutas.oposicion, prioridad: 0.9 },
-  { ruta: rutas.plataforma, prioridad: 0.8 },
-  { ruta: rutas.metodo, prioridad: 0.8 },
-  { ruta: rutas.precios, prioridad: 0.8 },
-  { ruta: rutas.quienesSomos, prioridad: 0.6 },
-  { ruta: rutas.preguntas, prioridad: 0.6 },
-];
-
 export default function sitemap(): MetadataRoute.Sitemap {
   const ahora = new Date();
+  const publicas: { ruta: string; prioridad: number }[] = [
+    { ruta: rutas.inicio, prioridad: 1 },
+    ...cursos.map((c) => ({ ruta: rutas.curso(c.slug), prioridad: 0.9 })),
+    { ruta: rutas.tienda, prioridad: 0.8 },
+    { ruta: rutas.blog, prioridad: 0.7 },
+    { ruta: rutas.nosotros, prioridad: 0.6 },
+  ];
   return publicas.map(({ ruta, prioridad }) => ({
     url: absoluteUrl(ruta),
     lastModified: ahora,

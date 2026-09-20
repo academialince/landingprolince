@@ -4,7 +4,6 @@ import { Icono } from "@/components/ui/icon";
 import { EnlaceSeccion } from "@/components/ui/enlace-seccion";
 import { Navegador } from "@/components/mockups/marcos";
 import { PantallaCurso } from "@/components/mockups/pantalla-curso";
-import { rutas } from "@/lib/links";
 
 const claves = [
   {
@@ -58,7 +57,7 @@ export function PlataformaHome() {
             </ul>
 
             <div className="mt-8">
-              <EnlaceSeccion href={rutas.plataforma}>Ver todo lo que incluye</EnlaceSeccion>
+              <EnlaceSeccion href="#cursos">Ver los cursos</EnlaceSeccion>
             </div>
           </Reveal>
         </div>

@@ -1,4 +1,5 @@
 import { rutas } from "@/lib/links";
+import { cursos } from "./cursos";
 
 /**
  * Datos de marca y contacto.
@@ -34,10 +35,24 @@ export const site = {
   redes: [] as { nombre: string; url: string }[],
 } as const;
 
-export const navegacion = [
-  { etiqueta: "La oposición", href: rutas.oposicion },
-  { etiqueta: "Método", href: rutas.metodo },
-  { etiqueta: "La plataforma", href: rutas.plataforma },
-  { etiqueta: "Quiénes somos", href: rutas.quienesSomos },
-  { etiqueta: "Precios", href: rutas.precios },
-] as const;
+export type ItemNav = {
+  etiqueta: string;
+  href: string;
+  hijos?: { etiqueta: string; descripcion: string; href: string }[];
+};
+
+export const navegacion: ItemNav[] = [
+  { etiqueta: "Inicio", href: rutas.inicio },
+  {
+    etiqueta: "Cursos",
+    href: rutas.curso(cursos[0].slug),
+    hijos: cursos.map((c) => ({
+      etiqueta: c.nombre,
+      descripcion: c.eyebrow,
+      href: rutas.curso(c.slug),
+    })),
+  },
+  { etiqueta: "Blog", href: rutas.blog },
+  { etiqueta: "Nosotros", href: rutas.nosotros },
+  { etiqueta: "Tienda", href: rutas.tienda },
+];

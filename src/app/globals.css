@@ -117,6 +117,38 @@
   .skip-link:focus { top: 12px; }
 
   .tabular { font-variant-numeric: tabular-nums; }
+
+  /* Cuerpo de los artículos del blog: el HTML lo genera remark, así que se estiliza por
+     etiqueta. Ancho de lectura acotado e interlineado de lectura larga, no de interfaz. */
+  .prosa { font-size: var(--text-body-lg); line-height: 1.75; }
+  .prosa > * + * { margin-top: 1.25em; }
+  .prosa h2 {
+    font-size: var(--text-h2); line-height: 1.2; letter-spacing: -0.028em;
+    font-weight: 700; margin-top: 2em; scroll-margin-top: 6rem;
+  }
+  .prosa h3 {
+    font-size: var(--text-h3); line-height: 1.3; letter-spacing: -0.015em;
+    font-weight: 680; margin-top: 1.6em; scroll-margin-top: 6rem;
+  }
+  .prosa a { color: var(--color-primary); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+  .prosa strong { font-weight: 700; }
+  .prosa ul, .prosa ol { padding-left: 1.4em; display: grid; gap: 0.5em; }
+  .prosa ul { list-style: disc; }
+  .prosa ol { list-style: decimal; }
+  .prosa blockquote {
+    border-left: 3px solid var(--color-primary); padding-left: 1.2em;
+    color: var(--color-muted-foreground); font-style: italic;
+  }
+  .prosa code {
+    background: var(--color-muted); padding: 0.15em 0.4em;
+    border-radius: 6px; font-size: 0.9em;
+  }
+  .prosa pre { background: var(--color-primary-deep); color: white; padding: 1.1em; border-radius: var(--radius-md); overflow-x: auto; }
+  .prosa pre code { background: none; padding: 0; }
+  .prosa img { border-radius: var(--radius-lg); }
+  .prosa table { width: 100%; border-collapse: collapse; font-size: var(--text-body-sm); }
+  .prosa th, .prosa td { border: 1px solid var(--color-border); padding: 0.6em 0.8em; text-align: left; }
+  .prosa hr { border: 0; border-top: 1px solid var(--color-border); margin-block: 2.4em; }
 }
 
 /*

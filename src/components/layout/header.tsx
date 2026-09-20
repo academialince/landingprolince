@@ -2,18 +2,26 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import { Marca } from "@/components/ui/logo";
 import { Button } from "@/components/ui/button";
 import { Container } from "./container";
-import { navegacion } from "@/content/site";
+import { navegacion, type ItemNav } from "@/content/site";
 import { links } from "@/lib/links";
+
+function activo(ruta: string, item: ItemNav) {
+  if (item.href === "/") return ruta === "/";
+  if (item.hijos) return item.hijos.some((h) => ruta.startsWith(h.href));
+  return ruta.startsWith(item.href);
+}
 
 export function Header() {
   const [abierto, setAbierto] = useState(false);
+  const [desplegado, setDesplegado] = useState<string | null>(null);
   const [desplazado, setDesplazado] = useState(false);
   const ruta = usePathname();
+  const navRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const alDesplazar = () => setDesplazado(window.scrollY > 8);
@@ -23,17 +31,34 @@ export function Header() {
   }, []);
 
   useEffect(() => {
-    if (!abierto) return;
+    if (!abierto && !desplegado) return;
     const alPulsar = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setAbierto(false);
+      if (e.key !== "Escape") return;
+      setAbierto(false);
+      setDesplegado(null);
+    };
+    const fuera = (e: MouseEvent) => {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) setDesplegado(null);
     };
     document.addEventListener("keydown", alPulsar);
-    document.body.style.overflow = "hidden";
+    document.addEventListener("click", fuera);
     return () => {
       document.removeEventListener("keydown", alPulsar);
+      document.removeEventListener("click", fuera);
+    };
+  }, [abierto, desplegado]);
+
+  useEffect(() => {
+    document.body.style.overflow = abierto ? "hidden" : "";
+    return () => {
       document.body.style.overflow = "";
     };
   }, [abierto]);
+
+  const cerrar = () => {
+    setAbierto(false);
+    setDesplegado(null);
+  };
 
   return (
     <header
@@ -49,22 +74,62 @@ export function Header() {
             <Marca alto={28} />
           </Link>
 
-          <nav aria-label="Principal" className="hidden items-center gap-0.5 lg:flex">
+          <nav ref={navRef} aria-label="Principal" className="hidden items-center gap-0.5 lg:flex">
             {navegacion.map((item) => {
-              const activo = ruta === item.href;
+              const esActivo = activo(ruta, item);
+              const clases = `rounded-md px-3 py-2 text-body-sm font-semibold transition-colors ${
+                esActivo
+                  ? "bg-primary-soft text-primary-soft-fg"
+                  : "text-muted-foreground hover:bg-surface-tinted hover:text-foreground"
+              }`;
+
+              if (!item.hijos) {
+                return (
+                  <Link
+                    key={item.etiqueta}
+                    href={item.href}
+                    aria-current={esActivo ? "page" : undefined}
+                    className={clases}
+                  >
+                    {item.etiqueta}
+                  </Link>
+                );
+              }
+
+              const desplegadoAqui = desplegado === item.etiqueta;
               return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  aria-current={activo ? "page" : undefined}
-                  className={`rounded-md px-3 py-2 text-body-sm font-semibold transition-colors ${
-                    activo
-                      ? "bg-primary-soft text-primary-soft-fg"
-                      : "text-muted-foreground hover:bg-surface-tinted hover:text-foreground"
-                  }`}
-                >
-                  {item.etiqueta}
-                </Link>
+                <div key={item.etiqueta} className="relative">
+                  <button
+                    type="button"
+                    aria-expanded={desplegadoAqui}
+                    onClick={() => setDesplegado(desplegadoAqui ? null : item.etiqueta)}
+                    className={`${clases} inline-flex items-center gap-1.5`}
+                  >
+                    {item.etiqueta}
+                    <ChevronDown
+                      size={15}
+                      aria-hidden
+                      className={`transition-transform duration-200 ${desplegadoAqui ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {desplegadoAqui && (
+                    <div className="absolute left-0 top-full z-50 mt-2 w-72 overflow-hidden rounded-xl border border-border bg-surface p-1.5 shadow-[0_18px_40px_-12px_rgba(2,67,52,0.24)]">
+                      {item.hijos.map((h) => (
+                        <Link
+                          key={h.href}
+                          href={h.href}
+                          onClick={cerrar}
+                          className="block rounded-lg px-3 py-2.5 transition-colors hover:bg-surface-tinted"
+                        >
+                          <span className="block font-semibold">{h.etiqueta}</span>
+                          <span className="block text-body-sm text-muted-foreground">
+                            {h.descripcion}
+                          </span>
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
               );
             })}
           </nav>
@@ -98,14 +163,25 @@ export function Header() {
           <Container>
             <nav aria-label="Principal, móvil" className="grid py-3">
               {navegacion.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  onClick={() => setAbierto(false)}
-                  className="border-b border-border py-3 font-semibold last:border-0"
-                >
-                  {item.etiqueta}
-                </Link>
+                <div key={item.etiqueta} className="border-b border-border last:border-0">
+                  <Link href={item.href} onClick={cerrar} className="block py-3 font-semibold">
+                    {item.etiqueta}
+                  </Link>
+                  {item.hijos && (
+                    <div className="grid pb-3 pl-4">
+                      {item.hijos.map((h) => (
+                        <Link
+                          key={h.href}
+                          href={h.href}
+                          onClick={cerrar}
+                          className="py-2 text-body-sm text-muted-foreground"
+                        >
+                          {h.etiqueta}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
               ))}
               <a href={links.login} className="py-3 font-semibold text-primary">
                 Entrar en mi cuenta

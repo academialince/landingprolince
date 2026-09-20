@@ -16,6 +16,18 @@ const nextConfig: NextConfig = {
       ? [{ protocol: "https", hostname: supabaseHost, pathname: "/storage/v1/object/public/**" }]
       : [],
   },
+  /** La arquitectura de información cambió; estas rutas existieron durante el desarrollo. */
+  async redirects() {
+    return [
+      { source: "/la-oposicion", destination: "/cursos/acceso-guardia-civil", permanent: true },
+      { source: "/quienes-somos", destination: "/nosotros", permanent: true },
+      { source: "/precios", destination: "/tienda", permanent: true },
+      { source: "/plataforma", destination: "/", permanent: true },
+      { source: "/metodo", destination: "/", permanent: true },
+      { source: "/preguntas", destination: "/cursos/acceso-guardia-civil", permanent: true },
+    ];
+  },
+
   async headers() {
     return [
       {

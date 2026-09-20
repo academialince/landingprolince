@@ -3,9 +3,9 @@ import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
 import { Telefono } from "@/components/mockups/marcos";
 import { PantallaTest } from "@/components/mockups/pantalla-test";
-import { links, rutas } from "@/lib/links";
+import { links } from "@/lib/links";
 
-const hechos = ["Acceso a la Guardia Civil", "100 % online", "Simulacros cronometrados"];
+const hechos = ["Acceso a la Guardia Civil", "Colegio de Guardias Jóvenes", "100 % online"];
 
 export function Hero() {
   return (
@@ -47,8 +47,9 @@ export function Hero() {
               </span>
             </h1>
             <p className="text-body-lg mt-6 text-muted-foreground">
-              Temario, tests y simulacros cronometrados en un solo sitio, con un plan por semanas
-              y tu progreso medido de verdad. Estudias a la hora que puedes, desde donde puedes.
+              Dos vías de acceso y un mismo método: temario, tests y simulacros cronometrados en
+              un solo sitio, con tu progreso medido de verdad. Estudias a la hora que puedes,
+              desde donde puedes.
             </p>
 
             <div className="mt-9 flex flex-wrap gap-3">
@@ -56,8 +57,8 @@ export function Hero() {
                 Empezar ahora
                 <ArrowRight size={18} aria-hidden />
               </Button>
-              <Button href={rutas.plataforma} variante="secundario" tamano="lg">
-                Ver la plataforma
+              <Button href="#cursos" variante="secundario" tamano="lg">
+                Ver los cursos
               </Button>
             </div>
 
