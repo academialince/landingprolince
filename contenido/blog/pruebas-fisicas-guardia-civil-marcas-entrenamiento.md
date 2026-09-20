@@ -7,7 +7,7 @@ publicado_en: 2026-09-20T15:00:00+02:00
 curso: acceso-guardia-civil
 entradilla: Dos mil metros, un circuito de agilidad, extensiones de brazos y cincuenta metros de natación. Se hacen el mismo día, encadenados, y basta suspender una para quedar fuera. Las marcas de referencia y cómo se llega a ellas.
 portada: /blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento.jpg
-portada_alt: Portada con el rótulo «Pruebas físicas» y el subtítulo «Cuatro pruebas, un solo día» sobre fondo verde
+portada_alt: Un corredor entrena en una pista de atletismo, con las calles marcadas en primer plano
 etiquetas: [pruebas físicas, marcas, entrenamiento, natación]
 seo_title: Pruebas físicas Guardia Civil: marcas y plan
 seo_description: Las cuatro pruebas físicas del acceso a la Guardia Civil, las marcas de referencia y cómo repartir el entrenamiento durante los meses de preparación.

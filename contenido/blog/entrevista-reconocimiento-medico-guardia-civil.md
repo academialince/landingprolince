@@ -7,7 +7,7 @@ publicado_en: 2026-09-20T10:00:00+02:00
 curso: acceso-guardia-civil
 entradilla: Llegar aquí significa haber superado el examen, el psicotécnico y las físicas. Y aun así es una fase eliminatoria. Qué se valora en la entrevista, cómo funciona el cuadro médico de exclusiones y qué conviene comprobar mucho antes de llegar.
 portada: /blog/entrevista-reconocimiento-medico-guardia-civil.jpg
-portada_alt: Portada con el rótulo «Entrevista y médico» y el subtítulo «La última fase» sobre fondo verde
+portada_alt: Una persona espera sentada, sola, al fondo de un pasillo iluminado por una ventana
 etiquetas: [entrevista, reconocimiento médico, psicofísicas, exclusiones]
 seo_title: Entrevista y reconocimiento médico Guardia Civil
 seo_description: Qué se valora en la entrevista personal del acceso a la Guardia Civil y cómo funciona el cuadro médico de exclusiones de las psicofísicas.

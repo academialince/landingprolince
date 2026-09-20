@@ -7,7 +7,7 @@ publicado_en: 2026-09-20T12:00:00+02:00
 curso: acceso-guardia-civil
 entradilla: Veinte preguntas tipo test y un mínimo de ocho para no quedar eliminado. No piden un nivel alto, pero llegan cuando llevas casi dos horas de examen. Qué nivel hace falta de verdad y cómo llegar sin robarle tiempo al temario.
 portada: /blog/ingles-oposicion-guardia-civil.jpg
-portada_alt: Portada con el rótulo «Inglés» y el subtítulo «Veinte preguntas» sobre fondo verde
+portada_alt: Una mano escribe en un pupitre junto a un diccionario de inglés
 etiquetas: [inglés, examen, idiomas, méritos]
 seo_title: Inglés en la oposición a Guardia Civil
 seo_description: Cómo es la prueba de inglés del acceso a la Guardia Civil, qué mínimo se exige y cómo prepararla con veinte minutos diarios sin quitarle horas al temario.

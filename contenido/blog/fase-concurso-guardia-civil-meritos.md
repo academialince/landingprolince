@@ -7,7 +7,7 @@ publicado_en: 2026-09-20T11:00:00+02:00
 curso: acceso-guardia-civil
 entradilla: El proceso es un concurso-oposición, y la parte de concurso reparte hasta 45 puntos por méritos que ya tienes o que puedes conseguir. No elimina a nadie, pero coloca. Y se pierde por no presentar un papel a tiempo.
 portada: /blog/fase-concurso-guardia-civil-meritos.jpg
-portada_alt: Portada con el rótulo «Fase de concurso» y el subtítulo «45 puntos en juego» sobre fondo verde
+portada_alt: Unas manos archivan documentos en una carpeta de anillas sobre la mesa
 etiquetas: [fase de concurso, méritos, baremo, idiomas]
 seo_title: Fase de concurso Guardia Civil: los méritos
 seo_description: Qué méritos se valoran en la fase de concurso del acceso a la Guardia Civil, cuántos puntos reparte cada grupo y cómo preparar la documentación a tiempo.

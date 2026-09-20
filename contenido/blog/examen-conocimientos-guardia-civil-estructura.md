@@ -7,7 +7,7 @@ publicado_en: 2026-09-20T16:00:00+02:00
 curso: acceso-guardia-civil
 entradilla: Ortografía, gramática, cien preguntas de temario y veinte de inglés, todo seguido y sin pausa. Dos de esas partes son apto o no apto. Esto es lo que dice la convocatoria sobre cada una y qué significa para tu forma de estudiar.
 portada: /blog/examen-conocimientos-guardia-civil-estructura.jpg
-portada_alt: Portada con el rótulo «El examen» y el subtítulo «140 minutos, cuatro partes» sobre fondo verde
+portada_alt: Una sala de examen con los pupitres separados y varios aspirantes escribiendo
 etiquetas: [examen, prueba de conocimientos, temario, penalización]
 seo_title: Examen de la Guardia Civil: estructura y mínimos
 seo_description: Las cuatro partes de la prueba de conocimientos de la Guardia Civil, los mínimos que hay que sacar en cada una y cómo funciona la penalización por error.

@@ -520,11 +520,14 @@ node scripts/importar-blog.mjs --borrador     # entra todo como borrador, para r
 node scripts/importar-blog.mjs --sql > semilla.sql   # alternativa: pegar en el editor SQL
 ```
 
-Las portadas son tipográficas y se generan con `scripts/generar-portadas.mjs`, que compone cada
-imagen con Manrope y el verde de marca y la deja en `public/blog/<slug>.jpg`. Es una decisión de
-contenido, no de diseño: no hay banco de fotos que aguante diez artículos sobre la misma
-oposición sin repetirse, y una foto de archivo dice menos que el titular. El script necesita
-Chrome y `sips`, que es lo que hay en el equipo donde se edita el sitio.
+Las portadas son **fotografías reales** de Pexels, recortadas a 1600×900 por
+`scripts/portadas-blog.py`. La procedencia de cada una, con su foto de origen y el ancla de
+recorte, está en `contenido/blog/portadas-fotos.md`.
+
+Siguen la misma regla que las fotos de curso (§7.4): gente **preparándose**, nunca uniformes,
+insignias ni vehículos. Y hay que mirarlas juntas antes de darlas por buenas, porque en `/blog`
+se ven las diez en una rejilla: cuatro cenitales de manos sobre un papel convierten el índice en
+una sola mancha.
 
 Sobre el contenido en sí, una regla que no se negocia: **plazas, marcas, fechas y baremos salen
 del BOE o no se publican**. Cada artículo que da una cifra dice de qué convocatoria viene y
