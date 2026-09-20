@@ -7,7 +7,7 @@ publicado_en: 2026-09-20T17:00:00+02:00
 curso: acceso-guardia-civil
 entradilla: No se empieza por el tema 1. Se empieza sabiendo qué te van a pedir, cuánto tiempo tienes y qué hay que entrenar en paralelo desde el primer día. Un plan realista para los noventa primeros días, pensado para quien además trabaja.
 portada: /blog/preparar-oposicion-guardia-civil-desde-cero.jpg
-portada_alt: Un opositor estudia con un libro abierto en un escritorio iluminado por un flexo
+portada_alt: Un opositor se ata las zapatillas ante un plan de noventa días que combina estudio y entrenamiento
 etiquetas: [plan de estudio, temario, primeros pasos, organización]
 seo_title: Cómo preparar la Guardia Civil desde cero
 seo_description: Plan de los tres primeros meses para preparar el acceso a la Guardia Civil: qué comprobar, cómo repartir el temario y qué entrenar en paralelo.

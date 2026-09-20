@@ -7,7 +7,7 @@ publicado_en: 2026-09-20T13:00:00+02:00
 curso: acceso-guardia-civil
 entradilla: La prueba psicotécnica tiene dos mitades muy distintas: una de aptitudes que se entrena y mejora mucho con práctica, y un perfil de personalidad que no se estudia y que después se contrasta en la entrevista. Conviene no confundirlas.
 portada: /blog/psicotecnico-guardia-civil-aptitudes-personalidad.jpg
-portada_alt: Una aspirante se detiene a pensar con el lápiz en la mano durante una prueba
+portada_alt: Un aspirante resuelve figuras espaciales durante una prueba psicotécnica cronometrada
 etiquetas: [psicotécnico, aptitudes, personalidad, entrevista]
 seo_title: Psicotécnico Guardia Civil: cómo se prepara
 seo_description: Las dos partes de la prueba psicotécnica de la Guardia Civil, cuánto dura, qué mide cada una y cómo entrenar la parte de aptitudes sin perder tiempo.

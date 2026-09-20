@@ -7,7 +7,7 @@ publicado_en: 2026-09-20T09:00:00+02:00
 curso: colegio-guardias-jovenes
 entradilla: Es la vía de entrada más temprana a la Guardia Civil: se cursa Bachillerato en Valdemoro y desde ahí se accede después a la Escala de Cabos y Guardias. Cómo funciona, qué se exige y qué no hay que dar por supuesto.
 portada: /blog/colegio-guardias-jovenes-acceso-guardia-civil.jpg
-portada_alt: Una madre y su hija adolescente hablan inclinadas sobre la mesa
+portada_alt: Un adolescente prepara la maleta con sus padres antes de marcharse al Colegio de Guardias Jóvenes
 etiquetas: [Colegio de Guardias Jóvenes, Valdemoro, acceso, familias]
 seo_title: Colegio de Guardias Jóvenes: cómo se accede
 seo_description: Qué es el Colegio de Guardias Jóvenes Duque de Ahumada, cómo se accede, qué pruebas tiene y en qué se diferencia del acceso ordinario a la Guardia Civil.

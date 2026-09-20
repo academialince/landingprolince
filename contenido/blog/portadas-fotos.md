@@ -1,45 +1,34 @@
-# Portadas del blog: procedencia
+# Portadas del blog: dirección visual y procedencia
 
-Las diez portadas de `public/blog/` son **fotografías reales de Pexels**, recortadas a 1600×900.
-La [licencia de Pexels](https://www.pexels.com/es-es/license/) permite el uso comercial sin
-atribución y sin permiso previo, pero aquí queda anotada la procedencia de cada una: si alguna
-vez hay que reemplazar una imagen, sustituir una escena o comprobar de dónde salió, este es el
-único sitio donde mirar.
+Las diez portadas de `public/blog/` fueron generadas con la herramienta integrada de imágenes
+de OpenAI el 20 de septiembre de 2026. Se exportaron como JPEG a 1600×900 y calidad 86.
 
-El recorte lo hace `scripts/portadas-blog.py`, que baja el original, escala al ancho de destino y
-corta la banda 16:9 en el ancla vertical que se le indique. El ancla existe porque un recorte
-centrado le corta la cabeza a media plantilla: el corredor está arriba del encuadre y el pasillo
-es una foto vertical.
+Cada portada representa una escena concreta del artículo. La serie evita repetir el recurso de
+«persona estudiando» y combina espacios domésticos, administrativos, deportivos, clínicos y de
+examen. No aparecen uniformes, insignias, armas, logotipos ni texto legible para no sugerir un
+respaldo institucional de la Guardia Civil.
 
-| Artículo | Foto | Ancla | Escena |
-| --- | --- | --- | --- |
-| convocatoria-guardia-civil-2026-plazas-calendario | [8057549](https://www.pexels.com/photo/8057549/) | 0,55 | Joven repasando papeles junto al portátil en casa |
-| preparar-oposicion-guardia-civil-desde-cero | [8553886](https://www.pexels.com/photo/8553886/) | 0,50 | Estudio en casa con flexo y libro abierto |
-| examen-conocimientos-guardia-civil-estructura | [37758739](https://www.pexels.com/photo/37758739/) | 0,55 | Aula de examen con los pupitres separados |
-| pruebas-fisicas-guardia-civil-marcas-entrenamiento | [37718409](https://www.pexels.com/photo/37718409/) | 0,06 | Corredor en pista de tartán |
-| ortografia-gramatica-examen-guardia-civil | [6683673](https://www.pexels.com/photo/6683673/) | 0,50 | Primer plano de lápiz sobre la hoja de respuestas |
-| psicotecnico-guardia-civil-aptitudes-personalidad | [6684047](https://www.pexels.com/photo/6684047/) | 0,45 | Aspirante pensando durante una prueba |
-| ingles-oposicion-guardia-civil | [29242209](https://www.pexels.com/photo/29242209/) | 0,50 | Pupitre con diccionario de inglés |
-| fase-concurso-guardia-civil-meritos | [7681227](https://www.pexels.com/photo/7681227/) | 0,55 | Archivando documentos en una carpeta de anillas |
-| entrevista-reconocimiento-medico-guardia-civil | [38480584](https://www.pexels.com/photo/38480584/) | 0,40 | Persona esperando sola en un pasillo |
-| colegio-guardias-jovenes-acceso-guardia-civil | [6471429](https://www.pexels.com/photo/6471429/) | 0,18 | Madre e hija adolescente hablando en casa |
+| Artículo | Escena generada |
+| --- | --- |
+| convocatoria-guardia-civil-2026-plazas-calendario | Un opositor organiza la convocatoria, los documentos y las fechas límite en la cocina al amanecer |
+| preparar-oposicion-guardia-civil-desde-cero | Un trabajador se ata las zapatillas ante un plan de 90 días que combina estudio y entrenamiento |
+| examen-conocimientos-guardia-civil-estructura | Un aspirante cambia de cuadernillo durante una prueba larga en una sala de examen llena |
+| pruebas-fisicas-guardia-civil-marcas-entrenamiento | Una jornada de entrenamiento con pista, agilidad, extensiones de brazos y piscina |
+| ortografia-gramatica-examen-guardia-civil | Primer plano de una hoja de respuestas, un reloj y seis marcas que representan el límite de errores |
+| psicotecnico-guardia-civil-aptitudes-personalidad | Resolución cronometrada de figuras espaciales junto al cuestionario de personalidad |
+| ingles-oposicion-guardia-civil | Una aspirante afronta con fatiga el último bloque del examen al final de la tarde |
+| fase-concurso-guardia-civil-meritos | Entrega urgente del último certificado en una ventanilla administrativa |
+| entrevista-reconocimiento-medico-guardia-civil | Espera entre la sala de entrevista y la consulta del reconocimiento médico |
+| colegio-guardias-jovenes-acceso-guardia-civil | Un adolescente prepara la maleta con sus padres antes de marcharse al colegio |
 
-## Las reglas con las que se eligieron
+## Especificación compartida de los prompts
 
-- **Sin uniformes, insignias, vehículos ni acuartelamientos.** Es la misma regla que siguen las
-  fotos de curso (`ARQUITECTURA.md` §7.4): la web enseña a gente **preparándose**, no a agentes
-  en acto de servicio. Imagen institucional en publicidad de una academia privada sugiere un
-  respaldo oficial que no existe.
-- **Una escena, no un concepto.** Cada portada enseña lo que cuenta su artículo: el pasillo de
-  espera en el de la entrevista, el diccionario en el de inglés, la pista en el de las físicas.
-- **Variedad en el índice.** Las diez tarjetas se ven juntas en `/blog`, así que no puede haber
-  cuatro cenitales de manos sobre un papel. Hay planos generales, primeros planos y caras.
-- **Sin texto protagonista.** Lo que se lee en la imagen envejece y descuadra el idioma.
+- Fotografía editorial documental, hiperrealista y horizontal 16:9.
+- Localizaciones y detalles cotidianos reconocibles de España.
+- Expresiones naturales, piel real, encuadres imperfectos y luz ambiental creíble.
+- Cada escena debe contar el conflicto o la acción central del artículo sin depender de texto.
+- Sin texto legible, rótulos superpuestos, marcas de agua, logotipos, uniformes ni insignias.
+- Sin sonrisas de foto de stock, piel plástica, propaganda ni estética militar heroica.
 
-## Para reemplazar una
-
-1. Busca la foto en Pexels y quédate con el identificador numérico de la URL.
-2. Añádelo a `ELEGIDAS` en `scripts/portadas-blog.py` con su ancla y ejecuta el script.
-3. Actualiza aquí la fila y el `portada_alt` del `.md`, y lleva ese texto a la base de datos: el
-   texto alternativo describe **esa** foto, así que cambiar la imagen sin cambiarlo deja a quien
-   usa lector de pantalla con una descripción falsa.
+`scripts/portadas-blog.py` pertenece al juego anterior de fotografías de Pexels y queda como
+referencia histórica. No debe ejecutarse si se quieren conservar estas portadas generadas.

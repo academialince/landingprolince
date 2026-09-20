@@ -7,7 +7,7 @@ publicado_en: 2026-09-20T18:00:00+02:00
 curso: acceso-guardia-civil
 entradilla: La Resolución 160/38243/2026 sacó 3.240 plazas para la Escala de Cabos y Guardias. Esto es lo que dice la convocatoria, cómo se reparten las plazas y en qué fase está ahora mismo el proceso.
 portada: /blog/convocatoria-guardia-civil-2026-plazas-calendario.jpg
-portada_alt: Una opositora repasa unos papeles junto al portátil en la mesa de casa
+portada_alt: Un opositor marca fechas en un calendario junto a la convocatoria y varios documentos oficiales
 etiquetas: [convocatoria, BOE, plazas, 2026]
 seo_title: Convocatoria Guardia Civil 2026: plazas y fechas
 seo_description: Plazas, cupos, requisitos y fases de la convocatoria 2026 de la Escala de Cabos y Guardias, con el estado actual del proceso y el enlace al texto del BOE.

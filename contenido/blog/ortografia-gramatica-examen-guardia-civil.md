@@ -7,7 +7,7 @@ publicado_en: 2026-09-20T14:00:00+02:00
 curso: acceso-guardia-civil
 entradilla: No suman un solo punto a tu nota, ocupan los primeros minutos del examen y con seis errores te dejan fuera del proceso. Cada año se queda gente por aquí con el temario bien estudiado. Así se prepara.
 portada: /blog/ortografia-gramatica-examen-guardia-civil.jpg
-portada_alt: Primer plano de una mano con un lápiz sobre la hoja de respuestas de un examen
+portada_alt: Primer plano de un aspirante contando seis posibles errores junto a la hoja de respuestas y el reloj
 etiquetas: [ortografía, gramática, examen, lengua]
 seo_title: Ortografía y gramática: examen Guardia Civil
 seo_description: Cómo son las pruebas de ortografía y gramática del examen de la Guardia Civil, por qué eliminan y qué rutina de estudio funciona para superarlas.
