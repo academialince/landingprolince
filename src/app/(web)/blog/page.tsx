@@ -61,7 +61,7 @@ export default async function Blog() {
                               alt={e.portada_alt ?? ""}
                               fill
                               sizes="(max-width: 1024px) 100vw, 380px"
-                              className="object-cover transition-transform duration-500 ease-[var(--ease-product)] group-hover:scale-[1.03]"
+                              className="scale-[1.06] object-cover object-center transition-transform duration-500 ease-[var(--ease-product)] group-hover:scale-[1.10]"
                             />
                           </div>
                         )}
