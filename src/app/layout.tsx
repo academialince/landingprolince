@@ -4,6 +4,7 @@ import "./globals.css";
 import { JsonLd, organizacionJsonLd } from "@/lib/seo";
 import { site } from "@/content/site";
 import { siteUrl } from "@/lib/links";
+import { indexacionPermitida } from "@/lib/indexacion";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
   },
   description: site.descripcion,
   applicationName: site.nombreLargo,
+  robots: { index: indexacionPermitida, follow: true, googleBot: { index: indexacionPermitida, follow: true, "max-image-preview": "large" } },
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",

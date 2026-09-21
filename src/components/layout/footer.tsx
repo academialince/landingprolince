@@ -4,7 +4,7 @@ import { Marca } from "@/components/ui/logo";
 import { Container } from "./container";
 import { navegacion, site } from "@/content/site";
 import { cursos } from "@/content/cursos";
-import { links, rutas } from "@/lib/links";
+import { rutas } from "@/lib/links";
 
 const legales = [
   { etiqueta: "Aviso legal", href: rutas.avisoLegal },
@@ -97,11 +97,6 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <a href={links.login} className="text-white/80 hover:text-white">
-                  Entrar en mi cuenta
-                </a>
-              </li>
             </ul>
           </nav>
         </div>

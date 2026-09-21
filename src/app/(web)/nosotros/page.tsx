@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Check, X } from "lucide-react";
 import { PageHero } from "@/components/layout/page-hero";
 import { Section } from "@/components/layout/section";
@@ -8,13 +7,14 @@ import { Foto } from "@/components/ui/foto";
 import { CtaFinal } from "@/components/sections/cta-final";
 import { compromisos, equipo, historia, principios } from "@/content/equipo";
 import { rutas } from "@/lib/links";
+import { metadataPagina, JsonLd, migasJsonLd } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Nosotros",
-  description:
+export const metadata = metadataPagina({
+  titulo: "Equipo y método de Academia ProLince",
+  descripcion:
     "Quiénes somos, por qué existe ProLince y a qué nos comprometemos con quien prepara una oposición con nosotros.",
-  alternates: { canonical: rutas.nosotros },
-};
+  ruta: rutas.nosotros,
+});
 
 function iniciales(nombre: string) {
   return nombre
@@ -153,6 +153,7 @@ export default function Nosotros() {
       </Section>
 
       <CtaFinal />
+      <JsonLd data={migasJsonLd([{ nombre: "Inicio", ruta: "/" }, { nombre: "Nosotros", ruta: rutas.nosotros }])} />
     </>
   );
 }

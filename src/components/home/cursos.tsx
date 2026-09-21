@@ -49,7 +49,7 @@ export function CursosHome() {
                     ))}
                   </dl>
 
-                  <span className="mt-6 inline-flex items-center gap-2 font-bold text-primary">
+                  <span className="mt-6 inline-flex min-h-11 w-fit items-center gap-2 rounded-md border border-primary bg-transparent px-4 font-bold text-primary transition-colors duration-200 group-hover:bg-primary group-hover:text-primary-fg group-focus-visible:bg-primary group-focus-visible:text-primary-fg">
                     Ver el curso
                     <ArrowRight
                       size={17}

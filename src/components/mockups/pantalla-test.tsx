@@ -8,7 +8,7 @@ const opciones = [
 ] as const;
 
 /** Representación de la pantalla de test del alumno. */
-export function PantallaTest() {
+export function PantallaTest({ animada = false }: { animada?: boolean }) {
   return (
     <div className="flex h-full flex-col bg-background pt-11">
       <div className="flex items-center justify-between px-4 pb-3">
@@ -24,7 +24,7 @@ export function PantallaTest() {
 
       <div className="px-4">
         <div className="h-1 overflow-hidden rounded-full bg-muted">
-          <div className="h-full w-[35%] rounded-full bg-primary" />
+          <div className={`h-full w-[35%] rounded-full bg-primary ${animada ? "hero-test-progress" : ""}`} />
         </div>
         <p className="mt-2 text-[0.6rem] font-semibold text-muted-foreground tabular">
           Pregunta 7 de 20
@@ -41,7 +41,7 @@ export function PantallaTest() {
         {opciones.map((o, i) => (
           <div
             key={o.texto}
-            className={`flex items-center gap-2.5 rounded-lg border px-3 py-2.5 ${
+            className={`flex items-center gap-2.5 rounded-lg border px-3 py-2.5 ${animada && o.estado === "elegida" ? "hero-test-answer" : ""} ${
               o.estado === "elegida"
                 ? "border-primary bg-primary-soft"
                 : "border-border bg-surface"

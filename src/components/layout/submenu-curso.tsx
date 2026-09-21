@@ -46,7 +46,7 @@ export function SubmenuCurso({ secciones }: { secciones: Seccion[] }) {
                   <a
                     href={`#${s.id}`}
                     aria-current={esActiva ? "true" : undefined}
-                    className={`inline-flex h-12 items-center whitespace-nowrap border-b-2 px-4 text-body-sm font-semibold transition-colors ${
+                    className={`inline-flex h-12 items-center whitespace-nowrap border-b-2 px-4 text-body-sm font-semibold transition-colors hover:bg-white/10 focus-visible:bg-white/10 ${
                       esActiva
                         ? "border-white text-white"
                         : "border-transparent text-white/70 hover:text-white"

@@ -1,105 +1,100 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, PenLine } from "lucide-react";
+import { redirect } from "next/navigation";
+import { ArrowLeft, ArrowRight, PenLine } from "lucide-react";
 import { PageHero } from "@/components/layout/page-hero";
 import { Container } from "@/components/layout/container";
 import { Reveal } from "@/components/layout/reveal";
 import { CtaFinal } from "@/components/sections/cta-final";
-import { fechaLarga, listarPublicadas } from "@/lib/blog";
-import { tipoPorClave } from "@/content/blog-tipos";
-import { rutas } from "@/lib/links";
+import { TarjetaEntrada } from "@/components/blog/tarjeta-entrada";
+import { listarPaginaPublicada } from "@/lib/blog";
+import { ENTRADAS_POR_PAGINA, leerFiltrosBlog, paginasVisibles, urlBlog } from "@/lib/blog-filtros";
+import { tiposEntrada, tipoPorClave } from "@/content/blog-tipos";
+import { absoluteUrl } from "@/lib/links";
+import { JsonLd, metadataPagina } from "@/lib/seo";
 
 export const revalidate = 300;
 
-export const metadata: Metadata = {
-  title: "Blog",
-  description:
-    "Convocatorias, guías de estudio y preparación física para las oposiciones de acceso a la Guardia Civil.",
-  alternates: { canonical: rutas.blog },
-};
+export async function generateMetadata(props: PageProps<"/blog">): Promise<Metadata> {
+  const { tipo, pagina } = leerFiltrosBlog(await props.searchParams);
+  const titulo = tipo ? `${tipoPorClave(tipo).etiqueta} para Guardia Civil` : "Blog de oposiciones a Guardia Civil";
+  return metadataPagina({
+    titulo: `${titulo}${pagina > 1 ? ` · Página ${pagina}` : ""}`,
+    descripcion: "Convocatorias, guías de estudio, pruebas físicas y consejos para preparar las oposiciones a la Guardia Civil. Los artículos más recientes, primero.",
+    ruta: urlBlog(tipo, pagina),
+    // Filtros de navegación, no landings editoriales diferenciadas.
+    noindex: Boolean(tipo),
+  });
+}
 
-export default async function Blog() {
-  const entradas = await listarPublicadas();
+export default async function Blog(props: PageProps<"/blog">) {
+  const params = await props.searchParams;
+  const { tipo, pagina } = leerFiltrosBlog(params);
+  if ((params.tipo !== undefined && params.tipo !== tipo) ||
+      (params.pagina !== undefined && params.pagina !== (pagina > 1 ? String(pagina) : undefined))) {
+    redirect(urlBlog(tipo, pagina));
+  }
+  const { entradas, total } = await listarPaginaPublicada(pagina, tipo);
+  const totalPaginas = Math.max(1, Math.ceil(total / ENTRADAS_POR_PAGINA));
+  if (pagina > totalPaginas) redirect(urlBlog(tipo, totalPaginas));
+  const paginas = paginasVisibles(pagina, totalPaginas);
 
   return (
     <>
-      <PageHero
-        eyebrow="Blog"
-        titulo="Convocatorias, temario y preparación"
-        entradilla="Lo que publicamos cuando sale algo que te afecta, y las guías que nos piden una y otra vez en el tablón."
-      />
-
-      <section className="py-16 sm:py-24">
+      <PageHero eyebrow="Blog" titulo="Convocatorias, temario y preparación"
+        entradilla="Resuelve tus dudas y prepara tu siguiente paso hacia la Guardia Civil. Guías prácticas y novedades, siempre con lo más reciente primero." />
+      <section id="articulos" className="py-12 sm:py-16">
         <Container>
+          <nav aria-label="Filtrar artículos por categoría" className="mb-7 flex flex-wrap gap-2">
+            {[{ clave: undefined, etiqueta: "Todos" }, ...tiposEntrada].map((filtro) => {
+              const seleccionado = tipo === filtro.clave;
+              return (
+                <Link key={filtro.clave ?? "todos"} href={`${urlBlog(filtro.clave)}#articulos`}
+                  aria-current={seleccionado ? "page" : undefined}
+                  className={`inline-flex min-h-11 items-center rounded-full border px-4 text-body-sm font-bold transition-colors ${seleccionado ? "border-primary bg-primary text-primary-fg" : "border-primary/35 text-primary hover:border-primary hover:bg-primary-soft"}`}>
+                  {filtro.etiqueta}
+                </Link>
+              );
+            })}
+          </nav>
+          <div className="mb-8 flex flex-wrap items-center justify-between gap-3 text-body-sm text-muted-foreground">
+            <p>{total === 0 ? "Sin artículos en esta categoría" : `${(pagina - 1) * ENTRADAS_POR_PAGINA + 1}–${Math.min(pagina * ENTRADAS_POR_PAGINA, total)} de ${total} artículos`}</p>
+            <p>Más recientes primero</p>
+          </div>
           {entradas.length === 0 ? (
-            <div className="mx-auto max-w-[36rem] rounded-2xl border border-dashed border-border-strong p-12 text-center">
-              <span className="mx-auto inline-flex size-12 items-center justify-center rounded-full bg-primary-soft text-primary-soft-fg">
-                <PenLine size={22} aria-hidden />
-              </span>
-              <h2 className="text-h3 mt-5">Todavía no hay entradas publicadas</h2>
-              <p className="mt-2 text-muted-foreground">
-                Estamos preparando las primeras. Mientras tanto, los avisos de convocatoria llegan
-                al tablón de tu curso en cuanto se publican.
-              </p>
+            <div className="mx-auto max-w-[36rem] rounded-2xl border border-dashed border-border-strong p-10 text-center">
+              <PenLine size={26} aria-hidden className="mx-auto text-primary" />
+              <h2 className="text-h3 mt-5">{tipo ? "Pronto habrá más contenido aquí" : "Todavía no hay entradas publicadas"}</h2>
+              <p className="mt-2 text-muted-foreground">{tipo ? "Mientras tanto, descubre las guías y novedades del resto del blog." : "Estamos preparando las primeras guías para acompañarte en tu preparación."}</p>
+              {tipo && <Link href="/blog#articulos" className="mt-6 inline-flex min-h-11 items-center rounded-md border border-primary px-4 font-bold text-primary transition-colors hover:bg-primary hover:text-white">Ver todos los artículos</Link>}
             </div>
           ) : (
             <ul className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {entradas.map((e, i) => {
-                const tipo = tipoPorClave(e.tipo);
-                return (
-                  <Reveal key={e.id} retardo={(i % 3) * 70}>
-                    <li className="h-full">
-                      <Link
-                        href={`${rutas.blog}/${e.slug}`}
-                        className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-[border-color,box-shadow,transform] duration-200 ease-[var(--ease-product)] hover:-translate-y-0.5 hover:border-border-strong hover:shadow-[0_18px_40px_-16px_rgba(2,67,52,0.24)]"
-                      >
-                        {e.portada_url && (
-                          <div className="relative aspect-[16/9] overflow-hidden">
-                            <Image
-                              src={e.portada_url}
-                              alt={e.portada_alt ?? ""}
-                              fill
-                              sizes="(max-width: 1024px) 100vw, 380px"
-                              className="scale-[1.06] object-cover object-center transition-transform duration-500 ease-[var(--ease-product)] group-hover:scale-[1.10]"
-                            />
-                          </div>
-                        )}
-                        <div className="flex grow flex-col p-6">
-                          <div className="flex flex-wrap items-center gap-2 text-body-sm">
-                            <span className="rounded-full bg-primary-soft px-2.5 py-0.5 font-semibold text-primary-soft-fg">
-                              {tipo.etiqueta}
-                            </span>
-                            {e.publicado_en && (
-                              <time dateTime={e.publicado_en} className="text-muted-foreground">
-                                {fechaLarga(e.publicado_en)}
-                              </time>
-                            )}
-                          </div>
-                          <h2 className="text-h3 mt-3">{e.titulo}</h2>
-                          {e.entradilla && (
-                            <p className="mt-2 grow text-muted-foreground">{e.entradilla}</p>
-                          )}
-                          <span className="mt-5 inline-flex items-center gap-2 font-bold text-primary">
-                            Leer
-                            <ArrowRight
-                              size={16}
-                              aria-hidden
-                              className="transition-transform duration-200 ease-[var(--ease-product)] group-hover:translate-x-1"
-                            />
-                          </span>
-                        </div>
-                      </Link>
-                    </li>
-                  </Reveal>
-                );
-              })}
+              {entradas.map((entrada, i) => (
+                <li key={entrada.id}>
+                  <Reveal className="h-full" retardo={(i % 3) * 60}><TarjetaEntrada entrada={entrada} /></Reveal>
+                </li>
+              ))}
             </ul>
+          )}
+          {totalPaginas > 1 && (
+            <nav aria-label="Paginación del blog" className="mt-12 flex flex-wrap items-center justify-center gap-2">
+              {pagina > 1 && <Link rel="prev" href={`${urlBlog(tipo, pagina - 1)}#articulos`} className="inline-flex min-h-11 items-center gap-2 rounded-md border border-primary px-3 text-body-sm font-bold text-primary hover:bg-primary-soft"><ArrowLeft size={16} aria-hidden /><span className="sr-only sm:not-sr-only">Anterior</span></Link>}
+              {paginas.map((p, i) => (
+                <span key={p} className="inline-flex items-center gap-2">
+                  {i > 0 && p - paginas[i - 1] > 1 && <span aria-hidden className="px-1">…</span>}
+                  <Link href={`${urlBlog(tipo, p)}#articulos`} aria-label={`Página ${p}`} aria-current={p === pagina ? "page" : undefined}
+                    className={`inline-flex size-11 items-center justify-center rounded-md border font-bold transition-colors ${p === pagina ? "border-primary bg-primary text-white" : "border-primary/30 text-primary hover:border-primary hover:bg-primary-soft"}`}>{p}</Link>
+                </span>
+              ))}
+              {pagina < totalPaginas && <Link rel="next" href={`${urlBlog(tipo, pagina + 1)}#articulos`} className="inline-flex min-h-11 items-center gap-2 rounded-md border border-primary px-3 text-body-sm font-bold text-primary hover:bg-primary-soft"><span className="sr-only sm:not-sr-only">Siguiente</span><ArrowRight size={16} aria-hidden /></Link>}
+            </nav>
           )}
         </Container>
       </section>
-
       <CtaFinal />
+      <JsonLd data={{ "@context": "https://schema.org", "@type": "CollectionPage", name: "Blog de oposiciones a Guardia Civil", url: absoluteUrl(urlBlog(tipo, pagina)), inLanguage: "es-ES",
+        mainEntity: { "@type": "ItemList", itemListElement: entradas.map((e, i) => ({ "@type": "ListItem", position: (pagina - 1) * ENTRADAS_POR_PAGINA + i + 1, name: e.titulo, url: absoluteUrl(`/blog/${e.slug}`) })) } }} />
     </>
   );
 }

@@ -127,6 +127,7 @@ export async function borrarEntrada(datosFormulario: FormData) {
   await sb.from("blog_posts").delete().eq("id", id);
   revalidatePath(rutas.blog);
   revalidatePath(`${rutas.blog}/${slug}`);
+  revalidatePath("/sitemap.xml");
   revalidatePath("/admin");
   redirect("/admin");
 }

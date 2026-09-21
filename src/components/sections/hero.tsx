@@ -1,8 +1,7 @@
-import { ArrowRight, Trophy } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
-import { Telefono } from "@/components/mockups/marcos";
-import { PantallaTest } from "@/components/mockups/pantalla-test";
+import { HeroExperience } from "@/components/home/hero-experience";
 import { links } from "@/lib/links";
 
 const hechos = ["Acceso a la Guardia Civil", "Colegio de Guardias Jóvenes", "100 % online"];
@@ -72,33 +71,7 @@ export function Hero() {
             </ul>
           </div>
 
-          <div className="relative flex justify-center lg:justify-end">
-            <div
-              aria-hidden
-              className="absolute -inset-8 -z-10 rounded-[3rem] bg-primary-soft/45 blur-2xl"
-            />
-            <Telefono className="rotate-[2.5deg]">
-              <PantallaTest />
-            </Telefono>
-
-            <div
-              aria-hidden
-              className="absolute -left-2 bottom-12 hidden rounded-xl border border-border bg-surface p-4 shadow-[0_18px_40px_-12px_rgba(2,67,52,0.28)] sm:block lg:-left-6"
-            >
-              <div className="flex items-center gap-2.5">
-                <span className="inline-flex size-9 items-center justify-center rounded-lg bg-primary-soft text-primary-soft-fg">
-                  <Trophy size={17} />
-                </span>
-                <div>
-                  <p className="text-body-sm font-bold leading-tight">Simulacro corregido</p>
-                  <p className="text-body-sm text-muted-foreground">
-                    Nota <span className="tabular font-bold text-primary">7,8</span> · 2.º del
-                    ranking
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <HeroExperience />
         </div>
       </Container>
     </section>

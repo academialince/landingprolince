@@ -96,7 +96,7 @@ export function Header() {
           <nav ref={navRef} aria-label="Principal" className="hidden items-center gap-0.5 lg:flex">
             {navegacion.map((item) => {
               const esActivo = activo(ruta, item);
-              const clases = `rounded-md px-3 py-2 text-body-sm font-semibold transition-colors ${
+              const clases = `nav-link rounded-md px-3 py-2 text-body-sm font-semibold transition-colors ${
                 esActivo
                   ? "bg-primary-soft text-primary-soft-fg"
                   : "text-muted-foreground hover:bg-surface-tinted hover:text-foreground"
@@ -139,7 +139,7 @@ export function Header() {
                           key={h.href}
                           href={h.href}
                           onClick={cerrar}
-                          className="block rounded-lg px-3 py-2.5 transition-colors hover:bg-surface-tinted"
+                          className="nav-sub-link block rounded-lg px-3 py-2.5 transition-[background-color,color,transform] hover:translate-x-1 hover:bg-primary-soft hover:text-primary"
                         >
                           <span className="block font-semibold">{h.etiqueta}</span>
                           <span className="block text-body-sm text-muted-foreground">
@@ -155,11 +155,6 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-2">
-            <span className="hidden sm:block">
-              <Button href={links.login} variante="fantasma">
-                Entrar
-              </Button>
-            </span>
             <Button href={links.registro}>
               <span className="sm:hidden">Empezar</span>
               <span className="hidden sm:inline">Empezar ahora</span>
@@ -198,7 +193,7 @@ export function Header() {
                         key={h.href}
                         href={h.href}
                         onClick={cerrar}
-                        className="py-2.5 font-semibold"
+                        className="nav-sub-link rounded-md px-3 py-2.5 font-semibold transition-colors hover:bg-primary-soft hover:text-primary"
                       >
                         {h.etiqueta}
                         <span className="block text-body-sm font-normal text-muted-foreground">
@@ -213,15 +208,13 @@ export function Header() {
                   key={item.etiqueta}
                   href={item.href!}
                   onClick={cerrar}
-                  className="border-b border-border py-4 font-semibold"
+                  aria-current={activo(ruta, item) ? "page" : undefined}
+                  className="nav-link border-b border-border px-3 py-4 font-semibold"
                 >
                   {item.etiqueta}
                 </Link>
               ),
             )}
-            <a href={links.login} className="py-4 font-semibold text-primary">
-              Entrar en mi cuenta
-            </a>
           </nav>
         </Container>
       </div>

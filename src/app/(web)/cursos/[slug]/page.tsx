@@ -12,7 +12,7 @@ import { Icono } from "@/components/ui/icon";
 import { CtaFinal } from "@/components/sections/cta-final";
 import { cursoPorSlug, cursos } from "@/content/cursos";
 import { site } from "@/content/site";
-import { JsonLd } from "@/lib/seo";
+import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 import { absoluteUrl, links, rutas } from "@/lib/links";
 
 /** Las anclas quedan bajo la cabecera y el submenú, que suman 7,5rem. */
@@ -26,12 +26,7 @@ export async function generateMetadata(props: PageProps<"/cursos/[slug]">): Prom
   const { slug } = await props.params;
   const curso = cursoPorSlug(slug);
   if (!curso) return {};
-  return {
-    title: curso.nombre,
-    description: curso.entradilla,
-    alternates: { canonical: rutas.curso(curso.slug) },
-    openGraph: { title: curso.nombre, description: curso.entradilla, images: [curso.imagen] },
-  };
+  return metadataPagina({ titulo: `Curso online: ${curso.nombre}`, descripcion: curso.entradilla, ruta: rutas.curso(curso.slug), imagen: curso.imagen, imagenAlt: curso.imagenAlt });
 }
 
 export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
@@ -260,6 +255,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
       </Section>
 
       <CtaFinal />
+      <JsonLd data={migasJsonLd([{ nombre: "Inicio", ruta: "/" }, { nombre: curso.nombre, ruta: rutas.curso(curso.slug) }])} />
 
       <JsonLd
         data={{

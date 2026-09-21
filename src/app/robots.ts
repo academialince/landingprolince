@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { absoluteUrl } from "@/lib/links";
+import { indexacionPermitida } from "@/lib/indexacion";
 
 /**
  * La indexación está cerrada por defecto y se abre con `ALLOW_INDEXING=true`.
@@ -9,15 +10,10 @@ import { absoluteUrl } from "@/lib/links";
  * todavía no se pueden sostener. La puerta es una variable de entorno para que abrirla sea una
  * decisión consciente y de un minuto, no un olvido.
  */
-const indexable = process.env.ALLOW_INDEXING === "true";
-
 export default function robots(): MetadataRoute.Robots {
-  if (!indexable) {
-    return { rules: { userAgent: "*", disallow: "/" } };
-  }
-
   return {
+    // Se permite leer las etiquetas noindex; Disallow: / impediría que Google las viese.
     rules: { userAgent: "*", allow: "/", disallow: ["/admin"] },
-    sitemap: absoluteUrl("/sitemap.xml"),
+    ...(indexacionPermitida ? { sitemap: absoluteUrl("/sitemap.xml") } : {}),
   };
 }

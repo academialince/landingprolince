@@ -120,6 +120,95 @@
 
   .tabular { font-variant-numeric: tabular-nums; }
 
+  .cta-button svg { transition: transform 220ms var(--ease-product); }
+  .cta-button:is(:hover, :focus-visible) svg { transform: translateX(3px); }
+  .nav-link { position: relative; transition: color 180ms, background-color 180ms; }
+  .nav-link::after {
+    content: ""; position: absolute; inset: auto 12px 4px; height: 2px;
+    border-radius: 2px; background: var(--color-primary);
+    transform: scaleX(0); transform-origin: left; transition: transform 240ms var(--ease-product);
+  }
+  .nav-link:is(:hover, :focus-visible) { background: var(--color-primary-soft); color: var(--color-primary); }
+  .nav-link:is(:hover, :focus-visible, [aria-current="page"])::after { transform: scaleX(1); }
+  .nav-sub-link:focus-visible { background: var(--color-primary-soft); color: var(--color-primary); }
+  footer nav a { text-underline-offset: 5px; transition: color 160ms; }
+  footer nav a:is(:hover, :focus-visible) { text-decoration: underline; }
+
+  /* Escena del hero. Altura reservada y movimiento por transform/opacity para evitar saltos. */
+  .hero-experience { position: relative; width: 100%; min-width: 0; }
+  .hero-scene { position: relative; height: 610px; isolation: isolate; perspective: 1100px; }
+  .hero-aura {
+    position: absolute; inset: 4% -8% 0; border-radius: 50%;
+    background: radial-gradient(ellipse at 50% 45%, #a9e9bc88, #d8f5df88 40%, transparent 69%);
+    animation: hero-breathe 8s ease-in-out infinite;
+  }
+  .hero-grid {
+    position: absolute; inset: 10% -10%; opacity: .28;
+    background-image: linear-gradient(#03512d20 1px, transparent 1px), linear-gradient(90deg, #03512d20 1px, transparent 1px);
+    background-size: 36px 36px; transform: rotate(-12deg);
+    mask-image: radial-gradient(ellipse, black, transparent 70%);
+  }
+  .hero-wordmark {
+    position: absolute; top: 38%; left: 50%; transform: translateX(-50%) rotate(-12deg);
+    font-size: clamp(4rem, 7vw, 7rem); font-weight: 850; letter-spacing: -.065em;
+    color: transparent; -webkit-text-stroke: 1px #03512d22; white-space: nowrap;
+  }
+  .hero-orbit {
+    position: absolute; left: 50%; top: 50%; border: 1px solid #03512d24;
+    border-radius: 50%; pointer-events: none;
+  }
+  .hero-orbit-outer { width: 112%; aspect-ratio: 1; animation: hero-orbit 24s linear infinite; }
+  .hero-orbit-inner { width: 91%; aspect-ratio: 1; border-style: dashed; animation: hero-orbit 32s linear infinite reverse; }
+  .hero-orbit span { position: absolute; left: 50%; top: -5px; width: 10px; height: 10px; border-radius: 50%; background: #439b64; box-shadow: 0 0 0 7px #439b6415; }
+  .hero-depth { position: absolute; inset: 0; transform: rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)); transition: transform 400ms ease-out; transform-style: preserve-3d; }
+  .hero-phone-float { position: absolute; width: 280px; top: 30px; left: calc(50% - 140px); animation: hero-float 7s ease-in-out infinite; }
+  .hero-phone { transform: rotate(-7deg); box-shadow: 22px 34px 60px -20px #023b3466, 0 0 0 2px #b3d7bd, inset 0 0 0 1px #ffffff55; }
+  .hero-screen-glint { position: absolute; inset: -50%; pointer-events: none; background: linear-gradient(115deg, transparent 43%, #ffffff70 49%, transparent 55%); animation: hero-glint 9s ease-in-out infinite; }
+  .hero-emblem {
+    position: absolute; top: 38px; right: 2%; padding: 10px; border-radius: 50%;
+    background: #ffffffde; border: 1px solid #b9d7c4; box-shadow: 0 16px 36px -15px #03512d55;
+    transform: translateZ(65px); animation: hero-emblem 7s ease-in-out infinite;
+  }
+  .hero-emblem::after { content: ""; position: absolute; inset: -9px; border-radius: 50%; border: 1px dashed #03512d45; animation: hero-spin 28s linear infinite; }
+  .hero-float-card { position: absolute; display: flex; align-items: center; gap: 12px; border: 1px solid #d1e6d9; background: #ffffffed; border-radius: 18px; padding: 17px; box-shadow: 0 18px 40px -18px #03512d55; }
+  .hero-card-progress { top: 235px; right: -3%; transform: translateZ(90px); animation: hero-card-float 8s ease-in-out infinite; }
+  .hero-card-answer { bottom: 48px; left: -3%; transform: translateZ(100px); animation: hero-card-float 7s ease-in-out infinite reverse; }
+  .hero-card-icon { display: inline-flex; flex-shrink: 0; align-items: center; justify-content: center; width: 36px; height: 36px; color: var(--color-primary); background: var(--color-primary-soft); border-radius: 11px; }
+  .hero-card-eyebrow { font-size: 8px; letter-spacing: .12em; color: var(--color-muted-foreground); font-weight: 700; }
+  .hero-card-title { font-size: 12px; font-weight: 800; line-height: 1.5; }
+  .hero-card-copy { font-size: 10px; color: var(--color-muted-foreground); }
+  .hero-mini-chart { height: 33px; display: flex; align-items: flex-end; gap: 5px; margin-top: 8px; }
+  .hero-mini-chart span { width: 10px; background: linear-gradient(#379c5d, #9fd6b0); border-radius: 3px 3px 0 0; transform-origin: bottom; animation: hero-bar 6s ease-in-out infinite; }
+  .hero-particle { position: absolute; width: 6px; height: 6px; background: #439b64; border-radius: 50%; animation: hero-breathe 4s ease-in-out infinite; }
+  .hero-particle-one { top: 18%; left: 6%; }
+  .hero-particle-two { bottom: 18%; right: 5%; animation-delay: -2s; }
+  .hero-particle-three { bottom: 6%; right: 30%; width: 4px; height: 4px; }
+  .hero-test-progress { transform-origin: left; animation: hero-progress 9s ease-in-out infinite; }
+  .hero-test-answer { animation: hero-answer 9s ease-in-out infinite; }
+  .hero-scene-caption { display: flex; align-items: center; justify-content: center; gap: 12px; font-size: 11px; font-weight: 600; color: var(--color-muted-foreground); }
+  .hero-pause { display: inline-flex; min-width: 36px; min-height: 36px; align-items: center; justify-content: center; border: 1px solid var(--color-border-strong); border-radius: 50%; cursor: pointer; transition: background-color 180ms; }
+  .hero-pause:hover { background: var(--color-primary-soft); }
+  @keyframes hero-float { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-17px) rotate(2deg); } }
+  @keyframes hero-card-float { 0%, 100% { transform: translate3d(0, 0, 90px); } 50% { transform: translate3d(0, -11px, 90px); } }
+  @keyframes hero-emblem { 0%, 100% { transform: translate3d(0, 0, 65px) rotate(-8deg); } 50% { transform: translate3d(0, -12px, 65px) rotate(6deg); } }
+  @keyframes hero-orbit { from { transform: translate(-50%, -50%) rotate(-25deg) scaleY(.8); } to { transform: translate(-50%, -50%) rotate(335deg) scaleY(.8); } }
+  @keyframes hero-spin { to { transform: rotate(360deg); } }
+  @keyframes hero-breathe { 0%, 100% { opacity: .65; transform: scale(.96); } 50% { opacity: 1; transform: scale(1.04); } }
+  @keyframes hero-glint { 0%, 15% { transform: translateX(-65%); opacity: 0; } 28% { opacity: .7; } 48%, 100% { transform: translateX(65%); opacity: 0; } }
+  @keyframes hero-bar { 0%, 100% { transform: scaleY(.72); } 50% { transform: scaleY(1); } }
+  @keyframes hero-progress { 0%, 15%, 100% { transform: scaleX(1); } 45%, 85% { transform: scaleX(1.8); } }
+  @keyframes hero-answer { 0%, 12%, 100% { box-shadow: 0 0 0 0 #03512d00; } 30%, 70% { box-shadow: 0 0 0 3px #03512d22; } }
+  @media (max-width: 639px) {
+    .hero-scene { height: 550px; max-width: 420px; margin-inline: auto; }
+    .hero-phone-float { width: 245px; left: calc(50% - 122.5px); }
+    .hero-emblem { top: 8px; right: 0; padding: 7px; }
+    .hero-emblem img { height: 58px !important; }
+    .hero-card-progress { right: -2%; top: 224px; padding: 11px; gap: 8px; }
+    .hero-card-progress > .hero-card-icon { display: none; }
+    .hero-card-answer { left: 0; bottom: 32px; padding: 13px; gap: 9px; }
+    .hero-orbit-outer { width: 105%; }
+  }
+
   /* Marquesina reutilizable (KPI y testimonios).
      La pista lleva dos copias de la lista y se desplaza media anchura, así el salto al
      reiniciar es invisible. La segunda copia va `aria-hidden` para que un lector de pantalla no
@@ -173,7 +262,11 @@
   }
   .prosa pre { background: var(--color-primary-deep); color: white; padding: 1.1em; border-radius: var(--radius-md); overflow-x: auto; }
   .prosa pre code { background: none; padding: 0; }
-  .prosa img { border-radius: var(--radius-lg); }
+  .prosa img { display: block; width: auto; max-width: 100%; height: auto; margin-inline: auto; border: 0; background: transparent; border-radius: var(--radius-lg); }
+  /* Las portadas editoriales originales contienen un marco negro fino dentro del JPEG. */
+  .prosa img[src^="/blog/"] { clip-path: inset(1.5% round var(--radius-lg)); }
+  .prosa p:has(> img:only-child) { background: transparent; border: 0; padding: 0; }
+  .prosa table { display: block; overflow-x: auto; }
   .prosa table { width: 100%; border-collapse: collapse; font-size: var(--text-body-sm); }
   .prosa th, .prosa td { border: 1px solid var(--color-border); padding: 0.6em 0.8em; text-align: left; }
   .prosa hr { border: 0; border-top: 1px solid var(--color-border); margin-block: 2.4em; }
@@ -187,10 +280,21 @@
  * de capas. Las reglas sin capa vencen a cualquier capa, así que aquí sí se aplica.
  */
 @media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
+  .hero-depth { transform: none; }
+  .hero-screen-glint { display: none; }
+  .hero-pause { display: none; }
+  .hero-orbit { transform: translate(-50%, -50%) rotate(-25deg) scaleY(.8); }
   .marquesina { overflow-x: auto; }
   .marquesina-pista { animation: none; }
   .marquesina-copia { display: none; }
 }
+
+.hero-scene[data-paused="true"] *,
+.hero-scene[data-paused="true"] *::after,
+.hero-scene[data-visible="false"] *,
+.hero-scene[data-visible="false"] *::after { animation-play-state: paused; }
 
 /*
  * El estado `hidden` lo pone JavaScript, y solo en elementos que ya están fuera de la pantalla

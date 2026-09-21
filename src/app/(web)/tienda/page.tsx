@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Check, Minus } from "lucide-react";
 import { PageHero } from "@/components/layout/page-hero";
 import { Section } from "@/components/layout/section";
@@ -10,14 +9,14 @@ import { CtaFinal } from "@/components/sections/cta-final";
 import { comparativa, complementos, condiciones, suscripciones } from "@/content/tienda";
 import { cursos } from "@/content/cursos";
 import { absoluteUrl, links, rutas } from "@/lib/links";
-import { JsonLd } from "@/lib/seo";
+import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Tienda",
-  description:
+export const metadata = metadataPagina({
+  titulo: "Precios y suscripciones para preparar Guardia Civil",
+  descripcion:
     "Suscripciones y complementos para preparar el acceso a la Guardia Civil y al Colegio de Guardias Jóvenes. Sin permanencia.",
-  alternates: { canonical: rutas.tienda },
-};
+  ruta: rutas.tienda,
+});
 
 function Celda({ valor }: { valor: boolean | string }) {
   if (valor === true) return <Check size={18} className="mx-auto text-primary" aria-label="Incluido" />;
@@ -195,6 +194,7 @@ export default function Tienda() {
       </section>
 
       <CtaFinal />
+      <JsonLd data={migasJsonLd([{ nombre: "Inicio", ruta: "/" }, { nombre: "Precios y suscripciones", ruta: rutas.tienda }])} />
 
       <JsonLd
         data={{

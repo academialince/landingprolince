@@ -87,9 +87,9 @@ export const incluye = {
 };
 
 export const simulacros = {
-  titulo: "El simulacro es lo que te dice si vas bien",
+  titulo: "Entrena el examen. Descubre dónde mejorar.",
   entradilla:
-    "Estudiar y creer que lo llevas es fácil. Sentarte con un cronómetro y entregar es otra cosa, y es la que de verdad se parece al examen.",
+    "Practica con tiempo real, revisa cada respuesta y convierte tus errores en un plan de mejora para el siguiente simulacro.",
   puntos: [
     {
       icono: "Timer",

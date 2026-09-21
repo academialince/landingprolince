@@ -5,13 +5,13 @@ type Variante = "primario" | "secundario" | "fantasma" | "claro";
 type Tamano = "md" | "lg";
 
 const base =
-  "inline-flex items-center justify-center gap-2 rounded-md font-bold transition-[background-color,border-color,transform,box-shadow] duration-150 ease-[var(--ease-product)] hover:-translate-y-px active:translate-y-0 whitespace-nowrap";
+  "cta-button inline-flex items-center justify-center gap-2 rounded-md font-bold transition-[color,background-color,border-color,transform,box-shadow] duration-200 ease-[var(--ease-product)] hover:-translate-y-0.5 active:translate-y-0 whitespace-nowrap disabled:pointer-events-none disabled:opacity-50";
 
 const variantes: Record<Variante, string> = {
   primario:
     "bg-primary text-primary-fg shadow-[0_8px_22px_color-mix(in_oklch,var(--color-primary)_18%,transparent)] hover:bg-primary-hover active:bg-primary-active",
   secundario:
-    "bg-surface text-primary border border-primary/35 hover:bg-primary-soft hover:border-primary",
+    "border border-primary bg-transparent text-primary hover:bg-primary hover:text-primary-fg focus-visible:bg-primary focus-visible:text-primary-fg",
   fantasma: "text-foreground hover:bg-surface-tinted",
   claro: "bg-white text-primary-deep hover:bg-primary-soft",
 };

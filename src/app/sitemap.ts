@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
 import { absoluteUrl, rutas } from "@/lib/links";
 import { cursos } from "@/content/cursos";
-import { listarPublicadas } from "@/lib/blog";
+import { entradasSitemap } from "@/lib/blog";
+
+export const revalidate = 300;
 
 /**
  * Las páginas legales van con `noindex`, así que no entran en el sitemap.
@@ -13,7 +15,6 @@ import { listarPublicadas } from "@/lib/blog";
  * ISR.
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const ahora = new Date();
   const publicas: { ruta: string; prioridad: number }[] = [
     { ruta: rutas.inicio, prioridad: 1 },
     ...cursos.map((c) => ({ ruta: rutas.curso(c.slug), prioridad: 0.9 })),
@@ -22,22 +23,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { ruta: rutas.nosotros, prioridad: 0.6 },
   ];
 
-  const entradas = await listarPublicadas();
+  const entradas = await entradasSitemap();
 
   return [
     ...publicas.map(({ ruta, prioridad }) => ({
       url: absoluteUrl(ruta),
-      lastModified: ahora,
       changeFrequency: "monthly" as const,
       priority: prioridad,
     })),
     // Una entrada con `noindex` propio se queda fuera: pedir que la rastreen y a la vez que no
     // la indexen es una contradicción que solo gasta presupuesto de rastreo.
     ...entradas
-      .filter((e) => !e.seo?.noindex)
+      .filter((e) => !e.seo?.noindex && (!e.seo?.canonical || absoluteUrl(e.seo.canonical) === absoluteUrl(`${rutas.blog}/${e.slug}`)))
       .map((e) => ({
         url: absoluteUrl(`${rutas.blog}/${e.slug}`),
         lastModified: new Date(e.actualizado_en),
+        ...(e.portada_url ? { images: [absoluteUrl(e.portada_url)] } : {}),
         changeFrequency: "weekly" as const,
         priority: 0.6,
       })),
