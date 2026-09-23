@@ -14,7 +14,7 @@ export default function Entrar() {
       </div>
       <h1 className="text-h2 mt-8 text-center">Panel de contenidos</h1>
       <p className="mt-2 text-center text-muted-foreground">
-        Acceso restringido a la cuenta editora del blog.
+        Acceso restringido a las cuentas editoras.
       </p>
 
       {supabaseConfigurado ? (

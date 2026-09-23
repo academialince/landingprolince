@@ -25,6 +25,12 @@ export default async function AdminLayout({ children }: { children: ReactNode })
           </Link>
           <div className="flex items-center gap-4">
             <Link
+              href="/admin/waitlist"
+              className="text-body-sm font-semibold text-muted-foreground hover:text-foreground"
+            >
+              Lista de espera
+            </Link>
+            <Link
               href="/blog"
               className="text-body-sm font-semibold text-muted-foreground hover:text-foreground"
             >

@@ -22,13 +22,26 @@ export default function Privacidad() {
 
       <h2>Qué datos se recogen en este sitio</h2>
       <p>
-        Ninguno. Esta web no tiene formularios, no pide registro y no recoge datos personales de
-        quien la visita. Tampoco utiliza herramientas de analítica ni de publicidad que elaboren
-        un perfil de navegación.
+        Esta web no pide registro para navegar ni utiliza herramientas de analítica o de
+        publicidad que elaboren un perfil de navegación. Solo recoge datos personales si te
+        apuntas voluntariamente a la lista de espera.
       </p>
       <p>
-        Los datos personales se tratan únicamente cuando te das de alta en la plataforma, en un
+        Los datos de tu cuenta de alumno se tratan cuando te das de alta en la plataforma, en un
         dominio distinto y bajo la política de privacidad que allí se detalla.
+      </p>
+
+      <h2>Lista de espera</h2>
+      <p>
+        Si te apuntas a la lista de espera para probar la plataforma, guardamos tu nombre, correo
+        electrónico, teléfono, edad, el tiempo que llevas opositando y las veces que te has
+        presentado al examen. Los usamos para avisarte cuando haya acceso de prueba disponible y
+        para organizar las tandas de acceso según el momento de preparación de cada persona.
+      </p>
+      <p>
+        La base legal es tu consentimiento, que puedes retirar en cualquier momento escribiendo a
+        la dirección de contacto. Conservamos los datos mientras la lista de espera esté activa y,
+        como máximo, doce meses desde que te apuntas; después se eliminan.
       </p>
 
       <h2>Datos de conexión</h2>
@@ -41,8 +54,8 @@ export default function Privacidad() {
 
       <h2>Destinatarios</h2>
       <p>
-        No se ceden datos a terceros. El sitio está alojado en un proveedor de servicios de
-        infraestructura que actúa como encargado del tratamiento.
+        No se ceden datos a terceros. El sitio y su base de datos están alojados en proveedores de
+        servicios de infraestructura que actúan como encargados del tratamiento.
       </p>
 
       <h2>Tus derechos</h2>

@@ -37,6 +37,7 @@ export const rutas = {
   blog: "/blog",
   nosotros: "/nosotros",
   tienda: "/tienda",
+  waitlist: "/waitlist",
   admin: "/admin",
   avisoLegal: "/aviso-legal",
   privacidad: "/privacidad",

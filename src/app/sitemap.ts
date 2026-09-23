@@ -21,6 +21,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { ruta: rutas.tienda, prioridad: 0.8 },
     { ruta: rutas.blog, prioridad: 0.7 },
     { ruta: rutas.nosotros, prioridad: 0.6 },
+    { ruta: rutas.waitlist, prioridad: 0.5 },
   ];
 
   const entradas = await entradasSitemap();

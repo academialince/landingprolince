@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { z } from "zod";
 import { supabaseServidor } from "@/lib/supabase/server";
-import { CORREO_EDITOR } from "@/lib/supabase/config";
+import { esEditor } from "@/lib/supabase/config";
 import { markdownAHtml } from "@/lib/markdown";
 import { ESTADOS } from "@/content/blog-tipos";
 import { aSlug } from "@/lib/blog";
@@ -39,7 +39,7 @@ async function editorOFallo() {
     data: { user },
   } = await sb.auth.getUser();
   if (!user) return { sb: null, error: "Tu sesión ha caducado. Vuelve a entrar." };
-  if (user.email !== CORREO_EDITOR)
+  if (!esEditor(user.email))
     return { sb: null, error: "Esta cuenta no puede gestionar el blog." };
   return { sb, error: null };
 }
