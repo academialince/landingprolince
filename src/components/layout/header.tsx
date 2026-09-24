@@ -90,7 +90,7 @@ export function Header() {
       <Container>
         <div className="flex h-[4.5rem] items-center justify-between gap-2 sm:gap-4">
           <Link href="/" aria-label="ProLince, inicio" className="shrink-0">
-            <MarcaCompleta alto={38} />
+            <MarcaCompleta alto={38} corte="lg" />
           </Link>
 
           <nav ref={navRef} aria-label="Principal" className="hidden items-center gap-0.5 lg:flex">
@@ -191,31 +191,41 @@ export function Header() {
                   {/* Un grupo no es un destino: enlazarlo al primer curso duplicaba la entrada. */}
                   <p className="text-eyebrow uppercase text-muted-foreground">{item.etiqueta}</p>
                   <div className="mt-1 grid">
-                    {item.hijos.map((h) => (
-                      <Link
-                        key={h.href}
-                        href={h.href}
-                        onClick={cerrar}
-                        className="nav-sub-link rounded-md px-3 py-2.5 font-semibold transition-colors hover:bg-primary-soft hover:text-primary"
-                      >
-                        {h.etiqueta}
-                        <span className="block text-body-sm font-normal text-muted-foreground">
-                          {h.descripcion}
-                        </span>
-                      </Link>
-                    ))}
+                    {item.hijos.map((h) => {
+                      const esActivo = ruta.startsWith(h.href);
+                      return (
+                        <Link
+                          key={h.href}
+                          href={h.href}
+                          onClick={cerrar}
+                          aria-current={esActivo ? "page" : undefined}
+                          className={`nav-sub-link rounded-md px-3 py-2.5 font-semibold transition-colors hover:bg-primary-soft hover:text-primary ${
+                            esActivo ? "bg-primary-soft text-primary-soft-fg" : ""
+                          }`}
+                        >
+                          {h.etiqueta}
+                          <span className="block text-body-sm font-normal text-muted-foreground">
+                            {h.descripcion}
+                          </span>
+                        </Link>
+                      );
+                    })}
                   </div>
                 </div>
               ) : (
-                <Link
-                  key={item.etiqueta}
-                  href={item.href!}
-                  onClick={cerrar}
-                  aria-current={activo(ruta, item) ? "page" : undefined}
-                  className="nav-link border-b border-border px-3 py-4 font-semibold"
-                >
-                  {item.etiqueta}
-                </Link>
+                <div key={item.etiqueta} className="border-b border-border py-1.5">
+                  {/* Mismo resaltado que la barra de escritorio: fondo suave, sin subrayado. */}
+                  <Link
+                    href={item.href!}
+                    onClick={cerrar}
+                    aria-current={activo(ruta, item) ? "page" : undefined}
+                    className={`nav-link block rounded-md px-3 py-2.5 font-semibold ${
+                      activo(ruta, item) ? "bg-primary-soft text-primary-soft-fg" : ""
+                    }`}
+                  >
+                    {item.etiqueta}
+                  </Link>
+                </div>
               ),
             )}
           </nav>

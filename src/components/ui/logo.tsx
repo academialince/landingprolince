@@ -64,14 +64,28 @@ export function Marca({
 }
 
 /**
- * Marca para fondos claros: el logotipo completo y, en pantallas muy estrechas, solo el isotipo
- * para no empujar los botones de la cabecera.
+ * Marca para fondos claros: el logotipo completo y, por debajo del punto de corte, solo el
+ * isotipo. En la cabecera el corte es `lg`, el mismo en el que aparece el menú hamburguesa.
+ * Las clases van escritas enteras para que Tailwind las genere.
  */
-export function MarcaCompleta({ alto = 38, className }: { alto?: number; className?: string }) {
+const CORTES = {
+  xs: { isotipo: "xs:hidden", completo: "hidden xs:block" },
+  lg: { isotipo: "lg:hidden", completo: "hidden lg:block" },
+} as const;
+
+export function MarcaCompleta({
+  alto = 38,
+  corte = "xs",
+  className,
+}: {
+  alto?: number;
+  corte?: keyof typeof CORTES;
+  className?: string;
+}) {
   return (
     <span className={`inline-flex items-center ${className ?? ""}`}>
-      <span className="xs:hidden">
-        <Logo alto={Math.round(alto * 0.85)} />
+      <span className={CORTES[corte].isotipo}>
+        <Logo alto={Math.round(alto * 0.95)} />
       </span>
       <Image
         src={FUENTE_COMPLETO}
@@ -79,7 +93,7 @@ export function MarcaCompleta({ alto = 38, className }: { alto?: number; classNa
         width={Math.round(alto * RATIO_COMPLETO)}
         height={alto}
         priority
-        className="hidden shrink-0 xs:block"
+        className={`shrink-0 ${CORTES[corte].completo}`}
         style={{ height: alto, width: "auto" }}
       />
     </span>
