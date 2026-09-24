@@ -12,8 +12,8 @@ const ACADEMY = "academiaprolince";
 export const links = {
   /** Alta de cuenta. Destino de «Empezar ahora». */
   registro: `${APP}/${ACADEMY}/registro`,
-  /** Acceso de alumno ya matriculado. Destino de «Entrar». */
-  login: `${APP}/${ACADEMY}/`,
+  /** Acceso de alumno ya matriculado. Destino de «Acceder». */
+  login: `${APP}/${ACADEMY}`,
   catalogo: `${APP}/${ACADEMY}/registro`,
 } as const;
 

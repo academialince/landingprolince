@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { AlertTriangle } from "lucide-react";
-import { Marca } from "@/components/ui/logo";
+import { MarcaCompleta } from "@/components/ui/logo";
 import { FormularioEntrar } from "@/components/admin/formulario-entrar";
 import { CORREO_EDITOR, supabaseConfigurado } from "@/lib/supabase/config";
 
@@ -10,7 +10,7 @@ export default function Entrar() {
   return (
     <div className="mx-auto max-w-[26rem] py-10">
       <div className="flex justify-center">
-        <Marca alto={32} />
+        <MarcaCompleta alto={44} />
       </div>
       <h1 className="text-h2 mt-8 text-center">Panel de contenidos</h1>
       <p className="mt-2 text-center text-muted-foreground">

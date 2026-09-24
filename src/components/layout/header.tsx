@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
-import { Marca } from "@/components/ui/logo";
+import { MarcaCompleta } from "@/components/ui/logo";
 import { Button } from "@/components/ui/button";
 import { Container } from "./container";
 import { navegacion, type ItemNav } from "@/content/site";
@@ -90,7 +90,7 @@ export function Header() {
       <Container>
         <div className="flex h-[4.5rem] items-center justify-between gap-2 sm:gap-4">
           <Link href="/" aria-label="ProLince, inicio" className="shrink-0">
-            <Marca alto={28} />
+            <MarcaCompleta alto={38} />
           </Link>
 
           <nav ref={navRef} aria-label="Principal" className="hidden items-center gap-0.5 lg:flex">
@@ -154,7 +154,10 @@ export function Header() {
             })}
           </nav>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1 sm:gap-2">
+            <Button href={links.login} variante="fantasma" className="px-2.5 sm:px-4">
+              Acceder
+            </Button>
             <Button href={links.registro}>
               <span className="sm:hidden">Empezar</span>
               <span className="hidden sm:inline">Empezar ahora</span>

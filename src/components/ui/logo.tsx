@@ -1,15 +1,19 @@
 import Image from "next/image";
 
 /**
- * El isotipo es bicolor —círculo verde con el león, la espada y los laureles en blanco—, así
- * que se pinta como imagen y no como máscara CSS. La máscara solo valdría para una marca de una
- * tinta, y aquí aplanaría el emblema entero a un color.
+ * El isotipo es bicolor —círculo verde con el lince y los laureles en blanco, dentro de un aro
+ * blanco con filete verde—, así que se pinta como imagen y no como máscara CSS. La máscara solo
+ * valdría para una marca de una tinta, y aquí aplanaría el emblema entero a un color.
  *
- * Sobre el verde oscuro del pie el círculo casi no separa (1,65:1), pero el aro y el león
- * blancos llevan el contraste, así que la misma imagen sirve en claro y en oscuro.
+ * El aro blanco exterior separa el emblema de cualquier fondo, así que la misma imagen sirve en
+ * claro y en oscuro.
  */
 const FUENTE = "/brand/prolince-logo.svg";
-const RATIO = 1143 / 1136;
+const RATIO = 1;
+
+/** Logotipo completo (isotipo + «PROLINCE ACADEMIA»). El texto es verde: solo sobre fondo claro. */
+const FUENTE_COMPLETO = "/brand/prolince-logo-horizontal.svg";
+const RATIO_COMPLETO = 4347 / 1252;
 
 type Props = {
   alto?: number;
@@ -55,6 +59,29 @@ export function Marca({
       >
         ProLince
       </span>
+    </span>
+  );
+}
+
+/**
+ * Marca para fondos claros: el logotipo completo y, en pantallas muy estrechas, solo el isotipo
+ * para no empujar los botones de la cabecera.
+ */
+export function MarcaCompleta({ alto = 38, className }: { alto?: number; className?: string }) {
+  return (
+    <span className={`inline-flex items-center ${className ?? ""}`}>
+      <span className="xs:hidden">
+        <Logo alto={Math.round(alto * 0.85)} />
+      </span>
+      <Image
+        src={FUENTE_COMPLETO}
+        alt="ProLince Academia"
+        width={Math.round(alto * RATIO_COMPLETO)}
+        height={alto}
+        priority
+        className="hidden shrink-0 xs:block"
+        style={{ height: alto, width: "auto" }}
+      />
     </span>
   );
 }

@@ -122,14 +122,8 @@
 
   .cta-button svg { transition: transform 220ms var(--ease-product); }
   .cta-button:is(:hover, :focus-visible) svg { transform: translateX(3px); }
-  .nav-link { position: relative; transition: color 180ms, background-color 180ms; }
-  .nav-link::after {
-    content: ""; position: absolute; inset: auto 12px 4px; height: 2px;
-    border-radius: 2px; background: var(--color-primary);
-    transform: scaleX(0); transform-origin: left; transition: transform 240ms var(--ease-product);
-  }
+  .nav-link { transition: color 180ms, background-color 180ms; }
   .nav-link:is(:hover, :focus-visible) { background: var(--color-primary-soft); color: var(--color-primary); }
-  .nav-link:is(:hover, :focus-visible, [aria-current="page"])::after { transform: scaleX(1); }
   .nav-sub-link:focus-visible { background: var(--color-primary-soft); color: var(--color-primary); }
   footer nav a { text-underline-offset: 5px; transition: color 160ms; }
   footer nav a:is(:hover, :focus-visible) { text-decoration: underline; }
