@@ -5,16 +5,12 @@
  * El catálogo de cursos vive detrás del acceso, así que "ver cursos" lleva al alta y no a una
  * página que devolvería un muro de login.
  */
-const APP = process.env.NEXT_PUBLIC_APP_URL ?? "https://acceso.prolinceacademia.com";
-
-const ACADEMY = "academiaprolince";
-
 export const links = {
   /** Alta de cuenta. Destino de «Empezar ahora». */
-  registro: `${APP}/${ACADEMY}/registro`,
+  registro: "https://acceso.prolinceacademia.com/academiaprolince/registro",
   /** Acceso de alumno ya matriculado. Destino de «Acceder». */
-  login: `${APP}/${ACADEMY}`,
-  catalogo: `${APP}/${ACADEMY}/registro`,
+  login: "https://acceso.prolinceacademia.com/academiaprolince",
+  catalogo: "https://acceso.prolinceacademia.com/academiaprolince/registro",
   /** Pago de la suscripción. PENDIENTE: sustituir por el enlace de pago real de Stripe. */
   compra: "https://stripe.com",
 } as const;
