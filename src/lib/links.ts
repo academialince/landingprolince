@@ -15,6 +15,8 @@ export const links = {
   /** Acceso de alumno ya matriculado. Destino de «Acceder». */
   login: `${APP}/${ACADEMY}`,
   catalogo: `${APP}/${ACADEMY}/registro`,
+  /** Pago de la suscripción. PENDIENTE: sustituir por el enlace de pago real de Stripe. */
+  compra: "https://stripe.com",
 } as const;
 
 /**

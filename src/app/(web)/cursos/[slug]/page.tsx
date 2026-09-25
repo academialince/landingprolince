@@ -60,7 +60,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
                   <ArrowRight size={18} aria-hidden />
                 </Button>
                 <Button href={rutas.tienda} variante="secundario" tamano="lg">
-                  Ver precios
+                  Ver precio
                 </Button>
               </div>
 
