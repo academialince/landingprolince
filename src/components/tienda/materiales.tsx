@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowRight, BookOpen, Files } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 import {
   formatoPrecio,
@@ -60,9 +61,18 @@ export function MaterialesTienda() {
   return (
     <div className="grid items-stretch gap-6 lg:grid-cols-2">
       <article className="flex h-full flex-col rounded-2xl border border-border bg-surface p-7 sm:p-8">
-        <span className="inline-flex size-11 items-center justify-center rounded-lg bg-primary-soft text-primary-soft-fg">
-          <BookOpen size={21} aria-hidden />
-        </span>
+        <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-primary-soft">
+          <Image
+            src="/tienda/temario-prolince.jpg"
+            alt="Colección del temario ProLince en verde oscuro y crema"
+            fill
+            sizes="(min-width: 1024px) 35rem, calc(100vw - 4rem)"
+            className="object-cover transition-transform duration-500 ease-[var(--ease-product)] hover:scale-[1.02]"
+          />
+          <span className="absolute left-4 top-4 inline-flex size-11 items-center justify-center rounded-lg bg-white/90 text-primary shadow-sm backdrop-blur-sm">
+            <BookOpen size={21} aria-hidden />
+          </span>
+        </div>
         <h3 className="mt-5 text-h3">{temario.nombre}</h3>
         <p className="mt-2 grow text-muted-foreground">{temario.descripcion}</p>
 
@@ -91,9 +101,18 @@ export function MaterialesTienda() {
       </article>
 
       <article className="flex h-full flex-col rounded-2xl border border-border bg-surface p-7 sm:p-8">
-        <span className="inline-flex size-11 items-center justify-center rounded-lg bg-primary-soft text-primary-soft-fg">
-          <Files size={21} aria-hidden />
-        </span>
+        <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-primary-soft">
+          <Image
+            src="/tienda/simulacros-prolince.jpg"
+            alt="Pack ProLince de simulacros impresos con hojas de respuesta y cronómetro"
+            fill
+            sizes="(min-width: 1024px) 35rem, calc(100vw - 4rem)"
+            className="object-cover transition-transform duration-500 ease-[var(--ease-product)] hover:scale-[1.02]"
+          />
+          <span className="absolute left-4 top-4 inline-flex size-11 items-center justify-center rounded-lg bg-white/90 text-primary shadow-sm backdrop-blur-sm">
+            <Files size={21} aria-hidden />
+          </span>
+        </div>
         <h3 className="mt-5 text-h3">Packs de simulacros</h3>
         <p className="mt-2 text-muted-foreground">
           Elige cuántos necesitas. Cuanto mayor sea el pack, menor será el precio por simulacro.
