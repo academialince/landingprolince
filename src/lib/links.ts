@@ -5,7 +5,7 @@
  * El catálogo de cursos vive detrás del acceso, así que "ver cursos" lleva al alta y no a una
  * página que devolvería un muro de login.
  */
-const APP = process.env.NEXT_PUBLIC_APP_URL ?? "https://prolince-lovat.vercel.app";
+const APP = process.env.NEXT_PUBLIC_APP_URL ?? "https://acceso.prolinceacademia.com";
 
 const ACADEMY = "academiaprolince";
 

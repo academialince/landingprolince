@@ -112,7 +112,7 @@ escrita.
 > **La landing nunca conoce rutas internas de la plataforma salvo a través de `src/lib/links.ts`.**
 
 ```ts
-const APP = process.env.NEXT_PUBLIC_APP_URL ?? "https://prolince-lovat.vercel.app";
+const APP = process.env.NEXT_PUBLIC_APP_URL ?? "https://acceso.prolinceacademia.com";
 const ACADEMY = "academiaprolince";
 
 export const links = {
