@@ -5,6 +5,12 @@ import {
   calculateCaptionedVideoMetadata,
   captionedVideoSchema,
 } from "./CaptionedVideo";
+import { Curiosidad } from "./Curiosidad";
+import {
+  curiosidadDefaultProps,
+  curiosidadSchema,
+  DURACION_TOTAL as DURACION_CURIOSIDAD,
+} from "./Curiosidad/schema";
 import { MensajeDelDia } from "./MensajeDelDia";
 import {
   DURACION_TOTAL,
@@ -17,6 +23,16 @@ import {
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="Curiosidad"
+        component={Curiosidad}
+        schema={curiosidadSchema}
+        defaultProps={curiosidadDefaultProps}
+        durationInFrames={DURACION_CURIOSIDAD}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="MensajeDelDia"
         component={MensajeDelDia}
