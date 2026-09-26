@@ -20,7 +20,7 @@ export const Curiosidad: React.FC<CuriosidadProps> = (props) => {
         name="Gancho"
         durationInFrames={DURACION.gancho}
       >
-        <Gancho gancho={props.gancho} destacado={props.destacado} />
+        <Gancho gancho={props.gancho} />
       </TransitionSeries.Sequence>
       {transicion}
       <TransitionSeries.Sequence

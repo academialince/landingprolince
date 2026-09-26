@@ -3,7 +3,6 @@ import { z } from "zod";
 // Cambia estos valores para cada curiosidad desde el panel de props de Remotion Studio
 export const curiosidadSchema = z.object({
   gancho: z.string(),
-  destacado: z.string(),
   fecha: z.string(),
   anio: z.number().int(),
   respuesta: z.string(),
@@ -15,8 +14,7 @@ export type CuriosidadProps = z.infer<typeof curiosidadSchema>;
 
 // Curiosidad_01 del carrusel de Instagram
 export const curiosidadDefaultProps: CuriosidadProps = {
-  gancho: "¿De dónde sale el",
-  destacado: "tricornio?",
+  gancho: "¿De dónde sale el tricornio?",
   fecha: "1 de septiembre",
   anio: 1844,
   respuesta:

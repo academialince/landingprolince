@@ -11,9 +11,9 @@ import { clamp, colores, fondo, fontFamily } from "../MensajeDelDia/theme";
 import { Etiqueta } from "./Etiqueta";
 import { CuriosidadProps } from "./schema";
 
-export const Gancho: React.FC<
-  Pick<CuriosidadProps, "gancho" | "destacado">
-> = ({ gancho, destacado }) => {
+export const Gancho: React.FC<Pick<CuriosidadProps, "gancho">> = ({
+  gancho,
+}) => {
   const frame = useCurrentFrame();
 
   return (
@@ -54,26 +54,6 @@ export const Gancho: React.FC<
         }}
       >
         {gancho}
-      </Interactive.Div>
-      <Interactive.Div
-        name="Destacado"
-        style={{
-          alignSelf: "flex-start",
-          transformOrigin: "left center",
-          color: colores.dorado,
-          fontSize: 136,
-          fontWeight: 900,
-          lineHeight: 1,
-          textTransform: "uppercase",
-          scale: interpolate(frame, [40, 62], [0.5, 1], {
-            ...clamp,
-            easing: Easing.spring({ damping: 10 }),
-            output: "perceptual-scale",
-          }),
-          opacity: interpolate(frame, [40, 50], [0, 1], clamp),
-        }}
-      >
-        {destacado}
       </Interactive.Div>
     </AbsoluteFill>
   );
