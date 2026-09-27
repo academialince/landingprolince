@@ -67,11 +67,10 @@ export const duracionPregunta = (segundosCuenta: number, fps: number) =>
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
-/** Fondo del hero de la web: aura que respira, rejilla girada, marca de agua, órbitas y partículas. */
+/** Fondo del hero de la web: aura que respira, rejilla girada y partículas. */
 const EscenaFondo: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) => {
   const s = frame / fps;
   const respira = (periodo: number, desfase = 0) => Math.sin(((s + desfase) / periodo) * Math.PI * 2);
-  const orbita = (periodo: number, sentido: number) => -25 + sentido * (s / periodo) * 360;
   return (
     <AbsoluteFill style={{ overflow: "hidden" }}>
       <div
@@ -97,53 +96,6 @@ const EscenaFondo: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) =
           maskImage: "radial-gradient(ellipse, black, transparent 70%)",
         }}
       />
-      <div
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: `translate(-50%, -50%) rotate(-12deg) translateX(${Math.sin(s / 6) * 30}px)`,
-          fontSize: 330,
-          fontWeight: 850,
-          letterSpacing: "-0.065em",
-          color: "transparent",
-          WebkitTextStroke: "2px #03512d22",
-          whiteSpace: "nowrap",
-        }}
-      >
-        ProLince
-      </div>
-      {[
-        { ancho: 1400, periodo: 24, sentido: 1, estilo: "solid" },
-        { ancho: 1120, periodo: 32, sentido: -1, estilo: "dashed" },
-      ].map((o) => (
-        <div
-          key={o.ancho}
-          style={{
-            position: "absolute",
-            left: "50%",
-            top: "58%",
-            width: o.ancho,
-            height: o.ancho,
-            border: `2px ${o.estilo} #03512d24`,
-            borderRadius: "50%",
-            transform: `translate(-50%, -50%) rotate(${orbita(o.periodo, o.sentido)}deg) scaleY(.8)`,
-          }}
-        >
-          <span
-            style={{
-              position: "absolute",
-              left: "50%",
-              top: -10,
-              width: 20,
-              height: 20,
-              borderRadius: "50%",
-              background: C.punto,
-              boxShadow: "0 0 0 14px #439b6415",
-            }}
-          />
-        </div>
-      ))}
       {[
         { top: "30%", left: "6%", tam: 12, d: 0 },
         { top: "78%", left: "90%", tam: 12, d: 2 },
