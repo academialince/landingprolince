@@ -47,7 +47,7 @@ export function Footer() {
                 {whatsapp && (
                   <li>
                     <a
-                      href={`https://wa.me/${whatsapp}`}
+                      href={`https://wa.me/${whatsapp}?text=${encodeURIComponent(site.contacto.mensajeWhatsapp)}`}
                       className="inline-flex items-center gap-2 hover:underline"
                     >
                       <MessageCircle size={16} aria-hidden />

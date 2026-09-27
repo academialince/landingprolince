@@ -17,12 +17,10 @@ export const site = {
   contacto: {
     email: null as string | null, // PENDIENTE: correo público
     telefono: null as string | null, // PENDIENTE: teléfono público
-    /**
-     * PENDIENTE: número real en formato internacional y sin signos (por ejemplo 34600112233).
-     * El que hay es un marcador: pertenece a un rango no asignado, así que el enlace no abre
-     * conversación con nadie. Sustituirlo antes de publicar.
-     */
-    whatsapp: "34600000000" as string | null,
+    /** Formato internacional y sin signos, como lo pide wa.me. */
+    whatsapp: "34695834018" as string | null,
+    /** Texto con el que se abre la conversación desde el botón flotante y el pie. */
+    mensajeWhatsapp: "Hola, quería más información de Academia Prolince.",
   },
 
   /** PENDIENTE: razón social, NIF y domicilio para el aviso legal. */

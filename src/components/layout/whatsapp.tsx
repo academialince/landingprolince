@@ -1,7 +1,5 @@
 import { site } from "@/content/site";
 
-const MENSAJE = "Hola, me interesa preparar la oposición con ProLince.";
-
 /**
  * Botón flotante de contacto, calcado del de revelao.cam: pastilla blanca con la pregunta y,
  * separado por 12 px, un círculo verde de 64 px con el glifo. Medidas y sombras tomadas del
@@ -16,7 +14,7 @@ export function BotonWhatsapp() {
 
   return (
     <a
-      href={`https://wa.me/${numero}?text=${encodeURIComponent(MENSAJE)}`}
+      href={`https://wa.me/${numero}?text=${encodeURIComponent(site.contacto.mensajeWhatsapp)}`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Hablar por WhatsApp"

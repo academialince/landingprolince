@@ -769,17 +769,15 @@ puede escribir.
 **Bloquea la publicación** (todo son datos que no se pueden inventar):
 
 1. **Cuenta editora del blog** en Supabase Auth (§14).
-2. **Número de WhatsApp real.** `site.contacto.whatsapp` tiene un marcador de un rango no
-   asignado: el botón no abre conversación con nadie.
-3. **Las cifras del faldón de KPIs.** Son provisionales. Publicar datos de resultados que no se
+2. **Las cifras del faldón de KPIs.** Son provisionales. Publicar datos de resultados que no se
    puedan sostener es publicidad engañosa, y en una academia de oposiciones es lo que más caro
    sale.
-4. **Los testimonios.** Los seis actuales son un borrador. Un testimonio es una afirmación sobre
+3. **Los testimonios.** Los seis actuales son un borrador. Un testimonio es una afirmación sobre
    una persona: o es real y está autorizado por escrito, o no se publica.
-5. **Los precios de la tienda**, y la política de bajas y devoluciones.
-6. **Identidad fiscal**: razón social, NIF y domicilio. Las páginas legales avisan en pantalla
+4. **Los precios de la tienda**, y la política de bajas y devoluciones.
+5. **Identidad fiscal**: razón social, NIF y domicilio. Las páginas legales avisan en pantalla
    mientras falten.
-7. **Correo y teléfono públicos.**
+6. **Correo y teléfono públicos.**
 
 **Mejora lo que ya hay:**
 
