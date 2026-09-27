@@ -43,8 +43,8 @@ Usa la primera vía disponible:
 
 ## 3. Vídeo
 
-`npm run render` genera `out/pregunta-del-dia-<N>.mp4` y `out/pregunta-del-dia-<N>-portada.png`.
-Revisa el fotograma de la solución **del MP4 final**: `npx remotion ffmpeg -y -ss 14 -i out/pregunta-del-dia-<N>.mp4 -frames:v 1 -vf scale=324:-1 out/revision.png` y míralo con Read. La opción marcada debe ser la correcta, debe verse sobre la tarjeta de la explicación y ningún texto puede cortarse. Borra después `out/revision.png`.
+`npm run render` genera `out/pregunta-<N>.mp4` y `out/pregunta-<N>-portada.png` (los vídeos se nombran siempre `pregunta-<nº>`).
+Revisa el fotograma de la solución **del MP4 final**: `npx remotion ffmpeg -y -ss 14 -i out/pregunta-<N>.mp4 -frames:v 1 -vf scale=324:-1 out/revision.png` y míralo con Read. La opción marcada debe ser la correcta, debe verse sobre la tarjeta de la explicación y ningún texto puede cortarse. Borra después `out/revision.png`.
 
 ## 4. Descripción
 

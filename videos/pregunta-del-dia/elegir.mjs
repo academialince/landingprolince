@@ -129,7 +129,8 @@ for (const archivo of archivos) {
 const fecha = opcion("--fecha") ?? new Date().toISOString().slice(0, 10);
 const numero = opcion("--numero") ? Number(opcion("--numero")) : null;
 // Desde la publicación 1 van numeradas; la fecha solo queda como dato de cuándo se generó.
-const idPublicacion = `pregunta-del-dia-${numero ?? fecha}`;
+// Nombre de los archivos: pregunta-<nº> (pregunta-1.mp4, pregunta-1-portada.png…).
+const idPublicacion = numero ? `pregunta-${numero}` : `pregunta-del-dia-${fecha}`;
 const libres = candidatas.filter((c) => !usadas.has(normaliza(c.enunciadoOriginal)));
 let elegida;
 if (opcion("--fila")) {
