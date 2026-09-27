@@ -6,8 +6,7 @@
  *
  * Necesita Playwright (Chromium) y un ffmpeg con libx264. El ffmpeg se toma de $FFMPEG o del PATH;
  * `pip install imageio-ffmpeg` trae uno estático válido.
- * La pista de audio son efectos sintetizados (tic del contador, cuenta atrás y acierto) para que
- * el vídeo no salga mudo; en Instagram/TikTok se puede bajar su volumen y poner música encima.
+ * El vídeo sale sin pista de audio: la música se añade en Instagram/TikTok.
  */
 import { chromium } from "playwright";
 import { spawn } from "node:child_process";
@@ -26,7 +25,7 @@ await page.evaluate(async () => {
   await document.fonts.ready;
   await Promise.all([...document.images].map((i) => (i.complete ? null : new Promise((r) => (i.onload = i.onerror = r)))));
 });
-const { DUR, FPS, T } = await page.evaluate(() => window.VIDEO);
+const { DUR, FPS } = await page.evaluate(() => window.VIDEO);
 const stage = await page.$("#stage");
 
 if (stillsArg > -1) {
@@ -38,29 +37,11 @@ if (stillsArg > -1) {
   process.exit(0);
 }
 
-/* Efectos: [instante, frecuencia, duración, volumen] */
-const sfx = [];
-const t0 = T.s3 + 0.5;
-for (let i = 0; i < 11; i++) sfx.push([t0 + i * 0.24, 880 + i * 40, 0.06, 0.25]);
-const cd1 = T.s6 + 2.0 + 3;
-for (let i = 0; i < 3; i++) sfx.push([cd1 - 3 + i, 660, 0.09, 0.3]);
-sfx.push([cd1, 1046.5, 0.18, 0.35], [cd1 + 0.12, 1318.5, 0.35, 0.35]);
-sfx.push([T.s2, 220, 0.25, 0.35], [T.s5 + 1.6, 330, 0.15, 0.3]);
-
-const entradas = sfx.flatMap(([, f, d]) => ["-f", "lavfi", "-i", `sine=frequency=${f}:duration=${d}`]);
-const filtros = sfx
-  .map(([t, , d, v], i) => `[${i + 1}:a]afade=t=out:st=${Math.max(0, d - 0.04)}:d=0.04,volume=${v * 3},adelay=${Math.round(t * 1000)}:all=1[a${i}]`)
-  .join(";");
-const mezcla = `${filtros};${sfx.map((_, i) => `[a${i}]`).join("")}amix=inputs=${sfx.length}:normalize=0,apad=whole_dur=${DUR}[aout]`;
-
 const ff = spawn(ffmpeg, [
   "-y", "-loglevel", "error",
   "-f", "image2pipe", "-framerate", String(FPS), "-c:v", "png", "-i", "-",
-  ...entradas,
-  "-filter_complex", mezcla,
-  "-map", "0:v", "-map", "[aout]",
   "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p", "-profile:v", "high",
-  "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart",
+  "-an", "-movflags", "+faststart",
   salida,
 ], { stdio: ["pipe", "inherit", "inherit"] });
 

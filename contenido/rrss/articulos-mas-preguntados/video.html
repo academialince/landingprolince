@@ -3,198 +3,196 @@
 <head>
 <meta charset="utf-8">
 <title>Artículos que más caen · vídeo</title>
-<style>
-  /* Fuentes locales (subconjunto latino de Google Fonts, licencia OFL) para que el render no dependa de la red */
-  @font-face { font-family: "Barlow Condensed"; font-weight: 600; font-display: block; src: url(fuentes/barlow-condensed-600.woff2) format("woff2"); }
-  @font-face { font-family: "Barlow Condensed"; font-weight: 700; font-display: block; src: url(fuentes/barlow-condensed-700.woff2) format("woff2"); }
-  @font-face { font-family: "Outfit"; font-weight: 100 900; font-display: block; src: url(fuentes/outfit-variable.woff2) format("woff2"); }
-</style>
 <!--
   Plantilla de vídeo vertical (1080×1920, Reels/TikTok/Shorts) de la serie
-  «Los artículos que más caen». Mismo look que las stories estáticas Top_XX_Art_*.png:
-  crema #F5F1E6, verde #0D4A35, dorado #C8A04A, Barlow Condensed + Outfit.
+  «Los artículos que más caen», con el sistema visual de prolinceacademia.com
+  (src/app/globals.css): Manrope, fondo blanco con halo verde y trama de puntos,
+  verde #03512D, verde suave #E3F4E8, verde profundo #002A15 e iconos Lucide.
 
   Para otro artículo del Top 30 basta con cambiar el objeto DATA.
   Abierto en el navegador se reproduce solo; render.mjs lo pasa a MP4 fotograma a fotograma
   llamando a window.render(t), así que toda la animación depende únicamente de t.
 -->
 <style>
+  /* Manrope variable, subconjunto latino (el mismo archivo que sirve la web vía @fontsource) */
+  @font-face { font-family: "Manrope"; font-weight: 200 800; font-display: block; src: url(fuentes/manrope-variable.woff2) format("woff2"); }
+
+  /* Tokens de globals.css convertidos de oklch a hex */
   :root {
-    --bg: #f5f1e6;
-    --green: #0d4a35;
-    --green-deep: #08301f;
-    --gold: #c8a04a;
-    --ink: #0f241c;
-    --muted: #4a5a52;
-    --line: #ddd5c2;
-    --card: #ffffff;
-    --ok: #1f7a4d;
+    --fg: #121b16;
+    --primary: #03512d;
+    --primary-soft: #e3f4e8;
+    --primary-soft-fg: #004624;
+    --primary-deep: #002a15;
+    --muted: #f2f7f5;
+    --muted-fg: #535e57;
+    --border: #dde4e0;
+    --border-strong: #c3cdc8;
+    --warning: #a46e00;
+    --warning-soft: #fbf1dc;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { background: #111; }
   body { display: grid; place-items: center; min-height: 100vh; overflow: hidden; }
   #stage {
     position: relative; width: 1080px; height: 1920px; overflow: hidden;
-    background: var(--bg); color: var(--ink);
-    font-family: Outfit, system-ui, sans-serif;
-    transform-origin: center center;
+    background: #fff; color: var(--fg);
+    font-family: Manrope, system-ui, sans-serif; -webkit-font-smoothing: antialiased;
+    font-variant-numeric: tabular-nums;
   }
-  body.render { display: block; background: var(--bg); }
+  body.render { display: block; background: #fff; }
   body.render #stage { transform: none !important; }
 
+  /* Fondo del hero de la web: halo verde arriba a la derecha y trama de puntos que se desvanece */
+  #halo { inset: 0; background: radial-gradient(120% 55% at 85% -8%, var(--primary-soft) 0%, transparent 60%); }
+  #puntos { inset: 0; opacity: .55;
+    background-image: radial-gradient(color-mix(in oklch, var(--primary) 16%, transparent) 2px, transparent 2px);
+    background-size: 52px 52px;
+    -webkit-mask-image: radial-gradient(80% 42% at 50% 0%, black, transparent);
+            mask-image: radial-gradient(80% 42% at 50% 0%, black, transparent); }
+
   .abs { position: absolute; }
-  .display { font-family: "Barlow Condensed", Outfit, sans-serif; font-weight: 700; letter-spacing: -0.01em; line-height: .92; color: var(--green); }
-  .eyebrow { font-weight: 600; font-size: 25px; letter-spacing: .16em; text-transform: uppercase; color: var(--green); }
-  .eyebrow.gold { color: var(--gold); }
-  .eyebrow.muted { color: var(--muted); }
+  .eyebrow { font-size: 26px; line-height: 1.2; letter-spacing: .08em; font-weight: 600; text-transform: uppercase; color: var(--primary); }
+  .display { font-weight: 780; letter-spacing: -0.038em; line-height: 1.06; color: var(--fg); }
+  .subrayado { position: relative; white-space: nowrap; z-index: 0; }
+  .subrayado i { position: absolute; left: 0; right: 0; bottom: .08em; height: .32em; background: var(--primary-soft); z-index: -1;
+                 transform-origin: 0 50%; }
+  .tile { flex: none; display: grid; place-items: center; width: 84px; height: 84px; border-radius: 22px; background: var(--primary-soft); color: var(--primary); }
+  .tile svg { width: 40px; height: 40px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
-  /* Cabecera fija */
-  #logo { left: 96px; top: 250px; width: 263px; }
-  #pill { right: 96px; top: 272px; height: 52px; padding: 0 23px; border-radius: 26px; background: var(--green);
-          color: #fff; font-weight: 700; font-size: 23px; letter-spacing: .08em; display: flex; align-items: center; }
+  /* Cabecera */
+  #logo { left: 96px; top: 236px; width: 300px; }
+  #pill { right: 96px; top: 244px; height: 64px; padding: 0 28px; border-radius: 14px; background: var(--primary); color: #f9fdfa;
+          font-weight: 700; font-size: 26px; letter-spacing: .02em; display: flex; align-items: center;
+          box-shadow: 0 8px 22px color-mix(in oklch, var(--primary) 18%, transparent); }
 
-  /* Escena 1: gancho */
-  #s1-eyebrow { left: 96px; top: 392px; }
-  #s1-q { left: 96px; top: 470px; width: 890px; font-size: 150px; }
-  #s1-q span { display: block; }
-  #s1-n1 { left: 96px; top: 1130px; display: flex; align-items: baseline; gap: 26px; }
-  #s1-n1 .display { font-size: 330px; color: var(--gold); }
-  #s1-n1 .t { font-size: 38px; font-weight: 600; color: var(--muted); max-width: 420px; line-height: 1.2; }
+  /* 1 · Gancho */
+  #s1-eyebrow { left: 96px; top: 420px; }
+  #s1-q { left: 96px; top: 478px; width: 900px; font-size: 128px; }
+  #s1-q > span { display: block; }
+  #s1-sub { left: 96px; top: 1170px; width: 820px; font-size: 38px; line-height: 1.5; color: var(--muted-fg); }
 
-  /* Escena 2: revelación */
-  #s2-eyebrow { left: 96px; top: 392px; }
-  #s2-art { left: 90px; top: 420px; font-size: 218px; white-space: nowrap; transform-origin: 0 0; }
-  #s2-ley { left: 96px; top: 640px; font-size: 38px; font-weight: 700; color: var(--ink); }
-  #s2-chip { left: 96px; top: 700px; padding: 12px 26px; border-radius: 30px; background: #e6eee8; color: var(--green);
-             font-size: 30px; font-weight: 600; }
+  /* 2 · Revelación */
+  #s2-eyebrow { left: 96px; top: 420px; }
+  #s2-art { left: 90px; top: 470px; font-size: 176px; letter-spacing: -0.045em; line-height: 1; white-space: nowrap; transform-origin: 0 60%; }
+  #s2-ley { left: 96px; top: 672px; font-size: 36px; font-weight: 600; color: var(--muted-fg); }
+  #s2-chip { left: 96px; top: 736px; display: flex; align-items: center; gap: 12px; padding: 14px 26px; border-radius: 999px;
+             background: var(--primary-soft); color: var(--primary-soft-fg); font-size: 30px; font-weight: 700; transform-origin: 0 50%; }
+  #s2-chip b { width: 12px; height: 12px; border-radius: 50%; background: var(--primary); }
 
-  /* Escena 3: contador */
-  #s3-card { left: 96px; top: 800px; width: 888px; height: 214px; background: var(--card); border: 2px solid var(--line);
-             border-radius: 24px; padding: 26px 32px; }
-  #s3-card .row { display: flex; align-items: baseline; gap: 16px; }
-  #s3-num { font-size: 92px; }
-  #s3-card .lbl { font-size: 26px; font-weight: 600; color: var(--muted); }
-  #s3-dots { display: flex; gap: 8px; margin-top: 14px; }
-  #s3-dots i { width: 30px; height: 30px; border-radius: 8px; background: var(--green); display: block; }
-  #s3-years { margin-top: 16px; font-size: 23px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+  /* 3 · Contador (banda de KPI de la web) */
+  #s3-card { left: 96px; top: 880px; width: 888px; background: var(--primary-deep); border-radius: 28px; padding: 44px 48px 46px; color: #fff; }
+  #s3-card .fila { display: flex; align-items: baseline; gap: 22px; }
+  #s3-num { font-size: 190px; font-weight: 780; letter-spacing: -0.04em; line-height: .9; min-width: 205px; }
+  #s3-card .veces { font-size: 44px; font-weight: 680; color: var(--primary-soft); letter-spacing: -0.015em; }
+  #s3-card .det { font-size: 30px; color: rgb(255 255 255 / .65); margin-top: 4px; }
+  #s3-dots { display: flex; gap: 12px; margin-top: 34px; }
+  #s3-dots i { width: 56px; height: 14px; border-radius: 7px; background: #d8f5df; display: block; transform-origin: 0 50%; }
+  #s3-years { margin-top: 22px; font-size: 27px; font-weight: 600; color: rgb(255 255 255 / .65); white-space: nowrap; }
 
-  /* Escena 4: qué dice */
-  #s4-eyebrow { left: 96px; top: 820px; }
-  .fact { left: 96px; width: 888px; display: flex; gap: 24px; align-items: flex-start; }
-  .fact .n { flex: none; width: 56px; height: 56px; border-radius: 16px; background: var(--green); color: #fff;
-             font-family: "Barlow Condensed"; font-weight: 700; font-size: 36px; display: grid; place-items: center; }
-  .fact .k { font-size: 22px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
-  .fact .v { font-size: 35px; font-weight: 600; line-height: 1.22; color: var(--ink); margin-top: 3px; }
-  .fact .v b { color: var(--green); font-weight: 700; }
+  /* 4 · Qué dice */
+  #s4-eyebrow { left: 96px; top: 880px; }
+  .fact { left: 96px; width: 888px; display: flex; gap: 30px; align-items: flex-start; }
+  .fact .k { font-size: 34px; font-weight: 700; letter-spacing: -0.015em; color: var(--fg); line-height: 1.25; margin-top: 2px; }
+  .fact .v { font-size: 31px; line-height: 1.45; color: var(--muted-fg); margin-top: 4px; }
+  .fact .v b { color: var(--primary); font-weight: 700; }
 
-  /* Escena 5: tribunal y trampa */
-  #s5-card { left: 96px; top: 830px; width: 888px; background: var(--green); border-radius: 26px; padding: 36px 32px 38px; color: #fff; }
-  #s5-card .v { font-size: 44px; font-weight: 600; line-height: 1.2; margin-top: 12px; }
-  #s5-trap { left: 96px; top: 1170px; width: 888px; background: #fff7e4; border: 2px solid var(--gold); border-radius: 22px; padding: 24px 30px; }
-  #s5-trap .v { font-size: 33px; font-weight: 600; line-height: 1.25; margin-top: 8px; }
-  #s5-trap .v b { color: #8a6516; }
+  /* 5 · Tribunal y trampa */
+  #s5-card { left: 96px; top: 880px; width: 888px; background: var(--primary-deep); border-radius: 28px; padding: 44px 48px 48px; color: #fff; }
+  #s5-card .eyebrow { color: #a9e9bc; }
+  #s5-card .v { font-size: 46px; font-weight: 700; line-height: 1.25; letter-spacing: -0.02em; margin-top: 18px; }
+  #s5-trap { left: 96px; top: 1245px; width: 888px; background: #fff; border: 2px solid var(--border); border-radius: 28px; padding: 36px 40px;
+             display: flex; gap: 28px; box-shadow: 0 30px 60px -30px color-mix(in oklch, var(--primary) 45%, transparent); }
+  #s5-trap .tile { background: var(--warning-soft); color: var(--warning); }
+  #s5-trap .eyebrow { color: var(--warning); font-size: 24px; }
+  #s5-trap .v { font-size: 33px; line-height: 1.4; margin-top: 10px; color: var(--fg); }
+  #s5-trap .v b { color: var(--primary); font-weight: 700; }
 
-  /* Escena 6: mini test */
-  #s6 { left: 96px; top: 380px; width: 888px; }
-  #s6-q { font-size: 56px; font-weight: 700; line-height: 1.16; color: var(--ink); margin-top: 18px; }
-  #s6-opts { margin-top: 44px; display: grid; gap: 22px; }
-  .opt { display: flex; align-items: center; gap: 24px; background: #fff; border: 2px solid var(--line); border-radius: 22px; padding: 22px 26px; }
-  .opt .l { flex: none; width: 62px; height: 62px; border-radius: 16px; background: var(--bg); border: 2px solid var(--line);
-            display: grid; place-items: center; font-family: "Barlow Condensed"; font-weight: 700; font-size: 38px; color: var(--green); }
-  .opt .t { font-size: 38px; font-weight: 600; color: var(--ink); }
-  .opt.ok { background: var(--green); border-color: var(--green); }
-  .opt.ok .l { background: #fff; border-color: #fff; }
-  .opt.ok .t { color: #fff; }
-  #s6-timer { left: 50%; top: 1170px; width: 170px; height: 170px; margin-left: -85px; }
-  #s6-timer svg { width: 100%; height: 100%; transform: rotate(-90deg); }
-  #s6-timer .num { position: absolute; inset: 0; display: grid; place-items: center; font-family: "Barlow Condensed"; font-weight: 700;
-                   font-size: 96px; color: var(--green); }
-  #s6-ref { left: 96px; top: 1335px; width: 888px; font-size: 32px; font-weight: 600; color: var(--muted); line-height: 1.3; }
-  #s6-ref b { color: var(--green); }
+  /* Pie */
+  #foot { left: 96px; right: 96px; top: 1590px; display: flex; justify-content: space-between; font-size: 25px; font-weight: 600; color: var(--muted-fg); }
+  #bar { left: 96px; right: 96px; top: 1640px; height: 8px; border-radius: 4px; background: var(--border); overflow: hidden; }
+  #bar i { display: block; height: 100%; width: 0; background: var(--primary); border-radius: 4px; }
 
-  /* Escena 7: cierre */
-  #s7 { left: 0; top: 0; width: 1080px; height: 1920px; background: var(--green); color: #fff; }
-  #s7-iso { left: 50%; top: 360px; width: 250px; margin-left: -125px; }
-  #s7-brand { left: 0; width: 1080px; top: 640px; text-align: center; }
-  #s7-brand .a { font-family: "Barlow Condensed"; font-weight: 700; font-size: 96px; letter-spacing: .02em; line-height: 1; }
-  #s7-brand .b { font-family: "Barlow Condensed"; font-weight: 600; font-size: 44px; letter-spacing: .42em; margin-top: 4px; padding-left: .42em; }
-  #s7-msg { left: 96px; width: 888px; top: 880px; text-align: center; }
-  #s7-msg .big { font-size: 64px; font-weight: 700; line-height: 1.12; }
-  #s7-msg .next { margin-top: 30px; display: inline-block; padding: 14px 30px; border-radius: 34px; background: var(--gold); color: var(--green-deep);
-                  font-size: 34px; font-weight: 700; }
-  #s7-web { left: 96px; width: 888px; top: 1230px; text-align: center; font-size: 34px; font-weight: 500; line-height: 1.35; color: #dfe9e3; }
-  #s7-web b { color: #fff; font-weight: 700; }
-  #s7-handle { left: 0; width: 1080px; top: 1440px; text-align: center; font-size: 34px; font-weight: 700; color: var(--gold); }
-
-  /* Pie fijo */
-  #foot { left: 96px; right: 96px; top: 1560px; display: flex; justify-content: space-between; font-size: 23px; font-weight: 600; color: var(--muted); }
-  #bar { left: 96px; right: 96px; top: 1606px; height: 6px; border-radius: 3px; background: #e6dfcf; overflow: hidden; }
-  #bar i { display: block; height: 100%; width: 0; background: var(--gold); }
+  /* 6 · Cierre (sección CTA de la web) */
+  #s6 { left: 0; top: 0; width: 1080px; height: 1920px; background: var(--primary-deep); color: #fff; }
+  #s6-puntos { inset: 0; opacity: .5;
+    background-image: radial-gradient(rgb(255 255 255 / .09) 2px, transparent 2px); background-size: 52px 52px;
+    -webkit-mask-image: radial-gradient(70% 45% at 50% 40%, black, transparent); mask-image: radial-gradient(70% 45% at 50% 40%, black, transparent); }
+  #s6-iso { left: 50%; top: 470px; width: 230px; margin-left: -115px; }
+  #s6-t { left: 96px; width: 888px; top: 800px; text-align: center; font-size: 80px; font-weight: 780; letter-spacing: -0.038em; line-height: 1.06; }
+  #s6-p { left: 126px; width: 828px; top: 950px; text-align: center; font-size: 38px; line-height: 1.5; color: rgb(255 255 255 / .75); }
+  #s6-btn { left: 50%; top: 1110px; transform-origin: 50% 50%; }
+  #s6-btn span { display: inline-flex; align-items: center; gap: 16px; height: 96px; padding: 0 44px; border-radius: 18px; background: #fff; color: var(--primary-deep);
+                 font-size: 38px; font-weight: 700; white-space: nowrap; transform: translateX(-50%); }
+  #s6-btn svg { width: 36px; height: 36px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+  #s6-handle { left: 0; width: 1080px; top: 1270px; text-align: center; font-size: 32px; font-weight: 700; color: #a9e9bc; }
 </style>
 </head>
 <body>
 <div id="stage">
-  <!-- Escena 1 -->
+  <div id="halo" class="abs"></div>
+  <div id="puntos" class="abs"></div>
+
+  <!-- 1 -->
   <div id="s1-eyebrow" class="abs eyebrow"></div>
   <div id="s1-q" class="abs display"></div>
-  <div id="s1-n1" class="abs"><div class="display">Nº&nbsp;1</div><div class="t">El artículo que más veces ha preguntado el Tribunal</div></div>
+  <div id="s1-sub" class="abs"></div>
 
-  <!-- Escena 2 -->
+  <!-- 2 -->
   <div id="s2-eyebrow" class="abs eyebrow"></div>
   <div id="s2-art" class="abs display"></div>
   <div id="s2-ley" class="abs"></div>
-  <div id="s2-chip" class="abs"></div>
+  <div id="s2-chip" class="abs"><b></b><span></span></div>
 
-  <!-- Escena 3 -->
+  <!-- 3 -->
   <div id="s3-card" class="abs">
-    <div class="row"><div id="s3-num" class="display">0 veces</div><div class="lbl">en exámenes oficiales</div></div>
+    <div class="fila"><div id="s3-num">0</div><div><div class="veces">veces</div><div class="det">en exámenes oficiales</div></div></div>
     <div id="s3-dots"></div>
     <div id="s3-years"></div>
   </div>
 
-  <!-- Escena 4 -->
-  <div id="s4-eyebrow" class="abs eyebrow muted">Qué dice</div>
+  <!-- 4 -->
+  <div id="s4-eyebrow" class="abs eyebrow">Qué dice</div>
   <div id="s4-facts"></div>
 
-  <!-- Escena 5 -->
-  <div id="s5-card" class="abs"><div class="eyebrow gold">Lo que pregunta el Tribunal</div><div class="v"></div></div>
-  <div id="s5-trap" class="abs"><div class="eyebrow" style="color:#8a6516;display:flex;align-items:center;gap:12px"><svg width="30" height="27" viewBox="0 0 30 27" aria-hidden="true"><path d="M15 1.5 28.5 25.5h-27z" fill="#c8a04a"/><rect x="13.6" y="9" width="2.8" height="9" rx="1.4" fill="#fff7e4"/><circle cx="15" cy="21.3" r="1.7" fill="#fff7e4"/></svg>Trampa típica</div><div class="v"></div></div>
-
-  <!-- Escena 6 -->
-  <div id="s6" class="abs">
-    <div class="eyebrow">Ponte a prueba · 3 segundos</div>
-    <div id="s6-q"></div>
-    <div id="s6-opts"></div>
+  <!-- 5 -->
+  <div id="s5-card" class="abs"><div class="eyebrow">Lo que pregunta el Tribunal</div><div class="v"></div></div>
+  <div id="s5-trap" class="abs">
+    <div class="tile"><svg viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></div>
+    <div><div class="eyebrow">Trampa típica</div><div class="v"></div></div>
   </div>
-  <div id="s6-timer" class="abs">
-    <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="none" stroke="#e6dfcf" stroke-width="8"/>
-      <circle id="s6-ring" cx="50" cy="50" r="44" fill="none" stroke="#c8a04a" stroke-width="8" stroke-linecap="round" stroke-dasharray="276.46" stroke-dashoffset="0"/></svg>
-    <div class="num">3</div>
-  </div>
-  <div id="s6-ref" class="abs"></div>
 
-  <!-- Cabecera y pie (encima de las escenas 1-6) -->
+  <!-- Cabecera y pie -->
   <img id="logo" class="abs" src="logo.svg" alt="ProLince Academia">
   <div id="pill" class="abs">TOP 30</div>
   <div id="foot" class="abs"><span></span><span>@prolinceacademia</span></div>
   <div id="bar" class="abs"><i></i></div>
 
-  <!-- Escena 7 -->
-  <div id="s7" class="abs">
-    <img id="s7-iso" class="abs" src="iso.svg" alt="">
-    <div id="s7-brand" class="abs"><div class="a">PROLINCE</div><div class="b">ACADEMIA</div></div>
-    <div id="s7-msg" class="abs"><div class="big">Guárdalo para tu repaso<br>y compártelo con quien oposita</div><div class="next"></div></div>
-    <div id="s7-web" class="abs">Temario, tests y simulacros cronometrados en<br><b>prolinceacademia.com</b></div>
-    <div id="s7-handle" class="abs">@prolinceacademia</div>
+  <!-- 6 -->
+  <div id="s6" class="abs">
+    <div id="s6-puntos" class="abs"></div>
+    <img id="s6-iso" class="abs" src="iso.svg" alt="">
+    <div id="s6-t" class="abs">Guárdalo para tu repaso</div>
+    <div id="s6-p" class="abs">Temario, tests y simulacros cronometrados en un solo sitio.</div>
+    <div id="s6-btn" class="abs"><span>prolinceacademia.com <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></div>
+    <div id="s6-handle" class="abs">@prolinceacademia</div>
   </div>
 </div>
 
 <script>
 /* ───────────── Datos del vídeo (lo único que cambia entre artículos) ───────────── */
+const ICONOS = {
+  gavel: '<path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381"/><path d="m16 16 6-6"/><path d="m21.5 10.5-8-8"/><path d="m8 8 6-6"/><path d="m8.5 7.5 8 8"/>',
+  idCard: '<path d="M13 19a4 4 0 00-8 0"/><path d="M16 10h2"/><path d="M16 14h2"/><circle cx="9" cy="12" r="3"/><rect x="2" y="5" width="20" height="14" rx="2"/>',
+  hourglass: '<path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/>',
+  users: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/>',
+};
+
 const DATA = {
-  puesto: 1,
   tema: "Tema 9",
-  pregunta: ["¿Qué artículo", "ha caído más", "veces en el", "Tema 9?"],
+  // La parte entre [corchetes] lleva el subrayado verde de la web
+  pregunta: ["¿Qué artículo", "ha caído", "[más veces]", "en el Tema 9?"],
+  subtitulo: "Lo hemos contado en los exámenes oficiales de 2017 a 2026.",
   articulo: "Art. 282 bis",
   ley: "LECrim · Ley de Enjuiciamiento Criminal",
   apodo: "El agente encubierto",
@@ -202,187 +200,149 @@ const DATA = {
   anios: "2017 ×3 · 2018 ×3 · 2019 · 2022 · 2023 · 2024 · 2025",
   fuente: "Histórico de exámenes oficiales 2017–2026",
   claves: [
-    ["Quién lo autoriza", "El <b>Juez de Instrucción</b> o el <b>Ministerio Fiscal</b>, dando cuenta inmediata al Juez"],
-    ["Quién otorga la identidad", "El <b>Ministerio del Interior</b>"],
-    ["Cuánto dura", "<b>6 meses</b>, prorrogables por periodos de igual duración"],
-    ["Delincuencia organizada", "Asociación de <b>3 o más personas</b>, de forma permanente o reiterada"],
+    ["gavel", "Quién lo autoriza", "El <b>Juez de Instrucción</b> o el <b>Ministerio Fiscal</b>, dando cuenta inmediata al Juez"],
+    ["idCard", "Quién otorga la identidad", "El <b>Ministerio del Interior</b>"],
+    ["hourglass", "Cuánto dura", "<b>6 meses</b>, prorrogables por periodos de igual duración"],
+    ["users", "Delincuencia organizada", "Asociación de <b>3 o más personas</b>, de forma permanente o reiterada"],
   ],
   tribunal: "Quién autoriza, quién otorga la identidad y qué es delincuencia organizada.",
   trampa: "El Juez autoriza, pero la identidad supuesta <b>no la da el Juez</b>: la otorga el <b>Ministerio del Interior</b>.",
-  test: {
-    enunciado: "¿Quién otorga la identidad supuesta al agente encubierto?",
-    opciones: ["El Juez de Instrucción", "El Ministerio Fiscal", "El Ministerio del Interior", "La Dirección General de la Guardia Civil"],
-    correcta: 2,
-    referencia: "<b>Art. 282 bis.1 LECrim:</b> «La identidad supuesta será otorgada por el Ministerio del Interior por el plazo de seis meses prorrogables…»",
-  },
-  siguiente: "Mañana, el Nº 2 del Top 30",
 };
 
 /* ───────────── Guion (segundos) ───────────── */
-const T = { s1: 0, s2: 3.4, s3: 6.6, s4: 11.0, s5: 17.6, s6: 22.4, s7: 29.0, fin: 32.5 };
+const T = { s1: 0, s2: 3.2, s3: 6.0, s4: 10.8, s5: 20.0, s6: 28.0, fin: 32.0 };
+const CUENTA = { inicio: T.s3 + 0.4, paso: 0.09 };  // 11 marcas en ~1 s; luego se queda fijo
+const PASO_CLAVES = 2.0;                           // segundos entre cada clave de «Qué dice»
+const RETRASO_TRAMPA = 2.6;                         // segundos entre el Tribunal y la trampa
 const DUR = T.fin;
 const FPS = 30;
 
 /* ───────────── Montaje del DOM ───────────── */
 const $ = (s) => document.querySelector(s);
-$("#s1-eyebrow").textContent = `Los artículos que más caen · ${DATA.tema}`;
-$("#s1-q").innerHTML = DATA.pregunta.map((l) => `<span>${l}</span>`).join("");
-$("#s1-n1 .display").innerHTML = `Nº&nbsp;${DATA.puesto}`;
-$("#s2-eyebrow").textContent = `Los artículos que más caen · ${DATA.tema}`;
+const eyebrow = `Los artículos que más caen · ${DATA.tema}`;
+$("#s1-eyebrow").textContent = eyebrow;
+$("#s1-q").innerHTML = DATA.pregunta
+  .map((l) => `<span>${l.replace(/\[(.+?)\]/, '<span class="subrayado">$1<i></i></span>')}</span>`).join("");
+$("#s1-sub").textContent = DATA.subtitulo;
+$("#s2-eyebrow").textContent = eyebrow;
 $("#s2-art").textContent = DATA.articulo;
 $("#s2-ley").textContent = DATA.ley;
-$("#s2-chip").textContent = DATA.apodo;
+$("#s2-chip span").textContent = DATA.apodo;
 $("#s3-dots").innerHTML = Array.from({ length: DATA.veces }, () => "<i></i>").join("");
 $("#s3-years").textContent = DATA.anios;
-$("#s4-facts").innerHTML = DATA.claves.map(([k, v], i) =>
-  `<div class="abs fact" style="top:${870 + i * 170}px"><div class="n">${i + 1}</div><div><div class="k">${k}</div><div class="v">${v}</div></div></div>`).join("");
+$("#s4-facts").innerHTML = DATA.claves.map(([ic, k, v], i) =>
+  `<div class="abs fact" style="top:${940 + i * 152}px"><div class="tile"><svg viewBox="0 0 24 24">${ICONOS[ic]}</svg></div>` +
+  `<div><div class="k">${k}</div><div class="v">${v}</div></div></div>`).join("");
 $("#s5-card .v").textContent = DATA.tribunal;
 $("#s5-trap .v").innerHTML = DATA.trampa;
-$("#s6-q").textContent = DATA.test.enunciado;
-$("#s6-opts").innerHTML = DATA.test.opciones.map((o, i) =>
-  `<div class="opt"><div class="l">${"ABCD"[i]}</div><div class="t">${o}</div></div>`).join("");
-$("#s6-ref").innerHTML = DATA.test.referencia;
-$("#s7-msg .next").textContent = DATA.siguiente;
 $("#foot span").textContent = DATA.fuente;
 
 /* ───────────── Utilidades de animación ───────────── */
 const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
 const p = (t, a, b) => clamp((t - a) / (b - a));
-const outCubic = (x) => 1 - Math.pow(1 - x, 3);
-const outExpo = (x) => (x >= 1 ? 1 : 1 - Math.pow(2, -10 * x));
-const outBack = (x) => { const c = 1.6; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
-const inCubic = (x) => x * x * x;
+// Aproximación de --ease-product: cubic-bezier(0.22, 1, 0.36, 1)
+const ease = (x) => 1 - Math.pow(1 - x, 4);
+const outBack = (x) => { const c = 1.4; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
 
 function set(el, { o = 1, x = 0, y = 0, s = 1 } = {}) {
   el.style.opacity = o;
   el.style.transform = `translate(${x}px, ${y}px) scale(${s})`;
   el.style.visibility = o <= 0.001 ? "hidden" : "visible";
 }
-/* Entrada (sube + aparece) y salida (fundido) entre dos instantes */
-function inOut(el, t, tin, tout, { dy = 40, dur = 0.55, outDur = 0.35, dx = 0 } = {}) {
-  const a = outCubic(p(t, tin, tin + dur));
+/* Entrada tipo [data-reveal] de la web (sube y aparece) y salida en fundido */
+function inOut(el, t, tin, tout, { dy = 36, dx = 0, dur = 0.6, outDur = 0.35 } = {}) {
+  const a = ease(p(t, tin, tin + dur));
   const b = tout == null ? 0 : p(t, tout, tout + outDur);
-  set(el, { o: a * (1 - b), y: (1 - a) * dy - b * 30, x: (1 - a) * dx });
+  set(el, { o: a * (1 - b), y: (1 - a) * dy - b * 24, x: (1 - a) * dx });
 }
 
 /* ───────────── Render determinista ───────────── */
 function render(t) {
+  const fin56 = T.s6; // todo lo claro sale cuando entra el cierre
+
   // Cabecera y pie
-  const hdr = outCubic(p(t, 0, 0.5)) * (1 - p(t, T.s7, T.s7 + 0.4));
-  set($("#logo"), { o: hdr, y: (1 - outCubic(p(t, 0, 0.5))) * -20 });
-  set($("#pill"), { o: hdr, s: 0.8 + 0.2 * outBack(p(t, 0.15, 0.6)) });
+  const hdr = ease(p(t, 0, 0.5));
+  set($("#logo"), { o: hdr, y: (1 - hdr) * -16 });
+  set($("#pill"), { o: hdr, s: 0.9 + 0.1 * hdr });
   set($("#foot"), { o: hdr });
   set($("#bar"), { o: hdr });
-  $("#bar i").style.width = `${clamp(t / T.s7) * 100}%`;
+  $("#bar i").style.width = `${clamp(t / fin56) * 100}%`;
 
   // 1 · Gancho
   const s1out = T.s2 - 0.1;
   inOut($("#s1-eyebrow"), t, 0.2, s1out);
   [...$("#s1-q").children].forEach((l, i) => {
-    const a = outExpo(p(t, 0.35 + i * 0.16, 0.95 + i * 0.16));
+    const a = ease(p(t, 0.3 + i * 0.14, 0.95 + i * 0.14));
     const b = p(t, s1out - 0.05, s1out + 0.3);
-    set(l, { o: a * (1 - b), y: (1 - a) * 70 - inCubic(b) * 120 });
+    set(l, { o: a * (1 - b), y: (1 - a) * 60 - b * 60 });
   });
-  set($("#s1-q"), {});
+  const sub = $("#s1-q .subrayado i");
+  if (sub) sub.style.transform = `scaleX(${ease(p(t, 1.2, 1.8))})`;
+  inOut($("#s1-sub"), t, 1.4, s1out, { dy: 24 });
+
+  // 2 · Revelación (el artículo se queda como titular hasta el cierre)
   {
-    const a = outBack(p(t, 2.0, 2.5));
-    const b = p(t, s1out, s1out + 0.3);
-    set($("#s1-n1"), { o: clamp(a) * (1 - b), s: 0.6 + 0.4 * a, y: -b * 60 });
-    $("#s1-n1").style.transformOrigin = "0 70%";
+    const out = p(t, fin56 - 0.3, fin56);
+    const a = ease(p(t, T.s2, T.s2 + 0.8));
+    set($("#s2-art"), { o: clamp(a * 1.5) * (1 - out), s: 1.12 - 0.12 * a });
+    inOut($("#s2-eyebrow"), t, T.s2 + 0.2, fin56 - 0.3);
+    inOut($("#s2-ley"), t, T.s2 + 0.5, fin56 - 0.3, { dy: 20 });
+    const c = outBack(p(t, T.s2 + 0.9, T.s2 + 1.4));
+    set($("#s2-chip"), { o: clamp(c) * (1 - out), s: 0.8 + 0.2 * c });
   }
 
-  // 2 · Revelación (el artículo se queda arriba el resto del vídeo)
-  {
-    const a = outExpo(p(t, T.s2, T.s2 + 0.7));
-    const shrink = outCubic(p(t, T.s4 - 0.2, T.s4 + 0.4)); // no encoge: se mantiene como titular
-    const out = p(t, T.s6 - 0.35, T.s6);
-    const art = $("#s2-art");
-    set(art, { o: clamp(a * 1.4) * (1 - out), s: 1.25 - 0.25 * a, y: -out * 40 });
-    inOut($("#s2-eyebrow"), t, T.s2 + 0.25, T.s6 - 0.35);
-    inOut($("#s2-ley"), t, T.s2 + 0.55, T.s6 - 0.35, { dy: 24 });
-    const c = outBack(p(t, T.s2 + 0.9, T.s2 + 1.35));
-    const co = p(t, T.s6 - 0.35, T.s6);
-    set($("#s2-chip"), { o: clamp(c) * (1 - co), s: 0.7 + 0.3 * c });
-    $("#s2-chip").style.transformOrigin = "0 50%";
-    void shrink;
-  }
-
-  // 3 · Contador (visible hasta la escena 6)
+  // 3 · Contador rápido y pausa larga en el total
   {
     inOut($("#s3-card"), t, T.s3, T.s4 - 0.35, { dy: 60 });
-    const t0 = T.s3 + 0.5, step = 0.24;
-    const n = clamp(Math.floor((t - t0) / step) + 1, 0, DATA.veces);
-    $("#s3-num").textContent = `${n} ${n === 1 ? "vez" : "veces"}`;
+    const { inicio, paso } = CUENTA;
+    const n = clamp(Math.floor((t - inicio) / paso) + 1, 0, DATA.veces);
+    $("#s3-num").textContent = n;
+    $("#s3-card .veces").textContent = n === 1 ? "vez" : "veces";
     [...$("#s3-dots").children].forEach((d, i) => {
-      const a = outBack(p(t, t0 + i * step, t0 + i * step + 0.3));
-      d.style.transform = `scale(${a})`;
-      d.style.opacity = clamp(a);
+      const a = ease(p(t, inicio + i * paso, inicio + i * paso + 0.2));
+      d.style.transform = `scaleX(${a})`;
+      d.style.opacity = a;
     });
-    const y = outCubic(p(t, t0 + DATA.veces * step, t0 + DATA.veces * step + 0.5));
-    set($("#s3-years"), { o: y, x: (1 - y) * -30 });
+    const fin = inicio + DATA.veces * paso;
+    const y = ease(p(t, fin, fin + 0.5));
+    set($("#s3-years"), { o: y, y: (1 - y) * 16 });
+    // pequeño golpe al llegar al total
+    const golpe = Math.sin(Math.PI * p(t, fin - 0.05, fin + 0.35));
+    $("#s3-num").style.transform = `scale(${1 + 0.06 * golpe})`;
+    $("#s3-num").style.transformOrigin = "0 80%";
   }
 
-  // 4 · Qué dice
+  // 4 · Qué dice (más pausado)
   {
-    const out = T.s5 - 0.1;
+    const out = T.s5 - 0.35;
     inOut($("#s4-eyebrow"), t, T.s4, out);
     [...document.querySelectorAll(".fact")].forEach((f, i) => {
-      const tin = T.s4 + 0.3 + i * 1.35;
-      inOut(f, t, tin, out, { dy: 0, dx: -60, dur: 0.5 });
+      inOut(f, t, T.s4 + 0.4 + i * PASO_CLAVES, out, { dy: 0, dx: -50, dur: 0.7 });
     });
   }
 
-  // 5 · Tribunal + trampa
-  inOut($("#s5-card"), t, T.s5, T.s6 - 0.35, { dy: 80, dur: 0.6 });
+  // 5 · Tribunal + trampa (más pausado)
+  inOut($("#s5-card"), t, T.s5, fin56 - 0.3, { dy: 60, dur: 0.7 });
   {
-    const a = outBack(p(t, T.s5 + 1.6, T.s5 + 2.1));
-    const b = p(t, T.s6 - 0.35, T.s6);
-    // pequeño "aviso" al entrar
-    const shake = t > T.s5 + 2.1 && t < T.s5 + 2.6 ? Math.sin((t - T.s5 - 2.1) * 60) * 6 * (1 - p(t, T.s5 + 2.1, T.s5 + 2.6)) : 0;
-    set($("#s5-trap"), { o: clamp(a) * (1 - b), s: 0.85 + 0.15 * a, x: shake });
+    const tin = T.s5 + RETRASO_TRAMPA;
+    const a = outBack(p(t, tin, tin + 0.6));
+    const b = p(t, fin56 - 0.3, fin56);
+    set($("#s5-trap"), { o: clamp(a) * (1 - b), s: 0.9 + 0.1 * a, y: (1 - clamp(a)) * 30 });
   }
 
-  // 6 · Mini test
+  // 6 · Cierre
   {
-    const out = T.s7 - 0.05;
-    const a = outCubic(p(t, T.s6, T.s6 + 0.5));
-    set($("#s6"), { o: a * (1 - p(t, out, out + 0.3)), y: (1 - a) * 50 });
-    const opts = [...document.querySelectorAll(".opt")];
-    const cd0 = T.s6 + 2.0, cd1 = cd0 + 3; // cuenta atrás de 3 s
-    const reveal = p(t, cd1, cd1 + 0.35);
-    opts.forEach((o, i) => {
-      const e = outCubic(p(t, T.s6 + 0.5 + i * 0.18, T.s6 + 0.95 + i * 0.18));
-      const ok = i === DATA.test.correcta;
-      o.classList.toggle("ok", ok && reveal > 0);
-      const fade = ok ? 1 : 1 - 0.6 * reveal;
-      const pop = ok ? 1 + 0.05 * Math.sin(Math.PI * reveal) : 1;
-      o.style.opacity = e * fade;
-      o.style.transform = `translateX(${(1 - e) * 60}px) scale(${pop})`;
-    });
-    // Temporizador
-    const tm = $("#s6-timer");
-    const tv = p(t, T.s6 + 1.2, T.s6 + 1.6) * (1 - p(t, cd1, cd1 + 0.25));
-    set(tm, { o: tv, s: 0.8 + 0.2 * outBack(p(t, T.s6 + 1.2, T.s6 + 1.6)) });
-    const rem = clamp(cd1 - t, 0, 3);
-    tm.querySelector(".num").textContent = Math.max(1, Math.ceil(rem));
-    $("#s6-ring").style.strokeDashoffset = 276.46 * (1 - rem / 3);
-    // Referencia legal tras la solución
-    const r = outCubic(p(t, cd1 + 0.4, cd1 + 0.9));
-    set($("#s6-ref"), { o: r * (1 - p(t, out, out + 0.3)), y: (1 - r) * 30 });
-  }
-
-  // 7 · Cierre
-  {
-    const a = outExpo(p(t, T.s7, T.s7 + 0.6));
-    const s7 = $("#s7");
-    s7.style.visibility = a > 0 ? "visible" : "hidden";
-    s7.style.clipPath = `inset(${(1 - a) * 100}% 0 0 0 round ${(1 - a) * 60}px)`;
-    const iso = outBack(p(t, T.s7 + 0.4, T.s7 + 0.9));
-    set($("#s7-iso"), { o: clamp(iso), s: 0.6 + 0.4 * iso });
-    inOut($("#s7-brand"), t, T.s7 + 0.6, null, { dy: 30 });
-    inOut($("#s7-msg"), t, T.s7 + 0.9, null, { dy: 40 });
-    inOut($("#s7-web"), t, T.s7 + 1.3, null, { dy: 30 });
-    inOut($("#s7-handle"), t, T.s7 + 1.5, null, { dy: 20 });
+    const a = ease(p(t, T.s6, T.s6 + 0.7));
+    const s6 = $("#s6");
+    s6.style.visibility = a > 0 ? "visible" : "hidden";
+    s6.style.clipPath = `inset(${(1 - a) * 100}% 0 0 0)`;
+    const iso = outBack(p(t, T.s6 + 0.4, T.s6 + 0.9));
+    set($("#s6-iso"), { o: clamp(iso), s: 0.7 + 0.3 * iso });
+    inOut($("#s6-t"), t, T.s6 + 0.6, null);
+    inOut($("#s6-p"), t, T.s6 + 0.85, null, { dy: 24 });
+    const btn = outBack(p(t, T.s6 + 1.1, T.s6 + 1.6));
+    set($("#s6-btn"), { o: clamp(btn), s: 0.85 + 0.15 * btn });
+    inOut($("#s6-handle"), t, T.s6 + 1.4, null, { dy: 16 });
   }
 }
 window.render = render;
@@ -393,7 +353,6 @@ if (!/[?&]render\b/.test(location.search)) {
   const fit = () => {
     const k = Math.min(innerWidth / 1080, innerHeight / 1920);
     $("#stage").style.transform = `scale(${k})`;
-    document.body.style.height = "100vh";
   };
   addEventListener("resize", fit); fit();
   document.fonts.ready.then(() => {
