@@ -58,8 +58,12 @@ const tiempos = (segundosCuenta: number) => {
   return { cuenta, solucion, explicacion, cierre, fin: cierre + T_CIERRE };
 };
 
+// El primer fotograma es la portada (la miniatura de Reels/TikTok): la escena completa justo antes
+// de la cuenta atrás, sin cronómetro. Después arranca la animación desde cero.
+export const FRAMES_PORTADA = 1;
+
 export const duracionPregunta = (segundosCuenta: number, fps: number) =>
-  Math.round(tiempos(segundosCuenta).fin * fps);
+  FRAMES_PORTADA + Math.round(tiempos(segundosCuenta).fin * fps);
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
@@ -210,7 +214,7 @@ const Emblema: React.FC<{ frame: number; tam: number }> = ({ frame, tam }) => (
 );
 
 const LETRAS = ["A", "B", "C", "D"];
-const TITULAR = ["¿Sabrías", "responder", "a", "esta?"];
+const TITULAR = ["¿Sabrías", "responder", "a", "esta", "pregunta?"];
 
 export const PreguntaTest: React.FC<Props> = ({
   tema,
@@ -220,10 +224,12 @@ export const PreguntaTest: React.FC<Props> = ({
   explicacion,
   segundosCuenta,
 }) => {
-  const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const t = tiempos(segundosCuenta);
   const f = (s: number) => Math.round(s * fps);
+  const fotograma = useCurrentFrame();
+  const portada = fotograma < FRAMES_PORTADA;
+  const frame = portada ? f(t.cuenta) - 1 : fotograma - FRAMES_PORTADA;
   const entrada = (desde: number, damping = 200) =>
     spring({ frame: frame - desde, fps, config: { damping } });
 
@@ -244,6 +250,10 @@ export const PreguntaTest: React.FC<Props> = ({
   const segundosPasados = Math.max(0, (frame - f(t.cuenta)) / fps);
   const restante = Math.max(0, Math.ceil(segundosCuenta - segundosPasados));
   const progresoCuenta = interpolate(frame, [f(t.cuenta), f(t.solucion)], [1, 0], clamp);
+  // Las preguntas largas del banco reducen la letra para que quepan en el móvil.
+  const largo = enunciado.length + opciones.join("").length;
+  const escala = Math.min(1, Math.max(0.7, 1 - (largo - 230) / 700));
+  const escalaExplicacion = Math.min(1, Math.max(0.72, 1 - (explicacion.length - 200) / 500));
   const flotar = Math.sin((frame / fps / 7) * Math.PI * 2);
   // Barra de progreso del móvil: 35 % como en la web; se completa al resolver.
   const progresoTest = interpolate(frame, [f(t.solucion), f(t.solucion + 0.6)], [0.35, 1], clamp);
@@ -271,22 +281,7 @@ export const PreguntaTest: React.FC<Props> = ({
         }}
       >
         <Img src={staticFile("prolince-logo.svg")} style={{ width: 96, height: 96 }} />
-        <div style={{ display: "flex", alignItems: "center", gap: 44 }}>
-          <span style={{ fontSize: 34, fontWeight: 700 }}>prolinceacademia.com</span>
-          <span
-            style={{
-              background: C.primario,
-              color: "#fff",
-              fontSize: 34,
-              fontWeight: 700,
-              padding: "22px 36px",
-              borderRadius: 28,
-              boxShadow: "0 16px 30px -14px #03512d88",
-            }}
-          >
-            Empezar
-          </span>
-        </div>
+        <span style={{ fontSize: 38, fontWeight: 700 }}>prolinceacademia.com</span>
       </div>
 
       {/* Titular con el subrayado verde suave del hero */}
@@ -306,13 +301,13 @@ export const PreguntaTest: React.FC<Props> = ({
         <div
           style={{
             marginTop: 18,
-            fontSize: 112,
+            fontSize: 88,
             fontWeight: 780,
-            lineHeight: 1.04,
+            lineHeight: 1.06,
             letterSpacing: "-0.038em",
             display: "flex",
             flexWrap: "wrap",
-            columnGap: 28,
+            columnGap: 22,
           }}
         >
           {TITULAR.map((palabra, i) => {
@@ -332,7 +327,7 @@ export const PreguntaTest: React.FC<Props> = ({
                       style={{
                         position: "absolute",
                         left: 0,
-                        bottom: 14,
+                        bottom: 11,
                         height: "0.32em",
                         width: `${pSubrayado * 100}%`,
                         background: C.suave,
@@ -400,6 +395,7 @@ export const PreguntaTest: React.FC<Props> = ({
                 transform: `translateX(${interpolate(frame % f(9), [0, f(1.4), f(4.3)], [-65, -65, 65], clamp)}%)`,
                 pointerEvents: "none",
                 zIndex: 5,
+                opacity: portada ? 0 : 1,
               }}
             />
 
@@ -435,6 +431,7 @@ export const PreguntaTest: React.FC<Props> = ({
                   fontSize: 26,
                   fontWeight: 800,
                   fontVariantNumeric: "tabular-nums",
+                  opacity: portada ? 0 : 1,
                 }}
               >
                 <Timer size={24} />
@@ -462,7 +459,7 @@ export const PreguntaTest: React.FC<Props> = ({
               style={{
                 margin: 0,
                 padding: "36px 56px 0",
-                fontSize: 46,
+                fontSize: 46 * escala,
                 fontWeight: 700,
                 lineHeight: 1.28,
                 opacity: pEnunciado,
@@ -472,7 +469,7 @@ export const PreguntaTest: React.FC<Props> = ({
               {enunciado}
             </p>
 
-            <div style={{ display: "grid", gap: 20, padding: "40px 56px 0" }}>
+            <div style={{ display: "grid", gap: 20 * escala, padding: `${40 * escala}px 56px 0` }}>
               {opciones.map((opcion, i) => {
                 const p = entrada(f(T_OPCIONES) + i * 5, 16);
                 const acierto = resuelta && i === correcta;
@@ -485,7 +482,7 @@ export const PreguntaTest: React.FC<Props> = ({
                       display: "flex",
                       alignItems: "center",
                       gap: 24,
-                      padding: "26px 28px",
+                      padding: `${26 * escala}px 28px`,
                       borderRadius: 28,
                       border: `3px solid ${acierto ? C.primario : C.borde}`,
                       background: acierto ? C.primario : "#fff",
@@ -512,7 +509,7 @@ export const PreguntaTest: React.FC<Props> = ({
                     >
                       {acierto ? <Check size={32} strokeWidth={3.5} /> : LETRAS[i]}
                     </span>
-                    <span style={{ fontSize: 36, fontWeight: 600, lineHeight: 1.22 }}>{opcion}</span>
+                    <span style={{ fontSize: 36 * escala, fontWeight: 600, lineHeight: 1.22 }}>{opcion}</span>
                     {acierto &&
                       [0, 1].map((k) => {
                         const onda = interpolate(
@@ -641,7 +638,7 @@ export const PreguntaTest: React.FC<Props> = ({
               <span style={{ fontSize: 36, fontWeight: 800 }}>Entiende la respuesta.</span>
               <Sparkles size={40} color={C.punto} />
             </div>
-            <div style={{ fontSize: 33, fontWeight: 500, lineHeight: 1.4, marginTop: 10, color: C.apagadoTexto }}>
+            <div style={{ fontSize: 33 * escalaExplicacion, fontWeight: 500, lineHeight: 1.4, marginTop: 10, color: C.apagadoTexto }}>
               {explicacion}
             </div>
           </div>

@@ -13,8 +13,8 @@ export const RemotionRoot: React.FC = () => {
       width={1080}
       height={1920}
       fps={FPS}
-      durationInFrames={duracionPregunta(5, FPS)}
-      defaultProps={{ ...preguntas[0], segundosCuenta: 5 }}
+      durationInFrames={duracionPregunta(8, FPS)}
+      defaultProps={{ ...preguntas[0], segundosCuenta: 8 }}
       calculateMetadata={({ props }) => ({
         durationInFrames: duracionPregunta(props.segundosCuenta, FPS),
       })}

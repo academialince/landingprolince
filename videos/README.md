@@ -1,13 +1,16 @@
 # Vídeos ProLince (Remotion)
 
-Proyecto independiente de la landing para generar vídeos verticales (1080×1920) de preguntas tipo test para Reels, TikTok y Shorts.
+Plantilla fija de «pregunta del día» en vertical (1080×1920) para Reels, TikTok y Shorts, con la estética de prolinceacademia.com.
 
 ```bash
 cd videos
 npm install
-npm run studio        # editor visual en el navegador
-npm run render        # renderiza la pregunta por defecto en out/pregunta.mp4
-npm run render:todas  # un MP4 por cada pregunta de src/datos/preguntas.json (SEGUNDOS=8 para cambiar la cuenta atrás)
+npm run desde-csv -- banco.csv 3 7   # filas del CSV del banco de la web → src/datos/preguntas.json (sin números = todas)
+npm run render                       # out/<id>.mp4 y out/<id>-portada.png por cada pregunta
+SEGUNDOS=10 npm run render           # otra duración de la cuenta atrás (por defecto 8 s)
+npm run studio                       # editor visual en el navegador
 ```
 
-Cada pregunta en `src/datos/preguntas.json` lleva: `id`, `tema`, `enunciado`, `opciones` (4), `correcta` (índice 0–3) y `explicacion`.
+`src/datos/preguntas.json`: `[{ id, tema, enunciado, opciones: [4], correcta: 0-3, explicacion }]`.
+
+El primer fotograma del vídeo es la portada (la escena completa sin cronómetro), para que la red social la use de miniatura; también se exporta aparte como PNG.

@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "studio": "remotion studio",
-    "render": "remotion render PreguntaTest out/pregunta.mp4",
-    "render:todas": "node render-todas.mjs",
+    "desde-csv": "node desde-csv.mjs",
+    "render": "node render-todas.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
