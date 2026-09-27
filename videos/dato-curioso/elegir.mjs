@@ -1,7 +1,8 @@
 // Elige el dato curioso del día de dato-curioso/banco.json (curiosidades de Drive ya transcritas)
 // sin repetir ninguna de dato-curioso/historial.csv, y lo deja en src/datos/curiosidad.json.
 //
-//   node dato-curioso/elegir.mjs [--fecha 2026-09-27] [--carpeta Curiosidad_NN]
+//   node dato-curioso/elegir.mjs --numero 22 [--carpeta Curiosidad_NN]   → carpeta de Drive y archivos «22»
+//   node dato-curioso/elegir.mjs [--fecha 2026-09-27] [--carpeta Curiosidad_NN]   (antiguo: por fecha)
 //   node dato-curioso/elegir.mjs --pendientes   → carpetas Curiosidad_NN ya usadas (para transcribir otra)
 //   node dato-curioso/elegir.mjs --registrar    → añade la elegida al historial (tras publicarla)
 import { existsSync, readFileSync, writeFileSync, appendFileSync } from "node:fs";
@@ -26,7 +27,7 @@ if (args.includes("--pendientes")) {
 
 if (args.includes("--registrar")) {
   const e = JSON.parse(readFileSync(DATOS, "utf8"));
-  if (!existsSync(HISTORIAL)) writeFileSync(HISTORIAL, "fecha;carpeta;gancho\n");
+  if (!existsSync(HISTORIAL)) writeFileSync(HISTORIAL, "publicacion;carpeta;gancho\n");
   appendFileSync(HISTORIAL, [e.publicacion, e.carpeta, e.gancho].map(csvCampo).join(";") + "\n");
   console.log(`✓ Registrado en el historial: ${e.publicacion} · ${e.carpeta}`);
   process.exit(0);
@@ -34,7 +35,8 @@ if (args.includes("--registrar")) {
 
 const banco = JSON.parse(readFileSync(BANCO, "utf8"));
 const libres = banco.filter((c) => !usadas.has(c.carpeta));
-const fecha = opcion("--fecha") ?? new Date().toISOString().slice(0, 10);
+// Desde la publicación 22 las carpetas de Drive van numeradas (22, 23…) en lugar de por fecha.
+const fecha = opcion("--numero") ?? opcion("--fecha") ?? new Date().toISOString().slice(0, 10);
 // Con --carpeta se puede volver a montar una ya publicada (p. ej. tras cambiar la plantilla).
 const elegida = opcion("--carpeta") ? banco.find((c) => c.carpeta === opcion("--carpeta")) : libres[0];
 if (!elegida) {
