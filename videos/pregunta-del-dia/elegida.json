@@ -1,23 +1,23 @@
 {
-  "archivo": "tema-1_400-optimizado.csv",
-  "fila": 362,
-  "temaCsv": "Tema 1 - Derechos Humanos",
-  "subtema": "Carta de los Derechos Fundamentales de la Unión Europea - Título III. Igualdad",
+  "archivo": "tema-2_banco_optimizado.csv",
+  "fila": 59,
+  "temaCsv": "Tema 2 - Igualdad efectiva de mujeres y hombres",
+  "subtema": "Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres - Título I. El principio de igualdad y la tutela contra la discriminación",
   "dificultad": "Media",
-  "enunciadoOriginal": "Carta de los Derechos Fundamentales de la Unión Europea. Igualdad. Todo niño tiene derecho a mantener de forma periódica relaciones personales y contactos directos con su padre y con su madre:",
-  "enunciado": "Todo niño tiene derecho a mantener de forma periódica relaciones personales y contactos directos con su padre y con su madre:",
+  "enunciadoOriginal": "Ley Orgánica para la igualdad efectiva de mujeres y hombres. El principio de igualdad y la tutela contra la discriminación. En un proceso por discriminación laboral, la trabajadora demandante solicita al juez que pida un informe a la Inspección de Trabajo sobre la situación de la empresa. Según la Ley, el órgano judicial:",
+  "enunciado": "En un proceso por discriminación laboral, la trabajadora demandante solicita al juez que pida un informe a la Inspección de Trabajo sobre la situación de la empresa. Según la Ley, el órgano judicial:",
   "opciones": [
-    "Salvo si ello es contrario a sus intereses",
-    "En todo caso y sin excepción alguna",
-    "Salvo resolución administrativa en contrario",
-    "Solo si los progenitores están casados"
+    "Deberá recabarlo en todo caso, al haberlo pedido una parte",
+    "Podrá recabar ese informe si lo estima útil y pertinente",
+    "No podrá recabarlo, porque solo cabe hacerlo de oficio",
+    "Solo podrá recabarlo si también lo solicita el Ministerio Fiscal"
   ],
-  "correcta": 0,
-  "explicacion": "Art. 24.3 de la Carta de los Derechos Fundamentales de la UE: el niño tiene derecho a relaciones personales y contactos directos periódicos con ambos progenitores, salvo si ello es contrario a sus intereses. Preguntado en examen: 2024-1.",
+  "correcta": 1,
+  "explicacion": "Art. 13.1, párrafo segundo, de la LO 3/2007: el órgano judicial, a instancia de parte, podrá recabar, si lo estimase útil y pertinente, informe o dictamen de los organismos públicos competentes. No es obligatorio ni requiere la intervención del Fiscal. Preguntado en examen: 2022-3 y 2026.",
   "apta": true,
   "fecha": "2026-09-27",
-  "numero": 20,
-  "id": "pregunta-del-dia-20",
-  "tema": "Tema 1 · Derechos Humanos",
-  "explicacionVideo": "Art. 24.3 de la Carta de los Derechos Fundamentales de la UE: el niño tiene derecho a relaciones personales y contactos directos periódicos con ambos progenitores, salvo si ello es contrario a sus intereses."
+  "numero": 22,
+  "id": "pregunta-22",
+  "tema": "Tema 2 · Igualdad efectiva de mujeres y hombres",
+  "explicacionVideo": "Art. 13.1, párrafo segundo, de la LO 3/2007: el órgano judicial, a instancia de parte, podrá recabar, si lo estimase útil y pertinente, informe o dictamen de los organismos públicos competentes. No es obligatorio ni requiere la intervención del Fiscal."
 }

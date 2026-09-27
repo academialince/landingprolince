@@ -121,7 +121,9 @@ for (const archivo of archivos) {
         opciones.every(Boolean) &&
         enunciado.length <= 230 &&
         opciones.every((o) => o.length <= 95) &&
-        g("explicacion").length >= 40,
+        g("explicacion").length >= 40 &&
+        // Nada que dependa de datos de actualidad: en redes la pregunta dura más que el dato.
+        !/dato de actualidad|revisar antes del examen/i.test(g("explicacion")),
     });
   });
 }

@@ -1,132 +1,15 @@
 [
   {
-    "id": "pregunta-del-dia-11",
-    "tema": "Tema 11 · Protección de datos",
-    "enunciado": "Sin perjuicio de las competencias del Tribunal de Cuentas, la gestión económico-financiera de la Agencia estará sometida al control de:",
+    "id": "pregunta-22",
+    "tema": "Tema 2 · Igualdad efectiva de mujeres y hombres",
+    "enunciado": "En un proceso por discriminación laboral, la trabajadora demandante solicita al juez que pida un informe a la Inspección de Trabajo sobre la situación de la empresa. Según la Ley, el órgano judicial:",
     "opciones": [
-      "El Consejo Consultivo de la Agencia",
-      "La Comisión de Justicia del Congreso de los Diputados",
-      "La Intervención General de la Administración del Estado",
-      "El Ministerio de Justicia"
-    ],
-    "correcta": 2,
-    "explicacion": "Art. 46.7 de la LO 3/2018: al control de la Intervención General de la Administración del Estado, en los términos de la Ley 47/2003, General Presupuestaria."
-  },
-  {
-    "id": "pregunta-del-dia-12",
-    "tema": "Tema 14 · Ministerio del Interior. Ministerio de Defensa",
-    "enunciado": "¿Qué órgano planifica y ejecuta la destrucción de los alijos de drogas incursos en las actuaciones de la Policía Nacional y la Guardia Civil contra el tráfico de drogas?",
-    "opciones": [
-      "La Jefatura Fiscal y de Fronteras de la Guardia Civil",
-      "La Comisaría General de Policía Judicial",
-      "La Dirección General de Coordinación y Estudios",
-      "El Centro de Inteligencia contra el Terrorismo y el Crimen Organizado"
-    ],
-    "correcta": 3,
-    "explicacion": "Art. 2.3.8.º del RD 207/2024: la planificación y ejecución de la destrucción de alijos de drogas corresponde al CITCO, se encuentren custodiados en dependencias propias o de otros departamentos. Las unidades de la Policía y la Guardia Civil investigan, pero no planifican esa destrucción."
-  },
-  {
-    "id": "pregunta-del-dia-13",
-    "tema": "Tema 16 · Materias socio-culturales",
-    "enunciado": "¿Qué planes deben ser informados por el Consejo Nacional de Protección Civil a los efectos de su adecuación al Sistema Nacional?",
-    "opciones": [
-      "Solo el Plan Estatal General",
-      "El Plan Estatal General y los Planes Territoriales y Especiales de ámbito estatal o autonómico",
-      "Solo los Planes Especiales de competencia estatal",
-      "Todos los planes, incluidos los de autoprotección"
+      "Deberá recabarlo en todo caso, al haberlo pedido una parte",
+      "Podrá recabar ese informe si lo estima útil y pertinente",
+      "No podrá recabarlo, porque solo cabe hacerlo de oficio",
+      "Solo podrá recabarlo si también lo solicita el Ministerio Fiscal"
     ],
     "correcta": 1,
-    "explicacion": "Art. 14.3 de la Ley 17/2015: el Plan Estatal General y los Planes Territoriales y Especiales de ámbito estatal o autonómico deberán ser informados por el Consejo Nacional de Protección Civil."
-  },
-  {
-    "id": "pregunta-del-dia-14",
-    "tema": "Tema 17 · Materias técnico-científicas",
-    "enunciado": "Una medida sobre el acceso de los usuarios finales a servicios y aplicaciones susceptible de restringir derechos y libertades fundamentales solo podrá imponerse si es:",
-    "opciones": [
-      "Urgente, motivada y autorizada por el Gobierno",
-      "Temporal, reversible y comunicada a los usuarios",
-      "Necesaria y acordada por la autoridad de telecomunicaciones",
-      "Adecuada, necesaria y proporcionada en una sociedad democrática"
-    ],
-    "correcta": 3,
-    "explicacion": "Art. 56.2 de la Ley 11/2022: estas medidas solo pueden imponerse si son adecuadas, necesarias y proporcionadas en una sociedad democrática, con las salvaguardias de procedimiento apropiadas."
-  },
-  {
-    "id": "pregunta-del-dia-15",
-    "tema": "Tema 18 · Topografía",
-    "enunciado": "En relación con la declinación magnética, señale la opción CORRECTA:",
-    "opciones": [
-      "Es la misma en todos los lugares de la Tierra",
-      "Es siempre de signo positivo",
-      "Varía anualmente",
-      "Solo varía cada siglo"
-    ],
-    "correcta": 2,
-    "explicacion": "Epígrafe «Elementos geográficos» del temario del Tema 18: la declinación magnética varía anualmente y cada lugar tiene una distinta. Su signo es positivo si es Este y negativo si es Oeste."
-  },
-  {
-    "id": "pregunta-del-dia-16",
-    "tema": "Tema 19 · Deontología profesional",
-    "enunciado": "En todas sus intervenciones, y cuando las circunstancias lo permitan, los guardias civiles informarán de forma comprensible a las personas con las que traten:",
-    "opciones": [
-      "Del contenido íntegro de las diligencias que se instruyan.",
-      "De la identidad y el destino del personal actuante.",
-      "De aquellas materias que les afecten directamente o tengan derecho a conocer.",
-      "De los recursos que procedan contra la actuación policial."
-    ],
-    "correcta": 2,
-    "explicacion": "Art. 33.2 del Código de Conducta: informarán de forma comprensible de aquellas materias que afecten directamente a las personas con las que traten o que tengan derecho a conocer."
-  },
-  {
-    "id": "pregunta-del-dia-17",
-    "tema": "Tema 22 · Armas y explosivos",
-    "enunciado": "Un consumidor habitual de explosivos es de ámbito nacional cuando su actividad se extiende a:",
-    "opciones": [
-      "Más de una provincia, aunque pertenezcan a la misma Comunidad Autónoma",
-      "Tres o más Comunidades Autónomas",
-      "Todo el territorio nacional de forma simultánea",
-      "Dos o más provincias de distinta Comunidad Autónoma"
-    ],
-    "correcta": 3,
-    "explicacion": "Art. 118.a) del RD 130/2017 (Reglamento de Explosivos): el consumidor habitual es de ámbito nacional cuando actúa en dos o más provincias de distinta Comunidad Autónoma. Si actúa en una o varias provincias de una misma Comunidad Autónoma es de ámbito autonómico, y no se exigen tres Comunidades ni todo el territorio."
-  },
-  {
-    "id": "pregunta-del-dia-18",
-    "tema": "Tema 23 · Derecho Fiscal",
-    "enunciado": "Para facilitar el descubrimiento del contrabando, los organismos y servicios encargados de su persecución podrán establecer contactos e intercambiar información con:",
-    "opciones": [
-      "Únicamente los servicios homólogos de otros Estados miembros",
-      "Solo los servicios nacionales, previa autorización judicial",
-      "Otros servicios homólogos nacionales o internacionales",
-      "Únicamente la Oficina Europea de Lucha contra el Fraude"
-    ],
-    "correcta": 2,
-    "explicacion": "Disposición adicional primera.3 de la LO 12/1995: pueden intercambiar información con servicios homólogos nacionales o internacionales. La Ley no lo limita a determinados servicios ni exige autorización judicial."
-  },
-  {
-    "id": "pregunta-del-dia-19",
-    "tema": "Tema 5 · Derecho de la Unión Europea",
-    "enunciado": "¿Quién presidirá el Consejo de Asuntos Exteriores?",
-    "opciones": [
-      "El Presidente del Consejo Europeo.",
-      "El Alto Representante de la Unión para Asuntos Exteriores y Política de Seguridad.",
-      "El ministro del Estado miembro al que corresponda la presidencia por rotación.",
-      "El Presidente de la Comisión Europea."
-    ],
-    "correcta": 1,
-    "explicacion": "Art. 18.3 del TUE: el Alto Representante presidirá el Consejo de Asuntos Exteriores, única formación excluida de la rotación igual entre Estados miembros (art. 16.9 del TUE). El Presidente del Consejo Europeo y el de la Comisión no presiden formaciones del Consejo."
-  },
-  {
-    "id": "pregunta-del-dia-20",
-    "tema": "Tema 1 · Derechos Humanos",
-    "enunciado": "Todo niño tiene derecho a mantener de forma periódica relaciones personales y contactos directos con su padre y con su madre:",
-    "opciones": [
-      "Salvo si ello es contrario a sus intereses",
-      "En todo caso y sin excepción alguna",
-      "Salvo resolución administrativa en contrario",
-      "Solo si los progenitores están casados"
-    ],
-    "correcta": 0,
-    "explicacion": "Art. 24.3 de la Carta de los Derechos Fundamentales de la UE: el niño tiene derecho a relaciones personales y contactos directos periódicos con ambos progenitores, salvo si ello es contrario a sus intereses."
+    "explicacion": "Art. 13.1, párrafo segundo, de la LO 3/2007: el órgano judicial, a instancia de parte, podrá recabar, si lo estimase útil y pertinente, informe o dictamen de los organismos públicos competentes. No es obligatorio ni requiere la intervención del Fiscal."
   }
 ]
