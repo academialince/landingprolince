@@ -478,5 +478,21 @@
       "cifra": 1870
     },
     "fuente": "guardiacivil.es · Historia: La Fundación"
+  },
+  {
+    "carpeta": "Nuevo_01_Emblema",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿Qué significa el emblema de la Guardia Civil?",
+    "destacar": "emblema",
+    "fecha": "27 de enero de 1943",
+    "respuesta": "Una espada, que representa la fuerza y el poder militar, cruzada con un haz de lictores, símbolo romano de la justicia y la autoridad, bajo la corona real.",
+    "resaltar": "haz de lictores",
+    "cifra": null,
+    "ademas": {
+      "texto": "Hasta 1943 el emblema eran las letras G y C entrelazadas bajo una corona.",
+      "cifra": null
+    },
+    "fuente": "Dato nuevo (no está en los carruseles). guardiacivil.es · efeméride 27 de enero de 1943; Tribuna Benemérita"
   }
 ]

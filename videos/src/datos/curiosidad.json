@@ -1,16 +1,16 @@
 {
-  "id": "dato-curioso-23",
-  "publicacion": "23",
-  "carpeta": "Curiosidad_24",
+  "id": "dato-curioso-27",
+  "publicacion": "27",
+  "carpeta": "Curiosidad_28",
   "etiqueta": "Dato curioso · Guardia Civil",
-  "gancho": "¿Cuándo se crearon las Zonas?",
-  "destacar": "Zonas?",
-  "fecha": "20 de mayo de 1926",
-  "respuesta": "Se crearon cuatro Zonas, con sede en Madrid, Barcelona, Sevilla y Burgos, cada una al mando de un general de brigada.",
-  "resaltar": "cuatro Zonas",
+  "gancho": "¿Hay que saber topografía para aprobar?",
+  "destacar": "topografía",
+  "fecha": "",
+  "respuesta": "Sí. La topografía es el tema 18 del examen: unidades angulares, escalas y cálculo de pendientes caen casi todos los años.",
+  "resaltar": "casi todos los años",
   "cifra": null,
   "ademas": {
-    "texto": "En 1924 se había creado la figura del Subdirector General.",
-    "cifra": null
+    "texto": "preguntas sobre unidades angulares han caído desde 2018.",
+    "cifra": 8
   }
 }
