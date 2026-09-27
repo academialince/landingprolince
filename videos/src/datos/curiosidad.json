@@ -1,16 +1,16 @@
 {
-  "id": "dato-curioso-2026-10-07",
-  "publicacion": "2026-10-07",
-  "carpeta": "Curiosidad_11",
+  "id": "dato-curioso-2026-10-17",
+  "publicacion": "2026-10-17",
+  "carpeta": "Curiosidad_22",
   "etiqueta": "Dato curioso · Guardia Civil",
-  "gancho": "¿Cuándo nació el Servicio Marítimo?",
-  "destacar": "Marítimo?",
-  "fecha": "22 de febrero de 1991",
-  "respuesta": "Se creó en 1991 para actuar en el mar territorial: contrabando, pesca furtiva, patrimonio sumergido e inmigración irregular.",
-  "resaltar": "mar territorial",
+  "gancho": "¿Qué es EUROGENDFOR?",
+  "destacar": "EUROGENDFOR?",
+  "fecha": "2004",
+  "respuesta": "La Fuerza de Gendarmería Europea, con sede en Vicenza (Italia). La Guardia Civil es miembro fundador junto a otras policías europeas de naturaleza militar.",
+  "resaltar": "miembro fundador",
   "cifra": null,
   "ademas": {
-    "texto": "La LO 2/1986, de Fuerzas y Cuerpos de Seguridad, atribuye a la Guardia Civil el mar territorial (art. 11.2.b).",
+    "texto": "Puede actuar al servicio de la UE, la ONU, la OTAN o la OSCE.",
     "cifra": null
   }
 }
