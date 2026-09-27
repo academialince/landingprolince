@@ -62,7 +62,7 @@
 
   /* Cabecera */
   #logo { left: 96px; top: 236px; width: 300px; }
-  #pill { right: 96px; top: 244px; height: 64px; padding: 0 28px; border-radius: 14px; background: var(--primary); color: #f9fdfa;
+  #pill, #s0-pill { right: 96px; top: 244px; height: 64px; padding: 0 28px; border-radius: 14px; background: var(--primary); color: #f9fdfa;
           font-weight: 700; font-size: 26px; letter-spacing: .02em; display: flex; align-items: center;
           box-shadow: 0 8px 22px color-mix(in oklch, var(--primary) 18%, transparent); }
 
@@ -76,9 +76,10 @@
   #s2-eyebrow { left: 96px; top: 420px; }
   #s2-art { left: 90px; top: 470px; font-size: 176px; letter-spacing: -0.045em; line-height: 1; white-space: nowrap; transform-origin: 0 60%; }
   #s2-ley { left: 96px; top: 672px; font-size: 36px; font-weight: 600; color: var(--muted-fg); }
-  #s2-chip { left: 96px; top: 736px; display: flex; align-items: center; gap: 12px; padding: 14px 26px; border-radius: 999px;
+  #s2-chip { left: 96px; top: 736px; }
+  #s2-chip, #s0-chip { display: flex; align-items: center; gap: 12px; padding: 14px 26px; border-radius: 999px;
              background: var(--primary-soft); color: var(--primary-soft-fg); font-size: 30px; font-weight: 700; transform-origin: 0 50%; }
-  #s2-chip b { width: 12px; height: 12px; border-radius: 50%; background: var(--primary); }
+  #s2-chip b, #s0-chip b { width: 12px; height: 12px; border-radius: 50%; background: var(--primary); }
 
   /* 3 · Contador (banda de KPI de la web) */
   #s3-card { left: 96px; top: 880px; width: 888px; background: var(--primary-deep); border-radius: 28px; padding: 44px 48px 46px; color: #fff; }
@@ -126,6 +127,25 @@
                  font-size: 38px; font-weight: 700; white-space: nowrap; transform: translateX(-50%); }
   #s6-btn svg { width: 36px; height: 36px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
   #s6-handle { left: 0; width: 1080px; top: 1270px; text-align: center; font-size: 32px; font-weight: 700; color: #a9e9bc; }
+  /* 0 · Portada: primer fotograma = miniatura del vídeo (y portada-XX.png) */
+  #s0 { left: 0; top: 0; width: 1080px; height: 1920px; background: #fff; }
+  #s0 .halo { inset: 0; background: radial-gradient(120% 55% at 85% -8%, var(--primary-soft) 0%, transparent 60%); }
+  #s0 .puntos { inset: 0; opacity: .55; background-image: radial-gradient(color-mix(in oklch, var(--primary) 16%, transparent) 2px, transparent 2px);
+    background-size: 52px 52px; -webkit-mask-image: radial-gradient(80% 42% at 50% 0%, black, transparent); mask-image: radial-gradient(80% 42% at 50% 0%, black, transparent); }
+  #s0-logo { left: 96px; top: 236px; width: 300px; }
+  #s0-pill { right: 96px; top: 244px; }
+  #s0-col { left: 96px; top: 470px; width: 888px; display: flex; flex-direction: column; align-items: flex-start; }
+  #s0-art { margin: 18px 0 0 -6px; font-size: 240px; letter-spacing: -0.045em; line-height: 1; white-space: nowrap; }
+  #s0-ley { margin-top: 26px; font-size: 38px; font-weight: 600; color: var(--muted-fg); }
+  #s0-chip { position: static; margin-top: 22px; }
+  #s0-card { margin-top: 64px; width: 888px; background: var(--primary-deep); border-radius: 28px; padding: 44px 48px 46px; color: #fff; }
+  #s0-card .fila { display: flex; align-items: baseline; gap: 22px; }
+  #s0-card .num { font-size: 190px; font-weight: 780; letter-spacing: -0.04em; line-height: .9; }
+  #s0-card .veces { font-size: 44px; font-weight: 680; color: var(--primary-soft); letter-spacing: -0.015em; }
+  #s0-card .det { font-size: 30px; color: rgb(255 255 255 / .65); margin-top: 4px; }
+  #s0-card .dots { display: flex; gap: 12px; margin-top: 34px; }
+  #s0-card .dots i { width: 56px; height: 14px; border-radius: 7px; background: #d8f5df; display: block; }
+  #s0-foot { left: 96px; right: 96px; top: 1590px; display: flex; justify-content: space-between; font-size: 25px; font-weight: 600; color: var(--muted-fg); }
 </style>
 </head>
 <body>
@@ -177,44 +197,50 @@
     <div id="s6-btn" class="abs"><span>prolinceacademia.com <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></div>
     <div id="s6-handle" class="abs">@prolinceacademia</div>
   </div>
+  <!-- 0 · Portada -->
+  <div id="s0" class="abs">
+    <div class="abs halo"></div><div class="abs puntos"></div>
+    <img id="s0-logo" class="abs" src="logo.svg" alt="ProLince Academia">
+    <div id="s0-pill" class="abs">TOP 30</div>
+    <div id="s0-col" class="abs">
+    <div id="s0-eyebrow" class="eyebrow"></div>
+    <div id="s0-art" class="display"></div>
+    <div id="s0-ley"></div>
+    <div id="s0-chip"><b></b><span></span></div>
+    <div id="s0-card">
+      <div class="fila"><div class="num"></div><div><div class="veces">veces</div><div class="det">en exámenes oficiales</div></div></div>
+      <div class="dots"></div>
+    </div>
+    </div>
+    <div id="s0-foot" class="abs"><span></span><span>@prolinceacademia</span></div>
+  </div>
 </div>
 
 <script>
-/* ───────────── Datos del vídeo (lo único que cambia entre artículos) ───────────── */
+  /* ?datos=02-art-5-lo-2-1986 elige el archivo de datos/; sin parámetro, el Nº 1 */
+  const archivoDatos = new URLSearchParams(location.search).get("datos") || "01-art-282-bis-lecrim";
+  document.write(`<script src="datos/${archivoDatos}.js"><\/script>`);
+</script>
+<script>
+/* ───────────── Iconos Lucide (los mismos que usa la web) y datos (lo único que cambia entre artículos) ───────────── */
 const ICONOS = {
   gavel: '<path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381"/><path d="m16 16 6-6"/><path d="m21.5 10.5-8-8"/><path d="m8 8 6-6"/><path d="m8.5 7.5 8 8"/>',
   idCard: '<path d="M13 19a4 4 0 00-8 0"/><path d="M16 10h2"/><path d="M16 14h2"/><circle cx="9" cy="12" r="3"/><rect x="2" y="5" width="20" height="14" rx="2"/>',
   hourglass: '<path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/>',
   users: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/>',
+  scale: '<path d="M12 3v18"/><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"/><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M7 21h10"/>',
+  shieldCheck: '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/>',
 };
 
-const DATA = {
-  tema: "Tema 9",
-  // La parte entre [corchetes] lleva el subrayado verde de la web
-  pregunta: ["¿Qué artículo", "ha caído", "[más veces]", "en el Tema 9?"],
-  subtitulo: "Lo hemos contado en los exámenes oficiales de 2017 a 2026.",
-  articulo: "Art. 282 bis",
-  ley: "LECrim · Ley de Enjuiciamiento Criminal",
-  apodo: "El agente encubierto",
-  veces: 11,
-  anios: "2017 ×3 · 2018 ×3 · 2019 · 2022 · 2023 · 2024 · 2025",
-  fuente: "Histórico de exámenes oficiales 2017–2026",
-  claves: [
-    ["gavel", "Quién lo autoriza", "El <b>Juez de Instrucción</b> o el <b>Ministerio Fiscal</b>, dando cuenta inmediata al Juez"],
-    ["idCard", "Quién otorga la identidad", "El <b>Ministerio del Interior</b>"],
-    ["hourglass", "Cuánto dura", "<b>6 meses</b>, prorrogables por periodos de igual duración"],
-    ["users", "Delincuencia organizada", "Asociación de <b>3 o más personas</b>, de forma permanente o reiterada"],
-  ],
-  tribunal: "Quién autoriza, quién otorga la identidad y qué es delincuencia organizada.",
-  trampa: "El Juez autoriza, pero la identidad supuesta <b>no la da el Juez</b>: la otorga el <b>Ministerio del Interior</b>.",
-};
+const DATA = window.DATA;
 
 /* ───────────── Guion (segundos) ───────────── */
 const T = { s1: 0, s2: 3.2, s3: 6.0, s4: 10.8, s5: 20.0, s6: 28.0, fin: 32.0 };
 const CUENTA = { inicio: T.s3 + 0.4, paso: 0.09 };  // 11 marcas en ~1 s; luego se queda fijo
 const PASO_CLAVES = 2.0;                           // segundos entre cada clave de «Qué dice»
 const RETRASO_TRAMPA = 2.6;                         // segundos entre el Tribunal y la trampa
-const DUR = T.fin;
+const PORTADA = 0.7;                               // segundos de portada al inicio
+const DUR = T.fin + PORTADA;
 const FPS = 30;
 
 /* ───────────── Montaje del DOM ───────────── */
@@ -231,8 +257,32 @@ $("#s2-chip span").textContent = DATA.apodo;
 $("#s3-dots").innerHTML = Array.from({ length: DATA.veces }, () => "<i></i>").join("");
 $("#s3-years").textContent = DATA.anios;
 $("#s4-facts").innerHTML = DATA.claves.map(([ic, k, v], i) =>
-  `<div class="abs fact" style="top:${940 + i * 152}px"><div class="tile"><svg viewBox="0 0 24 24">${ICONOS[ic]}</svg></div>` +
+  `<div class="abs fact"><div class="tile"><svg viewBox="0 0 24 24">${ICONOS[ic]}</svg></div>` +
   `<div><div class="k">${k}</div><div class="v">${v}</div></div></div>`).join("");
+$("#s0-eyebrow").textContent = eyebrow;
+$("#s0-art").textContent = DATA.articulo;
+$("#s0-ley").textContent = DATA.ley;
+$("#s0-chip span").textContent = DATA.apodo;
+$("#s0-card .num").textContent = DATA.veces;
+$("#s0-card .veces").textContent = DATA.veces === 1 ? "vez" : "veces";
+$("#s0-card .dots").innerHTML = Array.from({ length: DATA.veces }, () => "<i></i>").join("");
+$("#s0-foot span").textContent = DATA.fuente;
+
+/* Lo que depende de medir texto se hace con las fuentes ya cargadas */
+let medido = false;
+function medir() {
+  // Cada clave se coloca debajo de la anterior según lo que ocupe su texto
+  let y = 930;
+  document.querySelectorAll(".fact").forEach((f) => { f.style.top = `${y}px`; y += f.offsetHeight + 28; });
+  // La trampa va justo debajo de la tarjeta del Tribunal
+  const card = $("#s5-card");
+  $("#s5-trap").style.top = `${card.offsetTop + card.offsetHeight + 36}px`;
+  // El artículo de la portada, lo más grande posible sin salirse (máx. 240 px)
+  const art = $("#s0-art");
+  art.style.fontSize = "240px";
+  art.style.fontSize = `${Math.min(240, Math.floor(240 * 900 / art.scrollWidth))}px`;
+  medido = true;
+}
 $("#s5-card .v").textContent = DATA.tribunal;
 $("#s5-trap .v").innerHTML = DATA.trampa;
 $("#foot span").textContent = DATA.fuente;
@@ -257,7 +307,7 @@ function inOut(el, t, tin, tout, { dy = 36, dx = 0, dur = 0.6, outDur = 0.35 } =
 }
 
 /* ───────────── Render determinista ───────────── */
-function render(t) {
+function escenas(t) {
   const fin56 = T.s6; // todo lo claro sale cuando entra el cierre
 
   // Cabecera y pie
@@ -344,6 +394,15 @@ function render(t) {
     set($("#s6-btn"), { o: clamp(btn), s: 0.85 + 0.15 * btn });
     inOut($("#s6-handle"), t, T.s6 + 1.4, null, { dy: 16 });
   }
+}
+/* Portada fija en el primer fotograma; se funde mientras entra el gancho */
+function render(t) {
+  if (!medido && document.fonts.status === "loaded") medir();
+  escenas(Math.max(0, t - PORTADA));
+  const o = 1 - ease(p(t, PORTADA - 0.2, PORTADA + 0.2));
+  const s0 = $("#s0");
+  s0.style.opacity = o;
+  s0.style.visibility = o <= 0.001 ? "hidden" : "visible";
 }
 window.render = render;
 window.VIDEO = { DUR, FPS, T };

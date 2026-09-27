@@ -1,8 +1,12 @@
 /**
  * Pasa video.html a MP4 vertical 1080×1920 a 30 fps, fotograma a fotograma.
  *
- *   node render.mjs                      → articulo-mas-preguntado-01.mp4
- *   node render.mjs --stills 1,5,9       → solo capturas PNG de esos segundos (para revisar)
+ *   node render.mjs                                  → Nº 1 (datos/01-art-282-bis-lecrim.js)
+ *   node render.mjs --datos 02-art-5-lo-2-1986       → cualquier otro archivo de datos/
+ *   node render.mjs --datos 02-art-5-lo-2-1986 --stills 1,5,9   → solo capturas de esos segundos
+ *
+ * Deja articulo-mas-preguntado-NN.mp4 y portada-NN.png (el primer fotograma, para subirlo como
+ * miniatura si la red social no toma el primer fotograma sola).
  *
  * Necesita Playwright (Chromium) y un ffmpeg con libx264. El ffmpeg se toma de $FFMPEG o del PATH;
  * `pip install imageio-ffmpeg` trae uno estático válido.
@@ -15,27 +19,32 @@ import { dirname, join } from "node:path";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const ffmpeg = process.env.FFMPEG || "ffmpeg";
-const salida = join(aqui, process.env.SALIDA || "articulo-mas-preguntado-01.mp4");
-const stillsArg = process.argv.indexOf("--stills");
+const arg = (n) => { const i = process.argv.indexOf(n); return i > -1 ? process.argv[i + 1] : null; };
+const datos = arg("--datos");
+const stills = arg("--stills");
 
 const browser = await chromium.launch(process.env.CHROMIUM ? { executablePath: process.env.CHROMIUM } : {});
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
-await page.goto(pathToFileURL(join(aqui, "video.html")).href + "?render");
+await page.goto(pathToFileURL(join(aqui, "video.html")).href + "?render" + (datos ? `&datos=${datos}` : ""));
 await page.evaluate(async () => {
   await document.fonts.ready;
   await Promise.all([...document.images].map((i) => (i.complete ? null : new Promise((r) => (i.onload = i.onerror = r)))));
 });
-const { DUR, FPS } = await page.evaluate(() => window.VIDEO);
+const { DUR, FPS, numero } = await page.evaluate(() => ({ ...window.VIDEO, numero: window.DATA.numero }));
 const stage = await page.$("#stage");
+const salida = join(aqui, `articulo-mas-preguntado-${numero}.mp4`);
 
-if (stillsArg > -1) {
-  for (const s of process.argv[stillsArg + 1].split(",").map(Number)) {
+if (stills) {
+  for (const s of stills.split(",").map(Number)) {
     await page.evaluate((t) => window.render(t), s);
-    await stage.screenshot({ path: join(aqui, `_still_${String(s).replace(".", "_")}.png`) });
+    await stage.screenshot({ path: join(aqui, `_still_${numero}_${String(s).replace(".", "_")}.png`) });
   }
   await browser.close();
   process.exit(0);
 }
+
+await page.evaluate(() => window.render(0));
+await stage.screenshot({ path: join(aqui, `portada-${numero}.png`) });
 
 const ff = spawn(ffmpeg, [
   "-y", "-loglevel", "error",
