@@ -1,16 +1,16 @@
 {
-  "id": "dato-curioso-27",
-  "publicacion": "27",
-  "carpeta": "Curiosidad_28",
+  "id": "dato-curioso-31",
+  "publicacion": "31",
+  "carpeta": "Nuevo_01_Emblema",
   "etiqueta": "Dato curioso · Guardia Civil",
-  "gancho": "¿Hay que saber topografía para aprobar?",
-  "destacar": "topografía",
-  "fecha": "",
-  "respuesta": "Sí. La topografía es el tema 18 del examen: unidades angulares, escalas y cálculo de pendientes caen casi todos los años.",
-  "resaltar": "casi todos los años",
+  "gancho": "¿Qué significa el emblema de la Guardia Civil?",
+  "destacar": "emblema",
+  "fecha": "27 de enero de 1943",
+  "respuesta": "Una espada, que representa la fuerza y el poder militar, cruzada con un haz de lictores, símbolo romano de la justicia y la autoridad, bajo la corona real.",
+  "resaltar": "haz de lictores",
   "cifra": null,
   "ademas": {
-    "texto": "preguntas sobre unidades angulares han caído desde 2018.",
-    "cifra": 8
+    "texto": "Hasta 1943 el emblema eran las letras G y C entrelazadas bajo una corona.",
+    "cifra": null
   }
 }
