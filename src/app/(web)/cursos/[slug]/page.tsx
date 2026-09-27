@@ -27,7 +27,7 @@ export async function generateMetadata(props: PageProps<"/cursos/[slug]">): Prom
   const { slug } = await props.params;
   const curso = cursoPorSlug(slug);
   if (!curso) return {};
-  return metadataPagina({ titulo: `Curso online: ${curso.nombre}`, descripcion: curso.entradilla, ruta: rutas.curso(curso.slug), imagen: curso.imagen, imagenAlt: curso.imagenAlt });
+  return metadataPagina({ titulo: `Curso online: ${curso.nombre}`, descripcion: curso.entradilla, ruta: rutas.curso(curso.slug) });
 }
 
 export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
