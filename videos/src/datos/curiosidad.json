@@ -1,16 +1,16 @@
 {
-  "id": "dato-curioso-2026-09-27",
-  "publicacion": "2026-09-27",
-  "carpeta": "Curiosidad_02",
+  "id": "dato-curioso-2026-10-07",
+  "publicacion": "2026-10-07",
+  "carpeta": "Curiosidad_11",
   "etiqueta": "Dato curioso · Guardia Civil",
-  "gancho": "¿Por qué la llaman «la Benemérita»?",
-  "destacar": "Benemérita",
-  "fecha": "4 de octubre de 1929",
-  "respuesta": "En 1929 se concedió a la Guardia Civil la Gran Cruz de la Orden Civil de Beneficencia por sus servicios en incendios, inundaciones y salvamentos. Se reconocía así oficialmente su carácter «benemérito».",
-  "resaltar": "Gran Cruz de la Orden Civil de Beneficencia",
+  "gancho": "¿Cuándo nació el Servicio Marítimo?",
+  "destacar": "Marítimo?",
+  "fecha": "22 de febrero de 1991",
+  "respuesta": "Se creó en 1991 para actuar en el mar territorial: contrabando, pesca furtiva, patrimonio sumergido e inmigración irregular.",
+  "resaltar": "mar territorial",
   "cifra": null,
   "ademas": {
-    "texto": "Cruces de Beneficencia recibieron sus miembros, a título individual, entre 1906 y 1929.",
-    "cifra": 438
+    "texto": "La LO 2/1986, de Fuerzas y Cuerpos de Seguridad, atribuye a la Guardia Civil el mar territorial (art. 11.2.b).",
+    "cifra": null
   }
 }
