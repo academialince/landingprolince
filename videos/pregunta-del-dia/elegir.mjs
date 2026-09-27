@@ -2,8 +2,11 @@
 // sin repetir ninguna de pregunta-del-dia/historial.csv, y la deja en src/datos/preguntas.json.
 //
 //   node pregunta-del-dia/elegir.mjs banco/tema-5.csv [más.csv ...] [--fecha 2026-09-27] [--fila N]
+//   node pregunta-del-dia/elegir.mjs --tema 5 [--fecha …] → busca los CSV del tema 5 en PROLINCE_BANCO_DIR
+//                                                           (la carpeta TEST sincronizada con Google Drive para escritorio)
 //   node pregunta-del-dia/elegir.mjs --registrar      → añade la elegida al historial (tras publicarla)
-import { existsSync, readFileSync, writeFileSync, appendFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, writeFileSync, appendFileSync } from "node:fs";
+import { join } from "node:path";
 
 const HISTORIAL = "pregunta-del-dia/historial.csv";
 const ELEGIDA = "pregunta-del-dia/elegida.json";
@@ -61,6 +64,16 @@ function quitarPrefijo(enunciado, subtema) {
 }
 
 const archivos = args.filter((a, i) => a.endsWith(".csv") && args[i - 1] !== "--fecha");
+if (opcion("--tema")) {
+  const dir = process.env.PROLINCE_BANCO_DIR;
+  if (!dir || !existsSync(dir)) {
+    console.error("Con --tema hace falta PROLINCE_BANCO_DIR (en videos/.env.local) apuntando a la carpeta TEST del banco.");
+    process.exit(1);
+  }
+  const patron = new RegExp(`^tema[-_]0?${Number(opcion("--tema"))}[-_].*\\.csv$`, "i");
+  archivos.push(...readdirSync(dir).filter((f) => patron.test(f)).map((f) => join(dir, f)));
+  console.log(`Banco del tema ${opcion("--tema")}: ${archivos.map((a) => a.split(/[\\/]/).pop()).join(", ") || "ninguno"}`);
+}
 if (!archivos.length) {
   console.error("Indica al menos un CSV del banco.");
   process.exit(1);
@@ -75,7 +88,7 @@ for (const archivo of archivos) {
     const enunciado = quitarPrefijo(g("enunciado"), g("subtema"));
     const opciones = ["opcion_a", "opcion_b", "opcion_c", "opcion_d"].map(g);
     candidatas.push({
-      archivo: archivo.split("/").pop(),
+      archivo: archivo.split(/[\\/]/).pop(),
       fila: i + 1,
       temaCsv: g("tema"),
       subtema: g("subtema"),

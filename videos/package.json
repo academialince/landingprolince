@@ -4,8 +4,11 @@
   "private": true,
   "scripts": {
     "studio": "remotion studio",
-    "desde-csv": "node desde-csv.mjs",
+    "elegir": "node --env-file-if-exists=.env.local pregunta-del-dia/elegir.mjs",
     "render": "node render-todas.mjs",
+    "publicar": "node --env-file-if-exists=.env.local pregunta-del-dia/publicar.mjs",
+    "registrar": "node pregunta-del-dia/elegir.mjs --registrar",
+    "desde-csv": "node desde-csv.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
