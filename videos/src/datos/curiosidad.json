@@ -1,16 +1,16 @@
 {
-  "id": "dato-curioso-33",
-  "publicacion": "33",
-  "carpeta": "Nuevo_03_Museo",
+  "id": "dato-curioso-41",
+  "publicacion": "41",
+  "carpeta": "Nuevo_11_Coronel",
   "etiqueta": "Dato curioso · Guardia Civil",
-  "gancho": "¿Tiene la Guardia Civil su propio museo?",
-  "destacar": "museo?",
-  "fecha": "12 de octubre de 1982",
-  "respuesta": "Sí. Se creó por Orden General de 23 de junio de 1982 y lo inauguró el rey Juan Carlos I el 12 de octubre de 1982, día de la Patrona.",
-  "resaltar": "lo inauguró el rey Juan Carlos I",
+  "gancho": "¿Hay ya mujeres coronel en la Guardia Civil?",
+  "destacar": "coronel",
+  "fecha": "Febrero de 2026",
+  "respuesta": "Sí. En febrero de 2026, María Dolores Gimeno Durán se convirtió en la primera mujer que alcanza el empleo de coronel en la historia del Cuerpo.",
+  "resaltar": "primera mujer",
   "cifra": null,
   "ademas": {
-    "texto": "Está en la Dirección General, en la calle Guzmán el Bueno de Madrid.",
+    "texto": "Meses después, Cristina Moreno Martínez se convirtió en la segunda.",
     "cifra": null
   }
 }
