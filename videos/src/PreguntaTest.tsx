@@ -165,6 +165,35 @@ const Emblema: React.FC<{ frame: number; tam: number }> = ({ frame, tam }) => (
   </div>
 );
 
+/**
+ * Estima cuánto hay que subir el contenido del móvil para que la respuesta correcta quede por encima
+ * de la tarjeta de explicación. Las medidas salen del maquetado de este archivo (ancho útil del
+ * texto, tamaños de letra e interlineados) con un margen de seguridad; 0 si ya se ve.
+ */
+export function desplazamientoPantalla(p: {
+  enunciado: string;
+  opciones: string[];
+  correcta: number;
+  explicacion: string;
+  escala: number;
+  escalaExplicacion: number;
+}) {
+  const lineas = (texto: string, ancho: number, letra: number, factor: number) =>
+    Math.max(1, Math.ceil((texto.length * letra * factor) / ancho));
+  const letraEnunciado = 46 * p.escala;
+  const altoEnunciado = lineas(p.enunciado, 636, letraEnunciado, 0.56) * letraEnunciado * 1.28;
+  const letraOpcion = 36 * p.escala;
+  const altoOpcion =
+    lineas(p.opciones[p.correcta], 550, letraOpcion, 0.54) * letraOpcion * 1.22 + 52 * p.escala + 6;
+  // Arriba de la pantalla (600 + marco 26), relleno superior 120, cabecera 70, progreso 58,
+  // margen del enunciado 36, margen de la lista y de la opción, y 45 px por el giro del móvil.
+  const bajoOpcion = 626 + 120 + 70 + 58 + 36 + altoEnunciado + 40 * p.escala + altoOpcion + 45;
+  const letraExpl = 33 * p.escalaExplicacion;
+  const altoTarjeta = 76 + Math.max(84, 57 + lineas(p.explicacion, 812, letraExpl, 0.52) * letraExpl * 1.4);
+  const arribaTarjeta = 1920 - 90 - altoTarjeta - 12;
+  return Math.max(0, Math.round(bajoOpcion + 24 - arribaTarjeta));
+}
+
 const LETRAS = ["A", "B", "C", "D"];
 const TITULAR = ["¿Sabrías", "responder", "a", "esta", "pregunta?"];
 
@@ -212,6 +241,7 @@ export const PreguntaTest: React.FC<Props> = ({
   const largo = enunciado.length + opciones.join("").length;
   const escala = Math.min(1, Math.max(0.7, 1 - (largo - 230) / 700));
   const escalaExplicacion = Math.min(1, Math.max(0.72, 1 - (explicacion.length - 200) / 500));
+  const desplazamiento = desplazamientoPantalla({ enunciado, opciones, correcta, explicacion, escala, escalaExplicacion });
   const flotar = Math.sin((frame / fps / 7) * Math.PI * 2);
   // Barra de progreso del móvil: 35 % como en la web; se completa al resolver.
   const progresoTest = interpolate(frame, [f(t.solucion), f(t.solucion + 0.6)], [0.35, 1], clamp);
@@ -357,6 +387,9 @@ export const PreguntaTest: React.FC<Props> = ({
               }}
             />
 
+            {/* Contenido de la pantalla: se desplaza hacia arriba, como un scroll, si la tarjeta de la
+                explicación fuera a tapar la respuesta correcta. */}
+            <div style={{ transform: `translateY(${-desplazamiento * pRecoger}px)` }}>
             <div
               style={{
                 display: "flex",
@@ -498,6 +531,7 @@ export const PreguntaTest: React.FC<Props> = ({
                   </div>
                 );
               })}
+            </div>
             </div>
           </div>
         </div>
