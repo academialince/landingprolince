@@ -200,7 +200,7 @@
     .hero-card-progress { right: -2%; top: 224px; padding: 11px; gap: 8px; }
     .hero-card-progress > .hero-card-icon { display: none; }
     .hero-card-answer { left: 0; bottom: 32px; padding: 13px; gap: 9px; }
-    .hero-orbit-outer { width: 105%; }
+    .hero-orbit, .hero-wordmark { display: none; }
   }
 
   /* Marquesina reutilizable (KPI y testimonios).
