@@ -4,7 +4,8 @@ import { ArrowRight } from "lucide-react";
 import { Section } from "@/components/layout/section";
 import { Reveal } from "@/components/layout/reveal";
 import { cursos } from "@/content/cursos";
-import { rutas } from "@/lib/links";
+import { cursosAbiertos, rutas } from "@/lib/links";
+import { Proximamente } from "@/components/ui/proximamente";
 
 export function CursosHome() {
   return (
@@ -33,6 +34,7 @@ export function CursosHome() {
                   <span className="absolute left-4 top-4 rounded-full bg-background/92 px-3 py-1 text-eyebrow uppercase text-primary backdrop-blur-sm">
                     {curso.eyebrow}
                   </span>
+                  {!cursosAbiertos && <Proximamente className="absolute right-4 top-4" />}
                 </div>
 
                 <div className="flex grow flex-col p-7">

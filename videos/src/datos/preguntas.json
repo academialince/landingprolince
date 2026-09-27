@@ -1,0 +1,1237 @@
+[
+  {
+    "id": "pregunta-22",
+    "tema": "Tema 2 · Igualdad efectiva de mujeres y hombres",
+    "enunciado": "En un proceso por discriminación laboral, la trabajadora demandante solicita al juez que pida un informe a la Inspección de Trabajo sobre la situación de la empresa. Según la Ley, el órgano judicial:",
+    "opciones": [
+      "Deberá recabarlo en todo caso, al haberlo pedido una parte",
+      "Podrá recabar ese informe si lo estima útil y pertinente",
+      "No podrá recabarlo, porque solo cabe hacerlo de oficio",
+      "Solo podrá recabarlo si también lo solicita el Ministerio Fiscal"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 13.1, párrafo segundo, de la LO 3/2007: el órgano judicial, a instancia de parte, podrá recabar, si lo estimase útil y pertinente, informe o dictamen de los organismos públicos competentes. No es obligatorio ni requiere la intervención del Fiscal."
+  },
+  {
+    "id": "pregunta-27",
+    "tema": "Tema 9 · Derecho Procesal Penal",
+    "enunciado": "En caso de muerte o desaparición causada directamente por un delito, son víctimas indirectas, entre otros, los progenitores y los parientes en línea recta o colateral de la víctima que se encontraren bajo su guarda, dentro del:",
+    "opciones": [
+      "Segundo grado",
+      "Cuarto grado",
+      "Primer grado",
+      "Tercer grado"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 2.b).1.º de la Ley 4/2015: son víctimas indirectas el cónyuge o pareja, los hijos, los progenitores y los parientes en línea recta o colateral dentro del tercer grado que estuvieran bajo la guarda de la víctima, y las personas sujetas a su tutela, curatela o acogimiento."
+  },
+  {
+    "id": "pregunta-28",
+    "tema": "Tema 10 · Derecho Administrativo",
+    "enunciado": "Cuando sea preceptivo, el dictamen del Consejo de Estado o del órgano consultivo autonómico se emitirá en el plazo de:",
+    "opciones": [
+      "Un mes",
+      "Tres meses",
+      "Diez días",
+      "Dos meses"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 81.2 de la Ley 39/2015: el dictamen se emite en dos meses y se pronuncia sobre la relación de causalidad, la valoración del daño y la cuantía y modo de la indemnización. Diez días es el plazo del informe del servicio causante (art. 81.1) y también dos meses el del informe del CGPJ (art. 81.3)."
+  },
+  {
+    "id": "pregunta-29",
+    "tema": "Tema 11 · Protección de datos",
+    "enunciado": "Si se denegase la solicitud de celebración del contrato como consecuencia de la consulta efectuada al sistema:",
+    "opciones": [
+      "El acreedor deberá notificar al afectado su inclusión en el sistema en treinta días",
+      "El afectado podrá exigir la supresión inmediata de sus datos del sistema",
+      "Quien haya consultado el sistema deberá informar al afectado del resultado de la consulta",
+      "La entidad que mantiene el sistema deberá comunicarlo a la Agencia en diez días"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 20.1.f) de la LO 3/2018: quien haya consultado el sistema debe informar al afectado del resultado de la consulta. La notificación en treinta días corresponde a la entidad que mantiene el sistema tras la inclusión de la deuda (art. 20.1.c)."
+  },
+  {
+    "id": "pregunta-30",
+    "tema": "Tema 12 · Extranjería. Inmigración",
+    "enunciado": "La duración del plazo de cumplimiento voluntario que incluirá la resolución de expulsión tramitada por el procedimiento ordinario oscilará entre:",
+    "opciones": [
+      "Siete y treinta días.",
+      "Quince y treinta días.",
+      "Siete y quince días.",
+      "Un mes y tres meses."
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 63 bis.2 de la LO 4/2000: el plazo va de siete a treinta días desde la notificación y puede prorrogarse por un tiempo prudencial."
+  },
+  {
+    "id": "pregunta-31",
+    "tema": "Tema 13 · Seguridad pública y seguridad privada",
+    "enunciado": "Están obligados a realizar las actuaciones de registro documental e información previstas en la normativa vigente los titulares de:",
+    "opciones": [
+      "Embarcaciones de recreo de más de doce metros",
+      "Vehículos de transporte de mercancías peligrosas",
+      "Estaciones de servicio y áreas de descanso",
+      "Embarcaciones de alta velocidad y aeronaves ligeras"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 25.2 de la LO 4/2015: la obligación alcanza a los titulares de embarcaciones de alta velocidad y de aeronaves ligeras."
+  },
+  {
+    "id": "pregunta-32",
+    "tema": "Tema 14 · Ministerio del Interior. Ministerio de Defensa",
+    "enunciado": "Según el artículo 9.2, la gestión de las competencias del Ministerio relacionadas con la protección internacional, la apatridia y la protección temporal corresponde a:",
+    "opciones": [
+      "La Subsecretaría del Interior",
+      "La Secretaría de Estado de Seguridad",
+      "La Dirección General de Relaciones Internacionales y Extranjería",
+      "La Comisaría General de Extranjería y Fronteras"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 9.2.i) del RD 207/2024: corresponde a la Subsecretaría, de la que depende la Dirección General de Protección Internacional, que instruye esos procedimientos (art. 15)."
+  },
+  {
+    "id": "pregunta-33",
+    "tema": "Tema 15 · Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+    "enunciado": "Actuará como Secretario del Consejo:",
+    "opciones": [
+      "El representante de la Administración General del Estado que designe el Presidente",
+      "El vocal de menor empleo de los elegidos por los miembros del Cuerpo",
+      "Un funcionario del Ministerio del Interior ajeno al Consejo",
+      "El vocal que designen las asociaciones profesionales representativas"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 53.2 de la LO 11/2007: actuará como Secretario el representante de la Administración General del Estado que designe el Presidente del Consejo."
+  },
+  {
+    "id": "pregunta-34",
+    "tema": "Tema 16 · Materias socio-culturales",
+    "enunciado": "Los planes de protección civil, en el ámbito de su competencia, podrán asignar funciones a las Fuerzas y Cuerpos de Seguridad del Estado:",
+    "opciones": [
+      "Designando expresamente la unidad responsable de su ejecución",
+      "Previo informe del Consejo Nacional de Protección Civil",
+      "Sin atribuirlas a unidades concretas",
+      "Solo en las emergencias declaradas de interés nacional"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 38.2 de la Ley 17/2015: los planes de protección civil podrán asignar funciones a las Fuerzas y Cuerpos de Seguridad del Estado sin atribuirlas a unidades concretas. La ley no limita esta asignación a las emergencias de interés nacional ni la condiciona a informe del Consejo Nacional."
+  },
+  {
+    "id": "pregunta-35",
+    "tema": "Tema 17 · Materias técnico-científicas",
+    "enunciado": "Las comunicaciones interceptadas deben proveerse al centro de recepción de las interceptaciones con una calidad:",
+    "opciones": [
+      "No inferior a la que obtiene el destinatario de la comunicación",
+      "Equivalente a la que determine la orden de interceptación legal",
+      "Suficiente para permitir la identificación inequívoca del usuario",
+      "Fijada por las especificaciones técnicas del Ministerio"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 58.11 de la Ley 11/2022: las comunicaciones interceptadas se proveen con una calidad no inferior a la que obtiene el destinatario de la comunicación. Las especificaciones técnicas del Ministerio se refieren a las interfaces y al formato de transmisión (art. 58.10) y la orden de interceptación determina los datos que se facilitan (art. 58.8)."
+  },
+  {
+    "id": "pregunta-36",
+    "tema": "Tema 18 · Topografía",
+    "enunciado": "¿Cómo se denomina la distancia vertical entre dos puntos de la superficie continental?",
+    "opciones": [
+      "Altitud",
+      "Cota absoluta",
+      "Equidistancia",
+      "Altura"
+    ],
+    "correcta": 3,
+    "explicacion": "Epígrafe «Representación del terreno» del temario del Tema 18: la altura es la distancia vertical entre dos puntos de la superficie continental, mientras que la altitud es la distancia vertical de un punto respecto al nivel medio del mar. La equidistancia es el desnivel entre curvas consecutivas."
+  },
+  {
+    "id": "pregunta-37",
+    "tema": "Tema 19 · Deontología profesional",
+    "enunciado": "«Me comportaré siempre con la mayor dignidad, como exigen el Cuerpo al que pertenezco y el uniforme que visto». ¿Qué lugar ocupa este enunciado?",
+    "opciones": [
+      "Primero.",
+      "Segundo.",
+      "Tercero.",
+      "Cuarto."
+    ],
+    "correcta": 2,
+    "explicacion": "Apartado Tercero del Decálogo (anexo del Código de Conducta, RD 176/2022): corresponde a la Dignidad. El Primero es el Honor, el Segundo la Defensa de España y de la Constitución y el Cuarto el Respeto a los derechos y libertades."
+  },
+  {
+    "id": "pregunta-38",
+    "tema": "Tema 22 · Armas y explosivos",
+    "enunciado": "Las armas de fuego de calibre inferior a 20 milímetros tienen la consideración de armas de guerra:",
+    "opciones": [
+      "Cuando su calibre sea considerado de guerra por el Ministerio de Defensa",
+      "En ningún caso, porque el umbral es de 20 milímetros",
+      "Cuando así lo declare el Ministerio del Interior",
+      "Cuando su calibre sea superior a 12,7 milímetros"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 6.1.b) del RD 137/1993 (Reglamento de Armas): además de las de calibre igual o superior a 20 mm, son armas de guerra las de calibre inferior cuyos calibres considere de guerra el Ministerio de Defensa, y las armas de fuego automáticas. No existe un segundo umbral fijo de calibre."
+  },
+  {
+    "id": "pregunta-39",
+    "tema": "Tema 23 · Derecho Fiscal",
+    "enunciado": "Una persona, sin actuar a través de organización alguna, posee y comercializa mercancías no comunitarias de lícito comercio valoradas en 30.000 euros sin poder acreditar su lícita importación. ¿Cómo se califica la conducta?",
+    "opciones": [
+      "Infracción administrativa de contrabando grave",
+      "Infracción administrativa de contrabando muy grave",
+      "Infracción administrativa de contrabando leve",
+      "Delito de contrabando"
+    ],
+    "correcta": 2,
+    "explicacion": "Arts. 2.1.b) y 11.2.a) de la LO 12/1995: para los supuestos del art. 2.1, la infracción es leve por debajo de 37.500 euros. Sería grave hasta 112.500 euros, muy grave por encima y delito desde 150.000 euros."
+  },
+  {
+    "id": "pregunta-40",
+    "tema": "Tema 1 · Derechos Humanos",
+    "enunciado": "¿Qué órgano puede, según la Carta, considerar los principios que rigen el desarme y la regulación de los armamentos y llamar la atención del Consejo de Seguridad hacia situaciones susceptibles de poner en peligro la paz?",
+    "opciones": [
+      "El Consejo Económico y Social",
+      "La Asamblea General",
+      "La Corte Internacional de Justicia",
+      "El Consejo de Administración Fiduciaria"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 11.1 y 11.3 de la Carta ONU: la Asamblea General puede considerar los principios generales de la cooperación en el mantenimiento de la paz, incluidos los del desarme y la regulación de armamentos, y llamar la atención del Consejo de Seguridad hacia situaciones que pongan en peligro la paz. Los demás órganos no tienen atribuida esta función."
+  },
+  {
+    "id": "pregunta-41",
+    "tema": "Tema 2 · Igualdad efectiva de mujeres y hombres",
+    "enunciado": "El Plan para la Igualdad entre mujeres y hombres en la Administración General del Estado será objeto de negociación, y en su caso acuerdo:",
+    "opciones": [
+      "Con la Conferencia Sectorial de la Mujer",
+      "Con la representación legal de los empleados públicos",
+      "Con el Consejo de Participación de la Mujer",
+      "Con las asociaciones de mujeres de ámbito estatal"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 64 de la LO 3/2007: el Plan se negocia, y en su caso se acuerda, con la representación legal de los empleados públicos conforme a la legislación sobre negociación colectiva en la Administración Pública. La Conferencia Sectorial adopta planes conjuntos con las CCAA (art. 21) y el Consejo de Participación es órgano consultivo (art. 78)."
+  },
+  {
+    "id": "pregunta-42",
+    "tema": "Tema 3 · Prevención de riesgos laborales",
+    "enunciado": "¿Sobre cuál de las siguientes cuestiones podrá la Comisión Nacional de Seguridad y Salud en el Trabajo, específicamente, informar y formular propuestas?",
+    "opciones": [
+      "Proyectos de disposiciones de carácter general.",
+      "Imposición de sanciones por infracciones en materia preventiva.",
+      "Resolución de las impugnaciones de paralizaciones de trabajos.",
+      "Autorización de los servicios de prevención ajenos."
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 13.3 de la Ley 31/1995: la Comisión puede informar y formular propuestas sobre criterios y programas generales, proyectos de disposiciones de carácter general y coordinación administrativa. La resolución de impugnaciones corresponde a la autoridad laboral (art. 44) y la sanción a las autoridades competentes."
+  },
+  {
+    "id": "pregunta-43",
+    "tema": "Tema 5 · Derecho de la Unión Europea",
+    "enunciado": "¿Con qué periodicidad informará la Comisión al Parlamento Europeo, al Consejo y al Comité Económico y Social sobre la aplicación de las disposiciones relativas a la no discriminación y la ciudadanía de la Unión?",
+    "opciones": [
+      "Cada año.",
+      "Cada cinco años.",
+      "Cada tres años.",
+      "Cada dos años y medio."
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 25 del TFUE: la Comisión informa cada tres años sobre la aplicación de la segunda parte del Tratado. Anual es el informe general de la Comisión (art. 249.2), cinco años el mandato de la Comisión y dos años y medio el del Presidente del Consejo Europeo."
+  },
+  {
+    "id": "pregunta-44",
+    "tema": "Tema 6 · Instituciones internacionales",
+    "enunciado": "¿Cuál de los siguientes NO es uno de los comités técnicos de la FAO?",
+    "opciones": [
+      "El Comité de Pesca",
+      "El Comité de Asuntos Constitucionales y Jurídicos",
+      "El Comité Forestal",
+      "El Comité de Problemas de Productos Básicos"
+    ],
+    "correcta": 1,
+    "explicacion": "Temario, epígrafe FAO: entre los comités técnicos están los de Agricultura, Problemas de Productos Básicos, Pesca y Forestal. El Comité de Asuntos Constitucionales y Jurídicos es otro órgano rector, no un comité técnico."
+  },
+  {
+    "id": "pregunta-45",
+    "tema": "Tema 7 · Derecho Civil",
+    "enunciado": "Las concesiones de la nacionalidad por carta de naturaleza o por residencia caducan si en el plazo indicado el interesado no comparece ante funcionario competente para cumplir los requisitos del artículo 23. ¿Cuál es ese plazo?",
+    "opciones": [
+      "Ciento ochenta días siguientes a su publicación en el «Boletín Oficial del Estado»",
+      "Dos años siguientes a su notificación",
+      "Un año siguiente a su notificación",
+      "Ciento ochenta días siguientes a su notificación"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 21.4 del CC: las concesiones por carta de naturaleza o por residencia caducan a los ciento ochenta días siguientes a su notificación si el interesado no comparece en ese plazo. El cómputo arranca de la notificación, no de la publicación, y los plazos de uno o dos años no corresponden a esta caducidad."
+  },
+  {
+    "id": "pregunta-46",
+    "tema": "Tema 9 · Derecho Procesal Penal",
+    "enunciado": "El Estatuto de la víctima del delito entró en vigor:",
+    "opciones": [
+      "A los seis meses de su publicación en el Boletín Oficial del Estado",
+      "Al día siguiente de su publicación en el Boletín Oficial del Estado",
+      "A los veinte días de su publicación en el Boletín Oficial del Estado",
+      "Al año de su publicación en el Boletín Oficial del Estado"
+    ],
+    "correcta": 0,
+    "explicacion": "Disposición final sexta de la Ley 4/2015: la ley entró en vigor a los seis meses de su publicación en el BOE. Un año es el plazo de adaptación de los Estatutos de la Abogacía y la Procuraduría (DF quinta)."
+  },
+  {
+    "id": "pregunta-47",
+    "tema": "Tema 10 · Derecho Administrativo",
+    "enunciado": "Cuando al dictar el acuerdo de iniciación no existan elementos suficientes para la calificación inicial de los hechos, esta podrá realizarse en una fase posterior mediante:",
+    "opciones": [
+      "Una ampliación del acuerdo de iniciación, que no será recurrible",
+      "Un Pliego de cargos, que deberá ser notificado a los interesados",
+      "Una propuesta de resolución provisional, que no requiere notificación",
+      "Un informe del órgano instructor, que se incorporará al expediente"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 64.3 de la Ley 39/2015: excepcionalmente, la calificación podrá realizarse después mediante la elaboración de un Pliego de cargos, que deberá notificarse a los interesados. Las demás opciones no están previstas."
+  },
+  {
+    "id": "pregunta-48",
+    "tema": "Tema 11 · Protección de datos",
+    "enunciado": "¿Quién puede fijar excepciones a la obligación de bloqueo cuando la mera conservación de los datos, incluso bloqueados, pudiera generar un riesgo elevado o un coste desproporcionado?",
+    "opciones": [
+      "El Gobierno, mediante real decreto",
+      "La Agencia y las autoridades autonómicas, en sus respectivas competencias",
+      "El Comité Europeo de Protección de Datos",
+      "El responsable del tratamiento, previo informe de su delegado"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 32.5 de la LO 3/2018: la Agencia y las autoridades autonómicas, en su ámbito, pueden fijar excepciones por la naturaleza de los datos, el número elevado de afectados o el coste desproporcionado."
+  },
+  {
+    "id": "pregunta-49",
+    "tema": "Tema 12 · Extranjería. Inmigración",
+    "enunciado": "Un extranjero titular de una autorización inicial de residencia y trabajo para hostelería en Murcia es hallado trabajando en la construcción en Almería. Comete:",
+    "opciones": [
+      "Infracción grave.",
+      "Infracción leve.",
+      "Infracción muy grave.",
+      "Ninguna infracción, al haberse extinguido las limitaciones de territorio y ocupación."
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 52.d) de la LO 4/2000: es leve para el trabajador, y también lo es para el empleador que le contrata en esas condiciones (art. 52.e)."
+  },
+  {
+    "id": "pregunta-50",
+    "tema": "Tema 13 · Seguridad pública y seguridad privada",
+    "enunciado": "Cuando las sanciones hayan sido impuestas por la Administración General del Estado, los órganos y procedimientos de recaudación ejecutiva serán los establecidos en:",
+    "opciones": [
+      "El Reglamento General de Recaudación",
+      "La Ley General Presupuestaria",
+      "La Ley de la Jurisdicción Contencioso-administrativa",
+      "El Reglamento del procedimiento sancionador"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 53.4 de la LO 4/2015: se aplican los órganos y procedimientos del Reglamento General de Recaudación."
+  },
+  {
+    "id": "pregunta-51",
+    "tema": "Tema 14 · Ministerio del Interior. Ministerio de Defensa",
+    "enunciado": "La elaboración anual de la oferta de empleo del Ministerio del Interior corresponde a:",
+    "opciones": [
+      "La Secretaría General Técnica",
+      "La Dirección General de Política Interior",
+      "El Gabinete Técnico de la Subsecretaría",
+      "La Oficina Presupuestaria"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 11.2.j) del RD 207/2024: la gestión de los recursos humanos del Departamento, la oferta de empleo y la tramitación de los procesos selectivos corresponden a la Dirección General de Política Interior, a través de su Subdirección General de Recursos Humanos."
+  },
+  {
+    "id": "pregunta-52",
+    "tema": "Tema 15 · Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+    "enunciado": "Para potenciar la formación de los cuadros de mando se crea en 1942:",
+    "opciones": [
+      "La Academia Especial de Valdemoro",
+      "El Colegio de Guardias Jóvenes",
+      "El Centro Universitario de la Guardia Civil",
+      "El Centro de Instrucción"
+    ],
+    "correcta": 3,
+    "explicacion": "Temario (El franquismo): en 1942 se creó el Centro de Instrucción para los cuadros de mando y seis Academias Regionales para los guardias de nuevo ingreso, que más tarde se reducirían a tres: Úbeda, El Escorial y Sabadell."
+  },
+  {
+    "id": "pregunta-53",
+    "tema": "Tema 16 · Materias socio-culturales",
+    "enunciado": "Respecto de los conocimientos y prácticas de utilización consuetudinaria de interés para la conservación, las Administraciones públicas:",
+    "opciones": [
+      "Los preservarán, mantendrán y fomentarán, promoviendo el reparto equitativo de sus beneficios",
+      "Los someterán a autorización previa del Ministerio",
+      "Los excluirán de los inventarios por su carácter privado",
+      "Los inscribirán obligatoriamente en el Registro de la Propiedad Intelectual"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 74.1 de la Ley 42/2007: las Administraciones preservarán, mantendrán y fomentarán esos conocimientos y prácticas y promoverán que los beneficios derivados de su utilización se compartan equitativamente."
+  },
+  {
+    "id": "pregunta-54",
+    "tema": "Tema 17 · Materias técnico-científicas",
+    "enunciado": "Entre los elementos que supone implementar la seguridad, ¿cuál consiste en la observación continua de las medidas de seguridad y su adecuación a la aparición de nuevas tecnologías?",
+    "opciones": [
+      "La gobernanza",
+      "La gestión de riesgos",
+      "El análisis de riesgos",
+      "La vigilancia"
+    ],
+    "correcta": 3,
+    "explicacion": "Apartado 2 de la guía CCN-CERT BP/01: la vigilancia es la observación continua de las medidas de seguridad y su adecuación a las nuevas tecnologías. La gobernanza adapta la operativa habitual a las medidas y la gestión de riesgos decide la solución y determina el riesgo residual."
+  },
+  {
+    "id": "pregunta-55",
+    "tema": "Tema 18 · Topografía",
+    "enunciado": "¿A cuántas milésimas artilleras equivale un ángulo de 180 grados sexagesimales?",
+    "opciones": [
+      "3.200 milésimas",
+      "1.600 milésimas",
+      "6.400 milésimas",
+      "200 milésimas"
+    ],
+    "correcta": 0,
+    "explicacion": "Epígrafe «Unidades geométricas de medida» del temario del Tema 18: la circunferencia (360º) equivale a 6.400 milésimas, luego 180º son 3.200. 1.600 milésimas es el ángulo recto, 6.400 la circunferencia completa y 200 es el valor de 180º en grados centesimales."
+  },
+  {
+    "id": "pregunta-56",
+    "tema": "Tema 19 · Deontología profesional",
+    "enunciado": "El punto dedicado a la «Serenidad y empleo de la fuerza» ocupa en el Decálogo el lugar:",
+    "opciones": [
+      "Noveno.",
+      "Décimo.",
+      "Octavo.",
+      "Séptimo."
+    ],
+    "correcta": 1,
+    "explicacion": "Apartado Décimo del Decálogo (anexo del Código de Conducta, RD 176/2022): cierra el Decálogo con la serenidad y el empleo de la fuerza. El Noveno es Disciplina, el Octavo Lealtad y espíritu de cuerpo y el Séptimo Espíritu benemérito."
+  },
+  {
+    "id": "pregunta-57",
+    "tema": "Tema 22 · Armas y explosivos",
+    "enunciado": "La capacidad máxima de los depósitos subterráneos de explosivos será de:",
+    "opciones": [
+      "5.000 kilogramos",
+      "25.000 kilogramos",
+      "1.000 kilogramos",
+      "10.000 kilogramos"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 59.3 del RD 130/2017 (Reglamento de Explosivos): la capacidad máxima del depósito subterráneo es de 10.000 kg. 5.000 kg es el máximo de cada polvorín subterráneo o nicho, 1.000 kg su límite si hay presencia habitual de personas cerca y 25.000 kg el de cada polvorín superficial (art. 58)."
+  },
+  {
+    "id": "pregunta-58",
+    "tema": "Tema 23 · Derecho Fiscal",
+    "enunciado": "Según el Código Aduanero de la Unión, ¿cuál de las siguientes tiene la consideración de operación de transformación?",
+    "opciones": [
+      "El almacenamiento en depósito temporal",
+      "La presentación de las mercancías en aduana",
+      "La destrucción de mercancías",
+      "El transporte de mercancías en tránsito"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 5.37 del CAU: son operaciones de transformación la manipulación, incluido el montaje o la incorporación a otras mercancías, la transformación, la destrucción, la reparación y la utilización de mercancías que no se encuentran en los productos transformados."
+  },
+  {
+    "id": "pregunta-59",
+    "tema": "Tema 1 · Derechos Humanos",
+    "enunciado": "Ninguna autoridad o funcionario ordenará, aplicará, permitirá o tolerará sanción alguna contra una persona u organización por haber comunicado al mecanismo nacional de prevención cualquier información:",
+    "opciones": [
+      "Siempre que sea verdadera",
+      "Siempre que no sea confidencial",
+      "Ya sea verdadera o falsa",
+      "Salvo que afecte a la seguridad nacional"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 21.1 del Protocolo Facultativo: la protección alcanza a quien comunique cualquier información, ya sea verdadera o falsa, y nadie sufrirá perjuicios por ello. La misma regla rige para la información comunicada al Subcomité (art. 15)."
+  },
+  {
+    "id": "pregunta-60",
+    "tema": "Tema 2 · Igualdad efectiva de mujeres y hombres",
+    "enunciado": "Para facilitar la promoción profesional de las empleadas públicas y su acceso a puestos directivos en la Administración General del Estado, en las convocatorias de los correspondientes cursos de formación se reservará para ellas:",
+    "opciones": [
+      "Al menos un 50 % de las plazas",
+      "Al menos un 40 % de las plazas",
+      "Al menos un 60 % de las plazas",
+      "Al menos un 30 % de las plazas"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 60.2 de la LO 3/2007: se reservará al menos un 40 % de las plazas a las empleadas públicas que reúnan los requisitos. No debe confundirse con la preferencia durante un año del apartado 1 para quienes vuelven de permisos o excedencias, ni con el máximo del 60 % de la presencia equilibrada."
+  },
+  {
+    "id": "pregunta-61",
+    "tema": "Tema 3 · Prevención de riesgos laborales",
+    "enunciado": "Podrá adoptarse un sistema de designación de Delegados de Prevención distinto del general, conforme al artículo 35.4 de la Ley 31/1995:",
+    "opciones": [
+      "Previo informe favorable del Instituto Nacional de Seguridad e Higiene en el Trabajo.",
+      "Previa autorización de la Dirección General de la Función Pública.",
+      "Previo acuerdo de la Comisión Técnica de Prevención de Riesgos Laborales.",
+      "Previa resolución del Comité de Seguridad y Salud del centro."
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 5.2 del RD 67/2010: exige el previo acuerdo de la Comisión Técnica de Prevención de Riesgos Laborales. Los demás órganos no intervienen en esa decisión."
+  },
+  {
+    "id": "pregunta-62",
+    "tema": "Tema 5 · Derecho de la Unión Europea",
+    "enunciado": "¿Quién elaborará el proyecto para hacer posible la elección de los diputados al Parlamento Europeo por sufragio universal directo con un procedimiento uniforme o con principios comunes?",
+    "opciones": [
+      "La Comisión.",
+      "El Parlamento Europeo.",
+      "El Consejo.",
+      "El Consejo Europeo."
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 223.1 del TFUE: el proyecto lo elabora el Parlamento Europeo, y el Consejo establece las disposiciones por unanimidad, previa aprobación del Parlamento por mayoría de sus miembros. Entran en vigor tras su aprobación por los Estados."
+  },
+  {
+    "id": "pregunta-63",
+    "tema": "Tema 6 · Instituciones internacionales",
+    "enunciado": "¿En qué año participó la OTAN en su primera operación importante de gestión de crisis, en Bosnia y Herzegovina?",
+    "opciones": [
+      "1991",
+      "1999",
+      "2001",
+      "1995"
+    ],
+    "correcta": 3,
+    "explicacion": "Temario, epígrafe OTAN: en 1995 la OTAN participó en su primera operación importante de gestión de crisis, en Bosnia y Herzegovina. En 1991 desarrolló asociaciones con antiguos adversarios y en 2001 invocó por primera vez el artículo 5."
+  },
+  {
+    "id": "pregunta-64",
+    "tema": "Tema 7 · Derecho Civil",
+    "enunciado": "El acogimiento familiar requerirá el consentimiento de los acogedores y del menor acogido si tuviera suficiente madurez y, en todo caso, si fuera mayor de…:",
+    "opciones": [
+      "Catorce años",
+      "Doce años",
+      "Diez años",
+      "Dieciséis años"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 173.2 del CC: el acogimiento requiere el consentimiento de los acogedores y del menor si tiene suficiente madurez y, en todo caso, si es mayor de doce años."
+  },
+  {
+    "id": "pregunta-65",
+    "tema": "Tema 9 · Derecho Procesal Penal",
+    "enunciado": "Cuando la restricción de los derechos del detenido sea solicitada por la Policía Judicial o por el Ministerio Fiscal, las medidas instadas se entenderán acordadas por un plazo máximo de:",
+    "opciones": [
+      "Cuarenta y ocho horas, dentro del cual el juez habrá de pronunciarse",
+      "Setenta y dos horas, dentro del cual el juez habrá de pronunciarse",
+      "Doce horas, dentro del cual el juez habrá de pronunciarse",
+      "Veinticuatro horas, dentro del cual el juez habrá de pronunciarse"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 527.2 de la LECrim: las restricciones instadas por la Policía Judicial o el Fiscal se entienden acordadas por un máximo de veinticuatro horas, en las que el juez debe pronunciarse también sobre el secreto de las actuaciones."
+  },
+  {
+    "id": "pregunta-66",
+    "tema": "Tema 10 · Derecho Administrativo",
+    "enunciado": "La obligación de relacionarse por medios electrónicos para determinados procedimientos y ciertos colectivos de personas físicas con acceso acreditado a dichos medios podrá establecerse:",
+    "opciones": [
+      "Mediante instrucción u orden de servicio del órgano competente",
+      "Reglamentariamente por las Administraciones",
+      "Únicamente mediante norma con rango de ley",
+      "Mediante acuerdo de la Conferencia Sectorial correspondiente"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 14.3 de la Ley 39/2015: reglamentariamente, las Administraciones pueden establecer esa obligación para colectivos de personas físicas que por su capacidad económica, técnica, dedicación profesional u otros motivos tengan acceso a los medios electrónicos. No se exige ley ni basta una instrucción."
+  },
+  {
+    "id": "pregunta-67",
+    "tema": "Tema 11 · Protección de datos",
+    "enunciado": "¿Cuál de los siguientes forma parte de los medios con que cuenta la Agencia para el cumplimiento de sus fines?",
+    "opciones": [
+      "Los ingresos derivados del ejercicio de las potestades del artículo 58 del Reglamento",
+      "Las cuotas de los delegados de protección de datos inscritos",
+      "Las aportaciones obligatorias de las autoridades autonómicas",
+      "Un porcentaje de las tasas judiciales"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 46.3 de la LO 3/2018: cuenta con las asignaciones de los Presupuestos Generales del Estado, su patrimonio y los ingresos de sus actividades, incluidos los derivados de las potestades del art. 58 del Reglamento."
+  },
+  {
+    "id": "pregunta-68",
+    "tema": "Tema 12 · Extranjería. Inmigración",
+    "enunciado": "La autorización de estancia por estudios se prorrogará, en cada prórroga, con el límite de:",
+    "opciones": [
+      "Seis meses.",
+      "Dos años.",
+      "Un año.",
+      "Tres meses."
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 33.3 de la LO 4/2000: la autorización se prorroga con el límite de un año en cada prórroga, siempre que se mantengan las condiciones y requisitos exigidos."
+  },
+  {
+    "id": "pregunta-69",
+    "tema": "Tema 13 · Seguridad pública y seguridad privada",
+    "enunciado": "Entre las actividades sujetas a obligaciones de registro documental e información figura la venta a particulares de:",
+    "opciones": [
+      "Medicamentos sujetos a prescripción",
+      "Bebidas alcohólicas",
+      "Productos químicos peligrosos",
+      "Productos del tabaco"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 25.1 de la LO 4/2015: se cita la venta de productos químicos peligrosos a particulares. Las demás ventas no aparecen en la enumeración."
+  },
+  {
+    "id": "pregunta-70",
+    "tema": "Tema 14 · Ministerio del Interior. Ministerio de Defensa",
+    "enunciado": "La representación ordinaria del Ministerio del Interior corresponde a:",
+    "opciones": [
+      "La Secretaría de Estado de Seguridad",
+      "El Gabinete de la persona titular del Ministerio",
+      "La Secretaría General Técnica",
+      "La Subsecretaría del Interior"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 9.1 del RD 207/2024: corresponde a la Subsecretaría, bajo la superior autoridad del Ministro, la representación ordinaria del Departamento y la dirección de sus servicios comunes. La Secretaría de Estado solo representa al Departamento cuando se lo encomienda el Ministro (art. 2.1.e)."
+  },
+  {
+    "id": "pregunta-71",
+    "tema": "Tema 15 · Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+    "enunciado": "El régimen económico de las asociaciones profesionales de guardias civiles está sometido a los principios de:",
+    "opciones": [
+      "Transparencia y publicidad",
+      "Eficacia y eficiencia",
+      "Autonomía financiera y equilibrio presupuestario",
+      "Publicidad y concurrencia"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 37.3 de la LO 11/2007: su régimen económico está sometido a los principios de transparencia y publicidad."
+  },
+  {
+    "id": "pregunta-72",
+    "tema": "Tema 16 · Materias socio-culturales",
+    "enunciado": "¿Ante qué órgano eleva el Gobierno la memoria anual que permite valorar la eficacia del Sistema Nacional de Protección Civil?",
+    "opciones": [
+      "Ante el Consejo de Seguridad Nacional",
+      "Ante el Congreso de los Diputados",
+      "Ante el Senado",
+      "Ante la Comisión Europea"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 27 de la Ley 17/2015: el Gobierno elevará al Senado una memoria anual que permita valorar la eficacia del Sistema Nacional."
+  },
+  {
+    "id": "pregunta-73",
+    "tema": "Tema 17 · Materias técnico-científicas",
+    "enunciado": "En los certificados de firma electrónica expedidos a personas físicas, la identidad se consignará por:",
+    "opciones": [
+      "Su nombre y apellidos y su domicilio",
+      "Su número de DNI y su firma manuscrita digitalizada",
+      "Su nombre y apellidos y su número de DNI, NIE o NIF",
+      "Su nombre y apellidos y su dirección de correo electrónico"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 6.1.a) de la Ley 6/2020: la identidad se consigna por el nombre y apellidos y el número de DNI, número de identidad de extranjero o número de identificación fiscal, o mediante pseudónimo inequívoco."
+  },
+  {
+    "id": "pregunta-74",
+    "tema": "Tema 18 · Topografía",
+    "enunciado": "Según el temario, ¿qué escala se utiliza habitualmente para representar planos de viviendas?",
+    "opciones": [
+      "1:1",
+      "1:50",
+      "2:1",
+      "1:50.000"
+    ],
+    "correcta": 1,
+    "explicacion": "Epígrafe «Unidades geométricas de medida» del temario del Tema 18: el temario cita la escala de reducción 1:50 para planos de viviendas. 1:50.000 es propia de mapas de territorios, 2:1 es de ampliación y 1:1 es la natural."
+  },
+  {
+    "id": "pregunta-75",
+    "tema": "Tema 19 · Deontología profesional",
+    "enunciado": "Según el artículo 5, los procesos selectivos para el acceso directo a las diferentes escalas de la Guardia Civil contemplarán el contenido del Código de Conducta:",
+    "opciones": [
+      "Adecuándolo a los perfiles profesionales del primer empleo correspondiente.",
+      "En la fase de formación posterior a la superación del proceso selectivo.",
+      "En la medida en que lo determine la Dirección General de la Guardia Civil.",
+      "En sus correspondientes convocatorias y en su desarrollo."
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 5.1 del RD 176/2022: los procesos de acceso directo contemplarán el Código en sus correspondientes convocatorias y en su desarrollo, así como los valores, principios y normas en que se sustenta. La adecuación a los perfiles del primer empleo es la regla del art. 5.2 para la promoción profesional."
+  },
+  {
+    "id": "pregunta-76",
+    "tema": "Tema 22 · Armas y explosivos",
+    "enunciado": "Las materias y objetos que presentan un riesgo de incendio con ligero riesgo de efectos de onda expansiva o de proyección, pero sin riesgo de explosión en masa, se adscriben a la división:",
+    "opciones": [
+      "1.2",
+      "1.4",
+      "1.3",
+      "1.5"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 8 del RD 130/2017 (Reglamento de Explosivos): la división 1.3 comprende el riesgo de incendio con ligero riesgo de onda expansiva o de proyección, sin explosión en masa. La 1.2 es el riesgo de proyección, la 1.4 el pequeño riesgo de explosión en caso de ignición y la 1.5 las materias muy poco sensibles con riesgo de explosión en masa."
+  },
+  {
+    "id": "pregunta-77",
+    "tema": "Tema 23 · Derecho Fiscal",
+    "enunciado": "Además de los artículos cuya producción o comercio se atribuye por ley al Estado en régimen de monopolio, la Ley incluye expresamente entre los géneros o efectos estancados:",
+    "opciones": [
+      "Los precursores de drogas",
+      "El material de defensa",
+      "Los productos de doble uso",
+      "Las labores del tabaco"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 1.11 de la LO 12/1995: las labores del tabaco son géneros estancados. Los precursores de drogas, el material de defensa y los productos de doble uso tienen definición propia (art. 1.13 a 1.15)."
+  },
+  {
+    "id": "pregunta-78",
+    "tema": "Tema 1 · Derechos Humanos",
+    "enunciado": "¿Cuál de los siguientes instrumentos vincula expresamente la protección del medio ambiente al principio de desarrollo sostenible?",
+    "opciones": [
+      "El Convenio Europeo de Derechos Humanos",
+      "La Carta de los Derechos Fundamentales de la Unión Europea",
+      "La Declaración Universal de Derechos Humanos",
+      "El Pacto Internacional de Derechos Civiles y Políticos"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 37 de la Carta de los Derechos Fundamentales de la UE: las políticas de la Unión integran y garantizan, conforme al principio de desarrollo sostenible, un nivel elevado de protección del medio ambiente. Los demás instrumentos no contienen esa previsión."
+  },
+  {
+    "id": "pregunta-79",
+    "tema": "Tema 2 · Igualdad efectiva de mujeres y hombres",
+    "enunciado": "¿Cuándo puede cualquier persona recabar de los tribunales la tutela del derecho a la igualdad entre mujeres y hombres?",
+    "opciones": [
+      "Incluso tras la terminación de la relación en la que supuestamente se produjo la discriminación",
+      "Solo mientras se mantenga la relación en la que supuestamente se produjo la discriminación",
+      "Hasta un año después de terminar la relación en la que se produjo la discriminación",
+      "Solo mientras dure la relación, salvo en los litigios sobre acoso sexual"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 12.1 de la LO 3/2007: la tutela puede recabarse, conforme al art. 53.2 CE, incluso tras la terminación de la relación en la que supuestamente se ha producido la discriminación. La Ley no la limita a la vigencia de la relación ni fija plazo de un año (dato del art. 60.1 para la preferencia en formación)."
+  },
+  {
+    "id": "pregunta-80",
+    "tema": "Tema 3 · Prevención de riesgos laborales",
+    "enunciado": "Si el cambio de puesto de la trabajadora embarazada no resultara técnica u objetivamente posible, podrá declararse su paso a la situación de:",
+    "opciones": [
+      "Incapacidad temporal por contingencias comunes.",
+      "Reducción de jornada por guarda legal.",
+      "Suspensión del contrato por riesgo durante el embarazo.",
+      "Excedencia por cuidado de familiares."
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 26.3 de la Ley 31/1995: podrá declararse la suspensión del contrato por riesgo durante el embarazo del art. 45.1.d) del Estatuto de los Trabajadores. Las demás situaciones no son las previstas en el precepto."
+  },
+  {
+    "id": "pregunta-81",
+    "tema": "Tema 5 · Derecho de la Unión Europea",
+    "enunciado": "La Unión gozará en cada Estado miembro de la más amplia capacidad jurídica que las legislaciones nacionales reconocen a las personas jurídicas y, con carácter general, estará representada por:",
+    "opciones": [
+      "La Comisión.",
+      "El Consejo.",
+      "El Presidente del Consejo Europeo.",
+      "El Alto Representante."
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 335 del TFUE: la Unión está representada por la Comisión, aunque cada institución la representa en las cuestiones relacionadas con su propio funcionamiento. La personalidad jurídica de la Unión la reconoce el art. 47 del TUE."
+  },
+  {
+    "id": "pregunta-82",
+    "tema": "Tema 6 · Instituciones internacionales",
+    "enunciado": "Entre las funciones principales del Consejo Ejecutivo de la OMS se encuentra:",
+    "opciones": [
+      "Nombrar al Director General",
+      "Implementar las decisiones y políticas de la Asamblea de la Salud",
+      "Aprobar el presupuesto por programas",
+      "Elegir a los Estados Miembros que integran las oficinas regionales"
+    ],
+    "correcta": 1,
+    "explicacion": "Temario, epígrafe OMS: el Consejo Ejecutivo implementa las decisiones y políticas de la Asamblea, la asesora y facilita su trabajo. Nombrar al Director General y aprobar el presupuesto corresponde a la Asamblea."
+  },
+  {
+    "id": "pregunta-83",
+    "tema": "Tema 7 · Derecho Civil",
+    "enunciado": "El marido podrá ejercitar la acción de impugnación de la paternidad en el plazo de…:",
+    "opciones": [
+      "Cuatro años contados desde la inscripción de la filiación en el Registro Civil",
+      "Un año contado desde el nacimiento del hijo",
+      "Un año contado desde la inscripción de la filiación en el Registro Civil",
+      "Seis meses contados desde el conocimiento del parto"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 136.1 del CC: el marido dispone de un año desde la inscripción de la filiación, plazo que no corre mientras ignore el nacimiento. Seis meses desde el conocimiento del parto es el plazo de la declaración del art. 117."
+  },
+  {
+    "id": "pregunta-84",
+    "tema": "Tema 9 · Derecho Procesal Penal",
+    "enunciado": "Supuesto: una persona falsifica un documento mercantil para, con él, cometer una estafa. A efectos de competencia, ambos delitos:",
+    "opciones": [
+      "Son conexos, por cometerse uno como medio para perpetrar el otro",
+      "Son conexos, por cometerse uno para procurar la impunidad del otro",
+      "No son conexos, pues los ha cometido una sola persona",
+      "Solo podrán enjuiciarse juntos si son de la competencia de órganos distintos"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 17.2.3.º de la LECrim: son conexos los delitos cometidos como medio para perpetrar otros o facilitar su ejecución, aunque los cometa una sola persona. La impunidad es el criterio del 17.2.4.º."
+  },
+  {
+    "id": "pregunta-85",
+    "tema": "Tema 10 · Derecho Administrativo",
+    "enunciado": "Según la Ley de Régimen Jurídico del Sector Público, ¿cuál de las siguientes facultades NO podrá ejercer el Gobierno en funciones?",
+    "opciones": [
+      "Adoptar medidas en casos de urgencia debidamente acreditados",
+      "Despachar ordinariamente los asuntos públicos",
+      "Facilitar el traspaso de poderes al nuevo Gobierno",
+      "Aprobar el Proyecto de Ley de Presupuestos Generales del Estado"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 21.5.a de la Ley 50/1997: el Gobierno en funciones no puede aprobar el Proyecto de Ley de Presupuestos Generales del Estado. El despacho ordinario, el traspaso de poderes y las medidas en casos de urgencia acreditada sí le corresponden (art. 21.3)."
+  },
+  {
+    "id": "pregunta-86",
+    "tema": "Tema 11 · Protección de datos",
+    "enunciado": "La Agencia remite una reclamación al responsable, que no ha designado delegado ni está adherido a mecanismos extrajudiciales, para que responda. ¿De qué plazo dispone?",
+    "opciones": [
+      "Tres meses",
+      "Un mes",
+      "Diez días",
+      "Dos meses"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 65.4 de la LO 3/2018: el responsable dará respuesta a la reclamación en el plazo de un mes."
+  },
+  {
+    "id": "pregunta-87",
+    "tema": "Tema 12 · Extranjería. Inmigración",
+    "enunciado": "Transcurrido el plazo general para notificar las resoluciones de las solicitudes de autorizaciones, salvo en los supuestos del apartado 2, éstas:",
+    "opciones": [
+      "Se entenderán estimadas.",
+      "Deberán ser reiteradas por el interesado.",
+      "Podrán entenderse desestimadas.",
+      "Se archivarán por caducidad."
+    ],
+    "correcta": 2,
+    "explicacion": "Disposición adicional primera.1 de la LO 4/2000: el silencio en el plazo general es negativo. Es positivo en las prórrogas, renovaciones y larga duración (apartado 2) y en las modificaciones territoriales o de ocupación (apartado 3)."
+  },
+  {
+    "id": "pregunta-88",
+    "tema": "Tema 13 · Seguridad pública y seguridad privada",
+    "enunciado": "Cuando el personal de seguridad privada desempeñe sus funciones en entidades que presten servicios esenciales o donde la seguridad se haya impuesto obligatoriamente, en el ejercicio del derecho de huelga:",
+    "opciones": [
+      "No podrá ejercer el derecho de huelga en ningún caso",
+      "Deberá garantizar el servicio completo con la plantilla habitual",
+      "Habrá de atenerse a lo que respecto de dichas entidades disponga la legislación vigente",
+      "Necesitará autorización previa del Ministerio del Interior"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 8.6 de la Ley 5/2014: en esos casos el personal se atiene, en el ejercicio del derecho de huelga, a lo que disponga la legislación vigente respecto de dichas entidades."
+  },
+  {
+    "id": "pregunta-89",
+    "tema": "Tema 14 · Ministerio del Interior. Ministerio de Defensa",
+    "enunciado": "¿Cuántos órganos con nivel orgánico de subdirección general dependen de la Dirección General de Relaciones Internacionales y Extranjería?",
+    "opciones": [
+      "Dos",
+      "Cuatro",
+      "Tres",
+      "Cinco"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 5.2 del RD 207/2024: dependen tres Subdirecciones Generales, la de Cooperación Policial Internacional, la de Relaciones Internacionales, Inmigración y Extranjería y la de Asuntos Europeos. Dos tiene la Dirección General de Ejecución Penal y Reinserción Social, cuatro la Secretaría General de Instituciones Penitenciarias y cinco la Dirección General de Política Interior."
+  },
+  {
+    "id": "pregunta-90",
+    "tema": "Tema 15 · Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+    "enunciado": "Los guardias civiles son titulares de los derechos fundamentales y libertades públicas reconocidos en la Constitución, sin otros límites que los establecidos:",
+    "opciones": [
+      "En la Constitución y en el régimen disciplinario del Cuerpo",
+      "En la Constitución, en las disposiciones que la desarrollan y en esta Ley Orgánica",
+      "En esta Ley Orgánica y en las órdenes de sus superiores jerárquicos",
+      "En la Constitución y en las Reales Ordenanzas para las Fuerzas Armadas"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 2 de la LO 11/2007: los límites al ejercicio son los establecidos en la Constitución, en las disposiciones que la desarrollan y en la propia Ley Orgánica."
+  },
+  {
+    "id": "pregunta-91",
+    "tema": "Tema 16 · Materias socio-culturales",
+    "enunciado": "Los Estados animarán a los organismos públicos a evaluar, en las licitaciones de contratos de servicios con componente energética importante, la posibilidad de celebrar:",
+    "opciones": [
+      "Contratos de rendimiento energético a largo plazo que ofrezcan ahorro de energía a largo plazo",
+      "Contratos de suministro con precio fijo plurianual",
+      "Convenios con las autoridades públicas de ejecución",
+      "Acuerdos voluntarios con los distribuidores de energía"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 6.3 de la Directiva 2012/27/UE: se anima a los organismos públicos a evaluar la posibilidad de celebrar contratos de rendimiento energético a largo plazo que ofrezcan un ahorro de energía a largo plazo."
+  },
+  {
+    "id": "pregunta-92",
+    "tema": "Tema 17 · Materias técnico-científicas",
+    "enunciado": "¿Por qué importe mínimo deberá constituir un seguro de responsabilidad civil el prestador cualificado privado que preste un único servicio cualificado?",
+    "opciones": [
+      "500.000 euros",
+      "1.000.000 euros",
+      "1.500.000 euros",
+      "2.000.000 euros"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 9.3.b) de la Ley 6/2020: el seguro de responsabilidad civil será por importe mínimo de 1.500.000 euros, salvo que el prestador pertenezca al sector público. Los 500.000 euros son la cantidad que se añade por cada tipo de servicio cuando se presta más de un servicio cualificado."
+  },
+  {
+    "id": "pregunta-93",
+    "tema": "Tema 18 · Topografía",
+    "enunciado": "¿Cuántos centímetros cuadrados tiene un metro cuadrado?",
+    "opciones": [
+      "100.000",
+      "10.000",
+      "100",
+      "1.000"
+    ],
+    "correcta": 1,
+    "explicacion": "Epígrafe «Unidades geométricas de medida» del temario del Tema 18: en las unidades de superficie cada escalón multiplica por 100: 1 m² = 100 dm² = 10.000 cm². 100 y 1.000 aplican el factor de las unidades lineales o de volumen y 100.000 añade un cero."
+  },
+  {
+    "id": "pregunta-94",
+    "tema": "Tema 19 · Deontología profesional",
+    "enunciado": "¿Dónde y cuándo fueron adoptados los Principios Básicos sobre el Empleo de la Fuerza y de Armas de Fuego por los Funcionarios Encargados de Hacer Cumplir la Ley?",
+    "opciones": [
+      "En el Séptimo Congreso de las Naciones Unidas, celebrado en Milán en 1985.",
+      "En el Octavo Congreso de las Naciones Unidas, celebrado en La Habana en 1990.",
+      "En la Asamblea General de las Naciones Unidas, en Nueva York en 1979.",
+      "En el Comité de Ministros del Consejo de Europa, en Estrasburgo en 2001."
+    ],
+    "correcta": 1,
+    "explicacion": "Principios Básicos ONU, encabezamiento: fueron adoptados por el Octavo Congreso de las Naciones Unidas sobre Prevención del Delito y Tratamiento del Delincuente, celebrado en La Habana del 27 de agosto al 7 de septiembre de 1990. En 1979 se aprobó el Código de Conducta para funcionarios encargados de hacer cumplir la ley y en 2001 el Código Europeo de Ética de la Policía."
+  },
+  {
+    "id": "pregunta-95",
+    "tema": "Tema 22 · Armas y explosivos",
+    "enunciado": "Ninguna embarcación se podrá abarloar a otra cargada con materias reglamentadas sin:",
+    "opciones": [
+      "Autorización de la autoridad portuaria y conocimiento de la Intervención de Armas",
+      "Autorización previa y escrita del capitán marítimo y la conformidad de ambos capitanes",
+      "Autorización verbal del capitán del buque cargado",
+      "Autorización de la Intervención Central de Armas y Explosivos"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 168.1 del RD 130/2017 (Reglamento de Explosivos): para abarloarse a un buque con explosivos se necesita autorización previa y escrita del capitán marítimo y la conformidad de ambos capitanes. La autoridad portuaria da prioridad a las maniobras y permiso de movimiento, pero no autoriza el abarloamiento."
+  },
+  {
+    "id": "pregunta-96",
+    "tema": "Tema 23 · Derecho Fiscal",
+    "enunciado": "Las mercancías que, sin sufrir deterioro material, se deprecian por el transcurso del tiempo:",
+    "opciones": [
+      "Pueden enajenarse anticipadamente, pues su conservación reduce de forma importante su valor",
+      "Deben conservarse intactas hasta que recaiga sentencia firme en el proceso",
+      "Solo pueden destruirse, previa autorización del Ministerio Fiscal",
+      "Pueden adjudicarse al Estado sin necesidad de resolución judicial"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 7.1.b) de la LO 12/1995: esas mercancías se entienden comprendidas en el supuesto de disminución importante de valor, que permite su enajenación anticipada ordenada por la autoridad judicial (art. 7.2)."
+  },
+  {
+    "id": "pregunta-97",
+    "tema": "Tema 1 · Derechos Humanos",
+    "enunciado": "Según la Resolución 60/251, los miembros elegidos al Consejo, durante el período en que sean miembros:",
+    "opciones": [
+      "Quedarán exentos del mecanismo de examen periódico universal",
+      "Solo podrán ser examinados si lo acuerda la Asamblea General",
+      "Estarán sujetos al mecanismo de examen periódico universal",
+      "Serán examinados por el Comité de Derechos Humanos del PIDCP"
+    ],
+    "correcta": 2,
+    "explicacion": "Apartado 9 de la Resolución 60/251: los miembros del Consejo deben aplicar las normas más estrictas, cooperar plenamente y están sujetos al examen periódico universal mientras sean miembros. No hay exención ni examen por el Comité del PIDCP."
+  },
+  {
+    "id": "pregunta-98",
+    "tema": "Tema 2 · Igualdad efectiva de mujeres y hombres",
+    "enunciado": "Con el fin de obtener el distintivo para las empresas en materia de igualdad, podrán presentar al Ministerio competente un balance sobre los parámetros de igualdad implantados:",
+    "opciones": [
+      "Solo las empresas de cincuenta o más trabajadores",
+      "Solo las empresas de capital privado",
+      "Cualquier empresa, sea de capital público o privado",
+      "Solo las pequeñas y medianas empresas"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 50.2 de la LO 3/2007: cualquier empresa, sea de capital público o privado, podrá presentar el balance para obtener el distintivo. Cincuenta trabajadores es el umbral del plan de igualdad obligatorio (art. 45.2) y las pequeñas y medianas empresas son destinatarias especiales de las medidas de fomento del art. 49."
+  },
+  {
+    "id": "pregunta-99",
+    "tema": "Tema 3 · Prevención de riesgos laborales",
+    "enunciado": "¿Cuál de las siguientes NO es una de las modalidades de organización de los recursos preventivos previstas en el real decreto?",
+    "opciones": [
+      "Recurrir a un servicio de prevención ajeno.",
+      "Asumir personalmente la actividad preventiva el titular del órgano.",
+      "Designar a uno o varios empleados públicos.",
+      "Constituir un servicio de prevención propio."
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 7.2 del RD 67/2010: las modalidades son el servicio de prevención propio, la designación de empleados públicos y el servicio de prevención ajeno, o cualquier combinación de ellas. La asunción personal por el titular del órgano no está prevista."
+  },
+  {
+    "id": "pregunta-100",
+    "tema": "Tema 5 · Derecho de la Unión Europea",
+    "enunciado": "Las acciones de ayuda humanitaria de la Unión tendrán por objeto, en casos concretos, prestar asistencia y socorro a las poblaciones de:",
+    "opciones": [
+      "Los terceros países víctimas de catástrofes naturales o de origen humano.",
+      "Los Estados miembros víctimas de catástrofes naturales o de origen humano.",
+      "Los países candidatos a la adhesión.",
+      "Los países y territorios de ultramar, exclusivamente."
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 214.1 del TFUE: la ayuda humanitaria se dirige a poblaciones de terceros países víctimas de catástrofes naturales o de origen humano. Si la víctima es un Estado miembro opera la cláusula de solidaridad (art. 222) o la protección civil (art. 196)."
+  },
+  {
+    "id": "pregunta-101",
+    "tema": "Tema 6 · Instituciones internacionales",
+    "enunciado": "¿Dónde quedó establecida la primera sede de la Comisión Internacional de Policía Criminal?",
+    "opciones": [
+      "En Lyon, ofreciéndose Francia a albergarla y financiarla",
+      "En Viena, ofreciéndose Austria a albergarla y financiarla",
+      "En Mónaco, ofreciéndose el Principado a albergarla y financiarla",
+      "En La Haya, ofreciéndose los Países Bajos a albergarla"
+    ],
+    "correcta": 1,
+    "explicacion": "Temario, epígrafe INTERPOL: Austria se ofreció a albergar y financiar la sede, que quedó en Viena. Hoy la Secretaría General tiene sus oficinas centrales en Lyon."
+  },
+  {
+    "id": "pregunta-102",
+    "tema": "Tema 7 · Derecho Civil",
+    "enunciado": "¿A petición de quién ordenará el Juez con urgencia las medidas cautelares oportunas para asegurar los anticipos que haga una Entidad pública u otra persona y proveer a las futuras necesidades?",
+    "opciones": [
+      "De la Entidad pública que haya realizado los anticipos",
+      "De cualquier pariente del alimentista",
+      "Del obligado a prestarlos o de la Entidad pública",
+      "Del alimentista o del Ministerio Fiscal"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 148 del CC: el Juez ordena estas medidas cautelares a petición del alimentista o del Ministerio Fiscal. La Entidad pública es quien hace los anticipos, no quien las solicita, y ni el obligado ni cualquier pariente están legitimados por este precepto."
+  },
+  {
+    "id": "pregunta-103",
+    "tema": "Tema 9 · Derecho Procesal Penal",
+    "enunciado": "La querella por delito que solo pueda perseguirse a instancia de parte se entenderá abandonada cuando el querellante deje de instar el procedimiento dentro de los siguientes días a la notificación del auto que así lo acuerde:",
+    "opciones": [
+      "Cinco",
+      "Quince",
+      "Diez",
+      "Treinta"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 275 de la LECrim: la querella por delito privado se entiende abandonada si el querellante no insta el procedimiento en los diez días siguientes a la notificación del auto. Treinta días es el plazo de los herederos del querellante fallecido (art. 276)."
+  },
+  {
+    "id": "pregunta-104",
+    "tema": "Tema 10 · Derecho Administrativo",
+    "enunciado": "El certificado acreditativo del silencio producido se expedirá de oficio por el órgano competente para resolver en el plazo de:",
+    "opciones": [
+      "Diez días desde que expire el plazo máximo para resolver",
+      "Quince días desde que expire el plazo máximo para resolver",
+      "Veinte días desde que expire el plazo máximo para resolver",
+      "Un mes desde que expire el plazo máximo para resolver"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 24.4 de la Ley 39/2015: el certificado se expide de oficio en el plazo de quince días desde que expire el plazo máximo para resolver, sin perjuicio de que el interesado pueda pedirlo en cualquier momento. Diez días es el plazo general de subsanación, veinte el mínimo de información pública y un mes el de los recursos ordinarios."
+  },
+  {
+    "id": "pregunta-105",
+    "tema": "Tema 11 · Protección de datos",
+    "enunciado": "Según el artículo 6.1, el consentimiento del afectado es toda manifestación de voluntad:",
+    "opciones": [
+      "Libre, expresa, escrita e inequívoca",
+      "Libre, específica, informada e inequívoca",
+      "Expresa, informada, escrita y específica",
+      "Libre, específica, informada y revocable"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 6.1 de la LO 3/2018: conforme al art. 4.11 del Reglamento, el consentimiento es una manifestación de voluntad libre, específica, informada e inequívoca, prestada mediante declaración o clara acción afirmativa. La ley no exige que sea escrita ni incluye la revocabilidad en la definición."
+  },
+  {
+    "id": "pregunta-106",
+    "tema": "Tema 12 · Extranjería. Inmigración",
+    "enunciado": "El visado de estudios habilita a permanecer en España para realizar, entre otras actividades:",
+    "opciones": [
+      "Trabajos de investigación remunerados laboralmente.",
+      "Actividades de temporada en el sector agrario.",
+      "Prácticas no laborales o servicios de voluntariado, no remunerados laboralmente.",
+      "Proyectos de investigación en el marco de un convenio de acogida."
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 25 bis.2.f) de la LO 4/2000: el visado de estudios cubre cursos, estudios, investigación o formación, intercambio, prácticas no laborales o voluntariado no remunerados laboralmente. La investigación con convenio de acogida es el visado de investigación (letra g)."
+  },
+  {
+    "id": "pregunta-107",
+    "tema": "Tema 13 · Seguridad pública y seguridad privada",
+    "enunciado": "La falta de colaboración con las Fuerzas y Cuerpos de Seguridad en la averiguación de delitos o en la prevención de acciones que pongan en riesgo la seguridad ciudadana, en los supuestos del art. 7, es:",
+    "opciones": [
+      "Infracción leve",
+      "Infracción grave",
+      "Infracción muy grave",
+      "Una conducta sin sanción administrativa"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 36.15 de la LO 4/2015: es infracción grave la falta de colaboración en los supuestos del art. 7."
+  },
+  {
+    "id": "pregunta-108",
+    "tema": "Tema 14 · Ministerio del Interior. Ministerio de Defensa",
+    "enunciado": "Las relaciones del Ministerio de Defensa con los órganos de gobierno de la jurisdicción militar, la Fiscalía Togada y la Abogacía General del Estado corresponden a:",
+    "opciones": [
+      "La Asesoría Jurídica General de la Defensa",
+      "La Secretaría General Técnica",
+      "La Intervención General de la Defensa",
+      "La Dirección General de Personal"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 12.3 del RD 205/2024: la Asesoría Jurídica General se encarga de esas relaciones, sin perjuicio de las competencias del Ministro y del Subsecretario."
+  },
+  {
+    "id": "pregunta-109",
+    "tema": "Tema 15 · Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+    "enunciado": "Dentro de cada categoría, los guardias civiles están ordenados por empleos y, dentro de éstos, por:",
+    "opciones": [
+      "Antigüedad",
+      "Puesto de trabajo desempeñado",
+      "Especialidad",
+      "Calificación en la enseñanza de perfeccionamiento"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 18.1 de la Ley 29/2014: el empleo es el criterio esencial de la organización jerarquizada y, dentro de cada empleo, ordena la antigüedad."
+  },
+  {
+    "id": "pregunta-110",
+    "tema": "Tema 16 · Materias socio-culturales",
+    "enunciado": "En las intervenciones que puedan afectar a espacios naturales o especies silvestres, la ley consagra el principio de:",
+    "opciones": [
+      "Subsidiariedad",
+      "Proporcionalidad",
+      "Precaución",
+      "Solidaridad interterritorial"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 2.g) de la Ley 42/2007: es principio de la ley la precaución en las intervenciones que puedan afectar a espacios naturales o especies silvestres. La subsidiariedad y la solidaridad interterritorial son principios del Sistema Nacional de Protección Civil (art. 3.2 Ley 17/2015)."
+  },
+  {
+    "id": "pregunta-111",
+    "tema": "Tema 17 · Materias técnico-científicas",
+    "enunciado": "Si se advierte que los mecanismos criptográficos utilizados para generar los certificados no cumplen los estándares de seguridad mínimos, el prestador:",
+    "opciones": [
+      "Comunicará la incidencia al titular en el plazo de un mes",
+      "Solicitará autorización judicial para revocarlos",
+      "Extinguirá su vigencia mediante revocación",
+      "Prorrogará su vigencia hasta sustituirlos"
+    ],
+    "correcta": 2,
+    "explicacion": "Art. 5.1.h) de la Ley 6/2020: es causa de revocación que los mecanismos criptográficos no cumplan los estándares de seguridad mínimos. No se exige autorización judicial ni se prevé prórroga de vigencia."
+  },
+  {
+    "id": "pregunta-112",
+    "tema": "Tema 18 · Topografía",
+    "enunciado": "Una finca de 35.000 metros cuadrados tiene una superficie de:",
+    "opciones": [
+      "3,5 hectáreas",
+      "350 hectáreas",
+      "35 hectáreas",
+      "0,35 hectáreas"
+    ],
+    "correcta": 0,
+    "explicacion": "Epígrafe «Unidades geométricas de medida» del temario del Tema 18: una hectárea son 10.000 m², luego 35.000 / 10.000 = 3,5 ha. Las demás cifras desplazan la coma."
+  },
+  {
+    "id": "pregunta-113",
+    "tema": "Tema 19 · Deontología profesional",
+    "enunciado": "Al llevar a cabo actuaciones en el seno de una investigación, los guardias civiles deberán:",
+    "opciones": [
+      "Recabar autorización judicial para toda diligencia que afecte a terceros.",
+      "Documentar todas las actuaciones en un atestado, aunque no afecten al investigado.",
+      "Informar al investigado del contenido de las diligencias practicadas.",
+      "Evitar la injerencia arbitraria en la vida privada de las personas, velando por su reputación."
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 46.2 del Código de Conducta: las investigaciones serán rigurosas, exhaustivas e imparciales, sujetas al principio de legalidad y al control judicial, y deberán evitar la injerencia arbitraria en la vida privada de las personas, velando por su reputación."
+  },
+  {
+    "id": "pregunta-114",
+    "tema": "Tema 22 · Armas y explosivos",
+    "enunciado": "Cuando un particular enajena un arma de fuego a un comerciante debidamente autorizado, este deberá:",
+    "opciones": [
+      "Expedir una nueva guía de pertenencia a su nombre",
+      "Depositarla en la Intervención de Armas durante un mes",
+      "Comunicarlo al Registro Nacional de Armas directamente",
+      "Hacerla constar en el libro de entradas y salidas de armas del establecimiento"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 95.1 del RD 137/1993 (Reglamento de Armas): el comerciante anota el arma en su libro de entradas y salidas, y la enajenación se efectúa con conocimiento de la Intervención de Armas, que retira y anula la guía del vendedor y da cuenta a la Dirección General de la Guardia Civil."
+  },
+  {
+    "id": "pregunta-115",
+    "tema": "Tema 23 · Derecho Fiscal",
+    "enunciado": "Cuando el delito de contrabando se cometa por medio o en beneficio de personas, entidades u organizaciones de cuya naturaleza o actividad pudiera derivarse una facilidad especial para su comisión, se impondrá:",
+    "opciones": [
+      "La pena en su mitad superior",
+      "La pena inferior en un grado",
+      "La pena superior en uno o dos grados",
+      "La pena superior en un grado"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 3.2 de la LO 12/1995: se impone la pena superior en un grado. La mitad superior es la regla de determinados supuestos del art. 2 y la inferior en un grado la de la imprudencia (art. 3.1)."
+  },
+  {
+    "id": "pregunta-116",
+    "tema": "Tema 9 · Derecho Procesal Penal",
+    "enunciado": "El profesor que informe como perito en análisis químicos por orden judicial no estará obligado a trabajar, salvo en casos urgentes o extraordinarios, más de:",
+    "opciones": [
+      "Tres horas por día",
+      "Seis horas por día",
+      "Ocho horas por día",
+      "Cuatro horas por día"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 358 de la LECrim: el perito químico no está obligado a trabajar más de tres horas por día, excepto en casos urgentes o extraordinarios, que se harán constar en los autos."
+  },
+  {
+    "id": "pregunta-117",
+    "tema": "Tema 10 · Derecho Administrativo",
+    "enunciado": "La Conferencia de Presidentes está asistida para la preparación de sus reuniones por un Comité preparatorio del que forman parte:",
+    "opciones": [
+      "Un Secretario de Estado, que lo preside, y un Director general de cada Comunidad Autónoma",
+      "Un Ministro del Gobierno, que lo preside, y un Consejero de cada Comunidad Autónoma",
+      "El Presidente del Gobierno, que lo preside, y los Presidentes autonómicos",
+      "El Ministro de Hacienda, que lo preside, y los Delegados del Gobierno"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 146.2 de la Ley 40/2015: el Comité preparatorio lo forman un Ministro del Gobierno, que lo preside, y un Consejero de cada Comunidad Autónoma. El Presidente del Gobierno preside la propia Conferencia, formada también por los Presidentes autonómicos y de Ceuta y Melilla (art. 146.1)."
+  },
+  {
+    "id": "pregunta-118",
+    "tema": "Tema 12 · Extranjería. Inmigración",
+    "enunciado": "Quedan excluidos del ámbito de aplicación de esta Ley Orgánica, entre otros:",
+    "opciones": [
+      "Los corresponsales de medios extranjeros acreditados.",
+      "Los profesores invitados por universidades españolas.",
+      "Los trabajadores transfronterizos.",
+      "Los agentes diplomáticos y funcionarios consulares acreditados en España."
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 2.a) y c) de la LO 4/2000: quedan excluidos los agentes diplomáticos y funcionarios consulares acreditados en España, y sus familiares, conforme a los Convenios de Viena. Los demás grupos están dentro de la ley, aunque exentos de autorización de trabajo."
+  },
+  {
+    "id": "pregunta-119",
+    "tema": "Tema 13 · Seguridad pública y seguridad privada",
+    "enunciado": "¿Para la prevención de qué delitos podrán establecerse controles en vías, lugares o establecimientos públicos conforme al art. 17.2?",
+    "opciones": [
+      "Delitos de especial gravedad o generadores de alarma social",
+      "Cualquier delito o infracción administrativa grave",
+      "Delitos contra la seguridad vial",
+      "Delitos perseguibles de oficio"
+    ],
+    "correcta": 0,
+    "explicacion": "Art. 17.2 de la LO 4/2015: los controles proceden para la prevención de delitos de especial gravedad o generadores de alarma social, el descubrimiento y detención de sus partícipes y la recogida de instrumentos y pruebas. Las demás opciones amplían o cambian el presupuesto."
+  },
+  {
+    "id": "pregunta-120",
+    "tema": "Tema 15 · Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+    "enunciado": "La elaboración y ejecución del Plan Estadístico de la Guardia Civil corresponde:",
+    "opciones": [
+      "Al Servicio de Informática",
+      "Al Servicio de Estadística",
+      "Al Gabinete Técnico",
+      "Al Servicio de Innovación Tecnológica y Seguridad de la Información"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 26.2.d) de la Orden PRE/422/2013: el Servicio de Estadística elabora y ejecuta el Plan Estadístico del Cuerpo y colabora en el Plan Estadístico del Ministerio del Interior y en el Nacional."
+  }
+]

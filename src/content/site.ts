@@ -1,4 +1,4 @@
-import { rutas } from "@/lib/links";
+import { nosotrosVisible, rutas, tiendaVisible } from "@/lib/links";
 import { cursos } from "./cursos";
 
 /**
@@ -53,6 +53,6 @@ export const navegacion: ItemNav[] = [
     })),
   },
   { etiqueta: "Blog", href: rutas.blog },
-  { etiqueta: "Nosotros", href: rutas.nosotros },
-  { etiqueta: "Tienda", href: rutas.tienda },
+  ...(nosotrosVisible ? [{ etiqueta: "Nosotros", href: rutas.nosotros }] : []),
+  ...(tiendaVisible ? [{ etiqueta: "Tienda", href: rutas.tienda }] : []),
 ];

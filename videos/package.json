@@ -1,0 +1,28 @@
+{
+  "name": "prolince-videos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "elegir": "node --env-file-if-exists=.env.local pregunta-del-dia/elegir.mjs",
+    "render": "node render-todas.mjs",
+    "publicar": "node --env-file-if-exists=.env.local pregunta-del-dia/publicar.mjs",
+    "registrar": "node pregunta-del-dia/elegir.mjs --registrar",
+    "desde-csv": "node desde-csv.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@remotion/cli": "^4.0.529",
+    "@supabase/supabase-js": "^2.117.2",
+    "lucide-react": "^1.48.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.529",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

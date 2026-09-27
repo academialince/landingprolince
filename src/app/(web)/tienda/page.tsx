@@ -8,7 +8,9 @@ import { CtaFinal } from "@/components/sections/cta-final";
 import { MaterialesTienda } from "@/components/tienda/materiales";
 import { condiciones, formatoPrecio, suscripcion } from "@/content/tienda";
 import { cursos } from "@/content/cursos";
-import { absoluteUrl, links, rutas } from "@/lib/links";
+import { notFound } from "next/navigation";
+import { absoluteUrl, cursosAbiertos, links, rutas, tiendaVisible } from "@/lib/links";
+import { Proximamente } from "@/components/ui/proximamente";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 
 export const metadata = metadataPagina({
@@ -18,6 +20,7 @@ export const metadata = metadataPagina({
 });
 
 export default function Tienda() {
+  if (!tiendaVisible) notFound();
   return (
     <>
       <PageHero
@@ -46,10 +49,20 @@ export default function Tienda() {
               ))}
             </ul>
 
-            <Button href={links.compra} tamano="lg" className="mt-8 w-full">
-              Comprar
-              <ArrowRight size={18} aria-hidden />
-            </Button>
+            {cursosAbiertos ? (
+              <Button href={links.compra} tamano="lg" className="mt-8 w-full">
+                Comprar
+                <ArrowRight size={18} aria-hidden />
+              </Button>
+            ) : (
+              <>
+                <Proximamente className="mt-8 self-center" />
+                <Button href={rutas.waitlist} tamano="lg" className="mt-4 w-full">
+                  Apuntarme a la lista de espera
+                  <ArrowRight size={18} aria-hidden />
+                </Button>
+              </>
+            )}
           </div>
         </Reveal>
 
@@ -109,7 +122,7 @@ export default function Tienda() {
             "@type": "Offer",
             price: suscripcion.precio,
             priceCurrency: "EUR",
-            availability: "https://schema.org/InStock",
+            availability: cursosAbiertos ? "https://schema.org/InStock" : "https://schema.org/PreOrder",
           },
         }}
       />

@@ -13,7 +13,8 @@ import { CtaFinal } from "@/components/sections/cta-final";
 import { cursoPorSlug, cursos } from "@/content/cursos";
 import { site } from "@/content/site";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
-import { absoluteUrl, links, rutas } from "@/lib/links";
+import { absoluteUrl, cursosAbiertos, destinoEmpezar, rutas, tiendaVisible } from "@/lib/links";
+import { Proximamente } from "@/components/ui/proximamente";
 
 /** Las anclas quedan bajo la cabecera y el submenú, que suman 7,5rem. */
 const ANCLA = "scroll-mt-[7.75rem]";
@@ -50,18 +51,23 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
         <Container>
           <div className="grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-[1.05fr_0.95fr]">
             <div>
-              <p className="text-eyebrow uppercase text-primary">{curso.eyebrow}</p>
+              <div className="flex flex-wrap items-center gap-3">
+                <p className="text-eyebrow uppercase text-primary">{curso.eyebrow}</p>
+                {!cursosAbiertos && <Proximamente />}
+              </div>
               <h1 className="text-display-xl mt-4">{curso.titular}</h1>
               <p className="text-body-lg mt-6 text-muted-foreground">{curso.entradilla}</p>
 
               <div className="mt-9 flex flex-wrap gap-3">
-                <Button href={links.registro} tamano="lg">
+                <Button href={destinoEmpezar} tamano="lg">
                   Empezar ahora
                   <ArrowRight size={18} aria-hidden />
                 </Button>
-                <Button href={rutas.tienda} variante="secundario" tamano="lg">
-                  Ver precio
-                </Button>
+                {tiendaVisible && (
+                  <Button href={rutas.tienda} variante="secundario" tamano="lg">
+                    Ver precio
+                  </Button>
+                )}
               </div>
 
               <dl className="mt-10 flex flex-wrap gap-x-10 gap-y-4">

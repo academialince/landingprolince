@@ -8,7 +8,7 @@ import { MarcaCompleta } from "@/components/ui/logo";
 import { Button } from "@/components/ui/button";
 import { Container } from "./container";
 import { navegacion, type ItemNav } from "@/content/site";
-import { links } from "@/lib/links";
+import { cursosAbiertos, destinoEmpezar, links } from "@/lib/links";
 
 function activo(ruta: string, item: ItemNav) {
   if (item.hijos) return item.hijos.some((h) => ruta.startsWith(h.href));
@@ -155,10 +155,12 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-1 sm:gap-2">
-            <Button href={links.login} variante="fantasma" className="px-2.5 sm:px-4">
-              Acceder
-            </Button>
-            <Button href={links.registro}>
+            {cursosAbiertos && (
+              <Button href={links.login} variante="fantasma" className="px-2.5 sm:px-4">
+                Acceder
+              </Button>
+            )}
+            <Button href={destinoEmpezar}>
               <span className="sm:hidden">Empezar</span>
               <span className="hidden sm:inline">Empezar ahora</span>
             </Button>
