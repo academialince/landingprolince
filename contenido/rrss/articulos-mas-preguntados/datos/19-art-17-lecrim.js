@@ -1,6 +1,7 @@
 /* Nº 19 del Top 30 · Tema 9 · art. 17 LECrim (delitos conexos) */
 window.DATA = {
   numero: "19",
+  secuencia: 17,  // carpeta Publicaciones/Artículos/17 de Drive y nombre del vídeo
   tema: "Tema 9",
   pregunta: ["Y en el Tema 9", "hay otro que", "[no puede faltar]", "en tu repaso"],
   subtitulo: "Nº 19 del Top 30 de los exámenes oficiales de 2017 a 2026.",

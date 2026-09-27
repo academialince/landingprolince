@@ -1,6 +1,7 @@
 /* Nº 18 del Top 30 · Tema 8 · art. 96 del Código Penal (medidas de seguridad) */
 window.DATA = {
   numero: "18",
+  secuencia: 16,  // carpeta Publicaciones/Artículos/16 de Drive y nombre del vídeo
   tema: "Tema 8",
   pregunta: ["Otro artículo", "del Tema 8", "que el Tribunal", "[repite]"],
   subtitulo: "Nº 18 del Top 30 de los exámenes oficiales de 2017 a 2026.",

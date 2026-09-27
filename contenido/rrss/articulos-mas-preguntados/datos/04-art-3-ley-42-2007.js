@@ -1,6 +1,7 @@
 /* Nº 4 del Top 30 · Tema 16 · art. 3 Ley 42/2007, del Patrimonio Natural y de la Biodiversidad (definiciones) */
 window.DATA = {
   numero: "04",
+  secuencia: 2,  // carpeta Publicaciones/Artículos/2 de Drive y nombre del vídeo
   tema: "Tema 16",
   pregunta: ["Otro artículo", "del Tema 16", "que el Tribunal", "[no suelta]"],
   subtitulo: "Nº 4 del Top 30 de los exámenes oficiales de 2017 a 2026.",

@@ -1,6 +1,7 @@
 /* Nº 8 del Top 30 · Tema 16 · art. 34 Ley 17/2015, del Sistema Nacional de Protección Civil (Ministro del Interior) */
 window.DATA = {
   numero: "08",
+  secuencia: 6,  // carpeta Publicaciones/Artículos/6 de Drive y nombre del vídeo
   tema: "Tema 16",
   pregunta: ["Otro artículo", "del Tema 16", "que el Tribunal", "[repite]"],
   subtitulo: "Nº 8 del Top 30 de los exámenes oficiales de 2017 a 2026.",

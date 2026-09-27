@@ -1,6 +1,7 @@
 /* Nº 21 del Top 30 · Tema 10 · art. 30 Ley 39/2015, del Procedimiento Administrativo Común (cómputo de plazos) */
 window.DATA = {
   numero: "21",
+  secuencia: 19,  // carpeta Publicaciones/Artículos/19 de Drive y nombre del vídeo
   tema: "Tema 10",
   pregunta: ["¿Qué artículo", "ha caído", "[más veces]", "en el Tema 10?"],
   subtitulo: "Lo hemos contado en los exámenes oficiales de 2017 a 2026.",

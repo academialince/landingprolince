@@ -5,7 +5,7 @@
  *   node render.mjs --datos 02-art-5-lo-2-1986       → cualquier otro archivo de datos/
  *   node render.mjs --datos 02-art-5-lo-2-1986 --stills 1,5,9   → solo capturas de esos segundos
  *
- * Deja articulo-mas-preguntado-NN.mp4 y portada-NN.png (el primer fotograma, para subirlo como
+ * Deja articulo-N.mp4 y articulo-N-portada.png (N = carpeta de Drive) (el primer fotograma, para subirlo como
  * miniatura si la red social no toma el primer fotograma sola).
  *
  * Necesita Playwright (Chromium) y un ffmpeg con libx264. El ffmpeg se toma de $FFMPEG o del PATH;
@@ -30,9 +30,11 @@ await page.evaluate(async () => {
   await document.fonts.ready;
   await Promise.all([...document.images].map((i) => (i.complete ? null : new Promise((r) => (i.onload = i.onerror = r)))));
 });
-const { DUR, FPS, numero } = await page.evaluate(() => ({ ...window.VIDEO, numero: window.DATA.numero }));
+const { DUR, FPS, numero, secuencia } = await page.evaluate(() => ({ ...window.VIDEO, numero: window.DATA.numero, secuencia: window.DATA.secuencia }));
 const stage = await page.$("#stage");
-const salida = join(aqui, `articulo-mas-preguntado-${numero}.mp4`);
+// articulo-N = carpeta N de Publicaciones/Artículos en Drive; sin secuencia, el nº del Top 30
+const nombre = secuencia ? `articulo-${secuencia}` : `articulo-top${numero}`;
+const salida = join(aqui, `${nombre}.mp4`);
 
 if (stills) {
   for (const s of stills.split(",").map(Number)) {
@@ -44,7 +46,7 @@ if (stills) {
 }
 
 await page.evaluate(() => window.render(0));
-await stage.screenshot({ path: join(aqui, `portada-${numero}.png`) });
+await stage.screenshot({ path: join(aqui, `${nombre}-portada.png`) });
 
 const ff = spawn(ffmpeg, [
   "-y", "-loglevel", "error",

@@ -1,6 +1,7 @@
 /* Nº 10 del Top 30 · Tema 15 · art. 12 LO 2/1986, de Fuerzas y Cuerpos de Seguridad (reparto CNP-GC) */
 window.DATA = {
   numero: "10",
+  secuencia: 8,  // carpeta Publicaciones/Artículos/8 de Drive y nombre del vídeo
   tema: "Tema 15",
   pregunta: ["Otro artículo", "del Tema 15", "que el Tribunal", "[no suelta]"],
   subtitulo: "Nº 10 del Top 30 de los exámenes oficiales de 2017 a 2026.",

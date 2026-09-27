@@ -1,6 +1,7 @@
 /* Nº 17 del Top 30 · Tema 8 · art. 33 del Código Penal (clasificación de las penas) */
 window.DATA = {
   numero: "17",
+  secuencia: 15,  // carpeta Publicaciones/Artículos/15 de Drive y nombre del vídeo
   tema: "Tema 8",
   pregunta: ["¿Qué artículo", "ha caído", "[más veces]", "en el Tema 8?"],
   subtitulo: "Lo hemos contado en los exámenes oficiales de 2017 a 2026.",

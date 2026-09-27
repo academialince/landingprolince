@@ -1,6 +1,7 @@
 /* Nº 22 del Top 30 · Tema 10 · art. 33 Ley 39/2015, del Procedimiento Administrativo Común (tramitación de urgencia) */
 window.DATA = {
   numero: "22",
+  secuencia: 20,  // carpeta Publicaciones/Artículos/20 de Drive y nombre del vídeo
   tema: "Tema 10",
   pregunta: ["Otro artículo", "del Tema 10", "que el Tribunal", "[repite]"],
   subtitulo: "Nº 22 del Top 30 de los exámenes oficiales de 2017 a 2026.",

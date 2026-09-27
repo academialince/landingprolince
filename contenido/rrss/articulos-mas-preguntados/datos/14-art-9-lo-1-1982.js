@@ -1,6 +1,7 @@
 /* Nº 14 del Top 30 · Tema 4 · art. 9 LO 1/1982, de protección del honor, la intimidad y la propia imagen */
 window.DATA = {
   numero: "14",
+  secuencia: 12,  // carpeta Publicaciones/Artículos/12 de Drive y nombre del vídeo
   tema: "Tema 4",
   pregunta: ["El Tema 4", "tiene otro", "artículo", "[imprescindible]"],
   subtitulo: "Nº 14 del Top 30 de los exámenes oficiales de 2017 a 2026.",

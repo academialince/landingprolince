@@ -1,6 +1,7 @@
 /* Nº 6 del Top 30 · Tema 16 · art. 2 Ley 17/2015, del Sistema Nacional de Protección Civil (definiciones) */
 window.DATA = {
   numero: "06",
+  secuencia: 4,  // carpeta Publicaciones/Artículos/4 de Drive y nombre del vídeo
   tema: "Tema 16",
   pregunta: ["El Tema 16", "tiene otro", "artículo", "[imprescindible]"],
   subtitulo: "Nº 6 del Top 30 de los exámenes oficiales de 2017 a 2026.",

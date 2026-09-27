@@ -1,6 +1,7 @@
 /* Nº 3 del Top 30 · Tema 16 · art. 15 Ley 17/2015, del Sistema Nacional de Protección Civil (planes) */
 window.DATA = {
   numero: "03",
+  secuencia: 1,  // carpeta Publicaciones/Artículos/1 de Drive y nombre del vídeo
   tema: "Tema 16",
   pregunta: ["¿Qué artículo", "ha caído", "[más veces]", "en el Tema 16?"],
   subtitulo: "Lo hemos contado en los exámenes oficiales de 2017 a 2026.",

@@ -1,6 +1,7 @@
 /* Nº 7 del Top 30 · Tema 16 · art. 4 Ley 17/2015, del Sistema Nacional de Protección Civil (Estrategia) */
 window.DATA = {
   numero: "07",
+  secuencia: 5,  // carpeta Publicaciones/Artículos/5 de Drive y nombre del vídeo
   tema: "Tema 16",
   pregunta: ["Y en el Tema 16", "hay otro que", "[no puede faltar]", "en tu repaso"],
   subtitulo: "Nº 7 del Top 30 de los exámenes oficiales de 2017 a 2026.",

@@ -1,6 +1,7 @@
 /* Nº 12 del Top 30 · Tema 4 · art. 68 de la Constitución (Congreso de los Diputados) */
 window.DATA = {
   numero: "12",
+  secuencia: 10,  // carpeta Publicaciones/Artículos/10 de Drive y nombre del vídeo
   tema: "Tema 4",
   pregunta: ["¿Qué artículo", "ha caído", "[más veces]", "en el Tema 4?"],
   subtitulo: "Lo hemos contado en los exámenes oficiales de 2017 a 2026.",

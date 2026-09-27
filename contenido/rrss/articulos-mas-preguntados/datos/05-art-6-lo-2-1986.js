@@ -1,6 +1,7 @@
 /* Nº 5 del Top 30 · Tema 15 · art. 6 LO 2/1986, de Fuerzas y Cuerpos de Seguridad (disposiciones estatutarias comunes) */
 window.DATA = {
   numero: "05",
+  secuencia: 3,  // carpeta Publicaciones/Artículos/3 de Drive y nombre del vídeo
   tema: "Tema 15",
   pregunta: ["Otro artículo", "del Tema 15", "que cae", "[una y otra vez]"],
   subtitulo: "Nº 5 del Top 30 de los exámenes oficiales de 2017 a 2026.",
