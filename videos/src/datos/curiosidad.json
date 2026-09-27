@@ -1,16 +1,16 @@
 {
-  "id": "dato-curioso-31",
-  "publicacion": "31",
-  "carpeta": "Nuevo_01_Emblema",
+  "id": "dato-curioso-33",
+  "publicacion": "33",
+  "carpeta": "Nuevo_03_Museo",
   "etiqueta": "Dato curioso · Guardia Civil",
-  "gancho": "¿Qué significa el emblema de la Guardia Civil?",
-  "destacar": "emblema",
-  "fecha": "27 de enero de 1943",
-  "respuesta": "Una espada, que representa la fuerza y el poder militar, cruzada con un haz de lictores, símbolo romano de la justicia y la autoridad, bajo la corona real.",
-  "resaltar": "haz de lictores",
+  "gancho": "¿Tiene la Guardia Civil su propio museo?",
+  "destacar": "museo?",
+  "fecha": "12 de octubre de 1982",
+  "respuesta": "Sí. Se creó por Orden General de 23 de junio de 1982 y lo inauguró el rey Juan Carlos I el 12 de octubre de 1982, día de la Patrona.",
+  "resaltar": "lo inauguró el rey Juan Carlos I",
   "cifra": null,
   "ademas": {
-    "texto": "Hasta 1943 el emblema eran las letras G y C entrelazadas bajo una corona.",
+    "texto": "Está en la Dirección General, en la calle Guzmán el Bueno de Madrid.",
     "cifra": null
   }
 }

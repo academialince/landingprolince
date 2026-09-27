@@ -494,5 +494,165 @@
       "cifra": null
     },
     "fuente": "Dato nuevo (no está en los carruseles). guardiacivil.es · efeméride 27 de enero de 1943; Tribuna Benemérita"
+  },
+  {
+    "carpeta": "Nuevo_02_Decretos",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿Sabías que la Guardia Civil se fundó dos veces?",
+    "destacar": "dos",
+    "fecha": "28 de marzo y 13 de mayo de 1844",
+    "respuesta": "El Real Decreto de 28 de marzo de 1844 se derogó sin llegar a aplicarse. El fundacional de verdad es el de 13 de mayo, con la reforma que propuso el Duque de Ahumada.",
+    "resaltar": "13 de mayo",
+    "cifra": null,
+    "ademas": {
+      "texto": "El decreto de mayo la hizo depender de Guerra en organización y disciplina, y de Gobernación en el servicio.",
+      "cifra": null
+    },
+    "fuente": "Dato nuevo. guardiacivil.es · efeméride 28 de marzo de 1844; Tribuna Benemérita · decreto de 13 de mayo de 1844"
+  },
+  {
+    "carpeta": "Nuevo_03_Museo",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿Tiene la Guardia Civil su propio museo?",
+    "destacar": "museo?",
+    "fecha": "12 de octubre de 1982",
+    "respuesta": "Sí. Se creó por Orden General de 23 de junio de 1982 y lo inauguró el rey Juan Carlos I el 12 de octubre de 1982, día de la Patrona.",
+    "resaltar": "lo inauguró el rey Juan Carlos I",
+    "cifra": null,
+    "ademas": {
+      "texto": "Está en la Dirección General, en la calle Guzmán el Bueno de Madrid.",
+      "cifra": null
+    },
+    "fuente": "Dato nuevo. guardiacivil.es · Museo de la Guardia Civil; madrid.es"
+  },
+  {
+    "carpeta": "Nuevo_04_GEAS",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿Guardias civiles bajo el agua?",
+    "destacar": "agua?",
+    "fecha": "19 de junio de 1981",
+    "respuesta": "Sí. Una Orden General creó en 1981 los Grupos de Actividades Subacuáticas, hoy GEAS, para rescates e investigaciones en el medio acuático.",
+    "resaltar": "Grupos de Actividades Subacuáticas",
+    "cifra": null,
+    "ademas": {
+      "texto": "La primera unidad de buceadores de la Guardia Civil se creó en 1972.",
+      "cifra": null
+    },
+    "fuente": "Dato nuevo. guardiacivil.es · efeméride 19 de junio de 1981; Wikipedia · GEAS"
+  },
+  {
+    "carpeta": "Nuevo_05_UCO",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿Desde cuándo existe la UCO?",
+    "destacar": "UCO?",
+    "fecha": "8 de septiembre de 1987",
+    "respuesta": "La Unidad Central Operativa se creó en 1987, al organizarse el Servicio de Policía Judicial de la Guardia Civil. Hoy es su unidad de élite contra el crimen organizado.",
+    "resaltar": "Unidad Central Operativa",
+    "cifra": null,
+    "ademas": {
+      "texto": "Trabaja a las órdenes de jueces y fiscales, como toda la Policía Judicial.",
+      "cifra": null
+    },
+    "fuente": "Dato nuevo. guardiacivil.es · efeméride 8 de septiembre de 1987; Wikipedia · UCO"
+  },
+  {
+    "carpeta": "Nuevo_06_Perros",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿Desde cuándo tiene perros la Guardia Civil?",
+    "destacar": "perros",
+    "fecha": "8 de abril de 1948",
+    "respuesta": "Su uso oficial se autorizó en 1948. En 1951 se creó en El Pardo la Escuela de Adiestramiento de Perros, la primera de perros policía de España.",
+    "resaltar": "Escuela de Adiestramiento de Perros",
+    "cifra": null,
+    "ademas": {
+      "texto": "El Servicio Cinológico como tal nació en 1982. La raza más usada: el pastor alemán.",
+      "cifra": null
+    },
+    "fuente": "Dato nuevo. guardiacivil.es · efeméride 19 de abril de 1951; Tribuna Benemérita · 75 años del Servicio Cinológico"
+  },
+  {
+    "carpeta": "Nuevo_07_UEI",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿Cómo nació la UEI?",
+    "destacar": "UEI?",
+    "fecha": "3 de junio de 1978",
+    "respuesta": "Como Grupo de Intervención Inmediata, inspirado en el GIGN de la Gendarmería francesa. En 1982 pasó a llamarse Unidad Especial de Intervención.",
+    "resaltar": "Grupo de Intervención Inmediata",
+    "cifra": null,
+    "ademas": {
+      "texto": "guardias civiles al mando de un teniente formaron la unidad al nacer.",
+      "cifra": 23
+    },
+    "fuente": "Dato nuevo. guardiacivil.es · efeméride 3 de junio de 1978; Wikipedia · UEI"
+  },
+  {
+    "carpeta": "Nuevo_08_GAR",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿De dónde viene el GAR?",
+    "destacar": "GAR?",
+    "fecha": "13 de abril de 1978",
+    "respuesta": "Su germen fue la Unidad Antiterrorista Rural, creada en 1978 e instruida en la Escuela Militar de Montaña de Jaca. En 1982 pasó a ser el Grupo Antiterrorista Rural.",
+    "resaltar": "Unidad Antiterrorista Rural",
+    "cifra": null,
+    "ademas": {
+      "texto": "Hoy se llama Grupo de Acción Rápida y tiene su sede en Logroño.",
+      "cifra": null
+    },
+    "fuente": "Dato nuevo. guardiacivil.es · efeméride 13 de abril de 1978; Wikipedia · Unidad de Acción Rural"
+  },
+  {
+    "carpeta": "Nuevo_09_TEDAX",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿Desde cuándo desactiva bombas?",
+    "destacar": "bombas?",
+    "fecha": "2 de marzo de 1973",
+    "respuesta": "Desde 1973, cuando se creó la especialidad de desactivadores de explosivos, los «artificieros». En 1978 llegaron los primeros Equipos de Desactivación.",
+    "resaltar": "especialidad de desactivadores de explosivos",
+    "cifra": null,
+    "ademas": {
+      "texto": "alumnos terminaron el primer curso TEDAX, en 1980. Lo habían empezado 43.",
+      "cifra": 31
+    },
+    "fuente": "Dato nuevo. guardiacivil.es · efemérides 2 de marzo de 1973 y 9 de mayo de 1978; Interior · 50 aniversario SEDEX-NRBQ"
+  },
+  {
+    "carpeta": "Nuevo_10_Caballeria",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿La Guardia Civil aún tiene caballos?",
+    "destacar": "caballos?",
+    "fecha": "",
+    "respuesta": "Sí. El Escuadrón de Caballería, con base en Valdemoro (Madrid), actúa en grandes concentraciones, en la seguridad de altas personalidades y en refuerzo de otras unidades.",
+    "resaltar": "Escuadrón de Caballería",
+    "cifra": null,
+    "ademas": {
+      "texto": "En 1844 cada Tercio ya tenía escuadrones de caballería junto a sus compañías de infantería.",
+      "cifra": null
+    },
+    "fuente": "Dato nuevo. Tribuna Benemérita · 10 de junio de 1958; La Revista de Valdemoro"
+  },
+  {
+    "carpeta": "Nuevo_11_Coronel",
+    "driveId": null,
+    "etiqueta": "Dato curioso · Guardia Civil",
+    "gancho": "¿Hay ya mujeres coronel en la Guardia Civil?",
+    "destacar": "coronel",
+    "fecha": "Febrero de 2026",
+    "respuesta": "Sí. En febrero de 2026, María Dolores Gimeno Durán se convirtió en la primera mujer que alcanza el empleo de coronel en la historia del Cuerpo.",
+    "resaltar": "primera mujer",
+    "cifra": null,
+    "ademas": {
+      "texto": "Meses después, Cristina Moreno Martínez se convirtió en la segunda.",
+      "cifra": null
+    },
+    "fuente": "Dato nuevo. guardiacivil.es · noticia de febrero de 2026; Infobae; Seguritecnia"
   }
 ]
