@@ -56,9 +56,6 @@ export function HeroExperience() {
       >
         <div className="hero-aura" />
         <div className="hero-grid" />
-        <div className="hero-orbit hero-orbit-outer"><span /></div>
-        <div className="hero-orbit hero-orbit-inner"><span /></div>
-        <div className="hero-wordmark">PROLINCE</div>
         <div className="hero-depth">
           <div className="hero-emblem"><Logo alto={80} decorativo /></div>
           <div className="hero-phone-float">
