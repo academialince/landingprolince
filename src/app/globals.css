@@ -142,18 +142,6 @@
     background-size: 36px 36px; transform: rotate(-12deg);
     mask-image: radial-gradient(ellipse, black, transparent 70%);
   }
-  .hero-wordmark {
-    position: absolute; top: 38%; left: 50%; transform: translateX(-50%) rotate(-12deg);
-    font-size: clamp(4rem, 7vw, 7rem); font-weight: 850; letter-spacing: -.065em;
-    color: transparent; -webkit-text-stroke: 1px #03512d22; white-space: nowrap;
-  }
-  .hero-orbit {
-    position: absolute; left: 50%; top: 50%; border: 1px solid #03512d24;
-    border-radius: 50%; pointer-events: none;
-  }
-  .hero-orbit-outer { width: 112%; aspect-ratio: 1; animation: hero-orbit 24s linear infinite; }
-  .hero-orbit-inner { width: 91%; aspect-ratio: 1; border-style: dashed; animation: hero-orbit 32s linear infinite reverse; }
-  .hero-orbit span { position: absolute; left: 50%; top: -5px; width: 10px; height: 10px; border-radius: 50%; background: #439b64; box-shadow: 0 0 0 7px #439b6415; }
   .hero-depth { position: absolute; inset: 0; transform: rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)); transition: transform 400ms ease-out; transform-style: preserve-3d; }
   .hero-phone-float { position: absolute; width: 280px; top: 30px; left: calc(50% - 140px); animation: hero-float 7s ease-in-out infinite; }
   .hero-phone { transform: rotate(-7deg); box-shadow: 22px 34px 60px -20px #023b3466, 0 0 0 2px #b3d7bd, inset 0 0 0 1px #ffffff55; }
@@ -179,13 +167,9 @@
   .hero-particle-three { bottom: 6%; right: 30%; width: 4px; height: 4px; }
   .hero-test-progress { transform-origin: left; animation: hero-progress 9s ease-in-out infinite; }
   .hero-test-answer { animation: hero-answer 9s ease-in-out infinite; }
-  .hero-scene-caption { display: flex; align-items: center; justify-content: center; gap: 12px; font-size: 11px; font-weight: 600; color: var(--color-muted-foreground); }
-  .hero-pause { display: inline-flex; min-width: 36px; min-height: 36px; align-items: center; justify-content: center; border: 1px solid var(--color-border-strong); border-radius: 50%; cursor: pointer; transition: background-color 180ms; }
-  .hero-pause:hover { background: var(--color-primary-soft); }
   @keyframes hero-float { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-17px) rotate(2deg); } }
   @keyframes hero-card-float { 0%, 100% { transform: translate3d(0, 0, 90px); } 50% { transform: translate3d(0, -11px, 90px); } }
   @keyframes hero-emblem { 0%, 100% { transform: translate3d(0, 0, 65px) rotate(-8deg); } 50% { transform: translate3d(0, -12px, 65px) rotate(6deg); } }
-  @keyframes hero-orbit { from { transform: translate(-50%, -50%) rotate(-25deg) scaleY(.8); } to { transform: translate(-50%, -50%) rotate(335deg) scaleY(.8); } }
   @keyframes hero-spin { to { transform: rotate(360deg); } }
   @keyframes hero-breathe { 0%, 100% { opacity: .65; transform: scale(.96); } 50% { opacity: 1; transform: scale(1.04); } }
   @keyframes hero-glint { 0%, 15% { transform: translateX(-65%); opacity: 0; } 28% { opacity: .7; } 48%, 100% { transform: translateX(65%); opacity: 0; } }
@@ -200,7 +184,6 @@
     .hero-card-progress { right: -2%; top: 224px; padding: 11px; gap: 8px; }
     .hero-card-progress > .hero-card-icon { display: none; }
     .hero-card-answer { left: 0; bottom: 32px; padding: 13px; gap: 9px; }
-    .hero-orbit-outer { width: 105%; }
   }
 
   /* Marquesina reutilizable (KPI y testimonios).
@@ -278,15 +261,11 @@
   *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
   .hero-depth { transform: none; }
   .hero-screen-glint { display: none; }
-  .hero-pause { display: none; }
-  .hero-orbit { transform: translate(-50%, -50%) rotate(-25deg) scaleY(.8); }
   .marquesina { overflow-x: auto; }
   .marquesina-pista { animation: none; }
   .marquesina-copia { display: none; }
 }
 
-.hero-scene[data-paused="true"] *,
-.hero-scene[data-paused="true"] *::after,
 .hero-scene[data-visible="false"] *,
 .hero-scene[data-visible="false"] *::after { animation-play-state: paused; }
 

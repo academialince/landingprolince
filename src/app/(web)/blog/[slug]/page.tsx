@@ -13,7 +13,7 @@ import { JsonLd, metadataPagina } from "@/lib/seo";
 import { TarjetaEntrada } from "@/components/blog/tarjeta-entrada";
 import { Button } from "@/components/ui/button";
 import { cursoPorSlug } from "@/content/cursos";
-import { absoluteUrl, rutas } from "@/lib/links";
+import { absoluteUrl, paginaAutor, rutas } from "@/lib/links";
 
 export const revalidate = 300;
 
@@ -32,13 +32,13 @@ export async function generateMetadata(props: PageProps<"/blog/[slug]">): Promis
   });
   return {
     ...metadata,
-    authors: [{ name: site.nombreLargo, url: absoluteUrl(rutas.nosotros) }],
+    authors: [{ name: site.nombreLargo, url: absoluteUrl(paginaAutor) }],
     openGraph: {
       ...metadata.openGraph,
       type: "article",
       publishedTime: entrada.publicado_en ?? undefined,
       modifiedTime: entrada.actualizado_en,
-      authors: [absoluteUrl(rutas.nosotros)],
+      authors: [absoluteUrl(paginaAutor)],
       section: tipoPorClave(entrada.tipo).etiqueta,
     },
   };
@@ -90,7 +90,7 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
               <p className="text-body-lg mt-5 text-muted-foreground">{entrada.entradilla}</p>
             )}
             <p className="mt-5 text-body-sm text-muted-foreground">
-              Por <Link href={rutas.nosotros} rel="author" className="font-semibold text-primary hover:underline">{site.nombreLargo}</Link>
+              Por <Link href={paginaAutor} rel="author" className="font-semibold text-primary hover:underline">{site.nombreLargo}</Link>
               {entrada.actualizado_en && <> · Actualizado el <time dateTime={entrada.actualizado_en}>{fechaLarga(entrada.actualizado_en)}</time></>}
             </p>
           </Container>
@@ -167,7 +167,7 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
           dateModified: entrada.actualizado_en,
           image: entrada.portada_url ? absoluteUrl(entrada.portada_url) : undefined,
           inLanguage: "es-ES",
-          author: { "@type": "Organization", name: site.nombreLargo, url: absoluteUrl(rutas.nosotros) },
+          author: { "@type": "Organization", name: site.nombreLargo, url: absoluteUrl(paginaAutor) },
           mainEntityOfPage: url,
           publisher: {
             "@type": "EducationalOrganization",

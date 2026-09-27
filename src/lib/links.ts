@@ -41,3 +41,23 @@ export const rutas = {
   privacidad: "/privacidad",
   cookies: "/cookies",
 } as const;
+
+/**
+ * Interruptor del lanzamiento. Mientras sea `false`, los cursos salen como «Próximamente», no
+ * se pueden comprar, la cabecera oculta «Acceder» y todos los «Empezar» llevan a la lista de
+ * espera. Para publicar los cursos basta con ponerlo a `true`: todo vuelve a su destino original.
+ */
+export const cursosAbiertos = false;
+
+/** Destino de todos los «Empezar»: el alta en la plataforma, o la lista de espera antes del lanzamiento. */
+export const destinoEmpezar = cursosAbiertos ? links.registro : rutas.waitlist;
+
+/**
+ * Secciones ocultas de momento. Con `false` desaparecen del menú, del pie, de la portada, de los
+ * enlaces y del sitemap, y su página devuelve 404. Con `true` vuelven tal cual estaban.
+ */
+export const tiendaVisible = false;
+export const nosotrosVisible = false;
+
+/** Página de autor de las entradas del blog: «Nosotros», o la portada mientras esté oculta. */
+export const paginaAutor = nosotrosVisible ? rutas.nosotros : rutas.inicio;

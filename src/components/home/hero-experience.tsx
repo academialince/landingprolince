@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState, type PointerEvent } from "react";
-import { Check, Pause, Play, Sparkles, TrendingUp } from "lucide-react";
+import { useEffect, useRef, type PointerEvent } from "react";
+import { Check, Sparkles, TrendingUp } from "lucide-react";
 import { Logo } from "@/components/ui/logo";
 import { Telefono } from "@/components/mockups/marcos";
 import { PantallaTest } from "@/components/mockups/pantalla-test";
@@ -10,7 +10,6 @@ import { PantallaTest } from "@/components/mockups/pantalla-test";
 export function HeroExperience() {
   const escena = useRef<HTMLDivElement>(null);
   const frame = useRef<number | null>(null);
-  const [pausada, setPausada] = useState(false);
 
   useEffect(() => {
     const el = escena.current;
@@ -26,7 +25,7 @@ export function HeroExperience() {
   }, []);
 
   function inclinar(event: PointerEvent<HTMLDivElement>) {
-    if (pausada || event.pointerType !== "mouse" || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    if (event.pointerType !== "mouse" || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const el = event.currentTarget;
     const rect = el.getBoundingClientRect();
     const x = ((event.clientX - rect.left) / rect.width - 0.5) * 12;
@@ -49,16 +48,12 @@ export function HeroExperience() {
       <div
         ref={escena}
         className="hero-scene"
-        data-paused={pausada}
         onPointerMove={inclinar}
         onPointerLeave={centrar}
         aria-hidden="true"
       >
         <div className="hero-aura" />
         <div className="hero-grid" />
-        <div className="hero-orbit hero-orbit-outer"><span /></div>
-        <div className="hero-orbit hero-orbit-inner"><span /></div>
-        <div className="hero-wordmark">PROLINCE</div>
         <div className="hero-depth">
           <div className="hero-emblem"><Logo alto={80} decorativo /></div>
           <div className="hero-phone-float">
@@ -91,18 +86,6 @@ export function HeroExperience() {
           <span className="hero-particle hero-particle-two" />
           <span className="hero-particle hero-particle-three" />
         </div>
-      </div>
-      <div className="hero-scene-caption">
-        <span>Tu preparación, siempre contigo.</span>
-        <button
-          type="button"
-          className="hero-pause"
-          aria-pressed={pausada}
-          aria-label={pausada ? "Reanudar animación" : "Pausar animación"}
-          onClick={() => { centrar(); setPausada(!pausada); }}
-        >
-          {pausada ? <Play size={13} aria-hidden /> : <Pause size={13} aria-hidden />}
-        </button>
       </div>
     </div>
   );

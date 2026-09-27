@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
 import { HeroExperience } from "@/components/home/hero-experience";
-import { links } from "@/lib/links";
+import { destinoEmpezar } from "@/lib/links";
 
 const hechos = ["Acceso a la Guardia Civil", "Colegio de Guardias Jóvenes", "100 % online"];
 
@@ -52,7 +52,7 @@ export function Hero() {
             </p>
 
             <div className="mt-9 flex flex-wrap gap-3">
-              <Button href={links.registro} tamano="lg">
+              <Button href={destinoEmpezar} tamano="lg">
                 Empezar ahora
                 <ArrowRight size={18} aria-hidden />
               </Button>

@@ -6,7 +6,8 @@ import { Icono } from "@/components/ui/icon";
 import { Foto } from "@/components/ui/foto";
 import { CtaFinal } from "@/components/sections/cta-final";
 import { compromisos, equipo, historia, principios } from "@/content/equipo";
-import { rutas } from "@/lib/links";
+import { notFound } from "next/navigation";
+import { nosotrosVisible, rutas } from "@/lib/links";
 import { metadataPagina, JsonLd, migasJsonLd } from "@/lib/seo";
 
 export const metadata = metadataPagina({
@@ -26,6 +27,7 @@ function iniciales(nombre: string) {
 }
 
 export default function Nosotros() {
+  if (!nosotrosVisible) notFound();
   return (
     <>
       <PageHero eyebrow="Nosotros" titulo={historia.titulo} entradilla={historia.entradilla} />
