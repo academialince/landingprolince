@@ -1,9 +1,9 @@
 // Sube la pregunta del día al panel de la web (/admin/publicaciones/pregunta-del-dia) y borra
 // las de días anteriores: vídeo, portada y descripción.
 //
-//   node pregunta-del-dia/publicar.mjs
+//   node pregunta-del-dia/publicar.mjs [pregunta-del-dia/lote/<fecha>.json]
 //
-// Lee pregunta-del-dia/elegida.json y out/pregunta-del-dia-<fecha>.{mp4,png,txt}.
+// Lee pregunta-del-dia/elegida.json (o el JSON indicado, para publicar un día de un lote) y out/pregunta-del-dia-<fecha>.{mp4,png,txt}.
 // Necesita SUPABASE_SERVICE_ROLE_KEY en el entorno (nunca en el repositorio). La URL es la del
 // proyecto de la web; se puede cambiar con SUPABASE_URL.
 import { readFileSync, existsSync } from "node:fs";
@@ -19,7 +19,7 @@ if (!CLAVE) {
   process.exit(2);
 }
 
-const e = JSON.parse(readFileSync("pregunta-del-dia/elegida.json", "utf8"));
+const e = JSON.parse(readFileSync(process.argv[2] ?? "pregunta-del-dia/elegida.json", "utf8"));
 const base = `out/${TIPO}-${e.fecha}`;
 for (const ext of ["mp4", "png", "txt"]) {
   if (!existsSync(`${base}.${ext}`)) throw new Error(`Falta ${base}.${ext}: renderiza y escribe la descripción antes.`);

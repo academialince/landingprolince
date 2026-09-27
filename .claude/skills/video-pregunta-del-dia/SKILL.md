@@ -71,6 +71,15 @@ Necesita `SUPABASE_SERVICE_ROLE_KEY` (en `.env.local` o en el entorno) y acceso 
 
 Indica al usuario la pregunta (tema y respuesta), las rutas de `out/` y la del panel: `/admin/publicaciones/pregunta-del-dia/<AAAA-MM-DD>`. Si tienes una herramienta para enviar archivos (por ejemplo, SendUserFile en la nube), adjunta el MP4, la portada y el .txt.
 
+## Lotes (varios vídeos de una vez)
+
+- Asigna una fecha a cada vídeo, en días consecutivos desde mañana salvo que el usuario diga otra cosa, y **un tema distinto por vídeo**.
+- Por cada fecha: `npm run elegir -- <csv del tema> --fecha AAAA-MM-DD` y `cp pregunta-del-dia/elegida.json pregunta-del-dia/lote/<fecha>.json` (`lote/` está fuera de git).
+- Descarta y sustituye (con `--fila`) las preguntas que dependan de datos de actualidad («revisar antes del examen») o que ya estén en el calendario de carruseles de Drive (`Prolince RRSS/Preguntas del dia/…/soluciones_preguntas_del_dia.csv`).
+- Une el lote para el render: `jq -s '[.[] | {id: "pregunta-del-dia-\(.fecha)", tema, enunciado, opciones, correcta, explicacion: .explicacionVideo}]' pregunta-del-dia/lote/*.json > src/datos/preguntas.json`, y después `npm run render`. Tarda unos 2 minutos por vídeo, así que lánzalo en segundo plano y escribe mientras tanto las descripciones.
+- Registra todas: `npm run registrar -- pregunta-del-dia/lote/*.json`.
+- **No publiques el lote entero en el panel.** El panel solo conserva el último día, así que publicar el lote dejaría solo el último vídeo. Entrega los archivos y publica cada uno en su día, con `npm run publicar -- pregunta-del-dia/lote/<fecha>.json` si el lote sigue en ese equipo.
+
 ## Qué es fijo en la plantilla
 
 Portada en el primer fotograma (sin cronómetro), cabecera con el logo y prolinceacademia.com a la derecha, titular «¿Sabrías responder a esta pregunta?», fondo del hero (aura y rejilla, sin órbitas ni marca de agua), móvil con la pantalla de test, cuenta atrás de 8 s, solución, tarjeta «Entiende la respuesta.» y cierre en verde profundo con «Empezar ahora». La letra se reduce sola en preguntas largas.

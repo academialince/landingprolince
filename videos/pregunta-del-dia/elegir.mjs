@@ -17,10 +17,14 @@ const normaliza = (t) =>
 const csvCampo = (v) => (/[;"\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v);
 
 if (args.includes("--registrar")) {
-  const e = JSON.parse(readFileSync(ELEGIDA, "utf8"));
+  // Sin más argumentos registra la última elegida; con rutas .json, cada una de ellas (lotes).
+  const rutas = args.filter((a) => a.endsWith(".json"));
   if (!existsSync(HISTORIAL)) writeFileSync(HISTORIAL, "fecha;archivo;fila;tema;enunciado\n");
-  appendFileSync(HISTORIAL, [e.fecha, e.archivo, e.fila, e.temaCsv, e.enunciadoOriginal].map(csvCampo).join(";") + "\n");
-  console.log(`✓ Registrada en el historial: ${e.fecha} · ${e.archivo} fila ${e.fila}`);
+  for (const ruta of rutas.length ? rutas : [ELEGIDA]) {
+    const e = JSON.parse(readFileSync(ruta, "utf8"));
+    appendFileSync(HISTORIAL, [e.fecha, e.archivo, e.fila, e.temaCsv, e.enunciadoOriginal].map(csvCampo).join(";") + "\n");
+    console.log(`✓ Registrada en el historial: ${e.fecha} · ${e.archivo} fila ${e.fila}`);
+  }
   process.exit(0);
 }
 
@@ -51,15 +55,26 @@ const usadas = new Set(
   existsSync(HISTORIAL) ? parsearCsv(readFileSync(HISTORIAL, "utf8")).slice(1).map((r) => normaliza(r[4])) : [],
 );
 
-// El banco antepone al enunciado la norma y la división («Tratado de la UE. Disposiciones… .»).
-// En el vídeo sobra: el tema ya va en la cabecera.
-function quitarPrefijo(enunciado, subtema) {
-  const sub = normaliza(subtema);
+// El banco antepone al enunciado la norma y el epígrafe («Ley de Seguridad Privada. Servicios de
+// investigación privada. …»). En el vídeo sobra: el tema ya va en la cabecera.
+// Una frase inicial es prefijo si casi todas sus palabras están en el tema o el subtema (o su sigla
+// entre paréntesis), o si, tras quitar ya la norma, es un rótulo corto sin más.
+function quitarPrefijo(enunciado, subtema, tema) {
+  const referencia = new Set(normaliza(`${subtema} ${tema}`).split(" "));
+  const vacias = new Set(["de", "la", "el", "los", "las", "del", "y", "en", "a", "para", "por", "sobre", "su", "sus", "e", "o"]);
   let resto = enunciado.trim();
+  let quitados = 0;
   for (;;) {
-    const m = resto.match(/^([^.?¿:]{3,}?)\.\s+(.+)$/s);
-    if (!m || !sub.includes(normaliza(m[1]))) return resto;
+    const m = resto.match(/^([^.?¿:]{3,160}?)\.\s+(.{25,})$/s);
+    if (!m) return resto;
+    const palabras = normaliza(m[1]).split(" ").filter((w) => w && !vacias.has(w));
+    const coinciden = palabras.filter((w) => referencia.has(w)).length;
+    const sigla = (m[1].match(/\(([^)]+)\)/) ?? [])[1];
+    const esNorma = palabras.length > 0 && coinciden / palabras.length >= 0.6;
+    const esRotulo = quitados > 0 && palabras.length <= 6;
+    if (!(esNorma || esRotulo || (sigla && referencia.has(normaliza(sigla))))) return resto;
     resto = m[2];
+    quitados++;
   }
 }
 
@@ -85,7 +100,7 @@ for (const archivo of archivos) {
   filas.forEach((r, i) => {
     const g = (n) => (r[col[n]] ?? "").trim();
     const correcta = "ABCD".indexOf(g("respuesta_correcta").toUpperCase());
-    const enunciado = quitarPrefijo(g("enunciado"), g("subtema"));
+    const enunciado = quitarPrefijo(g("enunciado"), g("subtema"), g("tema"));
     const opciones = ["opcion_a", "opcion_b", "opcion_c", "opcion_d"].map(g);
     candidatas.push({
       archivo: archivo.split(/[\\/]/).pop(),
