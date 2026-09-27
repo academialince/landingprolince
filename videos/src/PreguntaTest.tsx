@@ -193,6 +193,12 @@ export const PreguntaTest: React.FC<Props> = ({
   const pCuenta = entrada(f(t.cuenta), 14);
   const pSolucion = entrada(f(t.solucion), 12);
   const pExplicacion = entrada(f(t.explicacion), 16);
+  // Antes de que suba la tarjeta de explicación, las opciones incorrectas se recogen para que la
+  // correcta quede siempre a la vista, aunque sea la C o la D.
+  const pRecoger = interpolate(frame, [f(t.explicacion - 0.45), f(t.explicacion + 0.15)], [0, 1], {
+    ...clamp,
+    easing: (x) => 1 - Math.pow(1 - x, 3),
+  });
   const pCierre = interpolate(frame, [f(t.cierre), f(t.cierre + 0.7)], [0, 1], {
     ...clamp,
     easing: (x) => 1 - Math.pow(1 - x, 3),
@@ -421,7 +427,7 @@ export const PreguntaTest: React.FC<Props> = ({
               {enunciado}
             </p>
 
-            <div style={{ display: "grid", gap: 20 * escala, padding: `${40 * escala}px 56px 0` }}>
+            <div style={{ display: "flex", flexDirection: "column", padding: `${20 * escala}px 56px 0` }}>
               {opciones.map((opcion, i) => {
                 const p = entrada(f(T_OPCIONES) + i * 5, 16);
                 const acierto = resuelta && i === correcta;
@@ -434,12 +440,17 @@ export const PreguntaTest: React.FC<Props> = ({
                       display: "flex",
                       alignItems: "center",
                       gap: 24,
-                      padding: `${26 * escala}px 28px`,
+                      padding: `${26 * escala * (apagada ? 1 - pRecoger : 1)}px 28px`,
+                      marginTop: 20 * escala * (apagada ? 1 - pRecoger : 1),
+                      maxHeight: apagada ? 260 * (1 - pRecoger) : undefined,
+                      overflow: apagada && pRecoger > 0 ? "hidden" : undefined,
+                      borderWidth: apagada ? 3 * (1 - pRecoger) : 3,
                       borderRadius: 28,
-                      border: `3px solid ${acierto ? C.primario : C.borde}`,
+                      borderStyle: "solid",
+                      borderColor: acierto ? C.primario : C.borde,
                       background: acierto ? C.primario : "#fff",
                       color: acierto ? "#fff" : C.texto,
-                      opacity: p * (apagada ? interpolate(pSolucion, [0, 1], [1, 0.4], clamp) : 1),
+                      opacity: p * (apagada ? interpolate(pSolucion, [0, 1], [1, 0.4], clamp) * (1 - pRecoger) : 1),
                       transform: `translateX(${(1 - p) * 120}px) scale(${acierto ? 1 + pSolucion * 0.03 : 1})`,
                       boxShadow: acierto ? `0 0 0 ${10 * pSolucion}px #03512d22, 0 24px 50px -20px #03512d88` : "none",
                     }}
