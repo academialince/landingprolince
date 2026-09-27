@@ -17,7 +17,7 @@ El primer fotograma del vídeo es la portada (la escena completa sin cronómetro
 
 ## Dato curioso
 
-Plantilla `DatoCurioso` (21 s) para curiosidades de la Guardia Civil, con las mismas piezas de la web (`src/comun.tsx`).
+Plantilla `DatoCurioso` para curiosidades de la Guardia Civil (sin cuenta atrás; cifra grande y «Y además…» opcionales; la portada es la captura del contenido completo), con las mismas piezas de la web (`src/comun.tsx`).
 
 ```bash
 node dato-curioso/elegir.mjs --fecha 2026-09-27   # banco.json → src/datos/curiosidad.json, sin repetir (historial.csv)

@@ -35,7 +35,8 @@ if (args.includes("--registrar")) {
 const banco = JSON.parse(readFileSync(BANCO, "utf8"));
 const libres = banco.filter((c) => !usadas.has(c.carpeta));
 const fecha = opcion("--fecha") ?? new Date().toISOString().slice(0, 10);
-const elegida = opcion("--carpeta") ? libres.find((c) => c.carpeta === opcion("--carpeta")) : libres[0];
+// Con --carpeta se puede volver a montar una ya publicada (p. ej. tras cambiar la plantilla).
+const elegida = opcion("--carpeta") ? banco.find((c) => c.carpeta === opcion("--carpeta")) : libres[0];
 if (!elegida) {
   throw new Error(
     "No hay curiosidades transcritas sin publicar: transcribe otra carpeta Curiosidad_NN de Drive en banco.json.",

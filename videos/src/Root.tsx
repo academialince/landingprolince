@@ -29,8 +29,11 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
         fps={FPS}
-        durationInFrames={duracionCuriosidad(FPS)}
+        durationInFrames={duracionCuriosidad(curiosidad, FPS)}
         defaultProps={curiosidad}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: duracionCuriosidad(props, FPS),
+        })}
       />
     </>
   );
