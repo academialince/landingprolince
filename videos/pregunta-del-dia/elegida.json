@@ -1,21 +1,23 @@
 {
-  "archivo": "tema-9_banco-completo.csv",
-  "fila": 141,
-  "temaCsv": "Tema 9 - Derecho Procesal Penal",
-  "subtema": "Ley de Enjuiciamiento Criminal - Libro II, Título VI. De la citación, de la detención y de la prisión provisional",
+  "archivo": "tema-1_400-optimizado.csv",
+  "fila": 362,
+  "temaCsv": "Tema 1 - Derechos Humanos",
+  "subtema": "Carta de los Derechos Fundamentales de la Unión Europea - Título III. Igualdad",
   "dificultad": "Media",
-  "enunciadoOriginal": "Ley de Enjuiciamiento Criminal. De la detención. El particular que detuviere a otro, si el detenido lo exigiere, deberá justificar:",
-  "enunciado": "El particular que detuviere a otro, si el detenido lo exigiere, deberá justificar:",
+  "enunciadoOriginal": "Carta de los Derechos Fundamentales de la Unión Europea. Igualdad. Todo niño tiene derecho a mantener de forma periódica relaciones personales y contactos directos con su padre y con su madre:",
+  "enunciado": "Todo niño tiene derecho a mantener de forma periódica relaciones personales y contactos directos con su padre y con su madre:",
   "opciones": [
-    "Su identidad mediante documento oficial ante el propio detenido",
-    "Haber obrado por motivos racionalmente suficientes para creer que se hallaba en alguno de los casos del artículo 490",
-    "Que fue testigo presencial del delito cometido",
-    "Que avisó previamente a la Policía Judicial"
+    "Salvo si ello es contrario a sus intereses",
+    "En todo caso y sin excepción alguna",
+    "Salvo resolución administrativa en contrario",
+    "Solo si los progenitores están casados"
   ],
-  "correcta": 1,
-  "explicacion": "Art. 491 de la LECrim: el particular que detiene a otro debe justificar, si el detenido lo exige, que obró por motivos racionalmente suficientes para creerle incurso en alguno de los casos del art. 490.",
-  "apta": false,
-  "fecha": "2026-10-03",
-  "tema": "Tema 9 · Derecho Procesal Penal",
-  "explicacionVideo": "Art. 491 de la LECrim: el particular que detiene a otro debe justificar, si el detenido lo exige, que obró por motivos racionalmente suficientes para creerle incurso en alguno de los casos del art. 490."
+  "correcta": 0,
+  "explicacion": "Art. 24.3 de la Carta de los Derechos Fundamentales de la UE: el niño tiene derecho a relaciones personales y contactos directos periódicos con ambos progenitores, salvo si ello es contrario a sus intereses. Preguntado en examen: 2024-1.",
+  "apta": true,
+  "fecha": "2026-09-27",
+  "numero": 20,
+  "id": "pregunta-del-dia-20",
+  "tema": "Tema 1 · Derechos Humanos",
+  "explicacionVideo": "Art. 24.3 de la Carta de los Derechos Fundamentales de la UE: el niño tiene derecho a relaciones personales y contactos directos periódicos con ambos progenitores, salvo si ello es contrario a sus intereses."
 }

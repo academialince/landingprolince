@@ -1,7 +1,8 @@
 // Elige la pregunta del día del banco (CSV de GUARDIA CIVIL/TEST en Drive, convertidos en banco/)
 // sin repetir ninguna de pregunta-del-dia/historial.csv, y la deja en src/datos/preguntas.json.
 //
-//   node pregunta-del-dia/elegir.mjs banco/tema-5.csv [más.csv ...] [--fecha 2026-09-27] [--fila N]
+//   node pregunta-del-dia/elegir.mjs banco/tema-5.csv [más.csv ...] --numero N [--fila F]
+//     N es el número secuencial de la publicación (carpeta N de «Publicaciones/Pregunta del día» en Drive).
 //   node pregunta-del-dia/elegir.mjs --tema 5 [--fecha …] → busca los CSV del tema 5 en PROLINCE_BANCO_DIR
 //                                                           (la carpeta TEST sincronizada con Google Drive para escritorio)
 //   node pregunta-del-dia/elegir.mjs --registrar      → añade la elegida al historial (tras publicarla)
@@ -19,11 +20,12 @@ const csvCampo = (v) => (/[;"\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v);
 if (args.includes("--registrar")) {
   // Sin más argumentos registra la última elegida; con rutas .json, cada una de ellas (lotes).
   const rutas = args.filter((a) => a.endsWith(".json"));
-  if (!existsSync(HISTORIAL)) writeFileSync(HISTORIAL, "fecha;archivo;fila;tema;enunciado\n");
+  if (!existsSync(HISTORIAL)) writeFileSync(HISTORIAL, "fecha;archivo;fila;tema;enunciado;numero\n");
   for (const ruta of rutas.length ? rutas : [ELEGIDA]) {
     const e = JSON.parse(readFileSync(ruta, "utf8"));
-    appendFileSync(HISTORIAL, [e.fecha, e.archivo, e.fila, e.temaCsv, e.enunciadoOriginal].map(csvCampo).join(";") + "\n");
-    console.log(`✓ Registrada en el historial: ${e.fecha} · ${e.archivo} fila ${e.fila}`);
+    const campos = [e.fecha, e.archivo, e.fila, e.temaCsv, e.enunciadoOriginal, e.numero ?? ""];
+    appendFileSync(HISTORIAL, campos.map((v) => csvCampo(String(v))).join(";") + "\n");
+    console.log(`✓ Registrada en el historial: nº ${e.numero ?? "-"} · ${e.archivo} fila ${e.fila}`);
   }
   process.exit(0);
 }
@@ -78,7 +80,7 @@ function quitarPrefijo(enunciado, subtema, tema) {
   }
 }
 
-const archivos = args.filter((a, i) => a.endsWith(".csv") && args[i - 1] !== "--fecha");
+const archivos = args.filter((a) => a.endsWith(".csv"));
 if (opcion("--tema")) {
   const dir = process.env.PROLINCE_BANCO_DIR;
   if (!dir || !existsSync(dir)) {
@@ -125,6 +127,9 @@ for (const archivo of archivos) {
 }
 
 const fecha = opcion("--fecha") ?? new Date().toISOString().slice(0, 10);
+const numero = opcion("--numero") ? Number(opcion("--numero")) : null;
+// Desde la publicación 1 van numeradas; la fecha solo queda como dato de cuándo se generó.
+const idPublicacion = `pregunta-del-dia-${numero ?? fecha}`;
 const libres = candidatas.filter((c) => !usadas.has(normaliza(c.enunciadoOriginal)));
 let elegida;
 if (opcion("--fila")) {
@@ -136,19 +141,19 @@ if (opcion("--fila")) {
   const bolsa = preferidas.length ? preferidas : aptas;
   if (!bolsa.length) throw new Error("No quedan preguntas sin publicar en estos CSV: usa otro tema.");
   // Pseudoaleatoria pero reproducible por fecha.
-  const semilla = [...fecha].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+  const semilla = [...(numero ? `n${numero}` : fecha)].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
   elegida = bolsa[semilla % bolsa.length];
 }
 
 const tema = elegida.temaCsv.replace(/^(Tema \d+)\s+-\s+/, "$1 · ");
 // El vídeo usa la explicación del banco sin la coletilla de exámenes, que va en la descripción.
 const explicacionVideo = elegida.explicacion.replace(/\s*Preguntad[ao] en examen:.*$/s, "").trim();
-const salida = { ...elegida, fecha, tema, explicacionVideo };
+const salida = { ...elegida, fecha, numero, id: idPublicacion, tema, explicacionVideo };
 writeFileSync(ELEGIDA, JSON.stringify(salida, null, 2) + "\n");
 writeFileSync(
   "src/datos/preguntas.json",
   JSON.stringify(
-    [{ id: `pregunta-del-dia-${fecha}`, tema, enunciado: elegida.enunciado, opciones: elegida.opciones, correcta: elegida.correcta, explicacion: explicacionVideo }],
+    [{ id: idPublicacion, tema, enunciado: elegida.enunciado, opciones: elegida.opciones, correcta: elegida.correcta, explicacion: explicacionVideo }],
     null,
     2,
   ) + "\n",

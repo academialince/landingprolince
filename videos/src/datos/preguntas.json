@@ -1,132 +1,132 @@
 [
   {
-    "id": "pregunta-del-dia-2026-09-28",
-    "tema": "Tema 1 · Derechos Humanos",
-    "enunciado": "Todo Estado Parte castigará los delitos de tortura:",
+    "id": "pregunta-del-dia-11",
+    "tema": "Tema 11 · Protección de datos",
+    "enunciado": "Sin perjuicio de las competencias del Tribunal de Cuentas, la gestión económico-financiera de la Agencia estará sometida al control de:",
     "opciones": [
-      "Con penas adecuadas en las que se tenga en cuenta su gravedad",
-      "Con la pena máxima prevista en su legislación penal",
-      "Con penas no inferiores a diez años de prisión",
-      "Con las penas que fije el Comité contra la Tortura"
+      "El Consejo Consultivo de la Agencia",
+      "La Comisión de Justicia del Congreso de los Diputados",
+      "La Intervención General de la Administración del Estado",
+      "El Ministerio de Justicia"
     ],
-    "correcta": 0,
-    "explicacion": "Art. 4.2 de la Convención contra la Tortura: los delitos se castigan con penas adecuadas que tengan en cuenta su gravedad, y el art. 4.1 obliga a tipificar también la tentativa y la complicidad o participación. La Convención no fija cuantías ni atribuye esa función al Comité."
+    "correcta": 2,
+    "explicacion": "Art. 46.7 de la LO 3/2018: al control de la Intervención General de la Administración del Estado, en los términos de la Ley 47/2003, General Presupuestaria."
   },
   {
-    "id": "pregunta-del-dia-2026-09-29",
-    "tema": "Tema 2 · Igualdad efectiva de mujeres y hombres",
-    "enunciado": "Los derechos de conciliación de la vida personal, familiar y laboral se reconocerán a los trabajadores y las trabajadoras en forma que:",
+    "id": "pregunta-del-dia-12",
+    "tema": "Tema 14 · Ministerio del Interior. Ministerio de Defensa",
+    "enunciado": "¿Qué órgano planifica y ejecuta la destrucción de los alijos de drogas incursos en las actuaciones de la Policía Nacional y la Guardia Civil contra el tráfico de drogas?",
     "opciones": [
-      "Prioricen su ejercicio por parte de las trabajadoras",
-      "Solo puedan ser ejercidos por uno de los progenitores",
-      "Compensen económicamente a la empresa por su ejercicio",
-      "Fomenten la asunción equilibrada de las responsabilidades familiares"
-    ],
-    "correcta": 3,
-    "explicacion": "Art. 44.1 de la LO 3/2007: se reconocerán de forma que fomenten la asunción equilibrada de las responsabilidades familiares, evitando toda discriminación basada en su ejercicio. Priorizar a las trabajadoras o limitarlos a un progenitor contradice esa finalidad."
-  },
-  {
-    "id": "pregunta-del-dia-2026-09-30",
-    "tema": "Tema 3 · Prevención de riesgos laborales",
-    "enunciado": "Cuando el Inspector de Trabajo y Seguridad Social compruebe la existencia de una infracción, requerirá al empresario para la subsanación de las deficiencias, salvo que:",
-    "opciones": [
-      "El empresario hubiera sido sancionado en el año anterior.",
-      "La infracción hubiera sido denunciada por los Delegados de Prevención.",
-      "La empresa tuviera concertado un servicio de prevención ajeno.",
-      "Por la gravedad e inminencia de los riesgos procediese acordar la paralización."
+      "La Jefatura Fiscal y de Fronteras de la Guardia Civil",
+      "La Comisaría General de Policía Judicial",
+      "La Dirección General de Coordinación y Estudios",
+      "El Centro de Inteligencia contra el Terrorismo y el Crimen Organizado"
     ],
     "correcta": 3,
-    "explicacion": "Art. 43.1 de la Ley 31/1995: la excepción al requerimiento es que la gravedad e inminencia de los riesgos justifique la paralización del art. 44. Las demás circunstancias no la excluyen."
+    "explicacion": "Art. 2.3.8.º del RD 207/2024: la planificación y ejecución de la destrucción de alijos de drogas corresponde al CITCO, se encuentren custodiados en dependencias propias o de otros departamentos. Las unidades de la Policía y la Guardia Civil investigan, pero no planifican esa destrucción."
   },
   {
-    "id": "pregunta-del-dia-2026-10-01",
-    "tema": "Tema 6 · Instituciones internacionales",
-    "enunciado": "El Consejo Ejecutivo de la OMS está compuesto por:",
+    "id": "pregunta-del-dia-13",
+    "tema": "Tema 16 · Materias socio-culturales",
+    "enunciado": "¿Qué planes deben ser informados por el Consejo Nacional de Protección Civil a los efectos de su adecuación al Sistema Nacional?",
     "opciones": [
-      "34 miembros técnicamente cualificados elegidos por cinco años",
-      "24 miembros técnicamente cualificados elegidos por tres años",
-      "49 miembros técnicamente cualificados elegidos por tres años",
-      "34 miembros técnicamente cualificados elegidos por tres años"
-    ],
-    "correcta": 3,
-    "explicacion": "Temario, epígrafe OMS: el Consejo Ejecutivo lo forman 34 miembros técnicamente cualificados elegidos por periodos de tres años. Cinco años es el mandato del Director General, 24 los miembros del Directorio Ejecutivo del FMI y 49 los Estados del Consejo de la FAO."
-  },
-  {
-    "id": "pregunta-del-dia-2026-10-02",
-    "tema": "Tema 7 · Derecho Civil",
-    "enunciado": "Un niño de cuatro años es acogido por una familia mientras se decide la medida de protección que le corresponde. ¿Qué duración máxima tendrá este acogimiento de urgencia?",
-    "opciones": [
-      "Seis meses",
-      "Tres meses",
-      "Dos años",
-      "Un año"
-    ],
-    "correcta": 0,
-    "explicacion": "Art. 173 bis.2.a del CC: el acogimiento de urgencia, principalmente para menores de seis años, no puede durar más de seis meses mientras se decide la medida de protección familiar que corresponda."
-  },
-  {
-    "id": "pregunta-del-dia-2026-10-03",
-    "tema": "Tema 9 · Derecho Procesal Penal",
-    "enunciado": "El particular que detuviere a otro, si el detenido lo exigiere, deberá justificar:",
-    "opciones": [
-      "Su identidad mediante documento oficial ante el propio detenido",
-      "Haber obrado por motivos racionalmente suficientes para creer que se hallaba en alguno de los casos del artículo 490",
-      "Que fue testigo presencial del delito cometido",
-      "Que avisó previamente a la Policía Judicial"
+      "Solo el Plan Estatal General",
+      "El Plan Estatal General y los Planes Territoriales y Especiales de ámbito estatal o autonómico",
+      "Solo los Planes Especiales de competencia estatal",
+      "Todos los planes, incluidos los de autoprotección"
     ],
     "correcta": 1,
-    "explicacion": "Art. 491 de la LECrim: el particular que detiene a otro debe justificar, si el detenido lo exige, que obró por motivos racionalmente suficientes para creerle incurso en alguno de los casos del art. 490."
+    "explicacion": "Art. 14.3 de la Ley 17/2015: el Plan Estatal General y los Planes Territoriales y Especiales de ámbito estatal o autonómico deberán ser informados por el Consejo Nacional de Protección Civil."
   },
   {
-    "id": "pregunta-del-dia-2026-10-04",
-    "tema": "Tema 10 · Derecho Administrativo",
-    "enunciado": "La Administración podrá desistir motivadamente, en los supuestos y con los requisitos previstos en las Leyes:",
+    "id": "pregunta-del-dia-14",
+    "tema": "Tema 17 · Materias técnico-científicas",
+    "enunciado": "Una medida sobre el acceso de los usuarios finales a servicios y aplicaciones susceptible de restringir derechos y libertades fundamentales solo podrá imponerse si es:",
     "opciones": [
-      "En los procedimientos iniciados a solicitud del interesado",
-      "Únicamente en los procedimientos sancionadores",
-      "En los procedimientos iniciados de oficio",
-      "En cualquier procedimiento, sea cual sea su forma de iniciación"
+      "Urgente, motivada y autorizada por el Gobierno",
+      "Temporal, reversible y comunicada a los usuarios",
+      "Necesaria y acordada por la autoridad de telecomunicaciones",
+      "Adecuada, necesaria y proporcionada en una sociedad democrática"
+    ],
+    "correcta": 3,
+    "explicacion": "Art. 56.2 de la Ley 11/2022: estas medidas solo pueden imponerse si son adecuadas, necesarias y proporcionadas en una sociedad democrática, con las salvaguardias de procedimiento apropiadas."
+  },
+  {
+    "id": "pregunta-del-dia-15",
+    "tema": "Tema 18 · Topografía",
+    "enunciado": "En relación con la declinación magnética, señale la opción CORRECTA:",
+    "opciones": [
+      "Es la misma en todos los lugares de la Tierra",
+      "Es siempre de signo positivo",
+      "Varía anualmente",
+      "Solo varía cada siglo"
     ],
     "correcta": 2,
-    "explicacion": "Art. 93 de la Ley 39/2015: el desistimiento de la Administración cabe en los procedimientos iniciados de oficio, motivadamente y en los supuestos y con los requisitos previstos en las Leyes. En los iniciados a solicitud desiste el interesado (art. 94)."
+    "explicacion": "Epígrafe «Elementos geográficos» del temario del Tema 18: la declinación magnética varía anualmente y cada lugar tiene una distinta. Su signo es positivo si es Este y negativo si es Oeste."
   },
   {
-    "id": "pregunta-del-dia-2026-10-05",
-    "tema": "Tema 12 · Extranjería. Inmigración",
-    "enunciado": "¿Puede acordarse un nuevo internamiento por cualquiera de las causas previstas en un mismo expediente?",
+    "id": "pregunta-del-dia-16",
+    "tema": "Tema 19 · Deontología profesional",
+    "enunciado": "En todas sus intervenciones, y cuando las circunstancias lo permitan, los guardias civiles informarán de forma comprensible a las personas con las que traten:",
     "opciones": [
-      "Sí, por una sola vez más.",
-      "Sí, si el extranjero ha dificultado la expulsión.",
-      "No.",
-      "Sí, con informe favorable del Ministerio Fiscal."
+      "Del contenido íntegro de las diligencias que se instruyan.",
+      "De la identidad y el destino del personal actuante.",
+      "De aquellas materias que les afecten directamente o tengan derecho a conocer.",
+      "De los recursos que procedan contra la actuación policial."
     ],
     "correcta": 2,
-    "explicacion": "Art. 62.2 de la LO 4/2000: no puede acordarse un nuevo internamiento por cualquiera de las causas previstas en un mismo expediente."
+    "explicacion": "Art. 33.2 del Código de Conducta: informarán de forma comprensible de aquellas materias que afecten directamente a las personas con las que traten o que tengan derecho a conocer."
   },
   {
-    "id": "pregunta-del-dia-2026-10-06",
-    "tema": "Tema 13 · Seguridad pública y seguridad privada",
-    "enunciado": "La práctica de actuaciones previas a la incoación del procedimiento:",
+    "id": "pregunta-del-dia-17",
+    "tema": "Tema 22 · Armas y explosivos",
+    "enunciado": "Un consumidor habitual de explosivos es de ámbito nacional cuando su actividad se extiende a:",
     "opciones": [
-      "No interrumpirá la prescripción de las infracciones",
-      "Interrumpirá la prescripción de las infracciones",
-      "Suspenderá la prescripción durante un mes",
-      "Requerirá en todo caso la intervención del presunto responsable"
+      "Más de una provincia, aunque pertenezcan a la misma Comunidad Autónoma",
+      "Tres o más Comunidades Autónomas",
+      "Todo el territorio nacional de forma simultánea",
+      "Dos o más provincias de distinta Comunidad Autónoma"
     ],
-    "correcta": 0,
-    "explicacion": "Art. 48.3 de la LO 4/2015: las actuaciones previas no interrumpen la prescripción. Pueden practicarse sin intervención del presunto responsable si es indispensable (art. 48.2)."
+    "correcta": 3,
+    "explicacion": "Art. 118.a) del RD 130/2017 (Reglamento de Explosivos): el consumidor habitual es de ámbito nacional cuando actúa en dos o más provincias de distinta Comunidad Autónoma. Si actúa en una o varias provincias de una misma Comunidad Autónoma es de ámbito autonómico, y no se exigen tres Comunidades ni todo el territorio."
   },
   {
-    "id": "pregunta-del-dia-2026-10-07",
-    "tema": "Tema 15 · Fuerzas y Cuerpos de Seguridad. Guardia Civil",
-    "enunciado": "En todo caso de actuación fuera de su ámbito territorial, los miembros del Cuerpo Nacional de Policía o de la Guardia Civil deberán:",
+    "id": "pregunta-del-dia-18",
+    "tema": "Tema 23 · Derecho Fiscal",
+    "enunciado": "Para facilitar el descubrimiento del contrabando, los organismos y servicios encargados de su persecución podrán establecer contactos e intercambiar información con:",
     "opciones": [
-      "Dar cuenta de las mismas al otro Cuerpo",
-      "Solicitar autorización previa del Ministerio del Interior",
-      "Comunicarlo a la Junta Local de Seguridad",
-      "Obtener mandato judicial o del Ministerio Fiscal"
+      "Únicamente los servicios homólogos de otros Estados miembros",
+      "Solo los servicios nacionales, previa autorización judicial",
+      "Otros servicios homólogos nacionales o internacionales",
+      "Únicamente la Oficina Europea de Lucha contra el Fraude"
+    ],
+    "correcta": 2,
+    "explicacion": "Disposición adicional primera.3 de la LO 12/1995: pueden intercambiar información con servicios homólogos nacionales o internacionales. La Ley no lo limita a determinados servicios ni exige autorización judicial."
+  },
+  {
+    "id": "pregunta-del-dia-19",
+    "tema": "Tema 5 · Derecho de la Unión Europea",
+    "enunciado": "¿Quién presidirá el Consejo de Asuntos Exteriores?",
+    "opciones": [
+      "El Presidente del Consejo Europeo.",
+      "El Alto Representante de la Unión para Asuntos Exteriores y Política de Seguridad.",
+      "El ministro del Estado miembro al que corresponda la presidencia por rotación.",
+      "El Presidente de la Comisión Europea."
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 18.3 del TUE: el Alto Representante presidirá el Consejo de Asuntos Exteriores, única formación excluida de la rotación igual entre Estados miembros (art. 16.9 del TUE). El Presidente del Consejo Europeo y el de la Comisión no presiden formaciones del Consejo."
+  },
+  {
+    "id": "pregunta-del-dia-20",
+    "tema": "Tema 1 · Derechos Humanos",
+    "enunciado": "Todo niño tiene derecho a mantener de forma periódica relaciones personales y contactos directos con su padre y con su madre:",
+    "opciones": [
+      "Salvo si ello es contrario a sus intereses",
+      "En todo caso y sin excepción alguna",
+      "Salvo resolución administrativa en contrario",
+      "Solo si los progenitores están casados"
     ],
     "correcta": 0,
-    "explicacion": "Art. 11.3 de la LO 2/1986: en todo caso de actuación fuera de su ámbito territorial, los miembros de cada Cuerpo deberán dar cuenta al otro de las mismas. No se exige autorización previa ni mandato judicial."
+    "explicacion": "Art. 24.3 de la Carta de los Derechos Fundamentales de la UE: el niño tiene derecho a relaciones personales y contactos directos periódicos con ambos progenitores, salvo si ello es contrario a sus intereses."
   }
 ]
