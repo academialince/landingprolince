@@ -1,16 +1,16 @@
 {
-  "id": "dato-curioso-2026-10-17",
-  "publicacion": "2026-10-17",
-  "carpeta": "Curiosidad_22",
+  "id": "dato-curioso-23",
+  "publicacion": "23",
+  "carpeta": "Curiosidad_24",
   "etiqueta": "Dato curioso · Guardia Civil",
-  "gancho": "¿Qué es EUROGENDFOR?",
-  "destacar": "EUROGENDFOR?",
-  "fecha": "2004",
-  "respuesta": "La Fuerza de Gendarmería Europea, con sede en Vicenza (Italia). La Guardia Civil es miembro fundador junto a otras policías europeas de naturaleza militar.",
-  "resaltar": "miembro fundador",
+  "gancho": "¿Cuándo se crearon las Zonas?",
+  "destacar": "Zonas?",
+  "fecha": "20 de mayo de 1926",
+  "respuesta": "Se crearon cuatro Zonas, con sede en Madrid, Barcelona, Sevilla y Burgos, cada una al mando de un general de brigada.",
+  "resaltar": "cuatro Zonas",
   "cifra": null,
   "ademas": {
-    "texto": "Puede actuar al servicio de la UE, la ONU, la OTAN o la OSCE.",
+    "texto": "En 1924 se había creado la figura del Subdirector General.",
     "cifra": null
   }
 }
