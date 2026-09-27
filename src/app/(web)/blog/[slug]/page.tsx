@@ -13,7 +13,8 @@ import { JsonLd, metadataPagina } from "@/lib/seo";
 import { TarjetaEntrada } from "@/components/blog/tarjeta-entrada";
 import { Button } from "@/components/ui/button";
 import { cursoPorSlug } from "@/content/cursos";
-import { absoluteUrl, paginaAutor, rutas } from "@/lib/links";
+import { absoluteUrl, cursosVisibles, paginaAutor, rutas } from "@/lib/links";
+import { lanzamiento } from "@/content/waitlist";
 
 export const revalidate = 300;
 
@@ -122,7 +123,16 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
           )}
           <div className="prosa py-12 sm:py-16" dangerouslySetInnerHTML={{ __html: html }} />
 
-          {curso && (
+          {!cursosVisibles && (
+            <aside className="mb-10 rounded-2xl border border-primary/20 bg-primary-soft/50 p-7">
+              <p className="text-eyebrow uppercase text-primary">Lanzamos el {lanzamiento.fecha}</p>
+              <h2 className="text-h3 mt-3">Prueba la plataforma antes que nadie</h2>
+              <p className="mt-3 text-muted-foreground">Temario completo, tests y simulacros. Apúntate a la lista de espera y consigue acceso anticipado.</p>
+              <Button href={rutas.waitlist} variante="secundario" className="mt-5">Apuntarme a la lista</Button>
+            </aside>
+          )}
+
+          {cursosVisibles && curso && (
             <aside className="mb-10 rounded-2xl border border-primary/20 bg-primary-soft/50 p-7">
               <p className="text-eyebrow uppercase text-primary">Tu siguiente paso</p>
               <h2 className="text-h3 mt-3">Lleva esta preparación a la práctica</h2>

@@ -7,11 +7,13 @@ import { NosotrosHome } from "@/components/home/nosotros";
 import { Resultados } from "@/components/sections/resultados";
 import { CtaFinal } from "@/components/sections/cta-final";
 import { JsonLd, metadataPagina } from "@/lib/seo";
-import { absoluteUrl, nosotrosVisible } from "@/lib/links";
+import { redirect } from "next/navigation";
+import { absoluteUrl, inicioVisible, nosotrosVisible, rutas } from "@/lib/links";
 
 export const metadata = metadataPagina({ titulo: "Academia online de oposiciones a Guardia Civil", descripcion: "Prepara Guardia Civil y Colegio de Guardias Jóvenes con ProLince: temario, tests por tema, simulacros cronometrados y seguimiento online de tu progreso.", ruta: "/" });
 
 export default function Portada() {
+  if (!inicioVisible) redirect(rutas.waitlist);
   return (
     <>
       <Hero />

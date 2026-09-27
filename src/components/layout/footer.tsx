@@ -4,7 +4,7 @@ import { Marca } from "@/components/ui/logo";
 import { Container } from "./container";
 import { navegacion, site } from "@/content/site";
 import { cursos } from "@/content/cursos";
-import { rutas } from "@/lib/links";
+import { cursosVisibles, rutas } from "@/lib/links";
 
 const legales = [
   { etiqueta: "Aviso legal", href: rutas.avisoLegal },
@@ -74,6 +74,7 @@ export function Footer() {
             </ul>
           </nav>
 
+          {cursosVisibles && (
           <nav aria-label="Cursos">
             <h2 className="mb-4 text-eyebrow uppercase text-white/50">Cursos</h2>
             <ul className="grid gap-2.5 text-body-sm">
@@ -86,6 +87,7 @@ export function Footer() {
               ))}
             </ul>
           </nav>
+          )}
 
           <nav aria-label="Legal">
             <h2 className="mb-4 text-eyebrow uppercase text-white/50">Legal</h2>

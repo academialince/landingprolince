@@ -1,20 +1,21 @@
-import { Clock, MessageSquare, Sparkles } from "lucide-react";
+import { BookOpen, Clock, LayoutDashboard, MessageSquare } from "lucide-react";
 import { PageHero } from "@/components/layout/page-hero";
 import { Container } from "@/components/layout/container";
 import { Reveal } from "@/components/layout/reveal";
 import { FormularioWaitlist } from "@/components/waitlist/formulario-waitlist";
 import { rutas } from "@/lib/links";
+import { lanzamiento } from "@/content/waitlist";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 
 export const metadata = metadataPagina({
   titulo: "Lista de espera para probar la plataforma",
-  descripcion:
-    "Apúntate a la lista de espera de ProLince y sé de los primeros en probar la plataforma para preparar la Guardia Civil.",
+  descripcion: `ProLince abre el ${lanzamiento.fecha}. Apúntate a la lista de espera y consigue acceso anticipado a la plataforma completa para preparar la Guardia Civil.`,
   ruta: rutas.waitlist,
 });
 
 const ventajas = [
-  { icono: Sparkles, texto: "Acceso anticipado a temario, tests y simulacros." },
+  { icono: LayoutDashboard, texto: "La plataforma completa, antes que nadie." },
+  { icono: BookOpen, texto: "Temario completo, tests por tema y simulacros cronometrados." },
   { icono: MessageSquare, texto: "Tu opinión decide qué mejoramos." },
   { icono: Clock, texto: "Sin compromiso." },
 ];
@@ -23,9 +24,9 @@ export default function Waitlist() {
   return (
     <>
       <PageHero
-        eyebrow="Lista de espera"
+        eyebrow={`Lanzamiento · ${lanzamiento.fecha}`}
         titulo="Prueba la plataforma antes que nadie"
-        entradilla="Abrimos el acceso por tandas. Déjanos tus datos y te avisamos."
+        entradilla={`ProLince es la academia online para preparar el acceso a la Guardia Civil y al Colegio de Guardias Jóvenes. El ${lanzamiento.fecha} lanzamos la plataforma y antes queremos dar acceso anticipado a unos pocos: temario completo, tests y simulacros. Plazas limitadas.`}
         compacto
       />
 

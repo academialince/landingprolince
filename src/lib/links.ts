@@ -59,5 +59,12 @@ export const destinoEmpezar = cursosAbiertos ? links.registro : rutas.waitlist;
 export const tiendaVisible = false;
 export const nosotrosVisible = false;
 
-/** Página de autor de las entradas del blog: «Nosotros», o la portada mientras esté oculta. */
-export const paginaAutor = nosotrosVisible ? rutas.nosotros : rutas.inicio;
+/**
+ * Portada y páginas de curso. Con `false` salen del menú, del pie y del sitemap, y quien entre en
+ * ellas (un enlace antiguo, el logo de la cabecera) va a la lista de espera. Con `true` vuelven.
+ */
+export const inicioVisible = false;
+export const cursosVisibles = false;
+
+/** Página de autor de las entradas del blog: «Nosotros», o la mejor alternativa visible. */
+export const paginaAutor = nosotrosVisible ? rutas.nosotros : inicioVisible ? rutas.inicio : rutas.blog;

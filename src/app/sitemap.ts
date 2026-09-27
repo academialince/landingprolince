@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { absoluteUrl, nosotrosVisible, rutas, tiendaVisible } from "@/lib/links";
+import { absoluteUrl, cursosVisibles, inicioVisible, nosotrosVisible, rutas, tiendaVisible } from "@/lib/links";
 import { cursos } from "@/content/cursos";
 import { entradasSitemap } from "@/lib/blog";
 
@@ -16,8 +16,8 @@ export const revalidate = 300;
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const publicas: { ruta: string; prioridad: number }[] = [
-    { ruta: rutas.inicio, prioridad: 1 },
-    ...cursos.map((c) => ({ ruta: rutas.curso(c.slug), prioridad: 0.9 })),
+    ...(inicioVisible ? [{ ruta: rutas.inicio, prioridad: 1 }] : []),
+    ...(cursosVisibles ? cursos.map((c) => ({ ruta: rutas.curso(c.slug), prioridad: 0.9 })) : []),
     ...(tiendaVisible ? [{ ruta: rutas.tienda, prioridad: 0.8 }] : []),
     { ruta: rutas.blog, prioridad: 0.7 },
     ...(nosotrosVisible ? [{ ruta: rutas.nosotros, prioridad: 0.6 }] : []),

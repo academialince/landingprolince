@@ -23,3 +23,8 @@ export const valoresVeces = vecesPresentado.map((v) => v.valor) as [string, ...s
 export function etiquetaDe(lista: readonly { valor: string; etiqueta: string }[], valor: string) {
   return lista.find((o) => o.valor === valor)?.etiqueta ?? valor;
 }
+
+/** Lanzamiento de la plataforma. Sale en la lista de espera y en el aviso de las entradas del blog. */
+export const lanzamiento = {
+  fecha: "18 de octubre",
+} as const;

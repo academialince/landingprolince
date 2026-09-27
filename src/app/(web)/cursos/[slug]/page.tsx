@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { ArrowRight, Check, ChevronDown, FileText } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Section } from "@/components/layout/section";
@@ -13,7 +13,7 @@ import { CtaFinal } from "@/components/sections/cta-final";
 import { cursoPorSlug, cursos } from "@/content/cursos";
 import { site } from "@/content/site";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
-import { absoluteUrl, cursosAbiertos, destinoEmpezar, rutas, tiendaVisible } from "@/lib/links";
+import { absoluteUrl, cursosAbiertos, cursosVisibles, destinoEmpezar, rutas, tiendaVisible } from "@/lib/links";
 import { Proximamente } from "@/components/ui/proximamente";
 
 /** Las anclas quedan bajo la cabecera y el submenú, que suman 7,5rem. */
@@ -34,6 +34,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
   const { slug } = await props.params;
   const curso = cursoPorSlug(slug);
   if (!curso) notFound();
+  if (!cursosVisibles) redirect(rutas.waitlist);
 
   return (
     <>

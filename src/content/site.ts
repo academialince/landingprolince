@@ -1,4 +1,4 @@
-import { nosotrosVisible, rutas, tiendaVisible } from "@/lib/links";
+import { cursosAbiertos, cursosVisibles, inicioVisible, nosotrosVisible, rutas, tiendaVisible } from "@/lib/links";
 import { cursos } from "./cursos";
 
 /**
@@ -43,16 +43,21 @@ export type ItemNav = {
 };
 
 export const navegacion: ItemNav[] = [
-  { etiqueta: "Inicio", href: rutas.inicio },
-  {
-    etiqueta: "Cursos",
-    hijos: cursos.map((c) => ({
-      etiqueta: c.nombre,
-      descripcion: c.eyebrow,
-      href: rutas.curso(c.slug),
-    })),
-  },
+  ...(inicioVisible ? [{ etiqueta: "Inicio", href: rutas.inicio }] : []),
+  ...(cursosVisibles
+    ? [
+        {
+          etiqueta: "Cursos",
+          hijos: cursos.map((c) => ({
+            etiqueta: c.nombre,
+            descripcion: c.eyebrow,
+            href: rutas.curso(c.slug),
+          })),
+        },
+      ]
+    : []),
   { etiqueta: "Blog", href: rutas.blog },
   ...(nosotrosVisible ? [{ etiqueta: "Nosotros", href: rutas.nosotros }] : []),
   ...(tiendaVisible ? [{ etiqueta: "Tienda", href: rutas.tienda }] : []),
+  ...(cursosAbiertos ? [] : [{ etiqueta: "Lista de espera", href: rutas.waitlist }]),
 ];
