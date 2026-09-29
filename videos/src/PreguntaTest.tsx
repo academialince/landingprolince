@@ -12,7 +12,7 @@ import {
 import { z } from "zod";
 
 // Tokens de src/app/globals.css de la landing, pasados de OKLCH a hex.
-const C = {
+export const C = {
   fondo: "#ffffff",
   texto: "#121b16",
   primario: "#03512d",
@@ -27,7 +27,7 @@ const C = {
   marcoMovil: "#0B1714",
 };
 
-const fontFamily = "'Manrope Variable', Manrope, sans-serif";
+export const fontFamily = "'Manrope Variable', Manrope, sans-serif";
 
 export const preguntaSchema = z.object({
   id: z.string(),
@@ -68,7 +68,7 @@ export const duracionPregunta = (segundosCuenta: number, fps: number) =>
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 /** Fondo del hero de la web: aura que respira, rejilla girada y partículas. */
-const EscenaFondo: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) => {
+export const EscenaFondo: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) => {
   const s = frame / fps;
   const respira = (periodo: number, desfase = 0) => Math.sin(((s + desfase) / periodo) * Math.PI * 2);
   return (
@@ -141,7 +141,7 @@ const TarjetaFlotante: React.FC<{ style: React.CSSProperties; children: React.Re
 );
 
 /** Emblema con el aro discontinuo que gira, como en el hero. */
-const Emblema: React.FC<{ frame: number; tam: number }> = ({ frame, tam }) => (
+export const Emblema: React.FC<{ frame: number; tam: number }> = ({ frame, tam }) => (
   <div
     style={{
       position: "relative",

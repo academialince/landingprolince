@@ -1,0 +1,250 @@
+[
+  {
+    "id": "historia-fundacion-1844",
+    "serie": "Historia de la Guardia Civil",
+    "titulo": "Así nació la Guardia Civil",
+    "subtitulo": "1844 · Isabel II · Duque de Ahumada",
+    "escenas": [
+      {
+        "fecha": "España, 1844",
+        "hito": "1844",
+        "titulo": "Caminos sin ley",
+        "texto": "Reinado de Isabel II. Los caminos están llenos de bandoleros y el país no tiene una fuerza de seguridad pública para todo el territorio.",
+        "escenario": "camino",
+        "personajes": [
+          { "personaje": "viajero", "x": 300, "entra": "izquierda", "pose": "brazos-arriba", "mirando": "der" },
+          { "personaje": "bandolero", "x": 690, "entra": "derecha", "pose": "senala", "desde": 0.4, "dice": "¡La bolsa o la vida!", "diceDesde": 1.8 }
+        ]
+      },
+      {
+        "fecha": "28 de marzo de 1844",
+        "hito": "Mar 1844",
+        "titulo": "Un Real Decreto crea el Cuerpo",
+        "texto": "El Gobierno de González Bravo crea un cuerpo especial de fuerza armada de Infantería y Caballería, dependiente del Ministerio de la Gobernación.",
+        "escenario": "despacho",
+        "objetos": [{ "tipo": "mesa", "x": 300 }],
+        "personajes": [
+          { "personaje": "ministro", "x": 640, "pose": "lee", "nombre": "González Bravo", "mirando": "izq" }
+        ],
+        "clave": "28 de marzo de 1844: Real Decreto de creación."
+      },
+      {
+        "fecha": "12 de abril de 1844",
+        "hito": "Abr 1844",
+        "titulo": "Entra en escena el duque de Ahumada",
+        "texto": "Se encarga la organización del nuevo Cuerpo al mariscal de campo Francisco Javier Girón y Ezpeleta, II duque de Ahumada.",
+        "escenario": "palacio",
+        "personajes": [
+          { "personaje": "reina", "x": 320, "pose": "senala", "nombre": "Isabel II", "mirando": "der" },
+          { "personaje": "duque", "x": 690, "entra": "derecha", "pose": "saluda", "desde": 0.5, "nombre": "Duque de Ahumada", "dice": "¡A la orden!", "diceDesde": 2.2 }
+        ],
+        "clave": "El duque de Ahumada es el fundador y primer organizador."
+      },
+      {
+        "fecha": "13 de mayo de 1844",
+        "hito": "May 1844",
+        "titulo": "Doble dependencia",
+        "texto": "Un nuevo Real Decreto, ya con Narváez al frente del Gobierno, organiza el Cuerpo: depende de Guerra en organización y disciplina, y de Gobernación en el servicio.",
+        "escenario": "despacho",
+        "personajes": [
+          { "personaje": "militar", "sombrero": "bicornio", "x": 220, "pose": "senala", "nombre": "Guerra", "escala": 1.1, "mirando": "der" },
+          { "personaje": "guardia", "x": 500, "entra": "aparece", "desde": 0.8, "pose": "firmes", "escala": 1.1 },
+          { "personaje": "ministro", "accesorio": "ninguno", "x": 780, "pose": "senala", "nombre": "Gobernación", "escala": 1.1, "mirando": "izq" }
+        ],
+        "clave": "Guerra: organización, personal, disciplina, material y haberes. Gobernación: servicio."
+      },
+      {
+        "fecha": "1844 - 1845",
+        "hito": "Servicio",
+        "titulo": "Las parejas salen a los caminos",
+        "texto": "Los guardias se reparten en puestos por todo el territorio y patrullan los caminos en pareja, a pie o a caballo.",
+        "escenario": "camino",
+        "objetos": [{ "tipo": "caballo", "x": 820 }],
+        "personajes": [
+          { "personaje": "guardia", "x": 330, "entra": "izquierda", "pose": "firmes" },
+          { "personaje": "guardia", "x": 510, "entra": "izquierda", "pose": "firmes", "desde": 0.25 },
+          { "personaje": "viajero", "x": 150, "entra": "aparece", "desde": 1.6, "pose": "hola", "escala": 1.05, "dice": "¡Por fin se viaja tranquilo!", "diceDesde": 2.2 }
+        ]
+      },
+      {
+        "fecha": "20 de diciembre de 1845",
+        "hito": "1845",
+        "titulo": "La Cartilla del Guardia Civil",
+        "texto": "Se aprueba la Cartilla, redactada por el duque de Ahumada: el código moral del guardia civil. Su artículo 1 contiene la frase más famosa del Cuerpo.",
+        "escenario": "cuartel",
+        "personajes": [
+          { "personaje": "duque", "accesorio": "libro", "x": 280, "pose": "lee", "nombre": "Duque de Ahumada", "mirando": "der" },
+          { "personaje": "guardia", "x": 700, "pose": "saluda", "mirando": "izq", "dice": "«El honor ha de ser la principal divisa del guardia civil»", "diceDesde": 2.2 }
+        ],
+        "clave": "Cartilla: 20 de diciembre de 1845. De ahí el lema «El honor es mi divisa»."
+      }
+    ],
+    "repaso": {
+      "enunciado": "¿Qué Real Decreto de 1844 estableció la dependencia de los Ministerios de la Guerra y de la Gobernación?",
+      "opciones": ["El de 28 de marzo", "El de 12 de abril", "El de 13 de mayo", "El de 20 de diciembre"],
+      "correcta": 2,
+      "explicacion": "El Real Decreto de 13 de mayo de 1844: Guerra en organización, personal, disciplina, material y haberes, y Gobernación en el servicio."
+    }
+  },
+  {
+    "id": "historia-constitucion-1978",
+    "serie": "Constitución Española",
+    "titulo": "Así nació la Constitución de 1978",
+    "subtitulo": "De las Cortes al BOE en cuatro fechas",
+    "escenas": [
+      {
+        "fecha": "31 de octubre de 1978",
+        "hito": "31 oct",
+        "titulo": "Las Cortes la aprueban",
+        "texto": "El Congreso y el Senado aprueban, en sesiones separadas, el texto de la Constitución, fruto del consenso entre las fuerzas políticas.",
+        "escenario": "congreso",
+        "personajes": [
+          { "personaje": "diputado", "x": 330, "pose": "brazos-arriba", "mirando": "der" },
+          { "personaje": "diputado", "x": 680, "entra": "derecha", "pose": "hola", "desde": 0.3, "dice": "¡Aprobada!", "diceDesde": 1.8 }
+        ],
+        "clave": "Aprobación por las Cortes: 31 de octubre de 1978."
+      },
+      {
+        "fecha": "6 de diciembre de 1978",
+        "hito": "6 dic",
+        "titulo": "El pueblo la ratifica en referéndum",
+        "texto": "Los españoles la ratifican en referéndum. Por eso cada 6 de diciembre se celebra el Día de la Constitución.",
+        "escenario": "plaza",
+        "objetos": [{ "tipo": "urna", "x": 500 }],
+        "personajes": [
+          { "personaje": "ciudadana", "x": 330, "entra": "izquierda", "pose": "lee", "accesorio": "papeleta", "mirando": "der" },
+          { "personaje": "ciudadano", "x": 720, "entra": "derecha", "pose": "hola", "desde": 0.4, "dice": "¡A votar!", "diceDesde": 1.8 }
+        ],
+        "clave": "Referéndum: 6 de diciembre de 1978."
+      },
+      {
+        "fecha": "27 de diciembre de 1978",
+        "hito": "27 dic",
+        "titulo": "El Rey la sanciona",
+        "texto": "El Rey Juan Carlos I sanciona la Constitución en una sesión conjunta del Congreso y el Senado.",
+        "escenario": "palacio",
+        "personajes": [
+          { "personaje": "rey", "x": 400, "pose": "lee", "accesorio": "pergamino", "nombre": "Juan Carlos I", "mirando": "der" },
+          { "personaje": "diputado", "x": 760, "entra": "derecha", "pose": "brazos-arriba", "desde": 0.5, "escala": 1.1 }
+        ],
+        "clave": "Sanción: 27 de diciembre de 1978."
+      },
+      {
+        "fecha": "29 de diciembre de 1978",
+        "hito": "29 dic",
+        "titulo": "Publicación y entrada en vigor",
+        "texto": "Se publica en el BOE y, según su disposición final, entra en vigor el mismo día de su publicación.",
+        "escenario": "despacho",
+        "objetos": [{ "tipo": "boe", "x": 330, "texto": "29 · XII · 1978" }],
+        "personajes": [
+          { "personaje": "ciudadano", "x": 720, "entra": "derecha", "pose": "senala", "mirando": "izq", "dice": "¡En vigor desde hoy!", "diceDesde": 1.8 }
+        ],
+        "clave": "Publicación en el BOE y entrada en vigor: 29 de diciembre de 1978."
+      },
+      {
+        "fecha": "Estructura",
+        "hito": "Estructura",
+        "titulo": "¿Cómo está organizada?",
+        "texto": "Preámbulo, título preliminar y 10 títulos, con 169 artículos. Además: 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final.",
+        "escenario": "aula",
+        "personajes": [
+          { "personaje": "guardia-actual", "x": 880, "pose": "senala", "mirando": "izq", "escala": 1.1, "dice": "¡169 artículos!", "diceDesde": 1.4 }
+        ],
+        "clave": "Reformada tres veces: 1992 (art. 13.2), 2011 (art. 135) y 2024 (art. 49)."
+      },
+      {
+        "fecha": "Artículo 104",
+        "hito": "Art. 104",
+        "titulo": "Las Fuerzas y Cuerpos de Seguridad",
+        "texto": "Bajo la dependencia del Gobierno, protegen el libre ejercicio de los derechos y libertades y garantizan la seguridad ciudadana.",
+        "escenario": "cuartel",
+        "personajes": [
+          { "personaje": "guardia-actual", "x": 330, "entra": "izquierda", "pose": "saluda", "nombre": "Guardia Civil" },
+          { "personaje": "policia", "x": 670, "entra": "derecha", "pose": "saluda", "nombre": "Policía Nacional" }
+        ],
+        "clave": "Art. 104.2: una ley orgánica fija sus funciones. Es la LO 2/1986."
+      }
+    ],
+    "repaso": {
+      "enunciado": "¿Qué día entró en vigor la Constitución Española?",
+      "opciones": ["El 6 de diciembre de 1978", "El 27 de diciembre de 1978", "El 29 de diciembre de 1978", "El 31 de octubre de 1978"],
+      "correcta": 2,
+      "explicacion": "Según su disposición final, entró en vigor el mismo día de su publicación en el BOE: el 29 de diciembre de 1978."
+    }
+  },
+  {
+    "id": "historia-lo-2-1986",
+    "serie": "Fuerzas y Cuerpos de Seguridad",
+    "titulo": "La Guardia Civil en la LO 2/1986",
+    "subtitulo": "Ley Orgánica 2/1986, de 13 de marzo",
+    "escenas": [
+      {
+        "fecha": "13 de marzo de 1986",
+        "hito": "1986",
+        "titulo": "Nace la ley de las FCS",
+        "texto": "Se aprueba la Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad, que desarrolla el artículo 104 de la Constitución.",
+        "escenario": "congreso",
+        "personajes": [
+          { "personaje": "diputado", "x": 320, "pose": "lee", "accesorio": "pergamino", "mirando": "der" },
+          { "personaje": "guardia-actual", "x": 690, "entra": "derecha", "pose": "saluda", "desde": 0.3 }
+        ],
+        "clave": "LO 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad."
+      },
+      {
+        "fecha": "Artículo 9",
+        "hito": "Art. 9",
+        "titulo": "Militar o civil",
+        "texto": "La Guardia Civil es un Instituto Armado de naturaleza militar; el Cuerpo Nacional de Policía (hoy Policía Nacional), de naturaleza civil.",
+        "escenario": "cuartel",
+        "personajes": [
+          { "personaje": "guardia-actual", "x": 300, "pose": "habla", "nombre": "Guardia Civil", "dice": "Naturaleza militar", "diceDesde": 1.0 },
+          { "personaje": "policia", "x": 700, "pose": "habla", "nombre": "Policía Nacional", "dice": "Naturaleza civil", "diceDesde": 2.4 }
+        ],
+        "clave": "Los dos son Institutos Armados y dependen del Ministro del Interior."
+      },
+      {
+        "fecha": "Artículo 9.b",
+        "hito": "Art. 9.b",
+        "titulo": "¿De quién depende la Guardia Civil?",
+        "texto": "Del Ministro del Interior en las funciones de esta ley, y del de Defensa en las misiones militares. En guerra y en estado de sitio, solo de Defensa.",
+        "escenario": "despacho",
+        "personajes": [
+          { "personaje": "diputado", "x": 210, "pose": "senala", "nombre": "Interior", "escala": 1.1, "mirando": "der" },
+          { "personaje": "guardia-actual", "x": 500, "entra": "aparece", "desde": 0.6, "pose": "firmes", "escala": 1.1 },
+          { "personaje": "militar", "x": 790, "pose": "senala", "nombre": "Defensa", "escala": 1.1, "mirando": "izq" }
+        ],
+        "clave": "Tiempo de guerra o estado de sitio: dependencia exclusiva del Ministro de Defensa."
+      },
+      {
+        "fecha": "Artículo 12",
+        "hito": "Art. 12",
+        "titulo": "Competencias exclusivas (I)",
+        "texto": "Armas y explosivos; resguardo fiscal del Estado y contrabando; y vigilancia del tráfico, tránsito y transporte en las vías públicas interurbanas.",
+        "escenario": "camino",
+        "objetos": [{ "tipo": "cartel", "x": 740, "texto": "CARRETERA" }],
+        "personajes": [
+          { "personaje": "guardia-actual", "x": 360, "entra": "izquierda", "pose": "senala", "mirando": "der" }
+        ],
+        "clave": "El tráfico en vías interurbanas es de la Guardia Civil."
+      },
+      {
+        "fecha": "Artículo 12",
+        "hito": "Art. 12 bis",
+        "titulo": "Competencias exclusivas (II)",
+        "texto": "Custodia de vías de comunicación terrestre, costas, fronteras, puertos y aeropuertos; protección de la naturaleza; y conducción interurbana de presos y detenidos.",
+        "escenario": "camino",
+        "personajes": [
+          { "personaje": "guardia-actual", "x": 320, "pose": "saluda" },
+          { "personaje": "guardia-actual", "x": 660, "entra": "derecha", "pose": "habla", "mirando": "izq", "dice": "¡Y el medio ambiente!", "diceDesde": 1.8 }
+        ],
+        "clave": "Naturaleza y medio ambiente: competencia de la Guardia Civil."
+      }
+    ],
+    "repaso": {
+      "enunciado": "Según la LO 2/1986, en tiempo de guerra y durante el estado de sitio la Guardia Civil depende exclusivamente del…",
+      "opciones": ["Ministro del Interior", "Ministro de Defensa", "Presidente del Gobierno", "Jefe de Estado Mayor de la Defensa"],
+      "correcta": 1,
+      "explicacion": "Artículo 9.b de la LO 2/1986: en tiempo de guerra y durante el estado de sitio, dependerá exclusivamente del Ministro de Defensa."
+    }
+  }
+]
