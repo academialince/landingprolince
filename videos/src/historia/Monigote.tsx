@@ -44,6 +44,8 @@ export type AspectoMonigote = {
   cinturon?: string;
   panuelo?: string;
   collar?: string;
+  /** Rasgos femeninos: pestañas, cejas finas, labios y más rubor. */
+  mujer?: boolean;
 };
 
 // --- Color --------------------------------------------------------------------------------------
@@ -154,7 +156,32 @@ const Pelo: React.FC<{ peinado: AspectoMonigote["peinado"]; color: string; delan
   if (!delante) {
     // Melena que asoma por detrás de la cabeza.
     if (peinado !== "largo") return null;
-    return <path d={`M -80 ${y - 10} Q -86 ${y + 60} -74 ${y + 96} Q 0 ${y + 112} 74 ${y + 96} Q 86 ${y + 60} 80 ${y - 10} Z`} fill={gl(color)} />;
+    return (
+      <path
+        d={`M -84 ${y - 20} Q -96 ${y + 70} -90 ${y + 150} Q -70 ${y + 138} -54 ${y + 156} Q -30 ${y + 142} 0 ${y + 150} Q 30 ${y + 142} 54 ${y + 156} Q 70 ${y + 138} 90 ${y + 150} Q 96 ${y + 70} 84 ${y - 20} Z`}
+        fill={gl(color)}
+      />
+    );
+  }
+  if (peinado === "largo") {
+    // Flequillo ladeado y mechones que caen por delante, a los lados de la cara.
+    return (
+      <g>
+        <path
+          d={`M -78 ${y + 10} Q -84 ${y - 80} 0 ${y - 84} Q 84 ${y - 80} 78 ${y + 10} Q 70 ${y - 30} 44 ${y - 44} Q 10 ${y - 26} -30 ${y - 34} Q -60 ${y - 30} -78 ${y + 10} Z`}
+          fill={gl(color)}
+        />
+        {[-1, 1].map((l) => (
+          <path
+            key={l}
+            d={`M ${l * 60} ${y - 40} Q ${l * 86} ${y + 20} ${l * 80} ${y + 110} Q ${l * 70} ${y + 118} ${l * 62} ${y + 104} Q ${l * 70} ${y + 30} ${l * 56} ${y - 10} Z`}
+            fill={gl(color)}
+          />
+        ))}
+        <path d={`M -44 ${y - 64} Q -4 ${y - 78} 38 ${y - 66}`} stroke={brillo} strokeWidth={5} fill="none" strokeLinecap="round" opacity={0.8} />
+        <path d={`M 74 ${y - 10} Q 80 ${y + 40} 74 ${y + 90}`} stroke={brillo} strokeWidth={4} fill="none" strokeLinecap="round" opacity={0.5} />
+      </g>
+    );
   }
   return (
     <g>
@@ -177,7 +204,7 @@ const SombreroSvg: React.FC<{ tipo: Sombrero; color?: string }> = ({ tipo, color
   switch (tipo) {
     case "tricornio": {
       // De frente: ala trasera levantada con el borde superior plano (la silueta del tricornio),
-      // copa redonda delante, alas laterales recogidas y visera corta.
+      // y copa redonda delante.
       const c = color ?? "#16181c";
       return (
         <g>
@@ -186,7 +213,6 @@ const SombreroSvg: React.FC<{ tipo: Sombrero; color?: string }> = ({ tipo, color
           <path d={`M -90 ${y - 60} Q -96 ${y - 92} -84 ${y - 112}`} stroke="#ffffff30" strokeWidth={4} fill="none" strokeLinecap="round" />
           <path d={`M -66 ${y - 22} Q -64 ${y - 82} 0 ${y - 86} Q 64 ${y - 82} 66 ${y - 22} Z`} fill={gl(c)} />
           <path d={`M -34 ${y - 68} Q 0 ${y - 80} 34 ${y - 70}`} stroke="#ffffffb0" strokeWidth={6} fill="none" strokeLinecap="round" />
-          <path d={`M -88 ${y - 22} Q 0 ${y - 6} 88 ${y - 22} Q 0 ${y + 4} -88 ${y - 22} Z`} fill={oscuro(c, 0.2)} />
         </g>
       );
     }
@@ -196,7 +222,6 @@ const SombreroSvg: React.FC<{ tipo: Sombrero; color?: string }> = ({ tipo, color
         <g>
           <path d={`M -74 ${y - 26} Q -74 ${y - 94} 0 ${y - 98} Q 74 ${y - 94} 74 ${y - 26} Z`} fill={gl(c)} />
           <rect x={-74} y={y - 38} width={148} height={16} rx={6} fill={oscuro(c, 0.3)} />
-          <path d={`M -64 ${y - 22} Q 0 ${y - 4} 64 ${y - 22} Q 0 ${y + 10} -64 ${y - 22} Z`} fill="#15171a" />
           <circle cx={0} cy={y - 62} r={13} fill="#e8c14a" stroke="#b08a1e" strokeWidth={3} />
           <path d={`M -40 ${y - 84} Q 0 ${y - 94} 40 ${y - 84}`} stroke="#ffffff55" strokeWidth={5} fill="none" strokeLinecap="round" />
         </g>
@@ -270,15 +295,34 @@ const Cara: React.FC<{ a: AspectoMonigote; s: number; hablando?: boolean }> = ({
   const tinta = "#2a1d17";
   return (
     <g>
-      {[-24, 24].map((ox) => (
-        <g key={ox}>
-          <path d={`M ${ox + dx - 11} ${y - 26} Q ${ox + dx} ${y - 33} ${ox + dx + 11} ${y - 26}`} stroke={oscuro(a.pelo, 0.1)} strokeWidth={5} fill="none" strokeLinecap="round" />
-          <ellipse cx={ox + dx} cy={y - 4} rx={9} ry={parpadeo ? 1.5 : 12} fill={tinta} />
-          {!parpadeo && <circle cx={ox + dx + 3} cy={y - 9} r={3.6} fill="#fff" />}
-        </g>
-      ))}
+      {[-24, 24].map((ox) => {
+        const ex = ox + dx;
+        const fuera = ox < 0 ? -1 : 1;
+        return (
+          <g key={ox}>
+            {a.mujer ? (
+              <path d={`M ${ex - 12} ${y - 28} Q ${ex} ${y - 38} ${ex + 12} ${y - 29}`} stroke={oscuro(a.pelo, 0.1)} strokeWidth={3} fill="none" strokeLinecap="round" />
+            ) : (
+              <path d={`M ${ex - 11} ${y - 26} Q ${ex} ${y - 33} ${ex + 11} ${y - 26}`} stroke={oscuro(a.pelo, 0.1)} strokeWidth={5} fill="none" strokeLinecap="round" />
+            )}
+            <ellipse cx={ex} cy={y - 4} rx={a.mujer ? 10 : 9} ry={parpadeo ? 1.5 : a.mujer ? 13 : 12} fill={tinta} />
+            {!parpadeo && <circle cx={ex + 3} cy={y - 9} r={a.mujer ? 4 : 3.6} fill="#fff" />}
+            {!parpadeo && a.mujer && <circle cx={ex - 3} cy={y + 2} r={1.8} fill="#fff" opacity={0.8} />}
+            {a.mujer &&
+              [0, 1].map((k) => (
+                <path
+                  key={k}
+                  d={`M ${ex + fuera * (5 + k * 4)} ${y - 14 - (parpadeo ? -10 : 0) + k * 2} l ${fuera * 7} ${-7 + k * 2}`}
+                  stroke={tinta}
+                  strokeWidth={3}
+                  strokeLinecap="round"
+                />
+              ))}
+          </g>
+        );
+      })}
       {[-40, 40].map((ox) => (
-        <ellipse key={ox} cx={ox + dx} cy={y + 22} rx={14} ry={8} fill="#f08c8c" opacity={0.45} />
+        <ellipse key={ox} cx={ox + dx} cy={y + 22} rx={14} ry={8} fill={a.mujer ? "#f27a8a" : "#f08c8c"} opacity={a.mujer ? 0.55 : 0.45} />
       ))}
       <path d={`M ${dx + 2} ${y + 2} Q ${dx - 6} ${y + 14} ${dx + 3} ${y + 18}`} stroke={oscuro(a.piel, 0.28)} strokeWidth={3.5} fill="none" strokeLinecap="round" />
       {a.bigote && (
@@ -287,7 +331,13 @@ const Cara: React.FC<{ a: AspectoMonigote; s: number; hablando?: boolean }> = ({
           fill={oscuro(a.pelo, 0.15)}
         />
       )}
-      {boca > 0 ? (
+      {a.mujer ? (
+        boca > 0 ? (
+          <ellipse cx={dx} cy={y + 38} rx={8} ry={boca / 2 + 2} fill="#b83a4f" stroke="#e0607a" strokeWidth={3} />
+        ) : (
+          <path d={`M ${dx - 10} ${y + 34} Q ${dx} ${y + 45} ${dx + 10} ${y + 34} Q ${dx} ${y + 38} ${dx - 10} ${y + 34} Z`} fill="#d9536b" stroke="#d9536b" strokeWidth={3} strokeLinejoin="round" />
+        )
+      ) : boca > 0 ? (
         <ellipse cx={dx} cy={y + 40} rx={10} ry={boca / 2 + 2} fill="#8a2c2c" />
       ) : (
         <g>
@@ -496,7 +546,7 @@ export const Monigote: React.FC<{
           <ellipse cx={CABEZA.x} cy={CABEZA.y} rx={CABEZA.rx} ry={CABEZA.ry} fill={`url(#${id("gr", a.piel)})`} />
           {a.patillas && [-1, 1].map((l) => <path key={l} d={`M ${l * 62} ${CABEZA.y - 20} L ${l * 64} ${CABEZA.y + 22} L ${l * 54} ${CABEZA.y + 18} Z`} fill={a.pelo} />)}
           <Cara a={a} s={s} hablando={hablando} />
-          <Pelo peinado={a.sombrero === "ninguno" || a.sombrero === "corona" ? a.peinado : "corto"} color={a.pelo} delante />
+          <Pelo peinado={a.mujer || a.sombrero === "ninguno" || a.sombrero === "corona" ? a.peinado : "corto"} color={a.pelo} delante />
           <g transform="translate(0 -12)">
             <SombreroSvg tipo={a.sombrero} color={a.colorSombrero} />
           </g>

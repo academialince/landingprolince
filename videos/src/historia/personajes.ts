@@ -20,7 +20,7 @@ export const PERSONAJES = {
     botones: "#e2b53a", fajin: "#b3202c", charreteras: "#e2b53a",
   },
   reina: {
-    piel: PIEL.clara, pelo: "#5a3520", peinado: "recogido", sombrero: "corona",
+    piel: PIEL.clara, pelo: "#5a3520", peinado: "largo", sombrero: "corona", mujer: true,
     chaqueta: "#6d3fa0", pantalon: "#6d3fa0", vestido: "#7b4bb3", accesorio: "ninguno", collar: "#e2b53a",
   },
   // Mando militar del siglo XIX (sin bigote ni patillas, para no confundirlo con el duque).
@@ -50,7 +50,7 @@ export const PERSONAJES = {
     chaqueta: "#46637a", pantalon: "#2e3a46", accesorio: "ninguno", camisa: true,
   },
   ciudadana: {
-    piel: PIEL.clara, pelo: "#1f1a17", peinado: "largo", sombrero: "ninguno",
+    piel: PIEL.clara, pelo: "#1f1a17", peinado: "largo", sombrero: "ninguno", mujer: true,
     chaqueta: "#4f9a5a", pantalon: "#4f9a5a", vestido: "#58a864", accesorio: "ninguno", collar: "#e2b53a",
   },
   diputado: {
