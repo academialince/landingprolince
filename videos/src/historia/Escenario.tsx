@@ -1,3 +1,5 @@
+import { CaballoDetalle, CaminoDetalle, CuartelDetalle, DespachoDetalle, MesaDetalle, PalacioDetalle } from "./fondos";
+
 // Fondos de escena en SVG, dibujados en un lienzo de 1000 × 820 con el suelo en y = SUELO.
 
 export const ANCHO_ESCENA = 1000;
@@ -17,12 +19,12 @@ const Nube: React.FC<{ x: number; y: number; s: number; t: number }> = ({ x, y, 
 const Cielo: React.FC<{ t: number; de?: string; a?: string }> = ({ t, de = "#bfe6f2", a = "#eef9f1" }) => (
   <>
     <defs>
-      <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <linearGradient id={`cielo${de}${a}`.replace(/#/g, "")} x1="0" y1="0" x2="0" y2="1">
         <stop offset="0" stopColor={de} />
         <stop offset="1" stopColor={a} />
       </linearGradient>
     </defs>
-    <rect width={ANCHO_ESCENA} height={ALTO_ESCENA} fill="url(#cielo)" />
+    <rect width={ANCHO_ESCENA} height={ALTO_ESCENA} fill={`url(#${`cielo${de}${a}`.replace(/#/g, "")})`} />
     <circle cx={820} cy={130} r={58} fill="#ffd66b" opacity={0.9} />
     <Nube x={120} y={120} s={1} t={t} />
     <Nube x={620} y={200} s={0.7} t={t} />
@@ -66,78 +68,13 @@ const Columnas: React.FC<{ xs: number[]; arriba: number; abajo: number; color: s
 export const Escenario: React.FC<{ tipo: TipoEscenario; t: number }> = ({ tipo, t }) => {
   switch (tipo) {
     case "camino":
-      return (
-        <>
-          <Cielo t={t} de="#f7d9a6" a="#fdf1dc" />
-          <path d="M 0 520 Q 180 430 360 500 T 720 470 T 1000 500 L 1000 820 L 0 820 Z" fill="#c9b27c" />
-          <path d="M 0 600 Q 250 540 500 600 T 1000 580 L 1000 820 L 0 820 Z" fill="#b89a5e" />
-          <path d="M 420 820 Q 470 640 520 560 L 548 560 Q 600 660 720 820 Z" fill="#e3cf9b" />
-          {[
-            [140, 560],
-            [860, 540],
-          ].map(([x, y]) => (
-            <g key={x}>
-              <rect x={x - 8} y={y - 10} width={16} height={60} fill="#6b4a2a" />
-              <circle cx={x} cy={y - 40} r={46} fill="#6f8f4a" />
-            </g>
-          ))}
-          <Suelo color="#a8894f" />
-        </>
-      );
+      return <CaminoDetalle t={t} />;
     case "despacho":
-      return (
-        <>
-          <Pared color="#efe6d4" zocalo="#b08a5a" />
-          <Ventana x={620} y={140} w={260} h={300} />
-          <rect x={80} y={120} width={300} height={440} fill="#7a5230" />
-          {[0, 1, 2, 3].map((fila) => (
-            <g key={fila}>
-              <rect x={92} y={140 + fila * 104} width={276} height={10} fill="#5a3a20" />
-              {[0, 1, 2, 3, 4, 5, 6].map((k) => (
-                <rect key={k} x={104 + k * 36} y={152 + fila * 104} width={26} height={78} fill={["#8e2b2b", "#2b4f8e", "#2b7a4f", "#c9a227"][(k + fila) % 4]} />
-              ))}
-            </g>
-          ))}
-          <Suelo color="#8a6a44" />
-        </>
-      );
+      return <DespachoDetalle t={t} />;
     case "palacio":
-      return (
-        <>
-          <Pared color="#f4e9d8" zocalo="#d8c3a0" />
-          <rect x={0} y={0} width={ANCHO_ESCENA} height={60} fill="#c9a227" />
-          <path d="M 0 60 Q 120 200 0 520 Z" fill="#8e1f2b" />
-          <path d="M 1000 60 Q 880 200 1000 520 Z" fill="#8e1f2b" />
-          <Columnas xs={[230, 770]} arriba={120} abajo={SUELO - 20} color="#e9dcc3" />
-          <rect x={410} y={150} width={180} height={220} rx={90} fill="#fff6e0" stroke="#c9a227" strokeWidth={10} />
-          <path d="M 460 230 L 500 190 L 540 230 L 530 290 L 470 290 Z" fill="#c9a227" opacity={0.6} />
-          <Suelo color="#b8a27a" />
-          <rect x={380} y={SUELO - 8} width={240} height={90} fill="#a3202f" />
-        </>
-      );
+      return <PalacioDetalle t={t} />;
     case "cuartel":
-      return (
-        <>
-          <Cielo t={t} />
-          <rect x={120} y={260} width={760} height={SUELO - 260} fill="#f2ead8" stroke="#c9b690" strokeWidth={6} />
-          <path d="M 100 270 L 500 170 L 900 270 Z" fill="#b5523b" />
-          <rect x={300} y={300} width={400} height={64} rx={8} fill="#03512d" />
-          <text x={500} y={344} textAnchor="middle" fontSize={34} fontWeight={800} fill="#fff" letterSpacing={2}>
-            TODO POR LA PATRIA
-          </text>
-          <Ventana x={170} y={400} w={120} h={150} />
-          <Ventana x={710} y={400} w={120} h={150} />
-          <rect x={440} y={430} width={120} height={SUELO - 430} rx={60} fill="#6b4226" />
-          <rect x={440} y={430} width={120} height={SUELO - 430} rx={60} fill="none" stroke="#4a2c18" strokeWidth={8} />
-          <line x1={880} x2={880} y1={60} y2={SUELO} stroke="#555" strokeWidth={8} />
-          <g transform={`translate(884 70) skewY(${Math.sin(t * 3) * 4})`}>
-            <rect width={120} height={26} fill="#c60b1e" />
-            <rect y={26} width={120} height={32} fill="#ffc400" />
-            <rect y={58} width={120} height={26} fill="#c60b1e" />
-          </g>
-          <Suelo color="#c8b98f" />
-        </>
-      );
+      return <CuartelDetalle t={t} />;
     case "congreso":
       return (
         <>
@@ -224,15 +161,7 @@ export const Objeto: React.FC<{ tipo: TipoObjeto; x: number; texto?: string; t: 
         </g>
       );
     case "mesa":
-      return (
-        <g transform={`translate(${x} ${SUELO})`}>
-          <rect x={-150} y={-150} width={300} height={24} rx={6} fill="#7a5230" />
-          <rect x={-136} y={-126} width={16} height={126} fill="#5a3a20" />
-          <rect x={120} y={-126} width={16} height={126} fill="#5a3a20" />
-          <rect x={-40} y={-166} width={90} height={16} fill="#fbf4e3" stroke="#b08a3e" strokeWidth={3} />
-          <rect x={70} y={-178} width={20} height={28} rx={4} fill="#222" />
-        </g>
-      );
+      return <MesaDetalle x={x} t={t} />;
     case "bandera":
       return (
         <g transform={`translate(${x} ${SUELO})`}>
@@ -270,17 +199,6 @@ export const Objeto: React.FC<{ tipo: TipoObjeto; x: number; texto?: string; t: 
         </g>
       );
     case "caballo":
-      return (
-        <g transform={`translate(${x} ${SUELO})`}>
-          <ellipse cx={0} cy={-150} rx={110} ry={50} fill="#7a4a22" />
-          {[-80, -50, 50, 80].map((lx, i) => (
-            <rect key={lx} x={lx - 8} y={-120} width={16} height={120} fill="#6b3e1c" transform={`rotate(${Math.sin(t * 6 + i) * 3} ${lx} -120)`} />
-          ))}
-          <path d="M 80 -170 L 130 -260 L 170 -250 L 150 -200 L 110 -140 Z" fill="#7a4a22" />
-          <path d="M 96 -200 L 120 -260 L 100 -250 L 80 -190 Z" fill="#2b1a0e" />
-          <circle cx={150} cy={-238} r={5} fill="#111" />
-          <path d="M -110 -160 Q -150 -140 -140 -80" stroke="#2b1a0e" strokeWidth={14} fill="none" strokeLinecap="round" />
-        </g>
-      );
+      return <CaballoDetalle x={x} t={t} />;
   }
 };

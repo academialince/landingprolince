@@ -63,6 +63,7 @@ const T_INTRO = 3.4;
 const T_REPASO = 11;
 const T_CIERRE = 3.6;
 const SOLAPE = 0.6;
+const ESCALA = 1.12; // tamaño por defecto de los muñecos en escena
 const LETRAS_S = 34; // velocidad del texto que se escribe solo (caracteres por segundo)
 const CUENTA_REPASO = 5;
 export const FRAMES_PORTADA = 1;
@@ -152,7 +153,7 @@ const Actor: React.FC<{ p: Personaje; s: number; fps: number }> = ({ p, s, fps }
   const mirandoFinal = p.mirando ?? (p.x > ANCHO_ESCENA / 2 ? "izq" : "der");
   const mirando = andando ? (entra === "izquierda" ? "der" : "izq") : mirandoFinal;
   const hablando = !!p.dice && s >= (p.diceDesde ?? (p.desde ?? 0) + 1.3) && s < finBocadillo(p);
-  const escala = p.escala ?? 1.25;
+  const escala = p.escala ?? ESCALA;
   const aspecto = { ...PERSONAJES[p.personaje], ...(p.sombrero && { sombrero: p.sombrero }), ...(p.accesorio && { accesorio: p.accesorio }) };
   return (
     <g transform={`translate(${x} ${SUELO}) scale(${escala * aparece})`}>
@@ -207,7 +208,7 @@ const Escenario2D: React.FC<{ e: Escena; s: number; t: number; fps: number }> = 
     {e.personajes.map((p, i) => {
       const desde = p.diceDesde ?? (p.desde ?? 0) + 1.3;
       if (!p.dice || s < desde) return null;
-      return <Bocadillo key={i} texto={p.dice} x={p.x} alto={SUELO - 330 * (p.escala ?? 1.25)} s={s - desde} />;
+      return <Bocadillo key={i} texto={p.dice} x={p.x} alto={SUELO - 400 * (p.escala ?? ESCALA)} s={s - desde} />;
     })}
   </div>
 );
@@ -369,11 +370,11 @@ export const HistoriaAnimada: React.FC<Historia> = (h) => {
           <div style={{ position: "relative", width: ANCHO_ESCENA, height: ALTO_ESCENA, borderRadius: 48, overflow: "hidden", border: `4px solid ${C.bordeTarjeta}` }}>
             <svg width={ANCHO_ESCENA} height={ALTO_ESCENA}>
               <Escenario tipo="cuartel" t={s} />
-              <g transform={`translate(300 ${SUELO}) scale(1.3)`}>
+              <g transform={`translate(300 ${SUELO}) scale(1.2)`}>
                 <Monigote aspecto={PERSONAJES.guardia} pose={s > 1.6 ? "saluda" : "firmes"} s={s} />
               </g>
-              <g transform={`translate(700 ${SUELO}) scale(1.3)`}>
-                <Monigote aspecto={PERSONAJES["guardia-actual"]} pose={s > 1.9 ? "saluda" : "firmes"} s={s + 0.7} mirando="izq" />
+              <g transform={`translate(700 ${SUELO}) scale(1.2)`}>
+                <Monigote aspecto={PERSONAJES["guardia-actual"]} pose={s > 1.9 ? "saluda" : "firmes"} s={s + 0.3} mirando="izq" />
               </g>
             </svg>
           </div>
