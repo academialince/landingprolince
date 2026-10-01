@@ -1,0 +1,120 @@
+[
+  {
+    "id": "story-ce-cifras",
+    "tipo": "dato",
+    "tema": "Tema 4 · Derecho Constitucional",
+    "titulo": "La Constitución en **cifras**",
+    "destacado": { "valor": "169", "etiqueta": "artículos" },
+    "puntos": [
+      "Título preliminar | + **10 títulos**",
+      "Disposiciones adicionales | **4**",
+      "Disposiciones transitorias | **9**",
+      "Derogatoria y final | **1 y 1**"
+    ]
+  },
+  {
+    "id": "story-ce-fechas",
+    "tipo": "trampa",
+    "tema": "Tema 4 · Derecho Constitucional",
+    "titulo": "No confundas las **fechas** de la Constitución",
+    "puntos": [
+      "Aprobada por las Cortes | **31-10-1978**",
+      "Referéndum | **6-12-1978**",
+      "Sanción del Rey | **27-12-1978**",
+      "BOE y entrada en vigor | **29-12-1978**"
+    ]
+  },
+  {
+    "id": "story-ce-amparo",
+    "tipo": "dato",
+    "tema": "Tema 4 · Derecho Constitucional",
+    "titulo": "¿Qué derechos protege el **recurso de amparo**?",
+    "puntos": [
+      "Art. 14: **igualdad** ante la ley",
+      "Arts. 15 a 29: derechos fundamentales y **libertades públicas**",
+      "Art. 30.2: **objeción de conciencia**",
+      "Ante el **Tribunal Constitucional** (art. 53.2 CE)"
+    ]
+  },
+  {
+    "id": "story-ce-defensor",
+    "tipo": "trampa",
+    "tema": "Tema 4 · Derecho Constitucional",
+    "titulo": "¿Quién elige al **Defensor del Pueblo**?",
+    "puntos": [
+      "Lo eligen | **las Cortes Generales**",
+      "Mandato | **5 años**",
+      "Constitución | **art. 54**",
+      "Ley que lo regula | **LO 3/1981**"
+    ],
+    "cierre": "No es el Gobierno: son las Cortes"
+  },
+  {
+    "id": "story-gc-fundacion",
+    "tipo": "dato",
+    "tema": "Tema 15 · Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+    "titulo": "¿Cuándo se **fundó** la Guardia Civil?",
+    "destacado": { "valor": "1844", "etiqueta": "año de fundación", "contar": false },
+    "puntos": [
+      "Real Decreto | **28 de marzo de 1844**",
+      "Su organizador | **Duque de Ahumada**",
+      "Hoy es un instituto armado de **naturaleza militar**"
+    ]
+  },
+  {
+    "id": "story-gc-lo-2-1986",
+    "tipo": "dato",
+    "tema": "Tema 15 · Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+    "titulo": "La ley de las FCS: **LO 2/1986**, de 13 de marzo",
+    "puntos": [
+      "Desarrolla el **art. 104** de la Constitución",
+      "FCS del Estado: **Policía Nacional** y **Guardia Civil**",
+      "También son FCS las policías **autonómicas** y **locales**"
+    ]
+  },
+  {
+    "id": "story-consejo-repaso",
+    "tipo": "consejo",
+    "titulo": "Repasa con **repetición espaciada**",
+    "puntos": [
+      "Primer repaso a las **24 horas**",
+      "Segundo, a los **7 días**",
+      "Tercero, a los **30 días**",
+      "Cada repaso con **test**, no solo releyendo"
+    ]
+  },
+  {
+    "id": "story-consejo-test",
+    "tipo": "consejo",
+    "titulo": "Saca partido a **cada test**",
+    "puntos": [
+      "Hazlo **cronometrado**, como el día del examen",
+      "Apunta **cada fallo** y el artículo que lo explica",
+      "Repite tus fallos a los **pocos días**",
+      "Revisa también los **aciertos dudosos**"
+    ]
+  },
+  {
+    "id": "story-consejo-bloques",
+    "tipo": "consejo",
+    "titulo": "Estudia por **bloques**, no por horas",
+    "puntos": [
+      "**50 minutos** de estudio sin móvil",
+      "**10 minutos** de descanso de verdad",
+      "Cada 3 bloques, una **pausa larga**",
+      "Cierra el bloque con **10 preguntas**"
+    ]
+  },
+  {
+    "id": "story-consejo-vispera",
+    "tipo": "consejo",
+    "titulo": "La víspera del **examen**",
+    "puntos": [
+      "Repaso ligero: **esquemas**, nada nuevo",
+      "Deja lista la documentación que pide la **convocatoria**",
+      "Duerme **7-8 horas**",
+      "Llega a la sede con **tiempo de sobra**"
+    ],
+    "cierre": "¡Mucho ánimo, futuro guardia!"
+  }
+]
