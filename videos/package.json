@@ -8,6 +8,7 @@
     "render": "node render-todas.mjs",
     "publicar": "node --env-file-if-exists=.env.local pregunta-del-dia/publicar.mjs",
     "registrar": "node pregunta-del-dia/elegir.mjs --registrar",
+    "telegram": "node pregunta-del-dia/telegram.mjs",
     "desde-csv": "node desde-csv.mjs",
     "typecheck": "tsc --noEmit"
   },

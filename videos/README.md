@@ -18,6 +18,7 @@ npm run elegir -- banco/tema-5.csv    # o desde un CSV concreto
 npm run render                        # out/<id>.mp4 y out/<id>-portada.png
 npm run publicar                      # sube al panel y borra las de días anteriores
 npm run registrar                     # la apunta en pregunta-del-dia/historial.csv
+npm run telegram -- out/pregunta-del-dia-6.txt   # out/pregunta-del-dia-6-telegram.txt (encuesta + solución)
 npm run studio                        # editor visual en el navegador
 ```
 

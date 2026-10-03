@@ -59,9 +59,13 @@ Escríbela en `out/pregunta-del-dia-<N>.txt` (UTF-8), para Instagram y TikTok, c
 - De 6 a 9 hashtags: #GuardiaCivil #OposicionesGuardiaCivil #Oposiciones #PreguntaDelDía #TestGuardiaCivil, los del tema y #ProLince (sin hashtags con carga política ni repetidos)
 - Al final: `---` y `Referencia del banco: <archivo> · fila N · <subtema>`
 
+## 4 bis. Texto para Telegram
+
+`npm run telegram -- out/pregunta-del-dia-<N>.txt` genera `out/pregunta-del-dia-<N>-telegram.txt` a partir de la descripción: una **encuesta en modo cuestionario** (pregunta, opciones A) a D), la correcta y la explicación corta que Telegram enseña al responder, con la cita de la norma) y un **mensaje con la solución** (explicación completa y trampa típica, sin hashtags). Respeta los límites de Telegram (pregunta 300 caracteres, opciones 100, explicación 200): si algo no cabe, el enunciado va en un mensaje previo y la encuesta solo pregunta la letra. Con una carpeta convierte todas sus descripciones, y `--todas <archivo>` las une en un solo TXT.
+
 ## 5. Guardar en Drive
 
-Dentro de «Pregunta del día», crea la carpeta `N` (`create_file` con `contentMimeType: application/vnd.google-apps.folder`) y sube el `.txt` con `create_file` (`title: pregunta-del-dia-<N>.txt`, `textContent` con el contenido exacto del archivo, `contentMimeType: text/plain`, `disableConversionToGoogleType: true`). Comprueba que el `fileSize` que devuelve coincide con los bytes del archivo local (`wc -c`).
+Dentro de «Pregunta del día», crea la carpeta `N` (`create_file` con `contentMimeType: application/vnd.google-apps.folder`) y sube el `.txt` (y el `-telegram.txt`, igual) con `create_file` (`title: pregunta-del-dia-<N>.txt`, `textContent` con el contenido exacto del archivo, `contentMimeType: text/plain`, `disableConversionToGoogleType: true`). Comprueba que el `fileSize` que devuelve coincide con los bytes del archivo local (`wc -c`).
 El conector no puede subir el MP4, porque habría que pegarlo entero en base64. Entrega el vídeo y la portada con SendUserFile y pide al usuario que los arrastre a la carpeta `N`.
 
 ## 6. Registrar
@@ -70,7 +74,7 @@ El conector no puede subir el MP4, porque habría que pegarlo entero en base64. 
 
 ## 7. Entrega
 
-Indica al usuario el número, el tema y la respuesta de cada publicación, y el enlace a la carpeta de Drive. Adjunta el MP4, la portada y el .txt (SendUserFile en la nube; en local, las rutas de `out/`).
+Indica al usuario el número, el tema y la respuesta de cada publicación, y el enlace a la carpeta de Drive. Adjunta el MP4, la portada, el .txt y el de Telegram (SendUserFile en la nube; en local, las rutas de `out/`).
 
 ## Lotes (varios vídeos de una vez)
 
