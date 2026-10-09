@@ -47,7 +47,7 @@ export const rutas = {
  * se pueden comprar, la cabecera oculta «Acceder» y todos los «Empezar» llevan a la lista de
  * espera. Para publicar los cursos basta con ponerlo a `true`: todo vuelve a su destino original.
  */
-export const cursosAbiertos = false;
+export const cursosAbiertos = true;
 
 /** Destino de todos los «Empezar»: el alta en la plataforma, o la lista de espera antes del lanzamiento. */
 export const destinoEmpezar = cursosAbiertos ? links.registro : rutas.waitlist;
@@ -56,15 +56,15 @@ export const destinoEmpezar = cursosAbiertos ? links.registro : rutas.waitlist;
  * Secciones ocultas de momento. Con `false` desaparecen del menú, del pie, de la portada, de los
  * enlaces y del sitemap, y su página devuelve 404. Con `true` vuelven tal cual estaban.
  */
-export const tiendaVisible = false;
-export const nosotrosVisible = false;
+export const tiendaVisible = true;
+export const nosotrosVisible = true;
 
 /**
  * Portada y páginas de curso. Con `false` salen del menú, del pie y del sitemap, y quien entre en
  * ellas (un enlace antiguo, el logo de la cabecera) va a la lista de espera. Con `true` vuelven.
  */
-export const inicioVisible = false;
-export const cursosVisibles = false;
+export const inicioVisible = true;
+export const cursosVisibles = true;
 
 /** Página de autor de las entradas del blog: «Nosotros», o la mejor alternativa visible. */
 export const paginaAutor = nosotrosVisible ? rutas.nosotros : inicioVisible ? rutas.inicio : rutas.blog;
