@@ -23,7 +23,7 @@ const personajeSchema = z.object({
   diceDesde: z.number().optional(),
   escala: z.number().optional(),
   sombrero: z.enum(["ninguno", "tricornio", "bicornio", "corona", "calanes", "chistera", "gorra"]).optional(),
-  accesorio: z.enum(["ninguno", "fusil", "trabuco", "pergamino", "libro", "pluma", "papeleta"]).optional(),
+  accesorio: z.enum(["ninguno", "fusil", "trabuco", "pergamino", "libro", "pluma", "papeleta", "maleta"]).optional(),
 });
 
 const escenaSchema = z.object({
