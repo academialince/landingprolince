@@ -71,7 +71,7 @@ export default function Nosotros() {
         <ul className="grid gap-8 sm:grid-cols-2">
           {equipo.map((m, i) => (
             <Reveal key={m.slug} retardo={(i % 2) * 80}>
-              <li className="h-full overflow-hidden rounded-2xl border border-border bg-surface">
+              <li id={m.slug} className="h-full scroll-mt-28 overflow-hidden rounded-2xl border border-border bg-surface">
                 <div className="relative aspect-[4/3] w-full">
                   <Foto
                     src={m.foto}

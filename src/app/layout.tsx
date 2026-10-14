@@ -1,10 +1,17 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import { JsonLd, organizacionJsonLd } from "@/lib/seo";
 import { site } from "@/content/site";
 import { siteUrl } from "@/lib/links";
 import { indexacionPermitida } from "@/lib/indexacion";
+
+/**
+ * Con next/font la fuente se sirve desde el propio dominio, se precarga y lleva un respaldo con
+ * métricas ajustadas: el texto no salta al cambiar de la fuente del sistema a Manrope (CLS).
+ */
+const manrope = Manrope({ subsets: ["latin", "latin-ext"], display: "swap", variable: "--font-manrope" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -41,7 +48,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="es-ES" data-scroll-behavior="smooth">
+    <html lang="es-ES" data-scroll-behavior="smooth" className={manrope.variable}>
       <body>
         {children}
         <JsonLd data={organizacionJsonLd()} />

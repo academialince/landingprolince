@@ -32,6 +32,7 @@ export function absoluteUrl(path = "/") {
 export const rutas = {
   inicio: "/",
   curso: (slug: string) => `/cursos/${slug}`,
+  temario: "/temario-guardia-civil",
   blog: "/blog",
   nosotros: "/nosotros",
   tienda: "/tienda",

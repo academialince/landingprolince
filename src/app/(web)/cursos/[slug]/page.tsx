@@ -225,6 +225,12 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
             </Reveal>
           ))}
         </ul>
+        {curso.slug === "acceso-guardia-civil" && (
+          <Button href={rutas.temario} variante="secundario" className="mt-8">
+            Ver los 25 temas del programa oficial
+            <ArrowRight size={18} aria-hidden />
+          </Button>
+        )}
       </Section>
 
       <Section

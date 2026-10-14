@@ -14,6 +14,9 @@ export type Miembro = {
   foco: string[];
 };
 
+export const miembroPorSlug = (slug: unknown) =>
+  typeof slug === "string" && slug ? equipo.find((m) => m.slug === slug) : undefined;
+
 export const equipo: Miembro[] = [
   {
     slug: "juan",

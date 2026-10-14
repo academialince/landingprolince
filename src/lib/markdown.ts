@@ -33,7 +33,10 @@ export async function prepararArticulo(markdown: string) {
       if (nodo.tagName === "img") {
         nodo.properties.loading = "lazy";
         nodo.properties.decoding = "async";
-        if (String(nodo.properties.src).startsWith("/blog/")) {
+        // Las portadas del blog son 16:9. Con width y height el navegador reserva el hueco antes
+        // de que llegue la imagen (sin saltos de CLS); si otra imagen no es 16:9, `height: auto`
+        // de .prosa la corrige al cargar.
+        if (!nodo.properties.width && !nodo.properties.height) {
           nodo.properties.width = 1600;
           nodo.properties.height = 900;
         }

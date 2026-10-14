@@ -31,7 +31,7 @@ export function organizacionJsonLd() {
     name: site.nombreLargo,
     alternateName: site.nombre,
     url: absoluteUrl("/"),
-    logo: absoluteUrl("/brand/prolince-logo.svg"),
+    logo: absoluteUrl("/brand/prolince-logo.png"),
     description: site.descripcion,
     ...(site.contacto.email ? { email: site.contacto.email } : {}),
     ...(site.contacto.telefono ? { telephone: site.contacto.telefono } : {}),

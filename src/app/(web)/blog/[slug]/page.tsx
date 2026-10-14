@@ -13,10 +13,20 @@ import { JsonLd, metadataPagina } from "@/lib/seo";
 import { TarjetaEntrada } from "@/components/blog/tarjeta-entrada";
 import { Button } from "@/components/ui/button";
 import { cursoPorSlug } from "@/content/cursos";
-import { absoluteUrl, cursosVisibles, paginaAutor, rutas } from "@/lib/links";
+import { miembroPorSlug, type Miembro } from "@/content/equipo";
+import { absoluteUrl, cursosVisibles, nosotrosVisible, paginaAutor, rutas } from "@/lib/links";
 import { lanzamiento } from "@/content/waitlist";
 
 export const revalidate = 300;
+
+/** Firma de la entrada: un miembro del equipo si lo tiene asignado, si no la academia. */
+function autoria(miembro: Miembro | undefined) {
+  if (!miembro) return { nombre: site.nombreLargo, ruta: paginaAutor, persona: false };
+  return { nombre: miembro.nombre, ruta: nosotrosVisible ? `${rutas.nosotros}#${miembro.slug}` : paginaAutor, persona: true, cargo: miembro.cargo };
+}
+
+/** Una edición menos de un día posterior a la publicación no merece el «Actualizado». */
+const UN_DIA = 24 * 60 * 60 * 1000;
 
 /** Google corta la descripción hacia los 155 caracteres; mejor cortar por palabra que a medias. */
 function recortar(texto: string, max = 155) {
@@ -40,13 +50,13 @@ export async function generateMetadata(props: PageProps<"/blog/[slug]">): Promis
   });
   return {
     ...metadata,
-    authors: [{ name: site.nombreLargo, url: absoluteUrl(paginaAutor) }],
+    authors: [{ name: autoria(miembroPorSlug(entrada.datos?.autor)).nombre, url: absoluteUrl(autoria(miembroPorSlug(entrada.datos?.autor)).ruta) }],
     openGraph: {
       ...metadata.openGraph,
       type: "article",
       publishedTime: entrada.publicado_en ?? undefined,
       modifiedTime: fechaModificacion(entrada),
-      authors: [absoluteUrl(paginaAutor)],
+      authors: [absoluteUrl(autoria(miembroPorSlug(entrada.datos?.autor)).ruta)],
       section: tipoPorClave(entrada.tipo).etiqueta,
     },
   };
@@ -64,6 +74,9 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
   const minutos = minutosLectura(entrada.cuerpo);
   const url = absoluteUrl(`${rutas.blog}/${entrada.slug}`);
   const curso = entrada.curso ? cursoPorSlug(entrada.curso) : undefined;
+  const autor = autoria(miembroPorSlug(entrada.datos?.autor));
+  const modificada = fechaModificacion(entrada);
+  const actualizada = entrada.publicado_en && new Date(modificada).getTime() - new Date(entrada.publicado_en).getTime() > UN_DIA;
 
   return (
     <>
@@ -98,8 +111,9 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
               <p className="text-body-lg mt-5 text-muted-foreground">{entrada.entradilla}</p>
             )}
             <p className="mt-5 text-body-sm text-muted-foreground">
-              Por <Link href={paginaAutor} rel="author" className="font-semibold text-primary hover:underline">{site.nombreLargo}</Link>
-              {entrada.actualizado_en && <> · Actualizado el <time dateTime={entrada.actualizado_en}>{fechaLarga(entrada.actualizado_en)}</time></>}
+              Por <Link href={autor.ruta} rel="author" className="font-semibold text-primary hover:underline">{autor.nombre}</Link>
+              {autor.persona && <>, {autor.cargo}</>}
+              {actualizada && <> · Actualizado el <time dateTime={modificada}>{fechaLarga(modificada)}</time></>}
             </p>
           </Container>
         </header>
@@ -185,14 +199,16 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
           dateModified: fechaModificacion(entrada),
           image: absoluteUrl(entrada.portada_url || "/opengraph-image"),
           inLanguage: "es-ES",
-          author: { "@type": "Organization", name: site.nombreLargo, url: absoluteUrl(paginaAutor) },
+          author: autor.persona
+            ? { "@type": "Person", name: autor.nombre, jobTitle: autor.cargo, url: absoluteUrl(autor.ruta), worksFor: { "@id": absoluteUrl("/#organizacion") } }
+            : { "@type": "Organization", name: site.nombreLargo, url: absoluteUrl(paginaAutor) },
           mainEntityOfPage: url,
           publisher: {
             "@type": "EducationalOrganization",
             "@id": absoluteUrl("/#organizacion"),
             name: site.nombreLargo,
             url: absoluteUrl("/"),
-            logo: { "@type": "ImageObject", url: absoluteUrl("/brand/prolince-logo.svg") },
+            logo: { "@type": "ImageObject", url: absoluteUrl("/brand/prolince-logo.png") },
           },
         }}
       />

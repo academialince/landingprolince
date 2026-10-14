@@ -6,6 +6,7 @@ import { Eye, Pencil, Trash2 } from "lucide-react";
 import { borrarEntrada, guardarEntrada, previsualizar, type ResultadoAccion } from "@/app/admin/acciones";
 import { ESTADOS, tiposEntrada, tipoPorClave } from "@/content/blog-tipos";
 import { cursos } from "@/content/cursos";
+import { equipo } from "@/content/equipo";
 import type { Entrada } from "@/lib/blog";
 
 const campo =
@@ -60,6 +61,9 @@ export function Editor({ entrada }: { entrada: Entrada | null }) {
     for (const [k, v] of Object.entries(entrada?.datos ?? {})) base[k] = v == null ? "" : String(v);
     return base;
   });
+
+  const [seoTitulo, setSeoTitulo] = useState(entrada?.seo?.title ?? "");
+  const [seoDescripcion, setSeoDescripcion] = useState(entrada?.seo?.description ?? "");
 
   const definicion = useMemo(() => tipoPorClave(tipo), [tipo]);
 
@@ -246,6 +250,26 @@ export function Editor({ entrada }: { entrada: Entrada | null }) {
           )}
 
           <div className="grid gap-1.5">
+            <label htmlFor="autor" className="text-body-sm font-semibold">
+              Autor
+            </label>
+            {/* Va en `datos.autor`: firma la entrada y sale como Person en el JSON-LD. */}
+            <select
+              id="autor"
+              value={extras.autor ?? ""}
+              onChange={(e) => setExtras((x) => ({ ...x, autor: e.target.value }))}
+              className={campo}
+            >
+              <option value="">La academia</option>
+              {equipo.map((m) => (
+                <option key={m.slug} value={m.slug}>
+                  {m.nombre} · {m.cargo}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div className="grid gap-1.5">
             <label htmlFor="curso" className="text-body-sm font-semibold">
               Curso relacionado
             </label>
@@ -302,15 +326,23 @@ export function Editor({ entrada }: { entrada: Entrada | null }) {
               <input
                 name="seo_title"
                 placeholder="Título propio"
-                defaultValue={entrada?.seo?.title ?? ""}
+                value={seoTitulo}
+                onChange={(e) => setSeoTitulo(e.target.value)}
+                maxLength={60}
                 className={campo}
               />
-              <input
+              {/* La plantilla añade « · ProLince» (11 caracteres); Google corta hacia los 60. */}
+              <Contador actual={seoTitulo.length} ideal={49} maximo={60} />
+              <textarea
                 name="seo_description"
                 placeholder="Descripción propia"
-                defaultValue={entrada?.seo?.description ?? ""}
+                value={seoDescripcion}
+                onChange={(e) => setSeoDescripcion(e.target.value)}
+                maxLength={170}
+                rows={3}
                 className={campo}
               />
+              <Contador actual={seoDescripcion.length} ideal={155} maximo={170} />
               <input
                 name="seo_canonical"
                 placeholder="Canónica"
@@ -348,5 +380,16 @@ export function Editor({ entrada }: { entrada: Entrada | null }) {
         </form>
       )}
     </>
+  );
+}
+
+/** Verde hasta el ideal, ámbar hasta el máximo. Sin texto propio se usan el título y la entradilla. */
+function Contador({ actual, ideal, maximo }: { actual: number; ideal: number; maximo: number }) {
+  const color = actual === 0 ? "text-muted-foreground" : actual <= ideal ? "text-primary" : "text-warning";
+  return (
+    <p className={`-mt-2 text-right text-body-sm tabular ${color}`} aria-live="polite">
+      {actual}/{ideal}
+      {actual > ideal && actual <= maximo ? " · Google puede cortarlo" : ""}
+    </p>
   );
 }
