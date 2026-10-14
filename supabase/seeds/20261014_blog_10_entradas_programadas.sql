@@ -842,9 +842,9 @@ Para una semana de unas 12 horas de estudio, más el entrenamiento físico:
 | Ortografía y gramática | 1,5 | 13 % |
 | Inglés | 1 | 8 % |
 | Psicotécnico | 1 | 8 % |
+| Físico | 3 sesiones de 45-60 min | Aparte |
 
 Si tienes margen para llegar a 15, añade las horas extra a tests y repaso, no a temario nuevo.
-| Físico | 3 sesiones de 45-60 min | Aparte |
 
 El físico va aparte porque no compite con el estudio: lo complementa. Una sesión de carrera después del trabajo despeja la cabeza para estudiar luego.
 

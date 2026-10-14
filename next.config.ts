@@ -26,6 +26,13 @@ const nextConfig: NextConfig = {
       { source: "/plataforma", destination: "/", permanent: true },
       { source: "/metodo", destination: "/", permanent: true },
       { source: "/preguntas", destination: "/cursos/acceso-guardia-civil", permanent: true },
+      // El dominio de Vercel serviría una copia exacta de la web: todo al dominio propio.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "landingprolince.vercel.app" }],
+        destination: "https://www.prolinceacademia.com/:path*",
+        permanent: true,
+      },
     ];
   },
 

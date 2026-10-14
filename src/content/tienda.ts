@@ -20,7 +20,7 @@ export const suscripcion: Suscripcion = {
   periodo: "/mes",
   resumen: "Un único plan con todo incluido. Sin niveles, sin extras de pago y sin permanencia.",
   incluye: [
-    "Acceso a más de 10.000 preguntas verificadas por guardias civiles expertos en la materia",
+    "Acceso a más de 20.000 preguntas verificadas por guardias civiles expertos en la materia",
     "Tests ilimitados",
     "Tests personalizados ilimitados, creados por ti",
     "Tests de repaso basados en tus fallos",

@@ -18,6 +18,6 @@ export type Kpi = {
 export const kpis: Kpi[] = [
   { valor: "+8", etiqueta: "años", detalle: "preparando el acceso a la Guardia Civil" },
   { valor: "+1.200", etiqueta: "alumnos", detalle: "han preparado su convocatoria con nosotros" },
-  { valor: "+9.000", etiqueta: "preguntas", detalle: "en el banco de tests, por tema y bloque" },
+  { valor: "+20.000", etiqueta: "preguntas", detalle: "en el banco de tests, por tema y bloque" },
   { valor: "+40", etiqueta: "simulacros", detalle: "cronometrados con el formato del examen" },
 ];

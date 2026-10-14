@@ -38,7 +38,7 @@ export const site = {
     { red: "instagram", nombre: "Instagram", usuario: "@academiaprolince", url: "https://www.instagram.com/academiaprolince/" },
     { red: "tiktok", nombre: "TikTok", usuario: "@academia.prolince", url: "https://www.tiktok.com/@academia.prolince" },
     { red: "x", nombre: "X", usuario: "@aprolince", url: "https://x.com/aprolince" },
-    { red: "telegram", nombre: "Telegram", usuario: null, url: null }, // PENDIENTE: enlace t.me del canal
+    { red: "telegram", nombre: "Telegram", usuario: "@academiaprolince", url: "https://t.me/academiaprolince" },
   ] as Red[],
 } as const;
 
