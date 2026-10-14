@@ -11,7 +11,7 @@ import { nosotrosVisible, rutas } from "@/lib/links";
 import { metadataPagina, JsonLd, migasJsonLd } from "@/lib/seo";
 
 export const metadata = metadataPagina({
-  titulo: "Equipo y método de Academia ProLince",
+  titulo: "Equipo y método de la academia",
   descripcion:
     "Quiénes somos, por qué existe ProLince y a qué nos comprometemos con quien prepara una oposición con nosotros.",
   ruta: rutas.nosotros,

@@ -1,11 +1,13 @@
-import type { Metadata } from "next";
 import { site } from "@/content/site";
+import { metadataPagina } from "@/lib/seo";
+import { rutas } from "@/lib/links";
 
-export const metadata: Metadata = {
-  title: "Política de cookies",
-  description: `Uso de cookies en el sitio web de ${site.nombreLargo}.`,
-  robots: { index: false },
-};
+export const metadata = metadataPagina({
+  titulo: "Política de cookies",
+  descripcion: `Uso de cookies en el sitio web de ${site.nombreLargo}.`,
+  ruta: rutas.cookies,
+  noindex: true,
+});
 
 export default function Cookies() {
   return (

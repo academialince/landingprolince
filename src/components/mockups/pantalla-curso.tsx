@@ -42,9 +42,9 @@ export function PantallaCurso() {
         <p className="text-[0.55rem] font-bold uppercase tracking-wider text-primary">
           Curso en marcha
         </p>
-        <h3 className="mt-1 text-[0.95rem] font-extrabold tracking-tight">
+        <p className="mt-1 text-[0.95rem] font-extrabold tracking-tight">
           Acceso a la Guardia Civil
-        </h3>
+        </p>
 
         <div className="mt-3 rounded-lg border border-border bg-surface p-3">
           <div className="flex items-center justify-between font-semibold">

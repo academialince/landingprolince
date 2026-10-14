@@ -14,7 +14,7 @@ import { Proximamente } from "@/components/ui/proximamente";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 
 export const metadata = metadataPagina({
-  titulo: "Precio de la suscripción para preparar Guardia Civil",
+  titulo: "Precio del curso de Guardia Civil online",
   descripcion: `Un único plan por ${formatoPrecio(suscripcion.precio)} € al mes para preparar el acceso a la Guardia Civil y al Colegio de Guardias Jóvenes. Sin permanencia.`,
   ruta: rutas.tienda,
 });
@@ -24,8 +24,8 @@ export default function Tienda() {
   return (
     <>
       <PageHero
-        eyebrow="Precio"
-        titulo="Un solo plan, todo incluido"
+        eyebrow="Un solo plan, todo incluido"
+        titulo="Precio del curso de Guardia Civil"
         entradilla="Sin niveles ni extras de pago. Sin permanencia: puedes darte de baja cuando quieras."
       />
 

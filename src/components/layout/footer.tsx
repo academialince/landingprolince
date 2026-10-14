@@ -2,7 +2,8 @@ import Link from "next/link";
 import { Mail, MessageCircle, Phone } from "lucide-react";
 import { Marca } from "@/components/ui/logo";
 import { Container } from "./container";
-import { navegacion, site } from "@/content/site";
+import { navegacion, redesActivas, site } from "@/content/site";
+import { IconoRed } from "@/components/ui/iconos-redes";
 import { cursos } from "@/content/cursos";
 import { cursosVisibles, rutas } from "@/lib/links";
 
@@ -15,6 +16,7 @@ const legales = [
 export function Footer() {
   const { email, telefono, whatsapp } = site.contacto;
   const hayContacto = Boolean(email || telefono || whatsapp);
+  const redes = redesActivas();
 
   return (
     <footer className="bg-primary-deep text-white">
@@ -55,6 +57,23 @@ export function Footer() {
                     </a>
                   </li>
                 )}
+              </ul>
+            )}
+            {redes.length > 0 && (
+              <ul className="mt-6 flex flex-wrap gap-2" aria-label="Redes sociales">
+                {redes.map((r) => (
+                  <li key={r.red}>
+                    <a
+                      href={r.url}
+                      target="_blank"
+                      rel="noopener me"
+                      aria-label={`${site.nombreLargo} en ${r.nombre}${r.usuario ? ` (${r.usuario})` : ""}`}
+                      className="grid size-10 place-items-center rounded-full bg-white/8 text-white/80 transition-colors hover:bg-white/16 hover:text-white"
+                    >
+                      <IconoRed red={r.red} />
+                    </a>
+                  </li>
+                ))}
               </ul>
             )}
           </div>

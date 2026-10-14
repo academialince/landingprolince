@@ -30,8 +30,28 @@ export const site = {
     domicilio: null as string | null,
   },
 
-  redes: [] as { nombre: string; url: string }[],
+  /**
+   * Perfiles oficiales. Salen en el pie y en el `sameAs` del JSON-LD de la organización.
+   * Una red con `url: null` todavía no existe y se omite.
+   */
+  redes: [
+    { red: "instagram", nombre: "Instagram", usuario: "@academiaprolince", url: "https://www.instagram.com/academiaprolince/" },
+    { red: "tiktok", nombre: "TikTok", usuario: "@academia.prolince", url: "https://www.tiktok.com/@academia.prolince" },
+    { red: "x", nombre: "X", usuario: "@aprolince", url: "https://x.com/aprolince" },
+    { red: "telegram", nombre: "Telegram", usuario: null, url: null }, // PENDIENTE: enlace t.me del canal
+  ] as Red[],
 } as const;
+
+export type Red = {
+  red: "instagram" | "tiktok" | "x" | "telegram";
+  nombre: string;
+  usuario: string | null;
+  url: string | null;
+};
+
+/** Solo las redes con perfil publicado. */
+export const redesActivas = () =>
+  site.redes.filter((r): r is Red & { url: string } => Boolean(r.url));
 
 export type ItemNav = {
   etiqueta: string;

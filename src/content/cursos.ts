@@ -23,6 +23,8 @@ export type Curso = {
   eyebrow: string;
   titular: string;
   entradilla: string;
+  /** Título y descripción para buscadores: ≤ 60 y ≤ 155 caracteres, con la palabra clave delante. */
+  seo: { titulo: string; descripcion: string };
   imagen: string;
   imagenAlt: string;
   destacados: { valor: string; etiqueta: string }[];
@@ -54,6 +56,11 @@ export const cursos: Curso[] = [
     titular: "Acceso a la Guardia Civil",
     entradilla:
       "La vía de entrada al Cuerpo. Una oposición larga, con una parte teórica exigente y unas pruebas físicas que hay que empezar a trabajar desde el primer mes, no desde el último.",
+    seo: {
+      titulo: "Curso de oposiciones a Guardia Civil online",
+      descripcion:
+        "Curso online de oposiciones a Guardia Civil (Escala de Cabos y Guardias): temario, tests por tema, simulacros cronometrados y seguimiento de tu progreso.",
+    },
     imagen: "/cursos/acceso-guardia-civil.jpg",
     imagenAlt: "Dos opositores estudiando el temario en un aula con un acuartelamiento al fondo",
     destacados: [
@@ -200,6 +207,11 @@ export const cursos: Curso[] = [
     titular: "Acceso al Colegio de Guardias Jóvenes",
     entradilla:
       "La entrada más temprana a la Guardia Civil: se cursa Bachillerato en el Colegio Duque de Ahumada, en Valdemoro, y desde ahí se accede después a la Escala de Cabos y Guardias.",
+    seo: {
+      titulo: "Curso Colegio de Guardias Jóvenes online",
+      descripcion:
+        "Prepara el acceso al Colegio de Guardias Jóvenes Duque de Ahumada online: tests por tema, simulacros cronometrados y preparación física guiada.",
+    },
     imagen: "/cursos/colegio-guardias-jovenes.jpg",
     imagenAlt:
       "Grupo de estudiantes jóvenes preparando la oposición con una profesora, junto a una pista de atletismo",

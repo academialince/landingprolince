@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
-import { absoluteUrl, cursosVisibles, inicioVisible, nosotrosVisible, rutas, tiendaVisible } from "@/lib/links";
+import { absoluteUrl, cursosAbiertos, cursosVisibles, inicioVisible, nosotrosVisible, rutas, tiendaVisible } from "@/lib/links";
 import { cursos } from "@/content/cursos";
-import { entradasSitemap } from "@/lib/blog";
+import { entradasSitemap, fechaModificacion } from "@/lib/blog";
 
 export const revalidate = 300;
 
@@ -21,7 +21,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...(tiendaVisible ? [{ ruta: rutas.tienda, prioridad: 0.8 }] : []),
     { ruta: rutas.blog, prioridad: 0.7 },
     ...(nosotrosVisible ? [{ ruta: rutas.nosotros, prioridad: 0.6 }] : []),
-    { ruta: rutas.waitlist, prioridad: 0.5 },
+    // Con los cursos abiertos la lista de espera va con `noindex`: fuera del sitemap.
+    ...(cursosAbiertos ? [] : [{ ruta: rutas.waitlist, prioridad: 0.5 }]),
   ];
 
   const entradas = await entradasSitemap();
@@ -38,7 +39,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       .filter((e) => !e.seo?.noindex && (!e.seo?.canonical || absoluteUrl(e.seo.canonical) === absoluteUrl(`${rutas.blog}/${e.slug}`)))
       .map((e) => ({
         url: absoluteUrl(`${rutas.blog}/${e.slug}`),
-        lastModified: new Date(e.actualizado_en),
+        lastModified: new Date(fechaModificacion(e)),
         ...(e.portada_url ? { images: [absoluteUrl(e.portada_url)] } : {}),
         changeFrequency: "weekly" as const,
         priority: 0.6,

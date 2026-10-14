@@ -1,11 +1,13 @@
-import type { Metadata } from "next";
 import { site } from "@/content/site";
+import { metadataPagina } from "@/lib/seo";
+import { rutas } from "@/lib/links";
 
-export const metadata: Metadata = {
-  title: "Aviso legal",
-  description: `Condiciones de uso del sitio web de ${site.nombreLargo}.`,
-  robots: { index: false },
-};
+export const metadata = metadataPagina({
+  titulo: "Aviso legal",
+  descripcion: `Condiciones de uso del sitio web de ${site.nombreLargo}.`,
+  ruta: rutas.avisoLegal,
+  noindex: true,
+});
 
 export default function AvisoLegal() {
   const { razonSocial, nif, domicilio } = site.legal;

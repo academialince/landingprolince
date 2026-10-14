@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { redirect } from "next/navigation";
+import { permanentRedirect, redirect } from "next/navigation";
 import { ArrowLeft, ArrowRight, PenLine } from "lucide-react";
 import { PageHero } from "@/components/layout/page-hero";
 import { Container } from "@/components/layout/container";
@@ -20,7 +20,7 @@ export async function generateMetadata(props: PageProps<"/blog">): Promise<Metad
   const titulo = tipo ? `${tipoPorClave(tipo).etiqueta} para Guardia Civil` : "Blog de oposiciones a Guardia Civil";
   return metadataPagina({
     titulo: `${titulo}${pagina > 1 ? ` · Página ${pagina}` : ""}`,
-    descripcion: "Convocatorias, guías de estudio, pruebas físicas y consejos para preparar las oposiciones a la Guardia Civil. Los artículos más recientes, primero.",
+    descripcion: `Convocatorias, guías de estudio, pruebas físicas y consejos para preparar las oposiciones a la Guardia Civil.${pagina > 1 ? ` Página ${pagina}.` : " Los artículos más recientes, primero."}`,
     ruta: urlBlog(tipo, pagina),
     // Filtros de navegación, no landings editoriales diferenciadas.
     noindex: Boolean(tipo),
@@ -32,7 +32,8 @@ export default async function Blog(props: PageProps<"/blog">) {
   const { tipo, pagina } = leerFiltrosBlog(params);
   if ((params.tipo !== undefined && params.tipo !== tipo) ||
       (params.pagina !== undefined && params.pagina !== (pagina > 1 ? String(pagina) : undefined))) {
-    redirect(urlBlog(tipo, pagina));
+    // Normalizar parámetros es canonicalizar: 308, para que el buscador consolide en la URL buena.
+    permanentRedirect(urlBlog(tipo, pagina));
   }
   const { entradas, total } = await listarPaginaPublicada(pagina, tipo);
   const totalPaginas = Math.max(1, Math.ceil(total / ENTRADAS_POR_PAGINA));
@@ -41,7 +42,7 @@ export default async function Blog(props: PageProps<"/blog">) {
 
   return (
     <>
-      <PageHero eyebrow="Blog" titulo="Convocatorias, temario y preparación"
+      <PageHero eyebrow="Convocatorias, temario y preparación" titulo="Blog de oposiciones a Guardia Civil"
         entradilla="Resuelve tus dudas y prepara tu siguiente paso hacia la Guardia Civil. Guías prácticas y novedades, siempre con lo más reciente primero." />
       <section id="articulos" className="py-12 sm:py-16">
         <Container>

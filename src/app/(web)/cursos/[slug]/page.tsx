@@ -15,9 +15,16 @@ import { site } from "@/content/site";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 import { absoluteUrl, cursosAbiertos, cursosVisibles, destinoEmpezar, rutas, tiendaVisible } from "@/lib/links";
 import { Proximamente } from "@/components/ui/proximamente";
+import { TarjetaEntrada } from "@/components/blog/tarjeta-entrada";
+import { entradasRelacionadas } from "@/lib/blog";
+import { suscripcion } from "@/content/tienda";
 
 /** Las anclas quedan bajo la cabecera y el submenú, que suman 7,5rem. */
 const ANCLA = "scroll-mt-[7.75rem]";
+
+/** El bloque de artículos sale de la base de datos: se refresca igual que el blog. */
+export const revalidate = 300;
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return cursos.map((c) => ({ slug: c.slug }));
@@ -27,7 +34,13 @@ export async function generateMetadata(props: PageProps<"/cursos/[slug]">): Prom
   const { slug } = await props.params;
   const curso = cursoPorSlug(slug);
   if (!curso) return {};
-  return metadataPagina({ titulo: `Curso online: ${curso.nombre}`, descripcion: curso.entradilla, ruta: rutas.curso(curso.slug) });
+  return metadataPagina({
+    titulo: curso.seo.titulo,
+    descripcion: curso.seo.descripcion,
+    ruta: rutas.curso(curso.slug),
+    imagen: curso.imagen,
+    imagenAlt: curso.imagenAlt,
+  });
 }
 
 export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
@@ -35,6 +48,10 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
   const curso = cursoPorSlug(slug);
   if (!curso) notFound();
   if (!cursosVisibles) redirect(rutas.waitlist);
+
+  // Enlazado de vuelta al blog: primero los artículos de este curso; si aún no hay, los últimos.
+  const delCurso = await entradasRelacionadas("", curso.slug);
+  const guias = delCurso.length ? delCurso : await entradasRelacionadas("", null);
 
   return (
     <>
@@ -87,7 +104,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
                 src={curso.imagen}
                 alt={curso.imagenAlt}
                 fill
-                priority
+                preload
                 sizes="(max-width: 1024px) 100vw, 560px"
                 className="object-cover"
               />
@@ -261,6 +278,20 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
         </div>
       </Section>
 
+      {guias.length > 0 && (
+        <Section eyebrow="Blog" titulo={`Guías para preparar ${curso.nombreCorto}`}>
+          <div className="grid gap-6 md:grid-cols-3">
+            {guias.map((e) => (
+              <TarjetaEntrada key={e.id} entrada={e} />
+            ))}
+          </div>
+          <Button href={rutas.blog} variante="secundario" className="mt-10">
+            Ver todo el blog
+            <ArrowRight size={18} aria-hidden />
+          </Button>
+        </Section>
+      )}
+
       <CtaFinal />
       <JsonLd data={migasJsonLd([{ nombre: "Inicio", ruta: "/" }, { nombre: curso.nombre, ruta: rutas.curso(curso.slug) }])} />
 
@@ -269,13 +300,24 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
           "@context": "https://schema.org",
           "@type": "Course",
           name: curso.nombre,
-          description: curso.entradilla,
+          description: curso.seo.descripcion,
           url: absoluteUrl(rutas.curso(curso.slug)),
+          image: absoluteUrl(curso.imagen),
+          inLanguage: "es-ES",
           provider: {
             "@type": "EducationalOrganization",
+            "@id": absoluteUrl("/#organizacion"),
             name: site.nombreLargo,
             url: absoluteUrl("/"),
           },
+          offers: {
+            "@type": "Offer",
+            category: "Subscription",
+            price: suscripcion.precio,
+            priceCurrency: "EUR",
+            url: absoluteUrl(tiendaVisible ? rutas.tienda : rutas.curso(curso.slug)),
+          },
+          hasCourseInstance: { "@type": "CourseInstance", courseMode: "Online" },
         }}
       />
       <JsonLd

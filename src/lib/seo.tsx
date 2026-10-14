@@ -1,5 +1,5 @@
 import { absoluteUrl } from "./links";
-import { site } from "@/content/site";
+import { redesActivas, site } from "@/content/site";
 import type { Metadata } from "next";
 import { indexacionPermitida } from "./indexacion";
 
@@ -11,7 +11,8 @@ export function metadataPagina({ titulo, descripcion, ruta, imagen, imagenAlt, n
   return {
     title: titulo,
     description: descripcion,
-    alternates: { canonical: ruta },
+    // Next sustituye `alternates` entero en cada página, así que el feed se vuelve a anunciar aquí.
+    alternates: { canonical: ruta, types: { "application/rss+xml": [{ url: "/blog/rss.xml", title: `Blog de ${site.nombreLargo}` }] } },
     robots: { index, follow: true, googleBot: { index, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
     openGraph: { type: "website", locale: "es_ES", siteName: site.nombreLargo, title: titulo, description: descripcion, url: absoluteUrl(ruta), images },
     twitter: { card: "summary_large_image", title: titulo, description: descripcion, images },
@@ -34,6 +35,10 @@ export function organizacionJsonLd() {
     description: site.descripcion,
     ...(site.contacto.email ? { email: site.contacto.email } : {}),
     ...(site.contacto.telefono ? { telephone: site.contacto.telefono } : {}),
+    ...(site.contacto.whatsapp
+      ? { contactPoint: { "@type": "ContactPoint", telephone: `+${site.contacto.whatsapp}`, contactType: "customer service", availableLanguage: "es" } }
+      : {}),
+    ...(redesActivas().length ? { sameAs: redesActivas().map((r) => r.url) } : {}),
   };
 }
 

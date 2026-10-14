@@ -3,7 +3,7 @@ import { PageHero } from "@/components/layout/page-hero";
 import { Container } from "@/components/layout/container";
 import { Reveal } from "@/components/layout/reveal";
 import { FormularioWaitlist } from "@/components/waitlist/formulario-waitlist";
-import { rutas } from "@/lib/links";
+import { cursosAbiertos, rutas } from "@/lib/links";
 import { lanzamiento } from "@/content/waitlist";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 
@@ -11,6 +11,7 @@ export const metadata = metadataPagina({
   titulo: "Lista de espera para probar la plataforma",
   descripcion: `ProLince abre el ${lanzamiento.fecha}. Apúntate a la lista de espera y consigue acceso anticipado a la plataforma completa para preparar la Guardia Civil.`,
   ruta: rutas.waitlist,
+  noindex: cursosAbiertos,
 });
 
 const ventajas = [

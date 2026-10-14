@@ -15,14 +15,13 @@ export const metadata: Metadata = {
   description: site.descripcion,
   applicationName: site.nombreLargo,
   robots: { index: indexacionPermitida, follow: true, googleBot: { index: indexacionPermitida, follow: true, "max-image-preview": "large" } },
-  alternates: { canonical: "/" },
+  alternates: { types: { "application/rss+xml": [{ url: "/blog/rss.xml", title: `Blog de ${site.nombreLargo}` }] } },
   openGraph: {
     type: "website",
     locale: "es_ES",
     siteName: site.nombreLargo,
     title: `${site.nombreLargo} · ${site.claim}`,
     description: site.descripcion,
-    url: siteUrl,
   },
   twitter: {
     card: "summary_large_image",

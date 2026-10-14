@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, Clock } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { CtaFinal } from "@/components/sections/cta-final";
-import { entradaPorSlug, entradasRelacionadas, fechaLarga } from "@/lib/blog";
+import { entradaPorSlug, entradasRelacionadas, fechaLarga, fechaModificacion } from "@/lib/blog";
 import { prepararArticulo, minutosLectura } from "@/lib/markdown";
 import { tipoPorClave } from "@/content/blog-tipos";
 import { site } from "@/content/site";
@@ -18,13 +18,20 @@ import { lanzamiento } from "@/content/waitlist";
 
 export const revalidate = 300;
 
+/** Google corta la descripción hacia los 155 caracteres; mejor cortar por palabra que a medias. */
+function recortar(texto: string, max = 155) {
+  if (texto.length <= max) return texto;
+  const corte = texto.lastIndexOf(" ", max - 1);
+  return `${texto.slice(0, corte > 0 ? corte : max - 1).replace(/[,;:.]$/, "")}…`;
+}
+
 export async function generateMetadata(props: PageProps<"/blog/[slug]">): Promise<Metadata> {
   const { slug } = await props.params;
   const entrada = await entradaPorSlug(slug);
   if (!entrada) return {};
 
   const titulo = entrada.seo?.title || entrada.titulo;
-  const descripcion = entrada.seo?.description || entrada.entradilla || site.descripcion;
+  const descripcion = recortar(entrada.seo?.description || entrada.entradilla || site.descripcion);
 
   const metadata = metadataPagina({ titulo, descripcion,
     ruta: entrada.seo?.canonical || `${rutas.blog}/${entrada.slug}`,
@@ -38,7 +45,7 @@ export async function generateMetadata(props: PageProps<"/blog/[slug]">): Promis
       ...metadata.openGraph,
       type: "article",
       publishedTime: entrada.publicado_en ?? undefined,
-      modifiedTime: entrada.actualizado_en,
+      modifiedTime: fechaModificacion(entrada),
       authors: [absoluteUrl(paginaAutor)],
       section: tipoPorClave(entrada.tipo).etiqueta,
     },
@@ -104,7 +111,7 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
                 src={entrada.portada_url}
                 alt={entrada.portada_alt || entrada.titulo}
                 fill
-                priority
+                preload
                 sizes="(max-width: 768px) 100vw, 736px"
                 className="scale-[1.04] object-cover object-center"
               />
@@ -174,8 +181,9 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
           headline: entrada.titulo,
           description: entrada.entradilla ?? undefined,
           datePublished: entrada.publicado_en ?? undefined,
-          dateModified: entrada.actualizado_en,
-          image: entrada.portada_url ? absoluteUrl(entrada.portada_url) : undefined,
+          // Una entrada programada se guarda antes de salir: la modificación nunca es anterior a la publicación.
+          dateModified: fechaModificacion(entrada),
+          image: absoluteUrl(entrada.portada_url || "/opengraph-image"),
           inLanguage: "es-ES",
           author: { "@type": "Organization", name: site.nombreLargo, url: absoluteUrl(paginaAutor) },
           mainEntityOfPage: url,

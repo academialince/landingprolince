@@ -92,10 +92,10 @@ export async function entradasRelacionadas(slug: string, curso: string | null) {
 export async function entradasSitemap() {
   const sb = supabasePublico();
   if (!sb) return [];
-  type Fila = Pick<Entrada, "slug" | "actualizado_en" | "seo" | "portada_url">;
+  type Fila = Pick<Entrada, "slug" | "actualizado_en" | "publicado_en" | "seo" | "portada_url">;
   const entradas: Fila[] = [];
   for (let desde = 0; ; desde += 500) {
-    const { data, error } = await sb.from("blog_posts").select("slug,actualizado_en,seo,portada_url")
+    const { data, error } = await sb.from("blog_posts").select("slug,actualizado_en,publicado_en,seo,portada_url")
       .order("id").range(desde, desde + 499);
     if (error) throw new Error("No se ha podido generar el sitemap.");
     entradas.push(...((data ?? []) as Fila[]));
@@ -117,6 +117,12 @@ export async function entradaPorId(id: string) {
   if (!sb) return null;
   const { data } = await sb.from("blog_posts").select(CAMPOS).eq("id", id).maybeSingle();
   return (data as Entrada | null) ?? null;
+}
+
+/** La más reciente entre publicación y última edición: una entrada programada se edita antes de salir. */
+export function fechaModificacion(e: Pick<Entrada, "publicado_en" | "actualizado_en">) {
+  if (!e.publicado_en) return e.actualizado_en;
+  return new Date(e.publicado_en) > new Date(e.actualizado_en) ? e.publicado_en : e.actualizado_en;
 }
 
 export function fechaLarga(iso: string | null) {

@@ -1,11 +1,13 @@
-import type { Metadata } from "next";
 import { site } from "@/content/site";
+import { metadataPagina } from "@/lib/seo";
+import { rutas } from "@/lib/links";
 
-export const metadata: Metadata = {
-  title: "Política de privacidad",
-  description: `Cómo trata los datos personales ${site.nombreLargo}.`,
-  robots: { index: false },
-};
+export const metadata = metadataPagina({
+  titulo: "Política de privacidad",
+  descripcion: `Cómo trata los datos personales ${site.nombreLargo}.`,
+  ruta: rutas.privacidad,
+  noindex: true,
+});
 
 export default function Privacidad() {
   return (

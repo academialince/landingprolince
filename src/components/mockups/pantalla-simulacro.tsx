@@ -22,9 +22,9 @@ export function PantallaSimulacro() {
           <p className="text-[0.55rem] font-bold uppercase tracking-wider text-primary">
             Simulacro entregado
           </p>
-          <h3 className="mt-1 text-[0.9rem] font-extrabold tracking-tight">
+          <p className="mt-1 text-[0.9rem] font-extrabold tracking-tight">
             Simulacro general · Marzo
-          </h3>
+          </p>
         </div>
         <div className="rounded-lg bg-primary px-3 py-2 text-center text-primary-fg">
           <div className="text-[1.15rem] font-extrabold leading-none tabular">7,8</div>
