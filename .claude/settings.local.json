@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/marcosocana/Landing Prolince/**)",
+      "Read(//Users/marcosocana/.claude/projects/**)",
+      "Bash(find /Users/marcosocana -maxdepth 3 -iname \"*prolince*\" -not -path \"*/node_modules/*\" -not -path \"*/.git/*\" 2>/dev/null | head -40)",
+      "Read(//Users/marcosocana/**)"
+    ]
+  }
+}

@@ -2,7 +2,7 @@ import { Quote, ShieldCheck } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Reveal } from "@/components/layout/reveal";
 import { Foto } from "@/components/ui/foto";
-import { testimonios } from "@/content/testimonios";
+import { testimonios, testimoniosVerificados } from "@/content/testimonios";
 
 function iniciales(nombre: string) {
   return nombre
@@ -58,7 +58,7 @@ function Tira({ copia = false }: { copia?: boolean }) {
 
 export function Resultados() {
   // Sin testimonios reales no hay sección. Ver content/testimonios.ts.
-  if (testimonios.length === 0) return null;
+  if (!testimoniosVerificados || testimonios.length === 0) return null;
 
   return (
     <section id="resultados" className="overflow-hidden bg-surface-subtle py-16 sm:py-24">

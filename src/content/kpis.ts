@@ -1,13 +1,7 @@
 /**
- * Faldón de autoridad de la portada.
- *
- * PENDIENTE — IMPORTANTE: estas cifras son provisionales, puestas para dar forma al bloque.
- * Publicar datos de resultados que no se puedan sostener es publicidad engañosa y en una
- * academia de oposiciones es justo lo que más caro sale. Antes de salir a producción hay que
- * sustituirlas por las reales.
- *
- * Los tres últimos son hechos del producto y los podéis verificar en un minuto mirando la
- * plataforma, que además convence más que un porcentaje de aprobados sin auditar.
+ * Faldón de datos de la portada. Solo hechos del producto que se pueden comprobar en la
+ * plataforma (base de producción a 15/10/2026): nada de alumnos, años ni aprobados sin auditar.
+ * Al crecer el banco o publicar más simulacros, se actualizan aquí.
  */
 export type Kpi = {
   valor: string;
@@ -16,8 +10,8 @@ export type Kpi = {
 };
 
 export const kpis: Kpi[] = [
-  { valor: "+8", etiqueta: "años", detalle: "preparando el acceso a la Guardia Civil" },
-  { valor: "+1.200", etiqueta: "alumnos", detalle: "han preparado su convocatoria con nosotros" },
-  { valor: "+20.000", etiqueta: "preguntas", detalle: "en el banco de tests, por tema y bloque" },
-  { valor: "+40", etiqueta: "simulacros", detalle: "cronometrados con el formato del examen" },
+  { valor: "+19.000", etiqueta: "preguntas", detalle: "en el banco de tests de la plataforma" },
+  { valor: "19", etiqueta: "exámenes oficiales", detalle: "de Guardia Civil, de 2017 a 2026, como simulacro" },
+  { valor: "23", etiqueta: "temas con esquemas", detalle: "en PDF, en versión web y móvil" },
+  { valor: "0 €", etiqueta: "para empezar", detalle: "5 tests y 1 simulacro gratis en el curso que elijas" },
 ];

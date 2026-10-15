@@ -222,7 +222,7 @@ No se decide el día del examen. Se entrena así:
 - **Corrige por categorías.** Tras veinte tests verás tu porcentaje real de acierto en las D y las A. Ese dato es tuyo y vale más que cualquier regla general.
 - **Simula con la fórmula.** Cuenta siempre tu nota con penalización. Un test corregido sin restar errores te engaña.
 
-En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) los tests y simulacros se corrigen con la fórmula de la convocatoria, para que la nota que ves sea la que sacarías. Y si aún no tienes clara la estructura de la prueba, empieza por [cómo es el examen por dentro](/blog/examen-conocimientos-guardia-civil-estructura).
+En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) puedes dejar en blanco cualquier pregunta de los tests y de los exámenes oficiales, así que este criterio lo entrenas en cada sesión. La nota con penalización, calcúlala con la fórmula de arriba. Y si aún no tienes clara la estructura de la prueba, empieza por [cómo es el examen por dentro](/blog/examen-conocimientos-guardia-civil-estructura).
 
 > Datos de la convocatoria de 2026 (BOE de 8 de mayo de 2026). Comprueba la fórmula y los mínimos en las bases de tu año.
 
@@ -678,7 +678,7 @@ Si te cuesta retener articulado, tienes técnicas concretas en [cómo memorizar 
 - Confundir fechas. Aprobada por las Cortes el **31 de octubre de 1978**, referéndum el **6 de diciembre**, sancionada el **27 de diciembre** y publicada y en vigor el **29 de diciembre**.
 - Olvidar las dos leyes orgánicas del tema. El Defensor del Pueblo también cae.
 
-En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) el tema de Derecho Constitucional viene con los artículos marcados cuando han caído en examen y tests por Título.
+En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) tienes el tema de Derecho Constitucional con sus esquemas y sus tests, y los exámenes oficiales de 2017 a 2026 para ver cómo lo pregunta el Tribunal.
 
 ## Preguntas frecuentes
 
@@ -775,7 +775,7 @@ En la práctica, el [reconocimiento médico](/blog/entrevista-reconocimiento-med
 
 Si tus tatuajes son normales, deja de darle vueltas. El tiempo que gastas leyendo foros sobre tatuajes rinde mucho más estudiando la Constitución o entrenando la carrera. Hay muchos más aspirantes que se quedan fuera por la [ortografía](/blog/ortografia-gramatica-examen-guardia-civil) que por un tatuaje.
 
-Si quieres preparar la oposición con un plan claro, desde el temario hasta las pruebas físicas, lo tienes en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+Si quieres preparar la oposición con método, del temario a los exámenes oficiales, lo tienes en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
 
 ## Preguntas frecuentes
 
@@ -903,7 +903,7 @@ Las cuatro pruebas físicas tienen marcas mínimas y la natación, en concreto, 
 - **Si fallas un día, no recuperes doblando.** Sigue el plan. Doblar lleva a quemarse.
 - **Protege el sueño.** Estudiar dormido no sirve.
 
-Si prefieres no montar el plan tú solo, el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) organiza temario, tests y simulacros por semanas, pensado también para quien trabaja. Y si todavía estás decidiendo si empezar, lee antes [cómo preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero) y [los errores más comunes al prepararla](/blog/errores-preparar-oposicion-guardia-civil).
+Si prefieres no montar el plan tú solo, el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) reúne el temario, los tests y los exámenes oficiales en un mismo sitio, disponible a cualquier hora: tú pones el horario. Y si todavía estás decidiendo si empezar, lee antes [cómo preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero) y [los errores más comunes al prepararla](/blog/errores-preparar-oposicion-guardia-civil).
 
 ## Preguntas frecuentes
 

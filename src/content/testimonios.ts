@@ -8,6 +8,9 @@
  * Las fotos van en `public/testimonios/<slug>.jpg`, cuadradas y de 400×400 como mínimo. Mientras
  * el fichero no exista, la tarjeta enseña las iniciales sobre el verde suave.
  */
+/** `false` mientras sean borrador: la sección de la portada no se pinta. */
+export const testimoniosVerificados = false;
+
 export type Testimonio = {
   slug: string;
   nombre: string;

@@ -142,38 +142,38 @@ export const cursos: Curso[] = [
     incluye: [
       {
         icono: "BookOpen",
-        titulo: "Temario completo y actualizado",
+        titulo: "Temario de los 23 temas",
         detalle:
-          "Los tres bloques divididos en módulos y lecciones, con el progreso marcado lección a lección.",
+          "En PDF y con esquemas de cada tema, en versión web y móvil. Se lee en un visor protegido que recuerda dónde lo dejaste.",
       },
       {
         icono: "ListChecks",
-        titulo: "Tests por tema",
+        titulo: "Tests por tema y a tu medida",
         detalle:
-          "Baterías de preguntas por cada bloque, con corrección inmediata y la explicación de la respuesta correcta.",
+          "Tests por tema y tests personalizados de hasta 20 preguntas del tema o los subtemas que elijas, con la explicación de cada respuesta.",
       },
       {
         icono: "Timer",
-        titulo: "Simulacros cronometrados",
+        titulo: "Exámenes oficiales como simulacro",
         detalle:
-          "Exámenes completos con el formato y el tiempo real, con entrega única igual que el día de la prueba.",
+          "Los exámenes de 2017 a 2026, cronometrados y con entrega única, igual que el día de la prueba.",
       },
       {
         icono: "Trophy",
         titulo: "Ranking privado",
-        detalle: "Tu posición frente al resto de alumnos del mismo simulacro, solo dentro del curso.",
+        detalle: "Tu posición frente al resto de alumnos del mismo simulacro, solo dentro del curso y con iniciales.",
       },
       {
-        icono: "Dumbbell",
-        titulo: "Plan de pruebas físicas",
+        icono: "RefreshCw",
+        titulo: "Repasa tus errores",
         detalle:
-          "Las marcas que se exigen y un plan de entrenamiento repartido en sesiones semanales desde el primer mes.",
+          "Las preguntas que fallas se guardan en una cola de repaso y vuelven hasta que las aciertas.",
       },
       {
-        icono: "Megaphone",
-        titulo: "Avisos de convocatoria",
+        icono: "LineChart",
+        titulo: "Estadísticas de verdad",
         detalle:
-          "Cuando se publica algo que te afecta, te llega al tablón del curso. No tienes que vigilar el BOE.",
+          "Rendimiento por tema, ritmo de estudio y tu evolución comparada con la media del grupo.",
       },
     ],
     faq: [
@@ -210,7 +210,7 @@ export const cursos: Curso[] = [
     seo: {
       titulo: "Curso Colegio de Guardias Jóvenes online",
       descripcion:
-        "Prepara el acceso al Colegio de Guardias Jóvenes Duque de Ahumada online: tests por tema, simulacros cronometrados y preparación física guiada.",
+        "Prepara el acceso al Colegio de Guardias Jóvenes Duque de Ahumada online: temario completo, tests por tema, repaso de errores y estadísticas por tema.",
     },
     imagen: "/cursos/colegio-guardias-jovenes.jpg",
     imagenAlt:
@@ -286,26 +286,25 @@ export const cursos: Curso[] = [
     incluye: [
       {
         icono: "BookOpen",
-        titulo: "Temario del nivel de ESO",
+        titulo: "Temario completo",
         detalle:
-          "Lengua, matemáticas y cultura general organizados por temas, pensados para repasar sin solaparse con el instituto.",
+          "En PDF, en versión web y móvil, dentro de un visor que recuerda dónde lo dejaste.",
       },
       {
         icono: "ListChecks",
-        titulo: "Tests por tema",
-        detalle: "Preguntas por bloque con corrección inmediata y explicación de cada respuesta.",
+        titulo: "Tests por tema y a tu medida",
+        detalle:
+          "Tests por tema y tests personalizados de hasta 20 preguntas, con corrección inmediata y la explicación de cada respuesta.",
       },
       {
-        icono: "Timer",
-        titulo: "Simulacros cronometrados",
-        detalle:
-          "El formato real del examen, con tiempo medido, para llegar sabiendo cómo se reparte la hora.",
+        icono: "RefreshCw",
+        titulo: "Repasa tus errores",
+        detalle: "Lo que fallas vuelve en una cola de repaso hasta que lo aciertas.",
       },
       {
-        icono: "Dumbbell",
-        titulo: "Preparación física guiada",
-        detalle:
-          "Marcas de referencia por edad y un plan progresivo que cabe en una semana con clase por la mañana.",
+        icono: "LineChart",
+        titulo: "Estadísticas por tema",
+        detalle: "Qué temas llevas bien, cuáles flojean y tu evolución frente a la media del grupo.",
       },
       {
         icono: "Clock",
@@ -317,7 +316,7 @@ export const cursos: Curso[] = [
         icono: "Megaphone",
         titulo: "Avisos de convocatoria",
         detalle:
-          "El plazo de esta convocatoria es corto y se pasa con facilidad. Te avisamos en el tablón del curso.",
+          "El plazo de esta convocatoria es corto y se pasa con facilidad. Te avisamos en el tablón del curso y por correo.",
       },
     ],
     faq: [

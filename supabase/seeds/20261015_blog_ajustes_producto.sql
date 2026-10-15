@@ -1,0 +1,8 @@
+-- Ajusta 4 entradas programadas a lo que hace hoy la plataforma (la corrección no penaliza,
+-- no hay plan por semanas ni tests por Título). Solo hace falta si ya habías ejecutado
+-- 20261014_blog_10_entradas_programadas.sql. Si no lo habías ejecutado, ese archivo ya va corregido.
+
+update public.blog_posts set cuerpo = replace(cuerpo, 'los tests y simulacros se corrigen con la fórmula de la convocatoria, para que la nota que ves sea la que sacarías.', 'puedes dejar en blanco cualquier pregunta de los tests y de los exámenes oficiales, así que este criterio lo entrenas en cada sesión. La nota con penalización, calcúlala con la fórmula de arriba.') where slug = 'calcular-nota-examen-guardia-civil';
+update public.blog_posts set cuerpo = replace(cuerpo, 'el tema de Derecho Constitucional viene con los artículos marcados cuando han caído en examen y tests por Título.', 'tienes el tema de Derecho Constitucional con sus esquemas y sus tests, y los exámenes oficiales de 2017 a 2026 para ver cómo lo pregunta el Tribunal.') where slug = 'constitucion-oposicion-guardia-civil';
+update public.blog_posts set cuerpo = replace(cuerpo, 'Si quieres preparar la oposición con un plan claro, desde el temario hasta las pruebas físicas, lo tienes en el', 'Si quieres preparar la oposición con método, del temario a los exámenes oficiales, lo tienes en el') where slug = 'tatuajes-guardia-civil';
+update public.blog_posts set cuerpo = replace(cuerpo, 'organiza temario, tests y simulacros por semanas, pensado también para quien trabaja.', 'reúne el temario, los tests y los exámenes oficiales en un mismo sitio, disponible a cualquier hora: tú pones el horario.') where slug = 'plan-estudio-guardia-civil-trabajando';

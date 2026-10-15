@@ -9,17 +9,22 @@ const claves = [
   {
     icono: "BookOpen",
     titulo: "Todo el temario, ordenado",
-    detalle: "Dividido en módulos y lecciones, con el progreso marcado una a una.",
+    detalle: "PDF con esquemas en versión web y móvil, vídeos en las lecciones y un visor que retoma donde lo dejaste.",
   },
   {
     icono: "ListChecks",
-    titulo: "Tests con explicación",
-    detalle: "Corrección inmediata y el porqué de cada respuesta, no solo el acierto.",
+    titulo: "Tests con explicación, también a tu medida",
+    detalle: "Corrección inmediata y el porqué de cada respuesta. Montas tu test por tema o subtema y puedes dejar preguntas en blanco.",
+  },
+  {
+    icono: "RefreshCw",
+    titulo: "Lo que fallas vuelve",
+    detalle: "Cada error entra en tu cola de «Repasa tus errores» hasta que lo aciertas.",
   },
   {
     icono: "LineChart",
-    titulo: "Sabes por dónde ibas",
-    detalle: "Vuelves al punto exacto donde lo dejaste, desde cualquier dispositivo.",
+    titulo: "Sabes cómo vas",
+    detalle: "Rendimiento por tema, ritmo de estudio y tu evolución frente a la media del grupo.",
   },
 ];
 

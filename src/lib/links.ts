@@ -11,8 +11,8 @@ export const links = {
   /** Acceso de alumno ya matriculado. Destino de «Acceder». */
   login: "https://acceso.prolinceacademia.com/academiaprolince",
   catalogo: "https://acceso.prolinceacademia.com/academiaprolince/registro",
-  /** Pago de la suscripción. PENDIENTE: sustituir por el enlace de pago real de Stripe. */
-  compra: "https://stripe.com",
+  /** Pago del plan: se contrata dentro de la plataforma (Stripe) después de crear la cuenta. */
+  compra: "https://acceso.prolinceacademia.com/academiaprolince/registro",
 } as const;
 
 /**

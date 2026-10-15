@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { HeroExperience } from "@/components/home/hero-experience";
 import { destinoEmpezar } from "@/lib/links";
 
-const hechos = ["Acceso a la Guardia Civil", "Colegio de Guardias Jóvenes", "100 % online"];
+const hechos = ["Acceso a la Guardia Civil", "Colegio de Guardias Jóvenes", "100 % online", "Empieza gratis"];
 
 export function Hero() {
   return (

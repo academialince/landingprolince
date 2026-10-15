@@ -6,7 +6,7 @@ import { Reveal } from "@/components/layout/reveal";
 import { Button } from "@/components/ui/button";
 import { CtaFinal } from "@/components/sections/cta-final";
 import { MaterialesTienda } from "@/components/tienda/materiales";
-import { condiciones, formatoPrecio, suscripcion } from "@/content/tienda";
+import { condiciones, formatoPrecio, materialesVisibles, planGratis, suscripcion } from "@/content/tienda";
 import { cursos } from "@/content/cursos";
 import { notFound } from "next/navigation";
 import { absoluteUrl, cursosAbiertos, links, rutas, tiendaVisible } from "@/lib/links";
@@ -15,7 +15,7 @@ import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 
 export const metadata = metadataPagina({
   titulo: "Precio del curso de Guardia Civil online",
-  descripcion: `Un único plan por ${formatoPrecio(suscripcion.precio)} € al mes para preparar el acceso a la Guardia Civil y al Colegio de Guardias Jóvenes. Sin permanencia.`,
+  descripcion: `Prepara la Guardia Civil o el Colegio de Guardias Jóvenes por ${formatoPrecio(suscripcion.precio)} € al mes por curso, sin permanencia. Empieza gratis con 5 tests y 1 simulacro.`,
   ruta: rutas.tienda,
 });
 
@@ -26,7 +26,7 @@ export default function Tienda() {
       <PageHero
         eyebrow="Un solo plan, todo incluido"
         titulo="Precio del curso de Guardia Civil"
-        entradilla="Sin niveles ni extras de pago. Sin permanencia: puedes darte de baja cuando quieras."
+        entradilla="Empieza gratis y, cuando quieras más, un único plan por curso. Sin niveles y sin permanencia."
       />
 
       <Section>
@@ -51,7 +51,7 @@ export default function Tienda() {
 
             {cursosAbiertos ? (
               <Button href={links.compra} tamano="lg" className="mt-8 w-full">
-                Comprar
+                Contratar el plan
                 <ArrowRight size={18} aria-hidden />
               </Button>
             ) : (
@@ -67,8 +67,26 @@ export default function Tienda() {
         </Reveal>
 
         <Reveal className="mt-8">
+          <div className="mx-auto max-w-xl rounded-2xl border border-border bg-surface-subtle p-7">
+            <h2 className="text-h3">{planGratis.nombre}</h2>
+            <p className="mt-2 text-muted-foreground">{planGratis.resumen}</p>
+            <ul className="mt-5 grid gap-2 sm:grid-cols-2">
+              {planGratis.incluye.map((item) => (
+                <li key={item} className="flex gap-3 text-body-sm">
+                  <Check size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <Button href={links.registro} variante="secundario" className="mt-6 w-full">
+              Crear mi cuenta gratis
+            </Button>
+          </div>
+        </Reveal>
+
+        <Reveal className="mt-8">
           <p className="mx-auto max-w-xl text-center text-body-sm text-muted-foreground">
-            Aplicable a{" "}
+            Disponible para{" "}
             {cursos.map((c, i) => (
               <span key={c.slug}>
                 {i > 0 && " y "}
@@ -82,6 +100,7 @@ export default function Tienda() {
         </Reveal>
       </Section>
 
+      {materialesVisibles && (
       <Section
         eyebrow="Compra por separado"
         titulo="Temario y simulacros a tu medida"
@@ -92,6 +111,7 @@ export default function Tienda() {
           <MaterialesTienda />
         </Reveal>
       </Section>
+      )}
 
       <section className="pb-16 sm:pb-24">
         <Container ancho="estrecho">

@@ -1,8 +1,7 @@
 /**
- * PENDIENTE — IMPORTANTE: los botones de compra apuntan de momento a stripe.com. Hay que añadir
- * los enlaces de pago reales, confirmar páginas y precio del temario, y validar los descuentos
- * provisionales de los packs antes de publicar. También falta confirmar la política de bajas y
- * devoluciones que aparece al pie de la página.
+ * El plan se paga dentro de la plataforma (Stripe), así que «Comprar» lleva al alta.
+ * PENDIENTE: precio y páginas del temario suelto y descuentos de los packs, antes de activar
+ * `materialesVisibles`; confirmar la política de bajas y devoluciones del pie.
  */
 export type Suscripcion = {
   slug: string;
@@ -13,24 +12,41 @@ export type Suscripcion = {
   incluye: string[];
 };
 
+/**
+ * Lo que vende la plataforma a 15/10/2026 (repo Prolince: src/lib/suscripcion.ts y src/lib/cuota.ts).
+ * Si cambia el plan o la cuota gratuita en el producto, se cambia aquí.
+ */
 export const suscripcion: Suscripcion = {
   slug: "prolince",
-  nombre: "Suscripción ProLince",
-  precio: 11.95,
-  periodo: "/mes",
-  resumen: "Un único plan con todo incluido. Sin niveles, sin extras de pago y sin permanencia.",
+  nombre: "Plan ProLince",
+  precio: 9.95,
+  periodo: "/mes por curso",
+  resumen: "Un único plan con todo incluido. Sin niveles y sin permanencia: te das de baja cuando quieras.",
   incluye: [
-    "Acceso a más de 20.000 preguntas verificadas por guardias civiles expertos en la materia",
-    "Tests ilimitados",
-    "Tests personalizados ilimitados, creados por ti",
-    "Tests de repaso basados en tus fallos",
-    "Acceso a resúmenes, esquemas y material de estudio",
-    "2 simulacros al mes",
-    "Acceso a la plataforma",
-    "Acceso a la comunidad en WhatsApp",
-    "Soporte y resolución de dudas",
+    "Banco de más de 19.000 preguntas con su explicación",
+    "Tests ilimitados por tema",
+    "Tests personalizados de hasta 20 preguntas: de todo el temario, de un tema o de los subtemas que elijas",
+    "«Repasa tus errores»: las preguntas que fallas vuelven hasta que las aciertas",
+    "2 simulacros al mes con exámenes oficiales y ranking",
+    "Temario en PDF con esquemas, en versión web y móvil",
+    "Estadísticas por tema y tu evolución frente a la media del grupo",
+    "Comunicados del curso en el tablón y en tu correo",
+    "Soporte por email y canales de WhatsApp y Telegram",
   ],
 };
+
+/** Cuota gratuita: un curso a elegir, sin pagar nada (supabase/migrations/…_modelo_gratuito.sql). */
+export const planGratis = {
+  nombre: "Empieza gratis",
+  resumen: "Elige un curso y prueba la plataforma antes de pagar nada.",
+  incluye: ["Un curso a tu elección", "5 tests", "1 simulacro con ranking", "Estadísticas de tus resultados"],
+} as const;
+
+/**
+ * Temario suelto y packs de simulacros: la plataforma todavía no los vende. Mientras sea `false`,
+ * la tienda no los enseña. Al activarlos hay que rellenar páginas y precio del temario.
+ */
+export const materialesVisibles = false;
 
 export type FormatoMaterial = "digital" | "fisico";
 
@@ -53,6 +69,6 @@ export const formatoPrecio = (precio: number) =>
 
 export const condiciones = [
   "El precio incluye IVA.",
-  "La suscripción se renueva automáticamente cada mes y puedes darla de baja en cualquier momento.",
+  "El plan es por curso, se renueva automáticamente cada mes y puedes darlo de baja en cualquier momento.",
   "El pago se procesa con Stripe. Esta web no recoge datos de tarjeta en ningún momento.",
 ];
