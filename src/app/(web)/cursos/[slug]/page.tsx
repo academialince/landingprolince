@@ -18,6 +18,8 @@ import { Proximamente } from "@/components/ui/proximamente";
 import { TarjetaEntrada } from "@/components/blog/tarjeta-entrada";
 import { entradasRelacionadas } from "@/lib/blog";
 import { suscripcion } from "@/content/tienda";
+import { programas } from "@/content/temario";
+import Link from "next/link";
 
 /** Las anclas quedan bajo la cabecera y el submenú, que suman 7,5rem. */
 const ANCLA = "scroll-mt-[7.75rem]";
@@ -48,6 +50,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
   const curso = cursoPorSlug(slug);
   if (!curso) notFound();
   if (!cursosVisibles) redirect(rutas.waitlist);
+  const programa = programas[curso.slug];
 
   // Enlazado de vuelta al blog: primero los artículos de este curso; si aún no hay, los últimos.
   const delCurso = await entradasRelacionadas("", curso.slug);
@@ -204,34 +207,59 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
         </ol>
       </Section>
 
-      <Section
-        id="temario"
-        className={ANCLA}
-        eyebrow="Temario"
-        titulo="Lo que vas a estudiar"
-        entradilla="Dividido en bloques y, dentro de cada uno, en lecciones con sus tests. El progreso se guarda lección a lección."
-        fondo="suave"
-      >
-        <ul className="grid gap-5 md:grid-cols-3">
-          {curso.temario.map((bloque, i) => (
-            <Reveal key={bloque.bloque} retardo={i * 70}>
-              <li className="h-full rounded-xl border border-border bg-surface p-7">
-                <span className="text-display-l leading-none text-primary/25 tabular">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                <h3 className="text-h3 mt-4">{bloque.bloque}</h3>
-                <p className="mt-2 text-muted-foreground">{bloque.detalle}</p>
+      {programa && (
+        <Section
+          id="temario"
+          className={ANCLA}
+          eyebrow="Temario"
+          titulo={`Los ${programa.temas.length} temas del programa oficial`}
+          entradilla={programa.entradilla}
+          fondo="suave"
+        >
+          <ol className="grid gap-3 md:grid-cols-2 md:items-start">
+            {programa.temas.map((t) => (
+              <li key={t.numero} id={`tema-${t.numero}`} className="scroll-mt-40">
+                <details className="group rounded-xl border border-border bg-surface open:shadow-[0_10px_30px_-18px_rgba(2,67,52,0.3)]">
+                  <summary className="flex min-h-14 cursor-pointer list-none items-center gap-4 px-5 py-4 [&::-webkit-details-marker]:hidden">
+                    <span className="w-10 shrink-0 text-h3 tabular text-primary/40">{String(t.numero).padStart(2, "0")}</span>
+                    <span className="grow font-semibold leading-snug">{t.titulo}</span>
+                    <ChevronDown size={18} aria-hidden className="shrink-0 text-primary transition-transform group-open:rotate-180" />
+                  </summary>
+                  <div className="px-5 pb-6 sm:pl-[4.75rem]">
+                    <p className="text-muted-foreground leading-[1.7]">{t.resumen}</p>
+                    <h3 className="mt-5 text-body-sm font-bold uppercase tracking-wide text-muted-foreground">Qué entra</h3>
+                    <ul className="mt-3 grid gap-2 text-body-sm">
+                      {t.normas.map((n) => (
+                        <li key={n} className="flex gap-3">
+                          <FileText size={17} aria-hidden className="mt-0.5 shrink-0 text-primary" />
+                          <span>{n}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    {t.articulo && (
+                      <Link href={`${rutas.blog}/${t.articulo.slug}`} className="mt-5 inline-flex items-center gap-2 text-body-sm font-semibold text-primary hover:underline">
+                        {t.articulo.titulo}
+                        <ArrowRight size={16} aria-hidden />
+                      </Link>
+                    )}
+                  </div>
+                </details>
               </li>
-            </Reveal>
-          ))}
-        </ul>
-        {curso.slug === "acceso-guardia-civil" && (
-          <Button href={rutas.temario} variante="secundario" className="mt-8">
-            Ver los 25 temas del programa oficial
-            <ArrowRight size={18} aria-hidden />
-          </Button>
-        )}
-      </Section>
+            ))}
+          </ol>
+          <p className="mt-8 text-body-sm text-muted-foreground">
+            Fuente:{" "}
+            {programa.fuente.url ? (
+              <a href={programa.fuente.url} className="text-primary hover:underline" rel="noopener" target="_blank">
+                {programa.fuente.texto}
+              </a>
+            ) : (
+              programa.fuente.texto
+            )}
+            . Comprueba siempre las bases de tu convocatoria.
+          </p>
+        </Section>
+      )}
 
       <Section
         id="incluye"
@@ -324,6 +352,9 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
             url: absoluteUrl(tiendaVisible ? rutas.tienda : rutas.curso(curso.slug)),
           },
           hasCourseInstance: { "@type": "CourseInstance", courseMode: "Online" },
+          ...(programa
+            ? { syllabusSections: programa.temas.map((t) => ({ "@type": "Syllabus", name: `Tema ${t.numero}. ${t.titulo}`, description: t.resumen })) }
+            : {}),
         }}
       />
       <JsonLd

@@ -74,7 +74,6 @@ export const navegacion: ItemNav[] = [
         },
       ]
     : []),
-  { etiqueta: "Temario", href: rutas.temario },
   { etiqueta: "Blog", href: rutas.blog },
   ...(nosotrosVisible ? [{ etiqueta: "Nosotros", href: rutas.nosotros }] : []),
   ...(tiendaVisible ? [{ etiqueta: "Tienda", href: rutas.tienda }] : []),

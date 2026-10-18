@@ -19,7 +19,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...(inicioVisible ? [{ ruta: rutas.inicio, prioridad: 1 }] : []),
     ...(cursosVisibles ? cursos.map((c) => ({ ruta: rutas.curso(c.slug), prioridad: 0.9 })) : []),
     ...(tiendaVisible ? [{ ruta: rutas.tienda, prioridad: 0.8 }] : []),
-    { ruta: rutas.temario, prioridad: 0.8 },
     { ruta: rutas.blog, prioridad: 0.7 },
     ...(nosotrosVisible ? [{ ruta: rutas.nosotros, prioridad: 0.6 }] : []),
     // Con los cursos abiertos la lista de espera va con `noindex`: fuera del sitemap.

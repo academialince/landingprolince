@@ -1,12 +1,14 @@
 /**
- * Programa oficial de la oposición de acceso a la Escala de Cabos y Guardias.
+ * Programa oficial de cada curso. Se pinta en la sección «Temario» de su página.
  *
- * Fuente: temario publicado por la Guardia Civil (Resolución de 26 de junio de 2019 y sus
- * actualizaciones de 2021, 2022 y 2023), aplicable a la convocatoria de 2026 (Resolución
- * 160/38243/2026, BOE de 8 de mayo de 2026). `normas` resume lo que entra según el programa:
- * si una ley aparece con títulos o capítulos concretos, el resto queda fuera.
+ * Escala de Cabos y Guardias: temario publicado por la Guardia Civil (Resolución de 26 de junio de
+ * 2019 y sus actualizaciones de 2021, 2022 y 2023), aplicable a la convocatoria de 2026
+ * (Resolución 160/38243/2026, BOE de 8 de mayo de 2026).
+ * Colegio de Guardias Jóvenes: Apéndice I de la oferta de plazas del curso 2025/2026, Boletín Oficial
+ * de la Guardia Civil núm. 45, de 3 de junio de 2025.
  *
- * Al publicar un programa nuevo se actualiza aquí y la página /temario-guardia-civil cambia sola.
+ * `normas` resume lo que entra según el programa: si una ley aparece con títulos o capítulos
+ * concretos, el resto queda fuera. Al publicarse un programa nuevo se actualiza aquí.
  */
 export type Tema = {
   numero: number;
@@ -17,12 +19,7 @@ export type Tema = {
   articulo?: { titulo: string; slug: string };
 };
 
-export const fuenteTemario = {
-  convocatoria: "Resolución 160/38243/2026 (BOE de 8 de mayo de 2026)",
-  urlBoe: "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982",
-};
-
-export const temario: Tema[] = [
+const temasEscala: Tema[] = [
   {
     numero: 1,
     titulo: "Derechos Humanos",
@@ -247,3 +244,122 @@ export const temario: Tema[] = [
     articulo: { titulo: "Ortografía y gramática en el examen", slug: "ortografia-gramatica-examen-guardia-civil" },
   },
 ];
+
+const temasColegio: Tema[] = [
+  {
+    numero: 1,
+    titulo: "Derechos Humanos",
+    resumen: "Los grandes textos de protección de los derechos humanos de Naciones Unidas y del Consejo de Europa.",
+    normas: [
+      "Carta de las Naciones Unidas (órganos) y Declaración Universal de Derechos Humanos",
+      "Convenio Europeo de Derechos Humanos (Tribunal Europeo de Derechos Humanos)",
+      "Carta Social Europea",
+      "Pactos Internacionales de Derechos Civiles y Políticos y de Derechos Económicos, Sociales y Culturales",
+      "Consejo de Derechos Humanos de la ONU",
+    ],
+  },
+  {
+    numero: 2,
+    titulo: "Igualdad efectiva de mujeres y hombres",
+    resumen: "El principio de igualdad, la tutela contra la discriminación y los principios de las políticas públicas para la igualdad.",
+    normas: ["LO 3/2007: Título I y Título II, Capítulo I"],
+  },
+  {
+    numero: 3,
+    titulo: "Derecho Constitucional",
+    resumen: "La Constitución de 1978 completa y la ley del Defensor del Pueblo.",
+    normas: [
+      "Constitución Española de 1978 (completa)",
+      "LO 3/1981, del Defensor del Pueblo: Títulos I a III y disposición final única",
+    ],
+    articulo: { titulo: "La Constitución en la oposición: qué cae y cómo estudiarla", slug: "constitucion-oposicion-guardia-civil" },
+  },
+  {
+    numero: 4,
+    titulo: "Derecho Civil",
+    resumen: "Las fuentes del derecho, la aplicación y la eficacia de las normas.",
+    normas: ["Código Civil: Título Preliminar"],
+  },
+  {
+    numero: 5,
+    titulo: "Derecho Penal",
+    resumen: "Las garantías penales y la aplicación de la ley penal.",
+    normas: ["Código Penal: Título Preliminar"],
+  },
+  {
+    numero: 6,
+    titulo: "Derecho Procesal Penal",
+    resumen: "Las reglas que determinan qué juez o tribunal es competente en lo criminal.",
+    normas: ["Ley de Enjuiciamiento Criminal: Libro I, Título II, Capítulo I"],
+  },
+  {
+    numero: 7,
+    titulo: "Derecho Administrativo",
+    resumen: "Las disposiciones generales del procedimiento administrativo y los interesados en él.",
+    normas: ["Ley 39/2015: Título Preliminar y Título I"],
+  },
+  {
+    numero: 8,
+    titulo: "Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+    resumen: "La Ley Orgánica de Fuerzas y Cuerpos de Seguridad y la historia de la Guardia Civil, de su fundación a la democracia.",
+    normas: [
+      "LO 2/1986, de Fuerzas y Cuerpos de Seguridad",
+      "Historia de la Guardia Civil, desde inicios del siglo XIX hasta la democracia",
+    ],
+  },
+  {
+    numero: 9,
+    titulo: "Deontología profesional",
+    resumen: "El Código de conducta del personal de la Guardia Civil.",
+    normas: ["RD 176/2022, Código de conducta del personal de la Guardia Civil"],
+  },
+  {
+    numero: 10,
+    titulo: "Topografía",
+    resumen:
+      "Elementos geográficos, coordenadas, acimut y rumbo, escalas, planimetría y altimetría, accidentes del terreno y pendientes.",
+    normas: ["Elementos geográficos, unidades de medida y representación del terreno"],
+  },
+  {
+    numero: 11,
+    titulo: "Inglés",
+    resumen: "Prueba propia de 20 preguntas de comprensión escrita y ortografía sobre un texto en inglés, con el nivel de la ESO.",
+    normas: ["Programa de inglés de la ESO (RD 217/2022)"],
+    articulo: { titulo: "El inglés en la oposición a Guardia Civil", slug: "ingles-oposicion-guardia-civil" },
+  },
+  {
+    numero: 12,
+    titulo: "Lengua española",
+    resumen: "10 preguntas en dos bloques: ortografía y gramática, con el nivel de la ESO.",
+    normas: ["Bloque 1: ortografía", "Bloque 2: gramática (morfología y sintaxis)"],
+    articulo: { titulo: "Ortografía y gramática en el examen", slug: "ortografia-gramatica-examen-guardia-civil" },
+  },
+];
+
+export type Programa = {
+  temas: Tema[];
+  /** Texto bajo el título de la sección. */
+  entradilla: string;
+  fuente: { texto: string; url?: string };
+};
+
+/** Programa de cada curso, por su slug. */
+export const programas: Record<string, Programa> = {
+  "acceso-guardia-civil": {
+    temas: temasEscala,
+    entradilla:
+      "Los 25 temas del programa oficial. Del 1 al 23 forman las 100 preguntas de conocimientos; el inglés y la lengua española tienen sus propias pruebas.",
+    fuente: {
+      texto: "Programa oficial de la Escala de Cabos y Guardias, convocatoria de 2026 (Resolución 160/38243/2026, BOE de 8 de mayo de 2026)",
+      url: "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982",
+    },
+  },
+  "colegio-guardias-jovenes": {
+    temas: temasColegio,
+    entradilla:
+      "Los 12 temas del programa oficial del Colegio. Del 1 al 10 salen las 80 preguntas de conocimientos; el inglés y la lengua española tienen sus propias pruebas.",
+    fuente: {
+      texto: "Programa oficial del Colegio de Guardias Jóvenes «Duque de Ahumada», curso 2025/2026 (Boletín Oficial de la Guardia Civil núm. 45, de 3 de junio de 2025)",
+    },
+  },
+};

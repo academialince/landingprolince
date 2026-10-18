@@ -1,5 +1,6 @@
 import { Hero } from "@/components/sections/hero";
 import { Kpis } from "@/components/home/kpis";
+import { VideoLanzamiento } from "@/components/home/video-lanzamiento";
 import { CursosHome } from "@/components/home/cursos";
 import { PlataformaHome } from "@/components/home/plataforma";
 import { Simulacros } from "@/components/sections/simulacros";
@@ -18,6 +19,7 @@ export default function Portada() {
     <>
       <Hero />
       <Kpis />
+      <VideoLanzamiento />
       <CursosHome />
       <PlataformaHome />
       <Simulacros />

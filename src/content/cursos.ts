@@ -32,7 +32,6 @@ export type Curso = {
   paraQuien: { titulo: string; texto: string; puntos: string[] };
   requisitos: { titulo: string; nota: string; lista: string[] };
   pruebas: { nombre: string; detalle: string }[];
-  temario: { bloque: string; detalle: string }[];
   incluye: { icono: string; titulo: string; detalle: string }[];
   faq: { pregunta: string; respuesta: string }[];
   convocatoria: Convocatoria | null;
@@ -64,7 +63,7 @@ export const cursos: Curso[] = [
     imagen: "/cursos/acceso-guardia-civil.jpg",
     imagenAlt: "Dos opositores estudiando el temario en un aula con un acuartelamiento al fondo",
     destacados: [
-      { valor: "3", etiqueta: "bloques de temario" },
+      { valor: "25", etiqueta: "temas del programa oficial" },
       { valor: "5", etiqueta: "fases eliminatorias" },
       { valor: "12-15 h", etiqueta: "de estudio a la semana" },
     ],
@@ -120,23 +119,6 @@ export const cursos: Curso[] = [
         nombre: "Entrevista personal y reconocimiento médico",
         detalle:
           "Valoración del perfil, contraste con el psicotécnico y revisión del cuadro médico de exclusiones vigente.",
-      },
-    ],
-    temario: [
-      {
-        bloque: "Ciencias Jurídicas",
-        detalle:
-          "Constitución, derechos fundamentales, organización del Estado, Unión Europea, derecho penal y procesal, seguridad ciudadana y protección de datos.",
-      },
-      {
-        bloque: "Materias Socio-culturales",
-        detalle:
-          "Derechos humanos, igualdad efectiva de mujeres y hombres, prevención de la violencia de género, historia reciente y estructura de la Guardia Civil.",
-      },
-      {
-        bloque: "Materias Técnico-científicas",
-        detalle:
-          "Topografía, informática básica, tecnologías de la información y nociones aplicadas al servicio.",
       },
     ],
     incluye: [
@@ -249,11 +231,11 @@ export const cursos: Curso[] = [
       {
         nombre: "Prueba de conocimientos",
         detalle:
-          "Contenidos del nivel de ESO: lengua castellana, matemáticas y cultura general, en formato test.",
+          "80 preguntas tipo test de los temas 1 a 10 del programa (los mismos de la Escala de Cabos y Guardias, con un alcance más corto), más 10 de ortografía y gramática. Los errores restan.",
       },
       {
         nombre: "Prueba de lengua inglesa",
-        detalle: "Test de nivel adaptado a la etapa, centrado en comprensión y uso básico del idioma.",
+        detalle: "20 preguntas de comprensión escrita y ortografía sobre un texto en inglés, con el nivel de la ESO. Las tres pruebas se hacen seguidas, en 120 minutos.",
       },
       {
         nombre: "Pruebas psicotécnicas y de personalidad",
@@ -264,23 +246,6 @@ export const cursos: Curso[] = [
         nombre: "Pruebas físicas y reconocimiento médico",
         detalle:
           "Marcas adaptadas a la edad y revisión del cuadro médico. Es la parte que más sorprende a quien no viene de hacer deporte de forma regular.",
-      },
-    ],
-    temario: [
-      {
-        bloque: "Lengua castellana",
-        detalle:
-          "Comprensión lectora, ortografía, gramática y léxico, con el nivel de referencia de la ESO.",
-      },
-      {
-        bloque: "Matemáticas",
-        detalle:
-          "Aritmética, álgebra, proporcionalidad, geometría y resolución de problemas, con práctica cronometrada.",
-      },
-      {
-        bloque: "Cultura general e inglés",
-        detalle:
-          "Conocimientos generales, actualidad, geografía e historia de España, y comprensión de inglés básico.",
       },
     ],
     incluye: [
