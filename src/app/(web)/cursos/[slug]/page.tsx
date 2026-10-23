@@ -20,6 +20,7 @@ import { entradasRelacionadas } from "@/lib/blog";
 import { packs, rangoPrecios } from "@/content/tienda";
 import { PacksCurso } from "@/components/tienda/packs-curso";
 import { programas } from "@/content/temario";
+import { PruebasRepaso } from "@/components/cursos/pruebas-repaso";
 import Link from "next/link";
 
 /** Las anclas quedan bajo la cabecera y el submenú, que suman 7,5rem. */
@@ -189,24 +190,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
         titulo="Las pruebas, por orden"
         entradilla="Cada fase elimina. No sirve de nada ir sobrado en el test si las marcas físicas te dejan fuera."
       >
-        <ol className="grid gap-4">
-          {curso.pruebas.map((prueba, i) => (
-            <Reveal key={prueba.nombre} retardo={i * 50}>
-              <li className="flex gap-5 rounded-xl border border-border bg-surface p-6">
-                <span
-                  aria-hidden
-                  className="inline-flex size-10 shrink-0 items-center justify-center rounded-full bg-primary text-body-sm font-bold text-primary-fg tabular"
-                >
-                  {i + 1}
-                </span>
-                <div className="min-w-0">
-                  <h3 className="text-h3">{prueba.nombre}</h3>
-                  <p className="mt-2 text-muted-foreground">{prueba.detalle}</p>
-                </div>
-              </li>
-            </Reveal>
-          ))}
-        </ol>
+        <PruebasRepaso pruebas={curso.pruebas} slug={curso.slug} />
       </Section>
 
       {programa && (
