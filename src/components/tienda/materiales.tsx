@@ -64,6 +64,7 @@ export function MaterialesTienda() {
         <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-primary-soft">
           <Image
             src="/tienda/temario-prolince.jpg"
+            quality={90}
             alt="Colección del temario ProLince en verde oscuro y crema"
             fill
             sizes="(min-width: 1024px) 35rem, calc(100vw - 4rem)"
@@ -104,6 +105,7 @@ export function MaterialesTienda() {
         <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-primary-soft">
           <Image
             src="/tienda/simulacros-prolince.jpg"
+            quality={90}
             alt="Pack ProLince de simulacros impresos con hojas de respuesta y cronómetro"
             fill
             sizes="(min-width: 1024px) 35rem, calc(100vw - 4rem)"

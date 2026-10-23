@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 /**
- * Foto dentro de un visor: esquinas en escuadra, líneas de barrido, etiqueta de objetivo arriba y
+ * Foto dentro de un visor: esquinas en escuadra, etiqueta de objetivo arriba y
  * una barra de datos abajo, como la pantalla de una misión. Las fotos del rediseño son pequeñas
  * (unos 360-470 px de ancho), así que se muestran a un tamaño cercano al original y en vertical.
  */
@@ -30,10 +30,10 @@ export function MarcoTactico({
   return (
     <figure className={`hud-marco mx-auto w-full max-w-[26rem] ${className}`}>
       <div className="hud-foto relative aspect-[2/3] w-full border border-border-strong">
-        <Image src={src} alt={alt} fill sizes={sizes} priority={preload} className="object-cover" />
+        <Image src={src} alt={alt} fill sizes={sizes} quality={90} priority={preload} className="object-cover" />
 
         {/* etiqueta superior */}
-        <div className="absolute inset-x-0 top-0 z-[1] flex items-center justify-between gap-3 bg-gradient-to-b from-black/70 to-transparent px-4 py-3 font-[family-name:var(--font-hud)] text-[0.68rem] font-bold uppercase tracking-[0.16em] text-white/90">
+        <div className="absolute inset-x-0 top-0 z-[1] flex items-center justify-between gap-3 bg-gradient-to-b from-black/85 via-black/50 to-transparent px-4 pb-8 pt-3 font-[family-name:var(--font-hud)] text-[0.68rem] font-bold uppercase tracking-[0.16em] text-white/90">
           <span>{etiqueta}</span>
           <span className="flex items-center gap-1.5 whitespace-nowrap text-[var(--color-acento)]">
             <span aria-hidden className="hud-rec size-2 rounded-full bg-[oklch(0.65_0.24_27)]" />

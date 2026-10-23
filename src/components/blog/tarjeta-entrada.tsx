@@ -11,8 +11,9 @@ export function TarjetaEntrada({ entrada: e }: { entrada: ResumenEntrada }) {
       {e.portada_url && (
         <div className="relative aspect-video overflow-hidden">
           <Image src={e.portada_url} alt={e.portada_alt || e.titulo} fill
+            quality={90}
             sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1023px) 46vw, 380px"
-            className="scale-[1.04] object-cover transition-transform duration-500 group-hover:scale-[1.08]" />
+            className="object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
         </div>
       )}
       <div className="flex grow flex-col p-6">

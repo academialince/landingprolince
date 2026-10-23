@@ -320,15 +320,21 @@ export type CursoProximo = { id: string; nombre: string; eyebrow: string; entrad
 
 export const cursosProximos: CursoProximo[] = [
   {
-    id: "seprona",
-    nombre: "SEPRONA",
-    eyebrow: "Especialidad",
-    entradilla: "Para guardias civiles que quieren dar el salto a la especialidad de Protección de la Naturaleza.",
-  },
-  {
     id: "policia-judicial",
     nombre: "Policía Judicial",
     eyebrow: "Especialidad",
     entradilla: "Para guardias civiles que quieren dar el salto a la especialidad de Policía Judicial.",
+  },
+  {
+    id: "ascenso-cabo",
+    nombre: "Ascenso a Cabo",
+    eyebrow: "Promoción interna",
+    entradilla: "Para guardias civiles que preparan el ascenso al empleo de Cabo.",
+  },
+  {
+    id: "ascenso-sargento",
+    nombre: "Ascenso a Sargento",
+    eyebrow: "Promoción interna",
+    entradilla: "Para cabos y guardias civiles que preparan el acceso a la Escala de Suboficiales.",
   },
 ];

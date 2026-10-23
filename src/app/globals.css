@@ -303,7 +303,7 @@
   --color-border-strong: oklch(0.74 0.02 150);
   --color-foreground: oklch(0.17 0.015 155);
   /* Verde táctico brillante para los detalles de visor sobre fondo oscuro (fotos, franjas). */
-  --color-acento: oklch(0.83 0.19 135);
+  --color-acento: oklch(0.66 0.14 155.6);
 
   --radius-sm: 2px;
   --radius-md: 3px;
@@ -425,18 +425,14 @@
   background-repeat: no-repeat;
 }
 
-/* Líneas de barrido y grano sobre las fotos */
+/* Color y textura originales; el degradado solo protege la lectura del pie. */
 .hud-foto { position: relative; overflow: hidden; background: oklch(0.12 0.01 150); }
-.hud-foto img { filter: contrast(1.08) saturate(0.85) brightness(0.92); }
 .hud-foto::after {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background:
-    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.18) 0 1px, transparent 1px 3px),
-    linear-gradient(180deg, transparent 55%, rgba(5, 10, 7, 0.85) 100%);
-  mix-blend-mode: multiply;
+  background: linear-gradient(180deg, transparent 65%, rgba(5, 10, 7, 0.78) 100%);
 }
 
 /* Punto de grabación que parpadea */

@@ -123,11 +123,12 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
             <div className="relative mt-10 aspect-[16/9] overflow-hidden rounded-2xl bg-transparent">
               <Image
                 src={entrada.portada_url}
+                quality={90}
                 alt={entrada.portada_alt || entrada.titulo}
                 fill
                 preload
                 sizes="(max-width: 768px) 100vw, 736px"
-                className="scale-[1.04] object-cover object-center"
+                className="object-cover object-center"
               />
             </div>
           </Container>

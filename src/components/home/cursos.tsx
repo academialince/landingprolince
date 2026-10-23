@@ -28,6 +28,7 @@ export function CursosHome() {
                     src={curso.imagen}
                     alt={curso.imagenAlt}
                     fill
+                    quality={90}
                     sizes="(max-width: 1024px) 100vw, 560px"
                     className="object-cover transition-transform duration-500 ease-[var(--ease-product)] group-hover:scale-[1.03]"
                   />
@@ -66,9 +67,9 @@ export function CursosHome() {
         ))}
       </ul>
 
-      {/* especialidades: bloqueadas, sin página propia */}
-      <h3 className="mt-14 text-eyebrow uppercase text-muted-foreground">Especialidades</h3>
-      <ul className="mt-4 grid gap-6 lg:grid-cols-2">
+      {/* próximos cursos: bloqueados, sin página propia */}
+      <h3 className="mt-14 text-eyebrow uppercase text-muted-foreground">Próximamente</h3>
+      <ul className="mt-4 grid gap-6 lg:grid-cols-3">
         {cursosProximos.map((c, i) => (
           <Reveal key={c.id} retardo={i * 80}>
             <li

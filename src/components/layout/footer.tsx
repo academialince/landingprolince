@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Mail, MessageCircle, Phone } from "lucide-react";
-import { Marca } from "@/components/ui/logo";
+import { MarcaCompleta } from "@/components/ui/logo";
 import { Container } from "./container";
 import { navegacion, redesActivas, site } from "@/content/site";
 import { IconoRed } from "@/components/ui/iconos-redes";
@@ -23,7 +23,7 @@ export function Footer() {
       <Container>
         <div className="grid gap-12 py-16 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
           <div>
-            <Marca alto={30} tono="actual" />
+            <MarcaCompleta alto={36} negativo />
             <p className="mt-4 max-w-xs text-body-sm text-white/70">
               Preparación online de oposiciones. El acceso a tu curso, tus tests y tus simulacros
               ocurre en la plataforma.

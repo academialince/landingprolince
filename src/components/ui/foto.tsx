@@ -37,6 +37,6 @@ export function Foto({
   }
 
   return (
-    <Image src={src} alt={alt} fill sizes={sizes} priority={priority} className={`object-cover ${className ?? ""}`} />
+    <Image src={src} alt={alt} fill sizes={sizes} quality={90} priority={priority} className={`object-cover ${className ?? ""}`} />
   );
 }

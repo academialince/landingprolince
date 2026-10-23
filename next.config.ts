@@ -13,6 +13,8 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   turbopack: { root: process.cwd() },
   images: {
+    // 90 conserva texturas y detalle fotográfico sin el peso de una salida sin pérdidas.
+    qualities: [75, 90],
     remotePatterns: supabaseHost
       ? [{ protocol: "https", hostname: supabaseHost, pathname: "/storage/v1/object/public/**" }]
       : [],
