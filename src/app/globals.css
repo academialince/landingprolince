@@ -432,7 +432,7 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(180deg, transparent 65%, rgba(5, 10, 7, 0.78) 100%);
+  background: linear-gradient(180deg, transparent 50%, rgba(5, 10, 7, 0.6) 72%, rgba(5, 10, 7, 0.92) 100%);
 }
 
 /* Punto de grabación que parpadea */

@@ -223,7 +223,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
               <li key={t.numero} id={`tema-${t.numero}`} className="scroll-mt-40">
                 <details className="group rounded-xl border border-border bg-surface open:shadow-[0_10px_30px_-18px_rgba(2,67,52,0.3)]">
                   <summary className="flex min-h-14 cursor-pointer list-none items-center gap-4 px-5 py-4 [&::-webkit-details-marker]:hidden">
-                    <span className="w-10 shrink-0 text-h3 tabular text-primary/40">{String(t.numero).padStart(2, "0")}</span>
+                    <span className="w-10 shrink-0 text-h3 tabular text-muted-foreground">{String(t.numero).padStart(2, "0")}</span>
                     <span className="grow font-semibold leading-snug">{t.titulo}</span>
                     <ChevronDown size={18} aria-hidden className="shrink-0 text-primary transition-transform group-open:rotate-180" />
                   </summary>

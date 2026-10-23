@@ -37,7 +37,7 @@ export function MarcoTactico({
         {/* etiqueta superior */}
         <div className="absolute inset-x-0 top-0 z-[1] flex items-center justify-between gap-3 bg-gradient-to-b from-black/85 via-black/50 to-transparent px-4 pb-8 pt-3 font-[family-name:var(--font-hud)] text-[0.68rem] font-bold uppercase tracking-[0.16em] text-white/90">
           <span>{etiqueta}</span>
-          <span className="flex items-center gap-1.5 whitespace-nowrap text-[var(--color-acento)]">
+          <span className="flex items-center gap-1.5 whitespace-nowrap rounded-sm bg-black/85 px-1.5 py-0.5 text-[var(--color-acento)]">
             <span aria-hidden className="hud-rec size-2 rounded-full bg-[oklch(0.65_0.24_27)]" />
             En directo
           </span>
@@ -49,7 +49,7 @@ export function MarcoTactico({
           <div className="flex items-end justify-between gap-4">
             <span className="font-[family-name:var(--font-display)] text-2xl font-extrabold uppercase leading-none text-white">{pie}</span>
             {dato && (
-              <span className="shrink-0 font-[family-name:var(--font-hud)] text-[0.7rem] font-bold uppercase tracking-[0.14em] text-[var(--color-acento)]">
+              <span className="shrink-0 font-[family-name:var(--font-hud)] text-[0.7rem] font-bold uppercase tracking-[0.14em] rounded-sm bg-black/85 px-1.5 py-0.5 text-[var(--color-acento)]">
                 {dato}
               </span>
             )}

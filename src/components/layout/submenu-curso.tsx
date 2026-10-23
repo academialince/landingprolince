@@ -35,7 +35,7 @@ export function SubmenuCurso({ secciones }: { secciones: Seccion[] }) {
   }, [secciones]);
 
   return (
-    <div className="sticky top-[4.5rem] z-30 hidden border-b border-white/10 bg-primary lg:block">
+    <div className="sticky top-[4.5rem] z-30 hidden border-b border-white/10 bg-primary-deep lg:block">
       <Container>
         <nav aria-label="Secciones del curso">
           <ul className="flex items-center gap-1 overflow-x-auto">
