@@ -1,16 +1,14 @@
-import { Check } from "lucide-react";
 import { notFound } from "next/navigation";
 import { PageHero } from "@/components/layout/page-hero";
 import { Section } from "@/components/layout/section";
 import { Container } from "@/components/layout/container";
 import { Reveal } from "@/components/layout/reveal";
-import { Button } from "@/components/ui/button";
 import { CtaFinal } from "@/components/sections/cta-final";
 import { MaterialesTienda } from "@/components/tienda/materiales";
 import { PacksCurso } from "@/components/tienda/packs-curso";
-import { condiciones, formatoPrecio, materialesVisibles, packs, packsVisibles, planGratis, rangoPrecios } from "@/content/tienda";
+import { condiciones, formatoPrecio, materialesVisibles, packs, packsVisibles, rangoPrecios } from "@/content/tienda";
 import { cursos } from "@/content/cursos";
-import { absoluteUrl, links, rutas, tiendaVisible } from "@/lib/links";
+import { absoluteUrl, rutas, tiendaVisible } from "@/lib/links";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 
 const gc = rangoPrecios("acceso-guardia-civil");
@@ -42,35 +40,9 @@ export default function Tienda() {
             fondo={i % 2 === 0 ? "base" : "suave"}
           >
             <PacksCurso slug={c.slug} />
-            <p className="mt-6 text-body-sm text-muted-foreground">
-              ¿Quieres saber qué estudia y cómo es el examen?{" "}
-              <a href={rutas.curso(c.slug)} className="font-semibold text-primary hover:underline">
-                Ver el curso
-              </a>
-            </p>
           </Section>
         ) : null,
       )}
-
-      <Section>
-        <Reveal>
-          <div className="mx-auto max-w-xl rounded-2xl border border-border bg-surface-subtle p-7">
-            <h2 className="text-h3">{planGratis.nombre}</h2>
-            <p className="mt-2 text-muted-foreground">{planGratis.resumen}</p>
-            <ul className="mt-5 grid gap-2 sm:grid-cols-2">
-              {planGratis.incluye.map((item) => (
-                <li key={item} className="flex gap-3 text-body-sm">
-                  <Check size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
-                  {item}
-                </li>
-              ))}
-            </ul>
-            <Button href={links.registro} variante="secundario" className="mt-6 w-full">
-              Empezar la prueba gratis
-            </Button>
-          </div>
-        </Reveal>
-      </Section>
 
       {materialesVisibles && (
         <Section
