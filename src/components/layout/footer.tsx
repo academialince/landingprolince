@@ -19,7 +19,7 @@ export function Footer() {
   const redes = redesActivas();
 
   return (
-    <footer className="bg-primary-deep text-white">
+    <footer className="pie bg-primary-deep text-white">
       <Container>
         <div className="grid gap-12 py-16 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
           <div>

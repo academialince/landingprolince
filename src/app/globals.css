@@ -486,3 +486,6 @@
   0%, 64% { transform: translateX(-130%); }
   88%, 100% { transform: translateX(130%); }
 }
+
+/* En oscuro el pie va en gris oscuro, para que no se funda con el fondo de la página. */
+.tactico[data-tema="oscuro"] .pie { background: oklch(0.235 0.006 150); border-top: 1px solid var(--color-border); }
