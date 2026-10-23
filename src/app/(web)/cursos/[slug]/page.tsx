@@ -190,7 +190,12 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
         titulo="Las pruebas, por orden"
         entradilla="Cada fase elimina. No sirve de nada ir sobrado en el test si las marcas físicas te dejan fuera."
       >
-        <PruebasRepaso pruebas={curso.pruebas} slug={curso.slug} />
+        <PruebasRepaso
+          pruebas={curso.pruebas}
+          slug={curso.slug}
+          curso={curso.nombre}
+          temas={programa?.temas.map((t) => t.titulo) ?? []}
+        />
       </Section>
 
       {programa && (
