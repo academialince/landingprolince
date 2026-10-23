@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
+import { HeroExperience } from "@/components/home/hero-experience";
 import { MarcoTactico } from "@/components/ui/marco-tactico";
 import { destinoEmpezar } from "@/lib/links";
 
@@ -64,14 +65,19 @@ export function Hero() {
             </ul>
           </div>
 
-          <MarcoTactico
-            src="/tactico/tactico.jpg"
-            alt="Guardia civil con equipo de intervención: casco con visera, chaleco y arma reglamentaria"
-            etiqueta="OBJ-01 · Guardia Civil"
-            pie="Tu plaza empieza aquí"
-            dato="Convocatoria 2026"
-            preload
-          />
+          {/* la foto en su visor, detrás, y el móvil animado de la plataforma por delante */}
+          <div className="hero-tactico relative mx-auto w-full max-w-[34rem]">
+            <MarcoTactico
+              src="/tactico/tactico.jpg"
+              alt="Guardia civil con equipo de intervención: casco con visera, chaleco y arma reglamentaria"
+              etiqueta="OBJ-01 · Guardia Civil"
+              pie="Tu plaza empieza aquí"
+              dato="Convocatoria 2026"
+              className="ml-0 max-w-[24rem]"
+              preload
+            />
+            <HeroExperience className="hero-sobre-foto" />
+          </div>
         </div>
       </Container>
     </section>

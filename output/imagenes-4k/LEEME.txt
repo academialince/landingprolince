@@ -1,0 +1,4 @@
+Siete imágenes ampliadas a 3840 píxeles en el lado largo, conservando sus proporciones y contenido original.
+Exportación JPEG de calidad 96, muestreo de color 4:4:4 y enfoque suave.
+La ampliación no recupera el detalle de una captura 4K nativa.
+Se probaron restauraciones con la herramienta integrada de imágenes, pero se descartaron porque modificaban detalles. Las imágenes de esta carpeta se han exportado desde los originales sin reconstrucción generativa.

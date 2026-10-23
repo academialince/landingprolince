@@ -445,3 +445,25 @@
   background: repeating-linear-gradient(-45deg, var(--color-acento, var(--color-primary)) 0 10px, transparent 10px 20px);
   opacity: 0.85;
 }
+
+/* Hero táctico: el móvil animado se monta sobre la foto del visor. */
+.hero-tactico .hero-experience { position: absolute; inset: 0; z-index: 2; }
+.hero-sobre-foto .hero-scene { height: 100%; max-width: none; }
+.hero-sobre-foto :is(.hero-aura, .hero-grid, .hero-emblem) { display: none; }
+.hero-sobre-foto .hero-phone-float { width: 250px; top: 13%; left: auto; right: 0; }
+.hero-sobre-foto .hero-phone { box-shadow: 0 40px 70px -24px #000c, 0 0 0 2px var(--color-border-strong); }
+.hero-sobre-foto .hero-card-progress { top: 4%; right: auto; left: 52%; }
+.hero-sobre-foto .hero-card-answer { bottom: 15%; left: 44%; }
+.tactico .hero-float-card {
+  border-radius: 4px;
+  border-color: var(--color-border-strong);
+  background: color-mix(in oklch, var(--color-surface) 92%, transparent);
+  color: var(--color-foreground);
+  backdrop-filter: blur(10px);
+}
+@media (max-width: 640px) {
+  .hero-sobre-foto .hero-phone-float { width: 185px; right: 0; top: 16%; }
+  .hero-sobre-foto .hero-card-progress { display: none; }
+  .hero-sobre-foto .hero-card-answer { left: 6%; bottom: 25%; }
+  .hero-tactico > figure { max-width: 78%; }
+}

@@ -7,7 +7,7 @@ import { Telefono } from "@/components/mockups/marcos";
 import { PantallaTest } from "@/components/mockups/pantalla-test";
 
 /** Una ilustración de producto: animación CSS y profundidad por puntero, sin vídeo ni WebGL. */
-export function HeroExperience() {
+export function HeroExperience({ className = "" }: { className?: string }) {
   const escena = useRef<HTMLDivElement>(null);
   const frame = useRef<number | null>(null);
 
@@ -44,7 +44,7 @@ export function HeroExperience() {
   }
 
   return (
-    <div className="hero-experience">
+    <div className={`hero-experience ${className}`}>
       <div
         ref={escena}
         className="hero-scene"
