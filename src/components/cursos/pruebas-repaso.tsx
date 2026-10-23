@@ -27,20 +27,20 @@ export function PruebasRepaso({
 }) {
   return (
     <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_auto] lg:gap-16">
-      <ol className="grid gap-4">
+      <ol className="grid gap-3">
         {pruebas.map((prueba, i) => (
           <li key={prueba.nombre}>
             <Reveal retardo={i * 50}>
-              <div className="flex gap-5 rounded-xl border border-border bg-surface p-6">
+              <div className="flex gap-4 rounded-xl border border-border bg-surface px-5 py-4">
                 <span
                   aria-hidden
-                  className="inline-flex size-10 shrink-0 items-center justify-center rounded-full bg-primary text-body-sm font-bold text-primary-fg tabular"
+                  className="inline-flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-[0.8rem] font-bold text-primary-fg tabular"
                 >
                   {i + 1}
                 </span>
                 <div className="min-w-0">
-                  <h3 className="text-h3">{prueba.nombre}</h3>
-                  <p className="mt-2 text-muted-foreground">{prueba.detalle}</p>
+                  <h3 className="text-h3 prueba-titulo">{prueba.nombre}</h3>
+                  <p className="mt-1.5 text-body-sm text-muted-foreground">{prueba.detalle}</p>
                 </div>
               </div>
             </Reveal>
