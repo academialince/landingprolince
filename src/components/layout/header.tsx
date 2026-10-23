@@ -107,7 +107,7 @@ export function Header() {
               const clases = `nav-link rounded-md px-3 py-2 text-body-sm font-semibold transition-colors ${
                 esActivo
                   ? "bg-primary-soft text-primary-soft-fg"
-                  : "text-muted-foreground hover:bg-surface-tinted hover:text-foreground"
+                  : "text-foreground hover:bg-surface-tinted"
               }`;
 
               if (!item.hijos) {
