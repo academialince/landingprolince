@@ -16,9 +16,9 @@ export default function Privacidad() {
 
       <h2>Responsable</h2>
       <ul>
-        <li>{site.legal.razonSocial ?? "pendiente"}</li>
-        <li>NIF: {site.legal.nif ?? "pendiente"}</li>
-        <li>Domicilio: {site.legal.domicilio ?? "pendiente"}</li>
+        <li>{site.legal.razonSocial ?? site.nombreLargo}</li>
+        {site.legal.nif && <li>NIF: {site.legal.nif}</li>}
+        {site.legal.domicilio && <li>Domicilio: {site.legal.domicilio}</li>}
         <li>Contacto: {site.contacto.email ?? "pendiente"}</li>
       </ul>
 

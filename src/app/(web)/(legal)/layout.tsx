@@ -4,7 +4,9 @@ import { Container } from "@/components/layout/container";
 import { site } from "@/content/site";
 
 export default function LegalLayout({ children }: { children: ReactNode }) {
-  const incompleto = !site.legal.razonSocial || !site.legal.nif || !site.legal.domicilio;
+  // El aviso es para el equipo: solo en local, nunca en la web publicada.
+  const incompleto =
+    process.env.NODE_ENV !== "production" && (!site.legal.razonSocial || !site.legal.nif || !site.legal.domicilio);
 
   return (
     <Container ancho="estrecho">

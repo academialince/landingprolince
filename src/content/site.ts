@@ -28,9 +28,9 @@ export const site = {
    * cambia por la razón social, el NIF y el domicilio de la sociedad.
    */
   legal: {
-    razonSocial: "Marcos Ocaña Talavera" as string | null,
-    nif: "48859318G" as string | null,
-    domicilio: "C/ Mantuano" as string | null,
+    razonSocial: null as string | null,
+    nif: null as string | null,
+    domicilio: null as string | null,
   },
 
   /**
