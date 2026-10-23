@@ -61,7 +61,7 @@ export const cursos: Curso[] = [
       descripcion:
         "Curso online de oposiciones a Guardia Civil (Escala de Cabos y Guardias): temario, tests por tema, simulacros cronometrados y seguimiento de tu progreso.",
     },
-    imagen: "/tactico/desfile-4k.jpg",
+    imagen: "/tactico/desfile-restaurada-4k.jpg",
     imagenAlt: "Promoción de guardias civiles desfilando por una calle de piedra",
     destacados: [
       { valor: "25", etiqueta: "temas del programa oficial" },

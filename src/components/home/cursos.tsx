@@ -7,6 +7,17 @@ import { cursos, cursosProximos } from "@/content/cursos";
 import { cursosAbiertos, rutas } from "@/lib/links";
 import { Proximamente } from "@/components/ui/proximamente";
 
+const imagenesLanding: Record<string, { src: string; alt: string }> = {
+  "acceso-guardia-civil": {
+    src: "/tactico/grupo-tactico-restaurada-4k.jpg",
+    alt: "Grupo de agentes de la Guardia Civil con equipo de intervención",
+  },
+  "colegio-guardias-jovenes": {
+    src: "/tactico/desfile-restaurada-4k.jpg",
+    alt: "Guardias civiles desfilando por una calle de piedra",
+  },
+};
+
 export function CursosHome() {
   return (
     <Section
@@ -25,8 +36,8 @@ export function CursosHome() {
               >
                 <div className="relative aspect-[16/9] overflow-hidden">
                   <Image
-                    src={curso.imagen}
-                    alt={curso.imagenAlt}
+                    src={imagenesLanding[curso.slug]?.src ?? curso.imagen}
+                    alt={imagenesLanding[curso.slug]?.alt ?? curso.imagenAlt}
                     fill
                     quality={90}
                     sizes="(max-width: 1024px) 100vw, 560px"

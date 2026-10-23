@@ -37,12 +37,13 @@ export function CtaFinal() {
             </div>
           </div>
           <MarcoTactico
-            src="/tactico/trafico-4k.jpg"
-            alt="Guardia civil de Tráfico en moto mirando al atardecer sobre un pueblo"
+            src="/tactico/rescate-montana-restaurada-4k.jpg"
+            alt="Helicóptero de la Guardia Civil durante un rescate en una pared de montaña"
             etiqueta="OBJ-02 · Destino"
             pie="La plaza, cada día"
-            dato="Agrupación de Tráfico"
-            className="max-w-[22rem]"
+            dato="Rescate en montaña"
+            formato="horizontal"
+            className="max-w-[30rem]"
           />
           </div>
         </Reveal>
