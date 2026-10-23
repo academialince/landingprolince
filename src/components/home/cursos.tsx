@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Lock } from "lucide-react";
 import { Section } from "@/components/layout/section";
 import { Reveal } from "@/components/layout/reveal";
-import { cursos } from "@/content/cursos";
+import { cursos, cursosProximos } from "@/content/cursos";
 import { cursosAbiertos, rutas } from "@/lib/links";
 import { Proximamente } from "@/components/ui/proximamente";
 
@@ -61,6 +61,30 @@ export function CursosHome() {
                   </span>
                 </div>
               </Link>
+            </li>
+          </Reveal>
+        ))}
+      </ul>
+
+      {/* especialidades: bloqueadas, sin página propia */}
+      <h3 className="mt-14 text-eyebrow uppercase text-muted-foreground">Especialidades</h3>
+      <ul className="mt-4 grid gap-6 lg:grid-cols-2">
+        {cursosProximos.map((c, i) => (
+          <Reveal key={c.id} retardo={i * 80}>
+            <li
+              className="flex h-full items-start gap-5 rounded-2xl border border-dashed border-border-strong bg-surface-subtle p-7"
+            >
+              <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-primary-soft text-primary-soft-fg">
+                <Lock size={20} aria-hidden />
+              </span>
+              <div className="grow">
+                <div className="flex flex-wrap items-center gap-3">
+                  <p className="text-eyebrow uppercase text-primary">{c.eyebrow}</p>
+                  <Proximamente />
+                </div>
+                <p className="text-h3 mt-2">{c.nombre}</p>
+                <p className="mt-2 text-muted-foreground">{c.entradilla}</p>
+              </div>
             </li>
           </Reveal>
         ))}

@@ -18,7 +18,7 @@ export default function AvisoLegal() {
 
       <h2>Titular del sitio</h2>
       <ul>
-        <li>Denominación social: {razonSocial ?? "pendiente"}</li>
+        <li>Titular: {razonSocial ?? "pendiente"}</li>
         <li>NIF: {nif ?? "pendiente"}</li>
         <li>Domicilio: {domicilio ?? "pendiente"}</li>
         <li>Correo de contacto: {site.contacto.email ?? "pendiente"}</li>

@@ -1,4 +1,5 @@
-import { ArrowRight, Check } from "lucide-react";
+import { Check } from "lucide-react";
+import { notFound } from "next/navigation";
 import { PageHero } from "@/components/layout/page-hero";
 import { Section } from "@/components/layout/section";
 import { Container } from "@/components/layout/container";
@@ -6,16 +7,17 @@ import { Reveal } from "@/components/layout/reveal";
 import { Button } from "@/components/ui/button";
 import { CtaFinal } from "@/components/sections/cta-final";
 import { MaterialesTienda } from "@/components/tienda/materiales";
-import { condiciones, formatoPrecio, materialesVisibles, planGratis, suscripcion } from "@/content/tienda";
+import { PacksCurso } from "@/components/tienda/packs-curso";
+import { condiciones, formatoPrecio, materialesVisibles, packs, packsVisibles, planGratis, rangoPrecios } from "@/content/tienda";
 import { cursos } from "@/content/cursos";
-import { notFound } from "next/navigation";
-import { absoluteUrl, cursosAbiertos, links, rutas, tiendaVisible } from "@/lib/links";
-import { Proximamente } from "@/components/ui/proximamente";
+import { absoluteUrl, links, rutas, tiendaVisible } from "@/lib/links";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 
+const gc = rangoPrecios("acceso-guardia-civil");
+
 export const metadata = metadataPagina({
-  titulo: "Precio del curso de Guardia Civil online",
-  descripcion: `Prepara la Guardia Civil o el Colegio de Guardias Jóvenes por ${formatoPrecio(suscripcion.precio)} € al mes por curso, sin permanencia. Empieza gratis con 5 tests y 1 simulacro.`,
+  titulo: "Packs y precios de los cursos",
+  descripcion: `Packs para preparar la Guardia Civil y el Colegio de Guardias Jóvenes: tests desde ${formatoPrecio(gc.min)} €/mes, simulacros, temario descargable o todo junto. Prueba gratis 7 días la suscripción de tests.`,
   ruta: rutas.tienda,
 });
 
@@ -24,49 +26,34 @@ export default function Tienda() {
   return (
     <>
       <PageHero
-        eyebrow="Un solo plan, todo incluido"
-        titulo="Precio del curso de Guardia Civil"
-        entradilla="Empieza gratis y, cuando quieras más, un único plan por curso. Sin niveles y sin permanencia."
+        eyebrow="Tienda"
+        titulo="Packs y precios"
+        entradilla="Elige lo que necesitas en cada momento: tests para entrenar a diario, simulacros para el examen, el temario descargable o todo junto. Los packs son por curso."
       />
+
+      {/* primero Guardia Civil y debajo Guardias Jóvenes (el orden de `cursos`) */}
+      {cursos.map((c, i) =>
+        packs[c.slug] ? (
+          <Section
+            key={c.slug}
+            id={`packs-${c.slug}`}
+            eyebrow={c.eyebrow}
+            titulo={c.nombre}
+            fondo={i % 2 === 0 ? "base" : "suave"}
+          >
+            <PacksCurso slug={c.slug} />
+            <p className="mt-6 text-body-sm text-muted-foreground">
+              ¿Quieres saber qué estudia y cómo es el examen?{" "}
+              <a href={rutas.curso(c.slug)} className="font-semibold text-primary hover:underline">
+                Ver el curso
+              </a>
+            </p>
+          </Section>
+        ) : null,
+      )}
 
       <Section>
         <Reveal>
-          <div className="mx-auto flex max-w-xl flex-col rounded-2xl border-2 border-primary bg-surface p-7 shadow-[0_14px_36px_color-mix(in_oklch,var(--color-primary)_14%,transparent)] sm:p-9">
-            <h2 className="text-h3">{suscripcion.nombre}</h2>
-            <p className="mt-2 text-muted-foreground">{suscripcion.resumen}</p>
-
-            <p className="mt-6 flex items-baseline gap-1.5">
-              <span className="text-display-l tabular">{formatoPrecio(suscripcion.precio)} €</span>
-              <span className="text-body-sm text-muted-foreground">{suscripcion.periodo}</span>
-            </p>
-
-            <ul className="mt-7 grid gap-3">
-              {suscripcion.incluye.map((item) => (
-                <li key={item} className="flex gap-3 text-body-sm">
-                  <Check size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
-                  {item}
-                </li>
-              ))}
-            </ul>
-
-            {cursosAbiertos ? (
-              <Button href={links.compra} tamano="lg" className="mt-8 w-full">
-                Contratar el plan
-                <ArrowRight size={18} aria-hidden />
-              </Button>
-            ) : (
-              <>
-                <Proximamente className="mt-8 self-center" />
-                <Button href={rutas.waitlist} tamano="lg" className="mt-4 w-full">
-                  Apuntarme a la lista de espera
-                  <ArrowRight size={18} aria-hidden />
-                </Button>
-              </>
-            )}
-          </div>
-        </Reveal>
-
-        <Reveal className="mt-8">
           <div className="mx-auto max-w-xl rounded-2xl border border-border bg-surface-subtle p-7">
             <h2 className="text-h3">{planGratis.nombre}</h2>
             <p className="mt-2 text-muted-foreground">{planGratis.resumen}</p>
@@ -79,38 +66,23 @@ export default function Tienda() {
               ))}
             </ul>
             <Button href={links.registro} variante="secundario" className="mt-6 w-full">
-              Crear mi cuenta gratis
+              Empezar la prueba gratis
             </Button>
           </div>
-        </Reveal>
-
-        <Reveal className="mt-8">
-          <p className="mx-auto max-w-xl text-center text-body-sm text-muted-foreground">
-            Disponible para{" "}
-            {cursos.map((c, i) => (
-              <span key={c.slug}>
-                {i > 0 && " y "}
-                <a href={rutas.curso(c.slug)} className="font-semibold text-primary hover:underline">
-                  {c.nombre}
-                </a>
-              </span>
-            ))}
-            .
-          </p>
         </Reveal>
       </Section>
 
       {materialesVisibles && (
-      <Section
-        eyebrow="Compra por separado"
-        titulo="Temario y simulacros a tu medida"
-        entradilla="También puedes comprar el material sin suscripción y elegir si lo quieres en formato digital o físico."
-        fondo="suave"
-      >
-        <Reveal>
-          <MaterialesTienda />
-        </Reveal>
-      </Section>
+        <Section
+          eyebrow="Compra por separado"
+          titulo="Temario y simulacros a tu medida"
+          entradilla="También puedes comprar el material sin suscripción y elegir si lo quieres en formato digital o físico."
+          fondo="suave"
+        >
+          <Reveal>
+            <MaterialesTienda />
+          </Reveal>
+        </Section>
       )}
 
       <section className="pb-16 sm:pb-24">
@@ -129,23 +101,31 @@ export default function Tienda() {
       </section>
 
       <CtaFinal />
-      <JsonLd data={migasJsonLd([{ nombre: "Inicio", ruta: "/" }, { nombre: "Precio", ruta: rutas.tienda }])} />
-
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "Product",
-          name: suscripcion.nombre,
-          description: suscripcion.resumen,
-          url: absoluteUrl(rutas.tienda),
-          offers: {
-            "@type": "Offer",
-            price: suscripcion.precio,
-            priceCurrency: "EUR",
-            availability: cursosAbiertos ? "https://schema.org/InStock" : "https://schema.org/PreOrder",
-          },
-        }}
-      />
+      <JsonLd data={migasJsonLd([{ nombre: "Inicio", ruta: "/" }, { nombre: "Tienda", ruta: rutas.tienda }])} />
+      {cursos.map((c) => {
+        const lista = packsVisibles(c.slug);
+        if (!lista) return null;
+        const r = rangoPrecios(c.slug);
+        return (
+          <JsonLd
+            key={c.slug}
+            data={{
+              "@context": "https://schema.org",
+              "@type": "Product",
+              name: `Packs · ${c.nombre}`,
+              url: absoluteUrl(`${rutas.tienda}#packs-${c.slug}`),
+              offers: {
+                "@type": "AggregateOffer",
+                priceCurrency: "EUR",
+                lowPrice: r.min,
+                highPrice: r.max,
+                offerCount: r.n,
+                offers: lista.map((p) => ({ "@type": "Offer", name: p.nombre, price: p.precio, priceCurrency: "EUR", availability: "https://schema.org/InStock" })),
+              },
+            }}
+          />
+        );
+      })}
     </>
   );
 }

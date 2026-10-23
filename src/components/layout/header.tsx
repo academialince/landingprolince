@@ -6,12 +6,13 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { MarcaCompleta } from "@/components/ui/logo";
 import { Button } from "@/components/ui/button";
+import { Proximamente } from "@/components/ui/proximamente";
 import { Container } from "./container";
 import { navegacion, type ItemNav } from "@/content/site";
 import { cursosAbiertos, destinoEmpezar, links } from "@/lib/links";
 
 function activo(ruta: string, item: ItemNav) {
-  if (item.hijos) return item.hijos.some((h) => ruta.startsWith(h.href));
+  if (item.hijos) return item.hijos.some((h) => h.href && ruta.startsWith(h.href));
   if (!item.href) return false;
   if (item.href === "/") return ruta === "/";
   return ruta.startsWith(item.href);
@@ -134,7 +135,16 @@ export function Header() {
                   </button>
                   {desplegadoAqui && (
                     <div className="absolute left-0 top-full z-50 mt-2 w-72 overflow-hidden rounded-xl border border-border bg-surface p-1.5 shadow-[0_18px_40px_-12px_rgba(2,67,52,0.24)]">
-                      {hijos.map((h) => (
+                      {hijos.map((h) =>
+                        !h.href ? (
+                          <div key={h.etiqueta} aria-disabled className="flex items-start justify-between gap-3 rounded-lg px-3 py-2.5 opacity-70">
+                            <span>
+                              <span className="block font-semibold">{h.etiqueta}</span>
+                              <span className="block text-body-sm text-muted-foreground">{h.descripcion}</span>
+                            </span>
+                            <Proximamente className="mt-0.5 shrink-0 scale-90" />
+                          </div>
+                        ) : (
                         <Link
                           key={h.href}
                           href={h.href}
@@ -146,7 +156,8 @@ export function Header() {
                             {h.descripcion}
                           </span>
                         </Link>
-                      ))}
+                        ),
+                      )}
                     </div>
                   )}
                 </div>
@@ -194,6 +205,16 @@ export function Header() {
                   <p className="text-eyebrow uppercase text-muted-foreground">{item.etiqueta}</p>
                   <div className="mt-1 grid">
                     {item.hijos.map((h) => {
+                      if (!h.href)
+                        return (
+                          <div key={h.etiqueta} aria-disabled className="flex items-start justify-between gap-3 rounded-md px-3 py-2.5 font-semibold opacity-70">
+                            <span>
+                              {h.etiqueta}
+                              <span className="block text-body-sm font-normal text-muted-foreground">{h.descripcion}</span>
+                            </span>
+                            <Proximamente className="mt-0.5 shrink-0 scale-90" />
+                          </div>
+                        );
                       const esActivo = ruta.startsWith(h.href);
                       return (
                         <Link

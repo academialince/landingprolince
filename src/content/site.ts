@@ -1,5 +1,5 @@
 import { cursosAbiertos, cursosVisibles, inicioVisible, nosotrosVisible, rutas, tiendaVisible } from "@/lib/links";
-import { cursos } from "./cursos";
+import { cursos, cursosProximos } from "./cursos";
 
 /**
  * Datos de marca y contacto.
@@ -15,7 +15,7 @@ export const site = {
     "Academia online para preparar el acceso a la Guardia Civil: temario, tests, simulacros cronometrados y seguimiento de tu progreso.",
 
   contacto: {
-    email: null as string | null, // PENDIENTE: correo público
+    email: "academialince0@gmail.com" as string | null,
     telefono: null as string | null, // PENDIENTE: teléfono público
     /** Formato internacional y sin signos, como lo pide wa.me. */
     whatsapp: "34695834018" as string | null,
@@ -23,11 +23,14 @@ export const site = {
     mensajeWhatsapp: "Hola, quería más información de Academia Prolince.",
   },
 
-  /** PENDIENTE: razón social, NIF y domicilio para el aviso legal. */
+  /**
+   * Titular del sitio. PROVISIONAL: persona física hasta que se constituya la SL; entonces se
+   * cambia por la razón social, el NIF y el domicilio de la sociedad.
+   */
   legal: {
-    razonSocial: null as string | null,
-    nif: null as string | null,
-    domicilio: null as string | null,
+    razonSocial: "Marcos Ocaña Talavera" as string | null,
+    nif: "48859318G" as string | null,
+    domicilio: "C/ Mantuano" as string | null,
   },
 
   /**
@@ -57,7 +60,8 @@ export type ItemNav = {
   etiqueta: string;
   /** Ausente en los grupos: «Cursos» abre un desplegable, no lleva a ninguna página. */
   href?: string;
-  hijos?: { etiqueta: string; descripcion: string; href: string }[];
+  /** Un hijo sin `href` es un curso que aún no existe: sale bloqueado, con «Próximamente». */
+  hijos?: { etiqueta: string; descripcion: string; href?: string }[];
 };
 
 export const navegacion: ItemNav[] = [
@@ -66,11 +70,14 @@ export const navegacion: ItemNav[] = [
     ? [
         {
           etiqueta: "Cursos",
-          hijos: cursos.map((c) => ({
-            etiqueta: c.nombre,
-            descripcion: c.eyebrow,
-            href: rutas.curso(c.slug),
-          })),
+          hijos: [
+            ...cursos.map((c) => ({
+              etiqueta: c.nombre,
+              descripcion: c.eyebrow,
+              href: rutas.curso(c.slug),
+            })),
+            ...cursosProximos.map((c) => ({ etiqueta: c.nombre, descripcion: c.eyebrow })),
+          ],
         },
       ]
     : []),

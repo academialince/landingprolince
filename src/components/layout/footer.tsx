@@ -124,7 +124,7 @@ export function Footer() {
 
         <div className="flex flex-wrap items-center justify-between gap-3 border-t border-white/12 py-6 text-body-sm text-white/55">
           <p>
-            © {new Date().getFullYear()} {site.legal.razonSocial ?? site.nombreLargo}
+            © {new Date().getFullYear()} {site.nombreLargo}
           </p>
           <p>Hecho para quien se está preparando.</p>
         </div>

@@ -13,5 +13,5 @@ export const kpis: Kpi[] = [
   { valor: "+19.000", etiqueta: "preguntas", detalle: "en el banco de tests de la plataforma" },
   { valor: "19", etiqueta: "exámenes oficiales", detalle: "de Guardia Civil, de 2017 a 2026, como simulacro" },
   { valor: "23", etiqueta: "temas con esquemas", detalle: "en PDF, en versión web y móvil" },
-  { valor: "0 €", etiqueta: "para empezar", detalle: "5 tests y 1 simulacro gratis en el curso que elijas" },
+  { valor: "7 días", etiqueta: "gratis", detalle: "para probar la suscripción de tests de tu curso" },
 ];

@@ -13,7 +13,7 @@ export function CtaFinal() {
             <h2 className="text-display-l">La plaza no se saca en un día, pero se empieza en uno</h2>
             <p className="text-body-lg text-white/75 mt-5">
               {cursosAbiertos
-                ? "Crea tu cuenta gratis: 5 tests y 1 simulacro para probar la plataforma antes de pagar nada."
+                ? "Crea tu cuenta y prueba gratis 7 días la suscripción de tests: tests ilimitados, esquemas, ortografía, gramática e inglés."
                 : "Los cursos abren muy pronto. Apúntate a la lista de espera y te avisamos el primero."}
             </p>
             <div className="mt-9 flex flex-wrap gap-3 justify-center">

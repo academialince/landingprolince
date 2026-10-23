@@ -43,6 +43,7 @@ const seccionesComunes: Seccion[] = [
   { id: "pruebas", etiqueta: "Pruebas" },
   { id: "temario", etiqueta: "Temario" },
   { id: "incluye", etiqueta: "Qué incluye" },
+  { id: "packs", etiqueta: "Packs" },
   { id: "preguntas", etiqueta: "Preguntas" },
 ];
 
@@ -136,9 +137,9 @@ export const cursos: Curso[] = [
       },
       {
         icono: "Timer",
-        titulo: "Exámenes oficiales como simulacro",
+        titulo: "Simulacros oficiales y propios",
         detalle:
-          "Los exámenes de 2017 a 2026, cronometrados y con entrega única, igual que el día de la prueba.",
+          "Los exámenes oficiales de 2017 a 2026 y simulacros propios con el mismo formato, algunos también en PDF. Cronometrados y con entrega única, igual que el día de la prueba.",
       },
       {
         icono: "Trophy",
@@ -310,3 +311,24 @@ export const cursos: Curso[] = [
 ];
 
 export const cursoPorSlug = (slug: string) => cursos.find((c) => c.slug === slug);
+
+/**
+ * Especialidades que llegarán más adelante. Se enseñan bloqueadas, con «Próximamente», en el
+ * listado de cursos y en el menú; no tienen página propia ni se puede entrar en ellas.
+ */
+export type CursoProximo = { id: string; nombre: string; eyebrow: string; entradilla: string };
+
+export const cursosProximos: CursoProximo[] = [
+  {
+    id: "seprona",
+    nombre: "SEPRONA",
+    eyebrow: "Especialidad",
+    entradilla: "Para guardias civiles que quieren dar el salto a la especialidad de Protección de la Naturaleza.",
+  },
+  {
+    id: "policia-judicial",
+    nombre: "Policía Judicial",
+    eyebrow: "Especialidad",
+    entradilla: "Para guardias civiles que quieren dar el salto a la especialidad de Policía Judicial.",
+  },
+];

@@ -89,7 +89,7 @@ export const incluye = {
 export const simulacros = {
   titulo: "Entrena el examen. Descubre dónde mejorar.",
   entradilla:
-    "Haz los exámenes oficiales de 2017 a 2026 con el reloj en marcha, revisa cada respuesta y llega al siguiente sabiendo qué falló.",
+    "No solo los exámenes oficiales de 2017 a 2026: también simulacros propios con el mismo formato, y algunos en PDF. Con el reloj en marcha, revisa cada respuesta y llega al siguiente sabiendo qué falló.",
   puntos: [
     {
       icono: "Timer",

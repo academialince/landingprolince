@@ -1,45 +1,160 @@
 /**
- * El plan se paga dentro de la plataforma (Stripe), así que «Comprar» lleva al alta.
+ * Los packs se contratan dentro de la plataforma (Stripe), así que los botones llevan al alta.
  * PENDIENTE: precio y páginas del temario suelto y descuentos de los packs, antes de activar
  * `materialesVisibles`; confirmar la política de bajas y devoluciones del pie.
  */
-export type Suscripcion = {
-  slug: string;
+export type Pack = {
+  id: string;
+  /** No se enseña (ni en la tienda ni en los datos estructurados). */
+  oculto?: boolean;
+  /** Días de prueba gratis (solo la suscripción mensual de tests, oferta de apertura). */
+  prueba?: number;
   nombre: string;
-  precio: number;
-  periodo: string;
+  /** Una línea bajo el nombre. */
   resumen: string;
+  precio: number;
+  /** "mensual" se cobra cada mes; "unico", una sola vez. */
+  pago: "mensual" | "unico";
   incluye: string[];
+  /** Lo que el pack deja fuera, dicho claro para que nadie se lleve una sorpresa. */
+  noIncluye?: string;
+  destacado?: string;
 };
 
 /**
- * Lo que vende la plataforma a 15/10/2026 (repo Prolince: src/lib/suscripcion.ts y src/lib/cuota.ts).
- * Si cambia el plan o la cuota gratuita en el producto, se cambia aquí.
+ * Packs de cada curso (por su slug). Mismos cinco packs en los dos cursos; cambian el precio y el
+ * temario, que en el Colegio es una versión reducida del de la Escala.
+ * PENDIENTE: oferta de Black Friday del Pack Especial Simulacros (GC 75 €, CGJ 49,95 €), aún sin fechas.
  */
-export const suscripcion: Suscripcion = {
-  slug: "prolince",
-  nombre: "Plan ProLince",
-  precio: 9.95,
-  periodo: "/mes por curso",
-  resumen: "Un único plan con todo incluido. Sin niveles y sin permanencia: te das de baja cuando quieras.",
-  incluye: [
-    "Banco de más de 19.000 preguntas con su explicación",
-    "Tests ilimitados por tema",
-    "Tests personalizados de hasta 20 preguntas: de todo el temario, de un tema o de los subtemas que elijas",
-    "«Repasa tus errores»: las preguntas que fallas vuelven hasta que las aciertas",
-    "2 simulacros al mes con exámenes oficiales y ranking",
-    "Temario en PDF con esquemas, en versión web y móvil",
-    "Estadísticas por tema y tu evolución frente a la media del grupo",
-    "Comunicados del curso en el tablón y en tu correo",
-    "Soporte por email y canales de WhatsApp y Telegram",
+const comunes = {
+  esquemasYLengua: "Acceso a esquemas, ortografía, gramática e inglés",
+  tests: "Tests ilimitados: aleatorios, personalizados por tema y predeterminados con ranking",
+};
+
+export const packs: Record<string, Pack[]> = {
+  "acceso-guardia-civil": [
+    {
+      id: "gc-1",
+      prueba: 7,
+      nombre: "Suscripción mensual de Tests",
+      resumen: "Para entrenar a diario con tests sin límite.",
+      precio: 9.95,
+      pago: "mensual",
+      incluye: [comunes.tests, comunes.esquemasYLengua],
+      noIncluye: "No incluye temario ni simulacros.",
+    },
+    {
+      id: "gc-2-1",
+      nombre: "Pack Especial Simulacros",
+      resumen: "Para llegar al examen con el formato bien entrenado.",
+      precio: 89.95,
+      pago: "unico",
+      incluye: ["25 simulacros de conocimientos, ortografía e inglés (5 de ellos en PDF)", comunes.esquemasYLengua],
+      noIncluye: "No incluye temario.",
+    },
+    {
+      id: "gc-2-2",
+      // oculto de momento
+      oculto: true,
+      nombre: "Pack 2.2 · Simulacros de conocimientos",
+      resumen: "Los mismos simulacros, solo de la prueba de conocimientos.",
+      precio: 39.95,
+      pago: "unico",
+      incluye: ["25 simulacros de la prueba de conocimientos (5 de ellos en PDF)", comunes.esquemasYLengua],
+      noIncluye: "No incluye temario.",
+    },
+    {
+      id: "gc-3",
+      nombre: "Pack Temarios",
+      resumen: "Todo el temario para estudiar, en PDF descargable.",
+      precio: 69.95,
+      pago: "unico",
+      incluye: ["Temario de la Escala de Cabos y Guardias, descargable", "Temario de ortografía y gramática", "Temario de inglés"],
+    },
+    {
+      id: "gc-4",
+      nombre: "Pack Ahorro",
+      resumen: "El temario completo y un año de tests ilimitados.",
+      precio: 119.95,
+      pago: "unico",
+      incluye: ["Todo el Pack Temarios: temario descargable, ortografía, gramática e inglés", "12 meses de la Suscripción mensual de Tests: tests ilimitados y esquemas"],
+      destacado: "El más completo",
+    },
+  ],
+  "colegio-guardias-jovenes": [
+    {
+      id: "cgj-1",
+      prueba: 7,
+      nombre: "Suscripción mensual de Tests",
+      resumen: "Para entrenar a diario con tests sin límite.",
+      precio: 6.95,
+      pago: "mensual",
+      incluye: [comunes.tests, comunes.esquemasYLengua],
+      noIncluye: "No incluye temario ni simulacros.",
+    },
+    {
+      id: "cgj-2-1",
+      nombre: "Pack Especial Simulacros",
+      resumen: "Para llegar al examen con el formato bien entrenado.",
+      precio: 60,
+      pago: "unico",
+      incluye: ["25 simulacros de conocimientos, ortografía e inglés (5 de ellos en PDF)", comunes.esquemasYLengua],
+      noIncluye: "No incluye temario.",
+    },
+    {
+      id: "cgj-2-2",
+      // oculto de momento
+      oculto: true,
+      nombre: "Pack 2.2 · Simulacros de conocimientos",
+      resumen: "Los mismos simulacros, solo de la prueba de conocimientos.",
+      precio: 29.95,
+      pago: "unico",
+      incluye: ["25 simulacros de la prueba de conocimientos (5 de ellos en PDF)", comunes.esquemasYLengua],
+      noIncluye: "No incluye temario.",
+    },
+    {
+      id: "cgj-3",
+      nombre: "Pack Temarios",
+      resumen: "El temario del Colegio para estudiar, en PDF descargable.",
+      precio: 49.95,
+      pago: "unico",
+      incluye: [
+        "Temario del Colegio de Guardias Jóvenes (versión reducida del de la Escala), descargable",
+        "Temario de ortografía y gramática",
+        "Temario de inglés",
+      ],
+    },
+    {
+      id: "cgj-4",
+      nombre: "Pack Ahorro",
+      resumen: "El temario completo y un año de tests ilimitados.",
+      precio: 89.95,
+      pago: "unico",
+      incluye: ["Todo el Pack Temarios: temario descargable, ortografía, gramática e inglés", "12 meses de la Suscripción mensual de Tests: tests ilimitados y esquemas"],
+      destacado: "El más completo",
+    },
   ],
 };
 
-/** Cuota gratuita: un curso a elegir, sin pagar nada (supabase/migrations/…_modelo_gratuito.sql). */
+/** Packs que se enseñan de un curso. */
+export const packsVisibles = (slug: string) => (packs[slug] ?? []).filter((p) => !p.oculto);
+
+/** Precio más bajo y más alto de un curso, para los datos estructurados. */
+export const rangoPrecios = (slug: string) => {
+  const precios = packsVisibles(slug).map((p) => p.precio);
+  return { min: Math.min(...precios), max: Math.max(...precios), n: precios.length };
+};
+
+/**
+ * Oferta de apertura: 7 días de la suscripción mensual de tests del curso que elijas, gratis. Pasado el plazo, la
+ * plataforma bloquea el acceso hasta que se contrata un pack.
+ */
+export const DIAS_PRUEBA = 7;
+
 export const planGratis = {
-  nombre: "Empieza gratis",
-  resumen: "Elige un curso y prueba la plataforma antes de pagar nada.",
-  incluye: ["Un curso a tu elección", "5 tests", "1 simulacro con ranking", "Estadísticas de tus resultados"],
+  nombre: `Prueba ${DIAS_PRUEBA} días gratis`,
+  resumen: `${DIAS_PRUEBA} días de la suscripción de tests de tu curso, sin pagar nada. Pasado ese plazo, el acceso se bloquea hasta que elijas un pack.`,
+  incluye: ["Tests ilimitados", "Esquemas", "Ortografía, gramática e inglés", "Si no sigues, no pagas"],
 } as const;
 
 /**
@@ -69,6 +184,6 @@ export const formatoPrecio = (precio: number) =>
 
 export const condiciones = [
   "El precio incluye IVA.",
-  "El plan es por curso, se renueva automáticamente cada mes y puedes darlo de baja en cualquier momento.",
+  "Los packs son por curso. La suscripción mensual de tests se renueva cada mes y puedes darla de baja cuando quieras; el resto se paga una sola vez.",
   "El pago se procesa con Stripe. Esta web no recoge datos de tarjeta en ningún momento.",
 ];

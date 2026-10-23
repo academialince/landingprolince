@@ -17,7 +17,8 @@ import { absoluteUrl, cursosAbiertos, cursosVisibles, destinoEmpezar, rutas, tie
 import { Proximamente } from "@/components/ui/proximamente";
 import { TarjetaEntrada } from "@/components/blog/tarjeta-entrada";
 import { entradasRelacionadas } from "@/lib/blog";
-import { suscripcion } from "@/content/tienda";
+import { packs, rangoPrecios } from "@/content/tienda";
+import { PacksCurso } from "@/components/tienda/packs-curso";
 import { programas } from "@/content/temario";
 import Link from "next/link";
 
@@ -283,6 +284,19 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
         </ul>
       </Section>
 
+      {packs[curso.slug] && (
+        <Section
+          id="packs"
+          className={ANCLA}
+          eyebrow="Packs"
+          titulo="Elige cómo prepararlo"
+          entradilla="Tests para entrenar a diario, simulacros para el examen, el temario descargable o todo junto."
+          fondo="suave"
+        >
+          <PacksCurso slug={curso.slug} />
+        </Section>
+      )}
+
       <Section
         id="preguntas"
         className={ANCLA}
@@ -344,13 +358,18 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
             name: site.nombreLargo,
             url: absoluteUrl("/"),
           },
-          offers: {
-            "@type": "Offer",
-            category: "Subscription",
-            price: suscripcion.precio,
-            priceCurrency: "EUR",
-            url: absoluteUrl(tiendaVisible ? rutas.tienda : rutas.curso(curso.slug)),
-          },
+          ...(packs[curso.slug]
+            ? {
+                offers: {
+                  "@type": "AggregateOffer",
+                  priceCurrency: "EUR",
+                  lowPrice: rangoPrecios(curso.slug).min,
+                  highPrice: rangoPrecios(curso.slug).max,
+                  offerCount: rangoPrecios(curso.slug).n,
+                  url: absoluteUrl(`${rutas.curso(curso.slug)}#packs`),
+                },
+              }
+            : {}),
           hasCourseInstance: { "@type": "CourseInstance", courseMode: "Online" },
           ...(programa
             ? { syllabusSections: programa.temas.map((t) => ({ "@type": "Syllabus", name: `Tema ${t.numero}. ${t.titulo}`, description: t.resumen })) }

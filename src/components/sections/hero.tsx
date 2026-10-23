@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { HeroExperience } from "@/components/home/hero-experience";
 import { destinoEmpezar } from "@/lib/links";
 
-const hechos = ["Acceso a la Guardia Civil", "Colegio de Guardias Jóvenes", "100 % online", "Empieza gratis"];
+const hechos = ["Acceso a la Guardia Civil", "Colegio de Guardias Jóvenes", "100 % online", "7 días gratis"];
 
 export function Hero() {
   return (
@@ -46,9 +46,8 @@ export function Hero() {
               </span>
             </h1>
             <p className="text-body-lg mt-6 text-muted-foreground">
-              Dos vías de acceso y un mismo método: temario, tests y simulacros cronometrados en
-              un solo sitio, con tu progreso medido de verdad. Estudias a la hora que puedes,
-              desde donde puedes.
+              Simulacros con el formato del examen real, tests por temas y esquemas para repasar lo
+              que más cae. Todo en un mismo sitio y con tu progreso a la vista. Método ProLince.
             </p>
 
             <div className="mt-9 flex flex-wrap gap-3">
