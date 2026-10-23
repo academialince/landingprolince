@@ -35,18 +35,11 @@ export function MarcoTactico({
         {/* etiqueta superior */}
         <div className="absolute inset-x-0 top-0 z-[1] flex items-center justify-between gap-3 bg-gradient-to-b from-black/70 to-transparent px-4 py-3 font-[family-name:var(--font-hud)] text-[0.68rem] font-bold uppercase tracking-[0.16em] text-white/90">
           <span>{etiqueta}</span>
-          <span className="flex items-center gap-1.5 text-primary">
+          <span className="flex items-center gap-1.5 whitespace-nowrap text-[var(--color-acento)]">
             <span aria-hidden className="hud-rec size-2 rounded-full bg-[oklch(0.65_0.24_27)]" />
             En directo
           </span>
         </div>
-
-        {/* retícula central */}
-        <svg aria-hidden viewBox="0 0 100 100" className="absolute left-1/2 top-[42%] z-[1] size-16 -translate-x-1/2 -translate-y-1/2 text-primary/70">
-          <circle cx="50" cy="50" r="22" fill="none" stroke="currentColor" strokeWidth="1.5" />
-          <path d="M50 14v18M50 68v18M14 50h18M68 50h18" stroke="currentColor" strokeWidth="1.5" />
-          <circle cx="50" cy="50" r="1.8" fill="currentColor" />
-        </svg>
 
         {/* barra inferior */}
         <figcaption className="absolute inset-x-0 bottom-0 z-[1] px-4 pb-4">
@@ -54,7 +47,7 @@ export function MarcoTactico({
           <div className="flex items-end justify-between gap-4">
             <span className="font-[family-name:var(--font-display)] text-2xl font-extrabold uppercase leading-none text-white">{pie}</span>
             {dato && (
-              <span className="shrink-0 font-[family-name:var(--font-hud)] text-[0.7rem] font-bold uppercase tracking-[0.14em] text-primary">
+              <span className="shrink-0 font-[family-name:var(--font-hud)] text-[0.7rem] font-bold uppercase tracking-[0.14em] text-[var(--color-acento)]">
                 {dato}
               </span>
             )}

@@ -67,7 +67,7 @@ export function Hero() {
           <MarcoTactico
             src="/tactico/tactico.jpg"
             alt="Guardia civil con equipo de intervención: casco con visera, chaleco y arma reglamentaria"
-            etiqueta="OBJ-01 · Escala de Cabos y Guardias"
+            etiqueta="OBJ-01 · Guardia Civil"
             pie="Tu plaza empieza aquí"
             dato="Convocatoria 2026"
             preload

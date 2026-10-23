@@ -295,27 +295,15 @@
    ángulo. Solo afecta a la web pública (.tactico en (web)/layout); el panel sigue igual.
    ===================================================================== */
 .tactico {
-  --color-background: oklch(0.155 0.012 150);
-  --color-foreground: oklch(0.95 0.008 140);
-  --color-surface: oklch(0.195 0.014 150);
-  --color-surface-subtle: oklch(0.175 0.013 150);
-  --color-surface-tinted: oklch(0.21 0.02 150);
-
-  /* Verde táctico de acento. Texto oscuro sobre él (contraste > 10:1). */
-  --color-primary: oklch(0.83 0.19 135);
-  --color-primary-hover: oklch(0.88 0.18 135);
-  --color-primary-active: oklch(0.77 0.18 135);
-  --color-primary-fg: oklch(0.16 0.02 150);
-  --color-primary-soft: oklch(0.27 0.05 140);
-  --color-primary-soft-fg: oklch(0.9 0.14 135);
-  --color-primary-deep: oklch(0.115 0.01 150);
-
-  --color-muted: oklch(0.21 0.012 150);
-  --color-muted-foreground: oklch(0.74 0.015 145);
-  --color-border: oklch(0.29 0.015 150);
-  --color-border-strong: oklch(0.4 0.02 150);
-
-  --color-warning: oklch(0.82 0.15 80);
+  /* Versión clara: la paleta original (blanco y verde de marca) con la estética táctica. */
+  --color-background: oklch(0.99 0.002 150);
+  --color-surface: oklch(1 0 0);
+  --color-surface-subtle: oklch(0.975 0.004 150);
+  --color-border: oklch(0.88 0.01 150);
+  --color-border-strong: oklch(0.74 0.02 150);
+  --color-foreground: oklch(0.17 0.015 155);
+  /* Verde táctico brillante para los detalles de visor sobre fondo oscuro (fotos, franjas). */
+  --color-acento: oklch(0.83 0.19 135);
 
   --radius-sm: 2px;
   --radius-md: 3px;
@@ -341,6 +329,34 @@
   background-size: 64px 64px;
   background-attachment: fixed;
 }
+
+/* Modo oscuro (el de por defecto): misma estética, paleta casi negra con verde táctico. */
+.tactico[data-tema="oscuro"] {
+  color-scheme: dark;
+  --color-background: oklch(0.155 0.012 150);
+  --color-foreground: oklch(0.95 0.008 140);
+  --color-surface: oklch(0.195 0.014 150);
+  --color-surface-subtle: oklch(0.175 0.013 150);
+  --color-surface-tinted: oklch(0.21 0.02 150);
+  --color-primary: oklch(0.66 0.14 155.6);
+  --color-primary-hover: oklch(0.71 0.14 155.6);
+  --color-primary-active: oklch(0.61 0.13 155.6);
+  --color-primary-fg: oklch(0.16 0.02 150);
+  --color-primary-soft: oklch(0.27 0.05 155.6);
+  --color-primary-soft-fg: oklch(0.86 0.1 155.6);
+  --color-primary-deep: oklch(0.115 0.01 150);
+  --color-muted: oklch(0.21 0.012 150);
+  --color-muted-foreground: oklch(0.74 0.015 145);
+  --color-border: oklch(0.29 0.015 150);
+  --color-border-strong: oklch(0.4 0.02 150);
+  --color-warning: oklch(0.82 0.15 80);
+}
+/* En claro, «primary-soft» es un menta que sirve de texto en las franjas oscuras; en oscuro es
+   un fondo de chip, así que ahí el texto pasa al verde táctico. */
+.tactico[data-tema="oscuro"] .bg-primary-deep .text-primary-soft { color: var(--color-primary); }
+/* Logotipo: el completo tiene el texto verde (solo fondo claro); en oscuro, el de texto claro. */
+.tactico[data-tema="oscuro"] .logo-tema-claro { display: none; }
+.tactico:not([data-tema="oscuro"]) .logo-tema-oscuro { display: none; }
 
 /* Titulares: condensados, en mayúsculas y con peso. Los del cuerpo de los artículos, no. */
 .tactico :is(h1, h2, .text-display-xl, .text-display-l, .text-h2):not(.prosa *) {
@@ -379,11 +395,12 @@
 }
 
 .tactico ::selection { background: var(--color-primary); color: var(--color-primary-fg); }
+/* En las franjas oscuras, el visor usa el verde brillante */
+.tactico .bg-primary-deep { --hud-color: var(--color-acento); }
 .tactico :focus-visible { outline-color: var(--color-primary); }
 
 /* El artículo del blog sobre fondo oscuro */
-.tactico .prosa pre { background: oklch(0.1 0.01 150); }
-.tactico .prosa a { color: var(--color-primary); }
+
 
 /* Marco de visor: esquinas en escuadra alrededor de una foto o un panel */
 .hud-marco { position: relative; }
@@ -395,7 +412,7 @@
   z-index: 2;
   --l: 28px;
   --g: 2px;
-  --c: var(--color-primary);
+  --c: var(--hud-color, var(--color-primary));
   background:
     linear-gradient(var(--c), var(--c)) top left / var(--l) var(--g),
     linear-gradient(var(--c), var(--c)) top left / var(--g) var(--l),
@@ -429,6 +446,6 @@
 
 /* Barra de rayas de precaución */
 .hud-rayas {
-  background: repeating-linear-gradient(-45deg, var(--color-primary) 0 10px, transparent 10px 20px);
+  background: repeating-linear-gradient(-45deg, var(--color-acento, var(--color-primary)) 0 10px, transparent 10px 20px);
   opacity: 0.85;
 }

@@ -13,6 +13,8 @@ const RATIO = 1;
 
 /** Logotipo completo (isotipo + «PROLINCE ACADEMIA»). El texto es verde: solo sobre fondo claro. */
 const FUENTE_COMPLETO = "/brand/prolince-logo-horizontal.svg";
+/** El mismo logotipo en negativo (texto blanco), para fondos oscuros. */
+const FUENTE_COMPLETO_NEGATIVO = "/brand/prolince-logo-horizontal-negativo.svg";
 const RATIO_COMPLETO = 4347 / 1252;
 
 type Props = {
@@ -76,10 +78,12 @@ const CORTES = {
 export function MarcaCompleta({
   alto = 38,
   corte = "xs",
+  negativo = false,
   className,
 }: {
   alto?: number;
   corte?: keyof typeof CORTES;
+  negativo?: boolean;
   className?: string;
 }) {
   return (
@@ -88,7 +92,7 @@ export function MarcaCompleta({
         <Logo alto={Math.round(alto * 0.95)} />
       </span>
       <Image
-        src={FUENTE_COMPLETO}
+        src={negativo ? FUENTE_COMPLETO_NEGATIVO : FUENTE_COMPLETO}
         alt="ProLince Academia"
         width={Math.round(alto * RATIO_COMPLETO)}
         height={alto}

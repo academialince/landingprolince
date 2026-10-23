@@ -4,7 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
-import { Marca } from "@/components/ui/logo";
+import { MarcaCompleta } from "@/components/ui/logo";
+import { BotonTema } from "./boton-tema";
 import { Button } from "@/components/ui/button";
 import { Proximamente } from "@/components/ui/proximamente";
 import { Container } from "./container";
@@ -91,8 +92,13 @@ export function Header() {
       <Container>
         <div className="flex h-[4.5rem] items-center justify-between gap-2 sm:gap-4">
           <Link href="/" aria-label="ProLince, inicio" className="shrink-0">
-            {/* sobre fondo oscuro: isotipo + nombre en el color del texto */}
-            <Marca alto={34} tono="actual" />
+            {/* el completo lleva el texto verde: solo en claro; en oscuro, el de texto claro */}
+            <span className="logo-tema-claro">
+              <MarcaCompleta alto={38} corte="lg" />
+            </span>
+            <span className="logo-tema-oscuro">
+              <MarcaCompleta alto={38} corte="lg" negativo />
+            </span>
           </Link>
 
           <nav ref={navRef} aria-label="Principal" className="hidden items-center gap-0.5 lg:flex">
@@ -164,6 +170,8 @@ export function Header() {
                 </div>
               );
             })}
+            {/* junto a «Tienda»: sol o luna para cambiar de tema */}
+            <BotonTema className="ml-1" />
           </nav>
 
           <div className="flex items-center gap-1 sm:gap-2">
@@ -176,6 +184,7 @@ export function Header() {
               <span className="sm:hidden">Empezar</span>
               <span className="hidden sm:inline">Empezar ahora</span>
             </Button>
+            <BotonTema className="lg:hidden" />
             <button
               type="button"
               onClick={() => setAbierto((v) => !v)}

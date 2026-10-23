@@ -10,7 +10,7 @@ export function Simulacros() {
     <section className="bg-primary-deep py-16 text-white sm:py-24">
       <Container>
         <Reveal className="max-w-[46rem]">
-          <p className="text-eyebrow uppercase text-primary">Simulacros</p>
+          <p className="text-eyebrow uppercase text-primary-soft">Simulacros</p>
           <h2 className="text-h2 mt-3">{simulacros.titulo}</h2>
           <p className="text-body-lg mt-4 text-white/75">{simulacros.entradilla}</p>
         </Reveal>

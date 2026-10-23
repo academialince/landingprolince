@@ -40,7 +40,7 @@ export function Section({
             {eyebrow && (
               <p
                 className={`text-eyebrow uppercase mb-3 ${
-                  "text-primary"
+                  esMarca ? "text-primary-soft" : "text-primary"
                 }`}
               >
                 {eyebrow}
