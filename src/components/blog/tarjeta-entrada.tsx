@@ -9,7 +9,7 @@ export function TarjetaEntrada({ entrada: e }: { entrada: ResumenEntrada }) {
   return (
     <Link href={`${rutas.blog}/${e.slug}`} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-[border-color,box-shadow,transform] duration-200 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_18px_40px_-16px_rgba(2,67,52,0.24)]">
       {e.portada_url && (
-        <div className="relative aspect-video overflow-hidden">
+        <div className="reflejo relative aspect-video overflow-hidden">
           <Image src={e.portada_url} alt={e.portada_alt || e.titulo} fill
             quality={90}
             sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1023px) 46vw, 380px"

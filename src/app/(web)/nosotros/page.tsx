@@ -72,7 +72,7 @@ export default function Nosotros() {
           {equipo.map((m, i) => (
             <Reveal key={m.slug} retardo={(i % 2) * 80}>
               <li id={m.slug} className="h-full scroll-mt-28 overflow-hidden rounded-2xl border border-border bg-surface">
-                <div className="relative aspect-[4/3] w-full">
+                <div className="reflejo relative aspect-[4/3] w-full overflow-hidden">
                   <Foto
                     src={m.foto}
                     alt={`${m.nombre}, ${m.cargo}`}

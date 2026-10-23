@@ -120,7 +120,7 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
 
         {entrada.portada_url && (
           <Container ancho="estrecho">
-            <div className="relative mt-10 aspect-[16/9] overflow-hidden rounded-2xl bg-transparent">
+            <div className="reflejo relative mt-10 aspect-[16/9] overflow-hidden rounded-2xl bg-transparent">
               <Image
                 src={entrada.portada_url}
                 quality={90}

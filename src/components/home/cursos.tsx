@@ -34,7 +34,7 @@ export function CursosHome() {
                 href={rutas.curso(curso.slug)}
                 className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-[border-color,box-shadow,transform] duration-200 ease-[var(--ease-product)] hover:-translate-y-0.5 hover:border-border-strong hover:shadow-[0_18px_40px_-16px_rgba(2,67,52,0.28)]"
               >
-                <div className="relative aspect-[16/9] overflow-hidden">
+                <div className="reflejo relative aspect-[16/9] overflow-hidden">
                   <Image
                     src={imagenesLanding[curso.slug]?.src ?? curso.imagen}
                     alt={imagenesLanding[curso.slug]?.alt ?? curso.imagenAlt}

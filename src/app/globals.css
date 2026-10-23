@@ -469,3 +469,20 @@
 }
 /* La foto del hero, más apagada para que mande el móvil. */
 .hero-tactico .hud-foto img { filter: brightness(0.68) saturate(0.9); }
+
+/* Reflejo: un destello de luz muy tenue cruza cada foto de vez en cuando. Solo decorativo;
+   con «reducir movimiento» la regla global quita la animación y el destello queda fuera. */
+.reflejo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 38%, rgb(255 255 255 / 0.09) 50%, transparent 62%);
+  transform: translateX(-130%);
+  animation: reflejo 11s ease-in-out infinite;
+}
+@keyframes reflejo {
+  0%, 64% { transform: translateX(-130%); }
+  88%, 100% { transform: translateX(130%); }
+}

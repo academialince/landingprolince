@@ -31,7 +31,7 @@ export function MarcoTactico({
 }) {
   return (
     <figure className={`hud-marco mx-auto w-full max-w-[26rem] ${className}`}>
-      <div className={`hud-foto relative w-full border border-border-strong ${formato === "horizontal" ? "aspect-[3/2]" : "aspect-[2/3]"}`}>
+      <div className={`hud-foto reflejo relative w-full border border-border-strong ${formato === "horizontal" ? "aspect-[3/2]" : "aspect-[2/3]"}`}>
         <Image src={src} alt={alt} fill sizes={sizes} quality={90} priority={preload} className="object-cover" />
 
         {/* etiqueta superior */}

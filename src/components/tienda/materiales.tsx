@@ -61,7 +61,7 @@ export function MaterialesTienda() {
   return (
     <div className="grid items-stretch gap-6 lg:grid-cols-2">
       <article className="flex h-full flex-col rounded-2xl border border-border bg-surface p-7 sm:p-8">
-        <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-primary-soft">
+        <div className="reflejo relative aspect-4/3 overflow-hidden rounded-xl bg-primary-soft">
           <Image
             src="/tienda/temario-prolince.jpg"
             quality={90}
@@ -102,7 +102,7 @@ export function MaterialesTienda() {
       </article>
 
       <article className="flex h-full flex-col rounded-2xl border border-border bg-surface p-7 sm:p-8">
-        <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-primary-soft">
+        <div className="reflejo relative aspect-4/3 overflow-hidden rounded-xl bg-primary-soft">
           <Image
             src="/tienda/simulacros-prolince.jpg"
             quality={90}

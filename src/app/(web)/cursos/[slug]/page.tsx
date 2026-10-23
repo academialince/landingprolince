@@ -103,7 +103,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
               </dl>
             </div>
 
-            <div className="relative aspect-[16/11] overflow-hidden rounded-2xl border border-border shadow-[0_28px_60px_-24px_rgba(2,67,52,0.35)]">
+            <div className="reflejo relative aspect-[16/11] overflow-hidden rounded-2xl border border-border shadow-[0_28px_60px_-24px_rgba(2,67,52,0.35)]">
               <Image
                 src={curso.imagen}
                 quality={90}
