@@ -37,7 +37,7 @@ export function CtaFinal() {
             </div>
           </div>
           <MarcoTactico
-            src="/tactico/trafico.jpg"
+            src="/tactico/trafico-4k.jpg"
             alt="Guardia civil de Tráfico en moto mirando al atardecer sobre un pueblo"
             etiqueta="OBJ-02 · Destino"
             pie="La plaza, cada día"

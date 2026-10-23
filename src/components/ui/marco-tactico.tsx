@@ -2,8 +2,8 @@ import Image from "next/image";
 
 /**
  * Foto dentro de un visor: esquinas en escuadra, etiqueta de objetivo arriba y
- * una barra de datos abajo, como la pantalla de una misión. Las fotos del rediseño son pequeñas
- * (unos 360-470 px de ancho), así que se muestran a un tamaño cercano al original y en vertical.
+ * una barra de datos abajo, como la pantalla de una misión. Las fotos se sirven en tamaños
+ * adaptados a la pantalla desde los archivos 4K, manteniendo el encuadre vertical del visor.
  */
 export function MarcoTactico({
   src,

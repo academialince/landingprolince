@@ -467,3 +467,5 @@
   .hero-sobre-foto .hero-card-answer { left: 6%; bottom: 25%; }
   .hero-tactico > figure { max-width: 78%; }
 }
+/* La foto del hero, más apagada para que mande el móvil. */
+.hero-tactico .hud-foto img { filter: brightness(0.68) saturate(0.9); }
