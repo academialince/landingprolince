@@ -68,8 +68,8 @@ export function Hero() {
           {/* la foto en su visor, detrás, y el móvil animado de la plataforma por delante */}
           <div className="hero-tactico relative mx-auto w-full max-w-[34rem]">
             <MarcoTactico
-              src="/tactico/equipo-tactico-restaurada-4k.jpg"
-              alt="Dos agentes de la Guardia Civil con equipo de intervención junto a un muro"
+              src="/tactico/tactico-restaurada-4k.jpg"
+              alt="Guardia civil en primer plano con casco, visera y equipo de intervención frente a una pared de ladrillo"
               etiqueta="OBJ-01 · Guardia Civil"
               pie="Tu plaza empieza aquí"
               dato="Convocatoria 2026"
