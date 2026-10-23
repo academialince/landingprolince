@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { Manrope } from "next/font/google";
+import { Barlow_Condensed, JetBrains_Mono, Manrope } from "next/font/google";
 import "./globals.css";
 import { JsonLd, organizacionJsonLd } from "@/lib/seo";
 import { site } from "@/content/site";
@@ -12,6 +12,9 @@ import { indexacionPermitida } from "@/lib/indexacion";
  * métricas ajustadas: el texto no salta al cambiar de la fuente del sistema a Manrope (CLS).
  */
 const manrope = Manrope({ subsets: ["latin", "latin-ext"], display: "swap", variable: "--font-manrope" });
+/** Rediseño táctico: titulares condensados y etiquetas de visor en monoespaciada. */
+const barlow = Barlow_Condensed({ subsets: ["latin", "latin-ext"], weight: ["600", "700", "800"], display: "swap", variable: "--font-display" });
+const mono = JetBrains_Mono({ subsets: ["latin", "latin-ext"], weight: ["500", "700"], display: "swap", variable: "--font-hud" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -48,7 +51,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="es-ES" data-scroll-behavior="smooth" className={manrope.variable}>
+    <html lang="es-ES" data-scroll-behavior="smooth" className={`${manrope.variable} ${barlow.variable} ${mono.variable}`}>
       <body>
         {children}
         <JsonLd data={organizacionJsonLd()} />

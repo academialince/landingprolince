@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
-import { HeroExperience } from "@/components/home/hero-experience";
+import { MarcoTactico } from "@/components/ui/marco-tactico";
 import { destinoEmpezar } from "@/lib/links";
 
 const hechos = ["Acceso a la Guardia Civil", "Colegio de Guardias Jóvenes", "100 % online", "7 días gratis"];
@@ -14,7 +14,7 @@ export function Hero() {
         className="absolute inset-0 -z-10"
         style={{
           background:
-            "radial-gradient(100% 90% at 78% -10%, var(--color-primary-soft) 0%, transparent 58%)",
+            "radial-gradient(70% 80% at 80% 20%, color-mix(in oklch, var(--color-primary) 16%, transparent) 0%, transparent 60%), linear-gradient(180deg, transparent 70%, var(--color-background) 100%)",
         }}
       />
       <div
@@ -37,13 +37,7 @@ export function Hero() {
             </p>
             <h1 className="text-display-xl mt-4">
               Prepárate para entrar en la{" "}
-              <span className="relative whitespace-nowrap">
-                Guardia Civil
-                <span
-                  aria-hidden
-                  className="absolute inset-x-0 bottom-1 -z-10 h-[0.32em] bg-primary-soft"
-                />
-              </span>
+              <span className="whitespace-nowrap text-primary">Guardia Civil</span>
             </h1>
             <p className="text-body-lg mt-6 text-muted-foreground">
               Simulacros con el formato del examen real, tests por temas y esquemas para repasar lo
@@ -60,17 +54,24 @@ export function Hero() {
               </Button>
             </div>
 
-            <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-body-sm text-muted-foreground">
+            <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-2 font-[family-name:var(--font-hud)] text-[0.72rem] font-bold uppercase tracking-[0.12em] text-muted-foreground">
               {hechos.map((hecho) => (
                 <li key={hecho} className="flex items-center gap-2">
-                  <span aria-hidden className="size-1.5 rounded-full bg-primary" />
+                  <span aria-hidden className="size-1.5 rotate-45 bg-primary" />
                   {hecho}
                 </li>
               ))}
             </ul>
           </div>
 
-          <HeroExperience />
+          <MarcoTactico
+            src="/tactico/tactico.jpg"
+            alt="Guardia civil con equipo de intervención: casco con visera, chaleco y arma reglamentaria"
+            etiqueta="OBJ-01 · Escala de Cabos y Guardias"
+            pie="Tu plaza empieza aquí"
+            dato="Convocatoria 2026"
+            preload
+          />
         </div>
       </Container>
     </section>

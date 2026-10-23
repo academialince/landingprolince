@@ -10,7 +10,7 @@ function Tira({ copia = false }: { copia?: boolean }) {
       {kpis.map((k) => (
         <li key={k.etiqueta} className="flex w-[17rem] flex-col px-7 sm:w-[22rem] sm:px-8">
           <span className="text-display-l leading-none tabular">{k.valor}</span>
-          <span className="mt-2 text-h3 text-primary-soft">{k.etiqueta}</span>
+          <span className="mt-2 text-h3 text-primary">{k.etiqueta}</span>
           <span className="mt-1.5 text-body-sm text-white/65">{k.detalle}</span>
         </li>
       ))}
