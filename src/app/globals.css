@@ -492,3 +492,7 @@
 
 /* Títulos de los bloques de pruebas del curso: más contenidos que un h3 de sección. */
 .tactico .text-h3.prueba-titulo { font-size: 1.1rem; line-height: 1.15; margin-top: 0.3rem; }
+
+/* Barra de tiempo del carrusel de opiniones (15 s por opinión). */
+@keyframes carrusel-progreso { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { [aria-roledescription="carrusel"] * { animation: none !important; } }

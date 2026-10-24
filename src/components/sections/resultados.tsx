@@ -1,6 +1,7 @@
 import { Quote, ShieldCheck } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Reveal } from "@/components/layout/reveal";
+import { CarruselOpiniones } from "@/components/sections/carrusel-opiniones";
 import { Foto } from "@/components/ui/foto";
 import { cursoPorSlug } from "@/content/cursos";
 import { testimoniosVisibles, type Testimonio } from "@/content/testimonios";
@@ -18,11 +19,6 @@ function iniciales(nombre: string) {
 function Tarjeta({ t, conCurso }: { t: Testimonio; conCurso: boolean }) {
   return (
     <article className="relative flex h-full flex-col rounded-2xl border border-border bg-surface p-7">
-      {t.borrador && (
-        <span className="absolute right-4 top-4 rounded-sm bg-warning/15 px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wider text-warning">
-          Borrador
-        </span>
-      )}
       <Quote size={26} className="shrink-0 text-primary" aria-hidden />
 
       <blockquote className="mt-4 grow leading-[1.7]">«{t.texto}»</blockquote>
@@ -55,21 +51,9 @@ function Tarjeta({ t, conCurso }: { t: Testimonio; conCurso: boolean }) {
   );
 }
 
-function Tira({ lista, copia = false }: { lista: Testimonio[]; copia?: boolean }) {
-  return (
-    <ul aria-hidden={copia || undefined} className={`flex shrink-0 items-stretch ${copia ? "marquesina-copia" : ""}`}>
-      {lista.map((t) => (
-        <li key={t.slug} className="w-[20rem] px-3 sm:w-[24rem] sm:px-3.5">
-          <Tarjeta t={t} conCurso />
-        </li>
-      ))}
-    </ul>
-  );
-}
-
 /**
- * «Lo que dicen de nosotros». Sin `curso`, en la portada: todos los testimonios en una marquesina.
- * Con `curso`, en la página del curso: solo los de ese curso, en rejilla. Si no hay ninguno que
+ * «Lo que dicen de nosotros». Sin `curso`, en la portada: todos los testimonios. Con `curso`, en la
+ * página del curso: solo los de ese curso. En los dos casos, en un carrusel de 15 s por opinión. Si no hay ninguno que
  * se pueda enseñar (en producción, solo los reales; ver content/testimonios.ts), no se pinta.
  */
 export function Resultados({ curso }: { curso?: string }) {
@@ -90,31 +74,13 @@ export function Resultados({ curso }: { curso?: string }) {
           </p>
         </Reveal>
 
-        {curso && (
-          <ul className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {lista.map((t, i) => (
-              <li key={t.slug} className="h-full">
-                <Reveal retardo={(i % 3) * 60} className="h-full">
-                  <Tarjeta t={t} conCurso={false} />
-                </Reveal>
-              </li>
-            ))}
-          </ul>
-        )}
+        <div className="mt-12">
+          <CarruselOpiniones
+            tarjetas={lista.map((t) => <Tarjeta key={t.slug} t={t} conCurso={!curso} />)}
+            etiquetas={lista.map((t) => t.nombre)}
+          />
+        </div>
       </Container>
-
-      {/* A sangre: la marquesina necesita todo el ancho para que el fundido de los bordes
-          coincida con el borde de la pantalla y no con el del contenedor. */}
-      {!curso && (
-        <Reveal className="mt-12">
-          <div className="marquesina">
-            <div className="marquesina-pista" style={{ ["--marquesina-duracion" as string]: "72s" }}>
-              <Tira lista={lista} />
-              <Tira lista={lista} copia />
-            </div>
-          </div>
-        </Reveal>
-      )}
     </section>
   );
 }
