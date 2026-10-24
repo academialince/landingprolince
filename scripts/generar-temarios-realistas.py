@@ -55,60 +55,83 @@ def perspective(source_size, target):
     return tuple(row[-1] for row in rows)
 
 
-def fondo(cubierta, top, bottom):
-    """Limpia la marca recreada; mantiene un degradado suave sobre el papel mate."""
-    draw = ImageDraw.Draw(cubierta)
-    for y in range(top, bottom):
-        t = (y - top) / max(1, bottom - top)
-        color = tuple(round(a * (1 - t) + b * t) for a, b in zip((0, 57, 39), (0, 40, 27)))
+def cubierta_provisional(kind, name, logo, isotipo):
+    """Una única cubierta continua: fondo, tipografía y marca comparten perspectiva."""
+    flat = Image.new('RGBA', (840, 1188))
+    draw = ImageDraw.Draw(flat)
+    for y in range(1188):
+        t = y / 1187
+        color = tuple(round(a * (1 - t) + b * t) for a, b in zip((5, 66, 46), (0, 39, 27)))
         draw.line((0, y, 839, y), fill=(*color, 255))
+
+    def font(size):
+        return ImageFont.truetype(str(SOURCES / 'Manrope-Bold.ttf'), size)
+
+    def label(x, y, value, size, anchor='la'):
+        draw.text((x + 1, y + 2), value, font=font(size), fill='#002A1D', anchor=anchor)
+        draw.text((x, y), value, font=font(size), fill='#EEF6F0', anchor=anchor)
+
+    if kind == 'resumen':
+        logo_x, logo_y, logo_w = 50, 65, 445
+        seal_x, seal_y, seal_w = 220, 720, 400
+        label(50, 255, 'TEMARIO', 156)
+        label(50, 415, 'RESUMEN', 156)
+        draw.line((50, 610, 790, 610), fill='#659D7B', width=3)
+        if name.startswith('gc-'):
+            label(50, 650, 'GUARDIA CIVIL', 34)
+        else:
+            label(50, 640, 'COLEGIO DE', 30)
+            label(50, 683, 'GUARDIAS JÓVENES', 30)
+        badge_x, badge_w, footer_size = 215, 410, 34
+    elif kind == 'ingles':
+        logo_x, logo_y, logo_w = 30, 65, 330
+        seal_x, seal_y, seal_w = 40, 700, 305
+        label(30, 270, 'TEMARIO', 78)
+        label(30, 370, 'INGLÉS', 78)
+        draw.line((30, 475, 360, 475), fill='#659D7B', width=2)
+        if name.startswith('gc-'):
+            label(30, 515, 'GUARDIA CIVIL', 28)
+        else:
+            label(30, 510, 'COLEGIO DE', 24)
+            label(30, 555, 'GUARDIAS JÓVENES', 24)
+        badge_x, badge_w, footer_size = 25, 335, 27
+    else:
+        logo_x, logo_y, logo_w = 535, 62, 280
+        seal_x, seal_y, seal_w = 550, 710, 260
+        # Se reduce el tamaño de fuente, nunca la anchura de las letras.
+        label(676, 270, 'ORTOGRAFÍA', 42, 'mm')
+        label(676, 340, 'Y GRAMÁTICA', 42, 'mm')
+        draw.line((530, 435, 820, 435), fill='#659D7B', width=2)
+        if name.startswith('gc-'):
+            label(676, 520, 'GUARDIA CIVIL', 24, 'mm')
+        else:
+            label(676, 500, 'COLEGIO DE', 23, 'mm')
+            label(676, 555, 'GUARDIAS JÓVENES', 22, 'mm')
+        badge_x, badge_w, footer_size = 530, 295, 23
+    flat.alpha_composite(logo.resize((logo_w, round(logo_w * logo.height / logo.width)), Image.Resampling.LANCZOS), (logo_x, logo_y))
+    seal = isotipo.resize((seal_w, seal_w), Image.Resampling.LANCZOS)
+    seal.putalpha(seal.getchannel('A').point(lambda a: round(a * .44)))
+    flat.alpha_composite(seal, (seal_x, seal_y))
+    draw = ImageDraw.Draw(flat)
+    draw.line((logo_x, 210 if kind == 'resumen' else 185 if kind == 'ingles' else 170,
+               logo_x + logo_w, 210 if kind == 'resumen' else 185 if kind == 'ingles' else 170), fill='#659D7B', width=2)
+    draw.rounded_rectangle((badge_x, 1080, badge_x + badge_w, 1150), radius=25, outline='#91BAA1', width=2)
+    label(badge_x + badge_w / 2, 1114, 'ACTUALIZADO 2027', footer_size, 'mm')
+    return flat
 
 
 def marca_oficial(image, name, logo, isotipo):
-    """Inserta los SVG oficiales; nunca vuelve a generar el león ni el wordmark."""
+    """Proyecta cada cubierta de una pieza; conserva cantos, lomos y sombras."""
     for plane, visible, kind in PROVISIONAL[name]:
-        quad = [plane[i] for i in (0, 3, 2, 1)]
-        flat = image.transform((840, 1188), Image.Transform.QUAD,
-            tuple(v for point in quad for v in point), Image.Resampling.BICUBIC)
-        mask = Image.new('L', flat.size)
-        mask_draw = ImageDraw.Draw(mask)
-        if kind == 'resumen':
-            header_bottom, lower_top = 230, 690 if name.startswith('gc-') else 620
-            logo_x, logo_y, logo_w = 45, 62, 445
-            seal_x, seal_y, seal_w = 220, 710, 400
-            badge_x, badge_w, font_size = 215, 410, 34
-        elif kind == 'ingles':
-            header_bottom, lower_top = 210, 610
-            logo_x, logo_y, logo_w = 30, 65, 330
-            seal_x, seal_y, seal_w = 35, 690, 310
-            badge_x, badge_w, font_size = 25, 335, 27
-        else:
-            header_bottom, lower_top = 180, 585
-            logo_x, logo_y, logo_w = 535, 62, 280
-            seal_x, seal_y, seal_w = 545, 700, 265
-            badge_x, badge_w, font_size = 530, 295, 23
-        fondo(flat, 0, header_bottom)
-        fondo(flat, lower_top, 1188)
-        flat.alpha_composite(logo.resize((logo_w, round(logo_w * logo.height / logo.width)), Image.Resampling.LANCZOS), (logo_x, logo_y))
-        seal = isotipo.resize((seal_w, seal_w), Image.Resampling.LANCZOS)
-        seal.putalpha(seal.getchannel('A').point(lambda a: round(a * .42)))
-        flat.alpha_composite(seal, (seal_x, seal_y))
-        draw = ImageDraw.Draw(flat)
-        draw.line((logo_x, header_bottom - 14, logo_x + logo_w, header_bottom - 14), fill='#699C7F', width=2)
-        draw.rounded_rectangle((badge_x, 1080, badge_x + badge_w, 1150), radius=25, outline='#91BAA1', width=2)
-        font = ImageFont.truetype(str(SOURCES / 'Manrope-Bold.ttf'), font_size)
-        draw.text((badge_x + badge_w / 2, 1114), 'ACTUALIZADO 2027', font=font, fill='#F2F8F4', anchor='mm')
-        # Solo se sustituyen cabecera y zona de emblema, conservando los títulos.
-        mask_draw.rectangle((0, 0, 839, header_bottom - 1), fill=255)
-        mask_draw.rectangle((0, lower_top, 839, 1187), fill=255)
+        flat = cubierta_provisional(kind, name, logo, isotipo)
         coeff = perspective(flat.size, plane)
         layer = flat.transform(image.size, Image.Transform.PERSPECTIVE, coeff, Image.Resampling.BICUBIC)
-        projected_mask = mask.transform(image.size, Image.Transform.PERSPECTIVE, coeff, Image.Resampling.BICUBIC)
+        mask = Image.new('L', flat.size, 255).transform(image.size, Image.Transform.PERSPECTIVE, coeff, Image.Resampling.BICUBIC)
         if visible:
             occlusion = Image.new('L', image.size)
             ImageDraw.Draw(occlusion).polygon(visible, fill=255)
-            projected_mask = ImageChops.multiply(projected_mask, occlusion)
-        image = Image.composite(layer, image, projected_mask)
+            mask = ImageChops.multiply(mask, occlusion)
+        image = Image.composite(layer, image, mask)
     return image
 
 

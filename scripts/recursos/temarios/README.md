@@ -13,9 +13,9 @@ Utiliza siempre los originales de `public/brand/prolince-logo.svg` y
 logotipo. Esta regla también está en `AGENTS.md`.
 
 Las bases WebP son escenas fotográficas intermedias: no deben publicarse
-directamente. El preparador sustituye la marca de todas las cubiertas provisionales
-por los SVG oficiales proyectados sobre el libro; conserva los títulos y la
-perspectiva. Manrope 700 se incluye con su licencia OFL para el pie de edición.
+directamente. El preparador compone cada cubierta provisional entera, con fondo continuo,
+tipografía y los SVG oficiales. Proyecta la cubierta una sola vez sobre el libro;
+conserva la perspectiva, los cantos, los lomos y las sombras de la escena. Manrope 700 se incluye con su licencia OFL para el pie de edición.
 
 Las portadas de inglés, ortografía y gramática y resumen son **provisionales**.
 Las portadas principales reales se componen por perspectiva desde
@@ -58,7 +58,7 @@ El título del libro trasero se ha compuesto con Manrope 700 a un tamaño natura
 más pequeño, sin escalar ni comprimir las letras. Se muestran las dos líneas
 exactas «ORTOGRAFÍA» y «Y GRAMÁTICA», completas y con márgenes. La única
 transformación es la perspectiva suave del plano físico de la cubierta.
-Las dos bases WebP incluyen esta corrección; no se generan sus textos con IA.
+El preparador compone los títulos con la fuente original; no se generan con IA.
 
 ## Orientación común hacia la derecha
 
