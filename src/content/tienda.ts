@@ -137,7 +137,7 @@ export const packs: Record<string, Pack[]> = {
       id: "cgj-4",
       nombre: "Pack Ahorro",
       resumen: "Un año de tests ilimitados, el temario digital y más de 30 simulacros.",
-      precio: 89.95,
+      precio: 109.95,
       pago: "unico",
       incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, "Más de 30 simulacros online", comunes.esquemasYLengua],
       destacado: "El más completo",
