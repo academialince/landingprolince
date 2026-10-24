@@ -42,11 +42,11 @@ sus detalles.
 
 ## Corrección del título de ortografía
 
-El título del libro trasero de ortografía se ha compuesto con Manrope 700,
-sin comprimir las letras para encajar el título entero en la franja visible.
-«ORTOGRAFÍA» y «Y GRAMÁTICA» ocupan la cubierta completa; el libro principal
-oculta de forma natural el comienzo de ambas líneas. Se conserva la perspectiva
-suave de la cubierta. Las dos bases WebP incluyen esta corrección.
+El título del libro trasero se ha compuesto con Manrope 700 a un tamaño natural
+más pequeño, sin escalar ni comprimir las letras. Se muestran las dos líneas
+exactas «ORTOGRAFÍA» y «Y GRAMÁTICA», completas y con márgenes. La única
+transformación es la perspectiva suave del plano físico de la cubierta.
+Las dos bases WebP incluyen esta corrección; no se generan sus textos con IA.
 
 ## Orientación común hacia la derecha
 
@@ -58,4 +58,4 @@ portadas, curso, estilo realista, sombras suaves y transparencia».
 
 La preparación vuelve a aplicar las portadas principales reales en su nueva
 perspectiva. El título de ortografía sigue compuesto sin compresión horizontal
-y queda parcialmente oculto detrás del libro principal.
+y con las dos líneas completas en la zona visible de la cubierta.
