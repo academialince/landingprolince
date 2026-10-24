@@ -7,3 +7,10 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Identidad de marca
+
+Utiliza siempre los logos oficiales de la landing de `public/brand/`, también en
+miniaturas, mockups y portadas provisionales. No dibujes ni generes con IA variantes
+del león, del isotipo o del logotipo. Compón los SVG originales sobre la imagen.
+Conserva las portadas reales suministradas como originales, sin redibujarlas.

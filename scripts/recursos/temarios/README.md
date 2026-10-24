@@ -3,7 +3,19 @@
 Bases creadas con la herramienta integrada de generación de imágenes, siguiendo
 la preferencia de Marcos: «Libros realistas, con volumen y sombras suaves».
 Se conservan en WebP de calidad 95 con transparencia. Las miniaturas públicas se
-preparan con `python3 scripts/generar-temarios-realistas.py`.
+preparan con `python3 scripts/generar-temarios-realistas.py` (Pillow y Sharp).
+
+## Marca oficial
+
+Utiliza siempre los originales de `public/brand/prolince-logo.svg` y
+`public/brand/prolince-logo-horizontal-negativo.svg`, los mismos que consume
+`src/components/ui/logo.tsx`. No generes ni dibujes variantes del león ni del
+logotipo. Esta regla también está en `AGENTS.md`.
+
+Las bases WebP son escenas fotográficas intermedias: no deben publicarse
+directamente. El preparador sustituye la marca de todas las cubiertas provisionales
+por los SVG oficiales proyectados sobre el libro; conserva los títulos y la
+perspectiva. Manrope 700 se incluye con su licencia OFL para el pie de edición.
 
 Las portadas de inglés, ortografía y gramática y resumen son **provisionales**.
 Las portadas principales reales se componen por perspectiva desde
