@@ -13,7 +13,7 @@ export function CtaFinal() {
           <div className="grid items-center gap-14 py-20 lg:grid-cols-[1.2fr_0.8fr]">
           <div className="max-w-[40rem]">
             <p className="text-eyebrow uppercase text-[var(--color-acento,var(--color-primary))]">Misión</p>
-            <h2 className="text-display-l mt-4">La plaza no se saca en un día, pero se empieza en uno</h2>
+            <h2 className="text-display-l mt-4">Empieza hoy. Te acompañamos hasta tu plaza</h2>
             <p className="text-body-lg text-white/75 mt-5">
               {cursosAbiertos
                 ? "Crea tu cuenta y prueba gratis 7 días la suscripción de tests: tests ilimitados, esquemas, ortografía, gramática e inglés."
