@@ -20,6 +20,8 @@ import { entradasRelacionadas, slugsPublicados } from "@/lib/blog";
 import { packs, rangoPrecios } from "@/content/tienda";
 import { PacksCurso } from "@/components/tienda/packs-curso";
 import { programas } from "@/content/temario";
+import { temarios } from "@/content/temarios";
+import { TarjetaTemario } from "@/components/temarios/tarjeta-temario";
 import { PruebasRepaso } from "@/components/cursos/pruebas-repaso";
 import { Resultados } from "@/components/sections/resultados";
 import Link from "next/link";
@@ -55,6 +57,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
   if (!cursosVisibles) redirect(rutas.waitlist);
   const programa = programas[curso.slug];
   const publicados = await slugsPublicados();
+  const librosCurso = temarios.find((t) => t.slug === curso.slug);
 
   // Enlazado de vuelta al blog: primero los artículos de este curso; si aún no hay, los últimos.
   const delCurso = await entradasRelacionadas("", curso.slug);
@@ -256,6 +259,25 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
               Ver el temario completo, tema a tema
               <ArrowRight size={18} aria-hidden />
             </Button>
+          )}
+
+          {librosCurso && (
+            <div className="mt-14">
+              <h3 className="text-h3">El temario en papel</h3>
+              <p className="mt-2 max-w-[46rem] text-muted-foreground">
+                Actualizado a 2027 y en casa en 48 horas. Elige el pack completo, con los libros de inglés y de ortografía y
+                gramática, o el libro resumen para repasar.
+              </p>
+              <ul className="mt-6 grid gap-6 lg:grid-cols-2">
+                {librosCurso.modalidades.map((m, i) => (
+                  <li key={m.id}>
+                    <Reveal retardo={i * 60} className="h-full">
+                      <TarjetaTemario m={m} curso={curso.nombreCorto} />
+                    </Reveal>
+                  </li>
+                ))}
+              </ul>
+            </div>
           )}
         </Section>
       )}
