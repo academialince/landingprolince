@@ -29,7 +29,13 @@ export type Curso = {
   imagenAlt: string;
   destacados: { valor: string; etiqueta: string }[];
   secciones: Seccion[];
-  paraQuien: { titulo: string; texto: string; puntos: string[] };
+  paraQuien: {
+    titulo: string;
+    texto: string;
+    puntos: string[];
+    /** Foto del bloque, en el marco de visor. PENDIENTE: foto de un agente de la UCO (con derechos de uso). */
+    foto?: { src: string; alt: string; etiqueta: string; pie: string; dato?: string };
+  };
   requisitos: { titulo: string; nota: string; lista: string[] };
   pruebas: { nombre: string; detalle: string }[];
   incluye: { icono: string; titulo: string; detalle: string }[];
@@ -80,6 +86,14 @@ export const cursos: Curso[] = [
         "Llevas el temario pero no has hecho nunca un examen con cronómetro",
         "Necesitas que alguien te ordene la semana, no más PDF",
       ],
+      foto: {
+        // provisional hasta tener la de la UCO
+        src: "/tactico/trafico-restaurada-4k.jpg",
+        alt: "Guardia civil de la Agrupación de Tráfico en moto al atardecer, sobre una ciudad",
+        etiqueta: "OBJ · Tu perfil",
+        pie: "Empieza donde estás",
+        dato: "Guardia Civil",
+      },
     },
     requisitos: {
       titulo: "Qué te piden para presentarte",
@@ -215,6 +229,14 @@ export const cursos: Curso[] = [
         "Necesitas compaginar la preparación con el curso escolar",
         "Vas a presentarte por primera vez y no sabes qué se exige",
       ],
+      foto: {
+        // provisional hasta tener la de la UCO
+        src: "/tactico/trafico-restaurada-4k.jpg",
+        alt: "Guardia civil de la Agrupación de Tráfico en moto al atardecer, sobre una ciudad",
+        etiqueta: "OBJ · Tu perfil",
+        pie: "Empieza donde estás",
+        dato: "Guardia Civil",
+      },
     },
     requisitos: {
       titulo: "Qué te piden para presentarte",

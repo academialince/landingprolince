@@ -23,6 +23,7 @@ import { programas } from "@/content/temario";
 import { temarios } from "@/content/temarios";
 import { TarjetaTemario } from "@/components/temarios/tarjeta-temario";
 import { PruebasRepaso } from "@/components/cursos/pruebas-repaso";
+import { MarcoTactico } from "@/components/ui/marco-tactico";
 import { Resultados } from "@/components/sections/resultados";
 import Link from "next/link";
 
@@ -133,16 +134,30 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
         titulo={curso.paraQuien.titulo}
         entradilla={curso.paraQuien.texto}
       >
-        <ul className="grid gap-3 sm:grid-cols-2">
-          {curso.paraQuien.puntos.map((p, i) => (
-            <Reveal key={p} retardo={(i % 2) * 50}>
-              <li className="flex items-start gap-3 rounded-xl border border-border bg-surface p-5">
-                <Check size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
-                <span className="font-medium">{p}</span>
-              </li>
-            </Reveal>
-          ))}
-        </ul>
+        <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-16">
+          <Reveal>
+            {/* todos los puntos en una sola caja */}
+            <ul className="divide-y divide-border rounded-xl border border-border bg-surface">
+              {curso.paraQuien.puntos.map((p) => (
+                <li key={p} className="flex items-start gap-4 px-6 py-5">
+                  <Check size={20} className="mt-0.5 shrink-0 text-primary" aria-hidden />
+                  <span className="text-body-lg font-medium">{p}</span>
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+          {curso.paraQuien.foto && (
+            <MarcoTactico
+              src={curso.paraQuien.foto.src}
+              alt={curso.paraQuien.foto.alt}
+              etiqueta={curso.paraQuien.foto.etiqueta}
+              pie={curso.paraQuien.foto.pie}
+              dato={curso.paraQuien.foto.dato}
+              sizes="(max-width: 1024px) 80vw, 352px"
+              className="max-w-[22rem]"
+            />
+          )}
+        </div>
       </Section>
 
       <Section
