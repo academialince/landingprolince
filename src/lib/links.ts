@@ -35,6 +35,7 @@ export const rutas = {
   blog: "/blog",
   nosotros: "/nosotros",
   tienda: "/tienda",
+  calculadora: "/calculadora-nota-guardia-civil",
   /** Página de temario de cada curso (para posicionar en «temario …»). */
   temario: (slug: string) =>
     ({ "acceso-guardia-civil": "/temario-guardia-civil", "colegio-guardias-jovenes": "/temario-colegio-guardias-jovenes" })[slug],

@@ -116,6 +116,11 @@ export function Footer() {
                   </li>
                 ) : null,
               )}
+              <li>
+                <Link href={rutas.calculadora} className="text-white/80 hover:text-white">
+                  Calculadora de nota
+                </Link>
+              </li>
             </ul>
           </nav>
           )}

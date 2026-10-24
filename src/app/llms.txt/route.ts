@@ -34,6 +34,7 @@ export async function GET() {
     "",
     `- [Inicio](${absoluteUrl("/")})`,
     ...cursos.flatMap((c) => (rutas.temario(c.slug) ? [`- [Temario ${c.nombreCorto}](${absoluteUrl(rutas.temario(c.slug)!)}): todos los temas del programa oficial, qué normas entran en cada uno y cómo se examinan.`] : [])),
+    `- [Calculadora de nota del examen de Guardia Civil](${absoluteUrl(rutas.calculadora)}): herramienta gratis con la fórmula oficial de 2026 (penalización de un tercio por error, mínimos de cada prueba y concurso).`,
     `- [Packs y precios](${absoluteUrl(rutas.tienda)}): suscripción mensual de tests con 7 días de prueba gratis, simulacros, temarios y pack completo, por curso.`,
     `- [Nosotros](${absoluteUrl(rutas.nosotros)})`,
     `- [Blog](${absoluteUrl(rutas.blog)})`,
