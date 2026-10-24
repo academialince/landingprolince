@@ -1,5 +1,5 @@
 import { site } from "@/content/site";
-import { categorias, DIAS_CONSENTIMIENTO } from "@/content/cookies";
+import { categorias, DIAS_CONSENTIMIENTO, hayCookiesOpcionales } from "@/content/cookies";
 import { BotonConfigurarCookies } from "@/components/cookies/boton-configurar-cookies";
 import { metadataPagina } from "@/lib/seo";
 import { rutas } from "@/lib/links";
@@ -73,13 +73,25 @@ export default function Cookies() {
         </>
       )}
 
-      <h2>Cómo cambiar tu elección</h2>
-      <p>
-        Puedes aceptar, rechazar o configurar las cookies no necesarias cuando quieras, desde el enlace «Configurar cookies»
-        del pie de la web o aquí mismo:{" "}
-        <BotonConfigurarCookies className="font-semibold text-primary hover:underline" />. Guardamos tu elección durante{" "}
-        {DIAS_CONSENTIMIENTO / 30} meses; pasado ese plazo, o si cambian las herramientas, te volveremos a preguntar.
-      </p>
+      {hayCookiesOpcionales ? (
+        <>
+          <h2>Cómo cambiar tu elección</h2>
+          <p>
+            Puedes aceptar, rechazar o configurar las cookies no necesarias cuando quieras, desde el enlace «Configurar
+            cookies» del pie de la web o aquí mismo:{" "}
+            <BotonConfigurarCookies className="font-semibold text-primary hover:underline" />. Guardamos tu elección durante{" "}
+            {DIAS_CONSENTIMIENTO / 30} meses; pasado ese plazo, o si cambian las herramientas, te volveremos a preguntar.
+          </p>
+        </>
+      ) : (
+        <>
+          <h2>Por qué no te mostramos un aviso de cookies</h2>
+          <p>
+            Como solo usamos cookies necesarias, exentas de consentimiento, no hay nada que aceptar ni rechazar. Si algún día
+            añadimos cookies de analítica o de marketing, te pediremos permiso antes de activarlas.
+          </p>
+        </>
+      )}
       <p>
         También puedes borrar o bloquear las cookies desde la configuración de tu navegador (Chrome, Safari, Firefox o Edge).
         Si bloqueas las necesarias, puede que alguna función de la web deje de ir bien.

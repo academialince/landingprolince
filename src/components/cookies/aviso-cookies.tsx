@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Cookie, X } from "lucide-react";
-import { categorias } from "@/content/cookies";
+import { categorias, hayCookiesOpcionales } from "@/content/cookies";
 import { EVENTO_ABRIR_PANEL, guardarConsentimiento, useConsentimiento } from "@/lib/consentimiento";
 import { rutas } from "@/lib/links";
 
@@ -17,6 +17,10 @@ const secundario = `${boton} border border-border-strong text-foreground hover:b
  * peso visual, como pide la guía de la AEPD, y la elección se puede cambiar desde el pie.
  */
 export function AvisoCookies() {
+  return hayCookiesOpcionales ? <AvisoYPanel /> : null;
+}
+
+function AvisoYPanel() {
   const consentimiento = useConsentimiento();
   const panel = useRef<HTMLDialogElement>(null);
   const [eleccion, setEleccion] = useState({ analitica: false, marketing: false });

@@ -70,3 +70,10 @@ export const categorias: {
     elementos: [],
   },
 ];
+
+/**
+ * Solo hace falta pedir consentimiento si hay alguna cookie no necesaria. Mientras analítica y
+ * marketing estén vacías, el aviso y el enlace «Configurar cookies» no se enseñan: aparecen solos
+ * en cuanto se apunte aquí una herramienta.
+ */
+export const hayCookiesOpcionales = categorias.some((c) => !c.obligatoria && c.elementos.length > 0);
