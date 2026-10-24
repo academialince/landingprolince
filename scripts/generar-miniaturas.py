@@ -1,9 +1,9 @@
-"""Genera las 10 miniaturas con Pillow y Sharp (logos SVG), sin alterar las portadas reales.
+"""Genera las miniaturas de packs y prepara los temarios desde sus fuentes fotográficas.
 
 Uso: python3 scripts/generar-miniaturas.py
 Requiere Pillow; descarga Barlow Condensed 800 y Manrope 500 de Google Fonts en la
-carpeta temporal. Las portadas de inglés, ortografía y resumen son PROVISIONALES:
-sustituirlas por las definitivas cuando estén disponibles.
+carpeta temporal. Los temarios se preparan con generar-temarios-realistas.py;
+sus fuentes de imagen se conservan en scripts/recursos/temarios.
 """
 from pathlib import Path
 from tempfile import gettempdir
@@ -42,50 +42,6 @@ def shadow(im, polygon, blur=25, opacity=100):
     layer = Image.new('RGBA', im.size)
     ImageDraw.Draw(layer).polygon(polygon, fill=(0, 0, 0, opacity))
     im.alpha_composite(layer.filter(ImageFilter.GaussianBlur(blur)))
-
-
-def cover(course, kind):
-    # PROVISIONAL: no hay portadas oficiales de inglés, ortografía ni resumen.
-    im = Image.new('RGBA', (840, 1188), '#003B29')
-    d = ImageDraw.Draw(im)
-    for y in range(1188):
-        d.line((0, y, 840, y), fill=(0, int(65 - y / 75), int(43 - y / 100)))
-    paste(im, SEAL, (530, 620), (430, 430))
-    # Velo sobre el sello de fondo para mantener los títulos legibles.
-    veil = Image.new('RGBA', im.size, (0, 45, 30, 155))
-    im.alpha_composite(veil)
-    paste(im, SEAL, (340, 75), (160, 160))
-    text(im, (58, 68), 'ACADEMIA', 24, MUTED, 'manrope')
-    text(im, (58, 102), 'PROLINCE', 40)
-    d = ImageDraw.Draw(im)
-    d.line((58, 260, 782, 260), fill=MUTED, width=2)
-    titles = {'ingles': ['TEMARIO', 'INGLÉS'], 'ortografia': ['ORTOGRAFÍA', 'Y GRAMÁTICA'], 'resumen': ['TEMARIO', 'RESUMEN']}[kind]
-    for i, title in enumerate(titles):
-        text(im, (58, 315 + i * 116), title, 106 if kind != 'ortografia' else 90)
-    text(im, (58, 640), 'GUARDIA CIVIL' if course == 'gc' else 'COLEGIO DE', 39)
-    if course != 'gc':
-        text(im, (58, 688), 'GUARDIAS JÓVENES', 48)
-    d.rectangle((58, 804, 300, 813), fill=GREEN)
-    d.rectangle((0, 1000, 840, 1188), fill='#EDF6EF')
-    text(im, (58, 1040), 'ACTUALIZADO 2027', 58, '#005238')
-    return im
-
-
-def book(im, front, x, y, w, h, spine=30):
-    rise = int(w * .10)
-    shadow(im, [(x-30, y+h-10), (x+w+50, y+h-rise), (x+w+85, y+h+35), (x, y+h+60)], 22, 100)
-    d = ImageDraw.Draw(im)
-    d.polygon([(x-spine,y-14), (x,y), (x,y+h), (x-spine,y+h-14)], fill='#005238')
-    d.line((x-spine+5,y+4,x-spine+5,y+h-23), fill='#4A8F6D',width=3)
-    d.polygon([(x,y+h), (x+w,y+h-rise), (x+w-8,y+h-rise+16), (x-6,y+h+16)], fill='#D5E2D9')
-    for offset in (4,8,12):
-        d.line((x,y+h+offset,x+w-10,y+h-rise+offset),fill='#9CAD9E',width=1)
-    scaled = front.resize((w,h), Image.Resampling.LANCZOS)
-    layer = scaled.transform(im.size, Image.Transform.AFFINE, (1,0,-x,rise/w,1,-y-rise*x/w), Image.Resampling.BICUBIC)
-    im.alpha_composite(layer)
-    d = ImageDraw.Draw(im)
-    d.line((x,y,x+w,y-rise), fill='#91B69D',width=2)
-    d.line((x+4,y+4,x+4,y+h-3), fill=(160,210,180,100),width=2)
 
 
 def phone():
@@ -178,18 +134,7 @@ for course in ('gc','cgj'):
         path=ROOT/f'public/packs/{course}-{suffix}.webp'
         path.parent.mkdir(parents=True,exist_ok=True)
         pack(course,kind).save(path,'WEBP',quality=88,method=6)
-    original=Image.open(ROOT/f"public/temarios/{'guardia-civil' if course=='gc' else 'guardias-jovenes'}/001.webp").convert('RGBA')
-    for kind in ('completo','resumen'):
-        im=Image.new('RGBA',(1200,1200))
-        if kind=='completo':
-            book(im,cover(course,'ortografia'),850,245,285,700,24)
-            book(im,cover(course,'ingles'),535,180,300,760,25)
-            book(im,original,70,290,450,800,38)
-        else:
-            book(im,cover(course,'resumen'),300,180,615,888,19)
-        path=ROOT/f'public/temarios/miniaturas/{course}-libro-{kind}.webp'
-        path.parent.mkdir(parents=True,exist_ok=True)
-        im.save(path,'WEBP',quality=88,method=6)
+subprocess.run(['python3', str(ROOT / 'scripts/generar-temarios-realistas.py')], check=True)
 for folder in ('packs','temarios/miniaturas'):
     for path in sorted((ROOT/'public'/folder).glob('*.webp')):
         print(f'{path.relative_to(ROOT)}: {path.stat().st_size / 1000:.1f} KB · {Image.open(path).size}')
