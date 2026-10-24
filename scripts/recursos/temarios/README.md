@@ -47,3 +47,15 @@ sin comprimir las letras para encajar el título entero en la franja visible.
 «ORTOGRAFÍA» y «Y GRAMÁTICA» ocupan la cubierta completa; el libro principal
 oculta de forma natural el comienzo de ambas líneas. Se conserva la perspectiva
 suave de la cubierta. Las dos bases WebP incluyen esta corrección.
+
+## Orientación común hacia la derecha
+
+Prompt de edición aplicado a los dos packs y al resumen del Colegio: «Rota los
+libros físicamente para que todos miren hacia la derecha, como el resumen de
+Guardia Civil: lomo verde visible a la izquierda y bordes de la portada que
+ascienden suavemente hacia la derecha. No reflejes letras ni logotipos. Conserva
+portadas, curso, estilo realista, sombras suaves y transparencia».
+
+La preparación vuelve a aplicar las portadas principales reales en su nueva
+perspectiva. El título de ortografía sigue compuesto sin compresión horizontal
+y queda parcialmente oculto detrás del libro principal.

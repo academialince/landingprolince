@@ -11,10 +11,10 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / 'scripts/recursos/temarios'
 OUTPUT = ROOT / 'public/temarios/miniaturas'
 # Vértices de la cara frontal: superior izquierdo, superior derecho,
-# inferior derecho, inferior izquierdo, en coordenadas normalizadas a 1280 × 1280.
+# inferior derecho, inferior izquierdo, en coordenadas normalizadas a 1254 × 1254.
 FRONTS = {
-    'gc': [(277, 164), (930, 202), (902, 1196), (274, 1084)],
-    'cgj': [(277, 164), (927, 207), (915, 1205), (277, 1114)],
+    'gc': [(364, 165), (991, 103), (990, 1095), (364, 1180)],
+    'cgj': [(357, 175), (1013, 113), (1013, 1112), (357, 1202)],
 }
 
 
@@ -46,7 +46,7 @@ for course, folder in [('gc', 'guardia-civil'), ('cgj', 'guardias-jovenes')]:
         if kind == 'completo':
             original = Image.open(ROOT / f'public/temarios/{folder}/001.webp').convert('RGBA')
             texture = original.transform(image.size, Image.Transform.PERSPECTIVE,
-                perspective(original.size, [(x * image.width / 1280, y * image.height / 1280)
+                perspective(original.size, [(x * image.width / 1254, y * image.height / 1254)
                     for x, y in FRONTS[course]]), Image.Resampling.BICUBIC)
             image.alpha_composite(texture)
         # Margen constante: ni libros ni sombras quedan pegados al borde de la tarjeta.
