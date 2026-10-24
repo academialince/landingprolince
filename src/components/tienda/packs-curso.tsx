@@ -28,7 +28,7 @@ export function PacksCurso({ slug }: { slug: string }) {
                 : "border-border"
             }`}
           >
-            {/* imagen provisional, generada con la marca */}
+            {/* Miniatura del pack compartida con los datos estructurados. */}
             <div className="reflejo relative -mx-6 -mt-6 mb-5 aspect-[8/5] overflow-hidden rounded-t-2xl border-b border-border">
               <Image src={imagenPack(p.id)} alt="" fill unoptimized sizes="(max-width: 640px) 100vw, 320px" className="object-cover" />
             </div>

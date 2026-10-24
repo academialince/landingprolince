@@ -197,5 +197,5 @@ export const condiciones = [
   "El pago se procesa con Stripe. Esta web no recoge datos de tarjeta en ningún momento.",
 ];
 
-/** Imagen provisional del pack (generada con la marca hasta que haya fotos propias). */
-export const imagenPack = (id: string) => `/tienda/imagen/${id}`;
+/** Miniatura de marca de cada pack, compartida por las tarjetas y el JSON-LD. */
+export const imagenPack = (id: string) => `/packs/${id}.webp`;

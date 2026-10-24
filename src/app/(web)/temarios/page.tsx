@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, BookOpen, Check, Truck } from "lucide-react";
+import { ArrowRight, Check, Truck } from "lucide-react";
 import { PageHero } from "@/components/layout/page-hero";
 import { Section } from "@/components/layout/section";
 import { Reveal } from "@/components/layout/reveal";
@@ -40,14 +40,8 @@ function Tarjeta({ m, curso }: { m: ModalidadTemario; curso: string }) {
         <span className="absolute -top-3 left-6 z-10 rounded-full bg-primary px-3 py-1 text-eyebrow uppercase text-primary-fg">{m.destacado}</span>
       )}
       <div className="flex gap-5">
-        <div className="reflejo relative aspect-[1191/1684] w-24 shrink-0 overflow-hidden rounded-md border border-border bg-primary-deep shadow-[0_10px_24px_-12px_rgba(0,0,0,0.6)]">
-          {m.ejemplo ? (
-            <Image src={m.ejemplo.portada} alt="" fill unoptimized className="object-cover" />
-          ) : (
-            <span className="absolute inset-0 grid place-items-center text-white/70">
-              <BookOpen size={28} aria-hidden />
-            </span>
-          )}
+        <div className="reflejo relative aspect-square w-36 shrink-0 overflow-hidden rounded-md border border-border bg-primary-deep shadow-[0_10px_24px_-12px_rgba(0,0,0,0.6)]">
+          <Image src={m.miniatura} alt="" fill unoptimized sizes="144px" className="object-contain" />
         </div>
         <div className="min-w-0">
           <h3 className="text-h3">{m.nombre}</h3>
@@ -139,7 +133,7 @@ export default function Temarios() {
                 "@type": "Product",
                 name: `${m.nombre} · Temario ${cursoPorSlug(t.slug)?.nombreCorto} 2027`,
                 description: m.resumen,
-                image: m.ejemplo ? absoluteUrl(m.ejemplo.portada) : undefined,
+                image: absoluteUrl(m.miniatura),
                 brand: { "@type": "Brand", name: site.nombreLargo },
                 offers: { "@type": "Offer", price: m.precio, priceCurrency: "EUR", availability: "https://schema.org/InStock", url: absoluteUrl(`/temarios#${t.ancla}`) },
               }}

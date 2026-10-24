@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { BotonWhatsapp } from "@/components/layout/whatsapp";
+import { AvisoCookies } from "@/components/cookies/aviso-cookies";
 import { scriptTema } from "@/components/layout/boton-tema";
 
 /** Armazón de la web pública. El panel vive fuera de este grupo y no hereda nada de aquí. */
@@ -17,6 +18,7 @@ export default function WebLayout({ children }: { children: ReactNode }) {
       <main id="contenido">{children}</main>
       <Footer />
       <BotonWhatsapp />
+      <AvisoCookies />
     </div>
   );
 }

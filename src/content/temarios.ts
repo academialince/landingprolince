@@ -17,6 +17,7 @@ export type ModalidadTemario = {
   id: string;
   nombre: string;
   resumen: string;
+  miniatura: string;
   incluye: string[];
   precio: number | null;
   destacado?: string;
@@ -50,6 +51,7 @@ export const temarios: TemarioCurso[] = [
     modalidades: [
       {
         id: "gc-libro-completo",
+        miniatura: "/temarios/miniaturas/gc-libro-completo.webp",
         nombre: "Pack completo",
         resumen: "Los tres libros para preparar la oposición entera, con el temario actualizado a 2027.",
         incluye: [
@@ -63,6 +65,7 @@ export const temarios: TemarioCurso[] = [
       },
       {
         id: "gc-libro-resumen",
+        miniatura: "/temarios/miniaturas/gc-libro-resumen.webp",
         nombre: "Libro resumen",
         resumen: "El temario condensado en un solo libro, para repasar lo esencial de cada tema.",
         incluye: ["Libro resumen del temario actualizado 2027"],
@@ -77,6 +80,7 @@ export const temarios: TemarioCurso[] = [
     modalidades: [
       {
         id: "cgj-libro-completo",
+        miniatura: "/temarios/miniaturas/cgj-libro-completo.webp",
         nombre: "Pack completo",
         resumen: "Los tres libros para preparar el acceso al Colegio, con el temario actualizado a 2027.",
         incluye: [
@@ -90,6 +94,7 @@ export const temarios: TemarioCurso[] = [
       },
       {
         id: "cgj-libro-resumen",
+        miniatura: "/temarios/miniaturas/cgj-libro-resumen.webp",
         nombre: "Libro resumen",
         resumen: "El temario del Colegio condensado en un solo libro, para repasar lo esencial.",
         incluye: ["Libro resumen del temario actualizado 2027"],

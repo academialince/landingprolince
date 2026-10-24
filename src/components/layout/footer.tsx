@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BotonConfigurarCookies } from "@/components/cookies/boton-configurar-cookies";
 import { Mail, MessageCircle, Phone } from "lucide-react";
 import { MarcaCompleta } from "@/components/ui/logo";
 import { Container } from "./container";
@@ -148,6 +149,9 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <BotonConfigurarCookies className="text-left text-white/80 hover:text-white" />
+              </li>
             </ul>
           </nav>
         </div>
