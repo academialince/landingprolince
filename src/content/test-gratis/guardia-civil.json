@@ -1,0 +1,954 @@
+[
+ {
+  "id": "2a4d7dc3",
+  "tema": 1,
+  "temaTitulo": "Derechos Humanos",
+  "pregunta": "Consejo de Derechos Humanos de la ONU. Según la Resolución 60/251, los miembros elegidos al Consejo, durante el período en que sean miembros:",
+  "opciones": [
+   "Quedarán exentos del mecanismo de examen periódico universal",
+   "Solo podrán ser examinados si lo acuerda la Asamblea General",
+   "Estarán sujetos al mecanismo de examen periódico universal",
+   "Serán examinados por el Comité de Derechos Humanos del PIDCP"
+  ],
+  "correcta": 2,
+  "explicacion": "Apartado 9 de la Resolución 60/251: los miembros del Consejo deben aplicar las normas más estrictas, cooperar plenamente y están sujetos al examen periódico universal mientras sean miembros. No hay exención ni examen por el Comité del PIDCP."
+ },
+ {
+  "id": "77752a1c",
+  "tema": 1,
+  "temaTitulo": "Derechos Humanos",
+  "pregunta": "Pacto Internacional de Derechos Civiles y Políticos. Según el Pacto, toda persona privada de libertad será tratada:",
+  "opciones": [
+   "Según las normas del Estado de su nacionalidad",
+   "Humanamente y con el respeto debido a la dignidad inherente al ser humano",
+   "Con arreglo a la gravedad del delito cometido",
+   "Conforme al régimen que determine la administración penitenciaria"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 10.1 del PIDCP: toda persona privada de libertad será tratada humanamente y con el respeto debido a la dignidad inherente al ser humano."
+ },
+ {
+  "id": "6c50bbc8",
+  "tema": 2,
+  "temaTitulo": "Igualdad efectiva de mujeres y hombres",
+  "pregunta": "Ley Orgánica para la igualdad efectiva de mujeres y hombres. El principio de igualdad en el empleo público. Según la Ley, las Administraciones públicas deberán establecer medidas efectivas para eliminar cualquier discriminación retributiva por razón de sexo:",
+  "opciones": [
+   "Solo directa",
+   "Solo la que afecte al personal funcionario",
+   "Solo la que resulte de los convenios colectivos",
+   "Directa o indirecta"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 51.f) de la LO 3/2007: las Administraciones deberán establecer medidas efectivas para eliminar cualquier discriminación retributiva, directa o indirecta, por razón de sexo. El precepto no distingue entre clases de personal."
+ },
+ {
+  "id": "11ea283c",
+  "tema": 2,
+  "temaTitulo": "Igualdad efectiva de mujeres y hombres",
+  "pregunta": "Ley Orgánica para la igualdad efectiva de mujeres y hombres. Disposiciones organizativas. Según la Ley, la composición y el funcionamiento de la Comisión Interministerial de Igualdad entre mujeres y hombres:",
+  "opciones": [
+   "Los fija la propia Ley en su articulado",
+   "Se determinarán reglamentariamente",
+   "Los aprueban las Cortes Generales",
+   "Los acuerda la Conferencia Sectorial de la Mujer"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 76 de la LO 3/2007: la composición y funcionamiento de la Comisión Interministerial se determinarán reglamentariamente. La Ley solo la define como órgano colegiado de coordinación de las políticas ministeriales. Preguntado en examen: 2020."
+ },
+ {
+  "id": "af9f58be",
+  "tema": 2,
+  "temaTitulo": "Igualdad efectiva de mujeres y hombres",
+  "pregunta": "Ley Orgánica para la igualdad efectiva de mujeres y hombres. El principio de igualdad y la tutela contra la discriminación. Una empresa decide no renovar el contrato de una trabajadora al conocer que está embarazada. Según la Ley, esta conducta constituye:",
+  "opciones": [
+   "Discriminación directa por razón de sexo",
+   "Discriminación indirecta por razón de sexo",
+   "Acoso por razón de sexo",
+   "Una vulneración de la indemnidad frente a represalias"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 8 de la LO 3/2007: todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad constituye discriminación directa por razón de sexo. No es indirecta, no es acoso y la indemnidad del art. 9 exige una represalia por reclamar. Preguntado en examen: 2021-2."
+ },
+ {
+  "id": "38cdec3a",
+  "tema": 3,
+  "temaTitulo": "Prevención de riesgos laborales",
+  "pregunta": "Real Decreto sobre prevención de riesgos laborales en la Guardia Civil. En supuestos de riesgo grave e inminente, el personal afectado deberá estar informado de su existencia y de las medidas adoptadas o que deban adoptarse:",
+  "opciones": [
+   "Siempre que sea posible.",
+   "En todo caso y por escrito.",
+   "Cuando lo autorice el mando de la unidad.",
+   "En el plazo máximo de veinticuatro horas."
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 11, último párrafo, del RD 179/2005: la información al personal afectado se exige siempre que sea posible, dadas las circunstancias del servicio."
+ },
+ {
+  "id": "4386f1f8",
+  "tema": 3,
+  "temaTitulo": "Prevención de riesgos laborales",
+  "pregunta": "Real Decreto de adaptación de la legislación de prevención de riesgos laborales a la Administración General del Estado. El Plan de Prevención de Riesgos Laborales habrá de reflejarse en un documento que se conservará a disposición de…:",
+  "opciones": [
+   "Las autoridades sanitarias.",
+   "Los representantes de los trabajadores.",
+   "La autoridad laboral.",
+   "Todos los mencionados en las opciones anteriores."
+  ],
+  "correcta": 3,
+  "explicacion": "Pregunta oficial del examen de acceso a la Escala de Cabos y Guardias de la Guardia Civil, convocatoria 2021, ejercicio 1, modelo A, pregunta 15. Respuesta correcta según la plantilla oficial del Tribunal de Selección: D) Todos los mencionados en las opciones anteriores. Si la norma se ha modificado después del examen, prevalece la redacción vigente."
+ },
+ {
+  "id": "8bc1d5a9",
+  "tema": 3,
+  "temaTitulo": "Prevención de riesgos laborales",
+  "pregunta": "Real Decreto de adaptación de la legislación de prevención de riesgos laborales a la Administración General del Estado. La Comisión Técnica de Prevención de Riesgos Laborales, dependiente de la Mesa General de Negociación de la AGE, está regulada en:",
+  "opciones": [
+   "El artículo 15.1 de la Ley 30/1984, de medidas para la reforma de la Función Pública.",
+   "El artículo 10.3 de la Ley Orgánica 11/1985, de Libertad Sindical.",
+   "El artículo 34.2 de la Ley 31/1995, de Prevención de Riesgos Laborales.",
+   "El artículo 36.3 de la Ley 7/2007, del Estatuto Básico del Empleado Público."
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 4.2 del RD 67/2010: la Comisión Técnica se regula por el art. 36.3 del Estatuto Básico del Empleado Público y se configura como órgano de participación y negociación según su art. 37."
+ },
+ {
+  "id": "9dd35cc3",
+  "tema": 4,
+  "temaTitulo": "Derecho Constitucional",
+  "pregunta": "Constitución Española. Del Tribunal Constitucional. Cuando una sentencia del Tribunal Constitucional declara la inconstitucionalidad de parte de una ley, salvo que el fallo disponga otra cosa:",
+  "opciones": [
+   "Quedará anulada la ley en su totalidad",
+   "La ley quedará suspendida hasta su reforma por las Cortes",
+   "Subsistirá la vigencia de la ley en la parte no afectada por la inconstitucionalidad",
+   "La parte no afectada deberá ser convalidada expresamente por el Congreso en el plazo de treinta días"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 164.2 CE: salvo que en el fallo se disponga otra cosa, subsistirá la vigencia de la ley en la parte no afectada por la inconstitucionalidad. Preguntado en examen: 2017-1 y 2022-1."
+ },
+ {
+  "id": "ac99eb68",
+  "tema": 4,
+  "temaTitulo": "Derecho Constitucional",
+  "pregunta": "Constitución. De los derechos y deberes fundamentales. Se garantiza la libertad ideológica, religiosa y de culto de los individuos y las comunidades sin más limitación, en sus manifestaciones, que la necesaria para:",
+  "opciones": [
+   "El mantenimiento de la libertad religiosa protegido por la ley.",
+   "El mantenimiento del orden público protegido por la ley.",
+   "El mantenimiento de la libertad de expresión protegida por la Constitución.",
+   "Todas las opciones son correctas."
+  ],
+  "correcta": 1,
+  "explicacion": "Pregunta oficial del examen de acceso a la Escala de Cabos y Guardias de la Guardia Civil, convocatoria 2017, ejercicio 1, modelo A, pregunta 6. Respuesta correcta según la plantilla oficial del Tribunal de Selección: B) El mantenimiento del orden público protegido por la ley. Si la norma se ha modificado después del examen, prevalece la redacción vigente."
+ },
+ {
+  "id": "d60974d2",
+  "tema": 4,
+  "temaTitulo": "Derecho Constitucional",
+  "pregunta": "Constitución Española. Del Tribunal Constitucional. ¿Cuál de los siguientes NO está legitimado para interponer el recurso de inconstitucionalidad según el artículo 162.1 a)?",
+  "opciones": [
+   "El Ministerio Fiscal",
+   "El Defensor del Pueblo",
+   "Cincuenta Senadores",
+   "Los órganos colegiados ejecutivos de las Comunidades Autónomas"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 162.1 a) CE: están legitimados el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, sus Asambleas. El Ministerio Fiscal está legitimado para el recurso de amparo (art. 162.1 b), no para el de inconstitucionalidad. Preguntado en examen: 2017-2 y 2022-1."
+ },
+ {
+  "id": "d1d81a0c",
+  "tema": 5,
+  "temaTitulo": "Derecho de la Unión Europea",
+  "pregunta": "Según el artículo 47 del Tratado de la Unión Europea, la Unión:",
+  "opciones": [
+   "Solo tiene personalidad jurídica en materia de política comercial común",
+   "Carece de personalidad jurídica y actúa a través de los Estados miembros",
+   "Tiene la personalidad jurídica que le atribuya cada Estado miembro",
+   "Tiene personalidad jurídica"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 47 TUE: la Unión tiene personalidad jurídica. Además, sustituye y sucede a la Comunidad Europea (art. 1 TUE)."
+ },
+ {
+  "id": "40278a47",
+  "tema": 5,
+  "temaTitulo": "Derecho de la Unión Europea",
+  "pregunta": "Tratado de Funcionamiento de la Unión Europea. Disposiciones institucionales. El Consejo podrá pedir a la Comisión que efectúe los estudios que considere oportunos y le someta las propuestas pertinentes:",
+  "opciones": [
+   "Por mayoría cualificada.",
+   "Por unanimidad.",
+   "A petición de un tercio de los Estados miembros.",
+   "Por mayoría simple."
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 241 del TFUE: basta la mayoría simple del Consejo, y si la Comisión no presenta propuesta debe comunicar las razones al Consejo. El Parlamento Europeo necesita para lo mismo la mayoría de sus miembros (art. 225)."
+ },
+ {
+  "id": "8b3f7a8f",
+  "tema": 5,
+  "temaTitulo": "Derecho de la Unión Europea",
+  "pregunta": "Tratado de Funcionamiento de la Unión Europea. El Tribunal de Justicia de la Unión Europea. Una empresa española es destinataria de una decisión de la Comisión que considera contraria a los Tratados. Según el artículo 263 del TFUE:",
+  "opciones": [
+   "No puede recurrir, pues solo los Estados miembros y las instituciones están legitimados.",
+   "Puede interponer recurso de anulación en el plazo de dos meses, pues se trata de un acto del que es destinataria.",
+   "Puede recurrir en el plazo de un año desde la publicación del acto.",
+   "Solo puede impugnarla mediante una cuestión prejudicial planteada por ella misma ante el Tribunal de Justicia."
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 263 del TFUE: toda persona física o jurídica puede recurrir los actos de los que sea destinataria o que la afecten directa e individualmente, en el plazo de dos meses. La cuestión prejudicial la plantean los órganos jurisdiccionales nacionales, no las partes."
+ },
+ {
+  "id": "87b72937",
+  "tema": 6,
+  "temaTitulo": "Instituciones internacionales",
+  "pregunta": "Instituciones Internacionales. Organización del Tratado del Atlántico Norte. De los siguientes, ¿cuál es uno de sus países miembros?",
+  "opciones": [
+   "Ucrania.",
+   "Marruecos.",
+   "Albania.",
+   "Suiza."
+  ],
+  "correcta": 2,
+  "explicacion": "Pregunta oficial del examen de acceso a la Escala de Cabos y Guardias de la Guardia Civil, convocatoria 2024, ejercicio 3, modelo A, pregunta 32. Respuesta correcta según la plantilla oficial del Tribunal de Selección: C) Albania. Si la norma se ha modificado después del examen, prevalece la redacción vigente."
+ },
+ {
+  "id": "9418447e",
+  "tema": 6,
+  "temaTitulo": "Instituciones internacionales",
+  "pregunta": "El Colegio de Eurojust está formado por:",
+  "opciones": [
+   "Nueve miembros elegidos por el Consejo",
+   "Dos miembros por cada Estado miembro",
+   "Los Fiscales Generales de los Estados miembros",
+   "Un miembro nacional por cada Estado miembro"
+  ],
+  "correcta": 3,
+  "explicacion": "Epígrafe «EUROJUST»: un miembro nacional por Estado miembro. En 2022 fue incorrecta la opción que hablaba de dos miembros por país."
+ },
+ {
+  "id": "af93707e",
+  "tema": 6,
+  "temaTitulo": "Instituciones internacionales",
+  "pregunta": "Instituciones Internacionales. FRONTEX. ¿En qué año se creó Frontex para ayudar a los Estados de la UE y a los países asociados a Schengen a proteger las fronteras exteriores?",
+  "opciones": [
+   "2004",
+   "2016",
+   "2010",
+   "1999"
+  ],
+  "correcta": 0,
+  "explicacion": "Temario, epígrafe FRONTEX: Frontex se creó en 2004. En 2016 se amplió y modernizó para convertirse en la Agencia Europea de la Guardia de Fronteras y Costas y en 2010 Europol pasó a ser agencia de la UE. Preguntado en examen: 2020."
+ },
+ {
+  "id": "2efc6aba",
+  "tema": 7,
+  "temaTitulo": "Derecho Civil",
+  "pregunta": "Código Civil. De los españoles y extranjeros. La nacionalidad española por residencia se adquiere mediante la concesión otorgada por…:",
+  "opciones": [
+   "El Ministro de Justicia, que podrá denegarla por motivos razonados de orden público o interés nacional",
+   "El encargado del Registro Civil, que podrá denegarla por motivos razonados de interés nacional",
+   "El Gobierno mediante Real Decreto, que podrá denegarla por motivos razonados de orden público",
+   "El Ministro del Interior, que podrá denegarla por motivos razonados de seguridad pública"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 21.2 del CC: la concede el Ministro de Justicia, que puede denegarla por motivos razonados de orden público o interés nacional. El Real Decreto es la forma de la carta de naturaleza (art. 21.1). Preguntado en examen: 2022-1."
+ },
+ {
+  "id": "01570f92",
+  "tema": 7,
+  "temaTitulo": "Derecho Civil",
+  "pregunta": "Código Civil. De la tutela y de la guarda de los menores. ¿De qué actos NO es representante del menor el tutor?",
+  "opciones": [
+   "De aquellos que el menor pueda realizar por sí solo o para los que únicamente precise asistencia",
+   "De los actos de disposición de sus inmuebles",
+   "De los actos de administración de sus bienes",
+   "De los actos procesales en su nombre"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 225 del CC: el tutor es el representante del menor, salvo para los actos que este pueda realizar por sí solo o para los que únicamente precise asistencia."
+ },
+ {
+  "id": "dc886e2f",
+  "tema": 7,
+  "temaTitulo": "Derecho Civil",
+  "pregunta": "Código Civil. De la guarda y acogimiento de menores. El acogimiento familiar requerirá el consentimiento de los acogedores y del menor acogido si tuviera suficiente madurez y, en todo caso, si fuera mayor de…:",
+  "opciones": [
+   "Catorce años",
+   "Doce años",
+   "Diez años",
+   "Dieciséis años"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 173.2 del CC: el acogimiento requiere el consentimiento de los acogedores y del menor si tiene suficiente madurez y, en todo caso, si es mayor de doce años."
+ },
+ {
+  "id": "01faa118",
+  "tema": 8,
+  "temaTitulo": "Derecho Penal",
+  "pregunta": "Ley Orgánica del Código Penal. De las medidas de seguridad. ¿Cuál de las siguientes medidas NO se podrá imponer por un tiempo superior a cinco años?",
+  "opciones": [
+   "La privación del derecho a conducir vehículos a motor y ciclomotores.",
+   "La privación del derecho a la tenencia y porte de armas.",
+   "Custodia familiar.",
+   "La libertad vigilada."
+  ],
+  "correcta": 2,
+  "explicacion": "Pregunta oficial del examen de acceso a la Escala de Cabos y Guardias de la Guardia Civil, convocatoria 2022, ejercicio 2, modelo A, pregunta 45. Respuesta correcta según la plantilla oficial del Tribunal de Selección: C) Custodia familiar. Si la norma se ha modificado después del examen, prevalece la redacción vigente."
+ },
+ {
+  "id": "8ea37846",
+  "tema": 8,
+  "temaTitulo": "Derecho Penal",
+  "pregunta": "Ley Orgánica del Código Penal. De las lesiones. El consentimiento válido, libre, consciente y expresamente emitido exime de responsabilidad penal en:",
+  "opciones": [
+   "Cualquier lesión, siempre que el consentimiento sea expreso y el ofendido mayor de edad",
+   "Los trasplantes de órganos conforme a la ley, las esterilizaciones y la cirugía transexual realizadas por facultativo",
+   "Las lesiones leves producidas en la práctica de actividades deportivas",
+   "Los trasplantes realizados mediante precio si el donante es mayor de edad"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 156 del CP: exime en el trasplante de órganos con arreglo a la ley, esterilizaciones y cirugía transexual realizadas por facultativo, salvo consentimiento viciado, mediante precio o recompensa, o prestado por menor o persona sin aptitud."
+ },
+ {
+  "id": "a412dd80",
+  "tema": 8,
+  "temaTitulo": "Derecho Penal",
+  "pregunta": "Ley Orgánica del Código Penal. Delitos contra la libertad. La detención ilegal cometida por un particular se castiga con prisión de cinco a ocho años si el encierro o detención ha durado más de:",
+  "opciones": [
+   "Quince días",
+   "Tres días",
+   "Diez días",
+   "Treinta días"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 163.3 del CP: la pena es de cinco a ocho años si el encierro o detención ha durado más de quince días. Los tres primeros días son el límite para la atenuación por dar libertad sin lograr el objeto propuesto (art. 163.2). Preguntado en examen: 2024-1."
+ },
+ {
+  "id": "5c5b5286",
+  "tema": 9,
+  "temaTitulo": "Derecho Procesal Penal",
+  "pregunta": "Ley Orgánica del Poder Judicial. En relación con los Abogados, Procuradores y Graduados Sociales, señale la proposición CORRECTA.",
+  "opciones": [
+   "La dirección y defensa de las partes en toda clase de procesos es una función que corresponde a los procuradores.",
+   "La representación técnica en los procedimientos laborales y de Seguridad Social podrá ser ostentada por un Graduado Social.",
+   "Están sujetos en el ejercicio de su profesión, exclusivamente, a la responsabilidad civil y penal derivada de sus actos, según proceda.",
+   "Corresponde exclusivamente a los procuradores la representación de las partes en todo tipo de procesos."
+  ],
+  "correcta": 1,
+  "explicacion": "Pregunta oficial del examen de acceso a la Escala de Cabos y Guardias de la Guardia Civil, convocatoria 2024, ejercicio 1, modelo A, pregunta 50. Respuesta correcta según la plantilla oficial del Tribunal de Selección: B) La representación técnica en los procedimientos laborales y de Seguridad Social podrá ser ostentada por un Graduado Social. Si la norma se ha modificado después del examen, prevalece la redacción vigente."
+ },
+ {
+  "id": "f725f660",
+  "tema": 9,
+  "temaTitulo": "Derecho Procesal Penal",
+  "pregunta": "Si el procesado está detenido, su primera declaración debe recibirse en veinticuatro horas. Ese plazo:",
+  "opciones": [
+   "Puede prorrogarse otras veinticuatro horas a petición del Fiscal",
+   "Puede prorrogarse otras setenta y dos horas en todo caso",
+   "Puede prorrogarse otras cuarenta y ocho horas si mediare causa grave, que se expresará en la providencia",
+   "No admite prórroga"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 386 de la LECrim. Por qué fallan los distractores: la prórroga existe, es de cuarenta y ocho horas y exige causa grave expresada en la providencia, no depende de la petición del Fiscal."
+ },
+ {
+  "id": "f44c93d5",
+  "tema": 9,
+  "temaTitulo": "Derecho Procesal Penal",
+  "pregunta": "Ley de Enjuiciamiento Criminal. De la denuncia. Formalizada una denuncia, el Juez o funcionario se abstendrá de todo procedimiento cuando:",
+  "opciones": [
+   "El denunciante no hubiera identificado al autor del hecho",
+   "El denunciante no se hubiera ratificado en ella",
+   "El hecho no revistiere carácter de delito o la denuncia fuere manifiestamente falsa",
+   "El hecho fuera perseguible solo a instancia de parte"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 269 de la LECrim: formalizada la denuncia se procede a comprobar el hecho, salvo que no revista carácter de delito o la denuncia sea manifiestamente falsa, en cuyo caso se abstendrán de todo procedimiento, respondiendo si la desestiman indebidamente."
+ },
+ {
+  "id": "58d57d4d",
+  "tema": 10,
+  "temaTitulo": "Derecho Administrativo",
+  "pregunta": "Régimen Jurídico del Sector Público. Por su composición, los órganos de la Administración General del Estado y de sus Organismos públicos cuyos miembros proceden de diferentes Ministerios se denominan:",
+  "opciones": [
+   "Órganos colegiados ministeriales.",
+   "Órganos colegiados interadministrativos.",
+   "Órganos colegiados administrativos.",
+   "Órganos colegiados interministeriales."
+  ],
+  "correcta": 3,
+  "explicacion": "Pregunta oficial del examen de acceso a la Escala de Cabos y Guardias de la Guardia Civil, convocatoria 2018, ejercicio 2, modelo A, pregunta 58. Respuesta correcta según la plantilla oficial del Tribunal de Selección: D) Órganos colegiados interministeriales. Si la norma se ha modificado después del examen, prevalece la redacción vigente."
+ },
+ {
+  "id": "d3e58d5f",
+  "tema": 10,
+  "temaTitulo": "Derecho Administrativo",
+  "pregunta": "Ley de Régimen Jurídico del Sector Público. Avocación. En los supuestos de delegación de competencias en órganos no dependientes jerárquicamente, el conocimiento de un asunto podrá ser avocado:",
+  "opciones": [
+   "Por el superior jerárquico común de ambos órganos",
+   "Por el órgano ministerial del que dependa el delegado",
+   "Por cualquier órgano superior del órgano delegado",
+   "Únicamente por el órgano delegante"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 10.1 de la Ley 40/2015: en la delegación en órganos no dependientes jerárquicamente, solo puede avocar el órgano delegante. El superior común y el órgano ministerial intervienen en la aprobación previa de la delegación (art. 9.1), no en la avocación. Preguntado en examen: 2017-2 y 2021-1."
+ },
+ {
+  "id": "19ebf72f",
+  "tema": 10,
+  "temaTitulo": "Derecho Administrativo",
+  "pregunta": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas. Solicitudes de iniciación. Cuando la Administración establezca expresamente en un procedimiento concreto modelos específicos de presentación de solicitudes, estos serán:",
+  "opciones": [
+   "De uso voluntario por los interesados",
+   "De uso obligatorio por los interesados",
+   "De uso obligatorio solo para las personas jurídicas",
+   "De uso obligatorio solo en procedimientos selectivos"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 66.6 de la Ley 39/2015: los modelos específicos establecidos expresamente para un procedimiento concreto son de uso obligatorio. Los de uso voluntario son los modelos y sistemas de presentación masiva del art. 66.4."
+ },
+ {
+  "id": "4ec3465b",
+  "tema": 11,
+  "temaTitulo": "Protección de datos",
+  "pregunta": "Los códigos de conducta regulados por el Reglamento (UE) 2016/679 serán aprobados por:",
+  "opciones": [
+   "El Ministerio de Justicia",
+   "La Agencia Española de Protección de Datos o, en su caso, la autoridad autonómica de protección de datos competente",
+   "El Comité Europeo de Protección de Datos, en todo caso",
+   "El delegado de protección de datos"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 38.4 de la LO 3/2018. Por qué fallan los distractores: el delegado y el Ministerio no aprueban códigos, el Comité Europeo solo interviene cuando el código afecta a varios Estados. Preguntado en examen: 2024-1 y 2024-3."
+ },
+ {
+  "id": "dc684870",
+  "tema": 11,
+  "temaTitulo": "Protección de datos",
+  "pregunta": "Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales. Responsable y encargado del tratamiento. Delegado de protección de datos. Según el artículo 35, el delegado de protección de datos podrá ser:",
+  "opciones": [
+   "Únicamente un empleado de la propia organización",
+   "Únicamente una persona física con titulación universitaria",
+   "Únicamente una persona jurídica certificada",
+   "Una persona física o jurídica"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 35 de la LO 3/2018: se refiere a la designación del delegado sea persona física o jurídica, cuyos requisitos pueden demostrarse, entre otros medios, mediante mecanismos voluntarios de certificación."
+ },
+ {
+  "id": "9a42c64e",
+  "tema": 11,
+  "temaTitulo": "Protección de datos",
+  "pregunta": "Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales. Comparativa de plazos. ¿Qué duración máxima comparten el procedimiento de apercibimiento del artículo 64.3 y el de autorización previa de transferencias internacionales?",
+  "opciones": [
+   "Tres meses",
+   "Doce meses",
+   "Seis meses",
+   "Nueve meses"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 42.1 de la LO 3/2018: el procedimiento de autorización previa dura como máximo seis meses, igual que el de apercibimiento (art. 64.3)."
+ },
+ {
+  "id": "5689ca80",
+  "tema": 12,
+  "temaTitulo": "Extranjería e inmigración",
+  "pregunta": "Ley Orgánica sobre derechos y libertades de los extranjeros en España y su integración social. Acuerdos de readmisión. Si el titular de una tarjeta azul de la UE concedida en España fuera objeto de una medida de repatriación en otro Estado miembro:",
+  "opciones": [
+   "Será readmitido en España sin necesidad de ninguna otra formalidad, incluyendo, en su caso, a los familiares previamente reagrupados.",
+   "Deberá solicitar un nuevo visado de residencia y trabajo.",
+   "Será readmitido solo si conserva vigente su autorización.",
+   "Será trasladado a su país de origen."
+  ],
+  "correcta": 0,
+  "explicacion": "Disposición adicional sexta de la LO 4/2000: la readmisión en España es automática, sin otra formalidad, y alcanza a los familiares previamente reagrupados."
+ },
+ {
+  "id": "dfba1422",
+  "tema": 12,
+  "temaTitulo": "Extranjería e inmigración",
+  "pregunta": "Ley Orgánica sobre derechos y libertades de los extranjeros en España y su integración social. Medidas de seguridad. La utilización de medios de contención física personal en los centros de internamiento será previamente autorizada por:",
+  "opciones": [
+   "El Juez de Instrucción.",
+   "El director del centro, salvo que razones de urgencia no lo permitan.",
+   "El Ministerio Fiscal.",
+   "El jefe de seguridad del centro."
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 62 quinquies.3 de la LO 4/2000: la autoriza el director, salvo urgencia, en cuyo caso se le comunica inmediatamente. El director informa después al juez que autorizó el internamiento."
+ },
+ {
+  "id": "893fa07e",
+  "tema": 12,
+  "temaTitulo": "Extranjería e inmigración",
+  "pregunta": "Ley Orgánica sobre derechos y libertades de los extranjeros en España y su integración social. Efectos de la denegación de entrada. La detención de un extranjero a efectos de proceder a su regreso por denegación de entrada será comunicada a:",
+  "opciones": [
+   "El Ministerio Fiscal y el Defensor del Pueblo.",
+   "El Ministerio de Asuntos Exteriores y la embajada o consulado de su país.",
+   "El Juez de Instrucción de guardia.",
+   "La Delegación del Gobierno y la Comunidad Autónoma."
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 60.4 de la LO 4/2000: la detención se comunica al Ministerio de Asuntos Exteriores y a la embajada o consulado. La misma comunicación prevé el art. 62.5 en la expulsión."
+ },
+ {
+  "id": "be213b5f",
+  "tema": 13,
+  "temaTitulo": "Seguridad pública y seguridad privada",
+  "pregunta": "Ley Orgánica de protección de la seguridad ciudadana. Reuniones y manifestaciones. Las Fuerzas y Cuerpos de Seguridad podrán disolver una manifestación sin necesidad de previo aviso:",
+  "opciones": [
+   "Cuando la manifestación no haya sido comunicada previamente",
+   "Cuando se ocupen vías de tránsito público",
+   "Cuando los asistentes oculten el rostro",
+   "Cuando se produzca una alteración de la seguridad ciudadana con armas, artefactos explosivos u objetos contundentes o peligrosos"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 23.3 de la LO 4/2015: se prescinde del aviso previo si la alteración se produce con armas, artefactos explosivos u objetos contundentes o de cualquier otro modo peligrosos. Los demás supuestos no eximen del aviso. Preguntado en examen: 2022-2."
+ },
+ {
+  "id": "b0e6fa23",
+  "tema": 13,
+  "temaTitulo": "Seguridad pública y seguridad privada",
+  "pregunta": "Ley de Seguridad Privada. Medidas provisionales. Los agentes acuerdan desconectar el sistema de alarma de un establecimiento obligado a disponer de él, por su mal funcionamiento. La desconexión:",
+  "opciones": [
+   "Obligará al cierre inmediato del establecimiento",
+   "Durará como máximo quince días",
+   "Requerirá autorización judicial previa",
+   "Se suplirá mediante un servicio permanente de vigilancia y protección privada"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 55.1.e) de la Ley 5/2014: en establecimientos obligados, la desconexión se suple con un servicio permanente de vigilancia y protección privada. Preguntado en examen: 2022-3 y 2024-3."
+ },
+ {
+  "id": "4929b0f9",
+  "tema": 13,
+  "temaTitulo": "Seguridad pública y seguridad privada",
+  "pregunta": "Ley de Seguridad Privada. ¿Cuál de las siguientes actividades NO podrá ser desarrollada por las empresas de seguridad?",
+  "opciones": [
+   "La investigación privada en relación a personas, hechos o delitos sólo perseguibles a instancia de parte.",
+   "La formación, actualización y especialización del personal de seguridad privada.",
+   "La planificación, consultoría y asesoramiento en materia de actividades de seguridad privada.",
+   "La fabricación, comercialización, venta, entrega, instalación o mantenimiento de elementos o productos de seguridad y de cerrajería de seguridad."
+  ],
+  "correcta": 0,
+  "explicacion": "Pregunta oficial del examen de acceso a la Escala de Cabos y Guardias de la Guardia Civil, convocatoria 2020, modelo A, pregunta 66. Respuesta correcta según la plantilla oficial del Tribunal de Selección: A) La investigación privada en relación a personas, hechos o delitos sólo perseguibles a instancia de parte. Si la norma se ha modificado después del examen, prevalece la redacción vigente."
+ },
+ {
+  "id": "187983ab",
+  "tema": 14,
+  "temaTitulo": "Ministerio del Interior y Ministerio de Defensa",
+  "pregunta": "Real Decreto por el que se desarrolla la estructura orgánica básica del Ministerio del Interior. ¿Qué órgano dirige el Centro Nacional de Desaparecidos?",
+  "opciones": [
+   "La Dirección General de Coordinación y Estudios",
+   "La Comisaría General de Policía Judicial",
+   "La Jefatura de Policía Judicial de la Guardia Civil",
+   "El Centro de Inteligencia contra el Terrorismo y el Crimen Organizado"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 6.1.14.º del RD 207/2024: la Dirección General de Coordinación y Estudios dirige el Centro Nacional de Desaparecidos. Las unidades de Policía Judicial investigan, pero no lo dirigen, y el CITCO se centra en crimen organizado y terrorismo. Preguntado en examen: 2023-1."
+ },
+ {
+  "id": "bfc2c99d",
+  "tema": 14,
+  "temaTitulo": "Ministerio del Interior y Ministerio de Defensa",
+  "pregunta": "Real Decreto por el que se desarrolla la estructura orgánica básica del Ministerio del Interior. ¿Cuál de las siguientes Jefaturas NO depende del Mando de Apoyo de la Guardia Civil?",
+  "opciones": [
+   "La Jefatura de Asistencia al Personal",
+   "La Jefatura de Asuntos Económicos",
+   "La Jefatura de los Servicios de Apoyo",
+   "La Jefatura de Servicios Técnicos"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 4.10 del RD 207/2024: del Mando de Apoyo dependen las Jefaturas de Asuntos Económicos, de los Servicios de Apoyo y de Servicios Técnicos. La Jefatura de Asistencia al Personal depende del Mando de Personal (art. 4.9.c)."
+ },
+ {
+  "id": "51de5be5",
+  "tema": 14,
+  "temaTitulo": "Ministerio del Interior y Ministerio de Defensa",
+  "pregunta": "Real Decreto por el que se desarrolla la estructura orgánica básica del Ministerio del Interior. ¿Qué nivel orgánico tienen el Mando de Personal y el Mando de Apoyo de la Guardia Civil?",
+  "opciones": [
+   "Dirección general",
+   "El que determine la relación de puestos de trabajo",
+   "Subdirección general",
+   "Secretaría general"
+  ],
+  "correcta": 2,
+  "explicacion": "Arts. 4.9 y 4.10 del RD 207/2024: ambos Mandos tienen nivel orgánico de subdirección general y están a cargo de un Teniente General en servicio activo, igual que la Dirección Adjunta Operativa."
+ },
+ {
+  "id": "38ce2199",
+  "tema": 15,
+  "temaTitulo": "Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+  "pregunta": "Fuerzas y Cuerpos de Seguridad. De la organización de las Unidades de Policía Judicial. En el cumplimiento de sus funciones, ¿de quién dependen orgánicamente los funcionarios adscritos a Unidades de Policía Judicial?",
+  "opciones": [
+   "Del Ministerio del Interior.",
+   "De los Jueces y Tribunales.",
+   "Del Ministerio Fiscal que conozca del asunto objeto de investigación.",
+   "Del Tribunal Superior de Justicia de la Comunidad Autónoma donde se encuentre."
+  ],
+  "correcta": 0,
+  "explicacion": "Pregunta oficial del examen de acceso a la Escala de Cabos y Guardias de la Guardia Civil, convocatoria 2017, ejercicio 2, modelo A, pregunta 50. Respuesta correcta según la plantilla oficial del Tribunal de Selección: A) Del Ministerio del Interior. Si la norma se ha modificado después del examen, prevalece la redacción vigente."
+ },
+ {
+  "id": "85915189",
+  "tema": 15,
+  "temaTitulo": "Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+  "pregunta": "Fuerzas y Cuerpos de Seguridad. ¿A quién corresponde la administración general de la seguridad ciudadana y el mando superior de las Fuerzas y Cuerpos de Seguridad del Estado?",
+  "opciones": [
+   "Al Secretario de Estado de Seguridad, en cualquier circunstancia.",
+   "Al Secretario de Estado de Defensa, en el caso de la Guardia Civil, durante el estado de excepción.",
+   "Al Ministro del Interior.",
+   "Al Presidente del Gobierno."
+  ],
+  "correcta": 2,
+  "explicacion": "Pregunta oficial del examen de acceso a la Escala de Cabos y Guardias de la Guardia Civil, convocatoria 2019, ejercicio 2, modelo A, pregunta 40. Respuesta correcta según la plantilla oficial del Tribunal de Selección: C) Al Ministro del Interior. Si la norma se ha modificado después del examen, prevalece la redacción vigente."
+ },
+ {
+  "id": "d6537e0c",
+  "tema": 15,
+  "temaTitulo": "Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+  "pregunta": "Estructura orgánica de los Servicios Centrales de la Dirección General de la Guardia Civil. Sobre el Consejo Superior de la Guardia Civil. Señale la opción INCORRECTA.",
+  "opciones": [
+   "Es un órgano adscrito a la Dirección General.",
+   "Estará presidido por la persona titular de la Dirección General.",
+   "Está integrado por todos los Oficiales Generales de la Guardia Civil.",
+   "Actúa como Secretario el Oficial General designado al efecto."
+  ],
+  "correcta": 2,
+  "explicacion": "Pregunta oficial del examen de acceso a la Escala de Cabos y Guardias de la Guardia Civil, convocatoria 2024, ejercicio 1, modelo A, pregunta 75. Respuesta correcta según la plantilla oficial del Tribunal de Selección: C) Está integrado por todos los Oficiales Generales de la Guardia Civil. Si la norma se ha modificado después del examen, prevalece la redacción vigente."
+ },
+ {
+  "id": "7f2a22a1",
+  "tema": 16,
+  "temaTitulo": "Protección civil, desarrollo sostenible y eficiencia energética",
+  "pregunta": "Ley del Patrimonio Natural y de la Biodiversidad. Especies objeto de caza y pesca. La declaración de las especies sobre las que puede realizarse la caza y la pesca en aguas continentales corresponde a:",
+  "opciones": [
+   "La Conferencia Sectorial de Medio Ambiente",
+   "La Administración General del Estado, previo informe de la Comisión Estatal",
+   "Las federaciones deportivas de caza y pesca",
+   "Las comunidades autónomas, sin que pueda afectar a especies del Listado de Protección Especial"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 65.1 de la Ley 42/2007: la caza y la pesca continental solo podrán realizarse sobre las especies que determinen las comunidades autónomas, declaración que no podrá afectar a las del Listado de Protección Especial ni a las prohibidas por la Unión Europea."
+ },
+ {
+  "id": "672a6632",
+  "tema": 16,
+  "temaTitulo": "Protección civil, desarrollo sostenible y eficiencia energética",
+  "pregunta": "Ley del Sistema Nacional de Protección Civil. Objeto y finalidad. Según la ley, la protección civil garantiza una respuesta adecuada ante emergencias y catástrofes originadas por:",
+  "opciones": [
+   "Causas naturales, salvo las derivadas del cambio climático",
+   "Causas exclusivamente naturales o tecnológicas",
+   "Causas naturales o derivadas de la acción humana accidental, excluida la intencionada",
+   "Causas naturales o derivadas de la acción humana, sea accidental o intencionada"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 1.1 de la Ley 17/2015: la protección civil responde ante emergencias y catástrofes originadas por causas naturales o derivadas de la acción humana, sea ésta accidental o intencionada. La ley no excluye la acción humana intencionada ni limita su ámbito a causas naturales o tecnológicas."
+ },
+ {
+  "id": "459a0f33",
+  "tema": 16,
+  "temaTitulo": "Protección civil, desarrollo sostenible y eficiencia energética",
+  "pregunta": "Ley del Sistema Nacional de Protección Civil. Consejo Nacional de Protección Civil. En relación con el Consejo Nacional de Protección Civil, señale la opción correcta:",
+  "opciones": [
+   "Es el punto de contacto español del Mecanismo de Protección Civil de la Unión Europea",
+   "Es un órgano de cooperación en el que participan las Ciudades con Estatuto de Autonomía",
+   "Su reglamento interno lo aprueba el Gobierno, a propuesta del Ministro del Interior",
+   "Lo preside el titular de la Dirección General de Protección Civil y Emergencias"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 39.1 de la Ley 17/2015: el Consejo Nacional es el órgano de cooperación de la Administración General del Estado, de las Comunidades Autónomas, de las Ciudades con Estatuto de Autonomía y de la Administración Local. Lo preside el Ministro del Interior (art. 39.2), aprueba él mismo su reglamento interno (art. 39.3) y el punto de contacto del Mecanismo europeo es el Ministerio del Interior (art. 41.1)."
+ },
+ {
+  "id": "928b1720",
+  "tema": 17,
+  "temaTitulo": "Tecnologías de la información y la comunicación",
+  "pregunta": "Principios y recomendaciones básicas en Ciberseguridad del CCN-CERT. Seguridad en dispositivos móviles. La gestión centralizada de los dispositivos móviles que recomienda la guía se implementa mediante agentes:",
+  "opciones": [
+   "SIEM",
+   "SOC",
+   "UPnP",
+   "MDM (Mobile Device Management)"
+  ],
+  "correcta": 3,
+  "explicacion": "Apartado 9 de la guía CCN-CERT BP/01: se recomienda implementar la gestión centralizada de dispositivos móviles mediante agentes MDM. SIEM es un sistema de gestión de eventos de seguridad y UPnP un protocolo de configuración de red."
+ },
+ {
+  "id": "b794ae8c",
+  "tema": 17,
+  "temaTitulo": "Tecnologías de la información y la comunicación",
+  "pregunta": "Ley reguladora de determinados aspectos de los servicios electrónicos de confianza. Disposiciones generales. El Reglamento de la Unión Europea al que complementa la Ley, relativo a la identificación electrónica y los servicios de confianza, derogó:",
+  "opciones": [
+   "La Directiva 95/46/CE",
+   "La Directiva 1999/93/CE",
+   "La Directiva 2012/27/UE",
+   "La Directiva 98/34/CE"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 1 de la Ley 6/2020: el Reglamento (UE) n.º 910/2014 deroga la Directiva 1999/93/CE. La Directiva 95/46/CE fue derogada por el Reglamento (UE) 2016/679, la 2012/27/UE es la de eficiencia energética y la 98/34/CE la de normas y reglamentaciones técnicas."
+ },
+ {
+  "id": "dddbbd09",
+  "tema": 17,
+  "temaTitulo": "Tecnologías de la información y la comunicación",
+  "pregunta": "Principios y recomendaciones básicas en Ciberseguridad del CCN-CERT. Correo electrónico. Respecto de las macros de los documentos ofimáticos recibidos por correo, la guía indica:",
+  "opciones": [
+   "Habilitarlas solo si el remitente es conocido",
+   "Habilitarlas siempre que el documento esté firmado",
+   "Habilitarlas únicamente en modo de solo lectura",
+   "No habilitarlas incluso si el propio fichero así lo solicita"
+  ],
+  "correcta": 3,
+  "explicacion": "Apartado 7 de la guía CCN-CERT BP/01: no se deben habilitar las macros de los documentos ofimáticos incluso si el propio fichero así lo solicita. Preguntado en examen: 2022-2."
+ },
+ {
+  "id": "3a25fdea",
+  "tema": 18,
+  "temaTitulo": "Topografía",
+  "pregunta": "Si el rumbo de una dirección AB es de 300 grados sexagesimales, su rumbo inverso será:",
+  "opciones": [
+   "120 grados sexagesimales",
+   "480 grados sexagesimales",
+   "240 grados sexagesimales",
+   "60 grados sexagesimales"
+  ],
+  "correcta": 0,
+  "explicacion": "Epígrafe «Elementos geográficos»: el rumbo inverso es el de la dirección opuesta BA, como 300º es mayor de 180º, se restan 180º: 120º. 480º no existe (se pasa de 360º) y 60º es lo que le falta a 300º para llegar a 360º, que no tiene significado aquí."
+ },
+ {
+  "id": "ea0e0736",
+  "tema": 18,
+  "temaTitulo": "Topografía",
+  "pregunta": "Topografía. Representación del terreno. Los puntos A y B tienen cotas de 150 y 190 metros y su distancia reducida es de 800 metros. ¿Cuál es la pendiente entre ellos?",
+  "opciones": [
+   "20 %",
+   "0,5 %",
+   "50 %",
+   "5 %"
+  ],
+  "correcta": 3,
+  "explicacion": "Epígrafe «Representación del terreno» del temario del Tema 18: pendiente = desnivel / distancia reducida = 40 / 800 = 0,05 = 5 %. 50 % y 0,5 % desplazan la coma y 20 % divide la distancia entre el desnivel."
+ },
+ {
+  "id": "d7e4ddb4",
+  "tema": 18,
+  "temaTitulo": "Topografía",
+  "pregunta": "En relación con las unidades angulares, señale la opción CORRECTA:",
+  "opciones": [
+   "La milésima artillera resulta de dividir la circunferencia en 4.000 partes iguales",
+   "El grado centesimal resulta de dividir la circunferencia en 100 partes iguales",
+   "El grado sexagesimal resulta de dividir el ángulo recto en 60 partes iguales",
+   "El radián es el ángulo cuyo arco tiene una longitud igual al radio"
+  ],
+  "correcta": 3,
+  "explicacion": "Epígrafe «Unidades geométricas de medida»: el radián es el ángulo central cuyo arco mide lo mismo que el radio. El grado centesimal divide el ángulo recto en 100 (la circunferencia en 400), el sexagesimal, el ángulo recto en 90, la milésima artillera, la circunferencia en 6.400. Preguntado en examen: 2019-1, 2024-3 y 2026."
+ },
+ {
+  "id": "b77b6325",
+  "tema": 19,
+  "temaTitulo": "Deontología profesional",
+  "pregunta": "Según los Principios Básicos, cuando al emplear la fuerza o armas de fuego los funcionarios ocasionen lesiones o muerte, comunicarán el hecho a sus superiores:",
+  "opciones": [
+   "A la menor brevedad posible",
+   "Inmediatamente",
+   "En el plazo de veinticuatro horas",
+   "Lo antes posible, una vez prestada la asistencia médica"
+  ],
+  "correcta": 1,
+  "explicacion": "Principio 6: comunicarán el hecho inmediatamente a sus superiores, de conformidad con el principio 22. «A la menor brevedad posible» es la fórmula del principio 5.d) para notificar a parientes o amigos íntimos, y «lo antes posible» la del 5.c) para la asistencia médica, los Principios no fijan plazos en horas."
+ },
+ {
+  "id": "c88e7a30",
+  "tema": 19,
+  "temaTitulo": "Deontología profesional",
+  "pregunta": "Real Decreto por el que se aprueba el Código de Conducta del personal de la Guardia Civil. Código de Conducta. Según el valor de lealtad, esta será recíproca entre:",
+  "opciones": [
+   "Los superiores jerárquicos y sus subordinados.",
+   "Los guardias civiles del mismo empleo y unidad.",
+   "El personal en activo y el personal retirado del Cuerpo.",
+   "La Institución y las autoridades civiles del Estado."
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 3 del Código de Conducta: la lealtad será recíproca entre los superiores jerárquicos y sus subordinados. El trato al personal retirado se regula en el art. 22.3 y las relaciones con las autoridades civiles en el art. 34."
+ },
+ {
+  "id": "e72909ac",
+  "tema": 19,
+  "temaTitulo": "Deontología profesional",
+  "pregunta": "Real Decreto por el que se aprueba el Código de Conducta del personal de la Guardia Civil. Según el artículo 4, el Código de Conducta deberá incorporarse a la enseñanza de perfeccionamiento y de altos estudios profesionales:",
+  "opciones": [
+   "A través de sus planes de estudios o programas, cuando así proceda, según los perfiles de egreso o las competencias específicas.",
+   "En todo caso y con el mismo contenido que en la enseñanza de formación del Cuerpo.",
+   "Cuando lo soliciten los centros docentes en los que se impartan esas enseñanzas.",
+   "En los cursos de capacitación para el ascenso a los empleos superiores."
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 4.3 del RD 176/2022: la incorporación se hace a través de sus planes de estudios o programas, cuando así proceda, de acuerdo con los perfiles de egreso o las competencias específicas. No es una incorporación automática ni depende de la solicitud de los centros."
+ },
+ {
+  "id": "dba86916",
+  "tema": 20,
+  "temaTitulo": "Responsabilidad penal de los menores",
+  "pregunta": "Según el art. 7 de la LO 5/2000, ¿qué medida consiste en que la persona resida en el centro pero pueda realizar fuera de él alguna o algunas de las actividades formativas, educativas, laborales y de ocio?",
+  "opciones": [
+   "Internamiento en régimen cerrado",
+   "Internamiento en régimen semiabierto",
+   "Internamiento en régimen abierto",
+   "Asistencia a un centro de día"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 7.1.b): internamiento en régimen semiabierto. En el cerrado todas las actividades se hacen en el centro, en el abierto, todas fuera, residiendo en el centro como domicilio habitual, en el centro de día el menor vive en su domicilio."
+ },
+ {
+  "id": "3202fd03",
+  "tema": 20,
+  "temaTitulo": "Responsabilidad penal de los menores",
+  "pregunta": "Ley Orgánica reguladora de la responsabilidad penal de los menores. Sobreseimiento del expediente por conciliación o reparación entre el menor y la víctima. ¿Quién realizará las funciones de mediación entre el menor y la víctima o perjudicado?",
+  "opciones": [
+   "El Ministerio Fiscal",
+   "La entidad pública de protección o reforma de menores",
+   "El Juez de Menores",
+   "El equipo técnico"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 19.3 de la LO 5/2000: el equipo técnico realiza las funciones de mediación e informa al Ministerio Fiscal de los compromisos adquiridos y de su grado de cumplimiento. El Fiscal es quien desiste y solicita el sobreseimiento, y ni el Juez ni la entidad pública median. Preguntado en examen: 2024-3."
+ },
+ {
+  "id": "18455f82",
+  "tema": 20,
+  "temaTitulo": "Responsabilidad penal de los menores",
+  "pregunta": "Ley Orgánica reguladora de la responsabilidad penal de los menores. Quebrantamiento de la ejecución. En caso de quebrantamiento, el Juez de Menores acordará que se remita testimonio de los particulares relativos al quebrantamiento:",
+  "opciones": [
+   "Al equipo técnico, para que actualice su informe sobre la situación del menor",
+   "A la entidad pública ejecutora, para que imponga la sanción disciplinaria",
+   "Al Ministerio Fiscal, por si constituyera una infracción del artículo 1",
+   "Al Juez de Instrucción de guardia, por si fuera constitutivo de delito"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 50.3 de la LO 5/2000: el testimonio se remite al Fiscal por si el quebrantamiento constituye una infracción del art. 1 merecedora de reproche. La competencia sigue en la jurisdicción de menores, no en el Juez de Instrucción."
+ },
+ {
+  "id": "b4ce15ae",
+  "tema": 21,
+  "temaTitulo": "Protección integral contra la violencia de género",
+  "pregunta": "Ley Orgánica de Medidas de Protección Integral contra la Violencia de Género. Supuesto. Los profesionales de un servicio de atención integral aprecian una situación de riesgo grave para una usuaria. Conforme al artículo 19.4…:",
+  "opciones": [
+   "Deberán limitarse a informar a la víctima de sus derechos.",
+   "Deberán trasladar el caso a la Delegación del Gobierno.",
+   "Podrán solicitar al órgano judicial las medidas urgentes que consideren necesarias.",
+   "Podrán acordar por sí mismos el alejamiento del agresor."
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 19.4 de la LO 1/2004: los servicios adoptarán fórmulas de coordinación y podrán solicitar al órgano judicial las medidas urgentes que consideren necesarias. No pueden acordarlas por sí mismos. Preguntado en examen: 2023-2."
+ },
+ {
+  "id": "7a605b03",
+  "tema": 21,
+  "temaTitulo": "Protección integral contra la violencia de género",
+  "pregunta": "Ley Orgánica de Medidas de Protección Integral contra la Violencia de Género. Derechos de las víctimas. Según el artículo 17.3, si concurre una situación que dificulte el acceso o la prestación de los servicios esenciales de atención a las víctimas…:",
+  "opciones": [
+   "Las administraciones competentes adoptarán las medidas necesarias para garantizar su normal funcionamiento y adaptación.",
+   "Podrán suspenderse temporalmente, salvo el asesoramiento jurídico 24 horas.",
+   "Su prestación será asumida por las Fuerzas y Cuerpos de Seguridad.",
+   "Se prestarán exclusivamente por medios telemáticos."
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 17.3 de la LO 1/2004: ante cualquier situación que dificulte el acceso o la prestación de tales servicios, las administraciones competentes adoptarán las medidas necesarias para garantizar su normal funcionamiento y su adaptación a las necesidades de las víctimas. No se prevé su suspensión, su asunción policial ni su prestación exclusivamente telemática."
+ },
+ {
+  "id": "a2279b2c",
+  "tema": 21,
+  "temaTitulo": "Protección integral contra la violencia de género",
+  "pregunta": "Ley Orgánica de Medidas de Protección Integral contra la Violencia de Género. Comparativa. ¿Cuál de los siguientes se califica expresamente como servicio esencial en el artículo 17.3?",
+  "opciones": [
+   "La atención psicosocial inmediata, telefónica y en línea.",
+   "El acceso prioritario a vivienda protegida.",
+   "La asistencia jurídica gratuita en el proceso penal.",
+   "La atención psicológica infantil en los servicios sanitarios."
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 17.3 de la LO 1/2004: son servicios esenciales, entre otros, los de información y orientación, la atención psicosocial inmediata, telefónica y en línea, y el asesoramiento jurídico 24 horas. Los demás derechos se regulan en los arts. 20, 28 y 19 bis."
+ },
+ {
+  "id": "cdad32a8",
+  "tema": 22,
+  "temaTitulo": "Armas y explosivos",
+  "pregunta": "Reglamento de Armas. Armas de concurso. Quien posea licencia de armas A y desee documentar armas de concurso:",
+  "opciones": [
+   "Deberá obtener previamente una licencia F de la clase que le corresponda",
+   "Solicitará la guía a la Intervención de Armas de su domicilio",
+   "Solicitará la guía de pertenencia a la autoridad competente de que dependa, acompañando la acreditación de su habilitación deportiva",
+   "Solicitará la autorización a la federación deportiva, que la remitirá a la Guardia Civil"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 139.1 del RD 137/1993 (Reglamento de Armas): el titular de licencia A solicita la guía de pertenencia de armas de concurso a la autoridad de que dependa, acompañando la acreditación de la habilitación deportiva con la clase de tirador. Esas autoridades son las del art. 115."
+ },
+ {
+  "id": "afff671a",
+  "tema": 22,
+  "temaTitulo": "Armas y explosivos",
+  "pregunta": "Reglamento de Armas. Guías de pertenencia. Para la expedición de la guía de pertenencia, los titulares de las armas de fuego deberán acreditar ante las Intervenciones de Armas y Explosivos, si no lo hubieran hecho antes:",
+  "opciones": [
+   "Que disponen de un seguro de responsabilidad civil en vigor",
+   "Que cumplen las medidas de seguridad establecidas en el Reglamento para su custodia",
+   "Que han superado las pruebas de capacitación del Ministerio del Interior",
+   "Que el arma ha pasado la revista en los últimos cinco años"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 89.5 del RD 137/1993 (Reglamento de Armas): antes de expedir la guía debe acreditarse el cumplimiento de las medidas de seguridad para la custodia del arma previstas en el Reglamento."
+ },
+ {
+  "id": "d0231dea",
+  "tema": 22,
+  "temaTitulo": "Armas y explosivos",
+  "pregunta": "Reglamento de Armas. Autorización especial de uso de armas para menores. En cuanto a su validez y al órgano competente para concederla, señale la opción CORRECTA:",
+  "opciones": [
+   "Tiene validez hasta la mayoría de edad, sin necesidad de renovaciones, y la concede el Director general de la Guardia Civil",
+   "Tiene cinco años de validez y la concede el Jefe de la Comandancia de la Guardia Civil",
+   "Tiene validez hasta la mayoría de edad, previa renovación anual, y la concede el Director general de la Guardia Civil",
+   "Tiene validez hasta la mayoría de edad y la concede el Jefe de la Comandancia de la Guardia Civil"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 109.3 del RD 137/1993 (Reglamento de Armas): estas autorizaciones valen hasta la mayoría de edad de sus titulares sin necesidad de renovaciones y las concede el Director general de la Guardia Civil. El Jefe de la Comandancia concede las licencias D y E, de cinco años, y no se exige renovación anual."
+ },
+ {
+  "id": "cf889ec2",
+  "tema": 23,
+  "temaTitulo": "Derecho fiscal",
+  "pregunta": "Ley Orgánica de represión del contrabando. Sanciones. Por la rotura del precinto de un establecimiento clausurado, cuando se pruebe que en él se desarrolla actividad económica, se impondrá un cierre adicional por un período:",
+  "opciones": [
+   "Igual al doble del acordado en la sanción quebrantada",
+   "Igual al acordado en la sanción quebrantada",
+   "Igual al triple del acordado en la sanción quebrantada",
+   "De entre doce meses y un día y veinticuatro meses"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 12.3.b).1.º de la LO 12/1995: si se prueba actividad económica, el cierre adicional es el doble del acordado. Sin esa prueba, es un período igual al de la sanción quebrantada."
+ },
+ {
+  "id": "d1130020",
+  "tema": 23,
+  "temaTitulo": "Derecho fiscal",
+  "pregunta": "Ley Orgánica de represión del contrabando. Definiciones. La entrada en el territorio español de mercancías comunitarias procedentes de otros Estados miembros de la Unión Europea se denomina:",
+  "opciones": [
+   "Importación",
+   "Expedición",
+   "Introducción",
+   "Reimportación"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 1.7 de la LO 12/1995: es la introducción. La importación es la entrada de mercancías no comunitarias (art. 1.6) y la expedición la salida hacia otros Estados miembros (art. 1.9)."
+ },
+ {
+  "id": "91a381cf",
+  "tema": 23,
+  "temaTitulo": "Derecho fiscal",
+  "pregunta": "Reglamento por el que se establece el Código Aduanero de la Unión. Tránsito de la Unión. El titular del régimen de tránsito de la Unión es responsable, entre otras obligaciones, de:",
+  "opciones": [
+   "Presentar las mercancías intactas y la información requerida en la aduana de destino en el plazo señalado",
+   "Abonar los derechos de importación antes de iniciar el tránsito",
+   "Custodiar personalmente las mercancías durante el transporte",
+   "Presentar una declaración sumaria de salida en la aduana de partida"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 233.1 del CAU: el titular debe presentar las mercancías intactas y la información requerida en la aduana de destino en plazo y respetando las medidas de identificación, respetar las disposiciones del régimen y constituir garantía salvo disposición contraria."
+ }
+]

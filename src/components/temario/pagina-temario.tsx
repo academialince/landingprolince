@@ -193,6 +193,14 @@ export async function PaginaTemarioCurso({ pagina }: { pagina: PaginaTemario }) 
                   </Link>
                 </li>
               ))}
+              {rutas.test(curso.slug) && (
+                <li>
+                  <Link href={rutas.test(curso.slug)!} className="inline-flex gap-2 font-semibold hover:text-primary">
+                    <ArrowRight size={16} aria-hidden className="mt-1 shrink-0 text-primary" />
+                    Haz un test gratis con solución
+                  </Link>
+                </li>
+              )}
               {curso.slug === "acceso-guardia-civil" && (
                 <li>
                   <Link href={rutas.calculadora} className="inline-flex gap-2 font-semibold hover:text-primary">

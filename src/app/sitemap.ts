@@ -20,6 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...(cursosVisibles ? cursos.map((c) => ({ ruta: rutas.curso(c.slug), prioridad: 0.9 })) : []),
     ...(cursosVisibles ? cursos.flatMap((c) => (rutas.temario(c.slug) ? [{ ruta: rutas.temario(c.slug)!, prioridad: 0.8 }] : [])) : []),
     { ruta: rutas.calculadora, prioridad: 0.8 },
+    ...(cursosVisibles ? cursos.flatMap((c) => (rutas.test(c.slug) ? [{ ruta: rutas.test(c.slug)!, prioridad: 0.8 }] : [])) : []),
     ...(tiendaVisible ? [{ ruta: rutas.tienda, prioridad: 0.8 }] : []),
     { ruta: rutas.blog, prioridad: 0.7 },
     ...(nosotrosVisible ? [{ ruta: rutas.nosotros, prioridad: 0.6 }] : []),

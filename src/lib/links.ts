@@ -36,6 +36,9 @@ export const rutas = {
   nosotros: "/nosotros",
   tienda: "/tienda",
   calculadora: "/calculadora-nota-guardia-civil",
+  /** Test gratis de cada curso. */
+  test: (slug: string) =>
+    ({ "acceso-guardia-civil": "/test-guardia-civil", "colegio-guardias-jovenes": "/test-guardias-jovenes" })[slug],
   /** Página de temario de cada curso (para posicionar en «temario …»). */
   temario: (slug: string) =>
     ({ "acceso-guardia-civil": "/temario-guardia-civil", "colegio-guardias-jovenes": "/temario-colegio-guardias-jovenes" })[slug],

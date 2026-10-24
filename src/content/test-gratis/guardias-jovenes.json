@@ -1,0 +1,422 @@
+[
+ {
+  "id": "c5151d25",
+  "tema": 1,
+  "temaTitulo": "Derechos Humanos",
+  "pregunta": "Convenio Europeo para la protección de los Derechos Humanos y de las Libertades Fundamentales. Según el artículo 15.2, ¿cuál de los siguientes derechos SÍ puede ser objeto de derogación en caso de estado de excepción?",
+  "opciones": [
+   "La prohibición de la esclavitud y la servidumbre (art. 4.1)",
+   "El derecho a la libertad y a la seguridad (art. 5)",
+   "El principio de no hay pena sin ley (art. 7)",
+   "La prohibición de la tortura (art. 3)"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 15.2 del CEDH: el art. 15.2 no autoriza derogar los arts. 2 (salvo muertes por actos lícitos de guerra), 3, 4.1 y 7. El art. 5 no está en esa lista."
+ },
+ {
+  "id": "8016f030",
+  "tema": 1,
+  "temaTitulo": "Derechos Humanos",
+  "pregunta": "Convenio Europeo para la protección de los Derechos Humanos y de las Libertades Fundamentales. Tribunal Europeo de Derechos Humanos. Según el artículo 31, la Gran Sala:",
+  "opciones": [
+   "Se pronunciará sobre las demandas que le defiera una Sala o que le sean remitidas por el artículo 43",
+   "Examinará las solicitudes de opiniones consultivas del artículo 47",
+   "Se pronunciará sobre las cuestiones que le someta el Comité de Ministros conforme al artículo 46.4",
+   "Todas las anteriores son correctas"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 31 del CEDH: el art. 31 atribuye a la Gran Sala esas tres funciones."
+ },
+ {
+  "id": "3d38a809",
+  "tema": 1,
+  "temaTitulo": "Derechos Humanos",
+  "pregunta": "Consejo de Derechos Humanos. Según la Resolución 60/251, el Consejo será responsable de promover el respeto universal por la protección de todos los derechos humanos sin distinción de ningún tipo y de una manera:",
+  "opciones": [
+   "Eficaz y coordinada",
+   "Progresiva y proporcionada",
+   "Justa y equitativa",
+   "Imparcial y confidencial"
+  ],
+  "correcta": 2,
+  "explicacion": "Apartado 2 de la Resolución 60/251 de la Asamblea General: el apartado 2 se refiere a una manera justa y equitativa."
+ },
+ {
+  "id": "5c30b475",
+  "tema": 2,
+  "temaTitulo": "Igualdad efectiva de mujeres y hombres",
+  "pregunta": "LO 3/2007 para la igualdad efectiva de mujeres y hombres. Entre las mujeres de colectivos de especial vulnerabilidad cuyas singulares dificultades considera el artículo 14 se encuentran las mujeres:",
+  "opciones": [
+   "Con discapacidad",
+   "Mayores",
+   "Víctimas de violencia de género",
+   "Todas las respuestas anteriores son correctas"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 14.6 de la LO 3/2007: el punto 6 incluye, entre otras, a las mujeres con discapacidad, las mujeres mayores y las víctimas de violencia de género. La respuesta más completa es la d. Preguntado en el examen del Colegio: 2026."
+ },
+ {
+  "id": "a94001b2",
+  "tema": 2,
+  "temaTitulo": "Igualdad efectiva de mujeres y hombres",
+  "pregunta": "LO 3/2007 para la igualdad efectiva de mujeres y hombres. El punto 2 del artículo 14 prevé la integración del principio de igualdad de trato y de oportunidades en el conjunto de las políticas:",
+  "opciones": [
+   "Económica, fiscal, laboral y educativa",
+   "Económica, laboral, social, cultural y artística",
+   "Laboral, social y sanitaria",
+   "Económica, exterior, de defensa y de seguridad"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 14.2 de la LO 3/2007: en el conjunto de las políticas económica, laboral, social, cultural y artística. Preguntado en el examen del Colegio: 2026."
+ },
+ {
+  "id": "dec4ac7d",
+  "tema": 2,
+  "temaTitulo": "Igualdad efectiva de mujeres y hombres",
+  "pregunta": "LO 3/2007 para la igualdad efectiva de mujeres y hombres. El punto 5 del artículo 14 prevé la adopción de las medidas necesarias para la erradicación de:",
+  "opciones": [
+   "La violencia de género, sin que se incluyan otras formas de violencia o de acoso",
+   "La violencia de género, la violencia familiar y todas las formas de acoso sexual y acoso por razón de sexo",
+   "La violencia en el ámbito laboral, el acoso moral y el acoso por razón de sexo",
+   "La violencia de género, la trata de seres humanos y la explotación sexual"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 14.5 de la LO 3/2007: la erradicación de la violencia de género, la violencia familiar y todas las formas de acoso sexual y acoso por razón de sexo. Preguntado en el examen del Colegio: 2026."
+ },
+ {
+  "id": "91cdf43d",
+  "tema": 3,
+  "temaTitulo": "Derecho Constitucional",
+  "pregunta": "Constitución Española. Según el artículo 16.3, ¿mantendrán los poderes públicos relaciones de cooperación con alguna confesión?",
+  "opciones": [
+   "No, porque ninguna confesión tendrá carácter estatal",
+   "Sí, pero exclusivamente con la Iglesia Católica",
+   "Sí, con las confesiones inscritas que lo soliciten",
+   "Sí, con la Iglesia Católica y las demás confesiones"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 16.3 de la CE: ninguna confesión tendrá carácter estatal, pero los poderes públicos mantendrán relaciones de cooperación con la Iglesia Católica y las demás confesiones."
+ },
+ {
+  "id": "0f1d239b",
+  "tema": 3,
+  "temaTitulo": "Derecho Constitucional",
+  "pregunta": "Constitución Española. Complete el artículo 21.2: En los casos de reuniones en lugares de tránsito público y manifestaciones se dará ______ a la autoridad.",
+  "opciones": [
+   "solicitud de autorización",
+   "cuenta posterior",
+   "comunicación previa",
+   "traslado inmediato"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 21.2 de la CE: se dará comunicación previa a la autoridad. No se exige autorización."
+ },
+ {
+  "id": "b7725a76",
+  "tema": 3,
+  "temaTitulo": "Derecho Constitucional",
+  "pregunta": "Defensor del Pueblo. La negativa o negligencia del funcionario al envío del informe inicial podrá ser considerada por el Defensor del Pueblo como:",
+  "opciones": [
+   "Delito de desobediencia",
+   "Falta disciplinaria muy grave",
+   "Hostil y entorpecedora de sus funciones",
+   "Causa de archivo de la queja"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 18.2 de la LO 3/1981: podrá hacerla pública de inmediato y destacarla en su informe."
+ },
+ {
+  "id": "40515e92",
+  "tema": 4,
+  "temaTitulo": "Derecho Civil",
+  "pregunta": "Código Civil. Los bienes en tránsito se considerarán situados en el lugar de su destino cuando:",
+  "opciones": [
+   "El remitente y el destinatario lo hayan convenido expresamente y por escrito",
+   "Así lo disponga la ley del lugar de expedición",
+   "El remitente y el destinatario lo hayan convenido, expresa o tácitamente",
+   "El transporte se realice por vía marítima o aérea"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 10.1 del CC: basta el convenio, expreso o tácito, entre remitente y destinatario. No se exige forma escrita. Preguntado en el examen del Colegio: 2023, 2025 y 2026."
+ },
+ {
+  "id": "e407da53",
+  "tema": 4,
+  "temaTitulo": "Derecho Civil",
+  "pregunta": "Código Civil. Según el artículo 12.2, ¿se tiene en cuenta el reenvío que las normas de conflicto extranjeras hagan a la ley española?",
+  "opciones": [
+   "Sí, solo se prescinde del reenvío a una ley que no sea la española",
+   "No, el reenvío se excluye en todo caso",
+   "Sí, y también el reenvío a cualquier otra ley",
+   "Solo si las partes lo acuerdan expresamente"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 12.2 del CC: se prescinde del reenvío que las normas de conflicto extranjeras hagan a otra ley que no sea la española, de modo que el reenvío a la ley española sí se tiene en cuenta. Preguntado en el examen del Colegio: 2023 y 2026."
+ },
+ {
+  "id": "c336b66f",
+  "tema": 4,
+  "temaTitulo": "Derecho Civil",
+  "pregunta": "Código Civil. Según el artículo 10.1, se rige por la ley del lugar donde se hallen:",
+  "opciones": [
+   "La posesión, la propiedad y los demás derechos sobre bienes inmuebles, así como su publicidad",
+   "Los bienes muebles",
+   "Las respuestas a y b son correctas",
+   "Los buques y las aeronaves"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 10.1 del CC: la ley del lugar donde se hallen se aplica a los derechos sobre inmuebles y su publicidad, y la misma ley a los muebles. Buques y aeronaves siguen la del abanderamiento, matrícula o registro (art. 10.2). Preguntado en el examen del Colegio: 2023, 2025 y 2026."
+ },
+ {
+  "id": "9502c583",
+  "tema": 5,
+  "temaTitulo": "Derecho Penal",
+  "pregunta": "Código Penal. De las garantías penales y de la aplicación de la Ley penal. ¿Cuál es el orden de las reglas del artículo 8?",
+  "opciones": [
+   "Precepto especial, más amplio o complejo, subsidiario y más grave",
+   "Precepto subsidiario, especial, más grave y más amplio o complejo",
+   "Precepto más grave, especial, subsidiario y más amplio o complejo",
+   "Precepto especial, subsidiario, más amplio o complejo y más grave"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 8 de la LO 10/1995 (CP): 1.ª especial sobre general, 2.ª subsidiario en defecto del principal, 3.ª más amplio o complejo y 4.ª más grave."
+ },
+ {
+  "id": "0d627553",
+  "tema": 5,
+  "temaTitulo": "Derecho Penal",
+  "pregunta": "Código Penal. De las garantías penales y de la aplicación de la Ley penal. ¿Qué artículo del Código Penal dispone que las leyes penales no se aplicarán a casos distintos de los comprendidos expresamente en ellas?",
+  "opciones": [
+   "Artículo 5",
+   "Artículo 4",
+   "Artículo 1",
+   "Artículo 8"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 4.1 de la LO 10/1995 (CP). El art. 1 exige ley previa, el 5 dolo o imprudencia y el 8 regula el concurso de normas."
+ },
+ {
+  "id": "a235d9a7",
+  "tema": 5,
+  "temaTitulo": "Derecho Penal",
+  "pregunta": "Código Penal. De las garantías penales y de la aplicación de la Ley penal. ¿En qué artículo del Código Penal se establece que carecerán de efecto retroactivo las leyes que establezcan medidas de seguridad?",
+  "opciones": [
+   "Artículo 1",
+   "Artículo 6",
+   "Artículo 2",
+   "Artículo 3"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 2.1 de la LO 10/1995 (CP). El art. 1.2 exige presupuestos previos para aplicarlas, el 3 regula su ejecución y el 6 su fundamento y límites. Preguntado en el examen del Colegio: 2026."
+ },
+ {
+  "id": "a1b92a9f",
+  "tema": 6,
+  "temaTitulo": "Derecho Procesal Penal",
+  "pregunta": "LECRIM. Mientras se sustancia el recurso de apelación contra el auto de inhibición de la jurisdicción ordinaria en causas de aforados, se cumplirá lo dispuesto en el párrafo segundo del artículo:",
+  "opciones": [
+   "22",
+   "801",
+   "15",
+   "13"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 12 de la LECrim: entre tanto se sustancia y decide la apelación se cumple el art. 22, párrafo segundo, remitiéndose el testimonio correspondiente. El 13 define las primeras diligencias, el 15 los fueros subsidiarios y el 801 la conformidad. Preguntado en el examen del Colegio: 2025."
+ },
+ {
+  "id": "39b708e5",
+  "tema": 6,
+  "temaTitulo": "Derecho Procesal Penal",
+  "pregunta": "LECRIM. Un delito de estafa castigado con mayor pena se comete en Toledo y otro conexo con menor pena en Madrid, donde además comenzó antes la causa. ¿Quién es competente, conforme al orden del artículo 18.1?",
+  "opciones": [
+   "El que designe la Audiencia Provincial de Madrid",
+   "El del territorio de Toledo",
+   "El del territorio de Madrid",
+   "El que designe el Tribunal Supremo"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 18.1.1.º de la LECrim: el primer criterio es el territorio del delito con pena mayor. El de quien primero comenzó la causa (2.º) solo opera si las penas son iguales. Preguntado en el examen del Colegio: 2024, 2025 y 2026."
+ },
+ {
+  "id": "48d4194a",
+  "tema": 6,
+  "temaTitulo": "Derecho Procesal Penal",
+  "pregunta": "LECRIM. Según el artículo 14.5 h), las Secciones con competencia en materia de violencia sobre la mujer instruyen, cuando la persona ofendida sea mujer, los delitos siguientes, EXCEPTO:",
+  "opciones": [
+   "El acoso con connotación sexual",
+   "El matrimonio forzado",
+   "La mutilación genital femenina",
+   "La trata con fines de explotación laboral"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 14.5 h) de la LECrim: comprende los delitos contra la libertad sexual del título VIII, la mutilación genital femenina, el matrimonio forzado, el acoso con connotación sexual y la trata con fines de explotación sexual. La trata con fines de explotación laboral no figura. Preguntado en el examen del Colegio: 2024, 2025 y 2026."
+ },
+ {
+  "id": "30dd9e72",
+  "tema": 7,
+  "temaTitulo": "Derecho Administrativo",
+  "pregunta": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas. Registros electrónicos de apoderamientos. Los registros electrónicos generales y particulares de apoderamientos de todas las Administraciones deberán ser:",
+  "opciones": [
+   "Plenamente interoperables entre sí",
+   "Independientes para proteger los datos",
+   "Gestionados por el Registro Mercantil",
+   "Sustituidos por un registro único estatal"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 6.2 de la Ley 39/2015: deberán ser plenamente interoperables entre sí, garantizando interconexión y compatibilidad informática. Preguntado en el examen del Colegio: 2024 y 2026."
+ },
+ {
+  "id": "bc64e3b5",
+  "tema": 7,
+  "temaTitulo": "Derecho Administrativo",
+  "pregunta": "La falta o insuficiente acreditación de la representación:",
+  "opciones": [
+   "No impedirá que se tenga por realizado el acto si se subsana en el plazo de diez días que conceda el órgano",
+   "Impide siempre tener por realizado el acto",
+   "Obliga a iniciar de nuevo el procedimiento",
+   "Solo puede subsanarse en el plazo de un mes"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 5.6 de la Ley 39/2015, que permite además un plazo superior cuando las circunstancias del caso así lo requieran."
+ },
+ {
+  "id": "5292513b",
+  "tema": 7,
+  "temaTitulo": "Derecho Administrativo",
+  "pregunta": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas. Registros electrónicos de apoderamientos. Antes de que finalice el plazo de validez del poder inscrito, el poderdante podrá:",
+  "opciones": [
+   "Solo revocarlo, pues el poder inscrito no admite prórroga",
+   "Solo prorrogarlo por una única vez",
+   "Revocarlo o prorrogarlo en cualquier momento",
+   "Revocarlo solo en su último año de vigencia"
+  ],
+  "correcta": 2,
+  "explicacion": "Art. 6.6 de la Ley 39/2015: en cualquier momento antes de la finalización del plazo el poderdante podrá revocar o prorrogar el poder. Preguntado en el examen del Colegio: 2024 y 2026."
+ },
+ {
+  "id": "4bd47754",
+  "tema": 8,
+  "temaTitulo": "Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+  "pregunta": "LO 2/1986 de Fuerzas y Cuerpos de Seguridad. Del régimen estatutario de las Policías de las Comunidades Autónomas. La creación de los Cuerpos de Policía de las Comunidades Autónomas corresponde a sus órganos competentes, previo informe de:",
+  "opciones": [
+   "El Consejo de Política de Seguridad",
+   "El Comité de Expertos",
+   "El Ministerio del Interior",
+   "La Junta de Seguridad"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 41.1 de la LO 2/1986: la creación, modificación y supresión requiere previo informe del Consejo del art. 48, que es el Consejo de Política de Seguridad. Preguntado en el examen del Colegio: 2025."
+ },
+ {
+  "id": "5eb942c8",
+  "tema": 8,
+  "temaTitulo": "Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+  "pregunta": "LO 2/1986 de Fuerzas y Cuerpos de Seguridad. De las Fuerzas y Cuerpos de Seguridad del Estado. Bajo la inmediata autoridad del Ministro del Interior, el mando de las Fuerzas y Cuerpos de Seguridad del Estado será ejercido por:",
+  "opciones": [
+   "El Consejo de Política de Seguridad",
+   "El Presidente del Gobierno",
+   "El Director General de la Guardia Civil",
+   "El Director de la Seguridad del Estado"
+  ],
+  "correcta": 3,
+  "explicacion": "Art. 10.2 de la LO 2/1986: bajo la inmediata autoridad del Ministro del Interior, el mando lo ejerce el Director de la Seguridad del Estado, del que dependen las Direcciones Generales de la Guardia Civil y de la Policía. Preguntado en el examen del Colegio: 2023."
+ },
+ {
+  "id": "c0cf8410",
+  "tema": 8,
+  "temaTitulo": "Fuerzas y Cuerpos de Seguridad. Guardia Civil",
+  "pregunta": "Historia de la Guardia Civil. El sexenio revolucionario. La reforma orgánica de 1871, que redistribuyó los efectivos para combatir el bandolerismo, se llevó a cabo bajo la monarquía de:",
+  "opciones": [
+   "Alfonso XII",
+   "Fernando VII",
+   "Isabel II",
+   "Amadeo I"
+  ],
+  "correcta": 3,
+  "explicacion": "Apartado 3 (El sexenio revolucionario) de la Historia de la Guardia Civil: con la Monarquía Constitucional de Amadeo I se lleva a cabo la reforma orgánica de 1871."
+ },
+ {
+  "id": "41c45d11",
+  "tema": 9,
+  "temaTitulo": "Deontología profesional",
+  "pregunta": "Código de Conducta del personal de la Guardia Civil. ¿Cuál de los siguientes es un valor fundamental?",
+  "opciones": [
+   "Cooperación",
+   "Imparcialidad y neutralidad",
+   "Igualdad y no discriminación",
+   "Neutralidad ideológica y política"
+  ],
+  "correcta": 1,
+  "explicacion": "Art. 6 del Código de Conducta (RD 176/2022): la imparcialidad y neutralidad es un valor fundamental. La neutralidad ideológica y política (art. 13), la igualdad (art. 12) y la cooperación (art. 19) son principios institucionales. Preguntado en el examen del Colegio: 2023 y 2024."
+ },
+ {
+  "id": "9e4418d8",
+  "tema": 9,
+  "temaTitulo": "Deontología profesional",
+  "pregunta": "Seguir los principios de oportunidad, congruencia y proporcionalidad forma parte de la norma de comportamiento denominada:",
+  "opciones": [
+   "Serenidad, prudencia y firmeza",
+   "Eficacia y eficiencia",
+   "Disponibilidad permanente y dedicación profesional",
+   "Autoridad y acción de mando"
+  ],
+  "correcta": 0,
+  "explicacion": "Art. 25 del Código: serenidad, prudencia y firmeza. La eficacia y eficiencia (art. 26) se refiere a la gestión y empleo de los medios."
+ },
+ {
+  "id": "ae19409e",
+  "tema": 9,
+  "temaTitulo": "Deontología profesional",
+  "pregunta": "Real Decreto 176/2022. ¿Por qué norma se aprobaron las Reales Ordenanzas para las Fuerzas Armadas aplicables al personal de la Guardia Civil?",
+  "opciones": [
+   "Ley 29/2014, de 28 de noviembre",
+   "Real Decreto 176/2022, de 4 de marzo",
+   "Ley Orgánica 9/2011, de 27 de julio",
+   "Real Decreto 96/2009, de 6 de febrero"
+  ],
+  "correcta": 3,
+  "explicacion": "Disposición adicional única del RD 176/2022: las Reales Ordenanzas se aprobaron por Real Decreto 96/2009, de 6 de febrero. La LO 9/2011 regula los derechos y deberes de las Fuerzas Armadas."
+ },
+ {
+  "id": "3a789fcf",
+  "tema": 10,
+  "temaTitulo": "Topografía",
+  "pregunta": "Topografía. Unidades angulares. ¿Cuál es la unidad de medida de ángulos del Sistema Internacional de Unidades?",
+  "opciones": [
+   "El radián",
+   "La milésima artillera",
+   "El grado centesimal",
+   "El grado sexagesimal"
+  ],
+  "correcta": 0,
+  "explicacion": "Epígrafe «Unidades geométricas de medida» del temario de Topografía: el radián es la unidad angular del Sistema Internacional. El grado sexagesimal, el centesimal y la milésima artillera son otros sistemas de medida angular."
+ },
+ {
+  "id": "c764ba73",
+  "tema": 10,
+  "temaTitulo": "Topografía",
+  "pregunta": "Si la cota de A es 1.000 metros, la distancia reducida hasta B es de 500 metros y la pendiente del 8 por ciento, la cota de B es:",
+  "opciones": [
+   "1.800 metros",
+   "1.200 metros",
+   "2.000 metros",
+   "1.040 metros"
+  ],
+  "correcta": 3,
+  "explicacion": "Apartado 7: el desnivel es 8 por 500 dividido entre 100, es decir, 40 metros, sumados a la cota de A dan 1.040 metros."
+ },
+ {
+  "id": "66eb70dd",
+  "tema": 10,
+  "temaTitulo": "Topografía",
+  "pregunta": "En un mapa a escala 1:25.000, un centímetro del papel equivale sobre el terreno a:",
+  "opciones": [
+   "500 metros",
+   "250 metros",
+   "2.500 metros",
+   "25 metros"
+  ],
+  "correcta": 1,
+  "explicacion": "Apartado 6: 1 centímetro por 25.000 son 25.000 centímetros, o sea, 250 metros."
+ }
+]

@@ -116,6 +116,15 @@ export function Footer() {
                   </li>
                 ) : null,
               )}
+              {cursos.map((c) =>
+                rutas.test(c.slug) ? (
+                  <li key={`test-${c.slug}`}>
+                    <Link href={rutas.test(c.slug)!} className="text-white/80 hover:text-white">
+                      Test gratis {c.nombreCorto}
+                    </Link>
+                  </li>
+                ) : null,
+              )}
               <li>
                 <Link href={rutas.calculadora} className="text-white/80 hover:text-white">
                   Calculadora de nota
