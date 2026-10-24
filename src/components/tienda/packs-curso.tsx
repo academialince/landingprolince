@@ -1,7 +1,8 @@
+import Image from "next/image";
 import { ArrowRight, Check, Minus } from "lucide-react";
 import { Reveal } from "@/components/layout/reveal";
 import { Button } from "@/components/ui/button";
-import { formatoPrecio, packsVisibles } from "@/content/tienda";
+import { formatoPrecio, imagenPack, packsVisibles } from "@/content/tienda";
 import { links } from "@/lib/links";
 
 /**
@@ -27,13 +28,17 @@ export function PacksCurso({ slug }: { slug: string }) {
                 : "border-border"
             }`}
           >
+            {/* imagen provisional, generada con la marca */}
+            <div className="reflejo relative -mx-6 -mt-6 mb-5 aspect-[8/5] overflow-hidden rounded-t-2xl border-b border-border">
+              <Image src={imagenPack(p.id)} alt="" fill unoptimized sizes="(max-width: 640px) 100vw, 320px" className="object-cover" />
+            </div>
             {p.destacado && (
-              <span className="absolute -top-3 left-6 rounded-full bg-primary px-3 py-1 text-eyebrow uppercase text-primary-fg">
+              <span className="absolute -top-3 left-6 z-10 rounded-full bg-primary px-3 py-1 text-eyebrow uppercase text-primary-fg">
                 {p.destacado}
               </span>
             )}
             {p.prueba && (
-              <span className="absolute -top-3 left-6 rounded-full border border-primary bg-primary-soft px-3 py-1 text-eyebrow uppercase text-primary-soft-fg">
+              <span className="absolute -top-3 left-6 z-10 rounded-full border border-primary bg-primary-soft px-3 py-1 text-eyebrow uppercase text-primary-soft-fg">
                 {p.prueba} días gratis
               </span>
             )}

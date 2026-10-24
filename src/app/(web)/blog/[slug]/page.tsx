@@ -45,7 +45,8 @@ export async function generateMetadata(props: PageProps<"/blog/[slug]">): Promis
 
   const metadata = metadataPagina({ titulo, descripcion,
     ruta: entrada.seo?.canonical || `${rutas.blog}/${entrada.slug}`,
-    imagen: entrada.portada_url || undefined, imagenAlt: entrada.portada_alt || entrada.titulo,
+    // sin portada, una imagen generada con el título (mejor que el logo genérico al compartir)
+    imagen: entrada.portada_url || `${rutas.blog}/${entrada.slug}/imagen-social`, imagenAlt: entrada.portada_alt || entrada.titulo,
     noindex: entrada.seo?.noindex,
   });
   return {
@@ -198,7 +199,7 @@ export default async function EntradaBlog(props: PageProps<"/blog/[slug]">) {
           datePublished: entrada.publicado_en ?? undefined,
           // Una entrada programada se guarda antes de salir: la modificación nunca es anterior a la publicación.
           dateModified: fechaModificacion(entrada),
-          image: absoluteUrl(entrada.portada_url || "/opengraph-image"),
+          image: absoluteUrl(entrada.portada_url || `${rutas.blog}/${entrada.slug}/imagen-social`),
           inLanguage: "es-ES",
           author: autor.persona
             ? { "@type": "Person", name: autor.nombre, jobTitle: autor.cargo, url: absoluteUrl(autor.ruta), worksFor: { "@id": absoluteUrl("/#organizacion") } }

@@ -187,3 +187,6 @@ export const condiciones = [
   "Los packs son por curso. La suscripción mensual de tests se renueva cada mes y puedes darla de baja cuando quieras; el resto se paga una sola vez.",
   "El pago se procesa con Stripe. Esta web no recoge datos de tarjeta en ningún momento.",
 ];
+
+/** Imagen provisional del pack (generada con la marca hasta que haya fotos propias). */
+export const imagenPack = (id: string) => `/tienda/imagen/${id}`;

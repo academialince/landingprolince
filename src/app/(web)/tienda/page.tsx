@@ -6,7 +6,7 @@ import { Reveal } from "@/components/layout/reveal";
 import { CtaFinal } from "@/components/sections/cta-final";
 import { MaterialesTienda } from "@/components/tienda/materiales";
 import { PacksCurso } from "@/components/tienda/packs-curso";
-import { condiciones, formatoPrecio, materialesVisibles, packs, packsVisibles, rangoPrecios } from "@/content/tienda";
+import { condiciones, formatoPrecio, imagenPack, materialesVisibles, packs, packsVisibles, rangoPrecios } from "@/content/tienda";
 import { cursos } from "@/content/cursos";
 import { absoluteUrl, rutas, tiendaVisible } from "@/lib/links";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
@@ -85,6 +85,7 @@ export default function Tienda() {
               "@context": "https://schema.org",
               "@type": "Product",
               name: `Packs · ${c.nombre}`,
+              image: absoluteUrl(imagenPack(lista[0].id)),
               url: absoluteUrl(`${rutas.tienda}#packs-${c.slug}`),
               offers: {
                 "@type": "AggregateOffer",
@@ -92,7 +93,7 @@ export default function Tienda() {
                 lowPrice: r.min,
                 highPrice: r.max,
                 offerCount: r.n,
-                offers: lista.map((p) => ({ "@type": "Offer", name: p.nombre, price: p.precio, priceCurrency: "EUR", availability: "https://schema.org/InStock" })),
+                offers: lista.map((p) => ({ "@type": "Offer", name: p.nombre, image: absoluteUrl(imagenPack(p.id)), price: p.precio, priceCurrency: "EUR", availability: "https://schema.org/InStock" })),
               },
             }}
           />
