@@ -14,6 +14,8 @@ export type ConfigTest = {
   h1: string;
   entradilla: string;
   preguntas: PreguntaTest[];
+  /** Cómo se nombra el banco completo en la invitación final, p. ej. «más de 20.000 preguntas». */
+  banco: string;
   faq: { pregunta: string; respuesta: string }[];
 };
 
@@ -59,7 +61,7 @@ export function PaginaTest({ config }: { config: ConfigTest }) {
       </section>
 
       <Section ancho="estrecho">
-        <TestGratis preguntas={config.preguntas} registro={destinoEmpezar} />
+        <TestGratis preguntas={config.preguntas} registro={destinoEmpezar} banco={config.banco} />
       </Section>
 
       <Section

@@ -9,6 +9,7 @@ const config: ConfigTest = {
   entradilla:
     "Haz un test online de 10 o 20 preguntas de los 10 temas de conocimientos del Colegio «Duque de Ahumada», con la solución explicada de cada pregunta. Sin registro.",
   preguntas,
+  banco: "más de 4.000 preguntas del Colegio",
   faq: [
     {
       pregunta: "¿De dónde salen las preguntas?",

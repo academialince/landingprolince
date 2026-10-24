@@ -9,6 +9,7 @@ const config: ConfigTest = {
   entradilla:
     "Haz un test online de 10 o 20 preguntas de los 23 temas de conocimientos, con la corrección y la explicación de cada pregunta y tu nota con la penalización del examen real. Sin registro.",
   preguntas,
+  banco: "más de 20.000 preguntas",
   faq: [
     {
       pregunta: "¿De dónde salen las preguntas?",

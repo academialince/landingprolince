@@ -33,7 +33,7 @@ function barajar<T>(lista: T[]) {
  * Test gratis: preguntas al azar del banco de la plataforma, corrección al momento con la
  * explicación y nota final con la penalización del examen (cada error resta un tercio).
  */
-export function TestGratis({ preguntas, registro }: { preguntas: PreguntaTest[]; registro: string }) {
+export function TestGratis({ preguntas, registro, banco }: { preguntas: PreguntaTest[]; registro: string; banco: string }) {
   const [test, setTest] = useState<PreguntaTest[] | null>(null);
   const [indice, setIndice] = useState(0);
   const [respuestas, setRespuestas] = useState<Respuesta[]>([]);
@@ -97,7 +97,7 @@ export function TestGratis({ preguntas, registro }: { preguntas: PreguntaTest[];
         )}
         <div className="mt-6 rounded-xl border border-primary bg-primary-soft p-5">
           <p className="font-semibold text-primary-soft-fg">
-            En la plataforma tienes más de 20.000 preguntas, tests por tema y simulacros cronometrados con esta misma corrección.
+            En la plataforma tienes {banco}, tests por tema y simulacros cronometrados con esta misma corrección.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
             <Button href={registro}>

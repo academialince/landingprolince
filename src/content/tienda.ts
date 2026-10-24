@@ -26,11 +26,14 @@ export type Pack = {
  * temario, que en el Colegio es una versión reducida del de la Escala.
  * PENDIENTE: oferta de Black Friday del Pack Especial Simulacros (GC 75 €, CGJ 49,95 €), aún sin fechas.
  */
+/** Mismas frases en los dos cursos, para que se lean igual; solo cambian cifras y precios. */
 const comunes = {
-  esquemasYLengua: "Acceso a esquemas, ortografía, gramática e inglés",
-  tests: "Tests ilimitados: personalizados por tema y por materia, aleatorios y predeterminados con ranking",
-  repaso: "Tests ilimitados de repaso",
-  simulacros: "25 simulacros de conocimientos, ortografía e inglés (5 de ellos en PDF para imprimir)",
+  esquemasYLengua: "Acceso a esquemas por tema y de ortografía, gramática e inglés",
+  tests: "Tests ilimitados personalizados por tema y por materia (inglés, ortografía, gramática…), aleatorios y predeterminados con ranking",
+  repaso: "Tests de repaso de las preguntas falladas",
+  temarioDigital: "Temario digital, en la web y en el móvil",
+  tiposSimulacro: "Simulacros de conocimientos, ortografía, inglés y psicotécnicos",
+  anual: "12 mensualidades de la Suscripción de Tests: tests ilimitados personalizados por tema y por materia (inglés, ortografía, gramática…)",
 };
 
 export const packs: Record<string, Pack[]> = {
@@ -51,7 +54,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 89.95,
       pago: "unico",
-      incluye: [comunes.simulacros, comunes.esquemasYLengua],
+      incluye: ["Más de 25 simulacros online: oficiales y exclusivos de ProLince", comunes.tiposSimulacro, "5 de ellos, también en PDF para imprimir", comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -81,13 +84,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Un año de tests ilimitados, el temario digital y más de 50 simulacros.",
       precio: 179,
       pago: "unico",
-      incluye: [
-        "12 mensualidades de la Suscripción de Tests: tests ilimitados personalizados por tema, por materia y más",
-        comunes.repaso,
-        "Temario digital, en la web y en el móvil",
-        "Más de 50 simulacros online: oficiales y exclusivos de ProLince",
-        comunes.esquemasYLengua,
-      ],
+      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, "Más de 50 simulacros online: oficiales y exclusivos de ProLince", comunes.esquemasYLengua],
       destacado: "El más completo",
     },
   ],
@@ -106,9 +103,9 @@ export const packs: Record<string, Pack[]> = {
       id: "cgj-2-1",
       nombre: "Pack Especial Simulacros",
       resumen: "Para llegar al examen con el formato bien entrenado.",
-      precio: 60,
+      precio: 59.95,
       pago: "unico",
-      incluye: [comunes.simulacros, comunes.esquemasYLengua],
+      incluye: ["15 simulacros online", comunes.tiposSimulacro, comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -139,10 +136,10 @@ export const packs: Record<string, Pack[]> = {
     {
       id: "cgj-4",
       nombre: "Pack Ahorro",
-      resumen: "El temario completo y un año de tests ilimitados.",
+      resumen: "Un año de tests ilimitados, el temario digital y más de 30 simulacros.",
       precio: 89.95,
       pago: "unico",
-      incluye: ["Todo el Pack Temarios: temario descargable, ortografía, gramática e inglés", "12 meses de la Suscripción mensual de Tests: tests ilimitados y esquemas"],
+      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, "Más de 30 simulacros online", comunes.esquemasYLengua],
       destacado: "El más completo",
     },
   ],
