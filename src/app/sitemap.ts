@@ -23,6 +23,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...(cursosVisibles ? cursos.flatMap((c) => (rutas.test(c.slug) ? [{ ruta: rutas.test(c.slug)!, prioridad: 0.8 }] : [])) : []),
     ...(tiendaVisible ? [{ ruta: rutas.temarios, prioridad: 0.8 }, { ruta: rutas.tienda, prioridad: 0.8 }] : []),
     { ruta: rutas.blog, prioridad: 0.7 },
+    { ruta: rutas.contacto, prioridad: 0.4 },
     ...(nosotrosVisible ? [{ ruta: rutas.nosotros, prioridad: 0.6 }] : []),
     // Con los cursos abiertos la lista de espera va con `noindex`: fuera del sitemap.
     ...(cursosAbiertos ? [] : [{ ruta: rutas.waitlist, prioridad: 0.5 }]),

@@ -49,6 +49,7 @@ export const rutas = {
   admin: "/admin",
   avisoLegal: "/aviso-legal",
   privacidad: "/privacidad",
+  contacto: "/contacto",
   cookies: "/cookies",
 } as const;
 

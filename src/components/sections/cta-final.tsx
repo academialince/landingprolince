@@ -3,7 +3,7 @@ import { Container } from "@/components/layout/container";
 import { Reveal } from "@/components/layout/reveal";
 import { Button } from "@/components/ui/button";
 import { MarcoTactico } from "@/components/ui/marco-tactico";
-import { cursosAbiertos, destinoEmpezar, links } from "@/lib/links";
+import { cursosAbiertos, destinoEmpezar } from "@/lib/links";
 
 export function CtaFinal() {
   return (
@@ -24,16 +24,6 @@ export function CtaFinal() {
                 Empezar ahora
                 <ArrowRight size={18} aria-hidden />
               </Button>
-              {cursosAbiertos && (
-                <Button
-                  href={links.catalogo}
-                  variante="secundario"
-                  tamano="lg"
-                  className="bg-transparent! text-white! border-white/25! hover:bg-white/10!"
-                >
-                  Ver el catálogo
-                </Button>
-              )}
             </div>
           </div>
           <MarcoTactico

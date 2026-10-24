@@ -81,8 +81,8 @@ export const navegacion: ItemNav[] = [
         },
       ]
     : []),
+  ...(tiendaVisible ? [{ etiqueta: "Temarios", href: rutas.temarios }, { etiqueta: "Packs", href: rutas.tienda }] : []),
   { etiqueta: "Blog", href: rutas.blog },
   ...(nosotrosVisible ? [{ etiqueta: "Nosotros", href: rutas.nosotros }] : []),
-  ...(tiendaVisible ? [{ etiqueta: "Temarios", href: rutas.temarios }, { etiqueta: "Packs", href: rutas.tienda }] : []),
   ...(cursosAbiertos ? [] : [{ etiqueta: "Lista de espera", href: rutas.waitlist }]),
 ];

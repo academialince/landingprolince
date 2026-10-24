@@ -2,7 +2,7 @@
  * Sección «Temarios»: los libros en papel de cada curso, en dos modalidades.
  *
  * PENDIENTE:
- * - Precios: mientras `precio` sea `null`, la tarjeta dice «Precio próximamente» y no hay datos
+ * - Si un precio vuelve a ser `null`, la tarjeta dice «Precio próximamente» y no hay datos
  *   estructurados de producto.
  * - Compra: de momento el botón abre WhatsApp con el pedido escrito. Cuando haya pasarela, se pone
  *   su enlace en `compra`.
@@ -57,7 +57,7 @@ export const temarios: TemarioCurso[] = [
           "Libro de inglés",
           "Libro de ortografía y gramática",
         ],
-        precio: null,
+        precio: 189.95,
         destacado: "El más completo",
         ejemplo: ejemploGC,
       },
@@ -66,7 +66,7 @@ export const temarios: TemarioCurso[] = [
         nombre: "Libro resumen",
         resumen: "El temario condensado en un solo libro, para repasar lo esencial de cada tema.",
         incluye: ["Libro resumen del temario actualizado 2027"],
-        precio: null,
+        precio: 69.95,
         ejemplo: null,
       },
     ],
@@ -84,7 +84,7 @@ export const temarios: TemarioCurso[] = [
           "Libro de inglés",
           "Libro de ortografía y gramática",
         ],
-        precio: null,
+        precio: 119.95,
         destacado: "El más completo",
         ejemplo: ejemploCGJ,
       },
@@ -93,7 +93,7 @@ export const temarios: TemarioCurso[] = [
         nombre: "Libro resumen",
         resumen: "El temario del Colegio condensado en un solo libro, para repasar lo esencial.",
         incluye: ["Libro resumen del temario actualizado 2027"],
-        precio: null,
+        precio: 59.95,
         ejemplo: null,
       },
     ],

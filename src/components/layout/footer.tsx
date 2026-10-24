@@ -31,11 +31,15 @@ export function Footer() {
             {hayContacto && (
               <ul className="mt-6 grid gap-2 text-body-sm">
                 {email && (
-                  <li>
-                    <a href={`mailto:${email}`} className="inline-flex items-center gap-2 hover:underline">
+                  <li className="mb-2">
+                    {/* el email no se enseña: el formulario de contacto lo envía a ese buzón */}
+                    <Link
+                      href={rutas.contacto}
+                      className="inline-flex h-10 items-center gap-2 rounded-md border border-white/30 px-4 font-semibold text-white transition-colors hover:border-white hover:bg-white/10"
+                    >
                       <Mail size={16} aria-hidden />
-                      {email}
-                    </a>
+                      Contactar
+                    </Link>
                   </li>
                 )}
                 {telefono && (
