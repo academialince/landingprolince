@@ -21,6 +21,7 @@ import { packs, rangoPrecios } from "@/content/tienda";
 import { PacksCurso } from "@/components/tienda/packs-curso";
 import { programas } from "@/content/temario";
 import { PruebasRepaso } from "@/components/cursos/pruebas-repaso";
+import { Resultados } from "@/components/sections/resultados";
 import Link from "next/link";
 
 /** Las anclas quedan bajo la cabecera y el submenú, que suman 7,5rem. */
@@ -293,6 +294,8 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
           <PacksCurso slug={curso.slug} />
         </Section>
       )}
+
+      <Resultados curso={curso.slug} />
 
       <Section
         id="preguntas"
