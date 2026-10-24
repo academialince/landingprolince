@@ -23,6 +23,8 @@ export function Header() {
   const [abierto, setAbierto] = useState(false);
   const [desplegado, setDesplegado] = useState<string | null>(null);
   const [desplazado, setDesplazado] = useState(false);
+  /** Grupo abierto en el menú móvil (acordeón); empieza plegado cada vez que se abre el menú. */
+  const [grupoMovil, setGrupoMovil] = useState<string | null>(null);
   const ruta = usePathname();
   const navRef = useRef<HTMLElement>(null);
 
@@ -187,7 +189,10 @@ export function Header() {
             <BotonTema className="lg:hidden" />
             <button
               type="button"
-              onClick={() => setAbierto((v) => !v)}
+              onClick={() => {
+                setGrupoMovil(null);
+                setAbierto((v) => !v);
+              }}
               aria-expanded={abierto}
               aria-controls="menu-movil"
               aria-label={abierto ? "Cerrar menú" : "Abrir menú"}
@@ -210,10 +215,30 @@ export function Header() {
           <nav aria-label="Principal, móvil" className="grid py-2">
             {navegacion.map((item) =>
               item.hijos ? (
-                <div key={item.etiqueta} className="border-b border-border py-3">
-                  {/* Un grupo no es un destino: enlazarlo al primer curso duplicaba la entrada. */}
-                  <p className="text-eyebrow uppercase text-muted-foreground">{item.etiqueta}</p>
-                  <div className="mt-1 grid">
+                <div key={item.etiqueta} className="border-b border-border py-1.5">
+                  {/* Un grupo no es un destino: se pliega y despliega como un acordeón, con el mismo
+                      aspecto que el resto de enlaces del menú. */}
+                  <button
+                    type="button"
+                    onClick={() => setGrupoMovil((g) => (g === item.etiqueta ? null : item.etiqueta))}
+                    aria-expanded={grupoMovil === item.etiqueta}
+                    aria-controls={`grupo-movil-${item.etiqueta}`}
+                    className={`nav-link flex w-full items-center justify-between rounded-md px-3 py-2.5 text-left font-semibold ${
+                      activo(ruta, item) ? "bg-primary-soft text-primary-soft-fg" : ""
+                    }`}
+                  >
+                    {item.etiqueta}
+                    <ChevronDown
+                      size={18}
+                      aria-hidden
+                      className={`shrink-0 transition-transform duration-200 ${grupoMovil === item.etiqueta ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  <div
+                    id={`grupo-movil-${item.etiqueta}`}
+                    hidden={grupoMovil !== item.etiqueta}
+                    className="mt-1 grid border-l-2 border-border pl-3 ml-3"
+                  >
                     {item.hijos.map((h) => {
                       if (!h.href)
                         return (
