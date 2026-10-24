@@ -11,6 +11,11 @@
  * Las páginas de ejemplo salen del temario de la plataforma: portada y 12 páginas repartidas del
  * tema 5; el visor enseña la portada y 5 de ellas al azar cada vez que se abre.
  */
+import miniaturaGCCompleto from "../../public/temarios/miniaturas/gc-libro-completo.webp";
+import miniaturaGCResumen from "../../public/temarios/miniaturas/gc-libro-resumen.webp";
+import miniaturaCGJCompleto from "../../public/temarios/miniaturas/cgj-libro-completo.webp";
+import miniaturaCGJResumen from "../../public/temarios/miniaturas/cgj-libro-resumen.webp";
+
 export type Ejemplo = { portada: string; paginas: string[]; titulo: string };
 
 export type ModalidadTemario = {
@@ -51,7 +56,8 @@ export const temarios: TemarioCurso[] = [
     modalidades: [
       {
         id: "gc-libro-completo",
-        miniatura: "/temarios/miniaturas/gc-libro-completo.webp",
+        // La importación estática versiona la URL al cambiar la imagen y evita miniaturas antiguas.
+        miniatura: miniaturaGCCompleto.src,
         nombre: "Pack completo",
         resumen: "Los tres libros para preparar la oposición entera, con el temario actualizado a 2027.",
         incluye: [
@@ -65,7 +71,7 @@ export const temarios: TemarioCurso[] = [
       },
       {
         id: "gc-libro-resumen",
-        miniatura: "/temarios/miniaturas/gc-libro-resumen.webp",
+        miniatura: miniaturaGCResumen.src,
         nombre: "Libro resumen",
         resumen: "El temario condensado en un solo libro, para repasar lo esencial de cada tema.",
         incluye: ["Libro resumen del temario actualizado 2027"],
@@ -80,7 +86,7 @@ export const temarios: TemarioCurso[] = [
     modalidades: [
       {
         id: "cgj-libro-completo",
-        miniatura: "/temarios/miniaturas/cgj-libro-completo.webp",
+        miniatura: miniaturaCGJCompleto.src,
         nombre: "Pack completo",
         resumen: "Los tres libros para preparar el acceso al Colegio, con el temario actualizado a 2027.",
         incluye: [
@@ -94,7 +100,7 @@ export const temarios: TemarioCurso[] = [
       },
       {
         id: "cgj-libro-resumen",
-        miniatura: "/temarios/miniaturas/cgj-libro-resumen.webp",
+        miniatura: miniaturaCGJResumen.src,
         nombre: "Libro resumen",
         resumen: "El temario del Colegio condensado en un solo libro, para repasar lo esencial.",
         incluye: ["Libro resumen del temario actualizado 2027"],
