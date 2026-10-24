@@ -249,8 +249,8 @@ export async function PaginaTemarioCurso({ pagina }: { pagina: PaginaTemario }) 
           <div className="flex flex-wrap gap-3">
             <Button href={destinoEmpezar}>Probar 7 días gratis</Button>
             {tiendaVisible && (
-              <Button href={`${rutas.tienda}#packs-${curso.slug}`} variante="secundario">
-                Ver packs
+              <Button href={`${rutas.temarios}#${curso.slug === "acceso-guardia-civil" ? "guardia-civil" : "guardias-jovenes"}`} variante="secundario">
+                Temario en papel
               </Button>
             )}
           </div>

@@ -34,6 +34,8 @@ export const rutas = {
   curso: (slug: string) => `/cursos/${slug}`,
   blog: "/blog",
   nosotros: "/nosotros",
+  /** La sección «Temarios»: los libros en papel de cada curso. */
+  temarios: "/temarios",
   /** La sección «Packs» (antes «Tienda»): los packs de cada curso con sus precios. */
   tienda: "/packs",
   calculadora: "/calculadora-nota-guardia-civil",
