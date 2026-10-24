@@ -145,3 +145,14 @@ export function aSlug(texto: string) {
     .replace(/-+/g, "-")
     .slice(0, 80);
 }
+
+/**
+ * Slugs de las entradas ya visibles (RLS solo devuelve las publicadas con fecha pasada). Sirve
+ * para no enlazar desde las páginas fijas a un artículo programado, que aún daría 404.
+ */
+export const slugsPublicados = cache(async () => {
+  const sb = supabasePublico();
+  if (!sb) return new Set<string>();
+  const { data } = await sb.from("blog_posts").select("slug");
+  return new Set((data ?? []).map((f: { slug: string }) => f.slug));
+});

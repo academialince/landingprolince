@@ -33,6 +33,7 @@ export async function GET() {
     "## Páginas",
     "",
     `- [Inicio](${absoluteUrl("/")})`,
+    ...cursos.flatMap((c) => (rutas.temario(c.slug) ? [`- [Temario ${c.nombreCorto}](${absoluteUrl(rutas.temario(c.slug)!)}): todos los temas del programa oficial, qué normas entran en cada uno y cómo se examinan.`] : [])),
     `- [Packs y precios](${absoluteUrl(rutas.tienda)}): suscripción mensual de tests con 7 días de prueba gratis, simulacros, temarios y pack completo, por curso.`,
     `- [Nosotros](${absoluteUrl(rutas.nosotros)})`,
     `- [Blog](${absoluteUrl(rutas.blog)})`,

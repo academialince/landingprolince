@@ -16,7 +16,7 @@ import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 import { absoluteUrl, cursosAbiertos, cursosVisibles, destinoEmpezar, rutas, tiendaVisible } from "@/lib/links";
 import { Proximamente } from "@/components/ui/proximamente";
 import { TarjetaEntrada } from "@/components/blog/tarjeta-entrada";
-import { entradasRelacionadas } from "@/lib/blog";
+import { entradasRelacionadas, slugsPublicados } from "@/lib/blog";
 import { packs, rangoPrecios } from "@/content/tienda";
 import { PacksCurso } from "@/components/tienda/packs-curso";
 import { programas } from "@/content/temario";
@@ -53,6 +53,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
   if (!curso) notFound();
   if (!cursosVisibles) redirect(rutas.waitlist);
   const programa = programas[curso.slug];
+  const publicados = await slugsPublicados();
 
   // Enlazado de vuelta al blog: primero los artículos de este curso; si aún no hay, los últimos.
   const delCurso = await entradasRelacionadas("", curso.slug);
@@ -227,7 +228,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
                         </li>
                       ))}
                     </ul>
-                    {t.articulo && (
+                    {t.articulo && publicados.has(t.articulo.slug) && (
                       <Link href={`${rutas.blog}/${t.articulo.slug}`} className="mt-5 inline-flex items-center gap-2 text-body-sm font-semibold text-primary hover:underline">
                         {t.articulo.titulo}
                         <ArrowRight size={16} aria-hidden />
@@ -249,6 +250,12 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
             )}
             . Comprueba siempre las bases de tu convocatoria.
           </p>
+          {rutas.temario(curso.slug) && (
+            <Button href={rutas.temario(curso.slug)} variante="secundario" className="mt-6">
+              Ver el temario completo, tema a tema
+              <ArrowRight size={18} aria-hidden />
+            </Button>
+          )}
         </Section>
       )}
 

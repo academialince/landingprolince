@@ -105,6 +105,18 @@ export function Footer() {
                 </li>
               ))}
             </ul>
+            <h2 className="mb-4 mt-8 text-eyebrow uppercase text-white/50">Recursos</h2>
+            <ul className="grid gap-2.5 text-body-sm">
+              {cursos.map((c) =>
+                rutas.temario(c.slug) ? (
+                  <li key={c.slug}>
+                    <Link href={rutas.temario(c.slug)!} className="text-white/80 hover:text-white">
+                      Temario {c.nombreCorto}
+                    </Link>
+                  </li>
+                ) : null,
+              )}
+            </ul>
           </nav>
           )}
 

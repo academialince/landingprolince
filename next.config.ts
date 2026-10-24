@@ -28,8 +28,6 @@ const nextConfig: NextConfig = {
       { source: "/plataforma", destination: "/", permanent: true },
       { source: "/metodo", destination: "/", permanent: true },
       { source: "/preguntas", destination: "/cursos/acceso-guardia-civil", permanent: true },
-      // el temario vive ahora en la página de cada curso
-      { source: "/temario-guardia-civil", destination: "/cursos/acceso-guardia-civil#temario", permanent: true },
       // El dominio de Vercel serviría una copia exacta de la web: todo al dominio propio.
       {
         source: "/:path*",
