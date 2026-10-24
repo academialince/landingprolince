@@ -26,12 +26,17 @@ export function MarcoTactico({
   dato?: string;
   sizes?: string;
   preload?: boolean;
-  formato?: "vertical" | "horizontal";
+  /** `relleno`: sin proporción fija, ocupa la altura de su celda (para igualarla con lo que tiene al lado). */
+  formato?: "vertical" | "horizontal" | "relleno";
   className?: string;
 }) {
   return (
-    <figure className={`hud-marco mx-auto w-full max-w-[26rem] ${className}`}>
-      <div className={`hud-foto reflejo relative w-full border border-border-strong ${formato === "horizontal" ? "aspect-[3/2]" : "aspect-[2/3]"}`}>
+    <figure className={`hud-marco mx-auto w-full max-w-[26rem] ${formato === "relleno" ? "h-full" : ""} ${className}`}>
+      <div
+        className={`hud-foto reflejo relative w-full border border-border-strong ${
+          formato === "horizontal" ? "aspect-[3/2]" : formato === "relleno" ? "h-full min-h-[22rem] lg:min-h-0" : "aspect-[2/3]"
+        }`}
+      >
         <Image src={src} alt={alt} fill sizes={sizes} quality={90} priority={preload} className="object-cover" />
 
         {/* etiqueta superior */}

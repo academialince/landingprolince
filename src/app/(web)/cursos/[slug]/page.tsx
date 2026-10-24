@@ -134,8 +134,8 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
         titulo={curso.paraQuien.titulo}
         entradilla={curso.paraQuien.texto}
       >
-        <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-16">
-          <Reveal>
+        <div className="grid items-stretch gap-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-16">
+          <Reveal className="h-full">
             {/* todos los puntos en una sola caja */}
             <ul className="divide-y divide-border rounded-xl border border-border bg-surface">
               {curso.paraQuien.puntos.map((p) => (
@@ -154,7 +154,8 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
               pie={curso.paraQuien.foto.pie}
               dato={curso.paraQuien.foto.dato}
               sizes="(max-width: 1024px) 80vw, 352px"
-              className="max-w-[22rem]"
+              formato="relleno"
+              className="max-w-[22rem] lg:max-w-none"
             />
           )}
         </div>
