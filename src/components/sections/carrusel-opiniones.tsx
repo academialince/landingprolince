@@ -1,18 +1,17 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const INTERVALO_MS = 15_000;
 
 /**
  * Carrusel de opiniones: una cada vez, cambia sola cada 15 segundos. Se para al pasar el ratón,
- * al enfocar con el teclado, si no se ve en pantalla o si el usuario lo pausa; con «reducir
+ * al enfocar con el teclado o si no se ve en pantalla; con «reducir
  * movimiento» no avanza solo. Las tarjetas llegan ya pintadas desde el servidor.
  */
 export function CarruselOpiniones({ tarjetas, etiquetas }: { tarjetas: ReactNode[]; etiquetas: string[] }) {
   const [actual, setActual] = useState(0);
-  const [pausado, setPausado] = useState(false);
   const [encima, setEncima] = useState(false);
   const [visible, setVisible] = useState(false);
   const [quieto, setQuieto] = useState(false);
@@ -36,7 +35,7 @@ export function CarruselOpiniones({ tarjetas, etiquetas }: { tarjetas: ReactNode
     };
   }, []);
 
-  const corriendo = total > 1 && visible && !pausado && !encima && !quieto;
+  const corriendo = total > 1 && visible && !encima && !quieto;
   useEffect(() => {
     if (!corriendo) return;
     const id = window.setTimeout(() => setActual((a) => (a + 1) % total), INTERVALO_MS);
@@ -104,14 +103,6 @@ export function CarruselOpiniones({ tarjetas, etiquetas }: { tarjetas: ReactNode
           </div>
           <button type="button" onClick={() => ir(actual + 1)} aria-label="Opinión siguiente" className="grid size-10 place-items-center rounded-md border border-border-strong hover:border-primary hover:text-primary">
             <ChevronRight size={20} aria-hidden />
-          </button>
-          <button
-            type="button"
-            onClick={() => setPausado((p) => !p)}
-            aria-label={pausado ? "Reanudar el carrusel" : "Pausar el carrusel"}
-            className="grid size-10 place-items-center rounded-md border border-border-strong hover:border-primary hover:text-primary"
-          >
-            {pausado ? <Play size={18} aria-hidden /> : <Pause size={18} aria-hidden />}
           </button>
         </div>
       )}
