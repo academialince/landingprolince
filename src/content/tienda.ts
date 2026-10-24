@@ -54,7 +54,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 89.95,
       pago: "unico",
-      incluye: ["Más de 25 simulacros online: oficiales y exclusivos de ProLince", comunes.tiposSimulacro, "5 de ellos, también en PDF para imprimir", comunes.esquemasYLengua],
+      incluye: ["25 simulacros online: oficiales y exclusivos de ProLince", comunes.tiposSimulacro, "5 de ellos, también en PDF para imprimir", comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -105,7 +105,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 59.95,
       pago: "unico",
-      incluye: ["15 simulacros online", comunes.tiposSimulacro, comunes.esquemasYLengua],
+      incluye: ["15 simulacros online: oficiales y exclusivos de ProLince", comunes.tiposSimulacro, "5 de ellos, también en PDF para imprimir", comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -139,7 +139,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Un año de tests ilimitados, el temario digital y más de 30 simulacros.",
       precio: 109.95,
       pago: "unico",
-      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, "Más de 30 simulacros online", comunes.esquemasYLengua],
+      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, "Más de 30 simulacros online: oficiales y exclusivos de ProLince", comunes.esquemasYLengua],
       destacado: "El más completo",
     },
   ],
