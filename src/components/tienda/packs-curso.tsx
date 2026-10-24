@@ -11,7 +11,7 @@ import { links } from "@/lib/links";
  */
 export function PacksCurso({ slug }: { slug: string }) {
   const lista = packsVisibles(slug);
-  const columnas = lista.length >= 5 ? "xl:grid-cols-5" : "xl:grid-cols-4";
+  const columnas = lista.length >= 5 ? "xl:grid-cols-5" : lista.length === 4 ? "xl:grid-cols-4" : "lg:grid-cols-3";
   return (
     <ul className={`grid gap-5 sm:grid-cols-2 ${columnas}`}>
       {lista.map((p, i) => {

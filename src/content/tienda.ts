@@ -28,7 +28,9 @@ export type Pack = {
  */
 const comunes = {
   esquemasYLengua: "Acceso a esquemas, ortografía, gramática e inglés",
-  tests: "Tests ilimitados: aleatorios, personalizados por tema y predeterminados con ranking",
+  tests: "Tests ilimitados: personalizados por tema y por materia, aleatorios y predeterminados con ranking",
+  repaso: "Tests ilimitados de repaso",
+  simulacros: "25 simulacros de conocimientos, ortografía e inglés (5 de ellos en PDF para imprimir)",
 };
 
 export const packs: Record<string, Pack[]> = {
@@ -40,7 +42,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para entrenar a diario con tests sin límite.",
       precio: 9.95,
       pago: "mensual",
-      incluye: [comunes.tests, comunes.esquemasYLengua],
+      incluye: [comunes.tests, comunes.repaso, comunes.esquemasYLengua],
       noIncluye: "No incluye temario ni simulacros.",
     },
     {
@@ -49,7 +51,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 89.95,
       pago: "unico",
-      incluye: ["25 simulacros de conocimientos, ortografía e inglés (5 de ellos en PDF)", comunes.esquemasYLengua],
+      incluye: [comunes.simulacros, comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -65,6 +67,8 @@ export const packs: Record<string, Pack[]> = {
     },
     {
       id: "gc-3",
+      // el temario se vende ahora en la sección Temario (libros)
+      oculto: true,
       nombre: "Pack Temarios",
       resumen: "Todo el temario para estudiar, en PDF descargable.",
       precio: 69.95,
@@ -74,10 +78,16 @@ export const packs: Record<string, Pack[]> = {
     {
       id: "gc-4",
       nombre: "Pack Ahorro",
-      resumen: "El temario completo y un año de tests ilimitados.",
-      precio: 119.95,
+      resumen: "Un año de tests ilimitados, el temario digital y más de 50 simulacros.",
+      precio: 179,
       pago: "unico",
-      incluye: ["Todo el Pack Temarios: temario descargable, ortografía, gramática e inglés", "12 meses de la Suscripción mensual de Tests: tests ilimitados y esquemas"],
+      incluye: [
+        "12 mensualidades de la Suscripción de Tests: tests ilimitados personalizados por tema, por materia y más",
+        comunes.repaso,
+        "Temario digital, en la web y en el móvil",
+        "Más de 50 simulacros online: oficiales y exclusivos de ProLince",
+        comunes.esquemasYLengua,
+      ],
       destacado: "El más completo",
     },
   ],
@@ -89,7 +99,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para entrenar a diario con tests sin límite.",
       precio: 6.95,
       pago: "mensual",
-      incluye: [comunes.tests, comunes.esquemasYLengua],
+      incluye: [comunes.tests, comunes.repaso, comunes.esquemasYLengua],
       noIncluye: "No incluye temario ni simulacros.",
     },
     {
@@ -98,7 +108,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 60,
       pago: "unico",
-      incluye: ["25 simulacros de conocimientos, ortografía e inglés (5 de ellos en PDF)", comunes.esquemasYLengua],
+      incluye: [comunes.simulacros, comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -114,6 +124,8 @@ export const packs: Record<string, Pack[]> = {
     },
     {
       id: "cgj-3",
+      // el temario se vende ahora en la sección Temario (libros)
+      oculto: true,
       nombre: "Pack Temarios",
       resumen: "El temario del Colegio para estudiar, en PDF descargable.",
       precio: 49.95,

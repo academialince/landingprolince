@@ -24,7 +24,9 @@ const nextConfig: NextConfig = {
     return [
       { source: "/la-oposicion", destination: "/cursos/acceso-guardia-civil", permanent: true },
       { source: "/quienes-somos", destination: "/nosotros", permanent: true },
-      { source: "/precios", destination: "/tienda", permanent: true },
+      { source: "/precios", destination: "/packs", permanent: true },
+      // la tienda pasó a llamarse «Packs»
+      { source: "/tienda", destination: "/packs", permanent: true },
       { source: "/plataforma", destination: "/", permanent: true },
       { source: "/metodo", destination: "/", permanent: true },
       { source: "/preguntas", destination: "/cursos/acceso-guardia-civil", permanent: true },

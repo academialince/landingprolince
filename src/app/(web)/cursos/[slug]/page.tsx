@@ -288,7 +288,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
           className={ANCLA}
           eyebrow="Packs"
           titulo="Elige cómo prepararlo"
-          entradilla="Tests para entrenar a diario, simulacros para el examen, el temario descargable o todo junto."
+          entradilla="Tests para entrenar a diario, simulacros para el examen o el pack anual con todo."
           fondo="suave"
         >
           <PacksCurso slug={curso.slug} />

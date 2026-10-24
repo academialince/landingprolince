@@ -170,7 +170,7 @@ export function Header() {
                 </div>
               );
             })}
-            {/* junto a «Tienda»: sol o luna para cambiar de tema */}
+            {/* junto a «Packs»: sol o luna para cambiar de tema */}
             <BotonTema className="ml-1" />
           </nav>
 

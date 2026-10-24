@@ -14,19 +14,19 @@ import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
 const gc = rangoPrecios("acceso-guardia-civil");
 
 export const metadata = metadataPagina({
-  titulo: "Packs y precios de los cursos",
-  descripcion: `Packs para preparar la Guardia Civil y el Colegio de Guardias Jóvenes: tests desde ${formatoPrecio(gc.min)} €/mes, simulacros, temario descargable o todo junto. Prueba gratis 7 días la suscripción de tests.`,
+  titulo: "Packs y precios: tests, simulacros y pack anual",
+  descripcion: `Packs para preparar la Guardia Civil y el Colegio de Guardias Jóvenes: tests desde ${formatoPrecio(gc.min)} €/mes, simulacros oficiales y propios o el pack anual completo. Prueba 7 días gratis.`,
   ruta: rutas.tienda,
 });
 
-export default function Tienda() {
+export default function Packs() {
   if (!tiendaVisible) notFound();
   return (
     <>
       <PageHero
-        eyebrow="Tienda"
+        eyebrow="Packs"
         titulo="Packs y precios"
-        entradilla="Elige lo que necesitas en cada momento: tests para entrenar a diario, simulacros para el examen, el temario descargable o todo junto. Los packs son por curso."
+        entradilla="Elige cómo prepararte: tests para entrenar a diario, simulacros para el examen o el pack anual con todo. Los packs son por curso."
       />
 
       {/* primero Guardia Civil y debajo Guardias Jóvenes (el orden de `cursos`) */}
@@ -73,7 +73,7 @@ export default function Tienda() {
       </section>
 
       <CtaFinal />
-      <JsonLd data={migasJsonLd([{ nombre: "Inicio", ruta: "/" }, { nombre: "Tienda", ruta: rutas.tienda }])} />
+      <JsonLd data={migasJsonLd([{ nombre: "Inicio", ruta: "/" }, { nombre: "Packs", ruta: rutas.tienda }])} />
       {cursos.map((c) => {
         const lista = packsVisibles(c.slug);
         if (!lista) return null;
