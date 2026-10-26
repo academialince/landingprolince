@@ -27,6 +27,8 @@ export function Header() {
   const [grupoMovil, setGrupoMovil] = useState<string | null>(null);
   const ruta = usePathname();
   const navRef = useRef<HTMLElement>(null);
+  /** Lo marca un enlace del menú que lleva a otra ruta, para no restaurar el scroll al cerrar. */
+  const vaAOtraPagina = useRef(false);
 
   useEffect(() => {
     const alDesplazar = () => setDesplazado(window.scrollY > 8);
@@ -73,11 +75,18 @@ export function Header() {
       style.left = "";
       style.right = "";
       style.overflow = "";
-      window.scrollTo(0, y);
+      // Si se cierra para ir a otra página, esa empieza arriba: volver a la altura de esta la
+      // dejaba a media página. Y la vuelta es instantánea: con el scroll suave del html era una
+      // animación que seguía tirando de la página nueva después de que Next la subiera (Safari).
+      const destino = vaAOtraPagina.current ? 0 : y;
+      vaAOtraPagina.current = false;
+      window.scrollTo({ top: destino, behavior: "instant" });
     };
   }, [abierto]);
 
-  const cerrar = () => {
+  const cerrar = (evento?: { currentTarget: EventTarget | null }) => {
+    const enlace = evento?.currentTarget instanceof HTMLAnchorElement ? new URL(evento.currentTarget.href) : null;
+    vaAOtraPagina.current = Boolean(enlace && enlace.pathname !== window.location.pathname);
     setAbierto(false);
     setDesplegado(null);
   };
