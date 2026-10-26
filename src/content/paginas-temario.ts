@@ -27,16 +27,16 @@ export const paginasTemario: Record<string, PaginaTemario> = {
     slug: "acceso-guardia-civil",
     ruta: "/temario-guardia-civil",
     meta: {
-      titulo: "Temario Guardia Civil 2026: los 25 temas oficiales",
+      titulo: "Temario Guardia Civil 2026: los 23 temas oficiales",
       descripcion:
         "Temario de Guardia Civil 2026 tema a tema: qué leyes entran en cada uno, cómo se examina y cómo estudiarlo. Programa oficial de la Escala de Cabos y Guardias.",
     },
     eyebrow: "Escala de Cabos y Guardias",
     h1: "Temario Guardia Civil 2026",
     entradilla:
-      "Los 25 temas del programa oficial, uno a uno: de qué trata cada tema, qué leyes y qué partes de cada ley entran, y cómo se examinan. Es el temario que aplica la convocatoria de 2026.",
+      "Los 23 temas del programa oficial, uno a uno: de qué trata cada tema, qué leyes y qué partes de cada ley entran, y cómo se examinan. Es el temario que aplica la convocatoria de 2026.",
     datos: [
-      { valor: "25", etiqueta: "temas en el programa" },
+      { valor: "23", etiqueta: "temas en el programa" },
       { valor: "100", etiqueta: "preguntas de temario" },
       { valor: "140 min", etiqueta: "para todo el examen" },
     ],
@@ -47,7 +47,7 @@ export const paginasTemario: Record<string, PaginaTemario> = {
       },
       {
         parte: "Gramática",
-        detalle: "Apto o no apto, con el mismo límite de errores que la ortografía. Corresponde al tema 25, Lengua española.",
+        detalle: "Apto o no apto, con el mismo límite de errores que la ortografía.",
       },
       {
         parte: "Conocimientos",
@@ -56,7 +56,7 @@ export const paginasTemario: Record<string, PaginaTemario> = {
       },
       {
         parte: "Inglés",
-        detalle: "20 preguntas tipo test del tema 24, de 0 a 20 puntos, con un mínimo de 8.",
+        detalle: "20 preguntas tipo test de inglés, de 0 a 20 puntos, con un mínimo de 8.",
       },
       {
         parte: "Penalización",
@@ -73,7 +73,7 @@ export const paginasTemario: Record<string, PaginaTemario> = {
       {
         pregunta: "¿Cuántos temas tiene el temario de Guardia Civil?",
         respuesta:
-          "25. Los temas 1 a 23 forman la prueba de conocimientos, de 100 preguntas tipo test. El tema 24 es la lengua inglesa, con su propia prueba de 20 preguntas, y el 25 es la lengua española, que se evalúa en los ejercicios de ortografía y gramática.",
+          "23. Son los que forman la prueba de conocimientos, de 100 preguntas tipo test. El inglés tiene su propia prueba de 20 preguntas, y la lengua española se evalúa en los ejercicios de ortografía y gramática.",
       },
       {
         pregunta: "¿Ha cambiado el temario para la convocatoria de 2026?",

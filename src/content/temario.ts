@@ -227,22 +227,6 @@ const temasEscala: Tema[] = [
       "Reglamento (UE) 952/2013, Código Aduanero de la Unión: los títulos y capítulos que fija el programa",
     ],
   },
-  {
-    numero: 24,
-    titulo: "Lengua inglesa",
-    resumen:
-      "No entra en las 100 preguntas de conocimientos: tiene su propia prueba de 20 preguntas con mínimo de 8 puntos. Gramática y vocabulario de nivel básico-intermedio.",
-    normas: ["Prueba propia de 20 preguntas tipo test"],
-    articulo: { titulo: "El inglés en la oposición a Guardia Civil", slug: "ingles-oposicion-guardia-civil" },
-  },
-  {
-    numero: 25,
-    titulo: "Lengua española",
-    resumen:
-      "Se evalúa en los ejercicios de ortografía y gramática, de apto o no apto: seis errores o más en cualquiera de los dos excluyen del proceso.",
-    normas: ["Ejercicio de ortografía y ejercicio de gramática"],
-    articulo: { titulo: "Ortografía y gramática en el examen", slug: "ortografia-gramatica-examen-guardia-civil" },
-  },
 ];
 
 const temasColegio: Tema[] = [
@@ -348,7 +332,7 @@ export const programas: Record<string, Programa> = {
   "acceso-guardia-civil": {
     temas: temasEscala,
     entradilla:
-      "Los 25 temas del programa oficial. Del 1 al 23 forman las 100 preguntas de conocimientos; el inglés y la lengua española tienen sus propias pruebas.",
+      "Los 23 temas del programa oficial, que forman las 100 preguntas de conocimientos. El inglés y la lengua española tienen sus propias pruebas.",
     fuente: {
       texto: "Programa oficial de la Escala de Cabos y Guardias, convocatoria de 2026 (Resolución 160/38243/2026, BOE de 8 de mayo de 2026)",
       url: "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982",

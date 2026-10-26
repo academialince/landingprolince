@@ -199,3 +199,10 @@ export const condiciones = [
 
 /** Miniatura de marca de cada pack, compartida por las tarjetas y el JSON-LD. */
 export const imagenPack = (id: string) => `/packs/${id}.webp`;
+
+/**
+ * Las dos versiones de la miniatura: 400 px para pantallas normales y 800 para retina. La
+ * tarjeta mide ~400 px; con una sola imagen grande el navegador la encogía al vuelo y el texto
+ * salía dentado.
+ */
+export const imagenPackSrcSet = (id: string) => `/packs/${id}-400.webp 400w, /packs/${id}.webp 800w`;

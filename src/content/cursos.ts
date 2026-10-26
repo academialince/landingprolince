@@ -70,7 +70,7 @@ export const cursos: Curso[] = [
     imagen: "/tactico/desfile-restaurada-4k.jpg",
     imagenAlt: "Promoción de guardias civiles desfilando por una calle de piedra",
     destacados: [
-      { valor: "25", etiqueta: "temas del programa oficial" },
+      { valor: "23", etiqueta: "temas del programa oficial" },
       { valor: "5", etiqueta: "fases eliminatorias" },
       { valor: "12-15 h", etiqueta: "de estudio a la semana" },
     ],

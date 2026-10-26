@@ -128,13 +128,20 @@ def pack(course, kind):
     return im.convert('RGB')
 
 
+# Se dibuja a 1600 px y se entrega reducido: la tarjeta mide ~400 px de ancho y, servida a 1600,
+# el navegador la encogía 4 veces al vuelo y el texto salía dentado. 800 px para pantallas
+# retina y 400 para las normales, reducidas con Lanczos y un leve enfoque para el texto.
+TAMANOS = {'': (800, 500), '-400': (400, 250)}
 for course in ('gc','cgj'):
     for suffix,kind in [('1','tests'),('2-1','simulacros'),('4','ahorro')]:
-        path=ROOT/f'public/packs/{course}-{suffix}.webp'
-        path.parent.mkdir(parents=True,exist_ok=True)
-        pack(course,kind).save(path,'WEBP',quality=88,method=6)
+        dibujo = pack(course,kind)
+        for sufijo_tamano, tamano in TAMANOS.items():
+            path=ROOT/f'public/packs/{course}-{suffix}{sufijo_tamano}.webp'
+            path.parent.mkdir(parents=True,exist_ok=True)
+            reducida = dibujo.resize(tamano, Image.Resampling.LANCZOS).filter(ImageFilter.UnsharpMask(radius=0.8, percent=70, threshold=1))
+            reducida.save(path,'WEBP',quality=92,method=6)
 if '--solo-packs' not in sys.argv:
     subprocess.run(['python3', str(ROOT / 'scripts/generar-temarios-realistas.py')], check=True)
-for folder in ('packs','temarios/miniaturas'):
+for folder in ('packs',) if '--solo-packs' in sys.argv else ('packs','temarios/miniaturas'):
     for path in sorted((ROOT/'public'/folder).glob('*.webp')):
         print(f'{path.relative_to(ROOT)}: {path.stat().st_size / 1000:.1f} KB · {Image.open(path).size}')
