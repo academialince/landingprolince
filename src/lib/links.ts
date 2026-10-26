@@ -15,6 +15,29 @@ export const links = {
   compra: "https://acceso.prolinceacademia.com/academiaprolince/registro",
 } as const;
 
+/** El slug de cada curso en la plataforma, que no coincide con el de esta web. */
+const cursoEnPlataforma: Record<string, string> = {
+  "acceso-guardia-civil": "acceso-a-la-guardia-civil",
+  "colegio-guardias-jovenes": "acceso-a-colegio-de-guardias-jovenes",
+};
+
+/**
+ * El botón de un pack: el alta en la plataforma con el pack elegido, para que el alumno no tenga
+ * que volver a elegirlo. El de prueba empieza los días gratis en su curso (`?prueba=1&curso=`);
+ * el resto abre el pago de ese pack al terminar el alta (`?pack=`).
+ */
+export function enlaceDePack(slugDelCurso: string, pack: { id: string; prueba?: number }) {
+  const destino = new URL(links.registro);
+  const curso = cursoEnPlataforma[slugDelCurso];
+  if (pack.prueba && curso) {
+    destino.searchParams.set("prueba", "1");
+    destino.searchParams.set("curso", curso);
+  } else {
+    destino.searchParams.set("pack", pack.id);
+  }
+  return destino.toString();
+}
+
 /**
  * En producción manda `NEXT_PUBLIC_SITE_URL`. En una preview de Vercel no puede haber un valor
  * fijo —cada despliegue tiene su URL—, así que se cae a `VERCEL_URL`: sin eso, las canónicas y

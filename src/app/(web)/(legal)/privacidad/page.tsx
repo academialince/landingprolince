@@ -54,6 +54,17 @@ export default function Privacidad() {
         interés legítimo en la seguridad del sitio.
       </p>
 
+      <h2>Prueba gratuita</h2>
+      <p>
+        La prueba gratuita de la plataforma se ofrece una sola vez por persona. Para evitar su uso
+        abusivo, al empezarla guardamos una huella cifrada de la dirección IP de la conexión y del
+        email con el que te registras: no se guarda la IP en sí y la huella no permite recuperarla.
+        Solo sirve para comprobar si desde esa conexión o con ese email ya se ha usado una prueba.
+        La base legal es nuestro interés legítimo en prevenir el uso abusivo de la oferta. Se
+        conserva mientras la prueba gratuita siga ofreciéndose; puedes oponerte o pedir su
+        supresión escribiendo a la dirección de contacto.
+      </p>
+
       <h2>Destinatarios</h2>
       <p>
         No se ceden datos a terceros. El sitio y su base de datos están alojados en proveedores de

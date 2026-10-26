@@ -3,7 +3,7 @@ import { ArrowRight, Check, Minus } from "lucide-react";
 import { Reveal } from "@/components/layout/reveal";
 import { Button } from "@/components/ui/button";
 import { formatoPrecio, imagenPack, packsVisibles } from "@/content/tienda";
-import { links } from "@/lib/links";
+import { enlaceDePack } from "@/lib/links";
 
 /**
  * Los cinco packs de un curso. Lo usan la tienda (un bloque por curso) y la sección «Packs» de la
@@ -70,7 +70,7 @@ export function PacksCurso({ slug }: { slug: string }) {
             </ul>
 
             <div className="mt-auto pt-6">
-              <Button href={links.compra} variante={p.destacado ? "primario" : "secundario"} className="w-full">
+              <Button href={enlaceDePack(slug, p)} variante={p.destacado ? "primario" : "secundario"} className="w-full">
                 {p.prueba ? `Probar ${p.prueba} días gratis` : "Lo quiero"}
                 <ArrowRight size={18} aria-hidden />
               </Button>
