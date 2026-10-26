@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { VisorEjemplo } from "@/components/temarios/visor-ejemplo";
 import { site } from "@/content/site";
 import { formatoPrecio } from "@/content/tienda";
-import { ENTREGA, type ModalidadTemario } from "@/content/temarios";
+import { ENTREGA, ENVIO, type ModalidadTemario } from "@/content/temarios";
 import { rutas } from "@/lib/links";
 
 /** Sin pasarela todavía: el pedido sale por WhatsApp con el producto ya escrito. */
@@ -53,6 +53,8 @@ export function TarjetaTemario({ m, curso }: { m: ModalidadTemario; curso: strin
         {m.precio !== null ? (
           <>
             <span className="text-h2 tabular">{formatoPrecio(m.precio)} €</span>
+            {/* Con Stripe el envío es una línea más del pago: se dice antes, no al pagar. */}
+            {m.compra && <span className="ml-2 text-body-sm text-muted-foreground">+ {formatoPrecio(ENVIO)} € de envío</span>}
           </>
         ) : (
           <span className="text-h3 text-muted-foreground">Precio próximamente</span>

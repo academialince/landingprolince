@@ -4,8 +4,12 @@
  * PENDIENTE:
  * - Si un precio vuelve a ser `null`, la tarjeta dice «Precio próximamente» y no hay datos
  *   estructurados de producto.
- * - Compra: de momento el botón abre WhatsApp con el pedido escrito. Cuando haya pasarela, se pone
- *   su enlace en `compra`.
+ * - Compra: cada modalidad lleva en `compra` su enlace de pago de Stripe (cuenta real, sin Managed
+ *   Payments: los libros en papel no entran). El enlace pide dirección de envío (solo España) y
+ *   teléfono, suma «Envío en 48 h» (ENVIO) y emite factura. El aviso del pedido le llega a la
+ *   academia por el webhook de la plataforma. Sin `compra`, el botón vuelve a abrir WhatsApp.
+ * - Si cambia un precio aquí, hay que crear un precio nuevo en Stripe y otro enlace: el enlace
+ *   cobra su propio precio, no el de este fichero.
  * - Ejemplo del libro resumen: falta el PDF. Mientras `ejemplo` sea `null`, el botón sale desactivado.
  *
  * Las páginas de ejemplo salen del temario de la plataforma: portada y 12 páginas repartidas del
@@ -35,6 +39,9 @@ export type TemarioCurso = { slug: string; ancla: string; modalidades: Modalidad
 
 export const ENTREGA = "Lo recibes en 48 horas";
 
+/** Gastos de envío de la compra con Stripe, IVA incluido: van como una línea más del pago. */
+export const ENVIO = 8;
+
 const paginas = (carpeta: string, numeros: number[]) => numeros.map((n) => `/temarios/${carpeta}/${String(n).padStart(3, "0")}.webp`);
 
 const ejemploGC: Ejemplo = {
@@ -56,6 +63,7 @@ export const temarios: TemarioCurso[] = [
     modalidades: [
       {
         id: "gc-libro-completo",
+        compra: "https://buy.stripe.com/eVq14g5WM7nvbqzetX38401",
         // La importación estática versiona la URL al cambiar la imagen y evita miniaturas antiguas.
         miniatura: miniaturaGCCompleto.src,
         nombre: "Pack completo",
@@ -71,6 +79,7 @@ export const temarios: TemarioCurso[] = [
       },
       {
         id: "gc-libro-resumen",
+        compra: "https://buy.stripe.com/bJebIU84UbDL1PZ71v38402",
         miniatura: miniaturaGCResumen.src,
         nombre: "Libro resumen",
         resumen: "El temario condensado en un solo libro, para repasar lo esencial de cada tema.",
@@ -86,6 +95,7 @@ export const temarios: TemarioCurso[] = [
     modalidades: [
       {
         id: "cgj-libro-completo",
+        compra: "https://buy.stripe.com/bJe3cobh6azHdyH3Pj38403",
         miniatura: miniaturaCGJCompleto.src,
         nombre: "Pack completo",
         resumen: "Los tres libros para preparar el acceso al Colegio, con el temario actualizado a 2027.",
@@ -100,6 +110,7 @@ export const temarios: TemarioCurso[] = [
       },
       {
         id: "cgj-libro-resumen",
+        compra: "https://buy.stripe.com/aFaaEQ3OE9vD52b85z38404",
         miniatura: miniaturaCGJResumen.src,
         nombre: "Libro resumen",
         resumen: "El temario del Colegio condensado en un solo libro, para repasar lo esencial.",
