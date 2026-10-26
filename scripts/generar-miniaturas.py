@@ -1,6 +1,6 @@
 """Genera las miniaturas de packs y prepara los temarios desde sus fuentes fotográficas.
 
-Uso: python3 scripts/generar-miniaturas.py
+Uso: python3 scripts/generar-miniaturas.py [--solo-packs]
 Requiere Pillow; descarga Barlow Condensed 800 y Manrope 500 de Google Fonts en la
 carpeta temporal. Los temarios se preparan con generar-temarios-realistas.py;
 sus fuentes de imagen se conservan en scripts/recursos/temarios.
@@ -10,6 +10,7 @@ from tempfile import gettempdir
 from urllib.request import urlretrieve
 import math
 import subprocess
+import sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,9 +23,8 @@ for family, url in FONTS.items():
     target = TMP / f'prolince-{family}.ttf'
     if not target.exists():
         urlretrieve(url, target)
-subprocess.run(['node', '-e', "const s=require('sharp');Promise.all([s('public/brand/prolince-logo.svg').resize(400).png().toFile(process.argv[1]),s('public/brand/prolince-logo-horizontal-negativo.svg').resize({width:460}).png().toFile(process.argv[2])])", str(TMP / 'prolince-sello.png'), str(TMP / 'prolince-marca.png')], cwd=ROOT, check=True)
+subprocess.run(['node', '-e', "require('sharp')('public/brand/prolince-logo.svg').resize(400).png().toFile(process.argv[1])", str(TMP / 'prolince-sello.png')], cwd=ROOT, check=True)
 SEAL = Image.open(TMP / 'prolince-sello.png').convert('RGBA')
-LOGO = Image.open(TMP / 'prolince-marca.png').convert('RGBA')
 GREEN = '#35AB6C'
 WHITE = '#F2F8F4'
 MUTED = '#A2C5B1'
@@ -102,12 +102,11 @@ def pack(course, kind):
     # Esquinas de visor decorativas; franja superior izquierda libre para etiquetas HTML.
     for x,y,sx,sy in [(42,155,1,1),(1558,42,-1,1),(42,958,1,-1),(1558,958,-1,-1)]:
         d.line([(x+sx*38,y),(x,y),(x,y+sy*38)],fill='#508568',width=3)
-    paste(im,LOGO,(80,180),(335,round(LOGO.height*335/LOGO.width)))
-    label='GUARDIA CIVIL' if course=='gc' else 'GUARDIAS JÓVENES'
-    d.rounded_rectangle((80,330,570 if course=='cgj' else 470,394),radius=8,fill='#005238',outline='#397552',width=2)
-    text(im,(103,339),label,37)
+    # Solo el sello: el curso y el nombre de la academia ya los dice la tarjeta, y así el título
+    # —lo que distingue un pack de otro— tiene sitio para destacar.
+    paste(im,SEAL,(80,180),(150,150))
     titles={'tests':['SUSCRIPCIÓN','DE TESTS'],'simulacros':['PACK ESPECIAL','SIMULACROS'],'ahorro':['PACK','AHORRO']}[kind]
-    for i,title in enumerate(titles): text(im,(76,443+i*116),title,108)
+    for i,title in enumerate(titles): text(im,(74,380+i*151),title,140)
     # Barra de rayas diagonales de marca.
     for x in range(85,399,25): d.polygon([(x,800),(x+11,800),(x+35,764),(x+24,764)],fill=GREEN)
     if kind=='tests':
@@ -134,7 +133,8 @@ for course in ('gc','cgj'):
         path=ROOT/f'public/packs/{course}-{suffix}.webp'
         path.parent.mkdir(parents=True,exist_ok=True)
         pack(course,kind).save(path,'WEBP',quality=88,method=6)
-subprocess.run(['python3', str(ROOT / 'scripts/generar-temarios-realistas.py')], check=True)
+if '--solo-packs' not in sys.argv:
+    subprocess.run(['python3', str(ROOT / 'scripts/generar-temarios-realistas.py')], check=True)
 for folder in ('packs','temarios/miniaturas'):
     for path in sorted((ROOT/'public'/folder).glob('*.webp')):
         print(f'{path.relative_to(ROOT)}: {path.stat().st_size / 1000:.1f} KB · {Image.open(path).size}')
