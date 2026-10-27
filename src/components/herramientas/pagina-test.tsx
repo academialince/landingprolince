@@ -30,7 +30,6 @@ const LETRAS = ["A", "B", "C", "D"];
 export function PaginaTest({ config }: { config: ConfigTest }) {
   const curso = cursoPorSlug(config.slug);
   const ejemplos = muestra(config.preguntas, 6);
-  const temario = rutas.temario(config.slug);
 
   return (
     <>
@@ -115,11 +114,6 @@ export function PaginaTest({ config }: { config: ConfigTest }) {
           ))}
         </div>
         <ul className="mt-8 grid gap-2 text-body-sm">
-          {temario && (
-            <li>
-              <Link href={temario} className="font-semibold text-primary hover:underline">Ver el temario completo, tema a tema</Link>
-            </li>
-          )}
           {config.slug === "acceso-guardia-civil" && (
             <li>
               <Link href={rutas.calculadora} className="font-semibold text-primary hover:underline">Calculadora de nota del examen</Link>

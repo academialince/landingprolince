@@ -270,12 +270,6 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
             )}
             . Comprueba siempre las bases de tu convocatoria.
           </p>
-          {rutas.temario(curso.slug) && (
-            <Button href={rutas.temario(curso.slug)} variante="secundario" className="mt-6">
-              Ver el temario completo, tema a tema
-              <ArrowRight size={18} aria-hidden />
-            </Button>
-          )}
 
           {librosCurso && (
             <div className="mt-14">
