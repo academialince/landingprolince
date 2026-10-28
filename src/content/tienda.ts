@@ -33,6 +33,8 @@ const comunes = {
   repaso: "Tests de repaso de las preguntas falladas",
   temarioDigital: "Temario digital, en la web y en el móvil",
   tiposSimulacro: "Simulacros de conocimientos, ortografía, inglés y psicotécnicos",
+  /** Los años salen de los exámenes publicados en la plataforma: al subir uno nuevo, cambiarlos aquí y allí. */
+  anteriores: (desde: number, hasta: number) => `Todos los exámenes de años anteriores (de ${desde} a ${hasta})`,
   anual: "12 mensualidades de la Suscripción de Tests: tests ilimitados personalizados por tema y por materia (inglés, ortografía, gramática…)",
 };
 
@@ -45,8 +47,8 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para entrenar a diario con tests sin límite.",
       precio: 9.95,
       pago: "mensual",
-      incluye: [comunes.tests, comunes.repaso, comunes.esquemasYLengua],
-      noIncluye: "No incluye temario ni simulacros.",
+      incluye: [comunes.tests, comunes.repaso, `${comunes.anteriores(2017, 2026)}, incluidos`, comunes.esquemasYLengua],
+      noIncluye: "No incluye temario ni los simulacros exclusivos de ProLince.",
     },
     {
       id: "gc-2-1",
@@ -54,7 +56,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 89.95,
       pago: "unico",
-      incluye: ["25 simulacros online: oficiales y exclusivos de ProLince", comunes.tiposSimulacro, "5 de ellos, también en PDF para imprimir", comunes.esquemasYLengua],
+      incluye: [`${comunes.anteriores(2017, 2026)} y 25 simulacros exclusivos de ProLince`, comunes.tiposSimulacro, "5 de ellos, también en PDF para imprimir", comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -84,7 +86,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Un año de tests ilimitados, el temario digital y más de 50 simulacros.",
       precio: 179,
       pago: "unico",
-      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, "Más de 50 simulacros online: oficiales y exclusivos de ProLince", comunes.esquemasYLengua],
+      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, comunes.anteriores(2017, 2026), "Más de 50 simulacros online: oficiales y exclusivos de ProLince", comunes.esquemasYLengua],
       destacado: "El más completo",
     },
   ],
@@ -94,10 +96,10 @@ export const packs: Record<string, Pack[]> = {
       prueba: 7,
       nombre: "Suscripción mensual de Tests",
       resumen: "Para entrenar a diario con tests sin límite.",
-      precio: 6.95,
+      precio: 8.95,
       pago: "mensual",
-      incluye: [comunes.tests, comunes.repaso, comunes.esquemasYLengua],
-      noIncluye: "No incluye temario ni simulacros.",
+      incluye: [comunes.tests, comunes.repaso, `${comunes.anteriores(2024, 2026)}, incluidos`, comunes.esquemasYLengua],
+      noIncluye: "No incluye temario ni los simulacros exclusivos de ProLince.",
     },
     {
       id: "cgj-2-1",
@@ -105,7 +107,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 59.95,
       pago: "unico",
-      incluye: ["15 simulacros online: oficiales y exclusivos de ProLince", comunes.tiposSimulacro, "5 de ellos, también en PDF para imprimir", comunes.esquemasYLengua],
+      incluye: [`${comunes.anteriores(2024, 2026)} y 25 simulacros exclusivos de ProLince`, comunes.tiposSimulacro, "5 de ellos, también en PDF para imprimir", comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -139,7 +141,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Un año de tests ilimitados, el temario digital y más de 30 simulacros.",
       precio: 109.95,
       pago: "unico",
-      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, "Más de 30 simulacros online: oficiales y exclusivos de ProLince", comunes.esquemasYLengua],
+      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, comunes.anteriores(2024, 2026), "Más de 30 simulacros online: oficiales y exclusivos de ProLince", comunes.esquemasYLengua],
       destacado: "El más completo",
     },
   ],

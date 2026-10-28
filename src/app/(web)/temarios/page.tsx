@@ -25,7 +25,9 @@ export default function Temarios() {
         eyebrow="Temarios"
         titulo="El temario en papel, actualizado a 2027"
         entradilla="Para estudiar con el libro en la mano. Elige el pack completo, con los libros de inglés y de ortografía y gramática, o el libro resumen para repasar. Lo recibes en casa en 48 horas."
-      />
+      >
+        <AvisoActualizaciones />
+      </PageHero>
 
       {temarios.map((t, i) => {
         const curso = cursoPorSlug(t.slug);
@@ -33,7 +35,6 @@ export default function Temarios() {
         const programa = rutas.temario(t.slug);
         return (
           <Section key={t.slug} id={t.ancla} eyebrow={curso.eyebrow} titulo={curso.nombre} fondo={i % 2 === 0 ? "base" : "suave"}>
-            <AvisoActualizaciones className="mb-8" />
             <ul className="grid gap-6 lg:grid-cols-2">
               {t.modalidades.map((m, j) => (
                 <li key={m.id}>
