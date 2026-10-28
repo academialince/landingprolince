@@ -19,7 +19,7 @@ La plantilla de vídeo (`videos/`, Remotion) es FIJA: no cambies el diseño salv
 ## 0. Preparación (una vez por equipo o sesión)
 
 - `npm install` si no existe `videos/node_modules`.
-- Remotion descarga su propio Chromium en el primer render (en la nube usa el preinstalado, ya configurado en `remotion.config.ts`).
+- Remotion descarga su propio Chromium en el primer render. En la nube usa el que trae el entorno: `remotion.config.ts` busca cualquier versión instalada en `/opt/pw-browsers`.
 
 ## 1. Número y tema
 
@@ -85,4 +85,14 @@ Si el usuario lo pide, `npm run publicar -- pregunta-del-dia/lote/<N>.json` (o s
 
 ## Qué es fijo en la plantilla
 
-Portada en el primer fotograma (sin cronómetro), cabecera con el logo y prolinceacademia.com a la derecha, titular «¿Sabrías responder a esta pregunta?», fondo del hero (aura y rejilla, sin órbitas ni marca de agua), móvil con la pantalla de test, cuenta atrás de 8 s y solución. Al llegar la explicación, las opciones incorrectas se recogen para que la correcta quede siempre a la vista, y sube la tarjeta «Entiende la respuesta.». Cierre en verde profundo con «Empezar ahora». La letra se reduce sola en preguntas largas.
+Estética del **rediseño táctico** de prolinceacademia.com en su tema oscuro (el de por defecto), con los tokens de `.tactico[data-tema="oscuro"]` de `src/app/globals.css` en `videos/src/PreguntaTest.tsx`. Si la web cambia de paleta o de tipografías, actualiza esos tokens.
+
+- **Tipografías:** Manrope para el texto, Barlow Condensed en mayúsculas para los titulares y JetBrains Mono para las etiquetas de visor (`// TEMA N · …`).
+- **Fondo y marco:** fondo casi negro con rejilla de mapa y resplandor verde, esquinas de visor en todo el encuadre y rayas de precaución abajo a la izquierda, como el vídeo de lanzamiento de la web.
+- **Portada:** el primer fotograma, sin cronómetro.
+- **Cabecera:** el logo y prolinceacademia.com a la derecha, en monoespaciada.
+- **Titular:** «¿Sabrías responder a esta pregunta?», con «responder» sobre bloque verde.
+- **Móvil:** la pantalla de test en el tema oscuro, con cuenta atrás de 8 s en un panel de visor con punto rojo de grabación y la solución en verde táctico.
+- **Explicación:** al llegar, las opciones incorrectas se recogen y, si hace falta, la pantalla se desplaza para que la correcta quede siempre a la vista. Después sube el panel «Entiende la respuesta».
+- **Cierre:** la franja oscura sube con una línea de barrido; «¿La has acertado?» con bloque verde y el botón en ángulo «Empezar ahora».
+- La letra se reduce sola en preguntas largas.

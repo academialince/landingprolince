@@ -1,4 +1,9 @@
 import "@fontsource-variable/manrope";
+import "@fontsource/barlow-condensed/600.css";
+import "@fontsource/barlow-condensed/700.css";
+import "@fontsource/barlow-condensed/800.css";
+import "@fontsource/jetbrains-mono/500.css";
+import "@fontsource/jetbrains-mono/700.css";
 import { ArrowRight, Check, ChevronLeft, Sparkles, Timer } from "lucide-react";
 import {
   AbsoluteFill,
@@ -11,23 +16,30 @@ import {
 } from "remotion";
 import { z } from "zod";
 
-// Tokens de src/app/globals.css de la landing, pasados de OKLCH a hex.
+// Rediseño táctico de la web (src/app/globals.css, `.tactico[data-tema="oscuro"]`, el tema por
+// defecto), con los tokens pasados de OKLCH a hex.
 const C = {
-  fondo: "#ffffff",
-  texto: "#121b16",
-  primario: "#03512d",
-  suave: "#e3f4e8",
-  suaveTexto: "#004624",
-  profundo: "#002a15",
-  apagado: "#f2f7f5",
-  apagadoTexto: "#535e57",
-  borde: "#dde4e0",
-  bordeTarjeta: "#d1e6d9",
-  punto: "#439b64",
-  marcoMovil: "#0B1714",
+  fondo: "#090e0a",
+  texto: "#ecf0eb",
+  superficie: "#111712",
+  superficieTenue: "#0c120d",
+  superficieTintada: "#121b13",
+  primario: "#35ab6c",
+  sobrePrimario: "#071009",
+  suave: "#0e2e1c",
+  suaveTexto: "#9ae5b5",
+  profundo: "#030604",
+  apagadoTexto: "#a5ada5",
+  borde: "#262e27",
+  bordeFuerte: "#404b42",
+  rec: "#e5484d",
 };
 
-const fontFamily = "'Manrope Variable', Manrope, sans-serif";
+// Las tres familias de la web: Manrope para el texto, Barlow Condensed para los titulares en
+// mayúsculas y JetBrains Mono para las etiquetas de visor.
+const fuenteTexto = "'Manrope Variable', Manrope, sans-serif";
+const fuenteTitular = "'Barlow Condensed', 'Manrope Variable', sans-serif";
+const fuenteVisor = "'JetBrains Mono', ui-monospace, monospace";
 
 export const preguntaSchema = z.object({
   id: z.string(),
@@ -67,103 +79,132 @@ export const duracionPregunta = (segundosCuenta: number, fps: number) =>
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
-/** Fondo del hero de la web: aura que respira, rejilla girada y partículas. */
+/** Etiqueta de visor: monoespaciada, en mayúsculas y con el «//» de la web. */
+const Visor: React.FC<{ children: React.ReactNode; color?: string; tam?: number; style?: React.CSSProperties }> = ({
+  children,
+  color = C.primario,
+  tam = 26,
+  style,
+}) => (
+  <div
+    style={{
+      fontFamily: fuenteVisor,
+      fontWeight: 700,
+      fontSize: tam,
+      letterSpacing: "0.16em",
+      textTransform: "uppercase",
+      color,
+      ...style,
+    }}
+  >
+    <span style={{ opacity: 0.6 }}>// </span>
+    {children}
+  </div>
+);
+
+/** Esquinas en escuadra alrededor de un panel, como el `.hud-marco` de la web. */
+const EsquinasVisor: React.FC<{ inset: number; largo: number; grosor?: number; color?: string }> = ({
+  inset,
+  largo,
+  grosor = 3,
+  color = C.primario,
+}) => {
+  const esquinas: React.CSSProperties[] = [
+    { top: inset, left: inset, borderTopWidth: grosor, borderLeftWidth: grosor },
+    { top: inset, right: inset, borderTopWidth: grosor, borderRightWidth: grosor },
+    { bottom: inset, left: inset, borderBottomWidth: grosor, borderLeftWidth: grosor },
+    { bottom: inset, right: inset, borderBottomWidth: grosor, borderRightWidth: grosor },
+  ];
+  return (
+    <>
+      {esquinas.map((e, i) => (
+        <span
+          key={i}
+          style={{ position: "absolute", width: largo, height: largo, borderStyle: "solid", borderWidth: 0, borderColor: color, ...e }}
+        />
+      ))}
+    </>
+  );
+};
+
+/** Barra de rayas de precaución (`.hud-rayas`). */
+const Rayas: React.FC<{ ancho: number; alto: number; style?: React.CSSProperties }> = ({ ancho, alto, style }) => (
+  <div
+    style={{
+      width: ancho,
+      height: alto,
+      opacity: 0.85,
+      background: `repeating-linear-gradient(-45deg, ${C.primario} 0 12px, transparent 12px 24px)`,
+      ...style,
+    }}
+  />
+);
+
+/** Fondo de la web táctica: casi negro, rejilla de mapa y un resplandor verde que respira. */
 const EscenaFondo: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) => {
   const s = frame / fps;
-  const respira = (periodo: number, desfase = 0) => Math.sin(((s + desfase) / periodo) * Math.PI * 2);
+  const respira = Math.sin((s / 8) * Math.PI * 2);
   return (
     <AbsoluteFill style={{ overflow: "hidden" }}>
       <div
         style={{
           position: "absolute",
-          inset: "18% -30% 8%",
-          borderRadius: "50%",
-          background: "radial-gradient(ellipse at 50% 45%, #a9e9bc88, #d8f5df88 40%, transparent 69%)",
-          opacity: 0.82 + respira(8) * 0.18,
-          transform: `scale(${1 + respira(8) * 0.04})`,
+          inset: 0,
+          background: `radial-gradient(ellipse 90% 60% at 15% 8%, ${C.primario}2e, transparent 60%), radial-gradient(ellipse 70% 50% at 90% 75%, ${C.primario}1a, transparent 65%)`,
+          opacity: 0.85 + respira * 0.15,
         }}
       />
       <div
         style={{
           position: "absolute",
-          inset: "20% -40%",
-          opacity: 0.32,
-          backgroundImage:
-            "linear-gradient(#03512d20 2px, transparent 2px), linear-gradient(90deg, #03512d20 2px, transparent 2px)",
-          backgroundSize: "72px 72px",
-          backgroundPosition: `0 ${s * 12}px`,
-          transform: "rotate(-12deg)",
-          maskImage: "radial-gradient(ellipse, black, transparent 70%)",
+          inset: 0,
+          backgroundImage: `linear-gradient(${C.primario}14 2px, transparent 2px), linear-gradient(90deg, ${C.primario}14 2px, transparent 2px)`,
+          backgroundSize: "64px 64px",
+          backgroundPosition: `0 ${s * 10}px`,
         }}
       />
-      {[
-        { top: "30%", left: "6%", tam: 12, d: 0 },
-        { top: "78%", left: "90%", tam: 12, d: 2 },
-        { top: "92%", left: "64%", tam: 8, d: 1 },
-      ].map((p, i) => (
-        <span
-          key={i}
-          style={{
-            position: "absolute",
-            top: p.top,
-            left: p.left,
-            width: p.tam,
-            height: p.tam,
-            borderRadius: "50%",
-            background: C.punto,
-            opacity: 0.82 + respira(4, p.d) * 0.18,
-            transform: `scale(${1 + respira(4, p.d) * 0.04})`,
-          }}
-        />
-      ))}
+      {/* Viñeta para que el borde no compita con el contenido */}
+      <div style={{ position: "absolute", inset: 0, background: `radial-gradient(ellipse at 50% 50%, transparent 55%, ${C.profundo}cc 100%)` }} />
     </AbsoluteFill>
   );
 };
 
-/** Tarjeta flotante blanca, igual que las del hero. */
-const TarjetaFlotante: React.FC<{ style: React.CSSProperties; children: React.ReactNode }> = ({ style, children }) => (
+/** Panel flotante oscuro con borde y esquinas de visor, como las tarjetas del hero táctico. */
+const Panel: React.FC<{ style: React.CSSProperties; children: React.ReactNode }> = ({ style, children }) => (
   <div
     style={{
       position: "absolute",
       display: "flex",
       alignItems: "center",
       gap: 28,
-      border: `2px solid ${C.bordeTarjeta}`,
-      background: "#ffffffed",
-      borderRadius: 40,
+      border: `2px solid ${C.bordeFuerte}`,
+      background: `${C.superficie}f2`,
+      borderRadius: 4,
       padding: 36,
-      boxShadow: "0 36px 80px -36px #03512d55",
+      boxShadow: "0 40px 70px -24px #000c",
       ...style,
     }}
   >
+    <EsquinasVisor inset={-12} largo={34} />
     {children}
   </div>
 );
 
-/** Emblema con el aro discontinuo que gira, como en el hero. */
-const Emblema: React.FC<{ frame: number; tam: number }> = ({ frame, tam }) => (
-  <div
-    style={{
-      position: "relative",
-      padding: tam * 0.1,
-      borderRadius: "50%",
-      background: "#ffffffde",
-      border: "2px solid #b9d7c4",
-      boxShadow: "0 32px 72px -30px #03512d55",
-    }}
-  >
-    <div
-      style={{
-        position: "absolute",
-        inset: -tam * 0.12,
-        borderRadius: "50%",
-        border: "2px dashed #03512d45",
-        transform: `rotate(${frame * 0.4}deg)`,
-      }}
-    />
-    <Img src={staticFile("prolince-logo.svg")} style={{ width: tam, height: tam, display: "block" }} />
-  </div>
-);
+/** Emblema dentro de un marco de visor que respira. */
+const Emblema: React.FC<{ frame: number; tam: number }> = ({ frame, tam }) => {
+  const pulso = 1 + Math.sin(frame / 9) * 0.03;
+  return (
+    <div style={{ position: "relative", padding: tam * 0.14 }}>
+      <div style={{ position: "absolute", inset: 0, transform: `scale(${pulso})` }}>
+        <EsquinasVisor inset={0} largo={tam * 0.28} grosor={4} />
+      </div>
+      <Img
+        src={staticFile("prolince-logo.svg")}
+        style={{ width: tam, height: tam, display: "block", filter: `drop-shadow(0 0 ${tam * 0.12}px ${C.primario}66)` }}
+      />
+    </div>
+  );
+};
 
 /**
  * Estima cuánto hay que subir el contenido del móvil para que la respuesta correcta quede por encima
@@ -205,7 +246,7 @@ export const PreguntaTest: React.FC<Props> = ({
   explicacion,
   segundosCuenta,
 }) => {
-  const { fps, width, height } = useVideoConfig();
+  const { fps, height } = useVideoConfig();
   const t = tiempos(segundosCuenta);
   const f = (s: number) => Math.round(s * fps);
   const fotograma = useCurrentFrame();
@@ -216,7 +257,10 @@ export const PreguntaTest: React.FC<Props> = ({
 
   const resuelta = frame >= f(t.solucion);
   const pNav = entrada(0);
-  const pSubrayado = interpolate(frame, [f(T_TITULAR + 0.5), f(T_TITULAR + 1.1)], [0, 1], clamp);
+  const pBloque = interpolate(frame, [f(T_TITULAR + 0.5), f(T_TITULAR + 1.0)], [0, 1], {
+    ...clamp,
+    easing: (x) => 1 - Math.pow(1 - x, 3),
+  });
   const pMovil = entrada(f(T_MOVIL), 18);
   const pEnunciado = entrada(f(T_ENUNCIADO));
   const pCuenta = entrada(f(t.cuenta), 14);
@@ -228,7 +272,8 @@ export const PreguntaTest: React.FC<Props> = ({
     ...clamp,
     easing: (x) => 1 - Math.pow(1 - x, 3),
   });
-  const pCierre = interpolate(frame, [f(t.cierre), f(t.cierre + 0.7)], [0, 1], {
+  // Cierre: la franja oscura sube desde abajo con una línea de barrido, como un visor.
+  const pCierre = interpolate(frame, [f(t.cierre), f(t.cierre + 0.6)], [0, 1], {
     ...clamp,
     easing: (x) => 1 - Math.pow(1 - x, 3),
   });
@@ -245,80 +290,79 @@ export const PreguntaTest: React.FC<Props> = ({
   const flotar = Math.sin((frame / fps / 7) * Math.PI * 2);
   // Barra de progreso del móvil: 35 % como en la web; se completa al resolver.
   const progresoTest = interpolate(frame, [f(t.solucion), f(t.solucion + 0.6)], [0.35, 1], clamp);
+  const recParpadeo = Math.floor(frame / (fps * 0.8)) % 2 === 0 ? 1 : 0.25;
 
   return (
-    <AbsoluteFill style={{ backgroundColor: C.fondo, fontFamily, color: C.texto }}>
+    <AbsoluteFill style={{ backgroundColor: C.fondo, fontFamily: fuenteTexto, color: C.texto }}>
       <EscenaFondo frame={frame} fps={fps} />
 
-      {/* Barra de navegación de la web */}
+      {/* Cabecera: logo y la web, sobre una línea fina como el menú de la web */}
       <div
         style={{
           position: "absolute",
           top: 0,
           left: 0,
           right: 0,
-          height: 170,
+          height: 160,
           padding: "0 64px",
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          background: "#ffffffcc",
+          background: `${C.fondo}d9`,
           borderBottom: `2px solid ${C.borde}`,
           opacity: pNav,
           transform: `translateY(${(1 - pNav) * -60}px)`,
         }}
       >
-        <Img src={staticFile("prolince-logo.svg")} style={{ width: 96, height: 96 }} />
-        <span style={{ fontSize: 38, fontWeight: 700 }}>prolinceacademia.com</span>
+        <Img src={staticFile("prolince-logo.svg")} style={{ width: 92, height: 92 }} />
+        <span style={{ fontFamily: fuenteVisor, fontSize: 30, fontWeight: 700, letterSpacing: "0.06em" }}>
+          prolinceacademia.com
+        </span>
       </div>
 
-      {/* Titular con el subrayado verde suave del hero */}
-      <div style={{ position: "absolute", top: 230, left: 64, right: 64 }}>
-        <div
-          style={{
-            color: C.primario,
-            fontSize: 30,
-            fontWeight: 700,
-            letterSpacing: "0.08em",
-            textTransform: "uppercase",
-            opacity: entrada(f(T_TITULAR)),
-          }}
-        >
-          {tema}
+      {/* Titular: Barlow Condensed en mayúsculas, con la palabra clave sobre bloque verde */}
+      <div style={{ position: "absolute", top: 205, left: 64, right: 64 }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", opacity: entrada(f(T_TITULAR)) }}>
+          <Visor tam={26}>{tema}</Visor>
         </div>
         <div
           style={{
-            marginTop: 18,
-            fontSize: 88,
-            fontWeight: 780,
-            lineHeight: 1.06,
-            letterSpacing: "-0.038em",
+            marginTop: 16,
+            fontFamily: fuenteTitular,
+            fontSize: 112,
+            fontWeight: 800,
+            lineHeight: 0.95,
+            letterSpacing: "0.005em",
+            textTransform: "uppercase",
             display: "flex",
             flexWrap: "wrap",
-            columnGap: 22,
+            columnGap: 24,
           }}
         >
           {TITULAR.map((palabra, i) => {
             const p = entrada(f(T_TITULAR) + i * 4, 14);
+            const clave = palabra === "responder";
             return (
-              <span key={i} style={{ display: "inline-block", overflow: "hidden", paddingBottom: 8 }}>
+              <span key={i} style={{ display: "inline-block", overflow: "hidden", padding: "4px 0" }}>
                 <span
                   style={{
                     position: "relative",
                     display: "inline-block",
                     zIndex: 0,
+                    padding: clave ? "0 12px" : 0,
+                    color: clave && pBloque > 0.5 ? C.sobrePrimario : C.texto,
                     transform: `translateY(${(1 - p) * 110}%)`,
                   }}
                 >
-                  {palabra === "responder" && (
+                  {clave && (
                     <span
                       style={{
                         position: "absolute",
                         left: 0,
-                        bottom: 11,
-                        height: "0.32em",
-                        width: `${pSubrayado * 100}%`,
-                        background: C.suave,
+                        top: 0,
+                        bottom: 0,
+                        width: `${pBloque * 100}%`,
+                        background: C.primario,
                         zIndex: -1,
                       }}
                     />
@@ -331,7 +375,7 @@ export const PreguntaTest: React.FC<Props> = ({
         </div>
       </div>
 
-      {/* Móvil con la pantalla de test de la plataforma */}
+      {/* Móvil con la pantalla de test de la plataforma, en el tema oscuro */}
       <div
         style={{
           position: "absolute",
@@ -346,10 +390,10 @@ export const PreguntaTest: React.FC<Props> = ({
           style={{
             height: 1500,
             borderRadius: 110,
-            background: C.marcoMovil,
+            background: C.profundo,
             padding: 26,
             transform: `rotateX(${(1 - pMovil) * 30}deg) rotate(${-5 + (1 - pMovil) * -10 + flotar * 1.2}deg)`,
-            boxShadow: "44px 68px 120px -40px #023b3466, 0 0 0 4px #b3d7bd",
+            boxShadow: `0 60px 110px -30px #000e, 0 0 0 4px ${C.bordeFuerte}, 0 0 90px -20px ${C.primario}55`,
           }}
         >
           <div
@@ -358,7 +402,7 @@ export const PreguntaTest: React.FC<Props> = ({
               height: "100%",
               overflow: "hidden",
               borderRadius: 86,
-              background: C.fondo,
+              background: C.superficie,
               paddingTop: 120,
             }}
           >
@@ -371,15 +415,16 @@ export const PreguntaTest: React.FC<Props> = ({
                 height: 52,
                 transform: "translateX(-50%)",
                 borderRadius: 26,
-                background: C.marcoMovil,
+                background: C.profundo,
+                zIndex: 6,
               }}
             />
-            {/* Brillo que cruza la pantalla */}
+            {/* Reflejo muy tenue que cruza la pantalla, como el `.reflejo` de las fotos de la web */}
             <div
               style={{
                 position: "absolute",
                 inset: "-50%",
-                background: "linear-gradient(115deg, transparent 43%, #ffffff70 49%, transparent 55%)",
+                background: "linear-gradient(115deg, transparent 43%, #ffffff17 49%, transparent 55%)",
                 transform: `translateX(${interpolate(frame % f(9), [0, f(1.4), f(4.3)], [-65, -65, 65], clamp)}%)`,
                 pointerEvents: "none",
                 zIndex: 5,
@@ -390,180 +435,178 @@ export const PreguntaTest: React.FC<Props> = ({
             {/* Contenido de la pantalla: se desplaza hacia arriba, como un scroll, si la tarjeta de la
                 explicación fuera a tapar la respuesta correcta. */}
             <div style={{ transform: `translateY(${-desplazamiento * pRecoger}px)` }}>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                padding: "0 56px 30px",
-              }}
-            >
-              <ChevronLeft size={40} color={C.apagadoTexto} />
-              <span
-                style={{
-                  fontSize: 24,
-                  fontWeight: 700,
-                  letterSpacing: "0.08em",
-                  textTransform: "uppercase",
-                  color: C.apagadoTexto,
-                }}
-              >
-                Test de examen
-              </span>
-              <span
+              <div
                 style={{
                   display: "flex",
                   alignItems: "center",
-                  gap: 8,
-                  borderRadius: 999,
-                  background: resuelta ? C.primario : C.suave,
-                  color: resuelta ? "#fff" : C.suaveTexto,
-                  padding: "8px 18px",
-                  fontSize: 26,
-                  fontWeight: 800,
-                  fontVariantNumeric: "tabular-nums",
-                  opacity: portada ? 0 : 1,
+                  justifyContent: "space-between",
+                  padding: "0 56px 30px",
                 }}
               >
-                <Timer size={24} />
-                00:{String(restante).padStart(2, "0")}
-              </span>
-            </div>
-
-            <div style={{ padding: "0 56px" }}>
-              <div style={{ height: 10, borderRadius: 5, background: C.apagado, overflow: "hidden" }}>
-                <div
+                <ChevronLeft size={40} color={C.apagadoTexto} />
+                <span
                   style={{
-                    height: "100%",
-                    width: `${progresoTest * 100}%`,
-                    borderRadius: 5,
-                    background: C.primario,
+                    fontFamily: fuenteVisor,
+                    fontSize: 22,
+                    fontWeight: 700,
+                    letterSpacing: "0.16em",
+                    textTransform: "uppercase",
+                    color: C.apagadoTexto,
                   }}
-                />
+                >
+                  Test de examen
+                </span>
+                <span
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 8,
+                    borderRadius: 3,
+                    background: resuelta ? C.primario : C.suave,
+                    color: resuelta ? C.sobrePrimario : C.suaveTexto,
+                    padding: "8px 16px",
+                    fontFamily: fuenteVisor,
+                    fontSize: 26,
+                    fontWeight: 700,
+                    opacity: portada ? 0 : 1,
+                  }}
+                >
+                  <Timer size={24} />
+                  00:{String(restante).padStart(2, "0")}
+                </span>
               </div>
-              <p style={{ margin: "18px 0 0", fontSize: 24, fontWeight: 600, color: C.apagadoTexto }}>
-                Pregunta de examen
+
+              <div style={{ padding: "0 56px" }}>
+                <div style={{ height: 8, background: C.borde, overflow: "hidden" }}>
+                  <div style={{ height: "100%", width: `${progresoTest * 100}%`, background: C.primario }} />
+                </div>
+                <Visor tam={20} color={C.apagadoTexto} style={{ marginTop: 18 }}>
+                  Pregunta de examen
+                </Visor>
+              </div>
+
+              <p
+                style={{
+                  margin: 0,
+                  padding: "36px 56px 0",
+                  fontSize: 46 * escala,
+                  fontWeight: 700,
+                  lineHeight: 1.28,
+                  opacity: pEnunciado,
+                  transform: `translateY(${(1 - pEnunciado) * 30}px)`,
+                }}
+              >
+                {enunciado}
               </p>
-            </div>
 
-            <p
-              style={{
-                margin: 0,
-                padding: "36px 56px 0",
-                fontSize: 46 * escala,
-                fontWeight: 700,
-                lineHeight: 1.28,
-                opacity: pEnunciado,
-                transform: `translateY(${(1 - pEnunciado) * 30}px)`,
-              }}
-            >
-              {enunciado}
-            </p>
-
-            <div style={{ display: "flex", flexDirection: "column", padding: `${20 * escala}px 56px 0` }}>
-              {opciones.map((opcion, i) => {
-                const p = entrada(f(T_OPCIONES) + i * 5, 16);
-                const acierto = resuelta && i === correcta;
-                const apagada = resuelta && i !== correcta;
-                return (
-                  <div
-                    key={i}
-                    style={{
-                      position: "relative",
-                      display: "flex",
-                      alignItems: "center",
-                      gap: 24,
-                      padding: `${26 * escala * (apagada ? 1 - pRecoger : 1)}px 28px`,
-                      marginTop: 20 * escala * (apagada ? 1 - pRecoger : 1),
-                      maxHeight: apagada ? 260 * (1 - pRecoger) : undefined,
-                      overflow: apagada && pRecoger > 0 ? "hidden" : undefined,
-                      borderWidth: apagada ? 3 * (1 - pRecoger) : 3,
-                      borderRadius: 28,
-                      borderStyle: "solid",
-                      borderColor: acierto ? C.primario : C.borde,
-                      background: acierto ? C.primario : "#fff",
-                      color: acierto ? "#fff" : C.texto,
-                      opacity: p * (apagada ? interpolate(pSolucion, [0, 1], [1, 0.4], clamp) * (1 - pRecoger) : 1),
-                      transform: `translateX(${(1 - p) * 120}px) scale(${acierto ? 1 + pSolucion * 0.03 : 1})`,
-                      boxShadow: acierto ? `0 0 0 ${10 * pSolucion}px #03512d22, 0 24px 50px -20px #03512d88` : "none",
-                    }}
-                  >
-                    <span
+              <div style={{ display: "flex", flexDirection: "column", padding: `${20 * escala}px 56px 0` }}>
+                {opciones.map((opcion, i) => {
+                  const p = entrada(f(T_OPCIONES) + i * 5, 16);
+                  const acierto = resuelta && i === correcta;
+                  const apagada = resuelta && i !== correcta;
+                  return (
+                    <div
+                      key={i}
                       style={{
-                        flexShrink: 0,
-                        width: 56,
-                        height: 56,
-                        borderRadius: "50%",
+                        position: "relative",
                         display: "flex",
                         alignItems: "center",
-                        justifyContent: "center",
-                        fontSize: 26,
-                        fontWeight: 800,
-                        background: acierto ? "#fff" : C.apagado,
-                        color: acierto ? C.primario : C.apagadoTexto,
+                        gap: 24,
+                        padding: `${26 * escala * (apagada ? 1 - pRecoger : 1)}px 28px`,
+                        marginTop: 20 * escala * (apagada ? 1 - pRecoger : 1),
+                        maxHeight: apagada ? 260 * (1 - pRecoger) : undefined,
+                        overflow: apagada && pRecoger > 0 ? "hidden" : undefined,
+                        borderWidth: apagada ? 3 * (1 - pRecoger) : 3,
+                        borderRadius: 4,
+                        borderStyle: "solid",
+                        borderColor: acierto ? C.primario : C.bordeFuerte,
+                        background: acierto ? C.primario : C.superficieTintada,
+                        color: acierto ? C.sobrePrimario : C.texto,
+                        opacity: p * (apagada ? interpolate(pSolucion, [0, 1], [1, 0.4], clamp) * (1 - pRecoger) : 1),
+                        transform: `translateX(${(1 - p) * 120}px) scale(${acierto ? 1 + pSolucion * 0.03 : 1})`,
+                        boxShadow: acierto ? `0 0 0 ${10 * pSolucion}px ${C.primario}2e, 0 0 60px -10px ${C.primario}99` : "none",
                       }}
                     >
-                      {acierto ? <Check size={32} strokeWidth={3.5} /> : LETRAS[i]}
-                    </span>
-                    <span style={{ fontSize: 36 * escala, fontWeight: 600, lineHeight: 1.22 }}>{opcion}</span>
-                    {acierto &&
-                      [0, 1].map((k) => {
-                        const onda = interpolate(
-                          frame,
-                          [f(t.solucion) + k * 6, f(t.solucion + 0.9) + k * 6],
-                          [0, 1],
-                          clamp,
-                        );
-                        return (
-                          <span
-                            key={k}
-                            style={{
-                              position: "absolute",
-                              inset: -6,
-                              borderRadius: 32,
-                              border: `4px solid ${C.punto}`,
-                              opacity: 1 - onda,
-                              transform: `scale(${1 + onda * 0.12}, ${1 + onda * 0.6})`,
-                            }}
-                          />
-                        );
-                      })}
-                  </div>
-                );
-              })}
-            </div>
+                      <span
+                        style={{
+                          flexShrink: 0,
+                          width: 56,
+                          height: 56,
+                          borderRadius: 3,
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          fontFamily: fuenteVisor,
+                          fontSize: 26,
+                          fontWeight: 700,
+                          border: `2px solid ${acierto ? C.sobrePrimario : C.bordeFuerte}`,
+                          background: acierto ? C.sobrePrimario : C.superficieTenue,
+                          color: acierto ? C.primario : C.apagadoTexto,
+                        }}
+                      >
+                        {acierto ? <Check size={32} strokeWidth={3.5} /> : LETRAS[i]}
+                      </span>
+                      <span style={{ fontSize: 36 * escala, fontWeight: 600, lineHeight: 1.22 }}>{opcion}</span>
+                      {acierto &&
+                        [0, 1].map((k) => {
+                          const onda = interpolate(
+                            frame,
+                            [f(t.solucion) + k * 6, f(t.solucion + 0.9) + k * 6],
+                            [0, 1],
+                            clamp,
+                          );
+                          return (
+                            <span
+                              key={k}
+                              style={{
+                                position: "absolute",
+                                inset: -6,
+                                borderRadius: 6,
+                                border: `4px solid ${C.primario}`,
+                                opacity: 1 - onda,
+                                transform: `scale(${1 + onda * 0.12}, ${1 + onda * 0.6})`,
+                              }}
+                            />
+                          );
+                        })}
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Tarjeta flotante: cuenta atrás */}
+      {/* Panel de visor: cuenta atrás */}
       {!resuelta && frame >= f(t.cuenta) && (
-        <TarjetaFlotante
+        <Panel
           style={{
-            top: 560,
-            right: 40,
+            top: 575,
+            right: 46,
             flexDirection: "column",
             gap: 14,
-            padding: "30px 40px",
+            padding: "28px 38px",
             opacity: pCuenta,
             transform: `scale(${0.6 + pCuenta * 0.4}) translateY(${flotar * -14}px)`,
           }}
         >
-          <span style={{ fontSize: 20, fontWeight: 700, letterSpacing: "0.12em", color: C.apagadoTexto }}>
-            TIEMPO
-          </span>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <span style={{ width: 14, height: 14, borderRadius: "50%", background: C.rec, opacity: recParpadeo }} />
+            <span style={{ fontFamily: fuenteVisor, fontSize: 20, fontWeight: 700, letterSpacing: "0.16em", color: C.apagadoTexto }}>
+              TIEMPO
+            </span>
+          </div>
           <div style={{ position: "relative", width: 150, height: 150 }}>
             <svg width={150} height={150} style={{ transform: "rotate(-90deg)" }}>
-              <circle cx={75} cy={75} r={64} stroke={C.suave} strokeWidth={12} fill="none" />
+              <circle cx={75} cy={75} r={64} stroke={C.borde} strokeWidth={10} fill="none" />
               <circle
                 cx={75}
                 cy={75}
                 r={64}
                 stroke={C.primario}
-                strokeWidth={12}
+                strokeWidth={10}
                 fill="none"
-                strokeLinecap="round"
                 strokeDasharray={2 * Math.PI * 64}
                 strokeDashoffset={2 * Math.PI * 64 * (1 - progresoCuenta)}
               />
@@ -575,37 +618,37 @@ export const PreguntaTest: React.FC<Props> = ({
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                fontSize: 72,
+                fontFamily: fuenteTitular,
+                fontSize: 92,
                 fontWeight: 800,
-                color: C.primario,
-                fontVariantNumeric: "tabular-nums",
+                color: C.texto,
                 transform: `scale(${1 + Math.max(0, 1 - ((frame - f(t.cuenta)) % fps) / 8) * 0.18})`,
               }}
             >
               {restante}
             </span>
           </div>
-        </TarjetaFlotante>
+        </Panel>
       )}
 
-      {/* Al resolver, la tarjeta de tiempo deja paso al emblema */}
+      {/* Al resolver, el panel de tiempo deja paso al emblema en su marco de visor */}
       {resuelta && (
         <div
           style={{
             position: "absolute",
-            top: 560,
-            right: 60,
+            top: 570,
+            right: 56,
             opacity: Math.min(1, pSolucion),
-            transform: `scale(${pSolucion}) rotate(${(1 - pSolucion) * -40 + flotar * 6}deg)`,
+            transform: `scale(${pSolucion}) translateY(${flotar * -10}px)`,
           }}
         >
-          <Emblema frame={frame} tam={150} />
+          <Emblema frame={frame} tam={140} />
         </div>
       )}
 
-      {/* Tarjeta flotante: explicación */}
+      {/* Panel de visor: explicación */}
       {frame >= f(t.explicacion) && (
-        <TarjetaFlotante
+        <Panel
           style={{
             left: 40,
             right: 40,
@@ -620,49 +663,83 @@ export const PreguntaTest: React.FC<Props> = ({
               flexShrink: 0,
               width: 84,
               height: 84,
-              borderRadius: 26,
+              borderRadius: 4,
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               background: C.suave,
               color: C.primario,
+              border: `2px solid ${C.primario}66`,
             }}
           >
             <Check size={46} strokeWidth={3} />
           </span>
           <div style={{ flex: 1 }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-              <span style={{ fontSize: 36, fontWeight: 800 }}>Entiende la respuesta.</span>
-              <Sparkles size={40} color={C.punto} />
+              <span
+                style={{
+                  fontFamily: fuenteTitular,
+                  fontSize: 44,
+                  fontWeight: 700,
+                  lineHeight: 1.05,
+                  letterSpacing: "0.01em",
+                  textTransform: "uppercase",
+                }}
+              >
+                Entiende la respuesta
+              </span>
+              <Sparkles size={40} color={C.primario} />
             </div>
-            <div style={{ fontSize: 33 * escalaExplicacion, fontWeight: 500, lineHeight: 1.4, marginTop: 10, color: C.apagadoTexto }}>
+            <div
+              style={{
+                fontSize: 33 * escalaExplicacion,
+                fontWeight: 500,
+                lineHeight: 1.4,
+                marginTop: 10,
+                color: C.apagadoTexto,
+              }}
+            >
               {explicacion}
             </div>
           </div>
-        </TarjetaFlotante>
+        </Panel>
       )}
 
-      {/* Cierre: la banda verde profunda de la web se abre en círculo */}
+      {/* Marco de visor de todo el encuadre, con la firma y las rayas del vídeo de lanzamiento */}
+      <AbsoluteFill style={{ pointerEvents: "none" }}>
+        <EsquinasVisor inset={26} largo={64} grosor={4} />
+        <Rayas ancho={150} alto={14} style={{ position: "absolute", left: 60, bottom: 52 }} />
+      </AbsoluteFill>
+
+      {/* Cierre: la franja oscura de la web sube con una línea de barrido */}
       {frame >= f(t.cierre) && (
         <AbsoluteFill
           style={{
             background: C.profundo,
-            color: "#fff",
-            clipPath: `circle(${pCierre * Math.hypot(width, height)}px at 50% 62%)`,
+            color: C.texto,
+            clipPath: `inset(${(1 - pCierre) * 100}% 0 0 0)`,
           }}
         >
           <div
             style={{
               position: "absolute",
-              inset: "-20%",
-              opacity: 0.18,
-              backgroundImage:
-                "linear-gradient(#ffffff22 2px, transparent 2px), linear-gradient(90deg, #ffffff22 2px, transparent 2px)",
-              backgroundSize: "72px 72px",
-              transform: "rotate(-12deg)",
-              maskImage: "radial-gradient(ellipse, black, transparent 65%)",
+              inset: 0,
+              background: `radial-gradient(ellipse 80% 50% at 50% 38%, ${C.primario}30, transparent 65%)`,
             }}
           />
+          <div
+            style={{
+              position: "absolute",
+              inset: 0,
+              backgroundImage: `linear-gradient(${C.primario}12 2px, transparent 2px), linear-gradient(90deg, ${C.primario}12 2px, transparent 2px)`,
+              backgroundSize: "64px 64px",
+            }}
+          />
+          <EsquinasVisor inset={26} largo={64} grosor={4} />
+          <Visor tam={22} color={C.apagadoTexto} style={{ position: "absolute", top: 58, left: 64 }}>
+            ProLince Academia
+          </Visor>
+          <Rayas ancho={150} alto={14} style={{ position: "absolute", left: 60, bottom: 52 }} />
           <AbsoluteFill
             style={{
               alignItems: "center",
@@ -673,23 +750,36 @@ export const PreguntaTest: React.FC<Props> = ({
               transform: `translateY(${(1 - pCierreTexto) * 80}px)`,
             }}
           >
-            <Emblema frame={frame} tam={220} />
-            <div style={{ marginTop: 90, fontSize: 30, fontWeight: 700, letterSpacing: "0.08em", color: C.suave }}>
-              ACADEMIA ONLINE DE OPOSICIONES
-            </div>
+            <Emblema frame={frame} tam={210} />
+            <Visor tam={28} style={{ marginTop: 80 }}>
+              Academia online de oposiciones
+            </Visor>
             <div
               style={{
-                marginTop: 24,
-                fontSize: 120,
-                fontWeight: 780,
-                lineHeight: 1.04,
-                letterSpacing: "-0.038em",
+                marginTop: 26,
+                fontFamily: fuenteTitular,
+                fontSize: 168,
+                fontWeight: 800,
+                lineHeight: 0.92,
+                textTransform: "uppercase",
                 textAlign: "center",
               }}
             >
-              ¿La has <span style={{ color: C.suave }}>acertado?</span>
+              <div>¿La has</div>
+              <div
+                style={{
+                  display: "inline-block",
+                  marginTop: 18,
+                  padding: "8px 18px 0",
+                  lineHeight: 0.95,
+                  background: C.primario,
+                  color: C.sobrePrimario,
+                }}
+              >
+                acertado?
+              </div>
             </div>
-            <div style={{ marginTop: 36, fontSize: 40, lineHeight: 1.45, textAlign: "center", color: "#ffffffa6" }}>
+            <div style={{ marginTop: 40, fontSize: 40, lineHeight: 1.45, textAlign: "center", color: C.apagadoTexto }}>
               Temario, tests y simulacros cronometrados en un solo sitio.
             </div>
             <div
@@ -698,20 +788,39 @@ export const PreguntaTest: React.FC<Props> = ({
                 display: "flex",
                 alignItems: "center",
                 gap: 18,
-                background: "#fff",
-                color: C.profundo,
-                fontSize: 42,
+                background: C.primario,
+                color: C.sobrePrimario,
+                fontFamily: fuenteTitular,
+                fontSize: 54,
                 fontWeight: 700,
-                padding: "34px 56px",
-                borderRadius: 32,
+                letterSpacing: "0.06em",
+                textTransform: "uppercase",
+                padding: "28px 64px",
+                clipPath: "polygon(22px 0, 100% 0, 100% calc(100% - 22px), calc(100% - 22px) 100%, 0 100%, 0 22px)",
               }}
             >
               Empezar ahora
-              <ArrowRight size={44} style={{ transform: `translateX(${Math.sin(frame / 5) * 5}px)` }} />
+              <ArrowRight size={48} style={{ transform: `translateX(${Math.sin(frame / 5) * 5}px)` }} />
             </div>
-            <div style={{ marginTop: 40, fontSize: 36, fontWeight: 700 }}>prolinceacademia.com</div>
+            <div style={{ marginTop: 44, fontFamily: fuenteVisor, fontSize: 32, fontWeight: 700, letterSpacing: "0.06em" }}>
+              prolinceacademia.com
+            </div>
           </AbsoluteFill>
         </AbsoluteFill>
+      )}
+      {/* Línea de barrido del cierre */}
+      {frame >= f(t.cierre) && pCierre < 1 && (
+        <div
+          style={{
+            position: "absolute",
+            left: 0,
+            right: 0,
+            top: (1 - pCierre) * height - 3,
+            height: 6,
+            background: C.primario,
+            boxShadow: `0 0 40px 8px ${C.primario}88`,
+          }}
+        />
       )}
     </AbsoluteFill>
   );
