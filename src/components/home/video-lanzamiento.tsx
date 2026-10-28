@@ -5,7 +5,7 @@ import { Pause, Play, Volume2, VolumeX } from "lucide-react";
 import { Section } from "@/components/layout/section";
 
 /**
- * Vídeo de lanzamiento del curso de Acceso a la Guardia Civil (1 de noviembre de 2026).
+ * Vídeo de lanzamiento del curso de Acceso a la Guardia Civil. Sin fecha: vale también después de abrir.
  *
  * Arranca solo y en silencio (los navegadores no dejan otra cosa) y en bucle. Dos botones: pausa o
  * reproducción, y sonido. En pantallas estrechas carga la versión vertical. Si la persona tiene
@@ -83,7 +83,7 @@ export function VideoLanzamiento() {
 
   return (
     <Section
-      eyebrow="Lanzamiento · 1 de noviembre"
+      eyebrow="Ya disponible"
       titulo="Así es el curso de Acceso a la Guardia Civil"
       entradilla="Temario, tests, simulacros y estadísticas en la misma plataforma. Dale al sonido para escucharlo."
     >
