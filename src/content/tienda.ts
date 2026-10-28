@@ -32,9 +32,9 @@ const comunes = {
   tests: "Tests ilimitados personalizados por tema y por materia (inglés, ortografía, gramática…), aleatorios y predeterminados con ranking",
   repaso: "Tests de repaso de las preguntas falladas",
   temarioDigital: "Temario digital, en la web y en el móvil",
-  tiposSimulacro: "Simulacros de conocimientos, ortografía, inglés y psicotécnicos",
   /** Los años salen de los exámenes publicados en la plataforma: al subir uno nuevo, cambiarlos aquí y allí. */
   anteriores: (desde: number, hasta: number) => `Todos los exámenes de años anteriores (de ${desde} a ${hasta})`,
+  exclusivos: (cuantos: number) => `${cuantos} simulacros de conocimientos, ortografía, inglés y psicotécnicos exclusivos de ProLince (5 de ellos también en PDF para imprimir)`,
   anual: "12 mensualidades de la Suscripción de Tests: tests ilimitados personalizados por tema y por materia (inglés, ortografía, gramática…)",
 };
 
@@ -56,7 +56,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 89.95,
       pago: "unico",
-      incluye: [`${comunes.anteriores(2017, 2026)} y 25 simulacros exclusivos de ProLince`, comunes.tiposSimulacro, "5 de ellos, también en PDF para imprimir", comunes.esquemasYLengua],
+      incluye: [comunes.anteriores(2017, 2026), comunes.exclusivos(25), comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -107,7 +107,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 59.95,
       pago: "unico",
-      incluye: [`${comunes.anteriores(2024, 2026)} y 25 simulacros exclusivos de ProLince`, comunes.tiposSimulacro, "5 de ellos, también en PDF para imprimir", comunes.esquemasYLengua],
+      incluye: [comunes.anteriores(2024, 2026), comunes.exclusivos(15), comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
