@@ -3,6 +3,7 @@ import { PageHero } from "@/components/layout/page-hero";
 import { Section } from "@/components/layout/section";
 import { Reveal } from "@/components/layout/reveal";
 import { CtaFinal } from "@/components/sections/cta-final";
+import { AvisoActualizaciones } from "@/components/temarios/aviso-actualizaciones";
 import { TarjetaTemario } from "@/components/temarios/tarjeta-temario";
 import { cursoPorSlug } from "@/content/cursos";
 import { site } from "@/content/site";
@@ -32,6 +33,7 @@ export default function Temarios() {
         const programa = rutas.temario(t.slug);
         return (
           <Section key={t.slug} id={t.ancla} eyebrow={curso.eyebrow} titulo={curso.nombre} fondo={i % 2 === 0 ? "base" : "suave"}>
+            <AvisoActualizaciones className="mb-8" />
             <ul className="grid gap-6 lg:grid-cols-2">
               {t.modalidades.map((m, j) => (
                 <li key={m.id}>

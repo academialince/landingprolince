@@ -22,6 +22,7 @@ import { PacksCurso } from "@/components/tienda/packs-curso";
 import { programas } from "@/content/temario";
 import { temarios } from "@/content/temarios";
 import { TarjetaTemario } from "@/components/temarios/tarjeta-temario";
+import { AvisoActualizaciones } from "@/components/temarios/aviso-actualizaciones";
 import { PruebasRepaso } from "@/components/cursos/pruebas-repaso";
 import { MarcoTactico } from "@/components/ui/marco-tactico";
 import { Resultados } from "@/components/sections/resultados";
@@ -278,6 +279,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
                 Actualizado a 2027 y en casa en 48 horas. Elige el pack completo, con los libros de inglés y de ortografía y
                 gramática, o el libro resumen para repasar.
               </p>
+              <AvisoActualizaciones className="mt-6" />
               <ul className="mt-6 grid gap-6 lg:grid-cols-2">
                 {librosCurso.modalidades.map((m, i) => (
                   <li key={m.id}>

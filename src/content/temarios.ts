@@ -39,6 +39,18 @@ export type TemarioCurso = { slug: string; ancla: string; modalidades: Modalidad
 
 export const ENTREGA = "Lo recibes en 48 horas";
 
+/**
+ * Lo que se promete con cualquier temario en papel: basta con haberlo comprado. Las versiones
+ * nuevas no se envían solas; el alumno las pide (WhatsApp o email) mientras siga opositando.
+ * La plataforma lleva una copia de estos textos en `src/lib/web-de-la-academia.ts`.
+ */
+export const ACTUALIZACIONES = {
+  titulo: "Siempre al día",
+  texto:
+    "Nuestros temarios están 100 % actualizados y adaptados a las últimas convocatorias. Además, con la compra del temario tienes todas sus versiones actualizadas en PDF sin coste adicional: reclámalas cuando salgan mientras sigas opositando. Estudia siempre con el contenido más reciente.",
+  incluye: "Versiones actualizadas en PDF gratis mientras sigas opositando",
+};
+
 /** Gastos de envío de la compra con Stripe, IVA incluido: van como una línea más del pago. */
 export const ENVIO = 8;
 
@@ -72,6 +84,7 @@ export const temarios: TemarioCurso[] = [
           "Libro completo: temario actualizado 2027, los 23 temas de conocimientos",
           "Libro de inglés",
           "Libro de ortografía y gramática",
+          ACTUALIZACIONES.incluye,
         ],
         precio: 189.95,
         destacado: "El más completo",
@@ -83,7 +96,7 @@ export const temarios: TemarioCurso[] = [
         miniatura: miniaturaGCResumen.src,
         nombre: "Libro resumen",
         resumen: "El temario condensado en un solo libro, para repasar lo esencial de cada tema.",
-        incluye: ["Libro resumen del temario actualizado 2027"],
+        incluye: ["Libro resumen del temario actualizado 2027", ACTUALIZACIONES.incluye],
         precio: 69.95,
         ejemplo: null,
       },
@@ -103,6 +116,7 @@ export const temarios: TemarioCurso[] = [
           "Libro completo: temario actualizado 2027, los 10 temas de conocimientos",
           "Libro de inglés",
           "Libro de ortografía y gramática",
+          ACTUALIZACIONES.incluye,
         ],
         precio: 119.95,
         destacado: "El más completo",
@@ -114,7 +128,7 @@ export const temarios: TemarioCurso[] = [
         miniatura: miniaturaCGJResumen.src,
         nombre: "Libro resumen",
         resumen: "El temario del Colegio condensado en un solo libro, para repasar lo esencial.",
-        incluye: ["Libro resumen del temario actualizado 2027"],
+        incluye: ["Libro resumen del temario actualizado 2027", ACTUALIZACIONES.incluye],
         precio: 59.95,
         ejemplo: null,
       },
