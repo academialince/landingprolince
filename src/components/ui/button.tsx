@@ -44,11 +44,13 @@ export function Button({
   const cls = clases(variante, tamano, className);
 
   if (href) {
-    // Los enlaces a la plataforma y las anclas de la propia página no pasan por el router.
-    const externo = href.startsWith("http") || href.startsWith("#");
+    // Los enlaces a la plataforma y las anclas de la propia página no pasan por el router. Un
+    // PDF tampoco: se abre en otra pestaña para no sacar a nadie de la web.
+    const pdf = href.endsWith(".pdf");
+    const externo = href.startsWith("http") || href.startsWith("#") || pdf;
     if (externo) {
       return (
-        <a href={href} className={cls}>
+        <a href={href} className={cls} {...(pdf ? { target: "_blank", rel: "noopener" } : {})}>
           {children}
         </a>
       );

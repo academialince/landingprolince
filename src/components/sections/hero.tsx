@@ -1,9 +1,9 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, FileText } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
 import { HeroExperience } from "@/components/home/hero-experience";
 import { MarcoTactico } from "@/components/ui/marco-tactico";
-import { destinoEmpezar } from "@/lib/links";
+import { destinoEmpezar, rutas } from "@/lib/links";
 
 const hechos = ["Acceso a la Guardia Civil", "Colegio de Guardias Jóvenes", "100 % online", "7 días gratis"];
 
@@ -52,6 +52,10 @@ export function Hero() {
               </Button>
               <Button href="#cursos" variante="secundario" tamano="lg">
                 Ver los cursos
+              </Button>
+              <Button href={rutas.ultimaConvocatoria} variante="secundario" tamano="lg">
+                <FileText size={18} aria-hidden />
+                Última convocatoria
               </Button>
             </div>
 
