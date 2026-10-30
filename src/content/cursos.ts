@@ -203,7 +203,7 @@ export const cursos: Curso[] = [
     slug: "colegio-guardias-jovenes",
     nombre: "Acceso al Colegio de Guardias Jóvenes",
     nombreCorto: "Guardias Jóvenes",
-    eyebrow: "Colegio Duque de Ahumada",
+    eyebrow: "Colegio de Guardias Jóvenes Duque de Ahumada",
     titular: "Curso Guardias Jóvenes 26/27 · 175ª Promoción",
     entradilla:
       "«Para premiar en los hijos las virtudes de los padres». Es el lema del Colegio Duque de Ahumada, en Valdemoro, y lo dice todo. Es la entrada más temprana a la Guardia Civil, y desde ahí se accede después a la Escala de Cabos y Guardias. Una plaza así no se improvisa: se prepara con tiempo, con constancia y con un método que te guíe. En ProLince te preparamos para que el esfuerzo de toda una familia tenga su recompensa.",
