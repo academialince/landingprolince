@@ -40,7 +40,7 @@ Todo esto está en [la convocatoria de este año](/blog/convocatoria-guardia-civ
 
 ### Monta el calendario real, no el ideal
 
-Coge una semana en blanco y marca lo que ya está ocupado: tu trabajo, los desplazamientos, las obligaciones que no se mueven. Lo que queda es tu presupuesto. Con 12-15 horas semanales se prepara esta oposición; con 25 que apuntas el domingo y no cumples el martes, no.
+Coge una semana en blanco y marca lo que ya está ocupado: tu trabajo, los desplazamientos, las obligaciones que no se mueven. Lo que queda es tu presupuesto. Con 25-40 horas semanales que de verdad cumples se prepara esta oposición; con 40 que apuntas el domingo y abandonas el martes, no.
 
 Es mejor un plan de diez horas que se cumple que uno de veinte que se abandona en noviembre.
 
