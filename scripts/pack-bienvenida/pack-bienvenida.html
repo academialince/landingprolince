@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Pack de bienvenida · Academia ProLince</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!--
+  Pack de bienvenida en PDF. Los datos salen de src/content (cursos.ts, tienda.ts, temarios.ts,
+  kpis.ts): si cambia un precio o un pack en la web, se cambia aquí también y se regenera con
+  `node scripts/pack-bienvenida/generar.mjs`.
+-->
+<style>
+  @page { size: A4; margin: 0; }
+  :root {
+    --verde: #005238;
+    --verde-hondo: #023424;
+    --verde-suave: #e4f1ea;
+    --verde-tinte: #f4f8f6;
+    --texto: #18261f;
+    --gris: #5d6b64;
+    --borde: #dbe3df;
+    --dorado: #b98a2e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #fff; }
+  body { font-family: "Manrope", system-ui, sans-serif; color: var(--texto); font-size: 10pt; line-height: 1.5; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .pagina { width: 210mm; height: 297mm; position: relative; overflow: hidden; page-break-after: always; padding: 18mm 17mm 22mm; }
+  .pagina:last-child { page-break-after: auto; }
+
+  .pie { position: absolute; left: 17mm; right: 17mm; bottom: 9mm; display: flex; justify-content: space-between; align-items: center; font-size: 7.5pt; color: var(--gris); border-top: 1px solid var(--borde); padding-top: 3mm; }
+  .pie img { height: 6mm; }
+
+  .eyebrow { font-size: 7.5pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--verde); }
+  h1 { font-size: 30pt; line-height: 1.08; letter-spacing: -.03em; font-weight: 800; }
+  h2 { font-size: 21pt; line-height: 1.15; letter-spacing: -.025em; font-weight: 800; margin-top: 2mm; }
+  h3 { font-size: 11.5pt; font-weight: 750; letter-spacing: -.01em; }
+  .entradilla { font-size: 11pt; color: var(--gris); margin-top: 3mm; max-width: 160mm; }
+  .cabecera { margin-bottom: 7mm; }
+
+  /* Portada */
+  .portada { padding: 0; background: var(--verde-hondo); color: #fff; }
+  .portada .foto { position: absolute; inset: 0; background: url("../../public/tactico/desfile-restaurada-4k.jpg") center 40% / cover; }
+  .portada .velo { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(2,52,36,.92) 0%, rgba(2,52,36,.35) 30%, rgba(2,52,36,.92) 68%, #023424 100%); }
+  .portada .contenido { position: absolute; left: 18mm; right: 18mm; top: 18mm; bottom: 18mm; display: flex; flex-direction: column; }
+  .portada .logo { width: 72mm; }
+  .portada .bloque { margin-top: auto; }
+  .portada .eyebrow { color: #9fd3b8; }
+  .portada h1 { font-size: 40pt; margin-top: 4mm; }
+  .portada .sub { font-size: 13pt; margin-top: 5mm; color: #d6e9df; max-width: 150mm; }
+  .portada .datos { display: flex; gap: 6mm; margin-top: 12mm; border-top: 1px solid rgba(255,255,255,.25); padding-top: 6mm; }
+  .portada .datos div { flex: 1; }
+  .portada .datos b { display: block; font-size: 18pt; font-weight: 800; letter-spacing: -.02em; }
+  .portada .datos span { font-size: 8pt; color: #c7ded2; }
+  .portada .edicion { margin-top: 8mm; font-size: 8pt; color: #9fd3b8; letter-spacing: .08em; text-transform: uppercase; }
+
+  /* Bienvenida */
+  .carta { display: grid; grid-template-columns: 1fr 58mm; gap: 10mm; margin-top: 6mm; }
+  .carta p { margin-bottom: 3.2mm; font-size: 10.5pt; }
+  .carta .firma { font-weight: 700; color: var(--verde); margin-top: 5mm; }
+  .lateral { background: var(--verde-tinte); border-radius: 4mm; padding: 6mm; border: 1px solid var(--borde); }
+  .lateral h3 { font-size: 10pt; margin-bottom: 3mm; }
+  .lateral ol { padding-left: 4.5mm; font-size: 9pt; }
+  .lateral li { margin-bottom: 2.5mm; }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin-top: 9mm; }
+  .kpi { border-top: 2.5px solid var(--verde); padding-top: 3mm; }
+  .kpi b { display: block; font-size: 19pt; font-weight: 800; letter-spacing: -.02em; color: var(--verde); line-height: 1.1; }
+  .kpi strong { display: block; font-size: 9pt; margin-top: 1mm; }
+  .kpi span { font-size: 8pt; color: var(--gris); }
+
+  /* Rejilla de características */
+  .rejilla { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm 7mm; }
+  .item { display: flex; gap: 4mm; }
+  .icono { flex: none; width: 10mm; height: 10mm; border-radius: 2.5mm; background: var(--verde-suave); color: var(--verde); display: flex; align-items: center; justify-content: center; }
+  .icono svg { width: 5.2mm; height: 5.2mm; }
+  .item p { font-size: 9pt; color: var(--gris); margin-top: .8mm; }
+
+  .franja { margin-top: 9mm; background: var(--verde); color: #fff; border-radius: 4mm; padding: 7mm 8mm; display: grid; grid-template-columns: 1.1fr 1fr; gap: 8mm; align-items: center; }
+  .franja h3 { font-size: 14pt; }
+  .franja p { font-size: 9.5pt; color: #d6e9df; margin-top: 2mm; }
+  .franja ul { list-style: none; font-size: 9pt; }
+  .franja li { padding: 1.6mm 0 1.6mm 6mm; position: relative; border-bottom: 1px solid rgba(255,255,255,.15); }
+  .franja li:last-child { border-bottom: 0; }
+  .franja li::before { content: ""; position: absolute; left: 0; top: 3.3mm; width: 2.4mm; height: 2.4mm; border-radius: 50%; background: #9fd3b8; }
+
+  /* Cursos */
+  .curso { border: 1px solid var(--borde); border-radius: 4mm; overflow: hidden; display: grid; grid-template-columns: 62mm 1fr; margin-bottom: 6mm; }
+  .curso .img { background-size: cover; background-position: center; position: relative; }
+  .curso .img span { position: absolute; left: 4mm; bottom: 4mm; background: rgba(2,52,36,.85); color: #fff; font-size: 7pt; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 1.2mm 2.4mm; border-radius: 1.2mm; }
+  .curso .txt { padding: 6mm 7mm; }
+  .curso h3 { font-size: 14pt; }
+  .curso .resumen { font-size: 9pt; color: var(--gris); margin-top: 1.5mm; }
+  .destacados { display: flex; gap: 6mm; margin: 4mm 0; }
+  .destacados b { display: block; font-size: 13pt; font-weight: 800; color: var(--verde); }
+  .destacados span { font-size: 7.5pt; color: var(--gris); }
+  .pruebas { font-size: 8.5pt; }
+  .pruebas li { list-style: none; padding: 1.3mm 0; border-top: 1px solid var(--borde); display: flex; gap: 3mm; }
+  .pruebas li b { flex: none; width: 5mm; color: var(--verde); }
+  .proximos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; }
+  .proximo { border: 1px dashed var(--borde-fuerte, #c3cfc9); border-radius: 3mm; padding: 4mm; background: var(--verde-tinte); }
+  .proximo .eyebrow { color: var(--dorado); }
+  .proximo h3 { font-size: 10pt; margin-top: 1mm; }
+  .proximo p { font-size: 8pt; color: var(--gris); margin-top: 1mm; }
+
+  /* Packs */
+  .curso-packs { margin-bottom: 5mm; }
+  .curso-packs > h3 { font-size: 12pt; display: flex; align-items: baseline; gap: 3mm; margin-bottom: 3mm; }
+  .curso-packs > h3 small { font-size: 8pt; color: var(--gris); font-weight: 600; }
+  .packs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; }
+  .pack { border: 1px solid var(--borde); border-radius: 3.5mm; padding: 4mm 4.5mm; display: flex; flex-direction: column; position: relative; }
+  .pack.top { border: 2px solid var(--verde); background: var(--verde-tinte); }
+  .pack .sello { position: absolute; top: -2.6mm; right: 4mm; background: var(--verde); color: #fff; font-size: 6.5pt; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; padding: .9mm 2.4mm; border-radius: 1.2mm; }
+  .pack h4 { font-size: 10pt; font-weight: 800; line-height: 1.25; }
+  .pack .que { font-size: 8pt; color: var(--gris); margin-top: 1mm; min-height: 7mm; }
+  .precio { margin: 1.5mm 0 2mm; display: flex; align-items: baseline; gap: 1.2mm; }
+  .precio b { font-size: 19pt; font-weight: 800; letter-spacing: -.02em; color: var(--verde); }
+  .precio span { font-size: 8pt; color: var(--gris); }
+  .pack ul { list-style: none; font-size: 7.4pt; line-height: 1.35; }
+  .pack li { padding-left: 4mm; position: relative; margin-bottom: 1mm; }
+  .pack li::before { content: "✓"; position: absolute; left: 0; color: var(--verde); font-weight: 800; }
+  .pack .no { margin-top: auto; padding-top: 2mm; font-size: 7.3pt; color: var(--gris); font-style: italic; }
+  .prueba { display: inline-block; margin-top: 1.5mm; font-size: 7pt; font-weight: 800; color: var(--dorado); text-transform: uppercase; letter-spacing: .06em; }
+  .condiciones { font-size: 7.5pt; color: var(--gris); border-top: 1px solid var(--borde); padding-top: 3mm; }
+
+  /* Temarios */
+  .temarios { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .temario { border: 1px solid var(--borde); border-radius: 4mm; padding: 5mm; }
+  .temario > h3 { font-size: 11.5pt; margin-bottom: 3mm; }
+  .modalidad { display: grid; grid-template-columns: 30mm 1fr; gap: 4mm; padding: 3.5mm 0; border-top: 1px solid var(--borde); }
+  .modalidad img { width: 30mm; border-radius: 2mm; }
+  .modalidad h4 { font-size: 9.5pt; font-weight: 800; }
+  .modalidad .precio b { font-size: 15pt; }
+  .modalidad ul { list-style: none; font-size: 7.5pt; color: var(--gris); }
+  .modalidad li { padding-left: 3.5mm; position: relative; margin-bottom: .8mm; }
+  .modalidad li::before { content: "·"; position: absolute; left: .5mm; color: var(--verde); font-weight: 800; }
+  .aldia { margin-top: 6mm; display: grid; grid-template-columns: 12mm 1fr; gap: 5mm; background: var(--verde-suave); border-radius: 4mm; padding: 6mm; }
+  .aldia .icono { width: 12mm; height: 12mm; background: var(--verde); color: #fff; }
+  .aldia p { font-size: 9pt; margin-top: 1mm; }
+  .envio { margin-top: 4mm; font-size: 8pt; color: var(--gris); }
+
+  /* Primeros pasos y contacto */
+  .pasos { counter-reset: paso; display: grid; gap: 4mm; }
+  .paso { display: grid; grid-template-columns: 11mm 1fr; gap: 4mm; align-items: start; }
+  .paso::before { counter-increment: paso; content: counter(paso); width: 11mm; height: 11mm; border-radius: 50%; background: var(--verde); color: #fff; font-weight: 800; font-size: 12pt; display: flex; align-items: center; justify-content: center; }
+  .paso p { font-size: 9pt; color: var(--gris); margin-top: .5mm; }
+  .gratis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin-top: 4mm; }
+  .gratis div { border: 1px solid var(--borde); border-radius: 3mm; padding: 4mm; }
+  .gratis h3 { font-size: 9.5pt; }
+  .gratis p { font-size: 8pt; color: var(--gris); margin-top: 1mm; }
+  .gratis code { font-family: inherit; font-size: 7.5pt; color: var(--verde); font-weight: 700; display: block; margin-top: 2mm; }
+  .contacto { margin-top: 8mm; background: var(--verde-hondo); color: #fff; border-radius: 4mm; padding: 8mm; display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; }
+  .contacto h3 { font-size: 14pt; }
+  .contacto p { font-size: 9pt; color: #c7ded2; margin-top: 2mm; }
+  .contacto dl { font-size: 9pt; display: grid; grid-template-columns: auto 1fr; gap: 1.8mm 4mm; }
+  .contacto dt { color: #9fd3b8; font-weight: 700; }
+  .contacto dd { font-weight: 600; }
+  .contacto .logo { width: 52mm; margin-top: 6mm; }
+  .aviso { margin-top: 5mm; font-size: 7.3pt; color: var(--gris); }
+  .seccion { margin-top: 8mm; }
+</style>
+</head>
+<body>
+
+<!-- Iconos (trazos de Lucide, los mismos de la web) -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="i-libro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol>
+    <symbol id="i-lista" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></symbol>
+    <symbol id="i-reloj" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="10" x2="14" y1="2" y2="2"/><line x1="12" x2="15" y1="14" y2="11"/><circle cx="12" cy="14" r="8"/></symbol>
+    <symbol id="i-trofeo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol>
+    <symbol id="i-repaso" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></symbol>
+    <symbol id="i-grafica" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m19 9-5 5-4-4-3 3"/></symbol>
+    <symbol id="i-movil" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></symbol>
+    <symbol id="i-megafono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></symbol>
+    <symbol id="i-actualizar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 16h5v5"/></symbol>
+  </defs>
+</svg>
+
+<!-- 1 · Portada -->
+<section class="pagina portada">
+  <div class="foto"></div>
+  <div class="velo"></div>
+  <div class="contenido">
+    <img class="logo" src="../../public/brand/prolince-logo-horizontal-negativo.svg" alt="Academia ProLince">
+    <div class="bloque">
+      <p class="eyebrow">Pack de bienvenida</p>
+      <h1>Tu oposición a la Guardia Civil, en un solo sitio.</h1>
+      <p class="sub">Todo lo que te ofrece Academia ProLince: cursos, plataforma de tests y simulacros, packs, temarios en papel y cómo empezar hoy.</p>
+      <div class="datos">
+        <div><b>+19.000</b><span>preguntas en el banco de tests</span></div>
+        <div><b>19</b><span>exámenes oficiales (2017-2026)</span></div>
+        <div><b>2027</b><span>temario actualizado</span></div>
+        <div><b>7 días</b><span>de prueba gratis</span></div>
+      </div>
+      <p class="edicion">Edición noviembre 2026 · prolinceacademia.com</p>
+    </div>
+  </div>
+</section>
+
+<!-- 2 · Bienvenida -->
+<section class="pagina">
+  <div class="cabecera">
+    <p class="eyebrow">Bienvenida</p>
+    <h2>Bienvenido a ProLince</h2>
+  </div>
+  <div class="carta">
+    <div>
+      <p>Gracias por confiar en nosotros. Preparar la Guardia Civil es una carrera de fondo: una parte teórica exigente, inglés, ortografía, psicotécnicos y unas pruebas físicas que hay que trabajar desde el primer mes.</p>
+      <p>Por eso en ProLince todo el estudio ocurre en una única plataforma, disponible a cualquier hora y desde cualquier dispositivo: el temario, los tests por tema, los simulacros cronometrados con exámenes oficiales y propios, y el seguimiento de tu progreso.</p>
+      <p>No hay clases a hora fija a las que llegar tarde. Puedes compaginarlo con el trabajo, con los turnos o con el instituto, y si pierdes una semana, retomas en el punto exacto donde lo dejaste.</p>
+      <p>En este pack tienes, de forma clara y con precios actualizados, todo lo que ponemos a tu disposición. Si te queda cualquier duda, escríbenos: te contestamos personas, no un robot.</p>
+      <p class="firma">El equipo de Academia ProLince</p>
+    </div>
+    <aside class="lateral">
+      <h3>Qué encontrarás en este pack</h3>
+      <ol>
+        <li>Nuestros cursos y las pruebas de cada oposición</li>
+        <li>La plataforma: qué puedes hacer en ella</li>
+        <li>Packs y precios por curso</li>
+        <li>Temarios en papel actualizados a 2027</li>
+        <li>Recursos gratis y cómo empezar</li>
+        <li>Contacto y redes</li>
+      </ol>
+    </aside>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><b>+19.000</b><strong>preguntas</strong><span>en el banco de tests de la plataforma</span></div>
+    <div class="kpi"><b>19</b><strong>exámenes oficiales</strong><span>de Guardia Civil, de 2017 a 2026, como simulacro</span></div>
+    <div class="kpi"><b>23</b><strong>temas con esquemas</strong><span>en PDF, en versión web y móvil</span></div>
+    <div class="kpi"><b>7 días</b><strong>gratis</strong><span>para probar la suscripción de tests de tu curso</span></div>
+  </div>
+
+  <div class="franja">
+    <div>
+      <h3>Entrena el examen. Descubre dónde mejorar.</h3>
+      <p>No solo los exámenes oficiales de 2017 a 2026: también simulacros propios con el mismo formato, y algunos en PDF para imprimir. Con el reloj en marcha, revisa cada respuesta y llega al siguiente sabiendo qué falló.</p>
+    </div>
+    <ul>
+      <li><b>Con tiempo real.</b> Si se acaba, se entrega lo que haya.</li>
+      <li><b>Corregido al momento</b>, con penalización por error.</li>
+      <li><b>Revisión razonada</b>, pregunta a pregunta.</li>
+      <li><b>Ranking privado</b>, solo dentro de tu curso.</li>
+    </ul>
+  </div>
+  <footer class="pie"><img src="../../public/brand/prolince-logo-horizontal.svg" alt=""><span>Pack de bienvenida · Noviembre 2026</span><span>2</span></footer>
+</section>
+
+<!-- 3 · Cursos -->
+<section class="pagina">
+  <div class="cabecera">
+    <p class="eyebrow">Nuestros cursos</p>
+    <h2>Dos vías de entrada al Cuerpo</h2>
+    <p class="entradilla">Cada curso tiene su propio temario, sus tests y sus simulacros. Los packs se contratan por curso.</p>
+  </div>
+
+  <article class="curso">
+    <div class="img" style="background-image:url('../../public/cursos/acceso-guardia-civil.jpg')"><span>Escala de Cabos y Guardias</span></div>
+    <div class="txt">
+      <h3>Acceso a la Guardia Civil</h3>
+      <p class="resumen">La vía ordinaria de entrada, con Bachiller o equivalente. Una oposición larga, con una parte teórica exigente y unas pruebas físicas que hay que empezar a trabajar desde el primer mes.</p>
+      <div class="destacados">
+        <div><b>23</b><span>temas del programa oficial</span></div>
+        <div><b>5</b><span>fases eliminatorias</span></div>
+        <div><b>12-15 h</b><span>de estudio a la semana</span></div>
+      </div>
+      <ul class="pruebas">
+        <li><b>1</b><span><strong>Conocimientos</strong> · test del temario oficial y ortografía</span></li>
+        <li><b>2</b><span><strong>Lengua inglesa</strong> · test de nivel, se prepara en paralelo</span></li>
+        <li><b>3</b><span><strong>Psicotécnicos y personalidad</strong> · verbal, numérica, espacial y razonamiento</span></li>
+        <li><b>4</b><span><strong>Pruebas físicas</strong> · marcas exigidas desde el primer intento</span></li>
+        <li><b>5</b><span><strong>Entrevista y reconocimiento médico</strong></span></li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="curso">
+    <div class="img" style="background-image:url('../../public/cursos/colegio-guardias-jovenes.jpg')"><span>Colegio Duque de Ahumada</span></div>
+    <div class="txt">
+      <h3>Acceso al Colegio de Guardias Jóvenes</h3>
+      <p class="resumen">La entrada más temprana: con la ESO, se cursa Bachillerato en el Colegio Duque de Ahumada (Valdemoro) y desde ahí se accede después a la Escala de Cabos y Guardias.</p>
+      <div class="destacados">
+        <div><b>ESO</b><span>titulación de partida</span></div>
+        <div><b>10</b><span>temas de conocimientos</span></div>
+        <div><b>4</b><span>fases eliminatorias</span></div>
+      </div>
+      <ul class="pruebas">
+        <li><b>1</b><span><strong>Conocimientos</strong> · 80 preguntas de los temas 1 a 10 + 10 de ortografía y gramática</span></li>
+        <li><b>2</b><span><strong>Lengua inglesa</strong> · 20 preguntas sobre un texto, nivel ESO (todo en 120 min)</span></li>
+        <li><b>3</b><span><strong>Psicotécnicos y personalidad</strong></span></li>
+        <li><b>4</b><span><strong>Pruebas físicas y reconocimiento médico</strong></span></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer class="pie"><img src="../../public/brand/prolince-logo-horizontal.svg" alt=""><span>Requisitos, edades y plazas: consulta siempre la convocatoria vigente en el BOE.</span><span>3</span></footer>
+</section>
+
+<!-- 4 · Plataforma -->
+<section class="pagina">
+  <div class="cabecera">
+    <p class="eyebrow">La plataforma</p>
+    <h2>Tu preparación entera, en una pantalla</h2>
+    <p class="entradilla">Entras con tu usuario en acceso.prolinceacademia.com desde el ordenador o el móvil. Esto es lo que vas a encontrar dentro.</p>
+  </div>
+  <div class="rejilla">
+    <div class="item"><span class="icono"><svg><use href="#i-libro"/></svg></span><div><h3>Todo el temario, ordenado</h3><p>Temario en PDF con esquemas de cada tema, en versión web y móvil, dentro de un visor protegido que recuerda dónde lo dejaste.</p></div></div>
+    <div class="item"><span class="icono"><svg><use href="#i-lista"/></svg></span><div><h3>Tests por tema y a tu medida</h3><p>Tests por tema y tests personalizados de hasta 20 preguntas del tema o los subtemas que elijas, con la explicación de cada respuesta.</p></div></div>
+    <div class="item"><span class="icono"><svg><use href="#i-reloj"/></svg></span><div><h3>Simulacros oficiales y propios</h3><p>Exámenes oficiales y simulacros exclusivos de ProLince con el mismo formato. Cronometrados y con entrega única, igual que el día de la prueba.</p></div></div>
+    <div class="item"><span class="icono"><svg><use href="#i-repaso"/></svg></span><div><h3>Repasa tus errores</h3><p>Cada pregunta que fallas entra en una cola de repaso y vuelve hasta que la aciertas.</p></div></div>
+    <div class="item"><span class="icono"><svg><use href="#i-grafica"/></svg></span><div><h3>Estadísticas de verdad</h3><p>Rendimiento por tema, ritmo de estudio y tu evolución comparada con la media del grupo. Datos, no sensaciones.</p></div></div>
+    <div class="item"><span class="icono"><svg><use href="#i-trofeo"/></svg></span><div><h3>Ranking privado</h3><p>Tu posición frente al resto de alumnos del mismo simulacro, solo dentro del curso y con iniciales.</p></div></div>
+    <div class="item"><span class="icono"><svg><use href="#i-movil"/></svg></span><div><h3>Inglés, ortografía y gramática</h3><p>Esquemas y tests por materia para las partes que más gente descuida hasta que las suspende.</p></div></div>
+    <div class="item"><span class="icono"><svg><use href="#i-megafono"/></svg></span><div><h3>Avisos de convocatoria</h3><p>Cuando se publica algo que te afecta, te llega al tablón del curso y por correo. No tienes que estar mirando el BOE.</p></div></div>
+  </div>
+
+  <div class="franja">
+    <div>
+      <h3>¿Puedes con esto si trabajas?</h3>
+      <p>Sí. La mayoría de nuestros alumnos lo compagina con un trabajo o con el instituto. La clave es la regularidad, no las maratones del fin de semana.</p>
+    </div>
+    <ul>
+      <li><b>A cualquier hora:</b> todo está disponible siempre.</li>
+      <li><b>Sin clases a hora fija:</b> ideal si trabajas a turnos.</li>
+      <li><b>Progreso guardado:</b> retomas donde lo dejaste.</li>
+      <li><b>Sesiones cortas:</b> también desde el móvil.</li>
+    </ul>
+  </div>
+  <div class="seccion">
+    <p class="eyebrow" style="margin-bottom:3mm">Próximamente: nuevos cursos</p>
+    <div class="proximos">
+      <div class="proximo"><p class="eyebrow">Especialidad</p><h3>Policía Judicial</h3><p>Para guardias civiles que quieren dar el salto a la especialidad.</p></div>
+      <div class="proximo"><p class="eyebrow">Promoción interna</p><h3>Ascenso a Cabo</h3><p>Para guardias civiles que preparan el ascenso al empleo de Cabo.</p></div>
+      <div class="proximo"><p class="eyebrow">Promoción interna</p><h3>Ascenso a Sargento</h3><p>Para cabos y guardias que preparan la Escala de Suboficiales.</p></div>
+    </div>
+  </div>
+  <footer class="pie"><img src="../../public/brand/prolince-logo-horizontal.svg" alt=""><span>Pack de bienvenida · Noviembre 2026</span><span>4</span></footer>
+</section>
+
+<!-- 5 · Packs -->
+<section class="pagina">
+  <div class="cabecera" style="margin-bottom:6mm">
+    <p class="eyebrow">Packs y precios</p>
+    <h2>Elige cómo quieres prepararte</h2>
+    <p class="entradilla">Los packs son por curso y se contratan dentro de la plataforma. Precios con IVA incluido.</p>
+  </div>
+
+  <div class="curso-packs">
+    <h3>Acceso a la Guardia Civil <small>Escala de Cabos y Guardias</small></h3>
+    <div class="packs">
+      <div class="pack">
+        <h4>Suscripción mensual de Tests</h4>
+        <p class="que">Para entrenar a diario con tests sin límite.</p>
+        <div class="precio"><b>9,95 €</b><span>/ mes</span></div>
+        <ul>
+          <li>Tests ilimitados personalizados por tema y por materia, aleatorios y predeterminados con ranking</li>
+          <li>Tests de repaso de las preguntas falladas</li>
+          <li>Todos los exámenes de años anteriores (2017 a 2026), incluidos</li>
+          <li>Esquemas por tema y de ortografía, gramática e inglés</li>
+        </ul>
+        <span class="prueba">7 días de prueba gratis</span>
+        <p class="no">No incluye temario ni simulacros exclusivos.</p>
+      </div>
+      <div class="pack">
+        <h4>Pack Especial Simulacros</h4>
+        <p class="que">Para llegar al examen con el formato bien entrenado.</p>
+        <div class="precio"><b>89,95 €</b><span>pago único</span></div>
+        <ul>
+          <li>Todos los exámenes de años anteriores (2017 a 2026)</li>
+          <li>25 simulacros exclusivos de conocimientos, ortografía, inglés y psicotécnicos (5 también en PDF)</li>
+          <li>Esquemas por tema y de ortografía, gramática e inglés</li>
+        </ul>
+        <p class="no">No incluye temario.</p>
+      </div>
+      <div class="pack top">
+        <span class="sello">El más completo</span>
+        <h4>Pack Ahorro</h4>
+        <p class="que">Un año de tests, el temario digital y más de 50 simulacros.</p>
+        <div class="precio"><b>179 €</b><span>pago único</span></div>
+        <ul>
+          <li>12 mensualidades de la Suscripción de Tests</li>
+          <li>Tests de repaso de las preguntas falladas</li>
+          <li>Temario digital, en la web y en el móvil</li>
+          <li>Todos los exámenes de años anteriores (2017 a 2026)</li>
+          <li>Más de 50 simulacros exclusivos de conocimientos, ortografía, inglés y psicotécnicos</li>
+          <li>Esquemas por tema y de ortografía, gramática e inglés</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="curso-packs">
+    <h3>Colegio de Guardias Jóvenes <small>Duque de Ahumada</small></h3>
+    <div class="packs">
+      <div class="pack">
+        <h4>Suscripción mensual de Tests</h4>
+        <p class="que">Para entrenar a diario con tests sin límite.</p>
+        <div class="precio"><b>8,95 €</b><span>/ mes</span></div>
+        <ul>
+          <li>Tests ilimitados personalizados por tema y por materia, aleatorios y predeterminados con ranking</li>
+          <li>Tests de repaso de las preguntas falladas</li>
+          <li>Todos los exámenes de años anteriores (2024 a 2026), incluidos</li>
+          <li>Esquemas por tema y de ortografía, gramática e inglés</li>
+        </ul>
+        <span class="prueba">7 días de prueba gratis</span>
+        <p class="no">No incluye temario ni simulacros exclusivos.</p>
+      </div>
+      <div class="pack">
+        <h4>Pack Especial Simulacros</h4>
+        <p class="que">Para llegar al examen con el formato bien entrenado.</p>
+        <div class="precio"><b>59,95 €</b><span>pago único</span></div>
+        <ul>
+          <li>Todos los exámenes de años anteriores (2024 a 2026)</li>
+          <li>15 simulacros exclusivos de conocimientos, ortografía, inglés y psicotécnicos (5 también en PDF)</li>
+          <li>Esquemas por tema y de ortografía, gramática e inglés</li>
+        </ul>
+        <p class="no">No incluye temario.</p>
+      </div>
+      <div class="pack top">
+        <span class="sello">El más completo</span>
+        <h4>Pack Ahorro</h4>
+        <p class="que">Un año de tests, el temario digital y más de 30 simulacros.</p>
+        <div class="precio"><b>109,95 €</b><span>pago único</span></div>
+        <ul>
+          <li>12 mensualidades de la Suscripción de Tests</li>
+          <li>Tests de repaso de las preguntas falladas</li>
+          <li>Temario digital, en la web y en el móvil</li>
+          <li>Todos los exámenes de años anteriores (2024 a 2026)</li>
+          <li>Más de 30 simulacros exclusivos de conocimientos, ortografía, inglés y psicotécnicos</li>
+          <li>Esquemas por tema y de ortografía, gramática e inglés</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <p class="condiciones">La suscripción mensual se renueva cada mes y puedes darla de baja cuando quieras; el resto de packs se paga una sola vez. El pago se procesa con Stripe: nunca pedimos datos de tarjeta fuera de la plataforma.</p>
+  <footer class="pie"><img src="../../public/brand/prolince-logo-horizontal.svg" alt=""><span>Precios vigentes en noviembre de 2026 · IVA incluido</span><span>5</span></footer>
+</section>
+
+<!-- 6 · Temarios -->
+<section class="pagina">
+  <div class="cabecera">
+    <p class="eyebrow">Temarios en papel</p>
+    <h2>Temario actualizado a 2027, en tu casa en 48 horas</h2>
+    <p class="entradilla">Para quien prefiere estudiar con el libro en la mano. Dos modalidades por curso: el pack completo o el libro resumen.</p>
+  </div>
+
+  <div class="temarios">
+    <div class="temario">
+      <h3>Acceso a la Guardia Civil</h3>
+      <div class="modalidad">
+        <img src="../../public/temarios/miniaturas/gc-libro-completo.webp" alt="">
+        <div>
+          <h4>Pack completo</h4>
+          <div class="precio"><b>189,95 €</b></div>
+          <ul>
+            <li>Libro completo: los 23 temas de conocimientos</li>
+            <li>Libro de inglés</li>
+            <li>Libro de ortografía y gramática</li>
+            <li>Versiones actualizadas en PDF gratis</li>
+          </ul>
+        </div>
+      </div>
+      <div class="modalidad">
+        <img src="../../public/temarios/miniaturas/gc-libro-resumen.webp" alt="">
+        <div>
+          <h4>Libro resumen</h4>
+          <div class="precio"><b>69,95 €</b></div>
+          <ul>
+            <li>El temario condensado en un solo libro, para repasar lo esencial de cada tema</li>
+            <li>Versiones actualizadas en PDF gratis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="temario">
+      <h3>Colegio de Guardias Jóvenes</h3>
+      <div class="modalidad">
+        <img src="../../public/temarios/miniaturas/cgj-libro-completo.webp" alt="">
+        <div>
+          <h4>Pack completo</h4>
+          <div class="precio"><b>119,95 €</b></div>
+          <ul>
+            <li>Libro completo: los 10 temas de conocimientos</li>
+            <li>Libro de inglés</li>
+            <li>Libro de ortografía y gramática</li>
+            <li>Versiones actualizadas en PDF gratis</li>
+          </ul>
+        </div>
+      </div>
+      <div class="modalidad">
+        <img src="../../public/temarios/miniaturas/cgj-libro-resumen.webp" alt="">
+        <div>
+          <h4>Libro resumen</h4>
+          <div class="precio"><b>59,95 €</b></div>
+          <ul>
+            <li>El temario del Colegio condensado en un solo libro, para repasar lo esencial</li>
+            <li>Versiones actualizadas en PDF gratis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="aldia">
+    <span class="icono"><svg><use href="#i-actualizar"/></svg></span>
+    <div>
+      <h3>Siempre al día</h3>
+      <p>Nuestros temarios están 100 % actualizados y adaptados a las últimas convocatorias. Además, con la compra del temario tienes todas sus versiones actualizadas en PDF sin coste adicional: reclámalas cuando salgan, por WhatsApp o email, mientras sigas opositando.</p>
+    </div>
+  </div>
+  <p class="envio">Envío en 48 horas a toda España (8 € de gastos de envío, IVA incluido). Pago seguro con Stripe y factura. Lo compras en prolinceacademia.com/temarios.</p>
+  <footer class="pie"><img src="../../public/brand/prolince-logo-horizontal.svg" alt=""><span>Precios vigentes en noviembre de 2026 · IVA incluido</span><span>6</span></footer>
+</section>
+
+<!-- 7 · Cómo empezar y contacto -->
+<section class="pagina">
+  <div class="cabecera">
+    <p class="eyebrow">Cómo empezar</p>
+    <h2>Tus primeros pasos</h2>
+  </div>
+  <div class="pasos">
+    <div class="paso"><div><h3>Crea tu cuenta</h3><p>Regístrate en acceso.prolinceacademia.com/academiaprolince/registro y elige tu curso: Guardia Civil o Guardias Jóvenes.</p></div></div>
+    <div class="paso"><div><h3>Prueba 7 días gratis</h3><p>Tienes 7 días de la suscripción de tests de tu curso sin pagar nada: tests ilimitados, esquemas, ortografía, gramática e inglés. Si no sigues, no pagas.</p></div></div>
+    <div class="paso"><div><h3>Elige tu pack</h3><p>Suscripción mensual para entrenar a diario, Pack Especial Simulacros para dominar el formato, o Pack Ahorro para tenerlo todo un año.</p></div></div>
+    <div class="paso"><div><h3>Haz tu primer simulacro</h3><p>Con el reloj en marcha y sin mirar apuntes. Te dirá desde dónde partes y qué bloques necesitan más horas.</p></div></div>
+    <div class="paso"><div><h3>Constancia: un poco cada día</h3><p>Tests por tema, repaso de errores y un simulacro a la semana. Y las pruebas físicas desde el primer mes, no desde el último.</p></div></div>
+  </div>
+
+  <div class="seccion">
+    <p class="eyebrow">Recursos gratis en la web</p>
+    <div class="gratis">
+      <div><h3>Test gratis</h3><p>Sin registro, con preguntas del banco de la plataforma y solución explicada.</p><code>/test-guardia-civil · /test-guardias-jovenes</code></div>
+      <div><h3>Calculadora de nota</h3><p>Con la fórmula oficial de 2026: penalización por error, mínimos y concurso.</p><code>/calculadora-nota-guardia-civil</code></div>
+      <div><h3>Blog y temario</h3><p>Qué entra en cada tema, cómo se examina y noticias de convocatorias.</p><code>/blog · /temario-guardia-civil</code></div>
+    </div>
+  </div>
+
+  <div class="contacto">
+    <div>
+      <h3>¿Hablamos?</h3>
+      <p>Para cualquier duda sobre los cursos, los packs o tu preparación, escríbenos. Te responde el equipo de la academia.</p>
+      <img class="logo" src="../../public/brand/prolince-logo-horizontal-negativo.svg" alt="Academia ProLince">
+    </div>
+    <dl>
+      <dt>Web</dt><dd>prolinceacademia.com</dd>
+      <dt>WhatsApp</dt><dd>+34 695 83 40 18</dd>
+      <dt>Email</dt><dd>academialince0@gmail.com</dd>
+      <dt>Instagram</dt><dd>@academiaprolince</dd>
+      <dt>TikTok</dt><dd>@academia.prolince</dd>
+      <dt>X</dt><dd>@aprolince</dd>
+      <dt>Telegram</dt><dd>t.me/academiaprolince</dd>
+    </dl>
+  </div>
+  <p class="aviso">Información vigente en noviembre de 2026. Precios con IVA incluido. Los requisitos, edades, plazas y fechas de cada proceso selectivo los fija la convocatoria publicada en el BOE, que es la que manda.</p>
+  <footer class="pie"><img src="../../public/brand/prolince-logo-horizontal.svg" alt=""><span>¡Mucho ánimo con la preparación!</span><span>7</span></footer>
+</section>
+
+</body>
+</html>
