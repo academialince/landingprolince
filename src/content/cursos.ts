@@ -212,9 +212,9 @@ export const cursos: Curso[] = [
       descripcion:
         "Prepara el acceso al Colegio de Guardias Jóvenes Duque de Ahumada online: temario completo, tests por tema, repaso de errores y estadísticas por tema.",
     },
-    imagen: "/cursos/colegio-guardias-jovenes.jpg",
+    imagen: "/cursos/colegio-guardias-jovenes-entrada.jpg",
     imagenAlt:
-      "Grupo de estudiantes jóvenes preparando la oposición con una profesora, junto a una pista de atletismo",
+      "Entrada del Colegio de Guardias Jóvenes «Duque de Ahumada», en Valdemoro, con el lema «Todo por la Patria»",
     destacados: [
       { valor: "12", etiqueta: "temas reducidos" },
       { valor: "Valdemoro", etiqueta: "sede del Colegio" },
