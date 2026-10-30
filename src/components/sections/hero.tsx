@@ -3,7 +3,8 @@ import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
 import { HeroExperience } from "@/components/home/hero-experience";
 import { MarcoTactico } from "@/components/ui/marco-tactico";
-import { destinoEmpezar, rutas } from "@/lib/links";
+import { destinoEmpezar } from "@/lib/links";
+import { cursos } from "@/content/cursos";
 
 const hechos = ["Acceso a la Guardia Civil", "Colegio de Guardias Jóvenes", "100 % online", "7 días gratis"];
 
@@ -53,10 +54,12 @@ export function Hero() {
               <Button href="#cursos" variante="secundario" tamano="lg">
                 Ver los cursos
               </Button>
-              <Button href={rutas.ultimaConvocatoria} variante="secundario" tamano="lg">
-                <FileText size={18} aria-hidden />
-                Última convocatoria
-              </Button>
+              {cursos.filter((c) => c.guiaConvocatoria).map((c) => (
+                <Button key={c.slug} href={c.guiaConvocatoria} variante="secundario" tamano="lg">
+                  <FileText size={18} aria-hidden />
+                  Última convocatoria · {c.nombreCorto}
+                </Button>
+              ))}
             </div>
 
             <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-2 font-[family-name:var(--font-hud)] text-[0.72rem] font-bold uppercase tracking-[0.12em] text-muted-foreground">

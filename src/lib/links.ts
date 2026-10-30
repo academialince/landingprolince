@@ -62,8 +62,6 @@ export const rutas = {
   /** La sección «Packs» (antes «Tienda»): los packs de cada curso con sus precios. */
   tienda: "/packs",
   calculadora: "/calculadora-nota-guardia-civil",
-  /** La guía de la última convocatoria (plazas, requisitos, pruebas y baremo), en PDF. */
-  ultimaConvocatoria: "/convocatoria/ultima-convocatoria-guardia-civil.pdf",
   /** Test gratis de cada curso. */
   test: (slug: string) =>
     ({ "acceso-guardia-civil": "/test-guardia-civil", "colegio-guardias-jovenes": "/test-guardias-jovenes" })[slug],

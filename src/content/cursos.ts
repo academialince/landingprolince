@@ -41,6 +41,8 @@ export type Curso = {
   incluye: { icono: string; titulo: string; detalle: string }[];
   faq: { pregunta: string; respuesta: string }[];
   convocatoria: Convocatoria | null;
+  /** Guía en PDF de la última convocatoria (plazas, requisitos, pruebas y baremo), en `public/`. Sale en el inicio y en la cabecera del curso. */
+  guiaConvocatoria?: string;
 };
 
 const seccionesComunes: Seccion[] = [
@@ -76,6 +78,7 @@ export const cursos: Curso[] = [
     ],
     secciones: seccionesComunes,
     convocatoria: null,
+    guiaConvocatoria: "/convocatoria/ultima-convocatoria-guardia-civil.pdf",
     paraQuien: {
       titulo: "Para quién es este curso",
       texto:

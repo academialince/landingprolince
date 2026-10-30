@@ -98,6 +98,12 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
                     Ver precio
                   </Button>
                 )}
+                {curso.guiaConvocatoria && (
+                  <Button href={curso.guiaConvocatoria} variante="secundario" tamano="lg">
+                    <FileText size={18} aria-hidden />
+                    Última convocatoria
+                  </Button>
+                )}
               </div>
 
               <dl className="mt-10 flex flex-wrap gap-x-10 gap-y-4">
