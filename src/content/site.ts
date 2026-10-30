@@ -15,7 +15,7 @@ export const site = {
     "Academia online para preparar el acceso a la Guardia Civil: temario, tests, simulacros cronometrados y seguimiento de tu progreso.",
 
   contacto: {
-    email: "academialince0@gmail.com" as string | null,
+    email: "hola@prolinceacademia.com" as string | null,
     telefono: null as string | null, // PENDIENTE: teléfono público
     /** Formato internacional y sin signos, como lo pide wa.me. */
     whatsapp: "34661055655" as string | null,
