@@ -82,7 +82,7 @@ export const cursos: Curso[] = [
     paraQuien: {
       titulo: "Para quién es este curso",
       texto:
-        "Para quien tiene el Bachiller o un equivalente y quiere entrar en la Guardia Civil por la vía ordinaria. La mayoría de nuestros alumnos lo compagina con un trabajo.",
+        "Para quien tiene la ESO o una titulación superior y quiere entrar en la Guardia Civil por la vía ordinaria. Si tienes el Bachillerato, además te suma puntos en el baremo. La mayoría de nuestros alumnos lo compagina con un trabajo.",
       puntos: [
         "Empiezas de cero y no sabes por dónde entrar al temario",
         "Ya te has presentado y quieres corregir lo que falló",
@@ -104,7 +104,7 @@ export const cursos: Curso[] = [
       lista: [
         "Tener la nacionalidad española",
         "Tener cumplidos 18 años y no superar la edad máxima que fije la convocatoria",
-        "Estar en posesión del título de Bachiller o equivalente",
+        "Tener el Graduado en ESO o una titulación que dé acceso a FP de Grado Medio (el Bachillerato no es requisito, pero suma puntos en el baremo)",
         "Carecer de antecedentes penales",
         "No estar privado de los derechos civiles",
         "Estar en posesión del permiso de conducción de la clase B",

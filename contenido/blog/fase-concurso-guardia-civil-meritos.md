@@ -30,7 +30,7 @@ El baremo se organiza en tres grupos, cada uno con su tope:
 
 Dentro de cada grupo, cada mérito tiene su valoración concreta y su propio límite. Algunos ejemplos de la convocatoria vigente, para que te hagas una idea del orden de magnitud:
 
-- El **Bachiller** puntúa en el grupo académico, y las titulaciones superiores puntúan más.
+- El **Bachiller** puntúa 2 puntos en el grupo académico. Una titulación superior (FP de Grado Superior, Grado, Máster) da los mismos 2 puntos: solo se valora una y no suma más por ser más alta.
 - Los **idiomas** pueden llegar a sumar hasta 9 puntos dentro del grupo académico. Es, con diferencia, la partida más accesible para alguien que empieza de cero.
 - El **tiempo de servicio** como militar profesional puntúa por año dentro del grupo de méritos profesionales.
 - Los **permisos de conducción** suman hasta 3 puntos en el grupo de «otros méritos».
