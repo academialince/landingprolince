@@ -177,22 +177,22 @@ export const cursos: Curso[] = [
       {
         pregunta: "¿Cuánto se tarda en preparar esta oposición?",
         respuesta:
-          "Con 25 a 40 horas semanales, lo habitual es dedicarle una convocatoria completa: unos meses para dar una primera vuelta al temario de 23 temas, y el resto para repasar, hacer simulacros y entrenar las pruebas físicas. Quien parte de una base previa o puede dedicarle más horas acorta ese plazo, pero prometerte un tiempo cerrado sería engañarte: depende de tu punto de partida y de la regularidad.",
+          "Con 25 a 40 horas semanales, lo habitual es dedicarle una convocatoria completa: unos meses para dar una primera vuelta al temario de 23 temas, y el resto para repasar, hacer simulacros y entrenar las pruebas físicas. Quien parte de una base previa o puede dedicarle más horas acorta ese plazo, pero prometerte un tiempo cerrado sería engañarte: depende de tu punto de partida y de tu regularidad. Lo que sí podemos decirte es en qué orden estudiar, para que desde el primer día lo que llevas sea lo que más puntos da en el examen.",
       },
       {
         pregunta: "¿Puedo prepararla si trabajo a turnos?",
         respuesta:
-          "Sí, y es el caso de buena parte de nuestros alumnos. No hay clases en directo a hora fija: el temario, los tests y los simulacros están disponibles siempre y el progreso se guarda lección a lección.",
+          "Sí, y es el caso de buena parte de nuestros alumnos. No hay clases en directo a hora fija: el temario, los test y los simulacros están disponibles siempre, desde el móvil o el ordenador, y tu progreso se guarda lección a lección. Con un horario que cambia cada semana, lo que funciona es tener bloques cortos y constantes, y eso es justo lo que permiten los test ilimitados por tema y por materia.",
       },
       {
         pregunta: "¿Cómo se preparan las pruebas físicas?",
         respuesta:
-          "Con una guía de las marcas exigidas y un plan de entrenamiento en sesiones semanales desde el primer mes. Quien deja lo físico para el final suele llegar justo.",
+          "Con una guía de las marcas exigidas y un plan de entrenamiento en sesiones semanales desde el primer mes. Carrera, extensiones de brazos, natación y circuito de coordinación se entrenan de forma específica: ir al gimnasio es una buena base, pero no basta. Quien deja lo físico para el final suele llegar justo.",
       },
       {
         pregunta: "¿Qué pasa si no apruebo a la primera?",
         respuesta:
-          "Es lo más frecuente y no significa empezar de cero. Tu progreso, tus resultados y el histórico de simulacros siguen ahí, así que la siguiente preparación arranca sabiendo qué bloques te costaron.",
+          "Les pasa a muchos opositores y no significa empezar de cero. Tu progreso, tus resultados y el histórico de simulacros siguen ahí, así que la siguiente preparación arranca sabiendo qué bloques te costaron y qué preguntas sigues fallando. Además, haber vivido un examen real te da algo que no da ningún libro, y la segunda vuelta al temario es la que sube la nota.",
       },
     ],
   },
