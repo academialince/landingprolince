@@ -70,6 +70,31 @@ export const equipo: Miembro[] = [
   },
 ];
 
+/** El esquema de «Nuestros docentes», encima del Equipo docente en Nosotros. */
+export const docentes = {
+  eyebrow: "Nuestros docentes",
+  titulo: "Te prepara gente de dentro",
+  entradilla:
+    "Detrás de cada tema, cada test y cada simulacro hay guardias civiles que conocen el proceso selectivo porque lo han pasado.",
+  columnas: [
+    {
+      icono: "ShieldCheck",
+      texto:
+        "El temario y las preguntas los preparan y revisan cabos y guardias civiles, con la experiencia de haber superado el proceso de ingreso y de conocer el Cuerpo desde dentro.",
+    },
+    {
+      icono: "BookOpen",
+      texto:
+        "Cada docente se ocupa de la parte que mejor conoce: el temario jurídico, los psicotécnicos, la ortografía y el inglés, y la preparación física.",
+    },
+    {
+      icono: "LineChart",
+      texto:
+        "La plataforma es nuestra: los tests, los simulacros y las estadísticas están hechos para esta oposición y se mejoran con lo que vemos en los resultados de los alumnos.",
+    },
+  ],
+};
+
 export const historia = {
   titulo: "Una academia hecha por gente que ha pasado por esto",
   entradilla:

@@ -4,7 +4,7 @@ import { Section } from "@/components/layout/section";
 import { Reveal } from "@/components/layout/reveal";
 import { Icono } from "@/components/ui/icon";
 import { CtaFinal } from "@/components/sections/cta-final";
-import { compromisos, equipo, historia, principios } from "@/content/equipo";
+import { compromisos, docentes, equipo, historia, principios } from "@/content/equipo";
 import { notFound } from "next/navigation";
 import { nosotrosVisible, rutas } from "@/lib/links";
 import { metadataPagina, JsonLd, migasJsonLd } from "@/lib/seo";
@@ -21,6 +21,21 @@ export default function Nosotros() {
   return (
     <>
       <PageHero eyebrow="Nosotros" titulo={historia.titulo} entradilla={historia.entradilla} />
+
+      <Section eyebrow={docentes.eyebrow} titulo={docentes.titulo} entradilla={docentes.entradilla}>
+        <ul className="grid gap-10 rounded-2xl border border-border bg-surface px-6 py-10 md:grid-cols-3 md:px-10">
+          {docentes.columnas.map((c, i) => (
+            <Reveal key={c.icono} retardo={i * 70}>
+              <li className="flex flex-col items-center text-center">
+                <span className="inline-flex size-14 items-center justify-center rounded-full bg-primary-soft text-primary-soft-fg">
+                  <Icono nombre={c.icono} size={26} />
+                </span>
+                <p className="mt-5 leading-[1.7] text-muted-foreground">{c.texto}</p>
+              </li>
+            </Reveal>
+          ))}
+        </ul>
+      </Section>
 
       <Section eyebrow="El equipo" titulo="Equipo docente">
         <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

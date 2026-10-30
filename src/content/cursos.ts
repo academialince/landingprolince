@@ -59,7 +59,7 @@ export const cursos: Curso[] = [
     nombre: "Acceso a la Guardia Civil",
     nombreCorto: "Guardia Civil",
     eyebrow: "Escala de Cabos y Guardias",
-    titular: "Curso Ingreso Guardia Civil 26/27 · 133ª",
+    titular: "Curso Ingreso Guardia Civil 26/27 · 133ª Promoción",
     entradilla:
       "Una oposición larga que se gana con constancia. Practica cada día con test ilimitados, mide tu nivel en más de 50 simulacros y entrena el cuerpo desde el primer mes. Llega al examen sabiendo lo que te van a preguntar.",
     seo: {
@@ -201,7 +201,7 @@ export const cursos: Curso[] = [
     nombre: "Acceso al Colegio de Guardias Jóvenes",
     nombreCorto: "Guardias Jóvenes",
     eyebrow: "Colegio Duque de Ahumada",
-    titular: "Curso Guardias Jóvenes 26/27 · 175ª",
+    titular: "Curso Guardias Jóvenes 26/27 · 175ª Promoción",
     entradilla:
       "«Para premiar en los hijos las virtudes de los padres». Es el lema del Colegio Duque de Ahumada, en Valdemoro, y lo dice todo. Es la entrada más temprana a la Guardia Civil, y desde ahí se accede después a la Escala de Cabos y Guardias. Una plaza así no se improvisa: se prepara con tiempo, con constancia y con un método que te guíe. En ProLince te preparamos para que el esfuerzo de toda una familia tenga su recompensa.",
     seo: {
