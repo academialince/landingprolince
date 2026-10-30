@@ -123,9 +123,8 @@ export const compaginar = {
   puntos: [
     {
       icono: "Clock",
-      titulo: "Entre 12 y 15 horas a la semana",
-      detalle:
-        "Es el rango con el que trabajan nuestros planes. Menos de diez hace que la preparación se alargue más de lo que suele aguantar la motivación.",
+      titulo: "Entre 25 y 40 horas a la semana",
+      detalle: "Es el rango con el que trabajan nuestros planes.",
     },
     {
       icono: "Moon",

@@ -18,7 +18,7 @@ export const site = {
     email: "academialince0@gmail.com" as string | null,
     telefono: null as string | null, // PENDIENTE: teléfono público
     /** Formato internacional y sin signos, como lo pide wa.me. */
-    whatsapp: "34695834018" as string | null,
+    whatsapp: "34661055655" as string | null,
     /** Texto con el que se abre la conversación desde el botón flotante y el pie. */
     mensajeWhatsapp: "Hola, quería más información de Academia Prolince.",
   },

@@ -23,7 +23,7 @@ export function CursosHome() {
     <Section
       id="cursos"
       eyebrow="Cursos"
-      titulo="Dos formas de entrar en la Guardia Civil"
+      titulo="Dos formas de acceder a la Guardia Civil"
       entradilla="Elige la que te corresponde por edad y titulación. Cada una tiene su propio temario, sus pruebas y su calendario."
     >
       <ul className="grid gap-6 lg:grid-cols-2">
@@ -50,7 +50,7 @@ export function CursosHome() {
                 </div>
 
                 <div className="flex grow flex-col p-7">
-                  <h3 className="text-h2">{curso.nombre}</h3>
+                  <h3 className="text-h2">{curso.titular}</h3>
                   <p className="mt-3 grow text-muted-foreground">{curso.entradilla}</p>
 
                   <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-3 border-t border-border pt-5">

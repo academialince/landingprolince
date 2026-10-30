@@ -8,6 +8,8 @@
 export type Miembro = {
   slug: string;
   nombre: string;
+  /** Empleo en el Cuerpo, o «Técnico». Va delante del nombre en «Equipo docente». */
+  rango: string;
   cargo: string;
   foto: string;
   bio: string[];
@@ -21,6 +23,7 @@ export const equipo: Miembro[] = [
   {
     slug: "juan",
     nombre: "Juan",
+    rango: "Cabo",
     cargo: "Dirección y preparación de Ciencias Jurídicas",
     foto: "/equipo/juan.jpg",
     bio: [
@@ -30,19 +33,9 @@ export const equipo: Miembro[] = [
     foco: ["Constitución y derecho penal", "Estructura del temario", "Actualización normativa"],
   },
   {
-    slug: "juan-carlos",
-    nombre: "Juan Carlos",
-    cargo: "Psicotécnicos, ortografía e inglés",
-    foto: "/equipo/juan-carlos.jpg",
-    bio: [
-      "Se ocupa de las tres partes que la gente descuida hasta que las suspende. Diseña las baterías de psicotécnicos y las tandas de ortografía que llevan el sello de la casa.",
-      "Defiende que el psicotécnico no se estudia, se entrena, y que quince minutos diarios rinden más que una tarde entera el fin de semana.",
-    ],
-    foco: ["Aptitud verbal y numérica", "Ortografía aplicada", "Inglés de la prueba"],
-  },
-  {
     slug: "hector",
     nombre: "Héctor",
+    rango: "Cabo",
     cargo: "Preparación física",
     foto: "/equipo/hector.jpg",
     bio: [
@@ -52,8 +45,21 @@ export const equipo: Miembro[] = [
     foco: ["Planes por nivel", "Marcas por categoría", "Prevención de lesiones"],
   },
   {
+    slug: "juan-carlos",
+    nombre: "Juan Carlos",
+    rango: "Guardia Civil",
+    cargo: "Psicotécnicos, ortografía e inglés",
+    foto: "/equipo/juan-carlos.jpg",
+    bio: [
+      "Se ocupa de las tres partes que la gente descuida hasta que las suspende. Diseña las baterías de psicotécnicos y las tandas de ortografía que llevan el sello de la casa.",
+      "Defiende que el psicotécnico no se estudia, se entrena, y que quince minutos diarios rinden más que una tarde entera el fin de semana.",
+    ],
+    foco: ["Aptitud verbal y numérica", "Ortografía aplicada", "Inglés de la prueba"],
+  },
+  {
     slug: "marcos",
     nombre: "Marcos",
+    rango: "Técnico",
     cargo: "Plataforma y producto",
     foto: "/equipo/marcos.jpg",
     bio: [

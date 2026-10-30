@@ -59,9 +59,9 @@ export const cursos: Curso[] = [
     nombre: "Acceso a la Guardia Civil",
     nombreCorto: "Guardia Civil",
     eyebrow: "Escala de Cabos y Guardias",
-    titular: "Acceso a la Guardia Civil",
+    titular: "Curso Ingreso Guardia Civil 26/27 · 133ª",
     entradilla:
-      "La vía de entrada al Cuerpo. Una oposición larga, con una parte teórica exigente y unas pruebas físicas que hay que empezar a trabajar desde el primer mes, no desde el último.",
+      "Una oposición larga que se gana con constancia. Practica cada día con test ilimitados, mide tu nivel en más de 50 simulacros y entrena el cuerpo desde el primer mes. Llega al examen sabiendo lo que te van a preguntar.",
     seo: {
       titulo: "Curso de oposiciones a Guardia Civil online",
       descripcion:
@@ -72,7 +72,7 @@ export const cursos: Curso[] = [
     destacados: [
       { valor: "23", etiqueta: "temas del programa oficial" },
       { valor: "5", etiqueta: "fases eliminatorias" },
-      { valor: "12-15 h", etiqueta: "de estudio a la semana" },
+      { valor: "25-40 h", etiqueta: "de estudio a la semana" },
     ],
     secciones: seccionesComunes,
     convocatoria: null,
@@ -177,7 +177,7 @@ export const cursos: Curso[] = [
       {
         pregunta: "¿Cuánto se tarda en preparar esta oposición?",
         respuesta:
-          "Con 12 a 15 horas semanales, lo habitual es una convocatoria completa. Quien parte de una base previa o puede dedicarle más horas acorta ese plazo, pero prometerte un tiempo cerrado sería engañarte: depende de tu punto de partida y de la regularidad.",
+          "Con 25 a 40 horas semanales, lo habitual es dedicarle una convocatoria completa: unos meses para dar una primera vuelta al temario de 23 temas, y el resto para repasar, hacer simulacros y entrenar las pruebas físicas. Quien parte de una base previa o puede dedicarle más horas acorta ese plazo, pero prometerte un tiempo cerrado sería engañarte: depende de tu punto de partida y de la regularidad.",
       },
       {
         pregunta: "¿Puedo prepararla si trabajo a turnos?",
@@ -201,9 +201,9 @@ export const cursos: Curso[] = [
     nombre: "Acceso al Colegio de Guardias Jóvenes",
     nombreCorto: "Guardias Jóvenes",
     eyebrow: "Colegio Duque de Ahumada",
-    titular: "Acceso al Colegio de Guardias Jóvenes",
+    titular: "Curso Guardias Jóvenes 26/27 · 175ª",
     entradilla:
-      "La entrada más temprana a la Guardia Civil: se cursa Bachillerato en el Colegio Duque de Ahumada, en Valdemoro, y desde ahí se accede después a la Escala de Cabos y Guardias.",
+      "«Para premiar en los hijos las virtudes de los padres». Es el lema del Colegio Duque de Ahumada, en Valdemoro, y lo dice todo. Es la entrada más temprana a la Guardia Civil, y desde ahí se accede después a la Escala de Cabos y Guardias. Una plaza así no se improvisa: se prepara con tiempo, con constancia y con un método que te guíe. En ProLince te preparamos para que el esfuerzo de toda una familia tenga su recompensa.",
     seo: {
       titulo: "Curso Colegio de Guardias Jóvenes online",
       descripcion:
@@ -213,7 +213,7 @@ export const cursos: Curso[] = [
     imagenAlt:
       "Grupo de estudiantes jóvenes preparando la oposición con una profesora, junto a una pista de atletismo",
     destacados: [
-      { valor: "ESO", etiqueta: "titulación de partida" },
+      { valor: "12", etiqueta: "temas reducidos" },
       { valor: "Valdemoro", etiqueta: "sede del Colegio" },
       { valor: "4", etiqueta: "fases eliminatorias" },
     ],
@@ -222,9 +222,9 @@ export const cursos: Curso[] = [
     paraQuien: {
       titulo: "Para quién es este curso",
       texto:
-        "Para chicos y chicas que están terminando la ESO y tienen claro que quieren dedicarse a esto. Y para sus familias, que suelen ser quienes buscan la información.",
+        "Para chicos y chicas que están terminando la ESO o el Bachillerato y tienen claro que quieren dedicarse a esto. Y para sus familias, que suelen ser quienes buscan la información.",
       puntos: [
-        "Estás cursando o acabas de terminar la ESO",
+        "Estás cursando o acabas de terminar la ESO o Bachillerato",
         "Quieres entrar en la Guardia Civil por la vía más temprana",
         "Necesitas compaginar la preparación con el curso escolar",
         "Vas a presentarte por primera vez y no sabes qué se exige",

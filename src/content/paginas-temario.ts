@@ -98,7 +98,7 @@ export const paginasTemario: Record<string, PaginaTemario> = {
       {
         pregunta: "¿Cuántas horas hay que dedicarle?",
         respuesta:
-          "Depende de tu punto de partida, pero como referencia recomendamos entre 12 y 15 horas a la semana, combinando estudio de temas, tests y entrenamiento de las pruebas físicas desde el primer mes.",
+          "Depende de tu punto de partida, pero como referencia recomendamos entre 25 y 40 horas a la semana, combinando estudio de temas, tests y entrenamiento de las pruebas físicas desde el primer mes.",
       },
     ],
     revisado: "2026-10-24",
