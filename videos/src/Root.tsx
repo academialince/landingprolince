@@ -50,6 +50,20 @@ export const RemotionRoot: React.FC = () => {
           descripcion:
             "La plataforma para preparar Guardia Civil y Colegio de Guardias Jóvenes. Tests, simulacros y temario en un mismo sitio.",
           llamada: "Activa las notificaciones de la cuenta.",
+          etiquetaVentajas: "QUÉ TE ESPERA DENTRO",
+          tituloVentajas1: "TODO PARA",
+          tituloVentajas2: "TU PLAZA.",
+          ventajas: [
+            { icono: "infinito", texto: "Tests ilimitados" },
+            { icono: "repetir", texto: "Revisa y rehaz tests con tus errores" },
+            { icono: "historico", texto: "Simulacros desde 2017" },
+            { icono: "simulacro", texto: "Simulacros ProLince" },
+            { icono: "esquema", texto: "Esquemas de todos los temas" },
+            { icono: "temario", texto: "Temario ProLince" },
+          ],
+          novedades: "…y muchas novedades más por llegar",
+          despedida1: "TE",
+          despedida2: "ESPERAMOS",
           usuario: "@academiaprolince",
         }}
       />
