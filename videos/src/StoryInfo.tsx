@@ -9,7 +9,7 @@ import {
   useVideoConfig,
 } from "remotion";
 import { z } from "zod";
-import { C, Emblema, EscenaFondo, fontFamily } from "./marca";
+import { C, Emblema, EscenaFondoOscura, O, fontFamily } from "./marca";
 
 export const storySchema = z.object({
   id: z.string(),
@@ -31,9 +31,10 @@ export const storySchema = z.object({
 export type Story = z.infer<typeof storySchema>;
 
 const TIPOS = {
-  dato: { etiqueta: "Dato del temario", Icono: BookOpen, acento: C.primario, fondoAcento: C.suave, cierre: "Guárdala para tu repaso" },
-  consejo: { etiqueta: "Consejo de estudio", Icono: Lightbulb, acento: C.primario, fondoAcento: C.suave, cierre: "¿Lo aplicas desde hoy?" },
-  trampa: { etiqueta: "Ojo con la trampa", Icono: TriangleAlert, acento: "#9a3412", fondoAcento: "#ffedd5", cierre: "Que no te la cuelen en el examen" },
+  dato: { etiqueta: "Dato del temario", Icono: BookOpen, acento: O.acento, fondoAcento: "#439b6440", cierre: "Guárdala para tu repaso" },
+  consejo: { etiqueta: "Consejo de estudio", Icono: Lightbulb, acento: O.acento, fondoAcento: "#439b6440", cierre: "¿Lo aplicas desde hoy?" },
+  // Ámbar claro (el --color-warning de la web, aclarado para fondo oscuro).
+  trampa: { etiqueta: "Ojo con la trampa", Icono: TriangleAlert, acento: "#f3c46b", fondoAcento: "#f3c46b2e", cierre: "Que no te la cuelen en el examen" },
 } as const;
 
 // Instagram tapa unos 250 px arriba (barra de progreso y perfil) y unos 340 abajo (respuesta y
@@ -128,8 +129,8 @@ export const StoryInfo: React.FC<Story> = (story) => {
   const letraPunto = puntos.length > 3 && destacado ? 42 : 48;
 
   return (
-    <AbsoluteFill style={{ backgroundColor: C.fondo, fontFamily, color: C.texto }}>
-      <EscenaFondo frame={frame} fps={fps} />
+    <AbsoluteFill style={{ fontFamily, color: O.texto }}>
+      <EscenaFondoOscura frame={frame} fps={fps} />
 
       <div
         style={{
@@ -188,7 +189,7 @@ export const StoryInfo: React.FC<Story> = (story) => {
               marginTop: 22,
               fontSize: 30,
               fontWeight: 700,
-              color: C.apagadoTexto,
+              color: O.textoApagado,
               opacity: entrada(f(0.35)),
             }}
           >
@@ -245,7 +246,7 @@ export const StoryInfo: React.FC<Story> = (story) => {
             >
               {valorDestacado}
             </span>
-            <span style={{ fontSize: 44, fontWeight: 700, color: C.apagadoTexto, lineHeight: 1.15 }}>
+            <span style={{ fontSize: 44, fontWeight: 700, color: O.textoSuave, lineHeight: 1.15 }}>
               {destacado.etiqueta}
             </span>
           </div>
@@ -266,9 +267,9 @@ export const StoryInfo: React.FC<Story> = (story) => {
                   gap: 26,
                   padding: "34px 36px",
                   borderRadius: 32,
-                  border: `2px solid ${C.bordeTarjeta}`,
-                  background: "#ffffffee",
-                  boxShadow: "0 30px 60px -36px #03512d55",
+                  border: `2px solid ${O.borde}`,
+                  background: O.superficie,
+                  boxShadow: "0 30px 60px -36px #00000088",
                   opacity: p,
                   transform: `translateX(${(1 - p) * 140}px)`,
                 }}
@@ -292,7 +293,7 @@ export const StoryInfo: React.FC<Story> = (story) => {
                 </span>
                 {pares ? (
                   <div style={{ flex: 1, display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 20 }}>
-                    <span style={{ fontSize: letraPunto - 2, fontWeight: 600, color: C.apagadoTexto, lineHeight: 1.25 }}>
+                    <span style={{ fontSize: letraPunto - 2, fontWeight: 600, color: O.textoSuave, lineHeight: 1.25 }}>
                       <Resaltado texto={clave} color={estilo.acento} fondo={estilo.fondoAcento} />
                     </span>
                     <span style={{ fontSize: letraPunto, fontWeight: 800, textAlign: "right", lineHeight: 1.2, whiteSpace: "nowrap" }}>
@@ -311,11 +312,11 @@ export const StoryInfo: React.FC<Story> = (story) => {
         </div>
       </div>
 
-      {/* Cierre: la banda verde profunda de la web se abre en círculo */}
+      {/* Cierre: el verde primario de la web se abre en círculo sobre el fondo oscuro */}
       {frame >= f(t.cierre) && (
         <AbsoluteFill
           style={{
-            background: C.profundo,
+            background: O.primario,
             color: "#fff",
             clipPath: `circle(${pCierre * Math.hypot(width, height)}px at 50% 50%)`,
           }}

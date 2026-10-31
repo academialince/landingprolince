@@ -46,14 +46,14 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={{
           etiqueta: "OBJ-00 · APERTURA",
           entradilla: "Nos encanta daros esta noticia…",
-          linea1: "MAÑANA",
-          linea2: "ABRIMOS.",
+          linea1: "Mañana",
+          linea2: "abrimos.",
           descripcion:
             "La plataforma para preparar Guardia Civil y Colegio de Guardias Jóvenes. Tests, simulacros y temario en un mismo sitio.",
           llamada: "Activa las notificaciones de la cuenta.",
           etiquetaVentajas: "QUÉ TE ESPERA DENTRO",
-          tituloVentajas1: "TODO PARA",
-          tituloVentajas2: "TU PLAZA.",
+          tituloVentajas1: "Todo para",
+          tituloVentajas2: "tu plaza.",
           ventajas: [
             { icono: "infinito", texto: "Tests ilimitados" },
             { icono: "repetir", texto: "Revisa y rehaz tests con tus errores" },
@@ -63,8 +63,8 @@ export const RemotionRoot: React.FC = () => {
             { icono: "temario", texto: "Temario ProLince" },
           ],
           novedades: "…y muchas novedades más por llegar",
-          despedida1: "TE",
-          despedida2: "ESPERAMOS",
+          despedida1: "Te",
+          despedida2: "esperamos",
           usuario: "@academiaprolince",
         }}
       />

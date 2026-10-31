@@ -1,5 +1,3 @@
-import "@fontsource-variable/big-shoulders-display";
-import "@fontsource-variable/manrope";
 import {
   Bell,
   BookOpen,
@@ -23,21 +21,20 @@ import {
   useVideoConfig,
 } from "remotion";
 import { z } from "zod";
+import { EscenaFondoOscura, O, fontFamily } from "./marca";
 
-// Paleta de la pieza «OBJ-00 · Apertura» de redes (verde bosque, dorado y crema).
+// Tono oscuro de prolinceacademia.com (tokens O de marca.tsx) y el verde del corazón.
 const A = {
-  verdeArriba: "#0f4c38",
-  verdeAbajo: "#06281e",
-  dorado: "#c9a24e",
-  doradoClaro: "#e3c06c",
-  crema: "#f5f0e6",
-  texto: "#e4ded2",
-  cobre: "#c2552b",
+  acento: O.acento,
+  acentoClaro: O.suave,
+  blanco: O.texto,
+  texto: O.textoSuave,
+  borde: O.borde,
   corazon: "#4fcf74",
 };
 
-const display = "'Big Shoulders Display Variable', 'Big Shoulders Display', sans-serif";
-const texto = "'Manrope Variable', Manrope, sans-serif";
+// Titulares con el display de la web: Manrope a 780 y tracking cerrado.
+const PESO_DISPLAY = 780;
 
 const ICONOS = {
   infinito: Infinito,
@@ -132,11 +129,10 @@ const LineaTitular: React.FC<{ texto: string; desde: number; color: string; tam:
               display: "inline-block",
               whiteSpace: "pre",
               color,
-              fontFamily: display,
               fontSize: tam,
-              fontWeight: 900,
-              lineHeight: 0.86,
-              letterSpacing: "-0.01em",
+              fontWeight: PESO_DISPLAY,
+              lineHeight: 1.02,
+              letterSpacing: "-0.038em",
               // En px y no en %: la caja de la letra es más baja que la «Ñ» y la virgulilla asomaría.
               translate: esPunto ? `0 ${(1 - pPunto) * -tam}px` : `0 ${(1 - p) * tam * 1.3}px`,
               scale: esPunto ? `${0.4 + pPunto * 0.6}` : undefined,
@@ -151,18 +147,20 @@ const LineaTitular: React.FC<{ texto: string; desde: number; color: string; tam:
   );
 };
 
-/** Etiqueta con borde dorado, como «OBJ-00 · APERTURA». */
+/** Etiqueta en pastilla, como los eyebrow de la web («OBJ-00 · APERTURA»). */
 const Etiqueta: React.FC<{ texto: string; p: number }> = ({ texto: contenido, p }) => (
   <div
     style={{
       alignSelf: "flex-start",
-      border: `3px solid ${A.dorado}`,
+      border: `2px solid ${A.borde}`,
+      background: "#ffffff0d",
       borderRadius: 999,
       padding: "14px 30px",
-      color: A.doradoClaro,
-      fontSize: 36,
+      color: A.acentoClaro,
+      fontSize: 30,
       fontWeight: 700,
-      letterSpacing: "0.02em",
+      letterSpacing: "0.08em",
+      textTransform: "uppercase",
       opacity: p,
       scale: `${0.8 + p * 0.2}`,
       transformOrigin: "left center",
@@ -200,7 +198,7 @@ const Corazon: React.FC<{ tam: number; style?: React.CSSProperties }> = ({ tam, 
   </svg>
 );
 
-/** Portada: el logo entra con un aro dorado y el nombre; luego vuela al pie. */
+/** Portada: el logo entra con un aro verde y el nombre; luego vuela al pie. */
 const Portada: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -218,7 +216,7 @@ const Portada: React.FC = () => {
 
   return (
     <AbsoluteFill>
-      {/* Aros dorados: uno se dibuja y el discontinuo gira */}
+      {/* Aros: uno se dibuja y el discontinuo gira, como el emblema del hero */}
       <svg
         width={600}
         height={600}
@@ -229,8 +227,8 @@ const Portada: React.FC = () => {
           cy={300}
           r={238}
           fill="none"
-          stroke={A.dorado}
-          strokeWidth={5}
+          stroke={A.acento}
+          strokeWidth={4}
           strokeLinecap="round"
           strokeDasharray={2 * Math.PI * 238}
           strokeDashoffset={2 * Math.PI * 238 * (1 - pAro)}
@@ -241,7 +239,7 @@ const Portada: React.FC = () => {
           cy={300}
           r={272}
           fill="none"
-          stroke={A.dorado}
+          stroke={A.acentoClaro}
           strokeOpacity={0.45}
           strokeWidth={3}
           strokeDasharray="10 16"
@@ -279,11 +277,11 @@ const Portada: React.FC = () => {
         <div style={{ overflow: "hidden" }}>
           <div
             style={{
-              fontFamily: display,
-              fontWeight: 900,
-              fontSize: 190,
-              lineHeight: 0.9,
-              color: A.crema,
+              fontWeight: 800,
+              fontSize: 150,
+              lineHeight: 1,
+              letterSpacing: "-0.038em",
+              color: A.blanco,
               translate: `0 ${(1 - pNombre) * 100}%`,
             }}
           >
@@ -297,13 +295,13 @@ const Portada: React.FC = () => {
             fontWeight: 700,
             letterSpacing: `${0.2 + pNombre * 0.22}em`,
             marginRight: "-0.42em",
-            color: A.dorado,
+            color: A.acento,
             opacity: pNombre,
           }}
         >
           ACADEMIA
         </div>
-        <div style={{ marginTop: 56, width: 520 * pLema, height: 3, background: A.dorado, opacity: 0.6 }} />
+        <div style={{ marginTop: 56, width: 520 * pLema, height: 3, background: A.acento, opacity: 0.6 }} />
         <div style={{ marginTop: 34, fontSize: 36, fontWeight: 600, color: A.texto, opacity: pLema }}>
           Guardia Civil · Guardias Jóvenes
         </div>
@@ -340,7 +338,7 @@ const Anuncio: React.FC<Props> = ({ etiqueta, entradilla, linea1, linea2, descri
       <Etiqueta texto={etiqueta} p={entrada(0.3, 14)} />
 
       {/* Entradilla a máquina, con cursor mientras se escribe */}
-      <div style={{ marginTop: 60, fontSize: 52, fontWeight: 600, fontStyle: "italic", color: A.doradoClaro, minHeight: 70 }}>
+      <div style={{ marginTop: 60, fontSize: 52, fontWeight: 600, fontStyle: "italic", color: A.acento, minHeight: 70 }}>
         {[...entradilla].slice(0, letras).join("")}
         <span
           style={{
@@ -349,21 +347,21 @@ const Anuncio: React.FC<Props> = ({ etiqueta, entradilla, linea1, linea2, descri
             height: 52,
             marginLeft: 6,
             verticalAlign: "-8px",
-            background: A.doradoClaro,
+            background: A.acento,
             opacity: escribiendo || Math.floor(frame / 12) % 2 === 0 ? (frame < f(d + 1.2) ? 1 : 0) : 0,
           }}
         />
       </div>
 
       <div style={{ marginTop: 40, position: "relative" }}>
-        <LineaTitular texto={linea1} desde={f(d + 0.7)} color={A.crema} tam={248} />
+        <LineaTitular texto={linea1} desde={f(d + 0.7)} color={A.blanco} tam={200} />
         <div style={{ position: "relative", marginTop: 6 }}>
-          <LineaTitular texto={linea2} desde={f(d + 1.2)} color={A.dorado} tam={248} />
+          <LineaTitular texto={linea2} desde={f(d + 1.2)} color={A.acento} tam={200} />
           <div
             style={{
               position: "absolute",
               inset: 0,
-              background: `linear-gradient(105deg, transparent ${brillo - 12}%, #fff6dc99 ${brillo}%, transparent ${brillo + 12}%)`,
+              background: `linear-gradient(105deg, transparent ${brillo - 12}%, #ffffffaa ${brillo}%, transparent ${brillo + 12}%)`,
               mixBlendMode: "overlay",
               pointerEvents: "none",
             }}
@@ -391,7 +389,7 @@ const Anuncio: React.FC<Props> = ({ etiqueta, entradilla, linea1, linea2, descri
           display: "flex",
           alignItems: "center",
           gap: 22,
-          color: A.doradoClaro,
+          color: A.acentoClaro,
           fontSize: 46,
           fontWeight: 800,
           lineHeight: 1.2,
@@ -422,9 +420,9 @@ const Ventajas: React.FC<Props> = ({ etiquetaVentajas, tituloVentajas1, tituloVe
       <Etiqueta texto={etiquetaVentajas} p={entrada(0.1, 14)} />
 
       <div style={{ marginTop: 56 }}>
-        <LineaTitular texto={tituloVentajas1} desde={f(0.25)} color={A.crema} tam={150} />
+        <LineaTitular texto={tituloVentajas1} desde={f(0.25)} color={A.blanco} tam={130} />
         <div style={{ marginTop: 4 }}>
-          <LineaTitular texto={tituloVentajas2} desde={f(0.5)} color={A.dorado} tam={150} />
+          <LineaTitular texto={tituloVentajas2} desde={f(0.5)} color={A.acento} tam={130} />
         </div>
       </div>
 
@@ -449,18 +447,18 @@ const Ventajas: React.FC<Props> = ({ etiquetaVentajas, tituloVentajas1, tituloVe
                   width: 88,
                   height: 88,
                   borderRadius: 26,
-                  border: `3px solid ${A.dorado}`,
-                  background: "#c9a24e1f",
+                  border: `2px solid ${A.borde}`,
+                  background: "#439b6433",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  color: A.doradoClaro,
+                  color: A.acento,
                   scale: `${0.6 + p * 0.4}`,
                 }}
               >
                 <Icono size={46} strokeWidth={2.4} />
               </span>
-              <span style={{ fontSize: 46, fontWeight: 700, lineHeight: 1.2, color: A.crema }}>{v.texto}</span>
+              <span style={{ fontSize: 46, fontWeight: 700, lineHeight: 1.2, color: A.blanco }}>{v.texto}</span>
             </div>
           );
         })}
@@ -472,7 +470,7 @@ const Ventajas: React.FC<Props> = ({ etiquetaVentajas, tituloVentajas1, tituloVe
           display: "flex",
           alignItems: "center",
           gap: 18,
-          color: A.doradoClaro,
+          color: A.acento,
           fontSize: 44,
           fontWeight: 800,
           opacity: pNovedades,
@@ -524,14 +522,14 @@ const Pie: React.FC<{ usuario: string }> = ({ usuario }) => {
         }}
       >
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <span style={{ fontFamily: display, fontWeight: 900, fontSize: 64, lineHeight: 0.9, color: A.crema }}>
+          <span style={{ fontWeight: 800, fontSize: 50, lineHeight: 1, letterSpacing: "-0.03em", color: A.blanco }}>
             PROLINCE
           </span>
-          <span style={{ fontSize: 24, fontWeight: 700, letterSpacing: "0.32em", color: A.dorado, marginTop: 4 }}>
+          <span style={{ fontSize: 24, fontWeight: 700, letterSpacing: "0.32em", color: A.acento, marginTop: 6 }}>
             ACADEMIA
           </span>
         </div>
-        <span style={{ fontSize: 38, fontWeight: 800, color: A.doradoClaro }}>{usuario}</span>
+        <span style={{ fontSize: 36, fontWeight: 700, color: A.texto }}>{usuario}</span>
       </div>
     </>
   );
@@ -611,9 +609,9 @@ const Final: React.FC<Props> = ({ despedida1, despedida2, usuario }) => {
       </div>
 
       <div style={{ position: "absolute", top: 760, left: 0, right: 0 }}>
-        <LineaTitular texto={despedida1} desde={f(INICIO_FINAL + 0.45)} color={A.crema} tam={200} centrar />
+        <LineaTitular texto={despedida1} desde={f(INICIO_FINAL + 0.45)} color={A.blanco} tam={170} centrar />
         <div style={{ marginTop: 8 }}>
-          <LineaTitular texto={despedida2} desde={f(INICIO_FINAL + 0.65)} color={A.dorado} tam={200} centrar />
+          <LineaTitular texto={despedida2} desde={f(INICIO_FINAL + 0.65)} color={A.acento} tam={170} centrar />
         </div>
       </div>
 
@@ -625,8 +623,8 @@ const Final: React.FC<Props> = ({ despedida1, despedida2, usuario }) => {
           right: 0,
           textAlign: "center",
           fontSize: 44,
-          fontWeight: 800,
-          color: A.doradoClaro,
+          fontWeight: 700,
+          color: A.texto,
           opacity: pUsuario,
           translate: `0 ${(1 - pUsuario) * 30}px`,
         }}
@@ -659,23 +657,8 @@ const Escena: React.FC<Props> = (props) => {
   const { fps } = useVideoConfig();
   const f = (s: number) => Math.round(s * fps);
   return (
-    <AbsoluteFill
-      style={{
-        background: `linear-gradient(180deg, ${A.verdeArriba}, ${A.verdeAbajo})`,
-        fontFamily: texto,
-        color: A.crema,
-      }}
-    >
-      {/* Rayado diagonal fino que se desliza despacio */}
-      <AbsoluteFill
-        style={{
-          inset: -200,
-          backgroundImage: "repeating-linear-gradient(135deg, #ffffff0d 0 2px, transparent 2px 34px)",
-          translate: `${(frame * 0.6) % 48}px 0px`,
-        }}
-      />
-      {/* Luz suave arriba a la izquierda */}
-      <AbsoluteFill style={{ background: "radial-gradient(circle at 15% 20%, #ffffff12, transparent 55%)" }} />
+    <AbsoluteFill style={{ fontFamily, color: A.blanco }}>
+      <EscenaFondoOscura frame={frame} fps={fps} />
 
       <Sequence from={f(INICIO_ANUNCIO)} durationInFrames={f(DUR_ANUNCIO)} layout="none">
         <Anuncio {...props} />
@@ -687,18 +670,6 @@ const Escena: React.FC<Props> = (props) => {
       <Portada />
       <Final {...props} />
 
-      {/* Franja cobriza inferior que se dibuja de izquierda a derecha */}
-      <div
-        style={{
-          position: "absolute",
-          left: 0,
-          bottom: 0,
-          height: 18,
-          width: `${interpolate(frame, [f(0.2), f(1.2)], [0, 100], { ...clamp, easing: salida })}%`,
-          background: A.cobre,
-          borderTop: `4px solid ${A.dorado}`,
-        }}
-      />
     </AbsoluteFill>
   );
 };
