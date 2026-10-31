@@ -4,8 +4,10 @@ import { Bell } from "lucide-react";
 import {
   AbsoluteFill,
   Easing,
+  Freeze,
   Img,
   interpolate,
+  Sequence,
   spring,
   staticFile,
   useCurrentFrame,
@@ -36,11 +38,21 @@ export const aperturaSchema = z.object({
   usuario: z.string(),
 });
 
-export const DURACION_APERTURA = 9;
+// Portada con el logo (2,1 s) y, a continuación, el anuncio (9 s).
+const INICIO_ANUNCIO = 2.1;
+export const DURACION_APERTURA = INICIO_ANUNCIO + 9;
+// El primer fotograma es la portada ya montada (lo que Instagram enseña mientras carga la story);
+// después arranca la animación desde cero.
+export const FRAMES_PORTADA = 1;
+export const framesApertura = (fps: number) => FRAMES_PORTADA + Math.round(DURACION_APERTURA * fps);
 
 // Franjas que tapa Instagram en Stories.
 const SEGURO_ARRIBA = 250;
 const SEGURO_ABAJO = 340;
+
+// Logo del pie del anuncio: allí aterriza el logo de la portada.
+const LOGO_PIE = { left: 84, top: 1920 - SEGURO_ABAJO - 112, tam: 112 };
+const VUELO_LOGO = 0.7;
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const salida = Easing.bezier(0.16, 1, 0.3, 1);
@@ -72,7 +84,8 @@ const LineaTitular: React.FC<{ texto: string; desde: number; color: string; tam:
               fontWeight: 900,
               lineHeight: 0.86,
               letterSpacing: "-0.01em",
-              translate: esPunto ? `0 ${(1 - pPunto) * -tam}px` : `0 ${(1 - p) * 105}%`,
+              // En px y no en %: la caja de la letra es más baja que la «Ñ» y la virgulilla asomaría.
+              translate: esPunto ? `0 ${(1 - pPunto) * -tam}px` : `0 ${(1 - p) * tam * 1.3}px`,
               scale: esPunto ? `${0.4 + pPunto * 0.6}` : undefined,
               opacity: esPunto ? Math.min(1, pPunto * 2) : 1,
             }}
@@ -85,7 +98,135 @@ const LineaTitular: React.FC<{ texto: string; desde: number; color: string; tam:
   );
 };
 
-export const Apertura: React.FC<z.infer<typeof aperturaSchema>> = ({
+type Props = z.infer<typeof aperturaSchema>;
+
+/** Portada: el logo entra con un aro dorado y el nombre; luego vuela al pie del anuncio. */
+const Portada: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const f = (s: number) => Math.round(s * fps);
+  const pLogo = spring({ frame, fps, config: { damping: 13, stiffness: 120 } });
+  const pAro = interpolate(frame, [f(0.2), f(1.2)], [0, 1], { ...clamp, easing: salida });
+  const pNombre = spring({ frame: frame - f(0.5), fps, config: { damping: 200 } });
+  const pLema = spring({ frame: frame - f(0.85), fps, config: { damping: 200 } });
+  const pSalida = interpolate(frame, [f(INICIO_ANUNCIO - 0.15), f(INICIO_ANUNCIO + 0.25)], [0, 1], { ...clamp, easing: salida });
+  const pVuelo = interpolate(frame, [f(INICIO_ANUNCIO), f(INICIO_ANUNCIO + VUELO_LOGO)], [0, 1], {
+    ...clamp,
+    easing: Easing.bezier(0.65, 0, 0.35, 1),
+  });
+  if (pVuelo >= 1) return null;
+
+  const tam = interpolate(pVuelo, [0, 1], [400, LOGO_PIE.tam]);
+  const izquierda = interpolate(pVuelo, [0, 1], [540 - 200, LOGO_PIE.left]);
+  const arriba = interpolate(pVuelo, [0, 1], [760 - 200, LOGO_PIE.top]);
+  const latido = 1 + Math.sin((frame / fps) * Math.PI * 1.6) * 0.015 * (1 - pSalida);
+
+  return (
+    <AbsoluteFill>
+      {/* Aros dorados: uno se dibuja y el discontinuo gira */}
+      <svg
+        width={600}
+        height={600}
+        style={{ position: "absolute", left: 240, top: 460, opacity: 1 - pSalida, scale: `${1 + pSalida * 0.3}` }}
+      >
+        <circle
+          cx={300}
+          cy={300}
+          r={238}
+          fill="none"
+          stroke={A.dorado}
+          strokeWidth={5}
+          strokeLinecap="round"
+          strokeDasharray={2 * Math.PI * 238}
+          strokeDashoffset={2 * Math.PI * 238 * (1 - pAro)}
+          transform="rotate(-90 300 300)"
+        />
+        <circle
+          cx={300}
+          cy={300}
+          r={272}
+          fill="none"
+          stroke={A.dorado}
+          strokeOpacity={0.45}
+          strokeWidth={3}
+          strokeDasharray="10 16"
+          transform={`rotate(${frame * 0.5} 300 300)`}
+          opacity={pAro}
+        />
+      </svg>
+      <Img
+        src={staticFile("prolince-logo.svg")}
+        style={{
+          position: "absolute",
+          left: izquierda,
+          top: arriba,
+          width: tam,
+          height: tam,
+          opacity: Math.min(1, pLogo * 1.5),
+          scale: `${(0.5 + pLogo * 0.5) * latido}`,
+          rotate: `${(1 - pLogo) * -60}deg`,
+          filter: `drop-shadow(0 30px 60px #00000055)`,
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          top: 1100,
+          left: 0,
+          right: 0,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          opacity: 1 - pSalida,
+          translate: `0 ${pSalida * 60}px`,
+        }}
+      >
+        <div style={{ overflow: "hidden" }}>
+          <div
+            style={{
+              fontFamily: display,
+              fontWeight: 900,
+              fontSize: 190,
+              lineHeight: 0.9,
+              color: A.crema,
+              translate: `0 ${(1 - pNombre) * 100}%`,
+            }}
+          >
+            PROLINCE
+          </div>
+        </div>
+        <div
+          style={{
+            marginTop: 14,
+            fontSize: 52,
+            fontWeight: 700,
+            letterSpacing: `${0.2 + pNombre * 0.22}em`,
+            marginRight: "-0.42em",
+            color: A.dorado,
+            opacity: pNombre,
+          }}
+        >
+          ACADEMIA
+        </div>
+        <div
+          style={{
+            marginTop: 56,
+            width: 520 * pLema,
+            height: 3,
+            background: A.dorado,
+            opacity: 0.6,
+          }}
+        />
+        <div style={{ marginTop: 34, fontSize: 36, fontWeight: 600, color: A.texto, opacity: pLema }}>
+          Guardia Civil · Guardias Jóvenes
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/** El anuncio «Mañana abrimos»; su fotograma 0 es el final de la portada. */
+const Anuncio: React.FC<Props> = ({
   etiqueta,
   linea1,
   linea2,
@@ -101,7 +242,7 @@ export const Apertura: React.FC<z.infer<typeof aperturaSchema>> = ({
   const pEtiqueta = entrada(0.3, 14);
   const pDescripcion = entrada(2.3);
   const pLlamada = entrada(3.4, 14);
-  const pPie = entrada(0.6);
+  const pPie = entrada(0.5);
   // La campana suena dos veces y vuelve a sonar al final.
   const campana = (inicio: number) =>
     interpolate(frame, [f(inicio), f(inicio + 1)], [1, 0], clamp) * Math.sin((frame - f(inicio)) / 2.2) * 22;
@@ -110,27 +251,7 @@ export const Apertura: React.FC<z.infer<typeof aperturaSchema>> = ({
   const brillo = interpolate(frame, [f(4.6), f(5.8)], [-30, 130], { ...clamp, easing: Easing.inOut(Easing.quad) });
 
   return (
-    <AbsoluteFill
-      style={{
-        background: `linear-gradient(180deg, ${A.verdeArriba}, ${A.verdeAbajo})`,
-        fontFamily: texto,
-        color: A.crema,
-      }}
-    >
-      {/* Rayado diagonal fino que se desliza despacio */}
-      <AbsoluteFill
-        style={{
-          inset: -200,
-          backgroundImage: "repeating-linear-gradient(135deg, #ffffff0d 0 2px, transparent 2px 34px)",
-          translate: `${(frame * 0.6) % 48}px 0px`,
-          opacity: interpolate(frame, [0, f(0.8)], [0, 1], clamp),
-        }}
-      />
-      {/* Luz suave arriba a la izquierda */}
-      <AbsoluteFill
-        style={{ background: "radial-gradient(circle at 15% 20%, #ffffff12, transparent 55%)" }}
-      />
-
+    <AbsoluteFill>
       <div
         style={{
           position: "absolute",
@@ -219,16 +340,15 @@ export const Apertura: React.FC<z.infer<typeof aperturaSchema>> = ({
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            opacity: pPie,
-            translate: `0 ${(1 - pPie) * 40}px`,
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
+            {/* Aparece justo cuando aterriza el logo de la portada */}
             <Img
               src={staticFile("prolince-logo.svg")}
-              style={{ width: 112, height: 112, rotate: `${interpolate(pPie, [0, 1], [-90, 0])}deg` }}
+              style={{ width: LOGO_PIE.tam, height: LOGO_PIE.tam, opacity: frame >= f(VUELO_LOGO) ? 1 : 0 }}
             />
-            <div style={{ display: "flex", flexDirection: "column" }}>
+            <div style={{ display: "flex", flexDirection: "column", opacity: pPie, translate: `0 ${(1 - pPie) * 40}px` }}>
               <span style={{ fontFamily: display, fontWeight: 900, fontSize: 64, lineHeight: 0.9, color: A.crema }}>
                 PROLINCE
               </span>
@@ -237,7 +357,9 @@ export const Apertura: React.FC<z.infer<typeof aperturaSchema>> = ({
               </span>
             </div>
           </div>
-          <span style={{ fontSize: 38, fontWeight: 800, color: A.doradoClaro }}>{usuario}</span>
+          <span style={{ fontSize: 38, fontWeight: 800, color: A.doradoClaro, opacity: pPie, translate: `0 ${(1 - pPie) * 40}px` }}>
+            {usuario}
+          </span>
         </div>
       </div>
 
@@ -253,6 +375,53 @@ export const Apertura: React.FC<z.infer<typeof aperturaSchema>> = ({
           borderTop: `4px solid ${A.dorado}`,
         }}
       />
+    </AbsoluteFill>
+  );
+};
+
+export const Apertura: React.FC<Props> = (props) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  if (frame < FRAMES_PORTADA) {
+    return (
+      <Freeze frame={Math.round(1.6 * fps)}>
+        <Escena {...props} />
+      </Freeze>
+    );
+  }
+  return (
+    <Sequence from={FRAMES_PORTADA} layout="none">
+      <Escena {...props} />
+    </Sequence>
+  );
+};
+
+const Escena: React.FC<Props> = (props) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  return (
+    <AbsoluteFill
+      style={{
+        background: `linear-gradient(180deg, ${A.verdeArriba}, ${A.verdeAbajo})`,
+        fontFamily: texto,
+        color: A.crema,
+      }}
+    >
+      {/* Rayado diagonal fino que se desliza despacio */}
+      <AbsoluteFill
+        style={{
+          inset: -200,
+          backgroundImage: "repeating-linear-gradient(135deg, #ffffff0d 0 2px, transparent 2px 34px)",
+          translate: `${(frame * 0.6) % 48}px 0px`,
+        }}
+      />
+      {/* Luz suave arriba a la izquierda */}
+      <AbsoluteFill style={{ background: "radial-gradient(circle at 15% 20%, #ffffff12, transparent 55%)" }} />
+
+      <Sequence from={Math.round(INICIO_ANUNCIO * fps)} layout="none">
+        <Anuncio {...props} />
+      </Sequence>
+      <Portada />
     </AbsoluteFill>
   );
 };

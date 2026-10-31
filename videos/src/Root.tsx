@@ -1,6 +1,6 @@
 import { Composition, Folder } from "remotion";
 import { PreguntaTest, preguntaSchema, duracionPregunta } from "./PreguntaTest";
-import { Apertura, aperturaSchema, DURACION_APERTURA } from "./Apertura";
+import { Apertura, aperturaSchema, framesApertura } from "./Apertura";
 import { StoryInfo, storySchema, duracionStory } from "./StoryInfo";
 import preguntas from "./datos/preguntas.json";
 import stories from "./datos/stories.json";
@@ -42,7 +42,7 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
         fps={FPS}
-        durationInFrames={DURACION_APERTURA * FPS}
+        durationInFrames={framesApertura(FPS)}
         defaultProps={{
           etiqueta: "OBJ-00 · APERTURA",
           linea1: "MAÑANA",
