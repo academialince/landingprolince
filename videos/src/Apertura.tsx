@@ -50,6 +50,8 @@ const ICONOS = {
 
 export const aperturaSchema = z.object({
   etiqueta: z.string(),
+  /** Frase que se escribe antes del titular («Nos encanta daros esta noticia…»). */
+  entradilla: z.string(),
   linea1: z.string(),
   linea2: z.string(),
   descripcion: z.string(),
@@ -71,7 +73,9 @@ type Props = z.infer<typeof aperturaSchema>;
 
 // Escenas, en segundos: portada con el logo, anuncio, ventajas y final «Te esperamos».
 const INICIO_ANUNCIO = 2.1;
-const DUR_ANUNCIO = 6.2;
+// La entradilla se escribe durante T_ENTRADILLA segundos y el titular entra después.
+const T_ENTRADILLA = 1.5;
+const DUR_ANUNCIO = 6.2 + T_ENTRADILLA;
 const INICIO_VENTAJAS = INICIO_ANUNCIO + DUR_ANUNCIO;
 const DUR_VENTAJAS = 6.4;
 const INICIO_FINAL = INICIO_VENTAJAS + DUR_VENTAJAS;
@@ -309,30 +313,52 @@ const Portada: React.FC = () => {
 };
 
 /** «Mañana abrimos»: su fotograma 0 es el final de la portada. */
-const Anuncio: React.FC<Props> = ({ etiqueta, linea1, linea2, descripcion, llamada }) => {
+const Anuncio: React.FC<Props> = ({ etiqueta, entradilla, linea1, linea2, descripcion, llamada }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const f = (s: number) => Math.round(s * fps);
   const entrada = (desde: number, damping = 200) => spring({ frame: frame - f(desde), fps, config: { damping } });
 
-  const pDescripcion = entrada(2.3);
-  const pLlamada = entrada(3.4, 14);
+  // Todo lo que va detrás de la entradilla se retrasa lo que tarda en escribirse.
+  const d = T_ENTRADILLA;
+  const letras = Math.floor(
+    interpolate(frame, [f(0.35), f(d + 0.1)], [0, [...entradilla].length], clamp),
+  );
+  const escribiendo = letras < [...entradilla].length;
+  const pDescripcion = entrada(d + 2.3);
+  const pLlamada = entrada(d + 3.4, 14);
   const fuera = interpolate(frame, [f(DUR_ANUNCIO - 0.45), f(DUR_ANUNCIO)], [0, 1], { ...clamp, easing: Easing.in(Easing.cubic) });
   // La campana suena dos veces.
   const campana = (inicio: number) =>
     frame < f(inicio) ? 0 : interpolate(frame, [f(inicio), f(inicio + 1)], [1, 0], clamp) * Math.sin((frame - f(inicio)) / 2.2) * 22;
-  const giroCampana = campana(3.7) + campana(5);
+  const giroCampana = campana(d + 3.7) + campana(d + 5);
   // Brillo que cruza «ABRIMOS.» una vez colocado.
-  const brillo = interpolate(frame, [f(4.4), f(5.6)], [-30, 130], { ...clamp, easing: Easing.inOut(Easing.quad) });
+  const brillo = interpolate(frame, [f(d + 4.4), f(d + 5.6)], [-30, 130], { ...clamp, easing: Easing.inOut(Easing.quad) });
 
   return (
     <Columna fuera={fuera}>
       <Etiqueta texto={etiqueta} p={entrada(0.3, 14)} />
 
-      <div style={{ marginTop: 100, position: "relative" }}>
-        <LineaTitular texto={linea1} desde={f(0.7)} color={A.crema} tam={248} />
+      {/* Entradilla a máquina, con cursor mientras se escribe */}
+      <div style={{ marginTop: 60, fontSize: 52, fontWeight: 600, fontStyle: "italic", color: A.doradoClaro, minHeight: 70 }}>
+        {[...entradilla].slice(0, letras).join("")}
+        <span
+          style={{
+            display: "inline-block",
+            width: 4,
+            height: 52,
+            marginLeft: 6,
+            verticalAlign: "-8px",
+            background: A.doradoClaro,
+            opacity: escribiendo || Math.floor(frame / 12) % 2 === 0 ? (frame < f(d + 1.2) ? 1 : 0) : 0,
+          }}
+        />
+      </div>
+
+      <div style={{ marginTop: 40, position: "relative" }}>
+        <LineaTitular texto={linea1} desde={f(d + 0.7)} color={A.crema} tam={248} />
         <div style={{ position: "relative", marginTop: 6 }}>
-          <LineaTitular texto={linea2} desde={f(1.2)} color={A.dorado} tam={248} />
+          <LineaTitular texto={linea2} desde={f(d + 1.2)} color={A.dorado} tam={248} />
           <div
             style={{
               position: "absolute",
@@ -347,7 +373,7 @@ const Anuncio: React.FC<Props> = ({ etiqueta, linea1, linea2, descripcion, llama
 
       <div
         style={{
-          marginTop: 56,
+          marginTop: 44,
           fontSize: 46,
           lineHeight: 1.36,
           fontWeight: 500,

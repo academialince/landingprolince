@@ -45,6 +45,7 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={framesApertura(FPS)}
         defaultProps={{
           etiqueta: "OBJ-00 · APERTURA",
+          entradilla: "Nos encanta daros esta noticia…",
           linea1: "MAÑANA",
           linea2: "ABRIMOS.",
           descripcion:
