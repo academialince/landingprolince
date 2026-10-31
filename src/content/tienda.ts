@@ -34,7 +34,10 @@ const comunes = {
   temarioDigital: "Temario digital, en la web y en el móvil",
   /** Los años salen de los exámenes publicados en la plataforma: al subir uno nuevo, cambiarlos aquí y allí. */
   anteriores: (desde: number, hasta: number) => `Todos los exámenes de años anteriores (de ${desde} a ${hasta})`,
-  exclusivos: (cuantos: number) => `${cuantos} simulacros de conocimientos, ortografía, inglés y psicotécnicos exclusivos de ProLince (5 de ellos también en PDF para imprimir)`,
+  exclusivos: (total: number, online: number) =>
+    `${total} simulacros exclusivos de ProLince de conocimientos, ortografía, inglés y psicotécnicos: ${online} online y 5 en PDF listos para imprimir`,
+  ahorroSimulacros: (cuantos: number) =>
+    `Más de ${cuantos} simulacros online exclusivos de ProLince de conocimientos, ortografía, inglés y psicotécnicos, actualizados de forma continua. Además, incluye 5 simulacros en PDF listos para imprimir`,
   anual: "12 mensualidades de la Suscripción de Tests: tests ilimitados personalizados por tema y por materia (inglés, ortografía, gramática…)",
 };
 
@@ -56,7 +59,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 89.95,
       pago: "unico",
-      incluye: [comunes.anteriores(2017, 2026), comunes.exclusivos(25), comunes.esquemasYLengua],
+      incluye: [comunes.anteriores(2017, 2026), comunes.exclusivos(30, 25), comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -86,7 +89,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Un año de tests ilimitados, el temario digital y más de 50 simulacros.",
       precio: 179,
       pago: "unico",
-      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, comunes.anteriores(2017, 2026), "Más de 50 simulacros online de conocimientos, ortografía, inglés y psicotécnicos exclusivos de ProLince", comunes.esquemasYLengua],
+      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, comunes.anteriores(2017, 2026), comunes.ahorroSimulacros(50), comunes.esquemasYLengua],
       destacado: "El más completo",
     },
   ],
@@ -107,7 +110,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Para llegar al examen con el formato bien entrenado.",
       precio: 59.95,
       pago: "unico",
-      incluye: [comunes.anteriores(2024, 2026), comunes.exclusivos(15), comunes.esquemasYLengua],
+      incluye: [comunes.anteriores(2024, 2026), comunes.exclusivos(20, 15), comunes.esquemasYLengua],
       noIncluye: "No incluye temario.",
     },
     {
@@ -141,7 +144,7 @@ export const packs: Record<string, Pack[]> = {
       resumen: "Un año de tests ilimitados, el temario digital y más de 30 simulacros.",
       precio: 109.95,
       pago: "unico",
-      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, comunes.anteriores(2024, 2026), "Más de 30 simulacros online de conocimientos, ortografía, inglés y psicotécnicos exclusivos de ProLince", comunes.esquemasYLengua],
+      incluye: [comunes.anual, comunes.repaso, comunes.temarioDigital, comunes.anteriores(2024, 2026), comunes.ahorroSimulacros(30), comunes.esquemasYLengua],
       destacado: "El más completo",
     },
   ],
