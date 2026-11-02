@@ -192,7 +192,9 @@ def main(carpeta):
     else:
         s = re.sub(r'\n  // S9: tachón.*\n  \$\("#tachon"\).*\n', "\n", s)
     s = re.sub(r"clamp\(t / [\d.]+\) \* 100", f"clamp(t / {palabras[-1]['end']:.1f}) * 100", s)
-    portada = tiempos[g.get("portada_escena", 2)] + 3.0
+    # Portada: final de la escena del artículo (todo revelado)
+    pe = g.get("portada_escena", 2)
+    portada = tiempos[pe + 1] - 0.3
     s = re.sub(r"PORTADA: [\d.]+", f"PORTADA: {portada:.1f}", s)
     s = s.replace("// S2: años que se encienden y contador 0 → 8 al decir «ocho veces»", "// S2: años que se encienden y contador al decir las veces")
     (d / "video.html").write_text(s, encoding="utf-8")
@@ -243,7 +245,8 @@ def portada_primer_fotograma(carpeta):
     Los renders nuevos ya lo hacen solos (render.mjs); esto es para vídeos renderizados antes."""
     import subprocess
     d = (AQUI / carpeta).resolve()
-    for mp4 in d.glob("*.mp4"):
+    subprocess.run(["node", "render.mjs", "--solo-portada"], cwd=d, check=True)  # portada PNG al día
+    for mp4 in [m for m in d.glob("*.mp4") if not m.name.endswith(".tmp.mp4")]:
         png = d / f"{mp4.stem}-portada.png"
         tmp = mp4.with_suffix(".tmp.mp4")
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp4), "-i", str(png),
