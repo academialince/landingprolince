@@ -86,6 +86,9 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
             <div>
               <div className="flex flex-wrap items-center gap-3">
                 <p className="text-eyebrow uppercase text-primary">{curso.eyebrow}</p>
+                <span className="rounded-full bg-primary-soft px-3 py-1 text-eyebrow uppercase text-primary-soft-fg">
+                  {curso.promocion}
+                </span>
                 {!cursosAbiertos && <Proximamente />}
               </div>
               <h1 className="text-display-xl mt-4">{curso.titular}</h1>

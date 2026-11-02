@@ -46,7 +46,12 @@ export function CursosHome() {
                   <span className="absolute left-4 top-4 rounded-full bg-background/92 px-3 py-1 text-eyebrow uppercase text-primary backdrop-blur-sm">
                     {curso.eyebrow}
                   </span>
-                  {!cursosAbiertos && <Proximamente className="absolute right-4 top-4" />}
+                  <div className="absolute right-4 top-4 flex flex-col items-end gap-2">
+                    <span className="rounded-full bg-primary px-3 py-1 text-eyebrow uppercase text-primary-fg shadow-sm">
+                      {curso.promocion}
+                    </span>
+                    {!cursosAbiertos && <Proximamente />}
+                  </div>
                 </div>
 
                 <div className="flex grow flex-col p-7">
