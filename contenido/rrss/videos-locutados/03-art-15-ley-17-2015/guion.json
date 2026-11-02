@@ -1,0 +1,361 @@
+{
+ "nombre": "articulo-planes-de-proteccion-civil",
+ "titulo": "Los Planes de Protección Civil (art. 15 Ley 17/2015)",
+ "top": "3",
+ "veces": {
+  "2017": 3,
+  "2018": 1,
+  "2019": 2,
+  "2020": 0,
+  "2021": 0,
+  "2022": 0,
+  "2023": 1,
+  "2024": 1,
+  "2025": 0,
+  "2026": 0
+ },
+ "cue_veces": "veces",
+ "portada_escena": 2,
+ "escenas": [
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Examen Guardia Civil"
+    },
+    {
+     "k": "lineas",
+     "cls": "t120",
+     "l": [
+      [
+       "Estatal",
+       "estatal"
+      ],
+      [
+       "Territoriales",
+       "territoriales"
+      ],
+      [
+       "Especiales",
+       "especiales"
+      ],
+      [
+       "Autoprotección",
+       "y de autoproteccion"
+      ]
+     ]
+    },
+    {
+     "k": "tit",
+     "txt": "4 tipos de <em>planes</em>",
+     "cue": "cuatro tipos"
+    },
+    {
+     "k": "mono",
+     "txt": "… y el Tribunal te los mezcla",
+     "cue": "y el tribunal",
+     "color": "var(--warning)"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Histórico de exámenes 2017–2026"
+    },
+    {
+     "k": "historico",
+     "cue": "este articulo"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Los artículos que más caen · Tema 16"
+    },
+    {
+     "k": "grande",
+     "txt": "Art.",
+     "cue": "el articulo quince",
+     "px": 150,
+     "color": "var(--fg)",
+     "an": "sube"
+    },
+    {
+     "k": "grande",
+     "txt": "15",
+     "cue": "quince",
+     "px": 420
+    },
+    {
+     "k": "mono",
+     "txt": "Ley 17/2015 · Sistema Nacional de Protección Civil",
+     "cue": "de la ley"
+    },
+    {
+     "k": "boton",
+     "txt": "Los Planes de Protección Civil",
+     "cue": "los planes de proteccion",
+     "ico": "fileSearch"
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Sin rodeos"
+    },
+    {
+     "k": "tit",
+     "txt": "Te lo dejo en <em>4 ideas</em>",
+     "cue": "te lo dejo",
+     "cls": "t150"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "01",
+     "txt": "Idea 1 de 4",
+     "cue": "uno"
+    },
+    {
+     "k": "tit",
+     "txt": "Plan <em>Estatal General</em>",
+     "cue": "el plan estatal"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "users",
+     "txt": "Apoyo de la AGE y dirección en emergencias de <em>interés nacional</em>",
+     "cue": "organiza",
+     "px": 54
+    },
+    {
+     "k": "tarjeta",
+     "ico": "gavel",
+     "txt": "Lo aprueba el <em>Gobierno</em>",
+     "cue": "lo aprueba",
+     "px": 64
+    },
+    {
+     "k": "nota",
+     "txt": "→ a propuesta del Ministro del Interior",
+     "cue": "a propuesta"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "02",
+     "txt": "Idea 2 de 4",
+     "cue": "dos"
+    },
+    {
+     "k": "tit",
+     "txt": "Planes <em>Territoriales</em>",
+     "cue": "los planes territoriales"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Comunidad autónoma",
+       "comunidad autonoma"
+      ],
+      [
+       "Entidad local",
+       "entidad local"
+      ]
+     ],
+     "on": true
+    },
+    {
+     "k": "tarjeta",
+     "ico": "gavel",
+     "txt": "Los aprueba la <em>Administración competente</em>",
+     "cue": "y los aprueba",
+     "px": 58
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "03",
+     "txt": "Idea 3 de 4",
+     "cue": "tres"
+    },
+    {
+     "k": "tit",
+     "txt": "Planes <em>Especiales</em>",
+     "cue": "los planes especiales"
+    },
+    {
+     "k": "mono",
+     "txt": "Para riesgos concretos",
+     "cue": "para riesgos"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Inundaciones",
+       "inundaciones"
+      ],
+      [
+       "Terremotos",
+       "terremotos"
+      ],
+      [
+       "Incendios forestales",
+       "incendios"
+      ],
+      [
+       "Nucleares o químicos",
+       "accidentes nucleares"
+      ],
+      [
+       "Mercancías peligrosas",
+       "mercancias"
+      ]
+     ],
+     "on": false
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "04",
+     "txt": "Idea 4 de 4",
+     "cue": "cuatro"
+    },
+    {
+     "k": "tit",
+     "txt": "Planes de <em>Autoprotección</em>",
+     "cue": "los planes de autoproteccion"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Centros",
+       "centros"
+      ],
+      [
+       "Establecimientos",
+       "establecimientos"
+      ],
+      [
+       "Instalaciones",
+       "instalaciones"
+      ]
+     ],
+     "on": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Y ahora, la trampa",
+     "cue": "y ahora",
+     "aviso": true
+    },
+    {
+     "k": "trampa",
+     "ceja": "Siempre planes especiales estatales",
+     "px": 60,
+     "cue": "el riesgo nuclear",
+     "l": [
+      [
+       "alert",
+       "Riesgo <em>nuclear</em>",
+       "nuclear"
+      ],
+      [
+       "alert",
+       "Conflicto <em>bélico</em>",
+       "conflicto"
+      ]
+     ]
+    },
+    {
+     "k": "tarjeta",
+     "ico": "x",
+     "txt": "Plan Estatal: <em>no</em> lo aprueba el Ministro",
+     "cue": "no lo aprueba",
+     "px": 54
+    },
+    {
+     "k": "tarjeta",
+     "ico": "check",
+     "txt": "Lo aprueba el <em>Gobierno</em>",
+     "cue": "lo aprueba el gobierno",
+     "px": 54
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Repaso en 10 segundos"
+    },
+    {
+     "k": "tit",
+     "txt": "Repasamos",
+     "cue": "repasamos",
+     "cls": "t150"
+    },
+    {
+     "k": "repaso",
+     "l": [
+      [
+       "Estatal",
+       "Gobierno",
+       "estatal",
+       true
+      ],
+      [
+       "Territoriales",
+       "CA o ent. local",
+       "territoriales"
+      ],
+      [
+       "Especiales",
+       "Por riesgos",
+       "especiales"
+      ],
+      [
+       "Autoprotección",
+       "Centros",
+       "y autoproteccion"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "cierre"
+    }
+   ]
+  }
+ ]
+}

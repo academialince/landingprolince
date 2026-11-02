@@ -1,0 +1,388 @@
+{
+ "nombre": "articulo-principios-basicos",
+ "titulo": "Los principios básicos de actuación (art. 5 LO 2/1986)",
+ "top": "2",
+ "veces": {
+  "2017": 2,
+  "2018": 2,
+  "2019": 1,
+  "2020": 0,
+  "2021": 0,
+  "2022": 1,
+  "2023": 0,
+  "2024": 1,
+  "2025": 0,
+  "2026": 1
+ },
+ "cue_veces": "veces",
+ "portada_escena": 2,
+ "escenas": [
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Examen Guardia Civil"
+    },
+    {
+     "k": "lineas",
+     "cls": "t120",
+     "l": [
+      [
+       "Hay un artículo",
+       "hay un"
+      ],
+      [
+       "que todo",
+       "que todo"
+      ],
+      [
+       "guardia civil",
+       "guardia civil"
+      ],
+      [
+       "lleva <em>grabado</em>…",
+       "lleva"
+      ]
+     ]
+    },
+    {
+     "k": "tit",
+     "txt": "<em>Y el Tribunal lo sabe</em>",
+     "cue": "y el tribunal"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Histórico de exámenes 2017–2026"
+    },
+    {
+     "k": "historico",
+     "cue": "ha caido"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Los artículos que más caen · Tema 15"
+    },
+    {
+     "k": "grande",
+     "txt": "Art.",
+     "cue": "el articulo cinco",
+     "px": 150,
+     "color": "var(--fg)",
+     "an": "sube"
+    },
+    {
+     "k": "grande",
+     "txt": "5",
+     "cue": "cinco",
+     "px": 420
+    },
+    {
+     "k": "mono",
+     "txt": "LO 2/1986 · Fuerzas y Cuerpos de Seguridad",
+     "cue": "de la ley"
+    },
+    {
+     "k": "boton",
+     "txt": "Principios básicos de actuación",
+     "cue": "los principios",
+     "ico": "scale"
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Sin rodeos"
+    },
+    {
+     "k": "tit",
+     "txt": "Los <em>4 bloques</em> que más caen",
+     "cue": "te dejo",
+     "cls": "t120"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "01",
+     "txt": "Bloque 1 de 4",
+     "cue": "uno"
+    },
+    {
+     "k": "tit",
+     "txt": "Adecuación al <em>ordenamiento</em>",
+     "cue": "adecuacion"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Fidelidad a la Constitución",
+       "fidelidad"
+      ],
+      [
+       "Neutralidad política",
+       "neutralidad"
+      ],
+      [
+       "Imparcialidad",
+       "imparcialidad"
+      ]
+     ],
+     "on": false
+    },
+    {
+     "k": "tarjeta",
+     "ico": "scale",
+     "txt": "La obediencia debida <em>nunca</em> ampara órdenes",
+     "cue": "y la obediencia",
+     "px": 62
+    },
+    {
+     "k": "nota",
+     "txt": "→ que constituyan delito",
+     "cue": "que constituyan"
+    },
+    {
+     "k": "nota",
+     "txt": "→ o contrarias a la Constitución o a las leyes",
+     "cue": "o sean contrarias"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "02",
+     "txt": "Bloque 2 de 4",
+     "cue": "dos"
+    },
+    {
+     "k": "tit",
+     "txt": "Relaciones con la <em>comunidad</em>",
+     "cue": "relaciones con"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "users",
+     "txt": "Trato correcto y esmerado",
+     "cue": "trato correcto",
+     "px": 68
+    },
+    {
+     "k": "tarjeta",
+     "ico": "hourglass",
+     "txt": "Sin demora ante un daño grave",
+     "cue": "y actuar",
+     "px": 64
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Congruencia",
+       "congruencia"
+      ],
+      [
+       "Oportunidad",
+       "oportunidad"
+      ],
+      [
+       "Proporcionalidad",
+       "proporcionalidad"
+      ]
+     ],
+     "on": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "03",
+     "txt": "Bloque 3 de 4",
+     "cue": "tres"
+    },
+    {
+     "k": "tit",
+     "txt": "Tratamiento de <em>detenidos</em>",
+     "cue": "tratamiento"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "idCard",
+     "txt": "Identificarse al detener",
+     "cue": "identificarse",
+     "px": 70
+    },
+    {
+     "k": "tarjeta",
+     "ico": "user",
+     "txt": "Velar por su vida e integridad física",
+     "cue": "y velar",
+     "px": 66
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "04",
+     "txt": "Bloque 4 de 4",
+     "cue": "cuatro"
+    },
+    {
+     "k": "tit",
+     "txt": "Dedicación <em>profesional</em>",
+     "cue": "dedicacion profesional"
+    },
+    {
+     "k": "grande",
+     "txt": "Siempre",
+     "cue": "intervenir",
+     "px": 200
+    },
+    {
+     "k": "mono",
+     "txt": "En cualquier tiempo y lugar",
+     "cue": "en cualquier"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "De servicio",
+       "de servicio"
+      ],
+      [
+       "Fuera de servicio",
+       "o no"
+      ]
+     ],
+     "on": true
+    },
+    {
+     "k": "tarjeta",
+     "ico": "fileSearch",
+     "txt": "+ Secreto profesional",
+     "cue": "y guardar",
+     "px": 66
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Y ahora, la trampa",
+     "cue": "y ahora",
+     "aviso": true
+    },
+    {
+     "k": "tit",
+     "txt": "¿Cuándo usar las <em style=\"color:var(--warning)\">armas</em>?",
+     "cue": "las armas"
+    },
+    {
+     "k": "trampa",
+     "ceja": "Solo ante",
+     "px": 54,
+     "cue": "solo ante",
+     "l": [
+      [
+       "alert",
+       "Riesgo <em>racionalmente grave</em>",
+       "un riesgo",
+       "para la vida o integridad, propias o de terceros"
+      ],
+      [
+       "alert",
+       "Grave riesgo para la <em>seguridad ciudadana</em>",
+       "o ante un grave"
+      ]
+     ]
+    },
+    {
+     "k": "sino",
+     "px": 62,
+     "si": [
+      "Relaciones con la comunidad",
+      "y va en"
+     ],
+     "no": [
+      "Tratamiento de detenidos",
+      "no en detenidos"
+     ]
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Repaso en 10 segundos"
+    },
+    {
+     "k": "tit",
+     "txt": "Repasamos",
+     "cue": "repasamos",
+     "cls": "t150"
+    },
+    {
+     "k": "repaso",
+     "l": [
+      [
+       "1 · Ordenamiento",
+       "Obediencia ≠ delito",
+       "ordenamiento"
+      ],
+      [
+       "2 · Comunidad",
+       "Congruencia y proporción",
+       "comunidad"
+      ],
+      [
+       "3 · Detenidos",
+       "Identificarse y velar",
+       "detenidos"
+      ],
+      [
+       "4 · Dedicación",
+       "Siempre + secreto",
+       "y dedicacion"
+      ],
+      [
+       "Armas",
+       "Solo riesgo grave",
+       "y las armas",
+       true
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "cierre"
+    }
+   ]
+  }
+ ]
+}

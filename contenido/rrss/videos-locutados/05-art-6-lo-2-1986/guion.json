@@ -1,0 +1,340 @@
+{
+ "nombre": "articulo-disposiciones-estatutarias",
+ "titulo": "Disposiciones estatutarias comunes (art. 6 LO 2/1986)",
+ "top": "5",
+ "veces": {
+  "2017": 2,
+  "2018": 2,
+  "2019": 1,
+  "2020": 0,
+  "2021": 0,
+  "2022": 1,
+  "2023": 1,
+  "2024": 0,
+  "2025": 0,
+  "2026": 0
+ },
+ "cue_veces": "veces",
+ "portada_escena": 2,
+ "escenas": [
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Examen Guardia Civil"
+    },
+    {
+     "k": "lineas",
+     "cls": "t150",
+     "l": [
+      [
+       "¿Puede un guardia",
+       "puede un guardia"
+      ],
+      [
+       "civil hacer <em>huelga</em>?",
+       "hacer huelga"
+      ]
+     ]
+    },
+    {
+     "k": "tit",
+     "txt": "La respuesta está en <em>un solo artículo</em>",
+     "cue": "la respuesta",
+     "cls": "t88"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Histórico de exámenes 2017–2026"
+    },
+    {
+     "k": "historico",
+     "cue": "este articulo"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Los artículos que más caen · Tema 15"
+    },
+    {
+     "k": "grande",
+     "txt": "Art.",
+     "cue": "el articulo seis",
+     "px": 150,
+     "color": "var(--fg)",
+     "an": "sube"
+    },
+    {
+     "k": "grande",
+     "txt": "6",
+     "cue": "seis",
+     "px": 420
+    },
+    {
+     "k": "mono",
+     "txt": "LO 2/1986 · Fuerzas y Cuerpos de Seguridad",
+     "cue": "de la ley"
+    },
+    {
+     "k": "boton",
+     "txt": "Disposiciones estatutarias comunes",
+     "cue": "las disposiciones",
+     "ico": "idCard"
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Sin rodeos"
+    },
+    {
+     "k": "tit",
+     "txt": "Te lo dejo en <em>4 ideas</em>",
+     "cue": "te lo dejo",
+     "cls": "t150"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "01",
+     "txt": "Idea 1 de 4",
+     "cue": "uno"
+    },
+    {
+     "k": "tit",
+     "txt": "Promoción <em>profesional</em>",
+     "cue": "la promocion"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Objetividad",
+       "objetividad"
+      ],
+      [
+       "Igualdad de oportunidades",
+       "igualdad"
+      ],
+      [
+       "Mérito",
+       "merito"
+      ],
+      [
+       "Capacidad",
+       "capacidad"
+      ]
+     ],
+     "on": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "02",
+     "txt": "Idea 2 de 4",
+     "cue": "dos"
+    },
+    {
+     "k": "tit",
+     "txt": "La <em>Constitución</em>",
+     "cue": "la constitucion"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "scale",
+     "txt": "Jurar o prometer <em>acatamiento</em>",
+     "cue": "deben jurar",
+     "px": 64
+    },
+    {
+     "k": "nota",
+     "txt": "→ como norma fundamental del Estado",
+     "cue": "como norma"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "03",
+     "txt": "Idea 3 de 4",
+     "cue": "tres"
+    },
+    {
+     "k": "tit",
+     "txt": "Remuneración <em>justa</em>",
+     "cue": "una remuneracion"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Formación",
+       "formacion"
+      ],
+      [
+       "Incompatibilidades",
+       "incompatibilidades"
+      ],
+      [
+       "Movilidad",
+       "movilidad"
+      ],
+      [
+       "Dedicación",
+       "dedicacion"
+      ],
+      [
+       "Riesgo",
+       "riesgo"
+      ]
+     ],
+     "on": false
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "04",
+     "txt": "Idea 4 de 4",
+     "cue": "cuatro"
+    },
+    {
+     "k": "tit",
+     "txt": "Puestos de <em>trabajo</em>",
+     "cue": "los puestos"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Mérito",
+       "merito"
+      ],
+      [
+       "Capacidad",
+       "capacidad"
+      ],
+      [
+       "Antigüedad",
+       "antiguedad"
+      ]
+     ],
+     "on": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Y ahora, la trampa",
+     "cue": "y ahora",
+     "aviso": true
+    },
+    {
+     "k": "trampa",
+     "ceja": "Huelga: en ningún caso",
+     "px": 58,
+     "cue": "la huelga",
+     "l": [
+      [
+       "x",
+       "Ni huelga",
+       "no pueden"
+      ],
+      [
+       "x",
+       "Ni acciones <em>sustitutivas o concertadas</em>",
+       "ni acciones"
+      ]
+     ]
+    },
+    {
+     "k": "sino",
+     "px": 58,
+     "si": [
+      "Antigüedad → puestos",
+      "la antiguedad"
+     ],
+     "no": [
+      "Antigüedad → promoción",
+      "no para"
+     ]
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Repaso en 10 segundos"
+    },
+    {
+     "k": "tit",
+     "txt": "Repasamos",
+     "cue": "repasamos",
+     "cls": "t150"
+    },
+    {
+     "k": "repaso",
+     "l": [
+      [
+       "Promoción",
+       "Mérito y capacidad",
+       "promocion"
+      ],
+      [
+       "Constitución",
+       "Jurar o prometer",
+       "constitucion"
+      ],
+      [
+       "Remuneración",
+       "Justa",
+       "remuneracion"
+      ],
+      [
+       "Puestos",
+       "+ Antigüedad",
+       "puestos"
+      ],
+      [
+       "Huelga",
+       "Nunca",
+       "y huelga",
+       true
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "cierre"
+    }
+   ]
+  }
+ ]
+}

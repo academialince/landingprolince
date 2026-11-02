@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+<meta charset="utf-8">
+<title>Definiciones de la Ley del Patrimonio Natural (art. 3 Ley 42/2007) · vídeo locutado</title>
+<!--
+  Vídeo vertical 1080×1920 locutado (voz de ElevenLabs «Dani - Energetic Spanish YouTuber», toma 1).
+  Estética copiada de prolinceacademia.com en modo oscuro (bloque .tactico de src/app/globals.css):
+  fondo #090e0a con rejilla táctica, verde #35ab6c, Barlow Condensed 800 en mayúsculas para los
+  titulares, JetBrains Mono para las etiquetas «// …», Manrope para el texto, marcos de visor en
+  escuadra, botones con la esquina cortada y rayas de precaución.
+  Las escenas se sincronizan con los tiempos de palabra de la transcripción (palabras.js).
+  render.mjs llama a window.render(t) fotograma a fotograma; en el navegador se reproduce con el audio.
+-->
+<style>
+  @font-face { font-family: "Barlow Condensed"; font-weight: 700; font-display: block; src: url(fuentes/barlow-condensed-700.woff2) format("woff2"); }
+  @font-face { font-family: "Barlow Condensed"; font-weight: 800; font-display: block; src: url(fuentes/barlow-condensed-800.woff2) format("woff2"); }
+  @font-face { font-family: "JetBrains Mono"; font-weight: 700; font-display: block; src: url(fuentes/jetbrains-mono-700.woff2) format("woff2"); }
+  @font-face { font-family: "Manrope"; font-weight: 200 800; font-display: block; src: url(fuentes/manrope-variable.woff2) format("woff2"); }
+
+  /* Tokens de .tactico[data-tema="oscuro"] convertidos de oklch a hex */
+  :root {
+    --bg: #090e0a; --fg: #ecf0eb; --surface: #111712; --subtle: #0c120d; --tinted: #121b13;
+    --primary: #35ab6c; --primary-fg: #071009; --soft: #0e2e1c; --soft-fg: #9ae5b5; --deep: #030604;
+    --muted-fg: #a5ada5; --border: #262e27; --border-strong: #404b42; --warning: #f7b83d; --danger: #e5484d;
+    --display: "Barlow Condensed", Manrope, sans-serif; --hud: "JetBrains Mono", ui-monospace, monospace; --sans: Manrope, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #000; }
+  body { display: grid; place-items: center; min-height: 100vh; overflow: hidden; }
+  body.render { display: block; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); color: var(--fg);
+           font-family: var(--sans); -webkit-font-smoothing: antialiased; transform-origin: center; }
+  body.render #stage { transform: none !important; }
+  .abs { position: absolute; }
+
+  /* Fondo: rejilla de mapa táctico, halo verde y oscurecido abajo */
+  #rejilla { inset: -96px 0 0 0; background-image:
+      linear-gradient(color-mix(in oklch, var(--primary) 9%, transparent) 2px, transparent 2px),
+      linear-gradient(90deg, color-mix(in oklch, var(--primary) 9%, transparent) 2px, transparent 2px);
+    background-size: 96px 96px; }
+  #halo { width: 1500px; height: 1500px; border-radius: 50%; background: radial-gradient(circle, color-mix(in oklch, var(--primary) 26%, transparent) 0%, transparent 62%); }
+  #sombra { inset: 0; background: linear-gradient(180deg, transparent 55%, color-mix(in oklch, var(--deep) 85%, transparent) 100%); }
+  #leon { width: 1050px; right: -300px; bottom: 120px; opacity: .06; filter: grayscale(1) brightness(1.6); }
+
+  /* Visor fijo */
+  #marco { inset: 56px; pointer-events: none;
+    --l: 64px; --g: 3px; --c: var(--primary);
+    background:
+      linear-gradient(var(--c), var(--c)) top left / var(--l) var(--g), linear-gradient(var(--c), var(--c)) top left / var(--g) var(--l),
+      linear-gradient(var(--c), var(--c)) top right / var(--l) var(--g), linear-gradient(var(--c), var(--c)) top right / var(--g) var(--l),
+      linear-gradient(var(--c), var(--c)) bottom left / var(--l) var(--g), linear-gradient(var(--c), var(--c)) bottom left / var(--g) var(--l),
+      linear-gradient(var(--c), var(--c)) bottom right / var(--l) var(--g), linear-gradient(var(--c), var(--c)) bottom right / var(--g) var(--l);
+    background-repeat: no-repeat; }
+  #logo { left: 96px; top: 104px; width: 300px; }
+  #hudtop { right: 96px; top: 118px; display: flex; align-items: center; gap: 16px; font-family: var(--hud); font-weight: 700; font-size: 24px; letter-spacing: .16em; color: var(--primary); }
+  #rec { width: 16px; height: 16px; border-radius: 50%; background: var(--primary); box-shadow: 0 0 14px var(--primary); }
+  #hudbot { left: 96px; right: 96px; bottom: 104px; display: flex; justify-content: space-between; align-items: center;
+            font-family: var(--hud); font-weight: 700; font-size: 22px; letter-spacing: .16em; color: var(--muted-fg); }
+  #barra { left: 96px; right: 96px; bottom: 150px; height: 10px; background: var(--border); overflow: hidden; }
+  #barra i { display: block; height: 100%; width: 0; background: repeating-linear-gradient(-45deg, var(--primary) 0 10px, color-mix(in oklch, var(--primary) 55%, var(--bg)) 10px 20px); }
+
+  /* Escenas: área útil entre la cabecera y los subtítulos */
+  .escena { position: absolute; left: 96px; right: 96px; top: 300px; height: 1060px; display: flex; flex-direction: column; justify-content: center; gap: 34px; }
+  .ceja { font-family: var(--hud); font-weight: 700; font-size: 28px; letter-spacing: .16em; text-transform: uppercase; color: var(--primary); }
+  .ceja::before { content: "// "; opacity: .6; }
+  .ceja.aviso { color: var(--warning); }
+  .tit { font-family: var(--display); font-weight: 800; text-transform: uppercase; letter-spacing: .005em; line-height: .92; color: var(--fg); }
+  .tit em { font-style: normal; color: var(--primary); }
+  .t150 { font-size: 150px; } .t120 { font-size: 120px; } .t104 { font-size: 104px; } .t88 { font-size: 88px; }
+  .texto { font-size: 40px; line-height: 1.4; color: var(--muted-fg); }
+  .texto b { color: var(--fg); font-weight: 700; }
+  .mono { font-family: var(--hud); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+
+  .tarjeta { position: relative; background: color-mix(in oklch, var(--surface) 92%, transparent); border: 2px solid var(--border-strong); border-radius: 4px; padding: 34px 38px; }
+  .hud-marco::before { content: ""; position: absolute; inset: -14px; pointer-events: none; --l: 40px; --g: 3px; --c: var(--primary);
+    background:
+      linear-gradient(var(--c), var(--c)) top left / var(--l) var(--g), linear-gradient(var(--c), var(--c)) top left / var(--g) var(--l),
+      linear-gradient(var(--c), var(--c)) top right / var(--l) var(--g), linear-gradient(var(--c), var(--c)) top right / var(--g) var(--l),
+      linear-gradient(var(--c), var(--c)) bottom left / var(--l) var(--g), linear-gradient(var(--c), var(--c)) bottom left / var(--g) var(--l),
+      linear-gradient(var(--c), var(--c)) bottom right / var(--l) var(--g), linear-gradient(var(--c), var(--c)) bottom right / var(--g) var(--l);
+    background-repeat: no-repeat; }
+  .boton { display: inline-flex; align-items: center; gap: 18px; align-self: flex-start; padding: 26px 44px; background: var(--primary); color: var(--primary-fg);
+           font-family: var(--display); font-weight: 800; font-size: 54px; letter-spacing: .06em; text-transform: uppercase;
+           clip-path: polygon(16px 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px); }
+  .boton.borde { background: transparent; color: var(--primary); box-shadow: inset 0 0 0 3px var(--primary); }
+  .icono { flex: none; display: grid; place-items: center; width: 96px; height: 96px; border-radius: 4px; background: var(--soft); color: var(--primary); }
+  .icono svg, .boton svg, .ico svg { width: 52px; height: 52px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .fila { display: flex; align-items: center; gap: 30px; }
+
+  /* S2 · años */
+  .anios { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+  .anio { position: relative; padding: 18px 0; text-align: center; font-family: var(--hud); font-weight: 700; font-size: 30px; letter-spacing: .08em;
+          border: 2px solid var(--border-strong); border-radius: 4px; color: var(--muted-fg); background: var(--subtle); }
+  .anio.on { background: var(--soft); border-color: var(--primary); color: var(--fg); }
+  .anio sup { position: absolute; top: -14px; right: -10px; font-size: 22px; background: var(--primary); color: var(--primary-fg); padding: 2px 8px; border-radius: 2px; }
+  .contador { display: flex; align-items: baseline; gap: 26px; }
+  .contador .num { font-family: var(--display); font-weight: 800; font-size: 330px; line-height: .8; color: var(--primary); }
+  .contador .lab { font-family: var(--display); font-weight: 800; font-size: 96px; text-transform: uppercase; line-height: .9; }
+
+  /* S5 · cuatro ideas */
+  .cuatro { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .cuatro div { aspect-ratio: 1; display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 120px; color: var(--primary);
+                border: 3px solid var(--primary); border-radius: 4px; background: var(--soft); }
+
+  /* Ideas */
+  .idea-cab { display: flex; align-items: flex-end; gap: 30px; }
+  .idea-num { font-family: var(--display); font-weight: 800; font-size: 210px; line-height: .78; color: transparent; -webkit-text-stroke: 4px var(--primary); }
+  .respuesta { font-family: var(--display); font-weight: 800; font-size: 84px; line-height: .95; text-transform: uppercase; }
+  .nota { font-family: var(--hud); font-weight: 700; font-size: 28px; letter-spacing: .1em; text-transform: uppercase; color: var(--soft-fg); }
+  .trampa { border-color: var(--warning); }
+  .trampa .rayas { position: absolute; left: 0; right: 0; top: 0; height: 14px; background: repeating-linear-gradient(-45deg, var(--warning) 0 12px, transparent 12px 24px); opacity: .9; }
+  .trampa .ceja { margin-top: 10px; }
+  .par { display: flex; align-items: center; gap: 22px; font-family: var(--display); font-weight: 800; font-size: 70px; text-transform: uppercase; line-height: 1; }
+  .par .ico { color: var(--warning); display: grid; }
+  .par em { font-style: normal; color: var(--warning); }
+  .seis { display: flex; align-items: baseline; gap: 24px; }
+  .seis .num { font-family: var(--display); font-weight: 800; font-size: 360px; line-height: .78; color: var(--primary); }
+  .seis .lab { font-family: var(--display); font-weight: 800; font-size: 130px; line-height: .9; text-transform: uppercase; }
+  .tramos { display: flex; gap: 12px; }
+  .tramos i { flex: 1; height: 26px; background: var(--primary); clip-path: polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%); }
+  .tramos i + i { background: color-mix(in oklch, var(--primary) 45%, var(--bg)); }
+  .personas { display: flex; gap: 22px; align-items: center; }
+  .personas .icono { width: 150px; height: 150px; }
+  .personas .icono svg { width: 84px; height: 84px; }
+  .personas .mas { font-family: var(--display); font-weight: 800; font-size: 120px; color: var(--primary); }
+  .si-no { display: flex; flex-direction: column; gap: 22px; }
+  .si-no .op { display: flex; align-items: center; gap: 26px; font-family: var(--display); font-weight: 800; font-size: 96px; text-transform: uppercase; line-height: 1; }
+  .si-no .op .icono { width: 110px; height: 110px; }
+  .si-no .op.no { color: var(--muted-fg); }
+  .si-no .op.no .icono { background: color-mix(in oklch, var(--danger) 18%, var(--bg)); color: var(--danger); }
+  .si-no .op.no span { position: relative; }
+  .si-no .op.no span::after { content: ""; position: absolute; left: -6px; right: -6px; top: 52%; height: 8px; background: var(--danger); transform: scaleX(var(--tachon, 0)); transform-origin: left; }
+  .repaso { display: flex; flex-direction: column; gap: 20px; }
+  .repaso .r { display: flex; align-items: center; gap: 26px; padding: 26px 30px; }
+  .repaso .r .k { font-family: var(--hud); font-weight: 700; font-size: 26px; letter-spacing: .14em; color: var(--muted-fg); width: 230px; flex: none; }
+  .repaso .r .v { font-family: var(--display); font-weight: 800; font-size: 64px; text-transform: uppercase; line-height: 1; }
+  .repaso .r .icono { width: 76px; height: 76px; background: var(--primary); color: var(--primary-fg); }
+  .repaso .r .icono svg { width: 42px; height: 42px; stroke-width: 3; }
+  #s11 { align-items: center; text-align: center; }
+  #s11 .boton { align-self: center; }
+  .chips { display: flex; flex-wrap: wrap; gap: 16px; }
+  .chip { padding: 16px 26px; border: 2px solid var(--border-strong); border-radius: 3px; background: var(--subtle); font-family: var(--display); font-weight: 800; font-size: 46px; text-transform: uppercase; letter-spacing: .02em; }
+  .chip.on { border-color: var(--primary); background: var(--soft); color: var(--soft-fg); }
+  .repaso .r .k { width: 290px; white-space: nowrap; font-size: 23px; }
+  #s10 .repaso .r { padding: 20px 28px; }
+  #s10 .repaso .r .v { font-size: 56px; }
+
+  /* Subtítulos palabra a palabra (como en «Mi primer destino») */
+  #subs { left: 80px; right: 80px; top: 1390px; height: 230px; display: flex; align-items: center; justify-content: center; text-align: center; }
+  #subs div { font-family: var(--display); font-weight: 800; font-size: 82px; line-height: 1.02; text-transform: uppercase; }
+  #subs span { display: inline-block; margin: 0 .12em; color: var(--fg); -webkit-text-stroke: 10px var(--deep); paint-order: stroke fill; text-shadow: 0 10px 26px rgba(0,0,0,.8); }
+  #subs span.on { color: var(--soft-fg); }
+
+  #flash { inset: 0; background: radial-gradient(circle at 50% 45%, var(--soft-fg), var(--primary) 70%); mix-blend-mode: screen; opacity: 0; pointer-events: none; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="rejilla" class="abs"></div>
+  <div id="halo" class="abs"></div>
+  <img id="leon" class="abs" src="iso.svg" alt="">
+  <div id="sombra" class="abs"></div>
+
+  <section class="escena" id="s1" data-a="0.00" data-b="7.48">
+    <p class="ceja">Examen Guardia Civil</p>
+    <h1 class="tit t120"><span data-t="0.21" data-an="sube">Ecosistema</span><br><span data-t="1.36" data-an="sube">Corredor ecológico</span><br><span data-t="2.80" data-an="sube">In situ · <em>ex situ</em></span></h1>
+    <h2 class="tit t104" data-t="5.44" data-an="sube">¿Sabrías <em>definirlos</em>?</h2>
+  </section>
+
+  <section class="escena" id="s2" data-a="7.50" data-b="12.38">
+    <p class="ceja">Histórico de exámenes 2017–2026</p>
+    <div class="tarjeta hud-marco" data-t="7.56" data-an="sube"><p class="mono" style="font-size:26px;color:var(--muted-fg);margin-bottom:22px">Exámenes oficiales revisados</p><div class="anios" id="anios"></div></div>
+    <div class="contador" data-t="7.56" data-an="pop"><span class="num" id="cuenta">0</span><span class="lab">veces<br><span style="color:var(--muted-fg);font-size:56px">en exámenes oficiales</span></span></div>
+  </section>
+
+  <section class="escena" id="s3" data-a="12.40" data-b="17.67">
+    <p class="ceja">Los artículos que más caen · Tema 16</p>
+    <p class="tit" style="font-size:150px;line-height:.8;color:var(--fg)" data-t="12.46" data-an="sube">Art.</p>
+    <p class="tit" style="font-size:420px;line-height:.8;color:var(--primary)" data-t="13.04" data-an="golpe">3</p>
+    <p class="mono" style="font-size:34px;color:var(--fg)" data-t="13.36" data-an="sube">Ley 42/2007 · Patrimonio Natural y Biodiversidad</p>
+    <div class="boton" data-t="16.32" data-an="pop"><span data-icono="fileSearch"></span>Las definiciones</div>
+  </section>
+
+  <section class="escena" id="s4" data-a="17.69" data-b="19.44" style="align-items:center;text-align:center">
+    <p class="ceja">Sin rodeos</p>
+    <h2 class="tit t150" data-t="17.75" data-an="sube">Te lo dejo en <em>4 ideas</em></h2>
+  </section>
+
+  <section class="escena" id="s5" data-a="19.46" data-b="28.96">
+    <div class="idea-cab" data-t="19.52" data-an="golpe"><span class="idea-num">01</span><p class="ceja" style="padding-bottom:18px">Idea 1 de 4</p></div>
+    <h2 class="tit t104" data-t="20.16" data-an="sube"><em>Ecosistema</em></h2>
+    <div class="tarjeta hud-marco fila" data-t="21.20" data-an="izq"><span class="icono" data-icono="globe"></span><p class="respuesta" style="font-size:50px">Comunidades vegetales, animales y de microorganismos + su medio no viviente</p></div>
+    <div class="boton" data-t="27.12" data-an="pop"><span data-icono="target"></span>Unidad funcional</div>
+  </section>
+
+  <section class="escena" id="s6" data-a="28.98" data-b="39.84">
+    <div class="idea-cab" data-t="29.04" data-an="golpe"><span class="idea-num">02</span><p class="ceja" style="padding-bottom:18px">Idea 2 de 4</p></div>
+    <h2 class="tit t104" data-t="29.76" data-an="sube">Corredor <em>ecológico</em></h2>
+    <div class="tarjeta hud-marco fila" data-t="31.12" data-an="izq"><span class="icono" data-icono="arrowRight"></span><p class="respuesta" style="font-size:58px">Conecta espacios naturales <em>separados</em></p></div>
+    <div class="chips"><span class="chip on" data-t="36.28" data-an="pop">Intercambio genético</span><span class="chip on" data-t="37.72" data-an="pop">Migración</span></div>
+  </section>
+
+  <section class="escena" id="s7" data-a="39.86" data-b="46.40">
+    <div class="idea-cab" data-t="39.92" data-an="golpe"><span class="idea-num">03</span><p class="ceja" style="padding-bottom:18px">Idea 3 de 4</p></div>
+    <h2 class="tit t104" data-t="40.68" data-an="sube">Conservación <em>in situ</em></h2>
+    <div class="tarjeta hud-marco fila" data-t="42.40" data-an="izq"><span class="icono" data-icono="check"></span><p class="respuesta" style="font-size:66px">En sus <em>entornos naturales</em></p></div>
+  </section>
+
+  <section class="escena" id="s8" data-a="46.42" data-b="53.50">
+    <div class="idea-cab" data-t="46.48" data-an="golpe"><span class="idea-num">04</span><p class="ceja" style="padding-bottom:18px">Idea 4 de 4</p></div>
+    <h2 class="tit t104" data-t="47.24" data-an="sube">Conservación <em>ex situ</em></h2>
+    <div class="tarjeta hud-marco fila" data-t="49.04" data-an="izq"><span class="icono" data-icono="arrowRight"></span><p class="respuesta" style="font-size:66px"><em>Fuera</em> de sus hábitats naturales</p></div>
+  </section>
+
+  <section class="escena" id="s9" data-a="53.52" data-b="65.76">
+    <p class="ceja aviso" data-t="53.58">Y ahora, la trampa</p>
+    <div class="tarjeta trampa" data-t="55.36" data-an="tiembla"><div class="rayas"></div><p class="ceja aviso" style="margin-bottom:6px">No las cambies</p><div data-t="56.40" data-an="izq" style="margin-top:16px"><div class="par" style="font-size:66px"><span class="ico" data-icono="check"></span><span>In situ → <em>dentro</em></span></div></div><div data-t="59.84" data-an="izq" style="margin-top:16px"><div class="par" style="font-size:66px"><span class="ico" data-icono="check"></span><span>Ex situ → <em>fuera</em></span></div></div></div>
+    <div class="tarjeta hud-marco fila" data-t="61.76" data-an="izq"><span class="icono" data-icono="fileSearch"></span><p class="respuesta" style="font-size:54px">Taxón: grupo de organismos con <em>características comunes</em></p></div>
+  </section>
+
+  <section class="escena" id="s10" data-a="65.78" data-b="75.26">
+    <p class="ceja">Repaso en 10 segundos</p>
+    <h2 class="tit t150" data-t="65.84" data-an="sube">Repasamos</h2>
+    <div class="repaso"><div class="r tarjeta" data-t="66.80" data-an="izq"><span class="icono" data-icono="check"></span><span class="k">Ecosistema</span><span class="v">Unidad funcional</span></div><div class="r tarjeta" data-t="69.12" data-an="izq"><span class="icono" data-icono="check"></span><span class="k">Corredor</span><span class="v">Conecta espacios</span></div><div class="r tarjeta trampa" data-t="71.76" data-an="izq"><span class="icono" style="background:var(--warning)" data-icono="alert"></span><span class="k" style="color:var(--warning)">In situ</span><span class="v">Dentro</span></div><div class="r tarjeta trampa" data-t="73.48" data-an="izq"><span class="icono" style="background:var(--warning)" data-icono="alert"></span><span class="k" style="color:var(--warning)">Ex situ</span><span class="v">Fuera</span></div></div>
+  </section>
+
+  <section class="escena" id="s11" data-a="75.28" data-b="999.00" style="align-items:center;text-align:center">
+    <img src="iso.svg" alt="" style="width:230px;align-self:center" data-t="75.34" data-an="pop">
+    <h2 class="tit t120" data-t="75.34" data-an="sube">Guárdalo para tu <em>repaso</em></h2>
+    <p class="texto" data-t="77.24" data-an="sube">Practica con <b>todas las preguntas oficiales</b>, simulacros y estadísticas por tema.</p>
+    <div class="boton" data-t="80.21" data-an="pop">7 días gratis <span data-icono="arrowRight"></span></div>
+    <p class="mono" style="font-size:40px;color:var(--primary)" data-t="81.76" data-an="sube">prolinceacademia.com</p>
+  </section>
+
+  <!-- Visor fijo -->
+  <div id="marco" class="abs"></div>
+  <img id="logo" class="abs" src="logo-negativo.svg" alt="ProLince Academia">
+  <div id="hudtop" class="abs"><i id="rec"></i><span>Top 30 · Nº 4</span></div>
+  <div id="barra" class="abs"><i></i></div>
+  <div id="hudbot" class="abs"><span id="tc">// 00:00</span><span>@academiaprolince</span></div>
+  <div id="subs" class="abs"><div></div></div>
+  <div id="flash" class="abs"></div>
+</div>
+<audio id="voz" src="locucion.mp3" preload="auto"></audio>
+
+<script src="palabras.js"></script>
+<script>
+const ICONOS = {
+  gavel: '<path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381"/><path d="m16 16 6-6"/><path d="m21.5 10.5-8-8"/><path d="m8 8 6-6"/><path d="m8.5 7.5 8 8"/>',
+  scale: '<path d="M12 3v18"/><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"/><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M7 21h10"/>',
+  idCard: '<path d="M13 19a4 4 0 00-8 0"/><path d="M16 10h2"/><path d="M16 14h2"/><circle cx="9" cy="12" r="3"/><rect x="2" y="5" width="20" height="14" rx="2"/>',
+  alert: '<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>',
+  hourglass: '<path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/>',
+  users: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/>',
+  user: '<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>',
+  mask: '<path d="M14 18a2 2 0 0 0-4 0"/><path d="m19 11-2.11-6.657a2 2 0 0 0-2.752-1.148l-1.276.61A2 2 0 0 1 12 4H8.5a2 2 0 0 0-1.925 1.456L5 11"/><path d="M2 11h20"/><circle cx="17" cy="18" r="3"/><circle cx="7" cy="18" r="3"/>',
+  globe: '<circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>',
+  check: '<path d="M20 6 9 17l-5-5"/>',
+  x: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
+  repeat: '<path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/>',
+  bookmark: '<path d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z"/>',
+  target: '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
+  arrowRight: '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
+  laptop: '<path d="M18 5a2 2 0 0 1 2 2v8.526a2 2 0 0 0 .212.897l1.068 2.127a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45l1.068-2.127A2 2 0 0 0 4 15.526V7a2 2 0 0 1 2-2z"/><path d="M20.054 15.987H3.946"/>',
+  fileSearch: '<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><circle cx="11.5" cy="14.5" r="2.5"/><path d="M13.3 16.3 15 18"/>',
+};
+const FIN = 84.55;     // fin de la locución + cola para el cierre
+const FPS = 30;
+
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+$$("[data-icono]").forEach((el) => { el.insertAdjacentHTML("afterbegin", `<svg viewBox="0 0 24 24">${ICONOS[el.dataset.icono]}</svg>`); });
+
+/* Años del histórico: veces que cayó el artículo en cada convocatoria */
+const VECES = {"2017": 0, "2018": 0, "2019": 0, "2020": 1, "2021": 3, "2022": 0, "2023": 1, "2024": 1, "2025": 1, "2026": 1};
+$("#anios").innerHTML = Object.keys(VECES).map((a) => `<div class="anio" data-anio="${a}">${a}${VECES[a] ? `<sup>×${VECES[a]}</sup>` : ""}</div>`).join("");
+$$(".anio sup").forEach((s) => (s.style.opacity = 0));
+
+/* ── utilidades ── */
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const p = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (x) => 1 - Math.pow(1 - x, 4);
+const back = (x) => { const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+
+/* Cada elemento con data-t aparece en ese segundo con su animación (data-an) */
+function animar(el, t) {
+  const t0 = parseFloat(el.dataset.t), an = el.dataset.an || "sube";
+  const k = p(t, t0, t0 + (an === "golpe" ? 0.35 : 0.45));
+  let o = clamp(k * 1.6), tr = "";
+  if (an === "sube") { const e = ease(k); tr = `translateY(${(1 - e) * 46}px)`; }
+  else if (an === "izq") { const e = ease(k); tr = `translateX(${(1 - e) * -70}px)`; }
+  else if (an === "pop") { const e = back(k); tr = `scale(${0.55 + 0.45 * e})`; }
+  else if (an === "golpe") { const e = ease(k); tr = `scale(${1.6 - 0.6 * e})`; o = clamp(k * 3); }
+  else if (an === "tiembla") { const e = back(k); const s = t > t0 + 0.4 && t < t0 + 0.9 ? Math.sin((t - t0) * 70) * 8 * (1 - p(t, t0 + 0.4, t0 + 0.9)) : 0; tr = `translateX(${s}px) scale(${0.8 + 0.2 * e})`; }
+  el.style.opacity = o;
+  el.style.transform = tr;
+}
+
+function render(t) {
+  // Fondo y visor
+  $("#rejilla").style.transform = `translateY(${(t * 18) % 96}px)`;
+  const h = $("#halo"); h.style.left = `${-260 + 140 * Math.sin(t * 0.45)}px`; h.style.top = `${200 + 160 * Math.cos(t * 0.35)}px`;
+  $("#rec").style.opacity = (t % 1.6) < 0.98 ? 1 : 0.2;
+  $("#barra i").style.width = `${clamp(t / 83.6) * 100}%`;
+  const s = Math.floor(t); $("#tc").textContent = `// 00:${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
+
+  // Escenas: entrada con empuje de cámara y desenfoque; salida en fundido
+  let flash = 0;
+  $$(".escena").forEach((sc) => {
+    const a = +sc.dataset.a, b = +sc.dataset.b;
+    const vis = t >= a - 0.01 && t < b;
+    sc.style.visibility = vis ? "visible" : "hidden";
+    if (!vis) return;
+    const k = ease(p(t, a, a + 0.32));
+    const out = p(t, b - 0.18, b);
+    sc.style.transform = `scale(${1.08 - 0.08 * k})`;
+    sc.style.filter = `blur(${(1 - k) * 12}px)`;
+    sc.style.opacity = clamp(k * 2) * (1 - out);
+    if (a > 0) flash = Math.max(flash, 1 - p(t, a, a + 0.22));
+    $$("[data-t]", sc).forEach((el) => animar(el, t));
+  });
+  $("#flash").style.opacity = flash * 0.35;
+
+  // S2: años que se encienden y contador al decir las veces
+  const orden = ["2020", "2021", "2023", "2024", "2025", "2026"];
+  $$(".anio").forEach((el) => {
+    const i = orden.indexOf(el.dataset.anio);
+    const on = i >= 0 && t >= 8.94 + i * 0.12;
+    el.classList.toggle("on", on);
+    const sup = $("sup", el); if (sup) sup.style.opacity = on ? 1 : 0;
+  });
+  $("#cuenta").textContent = Math.round(8 * ease(p(t, 8.94, 9.94)));
+
+
+  // Subtítulos sincronizados palabra a palabra
+  const sub = $("#subs div");
+  const i = PAGINAS.findIndex((pg, n) => t >= pg[0].a - 0.05 && t < (PAGINAS[n + 1] ? PAGINAS[n + 1][0].a - 0.05 : 1e9));
+  const pg = PAGINAS[i];
+  if (!pg || t > pg[pg.length - 1].b + 0.4) { sub.innerHTML = ""; }
+  else {
+    sub.innerHTML = pg.map((w) => `<span class="${t >= w.a && t < w.b + 0.06 ? "on" : ""}">${w.t}</span>`).join(" ");
+    sub.style.transform = `scale(${0.88 + 0.12 * back(p(t, pg[0].a - 0.05, pg[0].a + 0.1))})`;
+  }
+}
+window.render = render;
+window.VIDEO = { DUR: FIN, FPS, PORTADA: 15.4 };
+
+if (!/[?&]render\b/.test(location.search)) {
+  const fit = () => { $("#stage").style.transform = `scale(${Math.min(innerWidth / 1080, innerHeight / 1920)})`; };
+  addEventListener("resize", fit); fit();
+  const voz = $("#voz");
+  document.fonts.ready.then(() => {
+    render(0);
+    addEventListener("click", () => voz.play());          // el navegador exige un clic para sonar
+    const loop = () => { render(voz.paused && voz.currentTime === 0 ? 0 : voz.currentTime); requestAnimationFrame(loop); };
+    requestAnimationFrame(loop);
+  });
+} else {
+  document.body.classList.add("render");
+  render(0);
+}
+</script>
+</body>
+</html>

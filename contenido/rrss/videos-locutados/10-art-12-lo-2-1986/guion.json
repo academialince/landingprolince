@@ -1,0 +1,378 @@
+{
+ "nombre": "articulo-reparto-de-competencias",
+ "titulo": "Reparto de competencias CNP y Guardia Civil (art. 12 LO 2/1986)",
+ "top": "10",
+ "veces": {
+  "2017": 0,
+  "2018": 0,
+  "2019": 2,
+  "2020": 1,
+  "2021": 1,
+  "2022": 1,
+  "2023": 1,
+  "2024": 0,
+  "2025": 0,
+  "2026": 0
+ },
+ "cue_veces": "veces",
+ "portada_escena": 2,
+ "escenas": [
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Examen Guardia Civil"
+    },
+    {
+     "k": "lineas",
+     "cls": "t120",
+     "l": [
+      [
+       "Armas",
+       "armas"
+      ],
+      [
+       "Tráfico",
+       "trafico"
+      ],
+      [
+       "Drogas",
+       "drogas"
+      ],
+      [
+       "Pasaportes",
+       "pasaportes"
+      ]
+     ]
+    },
+    {
+     "k": "tit",
+     "txt": "¿Policía Nacional o <em>Guardia Civil</em>?",
+     "cue": "policia nacional",
+     "cls": "t88"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Histórico de exámenes 2017–2026"
+    },
+    {
+     "k": "historico",
+     "cue": "este articulo"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Los artículos que más caen · Tema 15"
+    },
+    {
+     "k": "grande",
+     "txt": "Art.",
+     "cue": "el articulo doce",
+     "px": 150,
+     "color": "var(--fg)",
+     "an": "sube"
+    },
+    {
+     "k": "grande",
+     "txt": "12",
+     "cue": "doce",
+     "px": 420
+    },
+    {
+     "k": "mono",
+     "txt": "LO 2/1986 · Fuerzas y Cuerpos de Seguridad",
+     "cue": "de la ley"
+    },
+    {
+     "k": "boton",
+     "txt": "El reparto de competencias",
+     "cue": "el reparto",
+     "ico": "scale"
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Sin rodeos"
+    },
+    {
+     "k": "tit",
+     "txt": "Te lo dejo en <em>4 ideas</em>",
+     "cue": "te lo dejo",
+     "cls": "t150"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "01",
+     "txt": "Idea 1 de 4",
+     "cue": "uno"
+    },
+    {
+     "k": "tit",
+     "txt": "Policía <em>Nacional</em>",
+     "cue": "la policia nacional"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "DNI",
+       "dni"
+      ],
+      [
+       "Pasaportes",
+       "los pasaportes"
+      ],
+      [
+       "Entrada y salida",
+       "el control de entrada"
+      ]
+     ],
+     "on": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "02",
+     "txt": "Idea 2 de 4",
+     "cue": "dos"
+    },
+    {
+     "k": "tit",
+     "txt": "También de la <em>Policía</em>",
+     "cue": "tambien de la policia"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Extranjería",
+       "extranjeria"
+      ],
+      [
+       "Refugio y asilo",
+       "refugio"
+      ],
+      [
+       "Extradición",
+       "extradicion"
+      ],
+      [
+       "Expulsión",
+       "expulsion"
+      ],
+      [
+       "Emigración e inmigración",
+       "emigracion"
+      ]
+     ],
+     "on": false
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Juego",
+       "el juego"
+      ],
+      [
+       "Drogas",
+       "las drogas"
+      ],
+      [
+       "Seguridad privada",
+       "el control de la seguridad"
+      ]
+     ],
+     "on": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "03",
+     "txt": "Idea 3 de 4",
+     "cue": "tres"
+    },
+    {
+     "k": "tit",
+     "txt": "Guardia <em>Civil</em>",
+     "cue": "la guardia civil"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Armas y explosivos",
+       "armas y"
+      ],
+      [
+       "Resguardo fiscal",
+       "resguardo"
+      ],
+      [
+       "Contrabando",
+       "contrabando"
+      ]
+     ],
+     "on": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "04",
+     "txt": "Idea 4 de 4",
+     "cue": "cuatro"
+    },
+    {
+     "k": "tit",
+     "txt": "También de la <em>Guardia Civil</em>",
+     "cue": "tambien de la guardia"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Tráfico interurbano",
+       "trafico en"
+      ],
+      [
+       "Costas",
+       "custodia de costas"
+      ],
+      [
+       "Fronteras",
+       "fronteras"
+      ],
+      [
+       "Puertos y aeropuertos",
+       "puertos"
+      ],
+      [
+       "Naturaleza",
+       "la naturaleza"
+      ],
+      [
+       "Conducción de presos",
+       "y la conduccion"
+      ]
+     ],
+     "on": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Y ahora, la trampa",
+     "cue": "y ahora",
+     "aviso": true
+    },
+    {
+     "k": "trampa",
+     "ceja": "No las mezcles",
+     "px": 56,
+     "cue": "la trampa",
+     "l": [
+      [
+       "alert",
+       "Drogas → <em>Policía Nacional</em>",
+       "las drogas son"
+      ],
+      [
+       "alert",
+       "Contrabando → <em>Guardia Civil</em>",
+       "pero el contrabando"
+      ],
+      [
+       "alert",
+       "DNI → <em>Policía Nacional</em>",
+       "y el dni"
+      ],
+      [
+       "alert",
+       "Armas → <em>Guardia Civil</em>",
+       "pero las armas"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Repaso en 10 segundos"
+    },
+    {
+     "k": "tit",
+     "txt": "Repasamos",
+     "cue": "repasamos",
+     "cls": "t150"
+    },
+    {
+     "k": "repaso",
+     "l": [
+      [
+       "Policía",
+       "Docs y extranjería",
+       "policia"
+      ],
+      [
+       "Policía",
+       "Juego y drogas",
+       "juego",
+       true
+      ],
+      [
+       "Guardia Civil",
+       "Armas y contrabando",
+       "guardia civil"
+      ],
+      [
+       "Guardia Civil",
+       "Tráfico y costas",
+       "trafico"
+      ],
+      [
+       "Guardia Civil",
+       "Naturaleza",
+       "y naturaleza"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "cierre"
+    }
+   ]
+  }
+ ]
+}

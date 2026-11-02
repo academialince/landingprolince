@@ -1,0 +1,321 @@
+{
+ "nombre": "articulo-ministro-del-interior",
+ "titulo": "Competencias del Ministro del Interior (art. 34 Ley 17/2015)",
+ "top": "8",
+ "veces": {
+  "2017": 1,
+  "2018": 1,
+  "2019": 2,
+  "2020": 0,
+  "2021": 0,
+  "2022": 1,
+  "2023": 1,
+  "2024": 1,
+  "2025": 0,
+  "2026": 0
+ },
+ "cue_veces": "veces",
+ "portada_escena": 2,
+ "escenas": [
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Examen Guardia Civil"
+    },
+    {
+     "k": "tit",
+     "txt": "¿Quién declara la emergencia de <em>interés nacional</em>?",
+     "cue": "quien declara"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "¿El Gobierno?",
+       "el gobierno"
+      ],
+      [
+       "¿El Presidente?",
+       "el presidente"
+      ]
+     ],
+     "on": false
+    },
+    {
+     "k": "grande",
+     "txt": "Ni uno ni otro",
+     "cue": "ni uno",
+     "px": 120,
+     "color": "var(--warning)"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Histórico de exámenes 2017–2026"
+    },
+    {
+     "k": "historico",
+     "cue": "este articulo"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Los artículos que más caen · Tema 16"
+    },
+    {
+     "k": "grande",
+     "txt": "Art.",
+     "cue": "el articulo treinta",
+     "px": 150,
+     "color": "var(--fg)",
+     "an": "sube"
+    },
+    {
+     "k": "grande",
+     "txt": "34",
+     "cue": "treinta y cuatro",
+     "px": 420
+    },
+    {
+     "k": "mono",
+     "txt": "Ley 17/2015 · Sistema Nacional de Protección Civil",
+     "cue": "de la ley"
+    },
+    {
+     "k": "boton",
+     "txt": "Competencias del Ministro del Interior",
+     "cue": "las competencias",
+     "ico": "user"
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Sin rodeos"
+    },
+    {
+     "k": "tit",
+     "txt": "Te lo dejo en <em>4 ideas</em>",
+     "cue": "te lo dejo",
+     "cls": "t150"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "01",
+     "txt": "Idea 1 de 4",
+     "cue": "uno"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Impulsa",
+       "impulsa"
+      ],
+      [
+       "Coordina",
+       "coordina"
+      ],
+      [
+       "Desarrolla",
+       "desarrolla"
+      ]
+     ],
+     "on": true
+    },
+    {
+     "k": "tit",
+     "txt": "La política de <em>protección civil</em>",
+     "cue": "la politica"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "02",
+     "txt": "Idea 2 de 4",
+     "cue": "dos"
+    },
+    {
+     "k": "tit",
+     "txt": "<em>Elabora</em>",
+     "cue": "elabora",
+     "cls": "t150"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Norma Básica",
+       "la norma"
+      ],
+      [
+       "Plan Estatal General",
+       "el plan estatal"
+      ],
+      [
+       "Planes Especiales estatales",
+       "los planes especiales"
+      ]
+     ],
+     "on": false
+    },
+    {
+     "k": "tarjeta",
+     "ico": "arrowRight",
+     "txt": "Y los <em>eleva al Gobierno</em>",
+     "cue": "y los eleva",
+     "px": 64
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "03",
+     "txt": "Idea 3 de 4",
+     "cue": "tres"
+    },
+    {
+     "k": "tit",
+     "txt": "Declara la emergencia de <em>interés nacional</em>",
+     "cue": "declara la emergencia"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "check",
+     "txt": "Y también su <em>finalización</em>",
+     "cue": "y tambien",
+     "px": 64
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "04",
+     "txt": "Idea 4 de 4",
+     "cue": "cuatro"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "users",
+     "txt": "Dispone la intervención de las <em>FCSE</em>",
+     "cue": "dispone",
+     "px": 60
+    },
+    {
+     "k": "tarjeta",
+     "ico": "arrowRight",
+     "txt": "Solicita las <em>Fuerzas Armadas</em> al Ministro de Defensa",
+     "cue": "y solicita",
+     "px": 54
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Y ahora, la trampa",
+     "cue": "y ahora",
+     "aviso": true
+    },
+    {
+     "k": "trampa",
+     "ceja": "El Ministro del Interior",
+     "px": 50,
+     "cue": "el ministro del interior",
+     "l": [
+      [
+       "x",
+       "<em>No aprueba</em> los planes estatales",
+       "no aprueba"
+      ],
+      [
+       "check",
+       "Los elabora y los eleva al Gobierno",
+       "los elabora"
+      ],
+      [
+       "check",
+       "Propone la Estrategia Nacional al <em>CSN</em>",
+       "y la estrategia"
+      ],
+      [
+       "check",
+       "Preside el <em>Consejo Nacional</em> de PC",
+       "ademas"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Repaso en 10 segundos"
+    },
+    {
+     "k": "tit",
+     "txt": "Repasamos",
+     "cue": "repasamos",
+     "cls": "t150"
+    },
+    {
+     "k": "repaso",
+     "l": [
+      [
+       "Política",
+       "La impulsa",
+       "impulsa la"
+      ],
+      [
+       "Planes",
+       "Elabora y eleva",
+       "elabora y",
+       true
+      ],
+      [
+       "Emergencia",
+       "La declara",
+       "declara la"
+      ],
+      [
+       "FAS",
+       "Las pide a Defensa",
+       "y pide"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "cierre"
+    }
+   ]
+  }
+ ]
+}

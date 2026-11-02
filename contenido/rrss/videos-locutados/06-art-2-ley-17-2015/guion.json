@@ -1,0 +1,313 @@
+{
+ "nombre": "articulo-definiciones-proteccion-civil",
+ "titulo": "Definiciones de Protección Civil (art. 2 Ley 17/2015)",
+ "top": "6",
+ "veces": {
+  "2017": 1,
+  "2018": 2,
+  "2019": 0,
+  "2020": 1,
+  "2021": 0,
+  "2022": 1,
+  "2023": 1,
+  "2024": 0,
+  "2025": 1,
+  "2026": 0
+ },
+ "cue_veces": "veces",
+ "portada_escena": 2,
+ "escenas": [
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Examen Guardia Civil"
+    },
+    {
+     "k": "lineas",
+     "cls": "t150",
+     "l": [
+      [
+       "Peligro",
+       "peligro"
+      ],
+      [
+       "Amenaza",
+       "amenaza"
+      ],
+      [
+       "Riesgo",
+       "riesgo"
+      ]
+     ]
+    },
+    {
+     "k": "tit",
+     "txt": "¿Son lo <em>mismo</em>?",
+     "cue": "son lo mismo"
+    },
+    {
+     "k": "tit",
+     "txt": "Para el Tribunal, <em style=\"color:var(--warning)\">no</em>",
+     "cue": "para el tribunal",
+     "cls": "t88"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Histórico de exámenes 2017–2026"
+    },
+    {
+     "k": "historico",
+     "cue": "este articulo"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Los artículos que más caen · Tema 16"
+    },
+    {
+     "k": "grande",
+     "txt": "Art.",
+     "cue": "el articulo dos",
+     "px": 150,
+     "color": "var(--fg)",
+     "an": "sube"
+    },
+    {
+     "k": "grande",
+     "txt": "2",
+     "cue": "dos",
+     "px": 420
+    },
+    {
+     "k": "mono",
+     "txt": "Ley 17/2015 · Sistema Nacional de Protección Civil",
+     "cue": "de la ley"
+    },
+    {
+     "k": "boton",
+     "txt": "Las definiciones",
+     "cue": "las definiciones",
+     "ico": "fileSearch"
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Sin rodeos"
+    },
+    {
+     "k": "tit",
+     "txt": "Te lo dejo en <em>4 ideas</em>",
+     "cue": "te lo dejo",
+     "cls": "t150"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "01",
+     "txt": "Idea 1 de 4",
+     "cue": "uno"
+    },
+    {
+     "k": "tit",
+     "txt": "<em>Peligro</em>",
+     "cue": "peligro",
+     "cls": "t150"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "alert",
+     "txt": "<em>Potencial</em> de ocasionar daño",
+     "cue": "el potencial",
+     "px": 66
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "02",
+     "txt": "Idea 2 de 4",
+     "cue": "dos"
+    },
+    {
+     "k": "tit",
+     "txt": "<em>Amenaza</em>",
+     "cue": "amenaza",
+     "cls": "t150"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "users",
+     "txt": "<em>Expuestos</em> a un peligro inminente o latente",
+     "cue": "cuando personas",
+     "px": 58
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "03",
+     "txt": "Idea 3 de 4",
+     "cue": "tres"
+    },
+    {
+     "k": "tit",
+     "txt": "<em>Riesgo</em>",
+     "cue": "riesgo",
+     "cls": "t150"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "target",
+     "txt": "<em>Posibilidad</em> de que una amenaza afecte a personas o bienes",
+     "cue": "la posibilidad",
+     "px": 54
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "04",
+     "txt": "Idea 4 de 4",
+     "cue": "cuatro"
+    },
+    {
+     "k": "tit",
+     "txt": "Emergencia de <em>protección civil</em>",
+     "cue": "emergencia de proteccion"
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Riesgo colectivo",
+       "un riesgo colectivo"
+      ],
+      [
+       "Peligro inminente",
+       "pone en peligro"
+      ],
+      [
+       "Gestión rápida",
+       "exige una"
+      ]
+     ],
+     "on": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Y ahora, la trampa",
+     "cue": "y ahora",
+     "aviso": true
+    },
+    {
+     "k": "tit",
+     "txt": "La <em style=\"color:var(--warning)\">catástrofe</em>",
+     "cue": "la catastrofe"
+    },
+    {
+     "k": "trampa",
+     "ceja": "Clave",
+     "px": 54,
+     "cue": "altera",
+     "l": [
+      [
+       "alert",
+       "Altera o interrumpe <em>sustancialmente</em> una comunidad",
+       "interrumpe"
+      ],
+      [
+       "alert",
+       "Su atención <em>supera los medios</em> disponibles",
+       "y su atencion"
+      ]
+     ]
+    },
+    {
+     "k": "boton",
+     "txt": "Lo que la separa de la emergencia",
+     "cue": "esa es la clave",
+     "ico": "scale",
+     "borde": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Repaso en 10 segundos"
+    },
+    {
+     "k": "tit",
+     "txt": "Repasamos",
+     "cue": "repasamos",
+     "cls": "t150"
+    },
+    {
+     "k": "repaso",
+     "l": [
+      [
+       "Peligro",
+       "Potencial",
+       "peligro"
+      ],
+      [
+       "Amenaza",
+       "Exposición",
+       "amenaza"
+      ],
+      [
+       "Riesgo",
+       "Posibilidad",
+       "riesgo"
+      ],
+      [
+       "Emergencia",
+       "Gestión rápida",
+       "emergencia"
+      ],
+      [
+       "Catástrofe",
+       "Supera los medios",
+       "y catastrofe",
+       true
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "cierre"
+    }
+   ]
+  }
+ ]
+}

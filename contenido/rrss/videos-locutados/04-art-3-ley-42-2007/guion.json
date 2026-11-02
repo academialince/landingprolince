@@ -1,0 +1,304 @@
+{
+ "nombre": "articulo-definiciones-patrimonio-natural",
+ "titulo": "Definiciones de la Ley del Patrimonio Natural (art. 3 Ley 42/2007)",
+ "top": "4",
+ "veces": {
+  "2017": 0,
+  "2018": 0,
+  "2019": 0,
+  "2020": 1,
+  "2021": 3,
+  "2022": 0,
+  "2023": 1,
+  "2024": 1,
+  "2025": 1,
+  "2026": 1
+ },
+ "cue_veces": "veces",
+ "portada_escena": 2,
+ "escenas": [
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Examen Guardia Civil"
+    },
+    {
+     "k": "lineas",
+     "cls": "t120",
+     "l": [
+      [
+       "Ecosistema",
+       "ecosistema"
+      ],
+      [
+       "Corredor ecológico",
+       "corredor"
+      ],
+      [
+       "In situ · <em>ex situ</em>",
+       "conservacion"
+      ]
+     ]
+    },
+    {
+     "k": "tit",
+     "txt": "¿Sabrías <em>definirlos</em>?",
+     "cue": "sabrias"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Histórico de exámenes 2017–2026"
+    },
+    {
+     "k": "historico",
+     "cue": "este articulo"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Los artículos que más caen · Tema 16"
+    },
+    {
+     "k": "grande",
+     "txt": "Art.",
+     "cue": "el articulo tres",
+     "px": 150,
+     "color": "var(--fg)",
+     "an": "sube"
+    },
+    {
+     "k": "grande",
+     "txt": "3",
+     "cue": "tres",
+     "px": 420
+    },
+    {
+     "k": "mono",
+     "txt": "Ley 42/2007 · Patrimonio Natural y Biodiversidad",
+     "cue": "de la ley"
+    },
+    {
+     "k": "boton",
+     "txt": "Las definiciones",
+     "cue": "las definiciones",
+     "ico": "fileSearch"
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Sin rodeos"
+    },
+    {
+     "k": "tit",
+     "txt": "Te lo dejo en <em>4 ideas</em>",
+     "cue": "te lo dejo",
+     "cls": "t150"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "01",
+     "txt": "Idea 1 de 4",
+     "cue": "uno"
+    },
+    {
+     "k": "tit",
+     "txt": "<em>Ecosistema</em>",
+     "cue": "ecosistema"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "globe",
+     "txt": "Comunidades vegetales, animales y de microorganismos + su medio no viviente",
+     "cue": "comunidades",
+     "px": 50
+    },
+    {
+     "k": "boton",
+     "txt": "Unidad funcional",
+     "cue": "como una unidad",
+     "ico": "target"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "02",
+     "txt": "Idea 2 de 4",
+     "cue": "dos"
+    },
+    {
+     "k": "tit",
+     "txt": "Corredor <em>ecológico</em>",
+     "cue": "corredor ecologico"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "arrowRight",
+     "txt": "Conecta espacios naturales <em>separados</em>",
+     "cue": "un territorio",
+     "px": 58
+    },
+    {
+     "k": "chips",
+     "l": [
+      [
+       "Intercambio genético",
+       "el intercambio"
+      ],
+      [
+       "Migración",
+       "la migracion"
+      ]
+     ],
+     "on": true
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "03",
+     "txt": "Idea 3 de 4",
+     "cue": "tres"
+    },
+    {
+     "k": "tit",
+     "txt": "Conservación <em>in situ</em>",
+     "cue": "conservacion in situ"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "check",
+     "txt": "En sus <em>entornos naturales</em>",
+     "cue": "conservar los",
+     "px": 66
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "04",
+     "txt": "Idea 4 de 4",
+     "cue": "cuatro"
+    },
+    {
+     "k": "tit",
+     "txt": "Conservación <em>ex situ</em>",
+     "cue": "conservacion ex situ"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "arrowRight",
+     "txt": "<em>Fuera</em> de sus hábitats naturales",
+     "cue": "conservar componentes",
+     "px": 66
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Y ahora, la trampa",
+     "cue": "y ahora",
+     "aviso": true
+    },
+    {
+     "k": "trampa",
+     "ceja": "No las cambies",
+     "px": 66,
+     "cue": "in situ es",
+     "l": [
+      [
+       "check",
+       "In situ → <em>dentro</em>",
+       "dentro"
+      ],
+      [
+       "check",
+       "Ex situ → <em>fuera</em>",
+       "fuera"
+      ]
+     ]
+    },
+    {
+     "k": "tarjeta",
+     "ico": "fileSearch",
+     "txt": "Taxón: grupo de organismos con <em>características comunes</em>",
+     "cue": "y un taxon",
+     "px": 54
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Repaso en 10 segundos"
+    },
+    {
+     "k": "tit",
+     "txt": "Repasamos",
+     "cue": "repasamos",
+     "cls": "t150"
+    },
+    {
+     "k": "repaso",
+     "l": [
+      [
+       "Ecosistema",
+       "Unidad funcional",
+       "ecosistema"
+      ],
+      [
+       "Corredor",
+       "Conecta espacios",
+       "corredor"
+      ],
+      [
+       "In situ",
+       "Dentro",
+       "in situ",
+       true
+      ],
+      [
+       "Ex situ",
+       "Fuera",
+       "y ex situ",
+       true
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "cierre"
+    }
+   ]
+  }
+ ]
+}

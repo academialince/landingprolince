@@ -1,0 +1,313 @@
+{
+ "nombre": "articulo-estrategia-proteccion-civil",
+ "titulo": "La Estrategia de Protección Civil (art. 4 Ley 17/2015)",
+ "top": "7",
+ "veces": {
+  "2017": 1,
+  "2018": 1,
+  "2019": 0,
+  "2020": 0,
+  "2021": 0,
+  "2022": 3,
+  "2023": 0,
+  "2024": 1,
+  "2025": 1,
+  "2026": 0
+ },
+ "cue_veces": "veces",
+ "portada_escena": 2,
+ "escenas": [
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Examen Guardia Civil"
+    },
+    {
+     "k": "tit",
+     "txt": "¿Quién aprueba la <em>Estrategia</em>?",
+     "cue": "quien aprueba",
+     "cls": "t120"
+    },
+    {
+     "k": "grande",
+     "txt": "Hay 2",
+     "cue": "porque hay dos",
+     "px": 220,
+     "color": "var(--warning)"
+    },
+    {
+     "k": "mono",
+     "txt": "… y el Tribunal lo sabe",
+     "cue": "y el tribunal",
+     "color": "var(--warning)"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Histórico de exámenes 2017–2026"
+    },
+    {
+     "k": "historico",
+     "cue": "este articulo"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Los artículos que más caen · Tema 16"
+    },
+    {
+     "k": "grande",
+     "txt": "Art.",
+     "cue": "el articulo cuatro",
+     "px": 150,
+     "color": "var(--fg)",
+     "an": "sube"
+    },
+    {
+     "k": "grande",
+     "txt": "4",
+     "cue": "cuatro",
+     "px": 420
+    },
+    {
+     "k": "mono",
+     "txt": "Ley 17/2015 · Sistema Nacional de Protección Civil",
+     "cue": "de la ley"
+    },
+    {
+     "k": "boton",
+     "txt": "La Estrategia",
+     "cue": "la estrategia",
+     "ico": "target"
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Sin rodeos"
+    },
+    {
+     "k": "tit",
+     "txt": "Te lo dejo en <em>4 ideas</em>",
+     "cue": "te lo dejo",
+     "cls": "t150"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "01",
+     "txt": "Idea 1 de 4",
+     "cue": "uno"
+    },
+    {
+     "k": "tit",
+     "txt": "¿Qué <em>es</em>?",
+     "cue": "que es"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "fileSearch",
+     "txt": "Analizar <em>riesgos</em> y capacidades de respuesta",
+     "cue": "analizar",
+     "px": 58
+    },
+    {
+     "k": "nota",
+     "txt": "→ líneas estratégicas para mitigar las emergencias",
+     "cue": "y fijar"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "02",
+     "txt": "Idea 2 de 4",
+     "cue": "dos"
+    },
+    {
+     "k": "tit",
+     "txt": "Estrategia del <em>Sistema</em>",
+     "cue": "la estrategia del sistema"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "users",
+     "txt": "Consejo Nacional de <em>Protección Civil</em>",
+     "cue": "el consejo nacional",
+     "px": 58
+    },
+    {
+     "k": "nota",
+     "txt": "→ aprueba sus líneas básicas y directrices",
+     "cue": "aprueba sus"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "03",
+     "txt": "Idea 3 de 4",
+     "cue": "tres"
+    },
+    {
+     "k": "tit",
+     "txt": "<em>Revisión</em>",
+     "cue": "se revisa"
+    },
+    {
+     "k": "mono",
+     "txt": "Al menos, cada",
+     "cue": "al menos"
+    },
+    {
+     "k": "grande",
+     "txt": "4 años",
+     "cue": "cada cuatro",
+     "px": 230
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "idea",
+     "num": "04",
+     "txt": "Idea 4 de 4",
+     "cue": "cuatro"
+    },
+    {
+     "k": "tit",
+     "txt": "Estrategia <em>Nacional</em>",
+     "cue": "la estrategia nacional"
+    },
+    {
+     "k": "nota",
+     "txt": "→ integra y alinea las actuaciones de la AGE",
+     "cue": "integra"
+    },
+    {
+     "k": "tarjeta",
+     "ico": "gavel",
+     "txt": "Consejo de <em>Seguridad Nacional</em>",
+     "cue": "la aprueba",
+     "px": 60
+    },
+    {
+     "k": "nota",
+     "txt": "→ a propuesta del Ministro del Interior",
+     "cue": "a propuesta"
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Y ahora, la trampa",
+     "cue": "y ahora",
+     "aviso": true
+    },
+    {
+     "k": "tit",
+     "txt": "No las <em>confundas</em>",
+     "cue": "no las confundas"
+    },
+    {
+     "k": "trampa",
+     "ceja": "Quién aprueba",
+     "px": 50,
+     "cue": "las lineas basicas",
+     "l": [
+      [
+       "check",
+       "Sistema → <em>Consejo Nacional de PC</em>",
+       "el consejo nacional"
+      ],
+      [
+       "check",
+       "Nacional → <em>Consejo de Seguridad Nacional</em>",
+       "la estrategia nacional"
+      ]
+     ]
+    },
+    {
+     "k": "sino",
+     "px": 58,
+     "si": [
+      "El Ministro propone",
+      "propone"
+     ],
+     "no": [
+      "El Ministro aprueba",
+      "no aprueba"
+     ]
+    }
+   ]
+  },
+  {
+   "el": [
+    {
+     "k": "ceja",
+     "txt": "Repaso en 10 segundos"
+    },
+    {
+     "k": "tit",
+     "txt": "Repasamos",
+     "cue": "repasamos",
+     "cls": "t150"
+    },
+    {
+     "k": "repaso",
+     "l": [
+      [
+       "Qué es",
+       "Riesgos y capacidades",
+       "riesgos y"
+      ],
+      [
+       "Sistema",
+       "Consejo Nacional PC",
+       "consejo nacional"
+      ],
+      [
+       "Revisión",
+       "Cada 4 años",
+       "cada cuatro"
+      ],
+      [
+       "Nacional",
+       "Consejo Seg. Nacional",
+       "y la nacional",
+       true
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "centrada": true,
+   "el": [
+    {
+     "k": "cierre"
+    }
+   ]
+  }
+ ]
+}
