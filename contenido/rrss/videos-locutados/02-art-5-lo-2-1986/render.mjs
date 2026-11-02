@@ -39,6 +39,7 @@ if (stills) {
 // Portada: el fotograma del artículo revelado (s3), que sirve de miniatura.
 await page.evaluate(() => window.render(window.VIDEO.PORTADA ?? 0));
 await stage.screenshot({ path: join(aqui, `${nombre}-portada.png`) });
+if (process.argv.includes("--solo-portada")) { await browser.close(); process.exit(0); }
 
 const ff = spawn(ffmpeg, [
   "-y", "-loglevel", "error",
