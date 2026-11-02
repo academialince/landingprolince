@@ -37,7 +37,7 @@ if (stills) {
 }
 
 // Portada: el fotograma del artículo revelado (s3), que sirve de miniatura.
-await page.evaluate(() => window.render(19.4));
+await page.evaluate(() => window.render(window.VIDEO.PORTADA));
 await stage.screenshot({ path: join(aqui, `${nombre}-portada.png`) });
 
 const ff = spawn(ffmpeg, [
@@ -50,9 +50,11 @@ const ff = spawn(ffmpeg, [
   join(aqui, `${nombre}.mp4`),
 ], { stdio: ["pipe", "inherit", "inherit"] });
 
+// Primer fotograma = portada, para que TikTok/Reels la usen como miniatura.
+const PORTADA_T = await page.evaluate(() => window.VIDEO.PORTADA ?? 0);
 const total = Math.round(DUR * FPS);
 for (let f = 0; f < total; f++) {
-  await page.evaluate((t) => window.render(t), f / FPS);
+  await page.evaluate((t) => window.render(t), f === 0 ? PORTADA_T : f / FPS);
   const png = await stage.screenshot({ type: "png" });
   if (!ff.stdin.write(png)) await new Promise((r) => ff.stdin.once("drain", r));
 }

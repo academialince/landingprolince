@@ -238,8 +238,26 @@ def acelerar(carpeta, factor):
     print(f"✔ {d.name}: locución acelerada ×{factor}")
 
 
+def portada_primer_fotograma(carpeta):
+    """Sustituye el primer fotograma del MP4 ya renderizado por la portada (miniatura de TikTok/Reels).
+    Los renders nuevos ya lo hacen solos (render.mjs); esto es para vídeos renderizados antes."""
+    import subprocess
+    d = (AQUI / carpeta).resolve()
+    for mp4 in d.glob("*.mp4"):
+        png = d / f"{mp4.stem}-portada.png"
+        tmp = mp4.with_suffix(".tmp.mp4")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp4), "-i", str(png),
+                        "-filter_complex", "[0:v][1:v]overlay=0:0:enable='eq(n,0)'[v]", "-map", "[v]", "-map", "0:a",
+                        "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-profile:v", "high",
+                        "-c:a", "copy", "-movflags", "+faststart", str(tmp)], check=True)
+        tmp.replace(mp4)
+        print(f"✔ {d.name}/{mp4.name}: portada en el primer fotograma")
+
+
 if __name__ == "__main__":
-    if "--tempo" in sys.argv:
+    if "--portada" in sys.argv:
+        portada_primer_fotograma(sys.argv[1])
+    elif "--tempo" in sys.argv:
         acelerar(sys.argv[1], float(sys.argv[sys.argv.index("--tempo") + 1]))
     else:
         main(sys.argv[1])
