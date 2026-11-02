@@ -5,7 +5,13 @@ import { Button } from "@/components/ui/button";
 import { MarcoTactico } from "@/components/ui/marco-tactico";
 import { cursosAbiertos, destinoEmpezar } from "@/lib/links";
 
-export function CtaFinal() {
+export function CtaFinal({
+  href = destinoEmpezar,
+  probarGratis = false,
+}: {
+  href?: string;
+  probarGratis?: boolean;
+} = {}) {
   return (
     <section className="bg-primary-deep text-white">
       <Container>
@@ -20,8 +26,8 @@ export function CtaFinal() {
                 : "Los cursos abren muy pronto. Apúntate a la lista de espera y te avisamos el primero."}
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <Button href={destinoEmpezar} variante="claro" tamano="lg">
-                Empezar ahora
+              <Button href={href} variante="claro" tamano="lg">
+                {cursosAbiertos && probarGratis ? "Probar gratis" : "Empezar ahora"}
                 <ArrowRight size={18} aria-hidden />
               </Button>
             </div>

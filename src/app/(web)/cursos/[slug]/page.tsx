@@ -10,10 +10,11 @@ import { VolverInicio } from "@/components/layout/volver-inicio";
 import { Button } from "@/components/ui/button";
 import { Icono } from "@/components/ui/icon";
 import { CtaFinal } from "@/components/sections/cta-final";
+import { FaldonPrueba } from "@/components/sections/faldon-prueba";
 import { cursoPorSlug, cursos } from "@/content/cursos";
 import { site } from "@/content/site";
 import { JsonLd, metadataPagina, migasJsonLd } from "@/lib/seo";
-import { absoluteUrl, cursosAbiertos, cursosVisibles, destinoEmpezar, rutas, tiendaVisible } from "@/lib/links";
+import { absoluteUrl, cursosAbiertos, cursosVisibles, destinoEmpezar, enlaceDePack, rutas, tiendaVisible } from "@/lib/links";
 import { Proximamente } from "@/components/ui/proximamente";
 import { TarjetaEntrada } from "@/components/blog/tarjeta-entrada";
 import { entradasRelacionadas, slugsPublicados } from "@/lib/blog";
@@ -60,6 +61,8 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
   const programa = programas[curso.slug];
   const publicados = await slugsPublicados();
   const librosCurso = temarios.find((t) => t.slug === curso.slug);
+  const packPrueba = packs[curso.slug]?.find((p) => p.prueba);
+  const destinoPrueba = packPrueba ? enlaceDePack(curso.slug, packPrueba) : destinoEmpezar;
 
   // Enlazado de vuelta al blog: primero los artículos de este curso; si aún no hay, los últimos.
   const delCurso = await entradasRelacionadas("", curso.slug);
@@ -226,6 +229,8 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
         />
       </Section>
 
+      <FaldonPrueba curso={curso.nombreCorto} href={destinoPrueba} />
+
       {programa && (
         <Section
           id="temario"
@@ -380,7 +385,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
         </Section>
       )}
 
-      <CtaFinal />
+      <CtaFinal href={destinoPrueba} probarGratis />
       <JsonLd data={migasJsonLd([{ nombre: "Inicio", ruta: "/" }, { nombre: curso.nombre, ruta: rutas.curso(curso.slug) }])} />
 
       <JsonLd

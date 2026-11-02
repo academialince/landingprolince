@@ -1,4 +1,4 @@
-import { Quote, ShieldCheck } from "lucide-react";
+import { Quote, ShieldCheck, Star } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Reveal } from "@/components/layout/reveal";
 import { CarruselOpiniones } from "@/components/sections/carrusel-opiniones";
@@ -19,7 +19,14 @@ function iniciales(nombre: string) {
 function Tarjeta({ t, conCurso }: { t: Testimonio; conCurso: boolean }) {
   return (
     <article className="relative flex h-full flex-col rounded-2xl border border-border bg-surface p-7">
-      <Quote size={26} className="shrink-0 text-primary" aria-hidden />
+      <div className="flex items-center justify-between gap-4">
+        <Quote size={26} className="shrink-0 text-primary" aria-hidden />
+        <div className="flex gap-1 text-warning" role="img" aria-label={`Valoración: ${t.valoracion} de 5 estrellas`}>
+          {Array.from({ length: t.valoracion }, (_, i) => (
+            <Star key={i} size={18} fill="currentColor" aria-hidden />
+          ))}
+        </div>
+      </div>
 
       <blockquote className="mt-4 grow leading-[1.7]">«{t.texto}»</blockquote>
 
@@ -52,12 +59,16 @@ function Tarjeta({ t, conCurso }: { t: Testimonio; conCurso: boolean }) {
 }
 
 /**
- * «Lo que dicen de nosotros». Sin `curso`, en la portada: todos los testimonios. Con `curso`, en la
- * página del curso: solo los de ese curso. En los dos casos, en un carrusel de 15 s por opinión. Si no hay ninguno que
- * se pueda enseñar (en producción, solo los reales; ver content/testimonios.ts), no se pinta.
+ * «Lo que dicen de nosotros». La portada enseña todos los testimonios. En cada página de curso se
+ * muestran también todos, empezando por los de ese curso, para que siempre haya un carrusel y quede
+ * claro a qué preparación corresponde cada opinión. En producción solo entran los reales y
+ * autorizados; ver content/testimonios.ts.
  */
 export function Resultados({ curso }: { curso?: string }) {
-  const lista = testimoniosVisibles(curso);
+  const todos = testimoniosVisibles();
+  const lista = curso
+    ? [...todos.filter((t) => t.curso === curso), ...todos.filter((t) => t.curso !== curso)]
+    : todos;
   if (lista.length === 0) return null;
   const nombreCurso = curso ? cursoPorSlug(curso)?.nombre : undefined;
 
@@ -65,18 +76,18 @@ export function Resultados({ curso }: { curso?: string }) {
     <section id="opiniones" className="overflow-hidden bg-surface-subtle py-16 sm:py-24">
       <Container>
         <Reveal className="max-w-[46rem]">
-          <p className="text-eyebrow uppercase text-primary">Opiniones</p>
-          <h2 className="text-h2 mt-3">{curso ? "Lo que dicen del curso" : "Lo que dicen de nosotros"}</h2>
+          <p className="text-eyebrow uppercase text-primary">Opiniones · 5 estrellas</p>
+          <h2 className="text-h2 mt-3">Lo que dicen de nosotros</h2>
           <p className="text-body-lg mt-4 text-muted-foreground">
             {nombreCurso
-              ? `Opiniones de alumnos del curso ${nombreCurso}, con sus propias palabras.`
+              ? `Experiencias de alumnos de ProLince, empezando por quienes prepararon ${nombreCurso}.`
               : "Alumnos que se han preparado con ProLince. Cada uno cuenta lo que a él le costó y lo que le sirvió."}
           </p>
         </Reveal>
 
         <div className="mt-12">
           <CarruselOpiniones
-            tarjetas={lista.map((t) => <Tarjeta key={t.slug} t={t} conCurso={!curso} />)}
+            tarjetas={lista.map((t) => <Tarjeta key={t.slug} t={t} conCurso />)}
             etiquetas={lista.map((t) => t.nombre)}
           />
         </div>

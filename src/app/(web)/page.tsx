@@ -7,6 +7,7 @@ import { Simulacros } from "@/components/sections/simulacros";
 import { NosotrosHome } from "@/components/home/nosotros";
 import { Resultados } from "@/components/sections/resultados";
 import { CtaFinal } from "@/components/sections/cta-final";
+import { FaldonPrueba } from "@/components/sections/faldon-prueba";
 import { JsonLd, metadataPagina } from "@/lib/seo";
 import { redirect } from "next/navigation";
 import { absoluteUrl, inicioVisible, nosotrosVisible, rutas } from "@/lib/links";
@@ -21,11 +22,12 @@ export default function Portada() {
       <Kpis />
       <VideoLanzamiento />
       <CursosHome />
+      <FaldonPrueba />
       <PlataformaHome />
       <Simulacros />
       {nosotrosVisible && <NosotrosHome />}
       <Resultados />
-      <CtaFinal />
+      <CtaFinal probarGratis />
       <JsonLd data={{ "@context": "https://schema.org", "@type": "WebSite", "@id": absoluteUrl("/#website"), name: "Academia ProLince", alternateName: "ProLince", url: absoluteUrl("/"), inLanguage: "es-ES", publisher: { "@id": absoluteUrl("/#organizacion") } }} />
     </>
   );

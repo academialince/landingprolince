@@ -23,6 +23,7 @@ export type Testimonio = {
   curso: string;
   foto: string;
   texto: string;
+  valoracion: 5;
   /** Inventado o sin autorizar: solo se ve en local. */
   borrador?: boolean;
 };
@@ -36,6 +37,7 @@ export const testimonios: Testimonio[] = [
     curso: "acceso-guardia-civil",
     borrador: true,
     foto: "/testimonios/alvaro-m.jpg",
+    valoracion: 5,
     texto:
       "Trabajaba de lunes a sábado y pensaba que no me iba a dar la vida. Lo que me salvó fue el plan por semanas: sabía exactamente qué tocaba cada día y dejé de perder tiempo decidiendo por dónde seguir.",
   },
@@ -47,6 +49,7 @@ export const testimonios: Testimonio[] = [
     curso: "acceso-guardia-civil",
     borrador: true,
     foto: "/testimonios/noelia-r.jpg",
+    valoracion: 5,
     texto:
       "Suspendí la primera. Volver con el histórico de simulacros delante fue otra cosa: vi negro sobre blanco que mi problema era el psicotécnico, no el temario, y pude apretar donde tocaba.",
   },
@@ -58,6 +61,7 @@ export const testimonios: Testimonio[] = [
     curso: "acceso-guardia-civil",
     borrador: true,
     foto: "/testimonios/sergio-d.jpg",
+    valoracion: 5,
     texto:
       "Los simulacros cronometrados me quitaron el susto del día del examen. Cuando me senté allí ya había hecho aquello veinte veces, y eso se nota en las dos primeras preguntas.",
   },
@@ -69,6 +73,7 @@ export const testimonios: Testimonio[] = [
     curso: "colegio-guardias-jovenes",
     borrador: true,
     foto: "/testimonios/lucia-f.jpg",
+    valoracion: 5,
     texto:
       "Entré por el Colegio con 16 años y compaginarlo con 4.º de la ESO daba respeto. Las sesiones eran cortas y podía hacer tests en el móvil de camino al instituto, así que cundía sin quitarme tardes.",
   },
@@ -80,6 +85,7 @@ export const testimonios: Testimonio[] = [
     curso: "acceso-guardia-civil",
     borrador: true,
     foto: "/testimonios/ivan-p.jpg",
+    valoracion: 5,
     texto:
       "Venía de no hacer deporte y las marcas me parecían imposibles. Empezar lo físico el primer mes y no el último fue la diferencia entre llegar justo y llegar sobrado.",
   },
@@ -91,6 +97,7 @@ export const testimonios: Testimonio[] = [
     curso: "acceso-guardia-civil",
     borrador: true,
     foto: "/testimonios/carmen-l.jpg",
+    valoracion: 5,
     texto:
       "Lo que más agradecí fue que no me vendieran humo. Me dijeron desde el principio cuántas horas hacían falta y qué pasaba si no aprobaba a la primera. Con eso claro, te organizas.",
   },
