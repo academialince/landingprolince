@@ -96,7 +96,7 @@ export default async function PaginaCurso(props: PageProps<"/cursos/[slug]">) {
                   Empezar ahora
                   <ArrowRight size={18} aria-hidden />
                 </Button>
-                {tiendaVisible && (
+                {tiendaVisible && curso.slug !== "acceso-guardia-civil" && (
                   <Button href={rutas.tienda} variante="secundario" tamano="lg">
                     Ver precio
                   </Button>

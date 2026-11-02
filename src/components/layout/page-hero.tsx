@@ -6,6 +6,7 @@ export function PageHero({
   titulo,
   entradilla,
   compacto = false,
+  anchoCompleto = false,
   children,
 }: {
   eyebrow: string;
@@ -13,6 +14,8 @@ export function PageHero({
   entradilla?: string;
   /** Menos altura y un titular más pequeño, para páginas donde lo importante va justo debajo. */
   compacto?: boolean;
+  /** Permite que el contenido del hero aproveche todo el ancho del contenedor. */
+  anchoCompleto?: boolean;
   children?: ReactNode;
 }) {
   return (
@@ -26,7 +29,7 @@ export function PageHero({
         }}
       />
       <Container>
-        <div className={`max-w-[46rem] ${compacto ? "py-8 sm:py-12" : "py-16 sm:py-24"}`}>
+        <div className={`${anchoCompleto ? "w-full" : "max-w-[46rem]"} ${compacto ? "py-8 sm:py-12" : "py-16 sm:py-24"}`}>
           <p className="text-eyebrow uppercase text-primary">{eyebrow}</p>
           <h1 className={`${compacto ? "text-display-l mt-2" : "text-display-xl mt-4"}`}>{titulo}</h1>
           {entradilla && (

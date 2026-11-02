@@ -23,8 +23,9 @@ export default function Temarios() {
     <>
       <PageHero
         eyebrow="Temarios"
-        titulo="El temario en papel, actualizado a 2027"
+        titulo="Temarios en papel"
         entradilla="Para estudiar con el libro en la mano. Elige el pack completo, con los libros de inglés y de ortografía y gramática, o el libro resumen para repasar. Lo recibes en casa en 48 horas."
+        anchoCompleto
       >
         <AvisoActualizaciones />
       </PageHero>
