@@ -496,3 +496,7 @@
 /* Barra de tiempo del carrusel de opiniones (15 s por opinión). */
 @keyframes carrusel-progreso { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 @media (prefers-reduced-motion: reduce) { [aria-roledescription="carrusel"] * { animation: none !important; } }
+
+/* Gráfico de araña del test «¿Qué tipo de opositor eres?»: la forma crece desde el centro. */
+@keyframes arana-crecer { from { transform: scale(0.15); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+.arana-forma { animation: arana-crecer 900ms var(--ease-product) both; }

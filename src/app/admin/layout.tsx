@@ -37,6 +37,12 @@ export default async function AdminLayout({ children }: { children: ReactNode })
               Lista de espera
             </Link>
             <Link
+              href="/admin/leads"
+              className="text-body-sm font-semibold text-muted-foreground hover:text-foreground"
+            >
+              Leads
+            </Link>
+            <Link
               href="/blog"
               className="text-body-sm font-semibold text-muted-foreground hover:text-foreground"
             >

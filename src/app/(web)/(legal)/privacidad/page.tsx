@@ -26,7 +26,8 @@ export default function Privacidad() {
       <p>
         Esta web no pide registro para navegar ni utiliza herramientas de analítica o de
         publicidad que elaboren un perfil de navegación. Solo recoge datos personales si te
-        apuntas voluntariamente a la lista de espera.
+        apuntas voluntariamente a la lista de espera o si dejas tus datos para ver el resultado
+        de uno de nuestros tests y recursos gratuitos.
       </p>
       <p>
         Los datos de tu cuenta de alumno se tratan cuando te das de alta en la plataforma, en un
@@ -44,6 +45,21 @@ export default function Privacidad() {
         La base legal es tu consentimiento, que puedes retirar en cualquier momento escribiendo a
         la dirección de contacto. Conservamos los datos mientras la lista de espera esté activa y,
         como máximo, doce meses desde que te apuntas; después se eliminan.
+      </p>
+
+      <h2>Tests y recursos gratuitos</h2>
+      <p>
+        Si dejas tus datos para ver el resultado de un test o recibir un recurso gratuito (por
+        ejemplo, «¿Qué tipo de opositor eres?»), guardamos tu nombre, tu correo electrónico, tu
+        teléfono si decides darlo, tus respuestas y el resultado obtenido, y la campaña o anuncio
+        desde el que llegaste. Los usamos para enseñarte el resultado y para contactarte por
+        correo, teléfono o WhatsApp sobre la preparación de la oposición, adaptando la
+        información a tu resultado.
+      </p>
+      <p>
+        La base legal es tu consentimiento, que puedes retirar en cualquier momento escribiendo a
+        la dirección de contacto. Conservamos estos datos un máximo de veinticuatro meses desde
+        que los dejas, o hasta que retires el consentimiento; después se eliminan.
       </p>
 
       <h2>Datos de conexión</h2>
