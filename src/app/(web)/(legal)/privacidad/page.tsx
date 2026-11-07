@@ -52,9 +52,11 @@ export default function Privacidad() {
         Si dejas tus datos para ver el resultado de un test o recibir un recurso gratuito (por
         ejemplo, «¿Qué tipo de opositor eres?»), guardamos tu nombre, tu correo electrónico, tu
         teléfono si decides darlo, tus respuestas y el resultado obtenido, y la campaña o anuncio
-        desde el que llegaste. Los usamos para enseñarte el resultado y para contactarte por
-        correo, teléfono o WhatsApp sobre la preparación de la oposición, adaptando la
-        información a tu resultado.
+        desde el que llegaste. Los usamos para enseñarte el resultado, enviarte por correo el
+        recurso que hayas pedido (por ejemplo, tu plan de estudio) y contactarte por correo,
+        teléfono o WhatsApp sobre la preparación de la oposición, adaptando la información a tu
+        resultado. Las comparativas del tipo «has superado al X %» se calculan con datos
+        agregados, sin mostrar los de nadie.
       </p>
       <p>
         La base legal es tu consentimiento, que puedes retirar en cualquier momento escribiendo a

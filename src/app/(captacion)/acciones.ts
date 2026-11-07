@@ -3,6 +3,8 @@
 import { z } from "zod";
 import { supabasePublico } from "@/lib/supabase/publico";
 import { CAMPOS_UTM, recursoPorId } from "@/content/captacion/recursos";
+import { validarPlan } from "@/content/captacion/plan";
+import { enviarPlanPorEmail } from "@/lib/email-plan";
 
 const esquema = z.object({
   nombre: z.string().trim().min(2, "Escribe tu nombre").max(120, "El nombre es demasiado largo"),
@@ -20,8 +22,12 @@ export type CampoLead = keyof z.infer<typeof esquema>;
 
 export type ResultadoLead = {
   ok: boolean;
-  /** El resultado calculado en el servidor (p. ej. la clave del perfil). */
+  /** El resultado calculado en el servidor (p. ej. la clave del perfil o la nota). */
   resultado?: string;
+  /** Solo en las landing con nota: cuántas personas lo han hecho y cuántas sacaron menos. */
+  comparativa?: { total: number; porDebajo: number };
+  /** Solo en la landing PLAN: si el plan se ha enviado por email. */
+  emailEnviado?: boolean;
   error?: string;
   errores?: Partial<Record<CampoLead, string>>;
   valores?: Record<string, string>;
@@ -89,5 +95,19 @@ export async function guardarLead(_previo: ResultadoLead | null, datos: FormData
     return { ok: false, error: "No hemos podido guardar tus datos. Inténtalo de nuevo en un momento.", valores };
   }
 
-  return { ok: true, resultado };
+  let comparativa: ResultadoLead["comparativa"];
+  if (recurso.comparable) {
+    const { data } = await sb.rpc("comparativa_lead", { p_recurso: recurso.id, p_valor: Number(resultado) });
+    const fila = Array.isArray(data) ? data[0] : null;
+    if (fila) comparativa = { total: Number(fila.total), porDebajo: Number(fila.por_debajo) };
+  }
+
+  // La landing PLAN promete el plan por email: se envía aquí, con el lead ya guardado.
+  let emailEnviado: boolean | undefined;
+  if (recurso.id === "plan") {
+    const plan = validarPlan(respuestas);
+    emailEnviado = plan ? await enviarPlanPorEmail({ email: v.email, nombre: v.nombre.split(/\s+/)[0], datos: plan }) : false;
+  }
+
+  return { ok: true, resultado, comparativa, emailEnviado };
 }
