@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState, useTransition, type FormEvent, type ReactNode } from "react";
 import { ArrowRight, Clock, Lock, MessageCircle, Share2 } from "lucide-react";
+import { HistoriaResultado } from "./historia-resultado";
 import { guardarLead, type CampoLead, type ResultadoLead } from "@/app/(captacion)/acciones";
 import { CAMPOS_UTM } from "@/content/captacion/recursos";
 import { rutas } from "@/lib/links";
@@ -347,13 +348,14 @@ export function BotonCompartir({ titulo, texto }: { titulo: string; texto: strin
       /* el usuario canceló o el navegador no deja */
     }
   };
-  return (
-    <button type="button" onClick={compartir} className="inline-flex min-h-11 items-center gap-2 text-primary hover:underline">
-      <Share2 size={16} aria-hidden />
-      {copiado ? "Enlace copiado" : "Compártelo con tu compañero de estudio"}
+  return <div>
+    <HistoriaResultado datos={{ titulo, texto }} />
+    <button type="button" onClick={compartir} className="mt-3 inline-flex min-h-11 items-center gap-2 text-primary hover:underline">
+      <Share2 size={16} aria-hidden />{copiado ? "Enlace copiado" : "Compartir enlace"}
     </button>
-  );
+  </div>;
 }
+
 
 /** «Superas al X % de quienes lo han hecho», con datos reales y solo si hay muestra suficiente. */
 export function Comparativa({ total, porDebajo, minimo = 20 }: { total: number; porDebajo: number; minimo?: number }) {

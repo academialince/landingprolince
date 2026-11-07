@@ -13,6 +13,7 @@ import { comunidades, validarDestino, type Comunidad } from "./destino";
 import { competencias, evaluarEntrevista, nivelesEntrevista, type Competencia, type Nivel as NivelEntrevista } from "./entrevista";
 import { calcularCuentaAtras, niveles as nivelesRitmo, type Nivel } from "./cuenta-atras";
 import { calcularSueldo, destinos, especialidades, type Destino, type Especialidad } from "./sueldo";
+import { resolverViral, virales, type ViralId } from "./virales";
 
 /**
  * Registro de las landing de captación. Cada una tiene un `recurso` (lo que se guarda en la
@@ -40,6 +41,20 @@ export type Recurso = {
 };
 
 export const recursos = {
+  ...Object.fromEntries(
+    (Object.keys(virales) as ViralId[]).map((id) => [
+      id,
+      {
+        id,
+        nombre: virales[id].titulo,
+        ruta: `/${id === "1995" ? "aprobarias-en-1995" : id}`,
+        palabraClave: virales[id].palabra,
+        resolver: (respuestas: unknown) => resolverViral(id, respuestas),
+        etiquetaResultado: (resultado: string) => resultado,
+        ...(["duelo", "reflejos", "provincia", "1995", "falla"].includes(id) ? { comparable: true } : {}),
+      },
+    ]),
+  ),
   "tipo-opositor": {
     id: "tipo-opositor",
     nombre: "¿Qué tipo de opositor eres?",
