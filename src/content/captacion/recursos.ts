@@ -6,6 +6,12 @@ import { corregirIngles } from "./ingles";
 import { evaluarFisicas } from "./fisicas";
 import { evaluarRequisitos } from "./requisitos";
 import { partidas, validarPlan, type Partida } from "./plan";
+import { calcularCorte } from "./corte";
+import { corregirRapido } from "./tests-rapidos";
+import { calcularMeritos } from "./meritos";
+import { comunidades, validarDestino, type Comunidad } from "./destino";
+import { competencias, evaluarEntrevista, nivelesEntrevista, type Competencia, type Nivel as NivelEntrevista } from "./entrevista";
+import { calcularCuentaAtras, niveles as nivelesRitmo, type Nivel } from "./cuenta-atras";
 import { calcularSueldo, destinos, especialidades, type Destino, type Especialidad } from "./sueldo";
 
 /**
@@ -139,6 +145,86 @@ export const recursos = {
       const [, h, m, p] = clave.match(/^(\d+)h-(\d+)m-(\w+)$/) ?? [];
       return h ? `${h} h/semana · ${m} meses · ${partidas[p as Partida]?.toLowerCase() ?? p}` : clave;
     },
+  },
+  corte: {
+    id: "corte",
+    nombre: "¿Qué nota de corte necesitas?",
+    ruta: "/nota-de-corte",
+    palabraClave: "CORTE",
+    // La nota final prevista sobre 195 (0 si queda excluido por un mínimo).
+    resolver: (datos) => {
+      const c = calcularCorte(datos);
+      return c ? (c.excluido.length ? 0 : c.total).toFixed(2) : null;
+    },
+    etiquetaResultado: (nota) => (Number(nota) === 0 ? "Excluido por un mínimo" : `${nota.replace(".", ",")} / 195`),
+    comparable: true,
+  },
+  constitucion: {
+    id: "constitucion",
+    nombre: "¿Cuánto sabes de la Constitución?",
+    ruta: "/test-constitucion",
+    palabraClave: "CONSTITUCION",
+    resolver: (respuestas) => corregirRapido("constitucion", respuestas)?.nota.toFixed(2) ?? null,
+    etiquetaResultado: (nota) => `${nota.replace(".", ",")} / 10`,
+    comparable: true,
+  },
+  trampas: {
+    id: "trampas",
+    nombre: "10 preguntas trampa",
+    ruta: "/preguntas-trampa",
+    palabraClave: "TRAMPAS",
+    resolver: (respuestas) => corregirRapido("trampas", respuestas)?.nota.toFixed(2) ?? null,
+    etiquetaResultado: (nota) => `${nota.replace(".", ",")} / 10`,
+    comparable: true,
+  },
+  "cuenta-atras": {
+    id: "cuenta-atras",
+    nombre: "¿Te da tiempo?",
+    ruta: "/te-da-tiempo",
+    palabraClave: "CUENTAATRAS",
+    // «12s-15t-asumible»: semanas que quedan, temas pendientes y nivel.
+    resolver: (datos) => {
+      const c = calcularCuentaAtras(datos, new Date());
+      return c ? `${c.semanas}s-${c.pendientes}t-${c.nivel}` : null;
+    },
+    etiquetaResultado: (clave) => {
+      const [, s, t, n] = clave.match(/^(\d+)s-(\d+)t-(\w+)$/) ?? [];
+      return s ? `${s} semanas · ${t} temas pendientes · ${nivelesRitmo[n as Nivel]?.nombre.toLowerCase() ?? n}` : clave;
+    },
+  },
+  meritos: {
+    id: "meritos",
+    nombre: "Calculadora de méritos",
+    ruta: "/meritos-guardia-civil",
+    palabraClave: "MERITOS",
+    resolver: (datos) => calcularMeritos(datos)?.total.toFixed(2) ?? null,
+    etiquetaResultado: (puntos) => `${puntos.replace(".", ",")} / 45 puntos`,
+    comparable: true,
+  },
+  entrevista: {
+    id: "entrevista",
+    nombre: "¿Encajas en el perfil de la entrevista?",
+    ruta: "/entrevista-guardia-civil",
+    palabraClave: "ENTREVISTA",
+    // «medio-autocontrol»: nivel global y la competencia más floja (o «ninguna»).
+    resolver: (respuestas) => {
+      const r = evaluarEntrevista(respuestas);
+      return r ? `${r.nivel}-${r.aMejorar[0] ?? "ninguna"}` : null;
+    },
+    etiquetaResultado: (clave) => {
+      const [n, c] = clave.split("-");
+      const comp = competencias[c as Competencia]?.corto;
+      return `${nivelesEntrevista[n as NivelEntrevista]?.nombre ?? n}${comp ? ` · a mejorar: ${comp.toLowerCase()}` : ""}`;
+    },
+  },
+  destino: {
+    id: "destino",
+    nombre: "¿Dónde te puede tocar?",
+    ruta: "/destino-guardia-civil",
+    palabraClave: "DESTINO",
+    // La comunidad en la que le gustaría trabajar.
+    resolver: (datos) => validarDestino(datos),
+    etiquetaResultado: (c) => `Quiere trabajar en ${comunidades[c as Comunidad]?.nombre ?? c}`,
   },
 } satisfies Record<string, Recurso>;
 
