@@ -3,7 +3,7 @@ titulo: ¿Puedo ser Guardia Civil con gafas, miopía o si me he operado la vista
 slug: gafas-miopia-operacion-vista-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-14T07:30:00+01:00
+publicado_en: 2026-11-14T07:56:00+01:00
 curso: acceso-guardia-civil
 entradilla: Sí puedes llevar gafas o lentillas: lo que cuenta es la agudeza visual y las dioptrías. Los límites exactos del cuadro médico, qué pasa si te has operado con láser y la causa de exclusión de la vista que casi nadie revisa.
 etiquetas: [vista, miopía, gafas, cuadro médico]

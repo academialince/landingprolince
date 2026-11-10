@@ -3,7 +3,7 @@ titulo: Edad máxima para ser Guardia Civil: de 18 a 40 y cómo se cuenta
 slug: edad-maxima-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-11T07:30:00+01:00
+publicado_en: 2026-11-11T07:05:00+01:00
 curso: acceso-guardia-civil
 entradilla: Puedes presentarte a la Guardia Civil si cumples 18 años durante el año de la convocatoria y no cumples 41 en ese mismo año. Te explicamos cómo se cuenta, con ejemplos por año de nacimiento, y qué hacer si vas justo de edad.
 etiquetas: [edad, requisitos, convocatoria]

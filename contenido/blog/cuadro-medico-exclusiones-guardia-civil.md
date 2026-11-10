@@ -3,7 +3,7 @@ titulo: Cuadro médico de exclusiones de la Guardia Civil explicado
 slug: cuadro-medico-exclusiones-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-12T07:30:00+01:00
+publicado_en: 2026-11-12T07:22:00+01:00
 curso: acceso-guardia-civil
 entradilla: El reconocimiento médico es la última prueba y se aplica con el cuadro de exclusiones de la Orden PCI/155/2019. Qué norma está vigente, qué cambió en 2021 y 2023, y las exclusiones que más dudas generan, explicadas sin tecnicismos.
 etiquetas: [cuadro médico, reconocimiento médico, requisitos, exclusiones]

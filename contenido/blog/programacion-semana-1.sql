@@ -70,7 +70,7 @@ Tampoco. El antiguo límite de 203 cm desapareció con la misma orden.
 ### ¿Se mide la altura en el reconocimiento médico?
 
 Sí, para calcular el índice de masa corporal, que debe estar entre 17 y 30.',
-   NULL, NULL, 'publicado', '2026-11-13T06:30:00.000Z', 'acceso-guardia-civil',
+   NULL, NULL, 'publicado', '2026-11-13T06:39:00.000Z', 'acceso-guardia-civil',
    ARRAY['altura', 'estatura', 'cuadro médico', 'requisitos']::text[], '{"title":"Altura mínima Guardia Civil: ya no se exige (2026)","description":"¿Hay altura mínima para la Guardia Civil? No desde la Orden PCM/1133/2023. Qué se exigía antes (160 y 155 cm), por qué se eliminó y qué se sigue midiendo."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -186,7 +186,7 @@ Entre 17 y 30. Se admite por encima de 30 si se debe a desarrollo muscular y no 
 ### ¿La tartamudez excluye?
 
 No. El cuadro dice expresamente que la disartria o la tartamudez no son causa de exclusión.',
-   NULL, NULL, 'publicado', '2026-11-12T06:30:00.000Z', 'acceso-guardia-civil',
+   NULL, NULL, 'publicado', '2026-11-12T06:22:00.000Z', 'acceso-guardia-civil',
    ARRAY['cuadro médico', 'reconocimiento médico', 'requisitos', 'exclusiones']::text[], '{"title":"Cuadro médico Guardia Civil: exclusiones vigentes","description":"Cuadro médico de exclusiones de la Guardia Civil vigente: norma, cambios de 2021 y 2023, IMC, vista, oído, tensión, espalda y cómo prepararte."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -282,7 +282,7 @@ Sí, si cumples los 18 durante el año de la convocatoria. Puedes hacer el exame
 ### ¿Puntúa la edad en la Guardia Civil?
 
 No suma puntos. Solo se usa como último criterio de desempate: a igualdad de nota final, pasa el aspirante de mayor edad.',
-   NULL, NULL, 'publicado', '2026-11-11T06:30:00.000Z', 'acceso-guardia-civil',
+   NULL, NULL, 'publicado', '2026-11-11T06:05:00.000Z', 'acceso-guardia-civil',
    ARRAY['edad', 'requisitos', 'convocatoria']::text[], '{"title":"Edad máxima Guardia Civil 2026: cómo se cuenta","description":"Edad máxima y mínima para ser Guardia Civil según la convocatoria 2026: de 18 a 40 años por año natural. Tabla por año de nacimiento y casos dudosos."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -374,7 +374,7 @@ El cuadro no excluye la cirugía refractiva corneal en sí. Se valora el resulta
 ### ¿El daltonismo excluye de la Guardia Civil?
 
 Sí. El cuadro médico exige visión cromática normal.',
-   NULL, NULL, 'publicado', '2026-11-14T06:30:00.000Z', 'acceso-guardia-civil',
+   NULL, NULL, 'publicado', '2026-11-14T06:56:00.000Z', 'acceso-guardia-civil',
    ARRAY['vista', 'miopía', 'gafas', 'cuadro médico']::text[], '{"title":"Gafas y miopía en la Guardia Civil: límites 2026","description":"¿Puedes ser Guardia Civil con gafas o miopía? Agudeza visual mínima, dioptrías máximas (−3, +3, ±2), operación láser y daltonismo según el cuadro médico."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -563,7 +563,7 @@ Sí. En el texto consolidado siguen los apartados J.2 («Cualquier tipo de cirug
 ### ¿Es lo mismo en la Policía Nacional?
 
 No. La Policía Nacional tiene su propio cuadro médico y otra sentencia del Supremo, de 16 de febrero de 2023, con un alcance distinto.',
-   NULL, NULL, 'publicado', '2026-11-15T06:30:00.000Z', 'acceso-guardia-civil',
+   NULL, NULL, 'publicado', '2026-11-15T06:13:00.000Z', 'acceso-guardia-civil',
    ARRAY['lentes intraoculares', 'vista', 'cuadro médico', 'Tribunal Supremo']::text[], '{"title":"Lentes intraoculares Guardia Civil: qué dijo el Supremo","description":"¿Excluyen las lentes intraoculares o fáquicas de la Guardia Civil? Qué anuló la sentencia del Supremo de 2023, qué sigue en el cuadro médico y cómo prepararte."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -652,7 +652,7 @@ No como una cifra aislada. Se publica la relación de aspirantes propuestos con 
 ### ¿Con 50 en el examen de conocimientos entro?
 
 No. Con 50 superas el mínimo para seguir en el proceso, pero los cortes de los últimos años en acceso libre han estado entre 90 y 111 puntos sobre 195.',
-   NULL, NULL, 'publicado', '2026-11-17T06:30:00.000Z', 'acceso-guardia-civil',
+   NULL, NULL, 'publicado', '2026-11-17T06:47:00.000Z', 'acceso-guardia-civil',
    ARRAY['nota de corte', 'puntuación', 'concurso-oposición', 'convocatoria']::text[], '{"title":"Nota de corte Guardia Civil 2026 y años anteriores","description":"Nota de corte de la Guardia Civil de 2022 a 2026 sobre 195 puntos, calculada con las resoluciones del BOE. Qué es, por qué varía y qué nota apuntar."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

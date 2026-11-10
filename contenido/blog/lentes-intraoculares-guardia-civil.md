@@ -3,7 +3,7 @@ titulo: Lentes intraoculares y Guardia Civil: qué cambió con el Supremo
 slug: lentes-intraoculares-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-15T07:30:00+01:00
+publicado_en: 2026-11-15T07:13:00+01:00
 curso: acceso-guardia-civil
 entradilla: En 2023 el Tribunal Supremo anuló la frase del cuadro médico que excluía siempre las lentes fáquicas. Qué anuló exactamente, qué sigue escrito en la norma y qué significa para ti si llevas una lente implantada.
 etiquetas: [lentes intraoculares, vista, cuadro médico, Tribunal Supremo]
