@@ -11,7 +11,7 @@ Un artículo al día a las 7:30 (hora peninsular). Semana 1 ya escrita y program
 - Lun 16-11 · Guardia Civil o Policía Nacional: diferencias para elegir oposición
 - Mar 17-11 · Nota de corte de la Guardia Civil: cómo funciona y por qué no hay una sola cifra
 
-## Semana 2 · Pruebas físicas a fondo
+## Semana 2 · Pruebas físicas a fondo (escrita)
 - Mié 18-11 · Carrera de 2.000 metros en la Guardia Civil: plan para bajar tu marca
 - Jue 19-11 · Circuito de agilidad y coordinación de la Guardia Civil: técnica paso a paso
 - Vie 20-11 · Extensiones de brazos en la Guardia Civil: de cero a la marca
@@ -20,7 +20,7 @@ Un artículo al día a las 7:30 (hora peninsular). Semana 1 ya escrita y program
 - Lun 23-11 · Entrenar y estudiar a la vez: cómo comer y descansar para rendir en las dos cosas
 - Mar 24-11 · Lesiones típicas al preparar las físicas y cómo evitarlas
 
-## Semana 3 · Psicotécnico y entrevista
+## Semana 3 · Psicotécnico y entrevista (escrita)
 - Mié 25-11 · Series numéricas del psicotécnico: los patrones que más se repiten
 - Jue 26-11 · Razonamiento verbal en el psicotécnico: sinónimos, antónimos y analogías
 - Vie 27-11 · Aptitud espacial: cómo resolver cubos, giros y figuras
@@ -29,13 +29,13 @@ Un artículo al día a las 7:30 (hora peninsular). Semana 1 ya escrita y program
 - Lun 30-11 · Cuestionario BIODATA de la Guardia Civil: qué es y cómo rellenarlo
 - Mar 01-12 · Las seis competencias de la entrevista personal y cómo demostrarlas
 
-## Semana 4 · Ortografía, gramática y Constitución
-- Mié 02-12 · Tildes: las reglas que más fallan los opositores
-- Jue 03-12 · B/V, G/J y H: palabras trampa del examen de ortografía
+## Semana 4 · Ortografía, gramática y Constitución (escrita)
+- Mié 02-12 · Tildes en la oposición a Guardia Civil: las reglas que más fallan los opositores
+- Jue 03-12 · B/V, G/J y H: palabras trampa del examen de ortografía de la Guardia Civil
 - Vie 04-12 · Haber o a ver, echo o hecho: los homófonos que te pueden excluir
-- Sáb 05-12 · Gramática en la Guardia Civil: laísmo, leísmo y dequeísmo
-- Dom 06-12 · Día de la Constitución: test de 20 preguntas que caen en la Guardia Civil
-- Lun 07-12 · Derechos fundamentales y libertades públicas: lo que más se pregunta
+- Sáb 05-12 · Gramática en la Guardia Civil: laísmo, leísmo, dequeísmo y otros errores del examen
+- Dom 06-12 · Día de la Constitución: test de 20 preguntas para repasar la oposición a Guardia Civil
+- Lun 07-12 · Derechos fundamentales y libertades públicas: lo que tienes que dominar para el examen
 - Mar 08-12 · La Corona y las Cortes Generales en el examen: los datos que hay que saberse
 
 ## Semana 5 · Temario jurídico (I)
