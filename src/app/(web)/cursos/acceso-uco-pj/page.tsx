@@ -74,6 +74,12 @@ const ventajas = [
   },
 ];
 
+const fotosUnidad = [
+  { src: "/cursos/uco/llegada-operativo.jpg", alt: "Agentes de la UCO llegando a un domicilio durante un operativo" },
+  { src: "/cursos/uco/registro-domicilio.jpg", alt: "Agentes de la UCO durante el registro de una vivienda" },
+  { src: "/cursos/uco/inspeccion-almacen.jpg", alt: "Agentes de la UCO inspeccionando mercancía en un almacén" },
+];
+
 const faq = [
   {
     pregunta: "¿Es una suscripción?",
@@ -105,8 +111,8 @@ export const metadata: Metadata = metadataPagina({
   descripcion:
     "Prepara la especialidad de Policía Judicial y el acceso a la UCO con tests y simulacros ilimitados: más de 2.000 preguntas elaboradas por personal en activo de la UCO.",
   ruta: "/cursos/acceso-uco-pj",
-  imagen: "/tactico/equipo-tactico-restaurada-4k.jpg",
-  imagenAlt: "Equipo de la Guardia Civil en una intervención",
+  imagen: "/cursos/uco/investigacion-digital.jpg",
+  imagenAlt: "Agentes de la UCO de la Guardia Civil analizando material informático intervenido",
   noindex: true,
 });
 
@@ -167,13 +173,13 @@ export default function PaginaAccesoUcoPj() {
 
             <div className="reflejo relative aspect-[16/11] overflow-hidden rounded-2xl border border-border shadow-[0_28px_60px_-24px_rgba(2,67,52,0.35)]">
               <Image
-                src="/tactico/equipo-tactico-restaurada-4k.jpg"
+                src="/cursos/uco/investigacion-digital.jpg"
                 quality={90}
-                alt="Equipo de la Guardia Civil en una intervención"
+                alt="Agentes de la UCO de la Guardia Civil analizando material informático intervenido"
                 fill
                 preload
                 sizes="(max-width: 1024px) 100vw, 560px"
-                className="object-cover"
+                className="object-cover object-[50%_38%]"
               />
             </div>
           </div>
@@ -208,6 +214,15 @@ export default function PaginaAccesoUcoPj() {
         entradilla="La Unidad Central Operativa es la unidad de referencia de la Policía Judicial de la Guardia Civil. Llegar a ella exige primero la especialidad, y la especialidad se gana en el examen."
         fondo="suave"
       >
+        <ul className="mb-8 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3">
+          {fotosUnidad.map((f, i) => (
+            <Reveal key={f.src} retardo={i * 60} className={i === 2 ? "hidden lg:block" : undefined}>
+              <li className="relative aspect-[3/4] overflow-hidden rounded-xl border border-border">
+                <Image src={f.src} alt={f.alt} fill sizes="(max-width: 1024px) 50vw, 380px" className="object-cover" />
+              </li>
+            </Reveal>
+          ))}
+        </ul>
         <ul className="grid gap-3 sm:grid-cols-3">
           {[
             "Investigación de la delincuencia organizada y de las estructuras criminales más complejas",
