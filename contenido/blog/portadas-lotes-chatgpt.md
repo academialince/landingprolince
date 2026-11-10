@@ -362,7 +362,7 @@ ESTILO COMÚN
 Fotografía editorial hiperrealista, formato horizontal 16:9. Estilo cinematográfico: luz natural dramática (hora dorada o luz de ventana), contraste alto, gama de verdes oscuros y tonos cálidos, profundidad de campo marcada, grano fino de cámara de cine. Localización reconocible de España. Personas reales con piel natural, expresiones creíbles y gestos espontáneos, sin posar ni sonreír a cámara. Pueden aparecer uniformes, distintivos y el rótulo «Guardia Civil» si la escena lo pide. Sin rótulos superpuestos ni marcas de agua.
 
 1) Nombre del archivo: examen-del-colegio-de-guardias-jovenes-estructura-y-temas.jpg
-Escena: Una sala de examen de un colegio con adolescentes sentados en pupitres individuales rellenando una hoja de test con bolígrafo negro. En primer plano, una chica con gesto concentrado; al fondo, un reloj de pared y un tribunal que vigila. Luz fría de aula.
+Escena: Una sala de examen con jóvenes aspirantes sentados en pupitres individuales rellenando una hoja de test con bolígrafo negro. En primer plano, una chica con gesto concentrado; al fondo, un reloj de pared y un tribunal que vigila. Luz fría de aula.
 
 2) Nombre del archivo: preguntas-trampa-del-examen-de-guardia-civil.jpg
 Escena: Primer plano de una hoja de test con una pregunta y cuatro opciones (texto ilegible) y un bolígrafo negro que duda entre dos de ellas, con el rostro de un opositor desenfocado al fondo. Luz de lámpara de estudio, tono tenso.
