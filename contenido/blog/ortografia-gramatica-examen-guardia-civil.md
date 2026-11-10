@@ -13,7 +13,7 @@ seo_title: Ortografía y gramática: examen Guardia Civil
 seo_description: Cómo son las pruebas de ortografía y gramática del examen de la Guardia Civil, por qué eliminan y qué rutina de estudio funciona para superarlas.
 ---
 
-Hay una forma especialmente amarga de suspender esta oposición: llegar con los 25 temas trabajados, sentarte, y quedar excluido en los primeros veinte minutos por haber marcado mal seis palabras.
+Hay una forma especialmente amarga de suspender esta oposición: llegar con los 23 temas trabajados, sentarte, y quedar excluido en los primeros veinte minutos por haber marcado mal seis palabras.
 
 Pasa todos los años. Y pasa porque casi nadie estudia esta parte.
 

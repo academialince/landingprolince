@@ -12515,7 +12515,7 @@ Para consultas, la base 4.10 da como contacto el Servicio de Selección y Formac
 
 ## 3. El temario oficial
 
-La Guardia Civil publica en PDF el [temario de las convocatorias de ingreso](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf), con cada tema dividido en bloques y los títulos o capítulos concretos de cada norma. Es el documento más útil para saber **qué partes entran** y no estudiar de más ni de menos. El PDF numera 25 temas porque incluye inglés y lengua española; los de conocimientos generales son 23.
+La Guardia Civil publica en PDF el [temario de las convocatorias de ingreso](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf), con cada tema dividido en bloques y los títulos o capítulos concretos de cada norma. Es el documento más útil para saber **qué partes entran** y no estudiar de más ni de menos.
 
 La convocatoria de 2026 se remite a la Resolución de 26 de junio de 2019, modificada por la Resolución de 3 de octubre de 2022. Antes de fiarte de un PDF, comprueba que coincide con el que cite la convocatoria vigente.
 
@@ -15642,3 +15642,10 @@ on conflict (slug) do update set
   estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
   etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
 
+-- Corrige «25 temas» por «23 temas» en los artículos ya publicados (solo cambia esas expresiones).
+update public.blog_posts set cuerpo = replace(cuerpo, 'que son 25 temas', 'que son 23 temas') where slug = 'convocatoria-guardia-civil-2026-plazas-calendario';
+update public.blog_posts set cuerpo = replace(replace(cuerpo, 'un temario de 25 temas', 'un temario de 23 temas'), 'retiene 25 temas', 'retiene 23 temas') where slug = 'preparar-oposicion-guardia-civil-desde-cero';
+update public.blog_posts set cuerpo = replace(cuerpo, 'con los 25 temas trabajados', 'con los 23 temas trabajados') where slug = 'ortografia-gramatica-examen-guardia-civil';
+update public.blog_posts set cuerpo = replace(replace(cuerpo, '| 25 temas, inglés', '| 23 temas, inglés'), 'exige 25 temas', 'exige 23 temas') where slug = 'colegio-guardias-jovenes-acceso-guardia-civil';
+-- Comprobación: debe devolver 0 filas.
+select slug from public.blog_posts where cuerpo ilike '%25 temas%';

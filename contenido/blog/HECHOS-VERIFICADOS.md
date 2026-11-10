@@ -90,9 +90,7 @@ No existe una «nota de corte oficial» publicada como cifra aislada.
 
 ## Temario
 
-- **23 temas de conocimientos generales** (`src/content/temario.ts`). El PDF oficial del temario
-  (web.guardiacivil.es) numera 25 porque incluye inglés y lengua española. Escribe «23 temas de
-  conocimientos» (o «el programa de 23 temas»); nunca «25 temas» a secas.
+- **El programa tiene 23 temas** (`src/content/temario.ts`). Escribe siempre 23; nunca 25.
 
 ## Policía Nacional 2026 (solo para comparar)
 

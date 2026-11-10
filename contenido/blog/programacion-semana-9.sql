@@ -729,7 +729,7 @@ Para consultas, la base 4.10 da como contacto el Servicio de Selección y Formac
 
 ## 3. El temario oficial
 
-La Guardia Civil publica en PDF el [temario de las convocatorias de ingreso](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf), con cada tema dividido en bloques y los títulos o capítulos concretos de cada norma. Es el documento más útil para saber **qué partes entran** y no estudiar de más ni de menos. El PDF numera 25 temas porque incluye inglés y lengua española; los de conocimientos generales son 23.
+La Guardia Civil publica en PDF el [temario de las convocatorias de ingreso](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf), con cada tema dividido en bloques y los títulos o capítulos concretos de cada norma. Es el documento más útil para saber **qué partes entran** y no estudiar de más ni de menos.
 
 La convocatoria de 2026 se remite a la Resolución de 26 de junio de 2019, modificada por la Resolución de 3 de octubre de 2022. Antes de fiarte de un PDF, comprueba que coincide con el que cite la convocatoria vigente.
 
