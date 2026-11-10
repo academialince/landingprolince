@@ -5,77 +5,117 @@ tipo: articulo
 estado: publicado
 publicado_en: 2027-01-28T07:11:00+01:00
 curso: acceso-guardia-civil
-entradilla: El Servicio de Montaña y sus GREIM rescatan, investigan accidentes y vigilan zonas de difícil acceso. Qué hacen, dónde está su centro de formación y qué dice la normativa sobre cómo se accede a la especialidad, sin cifras inventadas.
+entradilla: El Servicio de Montaña y sus GREIM rescatan, investigan accidentes y vigilan zonas de difícil acceso. Qué hacen, cómo se despliegan, dónde se forma el personal y qué dice la normativa sobre el acceso a la especialidad, sin cifras inventadas.
 etiquetas: [montaña, greim, especialidades, rescate]
 seo_title: Rescate de montaña Guardia Civil: GREIM y acceso
-seo_description: Rescate de montaña en la Guardia Civil: qué hace el GREIM, dónde se forma el personal y qué dice la normativa sobre el acceso a la especialidad de montaña.
+seo_description: Rescate de montaña en la Guardia Civil: qué hacen los GREIM, cómo se despliegan, dónde se forman y qué exige la normativa para la especialidad de montaña.
 datos: {}
 ---
-El rescate de un montañero en los Pirineos o de una persona atrapada en una cueva suele llevar detrás a un guardia civil del Servicio de Montaña. **Los GREIM son las unidades de ese servicio, y la especialidad de Montaña tiene dos modalidades reguladas: especialista e instructor.** Aquí explicamos qué hacen y qué se puede afirmar con rigor sobre cómo se accede.
+El rescate de un montañero en el Pirineo o de una persona atrapada en una cueva suele llevar detrás a un guardia civil del Servicio de Montaña. **Los GREIM son los grupos de ese servicio, y la especialidad de Montaña tiene dos modalidades: especialista e instructor.** La de especialista puede obtenerse siendo guardia, cabo o cabo primero; la de instructor exige haber sido antes especialista.
 
-Un aviso previo: el título habla de «requisitos», pero los requisitos concretos de cada curso (pruebas, plazas, duración) los fija la convocatoria vigente y no vamos a inventarlos. Contamos solo lo comprobable.
+Un aviso previo: el título habla de requisitos, pero los de cada curso (pruebas, plazas, duración, edad máxima) los fija la convocatoria vigente y no los he encontrado publicados en abierto. Aquí va solo lo comprobable.
 
 ## Qué hace el Servicio de Montaña
 
-Según la web oficial de la Guardia Civil, los especialistas ejercen las funciones del Cuerpo en zonas de montaña y de difícil acceso. En concreto:
+La norma de estructura del Cuerpo ([Orden PRE/422/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906), artículo 8.2.f) lo define como el órgano especializado para las funciones de la Guardia Civil en zonas de montaña o en otras que, por su dificultad orográfica o climatológica, requieran una especial preparación física y técnica y medios técnicos adecuados. Depende de la Jefatura de Unidades Especiales y de Reserva.
 
-- Rescatar y auxiliar a personas.
-- Investigar accidentes.
-- Velar por la conservación de la naturaleza.
-- Garantizar la seguridad ciudadana en instalaciones deportivas de montaña, estaciones de esquí y competiciones deportivas.
-- Colaborar en la prevención de accidentes y en la promoción de la seguridad en montaña.
+Según la [web oficial](https://web.guardiacivil.es/es/institucional/conocenos/especialidades/Greim/), sus especialistas:
 
-La norma de estructura del Cuerpo ([Orden PRE/422/2013, BOE-A-2013-2906](https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906)) lo define como el órgano para las funciones en zonas de montaña o en otras que, por su dificultad orográfica o climatológica, requieran una especial preparación física y técnica. Depende de la Jefatura de Unidades Especiales y de Reserva.
+- Rescatan y auxilian a personas.
+- Investigan accidentes.
+- Velan por la conservación de la naturaleza.
+- Garantizan la seguridad ciudadana en instalaciones deportivas de montaña, estaciones de esquí y competiciones.
+- Colaboran en la prevención de accidentes y en la promoción de la seguridad en montaña.
 
-La web añade que el servicio se adaptó con el tiempo a nuevas necesidades: barrancos, cavidades subterráneas y espeleosocorro, y rescate en medio acuático. Y que, por la dificultad del terreno, los rescates se hacen con frecuencia junto al Servicio Aéreo.
+Ejemplos de servicios que encajan ahí: localizar a un senderista extraviado, evacuar a un escalador herido, intervenir en un barranco o en una cavidad, investigar un accidente mortal en una estación de esquí o dar charlas de prevención. Por la dificultad del terreno, los rescates se hacen a menudo **coordinados con el Servicio Aéreo**.
 
 ## Un poco de historia
 
-La propia web recoge que en 1967 se crearon las Unidades de Esquiadores-Escaladores, y que en 1981 se reorganizó el servicio con los actuales grupos GREIM. Fíjate en que la web usa dos denominaciones («Rescate Especial de Intervención en Montaña» y «Rescate e Intervención en Montaña»): es la misma unidad.
+La web recoge que el auge de las actividades al aire libre en los años sesenta obligó a organizar el rescate. En **1967** se crearon las Unidades de Esquiadores-Escaladores, que se ocupaban del rescate y de la vigilancia de los pasos fronterizos del Pirineo, y en **1981** se reorganizó el servicio con los actuales GREIM. Desde entonces se ha adaptado: barranquismo en los ochenta, cavidades subterráneas y espeleosocorro a principios de los noventa y rescate en medio acuático. La web usa dos nombres para el GREIM («Rescate Especial de Intervención en Montaña» y «Rescate e Intervención en Montaña»): es la misma unidad.
 
 ## Cómo se organiza
 
-- **Órgano central, en Jaca (Huesca):** incluye el Área de Instrucción y Doctrina, de la que depende la Unidad Especial de Montaña, y el Centro de Adiestramientos Específicos de Montaña (CAEM), responsable de la formación del personal de montaña.
-- **Organización periférica:** grupos GREIM repartidos en áreas que corresponden a uno o varios macizos montañosos. La web enumera áreas como Jaca, Cangas de Onís, Granada o Navacerrada, cada una con sus grupos.
+- **Órgano central, en Jaca (Huesca):** el Área de Instrucción y Doctrina, que apoya a las unidades e investiga nuevas técnicas y materiales, y de la que depende la Unidad Especial de Montaña (UEM); y el **Centro de Adiestramientos Específicos de Montaña (CAEM)**, responsable de la formación del personal de montaña. Cuenta además con equipos de competición de fondo-biatlón y de esquí-alpinismo.
+- **Organización periférica:** grupos distribuidos en áreas que corresponden a uno o varios macizos.
 
-## Qué dice la normativa sobre el acceso
+| Área | Algunos GREIM (web oficial, noviembre de 2026) |
+|---|---|
+| Jaca | Huesca, Jaca, Boltaña, Pamplona, Benasque, Panticosa, Tarazona, Rubielos |
+| Cangas de Onís | Cangas de Onís, Mieres, Sabero, Potes, entre otros |
+| Granada | Granada, Mallorca, Tenerife, Onteniente, Álora, Ubrique |
+| Navacerrada | Navacerrada, El Barco de Ávila, Riaza, Arenas de San Pedro, Ezcaray |
+| Viella | Viella |
 
-La [Orden PCM/509/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-5900) enumera la especialidad **Montaña (MT)** con dos modalidades: **especialista en montaña** e **instructor de montaña**. Y fija la regla general de todas las especialidades: el requisito fundamental es acreditar la cualificación específica y ocupar un puesto orgánico que la requiera. Además, permite condicionar el acceso a estos puestos por escala, empleo, edad, condiciones psicofísicas, titulaciones previas o nivel de idiomas.
+En total, la web enumera 25 grupos en cinco áreas. El despliegue puede cambiar: consúltalo antes de citarlo.
 
-El Reglamento de ordenación de la enseñanza ([Real Decreto 131/2018, BOE-A-2018-3764](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764)) añade condiciones generales para los cursos de especialización, entre ellas:
+## Con quién trabaja
 
-- Aptitud psicofísica y técnica y, en su caso, límites de edad o de altura.
-- Titulaciones, niveles de idiomas o habilitaciones.
-- No tener antecedentes penales ni sanciones graves o muy graves anotadas y sin cancelar en la hoja de servicios.
+El Servicio de Montaña no actúa aislado. Comparte jefatura con el **Servicio Aéreo**, la Agrupación de Reserva y Seguridad o el Servicio Cinológico (Orden PRE/422/2013, artículo 8.2), y la web subraya que sus rescates se coordinan a menudo con los helicópteros del Cuerpo. Y entre sus cometidos está velar por la conservación de la naturaleza, un terreno que comparte con el [SEPRONA](/blog/seprona-la-especialidad-de-proteccion-de-la-naturaleza).
 
-Y el Reglamento de destinos ([Real Decreto 470/2019, BOE-A-2019-11398](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398)) establece que el periodo de servidumbre ligado a una titulación (tiempo que hay que permanecer en puestos que la usan) no puede superar los cinco años.
+## La especialidad según la normativa
+
+La [Orden PCM/509/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-5900) recoge la especialidad **Montaña (MT, E14)**. Su anexo ([PDF del BOE](https://www.boe.es/boe/dias/2020/06/10/pdfs/BOE-A-2020-5900.pdf)) dedica una ficha a cada modalidad:
+
+| | Especialista en montaña (MTE) | Instructor de montaña (MTI) |
+|---|---|---|
+| Escalas de obtención | Oficiales (teniente a comandante), Suboficiales y Cabos y Guardias | Suboficiales y Cabos y Guardias |
+| Cualificación previa | Ninguna | Especialista (MTE) |
+| Límite de edad de acceso | Sí (la ficha no da la cifra) | Sí |
+| Límite de edad para permanecer | No | No |
+| Mantenimiento y renovación | Con pruebas o condiciones | Con pruebas o condiciones |
+| Servidumbre | 4 años | 3 años |
+
+La servidumbre del especialista puede cumplirse también en algunas unidades distintas, como la Unidad Especial de Intervención o la Unidad de Seguridad de la Casa de S. M. el Rey. La pérdida de la cualificación la insta el jefe del Servicio de Montaña.
+
+## Cómo se accede
+
+1. **Ingresar** en la Escala de Cabos y Guardias y obtener un primer destino; lo explicamos en [cómo se asignan los primeros destinos](/blog/como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil).
+2. **Superar el curso de especialización**, que imparte el CAEM según la web. El [Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764) fija requisitos generales para estos cursos (artículo 56): aptitud psicofísica y técnica y, en su caso, límites de edad o de altura; titulaciones, idiomas o habilitaciones; servidumbre anterior cumplida; no tener antecedentes penales ni sanciones graves o muy graves sin cancelar; y esperar tres años si se ha suspendido el proceso selectivo tres veces o si se causó baja en el curso por no superarlo. La selección se publica, con carácter general, en el Boletín Oficial de la Guardia Civil (artículo 43.8).
+3. **Obtener un puesto de especialista**, que se asigna por **concurso de méritos** ([Orden INT/26/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-897), artículo 10.1).
+4. **Cumplir la servidumbre.** El [Reglamento de destinos](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398) la limita a un máximo de cinco años (artículo 53) y te hace destinable forzoso durante los dos años siguientes a tu aptitud si no puedes cumplirla en tu destino (artículo 31).
 
 ## Lo que no podemos contarte
 
-No podemos decirte qué pruebas físicas se exigen, cuántas plazas se convocan, qué experiencia previa se pide ni cuánto dura el curso, porque **no hemos podido verificarlo en una fuente oficial vigente**. Eso se mira en la convocatoria de cada curso. Según el Reglamento, la selección de asistentes se publica con carácter general en el Boletín Oficial de la Guardia Civil.
+No podemos decirte qué pruebas físicas o técnicas se exigen, cuántas plazas se convocan, qué experiencia previa se pide ni cuánto dura el curso: **no lo hemos podido verificar en una fuente oficial vigente**. Lo que sí dicen las normas es que hay límite de edad de acceso, aptitud psicofísica y técnica exigible y pruebas de mantenimiento: las cifras concretas están en cada convocatoria. Para el panorama del resto de especialidades, consulta [destinos y especialidades](/blog/destinos-especialidades-guardia-civil).
+
+## Errores frecuentes
+
+1. **Pensar que se entra en montaña desde la oposición.** Hace falta la cualificación y un destino de concurso de méritos.
+2. **Querer aprender montaña en el curso.** Es mejor llegar con experiencia y formación de base, adquirida de forma segura.
+3. **Entrenar solo resistencia.** Rescate es técnica, orientación y trabajo en equipo además de físico.
+4. **Olvidar la servidumbre y el mantenimiento.** La cualificación obliga a permanecer en esos puestos y a mantener el nivel.
+
+## Caso práctico (hipotético)
+
+Elena, guardia con varios años en un puesto de León, practica montaña desde joven. Cuando se convoca el curso, comprueba que cumple la edad y no está cumpliendo otra servidumbre. Lo supera en el CAEM y obtiene la cualificación MTE. Pide por concurso de méritos una vacante de especialista en un GREIM del área de Cangas de Onís. Si años después quiere ser instructora, ya cumple la cualificación previa exigida. El caso es inventado; las reglas son las de las normas citadas.
 
 ## Qué puedes hacer ya como opositor
 
-- **Cuida tu forma física** con un plan realista; empieza por las [marcas de las pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento).
-- **Conoce la montaña con criterio**, con formación de federaciones y siempre de forma segura. Ante dudas de entrenamiento o salud, consulta a profesionales.
-- **Mira el panorama de destinos** en [especialidades y destinos](/blog/destinos-especialidades-guardia-civil).
+- **Cuida tu forma física** con un plan realista, empezando por las [marcas de las pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento). Ante dudas de entrenamiento o salud, consulta a un profesional.
+- **Aprende orientación**: el tema de [topografía](/blog/topografia-para-guardia-civil-escalas-curvas-de-nivel) del temario es la base de leer un mapa en el monte.
+- **Conoce la montaña con criterio**, con formación de federaciones y siempre de forma segura. Y en una emergencia, llama al 112.
 
 Y antes de todo eso, aprobar. En el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te acompañamos hasta ahí.
 
 ## Preguntas frecuentes
 
 ### ¿Qué es el GREIM?
-
-Es el grupo de rescate e intervención en montaña: la unidad del Servicio de Montaña de la Guardia Civil que actúa en zonas de montaña y de difícil acceso.
+El Grupo de Rescate e Intervención en Montaña: la unidad del Servicio de Montaña que actúa en zonas de montaña y de difícil acceso.
 
 ### ¿Puedo ir a Montaña al salir de la academia?
+La normativa exige la cualificación específica y un puesto que la requiera, asignado por concurso de méritos. La vía concreta depende de la convocatoria vigente.
 
-La normativa exige la cualificación específica y un puesto que la requiera. La vía concreta depende de la convocatoria vigente.
+### ¿Un guardia puede ser especialista en montaña?
+Sí. El anexo de la Orden PCM/509/2020 incluye a guardias, cabos y cabos primeros entre los empleos en que se obtiene la modalidad de especialista.
 
 ### ¿Dónde se forman los especialistas?
-
-La web oficial indica que el CAEM, en Jaca, es el responsable de la formación del personal de montaña de la Guardia Civil.
+La web oficial indica que el CAEM, en Jaca, es el responsable de la formación del personal de montaña.
 
 ### ¿Qué pruebas hay que pasar?
-
 Las fija cada convocatoria. No hay cifras generales que podamos darte con seguridad.
+
+### ¿Cuántos GREIM hay?
+La web oficial enumera 25 grupos repartidos en cinco áreas (Jaca, Cangas de Onís, Granada, Navacerrada y Viella).
+
+### ¿Hay especialistas de montaña fuera de los Pirineos?
+Sí. Además de las áreas pirenaicas de Jaca y Viella, la web cita grupos como los de Cangas de Onís, Potes, Navacerrada, Granada, Mallorca o Tenerife, entre otros.

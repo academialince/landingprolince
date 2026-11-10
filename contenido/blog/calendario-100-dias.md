@@ -1,6 +1,6 @@
 # Calendario del blog: 100 días (11-11-2026 a 18-02-2027)
 
-Un artículo al día entre las 7:00 y las 7:59 (hora peninsular). Todos escritos; slug y hora exactos en `plan-100-dias.json`.
+Un artículo al día entre las 7:00 y las 7:59 (hora peninsular). Todos escritos, revisados y ampliados (1.400-2.150 palabras); slug y hora exactos en `plan-100-dias.json`.
 
 ## Semana 1 · Requisitos y médico
 - Mié 11-11 · 07:05 · Edad máxima para ser Guardia Civil: de 18 a 40 y cómo se cuenta
@@ -70,7 +70,7 @@ Un artículo al día entre las 7:00 y las 7:59 (hora peninsular). Todos escritos
 - Jue 31-12 · 07:15 · Propósito 2027: entrar en la Guardia Civil. Plan mes a mes
 - Vie 01-01 · 07:32 · Empezar la oposición a Guardia Civil en enero: ¿da tiempo?
 - Sáb 02-01 · 07:49 · Cuántas horas al día hay que estudiar para la Guardia Civil
-- Dom 03-01 · 07:06 · Topografía para Guardia Civil: escalas, curvas de nivel y coordenadas
+- Dom 03-01 · 07:06 · Topografía para Guardia Civil: escalas, curvas de nivel y pendientes
 - Lun 04-01 · 07:23 · Cómo memorizar leyes: repaso espaciado aplicado al temario
 - Mar 05-01 · 07:40 · Tecnologías de la información en el temario: qué conceptos estudiar
 
@@ -78,10 +78,10 @@ Un artículo al día entre las 7:00 y las 7:59 (hora peninsular). Todos escritos
 - Mié 06-01 · 07:57 · Recursos oficiales gratuitos para preparar la Guardia Civil
 - Jue 07-01 · 07:14 · Exámenes oficiales anteriores: dónde encontrarlos y cómo sacarles partido
 - Vie 08-01 · 07:31 · Simulacros: cada cuánto hacerlos y cómo analizar los resultados
-- Sáb 09-01 · 07:48 · Derecho fiscal en la oposición: contrabando y aduanas, cuáles son las normas que entran
+- Sáb 09-01 · 07:48 · Derecho fiscal en la oposición: contrabando y aduanas, las normas que entran
 - Dom 10-01 · 07:05 · Qué llevar al examen de la Guardia Civil y qué está prohibido
 - Lun 11-01 · 07:22 · Protección civil y desarrollo sostenible en el temario: qué normas entran
-- Mar 12-01 · 07:39 · Academia, online o por libre: cómo preparar la Guardia Civil
+- Mar 12-01 · 07:39 · "Academia, online o por libre: cómo preparar la Guardia Civil"
 
 ## Semana 10 · Inglés y méritos
 - Mié 13-01 · 07:56 · "Gramática inglesa para la Guardia Civil: los tiempos verbales que conviene dominar"
@@ -94,15 +94,15 @@ Un artículo al día entre las 7:00 y las 7:59 (hora peninsular). Todos escritos
 
 ## Semana 11 · Después de aprobar
 - Mié 20-01 · 07:55 · Vida en la Academia de Baeza: horarios, normas y permisos según la normativa
-- Jue 21-01 · 07:12 · Las prácticas después de Baeza: qué te espera
+- Jue 21-01 · 07:12 · Las prácticas después de Baeza: qué te espera en el segundo curso
 - Vie 22-01 · 07:29 · Cómo se asignan los primeros destinos al salir de Baeza: lo que dice el reglamento
-- Sáb 23-01 · 07:46 · Casas cuartel y pabellones de la Guardia Civil: qué son y cómo funcionan
+- Sáb 23-01 · 07:46 · Casas cuartel y pabellones de la Guardia Civil: qué son y qué dice la norma
 - Dom 24-01 · 07:03 · Mujeres en la Guardia Civil: acceso, datos y conciliación
-- Lun 25-01 · 07:20 · Agrupación de Tráfico: qué hace y cómo se entra
-- Mar 26-01 · 07:37 · SEPRONA: la especialidad de protección de la naturaleza
+- Lun 25-01 · 07:20 · Agrupación de Tráfico de la Guardia Civil: qué hace y cómo se entra
+- Mar 26-01 · 07:37 · SEPRONA: la especialidad de protección de la naturaleza de la Guardia Civil
 
 ## Semana 12 · Especialidades
-- Mié 27-01 · 07:54 · GRS: qué son los Grupos de Reserva y Seguridad
+- Mié 27-01 · 07:54 · GRS: qué son los Grupos de Reserva y Seguridad de la Guardia Civil
 - Jue 28-01 · 07:11 · Rescate de montaña en la Guardia Civil: funciones, formación y cómo se accede
 - Vie 29-01 · 07:28 · GEAS: así son los buceadores de la Guardia Civil
 - Sáb 30-01 · 07:45 · Servicio Cinológico: qué hace un guía canino de la Guardia Civil y cómo se accede
@@ -116,8 +116,8 @@ Un artículo al día entre las 7:00 y las 7:59 (hora peninsular). Todos escritos
 - Vie 05-02 · 07:27 · Cómo rellenar la solicitud de la Guardia Civil paso a paso
 - Sáb 06-02 · 07:44 · Tasas de examen de la Guardia Civil: importe y exenciones
 - Dom 07-02 · 07:01 · Plazas reservadas para militares: cómo funciona el cupo
-- Lun 08-02 · 07:18 · Colegio de Guardias Jóvenes: requisitos de edad y cómo prepararlo
-- Mar 09-02 · 07:35 · Examen del Colegio de Guardias Jóvenes: estructura y temas
+- Lun 08-02 · 07:18 · Colegio de Guardias Jóvenes: requisitos de edad y qué está confirmado
+- Mar 09-02 · 07:35 · Examen del Colegio de Guardias Jóvenes: qué pruebas tiene y cómo prepararlo
 
 ## Semana 14 · Estrategia y vida de opositor
 - Mié 10-02 · 07:52 · Preguntas trampa del examen de Guardia Civil y cómo detectarlas

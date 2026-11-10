@@ -5,95 +5,161 @@ tipo: articulo
 estado: publicado
 publicado_en: 2026-12-11T07:35:00+01:00
 curso: acceso-guardia-civil
-entradilla: El tema 2 del programa es la Ley Orgánica 3/2007. Repasamos sus conceptos (discriminación directa e indirecta, acoso, acciones positivas, composición equilibrada), sus planes de igualdad y lo que dice de las Fuerzas y Cuerpos de Seguridad.
+entradilla: El tema 2 del programa es la Ley Orgánica 3/2007. Te explicamos sus definiciones, la regla del 60/40, los planes de igualdad y lo que dice de las Fuerzas y Cuerpos de Seguridad, con casos prácticos, errores frecuentes y un test propio.
 etiquetas: [igualdad, LO 3/2007, temario, discriminación]
 seo_title: Ley de Igualdad LO 3/2007: claves para la oposición
-seo_description: LO 3/2007 de igualdad efectiva: discriminación directa e indirecta, acoso, acciones positivas, planes de igualdad y su aplicación a la Guardia Civil.
+seo_description: LO 3/2007 de igualdad efectiva: discriminación directa e indirecta, acoso, acciones positivas, regla 60/40, planes de igualdad y Guardia Civil. Con test.
 datos: {}
 ---
-La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, es el tema 2 del programa de la Escala de Cabos y Guardias. **Respuesta corta:** es una ley de conceptos y definiciones, y se estudia mejor con un glosario que con una lectura corrida. Lo que entra, según nuestro [temario](/temario-guardia-civil): el Título I, el Capítulo I del Título II y los Títulos III a VIII.
+La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, es el tema 2 del programa de la Escala de Cabos y Guardias. **Respuesta corta:** es una ley de conceptos y definiciones, y se estudia mejor con un glosario que con una lectura corrida. Según nuestro [temario](/temario-guardia-civil), entran el Título I, el Capítulo I del Título II y los Títulos III a VIII. Los artículos 1 y 2 (Título Preliminar) no figuran en esa relación, pero te conviene leerlos porque explican el objeto y el ámbito de todo lo demás.
 
-El texto consolidado está en el [BOE-A-2007-6115](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115). Todos los artículos que citamos se han comprobado en él.
+Todos los artículos citados se han comprobado en el texto consolidado ([BOE-A-2007-6115](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115)), con sus reformas posteriores.
 
 ## Estructura de la ley
 
-| Título | Contenido |
-|---|---|
-| I | El principio de igualdad y la tutela contra la discriminación |
-| II | Políticas públicas para la igualdad |
-| III | Igualdad y medios de comunicación |
-| IV | El derecho al trabajo en igualdad de oportunidades |
-| V | El principio de igualdad en el empleo público |
-| VI | Igualdad de trato en el acceso a bienes y servicios y su suministro |
-| VII | La igualdad en la responsabilidad social de las empresas |
-| VIII | Disposiciones organizativas |
+| Parte | Contenido | Artículos | ¿En el programa? |
+|---|---|---|---|
+| Título Preliminar | Objeto y ámbito de la ley | 1-2 | Lectura de contexto |
+| Título I | El principio de igualdad y la tutela contra la discriminación | 3-13 | Sí |
+| Título II, Cap. I | Políticas públicas: principios generales | 14-22 | Sí |
+| Título II, Cap. II | Acción administrativa para la igualdad | 23-35 | No |
+| Título III | Igualdad y medios de comunicación | 36-41 | Sí |
+| Título IV | El derecho al trabajo en igualdad de oportunidades | 42-50 | Sí |
+| Título V | El principio de igualdad en el empleo público | 51-68 | Sí |
+| Título VI | Igualdad de trato en el acceso a bienes y servicios | 69-72 | Sí |
+| Título VII | La igualdad en la responsabilidad social de las empresas | 73-75 | Sí |
+| Título VIII | Disposiciones organizativas | 76-78 | Sí |
 
-## Título I: los conceptos que tienes que dominar
+## Objeto y ámbito (arts. 1 y 2)
 
-### Objeto y ámbito
-- **Art. 1:** hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres, eliminando la discriminación de la mujer en cualquier ámbito de la vida, en desarrollo de los artículos 9.2 y 14 de la Constitución.
-- **Art. 2:** todas las personas gozan de los derechos derivados de la igualdad de trato; las obligaciones se aplican a toda persona, física o jurídica, que se encuentre o actúe en territorio español.
+- **Art. 1:** hacer efectivo el derecho de igualdad de trato y de oportunidades, en desarrollo de los **artículos 9.2 y 14 de la Constitución**.
+- **Art. 2:** sus obligaciones alcanzan a **toda persona, física o jurídica, que se encuentre o actúe en territorio español**, sea cual sea su nacionalidad.
 
-### Definiciones
+## Título I: las definiciones que tienes que dominar
+
 | Concepto | Qué dice la ley |
 |---|---|
-| **Igualdad de trato** (art. 3) | Ausencia de toda discriminación, directa o indirecta, por razón de sexo, especialmente la derivada de la maternidad, la asunción de obligaciones familiares y el estado civil |
-| **Discriminación directa** (art. 6.1) | Ser tratada o tratado, por razón de sexo, de manera menos favorable que otra persona en situación comparable |
-| **Discriminación indirecta** (art. 6.2) | Una disposición, criterio o práctica aparentemente neutros que pone a personas de un sexo en desventaja particular, salvo justificación objetiva con finalidad legítima y medios necesarios y adecuados |
+| **Igualdad de trato** (art. 3) | Ausencia de toda discriminación, directa o indirecta, por razón de sexo, y especialmente la derivada de la maternidad, la asunción de obligaciones familiares y el estado civil |
+| **Discriminación directa** (art. 6.1) | Una persona es, ha sido o podría ser tratada, en atención a su sexo, de manera menos favorable que otra en situación comparable |
+| **Discriminación indirecta** (art. 6.2) | Una disposición, criterio o práctica aparentemente neutros pone a personas de un sexo en desventaja particular respecto del otro, salvo justificación objetiva con finalidad legítima y medios necesarios y adecuados |
+| **Orden de discriminar** (art. 6.3) | Se considera en cualquier caso discriminatoria |
 | **Acoso sexual** (art. 7.1) | Comportamiento verbal o físico de naturaleza sexual con el propósito o el efecto de atentar contra la dignidad, en particular creando un entorno intimidatorio, degradante u ofensivo |
-| **Acoso por razón de sexo** (art. 7.2) | Comportamiento en función del sexo con el propósito o el efecto de atentar contra la dignidad y crear ese entorno |
-| **Embarazo o maternidad** (art. 8) | Todo trato desfavorable relacionado con ellos es discriminación directa por razón de sexo |
-| **Indemnidad** (art. 9) | También es discriminación el trato adverso como consecuencia de presentar una queja, denuncia o recurso para impedir la discriminación |
+| **Acoso por razón de sexo** (art. 7.2) | Comportamiento realizado en función del sexo de una persona, con el propósito o el efecto de atentar contra su dignidad y de crear ese entorno |
+| **Condicionar un derecho al acoso** (art. 7.4) | Supeditar un derecho o una expectativa de derecho a que se acepte una situación de acoso también es discriminación |
+| **Embarazo o maternidad** (art. 8) | Todo trato desfavorable relacionado con ellos es discriminación **directa** |
+| **Indemnidad frente a represalias** (art. 9) | Es discriminación el trato adverso que sufre alguien por presentar una queja, reclamación, denuncia, demanda o recurso contra la discriminación |
 
-Además, toda orden de discriminar es discriminatoria (art. 6.3), y los actos y cláusulas que causen discriminación son nulos y dan lugar a reparación (art. 10).
+Dos consecuencias jurídicas cierran el bloque:
 
-### Otras reglas del Título I
-- **Acciones positivas (art. 11):** los poderes públicos pueden adoptar medidas específicas a favor de las mujeres para corregir desigualdades de hecho; han de ser razonables y proporcionadas y se aplican mientras subsistan esas situaciones.
-- **Tutela judicial (art. 12)** y **prueba (art. 13):** en los procedimientos con alegaciones de discriminación por razón de sexo, corresponde a la persona demandada probar la ausencia de discriminación y la proporcionalidad de sus medidas (no en los procesos penales).
+- **Nulidad y reparación (art. 10):** los actos y cláusulas discriminatorios son **nulos y sin efecto** y dan lugar a reparaciones reales, efectivas y proporcionadas.
+- **Acciones positivas (art. 11):** medidas específicas a favor de las mujeres para corregir desigualdades de hecho, **razonables y proporcionadas**, aplicables **mientras subsistan** esas situaciones. También pueden adoptarlas los particulares, en los términos de la ley.
 
-## Composición equilibrada
+### Tutela judicial y prueba (arts. 12 y 13)
 
-La disposición adicional primera define la **presencia o composición equilibrada**: las personas de cada sexo no superan el **60 %** ni son menos del **40 %** en el conjunto de que se trate. Es una cifra muy fácil de preguntar.
+- Cualquier persona puede pedir a los tribunales la tutela del derecho a la igualdad, conforme al artículo 53.2 de la Constitución, **incluso después de terminar la relación** en la que se produjo la discriminación (art. 12.1).
+- En los litigios sobre acoso sexual y por razón de sexo, **la persona acosada es la única legitimada** (art. 12.3).
+- **Inversión de la carga de la prueba (art. 13):** si quien demanda alega discriminación por razón de sexo, corresponde a la parte demandada probar la ausencia de discriminación y la proporcionalidad de sus medidas. **No se aplica a los procesos penales** (art. 13.2), donde rige la presunción de inocencia.
 
-## Políticas públicas (Título II, Capítulo I)
+## La regla del 60/40 (disposición adicional primera)
 
-- **Art. 14:** criterios generales de actuación de los poderes públicos (efectividad del derecho de igualdad, integración del principio en las políticas, colaboración entre administraciones, participación equilibrada, erradicación de la violencia de género y del acoso...).
-- **Art. 15:** transversalidad: el principio de igualdad informa la actuación de todos los poderes públicos.
+Hay **composición equilibrada** cuando, en el conjunto de que se trate, las personas de cada sexo **no superan el 60 % ni son menos del 40 %**. Con números pequeños conviene hacer la cuenta:
 
-## En el trabajo (Título IV)
+| Miembros del órgano | Reparto | ¿Equilibrado? |
+|---|---|---|
+| 5 | 3 y 2 (60 % y 40 %) | Sí |
+| 5 | 4 y 1 (80 % y 20 %) | No |
+| 7 | 5 y 2 (71 % y 29 %) | No |
 
-- **Planes de igualdad (arts. 45 y 46):** son un conjunto ordenado de medidas, adoptadas tras un diagnóstico de situación. Son obligatorios para las empresas de **cincuenta o más trabajadores** (art. 45.2 en su redacción vigente) y también cuando lo establezca el convenio colectivo; para las demás son voluntarios.
-- **Art. 48:** las empresas deben promover condiciones de trabajo que eviten delitos y conductas contra la libertad sexual y la integridad moral, incidiendo especialmente en el acoso sexual y por razón de sexo, incluidos los cometidos en el ámbito digital.
+El artículo 53 aplica este principio a los **tribunales y órganos de selección** de la Administración General del Estado, salvo razones fundadas y objetivas debidamente motivadas.
 
-## Empleo público y Fuerzas y Cuerpos de Seguridad (Título V)
+## Título II, Capítulo I: políticas públicas
 
-Este título es el que más te afecta:
+- **Art. 14:** criterios generales de actuación de los poderes públicos, como la participación equilibrada en candidaturas y en la toma de decisiones, la erradicación de la violencia de género y del acoso, la conciliación y un **lenguaje no sexista** en el ámbito administrativo.
+- **Art. 15:** **transversalidad**: el principio de igualdad informa con carácter transversal la actuación de todos los poderes públicos.
+- **Art. 16:** los poderes públicos procurarán la presencia equilibrada en los nombramientos de cargos de responsabilidad.
 
-- **Art. 55:** las convocatorias de pruebas selectivas para el empleo público deben acompañarse de un informe de impacto de género, salvo urgencia.
-- **Art. 61:** todas las pruebas de acceso al empleo público de la Administración General del Estado contemplarán el estudio y la aplicación del principio de igualdad.
-- **Art. 67 (Fuerzas y Cuerpos de Seguridad del Estado):** sus normas reguladoras promoverán la igualdad efectiva, impidiendo cualquier discriminación profesional, especialmente en el acceso, la formación, los ascensos, los destinos y las situaciones administrativas.
-- **Art. 68:** las normas de igualdad, prevención de la violencia de género y conciliación del personal de las administraciones se aplican a las Fuerzas y Cuerpos de Seguridad, adaptándose a sus peculiaridades.
+## Títulos III y IV: medios de comunicación y trabajo
 
-## Títulos VI a VIII, en una línea
-- Bienes y servicios (Título VI); responsabilidad social de las empresas (Título VII, art. 75 sobre consejos de administración); organización (Título VIII: Comisión Interministerial, Unidades de Igualdad y Consejo de Participación de la Mujer).
+- **Medios públicos (arts. 36 y 37):** transmitirán una imagen igualitaria y no estereotipada; RTVE utilizará el lenguaje de forma no sexista.
+- **Planes de igualdad (arts. 45 y 46):** conjunto ordenado de medidas adoptadas **después de un diagnóstico de situación**. Obligatorios en las empresas de **cincuenta o más trabajadores** (art. 45.2), cuando lo diga el convenio colectivo (45.3) o cuando la autoridad laboral los imponga en lugar de sanciones accesorias (45.4); voluntarios para las demás.
+- **Art. 48:** las empresas deben prevenir el acoso sexual y por razón de sexo, **incluido el cometido en el ámbito digital**.
+
+## Título V: empleo público y Fuerzas y Cuerpos de Seguridad
+
+Es el título que más te afecta como futuro guardia civil:
+
+| Artículo | Contenido |
+|---|---|
+| 51 | Criterios de las administraciones: igualdad en el acceso y la carrera, conciliación, formación, protección frente al acoso y fin de la discriminación retributiva |
+| 53 | Tribunales y órganos de selección con presencia equilibrada |
+| 55 | Las convocatorias de pruebas selectivas deben acompañarse de un **informe de impacto de género**, salvo urgencia |
+| 61 | Todas las pruebas de acceso al empleo público de la AGE contemplarán **el estudio y la aplicación del principio de igualdad** (por eso este tema está en tu programa) |
+| 62 | Protocolo frente al acoso: compromiso de no tolerarlo, tratamiento reservado de las denuncias y personas responsables de atender las quejas |
+| 64 | El Gobierno aprueba **al inicio de cada legislatura** un Plan para la Igualdad en la AGE, evaluado **anualmente** por el Consejo de Ministros |
+| 65 y 66 | Fuerzas Armadas |
+| 67 | **Fuerzas y Cuerpos de Seguridad del Estado:** sus normas promoverán la igualdad efectiva, impidiendo cualquier discriminación profesional, especialmente en **acceso, formación, ascensos, destinos y situaciones administrativas** |
+| 68 | Las normas del personal de las administraciones sobre igualdad, prevención de la violencia de género **y la violencia sexual**, y conciliación se aplican a las Fuerzas y Cuerpos de Seguridad, adaptadas a las peculiaridades de sus funciones |
+
+## Títulos VI a VIII, en tres líneas
+
+- **Bienes y servicios:** igualdad de trato para quien los ofrece al público (art. 69), prohibición de indagar sobre el embarazo salvo por razones de salud (art. 70) y de que el sexo cambie primas de seguros (art. 71).
+- **Responsabilidad social:** las sociedades con cuenta de pérdidas y ganancias no abreviada procurarán un consejo de administración equilibrado (art. 75).
+- **Organización:** Comisión Interministerial de Igualdad (art. 76), Unidades de Igualdad en todos los ministerios (art. 77) y Consejo de Participación de la Mujer (art. 78).
+
+## Casos prácticos (hipotéticos)
+
+1. **La misma marca física para todos.** Un proceso que exigiera idéntica marca a todos, sin justificar que sea necesaria para el puesto, y eliminara a muchas más mujeres, podría ser **discriminación indirecta** (art. 6.2): criterio neutro, efecto desigual. Por eso la convocatoria de Guardia Civil fija baremos por sexo y edad.
+2. **Un destino denegado tras una queja.** Si a una agente se le deniega un destino como consecuencia de haber presentado una queja por trato desigual, hay discriminación por **indemnidad frente a represalias** (art. 9).
+
+## Errores frecuentes
+
+- **Confundir directa e indirecta:** la directa trata peor *por el sexo*; la indirecta usa un criterio *neutro* con efecto desigual.
+- **Creer que el embarazo es discriminación indirecta:** el artículo 8 dice que es **directa**.
+- **Aplicar la inversión de la prueba al proceso penal:** el artículo 13.2 la excluye.
+- **Olvidar la violencia sexual en el artículo 68:** se añadió en 2022 y los apuntes antiguos no la recogen.
+- **Decir que el plan de la AGE es anual:** se aprueba al inicio de cada legislatura; lo anual es su evaluación.
+
+## Mini test propio
+
+Preguntas elaboradas por ProLince a partir del texto de la ley; no son preguntas oficiales.
+
+**1. Según la LO 3/2007, el trato desfavorable a una mujer relacionado con el embarazo es:**
+a) Discriminación indirecta. b) Discriminación directa. c) Acoso por razón de sexo. d) Una acción positiva.
+
+**2. Hay composición equilibrada cuando las personas de cada sexo:**
+a) No superan el 50 %. b) No superan el 70 % ni bajan del 30 %. c) No superan el 60 % ni bajan del 40 %. d) Son exactamente la mitad.
+
+**3. ¿A partir de cuántas personas trabajadoras está obligada una empresa a tener plan de igualdad?**
+a) 25. b) 50. c) 100. d) 250.
+
+**4. La inversión de la carga de la prueba del artículo 13 no se aplica en los procesos:**
+a) Civiles. b) Laborales. c) Contencioso-administrativos. d) Penales.
+
+**5. El Plan para la Igualdad en la Administración General del Estado se aprueba:**
+a) Cada año. b) Al inicio de cada legislatura. c) Cada cuatro años por las Cortes. d) Cuando lo pida el Consejo de Participación de la Mujer.
+
+**Soluciones:** 1-b (art. 8); 2-c (disposición adicional primera); 3-b (art. 45.2); 4-d (art. 13.2); 5-b (art. 64).
 
 ## Cómo estudiarla
 
-1. Haz un glosario con las definiciones (arts. 3, 6, 7, 8, 9 y la disposición adicional primera) y recítalo sin mirar.
-2. Para las cifras, una tarjeta por dato: 60/40, cincuenta trabajadores, plan de igualdad de la Administración General del Estado al inicio de cada legislatura (art. 64)... comprueba siempre el texto vigente.
-3. Relaciona la ley con el artículo 14 de la Constitución, que ya repasamos en [derechos fundamentales y libertades públicas](/blog/derechos-fundamentales-libertades-publicas-guardia-civil).
+1. Haz un **glosario** con los artículos 3, 6, 7, 8 y 9 y la disposición adicional primera, y una **tarjeta por cifra**.
+2. Relaciona la ley con los artículos 9.2 y 14 de la Constitución, que ya repasamos en [derechos fundamentales y libertades públicas](/blog/derechos-fundamentales-libertades-publicas-guardia-civil), y con la idea de dignidad de la [Declaración Universal de Derechos Humanos](/blog/derechos-humanos-en-el-temario-declaracion-universal).
+3. Practica con tests y revisa cómo puntúan los errores en la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
 4. Si estás empezando, mira [cómo preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero). Para planificar los 23 temas, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) los ordena por semanas.
 
 ## Preguntas frecuentes
 
 ### ¿Qué diferencia hay entre discriminación directa e indirecta?
-En la directa se trata de forma menos favorable a una persona por razón de sexo. En la indirecta la desventaja la causa una norma o práctica aparentemente neutra que no se puede justificar objetivamente (art. 6).
+En la directa se trata de forma menos favorable a una persona en atención a su sexo. En la indirecta, la desventaja la causa una disposición, criterio o práctica aparentemente neutros que no se pueden justificar objetivamente (art. 6).
+
+### ¿Qué diferencia hay entre acoso sexual y acoso por razón de sexo?
+El acoso sexual es un comportamiento de **naturaleza sexual**; el acoso por razón de sexo es un comportamiento realizado **en función del sexo** de la persona, sin necesidad de connotación sexual. Ambos se consideran en todo caso discriminatorios (art. 7.3).
 
 ### ¿Qué significa composición equilibrada?
-Que en el conjunto de que se trate, las personas de cada sexo no superen el 60 % ni sean menos del 40 % (disposición adicional primera).
+Que, en el conjunto de que se trate, las personas de cada sexo no superen el 60 % ni sean menos del 40 % (disposición adicional primera).
 
 ### ¿Qué dice la ley de las Fuerzas y Cuerpos de Seguridad?
-Que sus normas promoverán la igualdad efectiva, especialmente en el acceso, la formación, los ascensos, los destinos y las situaciones administrativas (art. 67).
+Que sus normas promoverán la igualdad efectiva en el acceso, la formación, los ascensos, los destinos y las situaciones administrativas (art. 67), y que se les aplican, adaptadas, las normas de igualdad y conciliación del resto del personal público (art. 68).
 
 ### ¿Hay que saberse toda la ley?
-Solo los Títulos y capítulos que fija el programa de la convocatoria vigente. Consulta siempre el texto de la convocatoria.
+Solo lo que fija el programa vigente; el Capítulo II del Título II, por ejemplo, queda fuera.

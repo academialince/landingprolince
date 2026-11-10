@@ -5,76 +5,120 @@ tipo: articulo
 estado: publicado
 publicado_en: 2026-12-14T07:26:00+01:00
 curso: acceso-guardia-civil
-entradilla: Qué organismos incluye el tema 6 del programa y cómo ordenarlos: ONU, OTAN y Consejo de Europa con sus datos clave, y una tabla de sedes y mandatos de Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS.
+entradilla: Qué organismos incluye el tema 6 y cómo ordenarlos: ONU, OTAN y Consejo de Europa con sus datos clave, y una tabla de sedes de Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS, comprobadas en fuentes oficiales. Con test propio.
 etiquetas: [instituciones internacionales, ONU, OTAN, Consejo de Europa, temario]
 seo_title: Instituciones internacionales: ONU, OTAN y Consejo de Europa
-seo_description: Tema 6 del temario: ONU (Carta y órganos), OTAN (Tratado de 1949), Consejo de Europa, Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS.
+seo_description: Tema 6: ONU (Carta y órganos), OTAN (Tratado de 1949), Consejo de Europa, Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS, con sedes y test.
 datos: {}
 ---
-El tema 6 del programa de la Escala de Cabos y Guardias es «Instituciones internacionales» y, según nuestro [temario](/temario-guardia-civil), incluye la **ONU, el Consejo de Europa, la Unión Europea, la OTAN, INTERPOL, EUROPOL, EUROJUST, FRONTEX, CEPOL, FAO, FMI y OMS**, con su evolución histórica, ámbito geográfico, estructura y funciones. **Respuesta corta:** conviene tener una ficha de cada una con fecha de creación, sede, órganos y función. Aquí tienes los datos que hemos podido comprobar en fuentes oficiales; el programa completo está en la convocatoria ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)).
+El tema 6 del programa de la Escala de Cabos y Guardias es «Instituciones internacionales» y, según nuestro [temario](/temario-guardia-civil), incluye la **ONU, el Consejo de Europa, la Unión Europea, la OTAN, INTERPOL, EUROPOL, EUROJUST, FRONTEX, CEPOL, FAO, FMI y OMS**, con su evolución histórica, ámbito geográfico, estructura y funciones. **Respuesta corta:** haz una ficha de cada organismo con fecha de creación, sede, órganos, función y relación con España. Aquí tienes los datos que hemos podido comprobar en fuentes oficiales (textos publicados en el BOE o en el DOUE y webs de cada organismo); lo que no hemos podido verificar, no lo incluimos.
 
-Sobre la Unión Europea, tienes un artículo aparte con [sus instituciones](/blog/union-europea-en-la-oposicion-las-instituciones).
+La Unión Europea tiene su propio artículo: [las instituciones de la UE](/blog/union-europea-en-la-oposicion-las-instituciones).
+
+## Mapa del tema por familias
+
+| Familia | Organismos | Qué los une |
+|---|---|---|
+| Sistema de Naciones Unidas | ONU, FAO, FMI, OMS | Ámbito mundial; FAO, FMI y OMS son organismos especializados vinculados a la ONU |
+| Organizaciones europeas | Consejo de Europa, Unión Europea | Ámbito europeo, pero son organizaciones distintas |
+| Defensa colectiva | OTAN | Europa y América del Norte |
+| Cooperación policial y judicial | INTERPOL (mundial); Europol, Eurojust, Frontex y CEPOL (agencias de la UE) | Lo más cercano al trabajo diario de un guardia civil |
 
 ## Naciones Unidas
 
-Según el texto de la [Carta de las Naciones Unidas](https://www.un.org/es/about-us/un-charter/full-text):
+La **Carta de las Naciones Unidas** se firmó en **San Francisco el 26 de junio de 1945** y entró en vigor el **24 de octubre de 1945**, según la [web de la ONU](https://www.un.org/es/about-us/un-charter). Hoy tiene **193 Estados miembros**, y **España fue admitida el 14 de diciembre de 1955** ([lista oficial de miembros](https://www.un.org/es/about-us/member-states)).
 
-- **Propósitos (art. 1):** mantener la paz y la seguridad internacionales; fomentar relaciones de amistad basadas en la igualdad de derechos y la libre determinación de los pueblos; lograr la cooperación internacional en problemas económicos, sociales, culturales y humanitarios y en los derechos humanos.
+Del [texto de la Carta](https://www.un.org/es/about-us/un-charter/full-text):
+
+- **Propósitos (art. 1):** mantener la paz y la seguridad internacionales; fomentar relaciones de amistad basadas en la igualdad de derechos y la libre determinación de los pueblos; cooperar en problemas económicos, sociales, culturales y humanitarios y en los derechos humanos.
 - **Órganos principales (art. 7):** Asamblea General, Consejo de Seguridad, Consejo Económico y Social, Consejo de Administración Fiduciaria, Corte Internacional de Justicia y Secretaría.
-- **Asamblea General (art. 18):** cada miembro tiene un voto; las cuestiones importantes se deciden por mayoría de dos tercios de los miembros presentes y votantes.
-- **Consejo de Seguridad (arts. 23 y 27):** quince miembros: cinco permanentes (China, Francia, la URSS, el Reino Unido y los Estados Unidos, según el texto de la Carta) y diez no permanentes, elegidos por la Asamblea General por dos años. Las cuestiones de procedimiento requieren nueve votos afirmativos; las demás, nueve votos incluidos los de todos los miembros permanentes.
-- **Corte Internacional de Justicia (art. 92):** órgano judicial principal de la ONU.
-- **Declaración Universal de Derechos Humanos:** proclamada por la Asamblea General en 1948, como vimos en [Derechos Humanos](/blog/derechos-humanos-en-el-temario-declaracion-universal).
+- **Asamblea General (art. 18):** un voto por miembro; las cuestiones importantes se deciden por **dos tercios** de los miembros presentes y votantes.
+- **Consejo de Seguridad (arts. 23 y 27):** **quince miembros**: cinco permanentes (la Carta cita a China, Francia, la URSS, el Reino Unido y los Estados Unidos) y diez no permanentes elegidos por la Asamblea General por **dos años**, sin reelección inmediata. Las cuestiones de procedimiento requieren **nueve votos afirmativos**; las demás, nueve votos **incluidos los de todos los permanentes** (de ahí el llamado derecho de veto).
+- **Corte Internacional de Justicia (art. 92):** órgano judicial principal.
+- **Secretario General (art. 97):** lo nombra la Asamblea General a recomendación del Consejo de Seguridad.
 
-Ojo: el texto de la Carta nombra a la URSS entre los miembros permanentes; para el examen, pregúntate siempre si se refiere al texto original o a la situación actual.
+Ojo: el texto de la Carta sigue nombrando a la URSS; si una pregunta habla de «según la Carta», la respuesta literal es esa.
 
 ## OTAN
 
-El Tratado del Atlántico Norte se firmó en Washington el 4 de abril de 1949, por 12 países, según la [web de la OTAN](https://www.nato.int/cps/en/natohq/topics_52044.htm). Hoy tiene 32 miembros y su sede está en Bruselas (según esa misma fuente). **España se adhirió el 30 de mayo de 1982**; el instrumento de adhesión, firmado el 29 de mayo, se publicó en el [BOE-A-1982-12535](https://www.boe.es/buscar/doc.php?id=BOE-A-1982-12535).
+Según la [web oficial de la OTAN](https://www.nato.int/cps/en/natohq/topics_52044.htm), la Alianza la crearon **12 países el 4 de abril de 1949** (Tratado de Washington), hoy tiene **32 miembros** y **España se adhirió el 30 de mayo de 1982**; esa misma web sitúa su cuartel general en **Bruselas**. El instrumento de adhesión de España se publicó en el [BOE-A-1982-12535](https://www.boe.es/buscar/doc.php?id=BOE-A-1982-12535).
 
-Artículos del Tratado que conviene tener a mano:
-
-| Art. | Contenido |
+| Art. del Tratado | Contenido |
 |---|---|
 | 1 | Resolver las controversias por medios pacíficos y abstenerse de la amenaza o el uso de la fuerza |
-| 4 | Consulta cuando, a juicio de cualquiera de las Partes, estén amenazadas la integridad territorial, la independencia política o la seguridad de alguna de ellas |
-| 5 | **Defensa colectiva:** un ataque armado contra una o varias de las Partes en Europa o América del Norte se considera un ataque contra todas; cada una asistirá a la atacada, en ejercicio de la legítima defensa del artículo 51 de la Carta de la ONU |
-| 9 | Creación de un Consejo, con representación de todas las Partes |
-| 10 | Pueden invitar a adherirse a cualquier Estado europeo, por acuerdo unánime |
+| 4 | Consultas cuando, a juicio de cualquiera de las Partes, esté amenazada la integridad territorial, la independencia política o la seguridad de alguna |
+| 5 | **Defensa colectiva:** un ataque armado contra una o varias Partes en Europa o América del Norte se considera un ataque contra todas, en ejercicio de la legítima defensa del artículo 51 de la Carta de la ONU |
+| 9 | Creación de un Consejo con representación de todas las Partes |
+| 10 | Invitación a adherirse a cualquier Estado europeo, por acuerdo unánime |
+
+La relación con la UE está en el propio Tratado de la Unión: la política común de seguridad y defensa respeta las obligaciones de los Estados que consideran que su defensa común se realiza en la OTAN (art. 42.2 TUE).
 
 ## Consejo de Europa
 
-Es una organización distinta de la Unión Europea. Su Estatuto se firmó en **Londres el 5 de mayo de 1949**. Según el texto publicado en el BOE ([BOE-A-1978-5972](https://www.boe.es/buscar/doc.php?id=BOE-A-1978-5972)):
+Es una organización distinta de la Unión Europea. Su **Estatuto se firmó en Londres el 5 de mayo de 1949**. Según el texto publicado en el BOE ([BOE-A-1978-5972](https://www.boe.es/buscar/doc.php?id=BOE-A-1978-5972)):
 
-- **Finalidad (art. 1):** realizar una unión más estrecha entre sus miembros para salvaguardar y promover los ideales y principios de su patrimonio común y favorecer su progreso económico y social.
-- **Órganos (art. 10):** el Comité de Ministros y la Asamblea (en el texto original, «Asamblea Consultiva»), asistidos por la Secretaría.
-- **Sede (art. 11):** Estrasburgo.
-- **Lenguas oficiales (art. 12):** francés e inglés.
+- **Finalidad (art. 1):** una unión más estrecha entre sus miembros para salvaguardar y promover los ideales y principios de su patrimonio común y favorecer su progreso económico y social.
+- **Ingreso (art. 4):** cualquier Estado europeo capaz de cumplir el artículo 3 puede ser invitado por el Comité de Ministros.
+- **Órganos (art. 10):** el **Comité de Ministros** y la **Asamblea** (en el texto, «Asamblea Consultiva»), asistidos por la **Secretaría**.
+- **Sede (art. 11):** **Estrasburgo**. **Lenguas oficiales (art. 12):** francés e inglés.
 - **España:** miembro de pleno derecho desde el **24 de noviembre de 1977**.
 
-Es la organización en cuyo marco se adoptó el Convenio Europeo de Derechos Humanos y se creó el Tribunal de Estrasburgo.
+Su web oficial habla hoy de [46 Estados miembros](https://www.coe.int/es/web/portal/spain). En su marco se adoptó el **Convenio Europeo de Derechos Humanos** y funciona el **Tribunal Europeo de Derechos Humanos**, también en Estrasburgo; lo conectamos con la [Declaración Universal](/blog/derechos-humanos-en-el-temario-declaracion-universal).
 
-## Otros organismos del programa
+## Cooperación policial y judicial
+
+| Organismo | Qué es | Sede y fuente |
+|---|---|---|
+| **INTERPOL** | Organización policial mundial; cada país tiene una Oficina Central Nacional; su órgano supremo es la Asamblea General | Secretaría General en **Lyon**; **196 países miembros**, según [interpol.int](https://www.interpol.int/es) |
+| **Europol** | Agencia de la UE que apoya a las policías nacionales contra la delincuencia grave que afecta a dos o más Estados y el terrorismo (art. 88 TFUE) | **La Haya** (Reglamento (UE) 2016/794) |
+| **Eurojust** | Agencia de la UE que coordina a las autoridades que investigan y persiguen la delincuencia grave transfronteriza (art. 85 TFUE) | **La Haya** (art. 79 del Reglamento (UE) 2018/1727) |
+| **Frontex** | Agencia Europea de la Guardia de Fronteras y Costas | **Varsovia** (art. 93.5 del Reglamento (UE) 2019/1896) |
+| **CEPOL** | Agencia de la UE para la formación policial | **Budapest** (art. 25.3 del Reglamento (UE) 2015/2219) |
+
+## Organismos especializados de la ONU
 
 | Organismo | Dato comprobado |
 |---|---|
-| **INTERPOL** | Su Secretaría General tiene sede en Lyon; el órgano de gobierno es la Asamblea General, que reúne a todos los países miembros una vez al año; cada país tiene una Oficina Central Nacional que actúa como punto de contacto ([INTERPOL](https://www.interpol.int/es/Quienes-somos/Secretaria-General)) |
-| **EUROPOL** | Agencia de la UE para la cooperación policial; sede en La Haya, según el Reglamento (UE) 2016/794 |
-| **EUROJUST** | Coordina investigaciones de delincuencia grave transfronteriza; su sede está en La Haya ([Eurojust](https://www.eurojust.europa.eu/about-us)) |
-| **FRONTEX** | Guardia Europea de Fronteras y Costas; el artículo 93.5 del Reglamento (UE) 2019/1896 fija su sede en Varsovia |
-| **CEPOL** | Agencia de la UE para la formación policial; sede en Budapest, según el Reglamento (UE) 2015/2219 |
-| **FAO** | Establecida el 16 de octubre de 1945 en Quebec como organismo especializado de la ONU; su sede está en Roma desde 1951 ([FAO](https://www.fao.org/UNFAO/Histo-s.htm)) |
-| **FMI** | Surgido de la conferencia de Bretton Woods de 1944 ([FMI](https://www.imf.org/es/about/factsheets/sheets/2022/imf-world-bank-new)) |
-| **OMS** | Fundada en 1948; su sede está en Ginebra ([OMS](https://www.who.int/es/about/structure)) |
+| **FAO** | Establecida en **1945**, en la Conferencia de Quebec, como organismo especializado de las Naciones Unidas; su sede se trasladó de Washington a **Roma en 1951** ([FAO](https://www.fao.org/UNFAO/Histo-s.htm)) |
+| **FMI** | Creado, junto con el Banco Mundial, en la conferencia de **Bretton Woods de julio de 1944** ([FMI](https://www.imf.org/es/about/factsheets/sheets/2022/imf-world-bank-new)) |
+| **OMS** | Fundada en **1948**; oficina central en **Ginebra** ([OMS](https://www.who.int/es/about/structure)) |
 
-Para estos organismos, completa tus fichas con la documentación oficial de cada uno (estructura, funciones y órganos). No hemos incluido datos que no hayamos podido comprobar.
+No incluimos cifras de miembros de FAO, FMI y OMS: cambian y no las hemos podido confirmar con fecha en sus webs. Compruébalas en la documentación oficial de cada organismo si tu material las pide.
+
+## Errores frecuentes
+
+- **Mezclar los «consejos»:** Consejo de Seguridad (ONU), Consejo Europeo y Consejo de la UE (Unión Europea), Consejo de Europa (Estrasburgo) y el Consejo previsto en el artículo 9 del Tratado de la OTAN.
+- **Situar el Tribunal de Estrasburgo en la UE:** es del Consejo de Europa; el órgano judicial de la UE es el Tribunal de Justicia de la Unión Europea.
+- **Confundir Europol con INTERPOL:** Europol es una agencia de la UE en La Haya; INTERPOL es mundial, con sede en Lyon.
+- **Confundir fechas de España:** ONU en **1955**, Consejo de Europa en **1977** y OTAN en **1982**.
+
+## Mini test propio
+
+Preguntas elaboradas por ProLince; no son preguntas oficiales.
+
+**1. ¿Cuántos miembros tiene el Consejo de Seguridad de la ONU?**
+a) Cinco. b) Diez. c) Quince. d) Veinte.
+
+**2. La sede del Consejo de Europa, según su Estatuto, está en:**
+a) Bruselas. b) Estrasburgo. c) Luxemburgo. d) Ginebra.
+
+**3. ¿Qué artículo del Tratado del Atlántico Norte recoge la defensa colectiva?**
+a) 1. b) 4. c) 5. d) 10.
+
+**4. Frontex tiene su sede en:**
+a) La Haya. b) Budapest. c) Varsovia. d) Lyon.
+
+**5. España ingresó en la ONU en:**
+a) 1945. b) 1955. c) 1977. d) 1982.
+
+**Soluciones:** 1-c (art. 23 de la Carta); 2-b (art. 11 del Estatuto); 3-c; 4-c (art. 93.5 del Reglamento 2019/1896); 5-b (14 de diciembre de 1955).
 
 ## Cómo estudiarlo
 
 1. **Una ficha por organismo:** año, sede, órganos, función y relación con España.
-2. **Separa los tres «consejos»:** Consejo de Seguridad (ONU), Consejo Europeo y Consejo de la UE, y Consejo de Europa.
-3. **Agrupa por familias:** ONU y organismos especializados (FAO, OMS), organizaciones europeas (Consejo de Europa, UE) y cooperación policial y judicial (INTERPOL, Europol, Eurojust, Frontex, CEPOL).
-4. Si quieres un calendario de estudio para los 23 temas, mira el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+2. **Una línea del tiempo:** 1944 (Bretton Woods), 1945 (Carta de la ONU y FAO), 1948 (OMS), 1949 (OTAN y Consejo de Europa), 1955 (España en la ONU), 1977 (España en el Consejo de Europa), 1982 (España en la OTAN).
+3. **Un mapa de sedes:** Bruselas (OTAN), Estrasburgo (Consejo de Europa), La Haya (Europol y Eurojust), Lyon (INTERPOL), Varsovia (Frontex), Budapest (CEPOL), Roma (FAO) y Ginebra (OMS).
+4. Para ver cómo encaja este tema con el resto del examen, repasa la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura), y si quieres un calendario para los 23 temas, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
 
 ## Preguntas frecuentes
 
@@ -82,10 +126,16 @@ Para estos organismos, completa tus fichas con la documentación oficial de cada
 Quince: cinco permanentes y diez no permanentes elegidos por la Asamblea General por dos años (art. 23 de la Carta).
 
 ### ¿Cuándo entró España en la OTAN?
-El 30 de mayo de 1982, con la adhesión al Tratado del Atlántico Norte.
+El 30 de mayo de 1982.
 
 ### ¿Es lo mismo el Consejo de Europa que la Unión Europea?
-No. Son organizaciones distintas: el Consejo de Europa, con sede en Estrasburgo, nació con el Estatuto de Londres de 1949; la Unión Europea se rige por sus propios Tratados.
+No. El Consejo de Europa, con sede en Estrasburgo, nació con el Estatuto de Londres de 1949; la Unión Europea se rige por sus propios Tratados y tiene sus propias instituciones.
 
-### ¿Dónde tienen sede Europol, Frontex y CEPOL?
-Europol, en La Haya; Frontex, en Varsovia; y CEPOL, en Budapest.
+### ¿Dónde tienen sede Europol, Eurojust, Frontex y CEPOL?
+Europol y Eurojust, en La Haya; Frontex, en Varsovia; CEPOL, en Budapest.
+
+### ¿Cuántos países forman INTERPOL?
+196, según su web oficial; su Secretaría General está en Lyon.
+
+### ¿Cuántos miembros tiene la OTAN?
+32, según su web oficial.
