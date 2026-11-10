@@ -285,7 +285,7 @@ Los órganos de la Administración aduanera de la AEAT (art. 13 de la LO 12/1995
 
 ### ¿El Código Aduanero entra completo?
 No. Solo los títulos y capítulos que enumera el temario: partes de los Títulos I, III, VI, VII y VIII.',
-   NULL, NULL, 'publicado', '2027-01-09T06:48:00.000Z', 'acceso-guardia-civil',
+   '/blog/derecho-fiscal-en-la-oposicion-hacienda-contrabando.jpg', 'Agentes del Servicio Marítimo de la Guardia Civil abordando un pesquero', 'publicado', '2027-01-09T06:48:00.000Z', 'acceso-guardia-civil',
    ARRAY['derecho fiscal', 'contrabando', 'aduanas', 'temario']::text[], '{"title":"Derecho fiscal Guardia Civil: contrabando y aduanas","description":"Tema 23 de Guardia Civil: LO 12/1995 de contrabando, RD 1649/1998 y Código Aduanero de la Unión. Umbrales, sanciones, ejemplos resueltos y mini test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -575,7 +575,7 @@ La primera es una situación de dirección y coordinación de la respuesta, que 
 
 ### ¿La UME dirige las emergencias de interés nacional?
 Asume su dirección operativa, pero actúa bajo la dirección del Ministro del Interior (art. 37.4).',
-   NULL, NULL, 'publicado', '2027-01-11T06:22:00.000Z', 'acceso-guardia-civil',
+   '/blog/proteccion-civil-y-desarrollo-sostenible-en-el-temario.jpg', 'Guardias civiles evacuando a una vecina mayor durante una inundación', 'publicado', '2027-01-11T06:22:00.000Z', 'acceso-guardia-civil',
    ARRAY['protección civil', 'desarrollo sostenible', 'temario', 'ley 17/2015']::text[], '{"title":"Protección civil Guardia Civil: Ley 17/2015 y tema 16","description":"Tema 16 de Guardia Civil: Ley 17/2015 de Protección Civil, Ley 42/2007 de Patrimonio Natural y Directiva 2012/27/UE. Qué entra, esquemas y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

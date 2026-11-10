@@ -149,7 +149,7 @@ De pie, según el apéndice II de la convocatoria.
 ### ¿Qué pasa si no supero la carrera?
 
 Quedas calificado como «no apto» y excluido del proceso en el momento de no superarla.',
-   NULL, NULL, 'publicado', '2026-11-18T06:04:00.000Z', 'acceso-guardia-civil',
+   '/blog/carrera-2000-metros-guardia-civil.jpg', 'Aspirante corriendo la última vuelta de una pista de atletismo', 'publicado', '2026-11-18T06:04:00.000Z', 'acceso-guardia-civil',
    ARRAY['pruebas físicas', 'carrera', '2000 metros', 'entrenamiento']::text[], '{"title":"Carrera 2.000 m Guardia Civil: marcas, ritmos y plan","description":"Marcas de la carrera de 2.000 metros de la Guardia Civil por sexo y edad, ritmo por kilómetro y por vuelta, y plan de ocho semanas para superarla."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -453,7 +453,7 @@ Cuando tocas el suelo con uno o con los dos pies después de que todo tu cuerpo 
 ### ¿Puntúa hacer un tiempo mejor?
 
 No. Es apto o no apto: basta con no superar el tiempo máximo de tu sexo y tramo de edad.',
-   NULL, NULL, 'publicado', '2026-11-19T06:21:00.000Z', 'acceso-guardia-civil',
+   '/blog/circuito-agilidad-coordinacion-guardia-civil.jpg', 'Aspirante saltando una valla en un circuito de agilidad', 'publicado', '2026-11-19T06:21:00.000Z', 'acceso-guardia-civil',
    ARRAY['pruebas físicas', 'circuito de agilidad', 'coordinación', 'entrenamiento']::text[], '{"title":"Circuito de agilidad Guardia Civil: marcas y técnica","description":"Circuito de agilidad y coordinación de la Guardia Civil: marcas por sexo y edad, qué lo anula, intentos permitidos y cómo entrenarlo con técnica."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -792,7 +792,7 @@ Sí. La convocatoria permite almohadillar la zona de contacto de la barbilla con
 ### ¿Valen las flexiones con las rodillas apoyadas?
 
 No. Solo pueden tocar el suelo la barbilla, las puntas de los pies y las manos. Las flexiones con rodillas son útiles para entrenar, pero no cuentan en la prueba.',
-   NULL, NULL, 'publicado', '2026-11-20T06:38:00.000Z', 'acceso-guardia-civil',
+   '/blog/extensiones-de-brazos-guardia-civil.jpg', 'Aspirante haciendo una extensión de brazos ante un evaluador', 'publicado', '2026-11-20T06:38:00.000Z', 'acceso-guardia-civil',
    ARRAY['pruebas físicas', 'extensiones de brazos', 'flexiones', 'entrenamiento']::text[], '{"title":"Extensiones de brazos Guardia Civil: marcas y plan","description":"Marcas de las extensiones de brazos de la Guardia Civil por sexo y edad, reglas para que cuente cada repetición y progresión de entrenamiento desde cero."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

@@ -98,7 +98,7 @@ No: la web oficial explica que se despliega en todo el territorio salvo esas dos
 
 ### ¿De quién depende la Agrupación?
 Orgánicamente, del Mando de Operaciones de la Guardia Civil; a efectos de tráfico, de la Jefatura Central de Tráfico (artículo 6.2 de la Ley sobre Tráfico).',
-   NULL, NULL, 'publicado', '2027-01-25T06:20:00.000Z', 'acceso-guardia-civil',
+   '/blog/agrupacion-de-trafico-que-hace-y-como-se-entra-guardia-civil.jpg', 'Motoristas de Tráfico de la Guardia Civil en una carretera de montaña con niebla', 'publicado', '2027-01-25T06:20:00.000Z', 'acceso-guardia-civil',
    ARRAY['tráfico', 'especialidades', 'motoristas', 'atestados']::text[], '{"title":"Agrupación de Tráfico Guardia Civil: funciones y acceso","description":"Qué hace la Agrupación de Tráfico de la Guardia Civil, sus modalidades (dirección, motorista, atestados), quién puede obtenerlas y cómo se accede."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -563,7 +563,7 @@ En la Escala de Cabos y Guardias, el 11,17 % en 2025, según Interior (nota de 6
 
 ### ¿Hay una estatura mínima para mujeres?
 No. Desde la Orden PCM/1133/2023 no se exige estatura mínima.',
-   NULL, NULL, 'publicado', '2027-01-24T06:03:00.000Z', 'acceso-guardia-civil',
+   '/blog/mujeres-en-la-guardia-civil-acceso-datos-y-conciliacion.jpg', 'Agente del SEPRONA liberando un ave rapaz al atardecer', 'publicado', '2027-01-24T06:03:00.000Z', 'acceso-guardia-civil',
    ARRAY['mujeres', 'igualdad', 'conciliación', 'embarazo']::text[], '{"title":"Mujeres en la Guardia Civil: acceso y conciliación","description":"Mujeres en la Guardia Civil: convocatoria 2026, marcas físicas, cifras oficiales con su año y medidas de conciliación en la formación y los destinos."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -676,7 +676,7 @@ No lo he podido verificar. Las titulaciones pueden ser una condición del puesto
 
 ### ¿Hay SEPRONA en los parques nacionales?
 Sí: la web cita destacamentos en 14 parques nacionales, de Doñana al Teide.',
-   NULL, NULL, 'publicado', '2027-01-26T06:37:00.000Z', 'acceso-guardia-civil',
+   '/blog/seprona-la-especialidad-de-proteccion-de-la-naturaleza.jpg', 'Agentes del SEPRONA atendiendo a un lince herido junto a un incendio forestal', 'publicado', '2027-01-26T06:37:00.000Z', 'acceso-guardia-civil',
    ARRAY['seprona', 'medio ambiente', 'especialidades', 'protección de la naturaleza']::text[], '{"title":"SEPRONA Guardia Civil: funciones y cómo acceder","description":"Qué es el SEPRONA de la Guardia Civil: funciones, organización, delitos que investiga, modalidades de la especialidad y cómo se accede a ella paso a paso."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

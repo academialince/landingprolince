@@ -143,7 +143,7 @@ La orden de 2023 deja a salvo los requisitos que puedan exigirse para determinad
 ### ¿Son más fáciles las físicas si mido poco?
 
 No hay ajuste por estatura: las marcas son las mismas para todos los aspirantes del mismo sexo y tramo de edad. Algunas pruebas pueden favorecerte y otras costarte más; lo decisivo es entrenarlas con tiempo.',
-   NULL, NULL, 'publicado', '2026-11-13T06:39:00.000Z', 'acceso-guardia-civil',
+   '/blog/altura-minima-guardia-civil.jpg', 'Aspirante atándose las zapatillas en una pista de atletismo al amanecer', 'publicado', '2026-11-13T06:39:00.000Z', 'acceso-guardia-civil',
    ARRAY['altura', 'estatura', 'cuadro médico', 'requisitos']::text[], '{"title":"Altura mínima Guardia Civil: ya no se exige (2026)","description":"¿Hay altura mínima para la Guardia Civil? No desde la Orden PCM/1133/2023. Qué se exigía antes (160 y 155 cm), por qué se eliminó y qué se sigue midiendo."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -348,7 +348,7 @@ Superar en reposo 140 mm Hg de sistólica o 90 de diastólica, valorada sin medi
 ### ¿Puedo recurrir un «no apto» médico?
 
 Sí. La convocatoria de 2026 permite pedir la revisión en un plazo no superior a 3 días hábiles desde la publicación de los resultados, ante una Junta Médica de Revisión.',
-   NULL, NULL, 'publicado', '2026-11-12T06:22:00.000Z', 'acceso-guardia-civil',
+   '/blog/cuadro-medico-exclusiones-guardia-civil.jpg', 'Médico tomando la tensión a un aspirante en un reconocimiento', 'publicado', '2026-11-12T06:22:00.000Z', 'acceso-guardia-civil',
    ARRAY['cuadro médico', 'reconocimiento médico', 'requisitos', 'exclusiones']::text[], '{"title":"Cuadro médico Guardia Civil: exclusiones vigentes","description":"Cuadro médico de exclusiones de la Guardia Civil vigente: norma, cambios de 2021 y 2023, IMC, vista, oído, tensión, espalda y cómo prepararte."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -503,7 +503,7 @@ No en la convocatoria de 2026: los requisitos de la base 2.1, incluida la edad, 
 ### ¿Puntúa la edad en la Guardia Civil?
 
 No suma puntos. Solo es el último criterio de desempate: a igualdad de nota final, y si también empatan conocimientos, inglés y aptitudes intelectuales, pasa el aspirante de mayor edad.',
-   NULL, NULL, 'publicado', '2026-11-11T06:05:00.000Z', 'acceso-guardia-civil',
+   '/blog/edad-maxima-guardia-civil.jpg', 'Dos aspirantes de edades distintas estudiando juntos en una biblioteca', 'publicado', '2026-11-11T06:05:00.000Z', 'acceso-guardia-civil',
    ARRAY['edad', 'requisitos', 'convocatoria']::text[], '{"title":"Edad máxima Guardia Civil: de 18 a 40 y cómo se cuenta","description":"Edad mínima y máxima para ser Guardia Civil según la convocatoria 2026: de 18 a 40 años por año natural. Tabla por año de nacimiento, casos y dudas."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -669,7 +669,7 @@ Solo si ese ojo alcanza una agudeza superior a 0,7, con o sin corrección. El re
 ### ¿El astigmatismo se suma a la miopía?
 
 No para el límite: el cuadro fija ±2 de astigmatismo «con independencia del componente esférico», así que cada valor se compara con su propio máximo.',
-   NULL, NULL, 'publicado', '2026-11-14T06:56:00.000Z', 'acceso-guardia-civil',
+   '/blog/gafas-miopia-operacion-vista-guardia-civil.jpg', 'Oftalmólogo graduando la vista de un aspirante con una montura de prueba', 'publicado', '2026-11-14T06:56:00.000Z', 'acceso-guardia-civil',
    ARRAY['vista', 'miopía', 'gafas', 'cuadro médico']::text[], '{"title":"Gafas y miopía en la Guardia Civil: límites 2026","description":"¿Puedes ser Guardia Civil con gafas o miopía? Agudeza visual mínima, dioptrías máximas (−3, +3, ±2), operación láser y daltonismo según el cuadro médico."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -842,7 +842,7 @@ En la Guardia Civil el inglés es una prueba del examen (20 preguntas, mínimo 8
 ### ¿Puedo presentarme a las dos el mismo año?
 
 Ninguna de las dos convocatorias de 2026 lo prohíbe, pero los exámenes, las pruebas y los calendarios son distintos. Si lo haces, prioriza una y planifica la otra como secundaria.',
-   NULL, NULL, 'publicado', '2026-11-16T06:30:00.000Z', 'acceso-guardia-civil',
+   '/blog/guardia-civil-o-policia-nacional.jpg', 'Aspirante sentado en una plaza ante un coche de la Guardia Civil y otro de la Policía Nacional', 'publicado', '2026-11-16T06:30:00.000Z', 'acceso-guardia-civil',
    ARRAY['policía nacional', 'comparativa', 'requisitos', 'convocatoria']::text[], '{"title":"Guardia Civil o Policía Nacional: diferencias 2026","description":"Guardia Civil o Policía Nacional: requisitos, edad, titulación, examen, físicas, cuadro médico y formación comparados con las convocatorias de 2026."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -986,7 +986,7 @@ No. La Policía Nacional tiene su propio cuadro médico y otra sentencia del Sup
 ### ¿El láser excluye igual que la lente?
 
 No. La cirugía refractiva con láser en la córnea no figura como causa de exclusión en el cuadro de la Guardia Civil: se valora el resultado.',
-   NULL, NULL, 'publicado', '2026-11-15T06:13:00.000Z', 'acceso-guardia-civil',
+   '/blog/lentes-intraoculares-guardia-civil.jpg', 'Oftalmólogo examinando el ojo de una aspirante con una lámpara de hendidura', 'publicado', '2026-11-15T06:13:00.000Z', 'acceso-guardia-civil',
    ARRAY['lentes intraoculares', 'vista', 'cuadro médico', 'tribunal supremo']::text[], '{"title":"Lentes intraoculares Guardia Civil: qué dijo el Supremo","description":"¿Excluyen las lentes intraoculares o fáquicas en la Guardia Civil? Qué anuló el Supremo en 2023, qué sigue en el cuadro médico y qué hacer."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1148,7 +1148,7 @@ La base 7.10 desempata por más nota en conocimientos, después en inglés, desp
 ### ¿Se puede predecir la nota de corte de la próxima convocatoria?
 
 No. Depende de las plazas, de los aspirantes, de la dificultad del examen y de cuántos superan las psicofísicas. Los años anteriores solo te dan una horquilla orientativa.',
-   NULL, NULL, 'publicado', '2026-11-17T06:47:00.000Z', 'acceso-guardia-civil',
+   '/blog/nota-de-corte-guardia-civil.jpg', 'Opositor consultando de noche una lista de resultados en el portátil', 'publicado', '2026-11-17T06:47:00.000Z', 'acceso-guardia-civil',
    ARRAY['nota de corte', 'puntuación', 'concurso-oposición', 'convocatoria']::text[], '{"title":"Nota de corte Guardia Civil 2026 y años anteriores","description":"Nota de corte de la Guardia Civil de 2022 a 2026 sobre 195 puntos, calculada con las resoluciones del BOE. Qué es, por qué varía y qué nota apuntar."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

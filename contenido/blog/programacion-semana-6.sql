@@ -443,7 +443,7 @@ Los residentes pueden ser titulares del derecho de sufragio en las elecciones mu
 
 ### ¿Qué reglamento desarrolla la ley?
 El Real Decreto 1155/2024, vigente desde el 20 de mayo de 2025. Para el programa, consulta el alcance exacto publicado.',
-   NULL, NULL, 'publicado', '2026-12-20T06:08:00.000Z', 'acceso-guardia-civil',
+   '/blog/extranjeria-e-inmigracion-lo-basico-que-pregunta-el-examen.jpg', 'Agentes de la Guardia Civil con una embarcación neumática en la costa de noche', 'publicado', '2026-12-20T06:08:00.000Z', 'acceso-guardia-civil',
    ARRAY['extranjería', 'inmigración', 'LO 4/2000', 'ciudadanos de la UE', 'temario']::text[], '{"title":"Extranjería LO 4/2000: lo básico para la oposición","description":"Tema de extranjería: LO 4/2000, derechos, estancia de 90 días, infracciones, expulsión, devolución, internamiento de 60 días y RD 240/2007, con test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1082,7 +1082,7 @@ No. La investigación privada es exclusiva de los detectives y solo sobre delito
 ### ¿Qué parte de la Ley 5/2014 no entra?
 
 El título VI, de infracciones y sanciones (artículos 56 y siguientes), que no figura en el programa publicado.',
-   NULL, NULL, 'publicado', '2026-12-21T06:25:00.000Z', 'acceso-guardia-civil',
+   '/blog/seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario.jpg', 'Guardias civiles con chaleco reflectante en un control de carretera bajo la lluvia', 'publicado', '2026-12-21T06:25:00.000Z', 'acceso-guardia-civil',
    ARRAY['seguridad ciudadana', 'seguridad privada', 'LO 4/2015', 'Ley 5/2014', 'temario']::text[], '{"title":"Seguridad ciudadana y privada: LO 4/2015 y Ley 5/2014","description":"LO 4/2015 de seguridad ciudadana y Ley 5/2014 de seguridad privada para la oposición: identificación, registros, sanciones, personal, caso práctico y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

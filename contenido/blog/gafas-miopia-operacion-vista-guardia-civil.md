@@ -10,6 +10,8 @@ etiquetas: [vista, miopía, gafas, cuadro médico]
 seo_title: Gafas y miopía en la Guardia Civil: límites 2026
 seo_description: ¿Puedes ser Guardia Civil con gafas o miopía? Agudeza visual mínima, dioptrías máximas (−3, +3, ±2), operación láser y daltonismo según el cuadro médico.
 datos: {}
+portada: /blog/gafas-miopia-operacion-vista-guardia-civil.jpg
+portada_alt: Oftalmólogo graduando la vista de un aspirante con una montura de prueba
 ---
 Llevar gafas es probablemente la duda médica más común entre opositores. La buena noticia: **las gafas y las lentillas no te excluyen de la Guardia Civil.** Lo que se mide es cuánto ves y cuántas dioptrías tienes, y ahí hay dos límites que debes conocer al detalle.
 

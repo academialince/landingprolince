@@ -10,6 +10,8 @@ etiquetas: [grs, especialidades, destinos, reserva y seguridad]
 seo_title: GRS Guardia Civil: qué son, funciones y acceso
 seo_description: GRS de la Guardia Civil: qué son los Grupos de Reserva y Seguridad, sus funciones, su organización, la especialidad de Reserva y Seguridad y el acceso.
 datos: {}
+portada: /blog/grs-que-son-los-grupos-de-reserva-y-seguridad-guardia-civil.jpg
+portada_alt: Guardias civiles a caballo atravesando una marisma al amanecer
 ---
 Si has visto a guardias civiles en un gran evento deportivo, en una manifestación multitudinaria o ayudando tras una inundación, es muy probable que fueran de un GRS. **Los Grupos de Reserva y Seguridad son las unidades de ejecución de la Agrupación de Reserva y Seguridad (ARS), la principal fuerza de reserva de la Guardia Civil.** No son una unidad «de élite» concreta, sino la reserva que el Cuerpo envía allí donde hace falta reforzar. Para servir en ellos como especialista hay que obtener la cualificación de **Reserva y seguridad**, que se puede conseguir siendo guardia, cabo o cabo primero.
 

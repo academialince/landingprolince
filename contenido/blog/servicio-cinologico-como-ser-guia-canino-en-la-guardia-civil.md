@@ -10,6 +10,8 @@ etiquetas: [guía canino, servicio cinológico, especialidades, capede]
 seo_title: Guía canino Guardia Civil: Servicio Cinológico y acceso
 seo_description: Guía canino de la Guardia Civil: qué hace el Servicio Cinológico, qué cursos imparte el CAPEDE y qué exige la Orden PCM/509/2020 para ser especialista.
 datos: {}
+portada: /blog/servicio-cinologico-como-ser-guia-canino-en-la-guardia-civil.jpg
+portada_alt: Guía canina de la Guardia Civil buscando con su perro entre unas ruinas
 ---
 Pocas especialidades despiertan tanta simpatía como la de guía de perros. Pero detrás del binomio guía-perro hay una formación propia, un centro docente específico y una normativa que conviene conocer antes de hacerse ilusiones.
 

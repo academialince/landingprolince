@@ -10,6 +10,8 @@ etiquetas: [pruebas físicas, circuito de agilidad, coordinación, entrenamiento
 seo_title: Circuito de agilidad Guardia Civil: marcas y técnica
 seo_description: Circuito de agilidad y coordinación de la Guardia Civil: marcas por sexo y edad, qué lo anula, intentos permitidos y cómo entrenarlo con técnica.
 datos: {}
+portada: /blog/circuito-agilidad-coordinacion-guardia-civil.jpg
+portada_alt: Aspirante saltando una valla en un circuito de agilidad
 ---
 El circuito de agilidad y coordinación es la prueba más técnica de las cuatro. No depende solo de estar en forma: depende de **hacer el recorrido bien y limpio**, y un error de ejecución puede costarte un intento.
 

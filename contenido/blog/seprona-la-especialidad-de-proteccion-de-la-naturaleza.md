@@ -10,6 +10,8 @@ etiquetas: [seprona, medio ambiente, especialidades, protección de la naturalez
 seo_title: SEPRONA Guardia Civil: funciones y cómo acceder
 seo_description: Qué es el SEPRONA de la Guardia Civil: funciones, organización, delitos que investiga, modalidades de la especialidad y cómo se accede a ella paso a paso.
 datos: {}
+portada: /blog/seprona-la-especialidad-de-proteccion-de-la-naturaleza.jpg
+portada_alt: Agentes del SEPRONA atendiendo a un lince herido junto a un incendio forestal
 ---
 Respuesta corta: el SEPRONA (Servicio de Protección de la Naturaleza) es la especialidad de la Guardia Civil que vela por la conservación de la naturaleza y el medio ambiente y actúa como **policía judicial específica en materia medioambiental**. No se entra en él desde la oposición: hay que obtener una cualificación específica en un curso y ocupar un puesto que la exija. Las modalidades de **equipos** y **patrullas** pueden obtenerse en la Escala de Cabos y Guardias; la de **dirección** es de oficiales. Los requisitos concretos de cada curso no están en las normas generales, así que no los invento.
 

@@ -10,6 +10,8 @@ etiquetas: [tecnologías de la información, temario, ciberseguridad, administra
 seo_title: Tecnologías de la información en el temario de Guardia Civil
 seo_description: Tema 17 de Guardia Civil: qué partes de cada norma entran, conceptos clave con su artículo, preguntas oficiales comentadas y un mini test con soluciones.
 datos: {}
+portada: /blog/tecnologias-de-la-informacion-en-el-temario-conceptos-que-caen.jpg
+portada_alt: Agentes de la Guardia Civil preparando un dron en un mirador al atardecer
 ---
 **Respuesta corta:** el tema 17 del programa, *Tecnologías de la información y la comunicación*, no es informática práctica: es un tema normativo con un bloque de buenas prácticas. Tiene cuatro bloques: telecomunicaciones, firma y certificados electrónicos, ciberseguridad (CCN-CERT) e interoperabilidad. No podemos decir qué preguntas saldrán, porque no hay datos oficiales; sí qué partes entran y qué conceptos conviene dominar.
 

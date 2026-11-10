@@ -302,7 +302,7 @@ Al principio, poco. A partir del segundo mes, una parte fija de la semana. Incl�
 
 ### ¿Esto garantiza aprobar?
 No. Mejora la retención, pero el resultado depende de muchas más cosas: horas, nivel de partida y competencia.',
-   NULL, NULL, 'publicado', '2027-01-04T06:23:00.000Z', 'acceso-guardia-civil',
+   '/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario.jpg', 'Opositora estudiando en una biblioteca con un libro lleno de subrayados y marcadores de colores', 'publicado', '2027-01-04T06:23:00.000Z', 'acceso-guardia-civil',
    ARRAY['memorización', 'repaso espaciado', 'técnicas de estudio', 'temario']::text[], '{"title":"Memorizar leyes: repaso espaciado para oposiciones","description":"Cómo memorizar leyes con repaso espaciado y práctica de recuperación: qué dice la investigación, calendario de repasos para 23 temas y fichas de ejemplo."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -908,7 +908,7 @@ No figura en el programa del tema 17. Céntrate en el de Interoperabilidad.
 
 ### ¿Cambia el temario cada año?
 Puede cambiar. Revisa el que cite la convocatoria vigente y los textos consolidados del BOE.',
-   NULL, NULL, 'publicado', '2027-01-05T06:40:00.000Z', 'acceso-guardia-civil',
+   '/blog/tecnologias-de-la-informacion-en-el-temario-conceptos-que-caen.jpg', 'Agentes de la Guardia Civil preparando un dron en un mirador al atardecer', 'publicado', '2027-01-05T06:40:00.000Z', 'acceso-guardia-civil',
    ARRAY['tecnologías de la información', 'temario', 'ciberseguridad', 'administración electrónica']::text[], '{"title":"Tecnologías de la información en el temario de Guardia Civil","description":"Tema 17 de Guardia Civil: qué partes de cada norma entran, conceptos clave con su artículo, preguntas oficiales comentadas y un mini test con soluciones."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

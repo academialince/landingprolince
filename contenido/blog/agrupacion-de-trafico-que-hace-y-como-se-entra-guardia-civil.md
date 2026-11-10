@@ -10,6 +10,8 @@ etiquetas: [tráfico, especialidades, motoristas, atestados]
 seo_title: Agrupación de Tráfico Guardia Civil: funciones y acceso
 seo_description: Qué hace la Agrupación de Tráfico de la Guardia Civil, sus modalidades (dirección, motorista, atestados), quién puede obtenerlas y cómo se accede.
 datos: {}
+portada: /blog/agrupacion-de-trafico-que-hace-y-como-se-entra-guardia-civil.jpg
+portada_alt: Motoristas de Tráfico de la Guardia Civil en una carretera de montaña con niebla
 ---
 Respuesta corta: la Agrupación de Tráfico se dedica a la **vigilancia, regulación, auxilio y control del tráfico y del transporte** en las vías interurbanas. **No se entra directamente desde la oposición**: es una especialidad y, para ejercerla, hay que obtener una cualificación específica en un curso y ocupar un puesto que la exija. La modalidad de **motorista** solo se obtiene en la Escala de Cabos y Guardias; la de **atestados**, en esa escala y en la de Suboficiales. Lo que no está publicado en las normas generales son las pruebas, plazas o edades de cada curso.
 

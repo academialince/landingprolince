@@ -622,7 +622,7 @@ Agentes de la autoridad a todos los efectos; a efectos de su protección penal, 
 ### ¿Quién preside la Junta Local de Seguridad?
 
 El alcalde; si asiste el representante del Gobierno en la provincia (el «Gobernador civil» del texto), la presidencia es compartida (art. 54.2).',
-   NULL, NULL, 'publicado', '2026-12-24T06:16:00.000Z', 'acceso-guardia-civil',
+   '/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada.jpg', 'Guardias civiles evacuando a los pasajeros de un autobús durante una nevada', 'publicado', '2026-12-24T06:16:00.000Z', 'acceso-guardia-civil',
    ARRAY['lo 2/1986', 'temario', 'competencias', 'fuerzas y cuerpos de seguridad']::text[], '{"title":"LO 2/1986 Fuerzas y Cuerpos de Seguridad: competencias","description":"LO 2/1986 para opositores: niveles policiales, competencias de Guardia Civil y Policía Nacional, principios, policía judicial, coordinación y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

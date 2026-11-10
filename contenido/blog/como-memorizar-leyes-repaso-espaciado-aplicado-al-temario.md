@@ -10,6 +10,8 @@ etiquetas: [memorización, repaso espaciado, técnicas de estudio, temario]
 seo_title: Memorizar leyes: repaso espaciado para oposiciones
 seo_description: Cómo memorizar leyes con repaso espaciado y práctica de recuperación: qué dice la investigación, calendario de repasos para 23 temas y fichas de ejemplo.
 datos: {}
+portada: /blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario.jpg
+portada_alt: Opositora estudiando en una biblioteca con un libro lleno de subrayados y marcadores de colores
 ---
 **Respuesta corta:** para retener mucho temario durante meses, lo que mejor respaldado está por la investigación es **recuperar lo aprendido sin mirar** (tests, preguntas, esquemas de memoria) y **repartir los repasos en el tiempo** en lugar de concentrarlos. Releer y subrayar, que es lo que casi todos hacemos, rinde menos. Abajo tienes cómo aplicarlo a leyes concretas y un calendario para los 23 temas.
 

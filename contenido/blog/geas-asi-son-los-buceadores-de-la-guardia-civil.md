@@ -10,6 +10,8 @@ etiquetas: [geas, buceadores, subacuáticas, especialidades]
 seo_title: GEAS Guardia Civil: así son los buceadores del Cuerpo
 seo_description: GEAS de la Guardia Civil: qué hacen los buceadores, dónde están, cómo se organiza la UAS, las modalidades de la especialidad y qué exige la normativa.
 datos: {}
+portada: /blog/geas-asi-son-los-buceadores-de-la-guardia-civil.jpg
+portada_alt: Buceadores de la Guardia Civil recuperando un ánfora del fondo del mar
 ---
 Buscar a una persona desaparecida en un embalse, recuperar pruebas de un río o revisar el casco de una embarcación: dentro de la Guardia Civil, son tareas de las unidades de actividades subacuáticas. **Los GEAS (Grupos de Especialistas en Actividades Subacuáticas) son los grupos descentralizados de esa especialidad**, repartidos por una veintena de provincias y ciudades. La modalidad de **Buceador Guardia Civil** puede obtenerse siendo guardia, cabo o cabo primero; la de **Buceador Técnico** exige haber obtenido antes la primera.
 

@@ -10,6 +10,8 @@ etiquetas: [edad, requisitos, convocatoria]
 seo_title: Edad máxima Guardia Civil: de 18 a 40 y cómo se cuenta
 seo_description: Edad mínima y máxima para ser Guardia Civil según la convocatoria 2026: de 18 a 40 años por año natural. Tabla por año de nacimiento, casos y dudas.
 datos: {}
+portada: /blog/edad-maxima-guardia-civil.jpg
+portada_alt: Dos aspirantes de edades distintas estudiando juntos en una biblioteca
 ---
 «¿Llego a tiempo?» Es la pregunta que se hacen quienes se plantean la oposición pasados los treinta, y también los que todavía están en el instituto. La respuesta está en dos líneas de la convocatoria, pero se malinterpretan muchísimo.
 

@@ -10,6 +10,8 @@ etiquetas: [montaña, greim, especialidades, rescate]
 seo_title: Rescate de montaña Guardia Civil: GREIM y acceso
 seo_description: Rescate de montaña en la Guardia Civil: qué hacen los GREIM, cómo se despliegan, dónde se forman y qué exige la normativa para la especialidad de montaña.
 datos: {}
+portada: /blog/rescate-de-montana-en-la-guardia-civil-requisitos-y-formacion.jpg
+portada_alt: Especialistas de montaña de la Guardia Civil ayudando a una montañera a cruzar un río
 ---
 El rescate de un montañero en el Pirineo o de una persona atrapada en una cueva suele llevar detrás a un guardia civil del Servicio de Montaña. **Los GREIM son los grupos de ese servicio, y la especialidad de Montaña tiene dos modalidades: especialista e instructor.** La de especialista puede obtenerse siendo guardia, cabo o cabo primero; la de instructor exige haber sido antes especialista.
 

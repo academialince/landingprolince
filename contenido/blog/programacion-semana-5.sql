@@ -973,7 +973,7 @@ La Ley reconoce el derecho a interrumpir la actividad y abandonar el lugar de tr
 
 ### ¿Hay datos oficiales de cuántas preguntas hay de este tema?
 No. Las bases no desglosan preguntas por tema; lo prudente es estudiarlo completo.',
-   NULL, NULL, 'publicado', '2026-12-12T06:52:00.000Z', 'acceso-guardia-civil',
+   '/blog/prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra.jpg', 'Guardias civiles con chaleco reflectante evacuando vehículos entre el humo de un incendio', 'publicado', '2026-12-12T06:52:00.000Z', 'acceso-guardia-civil',
    ARRAY['prevención de riesgos laborales', 'Ley 31/1995', 'Real Decreto 179/2005', 'temario']::text[], '{"title":"Prevención de riesgos laborales Guardia Civil: temario","description":"Tema de prevención de riesgos laborales: Ley 31/1995 (caps. I, II, III, VI y VII), RD 67/2010 y RD 179/2005 de la Guardia Civil, con casos y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

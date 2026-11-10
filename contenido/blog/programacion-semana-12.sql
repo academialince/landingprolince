@@ -250,7 +250,7 @@ La web oficial enumera una veintena de ubicaciones en provincias, islas y en Ceu
 
 ### ¿Cómo se entra?
 Con la cualificación que da el curso de especialización y un puesto de especialista asignado por concurso de méritos. Consulta la convocatoria vigente.',
-   NULL, NULL, 'publicado', '2027-01-29T06:28:00.000Z', 'acceso-guardia-civil',
+   '/blog/geas-asi-son-los-buceadores-de-la-guardia-civil.jpg', 'Buceadores de la Guardia Civil recuperando un ánfora del fondo del mar', 'publicado', '2027-01-29T06:28:00.000Z', 'acceso-guardia-civil',
    ARRAY['geas', 'buceadores', 'subacuáticas', 'especialidades']::text[], '{"title":"GEAS Guardia Civil: así son los buceadores del Cuerpo","description":"GEAS de la Guardia Civil: qué hacen los buceadores, dónde están, cómo se organiza la UAS, las modalidades de la especialidad y qué exige la normativa."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -362,7 +362,7 @@ La unidad montada de la ARS, que también rinde honores en actos relevantes. Su 
 
 ### ¿Dónde veo cómo acceder?
 En la convocatoria del curso, que se publica en el Boletín Oficial de la Guardia Civil. Desconfía de las cifras cerradas que veas en foros.',
-   NULL, NULL, 'publicado', '2027-01-27T06:54:00.000Z', 'acceso-guardia-civil',
+   '/blog/grs-que-son-los-grupos-de-reserva-y-seguridad-guardia-civil.jpg', 'Guardias civiles a caballo atravesando una marisma al amanecer', 'publicado', '2027-01-27T06:54:00.000Z', 'acceso-guardia-civil',
    ARRAY['grs', 'especialidades', 'destinos', 'reserva y seguridad']::text[], '{"title":"GRS Guardia Civil: qué son, funciones y acceso","description":"GRS de la Guardia Civil: qué son los Grupos de Reserva y Seguridad, sus funciones, su organización, la especialidad de Reserva y Seguridad y el acceso."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -519,7 +519,7 @@ Algunas modalidades de Criminalística o de Tecnologías de la información pued
 ### ¿Dónde veo las convocatorias?
 
 En el Boletín Oficial de la Guardia Civil. Las cifras que circulan en foros no sustituyen a la convocatoria vigente.',
-   NULL, NULL, 'publicado', '2027-01-31T06:02:00.000Z', 'acceso-guardia-civil',
+   '/blog/policia-judicial-y-uco-como-se-llega-a-la-especialidad.jpg', 'Agentes de la UCO de la Guardia Civil analizando material informático intervenido', 'publicado', '2027-01-31T06:02:00.000Z', 'acceso-guardia-civil',
    ARRAY['policía judicial', 'uco', 'especialidades', 'investigación']::text[], '{"title":"Policía Judicial y UCO Guardia Civil: cómo se accede","description":"Policía Judicial y UCO de la Guardia Civil: funciones, organización, qué fija la Orden PCM/509/2020 sobre la especialidad y cómo se llega a ella."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -638,7 +638,7 @@ La web oficial enumera 25 grupos repartidos en cinco áreas (Jaca, Cangas de On�
 
 ### ¿Hay especialistas de montaña fuera de los Pirineos?
 Sí. Además de las áreas pirenaicas de Jaca y Viella, la web cita grupos como los de Cangas de Onís, Potes, Navacerrada, Granada, Mallorca o Tenerife, entre otros.',
-   NULL, NULL, 'publicado', '2027-01-28T06:11:00.000Z', 'acceso-guardia-civil',
+   '/blog/rescate-de-montana-en-la-guardia-civil-requisitos-y-formacion.jpg', 'Especialistas de montaña de la Guardia Civil ayudando a una montañera a cruzar un río', 'publicado', '2027-01-28T06:11:00.000Z', 'acceso-guardia-civil',
    ARRAY['montaña', 'greim', 'especialidades', 'rescate']::text[], '{"title":"Rescate de montaña Guardia Civil: GREIM y acceso","description":"Rescate de montaña en la Guardia Civil: qué hacen los GREIM, cómo se despliegan, dónde se forman y qué exige la normativa para la especialidad de montaña."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -791,7 +791,7 @@ La ficha fija un periodo de servidumbre de cinco años para la modalidad de guí
 ### ¿El CAPEDE forma también a otros cuerpos?
 
 Sí. Según la web oficial, instruye a policías locales, Policía Foral, Mossos d''Esquadra, Guardia Real y otras unidades militares, además de a unidades especiales de la propia Guardia Civil.',
-   NULL, NULL, 'publicado', '2027-01-30T06:45:00.000Z', 'acceso-guardia-civil',
+   '/blog/servicio-cinologico-como-ser-guia-canino-en-la-guardia-civil.jpg', 'Guía canina de la Guardia Civil buscando con su perro entre unas ruinas', 'publicado', '2027-01-30T06:45:00.000Z', 'acceso-guardia-civil',
    ARRAY['guía canino', 'servicio cinológico', 'especialidades', 'capede']::text[], '{"title":"Guía canino Guardia Civil: Servicio Cinológico y acceso","description":"Guía canino de la Guardia Civil: qué hace el Servicio Cinológico, qué cursos imparte el CAPEDE y qué exige la Orden PCM/509/2020 para ser especialista."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -931,7 +931,7 @@ En la Unidad de Formación y Doctrina del Servicio Marítimo, en Cádiz, y en el
 ### ¿Puedo ir al Servicio Aéreo recién salido de Baeza?
 
 Hace falta cualificación específica y un puesto que la requiera. Cómo se concreta depende de la convocatoria vigente.',
-   NULL, NULL, 'publicado', '2027-02-01T06:19:00.000Z', 'acceso-guardia-civil',
+   '/blog/servicio-maritimo-y-servicio-aereo-de-la-guardia-civil.jpg', 'Rescate con grúa desde un helicóptero de la Guardia Civil en un acantilado', 'publicado', '2027-02-01T06:19:00.000Z', 'acceso-guardia-civil',
    ARRAY['servicio marítimo', 'servicio aéreo', 'especialidades', 'destinos']::text[], '{"title":"Servicio Marítimo y Aéreo Guardia Civil: funciones","description":"Servicio Marítimo y Aéreo de la Guardia Civil: funciones, organización y qué modalidades puede obtener cada empleo según la Orden PCM/509/2020."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

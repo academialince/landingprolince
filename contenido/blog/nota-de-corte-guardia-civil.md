@@ -10,6 +10,8 @@ etiquetas: [nota de corte, puntuación, concurso-oposición, convocatoria]
 seo_title: Nota de corte Guardia Civil 2026 y años anteriores
 seo_description: Nota de corte de la Guardia Civil de 2022 a 2026 sobre 195 puntos, calculada con las resoluciones del BOE. Qué es, por qué varía y qué nota apuntar.
 datos: {}
+portada: /blog/nota-de-corte-guardia-civil.jpg
+portada_alt: Opositor consultando de noche una lista de resultados en el portátil
 ---
 «¿Cuál es la nota de corte?» es la pregunta que más se repite después del examen. Y casi siempre se responde mal, porque se mezclan cifras sobre 10, sobre 100 y sobre 195, de cupos distintos y de momentos distintos del proceso.
 

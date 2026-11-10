@@ -10,6 +10,8 @@ etiquetas: [policía nacional, comparativa, requisitos, convocatoria]
 seo_title: Guardia Civil o Policía Nacional: diferencias 2026
 seo_description: Guardia Civil o Policía Nacional: requisitos, edad, titulación, examen, físicas, cuadro médico y formación comparados con las convocatorias de 2026.
 datos: {}
+portada: /blog/guardia-civil-o-policia-nacional.jpg
+portada_alt: Aspirante sentado en una plaza ante un coche de la Guardia Civil y otro de la Policía Nacional
 ---
 Muchos opositores dudan entre las dos. Tiene sentido: las funciones se parecen y parte de los temarios se solapan. Pero los procesos selectivos son bastante distintos, y elegir bien te ahorra meses.
 

@@ -10,6 +10,8 @@ etiquetas: [servicio marítimo, servicio aéreo, especialidades, destinos]
 seo_title: Servicio Marítimo y Aéreo Guardia Civil: funciones
 seo_description: Servicio Marítimo y Aéreo de la Guardia Civil: funciones, organización y qué modalidades puede obtener cada empleo según la Orden PCM/509/2020.
 datos: {}
+portada: /blog/servicio-maritimo-y-servicio-aereo-de-la-guardia-civil.jpg
+portada_alt: Rescate con grúa desde un helicóptero de la Guardia Civil en un acantilado
 ---
 Dos servicios de la Guardia Civil llevan su trabajo al mar y al aire: el **Servicio Marítimo (SEMAR)** y el **Servicio Aéreo (SAER)**. Los dos corresponden a especialidades con varias modalidades, y en ambos los puestos de especialista exigen una cualificación concreta.
 

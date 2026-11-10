@@ -10,6 +10,8 @@ etiquetas: [lentes intraoculares, vista, cuadro médico, tribunal supremo]
 seo_title: Lentes intraoculares Guardia Civil: qué dijo el Supremo
 seo_description: ¿Excluyen las lentes intraoculares o fáquicas en la Guardia Civil? Qué anuló el Supremo en 2023, qué sigue en el cuadro médico y qué hacer.
 datos: {}
+portada: /blog/lentes-intraoculares-guardia-civil.jpg
+portada_alt: Oftalmólogo examinando el ojo de una aspirante con una lámpara de hendidura
 ---
 Cada vez más gente corrige la miopía con una lente implantada dentro del ojo en lugar de con láser. Y muchos descubren después que el cuadro médico de la Guardia Civil hablaba de ellas. La situación cambió en 2023 con una sentencia del Tribunal Supremo, pero **no tanto como se dice en algunos foros**.
 

@@ -10,6 +10,8 @@ etiquetas: [pruebas físicas, carrera, 2000 metros, entrenamiento]
 seo_title: Carrera 2.000 m Guardia Civil: marcas, ritmos y plan
 seo_description: Marcas de la carrera de 2.000 metros de la Guardia Civil por sexo y edad, ritmo por kilómetro y por vuelta, y plan de ocho semanas para superarla.
 datos: {}
+portada: /blog/carrera-2000-metros-guardia-civil.jpg
+portada_alt: Aspirante corriendo la última vuelta de una pista de atletismo
 ---
 De las cuatro pruebas físicas, la carrera suele ser la que más aspirantes subestiman: «son solo dos kilómetros». Pero tiene una particularidad que la hace peligrosa: **hay un único intento**. Si el día de la prueba no sale, no hay segunda oportunidad.
 

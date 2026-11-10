@@ -10,6 +10,8 @@ etiquetas: [altura, estatura, cuadro médico, requisitos]
 seo_title: Altura mínima Guardia Civil: ya no se exige (2026)
 seo_description: ¿Hay altura mínima para la Guardia Civil? No desde la Orden PCM/1133/2023. Qué se exigía antes (160 y 155 cm), por qué se eliminó y qué se sigue midiendo.
 datos: {}
+portada: /blog/altura-minima-guardia-civil.jpg
+portada_alt: Aspirante atándose las zapatillas en una pista de atletismo al amanecer
 ---
 Durante años, la estatura fue uno de los requisitos que más aspirantes dejaba fuera antes incluso de empezar a estudiar. Hoy ya no es así, pero en internet siguen circulando cifras antiguas, y todavía hay quien renuncia a la oposición por medir 1,55 m.
 

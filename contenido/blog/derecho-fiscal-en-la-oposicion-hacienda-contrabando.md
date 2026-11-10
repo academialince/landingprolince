@@ -10,6 +10,8 @@ etiquetas: [derecho fiscal, contrabando, aduanas, temario]
 seo_title: Derecho fiscal Guardia Civil: contrabando y aduanas
 seo_description: Tema 23 de Guardia Civil: LO 12/1995 de contrabando, RD 1649/1998 y Código Aduanero de la Unión. Umbrales, sanciones, ejemplos resueltos y mini test.
 datos: {}
+portada: /blog/derecho-fiscal-en-la-oposicion-hacienda-contrabando.jpg
+portada_alt: Agentes del Servicio Marítimo de la Guardia Civil abordando un pesquero
 ---
 Si buscas «Derecho fiscal» y esperas encontrar impuestos, sorpresa: en esta oposición **no entran la Ley General Tributaria ni el IRPF**. **Respuesta corta:** el tema 23 gira en torno a una misión concreta de la Guardia Civil, el resguardo fiscal del Estado, y tiene dos bloques: la **represión del contrabando** (LO 12/1995 y RD 1649/1998) y una selección de títulos del **Código Aduanero de la Unión**. Lo más importante es dominar los umbrales de valor que separan el delito de la infracción administrativa.
 

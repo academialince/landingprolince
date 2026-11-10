@@ -10,6 +10,8 @@ etiquetas: [seguridad ciudadana, seguridad privada, LO 4/2015, Ley 5/2014, temar
 seo_title: Seguridad ciudadana y privada: LO 4/2015 y Ley 5/2014
 seo_description: LO 4/2015 de seguridad ciudadana y Ley 5/2014 de seguridad privada para la oposición: identificación, registros, sanciones, personal, caso práctico y test.
 datos: {}
+portada: /blog/seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario.jpg
+portada_alt: Guardias civiles con chaleco reflectante en un control de carretera bajo la lluvia
 ---
 El tema 13 del programa, «Seguridad pública y seguridad privada», reúne dos leyes que un guardia civil aplica a diario: la Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana ([BOE-A-2015-3442](https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442)), y la Ley 5/2014, de 4 de abril, de Seguridad Privada ([BOE-A-2014-3649](https://www.boe.es/buscar/act.php?id=BOE-A-2014-3649)).
 

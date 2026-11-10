@@ -10,6 +10,8 @@ etiquetas: [pruebas físicas, extensiones de brazos, flexiones, entrenamiento]
 seo_title: Extensiones de brazos Guardia Civil: marcas y plan
 seo_description: Marcas de las extensiones de brazos de la Guardia Civil por sexo y edad, reglas para que cuente cada repetición y progresión de entrenamiento desde cero.
 datos: {}
+portada: /blog/extensiones-de-brazos-guardia-civil.jpg
+portada_alt: Aspirante haciendo una extensión de brazos ante un evaluador
 ---
 Las extensiones de brazos parecen la prueba más simple: una flexión de las de siempre. Pero la forma en que se miden es más exigente que la del gimnasio, y **muchas repeticiones que tú das por buenas no se cuentan**.
 

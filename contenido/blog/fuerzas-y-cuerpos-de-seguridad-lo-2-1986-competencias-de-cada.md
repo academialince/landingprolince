@@ -10,6 +10,8 @@ etiquetas: [lo 2/1986, temario, competencias, fuerzas y cuerpos de seguridad]
 seo_title: LO 2/1986 Fuerzas y Cuerpos de Seguridad: competencias
 seo_description: LO 2/1986 para opositores: niveles policiales, competencias de Guardia Civil y Policía Nacional, principios, policía judicial, coordinación y test.
 datos: {}
+portada: /blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada.jpg
+portada_alt: Guardias civiles evacuando a los pasajeros de un autobús durante una nevada
 ---
 La [Ley Orgánica 2/1986, de 13 de marzo](https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859), desarrolla el artículo 104 de la Constitución: fija las **funciones, los principios básicos de actuación y los estatutos** de las Fuerzas y Cuerpos de Seguridad. En el programa de la Escala de Cabos y Guardias figura **completa** como primer bloque del tema 15 (consulta el [temario](/temario-guardia-civil)).
 

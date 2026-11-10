@@ -10,6 +10,8 @@ etiquetas: [policía judicial, uco, especialidades, investigación]
 seo_title: Policía Judicial y UCO Guardia Civil: cómo se accede
 seo_description: Policía Judicial y UCO de la Guardia Civil: funciones, organización, qué fija la Orden PCM/509/2020 sobre la especialidad y cómo se llega a ella.
 datos: {}
+portada: /blog/policia-judicial-y-uco-como-se-llega-a-la-especialidad.jpg
+portada_alt: Agentes de la UCO de la Guardia Civil analizando material informático intervenido
 ---
 Cuando se habla de grandes investigaciones de la Guardia Civil, casi siempre aparece la UCO. Pero conviene separar dos cosas que se confunden a menudo: **la Policía Judicial es una función y una especialidad; la UCO es una unidad concreta dentro de la Jefatura de Policía Judicial.**
 

@@ -10,6 +10,8 @@ etiquetas: [extranjería, inmigración, LO 4/2000, ciudadanos de la UE, temario]
 seo_title: Extranjería LO 4/2000: lo básico para la oposición
 seo_description: Tema de extranjería: LO 4/2000, derechos, estancia de 90 días, infracciones, expulsión, devolución, internamiento de 60 días y RD 240/2007, con test.
 datos: {}
+portada: /blog/extranjeria-e-inmigracion-lo-basico-que-pregunta-el-examen.jpg
+portada_alt: Agentes de la Guardia Civil con una embarcación neumática en la costa de noche
 ---
 El tema 12 del programa, «Extranjería e inmigración», se centra en la Ley Orgánica 4/2000, sobre derechos y libertades de los extranjeros en España y su integración social ([BOE-A-2000-544](https://www.boe.es/buscar/act.php?id=BOE-A-2000-544)), y en el régimen de los ciudadanos de la Unión Europea. **Respuesta corta:** según nuestro [temario](/temario-guardia-civil), entran la **LO 4/2000 completa** y el **Real Decreto 240/2007**, de entrada, libre circulación y residencia de ciudadanos de la UE y del Espacio Económico Europeo ([BOE-A-2007-4184](https://www.boe.es/buscar/act.php?id=BOE-A-2007-4184)).
 

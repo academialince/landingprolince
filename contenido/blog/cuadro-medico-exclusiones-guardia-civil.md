@@ -10,6 +10,8 @@ etiquetas: [cuadro médico, reconocimiento médico, requisitos, exclusiones]
 seo_title: Cuadro médico Guardia Civil: exclusiones vigentes
 seo_description: Cuadro médico de exclusiones de la Guardia Civil vigente: norma, cambios de 2021 y 2023, IMC, vista, oído, tensión, espalda y cómo prepararte.
 datos: {}
+portada: /blog/cuadro-medico-exclusiones-guardia-civil.jpg
+portada_alt: Médico tomando la tensión a un aspirante en un reconocimiento
 ---
 Hay aspirantes que aprueban el examen, superan las físicas y la entrevista, y se quedan fuera en el reconocimiento médico. Casi siempre por algo que podrían haber comprobado meses antes.
 

@@ -10,6 +10,8 @@ etiquetas: [mujeres, igualdad, conciliación, embarazo]
 seo_title: Mujeres en la Guardia Civil: acceso y conciliación
 seo_description: Mujeres en la Guardia Civil: convocatoria 2026, marcas físicas, cifras oficiales con su año y medidas de conciliación en la formación y los destinos.
 datos: {}
+portada: /blog/mujeres-en-la-guardia-civil-acceso-datos-y-conciliacion.jpg
+portada_alt: Agente del SEPRONA liberando un ave rapaz al atardecer
 ---
 Respuesta corta: las mujeres acceden por **el mismo proceso selectivo** que los hombres, con las mismas pruebas y con **marcas físicas propias** por sexo y edad. La normativa prevé medidas específicas para quien esté embarazada, en lactancia o disfrutando de ciertos permisos durante la oposición o el curso, para que no pierda la plaza. En cifras oficiales, las mujeres eran el **11,17 % de la Escala de Cabos y Guardias en 2025** y el **35 % de los aspirantes de acceso libre** en el dato más reciente publicado por Interior en mayo de 2026.
 

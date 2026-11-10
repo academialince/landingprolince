@@ -10,6 +10,8 @@ etiquetas: [protección civil, desarrollo sostenible, temario, ley 17/2015]
 seo_title: Protección civil Guardia Civil: Ley 17/2015 y tema 16
 seo_description: Tema 16 de Guardia Civil: Ley 17/2015 de Protección Civil, Ley 42/2007 de Patrimonio Natural y Directiva 2012/27/UE. Qué entra, esquemas y test.
 datos: {}
+portada: /blog/proteccion-civil-y-desarrollo-sostenible-en-el-temario.jpg
+portada_alt: Guardias civiles evacuando a una vecina mayor durante una inundación
 ---
 El tema 16 es de los más heterogéneos del programa: reúne **protección civil, patrimonio natural y eficiencia energética**. Son tres normas sin relación aparente, de tres fuentes distintas (dos leyes estatales y una directiva europea), y la forma más eficaz de estudiarlas es por separado, con un esquema para cada una y sin salirte del alcance que fija el programa.
 

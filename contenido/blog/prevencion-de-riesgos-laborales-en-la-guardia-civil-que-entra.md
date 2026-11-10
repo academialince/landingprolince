@@ -10,6 +10,8 @@ etiquetas: [prevención de riesgos laborales, Ley 31/1995, Real Decreto 179/2005
 seo_title: Prevención de riesgos laborales Guardia Civil: temario
 seo_description: Tema de prevención de riesgos laborales: Ley 31/1995 (caps. I, II, III, VI y VII), RD 67/2010 y RD 179/2005 de la Guardia Civil, con casos y test.
 datos: {}
+portada: /blog/prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra.jpg
+portada_alt: Guardias civiles con chaleco reflectante evacuando vehículos entre el humo de un incendio
 ---
 El tema 3 del programa de la Escala de Cabos y Guardias es «Prevención de riesgos laborales». **Respuesta corta:** entran cinco capítulos de la Ley 31/1995 (I, II, III, VI y VII), el Real Decreto 67/2010, que adapta la prevención a la Administración General del Estado, y el Real Decreto 179/2005, sobre prevención de riesgos laborales en la Guardia Civil. Así consta en nuestro [temario](/temario-guardia-civil), elaborado a partir de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)).
 
