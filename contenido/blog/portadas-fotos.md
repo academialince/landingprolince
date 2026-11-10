@@ -32,3 +32,14 @@ respaldo institucional de la Guardia Civil.
 
 `scripts/portadas-blog.py` pertenece al juego anterior de fotografías de Pexels y queda como
 referencia histórica. No debe ejecutarse si se quieren conservar estas portadas generadas.
+
+## Portadas tomadas de «Fotos GC» (10 de noviembre de 2026)
+
+Imágenes generadas de la carpeta `Fotos GC` del SSD, recortadas al centro a 1600×900 y calidad 85.
+A diferencia de la serie anterior, **sí muestran uniformes, distintivos y el rótulo «Guardia Civil»**:
+es una excepción a la especificación de arriba, decidida para los artículos sobre destinos y sueldo.
+
+| Artículo | Archivo original | Escena |
+| --- | --- | --- |
+| destinos-especialidades-guardia-civil | guardia-civil-accion-01.png | Rescate de montaña en una cresta nevada al amanecer |
+| sueldo-guardia-civil | guardia-civil-accion-20.png | Motoristas de Tráfico escoltan una ambulancia de noche bajo la lluvia |
