@@ -10,6 +10,8 @@ etiquetas: [pruebas físicas, certificado médico, requisitos, documentación]
 seo_title: Certificado médico pruebas físicas Guardia Civil: guía
 seo_description: Certificado médico para las pruebas físicas de la Guardia Civil: frase exigida, plazo de 20 días, ficha médica alternativa y errores que excluyen.
 datos: {}
+portada: /blog/certificado-medico-pruebas-fisicas-guardia-civil.jpg
+portada_alt: Médica firmando y sellando un certificado mientras un aspirante espera en la consulta
 ---
 Hay aspirantes que llegan a las pruebas físicas perfectamente entrenados y se quedan fuera en la puerta, **por un papel**. La respuesta corta: antes de empezar las pruebas tienes que entregar al Tribunal un **certificado médico oficial expedido dentro de los 20 días anteriores**, con una frase concreta que menciona los cuatro ejercicios, y en el que conste tu identidad. Si no lo presentas en esos términos, **quedas excluido del proceso**. Es un trámite sencillo, pero con condiciones muy concretas.
 

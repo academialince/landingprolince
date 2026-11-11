@@ -10,6 +10,8 @@ etiquetas: [organización, entrenamiento, descanso, planificación]
 seo_title: Estudiar y entrenar a la vez: plan semanal para opositar
 seo_description: Cómo compaginar estudio y entrenamiento en la oposición a Guardia Civil: reparto de la semana, tres horarios tipo, sueño, alimentación básica y errores.
 datos: {}
+portada: /blog/entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil.jpg
+portada_alt: Opositor atándose las zapatillas junto a su mesa de estudio con apuntes subrayados
 ---
 Lo difícil de esta oposición no es estudiar ni entrenar: es **hacer las dos cosas a la vez durante meses** sin quemarte. La respuesta corta: estudia **todos los días** (aunque sea poco), entrena **tres o cuatro días** a la semana, deja **al menos un día de descanso real** y coloca las sesiones exigentes de cada cosa en momentos distintos. Muchos aspirantes empiezan con un plan heroico que no se puede mantener y lo abandonan al mes; vale más uno modesto que dure.
 

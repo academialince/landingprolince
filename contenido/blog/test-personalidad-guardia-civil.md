@@ -10,6 +10,8 @@ etiquetas: [psicotécnico, personalidad, entrevista, coherencia]
 seo_title: Test de personalidad Guardia Civil: cómo responder bien
 seo_description: Test de personalidad de la Guardia Civil: qué dice la convocatoria, cómo funcionan estos cuestionarios, su relación con la entrevista y errores.
 datos: {}
+portada: /blog/test-personalidad-guardia-civil.jpg
+portada_alt: Aspirante rellenando una hoja de respuestas en una sala de examen llena
 ---
 Entre las pruebas del proceso, el cuestionario de personalidad es la que más mitos genera. Hay quien busca «las respuestas correctas» y quien se presenta sin haberlo pensado. La respuesta corta: **no hay respuestas correctas**, no se puntúa de 0 a 30 como las aptitudes, y lo que de verdad importa es **responder con sinceridad y coherencia**, porque sus resultados pueden usarse para valorar tu adecuación al perfil y para orientar la entrevista personal. Lo que sí puedes preparar es conocerte bien.
 

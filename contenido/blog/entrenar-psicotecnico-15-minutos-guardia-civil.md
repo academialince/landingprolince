@@ -10,6 +10,8 @@ etiquetas: [psicotécnico, rutina, entrenamiento, aptitudes]
 seo_title: Entrenar el psicotécnico en 15 minutos al día: rutina
 seo_description: Rutina de 15 minutos diarios para el psicotécnico de la Guardia Civil: nota que necesitas, qué practicar cada día, plan por fases y cómo medir tu progreso.
 datos: {"duracion": "15 minutos al día"}
+portada: /blog/entrenar-psicotecnico-15-minutos-guardia-civil.jpg
+portada_alt: Opositora resolviendo ejercicios de psicotécnico en la cocina con un temporizador en el móvil
 ---
 El psicotécnico es la prueba más fácil de abandonar, porque no da la sensación de avance que deja terminar un tema. Y, sin embargo, **es eliminatoria**: sin el mínimo, quedas fuera aunque tengas una nota excelente en conocimientos. La respuesta corta: no hace falta dedicarle horas; hace falta **constancia, cronómetro y revisar cada fallo**. Quince minutos diarios, bien organizados, dan para mucho.
 

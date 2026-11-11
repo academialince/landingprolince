@@ -10,6 +10,8 @@ etiquetas: [pruebas físicas, natación, 50 metros, entrenamiento]
 seo_title: Natación Guardia Civil: marcas de 50 m y plan desde cero
 seo_description: Marcas de los 50 m de natación de la Guardia Civil por sexo y edad, reglas de la prueba, ritmo por largo y un plan por fases para prepararla desde cero.
 datos: {}
+portada: /blog/natacion-50-metros-guardia-civil.jpg
+portada_alt: Nadador en plena brazada de crol en una piscina cubierta
 ---
 La natación es la prueba que más ansiedad genera entre los aspirantes que no vienen del deporte. La respuesta corta: hay que nadar **50 metros estilo libre en piscina**, con **un solo intento**, en **70 segundos o menos** si eres hombre menor de 35 años y **81 segundos o menos** si eres mujer de esa edad. No es tanto una cuestión de fuerza como de **técnica, respiración y perder el miedo al agua**, y eso se construye con semanas de práctica, no en el último mes.
 

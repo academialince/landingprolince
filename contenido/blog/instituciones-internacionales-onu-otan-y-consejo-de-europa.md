@@ -10,6 +10,8 @@ etiquetas: [instituciones internacionales, ONU, OTAN, Consejo de Europa, temario
 seo_title: Instituciones internacionales: ONU, OTAN y Consejo de Europa
 seo_description: Tema 6: ONU (Carta y órganos), OTAN (Tratado de 1949), Consejo de Europa, Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS, con sedes y test.
 datos: {}
+portada: /blog/instituciones-internacionales-onu-otan-y-consejo-de-europa.jpg
+portada_alt: Opositor tomando apuntes junto a un globo terráqueo y banderas de varios países
 ---
 El tema 6 del programa de la Escala de Cabos y Guardias es «Instituciones internacionales» y, según nuestro [temario](/temario-guardia-civil), incluye la **ONU, el Consejo de Europa, la Unión Europea, la OTAN, INTERPOL, EUROPOL, EUROJUST, FRONTEX, CEPOL, FAO, FMI y OMS**, con su evolución histórica, ámbito geográfico, estructura y funciones. **Respuesta corta:** haz una ficha de cada organismo con fecha de creación, sede, órganos, función y relación con España. Aquí tienes los datos que hemos podido comprobar en fuentes oficiales (textos publicados en el BOE o en el DOUE y webs de cada organismo); lo que no hemos podido verificar, no lo incluimos.
 

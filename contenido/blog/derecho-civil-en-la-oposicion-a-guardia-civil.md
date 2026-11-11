@@ -10,6 +10,8 @@ etiquetas: [Derecho Civil, Código Civil, temario, nacionalidad]
 seo_title: Derecho Civil para la oposición: Título Preliminar y Libro I
 seo_description: Derecho Civil para Guardia Civil: fuentes del Derecho, vigencia de las leyes, nacionalidad, matrimonio, mayoría de edad y apoyos, con casos y test.
 datos: {}
+portada: /blog/derecho-civil-en-la-oposicion-a-guardia-civil.jpg
+portada_alt: Opositor subrayando de noche un código grueso lleno de pestañas de colores junto a un flexo
 ---
 El tema 7 del programa de la Escala de Cabos y Guardias es «Derecho Civil» y comprende, según nuestro [temario](/temario-guardia-civil), el **Título Preliminar y los Títulos I a XII del Libro I del Código Civil**: normas jurídicas, personas, nacionalidad, vecindad, domicilio, matrimonio, filiación, tutela y apoyos. **Respuesta corta:** estudia el Código sobre su texto consolidado, porque el Libro I se ha reformado mucho (por ejemplo, la Ley 8/2021 sobre las personas con discapacidad, en vigor desde el 3 de septiembre de 2021) y los apuntes antiguos usan numeraciones y conceptos que ya no valen, como la «incapacitación».
 

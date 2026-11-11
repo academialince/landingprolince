@@ -10,6 +10,8 @@ etiquetas: [entrevista, competencias, no apto provisional, revisión]
 seo_title: Entrevista Guardia Civil: las 6 competencias que valoran
 seo_description: Las seis competencias de la entrevista personal de la Guardia Civil: cómo demostrarlas, quién entrevista, qué llevar y cómo se revisa el no apto.
 datos: {}
+portada: /blog/competencias-entrevista-personal-guardia-civil.jpg
+portada_alt: Aspirante ante una psicóloga y un oficial de la Guardia Civil en la entrevista personal
 ---
 La entrevista personal es una de las tres pruebas de aptitud psicofísica, junto con las [pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento) y el reconocimiento médico. **Respuesta corta:** no puntúa; se califica como «apto» o «no apto provisional», y la convocatoria dice exactamente qué se valora: **seis competencias**. Saberlas te permite prepararte con criterio, a partir de tu propia experiencia y sin inventar un personaje.
 

@@ -291,7 +291,7 @@ No. El certificado lo aporta el aspirante antes de las pruebas físicas; el reco
 ### ¿Puedo cambiar el día de las pruebas si estoy lesionado?
 
 No hay una fecha alternativa general por lesión. Si las pruebas duran más de un día, el Tribunal puede autorizar un cambio de día o tanda por causa justificada, solicitado antes del inicio. Las medidas del capítulo V del reglamento de enseñanza se refieren a la protección de la maternidad.',
-   NULL, NULL, 'publicado', '2026-11-22T06:12:00.000Z', 'acceso-guardia-civil',
+   '/blog/certificado-medico-pruebas-fisicas-guardia-civil.jpg', 'Médica firmando y sellando un certificado mientras un aspirante espera en la consulta', 'publicado', '2026-11-22T06:12:00.000Z', 'acceso-guardia-civil',
    ARRAY['pruebas físicas', 'certificado médico', 'requisitos', 'documentación']::text[], '{"title":"Certificado médico pruebas físicas Guardia Civil: guía","description":"Certificado médico para las pruebas físicas de la Guardia Civil: frase exigida, plazo de 20 días, ficha médica alternativa y errores que excluyen."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -633,7 +633,7 @@ No hay una cifra oficial. Empieza por un bloque diario que puedas mantener y sú
 ### ¿Hay una dieta para opositar?
 
 No hay una oficial. Lo básico: comidas regulares, buena hidratación y cuidar el peso. Para un plan personalizado, consulta a un profesional.',
-   NULL, NULL, 'publicado', '2026-11-23T06:29:00.000Z', 'acceso-guardia-civil',
+   '/blog/entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil.jpg', 'Opositor atándose las zapatillas junto a su mesa de estudio con apuntes subrayados', 'publicado', '2026-11-23T06:29:00.000Z', 'acceso-guardia-civil',
    ARRAY['organización', 'entrenamiento', 'descanso', 'planificación']::text[], '{"title":"Estudiar y entrenar a la vez: plan semanal para opositar","description":"Cómo compaginar estudio y entrenamiento en la oposición a Guardia Civil: reparto de la semana, tres horarios tipo, sueño, alimentación básica y errores."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -963,7 +963,7 @@ No es recomendable: puedes agravar la lesión y, si no completas o no superas un
 ### ¿Qué hago si me lesiono meses antes?
 
 Trátala con un profesional, mantén lo que puedas entrenar sin riesgo y vuelve de forma progresiva. Con tiempo por delante, una lesión bien tratada no tiene por qué dejarte fuera.',
-   NULL, NULL, 'publicado', '2026-11-24T06:46:00.000Z', 'acceso-guardia-civil',
+   '/blog/lesiones-pruebas-fisicas-guardia-civil.jpg', 'Fisioterapeuta examinando el tobillo de una aspirante en una camilla', 'publicado', '2026-11-24T06:46:00.000Z', 'acceso-guardia-civil',
    ARRAY['pruebas físicas', 'lesiones', 'prevención', 'entrenamiento']::text[], '{"title":"Lesiones al preparar las pruebas físicas de Guardia Civil","description":"Cómo evitar lesiones al preparar las pruebas físicas de la Guardia Civil: progresión, calentamiento, señales de alarma y qué dicen las bases."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1132,7 +1132,7 @@ Depende de cuánto tiempo tengas y de tu punto de partida. Si no sabes nadar, em
 ### ¿Puedo usar gafas de natación o gorro?
 
 La convocatoria no lo regula. Atiende a las instrucciones que publique el Tribunal de Selección y a las que dé en la propia prueba.',
-   NULL, NULL, 'publicado', '2026-11-21T06:55:00.000Z', 'acceso-guardia-civil',
+   '/blog/natacion-50-metros-guardia-civil.jpg', 'Nadador en plena brazada de crol en una piscina cubierta', 'publicado', '2026-11-21T06:55:00.000Z', 'acceso-guardia-civil',
    ARRAY['pruebas físicas', 'natación', '50 metros', 'entrenamiento']::text[], '{"title":"Natación Guardia Civil: marcas de 50 m y plan desde cero","description":"Marcas de los 50 m de natación de la Guardia Civil por sexo y edad, reglas de la prueba, ritmo por largo y un plan por fases para prepararla desde cero."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

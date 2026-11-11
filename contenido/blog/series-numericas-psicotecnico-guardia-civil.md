@@ -10,6 +10,8 @@ etiquetas: [psicotécnico, series numéricas, aptitudes, razonamiento]
 seo_title: Series numéricas psicotécnico: patrones y ejemplos
 seo_description: Series numéricas para el psicotécnico de la Guardia Civil: patrones habituales, ejemplos resueltos, ejercicios con solución y método rápido.
 datos: {}
+portada: /blog/series-numericas-psicotecnico-guardia-civil.jpg
+portada_alt: Aspirante mirando con el ceño fruncido un cuadernillo de series numéricas en un examen
 ---
 En el psicotécnico de la Guardia Civil tienes **80 preguntas en 55 minutos**, unos **41 segundos por pregunta** de media, y ese tiempo incluye la lectura de instrucciones. Con ese ritmo no puedes «pensar» cada serie desde cero: tienes que **reconocer el patrón de un vistazo**. La respuesta corta de este artículo: casi todas las series que encontrarás en una batería de práctica se explican con una docena de patrones, y se aprenden con un método fijo y mucha repetición cronometrada.
 

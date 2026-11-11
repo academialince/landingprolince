@@ -10,6 +10,8 @@ etiquetas: [Constitución, derechos fundamentales, Título I, garantías]
 seo_title: Derechos fundamentales: artículos 14 a 29 explicados
 seo_description: Derechos fundamentales y libertades públicas (arts. 14-29 CE): esquema del Título I, garantías del art. 53, suspensión del art. 55 y casos prácticos.
 datos: {}
+portada: /blog/derechos-fundamentales-libertades-publicas-guardia-civil.jpg
+portada_alt: Opositora completando en la pared un gran esquema de colores de la Constitución
 ---
 El Título I de la Constitución, «De los derechos y deberes fundamentales» (artículos 10 a 55), es uno de los bloques que más conviene tener ordenado. **Respuesta corta:** los derechos fundamentales y las libertades públicas en sentido estricto son los de la **Sección 1.ª del Capítulo segundo (artículos 15 a 29)**, que junto con el **artículo 14** y la **objeción de conciencia** del artículo 30 tienen la máxima protección: procedimiento preferente y sumario ante los tribunales ordinarios y **recurso de amparo** ante el Tribunal Constitucional.
 

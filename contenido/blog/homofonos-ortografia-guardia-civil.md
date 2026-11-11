@@ -10,6 +10,8 @@ etiquetas: [ortografía, homófonos, porque, haber]
 seo_title: Homófonos: haber/a ver, echo/hecho, porque y sino
 seo_description: Homófonos de la prueba de ortografía de la Guardia Civil: haber/a ver, echo/hecho, porque/por qué, sino/si no, asimismo y más, con trucos y ejercicio.
 datos: {}
+portada: /blog/homofonos-ortografia-guardia-civil.jpg
+portada_alt: Mano colocando fichas con parejas de palabras en dos columnas sobre una mesa de madera
 ---
 En la prueba de ortografía, una palabra bien escrita pero **en el lugar equivocado** es una falta. Escribir *echo* donde va *hecho* o *sino* donde va *si no* cuenta igual que una tilde olvidada. **Respuesta corta:** casi todos los homófonos se resuelven con un truco de sustitución: cambia la palabra por otra que signifique lo mismo y comprueba si la frase sigue funcionando.
 

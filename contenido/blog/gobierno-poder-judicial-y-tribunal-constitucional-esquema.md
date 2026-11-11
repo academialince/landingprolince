@@ -10,6 +10,8 @@ etiquetas: [Constitución, Gobierno, Poder Judicial, Tribunal Constitucional]
 seo_title: Gobierno, Poder Judicial y Tribunal Constitucional: esquema
 seo_description: Títulos IV, V, VI y IX de la Constitución en esquema: investidura, moción de censura, CGPJ (20 miembros, 5 años) y TC (12 miembros, 9 años).
 datos: {}
+portada: /blog/gobierno-poder-judicial-y-tribunal-constitucional-esquema.jpg
+portada_alt: Opositor haciendo un esquema en tres columnas frente a la fachada de un tribunal
 ---
 Los Títulos IV (Gobierno y Administración), V (relaciones entre el Gobierno y las Cortes), VI (Poder Judicial) e IX (Tribunal Constitucional) de la Constitución tienen algo en común: están llenos de números. Quién propone a quién, cuántos miembros hay, qué mayoría hace falta, cuántos años dura el mandato. **Respuesta corta:** el Gobierno se forma por investidura del Congreso y responde ante él; el CGPJ lo integran el Presidente del Tribunal Supremo y **20 miembros nombrados por 5 años**; y el Tribunal Constitucional tiene **12 miembros designados por 9 años**, renovados por terceras partes cada tres.
 

@@ -156,7 +156,7 @@ Diez con carácter general; cinco para refugiados; dos para iberoamericanos, and
 
 ### ¿Es lo mismo el Registro Civil que el Código Civil?
 No. El Código menciona el Registro Civil en varios artículos (por ejemplo, el 300), pero su regulación está en otra ley. Comprueba qué normas entran en tu convocatoria.',
-   NULL, NULL, 'publicado', '2026-12-15T06:43:00.000Z', 'acceso-guardia-civil',
+   '/blog/derecho-civil-en-la-oposicion-a-guardia-civil.jpg', 'Opositor subrayando de noche un código grueso lleno de pestañas de colores junto a un flexo', 'publicado', '2026-12-15T06:43:00.000Z', 'acceso-guardia-civil',
    ARRAY['Derecho Civil', 'Código Civil', 'temario', 'nacionalidad']::text[], '{"title":"Derecho Civil para la oposición: Título Preliminar y Libro I","description":"Derecho Civil para Guardia Civil: fuentes del Derecho, vigencia de las leyes, nacionalidad, matrimonio, mayoría de edad y apoyos, con casos y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -342,7 +342,7 @@ No. El Convenio es del Consejo de Europa (1950) y lo aplica el Tribunal de Estra
 ### ¿Cuántas preguntas caen de este tema?
 
 Es el tema 1 del programa de 23 temas de conocimientos. No hay datos oficiales del número de preguntas por tema, así que lo prudente es estudiarlo entero.',
-   NULL, NULL, 'publicado', '2026-12-10T06:18:00.000Z', 'acceso-guardia-civil',
+   '/blog/derechos-humanos-en-el-temario-declaracion-universal.jpg', 'Opositora subrayando un texto legal mientras, al otro lado del cristal, una guardia civil atiende a una vecina', 'publicado', '2026-12-10T06:18:00.000Z', 'acceso-guardia-civil',
    ARRAY['derechos humanos', 'Declaración Universal', 'Convenio Europeo', 'temario']::text[], '{"title":"Derechos Humanos: Declaración Universal y Convenio Europeo","description":"Derechos Humanos para la Guardia Civil: Declaración Universal de 1948, Convenio Europeo, Tribunal de Estrasburgo y su relación con la Constitución."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -506,7 +506,7 @@ El Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial (a
 ### ¿Se puede recurrir una sentencia del Tribunal Constitucional?
 
 No. Tienen valor de cosa juzgada desde el día siguiente a su publicación y no cabe recurso alguno contra ellas (art. 164.1).',
-   NULL, NULL, 'publicado', '2026-12-09T06:01:00.000Z', 'acceso-guardia-civil',
+   '/blog/gobierno-poder-judicial-y-tribunal-constitucional-esquema.jpg', 'Opositor haciendo un esquema en tres columnas frente a la fachada de un tribunal', 'publicado', '2026-12-09T06:01:00.000Z', 'acceso-guardia-civil',
    ARRAY['Constitución', 'Gobierno', 'Poder Judicial', 'Tribunal Constitucional']::text[], '{"title":"Gobierno, Poder Judicial y Tribunal Constitucional: esquema","description":"Títulos IV, V, VI y IX de la Constitución en esquema: investidura, moción de censura, CGPJ (20 miembros, 5 años) y TC (12 miembros, 9 años)."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -669,7 +669,7 @@ Que sus normas promoverán la igualdad efectiva en el acceso, la formación, los
 
 ### ¿Hay que saberse toda la ley?
 Solo lo que fija el programa vigente; el Capítulo II del Título II, por ejemplo, queda fuera.',
-   NULL, NULL, 'publicado', '2026-12-11T06:35:00.000Z', 'acceso-guardia-civil',
+   '/blog/igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley.jpg', 'Una guardia civil y un guardia civil revisando un parte sobre el capó del coche patrulla al amanecer', 'publicado', '2026-12-11T06:35:00.000Z', 'acceso-guardia-civil',
    ARRAY['igualdad', 'LO 3/2007', 'temario', 'discriminación']::text[], '{"title":"Ley de Igualdad LO 3/2007: claves para la oposición","description":"LO 3/2007 de igualdad efectiva: discriminación directa e indirecta, acoso, acciones positivas, regla 60/40, planes de igualdad y Guardia Civil. Con test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -808,7 +808,7 @@ Europol y Eurojust, en La Haya; Frontex, en Varsovia; CEPOL, en Budapest.
 
 ### ¿Cuántos miembros tiene la OTAN?
 32, según su web oficial.',
-   NULL, NULL, 'publicado', '2026-12-14T06:26:00.000Z', 'acceso-guardia-civil',
+   '/blog/instituciones-internacionales-onu-otan-y-consejo-de-europa.jpg', 'Opositor tomando apuntes junto a un globo terráqueo y banderas de varios países', 'publicado', '2026-12-14T06:26:00.000Z', 'acceso-guardia-civil',
    ARRAY['instituciones internacionales', 'ONU', 'OTAN', 'Consejo de Europa', 'temario']::text[], '{"title":"Instituciones internacionales: ONU, OTAN y Consejo de Europa","description":"Tema 6: ONU (Carta y órganos), OTAN (Tratado de 1949), Consejo de Europa, Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS, con sedes y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1114,7 +1114,7 @@ El mismo valor jurídico que los Tratados (art. 6.1 TUE).
 
 ### ¿Son estos datos preguntas del examen?
 Son contenidos de los Tratados. No hay datos oficiales de qué preguntas se formularán, así que conviene estudiar el tema completo.',
-   NULL, NULL, 'publicado', '2026-12-13T06:09:00.000Z', 'acceso-guardia-civil',
+   '/blog/union-europea-en-la-oposicion-las-instituciones.jpg', 'Opositor subrayando apuntes junto a un mapa de Europa y banderas de la Unión Europea', 'publicado', '2026-12-13T06:09:00.000Z', 'acceso-guardia-civil',
    ARRAY['Unión Europea', 'instituciones', 'Derecho de la UE', 'temario']::text[], '{"title":"Instituciones de la Unión Europea: guía para la oposición","description":"Las siete instituciones de la UE (art. 13 TUE), mandatos, mayoría cualificada, competencias, reglamento y directiva, y el espacio de libertad y seguridad."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

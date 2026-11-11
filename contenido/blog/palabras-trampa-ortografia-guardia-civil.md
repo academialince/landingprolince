@@ -10,6 +10,8 @@ etiquetas: [ortografía, b/v, g/j, h, palabras]
 seo_title: B/V, G/J y H: palabras trampa de ortografía Guardia Civil
 seo_description: Reglas de B/V, G/J y H con excepciones, palabras trampa y parejas que se confunden en la prueba de ortografía de la Guardia Civil, con ejercicio.
 datos: {}
+portada: /blog/palabras-trampa-ortografia-guardia-civil.jpg
+portada_alt: Opositora subrayando palabras corregidas en una libreta junto a un diccionario
 ---
 Cuando se habla de ortografía en la oposición, todo el mundo piensa en las tildes. Pero hay otro bloque de fallos igual de peligroso: **las letras que suenan igual**. **Respuesta corta:** no hace falta memorizar listas infinitas; con una docena de reglas fiables, sus excepciones y unas cuantas parejas de significado distinto resuelves la mayoría de los casos.
 

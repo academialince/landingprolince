@@ -10,6 +10,8 @@ etiquetas: [igualdad, LO 3/2007, temario, discriminación]
 seo_title: Ley de Igualdad LO 3/2007: claves para la oposición
 seo_description: LO 3/2007 de igualdad efectiva: discriminación directa e indirecta, acoso, acciones positivas, regla 60/40, planes de igualdad y Guardia Civil. Con test.
 datos: {}
+portada: /blog/igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley.jpg
+portada_alt: Una guardia civil y un guardia civil revisando un parte sobre el capó del coche patrulla al amanecer
 ---
 La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, es el tema 2 del programa de la Escala de Cabos y Guardias. **Respuesta corta:** es una ley de conceptos y definiciones, y se estudia mejor con un glosario que con una lectura corrida. Según nuestro [temario](/temario-guardia-civil), entran el Título I, el Capítulo I del Título II y los Títulos III a VIII. Los artículos 1 y 2 (Título Preliminar) no figuran en esa relación, pero te conviene leerlos porque explican el objeto y el ámbito de todo lo demás.
 

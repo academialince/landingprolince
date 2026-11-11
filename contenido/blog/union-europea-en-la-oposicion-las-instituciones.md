@@ -10,6 +10,8 @@ etiquetas: [Unión Europea, instituciones, Derecho de la UE, temario]
 seo_title: Instituciones de la Unión Europea: guía para la oposición
 seo_description: Las siete instituciones de la UE (art. 13 TUE), mandatos, mayoría cualificada, competencias, reglamento y directiva, y el espacio de libertad y seguridad.
 datos: {}
+portada: /blog/union-europea-en-la-oposicion-las-instituciones.jpg
+portada_alt: Opositor subrayando apuntes junto a un mapa de Europa y banderas de la Unión Europea
 ---
 El tema 5 del programa es «Derecho de la Unión Europea». **Respuesta corta:** la base son las siete instituciones del artículo 13 del Tratado de la Unión Europea (TUE): Parlamento Europeo, Consejo Europeo, Consejo, Comisión, Tribunal de Justicia de la Unión Europea, Banco Central Europeo y Tribunal de Cuentas. Según nuestro [temario](/temario-guardia-civil), entran los Títulos I a IV y VI del TUE, la política común de seguridad y defensa del Título V, y las partes del Tratado de Funcionamiento (TFUE) que fija el programa de la convocatoria ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)).
 

@@ -175,7 +175,7 @@ En una fila recta de cuadrados, las que están separadas por un cuadrado. En la 
 ### ¿Qué hago si no veo la solución?
 
 Descarta opciones con las reglas (caras opuestas a la vez, reflejos) y, si quedan dos o tres, decide o salta. Con una opción descartada, contestar compensa de media.',
-   NULL, NULL, 'publicado', '2026-11-27T06:37:00.000Z', 'acceso-guardia-civil',
+   '/blog/aptitud-espacial-psicotecnico-guardia-civil.jpg', 'Manos doblando el desarrollo de un cubo de papel junto a cubos de madera', 'publicado', '2026-11-27T06:37:00.000Z', 'acceso-guardia-civil',
    ARRAY['psicotécnico', 'aptitud espacial', 'cubos', 'figuras']::text[], '{"title":"Aptitud espacial psicotécnico: cubos, giros y figuras","description":"Aptitud espacial en el psicotécnico: reglas para resolver giros, desarrollos de cubos, conteo de bloques y papel doblado, con ejemplos resueltos."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -370,7 +370,7 @@ El informe de vida laboral o, si eres militar, la Hoja General de Servicios, ade
 ### ¿Puedo entrar con el móvil apagado?
 
 La base 5.3 prohíbe entrar en las salas de entrevistas con teléfonos móviles y otros dispositivos de grabación o transmisión, sin distinguir si están apagados. Déjalo fuera.',
-   NULL, NULL, 'publicado', '2026-12-01T06:45:00.000Z', 'acceso-guardia-civil',
+   '/blog/competencias-entrevista-personal-guardia-civil.jpg', 'Aspirante ante una psicóloga y un oficial de la Guardia Civil en la entrevista personal', 'publicado', '2026-12-01T06:45:00.000Z', 'acceso-guardia-civil',
    ARRAY['entrevista', 'competencias', 'no apto provisional', 'revisión']::text[], '{"title":"Entrevista Guardia Civil: las 6 competencias que valoran","description":"Las seis competencias de la entrevista personal de la Guardia Civil: cómo demostrarlas, quién entrevista, qué llevar y cómo se revisa el no apto."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -529,7 +529,7 @@ Lo utilizan los entrevistadores del órgano de apoyo, en el que hay personal tit
 ### ¿Puedo suspender la entrevista por lo que ponga en el BIODATA?
 
 El BIODATA no se califica. Lo que se califica es la entrevista, como «apto» o «no apto provisional», según las competencias que demuestres. Un cuestionario incoherente o inexacto, eso sí, puede dar lugar a preguntas difíciles.',
-   NULL, NULL, 'publicado', '2026-11-30T06:28:00.000Z', 'acceso-guardia-civil',
+   '/blog/cuestionario-biodata-guardia-civil.jpg', 'Aspirante esperando con una carpeta en el pasillo de un edificio oficial', 'publicado', '2026-11-30T06:28:00.000Z', 'acceso-guardia-civil',
    ARRAY['entrevista', 'BIODATA', 'vida laboral', 'documentación']::text[], '{"title":"Cuestionario BIODATA Guardia Civil: qué es y cómo rellenarlo","description":"BIODATA de la Guardia Civil: qué es el cuestionario biográfico previo a la entrevista, qué documentos llevar y cómo rellenarlo con coherencia y sin errores."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -704,7 +704,7 @@ Las dos opciones funcionan si se mantienen durante meses. La sesión diaria cort
 ### ¿Qué hago si me estanco?
 
 Revisa tu registro de fallos. Casi siempre el estancamiento se explica por un formato concreto o por un tipo de fallo (normalmente, la precipitación) que se repite.',
-   NULL, NULL, 'publicado', '2026-11-29T06:11:00.000Z', 'acceso-guardia-civil',
+   '/blog/entrenar-psicotecnico-15-minutos-guardia-civil.jpg', 'Opositora resolviendo ejercicios de psicotécnico en la cocina con un temporizador en el móvil', 'publicado', '2026-11-29T06:11:00.000Z', 'acceso-guardia-civil',
    ARRAY['psicotécnico', 'rutina', 'entrenamiento', 'aptitudes']::text[], '{"title":"Entrenar el psicotécnico en 15 minutos al día: rutina","description":"Rutina de 15 minutos diarios para el psicotécnico de la Guardia Civil: nota que necesitas, qué practicar cada día, plan por fases y cómo medir tu progreso."}'::jsonb, '{"duracion":"15 minutos al día"}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -896,7 +896,7 @@ La convocatoria dice que señales la más completa: la que recoge el significado
 ### ¿Sirve leer novelas para el psicotécnico?
 
 Sí, como base de vocabulario y comprensión. Pero combínalo con ejercicios cronometrados: leer no entrena el ritmo de 41 segundos por pregunta.',
-   NULL, NULL, 'publicado', '2026-11-26T06:20:00.000Z', 'acceso-guardia-civil',
+   '/blog/razonamiento-verbal-psicotecnico-guardia-civil.jpg', 'Opositora subrayando un libro en una biblioteca con luz de ventana', 'publicado', '2026-11-26T06:20:00.000Z', 'acceso-guardia-civil',
    ARRAY['psicotécnico', 'razonamiento verbal', 'analogías', 'vocabulario']::text[], '{"title":"Razonamiento verbal psicotécnico: tipos y ejemplos","description":"Razonamiento verbal para el psicotécnico: sinónimos, antónimos, analogías e intrusos con ejemplos resueltos, ejercicios y cómo ganar vocabulario."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1086,7 +1086,7 @@ Comprueba cuál aparece entre las opciones. Si solo una de las dos está, esa es
 ### ¿Cuánto tiempo necesito para dominarlas?
 
 Depende de tu punto de partida. Lo que marca la diferencia es practicar con regularidad y revisar cada fallo, más que el número total de horas.',
-   NULL, NULL, 'publicado', '2026-11-25T06:03:00.000Z', 'acceso-guardia-civil',
+   '/blog/series-numericas-psicotecnico-guardia-civil.jpg', 'Aspirante mirando con el ceño fruncido un cuadernillo de series numéricas en un examen', 'publicado', '2026-11-25T06:03:00.000Z', 'acceso-guardia-civil',
    ARRAY['psicotécnico', 'series numéricas', 'aptitudes', 'razonamiento']::text[], '{"title":"Series numéricas psicotécnico: patrones y ejemplos","description":"Series numéricas para el psicotécnico de la Guardia Civil: patrones habituales, ejemplos resueltos, ejercicios con solución y método rápido."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1240,7 +1240,7 @@ Elige la que mejor te describa en general, no en un caso excepcional, y sigue ad
 ### ¿Cómo me preparo?
 
 Respondiendo con sinceridad, sin pensar demasiado cada ítem y habiendo descansado. Lo demás es conocerte bien para la entrevista posterior.',
-   NULL, NULL, 'publicado', '2026-11-28T06:54:00.000Z', 'acceso-guardia-civil',
+   '/blog/test-personalidad-guardia-civil.jpg', 'Aspirante rellenando una hoja de respuestas en una sala de examen llena', 'publicado', '2026-11-28T06:54:00.000Z', 'acceso-guardia-civil',
    ARRAY['psicotécnico', 'personalidad', 'entrevista', 'coherencia']::text[], '{"title":"Test de personalidad Guardia Civil: cómo responder bien","description":"Test de personalidad de la Guardia Civil: qué dice la convocatoria, cómo funcionan estos cuestionarios, su relación con la entrevista y errores."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

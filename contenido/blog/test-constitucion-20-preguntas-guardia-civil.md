@@ -10,6 +10,8 @@ etiquetas: [Constitución, test, derecho constitucional, repaso]
 seo_title: Test de la Constitución: 20 preguntas con respuestas
 seo_description: Test de 20 preguntas de la Constitución Española para opositores a Guardia Civil, con respuestas explicadas, artículos y cálculo de nota con penalización.
 datos: {}
+portada: /blog/test-constitucion-20-preguntas-guardia-civil.jpg
+portada_alt: Ejemplar de la Constitución Española junto a un test a medio rellenar y una bandera de España
 ---
 Hoy, 6 de diciembre, es el Día de la Constitución: buen momento para medir cuánto la dominas. **Respuesta corta:** aquí tienes **20 preguntas tipo test con cuatro opciones**, como las del examen, con la solución explicada y el artículo de cada una. Hazlo sin mirar, corrige con la penalización real y usa la tabla final para saber qué repasar.
 

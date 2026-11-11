@@ -10,6 +10,8 @@ etiquetas: [Constitución, Corona, Cortes Generales, Congreso, Senado]
 seo_title: Corona y Cortes Generales: datos clave para el examen
 seo_description: Corona (arts. 56-65) y Cortes Generales (arts. 66-96) de la Constitución: funciones del Rey, refrendo, Congreso, Senado tras la reforma de 2026 y leyes.
 datos: {}
+portada: /blog/corona-cortes-generales-guardia-civil.jpg
+portada_alt: Opositor con una carpeta pasando ante el Congreso de los Diputados al amanecer
 ---
 El Título II (De la Corona, artículos 56 a 65) y el Título III (De las Cortes Generales, artículos 66 a 96) son terreno de **cifras y atribuciones**: cuántos diputados, cuántos senadores, quién refrenda qué, qué mayoría hace falta. **Respuesta corta:** el Rey es el Jefe del Estado, inviolable y sin responsabilidad, y sus actos los refrenda el Gobierno (o el Presidente del Congreso en tres casos); las Cortes son el Congreso (300 a 400 diputados) y el Senado (cuatro senadores por provincia más los designados por las Comunidades Autónomas), elegidos por cuatro años.
 

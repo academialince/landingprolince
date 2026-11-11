@@ -10,6 +10,8 @@ etiquetas: [derechos humanos, Declaración Universal, Convenio Europeo, temario]
 seo_title: Derechos Humanos: Declaración Universal y Convenio Europeo
 seo_description: Derechos Humanos para la Guardia Civil: Declaración Universal de 1948, Convenio Europeo, Tribunal de Estrasburgo y su relación con la Constitución.
 datos: {}
+portada: /blog/derechos-humanos-en-el-temario-declaracion-universal.jpg
+portada_alt: Opositora subrayando un texto legal mientras, al otro lado del cristal, una guardia civil atiende a una vecina
 ---
 Hoy, 10 de diciembre, se celebra el Día de los Derechos Humanos, en el aniversario de la Declaración Universal. El tema 1 del programa de la Escala de Cabos y Guardias se titula «Derechos Humanos» y es, más que un tema de memoria pura, un tema de **ubicar cada texto en su sitio**: quién lo aprobó, cuándo, qué contiene y qué órgano lo protege. **Respuesta corta:** la Declaración Universal de Derechos Humanos es de **Naciones Unidas** (París, 10 de diciembre de 1948, 30 artículos); el Convenio Europeo de Derechos Humanos es del **Consejo de Europa** (Roma, 4 de noviembre de 1950) y lo protege el **Tribunal Europeo de Derechos Humanos**, con sede en Estrasburgo.
 

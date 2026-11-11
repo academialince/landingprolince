@@ -10,6 +10,8 @@ etiquetas: [psicotécnico, razonamiento verbal, analogías, vocabulario]
 seo_title: Razonamiento verbal psicotécnico: tipos y ejemplos
 seo_description: Razonamiento verbal para el psicotécnico: sinónimos, antónimos, analogías e intrusos con ejemplos resueltos, ejercicios y cómo ganar vocabulario.
 datos: {}
+portada: /blog/razonamiento-verbal-psicotecnico-guardia-civil.jpg
+portada_alt: Opositora subrayando un libro en una biblioteca con luz de ventana
 ---
 El razonamiento verbal mide cómo manejas las palabras y las relaciones entre ellas: si captas matices de significado, si ves la lógica que une dos conceptos y si detectas lo que no encaja. La respuesta corta: los formatos más comunes (sinónimos, antónimos, analogías, palabra intrusa y completar frases) se resuelven con un **método de descarte** y mejoran mucho con **vocabulario y práctica cronometrada**.
 

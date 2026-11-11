@@ -10,6 +10,8 @@ etiquetas: [gramática, laísmo, leísmo, dequeísmo]
 seo_title: Laísmo, leísmo y dequeísmo: gramática Guardia Civil
 seo_description: Gramática para la oposición a Guardia Civil: leísmo, laísmo, loísmo, dequeísmo, queísmo, haber impersonal y otros errores, con trucos y ejercicio resuelto.
 datos: {}
+portada: /blog/gramatica-leismo-laismo-dequeismo-guardia-civil.jpg
+portada_alt: Opositora tomando apuntes en un aula con un análisis sintáctico en la pizarra
 ---
 La prueba de gramática consiste en **veinte frases o expresiones** de las que hay que señalar las que **no son correctas desde el punto de vista morfológico y/o sintáctico**, más cuatro de reserva que solo se valoran si el Tribunal anula alguna (base 6.1.1.b de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)). Es apto o no apto: con **seis respuestas erróneas o más** quedas excluido (base 7.5). Y, como en ortografía, es error tanto dejar sin marcar una frase incorrecta como **marcar una que está bien**.
 

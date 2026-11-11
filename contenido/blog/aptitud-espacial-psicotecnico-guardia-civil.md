@@ -10,6 +10,8 @@ etiquetas: [psicotécnico, aptitud espacial, cubos, figuras]
 seo_title: Aptitud espacial psicotécnico: cubos, giros y figuras
 seo_description: Aptitud espacial en el psicotécnico: reglas para resolver giros, desarrollos de cubos, conteo de bloques y papel doblado, con ejemplos resueltos.
 datos: {}
+portada: /blog/aptitud-espacial-psicotecnico-guardia-civil.jpg
+portada_alt: Manos doblando el desarrollo de un cubo de papel junto a cubos de madera
 ---
 La aptitud espacial es la parte del razonamiento que más gente da por perdida: «yo no tengo visión espacial». La respuesta corta: la mayoría de los ejercicios espaciales de práctica se resuelven con **reglas fijas de descarte**, no con intuición. Si sabes qué caras de un cubo son opuestas, cómo distinguir un giro de un reflejo y cómo contar bloques por columnas, puedes resolver muchos ejercicios sin «montar» nada en la cabeza.
 

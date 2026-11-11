@@ -189,7 +189,7 @@ Cuatro, con reglas especiales para las islas y para Ceuta y Melilla (dos cada un
 ### ¿Qué cambió en la Constitución en 2026?
 
 La Reforma de 19 de mayo de 2026 modificó el artículo 69.3 para que Ibiza y Formentera sean circunscripciones separadas en la elección de senadores. Se aplicará a partir de las primeras elecciones al Senado que se convoquen tras su entrada en vigor.',
-   NULL, NULL, 'publicado', '2026-12-08T06:44:00.000Z', 'acceso-guardia-civil',
+   '/blog/corona-cortes-generales-guardia-civil.jpg', 'Opositor con una carpeta pasando ante el Congreso de los Diputados al amanecer', 'publicado', '2026-12-08T06:44:00.000Z', 'acceso-guardia-civil',
    ARRAY['Constitución', 'Corona', 'Cortes Generales', 'Congreso', 'Senado']::text[], '{"title":"Corona y Cortes Generales: datos clave para el examen","description":"Corona (arts. 56-65) y Cortes Generales (arts. 66-96) de la Constitución: funciones del Rey, refrendo, Congreso, Senado tras la reforma de 2026 y leyes."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -369,7 +369,7 @@ Los de los artículos 17 (salvo el apartado 3), 18.2 y 18.3, 19, 20.1.a y d y 20
 ### ¿Puede un guardia civil afiliarse a un sindicato?
 
 El artículo 28.1 permite que la ley limite o excluya la sindicación de los Cuerpos sometidos a disciplina militar, como la Guardia Civil. Su régimen concreto de asociación profesional lo regula su legislación específica, que se estudia en otro tema.',
-   NULL, NULL, 'publicado', '2026-12-07T06:27:00.000Z', 'acceso-guardia-civil',
+   '/blog/derechos-fundamentales-libertades-publicas-guardia-civil.jpg', 'Opositora completando en la pared un gran esquema de colores de la Constitución', 'publicado', '2026-12-07T06:27:00.000Z', 'acceso-guardia-civil',
    ARRAY['Constitución', 'derechos fundamentales', 'Título I', 'garantías']::text[], '{"title":"Derechos fundamentales: artículos 14 a 29 explicados","description":"Derechos fundamentales y libertades públicas (arts. 14-29 CE): esquema del Título I, garantías del art. 53, suspensión del art. 55 y casos prácticos."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -593,7 +593,7 @@ No. Es incorrecto como impersonal («hubieron problemas»), pero correcto como a
 ### ¿«Debe de» es incorrecto?
 
 No, si expresa probabilidad: «Debe de estar en casa». Lo que se desaconseja es usarlo con sentido de obligación.',
-   NULL, NULL, 'publicado', '2026-12-05T06:53:00.000Z', 'acceso-guardia-civil',
+   '/blog/gramatica-leismo-laismo-dequeismo-guardia-civil.jpg', 'Opositora tomando apuntes en un aula con un análisis sintáctico en la pizarra', 'publicado', '2026-12-05T06:53:00.000Z', 'acceso-guardia-civil',
    ARRAY['gramática', 'laísmo', 'leísmo', 'dequeísmo']::text[], '{"title":"Laísmo, leísmo y dequeísmo: gramática Guardia Civil","description":"Gramática para la oposición a Guardia Civil: leísmo, laísmo, loísmo, dequeísmo, queísmo, haber impersonal y otros errores, con trucos y ejercicio resuelto."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -795,7 +795,7 @@ Cuando lo que se contrapone lleva verbo conjugado: «No lo leyó, sino que lo me
 ### ¿Cuántos errores se permiten?
 
 Hasta cinco. Con seis o más respuestas erróneas quedas excluido.',
-   NULL, NULL, 'publicado', '2026-12-04T06:36:00.000Z', 'acceso-guardia-civil',
+   '/blog/homofonos-ortografia-guardia-civil.jpg', 'Mano colocando fichas con parejas de palabras en dos columnas sobre una mesa de madera', 'publicado', '2026-12-04T06:36:00.000Z', 'acceso-guardia-civil',
    ARRAY['ortografía', 'homófonos', 'porque', 'haber']::text[], '{"title":"Homófonos: haber/a ver, echo/hecho, porque y sino","description":"Homófonos de la prueba de ortografía de la Guardia Civil: haber/a ver, echo/hecho, porque/por qué, sino/si no, asimismo y más, con trucos y ejercicio."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1017,7 +1017,7 @@ Porque se escriben con h las palabras que empiezan por el diptongo *ue-*. Cuando
 ### ¿Cuántos errores se permiten en ortografía?
 
 Hasta cinco. Con seis o más respuestas erróneas quedas excluido del proceso.',
-   NULL, NULL, 'publicado', '2026-12-03T06:19:00.000Z', 'acceso-guardia-civil',
+   '/blog/palabras-trampa-ortografia-guardia-civil.jpg', 'Opositora subrayando palabras corregidas en una libreta junto a un diccionario', 'publicado', '2026-12-03T06:19:00.000Z', 'acceso-guardia-civil',
    ARRAY['ortografía', 'b/v', 'g/j', 'h', 'palabras']::text[], '{"title":"B/V, G/J y H: palabras trampa de ortografía Guardia Civil","description":"Reglas de B/V, G/J y H con excepciones, palabras trampa y parejas que se confunden en la prueba de ortografía de la Guardia Civil, con ejercicio."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1280,7 +1280,7 @@ Sí. Con cuatro opciones, cada error resta un tercio de acierto; las preguntas e
 ### ¿Cuántas veces se ha reformado la Constitución?
 
 Cuatro: en 1992 (art. 13.2), 2011 (art. 135), 2024 (art. 49) y 2026 (art. 69.3, que separa Ibiza y Formentera como circunscripciones para el Senado).',
-   NULL, NULL, 'publicado', '2026-12-06T06:10:00.000Z', 'acceso-guardia-civil',
+   '/blog/test-constitucion-20-preguntas-guardia-civil.jpg', 'Ejemplar de la Constitución Española junto a un test a medio rellenar y una bandera de España', 'publicado', '2026-12-06T06:10:00.000Z', 'acceso-guardia-civil',
    ARRAY['Constitución', 'test', 'derecho constitucional', 'repaso']::text[], '{"title":"Test de la Constitución: 20 preguntas con respuestas","description":"Test de 20 preguntas de la Constitución Española para opositores a Guardia Civil, con respuestas explicadas, artículos y cálculo de nota con penalización."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1478,7 +1478,7 @@ No. Desde la Ortografía de 2010 se considera monosílabo a efectos de tilde, ig
 ### ¿La «o» entre números lleva tilde?
 
 No. Desde 2010 se escribe sin tilde: «3 o 4».',
-   NULL, NULL, 'publicado', '2026-12-02T06:02:00.000Z', 'acceso-guardia-civil',
+   '/blog/tildes-reglas-oposicion-guardia-civil.jpg', 'Hoja de examen con palabras subrayadas y un bolígrafo negro', 'publicado', '2026-12-02T06:02:00.000Z', 'acceso-guardia-civil',
    ARRAY['ortografía', 'tildes', 'acentuación', 'examen']::text[], '{"title":"Tildes en la oposición a Guardia Civil: reglas y ejercicios","description":"Reglas de acentuación para la prueba de ortografía de la Guardia Civil: agudas, llanas, hiatos, tilde diacrítica, solo y aún, con ejercicio resuelto."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

@@ -10,6 +10,8 @@ etiquetas: [ortografía, tildes, acentuación, examen]
 seo_title: Tildes en la oposición a Guardia Civil: reglas y ejercicios
 seo_description: Reglas de acentuación para la prueba de ortografía de la Guardia Civil: agudas, llanas, hiatos, tilde diacrítica, solo y aún, con ejercicio resuelto.
 datos: {}
+portada: /blog/tildes-reglas-oposicion-guardia-civil.jpg
+portada_alt: Hoja de examen con palabras subrayadas y un bolígrafo negro
 ---
 La prueba de ortografía no suma puntos: es **apto o no apto**. Pero con **seis o más respuestas erróneas** quedas excluido del proceso (base 7.4 de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)). **Respuesta corta:** casi todos los fallos de tildes se evitan con cuatro bloques bien aprendidos: las reglas generales, los hiatos, la tilde diacrítica y los interrogativos. Aquí los tienes con ejemplos y un ejercicio resuelto.
 

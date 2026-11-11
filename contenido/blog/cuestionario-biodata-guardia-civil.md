@@ -10,6 +10,8 @@ etiquetas: [entrevista, BIODATA, vida laboral, documentación]
 seo_title: Cuestionario BIODATA Guardia Civil: qué es y cómo rellenarlo
 seo_description: BIODATA de la Guardia Civil: qué es el cuestionario biográfico previo a la entrevista, qué documentos llevar y cómo rellenarlo con coherencia y sin errores.
 datos: {}
+portada: /blog/cuestionario-biodata-guardia-civil.jpg
+portada_alt: Aspirante esperando con una carpeta en el pasillo de un edificio oficial
 ---
 Quien llega a la entrevista personal se encuentra antes con un cuestionario sobre su propia vida: estudios, trabajos, entorno, aficiones. Es el **BIODATA**. La respuesta corta: **no puntúa**, pero sirve de **apoyo para la entrevista**, y el mismo día de la citación tienes que aportar tu **informe de vida laboral** (y, si eres militar, la **Hoja General de Servicios**). Rellenarlo con exactitud y coherencia es fácil si has preparado antes tu propia cronología.
 

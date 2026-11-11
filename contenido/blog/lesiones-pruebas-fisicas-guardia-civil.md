@@ -10,6 +10,8 @@ etiquetas: [pruebas físicas, lesiones, prevención, entrenamiento]
 seo_title: Lesiones al preparar las pruebas físicas de Guardia Civil
 seo_description: Cómo evitar lesiones al preparar las pruebas físicas de la Guardia Civil: progresión, calentamiento, señales de alarma y qué dicen las bases.
 datos: {}
+portada: /blog/lesiones-pruebas-fisicas-guardia-civil.jpg
+portada_alt: Fisioterapeuta examinando el tobillo de una aspirante en una camilla
 ---
 Muchos aspirantes no se quedan fuera de las físicas por falta de forma, sino por **llegar lesionados**. La respuesta corta: la mayoría de las molestias de los opositores vienen de **subir la carga demasiado deprisa, descansar poco y repetir un gesto con mala técnica**, y se previenen con progresión, calentamiento, fuerza y paciencia. Y si te lesionas con el proceso en marcha, ten claro algo importante: la convocatoria **no prevé una fecha alternativa general por lesión**.
 

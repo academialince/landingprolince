@@ -10,6 +10,8 @@ etiquetas: [repaso, planificación, simulacros, examen]
 seo_title: Plan de repaso de los últimos 3 meses antes del examen
 seo_description: Plan de repaso de 13 semanas antes del examen de Guardia Civil: temario, simulacros, cuaderno de errores, inglés, psicotécnico, físicas y última semana.
 datos: {}
+portada: /blog/plan-de-repaso-para-los-ultimos-tres-meses-antes-del-examen.jpg
+portada_alt: Opositor repasando fichas ante una pared con un calendario de tres meses y esquemas
 ---
 
 Los últimos tres meses no sirven para aprender todo de cero, sino para **consolidar lo que sabes, corregir lo que fallas y ensayar el examen**. Un buen plan pasa de «ver temas» a «recuperarlos y aplicarlos», y mide cada semana si va por buen camino.

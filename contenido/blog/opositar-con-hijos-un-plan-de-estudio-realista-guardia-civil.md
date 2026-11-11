@@ -10,6 +10,8 @@ etiquetas: [conciliación, hijos, planificación, organización]
 seo_title: Opositar con hijos: plan de estudio realista
 seo_description: Cómo preparar la oposición a Guardia Civil con hijos: auditar tu tiempo, bloques cortos, reparto del cuidado, simulacros de 140 minutos y semana tipo.
 datos: {}
+portada: /blog/opositar-con-hijos-un-plan-de-estudio-realista-guardia-civil.jpg
+portada_alt: Madre estudiando en la mesa de la cocina mientras su hija dibuja a su lado
 ---
 
 Opositar con hijos pequeños, o con adolescentes que también necesitan tiempo y atención, obliga a cambiar el enfoque: **el plan que funciona no es el de las ocho horas seguidas, sino el que cabe en tu día real**. Y tu día real tiene interrupciones, imprevistos y noches cortas.
