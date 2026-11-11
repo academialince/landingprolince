@@ -3,13 +3,15 @@ titulo: Recursos oficiales gratuitos para preparar la Guardia Civil
 slug: recursos-oficiales-gratuitos-para-preparar-la-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-19T07:38:00+01:00
+publicado_en: 2027-01-10T07:05:00+01:00
 curso: acceso-guardia-civil
 entradilla: Convocatoria, temario oficial, cuestionarios y plantillas de exámenes reales, textos legales consolidados y cartografía: lo que la Guardia Civil y otras fuentes públicas ofrecen gratis, dónde está y cómo usarlo en tu semana de estudio.
 etiquetas: [recursos gratuitos, convocatoria, temario oficial, exámenes oficiales]
 seo_title: Recursos oficiales gratis Guardia Civil: dónde están
 seo_description: Qué publican gratis la Guardia Civil y el BOE para opositores: convocatoria, temario, exámenes con plantillas, leyes consolidadas y mapas, con enlaces.
 datos: {}
+portada: /blog/recursos-oficiales-gratuitos-para-preparar-la-guardia-civil.jpg
+portada_alt: Aspirante subrayando una convocatoria impresa en una biblioteca, con un portátil y documentos apilados
 ---
 Antes de pagar nada, conviene saber qué te da gratis la propia Administración. **Respuesta corta:** la convocatoria, el temario oficial, cuestionarios de exámenes reales con sus plantillas de respuestas (al menos los de 2026), los textos legales consolidados del BOE, los modelos de certificados y fuentes públicas para temas concretos como topografía o ciberseguridad. Lo que no encontrarás es temario explicado ni baterías oficiales de psicotécnicos. Esto es lo que hemos comprobado.
 

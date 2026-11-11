@@ -3,13 +3,15 @@ titulo: Convocatoria Guardia Civil 2027: qué se sabe y cómo seguirla
 slug: convocatoria-guardia-civil-2027-que-se-sabe-y-cuando-saldra
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-04T07:10:00+01:00
+publicado_en: 2027-01-28T07:11:00+01:00
 curso: acceso-guardia-civil
 entradilla: De la convocatoria de 2027 no había nada oficial al preparar este artículo. Repasamos las fechas verificadas en el BOE de las cuatro últimas convocatorias, qué se ha mantenido estable y cómo seguir el proceso sin rumores.
 etiquetas: [convocatoria 2027, BOE, calendario, plazas]
 seo_title: Convocatoria Guardia Civil 2027: qué se sabe oficial
 seo_description: Convocatoria Guardia Civil 2027: qué hay de oficial, fechas del BOE de las convocatorias de 2023 a 2026, qué se ha repetido y dónde seguirla sin rumores.
 datos: {}
+portada: /blog/convocatoria-guardia-civil-2027-que-se-sabe-y-cuando-saldra.jpg
+portada_alt: Opositor mirando el móvil con gesto impaciente ante un calendario de pared sin marcar y apuntes subrayados
 ---
 **Respuesta corta:** de la convocatoria de 2027 no había, en noviembre de 2026, cuando se preparó este artículo, **nada oficial**: ni oferta de empleo público ni resolución de convocatoria. Cualquier fecha que veas anunciada sin una norma detrás es una suposición. Lo que sí podemos darte son las fechas reales de las convocatorias anteriores y los elementos que se han repetido en todas, para que sepas cómo funciona el calendario sin que nadie te prometa un día.
 

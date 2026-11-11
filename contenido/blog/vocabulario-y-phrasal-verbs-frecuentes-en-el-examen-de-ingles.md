@@ -3,13 +3,15 @@ titulo: "Vocabulario y phrasal verbs útiles para el examen de inglés"
 slug: vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-25T07:20:00+01:00
+publicado_en: 2027-01-19T07:38:00+01:00
 curso: acceso-guardia-civil
 entradilla: Con 20 preguntas de nivel ESO no hace falta un vocabulario enorme, sino el cotidiano bien asentado. Phrasal verbs comunes, verbos con preposición, pares que se confunden, un método para memorizar y un test resuelto.
 etiquetas: [inglés, vocabulario, phrasal verbs, examen]
 seo_title: Phrasal verbs y vocabulario: inglés de la Guardia Civil
 seo_description: Phrasal verbs, preposiciones y vocabulario cotidiano para el inglés de la Guardia Civil: tablas con ejemplos, pares que se confunden y test resuelto.
 datos: {}
+portada: /blog/vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles.jpg
+portada_alt: Opositora de espaldas colocando una ficha en una pared llena de fichas de colores, con un diccionario y un café
 ---
 **Respuesta corta:** la prueba es de nivel compatible con la ESO, así que lo rentable es dominar el vocabulario de uso diario, los *phrasal verbs* más comunes y las preposiciones que acompañan a verbos y adjetivos, no listas de palabras raras. Memoriza en contexto, con frases, y repasa a menudo.
 

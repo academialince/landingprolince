@@ -3,13 +3,15 @@ titulo: Cómo leer un enunciado tipo test para reducir los errores de lectura
 slug: como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-31T07:02:00+01:00
+publicado_en: 2027-01-25T07:20:00+01:00
 curso: acceso-guardia-civil
 entradilla: Muchos fallos del test no son de temario, sino de lectura: un «excepto» pasado por alto, una doble negación o una opción más completa que otra. Un método de lectura en cinco pasos, ejemplos propios resueltos y cómo entrenarlo en tus simulacros.
 etiquetas: [test, técnica de examen, lectura, penalización]
 seo_title: Cómo leer un enunciado tipo test: método en 5 pasos
 seo_description: Cómo leer los enunciados del test de Guardia Civil: absolutos, dobles negaciones, «excepto», la opción más completa y la gestión del tiempo. Con ejemplos.
 datos: {}
+portada: /blog/como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas.jpg
+portada_alt: Opositora subrayando con atención una línea de un cuestionario tipo test junto a una pila de libros
 ---
 
 Hay preguntas que fallas aunque sepas la respuesta. Lees deprisa, marcas la primera opción que suena bien y, al corregir, ves que el enunciado pedía **lo contrario**. Ese error es el más barato de corregir, porque no depende de cuánto temario sabes, sino de cómo lees.

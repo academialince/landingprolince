@@ -3,7 +3,7 @@ titulo: Carrera de 2.000 metros en la Guardia Civil: plan para bajar tu marca
 slug: carrera-2000-metros-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-15T07:13:00+01:00
+publicado_en: 2026-11-13T07:39:00+01:00
 curso: acceso-guardia-civil
 entradilla: La carrera de 2.000 metros se hace con un solo intento: la superas o te quedas fuera. Las marcas oficiales por sexo y edad, los ritmos por vuelta, un plan orientativo de ocho semanas y cómo correr el día de la prueba.
 etiquetas: [pruebas físicas, carrera, 2000 metros, entrenamiento]

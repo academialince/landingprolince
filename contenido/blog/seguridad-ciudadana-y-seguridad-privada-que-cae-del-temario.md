@@ -3,7 +3,7 @@ titulo: Seguridad ciudadana y seguridad privada: qué entra en el temario
 slug: seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-20T07:08:00+01:00
+publicado_en: 2026-12-17T07:17:00+01:00
 curso: acceso-guardia-civil
 entradilla: La LO 4/2015 de seguridad ciudadana y la Ley 5/2014 de seguridad privada, ordenadas por capítulos y títulos: DNI, identificación en seis horas, registros, multas y plazos, actividades y personal de seguridad privada, con caso práctico y test.
 etiquetas: [seguridad ciudadana, seguridad privada, LO 4/2015, Ley 5/2014, temario]

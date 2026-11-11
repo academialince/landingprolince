@@ -10,6 +10,8 @@ etiquetas: [plan de estudio, año nuevo, planificación, convocatoria]
 seo_title: Propósito 2027 Guardia Civil: plan de estudio mes a mes
 seo_description: Plan orientativo mes a mes para preparar la Guardia Civil en 2027: temas por mes, simulacros, físicas y trámites, sin prometer fechas de convocatoria.
 datos: {}
+portada: /blog/proposito-2027-entrar-en-la-guardia-civil-plan-mes-a-mes.jpg
+portada_alt: Aspirante de espaldas colocando una nota adhesiva en un calendario de pared lleno de marcas de colores, con unas zapatillas y el temario en la mesa
 ---
 **Respuesta corta:** «aprobar la oposición» no es un propósito, es un resultado. Un propósito útil es un plan con fases: qué temas cierras cada mes, cuándo empiezan los simulacros y qué haces en cuanto salga la convocatoria. Aquí tienes uno orientativo, pensado para alguien que empieza en enero con unas **25-30 horas semanales de estudio** y tres o cuatro sesiones de entrenamiento a la semana. Si tienes más o menos tiempo, el esquema es el mismo: cambia el ritmo.
 

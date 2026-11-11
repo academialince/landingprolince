@@ -3,7 +3,7 @@ titulo: Guardia Civil o Policía Nacional: diferencias para elegir oposición
 slug: guardia-civil-o-policia-nacional
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-18T07:04:00+01:00
+publicado_en: 2026-11-24T07:46:00+01:00
 curso: acceso-guardia-civil
 entradilla: Requisitos, examen, pruebas físicas, cuadro médico y formación de las dos oposiciones, comparados con las convocatorias de 2026 en la mano. Qué cambia de verdad, ejemplos de puntuación y preguntas para elegir.
 etiquetas: [policía nacional, comparativa, requisitos, convocatoria]

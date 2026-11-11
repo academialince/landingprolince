@@ -3,13 +3,15 @@ titulo: "Derechos, deberes y régimen disciplinario del guardia civil"
 slug: derechos-deberes-y-regimen-disciplinario-del-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-06T07:57:00+01:00
+publicado_en: 2027-01-05T07:40:00+01:00
 curso: acceso-guardia-civil
 entradilla: Dos leyes orgánicas de 2007 marcan qué puede y qué no puede hacer un guardia civil: la LO 11/2007, de derechos y deberes, y la LO 12/2007, de régimen disciplinario. Un mapa de ambas con sus límites, faltas, sanciones, plazos y un test resuelto.
 etiquetas: [derechos y deberes, régimen disciplinario, temario, normativa]
 seo_title: Derechos y deberes del guardia civil: LO 11/2007 y 12/2007
 seo_description: LO 11/2007 de derechos y deberes y LO 12/2007 de régimen disciplinario de la Guardia Civil: límites, faltas, sanciones, prescripción y test resuelto.
 datos: {}
+portada: /blog/derechos-deberes-y-regimen-disciplinario-del-guardia-civil.jpg
+portada_alt: Guardia civil de espaldas leyendo un libro de legislación con marcapáginas de colores en una sala de estudio
 ---
 **Respuesta corta:** la Ley Orgánica 11/2007 regula los derechos y deberes de los miembros de la Guardia Civil, y la Ley Orgánica 12/2007, su régimen disciplinario, con tres clases de faltas (muy graves, graves y leves) y sus sanciones. El guardia civil conserva sus derechos fundamentales, con límites propios de un Instituto Armado de naturaleza militar: no puede sindicarse ni hacer huelga, no tiene sufragio pasivo en los términos de la ley electoral y debe mantener neutralidad política y sindical.
 

@@ -138,7 +138,7 @@ Lleva el temario o tus esquemas en el móvil o en una tableta y reserva esos dí
 ### ¿Debo hacer un simulacro completo estas semanas?
 
 Puede ser una buena idea si tienes una mañana tranquila, porque te da una foto de cómo vas antes de enero. Hazlo en condiciones reales, con tiempo y penalización, y dedica después el mismo esfuerzo a corregirlo.',
-   NULL, NULL, 'publicado', '2026-12-23T06:59:00.000Z', 'acceso-guardia-civil',
+   '/blog/como-estudiar-la-oposicion-en-navidad-sin-perder-el-ritmo.jpg', 'Opositora estudiando con apuntes subrayados junto a un árbol de Navidad y una taza humeante', 'publicado', '2026-12-23T06:59:00.000Z', 'acceso-guardia-civil',
    ARRAY['organización', 'navidad', 'planificación', 'constancia']::text[], '{"title":"Estudiar la oposición en Navidad: plan realista","description":"Estudiar la oposición de Guardia Civil en Navidad: mínimo diario, tipos de día, plan de dos semanas, test y descanso para llegar a enero con ritmo."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -149,153 +149,137 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('deontologia-profesional-el-codigo-de-conducta-que-entra', 'articulo', 'Deontología profesional en la Guardia Civil: el Código de Conducta (RD 176/2022)', 'El tema 19 junta los Principios Básicos de la ONU sobre el empleo de la fuerza (La Habana, 1990) y el Código de Conducta de la Guardia Civil (RD 176/2022). Estructura, artículos clave, Decálogo, comparación entre textos, caso práctico y test.', 'En el programa de la Escala de Cabos y Guardias, el tema 19, «Deontología profesional», tiene dos bloques: los **Principios Básicos sobre el Empleo de la Fuerza y de Armas de Fuego por los Funcionarios Encargados de Hacer Cumplir la Ley**, adoptados por el Octavo Congreso de las Naciones Unidas sobre Prevención del Delito y Tratamiento del Delincuente (La Habana, del 27 de agosto al 7 de septiembre de 1990), y el **Real Decreto 176/2022, de 4 de marzo, por el que se aprueba el Código de Conducta del personal de la Guardia Civil** (consulta el [temario](/temario-guardia-civil)).
+  ('extranjeria-e-inmigracion-lo-basico-que-pregunta-el-examen', 'articulo', 'Extranjería e inmigración: lo básico que conviene dominar', 'Estructura de la Ley Orgánica 4/2000, derechos de los extranjeros, entrada, estancia y residencia, infracciones, expulsión, devolución e internamiento, y el régimen de los ciudadanos de la UE del Real Decreto 240/2007. Plazos comprobados en el BOE y test propio.', 'El tema 12 del programa, «Extranjería e inmigración», se centra en la Ley Orgánica 4/2000, sobre derechos y libertades de los extranjeros en España y su integración social ([BOE-A-2000-544](https://www.boe.es/buscar/act.php?id=BOE-A-2000-544)), y en el régimen de los ciudadanos de la Unión Europea. **Respuesta corta:** según nuestro [temario](/temario-guardia-civil), entran la **LO 4/2000 completa** y el **Real Decreto 240/2007**, de entrada, libre circulación y residencia de ciudadanos de la UE y del Espacio Económico Europeo ([BOE-A-2007-4184](https://www.boe.es/buscar/act.php?id=BOE-A-2007-4184)).
 
-**Respuesta corta:** el texto nacional que debes estudiar es el **Código de Conducta** ([BOE-A-2022-3477](https://www.boe.es/buscar/act.php?id=BOE-A-2022-3477)): un real decreto de **seis artículos** que aprueba un Código de **dos títulos y 50 artículos**, más un **Decálogo** en anexo. El texto internacional son **26 principios** de la ONU agrupados en seis apartados.
+Una precisión de vigencia: el reglamento de desarrollo de la LO 4/2000 es hoy el Real Decreto 1155/2024 ([BOE-A-2024-24099](https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099)), en vigor desde el **20 de mayo de 2025** y modificado por el Real Decreto 316/2026, de 14 de abril. El alcance publicado del programa no lo menciona; consulta la convocatoria vigente para saber qué normas reglamentarias te piden.
 
-## Qué no entra en el tema 19
+## Estructura de la LO 4/2000
 
-La LO 11/2007 (derechos y deberes) y la Ley 29/2014 (régimen del personal) pertenecen al **tema 15**, junto con la [LO 2/1986](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada) y la [historia del Cuerpo](/blog/historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy). Tampoco figura en el tema el Código de Conducta de la ONU para funcionarios encargados de hacer cumplir la ley (1979), aunque el preámbulo del RD 176/2022 lo cita como inspiración. Aun así, conviene saber que el Código de Conducta se dicta para cumplir el mandato del artículo 7 de la Ley 29/2014 y que su preámbulo enlaza con el artículo 5 de la LO 2/1986.
-
-## El Real Decreto 176/2022
-
-Aprobado el 4 de marzo de 2022 y publicado en el BOE del 5 de marzo, entró en vigor **a los veinte días de su publicación**, el 25 de marzo de 2022, a propuesta conjunta de los ministros del Interior y de Defensa. Su parte dispositiva:
-
-| Artículo | Contenido |
-|---|---|
-| 1 | Objeto: aprobar el Código de Conducta |
-| 2 | El Código es la guía de valores, principios y normas; el Decálogo compendia las virtudes fundamentales |
-| 3 | Se aplica al personal sujeto al régimen de derechos y deberes del Cuerpo y al **alumnado de los centros de formación** de las escalas de Oficiales y de Cabos y Guardias |
-| 4 | Se incorpora a los planes de estudios y los mandos velan por que se conozca |
-| 5 | Los **procesos selectivos de acceso directo** contemplarán su contenido en sus convocatorias y en su desarrollo |
-| 6 | Servirá de referencia a las asociaciones profesionales para fomentar la deontología (art. 36 de la LO 11/2007) |
-
-Su **disposición adicional única** declara aplicables al personal de la Guardia Civil las Reales Ordenanzas para las Fuerzas Armadas (RD 96/2009), aunque los capítulos I, II, III y V de su título IV solo rigen en conflicto bélico, estado de sitio, misiones militares o integración en unidades militares.
-
-El preámbulo aclara que «Código» no se usa en el sentido de reglamento, sino como compilación de valores, y lo califica de «código ético»: su eficacia depende de que cada guardia civil lo asuma como propio.
-
-## Estructura del Código
-
-| Parte | Artículos | Contenido |
+| Título | Contenido | Artículos |
 |---|---|---|
-| Título I, capítulo I: valores fundamentales | 1 a 9 | Honor, integridad, lealtad, valor, sentido de la justicia, imparcialidad y neutralidad, responsabilidad, dignidad y espíritu de sacrificio |
-| Título I, capítulo II: principios institucionales | 10 a 23 | Defensa de la Constitución; derechos fundamentales; igualdad y no discriminación; neutralidad ideológica y política; jerarquía; disciplina; subordinación; pluralidad cultural; formación; cooperación; prestigio; espíritu benemérito; espíritu de Cuerpo y compañerismo; historia y tradiciones |
-| Título II, capítulo I: normas generales | 24 a 32 | Disponibilidad permanente; serenidad, prudencia y firmeza; eficacia; reserva; uniforme; sostenibilidad; igualdad, diversidad y conciliación; saludo militar; salud |
-| Título II, capítulo II: normas en el servicio | 33 a 50 | Ciudadanía; autoridades civiles; Justicia; otros cuerpos; Fuerzas Armadas; transparencia; identificación; prevención de riesgos; mando; liderazgo; empleo de la fuerza; víctimas; detenidos; investigaciones; misiones militares y en el exterior; funciones docentes y técnicas |
-| Anexo | — | Decálogo |
+| Preliminar | Disposiciones generales: concepto de extranjero, exclusiones, política inmigratoria e integración | 1 a 2 ter |
+| I | Derechos y libertades de los extranjeros, reagrupación familiar y garantías | 3 a 24 |
+| II | Régimen jurídico: entrada y salida, situaciones (estancia y residencia), trabajo | 25 a 49 |
+| III | Infracciones en materia de extranjería y régimen sancionador | 50 a 66 |
+| IV | Coordinación de los poderes públicos en materia de inmigración | 67 a 72 |
 
-Truco para memorizar los nueve valores del capítulo I: empiezan por **honor** (art. 1) y terminan por **espíritu de sacrificio** (art. 9).
+**Quién es extranjero (art. 1):** quien carezca de la nacionalidad española. Los ciudadanos de la UE y quienes estén en régimen comunitario se rigen por sus normas propias, y la LO 4/2000 solo se les aplica en lo que les sea más favorable (art. 1.3).
 
-## Los preceptos que conviene leer despacio
+## Derechos: la idea central
 
-- **Art. 1, honor**: «ha de ser la principal divisa» de los hombres y mujeres de la Guardia Civil.
-- **Art. 2, integridad**: no aceptar ofrecimientos, favores o regalos que puedan comprometer su honestidad.
-- **Art. 16.2, subordinación**: ante órdenes que entrañen actos que **manifiestamente** constituyan delito o sean contrarios a la Constitución o a las leyes, **se abstendrán de obedecerlas** y comunicarán su contenido y su emisor, por el medio más rápido y eficaz, a la autoridad superior.
-- **Art. 22.2**: un compañerismo mal entendido nunca puede dar cabida al **encubrimiento** de conductas ilegales.
-- **Art. 27, reserva**: deber de reserva (sigilo) y deber de secreto; prudencia al difundir contenidos en redes que puedan parecer oficiales.
-- **Art. 39, identificación**: obligación de identificarse cuando lo pidan autoridades o ciudadanos, salvo que ello ponga en peligro la misión o la seguridad.
-- **Art. 41.3, mando**: ningún mando puede ordenar actos contrarios a la Constitución, a las leyes o que constituyan delito.
-- **Art. 43, empleo de la fuerza**: «la persuasión y la fuerza moral serán sus primeras armas»; la fuerza, solo si no hay un modo menos lesivo y de forma **gradual**, con **congruencia, oportunidad y proporcionalidad**; las armas de fuego, solo ante un **riesgo racionalmente grave** para la vida o la integridad propias o de terceros, o un grave riesgo para la seguridad ciudadana.
-- **Art. 44**: trato respetuoso a víctimas y testigos y **especial sensibilidad** con las víctimas de violencia de género y las personas vulnerables.
-- **Art. 45**: detener de la forma más respetuosa con la reputación, la imagen y la dignidad, sin vejación, maltrato ni injuria. Relaciónalo con [detención y habeas corpus](/blog/detencion-y-habeas-corpus-los-plazos-que-caen-siempre).
+Los extranjeros gozan en España de los derechos del Título I de la Constitución en los términos de los tratados, de esta ley y de las que regulen cada derecho; como criterio interpretativo general, se entiende que los ejercen **en condiciones de igualdad con los españoles** (art. 3). Es el desarrollo del artículo 13 de la Constitución, que repasamos en [derechos fundamentales y libertades públicas](/blog/derechos-fundamentales-libertades-publicas-guardia-civil).
 
-## El Decálogo
+- **Documentación (art. 4):** tienen el derecho y el deber de conservar la que acredite su identidad y su situación en España. Quien obtenga un visado o una autorización para permanecer **más de seis meses** recibe la **tarjeta de identidad de extranjero**, que debe solicitar **personalmente en un mes** desde la entrada o la concesión. No pueden ser privados de su documentación salvo en los supuestos legales.
+- **Participación pública (art. 6):** los extranjeros residentes pueden ser titulares del derecho de sufragio en las **elecciones municipales**, en los términos de la Constitución, los tratados y la ley; y los empadronados tienen los derechos que da la legislación local.
+- Reunión, asociación, educación, trabajo y Seguridad Social, sindicación, asistencia sanitaria, vivienda, tutela judicial o asistencia jurídica gratuita se regulan uno a uno (arts. 7 a 22): haz una tabla con cada derecho y si se exige residencia o no.
 
-| N.º | Virtud | Idea |
+## Entrada, estancia y residencia
+
+| Figura | Regla | Artículo |
 |---|---|---|
-| 1.º | Honor | «Una vez perdido, no se recobra jamás» |
-| 2.º | Defensa de España y de la Constitución | Con lealtad al Rey |
-| 3.º | Dignidad | Como exigen el Cuerpo y el uniforme |
-| 4.º | Respeto a los derechos y libertades | Consideración hacia la vida y la dignidad |
-| 5.º | Integridad | El deber cumplido como mayor recompensa |
-| 6.º | Vocación de servicio | Valor, decisión, iniciativa y sacrificio |
-| 7.º | Espíritu benemérito | Ayudar, en especial a los más vulnerables |
-| 8.º | Lealtad y espíritu de cuerpo | Fidelidad a valores y tradiciones |
-| 9.º | Disciplina | Obedecer con lealtad y responsabilidad |
-| 10.º | Serenidad y empleo de la fuerza | «Prudente sin debilidad y firme sin violencia» |
+| **Entrada** | Por puestos habilitados, con pasaporte o documento de viaje válido, sin prohibiciones expresas, justificando objeto y condiciones de la estancia y medios de vida. Además, **visado**, salvo convenios o normativa de la UE. No se aplica a quien pide asilo al entrar | 25 |
+| **Estancia** | Permanencia **no superior a 90 días**; después, prórroga de estancia o autorización de residencia | 30 |
+| **Residencia temporal** | Más de **90 días** y menos de **cinco años**; sin antecedentes penales | 31 |
+| **Residencia y trabajo** | Los **mayores de dieciséis años** necesitan autorización previa para residir y trabajar; la de trabajo se concede junto con la de residencia | 36 |
 
-## Los Principios Básicos de la ONU (1990)
+## Infracciones y sanciones (Título III)
 
-| Apartado | Principios |
-|---|---|
-| Disposiciones generales | 1 a 8 |
-| Disposiciones especiales | 9 a 11 |
-| Actuación en caso de reuniones ilícitas | 12 a 14 |
-| Vigilancia de personas bajo custodia o detenidas | 15 a 17 |
-| Calificaciones, capacitación y asesoramiento | 18 a 21 |
-| Procedimientos de presentación de informes y recursos | 22 a 26 |
+| Clase | Ejemplos | Multa (art. 55) |
+|---|---|---|
+| **Leves** (art. 52) | No comunicar o comunicar con retraso cambios de nacionalidad, estado civil o domicilio; retrasar hasta tres meses la renovación de una autorización caducada | Hasta **500 €** |
+| **Graves** (art. 53) | Estancia irregular por no tener prórroga o autorización (o tenerla caducada más de tres meses sin pedir renovación); trabajar sin autorización ni residencia válida | De **501 a 10.000 €** |
+| **Muy graves** (art. 54) | Actividades contra la seguridad nacional o el orden público muy graves; favorecer con ánimo de lucro la inmigración clandestina; contratar trabajadores sin autorización | De **10.001 a 100.000 €** (con excepciones para transportistas) |
 
-Los que más conviene dominar:
+## Expulsión, devolución e internamiento
 
-- **Principio 4**: medios no violentos, en la medida de lo posible, antes de recurrir a la fuerza o a las armas de fuego.
-- **Principio 5**: cuando el uso de armas sea inevitable, moderación y proporción, reducir daños, asistencia médica lo antes posible y aviso a parientes o amigos íntimos.
-- **Principio 8**: ninguna situación excepcional, como la inestabilidad política, justifica quebrantarlos.
-- **Principio 9**: armas de fuego contra personas solo en defensa propia o de otros ante peligro inminente de muerte o lesiones graves, para evitar un delito particularmente grave que entrañe seria amenaza para la vida, o para detener o impedir la fuga de quien represente ese peligro, y solo si no bastan medidas menos extremas. **El uso intencional de armas letales, solo cuando sea estrictamente inevitable para proteger una vida.**
-- **Principio 10**: identificarse y advertir claramente de la intención de disparar, salvo que el aviso ponga en peligro a los agentes o a terceros o resulte evidentemente inútil.
-- **Principios 13 y 14**: reuniones ilícitas no violentas, evitar la fuerza o reducirla al mínimo; reuniones violentas, armas de fuego solo en los supuestos del principio 9.
-- **Principio 26**: no cabe alegar obediencia a órdenes superiores manifiestamente ilícitas que causen muerte o heridas graves si hubo oportunidad razonable de negarse; también responden los superiores que las dieron.
+| Figura | Qué recoge | Artículo |
+|---|---|---|
+| **Expulsión** | Puede imponerse **en lugar de la multa** en infracciones muy graves y en ciertas graves del artículo 53.1, previo expediente; también por condena por conducta dolosa castigada con **pena privativa de libertad superior a un año**, salvo antecedentes cancelados. **Nunca** se imponen juntas expulsión y multa | 57 |
+| **Prohibición de entrada** | Acompaña a la expulsión; máximo **cinco años**, excepcionalmente **diez** si hay amenaza grave para el orden público, la seguridad pública o nacional o la salud pública | 58.1 y 2 |
+| **Devolución** | **Sin expediente de expulsión**: a quien contravenga una prohibición de entrada y a quien pretenda entrar ilegalmente. Si no puede ejecutarse en **72 horas**, se pide al juez el internamiento | 58.3 y 6 |
+| **Denegación de entrada** | Regreso al punto de origen; si se retrasa **más de 72 horas**, el juez de instrucción determina el lugar de internamiento | 60.1 |
+| **Medidas cautelares** | Presentación periódica, residencia obligatoria, retirada del pasaporte, **detención cautelar de hasta 72 horas** previas a la solicitud de internamiento, internamiento preventivo con autorización judicial | 61 |
+| **Internamiento** | Lo autoriza el **juez de instrucción** por auto motivado; dura lo imprescindible, con un **máximo de 60 días**, sin nuevo internamiento por las mismas causas en el mismo expediente; **nunca menores** | 62 |
+| **Procedimiento preferente** | Alegaciones en **48 horas**, prueba en **tres días** y ejecución inmediata de la expulsión | 63 |
 
-## Tres textos, una misma lógica
+Los centros de internamiento **no tienen carácter penitenciario**, y los internados solo están privados del **derecho ambulatorio** (art. 60.2). Fíjate en cómo se repite el plazo de 72 horas del artículo 17.2 de la Constitución: lo tienes desarrollado en [detención y habeas corpus](/blog/detencion-y-habeas-corpus-los-plazos-que-caen-siempre).
 
-| Cuestión | LO 2/1986 (art. 5) | Código de Conducta | Principios ONU |
-|---|---|---|---|
-| Cuándo usar armas | Riesgo racionalmente grave para la vida o integridad, o grave riesgo para la seguridad ciudadana | Art. 43.2: misma fórmula | Principio 9: peligro inminente de muerte o lesiones graves |
-| Criterios | Congruencia, oportunidad y proporcionalidad | Gradualidad, prudencia y firmeza, más esos tres principios | Moderación y proporción (principio 5) |
-| Órdenes ilícitas | La obediencia debida no las ampara | Abstenerse y comunicarlo (art. 16.2) | No eximen de responsabilidad (principio 26) |
+**Quién no puede ser expulsado (art. 57.5),** salvo excepciones como la participación en actividades contra la seguridad nacional o la reincidencia: los nacidos en España con residencia legal en los últimos cinco años, los residentes de larga duración, los que fueron españoles de origen y los beneficiarios de ciertas prestaciones. Y la expulsión no se ejecuta si vulnera el principio de **no devolución** o afecta a mujeres embarazadas con riesgo para la gestación o la salud (art. 57.6).
 
-## Caso práctico (hipotético)
+## El régimen de la Unión Europea (RD 240/2007)
 
-Un cabo ordena a un guardia que «no anote» en el atestado que un detenido sufrió un golpe durante el traslado. ¿Qué dice el Código? La orden supone ocultar hechos y puede ser delictiva: el guardia debe **abstenerse de cumplirla** y comunicar su contenido y quién la dio a la autoridad superior (art. 16.2); el mando no podía darla (art. 41.3); el compañerismo no ampara el encubrimiento (art. 22.2); y al detenido se le debe proteger su integridad física y moral (art. 45.2).
+Se aplica a los ciudadanos de un Estado de la UE o del Espacio Económico Europeo y a sus familiares:
+
+| Situación | Regla | Artículo |
+|---|---|---|
+| **Hasta tres meses** | Basta pasaporte o documento de identidad en vigor | 6 |
+| **Más de tres meses** | Derecho de residencia si es trabajador por cuenta ajena o propia, si tiene recursos suficientes y seguro de enfermedad, o si es estudiante con seguro y recursos; debe pedir su **inscripción en el Registro Central de Extranjeros en tres meses** | 7 |
+| **Familiares** | Cónyuge, pareja registrada, descendientes **menores de 21 años** o a cargo y ascendientes a cargo (art. 2); otros familiares y la pareja estable no registrada pueden solicitarlo (art. 2 bis) | 2 y 2 bis |
+| **Familiares no comunitarios** | Solicitan la **tarjeta de residencia de familiar de ciudadano de la Unión** en **tres meses**; se expide en otros tres y vale **cinco años** | 8 |
+| **Residencia permanente** | Tras **cinco años** de residencia legal continuada; se pierde por ausencia de **más de dos años** consecutivos | 10 |
+
+Conecta con la ciudadanía de la Unión del artículo 20 del TFUE, que viste en [la Unión Europea en la oposición](/blog/union-europea-en-la-oposicion-las-instituciones).
+
+## Casos prácticos (hipotéticos)
+
+1. **Un turista estadounidense lleva 100 días en España sin prórroga.** Ha superado los 90 días de estancia: es una estancia irregular, infracción **grave** del artículo 53.1.a), sancionable con multa o, por proporcionalidad, con expulsión.
+2. **Una embarcación llega a la costa y sus ocupantes intentan entrar sin pasar por un puesto habilitado.** Es un supuesto de **devolución** (art. 58.3.b), sin expediente de expulsión; si no se puede ejecutar en 72 horas, se pide al juez el internamiento. Si alguno solicita protección internacional, no se le devuelve hasta que se inadmita su solicitud (art. 58.4).
+3. **Una ciudadana italiana se instala en Murcia para trabajar.** No necesita autorización de trabajo, pero debe inscribirse en el Registro Central de Extranjeros en tres meses desde su entrada (art. 7 RD 240/2007).
 
 ## Errores frecuentes
 
-- Buscar un «Código Ético» distinto: el texto del programa es el **Código de Conducta**, aunque su preámbulo lo describa como código ético.
-- Decir que el Código tiene seis artículos: esos son los del real decreto; el Código tiene 50.
-- Pensar que no se aplica a los alumnos de Baeza: el artículo 3 los incluye.
-- Confundir el Decálogo (anexo del RD 176/2022) con la Cartilla de 1845.
-- Situar los Principios de la ONU en Nueva York o en 1979: son de **La Habana, 1990**.
+- **Confundir expulsión y devolución:** la expulsión exige expediente; la devolución, no.
+- **Sumar multa y expulsión:** el artículo 57.3 lo prohíbe.
+- **Decir que el internamiento es penitenciario o que lo acuerda la policía:** lo autoriza el juez de instrucción y no tiene carácter penitenciario.
+- **Mezclar los 90 días de estancia (LO 4/2000) con los tres meses del RD 240/2007:** son regímenes distintos.
+- **Aplicar a un ciudadano de la UE la LO 4/2000 completa:** se rige por el RD 240/2007 y la ley solo en lo más favorable.
 
-## Mini test (preguntas propias)
+## Mini test propio
 
-1. El Código de Conducta del personal de la Guardia Civil tiene: a) 6 artículos; b) 23 artículos; c) 50 artículos; d) 10 artículos.
-2. El primer valor fundamental del Código es: a) la lealtad; b) el honor; c) la integridad; d) la disciplina.
-3. Ante una orden manifiestamente delictiva, el guardia civil debe: a) cumplirla y denunciarla después; b) pedirla por escrito; c) abstenerse de obedecerla y comunicarlo; d) consultar a un compañero.
-4. Los Principios Básicos sobre el Empleo de la Fuerza se adoptaron en: a) Ginebra, 1979; b) La Habana, 1990; c) Viena, 1993; d) Roma, 1998.
-5. Según el principio 9, el uso intencional de armas letales solo procede cuando: a) lo ordena un superior; b) el sospechoso huye; c) sea estrictamente inevitable para proteger una vida; d) haya alteración del orden público.
+Preguntas elaboradas por ProLince; no son preguntas oficiales.
 
-**Soluciones:** 1-c; 2-b (art. 1); 3-c (art. 16.2); 4-b; 5-c.
+**1. La estancia en España según la LO 4/2000 no puede superar:**
+a) 30 días. b) 60 días. c) 90 días. d) Seis meses.
+
+**2. El internamiento de un extranjero en un centro de internamiento dura como máximo:**
+a) 72 horas. b) 40 días. c) 60 días. d) 90 días.
+
+**3. La prohibición de entrada que acompaña a la expulsión no excede, con carácter general, de:**
+a) Tres años. b) Cinco años. c) Diez años. d) Quince años.
+
+**4. ¿Cuál de estas figuras no exige expediente de expulsión?**
+a) La sanción por estancia irregular. b) La devolución de quien pretende entrar ilegalmente. c) La expulsión por condena penal. d) La expulsión por infracción muy grave.
+
+**5. Un ciudadano de la UE adquiere la residencia permanente tras residir legalmente en España de forma continuada:**
+a) Tres años. b) Cinco años. c) Diez años. d) Un año.
+
+**Soluciones:** 1-c (art. 30); 2-c (art. 62.2); 3-b (art. 58.1); 4-b (art. 58.3); 5-b (art. 10 RD 240/2007).
 
 ## Cómo estudiarlo
 
-Lee el Código completo una vez; después, una tabla de los nueve valores, otra de los principios institucionales y otra con los artículos 16, 22, 43, 44 y 45. Memoriza el Decálogo en orden. El Código de Conducta es además una de las competencias que se valoran en la [entrevista personal](/blog/competencias-entrevista-personal-guardia-civil). El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) integra ambos textos.
+Este tema se aprende por listas y plazos: 90 días, un mes, cinco y diez años, 72 horas, 48 horas, 60 días, tres meses, cinco años. Hazte una tarjeta por cada cifra con su artículo y su supuesto. Relaciónalo con los organismos de control de fronteras que viste en [instituciones internacionales](/blog/instituciones-internacionales-onu-otan-y-consejo-de-europa) (Frontex) y practica con tests; si quieres apoyo, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) desarrolla todo el programa.
 
 ## Preguntas frecuentes
 
-### ¿Cuál es el código que se estudia en deontología?
+### ¿Cuánto dura la estancia de un extranjero según la LO 4/2000?
+No puede superar los 90 días (art. 30); después hace falta prórroga de estancia o autorización de residencia.
 
-El Código de Conducta del personal de la Guardia Civil, aprobado por el RD 176/2022, junto con los Principios Básicos de la ONU de 1990.
+### ¿Cuánto puede durar el internamiento en un centro?
+Un máximo de 60 días, previa autorización del juez de instrucción (art. 62).
 
-### ¿Cuántos artículos tiene?
+### ¿Quién puede ser expulsado por haber delinquido?
+Quien haya sido condenado, dentro o fuera de España, por una conducta dolosa que constituya delito castigado con pena privativa de libertad superior a un año, salvo antecedentes cancelados (art. 57.2).
 
-El Código, 50 artículos más el Decálogo en anexo; el real decreto que lo aprueba, seis artículos, una disposición adicional, una derogatoria y tres finales.
+### ¿Qué diferencia hay entre expulsión y devolución?
+La expulsión es una sanción o consecuencia que requiere expediente; la devolución se aplica sin expediente a quien contraviene una prohibición de entrada o pretende entrar ilegalmente (art. 58.3).
 
-### ¿Se aplica a los aspirantes?
+### ¿Pueden votar los extranjeros en España?
+Los residentes pueden ser titulares del derecho de sufragio en las elecciones municipales, en los términos de la Constitución, los tratados y la ley (art. 6).
 
-A los alumnos de los centros de formación, sí (art. 3). Y el artículo 5 obliga a que los procesos selectivos de acceso directo contemplen su contenido.
-
-### ¿Se debe obedecer una orden manifiestamente delictiva?
-
-No. Hay que abstenerse de obedecerla y comunicar su contenido y su emisor a la autoridad superior por el medio más rápido y eficaz (art. 16.2).
-
-### ¿Cuándo puede usar un guardia civil su arma de fuego?
-
-Solo ante un riesgo racionalmente grave para su vida o integridad o las de terceros, o ante un grave riesgo para la seguridad ciudadana, y conforme a los principios de congruencia, oportunidad y proporcionalidad (art. 43.2 del Código y art. 5.2.d de la LO 2/1986).
-
-### ¿Qué dice el último punto del Decálogo?
-
-«Serenidad y empleo de la fuerza»: «seré prudente sin debilidad y firme sin violencia».',
-   NULL, NULL, 'publicado', '2026-12-26T06:50:00.000Z', 'acceso-guardia-civil',
-   ARRAY['deontología', 'código de conducta', 'rd 176/2022', 'uso de la fuerza']::text[], '{"title":"Deontología Guardia Civil: Código de Conducta RD 176/2022","description":"Tema 19 de Guardia Civil: estructura del Código de Conducta (RD 176/2022), Decálogo y Principios Básicos de la ONU sobre el uso de la fuerza, con test."}'::jsonb, '{}'::jsonb)
+### ¿Qué reglamento desarrolla la ley?
+El Real Decreto 1155/2024, vigente desde el 20 de mayo de 2025. Para el programa, consulta el alcance exacto publicado.',
+   '/blog/extranjeria-e-inmigracion-lo-basico-que-pregunta-el-examen.jpg', 'Agentes de la Guardia Civil con una embarcación neumática en la costa de noche', 'publicado', '2026-12-27T06:07:00.000Z', 'acceso-guardia-civil',
+   ARRAY['extranjería', 'inmigración', 'LO 4/2000', 'ciudadanos de la UE', 'temario']::text[], '{"title":"Extranjería LO 4/2000: lo básico para la oposición","description":"Tema de extranjería: LO 4/2000, derechos, estancia de 90 días, infracciones, expulsión, devolución, internamiento de 60 días y RD 240/2007, con test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -305,290 +289,221 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy', 'articulo', 'Historia de la Guardia Civil: del Duque de Ahumada a hoy', 'De los decretos de 1844 al Código de Conducta de 2022: cronología de la Guardia Civil por etapas, con fechas contrastadas en su web oficial, la trampa de los dos decretos fundacionales, un esquema de estudio y un test propio.', 'El programa oficial incluye en el tema 15 la «Historia de la Guardia Civil» desde los inicios del siglo XIX hasta la democracia, en dos bloques: fundación, consolidación, Sexenio Revolucionario y Restauración; y reinado de Alfonso XIII, Segunda República, Guerra Civil, franquismo, Transición y democracia (consulta el [temario](/temario-guardia-civil)).
+  ('gramatica-leismo-laismo-dequeismo-guardia-civil', 'articulo', 'Gramática en la Guardia Civil: laísmo, leísmo, dequeísmo y otros errores del examen', 'La prueba de gramática pide señalar las frases incorrectas desde el punto de vista morfológico o sintáctico. Leísmo, laísmo, loísmo, dequeísmo, queísmo, «habían» impersonal y otros errores, con trucos para detectarlos y un ejercicio resuelto.', 'La prueba de gramática consiste en **veinte frases o expresiones** de las que hay que señalar las que **no son correctas desde el punto de vista morfológico y/o sintáctico**, más cuatro de reserva que solo se valoran si el Tribunal anula alguna (base 6.1.1.b de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)). Es apto o no apto: con **seis respuestas erróneas o más** quedas excluido (base 7.5). Y, como en ortografía, es error tanto dejar sin marcar una frase incorrecta como **marcar una que está bien**.
 
-**Respuesta corta:** el Cuerpo se creó por el **Real Decreto de 28 de marzo de 1844**, pero ese decreto se derogó sin llegar a entrar en vigor; el que la web oficial llama «auténtico decreto fundacional» es el **Real Decreto de 13 de mayo de 1844**. Su organizador fue **Francisco Javier Girón y Ezpeleta, II Duque de Ahumada**, primer inspector general.
+**Respuesta corta:** la mayoría de los errores típicos se agrupan en unas pocas familias: los pronombres *le/la/lo*, la preposición *de* delante de *que*, el verbo *haber* impersonal, la concordancia y los verbos irregulares. Y casi todos se detectan con un truco de sustitución.
 
-Todos los datos de este artículo proceden de la sección «Historia» de [guardiacivil.es](https://web.guardiacivil.es/es/institucional/conocenos/historiaguacivil/) y, en lo normativo, del BOE. Hemos dejado fuera lo que no hemos podido contrastar allí.
+Las reglas siguen la *Nueva gramática* y el *Diccionario panhispánico de dudas* (RAE y ASALE). Los ejemplos y el ejercicio son nuestros. Tienes el marco general de la prueba en [ortografía y gramática en el examen](/blog/ortografia-gramatica-examen-guardia-civil).
 
-## Antecedentes: los inicios del siglo XIX
+## Leísmo, laísmo y loísmo
 
-Tras la Guerra de la Independencia, la debilidad del Estado llena los caminos de **bandoleros**: excombatientes, desertores y delincuentes que hacen del bandolerismo su forma de vida. La Milicia Nacional, disuelta en 1814, se reconstituye en 1820 y desaparece en 1823.
+El problema es elegir entre *le*, *la* y *lo* para sustituir a un complemento de tercera persona.
 
-En **1820**, con el alzamiento de Riego, el teniente general **Pedro Agustín Girón**, primer duque de Ahumada y padre del fundador, es nombrado ministro de la Guerra y concibe la **Legión de Salvaguardias Nacionales**, inspirada en la Gendarmería francesa. Las Cortes no la aprobaron, pero la web oficial la considera inspiración de la futura Guardia Civil.
+- **Lo, la, los, las** sustituyen al **complemento directo** (lo que recibe directamente la acción): «Compré **el libro**» → «**Lo** compré».
+- **Le, les** sustituyen al **complemento indirecto** (a quién o para quién): «Di un regalo **a María**» → «**Le** di un regalo».
 
-## La fundación (1844-1845)
+**Truco para encontrar el complemento directo:** pasa la frase a pasiva. «Vi a María» → «María fue vista»: *María* es complemento directo, así que «**la** vi». «Dije a María la verdad» → «La verdad fue dicha (a María)»: el directo es *la verdad*, y María es indirecto: «**le** dije la verdad».
 
-| Fecha | Hecho |
-|---|---|
-| 28 de marzo de 1844 | Real Decreto que crea un «cuerpo especial de fuerza armada de Infantería y Caballería» con «la denominación de Guardias Civiles», dependiente de Gobernación; se comisiona al Duque de Ahumada para organizarlo |
-| 20 de abril de 1844 | Informe del Duque, que propone una plantilla selecta y mejor pagada; provoca la derogación del decreto anterior, que «ni siquiera entró en vigor» |
-| 13 de mayo de 1844 | Real Decreto presentado por **Ramón María Narváez**: «auténtico decreto fundacional». Doble dependencia: **Guerra** (organización, personal, disciplina, material y haberes) y **Gobernación** (servicio peculiar y movimiento) |
-| Verano de 1844 | Reclutamiento e instrucción en Leganés y Vicálvaro |
-| 1 de septiembre de 1844 | Presentación oficial con una parada militar de 1.870 guardias; el Duque es designado **Inspector General**; aparece el **tricornio** |
-| 9 de octubre de 1844 | Reglamento para el Servicio |
-| 15 de octubre de 1844 | Reglamento Militar, elaborado por el Ministerio de la Guerra |
-| 20 de diciembre de 1845 | **Cartilla del Guardia Civil**, de la mano del Duque |
+### Laísmo: «la» en lugar de «le»
 
-La organización inicial fue de **14 jefes, 232 oficiales y 5.769 guardias en 14 tercios**. Del Duque es la frase «servirán más y ofrecerán más garantías de orden cinco mil hombres buenos que quince mil, no malos, sino medianos».
+- ❌ «**La** dije que viniera». ✅ «**Le** dije que viniera».
+- ❌ «**La** di un abrazo». ✅ «**Le** di un abrazo».
 
-### La Cartilla
+**Truco:** cambia a la mujer por un hombre. «Le dije a Juan que viniera» → con María también es «le».
 
-La web oficial la describe como «el auténtico código moral de la Institución». Su artículo más famoso: «el honor es la principal divisa del guardia civil; debe, por consiguiente, conservarlo sin mancha. Una vez perdido, no se recobra jamás». El preámbulo del Real Decreto 176/2022, del Código de Conducta, la cita como precedente e incorpora sus principios, y el primer punto de su Decálogo repite esa misma idea del honor.
+### Loísmo: «lo» en lugar de «le»
 
-## Consolidación (1844-1868)
+- ❌ «**Lo** di un regalo». ✅ «**Le** di un regalo».
+- ❌ «**Los** dije la verdad». ✅ «**Les** dije la verdad».
 
-- Contexto de la Segunda (1846-1849) y la Tercera Guerra Carlista (1872-1876) y de bandolerismo endémico.
-- **1847**: primera misión internacional, con una unidad de Caballería patrullando **Oporto**.
-- **1848**: rescate de los náufragos de la goleta *Mary* en Sanlúcar de Barrameda.
-- **1853** (1 de abril): Real Orden que crea la **Compañía de Guardias Jóvenes**, origen del actual [Colegio de Guardias Jóvenes](/blog/colegio-guardias-jovenes-acceso-guardia-civil) «Duque de Ahumada».
-- **1854**: tras la Vicalvarada, en el Bienio progresista, se plantea disolver el Cuerpo por haber sido leal al Gobierno.
-- **1855**: auxilio a la población en la epidemia de cólera.
-- El bandolerismo se considera virtualmente erradicado a finales del siglo XIX.
+### Leísmo: «le» en lugar de «lo» o «la»
 
-## Sexenio Revolucionario (1868-1874)
+- ❌ «El coche, **le** vi aparcado». ✅ «El coche, **lo** vi aparcado».
+- ❌ «A María **le** vi en la calle». ✅ «A María **la** vi en la calle».
 
-Tras la revolución de 1868, el Gobierno provisional suprime la Guardia Rural para que la Guardia Civil asuma sus cometidos; en **1871**, con Amadeo I, se reorganiza el despliegue. En la Primera República, Pi y Margall hace depender el Cuerpo solo de Gobernación, decisión que el gobierno siguiente revoca para recuperar la **doble dependencia**. En **enero de 1874**, soldados y guardias civiles a las órdenes del general Pavía entran en el Congreso y ponen fin a la República.
+**El caso admitido:** la norma acepta *le* como complemento directo cuando se refiere a **una persona de sexo masculino en singular**: «A Juan **le** vi ayer» es correcto, aunque también lo es «A Juan **lo** vi ayer». En plural, *les* por *los* («A tus hermanos **les** vi») no se recomienda. Con cosas, animales o mujeres, el leísmo es incorrecto.
 
-## Restauración (1874-1902)
+**Consecuencia para el examen:** antes de marcar una frase con *le*, mira a qué se refiere. Si es un hombre en singular, la frase puede ser correcta.
 
-- **1878**: la Ley Constitutiva del Ejército incluye a la Guardia Civil en el Ejército.
-- **1886**: asume a nivel nacional la escolta de los trenes de viajeros.
-- **1898**: tras la pérdida de Cuba, Puerto Rico y Filipinas, se disuelven los tercios de Ultramar y sus efectivos permiten crear la Comandancia de Canarias y las secciones de Ceuta y Melilla.
+## Dequeísmo y queísmo
 
-## Siglo XX hasta la Guerra Civil
+Los dos tienen que ver con la preposición *de* delante de la conjunción *que*.
 
-| Año | Hecho |
-|---|---|
-| 1902 | Sección de ciclistas |
-| 1913 | La **Virgen del Pilar**, patrona de la Guardia Civil |
-| 1921 | Primer museo del Cuerpo; pistola Star de 9 mm |
-| 1922 | Parque de Máquinas de Locomoción (mayo); estreno del himno (1 de agosto) |
-| 1926 | Se crean las **Zonas**: cuatro, con sede en Madrid, Barcelona, Sevilla y Burgos |
-| 1929 | Gran Cruz de la Orden Civil de Beneficencia (Real Decreto de 4 de octubre), reconocimiento del carácter «benemérito» |
-| 1931-1933 | Sucesos de Castilblanco, Arnedo y Casas Viejas; tras la Sanjurjada (1932), la Dirección General pasa a ser Inspección General dependiente de Gobernación |
-| 1935 | Corbata de la Orden de la República (12 de febrero) |
+### Dequeísmo: poner «de» donde no va
 
-## Guerra Civil (1936-1939)
+- ❌ «Pienso **de que** vendrá». ✅ «Pienso **que** vendrá».
+- ❌ «Me dijo **de que** llegaría tarde». ✅ «Me dijo **que** llegaría tarde».
+- ❌ «Es seguro **de que** aprobará». ✅ «Es seguro **que** aprobará».
 
-En 1936 la componían **33.500 hombres**. El Cuerpo quedó dividido, como España: su inspector general, el general Pozas, se mantuvo fiel a la República. Sufrió **2.714 muertos y 4.117 heridos**. En la zona republicana se reorganizó como **Guardia Nacional Republicana** (agosto de 1936) y desapareció en diciembre de ese año al unificarse los cuerpos policiales.
+### Queísmo: quitar «de» donde sí va
 
-## Franquismo (1939-1975)
+- ❌ «Me alegro **que** vengas». ✅ «Me alegro **de que** vengas».
+- ❌ «Me acuerdo **que** lo dijo». ✅ «Me acuerdo **de que** lo dijo».
+- ❌ «Estoy seguro **que** aprobará». ✅ «Estoy seguro **de que** aprobará».
+- ❌ «Me di cuenta **que** era tarde». ✅ «Me di cuenta **de que** era tarde».
+- ❌ «**A pesar que** llovía, salió». ✅ «**A pesar de que** llovía, salió».
 
-- **15 de marzo de 1940**: ley que suprime el **Cuerpo de Carabineros** y atribuye sus funciones a la Guardia Civil.
-- **1942**: nuevo Reglamento Militar (23 de julio).
-- Lucha contra el maquis, con apogeo entre 1944 y 1948.
-- **1959**: se encomienda al Cuerpo la vigilancia del tráfico y se crea la **Agrupación de Tráfico**.
-- Años sesenta y setenta: Servicio de Montaña, actividades subacuáticas, helicópteros (enero de 1973) y desactivación de explosivos (1974).
-- **1968**: asesinato del guardia civil José Pardines, con el que, según la web oficial, se abre la larga lista de víctimas del terrorismo separatista.
+Atención a *recordar* y *acordarse*: «**Recuerdo que** lo dijo» es correcto, sin *de*; «**Me acuerdo de que** lo dijo», con *de*.
 
-## Transición y democracia
+### Dos trucos
 
-| Fecha | Hecho |
-|---|---|
-| 23-2-1981 | Intento de golpe de Estado, con participación de algunos guardias civiles |
-| 30-10-1981 | Real Decreto 3543/1981: figura del **guardia civil auxiliar** |
-| 13-3-1986 | [LO 2/1986](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada): instituto armado de naturaleza militar |
-| 1988 | **SEPRONA** y Agrupación de Reserva y Seguridad; un real decreto ley regula la incorporación de la mujer a las Fuerzas Armadas y abre su ingreso en el Cuerpo |
-| 1991 | Servicio Marítimo |
-| 2005 | Participación en la Fuerza de Gendarmería Europea (EUROGENDFOR) |
-| 2007 | LO 11/2007 (derechos y deberes) y LO 12/2007 (régimen disciplinario) |
-| 20-10-2011 | ETA anuncia el cese definitivo de su actividad armada |
-| 28-11-2014 | Ley 29/2014, de Régimen del Personal |
-| 2020 | María Gámez, primera mujer directora general (hasta marzo de 2023) |
-| 4-3-2022 | Real Decreto 176/2022, Código de Conducta |
+1. **Convierte la frase en pregunta.** Si la pregunta necesita *de*, la frase también: «¿**De** qué te alegras?» → «me alegro **de** que…». «¿Qué piensas?» → «pienso que…».
+2. **Sustituye «que + oración» por «eso».** «Pienso **eso**» (sin *de*) frente a «Me alegro **de eso**» (con *de*).
 
-## La trampa de 1844, explicada
+### Verbos que admiten las dos construcciones
 
-Si un enunciado pregunta por el decreto «de creación», la referencia es el de **28 de marzo**; si pregunta por el «decreto fundacional» efectivo o por el que estableció la doble dependencia Guerra-Gobernación, es el de **13 de mayo**. El propio preámbulo del RD 176/2022 lo resume así: creada por el decreto de 28 de marzo y «reorganizada definitivamente» por el de 13 de mayo. Lee siempre el verbo del enunciado.
+Con **advertir, avisar, cuidar, dudar e informar** son válidas ambas formas: «Te avisé **de que** llegaría tarde» y «Te avisé **que** llegaría tarde». No las marques como error.
 
-## Errores frecuentes
+## El verbo «haber» impersonal
 
-- Atribuir la fundación al padre, Pedro Agustín Girón: su proyecto de 1820 no se aprobó.
-- Confundir la Cartilla (1845) con los reglamentos de 1844.
-- Situar la creación de la Agrupación de Tráfico en la democracia: es de 1959.
-- Pensar que el Colegio de Guardias Jóvenes es reciente: su origen es la compañía de 1853.
+Cuando *haber* indica existencia, es impersonal: no tiene sujeto y **va siempre en singular**, aunque el sustantivo que lo acompañe esté en plural.
 
-## Mini test (preguntas propias)
+- ❌ «**Habían** muchas personas». ✅ «**Había** muchas personas».
+- ❌ «**Hubieron** problemas». ✅ «**Hubo** problemas».
+- ❌ «**Habrán** cambios». ✅ «**Habrá** cambios».
+- ❌ «**Pueden haber** errores». ✅ «**Puede haber** errores».
 
-1. El decreto que la web oficial llama «auténtico decreto fundacional» es de: a) 28 de marzo de 1844; b) 20 de abril de 1844; c) 13 de mayo de 1844; d) 1 de septiembre de 1844.
-2. La Cartilla del Guardia Civil está fechada el: a) 9 de octubre de 1844; b) 15 de octubre de 1844; c) 20 de diciembre de 1845; d) 1 de abril de 1853.
-3. ¿Cuántos tercios tenía la organización inicial? a) 10; b) 12; c) 14; d) 19.
-4. El Cuerpo de Carabineros se suprimió y sus funciones pasaron a la Guardia Civil en: a) 1878; b) 1931; c) 1940; d) 1959.
-5. El SEPRONA se creó en: a) 1959; b) 1981; c) 1986; d) 1988.
+Ojo: *hubieron* sí es correcto como auxiliar de un tiempo compuesto con sujeto plural: «Cuando **hubieron llegado** todos, empezó el examen».
 
-**Soluciones:** 1-c; 2-c; 3-c; 4-c; 5-d.
+Lo mismo ocurre con *hacer* referido al tiempo: ❌ «**Hacen** dos años». ✅ «**Hace** dos años».
 
-## Cómo estudiarla
+## Concordancia
 
-Haz una línea del tiempo con las etapas del programa y tarjetas de «fecha → hecho». Agrupa los hitos por tipo (normas, unidades, misiones, distinciones). Si quieres ver cómo esas unidades siguen hoy, repasa [destinos y especialidades](/blog/destinos-especialidades-guardia-civil). El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) integra el tema.
+- **Sustantivos femeninos con *a-* tónica:** llevan *el* o *un* delante, pero siguen siendo femeninos. ❌ «El agua está **fresco**». ✅ «El agua está **fresca**». ❌ «**Este** agua». ✅ «**Esta** agua». ❌ «**Mucho** hambre». ✅ «**Mucha** hambre».
+- **Colectivos con complemento en plural:** «La mayoría de los aspirantes **aprobó**» y «La mayoría de los aspirantes **aprobaron**» son las dos correctas. No marques ninguna.
+
+## Adverbios con posesivos
+
+Los adverbios no se combinan con posesivos; se construyen con *de* + pronombre:
+
+- ❌ «**Detrás mía**», «**delante mío**», «**encima suyo**», «**cerca nuestro**».
+- ✅ «**Detrás de mí**», «**delante de mí**», «**encima de él**», «**cerca de nosotros**».
+
+## El relativo «cuyo»
+
+Cuando hay posesión, se usa *cuyo*, no «que su»:
+
+- ❌ «Es el compañero **que su** padre es guardia civil».
+- ✅ «Es el compañero **cuyo** padre es guardia civil».
+
+## «Deber» y «deber de»
+
+- **Deber + infinitivo** expresa obligación: «**Debes estudiar** más».
+- **Deber de + infinitivo** expresa probabilidad: «**Debe de estar** en casa». Con este sentido, la norma también admite *deber* sin *de*: «Debe estar en casa».
+- Lo que se desaconseja es usar *deber de* con sentido de obligación: «Debes de estudiar más» (si quieres decir que tiene la obligación).
+
+## Verbos: formas incorrectas habituales
+
+| ❌ Incorrecto | ✅ Correcto | Verbo |
+|---|---|---|
+| andé, andaste | anduve, anduviste | andar |
+| cabo | quepo | caber |
+| satisfació | satisfizo | satisfacer |
+| conducí, produció | conduje, produjo | conducir, producir |
+| preveyó | previó | prever |
+| haiga | haya | haber |
+| dijistes, vinistes | dijiste, viniste | 2.ª persona del pretérito |
+| ¡Sentaros! ¡Callaros! | ¡Sentaos! ¡Callaos! | imperativo de *vosotros* |
+
+Sobre el imperativo: el plural de *vosotros* se forma con **-d** («sentad», «callad»), y la *d* se pierde ante el pronombre *os* («sentaos», «callaos»). Usar el infinitivo como imperativo (*sentaros*) es incorrecto en la norma culta.
+
+**No los marques como error:** algunos verbos tienen dos participios válidos: *freído* y *frito*, *imprimido* e *impreso*, *proveído* y *provisto*. «He freído un huevo» y «He frito un huevo» son correctas.
+
+## Comparativos
+
+*Mejor*, *peor*, *superior* o *inferior* ya son comparativos: ❌ «**más mejor**», «**más peor**», «**más superior**». ✅ «**mejor**», «**peor**», «**superior**».
+
+## Ejercicio resuelto (propio)
+
+Señala qué frases son incorrectas.
+
+1. «La dije a mi hermana que viniera».
+2. «A Juan le vi ayer en la academia».
+3. «Pienso de que el examen será difícil».
+4. «Me alegro de que hayas aprobado».
+5. «Habían muchos aspirantes en la puerta».
+6. «Puede haber cambios en la convocatoria».
+7. «El agua estaba fría y el hacha, afilada».
+8. «Se sentó detrás mía sin decir nada».
+9. «Te avisé de que llegaría tarde».
+10. «Es el compañero que su padre es guardia civil».
+11. «Debe de haber llegado ya, porque su coche está aparcado».
+12. «¡Sentaros y abrid el cuadernillo!».
+
+**Soluciones:**
+
+1. **Incorrecta** (laísmo): «**Le** dije a mi hermana…».
+2. **Correcta**: leísmo admitido (persona, masculino, singular).
+3. **Incorrecta** (dequeísmo): «Pienso que…».
+4. **Correcta**: *alegrarse de algo*.
+5. **Incorrecta**: *haber* impersonal en plural. «**Había** muchos aspirantes».
+6. **Correcta**: «puede haber», en singular.
+7. **Correcta**: *agua* y *hacha* son femeninos; los adjetivos concuerdan.
+8. **Incorrecta**: «detrás **de mí**».
+9. **Correcta**: *avisar* admite *de que* y *que*.
+10. **Incorrecta**: «cuyo padre».
+11. **Correcta**: *deber de* con sentido de probabilidad.
+12. **Incorrecta**: «¡**Sentaos** y abrid…!».
+
+Seis incorrectas de doce. Fíjate en las frases 2, 9 y 11: son correctas aunque a mucha gente le «suenen» mal. Marcarlas sería sumar errores.
+
+## Errores frecuentes al hacer la prueba
+
+- **Fiarse del oído:** muchos errores (*habían*, *detrás mía*, *la dije*) se oyen a diario y suenan normales.
+- **Marcar todo lo que suena raro:** el leísmo admitido, *deber de* con probabilidad o *avisar que* son correctos.
+- **No leer la frase entera:** a veces el error está al final.
+- **No identificar a quién se refiere el pronombre** antes de decidir.
+
+## Checklist de repaso
+
+- [ ] Identifico el complemento directo con la prueba de la pasiva.
+- [ ] Sé cuándo el leísmo está admitido.
+- [ ] Aplico los trucos de la pregunta y de *eso* para *de que*.
+- [ ] Recuerdo los verbos que admiten las dos construcciones.
+- [ ] Pongo *haber* y *hacer* impersonales en singular.
+- [ ] Conjugo bien *andar, caber, satisfacer, conducir, prever* y el imperativo de *vosotros*.
+- [ ] Uso *cuyo* y evito adverbio + posesivo.
+
+## Cómo practicar
+
+1. **Lee la frase entera**, localiza el verbo y su sujeto, y después los pronombres.
+2. **Aplica los trucos de sustitución** (pasiva, *eso*, pregunta, cambiar mujer por hombre).
+3. **Haz tests de veinte frases** cronometrados y revisa por qué cada error es error.
+4. **Repasa también la ortografía:** [las tildes](/blog/tildes-reglas-oposicion-guardia-civil), [las palabras trampa](/blog/palabras-trampa-ortografia-guardia-civil) y [los homófonos](/blog/homofonos-ortografia-guardia-civil).
+
+En el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes ejercicios de gramática con el formato real y la explicación de cada frase.
 
 ## Preguntas frecuentes
 
-### ¿Quién fundó la Guardia Civil?
+### ¿Cuántas frases tiene la prueba de gramática?
 
-Francisco Javier Girón y Ezpeleta, II Duque de Ahumada, comisionado en 1844 para organizarla y designado inspector general el 1 de septiembre de ese año.
+Veinte, más cuatro de reserva que solo se valoran si el Tribunal anula alguna de las anteriores.
 
-### ¿Qué es la Cartilla del Guardia Civil?
+### ¿Cuántos errores excluyen?
 
-Un texto de 20 de diciembre de 1845, redactado por el Duque de Ahumada, que la web oficial considera el código moral de la Institución.
+Seis o más respuestas erróneas. Cuenta como error tanto no marcar una frase incorrecta como marcar una correcta.
 
-### ¿De qué ministerios dependía la Guardia Civil al nacer?
+### ¿Es correcto «le vi» hablando de una persona?
 
-Del de la Guerra en organización, personal, disciplina, material y haberes, y del de la Gobernación en su servicio peculiar y movimiento.
+Si es un hombre y en singular, sí: es el leísmo admitido por la norma. Con mujeres, cosas o animales, lo correcto es *la* o *lo*.
 
-### ¿Cuántos guardias tenía al principio?
+### ¿Qué es el dequeísmo?
 
-Según la web oficial, 14 jefes, 232 oficiales y 5.769 guardias en 14 tercios.
+Usar *de que* donde la construcción no lleva *de*: «pienso de que…» en lugar de «pienso que…».
 
-### ¿Desde cuándo pueden ingresar mujeres?
+### ¿Y el queísmo?
 
-Un real decreto ley de 1988 reguló su incorporación a las Fuerzas Armadas y abrió el camino a su ingreso en el Cuerpo; antes, desde 1948, prestaban servicio las «matronas» uniformadas para el registro aduanero de mujeres, desarmadas y sin la condición de funcionarias públicas.
+Lo contrario: suprimir la *de* que exige la construcción. «Me alegro que vengas» en lugar de «me alegro de que vengas».
 
-### ¿La historia entra entera en el examen?
+### ¿«Hubieron» es siempre incorrecto?
 
-El programa abarca desde los inicios del siglo XIX hasta la democracia, pero ningún dato oficial indica qué se pregunta. Consulta la convocatoria vigente.',
-   NULL, NULL, 'publicado', '2026-12-25T06:33:00.000Z', 'acceso-guardia-civil',
-   ARRAY['historia', 'duque de ahumada', 'temario', 'cronología']::text[], '{"title":"Historia de la Guardia Civil: fundación y fechas clave","description":"Historia de la Guardia Civil por etapas: decretos de 1844, Duque de Ahumada, Cartilla de 1845, siglo XX y democracia, con fechas oficiales y test."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+No. Es incorrecto como impersonal («hubieron problemas»), pero correcto como auxiliar con sujeto plural («cuando hubieron llegado todos»).
 
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti', 'articulo', 'Oferta de empleo público de la Guardia Civil: qué es y qué pasa con 2027', 'La oferta de empleo público es el real decreto que autoriza cuántas plazas se pueden convocar. Qué es, cómo se calcula, qué fijó el Real Decreto 206/2026 y qué se sabía de una oferta de 2027 al cierre de este artículo.', '**Respuesta corta:** la oferta de empleo público (OEP) es el real decreto del Gobierno que autoriza cuántas plazas puede convocar la Guardia Civil en un año y cómo se reparten. Sin oferta no hay convocatoria, y por eso es la primera señal oficial que conviene vigilar. En noviembre de 2026, cuando se preparó este artículo, **no había publicada ninguna oferta de empleo público de la Guardia Civil para 2027**.
+### ¿«Debe de» es incorrecto?
 
-Vamos a ver qué es exactamente, qué fijó la última, de dónde salen sus cifras y qué conviene hacer mientras no hay una nueva.
-
-## Qué es exactamente una oferta de empleo público
-
-Es una norma con rango de real decreto que fija el número de plazas que se pueden convocar en un ejercicio. Lo prevé la [Ley 29/2014, de Régimen del Personal de la Guardia Civil](https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408) (artículo 26), y el Reglamento de ordenación de la enseñanza ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), artículo 6) concreta cómo se aprueba: la aprueba el Consejo de Ministros, a iniciativa conjunta de los Ministerios de Defensa y del Interior, y debe especificar los **cupos** de cada forma de ingreso y si las plazas de un cupo pueden pasar a otro.
-
-Lo que **no** es: no es la convocatoria. No contiene requisitos, plazos de solicitud ni pruebas. Todo eso llega después, en una resolución de la Dirección General de la Guardia Civil publicada en el BOE.
-
-### El orden de los documentos
-
-| Paso | Documento | Qué fija | Dónde se publica |
-|---|---|---|---|
-| 1 | Real decreto de oferta de empleo público | Número de plazas y reservas | BOE, sección III («Otras disposiciones») |
-| 2 | Resolución de convocatoria | Requisitos, plazo, tasas, pruebas, baremo | BOE, sección II.B («Oposiciones y concursos») |
-| 3 | Listas de admitidos | Admitidos, excluidos y nota del concurso | Web de la Guardia Civil y BOE |
-| 4 | Propuestos como alumnos | Quién ingresa en los centros de formación | BOE |
-
-## Qué dijo la de 2026
-
-La de 2026 es el [Real Decreto 206/2026, de 11 de marzo (BOE-A-2026-5998)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5998), publicado en el BOE núm. 64, de 13 de marzo de 2026. Para la Escala de Cabos y Guardias fija:
-
-- **3.240 plazas** de ingreso directo (artículo 2).
-- Dentro de ellas, **1.296 reservadas a militares profesionales de tropa y marinería** con al menos cinco años de servicios efectivos y **240 para alumnos del Colegio de Guardias Jóvenes** (artículo 3). Las que no se cubran, por cualquier motivo, pasan al cupo libre.
-- Fuera de la Escala de Cabos y Guardias, autoriza plazas de **promoción profesional**: 96 para la Escala de Oficiales por promoción interna, 26 para la misma escala por cambio de escala y 400 para la de Suboficiales (artículo 4).
-
-La convocatoria que derivó de ella ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) repartió las 3.240 plazas así: 1.296 para militares, 240 para el Colegio y **1.704 libres**. La tienes explicada en [la convocatoria de 2026 y su calendario](/blog/convocatoria-guardia-civil-2026-plazas-calendario).
-
-## De dónde sale la cifra de plazas
-
-El propio Real Decreto 206/2026 explica el cálculo en su preámbulo:
-
-1. El marco general de incorporaciones de personal lo fija el artículo 20 de la **Ley 31/2022, de Presupuestos Generales del Estado para 2023**, prorrogados en 2024, 2025 y en el momento de aprobar la oferta.
-2. Para las Fuerzas y Cuerpos de Seguridad del Estado, esa ley establece una **tasa de reposición del 125 %** y los considera sector prioritario.
-3. Aplicando ese porcentaje, la oferta «que cabría aprobar» era de 3.240 plazas.
-
-En la práctica, la tasa de reposición se calcula a partir de las bajas de efectivos, por lo que la cifra depende de cuántas personas dejen el servicio. Por eso no tiene sentido extrapolarla a ojo.
-
-### Las reservas no son arbitrarias
-
-El artículo 6.2 del Reglamento de ordenación de la enseñanza fija dos límites para la Escala de Cabos y Guardias:
-
-- A los **militares profesionales de tropa y marinería**, un **mínimo del 40 %** de las plazas, sin superar nunca el 50 %.
-- Al **Colegio de Guardias Jóvenes**, **hasta un máximo del 20 %**.
-
-En 2026, las 1.296 plazas militares equivalen exactamente al 40 % de 3.240. El cupo militar lo explicaremos con detalle en un artículo posterior.
-
-## Qué efecto tiene sobre ti
-
-Tres consecuencias prácticas, sacadas del texto del real decreto:
-
-- **La convocatoria solo puede publicarse en el año de la oferta.** El artículo 1 dice que las convocatorias derivadas «sólo podrán publicarse en el ejercicio presupuestario al que vienen referidas». Una oferta de 2027 daría lugar a una convocatoria en 2027, no antes.
-- **Cada convocatoria necesita informe favorable** de la Dirección General de la Función Pública.
-- **El Ministerio del Interior debe recoger en su web** un apartado de procesos selectivos con cada convocatoria y sus actos (disposición adicional única).
-
-## Cómo han evolucionado las plazas
-
-Estas son las cifras de las últimas convocatorias, tomadas de sus bases en el BOE:
-
-| Año | Total | Militares | Colegio de Guardias Jóvenes | Libres |
-|---|---|---|---|---|
-| 2023 | 2.520 | 1.008 | 185 | 1.327 |
-| 2024 | 2.721 | 1.089 | 200 | 1.432 |
-| 2025 | 3.118 | 1.248 | 240 | 1.630 |
-| 2026 | 3.240 | 1.296 | 240 | 1.704 |
-
-Que subieran estos años **no garantiza** que vuelvan a hacerlo. Y recuerda que las plazas libres reales pueden ser más, porque las reservadas que no se cubren se suman al cupo libre.
-
-## ¿Hay ya una oferta para 2027?
-
-En noviembre de 2026 no la habíamos localizado ni en el BOE ni en la web del Ministerio del Interior. Cualquier cifra de plazas para 2027 que circulara entonces era una previsión de terceros, no un dato oficial.
-
-Si cuando leas esto ya se ha publicado, manda lo que diga el BOE. Para comprobarlo:
-
-1. Entra en el buscador del BOE y busca «oferta de empleo público del Cuerpo de la Guardia Civil para el año 2027».
-2. Mira la sección III («Otras disposiciones»): ahí se publican estos reales decretos.
-3. Revisa el apartado de procesos selectivos de la Guardia Civil en la web del Ministerio del Interior.
-
-## Un caso práctico (hipotético)
-
-Pablo lee en una red social que «para 2027 habrá 4.000 plazas». Antes de cambiar su plan, hace tres comprobaciones: busca en el BOE un real decreto de oferta de 2027 (no lo hay), mira si la cifra cita una norma (no la cita) y revisa la web de Interior (sin novedades). Conclusión: es una previsión sin respaldo. Sigue estudiando con el programa de la última convocatoria. Es un ejemplo inventado, pero es exactamente el filtro que conviene aplicar.
-
-## Errores frecuentes
-
-- **Confundir oferta y convocatoria.** La oferta no abre plazo de inscripción.
-- **Creer que hay que «apuntarse» a la oferta.** Solo te inscribes en la convocatoria.
-- **Sumar mal las plazas libres.** Las 1.704 de 2026 son las iniciales; las reservadas sin cubrir se añaden.
-- **Dar por buena una cifra sin real decreto.**
-- **Esperar a la oferta para empezar a estudiar.** Entre la oferta y la convocatoria puede pasar poco tiempo.
-
-## Checklist
-
-- [ ] Sé distinguir oferta, convocatoria y listas.
-- [ ] He leído el Real Decreto 206/2026.
-- [ ] Tengo una alerta del BOE para la oferta de 2027.
-- [ ] He comprobado mi [edad para la convocatoria](/blog/edad-maxima-guardia-civil), que se mide por año natural.
-- [ ] Estudio con un plan, no a la espera de la cifra.
-
-## Qué hacer mientras tanto
-
-La oferta no cambia lo que tienes que estudiar: el temario y las pruebas los fija la convocatoria, y la última publicada es la mejor referencia disponible. Comprueba tus [requisitos](/blog/requisitos-guardia-civil) y, si empiezas ahora, [prepara la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero) con un plan realista. Si quieres un método y un temario ordenado, lo trabajamos en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
-
-## Preguntas frecuentes
-
-### ¿La oferta de empleo público es lo mismo que la convocatoria?
-
-No. La oferta autoriza el número de plazas; la convocatoria, publicada después, fija requisitos, plazos y pruebas.
-
-### ¿Cuánto tarda en salir la convocatoria después de la oferta?
-
-Varía de un año a otro. En 2026 la oferta salió en el BOE el 13 de marzo y la convocatoria el 8 de mayo. En el artículo sobre la convocatoria de 2027 repasamos las fechas de los últimos años.
-
-### ¿Puedo apuntarme a una oferta de empleo público?
-
-No. Solo te inscribes en la convocatoria, una vez publicada, dentro de su plazo de solicitud.
-
-### ¿Dónde se publica la oferta?
-
-En el BOE, sección III, como real decreto. El Ministerio del Interior recoge además en su web las convocatorias derivadas.
-
-### ¿Por qué hay plazas reservadas a militares y al Colegio?
-
-Porque el Reglamento de ordenación de la enseñanza obliga a reservar al menos el 40 % a militares de tropa y marinería (sin pasar del 50 %) y permite reservar hasta el 20 % al Colegio de Guardias Jóvenes.
-
-### ¿Hay oferta de 2027?
-
-En noviembre de 2026 no estaba publicada. Comprueba el BOE antes de dar por buena cualquier cifra.',
-   NULL, NULL, 'publicado', '2026-12-28T06:24:00.000Z', 'acceso-guardia-civil',
-   ARRAY['oferta de empleo público', 'plazas', 'BOE', 'convocatoria']::text[], '{"title":"Oferta de empleo público Guardia Civil: qué es y 2027","description":"Qué es la oferta de empleo público de la Guardia Civil, cómo se calcula, qué fijó el Real Decreto 206/2026 (3.240 plazas) y qué se sabe de 2027."}'::jsonb, '{}'::jsonb)
+No, si expresa probabilidad: «Debe de estar en casa». Lo que se desaconseja es usarlo con sentido de obligación.',
+   '/blog/gramatica-leismo-laismo-dequeismo-guardia-civil.jpg', 'Opositora tomando apuntes en un aula con un análisis sintáctico en la pizarra', 'publicado', '2026-12-25T06:33:00.000Z', 'acceso-guardia-civil',
+   ARRAY['gramática', 'laísmo', 'leísmo', 'dequeísmo']::text[], '{"title":"Laísmo, leísmo y dequeísmo: gramática Guardia Civil","description":"Gramática para la oposición a Guardia Civil: leísmo, laísmo, loísmo, dequeísmo, queísmo, haber impersonal y otros errores, con trucos y ejercicio resuelto."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -744,8 +659,173 @@ Algunas modalidades de Criminalística o de Tecnologías de la información pued
 ### ¿Dónde veo las convocatorias?
 
 En el Boletín Oficial de la Guardia Civil. Las cifras que circulan en foros no sustituyen a la convocatoria vigente.',
-   '/blog/policia-judicial-y-uco-como-se-llega-a-la-especialidad.jpg', 'Agentes de la UCO de la Guardia Civil analizando material informático intervenido', 'publicado', '2026-12-24T06:16:00.000Z', 'acceso-guardia-civil',
+   '/blog/policia-judicial-y-uco-como-se-llega-a-la-especialidad.jpg', 'Agentes de la UCO de la Guardia Civil analizando material informático intervenido', 'publicado', '2026-12-28T06:24:00.000Z', 'acceso-guardia-civil',
    ARRAY['policía judicial', 'uco', 'especialidades', 'investigación']::text[], '{"title":"Policía Judicial y UCO Guardia Civil: cómo se accede","description":"Policía Judicial y UCO de la Guardia Civil: funciones, organización, qué fija la Orden PCM/509/2020 sobre la especialidad y cómo se llega a ella."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra', 'articulo', 'Prevención de riesgos laborales en la Guardia Civil: qué entra en el examen', 'El tema 3 combina la Ley 31/1995 con dos reales decretos. Qué capítulos entran, las definiciones, los principios de la acción preventiva y cómo se adapta todo a la Guardia Civil con el Real Decreto 179/2005, con casos y un test propio.', 'El tema 3 del programa de la Escala de Cabos y Guardias es «Prevención de riesgos laborales». **Respuesta corta:** entran cinco capítulos de la Ley 31/1995 (I, II, III, VI y VII), el Real Decreto 67/2010, que adapta la prevención a la Administración General del Estado, y el Real Decreto 179/2005, sobre prevención de riesgos laborales en la Guardia Civil. Así consta en nuestro [temario](/temario-guardia-civil), elaborado a partir de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)).
+
+Las citas se han comprobado en los textos consolidados de la [Ley 31/1995](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), el [Real Decreto 67/2010](https://www.boe.es/buscar/act.php?id=BOE-A-2010-2161) y el [Real Decreto 179/2005](https://www.boe.es/buscar/act.php?id=BOE-A-2005-3241).
+
+## Qué capítulos de la Ley 31/1995 entran
+
+| Capítulo | Título | Artículos |
+|---|---|---|
+| I | Objeto, ámbito de aplicación y definiciones | 1 a 4 |
+| II | Política en materia de prevención de riesgos | 5 a 13 |
+| III | Derechos y obligaciones | 14 a 29 |
+| VI | Obligaciones de los fabricantes, importadores y suministradores | 41 |
+| VII | Responsabilidades y sanciones | 42 a 54 |
+
+Quedan fuera los capítulos IV (servicios de prevención) y V (consulta y participación de los trabajadores, con los delegados de prevención y el Comité de Seguridad y Salud), aunque el RD 67/2010 vuelve sobre esas figuras para la Administración.
+
+## Capítulo I: objeto, ámbito y definiciones
+
+- **Objeto (art. 2):** promover la seguridad y la salud de los trabajadores mediante la aplicación de medidas y el desarrollo de las actividades necesarias para la prevención de riesgos derivados del trabajo. Sus disposiciones laborales son **Derecho necesario mínimo indisponible**, mejorable por convenio colectivo.
+- **Ámbito (art. 3.1):** relaciones laborales y también relaciones **administrativas o estatutarias** del personal de las administraciones públicas. Cuando la Ley habla de «empresario», en la Administración se entiende la propia Administración.
+- **Exclusión (art. 3.2):** la Ley **no se aplica** a las actividades cuyas particularidades lo impidan en las funciones públicas de **policía, seguridad y resguardo aduanero**; **servicios operativos de protección civil y peritaje forense** en casos de grave riesgo, catástrofe y calamidad pública; y **Fuerzas Armadas y actividades militares de la Guardia Civil**. Aun así, la Ley **inspirará** la normativa específica de esas actividades. De esta frase nace el RD 179/2005.
+
+### Definiciones del artículo 4
+
+| Término | Definición resumida |
+|---|---|
+| Prevención | Actividades o medidas adoptadas o previstas en todas las fases de la actividad para evitar o disminuir los riesgos del trabajo |
+| Riesgo laboral | Posibilidad de que un trabajador sufra un daño derivado del trabajo; su gravedad se valora con la **probabilidad** y la **severidad** |
+| Daños derivados del trabajo | Enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo |
+| Riesgo grave e inminente | El que resulte probable racionalmente que se materialice en un futuro inmediato y pueda suponer un daño grave |
+| Equipo de trabajo | Cualquier máquina, aparato, instrumento o instalación utilizada en el trabajo |
+| Equipo de protección individual | El destinado a ser llevado o sujetado por el trabajador para protegerle de uno o varios riesgos |
+
+## Capítulo III: derechos y obligaciones
+
+### El derecho de protección (art. 14)
+Los trabajadores tienen derecho a una protección eficaz en seguridad y salud, con el correlativo deber del empresario, que **también es un deber de las administraciones públicas respecto de su personal**. Ese derecho incluye información, consulta y participación, formación, paralización de la actividad ante un riesgo grave e inminente y vigilancia de la salud. El coste de las medidas de seguridad **no puede recaer sobre los trabajadores** (art. 14.5).
+
+### Principios de la acción preventiva (art. 15.1)
+Son nueve y conviene saberlos en orden:
+
+1. Evitar los riesgos.
+2. Evaluar los riesgos que no se puedan evitar.
+3. Combatir los riesgos en su origen.
+4. Adaptar el trabajo a la persona.
+5. Tener en cuenta la evolución de la técnica.
+6. Sustituir lo peligroso por lo que entrañe poco o ningún peligro.
+7. Planificar la prevención.
+8. Anteponer la protección colectiva a la individual.
+9. Dar las debidas instrucciones a los trabajadores.
+
+### El resto del capítulo, de un vistazo
+
+| Art. | Tema |
+|---|---|
+| 16 | Plan de prevención, evaluación de riesgos y planificación de la actividad preventiva |
+| 17 | Equipos de trabajo y medios de protección |
+| 18 y 19 | Información, consulta y participación; formación |
+| 20 | Medidas de emergencia |
+| 21 | Riesgo grave e inminente |
+| 22 | Vigilancia de la salud |
+| 25 a 28 | Trabajadores especialmente sensibles, maternidad, menores y relaciones temporales |
+| 29 | Obligaciones de los trabajadores |
+
+**Riesgo grave e inminente (art. 21):** el empresario debe informar lo antes posible y permitir que los trabajadores interrumpan su actividad; el trabajador tiene derecho a interrumpirla y abandonar el lugar de trabajo cuando considere que entraña un riesgo grave e inminente para su vida o su salud (art. 21.2). Si el empresario no actúa, los representantes pueden acordar por mayoría la paralización, que la autoridad laboral **anula o ratifica en veinticuatro horas** (art. 21.3).
+
+**Obligaciones del trabajador (art. 29):** usar adecuadamente máquinas y herramientas, utilizar correctamente los equipos de protección, no inutilizar los dispositivos de seguridad, informar de inmediato a su superior de cualquier riesgo, contribuir al cumplimiento de las obligaciones de la autoridad competente y cooperar con el empresario. En el empleo público, incumplirlas puede ser **falta disciplinaria** (art. 29.3).
+
+## Capítulos VI y VII: fabricantes y responsabilidades
+
+- **Art. 41:** quienes fabrican, importan o suministran maquinaria, equipos y productos deben asegurar que no son una fuente de peligro si se usan en las condiciones recomendadas.
+- **Art. 42:** el incumplimiento empresarial da lugar a responsabilidades **administrativas** y, en su caso, **penales y civiles**.
+- **Arts. 43 y 44:** la Inspección de Trabajo puede requerir la subsanación y, ante un riesgo grave e inminente, ordenar la **paralización** de los trabajos.
+- **Art. 45:** en el personal civil de las administraciones, las infracciones no se castigan con multa, sino con la imposición de **medidas correctoras**.
+- **Arts. 46 a 52:** están **derogados**; las infracciones y sanciones se trasladaron al texto refundido de la Ley sobre Infracciones y Sanciones en el Orden Social (Real Decreto Legislativo 5/2000). Si tus apuntes los desarrollan, están desfasados.
+
+## El Real Decreto 67/2010: la Administración General del Estado
+
+Adapta la Ley 31/1995 a la Administración General del Estado (art. 1). Su artículo 2 repite la exclusión de las funciones de policía, seguridad y resguardo aduanero y aclara que a las funciones de guardias civiles y policías **que no presenten características exclusivas** de esas actividades se les aplica la normativa general, con las peculiaridades de la AGE. Regula los **delegados de prevención** (art. 5), el **Comité de Seguridad y Salud** como órgano paritario y colegiado, que se constituye en los centros con **50 o más empleados públicos** (art. 6), y las modalidades de servicios de prevención (art. 7).
+
+## El Real Decreto 179/2005: la Guardia Civil
+
+| Artículo | Contenido |
+|---|---|
+| 1 | Objeto: seguridad y salud del personal del Cuerpo y de los miembros de las Fuerzas Armadas destinados en la Dirección General; se inspira en la planificación, la eliminación o disminución de riesgos, la información, la participación y consulta, la formación y la integración de la prevención |
+| 2 | Ámbito: las actividades de las misiones de la Ley Orgánica 2/1986; las **misiones militares** se rigen por sus normas específicas |
+| 3 bis | Principios de la acción preventiva adaptados al Cuerpo (añadido por el Real Decreto 67/2026, en vigor desde el 26 de febrero de 2026) |
+| 4 | Plan de prevención, evaluación de riesgos y planificación |
+| 5 | Planes de emergencia de edificios e instalaciones |
+| 6 | Vigilancia de la salud, con confidencialidad de los datos médicos |
+| 7 a 9 | Información, participación (propuestas del personal) y formación desde la incorporación |
+| 10 | Protección de la maternidad |
+| 11 y 12 | Obligaciones de la Administración y del personal |
+| 13 | **Órganos de prevención:** Servicio de Prevención, Sección de Prevención de Zona, Oficina de Prevención de Comandancia y otras unidades |
+| 14 | **Órgano de asesoramiento:** el Consejo de la Guardia Civil, que analiza y valora las propuestas del personal |
+| 15 y 16 | Inspección y control externo por la Inspección de Personal y Servicios de Seguridad; alegaciones en **30 días hábiles** |
+
+Ojo con dos novedades: el **artículo 3 bis** recoge diez principios inspirados en los de la Ley, pero adaptados («evaluar los riesgos de imposible o muy difícil evitación», «priorizar la protección colectiva sobre la individual»), y el **artículo 6** fue reformado por la misma norma de 2026. Estudia siempre la versión consolidada.
+
+## Casos prácticos (hipotéticos)
+
+1. **Una persecución en carretera.** Un guardia civil no puede alegar el artículo 21 de la Ley 31/1995 para abandonar un servicio operativo de seguridad ciudadana: esa actividad está excluida por el artículo 3.2 y se rige por el RD 179/2005, que adapta la prevención a sus peculiaridades.
+2. **Un administrativo en una oficina de la Comandancia.** Si las tareas no tienen características exclusivas de policía o seguridad (por ejemplo, trabajo con pantallas), se aplica la normativa general de prevención con las particularidades de la AGE (art. 2 del RD 179/2005).
+3. **Un chaleco antibalas defectuoso.** La Administración debe proporcionar equipos de protección individual adecuados y velar por su uso (art. 11), y el agente debe usarlos correctamente e informar de inmediato por conducto regular del defecto (art. 12).
+
+## Errores frecuentes
+
+- **Decir que la Ley 31/1995 no se aplica a la Guardia Civil:** se excluyen solo las actividades cuyas particularidades lo impidan; el resto queda dentro.
+- **Desordenar los principios del artículo 15:** el primero es *evitar*, el segundo *evaluar lo que no se pueda evitar*.
+- **Confundir el órgano de asesoramiento:** es el **Consejo de la Guardia Civil**, no el Servicio de Prevención.
+- **Estudiar multas de los artículos 46 a 52:** están derogados.
+
+## Mini test propio
+
+Preguntas elaboradas por ProLince; no son preguntas oficiales.
+
+**1. El primer principio de la acción preventiva del artículo 15 de la Ley 31/1995 es:**
+a) Evaluar los riesgos. b) Evitar los riesgos. c) Combatir los riesgos en su origen. d) Planificar la prevención.
+
+**2. La gravedad de un riesgo laboral se valora conjuntamente según:**
+a) Probabilidad y severidad. b) Frecuencia y coste. c) Duración y exposición. d) Probabilidad y número de afectados.
+
+**3. ¿Qué órgano analiza y valora las propuestas del personal de la Guardia Civil en materia preventiva?**
+a) El Servicio de Prevención. b) La Oficina de Prevención de Comandancia. c) El Consejo de la Guardia Civil. d) La Inspección de Trabajo.
+
+**4. La paralización acordada por los representantes ante un riesgo grave e inminente la anula o ratifica la autoridad laboral en:**
+a) 12 horas. b) 24 horas. c) 48 horas. d) 3 días.
+
+**5. ¿Cuál de estos capítulos de la Ley 31/1995 no entra en el programa?**
+a) I. b) III. c) V. d) VII.
+
+**Soluciones:** 1-b (art. 15.1.a); 2-a (art. 4.2.º); 3-c (art. 14 RD 179/2005); 4-b (art. 21.3); 5-c.
+
+## Cómo estudiarlo
+
+1. **Empieza por el artículo 3.2** y su razón de ser: sin él no se entiende el RD 179/2005.
+2. **Haz una tabla comparativa** Ley 31/1995 / RD 179/2005: quién es el «empresario», qué órganos hay y quién asesora.
+3. Practica con tests por capítulos y repasa cómo penalizan los errores en la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
+4. Relaciona la protección de la maternidad (art. 26 de la Ley y art. 10 del RD) con la [igualdad efectiva](/blog/igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley), y la formación preventiva desde la incorporación con lo que te espera en la [Academia de Baeza](/blog/academia-baeza-guardia-civil).
+5. Si quieres una ruta ordenada por temas, mira el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Se aplica la Ley 31/1995 a la Guardia Civil?
+Sí, con matices: su artículo 3.2 excluye las actividades cuyas particularidades lo impidan en funciones de policía, seguridad y resguardo aduanero, y las actividades militares de la Guardia Civil. Para ellas rige el RD 179/2005, inspirado en la Ley.
+
+### ¿Qué órganos de prevención tiene la Guardia Civil?
+El Servicio de Prevención, las Secciones de Prevención de Zona, las Oficinas de Prevención de Comandancia y otras unidades (art. 13 del RD 179/2005).
+
+### ¿Puede un trabajador dejar de trabajar si hay peligro?
+La Ley reconoce el derecho a interrumpir la actividad y abandonar el lugar de trabajo ante un riesgo grave e inminente para la vida o la salud (art. 21.2). En las actividades policiales excluidas rige la normativa específica.
+
+### ¿Hay datos oficiales de cuántas preguntas hay de este tema?
+No. Las bases no desglosan preguntas por tema; lo prudente es estudiarlo completo.',
+   '/blog/prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra.jpg', 'Guardias civiles con chaleco reflectante evacuando vehículos entre el humo de un incendio', 'publicado', '2026-12-26T06:50:00.000Z', 'acceso-guardia-civil',
+   ARRAY['prevención de riesgos laborales', 'Ley 31/1995', 'Real Decreto 179/2005', 'temario']::text[], '{"title":"Prevención de riesgos laborales Guardia Civil: temario","description":"Tema de prevención de riesgos laborales: Ley 31/1995 (caps. I, II, III, VI y VII), RD 67/2010 y RD 179/2005 de la Guardia Civil, con casos y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -904,7 +984,7 @@ Ante la Agencia Española de Protección de Datos o, en su ámbito, la autoridad
 
 ### ¿Entra en el programa todo el texto de la LO 3/2018?
 No: según el alcance publicado, los Títulos I a VIII.',
-   NULL, NULL, 'publicado', '2026-12-27T06:07:00.000Z', 'acceso-guardia-civil',
+   '/blog/proteccion-de-datos-para-la-oposicion-rgpd-y-lopdgdd.jpg', 'Aspirante con un portátil junto a un candado cerrado, un móvil y un archivador', 'publicado', '2026-12-24T06:16:00.000Z', 'acceso-guardia-civil',
    ARRAY['protección de datos', 'RGPD', 'LOPDGDD', 'derechos', 'temario']::text[], '{"title":"Protección de datos en la oposición: RGPD y LO 3/2018","description":"Tema de protección de datos: RGPD y LO 3/2018, principios, derechos, menores, videovigilancia, delegado, brechas, AEPD y títulos del programa."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1043,7 +1123,7 @@ Con la LO 1/2025 se han integrado como Secciones de Violencia sobre la Mujer de 
 ### ¿Entra la ley entera?
 
 Sí: el programa la incluye completa en el tema 21. Comprueba la convocatoria vigente por si cambia.',
-   NULL, NULL, 'publicado', '2026-12-29T06:41:00.000Z', 'acceso-guardia-civil',
+   '/blog/violencia-de-genero-lo-1-2004-claves-para-el-examen.jpg', 'Guardia civil escuchando con cercanía a una mujer sentada a una mesa con un vaso de agua y un pañuelo', 'publicado', '2026-12-29T06:41:00.000Z', 'acceso-guardia-civil',
    ARRAY['violencia de género', 'lo 1/2004', 'temario', 'víctimas']::text[], '{"title":"Violencia de género LO 1/2004: resumen para opositores","description":"LO 1/2004 para opositores a Guardia Civil: definición, estructura por títulos, derechos de las víctimas, unidades policiales, juzgados, medidas y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

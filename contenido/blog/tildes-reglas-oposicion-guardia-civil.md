@@ -3,7 +3,7 @@ titulo: Tildes en la oposición a Guardia Civil: las reglas que más fallan los 
 slug: tildes-reglas-oposicion-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-01T07:45:00+01:00
+publicado_en: 2026-11-14T07:56:00+01:00
 curso: acceso-guardia-civil
 entradilla: La prueba de ortografía excluye con seis errores, y las tildes son una fuente constante de fallos. Reglas generales, diptongos e hiatos, tilde diacrítica, «solo» y «aún», casos especiales y un ejercicio resuelto como el del examen.
 etiquetas: [ortografía, tildes, acentuación, examen]

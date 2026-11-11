@@ -3,7 +3,7 @@ titulo: Natación 50 metros Guardia Civil: aprender a nadar para la oposición d
 slug: natacion-50-metros-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-21T07:55:00+01:00
+publicado_en: 2026-11-18T07:04:00+01:00
 curso: acceso-guardia-civil
 entradilla: Cincuenta metros estilo libre, un solo intento y 70 segundos para ellos y 81 para ellas (menores de 35). Qué dice la convocatoria, cómo repartir el ritmo y un plan por fases para llegar desde cero.
 etiquetas: [pruebas físicas, natación, 50 metros, entrenamiento]

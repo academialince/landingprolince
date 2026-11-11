@@ -3,7 +3,7 @@ titulo: Unión Europea en la oposición: las instituciones que tienes que domina
 slug: union-europea-en-la-oposicion-las-instituciones
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-12T07:52:00+01:00
+publicado_en: 2026-12-11T07:35:00+01:00
 curso: acceso-guardia-civil
 entradilla: Las siete instituciones del artículo 13 del Tratado de la Unión Europea, su composición y mandatos, los principios, las competencias y los actos jurídicos, y el espacio de libertad, seguridad y justicia. Con errores típicos y un test propio.
 etiquetas: [Unión Europea, instituciones, Derecho de la UE, temario]

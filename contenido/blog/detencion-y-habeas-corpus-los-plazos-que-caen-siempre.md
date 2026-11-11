@@ -3,7 +3,7 @@ titulo: Detención y habeas corpus: los plazos que tienes que conocer
 slug: detencion-y-habeas-corpus-los-plazos-que-caen-siempre
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-17T07:17:00+01:00
+publicado_en: 2026-12-15T07:43:00+01:00
 curso: acceso-guardia-civil
 entradilla: 72 horas, 24 horas, 3 horas, 5 días. Cómo encajan los plazos de la detención del artículo 17 de la Constitución y de los artículos 496 y 520 de la LECrim, los derechos del detenido y el habeas corpus de la LO 6/1984, comprobados en el BOE.
 etiquetas: [detención, habeas corpus, LECrim, artículo 17, derecho procesal]

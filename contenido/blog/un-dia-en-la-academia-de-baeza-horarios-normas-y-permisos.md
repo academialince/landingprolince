@@ -3,13 +3,15 @@ titulo: Vida en la Academia de Baeza: horarios, normas y permisos según la norm
 slug: un-dia-en-la-academia-de-baeza-horarios-normas-y-permisos
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-07T07:14:00+01:00
+publicado_en: 2027-01-06T07:57:00+01:00
 curso: acceso-guardia-civil
 entradilla: Internado, uniforme, guardias, evaluación continua y un horario con límites fijados por norma. Qué dicen las órdenes PCM/6/2021 y PCM/576/2021 sobre el día a día del alumno en Baeza, qué no es público (el horario exacto) y cómo llegar preparado.
 etiquetas: [baeza, academia, alumnos, régimen interior]
 seo_title: Academia de Baeza: horarios, normas y permisos
 seo_description: Vida en la Academia de Baeza según la normativa: internado, límites de horario, uniformidad, guardias, salidas, permisos, evaluación y causas de baja.
 datos: {}
+portada: /blog/un-dia-en-la-academia-de-baeza-horarios-normas-y-permisos.jpg
+portada_alt: Alumnos uniformados formados al amanecer ante el edificio histórico de una academia de la Guardia Civil
 ---
 Respuesta corta: el horario de Baeza hora a hora no es un dato público y lo fija cada curso el régimen interior del centro. Lo que sí está en el BOE son los **límites y las reglas** de la vida del alumno: internado como norma general, un máximo de ocho horas programadas al día y treinta y cinco a la semana, al menos ocho horas de descanso nocturno, uniformidad estricta, guardias y salidas condicionadas al rendimiento y al comportamiento. Aquí tienes lo verificable, sin leyendas de cuartel.
 

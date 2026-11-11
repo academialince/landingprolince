@@ -3,13 +3,15 @@ titulo: Topografía para Guardia Civil: escalas, curvas de nivel y pendientes
 slug: topografia-para-guardia-civil-escalas-curvas-de-nivel
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-17T07:04:00+01:00
+publicado_en: 2027-01-04T07:23:00+01:00
 curso: acceso-guardia-civil
 entradilla: El tema 18, Topografía, mezcla conceptos sencillos con cuentas fáciles de fallar. Escalas, unidades angulares, curvas de nivel, pendientes, coordenadas y acimut, con ejemplos resueltos, dos preguntas oficiales y un mini test.
 etiquetas: [topografía, temario, escalas, curvas de nivel]
 seo_title: Topografía Guardia Civil: escalas, curvas y pendientes
 seo_description: Tema 18 de Guardia Civil: escalas, unidades angulares, curvas de nivel, pendientes y acimut, con ejemplos resueltos, preguntas oficiales y mini test.
 datos: {}
+portada: /blog/topografia-para-guardia-civil-escalas-curvas-de-nivel.jpg
+portada_alt: Manos trazando una medida con lápiz y regla sobre un mapa topográfico con una brújula de placa
 ---
 **Respuesta corta:** el tema 18 del programa, Topografía, cabe en un párrafo del temario oficial: elementos geográficos, unidades de medida y representación del terreno. Casi todo se reduce a seis ideas: escala, unidades angulares, curvas de nivel, pendiente, coordenadas y orientación. Con tres fórmulas y práctica, es de los temas más asequibles; el riesgo está en las cuentas, no en la teoría.
 

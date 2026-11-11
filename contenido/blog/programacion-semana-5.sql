@@ -156,8 +156,170 @@ Diez con carácter general; cinco para refugiados; dos para iberoamericanos, and
 
 ### ¿Es lo mismo el Registro Civil que el Código Civil?
 No. El Código menciona el Registro Civil en varios artículos (por ejemplo, el 300), pero su regulación está en otra ley. Comprueba qué normas entran en tu convocatoria.',
-   '/blog/derecho-civil-en-la-oposicion-a-guardia-civil.jpg', 'Opositor subrayando de noche un código grueso lleno de pestañas de colores junto a un flexo', 'publicado', '2026-12-11T06:35:00.000Z', 'acceso-guardia-civil',
+   '/blog/derecho-civil-en-la-oposicion-a-guardia-civil.jpg', 'Opositor subrayando de noche un código grueso lleno de pestañas de colores junto a un flexo', 'publicado', '2026-12-13T06:09:00.000Z', 'acceso-guardia-civil',
    ARRAY['Derecho Civil', 'Código Civil', 'temario', 'nacionalidad']::text[], '{"title":"Derecho Civil para la oposición: Título Preliminar y Libro I","description":"Derecho Civil para Guardia Civil: fuentes del Derecho, vigencia de las leyes, nacionalidad, matrimonio, mayoría de edad y apoyos, con casos y test."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('derecho-penal-para-guardia-civil-delito-penas-y-grados', 'articulo', 'Derecho Penal para Guardia Civil: delito, penas y grados de ejecución', 'Qué es un delito según el Código Penal, cómo se clasifican las penas, en qué se diferencian tentativa y consumación, quién responde como autor o cómplice y cuándo prescribe un delito. La parte general del tema, con casos y un test propio.', 'El tema 8 del programa, «Derecho Penal», se apoya en la Ley Orgánica 10/1995, del Código Penal ([BOE-A-1995-25444](https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444)). **Respuesta corta:** un delito es una acción u omisión dolosa o imprudente penada por la ley (art. 10); las penas se clasifican en graves, menos graves y leves según su naturaleza y duración (art. 33); y son punibles el delito consumado y la tentativa (art. 15).
+
+Todos los artículos citados se han comprobado en el texto consolidado. El Código Penal se reforma a menudo, así que estudia siempre sobre la versión vigente del BOE.
+
+## Qué entra del Código Penal
+
+Según nuestro [temario](/temario-guardia-civil), el programa incluye:
+
+| Parte | Títulos | Contenido |
+|---|---|---|
+| Título Preliminar | Completo | Garantías penales y aplicación de la ley penal |
+| Libro I (parte general) | I, II, III (Cap. I), IV, V (Caps. I y II) y VII | Infracción penal, personas responsables, clases de penas, medidas de seguridad, responsabilidad civil y extinción de la responsabilidad |
+| Libro II (delitos) | I, III, VI, VII, VII bis, VIII, XII (Caps. I y II), XIX, XXI y XXIV | Homicidio, lesiones, delitos contra la libertad, torturas e integridad moral, trata de seres humanos, libertad sexual, relaciones familiares, Administración pública, Constitución y Comunidad Internacional |
+
+Este artículo se centra en la parte general, que es la base para entender cualquier delito concreto.
+
+## Garantías: el Título Preliminar
+
+- **Legalidad (art. 1):** no se castiga ninguna acción u omisión que no esté prevista como delito por una ley **anterior** a su perpetración.
+- **Irretroactividad (art. 2):** ningún delito se castiga con pena no prevista antes. Excepción: las leyes penales **que favorecen al reo** tienen efecto retroactivo, **incluso si ya hay sentencia firme** y el condenado está cumpliendo condena; en caso de duda, se oye al reo.
+- **Garantía de ejecución (art. 3):** solo se ejecutan penas en virtud de **sentencia firme** de juez o tribunal competente.
+- **Culpabilidad (art. 5):** **no hay pena sin dolo o imprudencia.**
+
+## Qué es un delito
+
+El artículo 10 lo define: **acciones y omisiones dolosas o imprudentes penadas por la ley**. Matices:
+
+- La **imprudencia** solo se castiga cuando la ley lo dispone expresamente (art. 12).
+- **Comisión por omisión (art. 11):** no evitar un resultado equivale a causarlo cuando se infringe un especial deber jurídico, porque hay una **obligación legal o contractual de actuar** o porque el omitente **creó antes el riesgo**.
+- **Error (art. 14):** el error invencible sobre un hecho constitutivo de la infracción excluye la responsabilidad; si es vencible, se castiga como imprudencia, en su caso. El error invencible sobre la **ilicitud** del hecho también la excluye; si es vencible, pena inferior en uno o dos grados.
+- **Menores de dieciocho años (art. 19):** no responden con arreglo al Código Penal, sino a la ley que regula la responsabilidad penal del menor.
+
+## Delitos graves, menos graves y leves
+
+El artículo 13 clasifica los delitos según su pena, y el 33 define cada clase. Si una pena puede encajar a la vez en grave y menos grave, el delito es **grave**; si puede ser leve y menos grave, es **leve** (art. 13.4).
+
+| Clase | Ejemplos de pena (art. 33) |
+|---|---|
+| **Graves** | Prisión permanente revisable; prisión **superior a cinco años**; inhabilitación absoluta; privación del derecho a conducir o a tener armas por más de ocho años |
+| **Menos graves** | Prisión de **tres meses hasta cinco años**; multa de **más de tres meses**; privación del permiso de conducir de un año y un día a ocho años; trabajos en beneficio de la comunidad de **31 días a un año** |
+| **Leves** | Multa de **hasta tres meses**; localización permanente de **un día a tres meses**; privación del permiso de conducir de tres meses a un año; trabajos en beneficio de la comunidad de **uno a treinta días** |
+
+Otros datos de la parte general:
+
+- **Penas privativas de libertad (art. 35):** prisión permanente revisable, prisión, localización permanente y responsabilidad personal subsidiaria por impago de multa.
+- **Duración de la prisión (art. 36.2):** mínimo **tres meses** y máximo **veinte años**, salvo lo que excepcionalmente dispongan otros preceptos.
+- **Personas jurídicas (art. 33.7):** todas sus penas se consideran graves.
+
+## Grados de ejecución
+
+Piensa en el camino del delito, del pensamiento al resultado:
+
+1. **Actos preparatorios punibles (arts. 17 y 18):** la **conspiración** (dos o más personas se conciertan y resuelven ejecutar un delito), la **proposición** (quien ha resuelto delinquir invita a otros) y la **provocación** (incitación directa con publicidad o ante una concurrencia de personas). Solo se castigan **en los casos expresamente previstos**. Si a la provocación sigue el delito, se castiga como **inducción**.
+2. **Tentativa (art. 16.1):** el sujeto da principio a la ejecución **directamente por hechos exteriores**, practicando todos o parte de los actos que deberían producir el resultado, pero este no se produce por **causas independientes de su voluntad**. Pena inferior en **uno o dos grados** (art. 62).
+3. **Consumación:** se produce el resultado.
+
+**Desistimiento (art. 16.2 y 3):** queda exento de responsabilidad por el delito intentado quien evita **voluntariamente** la consumación, desistiendo o impidiendo el resultado, sin perjuicio de los actos ya ejecutados si constituyen otro delito. Si intervienen varios, solo queda exento el que desiste e impide o intenta impedir, **seria, firme y decididamente**, la consumación.
+
+## Quién responde: autores y cómplices
+
+Son criminalmente responsables **los autores y los cómplices** (art. 27).
+
+| Figura | Definición | Artículo |
+|---|---|---|
+| Autor directo, coautor y autor mediato | Realiza el hecho por sí solo, conjuntamente o por medio de otro del que se sirve como instrumento | 28 |
+| Inductor (se considera autor) | Induce directamente a otro a ejecutarlo | 28.a |
+| Cooperador necesario (se considera autor) | Coopera con un acto sin el cual no se habría efectuado | 28.b |
+| Cómplice | Coopera con actos anteriores o simultáneos no imprescindibles | 29 |
+
+## Eximentes, atenuantes y agravantes
+
+- **Eximentes (art. 20):** anomalía o alteración psíquica, intoxicación plena, alteraciones de la percepción desde el nacimiento o la infancia, **legítima defensa** (agresión ilegítima, necesidad racional del medio empleado y falta de provocación suficiente), **estado de necesidad**, **miedo insuperable** y **cumplimiento de un deber o ejercicio legítimo de un derecho, oficio o cargo**. Esta última es la que ampara, con proporcionalidad, la actuación de un agente.
+- **Atenuantes (art. 21):** eximentes incompletas, grave adicción, arrebato u obcecación, **confesión** antes de conocer que el procedimiento se dirige contra el culpable, **reparación del daño** antes del juicio oral, **dilaciones indebidas** y la de análoga significación.
+- **Agravantes (art. 22):** alevosía, disfraz o abuso de superioridad, precio, motivos discriminatorios, ensañamiento, abuso de confianza, **prevalerse del carácter público** del culpable y **reincidencia**.
+
+## Extinción y prescripción (Título VII)
+
+La responsabilidad criminal se extingue por la muerte del reo, el cumplimiento de la condena, la remisión definitiva de la pena, la **amnistía o el indulto**, el perdón del ofendido en los casos previstos y la **prescripción del delito o de la pena** (art. 130).
+
+| Pena máxima del delito | Prescribe a los (art. 131) |
+|---|---|
+| Prisión de 15 o más años | 20 años |
+| Inhabilitación de más de 10 años o prisión de más de 10 y menos de 15 | 15 años |
+| Prisión o inhabilitación de más de 5 y hasta 10 años | 10 años |
+| Resto de delitos | 5 años |
+| Delitos leves e injurias y calumnias | 1 año |
+
+No prescriben nunca los delitos de lesa humanidad, genocidio y contra personas y bienes protegidos en conflicto armado (salvo los del art. 614), ni los de terrorismo que hayan causado la muerte de una persona.
+
+## Casos prácticos (hipotéticos)
+
+1. **El ladrón sorprendido.** Alguien fuerza la puerta de un coche y la patrulla le detiene antes de que se lleve nada: ha dado principio a la ejecución por hechos exteriores y el resultado no se produce por causas ajenas a su voluntad. Es **tentativa**.
+2. **El arrepentido.** Si, a medio forzar la puerta, se marcha por decisión propia, hay **desistimiento voluntario**: no responde por el delito intentado, pero sí por los daños causados si constituyen delito.
+3. **El vigilante.** Quien vigila la calle mientras otros roban, con una aportación que no es imprescindible, es **cómplice**; quien facilita la única llave sin la cual no se habría cometido el robo, **cooperador necesario**.
+
+## Errores frecuentes
+
+- **Confundir conspiración y proposición:** en la conspiración se conciertan varios; en la proposición, uno que ya ha decidido invita a otros.
+- **Creer que el cooperador necesario es cómplice:** el artículo 28 lo **considera autor**.
+- **Decir que la tentativa se castiga igual que el delito consumado:** pena inferior en uno o dos grados.
+- **Mezclar las multas:** «hasta tres meses», leve; «más de tres meses», menos grave.
+
+## Mini test propio
+
+Preguntas elaboradas por ProLince; no son preguntas oficiales.
+
+**1. Según el artículo 10 del Código Penal, son delitos:**
+a) Las acciones dolosas penadas por la ley. b) Las acciones y omisiones dolosas o imprudentes penadas por la ley. c) Las infracciones de la ley penal y administrativa. d) Las conductas antijurídicas.
+
+**2. La prisión de tres meses a cinco años es una pena:**
+a) Grave. b) Menos grave. c) Leve. d) Accesoria.
+
+**3. Quien coopera con un acto sin el cual el delito no se habría efectuado es considerado:**
+a) Cómplice. b) Encubridor. c) Autor. d) Inductor.
+
+**4. Los delitos leves prescriben:**
+a) Al mes. b) A los seis meses. c) Al año. d) A los cinco años.
+
+**5. A los autores de tentativa se les impone la pena:**
+a) Del delito consumado. b) Inferior en uno o dos grados. c) Inferior en tres grados. d) De multa.
+
+**Soluciones:** 1-b (art. 10); 2-b (art. 33.3); 3-c (art. 28.b); 4-c (art. 131.1); 5-b (art. 62).
+
+## Cómo estudiarlo
+
+- Haz un esquema de un folio con **definiciones literales** (delito, tentativa, conspiración, proposición, autor, cómplice), porque las diferencias están en las palabras.
+- Construye tu propia **tabla de penas** del artículo 33 y otra de **prescripción** del artículo 131.
+- Relaciona las garantías con los artículos 9.3 y 25 de la Constitución, que tienes en [cómo estudiar la Constitución](/blog/constitucion-oposicion-guardia-civil) y en [derechos fundamentales y libertades públicas](/blog/derechos-fundamentales-libertades-publicas-guardia-civil).
+- Compara la analogía prohibida en Derecho Penal con lo que viste en [Derecho Civil](/blog/derecho-civil-en-la-oposicion-a-guardia-civil) (art. 4.2 del Código Civil), y repasa cómo puntúan los errores en la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
+
+Si te falta base jurídica, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te guía por el temario.
+
+## Preguntas frecuentes
+
+### ¿Cuántos delitos hay que estudiar de la parte especial?
+Solo los títulos del Libro II que selecciona el programa: I, III, VI, VII, VII bis, VIII, XII (Caps. I y II), XIX, XXI y XXIV.
+
+### ¿La tentativa se castiga igual que el delito consumado?
+No: se impone la pena inferior en uno o dos grados (art. 62).
+
+### ¿Se castiga siempre la conspiración?
+No. La conspiración y la proposición solo se castigan en los casos especialmente previstos en la ley (art. 17.3).
+
+### ¿Responde penalmente un menor de 18 años?
+No con arreglo al Código Penal; responde conforme a la ley de responsabilidad penal del menor (art. 19).
+
+### ¿Puede aplicarse una ley penal nueva a hechos anteriores?
+Solo si favorece al reo, incluso con sentencia firme (art. 2.2).
+
+### ¿Cuál es la duración máxima ordinaria de la prisión?
+Veinte años, salvo lo que excepcionalmente dispongan otros preceptos (art. 36.2), y sin contar la prisión permanente revisable.',
+   '/blog/derecho-penal-para-guardia-civil-delito-penas-y-grados.jpg', 'Opositora subrayando de noche un código abierto bajo la luz de un flexo, con un esquema a mano en el cuaderno', 'publicado', '2026-12-14T06:26:00.000Z', 'acceso-guardia-civil',
+   ARRAY['derecho penal', 'código penal', 'delito', 'penas', 'temario']::text[], '{"title":"Derecho Penal Guardia Civil: delito, penas y tentativa","description":"Parte general del Código Penal para la oposición a Guardia Civil: delito, clases de penas, tentativa, autoría, eximentes, prescripción y test propio."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -344,6 +506,156 @@ No. El Convenio es del Consejo de Europa (1950) y lo aplica el Tribunal de Estra
 Es el tema 1 del programa de 23 temas de conocimientos. No hay datos oficiales del número de preguntas por tema, así que lo prudente es estudiarlo entero.',
    '/blog/derechos-humanos-en-el-temario-declaracion-universal.jpg', 'Opositora subrayando un texto legal mientras, al otro lado del cristal, una guardia civil atiende a una vecina', 'publicado', '2026-12-10T06:18:00.000Z', 'acceso-guardia-civil',
    ARRAY['derechos humanos', 'Declaración Universal', 'Convenio Europeo', 'temario']::text[], '{"title":"Derechos Humanos: Declaración Universal y Convenio Europeo","description":"Derechos Humanos para la Guardia Civil: Declaración Universal de 1948, Convenio Europeo, Tribunal de Estrasburgo y su relación con la Constitución."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('detencion-y-habeas-corpus-los-plazos-que-caen-siempre', 'articulo', 'Detención y habeas corpus: los plazos que tienes que conocer', '72 horas, 24 horas, 3 horas, 5 días. Cómo encajan los plazos de la detención del artículo 17 de la Constitución y de los artículos 496 y 520 de la LECrim, los derechos del detenido y el habeas corpus de la LO 6/1984, comprobados en el BOE.', 'La detención es uno de los bloques más prácticos del temario jurídico. **Respuesta corta:** la detención preventiva no puede durar más del **tiempo estrictamente necesario** para las averiguaciones y, **en todo caso**, en un máximo de **72 horas** el detenido debe quedar en libertad o a disposición judicial (art. 17.2 de la Constitución y art. 520.1 de la LECrim). La LECrim conserva además las **24 horas** de su artículo 496 para entregar al detenido al juez más próximo. Y el *habeas corpus* es el procedimiento para que un juez compruebe de inmediato si una detención es legal: debe resolverse en **24 horas** desde el auto de incoación.
+
+Fuentes (textos consolidados): la [Constitución](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), la [Ley de Enjuiciamiento Criminal](https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036) y la [LO 6/1984, de Habeas Corpus](https://www.boe.es/buscar/act.php?id=BOE-A-1984-11620). Si aún no has repasado el artículo 17 de la Constitución, empieza por el de [derechos fundamentales](/blog/derechos-fundamentales-libertades-publicas-guardia-civil).
+
+## Todos los plazos en una tabla
+
+| Plazo | Qué mide | Desde cuándo | Norma |
+|---|---|---|---|
+| **El estrictamente necesario** | Duración de la detención preventiva | Detención | Art. 17.2 CE; art. 520.1 LECrim |
+| **72 horas** | Límite máximo absoluto para poner al detenido en libertad o a disposición judicial | Detención | Art. 17.2 CE; art. 520.1 LECrim |
+| **24 horas** | Plazo para que quien detiene (particular, autoridad o agente) libere o entregue al detenido al juez más próximo; si la demora excede de 24 horas, responsabilidad penal | Detención | Art. 496 LECrim |
+| **72 horas** | Plazo del juez para elevar la detención a prisión o dejarla sin efecto | Entrega al juez | Art. 497 LECrim |
+| **24 horas** | Detención de un menor hasta su libertad o puesta a disposición del Ministerio Fiscal | Detención | Art. 17.4 LO 5/2000 |
+| **24 horas** | Plazo para practicar las actuaciones y resolver el habeas corpus | Auto de incoación | Art. 7 LO 6/1984 |
+
+## Cómo encajan las 24 y las 72 horas
+
+La LECrim dice dos cosas a la vez:
+
+1. **El techo constitucional es de 72 horas.** El artículo 17.2 de la Constitución, reproducido en el 520.1 de la LECrim, fija dos límites: uno **relativo** (el tiempo estrictamente necesario para esclarecer los hechos) y uno **absoluto** (72 horas). El Tribunal Constitucional ha insistido en que las 72 horas no son un plazo del que la policía pueda disponer libremente: si las diligencias terminan antes, el detenido debe pasar a disposición judicial o quedar libre en ese momento, aunque no hayan transcurrido las 72 horas.
+2. **El artículo 496 sigue vigente con sus 24 horas.** Es un precepto de la redacción original de la ley y obliga al particular, a la autoridad o al agente que detiene a liberar o entregar al detenido **al juez más próximo** en las 24 horas siguientes. El propio artículo 520.1 manda respetar «los plazos establecidos en la presente Ley» **y, en todo caso**, las 72 horas.
+3. **Las 72 horas del artículo 497 son otra cosa:** empiezan cuando el detenido **ya está ante el juez**, que debe decidir si eleva la detención a prisión o la deja sin efecto. No se suman ni se confunden con las 72 horas policiales.
+
+**Regla práctica para el examen:** fíjate en qué norma cita el enunciado. Si pregunta por el artículo 17.2 de la Constitución o por el 520 de la LECrim, la respuesta es **72 horas**; si pregunta por el artículo 496 de la LECrim, **24 horas**; si pregunta por el plazo del juez desde la entrega (art. 497), **72 horas**; y si pregunta por el habeas corpus, **24 horas desde el auto de incoación**. En los menores, la LO 5/2000 fija **24 horas** hasta la puesta a disposición del Ministerio Fiscal.
+
+## Quién puede detener (arts. 489 a 495 LECrim)
+
+- **Nadie** puede ser detenido sino en los casos y en la forma que prevén las leyes (art. 489).
+- **Cualquier persona puede detener** (art. 490), por ejemplo, al delincuente *in fraganti* o a quien vaya a cometer un delito.
+- **La autoridad o el agente de Policía Judicial está obligado** a detener en esos casos y en los del artículo 492, como cuando tenga motivos racionalmente bastantes para creer en un delito y en la participación de la persona.
+- **Por delitos leves** no se detiene, salvo que el autor no tenga domicilio conocido ni dé fianza bastante (art. 495).
+
+## Los derechos del detenido (art. 520 LECrim)
+
+En el atestado deben constar el lugar y la hora de la detención y de la puesta a disposición judicial o en libertad (art. 520.1).
+
+Todo detenido debe ser informado **por escrito, en un lenguaje sencillo y accesible, en una lengua que comprenda y de forma inmediata** de los hechos que se le atribuyen, de las razones de su detención y de sus derechos (art. 520.2):
+
+| Letra | Derecho |
+|---|---|
+| a) | Guardar silencio, no contestar a alguna pregunta o declarar solo ante el juez |
+| b) | No declarar contra sí mismo y no confesarse culpable |
+| c) | Designar abogado y ser asistido por él sin demora injustificada |
+| d) | Acceder a los elementos de las actuaciones esenciales para impugnar la legalidad de la detención |
+| e) | Que se comunique a un familiar o persona que desee su detención y lugar de custodia (a los extranjeros, a su oficina consular) |
+| f) | Comunicarse por teléfono con un tercero de su elección, en presencia de un funcionario |
+| g) | Ser visitado por las autoridades consulares de su país |
+| h) | Intérprete gratuito |
+| i) | Reconocimiento por el médico forense o, en su defecto, por otro médico público |
+| j) | Solicitar asistencia jurídica gratuita |
+
+También se le informa del **plazo máximo legal** de la detención y de cómo impugnar su legalidad.
+
+Detalles concretos:
+
+- **Abogado (art. 520.5):** si no lo designa, se nombra uno de oficio; **ningún agente puede recomendarle** a quién elegir, y debe acudir en un máximo de **tres horas**.
+- **Renuncia al abogado (art. 520.8):** solo si la detención es por hechos tipificables **exclusivamente como delitos contra la seguridad del tráfico**, con información clara previa; puede revocarla en cualquier momento.
+- **Menores (art. 520.4):** se ponen a disposición de las Secciones de Menores de la Fiscalía y se comunica a quienes ejerzan la patria potestad, la tutela o la guarda de hecho.
+
+## Incomunicación y supuestos especiales
+
+- **Incomunicación (art. 509):** la acuerda **excepcionalmente el juez** por resolución motivada, ante la necesidad urgente de evitar graves consecuencias para la vida, la libertad o la integridad de una persona, o de no comprometer gravemente el proceso. Dura lo estrictamente necesario y **no más de cinco días**, prorrogables **otros cinco** en delitos del artículo 384 bis u otros cometidos concertadamente y de forma organizada por dos o más personas. **Nunca a menores de dieciséis años.**
+- **Restricción de derechos (art. 527):** al incomunicado se le puede privar, si se justifica, de designar abogado de confianza, de comunicarse con terceros (salvo juez, fiscal y médico forense), de entrevistarse reservadamente con su abogado y de acceder a las actuaciones; tendrá al menos **dos reconocimientos médicos cada 24 horas**.
+- **Terrorismo (art. 520 bis):** puesta a disposición judicial en 72 horas, prorrogables **hasta 48 horas más** si la prórroga se pide motivadamente **dentro de las primeras 48 horas** y el juez la autoriza **en las 24 siguientes**. Desarrolla la suspensión individual de derechos del artículo 55.2 de la Constitución.
+
+## El habeas corpus (LO 6/1984)
+
+Desarrolla el artículo 17.4 de la Constitución y sirve para obtener la **inmediata puesta a disposición judicial** de cualquier persona detenida ilegalmente. Se consideran ilegalmente detenidas (art. 1):
+
+1. Quienes lo sean sin que concurran los supuestos legales o sin las formalidades exigidas.
+2. Quienes estén ilícitamente internados en cualquier establecimiento o lugar.
+3. Quienes lo estén por plazo superior al legal sin ser liberados o entregados al juez más próximo.
+4. Quienes no vean respetados los derechos que la Constitución y las leyes procesales garantizan a todo detenido.
+
+| Cuestión | Regla | Art. |
+|---|---|---|
+| Juez competente | El de instrucción del lugar donde esté el detenido; si no consta, el del lugar de la detención; si no, el de las últimas noticias. Juez Central de Instrucción en los casos del artículo 55.2 CE; Juez Togado Militar de Instrucción en la jurisdicción militar | 2 |
+| Quién puede instarlo | El privado de libertad, su cónyuge o pareja, descendientes, ascendientes, hermanos, los representantes legales de menores, el apoyo con facultades de representación de personas con discapacidad, el **Ministerio Fiscal**, el **Defensor del Pueblo** y el **abogado defensor**; el juez, también de oficio | 3 |
+| Forma | Escrito o comparecencia, **sin abogado ni procurador** | 4 |
+| Deber de los agentes | Comunicar **inmediatamente** al juez la solicitud del detenido; si no, apercibimiento y posibles responsabilidades penales y disciplinarias | 5 |
+| Admisión | Traslado al fiscal y **auto** de incoación o de denegación, **sin recurso** | 6 |
+| Plazo | Actuaciones y resolución en **24 horas** desde el auto de incoación | 7 |
+| Decisión | Archivo si la detención es conforme a Derecho; si no, libertad, continuación en otro lugar o bajo otra custodia, o puesta inmediata a disposición judicial | 8 |
+| Consecuencias | Testimonio por posibles delitos; costas si hubo temeridad o mala fe | 9 |
+
+## Responsabilidad penal del agente
+
+El Código Penal castiga a la autoridad o funcionario que prolongue una privación de libertad **violando los plazos** u otras garantías (art. 530) y a quien impida la asistencia de abogado o no informe al detenido de sus derechos (art. 537). Repasa la parte general en [Derecho Penal](/blog/derecho-penal-para-guardia-civil-delito-penas-y-grados).
+
+## Casos prácticos (hipotéticos)
+
+1. **Detenido a las 10:00 del lunes.** El límite absoluto vence a las 10:00 del jueves, pero si el atestado se cierra el lunes a las 20:00, ese es el momento de ponerlo a disposición judicial o en libertad.
+2. **Un detenido pide habeas corpus en el calabozo.** El agente no valora si tiene razón: comunica la solicitud inmediatamente al juez (art. 5).
+3. **Un menor de quince años detenido.** 24 horas como máximo hasta la Fiscalía de Menores (LO 5/2000), y nunca incomunicado (art. 509.4 LECrim).
+
+## Errores frecuentes
+
+- Creer que las 72 horas son un plazo «disponible» y no un **máximo**.
+- Sumar las 72 horas policiales y las 72 del artículo 497 como si fueran el mismo plazo.
+- Pensar que el habeas corpus exige abogado.
+
+## Mini test propio
+
+Preguntas elaboradas por ProLince; no son preguntas oficiales.
+
+**1. Según el artículo 496 de la LECrim, quien detiene debe liberar o entregar al detenido al juez más próximo en:**
+a) 12 horas. b) 24 horas. c) 48 horas. d) 72 horas.
+
+**2. El plazo máximo de la detención preventiva según el artículo 17.2 de la Constitución es:**
+a) 24 horas. b) 48 horas. c) 72 horas. d) 5 días.
+
+**3. El juez debe resolver el habeas corpus en:**
+a) 24 horas desde la detención. b) 24 horas desde el auto de incoación. c) 72 horas. d) 3 días hábiles.
+
+**4. ¿Quién no está legitimado para instar el habeas corpus?**
+a) El Defensor del Pueblo. b) El Ministerio Fiscal. c) Un vecino del detenido. d) El abogado defensor.
+
+**5. ¿Pueden incomunicarse los menores de dieciséis años?**
+a) Sí, con auto judicial. b) Sí, hasta 24 horas. c) Solo en terrorismo. d) En ningún caso.
+
+**Soluciones:** 1-b; 2-c; 3-b (art. 7 LO 6/1984); 4-c (art. 3); 5-d (art. 509.4).
+
+## Cómo estudiarlo
+
+Haz tu propia tabla (plazo, desde cuándo, norma, qué pasa al vencer) y practica con preguntas que mezclen normas, como las del [test de la Constitución](/blog/test-constitucion-20-preguntas-guardia-civil). Repasa también el artículo 55.2 en [cómo estudiar la Constitución](/blog/constitucion-oposicion-guardia-civil). Si quieres apoyo, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye el temario jurídico.
+
+## Preguntas frecuentes
+
+### ¿Cuánto puede durar una detención?
+El tiempo estrictamente necesario y, en todo caso, 72 horas como máximo (art. 17.2 CE y art. 520.1 LECrim), con la prórroga del artículo 520 bis en terrorismo.
+
+### Entonces, ¿qué son las 24 horas del artículo 496?
+El plazo que esa norma da a quien detiene para liberar o entregar al detenido al juez más próximo. Convive con el techo de 72 horas: en el examen, responde según el artículo por el que te pregunten.
+
+### ¿Puede renunciar el detenido al abogado?
+Solo en detenciones por delitos exclusivamente contra la seguridad del tráfico, con información previa suficiente (art. 520.8).
+
+### ¿Cuánto puede durar la detención de un menor?
+Lo estrictamente necesario y, como máximo, 24 horas hasta su libertad o puesta a disposición del Ministerio Fiscal (art. 17.4 LO 5/2000).',
+   '/blog/detencion-y-habeas-corpus-los-plazos-que-caen-siempre.jpg', 'Dos guardias civiles en un despacho entregan un documento a una persona sentada frente a ellos', 'publicado', '2026-12-15T06:43:00.000Z', 'acceso-guardia-civil',
+   ARRAY['detención', 'habeas corpus', 'LECrim', 'artículo 17', 'derecho procesal']::text[], '{"title":"Detención y habeas corpus: plazos y derechos (art. 520)","description":"Plazos de la detención (72 h del art. 17.2 CE, 24 h del art. 496 LECrim), derechos del detenido del art. 520 y habeas corpus de la LO 6/1984, con test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -669,312 +981,8 @@ Que sus normas promoverán la igualdad efectiva en el acceso, la formación, los
 
 ### ¿Hay que saberse toda la ley?
 Solo lo que fija el programa vigente; el Capítulo II del Título II, por ejemplo, queda fuera.',
-   '/blog/igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley.jpg', 'Una guardia civil y un guardia civil revisando un parte sobre el capó del coche patrulla al amanecer', 'publicado', '2026-12-13T06:09:00.000Z', 'acceso-guardia-civil',
+   '/blog/igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley.jpg', 'Una guardia civil y un guardia civil revisando un parte sobre el capó del coche patrulla al amanecer', 'publicado', '2026-12-12T06:52:00.000Z', 'acceso-guardia-civil',
    ARRAY['igualdad', 'LO 3/2007', 'temario', 'discriminación']::text[], '{"title":"Ley de Igualdad LO 3/2007: claves para la oposición","description":"LO 3/2007 de igualdad efectiva: discriminación directa e indirecta, acoso, acciones positivas, regla 60/40, planes de igualdad y Guardia Civil. Con test."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('instituciones-internacionales-onu-otan-y-consejo-de-europa', 'articulo', 'Instituciones internacionales: ONU, OTAN y Consejo de Europa para el examen', 'Qué organismos incluye el tema 6 y cómo ordenarlos: ONU, OTAN y Consejo de Europa con sus datos clave, y una tabla de sedes de Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS, comprobadas en fuentes oficiales. Con test propio.', 'El tema 6 del programa de la Escala de Cabos y Guardias es «Instituciones internacionales» y, según nuestro [temario](/temario-guardia-civil), incluye la **ONU, el Consejo de Europa, la Unión Europea, la OTAN, INTERPOL, EUROPOL, EUROJUST, FRONTEX, CEPOL, FAO, FMI y OMS**, con su evolución histórica, ámbito geográfico, estructura y funciones. **Respuesta corta:** haz una ficha de cada organismo con fecha de creación, sede, órganos, función y relación con España. Aquí tienes los datos que hemos podido comprobar en fuentes oficiales (textos publicados en el BOE o en el DOUE y webs de cada organismo); lo que no hemos podido verificar, no lo incluimos.
-
-La Unión Europea tiene su propio artículo: [las instituciones de la UE](/blog/union-europea-en-la-oposicion-las-instituciones).
-
-## Mapa del tema por familias
-
-| Familia | Organismos | Qué los une |
-|---|---|---|
-| Sistema de Naciones Unidas | ONU, FAO, FMI, OMS | Ámbito mundial; FAO, FMI y OMS son organismos especializados vinculados a la ONU |
-| Organizaciones europeas | Consejo de Europa, Unión Europea | Ámbito europeo, pero son organizaciones distintas |
-| Defensa colectiva | OTAN | Europa y América del Norte |
-| Cooperación policial y judicial | INTERPOL (mundial); Europol, Eurojust, Frontex y CEPOL (agencias de la UE) | Lo más cercano al trabajo diario de un guardia civil |
-
-## Naciones Unidas
-
-La **Carta de las Naciones Unidas** se firmó en **San Francisco el 26 de junio de 1945** y entró en vigor el **24 de octubre de 1945**, según la [web de la ONU](https://www.un.org/es/about-us/un-charter). Hoy tiene **193 Estados miembros**, y **España fue admitida el 14 de diciembre de 1955** ([lista oficial de miembros](https://www.un.org/es/about-us/member-states)).
-
-Del [texto de la Carta](https://www.un.org/es/about-us/un-charter/full-text):
-
-- **Propósitos (art. 1):** mantener la paz y la seguridad internacionales; fomentar relaciones de amistad basadas en la igualdad de derechos y la libre determinación de los pueblos; cooperar en problemas económicos, sociales, culturales y humanitarios y en los derechos humanos.
-- **Órganos principales (art. 7):** Asamblea General, Consejo de Seguridad, Consejo Económico y Social, Consejo de Administración Fiduciaria, Corte Internacional de Justicia y Secretaría.
-- **Asamblea General (art. 18):** un voto por miembro; las cuestiones importantes se deciden por **dos tercios** de los miembros presentes y votantes.
-- **Consejo de Seguridad (arts. 23 y 27):** **quince miembros**: cinco permanentes (la Carta cita a China, Francia, la URSS, el Reino Unido y los Estados Unidos) y diez no permanentes elegidos por la Asamblea General por **dos años**, sin reelección inmediata. Las cuestiones de procedimiento requieren **nueve votos afirmativos**; las demás, nueve votos **incluidos los de todos los permanentes** (de ahí el llamado derecho de veto).
-- **Corte Internacional de Justicia (art. 92):** órgano judicial principal.
-- **Secretario General (art. 97):** lo nombra la Asamblea General a recomendación del Consejo de Seguridad.
-
-Ojo: el texto de la Carta sigue nombrando a la URSS; si una pregunta habla de «según la Carta», la respuesta literal es esa.
-
-## OTAN
-
-Según la [web oficial de la OTAN](https://www.nato.int/cps/en/natohq/topics_52044.htm), la Alianza la crearon **12 países el 4 de abril de 1949** (Tratado de Washington), hoy tiene **32 miembros** y **España se adhirió el 30 de mayo de 1982**; esa misma web sitúa su cuartel general en **Bruselas**. El instrumento de adhesión de España se publicó en el [BOE-A-1982-12535](https://www.boe.es/buscar/doc.php?id=BOE-A-1982-12535).
-
-| Art. del Tratado | Contenido |
-|---|---|
-| 1 | Resolver las controversias por medios pacíficos y abstenerse de la amenaza o el uso de la fuerza |
-| 4 | Consultas cuando, a juicio de cualquiera de las Partes, esté amenazada la integridad territorial, la independencia política o la seguridad de alguna |
-| 5 | **Defensa colectiva:** un ataque armado contra una o varias Partes en Europa o América del Norte se considera un ataque contra todas, en ejercicio de la legítima defensa del artículo 51 de la Carta de la ONU |
-| 9 | Creación de un Consejo con representación de todas las Partes |
-| 10 | Invitación a adherirse a cualquier Estado europeo, por acuerdo unánime |
-
-La relación con la UE está en el propio Tratado de la Unión: la política común de seguridad y defensa respeta las obligaciones de los Estados que consideran que su defensa común se realiza en la OTAN (art. 42.2 TUE).
-
-## Consejo de Europa
-
-Es una organización distinta de la Unión Europea. Su **Estatuto se firmó en Londres el 5 de mayo de 1949**. Según el texto publicado en el BOE ([BOE-A-1978-5972](https://www.boe.es/buscar/doc.php?id=BOE-A-1978-5972)):
-
-- **Finalidad (art. 1):** una unión más estrecha entre sus miembros para salvaguardar y promover los ideales y principios de su patrimonio común y favorecer su progreso económico y social.
-- **Ingreso (art. 4):** cualquier Estado europeo capaz de cumplir el artículo 3 puede ser invitado por el Comité de Ministros.
-- **Órganos (art. 10):** el **Comité de Ministros** y la **Asamblea** (en el texto, «Asamblea Consultiva»), asistidos por la **Secretaría**.
-- **Sede (art. 11):** **Estrasburgo**. **Lenguas oficiales (art. 12):** francés e inglés.
-- **España:** miembro de pleno derecho desde el **24 de noviembre de 1977**.
-
-Su web oficial habla hoy de [46 Estados miembros](https://www.coe.int/es/web/portal/spain). En su marco se adoptó el **Convenio Europeo de Derechos Humanos** y funciona el **Tribunal Europeo de Derechos Humanos**, también en Estrasburgo; lo conectamos con la [Declaración Universal](/blog/derechos-humanos-en-el-temario-declaracion-universal).
-
-## Cooperación policial y judicial
-
-| Organismo | Qué es | Sede y fuente |
-|---|---|---|
-| **INTERPOL** | Organización policial mundial; cada país tiene una Oficina Central Nacional; su órgano supremo es la Asamblea General | Secretaría General en **Lyon**; **196 países miembros**, según [interpol.int](https://www.interpol.int/es) |
-| **Europol** | Agencia de la UE que apoya a las policías nacionales contra la delincuencia grave que afecta a dos o más Estados y el terrorismo (art. 88 TFUE) | **La Haya** (Reglamento (UE) 2016/794) |
-| **Eurojust** | Agencia de la UE que coordina a las autoridades que investigan y persiguen la delincuencia grave transfronteriza (art. 85 TFUE) | **La Haya** (art. 79 del Reglamento (UE) 2018/1727) |
-| **Frontex** | Agencia Europea de la Guardia de Fronteras y Costas | **Varsovia** (art. 93.5 del Reglamento (UE) 2019/1896) |
-| **CEPOL** | Agencia de la UE para la formación policial | **Budapest** (art. 25.3 del Reglamento (UE) 2015/2219) |
-
-## Organismos especializados de la ONU
-
-| Organismo | Dato comprobado |
-|---|---|
-| **FAO** | Establecida en **1945**, en la Conferencia de Quebec, como organismo especializado de las Naciones Unidas; su sede se trasladó de Washington a **Roma en 1951** ([FAO](https://www.fao.org/UNFAO/Histo-s.htm)) |
-| **FMI** | Creado, junto con el Banco Mundial, en la conferencia de **Bretton Woods de julio de 1944** ([FMI](https://www.imf.org/es/about/factsheets/sheets/2022/imf-world-bank-new)) |
-| **OMS** | Fundada en **1948**; oficina central en **Ginebra** ([OMS](https://www.who.int/es/about/structure)) |
-
-No incluimos cifras de miembros de FAO, FMI y OMS: cambian y no las hemos podido confirmar con fecha en sus webs. Compruébalas en la documentación oficial de cada organismo si tu material las pide.
-
-## Errores frecuentes
-
-- **Mezclar los «consejos»:** Consejo de Seguridad (ONU), Consejo Europeo y Consejo de la UE (Unión Europea), Consejo de Europa (Estrasburgo) y el Consejo previsto en el artículo 9 del Tratado de la OTAN.
-- **Situar el Tribunal de Estrasburgo en la UE:** es del Consejo de Europa; el órgano judicial de la UE es el Tribunal de Justicia de la Unión Europea.
-- **Confundir Europol con INTERPOL:** Europol es una agencia de la UE en La Haya; INTERPOL es mundial, con sede en Lyon.
-- **Confundir fechas de España:** ONU en **1955**, Consejo de Europa en **1977** y OTAN en **1982**.
-
-## Mini test propio
-
-Preguntas elaboradas por ProLince; no son preguntas oficiales.
-
-**1. ¿Cuántos miembros tiene el Consejo de Seguridad de la ONU?**
-a) Cinco. b) Diez. c) Quince. d) Veinte.
-
-**2. La sede del Consejo de Europa, según su Estatuto, está en:**
-a) Bruselas. b) Estrasburgo. c) Luxemburgo. d) Ginebra.
-
-**3. ¿Qué artículo del Tratado del Atlántico Norte recoge la defensa colectiva?**
-a) 1. b) 4. c) 5. d) 10.
-
-**4. Frontex tiene su sede en:**
-a) La Haya. b) Budapest. c) Varsovia. d) Lyon.
-
-**5. España ingresó en la ONU en:**
-a) 1945. b) 1955. c) 1977. d) 1982.
-
-**Soluciones:** 1-c (art. 23 de la Carta); 2-b (art. 11 del Estatuto); 3-c; 4-c (art. 93.5 del Reglamento 2019/1896); 5-b (14 de diciembre de 1955).
-
-## Cómo estudiarlo
-
-1. **Una ficha por organismo:** año, sede, órganos, función y relación con España.
-2. **Una línea del tiempo:** 1944 (Bretton Woods), 1945 (Carta de la ONU y FAO), 1948 (OMS), 1949 (OTAN y Consejo de Europa), 1955 (España en la ONU), 1977 (España en el Consejo de Europa), 1982 (España en la OTAN).
-3. **Un mapa de sedes:** Bruselas (OTAN), Estrasburgo (Consejo de Europa), La Haya (Europol y Eurojust), Lyon (INTERPOL), Varsovia (Frontex), Budapest (CEPOL), Roma (FAO) y Ginebra (OMS).
-4. Para ver cómo encaja este tema con el resto del examen, repasa la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura), y si quieres un calendario para los 23 temas, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
-
-## Preguntas frecuentes
-
-### ¿Cuántos miembros tiene el Consejo de Seguridad de la ONU?
-Quince: cinco permanentes y diez no permanentes elegidos por la Asamblea General por dos años (art. 23 de la Carta).
-
-### ¿Cuándo entró España en la OTAN?
-El 30 de mayo de 1982.
-
-### ¿Es lo mismo el Consejo de Europa que la Unión Europea?
-No. El Consejo de Europa, con sede en Estrasburgo, nació con el Estatuto de Londres de 1949; la Unión Europea se rige por sus propios Tratados y tiene sus propias instituciones.
-
-### ¿Dónde tienen sede Europol, Eurojust, Frontex y CEPOL?
-Europol y Eurojust, en La Haya; Frontex, en Varsovia; CEPOL, en Budapest.
-
-### ¿Cuántos países forman INTERPOL?
-196, según su web oficial; su Secretaría General está en Lyon.
-
-### ¿Cuántos miembros tiene la OTAN?
-32, según su web oficial.',
-   '/blog/instituciones-internacionales-onu-otan-y-consejo-de-europa.jpg', 'Opositor tomando apuntes junto a un globo terráqueo y banderas de varios países', 'publicado', '2026-12-14T06:26:00.000Z', 'acceso-guardia-civil',
-   ARRAY['instituciones internacionales', 'ONU', 'OTAN', 'Consejo de Europa', 'temario']::text[], '{"title":"Instituciones internacionales: ONU, OTAN y Consejo de Europa","description":"Tema 6: ONU (Carta y órganos), OTAN (Tratado de 1949), Consejo de Europa, Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS, con sedes y test."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra', 'articulo', 'Prevención de riesgos laborales en la Guardia Civil: qué entra en el examen', 'El tema 3 combina la Ley 31/1995 con dos reales decretos. Qué capítulos entran, las definiciones, los principios de la acción preventiva y cómo se adapta todo a la Guardia Civil con el Real Decreto 179/2005, con casos y un test propio.', 'El tema 3 del programa de la Escala de Cabos y Guardias es «Prevención de riesgos laborales». **Respuesta corta:** entran cinco capítulos de la Ley 31/1995 (I, II, III, VI y VII), el Real Decreto 67/2010, que adapta la prevención a la Administración General del Estado, y el Real Decreto 179/2005, sobre prevención de riesgos laborales en la Guardia Civil. Así consta en nuestro [temario](/temario-guardia-civil), elaborado a partir de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)).
-
-Las citas se han comprobado en los textos consolidados de la [Ley 31/1995](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), el [Real Decreto 67/2010](https://www.boe.es/buscar/act.php?id=BOE-A-2010-2161) y el [Real Decreto 179/2005](https://www.boe.es/buscar/act.php?id=BOE-A-2005-3241).
-
-## Qué capítulos de la Ley 31/1995 entran
-
-| Capítulo | Título | Artículos |
-|---|---|---|
-| I | Objeto, ámbito de aplicación y definiciones | 1 a 4 |
-| II | Política en materia de prevención de riesgos | 5 a 13 |
-| III | Derechos y obligaciones | 14 a 29 |
-| VI | Obligaciones de los fabricantes, importadores y suministradores | 41 |
-| VII | Responsabilidades y sanciones | 42 a 54 |
-
-Quedan fuera los capítulos IV (servicios de prevención) y V (consulta y participación de los trabajadores, con los delegados de prevención y el Comité de Seguridad y Salud), aunque el RD 67/2010 vuelve sobre esas figuras para la Administración.
-
-## Capítulo I: objeto, ámbito y definiciones
-
-- **Objeto (art. 2):** promover la seguridad y la salud de los trabajadores mediante la aplicación de medidas y el desarrollo de las actividades necesarias para la prevención de riesgos derivados del trabajo. Sus disposiciones laborales son **Derecho necesario mínimo indisponible**, mejorable por convenio colectivo.
-- **Ámbito (art. 3.1):** relaciones laborales y también relaciones **administrativas o estatutarias** del personal de las administraciones públicas. Cuando la Ley habla de «empresario», en la Administración se entiende la propia Administración.
-- **Exclusión (art. 3.2):** la Ley **no se aplica** a las actividades cuyas particularidades lo impidan en las funciones públicas de **policía, seguridad y resguardo aduanero**; **servicios operativos de protección civil y peritaje forense** en casos de grave riesgo, catástrofe y calamidad pública; y **Fuerzas Armadas y actividades militares de la Guardia Civil**. Aun así, la Ley **inspirará** la normativa específica de esas actividades. De esta frase nace el RD 179/2005.
-
-### Definiciones del artículo 4
-
-| Término | Definición resumida |
-|---|---|
-| Prevención | Actividades o medidas adoptadas o previstas en todas las fases de la actividad para evitar o disminuir los riesgos del trabajo |
-| Riesgo laboral | Posibilidad de que un trabajador sufra un daño derivado del trabajo; su gravedad se valora con la **probabilidad** y la **severidad** |
-| Daños derivados del trabajo | Enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo |
-| Riesgo grave e inminente | El que resulte probable racionalmente que se materialice en un futuro inmediato y pueda suponer un daño grave |
-| Equipo de trabajo | Cualquier máquina, aparato, instrumento o instalación utilizada en el trabajo |
-| Equipo de protección individual | El destinado a ser llevado o sujetado por el trabajador para protegerle de uno o varios riesgos |
-
-## Capítulo III: derechos y obligaciones
-
-### El derecho de protección (art. 14)
-Los trabajadores tienen derecho a una protección eficaz en seguridad y salud, con el correlativo deber del empresario, que **también es un deber de las administraciones públicas respecto de su personal**. Ese derecho incluye información, consulta y participación, formación, paralización de la actividad ante un riesgo grave e inminente y vigilancia de la salud. El coste de las medidas de seguridad **no puede recaer sobre los trabajadores** (art. 14.5).
-
-### Principios de la acción preventiva (art. 15.1)
-Son nueve y conviene saberlos en orden:
-
-1. Evitar los riesgos.
-2. Evaluar los riesgos que no se puedan evitar.
-3. Combatir los riesgos en su origen.
-4. Adaptar el trabajo a la persona.
-5. Tener en cuenta la evolución de la técnica.
-6. Sustituir lo peligroso por lo que entrañe poco o ningún peligro.
-7. Planificar la prevención.
-8. Anteponer la protección colectiva a la individual.
-9. Dar las debidas instrucciones a los trabajadores.
-
-### El resto del capítulo, de un vistazo
-
-| Art. | Tema |
-|---|---|
-| 16 | Plan de prevención, evaluación de riesgos y planificación de la actividad preventiva |
-| 17 | Equipos de trabajo y medios de protección |
-| 18 y 19 | Información, consulta y participación; formación |
-| 20 | Medidas de emergencia |
-| 21 | Riesgo grave e inminente |
-| 22 | Vigilancia de la salud |
-| 25 a 28 | Trabajadores especialmente sensibles, maternidad, menores y relaciones temporales |
-| 29 | Obligaciones de los trabajadores |
-
-**Riesgo grave e inminente (art. 21):** el empresario debe informar lo antes posible y permitir que los trabajadores interrumpan su actividad; el trabajador tiene derecho a interrumpirla y abandonar el lugar de trabajo cuando considere que entraña un riesgo grave e inminente para su vida o su salud (art. 21.2). Si el empresario no actúa, los representantes pueden acordar por mayoría la paralización, que la autoridad laboral **anula o ratifica en veinticuatro horas** (art. 21.3).
-
-**Obligaciones del trabajador (art. 29):** usar adecuadamente máquinas y herramientas, utilizar correctamente los equipos de protección, no inutilizar los dispositivos de seguridad, informar de inmediato a su superior de cualquier riesgo, contribuir al cumplimiento de las obligaciones de la autoridad competente y cooperar con el empresario. En el empleo público, incumplirlas puede ser **falta disciplinaria** (art. 29.3).
-
-## Capítulos VI y VII: fabricantes y responsabilidades
-
-- **Art. 41:** quienes fabrican, importan o suministran maquinaria, equipos y productos deben asegurar que no son una fuente de peligro si se usan en las condiciones recomendadas.
-- **Art. 42:** el incumplimiento empresarial da lugar a responsabilidades **administrativas** y, en su caso, **penales y civiles**.
-- **Arts. 43 y 44:** la Inspección de Trabajo puede requerir la subsanación y, ante un riesgo grave e inminente, ordenar la **paralización** de los trabajos.
-- **Art. 45:** en el personal civil de las administraciones, las infracciones no se castigan con multa, sino con la imposición de **medidas correctoras**.
-- **Arts. 46 a 52:** están **derogados**; las infracciones y sanciones se trasladaron al texto refundido de la Ley sobre Infracciones y Sanciones en el Orden Social (Real Decreto Legislativo 5/2000). Si tus apuntes los desarrollan, están desfasados.
-
-## El Real Decreto 67/2010: la Administración General del Estado
-
-Adapta la Ley 31/1995 a la Administración General del Estado (art. 1). Su artículo 2 repite la exclusión de las funciones de policía, seguridad y resguardo aduanero y aclara que a las funciones de guardias civiles y policías **que no presenten características exclusivas** de esas actividades se les aplica la normativa general, con las peculiaridades de la AGE. Regula los **delegados de prevención** (art. 5), el **Comité de Seguridad y Salud** como órgano paritario y colegiado, que se constituye en los centros con **50 o más empleados públicos** (art. 6), y las modalidades de servicios de prevención (art. 7).
-
-## El Real Decreto 179/2005: la Guardia Civil
-
-| Artículo | Contenido |
-|---|---|
-| 1 | Objeto: seguridad y salud del personal del Cuerpo y de los miembros de las Fuerzas Armadas destinados en la Dirección General; se inspira en la planificación, la eliminación o disminución de riesgos, la información, la participación y consulta, la formación y la integración de la prevención |
-| 2 | Ámbito: las actividades de las misiones de la Ley Orgánica 2/1986; las **misiones militares** se rigen por sus normas específicas |
-| 3 bis | Principios de la acción preventiva adaptados al Cuerpo (añadido por el Real Decreto 67/2026, en vigor desde el 26 de febrero de 2026) |
-| 4 | Plan de prevención, evaluación de riesgos y planificación |
-| 5 | Planes de emergencia de edificios e instalaciones |
-| 6 | Vigilancia de la salud, con confidencialidad de los datos médicos |
-| 7 a 9 | Información, participación (propuestas del personal) y formación desde la incorporación |
-| 10 | Protección de la maternidad |
-| 11 y 12 | Obligaciones de la Administración y del personal |
-| 13 | **Órganos de prevención:** Servicio de Prevención, Sección de Prevención de Zona, Oficina de Prevención de Comandancia y otras unidades |
-| 14 | **Órgano de asesoramiento:** el Consejo de la Guardia Civil, que analiza y valora las propuestas del personal |
-| 15 y 16 | Inspección y control externo por la Inspección de Personal y Servicios de Seguridad; alegaciones en **30 días hábiles** |
-
-Ojo con dos novedades: el **artículo 3 bis** recoge diez principios inspirados en los de la Ley, pero adaptados («evaluar los riesgos de imposible o muy difícil evitación», «priorizar la protección colectiva sobre la individual»), y el **artículo 6** fue reformado por la misma norma de 2026. Estudia siempre la versión consolidada.
-
-## Casos prácticos (hipotéticos)
-
-1. **Una persecución en carretera.** Un guardia civil no puede alegar el artículo 21 de la Ley 31/1995 para abandonar un servicio operativo de seguridad ciudadana: esa actividad está excluida por el artículo 3.2 y se rige por el RD 179/2005, que adapta la prevención a sus peculiaridades.
-2. **Un administrativo en una oficina de la Comandancia.** Si las tareas no tienen características exclusivas de policía o seguridad (por ejemplo, trabajo con pantallas), se aplica la normativa general de prevención con las particularidades de la AGE (art. 2 del RD 179/2005).
-3. **Un chaleco antibalas defectuoso.** La Administración debe proporcionar equipos de protección individual adecuados y velar por su uso (art. 11), y el agente debe usarlos correctamente e informar de inmediato por conducto regular del defecto (art. 12).
-
-## Errores frecuentes
-
-- **Decir que la Ley 31/1995 no se aplica a la Guardia Civil:** se excluyen solo las actividades cuyas particularidades lo impidan; el resto queda dentro.
-- **Desordenar los principios del artículo 15:** el primero es *evitar*, el segundo *evaluar lo que no se pueda evitar*.
-- **Confundir el órgano de asesoramiento:** es el **Consejo de la Guardia Civil**, no el Servicio de Prevención.
-- **Estudiar multas de los artículos 46 a 52:** están derogados.
-
-## Mini test propio
-
-Preguntas elaboradas por ProLince; no son preguntas oficiales.
-
-**1. El primer principio de la acción preventiva del artículo 15 de la Ley 31/1995 es:**
-a) Evaluar los riesgos. b) Evitar los riesgos. c) Combatir los riesgos en su origen. d) Planificar la prevención.
-
-**2. La gravedad de un riesgo laboral se valora conjuntamente según:**
-a) Probabilidad y severidad. b) Frecuencia y coste. c) Duración y exposición. d) Probabilidad y número de afectados.
-
-**3. ¿Qué órgano analiza y valora las propuestas del personal de la Guardia Civil en materia preventiva?**
-a) El Servicio de Prevención. b) La Oficina de Prevención de Comandancia. c) El Consejo de la Guardia Civil. d) La Inspección de Trabajo.
-
-**4. La paralización acordada por los representantes ante un riesgo grave e inminente la anula o ratifica la autoridad laboral en:**
-a) 12 horas. b) 24 horas. c) 48 horas. d) 3 días.
-
-**5. ¿Cuál de estos capítulos de la Ley 31/1995 no entra en el programa?**
-a) I. b) III. c) V. d) VII.
-
-**Soluciones:** 1-b (art. 15.1.a); 2-a (art. 4.2.º); 3-c (art. 14 RD 179/2005); 4-b (art. 21.3); 5-c.
-
-## Cómo estudiarlo
-
-1. **Empieza por el artículo 3.2** y su razón de ser: sin él no se entiende el RD 179/2005.
-2. **Haz una tabla comparativa** Ley 31/1995 / RD 179/2005: quién es el «empresario», qué órganos hay y quién asesora.
-3. Practica con tests por capítulos y repasa cómo penalizan los errores en la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
-4. Relaciona la protección de la maternidad (art. 26 de la Ley y art. 10 del RD) con la [igualdad efectiva](/blog/igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley), y la formación preventiva desde la incorporación con lo que te espera en la [Academia de Baeza](/blog/academia-baeza-guardia-civil).
-5. Si quieres una ruta ordenada por temas, mira el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
-
-## Preguntas frecuentes
-
-### ¿Se aplica la Ley 31/1995 a la Guardia Civil?
-Sí, con matices: su artículo 3.2 excluye las actividades cuyas particularidades lo impidan en funciones de policía, seguridad y resguardo aduanero, y las actividades militares de la Guardia Civil. Para ellas rige el RD 179/2005, inspirado en la Ley.
-
-### ¿Qué órganos de prevención tiene la Guardia Civil?
-El Servicio de Prevención, las Secciones de Prevención de Zona, las Oficinas de Prevención de Comandancia y otras unidades (art. 13 del RD 179/2005).
-
-### ¿Puede un trabajador dejar de trabajar si hay peligro?
-La Ley reconoce el derecho a interrumpir la actividad y abandonar el lugar de trabajo ante un riesgo grave e inminente para la vida o la salud (art. 21.2). En las actividades policiales excluidas rige la normativa específica.
-
-### ¿Hay datos oficiales de cuántas preguntas hay de este tema?
-No. Las bases no desglosan preguntas por tema; lo prudente es estudiarlo completo.',
-   '/blog/prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra.jpg', 'Guardias civiles con chaleco reflectante evacuando vehículos entre el humo de un incendio', 'publicado', '2026-12-15T06:43:00.000Z', 'acceso-guardia-civil',
-   ARRAY['prevención de riesgos laborales', 'Ley 31/1995', 'Real Decreto 179/2005', 'temario']::text[], '{"title":"Prevención de riesgos laborales Guardia Civil: temario","description":"Tema de prevención de riesgos laborales: Ley 31/1995 (caps. I, II, III, VI y VII), RD 67/2010 y RD 179/2005 de la Guardia Civil, con casos y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -1114,7 +1122,7 @@ El mismo valor jurídico que los Tratados (art. 6.1 TUE).
 
 ### ¿Son estos datos preguntas del examen?
 Son contenidos de los Tratados. No hay datos oficiales de qué preguntas se formularán, así que conviene estudiar el tema completo.',
-   '/blog/union-europea-en-la-oposicion-las-instituciones.jpg', 'Opositor subrayando apuntes junto a un mapa de Europa y banderas de la Unión Europea', 'publicado', '2026-12-12T06:52:00.000Z', 'acceso-guardia-civil',
+   '/blog/union-europea-en-la-oposicion-las-instituciones.jpg', 'Opositor subrayando apuntes junto a un mapa de Europa y banderas de la Unión Europea', 'publicado', '2026-12-11T06:35:00.000Z', 'acceso-guardia-civil',
    ARRAY['Unión Europea', 'instituciones', 'Derecho de la UE', 'temario']::text[], '{"title":"Instituciones de la Unión Europea: guía para la oposición","description":"Las siete instituciones de la UE (art. 13 TUE), mandatos, mayoría cualificada, competencias, reglamento y directiva, y el espacio de libertad y seguridad."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

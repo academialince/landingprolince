@@ -3,7 +3,7 @@ titulo: Test de personalidad de la Guardia Civil: cómo responder con coherencia
 slug: test-personalidad-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-26T07:20:00+01:00
+publicado_en: 2026-11-30T07:28:00+01:00
 curso: acceso-guardia-civil
 entradilla: El cuestionario de personalidad no se aprueba memorizando, pero sí se puede llegar mejor o peor preparado. Qué dice la convocatoria, cómo funcionan estos test, cómo se conectan con la entrevista y qué errores cometen quienes intentan quedar bien.
 etiquetas: [psicotécnico, personalidad, entrevista, coherencia]

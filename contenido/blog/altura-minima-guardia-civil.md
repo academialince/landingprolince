@@ -3,7 +3,7 @@ titulo: Altura mínima Guardia Civil: por qué ya no se exige
 slug: altura-minima-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-13T07:39:00+01:00
+publicado_en: 2026-11-21T07:55:00+01:00
 curso: acceso-guardia-civil
 entradilla: Desde octubre de 2023 no hay estatura mínima ni máxima para entrar en la Guardia Civil. Qué se exigía antes, qué norma lo cambió y por qué, qué se sigue midiendo en el reconocimiento y cómo afecta a las pruebas físicas.
 etiquetas: [altura, estatura, cuadro médico, requisitos]

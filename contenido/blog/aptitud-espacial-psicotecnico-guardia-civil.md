@@ -3,7 +3,7 @@ titulo: Aptitud espacial en el psicotécnico: cómo resolver cubos, giros y figu
 slug: aptitud-espacial-psicotecnico-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-25T07:03:00+01:00
+publicado_en: 2026-11-29T07:11:00+01:00
 curso: acceso-guardia-civil
 entradilla: Rotar figuras, desplegar cubos y contar piezas ocultas parece cosa de talento, pero se resuelve con reglas concretas. Los ejercicios espaciales más habituales, ejemplos resueltos paso a paso y cómo practicarlos sin necesidad de «verlo» todo.
 etiquetas: [psicotécnico, aptitud espacial, cubos, figuras]

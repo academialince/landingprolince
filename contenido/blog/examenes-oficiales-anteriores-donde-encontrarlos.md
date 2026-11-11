@@ -3,13 +3,15 @@ titulo: Exámenes oficiales anteriores: dónde encontrarlos y cómo sacarles par
 slug: examenes-oficiales-anteriores-donde-encontrarlos
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-20T07:55:00+01:00
+publicado_en: 2027-01-11T07:22:00+01:00
 curso: acceso-guardia-civil
 entradilla: La Guardia Civil publica en su web cuestionarios de la prueba de conocimientos y, en 2026, también las plantillas de respuestas. Qué hemos podido comprobar, cómo corregirlos con la fórmula oficial y cómo analizarlos pregunta a pregunta.
 etiquetas: [exámenes anteriores, examen oficial, test, preparación]
 seo_title: Exámenes oficiales anteriores Guardia Civil: dónde están
 seo_description: Dónde descargar exámenes oficiales de Guardia Civil y sus plantillas, cómo corregirlos con la fórmula oficial y cómo analizar cada fallo.
 datos: {}
+portada: /blog/examenes-oficiales-anteriores-donde-encontrarlos.jpg
+portada_alt: Aspirante corrigiendo con bolígrafo rojo un cuadernillo de examen, con pilas de cuadernillos y un cronómetro
 ---
 Trabajar con exámenes reales es de lo mejor que puedes hacer, porque te enseña **cómo pregunta el Tribunal**, no cómo cree una academia que lo hace. **Respuesta corta:** en la web de la Guardia Civil hemos encontrado los cuestionarios de 2026 (modelos A y B) con su plantilla oficial de respuestas, y los de 2022 (modelos 1A, 1B, 2A y 2B). Abajo tienes los enlaces, cómo hacerlos y cómo sacarles todo el jugo.
 

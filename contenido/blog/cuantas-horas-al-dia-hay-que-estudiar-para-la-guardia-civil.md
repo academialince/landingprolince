@@ -10,6 +10,8 @@ etiquetas: [horas de estudio, organización, método, planificación]
 seo_title: Horas al día para estudiar Guardia Civil: guía con horarios
 seo_description: Cuántas horas estudiar al día para la Guardia Civil: referencia de 25 a 40 horas semanales, reparto por materias, horarios tipo y cómo medir si rinden.
 datos: {}
+portada: /blog/cuantas-horas-al-dia-hay-que-estudiar-para-la-guardia-civil.jpg
+portada_alt: Opositora tomando apuntes en su mesa, con un temporizador de cocina y un reloj de pared en primer plano
 ---
 **Respuesta corta:** no hay un número oficial ni mágico. Como **referencia**, en ProLince trabajamos con **25 a 40 horas semanales de estudio**, es decir, de unas 4 a 7 horas diarias si repartes en seis días. El entrenamiento físico va aparte. Es una orientación de academia, no un dato de la convocatoria ni una garantía: con menos horas también se puede, pero necesitas más meses.
 

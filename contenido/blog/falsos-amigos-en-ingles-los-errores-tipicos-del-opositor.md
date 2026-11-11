@@ -3,13 +3,15 @@ titulo: "Falsos amigos en inglés: los errores clásicos al traducir del españo
 slug: falsos-amigos-en-ingles-los-errores-tipicos-del-opositor
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-27T07:54:00+01:00
+publicado_en: 2027-01-21T07:12:00+01:00
 curso: acceso-guardia-civil
 entradilla: Palabras inglesas que se parecen a las españolas pero significan otra cosa. Una tabla amplia de falsos amigos con ejemplos propios, los parciales, los que encajan en contextos de seguridad y un método para no caer en un test de cuatro opciones.
 etiquetas: [inglés, falsos amigos, vocabulario, examen]
 seo_title: Falsos amigos en inglés para el examen de la Guardia Civil
 seo_description: Los falsos amigos en inglés más conocidos, con significado y ejemplo, los parciales y cómo evitar caer en ellos en un test de cuatro opciones.
 datos: {}
+portada: /blog/falsos-amigos-en-ingles-los-errores-tipicos-del-opositor.jpg
+portada_alt: Opositora comparando con el ceño fruncido dos libros abiertos sobre un escritorio
 ---
 **Respuesta corta:** un falso amigo es una palabra inglesa que se parece a una española pero significa otra cosa. En un test de cuatro opciones son un cebo perfecto, porque la opción que «suena» a español se marca por inercia. La defensa es memorizar los pares más conocidos, aprenderlos dentro de frases y desconfiar de lo que parece demasiado fácil.
 

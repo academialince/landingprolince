@@ -3,7 +3,7 @@ titulo: Derecho Penal para Guardia Civil: delito, penas y grados de ejecución
 slug: derecho-penal-para-guardia-civil-delito-penas-y-grados
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-16T07:00:00+01:00
+publicado_en: 2026-12-14T07:26:00+01:00
 curso: acceso-guardia-civil
 entradilla: Qué es un delito según el Código Penal, cómo se clasifican las penas, en qué se diferencian tentativa y consumación, quién responde como autor o cómplice y cuándo prescribe un delito. La parte general del tema, con casos y un test propio.
 etiquetas: [derecho penal, código penal, delito, penas, temario]

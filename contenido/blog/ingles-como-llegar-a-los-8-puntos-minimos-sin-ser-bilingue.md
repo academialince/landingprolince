@@ -3,13 +3,15 @@ titulo: "Inglés: cómo llegar a los 8 puntos mínimos sin ser bilingüe"
 slug: ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-02T07:36:00+01:00
+publicado_en: 2027-01-26T07:37:00+01:00
 curso: acceso-guardia-civil
 entradilla: El inglés vale 20 de los 195 puntos de la oposición, pero quedar por debajo de 8 excluye. Cómo se calcula la nota con la penalización de un tercio, qué combinaciones llegan al mínimo, cuándo compensa arriesgar y cuándo no.
 etiquetas: [inglés, nota mínima, penalización, examen]
 seo_title: Inglés Guardia Civil: cómo llegar a los 8 puntos mínimos
 seo_description: Cómo se puntúa el inglés de la Guardia Civil: 20 preguntas, el error resta un tercio y el mínimo es 8. Combinaciones, cuándo arriesgar y ejemplos.
 datos: {}
+portada: /blog/ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue.jpg
+portada_alt: Aspirante con el bolígrafo en alto ante un cuadernillo de test en un aula de examen, con un reloj de pared al fondo
 ---
 **Respuesta corta:** necesitas 8 puntos sobre 20; cada acierto suma un punto y cada error resta un tercio. Con 8 aciertos y ningún error ya llegas; con más aciertos puedes permitirte algunos errores. No necesitas ser bilingüe: necesitas asegurar las preguntas que sabes y gestionar bien las dudosas.
 

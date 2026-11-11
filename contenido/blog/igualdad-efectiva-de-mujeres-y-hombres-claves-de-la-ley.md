@@ -3,7 +3,7 @@ titulo: Igualdad efectiva de mujeres y hombres: claves de la Ley Orgánica 3/200
 slug: igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-13T07:09:00+01:00
+publicado_en: 2026-12-12T07:52:00+01:00
 curso: acceso-guardia-civil
 entradilla: El tema 2 del programa es la Ley Orgánica 3/2007. Te explicamos sus definiciones, la regla del 60/40, los planes de igualdad y lo que dice de las Fuerzas y Cuerpos de Seguridad, con casos prácticos, errores frecuentes y un test propio.
 etiquetas: [igualdad, LO 3/2007, temario, discriminación]

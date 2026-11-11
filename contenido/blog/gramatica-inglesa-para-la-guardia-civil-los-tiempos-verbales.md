@@ -3,13 +3,15 @@ titulo: "Gramática inglesa para la Guardia Civil: los tiempos verbales que conv
 slug: gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-24T07:03:00+01:00
+publicado_en: 2027-01-18T07:21:00+01:00
 curso: acceso-guardia-civil
 entradilla: El examen de inglés son 20 preguntas de nivel ESO y los tiempos verbales están en casi todas las frases. Repasamos presente, pasado, present perfect, past perfect, futuro y condicionales, con ejemplos propios y un test de diez preguntas resuelto.
 etiquetas: [inglés, gramática, tiempos verbales, examen]
 seo_title: Gramática inglesa Guardia Civil: tiempos verbales
 seo_description: Tiempos verbales en inglés para el examen de la Guardia Civil: presente, pasado, present perfect, futuro y condicionales, con test resuelto.
 datos: {}
+portada: /blog/gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales.jpg
+portada_alt: Opositora subrayando con rotulador fluorescente un cuaderno de gramática junto a un reloj de arena
 ---
 **Respuesta corta:** la convocatoria pide inglés con un nivel compatible con la ESO, así que no necesitas gramática avanzada, sino elegir bien el tiempo verbal en frases cortas. Con seis bloques tienes la base: presente, pasado, *present perfect*, *past perfect*, futuro y condicionales.
 

@@ -3,13 +3,15 @@ titulo: Cómo se asignan los primeros destinos al salir de Baeza: lo que dice el
 slug: como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-09T07:48:00+01:00
+publicado_en: 2027-01-08T07:31:00+01:00
 curso: acceso-guardia-civil
 entradilla: Tu nota final fija tu número de escalafón, y los destinos de provisión por antigüedad se asignan por escalafón. Qué dicen el Reglamento de destinos y la Orden INT/26/2021 sobre vacantes, solicitudes y primer destino, y qué decide la resolución de cada promoción.
 etiquetas: [destinos, primer destino, escalafón, reglamento]
 seo_title: Primer destino en la Guardia Civil: cómo se asigna
 seo_description: Cómo se asigna el primer destino al salir de Baeza: escalafón, vacantes de antigüedad, solicitudes voluntarias, anuentes y forzosas, según el RD 470/2019.
 datos: {}
+portada: /blog/como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil.jpg
+portada_alt: Guardia civil recién salido de la academia mirando un gran mapa de España con chinchetas en un despacho
 ---
 Respuesta corta: **no eliges libremente**, pero tu nota cuenta. Dos normas encajan entre sí: el Reglamento de ordenación de la enseñanza dice que **la calificación obtenida al concluir la formación determina el orden de escalafón**, y el Reglamento de destinos dice que los destinos de **provisión por antigüedad se asignan por el orden de escalafón** de quienes los piden y cumplen los requisitos. Lo que no existe en la normativa es una tabla de «con esta nota, este destino»: qué vacantes se ofrecen a tu promoción y cómo se tramitan lo concreta cada resolución de anuncio de vacantes.
 

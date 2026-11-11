@@ -3,13 +3,15 @@ titulo: Deontología profesional en la Guardia Civil: el Código de Conducta (RD
 slug: deontologia-profesional-el-codigo-de-conducta-que-entra
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-26T07:50:00+01:00
+publicado_en: 2026-12-21T07:25:00+01:00
 curso: acceso-guardia-civil
 entradilla: El tema 19 junta los Principios Básicos de la ONU sobre el empleo de la fuerza (La Habana, 1990) y el Código de Conducta de la Guardia Civil (RD 176/2022). Estructura, artículos clave, Decálogo, comparación entre textos, caso práctico y test.
 etiquetas: [deontología, código de conducta, rd 176/2022, uso de la fuerza]
 seo_title: Deontología Guardia Civil: Código de Conducta RD 176/2022
 seo_description: Tema 19 de Guardia Civil: estructura del Código de Conducta (RD 176/2022), Decálogo y Principios Básicos de la ONU sobre el uso de la fuerza, con test.
 datos: {}
+portada: /blog/deontologia-profesional-el-codigo-de-conducta-que-entra.jpg
+portada_alt: Guardia civil hablando con calma con un vecino en una carretera al atardecer, con el vehículo oficial al fondo
 ---
 En el programa de la Escala de Cabos y Guardias, el tema 19, «Deontología profesional», tiene dos bloques: los **Principios Básicos sobre el Empleo de la Fuerza y de Armas de Fuego por los Funcionarios Encargados de Hacer Cumplir la Ley**, adoptados por el Octavo Congreso de las Naciones Unidas sobre Prevención del Delito y Tratamiento del Delincuente (La Habana, del 27 de agosto al 7 de septiembre de 1990), y el **Real Decreto 176/2022, de 4 de marzo, por el que se aprueba el Código de Conducta del personal de la Guardia Civil** (consulta el [temario](/temario-guardia-civil)).
 

@@ -3,7 +3,7 @@ titulo: SEPRONA: la especialidad de protección de la naturaleza de la Guardia C
 slug: seprona-la-especialidad-de-proteccion-de-la-naturaleza
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-11T07:22:00+01:00
+publicado_en: 2027-01-15T07:30:00+01:00
 curso: acceso-guardia-civil
 entradilla: El SEPRONA es la policía judicial medioambiental de la Guardia Civil. Qué hace, cómo se organiza (UCOMA, equipos, patrullas, parques nacionales), qué delitos investiga y qué dice la Orden PCM/509/2020 sobre cómo se obtiene la especialidad.
 etiquetas: [seprona, medio ambiente, especialidades, protección de la naturaleza]

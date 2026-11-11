@@ -175,504 +175,8 @@ En una fila recta de cuadrados, las que están separadas por un cuadrado. En la 
 ### ¿Qué hago si no veo la solución?
 
 Descarta opciones con las reglas (caras opuestas a la vez, reflejos) y, si quedan dos o tres, decide o salta. Con una opción descartada, contestar compensa de media.',
-   '/blog/aptitud-espacial-psicotecnico-guardia-civil.jpg', 'Manos doblando el desarrollo de un cubo de papel junto a cubos de madera', 'publicado', '2026-11-25T06:03:00.000Z', 'acceso-guardia-civil',
+   '/blog/aptitud-espacial-psicotecnico-guardia-civil.jpg', 'Manos doblando el desarrollo de un cubo de papel junto a cubos de madera', 'publicado', '2026-11-29T06:11:00.000Z', 'acceso-guardia-civil',
    ARRAY['psicotécnico', 'aptitud espacial', 'cubos', 'figuras']::text[], '{"title":"Aptitud espacial psicotécnico: cubos, giros y figuras","description":"Aptitud espacial en el psicotécnico: reglas para resolver giros, desarrollos de cubos, conteo de bloques y papel doblado, con ejemplos resueltos."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('certificado-medico-pruebas-fisicas-guardia-civil', 'articulo', 'Certificado médico para las pruebas físicas: qué debe decir y cuándo pedirlo', 'Sin el certificado médico no haces las pruebas físicas: no presentarlo en los términos exigidos te excluye. La frase que debe constar, la ventana de 20 días, la ficha médica alternativa y los errores que dejan fuera a aspirantes.', 'Hay aspirantes que llegan a las pruebas físicas perfectamente entrenados y se quedan fuera en la puerta, **por un papel**. La respuesta corta: antes de empezar las pruebas tienes que entregar al Tribunal un **certificado médico oficial expedido dentro de los 20 días anteriores**, con una frase concreta que menciona los cuatro ejercicios, y en el que conste tu identidad. Si no lo presentas en esos términos, **quedas excluido del proceso**. Es un trámite sencillo, pero con condiciones muy concretas.
-
-## Qué dice exactamente la convocatoria
-
-La base 6.1.3.a de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) establece que los admitidos, antes del inicio de las pruebas físicas, entregarán al Tribunal de Selección un **Certificado Médico Oficial expedido dentro de los veinte (20) días anteriores** en el que se haga constar expresamente:
-
-> «que el aspirante se encuentra capacitado físicamente para la realización de las pruebas físicas consistentes en los ejercicios de: resistencia (carrera de 2000 metros); coordinación (circuito de agilidad y coordinación); potencia del tren superior (extensiones de brazos) y soltura acuática (50 metros) sin que ello suponga un riesgo para su salud».
-
-Los modelos se publican como **apéndices III y IV** de la convocatoria. Y la misma base cierra con una frase que conviene no olvidar: «La no presentación de cualquiera de los documentos citados en los términos expuestos supondrá la exclusión del aspirante del proceso selectivo».
-
-De ahí salen los cuatro elementos que tu certificado tiene que reunir:
-
-| Elemento | Qué exige la convocatoria |
-|---|---|
-| Tipo de documento | Certificado Médico Oficial (modelos de los apéndices III y IV) o ficha médica válida |
-| Fecha | Expedido dentro de los 20 días anteriores a las pruebas |
-| Contenido | La frase literal que menciona los cuatro ejercicios y «sin que ello suponga un riesgo para su salud» |
-| Identidad | Debe constar la identidad del aspirante |
-
-## La frase, palabra por palabra
-
-El error más frecuente no es la fecha, sino el contenido. Un certificado que diga «apto para la práctica deportiva» o «no presenta contraindicaciones para el ejercicio físico» **no es lo que pide la convocatoria**. La exigencia es que se haga constar «expresamente» la capacidad para esos cuatro ejercicios concretos.
-
-La forma más segura de acertar:
-
-1. Descarga la convocatoria del BOE y localiza los apéndices III y IV.
-2. Imprime el modelo o copia literalmente la frase entrecomillada de la base 6.1.3.a.
-3. Pide al médico que la incluya **tal cual**, sin resumirla.
-
-No hace falta que inventes nada: el texto ya está escrito. Tu trabajo es que llegue íntegro al certificado.
-
-## Quién lo firma y en qué impreso
-
-La convocatoria habla de «Certificado Médico Oficial» y no concreta más sobre el médico que debe expedirlo. En la práctica, conviene tener en cuenta dos cosas:
-
-- **El soporte.** En España, la expresión «certificado médico oficial» se asocia al impreso oficial que editan los colegios de médicos. Pregunta a tu médico en qué impreso lo extenderá y, si te surge la duda de si un formato concreto es válido, consúltalo con antelación a través de los medios de contacto que indique el Tribunal.
-- **El médico.** No todos los centros de salud expiden certificados para oposiciones. Infórmate con tiempo en tu centro; si no lo hacen, tendrás que acudir a una consulta privada o a un centro de reconocimientos, lo que puede tener coste.
-
-Sea quien sea, el certificado debe llevar tu identificación, la fecha, la firma y los datos del médico que lo expide.
-
-## La alternativa: la ficha médica
-
-La convocatoria admite, en lugar del certificado, la **ficha médica válida** que establece la Instrucción Técnica 01/2015, de 19 de febrero de 2015, de la Inspección General de Sanidad de la Defensa, sobre «Reconocimientos médicos para la realización de pruebas físicas». Al tratarse de un documento del ámbito de la Sanidad Militar, suele interesar sobre todo a quienes optan desde las Fuerzas Armadas.
-
-Para la ficha, la convocatoria añade dos reglas específicas:
-
-- **No puede constar una fecha anterior a la publicación** de la convocatoria en el BOE.
-- Si su fecha es **más de 20 días anterior** a las pruebas, debe ir acompañada de una **declaración del interesado** donde se especifique que no ha padecido ningún proceso patológico desde el reconocimiento hasta el momento de hacer las pruebas.
-
-Ojo: esa declaración complementaria está prevista para la **ficha médica**. Para el certificado médico la regla es directa: expedido dentro de los 20 días anteriores.
-
-## El plazo de 20 días: cómo calcularlo sin sustos
-
-La convocatoria dice «dentro de los veinte (20) días anteriores», pero no especifica si son naturales o hábiles. La interpretación prudente es contar **días naturales**, porque es la ventana más corta: si aciertas con ella, cumples con cualquier lectura.
-
-**Ejemplo resuelto (caso hipotético).** Te citan a las pruebas físicas el día 24 de un mes. Contando 20 días naturales hacia atrás, tu ventana empieza alrededor del día 4. Un certificado del día 3 o anterior te pondría en riesgo. Lo razonable es pedir cita para **una o dos semanas antes** de las pruebas: lejos del límite inicial y con margen por si el médico te da cita más tarde o hay que repetir el documento.
-
-Un criterio práctico, paso a paso:
-
-1. **Vigila la citación.** El Tribunal anuncia el lugar, la fecha y la hora de las pruebas en la [web de ingreso de la Guardia Civil](https://web.guardiacivil.es/es/tramites/ingresos/ingresocuerpo/) (base 4.11).
-2. **Calcula hacia atrás** y marca en el calendario el primer día válido.
-3. **Pide cita** para una fecha dentro de la ventana, con margen por los dos lados.
-4. **Lleva la frase o el modelo impreso** a la consulta.
-5. **Revísalo antes de salir**: nombre y DNI, fecha, frase completa, firma y datos del médico.
-6. **Haz una foto o fotocopia** por si se extravía, y guarda el original en la carpeta de la prueba.
-
-Pedirlo demasiado pronto es tan arriesgado como demasiado tarde: con mucha antelación caduca; el último día, puede que no haya cita.
-
-## Errores que causan la exclusión
-
-- **Certificado fuera de plazo**: expedido más de 20 días antes de las pruebas.
-- **Certificado genérico**, sin la mención expresa a los cuatro ejercicios.
-- **Frase incompleta**: falta un ejercicio (lo más habitual, la natación) o la coletilla «sin que ello suponga un riesgo para su salud».
-- **Falta la identidad** del aspirante, o es ilegible.
-- **Ficha médica con fecha anterior** a la publicación de la convocatoria, o con más de 20 días y sin la declaración complementaria.
-- **No llevarlo el día de la prueba.** Debe entregarse antes del inicio; prepáralo en la mochila la noche anterior junto al DNI.
-
-## ¿Y si me lesiono o me pongo enfermo antes de las pruebas?
-
-Tu salud va por delante de la oposición. Si tu estado cambia después de obtener el certificado, **no hagas las pruebas sin que un médico te lo autorice**: el certificado acredita que no supone un riesgo para tu salud, y eso deja de ser cierto si has tenido una lesión o una enfermedad.
-
-Lo que conviene saber de las bases:
-
-- **No hay una fecha alternativa general por lesión.** La base 6.2 establece un único llamamiento: no presentarse supone la exclusión «sea cual fuere la causa». La excepción son las medidas del capítulo V del Reglamento de ordenación de la enseñanza en la Guardia Civil ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764)), que protegen la maternidad: embarazo, parto o posparto, y lactancia en los términos del reglamento. Para esos casos, la base 6.3 prevé acreditarlo con informe médico oficial y una fecha alternativa fijada por el Tribunal.
-- **Cambio de día o tanda.** Si las pruebas se reparten en más de un día, el Tribunal **puede** autorizar el cambio a quien lo solicite por causas justificadas, antes del inicio de las pruebas (base 6.2). Es una posibilidad, no un derecho: si te ocurre, solicítalo cuanto antes por los medios que indique la convocatoria.
-
-## Checklist del certificado
-
-- [ ] Tengo la frase literal de la base 6.1.3.a o el modelo de los apéndices III y IV.
-- [ ] Sé qué médico me lo expide y si tiene coste.
-- [ ] He calculado la ventana de 20 días contando días naturales.
-- [ ] Tengo cita dentro de esa ventana, con margen.
-- [ ] El documento incluye mi identidad, la fecha, la frase completa, la firma y los datos del médico.
-- [ ] Tengo una copia y el original está en la mochila de la prueba, con el DNI.
-- [ ] Si uso la ficha médica: fecha posterior a la publicación de la convocatoria y, si tiene más de 20 días, declaración complementaria.
-
-## Dónde encaja en el proceso
-
-Las pruebas físicas forman parte de la prueba de aptitud psicofísica, a la que se convoca a 1,5 aspirantes por plaza según la puntuación de concurso y oposición. Es decir, cuando te pidan el certificado ya habrás superado el examen y el psicotécnico. Para no llegar a ese punto con prisas, repasa con tiempo qué te exige cada ejercicio en [las cuatro pruebas físicas de la Guardia Civil](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento) y, en concreto, la que más preparación exige si partes de cero: [la natación de 50 metros](/blog/natacion-50-metros-guardia-civil).
-
-No confundas este certificado con el **reconocimiento médico** posterior, que hacen los facultativos designados por el Tribunal con el cuadro de exclusiones de la Orden PCI/155/2019. Lo tienes explicado en [el cuadro médico de exclusiones](/blog/cuadro-medico-exclusiones-guardia-civil) y en [la entrevista y el reconocimiento médico](/blog/entrevista-reconocimiento-medico-guardia-civil). Si quieres preparar todo el proceso con un plan, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
-
-## Preguntas frecuentes
-
-### ¿Es obligatorio el certificado médico para las pruebas físicas de la Guardia Civil?
-
-Sí. Debe entregarse al Tribunal antes de empezar las pruebas, y no presentarlo en los términos exigidos supone la exclusión del proceso.
-
-### ¿Con cuántos días de antelación debo pedirlo?
-
-Debe estar expedido dentro de los 20 días anteriores a las pruebas. Lo prudente es contar días naturales y pedir cita una o dos semanas antes.
-
-### ¿Vale un certificado de «apto para el deporte»?
-
-No, si no menciona expresamente los cuatro ejercicios (carrera de 2.000 metros, circuito de agilidad, extensiones de brazos y natación de 50 metros) y que no suponen un riesgo para tu salud.
-
-### ¿Qué pasa si mi ficha médica tiene más de 20 días?
-
-Si usas la ficha médica de la Instrucción Técnica 01/2015, debe acompañarse de una declaración tuya de que no has padecido ningún proceso patológico desde el reconocimiento. Y nunca puede tener fecha anterior a la publicación de la convocatoria.
-
-### ¿Dónde está el modelo?
-
-En los apéndices III y IV de la convocatoria publicada en el BOE.
-
-### ¿Es lo mismo que el reconocimiento médico?
-
-No. El certificado lo aporta el aspirante antes de las pruebas físicas; el reconocimiento médico lo hacen después los facultativos del Tribunal conforme al cuadro de exclusiones.
-
-### ¿Puedo cambiar el día de las pruebas si estoy lesionado?
-
-No hay una fecha alternativa general por lesión. Si las pruebas duran más de un día, el Tribunal puede autorizar un cambio de día o tanda por causa justificada, solicitado antes del inicio. Las medidas del capítulo V del reglamento de enseñanza se refieren a la protección de la maternidad.',
-   '/blog/certificado-medico-pruebas-fisicas-guardia-civil.jpg', 'Médica firmando y sellando un certificado mientras un aspirante espera en la consulta', 'publicado', '2026-11-28T06:54:00.000Z', 'acceso-guardia-civil',
-   ARRAY['pruebas físicas', 'certificado médico', 'requisitos', 'documentación']::text[], '{"title":"Certificado médico pruebas físicas Guardia Civil: guía","description":"Certificado médico para las pruebas físicas de la Guardia Civil: frase exigida, plazo de 20 días, ficha médica alternativa y errores que excluyen."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('competencias-entrevista-personal-guardia-civil', 'articulo', 'Las seis competencias de la entrevista personal de la Guardia Civil y cómo demostrarlas', 'La convocatoria enumera seis competencias que valora la entrevista personal. Qué significa cada una, cómo demostrarla con ejemplos propios, quién te entrevista, qué documentos llevar y cómo se revisa un «no apto provisional».', 'La entrevista personal es una de las tres pruebas de aptitud psicofísica, junto con las [pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento) y el reconocimiento médico. **Respuesta corta:** no puntúa; se califica como «apto» o «no apto provisional», y la convocatoria dice exactamente qué se valora: **seis competencias**. Saberlas te permite prepararte con criterio, a partir de tu propia experiencia y sin inventar un personaje.
-
-Todo lo que sigue sale de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)), bases 6.1.3.b y 8.2. Los ejemplos y casos prácticos son nuestros y sirven solo para entrenar.
-
-## Qué dice la convocatoria
-
-Según la base 6.1.3.b, la entrevista evalúa «la capacidad de los aspirantes para adecuarse a las exigencias derivadas del desempeño profesional». Permite comprobar que tienes, «en grado adecuado», las competencias necesarias para superar el periodo académico y desempeñar después los cometidos de la Escala de Cabos y Guardias.
-
-Tres rasgos de la prueba que conviene tener claros:
-
-- Es una **prueba independiente** del resto.
-- Consiste en la **recogida de información a través del diálogo y de los test** que consideren pertinentes los entrevistadores.
-- Sigue un **desarrollo semiestructurado**: hay un guion, pero la conversación se adapta a lo que respondes.
-
-Las competencias que se valoran son estas seis:
-
-| N.º | Competencia | En pocas palabras |
-|---|---|---|
-| I | Adecuación a normas y código de conducta | Aceptas y cumples las reglas |
-| II | Responsabilidad/madurez | Asumes tus actos y tus compromisos |
-| III | Espíritu de sacrificio y abnegación | Antepones el objetivo y a los demás a tu comodidad |
-| IV | Autocontrol | Mantienes la calma bajo presión |
-| V | Habilidades sociales y de comunicación | Te expresas con claridad y te relacionas bien |
-| VI | Adaptación | Te ajustas a cambios y entornos nuevos |
-
-La columna de la derecha es nuestra síntesis; los nombres de las competencias son los de la convocatoria. El Jefe de la Jefatura de Enseñanza fija previamente los criterios con los que se valora cada una, y esos criterios no se publican en la convocatoria.
-
-## Quién te entrevista y con qué información
-
-La entrevista la realiza un **órgano de apoyo asesor especialista**, dependiente del Presidente del Tribunal de Selección, compuesto por personal titulado en Psicología y por Oficiales o Suboficiales de la Guardia Civil. En cada entrevista **debe estar presente, al menos, un psicólogo**.
-
-Los entrevistadores no parten de cero. Cuentan con:
-
-1. **El cuestionario BIODATA**, que rellenas antes de la entrevista. No puntúa: es solo un elemento de apoyo. Lo explicamos en el artículo sobre el [cuestionario BIODATA](/blog/cuestionario-biodata-guardia-civil).
-2. **El informe de vida laboral** o, si eres militar, la **Hoja General de Servicios**, que debes aportar el día de la citación.
-3. **Los datos de la prueba psicotécnica**, que pueden usarse de forma instrumental para orientar la conversación. La convocatoria aclara que el resultado de la entrevista **no depende de modo exclusivo** de esa prueba. Si quieres entender esa parte, lee el artículo sobre el [test de personalidad](/blog/test-personalidad-guardia-civil).
-
-La consecuencia práctica es sencilla: **lo que digas tiene que cuadrar** con lo que escribiste en el BIODATA, con tu vida laboral y con tu perfil. No se trata de dar respuestas «correctas», sino coherentes y verdaderas.
-
-## Cómo demostrar cada competencia
-
-Declarar «soy responsable» no demuestra nada. Lo que funciona es **contar situaciones reales** y concretas. Para cada competencia te damos qué se busca, qué tipo de experiencia te sirve y una señal de alarma.
-
-### I. Adecuación a normas y código de conducta
-
-**Qué se busca:** que aceptas las reglas, incluso cuando no te gustan o nadie te vigila, y que entiendes por qué existen.
-
-**Experiencias útiles:** normas de seguridad en un trabajo, reglamentos deportivos, horarios que respetaste aunque te costaran, una situación en la que dijiste que no a algo irregular.
-
-**Señal de alarma:** presentar las normas como un estorbo o presumir de saltártelas «cuando no tienen sentido».
-
-### II. Responsabilidad y madurez
-
-**Qué se busca:** que asumes las consecuencias de tus actos, cumples tus compromisos y reconoces tus errores.
-
-**Experiencias útiles:** un error que cometiste, cómo lo afrontaste y qué cambiaste después; personas que dependían de ti (familia, compañeros, un equipo).
-
-**Señal de alarma:** culpar siempre a otros o afirmar que nunca te equivocas.
-
-### III. Espíritu de sacrificio y abnegación
-
-**Qué se busca:** disposición a renunciar a comodidades por un objetivo o por los demás.
-
-**Experiencias útiles:** la propia preparación de la oposición (horarios, renuncias), cuidado de familiares, voluntariado, temporadas de trabajo duro.
-
-**Señal de alarma:** dramatizar o convertir la respuesta en una lista de quejas.
-
-### IV. Autocontrol
-
-**Qué se busca:** que manejas la tensión, la frustración y la provocación sin perder la compostura.
-
-**Experiencias útiles:** atención al público, conflictos en el trabajo o en el deporte, momentos de presión en los que mantuviste la calma.
-
-**Señal de alarma:** relatos en los que «el otro se lo merecía». Si alguna vez perdiste el control, puedes contarlo, pero explica qué aprendiste.
-
-### V. Habilidades sociales y de comunicación
-
-**Qué se busca:** que te expresas con claridad, escuchas y te relacionas bien con compañeros, ciudadanos y mandos.
-
-**Experiencias útiles:** trabajo en equipo, explicar algo complejo a otra persona, resolver un malentendido.
-
-**Señal de alarma:** respuestas larguísimas que no contestan a la pregunta, o monosílabos. La propia entrevista es la prueba de esta competencia: escucha la pregunta entera y responde a lo que se te pregunta.
-
-### VI. Adaptación
-
-**Qué se busca:** capacidad de ajustarte a cambios, a entornos nuevos y a la vida fuera de tu zona habitual.
-
-**Experiencias útiles:** cambios de ciudad, de trabajo, de grupo o de estudios; convivir con personas distintas.
-
-**Señal de alarma:** decir que te da igual el destino sin haberlo pensado. La movilidad es una realidad de la profesión, y conviene que la hayas valorado de verdad. Puedes leer cómo funcionan [los destinos y especialidades](/blog/destinos-especialidades-guardia-civil).
-
-## El método para contar tus ejemplos
-
-Una forma ordenada de relatar una experiencia es la estructura **situación, acción y resultado**:
-
-1. **Situación:** qué pasó, dónde y cuál era tu papel.
-2. **Acción:** qué hiciste tú, en concreto (no «hicimos»).
-3. **Resultado:** cómo terminó y qué aprendiste.
-
-### Ejemplo resuelto (caso hipotético)
-
-Pregunta: «Cuéntame una situación en la que tuvieras que controlar tus nervios».
-
-- **Respuesta floja:** «Soy una persona muy tranquila, no me altero nunca».
-- **Respuesta sólida:** «Trabajaba de cajero en un supermercado. Un cliente empezó a gritarme porque una oferta no se aplicaba (situación). Le dejé terminar, le pedí el ticket, comprobé que la oferta era de otra marca y se lo enseñé; como seguía molesto, llamé a la encargada para que lo valorase ella (acción). Se marchó más calmado, y desde entonces reviso los carteles al empezar el turno para poder explicarlos (resultado)».
-
-La segunda respuesta muestra autocontrol, comunicación y responsabilidad a la vez, y se puede comprobar con preguntas de seguimiento.
-
-## Cómo preparar la entrevista paso a paso
-
-1. **Relee tu solicitud y tu BIODATA** si conservas copia: fechas, trabajos, estudios.
-2. **Haz una tabla de seis filas** (una por competencia) y busca dos experiencias para cada una. Una misma historia puede servir para varias.
-3. **Escribe cada historia en tres frases** (situación, acción, resultado). No la memorices palabra por palabra: memoriza los hechos.
-4. **Piensa en tu motivación**: por qué la Guardia Civil y no otro empleo, qué sabes de la profesión y de la formación en la [Academia de Baeza](/blog/academia-baeza-guardia-civil).
-5. **Prepara tus puntos débiles** con honestidad: qué te cuesta y qué haces para mejorarlo.
-6. **Ensaya en voz alta** con alguien que te haga preguntas de seguimiento («¿y qué hiciste tú?», «¿qué cambiarías?»).
-7. **Revisa la logística**: citación, documentación (vida laboral u Hoja General de Servicios) y normas de la sala.
-
-Sobre las normas: la base 5.3 prohíbe entrar en las salas de entrevistas con **teléfonos móviles, relojes o gafas inteligentes** o cualquier dispositivo que permita grabar, reproducir, transmitir o recibir datos, imágenes o sonidos. Incumplirlo supone la exclusión. Y la base 6.2 establece el **llamamiento único**: si no te presentas cuando se inicia tu turno, quedas excluido, salvo las excepciones que prevé el Reglamento.
-
-## Cómo se califica y qué es el «no apto provisional»
-
-Los miembros del órgano de apoyo emiten una **propuesta motivada e individualizada** y el Tribunal de Selección califica la entrevista como **«apto»** o **«no apto provisional»** (base 8.2.1). Las calificaciones se exponen en el lugar de la entrevista y en la web de la Guardia Civil.
-
-El «no apto provisional» no es definitivo:
-
-- **Puedes solicitar la revisión**, dirigida al Presidente del Tribunal de Selección, en el plazo que fije la resolución que publique la calificación (base 8.2.2).
-- La revisión la hacen **Juntas de Revisión formadas por titulados en Psicología**, que estudian la documentación de la entrevista, **oyen al interesado** y emiten una propuesta motivada para la calificación definitiva (base 8.2.3).
-- Si **no pides la revisión** en plazo, o si **se confirma** tras revisarla, pasas a «no apto» definitivo y quedas excluido (base 8.2.4).
-
-La convocatoria no fija ese plazo en días: lo marca cada resolución. Por eso, si recibes un «no apto provisional», lo primero es **leer la resolución y no dejar pasar el plazo**.
-
-## Errores frecuentes
-
-| Error | Por qué perjudica | Qué hacer |
-|---|---|---|
-| Respuestas memorizadas | Suenan falsas y se desmontan con una repregunta | Memoriza hechos, no frases |
-| Ejemplos genéricos | No demuestran nada | Situación concreta, con tu papel |
-| Contradecir el BIODATA | Resta credibilidad | Repasa lo que declaraste |
-| Hablar mal de otros | Sugiere conflicto o falta de autocontrol | Describe hechos sin juicios |
-| No haber pensado la motivación | Parece una decisión improvisada | Prepárala con datos reales de la profesión |
-| Fingir un perfil «ideal» | Choca con el psicotécnico y con tu historia | Sé tú, con tus límites y lo que haces con ellos |
-
-## Checklist antes de la entrevista
-
-- [ ] Sé nombrar las seis competencias sin mirar.
-- [ ] Tengo al menos dos experiencias reales por competencia.
-- [ ] Sé contar cada una en el formato situación, acción y resultado.
-- [ ] Mis respuestas coinciden con mi BIODATA y mi vida laboral.
-- [ ] Tengo pensada mi motivación y mi postura sobre la movilidad.
-- [ ] Llevo la vida laboral (o la Hoja General de Servicios).
-- [ ] No llevo móvil, reloj inteligente ni ningún dispositivo a la sala.
-
-Si estás preparando todas las fases, en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes el proceso completo ordenado.
-
-## Preguntas frecuentes
-
-### ¿Cuántas competencias valora la entrevista de la Guardia Civil?
-
-Seis: adecuación a normas y código de conducta; responsabilidad/madurez; espíritu de sacrificio y abnegación; autocontrol; habilidades sociales y de comunicación, y adaptación (base 6.1.3.b).
-
-### ¿Quién hace la entrevista?
-
-Un órgano de apoyo asesor con titulados en Psicología y Oficiales o Suboficiales de la Guardia Civil. En cada entrevista está presente, al menos, un psicólogo.
-
-### ¿Puntúa la entrevista?
-
-No suma puntos a tu nota final. Se califica como «apto» o «no apto provisional», y el «no apto» definitivo excluye del proceso.
-
-### ¿Qué pasa si me dan «no apto provisional»?
-
-Puedes pedir la revisión en el plazo que indique la resolución. La estudia una Junta de Revisión de psicólogos, que te oye. Si no la pides o se confirma, quedas excluido.
-
-### ¿Influye el test de personalidad en la entrevista?
-
-Sus datos pueden usarse de forma instrumental para orientar la conversación, pero la convocatoria dice que el resultado de la entrevista no depende de forma exclusiva de esa prueba.
-
-### ¿Qué documentación tengo que llevar?
-
-El informe de vida laboral o, si eres militar, la Hoja General de Servicios, además de lo que indique la citación. El BIODATA se rellena antes de la entrevista.
-
-### ¿Puedo entrar con el móvil apagado?
-
-La base 5.3 prohíbe entrar en las salas de entrevistas con teléfonos móviles y otros dispositivos de grabación o transmisión, sin distinguir si están apagados. Déjalo fuera.',
-   '/blog/competencias-entrevista-personal-guardia-civil.jpg', 'Aspirante ante una psicóloga y un oficial de la Guardia Civil en la entrevista personal', 'publicado', '2026-11-30T06:28:00.000Z', 'acceso-guardia-civil',
-   ARRAY['entrevista', 'competencias', 'no apto provisional', 'revisión']::text[], '{"title":"Entrevista Guardia Civil: las 6 competencias que valoran","description":"Las seis competencias de la entrevista personal de la Guardia Civil: cómo demostrarlas, quién entrevista, qué llevar y cómo se revisa el no apto."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('cuestionario-biodata-guardia-civil', 'articulo', 'Cuestionario BIODATA de la Guardia Civil: qué es y cómo rellenarlo', 'Antes de la entrevista personal se rellena un cuestionario biográfico que no puntúa, pero sirve de apoyo al entrevistador. Qué dice la convocatoria, qué documentos hay que llevar, cómo preparar tu cronología y cómo contestar sin contradecirte.', 'Quien llega a la entrevista personal se encuentra antes con un cuestionario sobre su propia vida: estudios, trabajos, entorno, aficiones. Es el **BIODATA**. La respuesta corta: **no puntúa**, pero sirve de **apoyo para la entrevista**, y el mismo día de la citación tienes que aportar tu **informe de vida laboral** (y, si eres militar, la **Hoja General de Servicios**). Rellenarlo con exactitud y coherencia es fácil si has preparado antes tu propia cronología.
-
-## Qué dice la convocatoria
-
-La convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 6.1.3.b) lo recoge así: antes de la entrevista «se cumplimentará un cuestionario de información biográfica (BIODATA) el cual no tendrá carácter puntuable, sirviendo, únicamente, como elemento de apoyo para la realización de la misma, del mismo modo que el informe de vida laboral y/o, en el caso del personal militar, la Hoja General de Servicios, que se deberán aportar en la fecha de citación para la ejecución de la entrevista».
-
-Traducido:
-
-| Qué dice | Qué significa |
-|---|---|
-| «No tendrá carácter puntuable» | No suma ni resta puntos |
-| «Elemento de apoyo» para la entrevista | El entrevistador lo usa como punto de partida para preguntar |
-| Informe de vida laboral y, si eres militar, Hoja General de Servicios | Documentos que debes llevar el día de la citación |
-
-La convocatoria no detalla el contenido del cuestionario ni su extensión, así que nadie puede asegurarte qué preguntas trae exactamente.
-
-## Cómo es la entrevista a la que acompaña
-
-Conviene saber dónde encaja el BIODATA. Según la misma base 6.1.3.b:
-
-- La entrevista evalúa seis competencias: **adecuación a normas y código de conducta; responsabilidad y madurez; espíritu de sacrificio y abnegación; autocontrol; habilidades sociales y de comunicación; y adaptación**.
-- Sigue un **desarrollo semiestructurado**: diálogo y los test que consideren pertinentes los entrevistadores.
-- La realiza un órgano de apoyo formado por personal titulado en Psicología y por oficiales o suboficiales de la Guardia Civil, y en cada entrevista debe estar presente **al menos un psicólogo**.
-- Los datos del psicotécnico pueden usarse de forma instrumental, sin que el resultado dependa exclusivamente de ellos.
-- Se califica como **«apto» o «no apto provisional»**; el «no apto provisional» puede revisarse a petición del interesado ante Juntas de Revisión compuestas por titulados en Psicología (base 8.2).
-
-El BIODATA, tu vida laboral, tu perfil del [test de personalidad](/blog/test-personalidad-guardia-civil) y lo que digas en la entrevista son piezas de un mismo puzle. Tienes la visión general de esta fase en [entrevista y reconocimiento médico](/blog/entrevista-reconocimiento-medico-guardia-civil).
-
-## Documentos que tienes que aportar
-
-### Informe de vida laboral
-
-Lo emite la Seguridad Social y puede solicitarse por sus canales electrónicos o presenciales. Recoge tus altas y bajas como trabajador, con empresas y fechas.
-
-- **Pídelo con antelación**, pero no tanta como para que quede desfasado: lo razonable es tenerlo reciente cuando te citen.
-- **Revísalo**: comprueba que las fechas y empresas coinciden con lo que recuerdas y con lo que vas a escribir.
-- Si **no has trabajado nunca**, el informe lo reflejará; llévalo igualmente, porque la convocatoria lo pide.
-
-### Hoja General de Servicios (solo personal militar)
-
-Si te presentas siendo militar, solicítala en tu unidad con tiempo suficiente: no dependes solo de ti para obtenerla.
-
-### Y siempre
-
-- **El DNI**: puedes tener que acreditar tu identidad en cualquier momento (base 6.5).
-- **Copias** de los documentos, por si acaso.
-- **Nada de dispositivos**: la base 5.3 prohíbe entrar en las salas de entrevistas con móviles, relojes o gafas inteligentes o cualquier aparato de grabación o transmisión.
-
-## Qué suele preguntar un cuestionario biográfico
-
-Como la convocatoria no lo detalla, solo podemos hablar de lo habitual en este tipo de cuestionarios:
-
-- **Formación**: estudios, centros, resultados, cambios y abandonos.
-- **Trayectoria laboral**: empleos, funciones, duración y motivos de cada cambio.
-- **Entorno personal y familiar.**
-- **Intereses, aficiones y deporte.**
-- **Experiencias relevantes**: situaciones difíciles y cómo las afrontaste.
-- **Motivación** para ingresar en la Guardia Civil.
-
-## Prepara tu cronología antes de la citación
-
-Es el paso que más tranquilidad da. Con tu vida laboral y tus títulos delante, construye una tabla así:
-
-| Periodo | Qué hacía | Por qué empecé | Por qué lo dejé o cambié | Qué aprendí |
-|---|---|---|---|---|
-| (fechas) | Estudios, trabajo, preparación, búsqueda de empleo… | | | |
-
-**Ejemplo (hipotético).** Lucía estudió un ciclo formativo, trabajó dos años en hostelería, estuvo seis meses sin empleo y desde entonces combina un trabajo a media jornada con la oposición. En su tabla anota los seis meses sin empleo como lo que fueron: búsqueda de trabajo y comienzo de la preparación. En la entrevista, cuando le preguntan por ese periodo, lo explica en dos frases y sin incomodidad. Un hueco no es un problema; un hueco que no sabes explicar, o que explicas de forma distinta en el cuestionario y en la entrevista, sí lo puede ser.
-
-## Cómo rellenarlo: cuatro reglas
-
-### 1. Sé veraz y exacto
-
-El entrevistador tiene tu vida laboral delante. Si escribes fechas o empresas que no coinciden, se nota. Además, la veracidad importa en todo el proceso: la convocatoria prevé la exclusión de quien no reúna o pierda los requisitos (base 2.2) y recuerda la responsabilidad en que se puede incurrir por falsedad en la solicitud o en la consignación de méritos (base 3.2.1).
-
-### 2. Sé coherente
-
-El cuestionario, la solicitud, la vida laboral, el test de personalidad y lo que digas en la entrevista **tienen que contar la misma historia**. Repasa fechas y motivos antes de escribir.
-
-### 3. Sé concreto
-
-Respuestas como «me gusta ayudar a la gente» o «soy responsable» no dicen nada por sí solas. Mejor un dato o un ejemplo: «durante dos años entrené a un equipo infantil los fines de semana».
-
-### 4. Todo lo que escribas es material de preguntas
-
-Si mencionas una afición, una experiencia o un logro, **prepárate para hablar de ello con detalle**. No incluyas nada que no puedas desarrollar con naturalidad.
-
-## Cómo usa el entrevistador el BIODATA
-
-Sirve para **orientar preguntas**. Si detecta un hueco en tu vida laboral, un cambio brusco de estudios o una afición llamativa, es probable que pregunte por ello. No es una trampa: es la base de una conversación semiestructurada. Por eso conviene tener claro:
-
-- Por qué elegiste tus estudios y tus trabajos.
-- Qué aprendiste en cada etapa.
-- Por qué quieres ser guardia civil y por qué ahora.
-
-## Practica en voz alta
-
-Escribir la cronología es la mitad del trabajo; la otra mitad es saber contarla. Pide a alguien de confianza que, con tu tabla delante, te haga preguntas como lo haría un entrevistador: «¿por qué dejaste ese trabajo?», «¿qué hiciste esos meses?», «¿qué te aportó ese ciclo formativo?». Contesta en uno o dos minutos por pregunta, sin leer. Si en algún punto titubeas o tu respuesta cambia cada vez, ahí tienes lo que debes aclarar antes de la citación. No se trata de memorizar un discurso, sino de que tu propia historia te resulte fácil de explicar.
-
-## Errores frecuentes
-
-- **Dejar espacios en blanco** o contestar con vaguedades.
-- **Adornar la trayectoria.** Es contraproducente y arriesgado.
-- **Fechas que no cuadran** con la vida laboral.
-- **Contradecir lo que dijiste en la solicitud** o lo que se desprende del test de personalidad.
-- **Olvidar los documentos** el día de la citación.
-- **Llegar sin haber repasado tu propia historia.**
-
-## Checklist
-
-- [ ] Tengo el informe de vida laboral reciente y lo he revisado.
-- [ ] Si soy militar, he pedido la Hoja General de Servicios con tiempo.
-- [ ] He preparado mi cronología: periodos, motivos y aprendizajes.
-- [ ] Sé explicar en una o dos frases cualquier hueco o cambio.
-- [ ] Puedo hablar con detalle de todo lo que voy a escribir.
-- [ ] Llevo DNI y copias, y ningún dispositivo electrónico.
-
-Si estás al principio del camino y quieres preparar el examen y todas las fases con un plan, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil). Y para repasar qué se exige en cada fase, [la convocatoria de 2026 explicada](/blog/convocatoria-guardia-civil-2026-plazas-calendario).
-
-## Preguntas frecuentes
-
-### ¿Puntúa el cuestionario BIODATA?
-
-No. La convocatoria dice que no tiene carácter puntuable y que sirve solo como apoyo para la entrevista.
-
-### ¿Qué documentos hay que llevar a la entrevista?
-
-El informe de vida laboral y, en el caso del personal militar, la Hoja General de Servicios, que deben aportarse en la fecha de citación para la entrevista. Y, como en todas las pruebas, el DNI.
-
-### ¿Qué pasa si no he trabajado nunca?
-
-Nada en especial. Aporta igualmente el informe de vida laboral y explica con naturalidad a qué te has dedicado: estudios, preparación de la oposición, voluntariado, deporte.
-
-### ¿Qué pasa si hay un hueco en mi vida laboral?
-
-No es un problema en sí. Prepara una explicación sincera y breve, y asegúrate de que coincide con lo que escribas en el cuestionario.
-
-### ¿Cuándo se rellena?
-
-Con anterioridad a la entrevista personal, según indica la convocatoria.
-
-### ¿Quién lee el cuestionario?
-
-Lo utilizan los entrevistadores del órgano de apoyo, en el que hay personal titulado en Psicología y oficiales o suboficiales de la Guardia Civil.
-
-### ¿Puedo suspender la entrevista por lo que ponga en el BIODATA?
-
-El BIODATA no se califica. Lo que se califica es la entrevista, como «apto» o «no apto provisional», según las competencias que demuestres. Un cuestionario incoherente o inexacto, eso sí, puede dar lugar a preguntas difíciles.',
-   '/blog/cuestionario-biodata-guardia-civil.jpg', 'Aspirante esperando con una carpeta en el pasillo de un edificio oficial', 'publicado', '2026-11-29T06:11:00.000Z', 'acceso-guardia-civil',
-   ARRAY['entrevista', 'BIODATA', 'vida laboral', 'documentación']::text[], '{"title":"Cuestionario BIODATA Guardia Civil: qué es y cómo rellenarlo","description":"BIODATA de la Guardia Civil: qué es el cuestionario biográfico previo a la entrevista, qué documentos llevar y cómo rellenarlo con coherencia y sin errores."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -846,8 +350,732 @@ Las dos opciones funcionan si se mantienen durante meses. La sesión diaria cort
 ### ¿Qué hago si me estanco?
 
 Revisa tu registro de fallos. Casi siempre el estancamiento se explica por un formato concreto o por un tipo de fallo (normalmente, la precipitación) que se repite.',
-   '/blog/entrenar-psicotecnico-15-minutos-guardia-civil.jpg', 'Opositora resolviendo ejercicios de psicotécnico en la cocina con un temporizador en el móvil', 'publicado', '2026-11-27T06:37:00.000Z', 'acceso-guardia-civil',
+   '/blog/entrenar-psicotecnico-15-minutos-guardia-civil.jpg', 'Opositora resolviendo ejercicios de psicotécnico en la cocina con un temporizador en el móvil', 'publicado', '2026-12-01T06:45:00.000Z', 'acceso-guardia-civil',
    ARRAY['psicotécnico', 'rutina', 'entrenamiento', 'aptitudes']::text[], '{"title":"Entrenar el psicotécnico en 15 minutos al día: rutina","description":"Rutina de 15 minutos diarios para el psicotécnico de la Guardia Civil: nota que necesitas, qué practicar cada día, plan por fases y cómo medir tu progreso."}'::jsonb, '{"duracion":"15 minutos al día"}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil', 'articulo', 'Entrenar y estudiar a la vez: cómo organizar la semana para rendir en las dos cosas', 'La oposición a Guardia Civil exige cabeza y cuerpo a la vez. Cómo repartir estudio y entrenamiento, tres semanas tipo según tu situación, qué cuidar en el sueño y la comida y cómo ajustar el plan cuando algo falla.', 'Lo difícil de esta oposición no es estudiar ni entrenar: es **hacer las dos cosas a la vez durante meses** sin quemarte. La respuesta corta: estudia **todos los días** (aunque sea poco), entrena **tres o cuatro días** a la semana, deja **al menos un día de descanso real** y coloca las sesiones exigentes de cada cosa en momentos distintos. Muchos aspirantes empiezan con un plan heroico que no se puede mantener y lo abandonan al mes; vale más uno modesto que dure.
+
+Este artículo no es un manual de nutrición ni un plan de entrenamiento individual, que dependen de cada persona y deben ajustarse con profesionales. Es una guía de **organización**: cómo repartir el tiempo y la energía para que las dos cosas avancen.
+
+## Por qué tienes que preparar las dos cosas desde el principio
+
+Es tentador pensar «primero apruebo el examen y luego ya entreno». El orden del proceso lo desaconseja. Según la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 7.9), la suma de concurso y oposición ordena a los aspirantes y se convoca a las pruebas psicofísicas a **1,5 aspirantes por plaza**. Las pruebas físicas llegan después del examen, pero la convocatoria no garantiza cuánto tiempo pasará entre uno y otras: no puedes contar con meses de margen para ponerte en forma.
+
+Además, las pruebas físicas son eliminatorias: o eres apto en las cuatro o quedas fuera, con independencia de tu nota. Tienes los detalles en [las pruebas físicas de la Guardia Civil](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento).
+
+| Parte | Qué exige | Cómo se gana |
+|---|---|---|
+| Examen de conocimientos, ortografía, gramática e inglés | 140 minutos, mínimos en cada parte | Horas de estudio y test regulares |
+| Psicotécnico | 80 preguntas en 55 minutos, mínimo 12 sobre 30 | Práctica corta y frecuente con cronómetro |
+| Pruebas físicas | Apto en las cuatro | Meses de entrenamiento progresivo |
+
+Las dos primeras suman nota para entrar en el corte (lo explicamos en [la nota de corte](/blog/nota-de-corte-guardia-civil)); la tercera es un filtro. Ninguna se puede improvisar.
+
+## Cuánto tiempo dedicar a cada cosa
+
+No existe una cifra oficial de horas, y cualquier número depende de tu punto de partida, de si trabajas y de cuánto falta para el examen. Lo que sí funciona es pensar en **mínimos sostenibles** y subir poco a poco:
+
+- **Estudio**: un bloque diario fijo, aunque los días malos sea corto. La constancia pesa más que las jornadas largas aisladas.
+- **Entrenamiento**: tres o cuatro sesiones semanales, cubriendo las cuatro pruebas a lo largo de la semana.
+- **Descanso**: un día completo sin entrenar y, a ser posible, con estudio ligero o ninguno.
+
+Si trabajas, mira también [cómo preparar la Guardia Civil trabajando](/blog/plan-estudio-guardia-civil-trabajando).
+
+## Tres semanas tipo (orientativas)
+
+Son ejemplos para que veas cómo encaja todo, no una prescripción. Adáptalos a tu nivel y a tus horarios.
+
+### Si trabajas de mañana
+
+| Día | Estudio (tarde-noche) | Entrenamiento |
+|---|---|---|
+| Lunes | 2 h de temario | Carrera de ritmo |
+| Martes | 2 h de test y repaso | Fuerza: brazos y core |
+| Miércoles | 2 h de temario | Descanso o paseo |
+| Jueves | 2 h de test y repaso | Natación |
+| Viernes | 1,5 h de repaso | Circuito de agilidad |
+| Sábado | 4 h: simulacro y corrección | Carrera larga y suave |
+| Domingo | Repaso ligero o nada | Descanso |
+
+### Si trabajas a turnos
+
+Aquí la semana de lunes a domingo no sirve: organízate por **ciclos de turno**.
+
+- **Días de turno de mañana**: estudio por la tarde; entrenamiento corto (fuerza o técnica).
+- **Días de turno de tarde**: estudio por la mañana, cuando estás más fresco; entrenamiento antes de ir a trabajar, solo si es suave.
+- **Días de noche**: no planifiques nada exigente. Como mucho, repaso con fichas o test cortos al despertar.
+- **Días libres**: aquí van el simulacro y la sesión más dura de carrera, en momentos distintos del día.
+
+### Si te dedicas a tiempo completo
+
+| Franja | Qué hacer |
+|---|---|
+| Mañana (bloque 1) | Temario nuevo: lo más exigente, con la cabeza fresca |
+| Mediodía | Entrenamiento (3-4 días) o paseo |
+| Tarde (bloque 2) | Test, corrección y repaso |
+| Última hora | Psicotécnico (15 minutos) o inglés |
+
+El riesgo de la dedicación completa no es la falta de tiempo, sino estudiar muchas horas de baja calidad. Más horas no siempre son mejores horas.
+
+## Qué va primero: ¿estudio o entreno?
+
+- **El estudio que exige más concentración**, en tu mejor momento del día. Para la mayoría es la mañana, pero no para todos.
+- **Un entrenamiento suave puede despejarte** antes de estudiar; uno muy duro suele dejarte sin concentración durante un rato.
+- **No entrenes fuerte justo antes de un simulacro** ni hagas un simulacro largo justo antes de unas series de carrera exigentes. Cada cosa necesita llegar con energía.
+- **No juntes en días consecutivos** sesiones intensas que castiguen lo mismo: por ejemplo, series de carrera un día y circuito con muchos cambios de dirección al siguiente.
+
+## Cómo cubrir las cuatro pruebas en tres o cuatro sesiones
+
+Puedes combinar trabajos en la misma sesión si son compatibles:
+
+| Sesión | Contenido | Por qué juntos |
+|---|---|---|
+| A | Carrera (series o ritmo) | Es la que más energía consume; mejor sola |
+| B | Extensiones de brazos + core | Fuerza de tren superior, poco impacto |
+| C | Natación + movilidad | Descarga las piernas tras la carrera |
+| D | Circuito de agilidad + carrera suave | Técnica de giros y saltos con piernas frescas |
+
+Si solo tienes tres días, alterna B y D por semanas. Las claves técnicas de cada prueba están en sus artículos: [carrera de 2.000 metros](/blog/carrera-2000-metros-guardia-civil), [extensiones de brazos](/blog/extensiones-de-brazos-guardia-civil) y [natación de 50 metros](/blog/natacion-50-metros-guardia-civil).
+
+## Sueño: el pilar que se sacrifica primero
+
+Cuando el tiempo aprieta, lo primero que se recorta es dormir. Es un error: durmiendo se consolida lo que has estudiado y el cuerpo se recupera del entrenamiento. Las recomendaciones habituales para adultos hablan de **siete horas o más** por noche.
+
+- **Mantén un horario regular** de acostarte y levantarte, también el fin de semana.
+- **No estudies hasta la madrugada** la víspera de un entrenamiento duro o de un simulacro.
+- **Deja las pantallas** un rato antes de dormir si te cuesta conciliar el sueño.
+
+Si duermes mal de forma sostenida, consúltalo con tu médico.
+
+## Comer y beber: lo básico
+
+No hay una dieta oficial para opositores y las necesidades cambian mucho de una persona a otra. Algunas ideas generales:
+
+- **Comidas regulares**, sin saltarte el desayuno los días de entrenamiento o de simulacro.
+- **Hidratación** a lo largo del día, también mientras estudias.
+- **Nada nuevo el día de una prueba o de un simulacro**: ni comidas ni suplementos que no hayas probado.
+- **Ojo al peso**: el reconocimiento médico exige un IMC entre 17 y 30 (más de 30 es admisible si se debe a masa muscular), como explicamos en [el cuadro médico de exclusiones](/blog/cuadro-medico-exclusiones-guardia-civil).
+
+Para un plan de alimentación o si tienes alguna condición de salud, acude a un dietista-nutricionista o a tu médico.
+
+## Caso práctico (hipotético)
+
+Javier, 26 años, trabaja de 8 a 15 h. Empieza con cinco días de estudio de tres horas y cinco de entrenamiento. A la tercera semana va cansado, se salta dos días de estudio y abandona la natación. ¿Qué cambiaría?
+
+1. **Baja el estudio a dos horas diarias** de lunes a viernes y mete el bloque largo el sábado.
+2. **Reduce a cuatro sesiones** de entrenamiento: A, B, C y D de la tabla anterior.
+3. **Fija el domingo como descanso** y planifica la semana siguiente en diez minutos.
+4. **Mide**: horas reales de estudio, test hechos y sesiones completadas.
+
+En la práctica, Javier hace menos sobre el papel, pero mucho más en la realidad, porque lo sostiene.
+
+## Señales de que te estás pasando
+
+- **Cansancio que no se va** después de dormir y descansar.
+- **Rendimiento que baja**: marcas que empeoran o te cuesta retener lo que estudias.
+- **Dolores persistentes** que no mejoran con descanso. Si aparecen, para y consulta a un profesional.
+- **Irritabilidad, desmotivación o mal sueño** sostenidos.
+
+Si notas varias a la vez, reduce la carga una semana. Frenar a tiempo cuesta menos que parar un mes.
+
+## Errores frecuentes
+
+- **Planificar la semana ideal en lugar de la real.** Si tu trabajo cambia cada semana, tu plan también.
+- **Compensar un mal día con una paliza al siguiente.** Rompe el descanso y aumenta el riesgo de lesión.
+- **Entrenar solo la prueba que te gusta.** Las cuatro son eliminatorias.
+- **Recortar sueño para ganar horas.** Las horas ganadas rinden poco.
+- **No medir.** Sin datos, no sabes si el plan funciona.
+
+## Checklist semanal
+
+- [ ] He planificado la semana con horas concretas.
+- [ ] Hay al menos un día de descanso real.
+- [ ] Las cuatro pruebas físicas aparecen en el plan (o en el de la semana siguiente).
+- [ ] No hay dos sesiones intensas de piernas en días seguidos.
+- [ ] El simulacro no coincide con el entrenamiento más duro.
+- [ ] He anotado horas de estudio, test y sesiones completadas.
+
+Si quieres un plan de estudio ya estructurado, con test y seguimiento, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Se puede estudiar y entrenar a la vez para la Guardia Civil?
+
+Sí, y es lo que exige el proceso. La clave es repartir bien el tiempo y mantener la regularidad, no hacer jornadas heroicas.
+
+### ¿Cuántos días a la semana hay que entrenar?
+
+Depende de tu nivel, pero tres o cuatro sesiones semanales, con al menos un día de descanso completo, suelen bastar para cubrir las cuatro pruebas de forma progresiva.
+
+### ¿Es mejor entrenar antes o después de estudiar?
+
+Lo que te resulte más sostenible. Deja el estudio más exigente para tu mejor momento mental y evita entrenar duro justo antes de un simulacro.
+
+### ¿Puedo dejar las pruebas físicas para después del examen?
+
+No es buena idea. Las físicas llegan tras el examen, pero la convocatoria no garantiza un margen de tiempo amplio, y algunas, como la natación si partes de cero, requieren meses.
+
+### ¿Cuántas horas hay que estudiar al día?
+
+No hay una cifra oficial. Empieza por un bloque diario que puedas mantener y súbelo de forma progresiva según el tiempo que quede hasta el examen.
+
+### ¿Hay una dieta para opositar?
+
+No hay una oficial. Lo básico: comidas regulares, buena hidratación y cuidar el peso. Para un plan personalizado, consulta a un profesional.',
+   '/blog/entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil.jpg', 'Opositor atándose las zapatillas junto a su mesa de estudio con apuntes subrayados', 'publicado', '2026-11-26T06:20:00.000Z', 'acceso-guardia-civil',
+   ARRAY['organización', 'entrenamiento', 'descanso', 'planificación']::text[], '{"title":"Estudiar y entrenar a la vez: plan semanal para opositar","description":"Cómo compaginar estudio y entrenamiento en la oposición a Guardia Civil: reparto de la semana, tres horarios tipo, sueño, alimentación básica y errores."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('nota-de-corte-guardia-civil', 'articulo', 'Nota de corte de la Guardia Civil: cómo funciona y por qué no hay una sola cifra', 'La nota de corte no se fija antes del examen: es la puntuación del último aspirante que consigue plaza, sobre 195 puntos. Las de 2022 a 2026, por qué cambian tanto y cómo traducirlas en aciertos y errores.', '«¿Cuál es la nota de corte?» es la pregunta que más se repite después del examen. Y casi siempre se responde mal, porque se mezclan cifras sobre 10, sobre 100 y sobre 195, de cupos distintos y de momentos distintos del proceso.
+
+La respuesta corta: **en el acceso libre de 2026, el último aspirante que obtuvo plaza tuvo 90,61 puntos sobre 195**, y en los cinco últimos años esa cifra ha oscilado entre 90,61 y 110,58. No es un aprobado fijado de antemano: se conoce al final del proceso.
+
+## Qué es la nota de corte (y qué no es)
+
+La nota de corte **no es un aprobado que se fija antes del examen**. Es la puntuación final que obtuvo **el último aspirante que consiguió plaza** en un cupo. Se conoce al final del proceso, cuando se publica en el BOE la relación de aspirantes propuestos para ingresar como alumnos.
+
+Esa puntuación final es la suma de la fase de concurso y la de oposición (base 7.9 de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)):
+
+| Parte | Puntos máximos |
+|---|---|
+| Fase de concurso (méritos) | 45 |
+| Conocimientos generales | 100 |
+| Lengua inglesa | 20 |
+| Aptitudes intelectuales (psicotécnico) | 30 |
+| **Total** | **195** |
+
+Por eso, cuando leas una nota de corte, lo primero es preguntarte: ¿sobre cuánto está?, ¿de qué cupo?, ¿en qué momento del proceso?
+
+## Las notas de corte de 2022 a 2026
+
+Estas son las puntuaciones finales (sobre 195) del último aspirante propuesto del **cupo de acceso libre**, calculadas por ProLince a partir del anexo de cada resolución de propuestos publicada en el BOE:
+
+| Convocatoria | Nota de corte (libre, sobre 195) | Resolución en el BOE |
+|---|---|---|
+| 2026 | 90,61 | [BOE-A-2026-20936](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20936) |
+| 2025 | 95,80 | [BOE-A-2025-21469](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21469) |
+| 2024 | 103,08 | [BOE-A-2024-24233](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24233) |
+| 2023 | 95,75 | [BOE-A-2023-26041](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26041) |
+| 2022 | 110,58 | [BOE-A-2022-18829](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-18829) |
+
+Entre el corte más alto y el más bajo hay casi 20 puntos. Hay años más asequibles y años más duros, y no se puede adivinar de antemano cuál te va a tocar. La media de estos cinco años ronda los 99 puntos, pero preparar «para la media» es preparar para quedarse fuera en los años más duros: en 2022 y 2024 el corte la superó.
+
+## Por qué no hay una sola cifra
+
+### 1. Hay varios cupos
+
+Las plazas se reparten en cupos: en 2026, 1.704 de acceso libre, 1.296 para militares profesionales de tropa y marinería y 240 para alumnos del Colegio de Guardias Jóvenes. Los propuestos se ordenan dentro de cada modalidad de ingreso (base 9.1), así que cada cupo tiene su propio corte. Las cifras de la tabla son las del acceso libre. Además, las reservadas que quedan sin cubrir se suman al acceso libre, lo que también mueve el corte.
+
+### 2. No es lo mismo pasar a las físicas que conseguir plaza
+
+Tras el examen, la convocatoria llama a las pruebas de aptitud psicofísica (físicas, entrevista y reconocimiento médico) a **1,5 aspirantes por plaza**, por orden de puntuación. Quien no supera alguna de esas pruebas sale de la lista, y la lista se va corriendo hacia abajo. La puntuación del último convocado a las psicofísicas y la del último que consigue plaza no coinciden.
+
+### 3. Depende de cada año
+
+El corte sube o baja según el número de plazas, cuántos aspirantes se presentan, la dificultad del examen y cuántos superan las pruebas psicofísicas. Compararlo de un año para otro te da una horquilla, no una garantía.
+
+### 4. Los mínimos no son el corte
+
+Para no quedar excluido necesitas al menos 50 puntos en conocimientos, 8 en inglés y 12 en el psicotécnico, y no llegar a 6 errores en ortografía ni en gramática. Superar esos mínimos te mantiene en el proceso, pero **con los mínimos justos no se consigue plaza**: 50 + 8 + 12 suman 70, muy lejos de los cortes reales.
+
+## De la nota a los aciertos: cómo se puntúa cada prueba
+
+Con cuatro opciones por pregunta, cada error resta un tercio de acierto y las preguntas en blanco no restan (base 7.3):
+
+| Prueba | Acierto | Error | En blanco |
+|---|---|---|---|
+| Conocimientos (100 preguntas) | +1 | −0,33 | 0 |
+| Inglés (20 preguntas) | +1 | −0,33 | 0 |
+| Psicotécnico (80 preguntas) | +0,375 | −0,125 | 0 |
+
+### Ejemplo resuelto
+
+Supón (caso hipotético) este resultado:
+
+- Conocimientos: 70 aciertos, 15 errores → 70 − 15/3 = **65,00**
+- Inglés: 15 aciertos, 3 errores → 15 − 3/3 = **14,00**
+- Psicotécnico: 58 aciertos, 6 errores → 58 × 0,375 − 6 × 0,125 = 21,75 − 0,75 = **21,00**
+
+Fase de oposición: 65 + 14 + 21 = **100 puntos**. Con 10 puntos de méritos, la puntuación final sería **110**, por encima de todos los cortes del acceso libre de 2022 a 2026 salvo el de 2022 (110,58), que quedaría a menos de un punto.
+
+## Tres caminos para llegar a unos 110 puntos
+
+Los méritos cambian mucho lo que necesitas en el examen. Estas combinaciones son ejemplos hipotéticos para un objetivo de unos 110 puntos sobre 195:
+
+| Méritos | Conocimientos | Inglés | Psicotécnico | Total |
+|---|---|---|---|---|
+| 0 | 72 (76 aciertos, 12 errores) | 15 (16 aciertos, 3 errores) | 23 (64 aciertos, 8 errores) | 110 |
+| 10 | 65 (70 aciertos, 15 errores) | 14 (15 aciertos, 3 errores) | 21 (58 aciertos, 6 errores) | 110 |
+| 20 | 58 (63 aciertos, 15 errores) | 13 (14 aciertos, 3 errores) | 19 (54 aciertos, 10 errores) | 110 |
+
+Fíjate en lo que dice la tabla: **cada punto de méritos es un acierto neto menos que necesitas en el examen**. Por eso conviene revisar cuanto antes qué puntúa en [la fase de concurso](/blog/fase-concurso-guardia-civil-meritos): por ejemplo, un B2 de inglés acreditado vale 5 puntos, y un C1, 7.
+
+## Qué nota deberías buscar tú
+
+Con los cortes de los últimos cinco años entre 90,61 y 110,58 puntos sobre 195, un objetivo razonable es **ir por encima de la parte alta de la horquilla**, no del último corte. Algunas ideas para convertir eso en algo práctico:
+
+1. **Suma tus méritos primero.** Lo que traigas de la fase de concurso ya está en el marcador antes del examen.
+2. **Calcula cuánto necesitas en el examen.** Resta tus méritos al objetivo y reparte el resto entre conocimientos, inglés y psicotécnico.
+3. **Entiende la penalización.** Tu nota no es tu número de aciertos. Te lo explicamos con ejemplos en [cómo se calcula la nota del examen](/blog/calcular-nota-examen-guardia-civil), y puedes probar con nuestra [calculadora de nota](/calculadora-nota-guardia-civil).
+4. **Mide tu nivel con simulacros.** Hasta que no haces un examen completo con cronómetro no sabes dónde estás. Si quieres ver en qué zona andarías hoy, prueba nuestra herramienta de [nota de corte](/nota-de-corte).
+5. **No olvides lo eliminatorio.** Un sobresaliente en conocimientos no sirve si fallas 6 en ortografía. Repasa [ortografía y gramática](/blog/ortografia-gramatica-examen-guardia-civil) aunque no sumen puntos.
+
+## Cómo comprobar tú mismo la nota de corte
+
+Si quieres verificar una cifra que lees en un foro:
+
+1. Busca en el BOE la resolución de aspirantes propuestos para ingresar como alumnos de esa convocatoria.
+2. Localiza el anexo del cupo que te interesa (acceso libre, militares, Colegio de Guardias Jóvenes).
+3. Mira la puntuación del último aspirante de la lista de ese cupo.
+4. Comprueba si la cifra está sobre 195 (concurso más oposición) o solo sobre la oposición.
+
+## Errores frecuentes al interpretar la nota de corte
+
+- **Mezclar escalas.** Una cifra sobre 150 (solo oposición) no se compara con otra sobre 195.
+- **Tomar el corte de las psicofísicas por el de plaza.** No son lo mismo.
+- **Usar el corte de otro cupo.** Militares y Colegio de Guardias Jóvenes tienen sus propias listas.
+- **Apuntar al último corte.** Si el año siguiente es más duro, te quedas fuera.
+- **Olvidar los méritos.** Son puntos que no dependen del día del examen.
+- **Comparar con la Policía Nacional.** Su escala y su sistema son distintos; lo explicamos en [Guardia Civil o Policía Nacional](/blog/guardia-civil-o-policia-nacional).
+
+## Checklist
+
+- [ ] Sé cuántos puntos de méritos tengo (o puedo conseguir antes del plazo).
+- [ ] He fijado un objetivo por encima de la parte alta de la horquilla.
+- [ ] He repartido ese objetivo entre conocimientos, inglés y psicotécnico.
+- [ ] Mido mis simulacros con la fórmula oficial, no por aciertos.
+- [ ] Tengo controlados los mínimos eliminatorios de ortografía y gramática.
+
+Si quieres un plan de estudio y simulacros con corrección según la fórmula oficial, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Cuál fue la nota de corte de la Guardia Civil en 2026?
+
+En el acceso libre, 90,61 puntos sobre 195, según nuestro cálculo con la resolución de propuestos publicada en el BOE (BOE-A-2026-20936).
+
+### ¿La nota de corte es sobre 10, sobre 100 o sobre 195?
+
+La puntuación final de la Guardia Civil es sobre 195: hasta 45 de méritos y hasta 150 de la fase de oposición (100 de conocimientos, 20 de inglés y 30 de psicotécnico).
+
+### ¿Publica la Guardia Civil una nota de corte oficial?
+
+No como una cifra aislada. Se publica la relación de aspirantes propuestos con sus puntuaciones, y la nota de corte es la del último propuesto de cada cupo.
+
+### ¿Con 50 en el examen de conocimientos entro?
+
+No. Con 50 superas el mínimo para seguir en el proceso, pero los cortes de los últimos años en acceso libre han estado entre 90,61 y 110,58 puntos sobre 195.
+
+### ¿Las pruebas físicas suben la nota?
+
+No. Las físicas, la entrevista y el reconocimiento médico son apto o no apto. La puntuación final sale solo del concurso y de las pruebas de conocimientos, inglés y psicotécnico.
+
+### ¿Qué pasa si empato con otro aspirante?
+
+La base 7.10 desempata por más nota en conocimientos, después en inglés, después en aptitudes intelectuales y, por último, por mayor edad.
+
+### ¿Se puede predecir la nota de corte de la próxima convocatoria?
+
+No. Depende de las plazas, de los aspirantes, de la dificultad del examen y de cuántos superan las psicofísicas. Los años anteriores solo te dan una horquilla orientativa.',
+   '/blog/nota-de-corte-guardia-civil.jpg', 'Opositor consultando de noche una lista de resultados en el portátil', 'publicado', '2026-11-25T06:03:00.000Z', 'acceso-guardia-civil',
+   ARRAY['nota de corte', 'puntuación', 'concurso-oposición', 'convocatoria']::text[], '{"title":"Nota de corte Guardia Civil 2026 y años anteriores","description":"Nota de corte de la Guardia Civil de 2022 a 2026 sobre 195 puntos, calculada con las resoluciones del BOE. Qué es, por qué varía y qué nota apuntar."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('razonamiento-verbal-psicotecnico-guardia-civil', 'articulo', 'Razonamiento verbal en el psicotécnico: sinónimos, antónimos y analogías', 'Sinónimos, antónimos, analogías y palabras intrusas son formatos verbales muy comunes en las baterías de aptitudes. Cómo se resuelve cada uno, con ejemplos y ejercicios corregidos, y cómo ampliar vocabulario sin pasarte la vida con el diccionario.', 'El razonamiento verbal mide cómo manejas las palabras y las relaciones entre ellas: si captas matices de significado, si ves la lógica que une dos conceptos y si detectas lo que no encaja. La respuesta corta: los formatos más comunes (sinónimos, antónimos, analogías, palabra intrusa y completar frases) se resuelven con un **método de descarte** y mejoran mucho con **vocabulario y práctica cronometrada**.
+
+Como en los demás artículos sobre el psicotécnico, una precisión: la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 6.1.2) habla de una batería de aptitudes intelectuales de **80 preguntas en 55 minutos** que mide «capacidad de aprendizaje, análisis, razonamiento y potencial cognitivo», pero **no detalla los tipos de ejercicio**. Lo que sigue son formatos verbales frecuentes en pruebas de este tipo, útiles para entrenar aunque no se pueda saber con certeza cuáles aparecerán. El resumen de la prueba está en [el artículo sobre el psicotécnico](/blog/psicotecnico-guardia-civil-aptitudes-personalidad).
+
+Todos los ejemplos de este artículo son de elaboración propia.
+
+## Una regla de la convocatoria que debes recordar
+
+La base 6.1.2 dice que cada pregunta tiene una única respuesta válida y que, si consideras correctas varias opciones, **debes señalar la más completa**. En razonamiento verbal esto ocurre a menudo: dos palabras pueden parecerse a la del enunciado, pero una recoge el significado con más precisión. No te quedes con la primera que «más o menos» vale.
+
+## Sinónimos
+
+Se te da una palabra y eliges la de significado igual o más próximo.
+
+> **Ecuánime** → a) violento b) imparcial c) tímido d) lento
+
+Respuesta: **b) imparcial**. Ecuánime es quien juzga con serenidad y sin favorecer a nadie.
+
+> **Exiguo** → a) escaso b) estrecho c) exigente d) excesivo
+
+Respuesta: **a) escaso**. Fíjate en las trampas: «exigente» y «excesivo» empiezan igual, y «estrecho» se le acerca en la idea de «poco», pero exiguo significa insuficiente, escaso.
+
+**Cómo resolverlos:**
+
+- Si no conoces la palabra, **busca su raíz o su familia**: «ecuánime» comparte origen con «ecuanimidad» y con la idea latina de «igual».
+- **Descarta las opciones que no encajan**, aunque no sepas la correcta.
+- Desconfía de las opciones que **se parecen por la forma** (empiezan o suenan igual) pero no por el significado.
+- **Sustituye en una frase**: «un juez ecuánime» / «un juez imparcial». Si la frase conserva el sentido, vas bien.
+
+## Antónimos
+
+Se pide la palabra de significado contrario.
+
+> **Efímero** → a) breve b) duradero c) frágil d) veloz
+
+Respuesta: **b) duradero**. Efímero es lo que dura poco; «breve» es un sinónimo puesto como cebo.
+
+> **Pródigo** → a) generoso b) derrochador c) tacaño d) hijo
+
+Respuesta: **c) tacaño**. Pródigo es quien gasta sin medida; «derrochador» y «generoso» van en la misma dirección.
+
+**Cómo resolverlos:**
+
+- **Primero define la palabra** y luego busca su contrario. Muchos errores vienen de marcar un sinónimo, que suele estar entre las opciones a propósito.
+- **Lee el enunciado dos veces**: con prisa, «antónimo» y «sinónimo» se confunden.
+- Si dudas entre dos contrarios, aplica la regla de la **opción más completa**: el antónimo más exacto, no el aproximado.
+
+## Analogías
+
+Se da una pareja de palabras con una relación y hay que encontrar la que completa otra pareja con **la misma relación**.
+
+> **Médico es a hospital como profesor es a…** a) examen b) colegio c) libro d) alumno
+
+Respuesta: **b) colegio**. La relación es «profesional → lugar donde trabaja».
+
+**Cómo resolverlas:**
+
+1. **Nombra la relación con una frase concreta**: «un médico trabaja en un hospital».
+2. **Aplica la misma frase** a cada opción: «un profesor trabaja en un examen» no tiene sentido; «en un colegio», sí.
+3. Si varias encajan, **afina la frase**: cuanto más precisa, menos opciones sobreviven.
+
+Las relaciones más habituales:
+
+| Relación | Ejemplo |
+|---|---|
+| Profesional y lugar | Médico : hospital :: profesor : colegio |
+| Profesional e instrumento | Pintor : pincel :: cirujano : bisturí |
+| Instrumento y función | Cuchillo : cortar :: lápiz : escribir |
+| Parte y todo | Página : libro :: hoja : árbol |
+| Animal y vivienda | Abeja : colmena :: hormiga : hormiguero |
+| Medio | Pez : agua :: ave : aire |
+| Grado o intensidad | Caliente : hirviendo :: frío : helado |
+| Contrarios | Alto : bajo :: ancho : estrecho |
+| Necesidad y acción | Sed : beber :: sueño : dormir |
+
+Una trampa habitual es **invertir el orden**. En «página es a libro como árbol es a hoja», la relación se ha dado la vuelta (parte → todo frente a todo → parte), así que no es una analogía correcta. Comprueba siempre que el orden se mantiene.
+
+## La palabra intrusa
+
+Hay que encontrar la que no pertenece al grupo.
+
+> **Madrid, Sevilla, París, Valencia**
+
+Respuesta: **París**, la única que no es una ciudad española.
+
+> **Martillo, destornillador, sierra, clavo**
+
+Respuesta: **clavo**: los otros tres son herramientas; el clavo es el material sobre el que se trabaja.
+
+**Cómo resolverlo:** busca la **categoría común** a tres de ellas y comprueba que la cuarta no la cumple. Si se te ocurren dos criterios (por ejemplo, tamaño y función), elige el más claro y general: es el que suele buscar quien diseña la pregunta.
+
+## Completar oraciones
+
+Se pide la palabra o expresión que da sentido a una frase. Aquí mandan las **pistas gramaticales y los conectores**.
+
+> El acusado no mostró arrepentimiento; ______, el juez le impuso la pena máxima. a) sin embargo b) por consiguiente c) aunque d) no obstante
+
+Respuesta: **b) por consiguiente**. La segunda parte es consecuencia de la primera, así que hace falta un conector consecutivo. «Sin embargo» y «no obstante» indican oposición, y «aunque» no encaja tras el punto y coma.
+
+Un repaso rápido de conectores:
+
+| Tipo | Ejemplos |
+|---|---|
+| Oposición | sin embargo, no obstante, aunque, en cambio |
+| Consecuencia | por tanto, por consiguiente, así que, por eso |
+| Causa | porque, ya que, puesto que |
+| Adición | además, asimismo, también |
+
+En otros formatos se pide **ordenar frases** para formar un texto coherente. Busca la frase que introduce el tema (la que no depende de ninguna anterior) y sigue el hilo de pronombres y conectores.
+
+## Practica: seis ejercicios con solución
+
+Date 30 segundos para cada uno.
+
+1. Sinónimo de **inocuo**: a) peligroso b) inofensivo c) inútil d) ingenuo
+2. Antónimo de **diáfano**: a) claro b) transparente c) opaco d) limpio
+3. Pincel es a pintor como bisturí es a: a) hospital b) cirujano c) enfermo d) corte
+4. Intrusa: triángulo, cuadrado, cubo, círculo
+5. Llovía a cántaros; ______, el partido se suspendió: a) no obstante b) por eso c) aunque d) sin embargo
+6. Abeja es a colmena como hormiga es a: a) insecto b) reina c) hormiguero d) tierra
+
+**Soluciones:** 1) **b**, inocuo es lo que no hace daño; «inútil» e «ingenuo» son cebos de forma. 2) **c**, diáfano es claro o transparente. 3) **b**, relación instrumento → profesional. 4) **cubo**, el único cuerpo tridimensional. 5) **b**, conector de consecuencia. 6) **c**, animal → vivienda.
+
+## Cómo ampliar vocabulario sin obsesionarte
+
+- **Lee a diario**, aunque sean quince minutos: prensa, ensayo o novela. Subraya las palabras que no conoces y búscalas en el [Diccionario de la lengua española](https://dle.rae.es/).
+- **Lleva un cuaderno de palabras** con su significado, un sinónimo, un antónimo y una frase de ejemplo.
+- **Repásalo de forma espaciada**: a los dos días, a la semana y al mes.
+- **Aprende por familias**: los prefijos y sufijos te dan el significado de muchas palabras a la vez. Por ejemplo, *a-* o *an-* (negación: amoral, anómalo), *hiper-* (exceso) frente a *hipo-* (debajo, escasez), *-cida* (que mata: homicida, insecticida), *-logía* (estudio o tratado).
+- **Úsalas**: escribir o decir una palabra nueva en contexto ayuda a fijarla.
+
+Ojo con los **parónimos**, palabras que se parecen pero significan cosas distintas: *actitud* y *aptitud*, *prever* y *proveer*, *infligir* e *infringir*. Además de las preguntas verbales, te ayudan en la prueba de [ortografía y gramática](/blog/ortografia-gramatica-examen-guardia-civil).
+
+## Errores frecuentes
+
+- **Elegir la opción más familiar** sin comprobar el significado.
+- **No leer todas las opciones**: la segunda puede valer, pero la cuarta ser «la más completa».
+- **Confundir sinónimo y antónimo** por leer deprisa.
+- **Invertir la relación** en las analogías.
+- **Quedarse atascado en una palabra desconocida.** Con unos 41 segundos de media por pregunta, descarta lo que puedas y decide.
+
+## Contestar o dejar en blanco
+
+Los errores penalizan y las preguntas en blanco no. Con cuatro alternativas, cada error resta un tercio del valor de un acierto: contestar a ciegas no te da ventaja de media, pero **si descartas al menos una opción, contestar compensa**. Lo explicamos con números en [las series numéricas](/blog/series-numericas-psicotecnico-guardia-civil) y en [cómo se calcula la nota del examen](/blog/calcular-nota-examen-guardia-civil).
+
+## Checklist
+
+- [ ] Defino la palabra antes de mirar las opciones.
+- [ ] En analogías, formulo la relación con una frase y compruebo el orden.
+- [ ] Busco la opción más completa, no la primera aceptable.
+- [ ] Domino los conectores de oposición, causa y consecuencia.
+- [ ] Llevo un cuaderno de vocabulario y lo repaso de forma espaciada.
+- [ ] Practico siempre con cronómetro.
+
+Si quieres practicar con ejercicios corregidos y tiempo medido, los tienes en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Qué tipos de razonamiento verbal pueden salir en el psicotécnico?
+
+La convocatoria no los detalla. Los formatos habituales en baterías de aptitudes son sinónimos, antónimos, analogías, palabra intrusa, completar oraciones y ordenar frases.
+
+### ¿Cómo mejoro mi vocabulario rápidamente?
+
+Con lectura diaria, un cuaderno de palabras nuevas repasado de forma espaciada, el estudio de prefijos y sufijos, y práctica de ejercicios.
+
+### ¿Penalizan los errores en el psicotécnico?
+
+Sí. Con cuatro alternativas, cada error resta un tercio del valor de un acierto (0,125 frente a 0,375 puntos). Las preguntas en blanco no restan.
+
+### ¿Es mejor dejar en blanco o arriesgar?
+
+Si puedes descartar al menos una opción, contestar compensa de media. A ciegas, ni ganas ni pierdes.
+
+### ¿Qué hago si dos opciones me parecen correctas?
+
+La convocatoria dice que señales la más completa: la que recoge el significado o la relación con más precisión.
+
+### ¿Sirve leer novelas para el psicotécnico?
+
+Sí, como base de vocabulario y comprensión. Pero combínalo con ejercicios cronometrados: leer no entrena el ritmo de 41 segundos por pregunta.',
+   '/blog/razonamiento-verbal-psicotecnico-guardia-civil.jpg', 'Opositora subrayando un libro en una biblioteca con luz de ventana', 'publicado', '2026-11-28T06:54:00.000Z', 'acceso-guardia-civil',
+   ARRAY['psicotécnico', 'razonamiento verbal', 'analogías', 'vocabulario']::text[], '{"title":"Razonamiento verbal psicotécnico: tipos y ejemplos","description":"Razonamiento verbal para el psicotécnico: sinónimos, antónimos, analogías e intrusos con ejemplos resueltos, ejercicios y cómo ganar vocabulario."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('series-numericas-psicotecnico-guardia-civil', 'articulo', 'Series numéricas del psicotécnico: los patrones que más se repiten', 'Las series numéricas se resuelven reconociendo patrones, no a base de cálculo. Los esquemas que explican la mayoría de ejercicios, con ejemplos resueltos, una batería de práctica con soluciones y un método para no perder más de unos segundos en cada una.', 'En el psicotécnico de la Guardia Civil tienes **80 preguntas en 55 minutos**, unos **41 segundos por pregunta** de media, y ese tiempo incluye la lectura de instrucciones. Con ese ritmo no puedes «pensar» cada serie desde cero: tienes que **reconocer el patrón de un vistazo**. La respuesta corta de este artículo: casi todas las series que encontrarás en una batería de práctica se explican con una docena de patrones, y se aprenden con un método fijo y mucha repetición cronometrada.
+
+Una aclaración honesta antes de empezar: la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 6.1.2) describe la prueba como «test de inteligencia general y/o escalas específicas que midan la capacidad de aprendizaje, análisis, razonamiento y potencial cognitivo», y **no detalla qué tipos de ejercicio incluye**. Las series numéricas son un formato muy habitual en este tipo de baterías y sirven para entrenar el razonamiento, pero no se puede asegurar que aparezcan ni en qué forma. Cómo está montada la prueba lo tienes en [el artículo sobre el psicotécnico](/blog/psicotecnico-guardia-civil-aptitudes-personalidad).
+
+## Un método de cuatro pasos
+
+1. **Mira la tendencia.** ¿Crece despacio, se dispara, baja, sube y baja? Eso ya te orienta (ver la tabla de señales más abajo).
+2. **Calcula las diferencias** entre términos consecutivos. Si son constantes o siguen una regla, ya la tienes. Si no, mira las **diferencias de las diferencias**.
+3. **Prueba con cocientes.** Si cada número es el anterior multiplicado por algo, es una serie geométrica.
+4. **Si nada encaja, separa posiciones pares e impares.** Muchas series son dos series entrelazadas o dos operaciones alternas.
+
+Y una regla de oro: **comprueba la regla en todos los términos**, no solo en los dos primeros. Si a los 20 o 25 segundos no ves nada, **marca la pregunta y salta**.
+
+## Los patrones, con ejemplos resueltos
+
+Todos los ejemplos son de elaboración propia.
+
+### 1. Suma o resta constante
+
+3, 7, 11, 15, **?** → se suma 4 cada vez. Respuesta: **19**.
+
+### 2. Multiplicación o división constante
+
+2, 6, 18, 54, **?** → se multiplica por 3. Respuesta: **162**.
+100, 50, 25, 12,5, **?** → se divide entre 2. Respuesta: **6,25**.
+
+### 3. Diferencias que crecen de forma regular
+
+1, 2, 4, 7, 11, **?** → las diferencias son 1, 2, 3, 4; la siguiente es 5. Respuesta: 11 + 5 = **16**.
+
+### 4. Diferencias que se multiplican
+
+2, 3, 5, 9, 17, **?** → diferencias 1, 2, 4, 8: cada una es el doble de la anterior. La siguiente es 16. Respuesta: 17 + 16 = **33**.
+
+### 5. Multiplicar y sumar (o restar)
+
+1, 3, 7, 15, 31, **?** → cada término es el anterior por 2 más 1. Respuesta: 31 × 2 + 1 = **63**.
+
+Fíjate en que esta serie también se puede leer como diferencias que se duplican (2, 4, 8, 16, y la siguiente 32). Ambas lecturas llevan a 63. Es frecuente que una serie admita dos explicaciones coherentes; si coinciden en el resultado, no pierdas tiempo decidiendo cuál es «la buena».
+
+### 6. Cuadrados y cubos
+
+1, 4, 9, 16, 25, **?** → cuadrados de 1 a 5. Respuesta: **36**.
+2, 5, 10, 17, 26, **?** → cuadrados más 1 (1+1, 4+1, 9+1…). Respuesta: 36 + 1 = **37**.
+1, 8, 27, 64, **?** → cubos. Respuesta: **125**.
+
+Memoriza los cuadrados hasta el 15 (225) y los cubos hasta el 6 (216): reconocerlos al instante ahorra mucho tiempo.
+
+### 7. Suma de los dos anteriores
+
+2, 3, 5, 8, 13, **?** → cada número es la suma de los dos anteriores. Respuesta: **21**.
+
+### 8. Multiplicadores que crecen
+
+1, 2, 6, 24, 120, **?** → se multiplica por 2, por 3, por 4, por 5; toca por 6. Respuesta: **720**.
+
+### 9. Dos operaciones alternas
+
+2, 4, 3, 6, 5, 10, **?** → se alterna «por 2» y «menos 1»: 2→4 (×2), 4→3 (−1), 3→6 (×2), 6→5 (−1), 5→10 (×2). Toca −1. Respuesta: **9**.
+
+### 10. Dos series entrelazadas
+
+3, 10, 6, 20, 9, 40, **?** → los términos en posiciones impares (3, 6, 9) suben de 3 en 3, y los de posiciones pares (10, 20, 40) se duplican. El siguiente ocupa una posición impar. Respuesta: **12**.
+
+### 11. Números primos
+
+2, 3, 5, 7, 11, 13, **?** → números primos consecutivos. Respuesta: **17**.
+
+### 12. Series de letras
+
+En algunas baterías aparecen series de letras o mixtas. A, C, E, G, **?** → se salta una letra cada vez. Respuesta: **I**.
+
+Atención a un detalle propio del español: según el test, **la Ñ puede contar o no** en el abecedario. Si las instrucciones no lo aclaran, comprueba si alguna opción solo cuadra contando la Ñ. Pasar las letras a números (A = 1, B = 2…) ayuda a ver los saltos.
+
+## Señales para identificar rápido el tipo
+
+| Lo que ves | Piensa primero en |
+|---|---|
+| Números que crecen despacio y con regularidad | Suma constante o diferencias crecientes |
+| Números que se disparan | Multiplicación, potencias o multiplicadores crecientes |
+| Números que bajan a la mitad, tercio… | División constante |
+| Resultados que suben y bajan | Dos operaciones alternas o dos series entrelazadas |
+| Cuadrados perfectos (1, 4, 9, 16…) o casi | Potencias, o potencias más o menos algo |
+| 2, 3, 5, 7, 11, 13… | Primos |
+| Cada término parece la suma de otros | Suma de los dos anteriores |
+
+## Estimar para descartar: un ejemplo
+
+No siempre hace falta calcular. En la serie 2, 6, 18, 54, **?**, con las opciones a) 108, b) 160, c) 162 y d) 164: como se multiplica por 3, el resultado debe ser múltiplo de 3 y bastante mayor que 108. Solo **162** lo cumple. Has resuelto la pregunta sin hacer la multiplicación.
+
+## Practica: seis series con solución
+
+Intenta resolverlas con un límite de 40 segundos cada una antes de mirar las soluciones.
+
+1. 5, 9, 17, 33, **?**
+2. 81, 27, 9, 3, **?**
+3. 4, 6, 9, 13, 18, **?**
+4. 7, 14, 10, 20, 16, **?**
+5. 2, 12, 4, 15, 6, 18, **?**
+6. 3, 4, 7, 11, 18, **?**
+
+**Soluciones:**
+
+1. **65**. Cada término es el anterior por 2 menos 1 (o diferencias 4, 8, 16 → 32).
+2. **1**. Se divide entre 3.
+3. **24**. Diferencias 2, 3, 4, 5 → toca 6.
+4. **32**. Alterna «por 2» y «menos 4»: 16 × 2 = 32.
+5. **8**. Posiciones impares: 2, 4, 6 → 8; las pares (12, 15, 18) suben de 3 en 3.
+6. **29**. Cada término es la suma de los dos anteriores: 11 + 18 = 29.
+
+Si fallaste alguna, no basta con mirar la solución: apunta **qué patrón era** y por qué no lo viste. Es lo que hará que la próxima vez lo reconozcas en segundos.
+
+## Errores frecuentes
+
+- **Calcular con detalle lo que se puede estimar.** A veces basta ver que la respuesta ha de ser par, múltiplo de algo o mayor que cierto valor.
+- **Obsesionarse con una serie.** Con 41 segundos de media, una pregunta atascada te cuesta varias fáciles al final.
+- **Dar por buena la primera regla que encaja** en los dos primeros términos sin comprobar el resto.
+- **Olvidar las posiciones pares e impares** cuando la serie sube y baja.
+- **Equivocarse en la posición del término pedido** en series entrelazadas: cuenta si el hueco es par o impar.
+
+## ¿Contestar o dejar en blanco?
+
+Las respuestas incorrectas penalizan y las preguntas en blanco no. Con la fórmula de la base 7.3 y cuatro alternativas, cada acierto vale **0,375 puntos** y cada error resta **0,125** (un tercio de acierto). Hecha la cuenta del valor esperado:
+
+| Opciones que quedan tras descartar | Valor medio de contestar al azar |
+|---|---|
+| 4 (no descartas ninguna) | 0 puntos: ni ganas ni pierdes de media |
+| 3 | +0,04 puntos por pregunta |
+| 2 | +0,125 puntos por pregunta |
+
+Es decir: contestar a ciegas no mejora tu nota de media, pero **si descartas al menos una opción con seguridad, contestar compensa**. Para superar la prueba necesitas **12 puntos sobre 30**, que equivalen a **32 aciertos netos**. Lo desarrollamos en [cómo se calcula la nota del examen](/blog/calcular-nota-examen-guardia-civil), y cómo influye esta nota en el total, en [la nota de corte](/blog/nota-de-corte-guardia-civil).
+
+## Cómo entrenarlas
+
+- **Siempre con cronómetro.** Sin presión de tiempo estás practicando otra prueba.
+- **En sesiones cortas y frecuentes**, mejor que un atracón semanal.
+- **Con un cuaderno de patrones**: cada vez que falles, apunta el patrón con un ejemplo.
+- **Mezclando tipos**: en el examen no te avisan de qué viene, así que no entrenes siempre bloques del mismo patrón.
+
+En los próximos días organizaremos todo esto en una rutina de quince minutos diarios que combina series con otros tipos de ejercicio. Si quieres practicar con baterías corregidas y tiempo medido, las tienes en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Checklist
+
+- [ ] Aplico el método: tendencia, diferencias, cocientes, pares e impares.
+- [ ] Me sé los cuadrados hasta el 15 y los cubos hasta el 6.
+- [ ] Compruebo la regla en todos los términos.
+- [ ] Salto la pregunta si a los 20-25 segundos no veo nada.
+- [ ] Solo contesto al azar si he descartado alguna opción.
+- [ ] Llevo un cuaderno con los patrones que he fallado.
+
+## Preguntas frecuentes
+
+### ¿Salen series numéricas en el psicotécnico de la Guardia Civil?
+
+La convocatoria no detalla los tipos de ejercicio; solo dice que es una batería de aptitudes intelectuales que mide aprendizaje, análisis, razonamiento y potencial cognitivo. Las series numéricas son un formato habitual en estas baterías, por eso conviene entrenarlas.
+
+### ¿Cuánto tiempo hay por pregunta?
+
+80 preguntas en 55 minutos, incluida la lectura de instrucciones: unos 41 segundos de media.
+
+### ¿Se puede usar calculadora?
+
+No. La base 5.3 prohíbe calculadoras y cualquier otro tipo de ayuda, salvo que lo determine el Tribunal.
+
+### ¿Qué hago si no veo el patrón?
+
+Salta a la siguiente y vuelve al final si te sobra tiempo. Una pregunta atascada cuesta varias fáciles.
+
+### ¿Compensa contestar al azar?
+
+Sin descartar ninguna opción, de media no ganas ni pierdes. Si descartas al menos una, contestar compensa.
+
+### ¿Qué hago si una serie admite dos soluciones?
+
+Comprueba cuál aparece entre las opciones. Si solo una de las dos está, esa es la respuesta; si ambas lecturas dan el mismo número, no pierdas tiempo.
+
+### ¿Cuánto tiempo necesito para dominarlas?
+
+Depende de tu punto de partida. Lo que marca la diferencia es practicar con regularidad y revisar cada fallo, más que el número total de horas.',
+   '/blog/series-numericas-psicotecnico-guardia-civil.jpg', 'Aspirante mirando con el ceño fruncido un cuadernillo de series numéricas en un examen', 'publicado', '2026-11-27T06:37:00.000Z', 'acceso-guardia-civil',
+   ARRAY['psicotécnico', 'series numéricas', 'aptitudes', 'razonamiento']::text[], '{"title":"Series numéricas psicotécnico: patrones y ejemplos","description":"Series numéricas para el psicotécnico de la Guardia Civil: patrones habituales, ejemplos resueltos, ejercicios con solución y método rápido."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -1000,206 +1228,8 @@ Elige la que mejor te describa en general, no en un caso excepcional, y sigue ad
 ### ¿Cómo me preparo?
 
 Respondiendo con sinceridad, sin pensar demasiado cada ítem y habiendo descansado. Lo demás es conocerte bien para la entrevista posterior.',
-   '/blog/test-personalidad-guardia-civil.jpg', 'Aspirante rellenando una hoja de respuestas en una sala de examen llena', 'publicado', '2026-11-26T06:20:00.000Z', 'acceso-guardia-civil',
+   '/blog/test-personalidad-guardia-civil.jpg', 'Aspirante rellenando una hoja de respuestas en una sala de examen llena', 'publicado', '2026-11-30T06:28:00.000Z', 'acceso-guardia-civil',
    ARRAY['psicotécnico', 'personalidad', 'entrevista', 'coherencia']::text[], '{"title":"Test de personalidad Guardia Civil: cómo responder bien","description":"Test de personalidad de la Guardia Civil: qué dice la convocatoria, cómo funcionan estos cuestionarios, su relación con la entrevista y errores."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('tildes-reglas-oposicion-guardia-civil', 'articulo', 'Tildes en la oposición a Guardia Civil: las reglas que más fallan los opositores', 'La prueba de ortografía excluye con seis errores, y las tildes son una fuente constante de fallos. Reglas generales, diptongos e hiatos, tilde diacrítica, «solo» y «aún», casos especiales y un ejercicio resuelto como el del examen.', 'La prueba de ortografía no suma puntos: es **apto o no apto**. Pero con **seis o más respuestas erróneas** quedas excluido del proceso (base 7.4 de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)). **Respuesta corta:** casi todos los fallos de tildes se evitan con cuatro bloques bien aprendidos: las reglas generales, los hiatos, la tilde diacrítica y los interrogativos. Aquí los tienes con ejemplos y un ejercicio resuelto.
-
-Las reglas siguen la *Ortografía de la lengua española* de la RAE y la ASALE (2010). Los ejercicios son nuestros, no preguntas oficiales.
-
-## Cómo es la prueba
-
-Son **cinco frases con cuatro palabras o expresiones subrayadas cada una**, más una frase de reserva, y tienes que señalar las que presenten falta de ortografía (base 6.1.1.a). Cuenta como **respuesta errónea** tanto dejar sin marcar una palabra con falta como **marcar una que es correcta**. Es decir, de 20 palabras puedes fallar como máximo cinco, y tan grave es dejar pasar una falta como «corregir» algo que estaba bien.
-
-Además, se hace dentro de los **140 minutos** de la prueba de conocimientos teórico-prácticos, junto con la gramática, los conocimientos generales y el inglés. Lo tienes todo encuadrado en [ortografía y gramática en el examen](/blog/ortografia-gramatica-examen-guardia-civil) y en la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
-
-## Paso previo: la sílaba tónica
-
-Antes de aplicar ninguna regla, separa la palabra en sílabas y localiza la que suena más fuerte. Un truco: pronúnciala alargando cada sílaba por turnos («caaanción», «canciooón»); la que suena natural es la tónica.
-
-## Las reglas generales
-
-| Tipo | Sílaba tónica | Lleva tilde si… | Con tilde | Sin tilde |
-|---|---|---|---|---|
-| Aguda | Última | termina en vocal, **-n** o **-s** | canción, café, además, sofá | ciudad, reloj, papel, feliz |
-| Llana | Penúltima | **no** termina en vocal, -n ni -s | árbol, cárcel, lápiz, césped | examen, casa, joven, lunes |
-| Esdrújula | Antepenúltima | **siempre** | médico, teléfono, sábado | — |
-| Sobresdrújula | Anterior a la antepenúltima | **siempre** | cuéntamelo, dígaselo | — |
-
-### Tres matices que confunden
-
-- **Aguda terminada en -s precedida de otra consonante:** no lleva tilde (*robots*, *zigzags*). Y la **llana** en ese caso **sí** la lleva: *bíceps*, *fórceps*, *cómics*.
-- **Terminación en -y:** a efectos de tilde, la *y* final cuenta como consonante. Por eso *virrey*, *convoy* o *estoy* (agudas) no llevan tilde.
-- **«Examen» no lleva tilde, pero «exámenes» sí.** Lo veremos en los plurales.
-
-## Diptongos, triptongos e hiatos
-
-### Diptongos
-
-Son dos vocales en la misma sílaba: una abierta (*a, e, o*) con una cerrada átona (*i, u*), o dos cerradas distintas. Siguen las reglas generales: *camión* (aguda en -n), *después* (aguda en -s), *murciélago* (esdrújula). Si la tilde cae en un diptongo de abierta y cerrada, va sobre la abierta (*camión*); en *ui* o *iu*, sobre la segunda vocal (*cuídate*, *interviú*).
-
-*Jesuita*, *construir* o *destruido* no llevan tilde: son llanas o agudas que no la piden por la regla general.
-
-### Triptongos
-
-Tres vocales en una sílaba. También siguen las reglas generales: *averiguáis* (aguda en -s), *buey* (monosílabo).
-
-### Hiatos
-
-Dos vocales seguidas que pertenecen a sílabas distintas.
-
-- **Dos vocales abiertas** (*poeta*, *caótico*, *aéreo*, *héroe*): siguen las reglas generales. *Poeta* es llana en vocal, sin tilde; *aéreo* y *héroe* la llevan por ser esdrújulas.
-- **Vocal cerrada tónica junto a una abierta:** la cerrada **siempre** lleva tilde, aunque la regla general no lo pida: *país*, *día*, *río*, *baúl*, *maíz*, *oído*, *reír*. La *h* intercalada no lo impide: *búho*, *prohíbe*, *rehúsa*, *ahínco*.
-
-Esta regla explica una trampa clásica: *río* (sustantivo, dos sílabas: *rí-o*) lleva tilde, mientras que *rio* (de *reír*: «se rio») no la lleva, como verás en el apartado siguiente.
-
-## Monosílabos: sin tilde salvo la diacrítica
-
-Las palabras de una sola sílaba **no llevan tilde**: *fe, fue, fui, vio, dio, pie, sol, mar, dos*. La Ortografía de 2010 considera monosílabos, a efectos de tilde, palabras como **guion, truhan, hui, rio, lio, crio o fie**. Así que «se rio», «el guion» o «menudo lio» se escriben sin tilde.
-
-## La tilde diacrítica
-
-Distingue palabras que se escriben igual pero tienen distinta función: la forma tónica lleva tilde y la átona no.
-
-| Con tilde | Sin tilde |
-|---|---|
-| **tú** (pronombre): «tú vienes» | **tu** (posesivo): «tu casa» |
-| **él** (pronombre): «él lo dijo» | **el** (artículo): «el libro» |
-| **mí** (pronombre): «para mí» | **mi** (posesivo o nota musical): «mi coche» |
-| **sí** (afirmación o pronombre): «sí, lo sé»; «lo quiere para sí» | **si** (conjunción o nota): «si vienes» |
-| **té** (infusión) | **te** (pronombre): «te lo dije» |
-| **dé** (verbo *dar*): «que me dé» | **de** (preposición): «de Madrid» |
-| **sé** (verbo *saber* o *ser*): «yo sé»; «sé prudente» | **se** (pronombre): «se fue» |
-| **más** (cantidad): «más tiempo» | **mas** (= *pero*): «quiso, mas no pudo» |
-
-Dos cambios de 2010 que conviene recordar: la conjunción **o** ya **no** lleva tilde entre cifras («3 o 4») y **guion**, **truhan** o **hui** pierden la tilde, como has visto.
-
-## Interrogativos y exclamativos
-
-*Qué, quién, cuál, cómo, cuándo, cuánto, dónde* y *adónde* llevan tilde cuando preguntan o exclaman, **también en las preguntas indirectas** (sin signos de interrogación):
-
-- «¿**Cuándo** llegas?» / «Le pregunté **cuándo** llegaba» (pregunta indirecta: tilde).
-- «Avísame **cuando** llegues» (no pregunta: sin tilde).
-- «No sé **qué** hacer» / «Lo **que** quieras».
-- «¡**Cómo** corre!» (exclamación).
-
-Un caso fino de la propia Ortografía: «No tengo **qué** comer» (no tengo nada para comer) frente a «No tengo **que** comer» (no estoy obligado a comer). Las dos son correctas y significan cosas distintas.
-
-## «Solo», los demostrativos y «aún»
-
-- **«Solo»** (adverbio o adjetivo) y los demostrativos **este, ese, aquel** (con sus femeninos y plurales) **se escriben sin tilde**. En 2023 la RAE aclaró que la tilde en el adverbio *solo* es **optativa únicamente cuando quien escribe aprecia riesgo de ambigüedad**, y que fuera de esos casos debe omitirse. Lo más seguro, y lo que la RAE considera aconsejable, es no tildarlo nunca. En el examen, «solo» sin tilde nunca es falta.
-- **«Aún»** lleva tilde cuando equivale a *todavía* («aún no ha llegado», «es aún más alto»). **«Aun»** se escribe sin tilde cuando equivale a *incluso, hasta* o *siquiera* («aun así», «aun cuando llueva», «ni aun con ayuda»).
-
-## Plurales que ganan o pierden tilde
-
-Al pasar al plural se añade una sílaba y la palabra puede cambiar de tipo:
-
-| Singular | Plural | Por qué |
-|---|---|---|
-| examen (llana en -n) | exámenes (esdrújula) | La esdrújula siempre lleva tilde |
-| joven | jóvenes | Igual |
-| orden | órdenes | Igual |
-| canción (aguda en -n) | canciones (llana en -s) | La llana en -s no la lleva |
-| inglés | ingleses | Igual |
-| carácter | caracteres | Cambia la sílaba tónica (*rac*) |
-| régimen | regímenes | Cambia la sílaba tónica (*gí*) |
-| espécimen | especímenes | Cambia la sílaba tónica (*cí*) |
-
-## Otros casos especiales
-
-- **Adverbios en -mente:** conservan la tilde del adjetivo del que derivan: *fácil* → *fácilmente*, *cortés* → *cortésmente*, *común* → *comúnmente*. Si el adjetivo no la lleva, el adverbio tampoco: *lento* → *lentamente*.
-- **Compuestos sin guion:** se acentúan como una sola palabra: *décimo + séptimo* → *decimoséptimo*; *río + platense* → *rioplatense*; *así + mismo* → *asimismo*.
-- **Compuestos con guion:** cada parte conserva su tilde: *histórico-artístico*, *teórico-práctico*.
-- **Verbos con pronombres pospuestos:** desde 2010 siguen las reglas generales: *dame*, *deme*, *estate* (llanas, sin tilde); *mírame*, *dígaselo* (esdrújula y sobresdrújula, con tilde).
-- **Mayúsculas:** llevan tilde igual que las minúsculas: *África*, *Álvaro*, *ÓRDENES*.
-
-## Ejercicio resuelto (propio, con el formato del examen)
-
-Las palabras subrayadas en el examen aquí van en **negrita**. Decide cuáles tienen falta.
-
-1. «**Aún** no **sé** **por qué** el **examen** dura ciento cuarenta minutos».
-2. «El **guión** de la **película** **fué** muy aplaudido por el **público**».
-3. «Le pregunté **cuando** **vendría** y me dijo que **mas** tarde, **despues** de comer».
-4. «Los **exámenes** de este año fueron **mas** **dificiles** que los de 2025, aunque **solo** un poco».
-5. «**Dígame** **donde** vive y **porqué** ha venido; **aun** así, le atenderé».
-
-**Soluciones:**
-
-1. **Ninguna falta.** *Aún* = todavía; *sé* es verbo; *por qué* introduce una pregunta indirecta; *examen* es llana en -n. Una frase sin faltas también es posible: si marcas algo, sumas un error.
-2. **Dos faltas:** *guion* y *fue* van sin tilde. *Película* (esdrújula) y *público* (esdrújula) son correctas.
-3. **Tres faltas:** *cuándo* (pregunta indirecta), *más* (cantidad) y *después* (aguda en -s). *Vendría* es correcta (hiato con *í* tónica).
-4. **Dos faltas:** *más* y *difíciles*. *Exámenes* y *solo* son correctas.
-5. **Dos faltas:** *dónde* (pregunta indirecta) y *por qué* (pregunta indirecta, en dos palabras). *Dígame* y *aun* (= incluso) son correctas.
-
-En total hay nueve faltas en veinte palabras. Si hubieras dejado pasar *cuándo* y *dónde* y además hubieras marcado *aun* y *solo*, ya llevarías cuatro errores: así de rápido se llega al límite.
-
-## Errores frecuentes
-
-- **Tildar monosílabos:** *fué*, *dió*, *vió*, *guión*.
-- **Olvidar la tilde de las preguntas indirectas:** «no sé cuando…».
-- **Confundir *aun* y *aún*:** pregúntate si puedes decir *todavía*.
-- **Marcar como falta «solo» sin tilde:** es la forma recomendada.
-- **No aplicar la regla del hiato:** *pais*, *baul*, *oido* sin tilde son faltas.
-- **Olvidar los plurales:** *examenes* o *jovenes* sin tilde son faltas, y también *carácteres* o *regimenes*: lo correcto es *exámenes*, *jóvenes*, *caracteres* y *regímenes*.
-
-## Checklist de repaso
-
-- [ ] Sé localizar la sílaba tónica y clasificar la palabra.
-- [ ] Domino las tres reglas generales y sus matices (-s tras consonante, -y final).
-- [ ] Aplico la regla del hiato con *i* o *u* tónicas.
-- [ ] Me sé la tabla de la tilde diacrítica de memoria.
-- [ ] Reconozco las preguntas indirectas.
-- [ ] Distingo *aun* y *aún*, y escribo *solo* sin tilde.
-- [ ] Conozco los plurales que cambian.
-
-## Cómo repasarlas
-
-1. **Memoriza la tabla diacrítica** y la de plurales: son reglas cerradas.
-2. **Practica con frases**, no con palabras sueltas: en el examen todo está en contexto.
-3. **Haz tu lista de fallos** y repásala a intervalos. Si estudias a la vez que trabajas, encájalo como te contamos en [cómo preparar la oposición trabajando](/blog/plan-estudio-guardia-civil-trabajando).
-4. **Haz tests cronometrados** de cinco frases con cuatro palabras, y anota no solo las faltas que no ves, sino también las palabras correctas que marcas por miedo.
-
-En próximos artículos veremos las palabras trampa con B/V, G/J y H y los homófonos. Si quieres practicar con corrección explicada, en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes ejercicios de ortografía con el formato del examen.
-
-## Preguntas frecuentes
-
-### ¿Cuántos errores de ortografía se permiten en la Guardia Civil?
-
-Hasta cinco. Con seis o más respuestas erróneas eres declarado «no apto» y quedas excluido (base 7.4).
-
-### ¿Cuenta como error marcar una palabra correcta?
-
-Sí. Es respuesta errónea tanto no marcar una palabra con falta como marcar una que está bien.
-
-### ¿«Solo» lleva tilde?
-
-Como norma, no. Desde 2023 la RAE admite tildarlo solo si quien escribe aprecia ambigüedad, pero lo aconsejable es no tildarlo nunca. Sin tilde siempre es correcto.
-
-### ¿Cómo distingo «aún» de «aun»?
-
-Con tilde cuando significa *todavía* («aún no»); sin tilde cuando significa *incluso* («aun así»).
-
-### ¿«Guion» lleva tilde?
-
-No. Desde la Ortografía de 2010 se considera monosílabo a efectos de tilde, igual que *truhan*, *hui* o *rio* (de *reír*).
-
-### ¿Por qué «examen» no lleva tilde y «exámenes» sí?
-
-*Examen* es llana terminada en -n; *exámenes* es esdrújula, y las esdrújulas llevan siempre tilde.
-
-### ¿La «o» entre números lleva tilde?
-
-No. Desde 2010 se escribe sin tilde: «3 o 4».',
-   '/blog/tildes-reglas-oposicion-guardia-civil.jpg', 'Hoja de examen con palabras subrayadas y un bolígrafo negro', 'publicado', '2026-12-01T06:45:00.000Z', 'acceso-guardia-civil',
-   ARRAY['ortografía', 'tildes', 'acentuación', 'examen']::text[], '{"title":"Tildes en la oposición a Guardia Civil: reglas y ejercicios","description":"Reglas de acentuación para la prueba de ortografía de la Guardia Civil: agudas, llanas, hiatos, tilde diacrítica, solo y aún, con ejercicio resuelto."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

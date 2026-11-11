@@ -3,7 +3,7 @@ titulo: Lesiones típicas al preparar las pruebas físicas de la Guardia Civil y
 slug: lesiones-pruebas-fisicas-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-04T07:36:00+01:00
+publicado_en: 2026-12-05T07:53:00+01:00
 curso: acceso-guardia-civil
 entradilla: Una lesión a pocas semanas de las pruebas puede tirar por tierra meses de preparación. Cómo progresar sin pasarte, qué señales no ignorar, cómo volver tras parar y qué dice la convocatoria si te lesionas con el proceso en marcha.
 etiquetas: [pruebas físicas, lesiones, prevención, entrenamiento]

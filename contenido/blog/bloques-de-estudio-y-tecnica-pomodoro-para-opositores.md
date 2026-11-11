@@ -3,13 +3,15 @@ titulo: Bloques de estudio y técnica Pomodoro para opositores
 slug: bloques-de-estudio-y-tecnica-pomodoro-para-opositores
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-29T07:28:00+01:00
+publicado_en: 2027-01-23T07:46:00+01:00
 curso: acceso-guardia-civil
 entradilla: Cómo dividir tu día en bloques de estudio con objetivo, qué es la técnica Pomodoro y qué se puede decir de ella con honestidad. Plantillas de sesión, una semana tipo y cómo combinar bloques cortos con los 140 minutos del examen.
 etiquetas: [técnica de estudio, pomodoro, organización, planificación]
 seo_title: Técnica Pomodoro para opositores: bloques de estudio
 seo_description: Cómo organizar bloques de estudio con la técnica Pomodoro en la oposición a Guardia Civil: plantillas de sesión, descansos, semana tipo y evidencia.
 datos: {}
+portada: /blog/bloques-de-estudio-y-tecnica-pomodoro-para-opositores.jpg
+portada_alt: Opositora de espaldas tomando notas junto a un temporizador de cocina, un vaso de agua y el móvil boca abajo
 ---
 
 Sentarse cuatro horas «a estudiar» y levantarse sin saber qué has aprendido es una de las formas más comunes de perder el tiempo en una oposición. Dividir el día en **bloques con un objetivo concreto** ayuda a que cada hora cuente y, sobre todo, a saber al final del día qué has hecho.

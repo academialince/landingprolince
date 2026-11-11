@@ -3,7 +3,7 @@ titulo: Agrupación de Tráfico de la Guardia Civil: qué hace y cómo se entra
 slug: agrupacion-de-trafico-que-hace-y-como-se-entra-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-10T07:05:00+01:00
+publicado_en: 2027-01-14T07:13:00+01:00
 curso: acceso-guardia-civil
 entradilla: Tráfico no es un destino al que se vaya directo desde Baeza: es una especialidad con tres modalidades que exige una cualificación específica y un puesto que la requiera. Qué hace la Agrupación, cómo se organiza y qué fija la Orden PCM/509/2020.
 etiquetas: [tráfico, especialidades, motoristas, atestados]

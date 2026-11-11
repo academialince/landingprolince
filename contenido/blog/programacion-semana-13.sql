@@ -2,156 +2,6 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('certificados-de-idiomas-para-la-guardia-civil-cual-sacarte', 'articulo', '"Certificados de idiomas para la Guardia Civil: cuál sacarte y cuánto suma"', 'El baremo de la convocatoria de 2026 puntúa los certificados de idiomas con 5, 7 o 9 puntos según el nivel, dentro de un tope de 27 para los méritos académicos. Qué títulos se admiten, qué condiciones exige el apéndice I y cómo decidir cuál sacarte.', '**Respuesta corta:** según el apéndice I de la convocatoria de 2026, un certificado de nivel **B2 suma 5 puntos**, uno de **C1, 7** y uno de **C2, 9**. Por cada idioma solo cuenta una acreditación, la de mayor puntuación, y todos los méritos académicos juntos tienen un **tope de 27 puntos**. Solo puntúan los títulos que aparecen expresamente en la lista. El baremo puede cambiar entre convocatorias, así que compruébalo en la que se publique.
-
-Todo lo que sigue sale del apéndice I de la [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982). Para ver cómo encaja en el conjunto, mira [los 45 puntos de la fase de concurso](/blog/fase-concurso-guardia-civil-meritos).
-
-## Dónde encajan los idiomas en el baremo
-
-La fase de concurso vale de 0 a 45 puntos y se reparte en tres bloques con su propio tope:
-
-| Bloque | Tope | Qué incluye |
-|---|---|---|
-| Méritos profesionales | 13,5 | Servicios en las Fuerzas Armadas o en la Administración General del Estado, reservista voluntario |
-| Méritos académicos | 27 | Nivel académico (Bachiller o superior, 2 puntos) e **idiomas** |
-| Otros méritos | 4,5 | Permisos de conducción (A o A2; C, D y sus combinaciones) y deportista de alto nivel |
-
-Los idiomas son, con diferencia, la partida que más puntos puede aportar a quien no tiene experiencia profesional previa.
-
-## Las reglas generales
-
-- **Solo cuentan los méritos que figuran en el apéndice**, que se han **alegado en la inscripción telemática** y que **se poseen dentro del plazo de presentación de solicitudes**.
-- **Por cada idioma** se contabiliza una sola acreditación (perfil SLP, título o certificado): la de mayor puntuación. Un B2 y un C1 de inglés no se suman.
-- **Idiomas de interés**: alemán, árabe, francés, inglés, italiano, portugués y ruso. Certificados de idiomas distintos sí pueden sumar entre sí, dentro del tope de 27.
-- Se justifican con la documentación que pida el Tribunal de Selección, en la fecha que disponga.
-- En los certificados no nacionales, **todas las pruebas deben ser 100 % presenciales**.
-
-## Certificados de inglés que puntúan
-
-### Escuela Oficial de Idiomas
-
-Certificado oficial según el artículo 7.9 del Real Decreto 1041/2017:
-
-| Nivel | Puntos |
-| --- | --- |
-| Avanzado C2 | 9 |
-| Avanzado C1 | 7 |
-| Intermedio B2 | 5 |
-
-### Certificados no nacionales
-
-| Entidad | 9 puntos | 7 puntos | 5 puntos |
-| --- | --- | --- | --- |
-| Trinity College London (ISE) | ISE IV (C2) | ISE III (C1) | ISE II (B2) |
-| Cambridge | CPE (C2), grado A, B o C | CAE (C1), grado A, B o C | FCE (B2), grado A, B o C |
-| IELTS (Academic o General Training) | 8 o más en cada rasgo | De 7 a menos de 8 en cada rasgo | De 5,5 a menos de 7 en cada rasgo |
-| CertAcles (ACLES), pruebas presenciales | C2 | C1 | B2 |
-
-En Trinity puntúan los resultados *pass*, *pass with merit* o *pass with distinction*. En IELTS, la puntuación se exige en **cada uno de los rasgos de la nota final**, no en la media: con una nota global alta pero un rasgo por debajo del umbral, bajas de tramo.
-
-### Otras vías
-
-- **Perfil lingüístico SLP del STANAG 6001**: 4.4.4.4 o superior, 9 puntos; 3.3.3.3 o superior, 7; 2.2.2.2 o superior, 5. Solo pueden invocarlo quienes pertenezcan o hayan pertenecido a las Fuerzas Armadas, y debe estar en vigor.
-- **Licenciatura o Grado en Filología** (o equivalente) en un idioma de interés: 9 puntos. También **Traducción e Interpretación** en el idioma B, si es de interés: 9 puntos. En estos casos, esa titulación no puede valorarse además como nivel académico (apartado 2.1).
-
-### Lo que no está en la lista
-
-En la convocatoria de 2026 no figuran otros exámenes de inglés distintos de los citados. Si tu certificado no aparece en el apéndice, no puntúa en esa convocatoria aunque acredite un nivel B2 o superior. Tampoco puntúan niveles por debajo de B2. Antes de matricularte en un examen, comprueba que su nombre exacto está en el baremo vigente.
-
-## Cómo funciona el tope de 27: ejemplos resueltos
-
-Los ejemplos son hipotéticos y usan el baremo de 2026.
-
-| Aspirante | Méritos académicos | Suma | Puntúa |
-|---|---|---|---|
-| A | Bachiller + B2 de inglés | 2 + 5 | **7** |
-| B | Grado universitario + C1 de inglés + B2 de francés | 2 + 7 + 5 | **14** |
-| C | Bachiller + FCE (B2) + C1 de la EOI, ambos de inglés | 2 + 7 (solo el mayor) | **9** |
-| D | Bachiller + C2 de inglés, alemán y francés | 2 + 9 + 9 + 9 = 29 | **27** (tope) |
-| E | Grado en Filología Inglesa + B2 de francés | 9 + 5 (el grado no cuenta también como nivel académico) | **14** |
-
-En el caso E, si además tuviera otro título de Bachiller o superior distinto del de Filología, podría alegarlo como nivel académico; la convocatoria solo valora **una** titulación en ese apartado.
-
-## ¿Cuál sacarte?
-
-Depende de tu nivel real, de tu tiempo y de cuándo se abra el plazo:
-
-- **Si ya tienes un título, localízalo y alégalo.** Es puntuación sin más trabajo.
-- **El salto de B2 a C1 vale 2 puntos; de C1 a C2, otros 2.** Cada salto exige bastante más nivel. Para muchos opositores, asegurar un B2 o un C1 es más realista que perseguir un C2.
-- **Un segundo idioma** suma aparte: un B2 de francés añade 5 puntos aunque ya tengas un C1 de inglés.
-- **Fechas.** Debes poseer el certificado **dentro del plazo de solicitudes**. En 2026 ese plazo fue de 15 días hábiles desde el día siguiente a la publicación de la convocatoria. Mira con tiempo cuándo publica resultados cada examinador: aprobar no basta si el certificado llega tarde.
-- **Presencialidad.** Comprueba que el formato que eliges es presencial en todas sus partes.
-- **Coste.** Los exámenes oficiales tienen tasas que varían según la entidad; consúltalas antes de decidir.
-
-### Cómo comparar opciones antes de matricularte
-
-| Criterio | Qué comprobar |
-|---|---|
-| ¿Está en el baremo? | Nombre exacto del examen y nivel en el apéndice vigente |
-| ¿Es presencial? | Todas las partes, también la oral, en el caso de los no nacionales |
-| ¿Cuándo tendrás el certificado? | Fecha de publicación de resultados y de expedición, frente al plazo de solicitudes |
-| ¿Se ajusta a tu nivel? | Una prueba de nivel previa evita pagar por un examen que no vas a aprobar |
-| ¿Qué cuesta? | Tasa de examen y, si lo necesitas, preparación |
-
-### Alegarlo y justificarlo sin errores
-
-1. **Al rellenar la solicitud**, marca cada mérito en el apartado correspondiente de la inscripción telemática. Lo que no se alega no se valora.
-2. **Guarda el original** del certificado: cuando lo indique el Tribunal, los méritos se justifican con el original o una copia auténtica (base 3.2.1).
-3. **Espera las instrucciones del Tribunal** sobre cómo y cuándo presentar la documentación; en el SLP, la propia convocatoria prevé la consulta a las bases de datos del Ministerio de Defensa.
-4. **Revisa la lista de admitidos**, que se publica con la calificación de la fase de concurso. Según la base 3.4, hay **10 días hábiles** para subsanar errores en esa puntuación o reclamar. Las dudas sobre la puntuación de un mérito las resuelve la Jefatura de Enseñanza (base 3.2.2).
-
-Los pasos de la solicitud los veremos con más detalle en un artículo posterior.
-
-### ¿Cuánto pesan esos puntos?
-
-Mucho, en términos relativos. La puntuación final va sobre 195, y las notas de corte calculadas por ProLince para el acceso libre han oscilado en los últimos años entre 90,61 (2026) y 110,58 (2022); tienes el detalle en [nota de corte](/blog/nota-de-corte-guardia-civil). En ese contexto, 5 o 7 puntos son una diferencia apreciable, aunque nadie puede decirte cuánto pesarán en la próxima convocatoria.
-
-## Recuerda: el certificado no sustituye a la prueba de inglés
-
-El certificado suma en el concurso, pero **no te exime** de la prueba de inglés de la oposición, que sigue siendo eliminatoria con un [mínimo de 8 sobre 20](/blog/ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue). La buena noticia es que preparar un B2 te deja muy por encima del nivel ESO que exige esa prueba.
-
-## Errores frecuentes
-
-- **Sumar dos certificados del mismo idioma.** Solo cuenta el mayor.
-- **Olvidar alegarlo en la inscripción.** Si no lo alegas, no se valora.
-- **Sacarlo después del plazo de solicitudes.** Debes poseerlo dentro del plazo.
-- **Elegir un examen que no está en la lista** o con alguna parte no presencial.
-- **Mirar la media del IELTS** en lugar de cada rasgo.
-- **Contar Filología dos veces**, como idioma y como nivel académico.
-
-## Preguntas frecuentes
-
-### ¿Puedo sumar un B2 de inglés y un C1 de inglés?
-No. Por cada idioma solo cuenta una acreditación, la de mayor puntuación.
-
-### ¿Valen los exámenes online?
-En los certificados no nacionales, el apéndice exige que todas las pruebas sean 100 % presenciales; CertAcles también debe ser presencial.
-
-### ¿Y si me saco el título después de enviar la solicitud?
-El apéndice exige poseer el mérito dentro del plazo de presentación de solicitudes y haberlo alegado en la inscripción telemática.
-
-### ¿Cuántos puntos máximos puedo sacar por idiomas?
-Hasta 9 por idioma, con el tope de 27 de los méritos académicos en su conjunto, que incluyen también los 2 puntos del nivel académico.
-
-### ¿Puntúa un B1?
-No. Los tramos del baremo empiezan en B2 (5 puntos).
-
-### ¿Puntúa un certificado de catalán, gallego o euskera?
-No figuran entre los idiomas de interés del apéndice de 2026, que son alemán, árabe, francés, inglés, italiano, portugués y ruso.
-
-### ¿Me ayuda el certificado a preparar la prueba de inglés?
-Sí, indirectamente: el nivel B2 está por encima del nivel ESO de la prueba. Para entrenar el formato de 20 preguntas con penalización, el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) incluye tests y simulacros.',
-   NULL, NULL, 'publicado', '2027-02-03T06:53:00.000Z', 'acceso-guardia-civil',
-   ARRAY['idiomas', 'certificados', 'fase de concurso', 'baremo']::text[], '{"title":"Certificados de idiomas Guardia Civil: cuántos puntos suman","description":"Qué certificados de idiomas puntúan en la Guardia Civil 2026: EOI, Cambridge, IELTS, Trinity y CertAcles, con 5, 7 o 9 puntos y tope de 27 académicos."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
   ('colegio-de-guardias-jovenes-requisitos-de-edad', 'articulo', 'Colegio de Guardias Jóvenes: requisitos de edad y qué está confirmado', 'En el Colegio de Guardias Jóvenes hay dos momentos con requisitos de edad: el ingreso en el propio Colegio, que fija cada oferta de plazas, y el acceso a las plazas reservadas de la convocatoria del BOE. Qué está confirmado y dónde consultarlo.', '**Respuesta corta:** en el camino del Colegio de Guardias Jóvenes hay **dos momentos con requisitos distintos**. El primero es el **ingreso en el Colegio**, cuyos requisitos, incluida la edad, fija cada año una **oferta de plazas** que publica la Guardia Civil en su Boletín Oficial, no en el BOE. El segundo es el acceso a las **plazas reservadas al alumnado del Colegio** en la convocatoria de la Escala de Cabos y Guardias, que sí sale en el BOE y exige la misma edad que al resto: en 2026, **cumplir 18 años en el año de la convocatoria y no cumplir 41**.
 
 Una advertencia de honestidad: la oferta de plazas del curso 2026/2027 existe y la enlaza la web oficial de la Guardia Civil, pero su texto se aloja en la intranet del Cuerpo y **no hemos podido consultarlo en una fuente pública**. Por eso en este artículo no damos fechas de nacimiento, plazos ni cuantías de esa oferta: solo lo que hemos podido verificar. Si quieres entender primero qué es el Colegio, lee [qué es el Colegio de Guardias Jóvenes](/blog/colegio-guardias-jovenes-acceso-guardia-civil).
@@ -407,7 +257,7 @@ La convocatoria prevé diez días hábiles tras la lista provisional para subsan
 ### ¿Dónde se publican las listas?
 
 En la web de la Guardia Civil que indica la convocatoria y en el BOE.',
-   NULL, NULL, 'publicado', '2027-02-05T06:27:00.000Z', 'acceso-guardia-civil',
+   '/blog/como-rellenar-la-solicitud-de-la-guardia-civil-paso-a-paso.jpg', 'Aspirante rellenando un formulario en un portátil de noche, con el DNI electrónico junto al teclado y el móvil al lado', 'publicado', '2027-02-05T06:27:00.000Z', 'acceso-guardia-civil',
    ARRAY['solicitud', 'inscripción', 'sede electrónica', 'convocatoria']::text[], '{"title":"Solicitud Guardia Civil: cómo rellenarla paso a paso","description":"Cómo presentar la solicitud de ingreso en la Guardia Civil: sede electrónica, Cl@ve, plazo de 15 días hábiles, méritos y documentos (convocatoria 2026)."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -418,136 +268,147 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('convocatoria-guardia-civil-2027-que-se-sabe-y-cuando-saldra', 'articulo', 'Convocatoria Guardia Civil 2027: qué se sabe y cómo seguirla', 'De la convocatoria de 2027 no había nada oficial al preparar este artículo. Repasamos las fechas verificadas en el BOE de las cuatro últimas convocatorias, qué se ha mantenido estable y cómo seguir el proceso sin rumores.', '**Respuesta corta:** de la convocatoria de 2027 no había, en noviembre de 2026, cuando se preparó este artículo, **nada oficial**: ni oferta de empleo público ni resolución de convocatoria. Cualquier fecha que veas anunciada sin una norma detrás es una suposición. Lo que sí podemos darte son las fechas reales de las convocatorias anteriores y los elementos que se han repetido en todas, para que sepas cómo funciona el calendario sin que nadie te prometa un día.
+  ('derecho-fiscal-en-la-oposicion-hacienda-contrabando', 'articulo', 'Derecho fiscal en la oposición: contrabando y aduanas, las normas que entran', 'El tema 23 no es la Ley General Tributaria: es la represión del contrabando y el Código Aduanero de la Unión. Qué normas y títulos entran, los umbrales que separan delito e infracción, ejemplos resueltos y un mini test.', 'Si buscas «Derecho fiscal» y esperas encontrar impuestos, sorpresa: en esta oposición **no entran la Ley General Tributaria ni el IRPF**. **Respuesta corta:** el tema 23 gira en torno a una misión concreta de la Guardia Civil, el resguardo fiscal del Estado, y tiene dos bloques: la **represión del contrabando** (LO 12/1995 y RD 1649/1998) y una selección de títulos del **Código Aduanero de la Unión**. Lo más importante es dominar los umbrales de valor que separan el delito de la infracción administrativa.
 
-## Qué hay de oficial sobre 2027
+## Por qué está en el temario
 
-Una convocatoria necesita antes una [oferta de empleo público](/blog/oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti), y la de 2026 (Real Decreto 206/2026) dejó claro que las convocatorias derivadas «sólo podrán publicarse en el ejercicio presupuestario al que vienen referidas». En noviembre de 2026 no habíamos localizado ninguna oferta para 2027 en el BOE.
+La [LO 2/1986, de Fuerzas y Cuerpos de Seguridad](https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859), atribuye a la Guardia Civil, en su artículo 12.1.B, «el resguardo fiscal del Estado y las actuaciones encaminadas a evitar y perseguir el contrabando». Y el RD 1649/1998 prevé que el procedimiento sancionador pueda iniciarse a partir de la actuación de la Guardia Civil en esas funciones. El reparto de competencias entre cuerpos lo tienes en [la LO 2/1986, competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada).
 
-Por tanto, en ese momento no se sabía oficialmente:
+## Qué normas entran
 
-- el **número de plazas** ni su reparto entre cupos;
-- la **fecha de publicación** ni el plazo de solicitud;
-- los **requisitos concretos**, incluido el año de referencia para la edad;
-- el **temario** que se aplicará ni la **fecha del examen**, que, además, la convocatoria no fija: la anuncia el Tribunal.
+Según el [temario oficial](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf) y nuestro [programa](/temario-guardia-civil):
 
-Si cuando leas esto ya hay algo publicado, manda lo que diga el BOE.
+**Bloque 1. Represión del contrabando**
+- [Ley Orgánica 12/1995, de 12 de diciembre](https://www.boe.es/buscar/act.php?id=BOE-A-1995-26836), de represión del contrabando.
+- [Real Decreto 1649/1998, de 24 de julio](https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017), que desarrolla su Título II (infracciones administrativas).
 
-## Cómo fueron las convocatorias anteriores
+**Bloque 2. Reglamento (UE) n.º 952/2013, Código Aduanero de la Unión**, solo en estas partes:
+- Título I: ámbito, misión de las aduanas y definiciones; derechos y obligaciones (suministro de información y representación aduanera).
+- Título III, Capítulo 1: origen de la deuda aduanera de importación y de exportación.
+- Título VI: despacho a libre práctica y exención de derechos de importación.
+- Título VII, Capítulos 1 y 2: disposiciones generales de los regímenes especiales y tránsito.
+- Título VIII: salida de mercancías (formalidades, exportación y reexportación, declaración sumaria de salida).
 
-Todas las fechas y cifras de esta tabla están tomadas del BOE:
+La Ley General Tributaria solo aparece citada dentro de la LO 12/1995 (por ejemplo, en el artículo 4, sobre responsabilidad civil, o como norma supletoria del Título II), pero no forma parte del programa.
 
-| Año | Oferta (real decreto y fecha del BOE) | Convocatoria (fecha del BOE) | Plazas |
+## La estructura de la LO 12/1995
+
+| Parte | Artículos | Contenido |
+| --- | --- | --- |
+| Título preliminar | Art. 1 | Definiciones: mercancía, importación, exportación, géneros estancados, géneros prohibidos… |
+| Título I. Delito de contrabando | Arts. 2 a 10 | Tipos, penas, responsabilidad civil, comiso, intervención, enajenación anticipada y valoración |
+| Título II. Infracciones administrativas | Arts. 11 a 16 | Tipificación, sanciones, graduación, competencia, medidas, no concurrencia y prescripción |
+| Disposiciones adicionales | DA 1.ª a 4.ª | Organización funcional (incluido el Servicio de Vigilancia Aduanera), información de transportistas y liquidación de la deuda |
+
+Dos definiciones del artículo 1 que conviene tener claras: **géneros estancados** son los atribuidos por ley al Estado en régimen de monopolio, **incluidas las labores del tabaco**; **géneros prohibidos** son aquellos cuya importación, exportación, comercio, tenencia o producción prohíbe un tratado, una ley o un reglamento de la Unión.
+
+## Delito o infracción: los umbrales
+
+Según el artículo 2, hay **delito de contrabando** cuando el valor de los bienes es igual o superior a:
+
+| Supuesto | Ejemplos | Umbral |
+| --- | --- | --- |
+| Art. 2.1 | Importar o exportar mercancías de lícito comercio sin presentarlas en aduana; comerciar con mercancías no comunitarias sin acreditar su importación lícita | 150.000 € |
+| Art. 2.2 | Exportar bienes del Patrimonio Histórico sin autorización; géneros estancados o prohibidos; especies protegidas por el Convenio de Washington; material de defensa y de doble uso; precursores de drogas | 50.000 € |
+| Art. 2.3.b | Labores de tabaco | 15.000 € |
+
+Además, es delito **con independencia del valor** (art. 2.3.a) cuando el objeto son drogas, estupefacientes, sustancias psicotrópicas, armas, explosivos, agentes biológicos o toxinas, sustancias químicas tóxicas y sus precursores, u otros bienes cuya tenencia es delito, o cuando el contrabando se hace **a través de una organización**. Otras reglas: las acciones fraccionadas con un plan preconcebido se suman (art. 2.4), la **imprudencia grave** también es punible (art. 2.5) y las personas jurídicas pueden ser penalmente responsables (art. 2.6).
+
+**Penas (art. 3):** prisión de **uno a cinco años** y multa **del tanto al séxtuplo** del valor de los bienes. En los supuestos de las letras a), b) y e) del artículo 2.1 (con una salvedad en la e), se imponen en su mitad inferior; en los demás casos del artículo 2, en su mitad superior. Si es imprudente, pena inferior en un grado. Para repasar qué significan mitades y grados, mira [derecho penal: delito, penas y grados](/blog/derecho-penal-para-guardia-civil-delito-penas-y-grados).
+
+## Las infracciones administrativas (Título II)
+
+Cuando la conducta de los apartados 1 y 2 del artículo 2 no llega a delito, es **infracción administrativa** (art. 11), sea dolosa o con cualquier grado de negligencia. Se clasifica por el valor:
+
+| Clase | Caso general | Supuestos del art. 2.2 | Labores de tabaco |
 | --- | --- | --- | --- |
-| 2023 | Real Decreto 627/2023, BOE de 12 de julio | 16 de agosto de 2023 ([BOE-A-2023-18485](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18485)) | 2.520 |
-| 2024 | Real Decreto 562/2024, BOE de 12 de junio | 25 de junio de 2024 ([BOE-A-2024-12818](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12818)) | 2.721 |
-| 2025 | Real Decreto 341/2025, BOE de 16 de abril | 28 de mayo de 2025 ([BOE-A-2025-10521](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10521)) | 3.118 |
-| 2026 | Real Decreto 206/2026, BOE de 13 de marzo | 8 de mayo de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) | 3.240 |
+| Leve | Menos de 37.500 € | Menos de 6.000 € | Menos de 1.000 € |
+| Grave | De 37.500 a 112.500 € | De 6.000 a 18.000 € | De 1.000 a 6.000 € |
+| Muy grave | Más de 112.500 € | Más de 18.000 € | Más de 6.000 € |
 
-### Qué se puede decir con honestidad de estos datos
+**Multas (art. 12)**, proporcionales al valor de los bienes, en el caso general: leves, del 100 al 150 %; graves, del 150 al 250 %; muy graves, del 250 al 350 %, con un mínimo de 500 €. Para los bienes del artículo 2.2 y el tabaco hay porcentajes propios, mínimos de 1.000 € (2.000 € en tabaco) y, además, cierre del establecimiento o suspensión de la actividad.
 
-- **Hay un orden fijo:** primero la oferta y después la convocatoria.
-- **El calendario no es regular.** El tiempo entre una y otra fue muy distinto cada año, y la convocatoria cayó en meses diferentes (agosto, junio, mayo y mayo). Con cuatro ejemplos no se puede deducir cuándo saldrá la próxima, y no vamos a hacer como que sí.
-- **Las plazas subieron en esos cuatro años**, pero dependen de la tasa de reposición de cada ejercicio. No permiten predecir la cifra de 2027.
+**Otras claves del Título II:**
+- **Competencia (art. 13):** los órganos de la Administración aduanera de la Agencia Estatal de Administración Tributaria. Sus resoluciones se recurren en vía económico-administrativa y después ante la jurisdicción contencioso-administrativa.
+- **No concurrencia (art. 14 bis):** si la Administración aprecia posible delito, pasa el tanto de culpa al juez o al fiscal y suspende el procedimiento; una sentencia condenatoria impide la sanción administrativa.
+- **Prescripción (art. 15):** las infracciones y las sanciones prescriben a los **cuatro años**.
 
-### Lo que se ha repetido en las cuatro
+### El reglamento: RD 1649/1998
 
-Hay elementos que han sido idénticos en las convocatorias de 2023, 2024, 2025 y 2026 que hemos comprobado. No garantizan nada para 2027, pero te sirven para prepararte:
+Desarrolla el procedimiento sancionador. Dos datos útiles: los órganos competentes para imponer multas son los responsables de Aduanas e Impuestos Especiales de la AEAT (art. 16), y el plazo máximo para resolver es de **seis meses** desde el acuerdo de iniciación, prorrogable una sola vez por otros seis (art. 35.5). Esta última fue la pregunta 97 del modelo A de 2026; puedes ver otras en [exámenes oficiales anteriores](/blog/examenes-oficiales-anteriores-donde-encontrarlos).
 
-| Elemento | Qué dijeron las cuatro convocatorias |
-|---|---|
-| Plazo de solicitud | 15 días hábiles desde el día siguiente a la publicación en el BOE |
-| Tasa de examen | 11,66 euros con carácter general; 5,83 euros para familia numerosa de categoría general |
-| Cupos | Plazas para militares de tropa y marinería, para el Colegio de Guardias Jóvenes y libres |
-| Plazas reservadas sin cubrir | Se acumulan al cupo libre |
+## Ejemplos resueltos (hipotéticos)
 
-En la de 2026, además, la incorporación a la Academia de Baeza (Jaén) y al Colegio de Guardias Jóvenes de Valdemoro (Madrid) se fijó para el **13 de octubre de 2026**. Para ver cómo se estructuró todo ese proceso, tienes la [convocatoria de 2026 explicada](/blog/convocatoria-guardia-civil-2026-plazas-calendario).
+1. **Tabaco por valor de 20.000 €** sin cumplir los requisitos legales. Tabaco: umbral de delito, 15.000 €. 20.000 ≥ 15.000 → **delito**.
+2. **Tabaco por valor de 4.000 €.** No llega a 15.000 → infracción. Escala del tabaco: entre 1.000 y 6.000 → **grave**.
+3. **Mercancía de lícito comercio de 120.000 €** importada sin presentarla en aduana. Art. 2.1: umbral, 150.000 → no es delito. Caso general: más de 112.500 → infracción **muy grave**. Multa entre el 250 y el 350 %: entre 300.000 y 420.000 €.
+4. **Tres envíos de 60.000 €** de la misma mercancía de lícito comercio, con un plan preconcebido. Cada uno no llega a 150.000, pero suman 180.000 → **delito** por el artículo 2.4.
+5. **Cualquier cantidad de droga o de armas** introducida de contrabando → **delito**, sin importar el valor (art. 2.3.a).
 
-## Cómo seguirla sin depender de rumores
+## El Código Aduanero de la Unión: lo esencial
 
-Pon las fuentes oficiales en tu rutina:
+Es un reglamento europeo de aplicación directa. Conceptos clave dentro de lo que entra:
 
-1. **BOE, sección II.B («Oposiciones y concursos»)**, donde se publica la resolución de convocatoria de la Dirección General de la Guardia Civil. La oferta aparece en la sección III («Otras disposiciones»).
-2. **La web de la Guardia Civil**, en el apartado de ingreso en el Cuerpo: la convocatoria de 2026 (base 4.11) la designó para publicar oficialmente las resoluciones del Tribunal.
-3. **La web del Ministerio del Interior**, que debe recoger un apartado de procesos selectivos con cada convocatoria, según la disposición adicional del Real Decreto 206/2026.
-4. **La sede electrónica de la Guardia Civil**, donde se presenta la solicitud, que en 2026 fue obligatoriamente telemática.
+- **Misión de las aduanas (art. 3):** supervisar el comercio internacional de la Unión, contribuir a un comercio justo y abierto y aplicar la política comercial común, entre otros fines.
+- **Territorio aduanero (art. 4):** incluye España **salvo Ceuta y Melilla**; de Dinamarca quedan fuera las Islas Feroe y Groenlandia.
+- **Deuda aduanera (art. 5):** obligación de pagar los derechos de importación o exportación aplicables a unas mercancías.
+- **Despacho a libre práctica (art. 201):** confiere a las mercancías no pertenecientes a la Unión el **estatuto aduanero de mercancías de la Unión**, con el pago de los derechos debidos.
+- **Regímenes especiales (art. 210):** tránsito (interno y externo), depósito (depósito aduanero y zonas francas), destinos especiales (importación temporal y destino final) y perfeccionamiento (activo y pasivo). De ellos, el programa solo desarrolla el tránsito.
 
-Una alerta en el buscador del BOE con «Guardia Civil» y «Escala de Cabos y Guardias» te ahorra mirar cada día.
+No es un bloque de memorizar importes, sino de entender el recorrido de la mercancía: entra, se declara, nace la deuda, se despacha o se somete a un régimen especial, y sale.
 
-## Qué conviene tener listo antes de que salga
+## Cómo estudiarlo
 
-Si se mantiene el plazo de 15 días hábiles, lo que no puedes improvisar es lo siguiente:
-
-- **Acceso electrónico:** Cl@ve o certificado digital funcionando, y tu número de la Seguridad Social a mano.
-- **Requisitos:** revisar [edad y requisitos](/blog/requisitos-guardia-civil) con la convocatoria en la mano. La edad se cuenta por año natural.
-- **Méritos:** reunir los certificados que alegarás (titulación, idiomas, servicios), porque solo cuentan los que poseas dentro del plazo de solicitud.
-- **Situación para la tasa:** si vas a pedir una exención como demandante de empleo, en 2026 había que figurar como tal al menos un mes antes de la publicación de la convocatoria.
-- **Estudio:** si esperas a la publicación para empezar, llegas tarde. Un [plan de estudio compatible con trabajar](/blog/plan-estudio-guardia-civil-trabajando) se construye con meses de antelación, y los [exámenes oficiales anteriores](/blog/examenes-oficiales-anteriores-donde-encontrarlos) te dan la referencia del nivel.
-
-## Qué leer primero el día que se publique
-
-La convocatoria de 2026 ocupó decenas de páginas del BOE. Si sale la de 2027, este es un orden razonable de lectura para no perder tiempo:
-
-1. **Base 1 (normas generales):** número de plazas y reparto entre cupos.
-2. **Base 2 (requisitos):** edad, titulación, permiso de conducir y tatuajes. Compruébalos antes de nada.
-3. **Base 3 (solicitudes):** plazo, forma de presentación, tasas y exenciones. Apunta el último día hábil del plazo en tu calendario.
-4. **Apéndice del baremo:** qué méritos puntúan y cómo se acreditan, para alegarlos todos en la solicitud.
-5. **Bases de las pruebas:** estructura del examen, puntuaciones mínimas y penalización por error.
-6. **Apéndices de pruebas físicas y certificado médico:** marcas y modelos de certificado.
-
-Compara cada punto con lo que decía la convocatoria anterior. Si algo cambia (una marca, un mérito, una tasa), es lo que más te conviene saber cuanto antes.
-
-## Un caso práctico (hipotético)
-
-Nuria cumple 40 años en 2027 y lee que «la convocatoria saldrá en marzo». Antes de agobiarse, comprueba que la frase no cita ninguna norma y que en el BOE no hay oferta de 2027. Revisa también su edad con el criterio de 2026 (no cumplir 41 en el año de la convocatoria): si en 2027 se mantiene, podría presentarse, pero no en una convocatoria de 2028. Decide estudiar como si saliera pronto y vigilar el BOE cada semana. Es un ejemplo inventado; el requisito exacto lo dirá la convocatoria de 2027.
+- **Empieza por la LO 12/1995:** es corta y se entiende bien con las dos tablas de umbrales.
+- **Haz fichas de las cifras** (150.000, 50.000, 15.000; 37.500 y 112.500; cuatro años) con repaso espaciado ([cómo hacerlo](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario)).
+- **Lee el Código Aduanero con el temario al lado**, para no estudiar títulos que no entran.
+- **Practica con tests**, incluidas las preguntas oficiales de 2026 de este tema.
 
 ## Errores frecuentes
 
-- **Tomar una fecha de un foro por oficial.**
-- **Pensar que «sale siempre en primavera».** En 2023 salió en agosto y en 2024 en junio.
-- **Esperar a la convocatoria para conseguir Cl@ve** o para pedir certificados de méritos.
-- **Dar por hecho el número de plazas** antes de la oferta.
-- **Confundir el examen con la convocatoria.** La fecha del examen la anuncia después el Tribunal.
-- **Dejar caducar el DNI o el permiso de conducir** justo cuando se abre el plazo: son requisitos que se comprueban y que deben mantenerse durante todo el proceso.
+- Estudiar la Ley General Tributaria.
+- Aplicar el umbral general de 150.000 € al tabaco o a los géneros estancados.
+- Olvidar que drogas, armas, explosivos y organización son delito sin umbral.
+- Confundir las escalas de infracción con los umbrales de delito.
+- Atribuir al Servicio de Vigilancia Aduanera el carácter de policía judicial: la ley le da carácter **colaborador** de las Fuerzas y Cuerpos de Seguridad del Estado.
 
-## Checklist
+## Mini test (preguntas propias, salvo la 6)
 
-- [ ] Alerta del BOE configurada.
-- [ ] Cl@ve o certificado digital operativo.
-- [ ] Número de la Seguridad Social localizado.
-- [ ] Requisitos comprobados con el criterio de la última convocatoria.
-- [ ] Certificados de méritos reunidos.
-- [ ] Plan de estudio en marcha, con [recursos oficiales gratuitos](/blog/recursos-oficiales-gratuitos-para-preparar-la-guardia-civil) como complemento.
+1. Contrabando de labores de tabaco por valor de 15.000 €:
+   a) Infracción grave · b) Infracción muy grave · c) Delito · d) No es sancionable
+2. La pena de prisión del delito de contrabando es de:
+   a) 6 meses a 3 años · b) 1 a 5 años · c) 2 a 6 años · d) 3 a 8 años
+3. Las infracciones administrativas de contrabando prescriben a los:
+   a) 2 años · b) 3 años · c) 4 años · d) 5 años
+4. ¿Quién es competente para conocer de las infracciones administrativas de contrabando?
+   a) La Guardia Civil · b) La Administración aduanera de la AEAT · c) El juez de instrucción · d) El Ministerio del Interior
+5. ¿Qué confiere el despacho a libre práctica a una mercancía no perteneciente a la Unión?
+   a) El estatuto aduanero de mercancía de la Unión · b) La exención de todo derecho · c) El régimen de tránsito · d) La reexportación
+6. (Oficial, 2026, modelo A, n.º 96) En la persecución de los delitos de contrabando, el Servicio de Vigilancia Aduanera tiene, respecto de las Fuerzas y Cuerpos de Seguridad del Estado, carácter de:
+   a) Policía judicial · b) Colaborador · c) Agente de la autoridad · d) Fuerza auxiliar
 
-Para tener el temario ordenado desde ya, está el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+**Soluciones:** 1 c (art. 2.3.b: igual o superior a 15.000). 2 b (art. 3.1). 3 c (art. 15). 4 b (art. 13). 5 a (art. 201 del Código Aduanero). 6 b (disposición adicional primera; también según la plantilla oficial).
+
+El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye este tema con tests.
 
 ## Preguntas frecuentes
 
-### ¿Hay ya fecha para la convocatoria de 2027?
+### ¿Entra la Ley General Tributaria?
+No figura entre las normas del tema 23. Solo se cita dentro de la ley de contrabando.
 
-No había fecha oficial en noviembre de 2026. Cualquier fecha que circule sin una norma detrás es una suposición.
+### ¿Hay que saberse los importes?
+Sí: los umbrales son la base para distinguir delito e infracción y para clasificar las infracciones. Comprueba siempre la versión consolidada vigente, porque se han modificado con los años.
 
-### ¿Saldrán más plazas que en 2026?
+### ¿Es lo mismo contrabando que fraude fiscal?
+No. El contrabando afecta a mercancías, a su paso por la aduana o a su comercio y tenencia sin acreditar su licitud; el fraude fiscal es materia tributaria y penal distinta.
 
-No se sabe. La cifra la fija la oferta de empleo público, y la de 2027 no estaba publicada. Que subiera en los últimos años no permite asegurar lo que ocurrirá.
+### ¿Quién sanciona las infracciones de contrabando?
+Los órganos de la Administración aduanera de la AEAT (art. 13 de la LO 12/1995), conforme al procedimiento del RD 1649/1998.
 
-### ¿Cuánto tiempo pasa entre la oferta y la convocatoria?
-
-Ha variado mucho: en 2024 fueron menos de dos semanas y en 2026, casi dos meses. No hay un plazo fijo.
-
-### ¿Puedo empezar a prepararme sin convocatoria?
-
-Sí. El programa lo fija cada convocatoria, así que lo prudente es estudiar con el de la última publicada y comprobar el de 2027 en cuanto salga.
-
-### ¿La tasa será de 11,66 euros?
-
-Fue esa en las convocatorias de 2023 a 2026, pero la cuantía de 2027 la dirá su convocatoria.
-
-### ¿La convocatoria del Colegio de Guardias Jóvenes es la misma?
-
-No. El ingreso en el Colegio tiene su propia oferta de plazas, que publica la Guardia Civil en su Boletín Oficial, no en el BOE. La del curso 2026/2027 la enlaza la web oficial de la Guardia Civil.',
-   NULL, NULL, 'publicado', '2027-02-04T06:10:00.000Z', 'acceso-guardia-civil',
-   ARRAY['convocatoria 2027', 'BOE', 'calendario', 'plazas']::text[], '{"title":"Convocatoria Guardia Civil 2027: qué se sabe oficial","description":"Convocatoria Guardia Civil 2027: qué hay de oficial, fechas del BOE de las convocatorias de 2023 a 2026, qué se ha repetido y dónde seguirla sin rumores."}'::jsonb, '{}'::jsonb)
+### ¿El Código Aduanero entra completo?
+No. Solo los títulos y capítulos que enumera el temario: partes de los Títulos I, III, VI, VII y VIII.',
+   '/blog/derecho-fiscal-en-la-oposicion-hacienda-contrabando.jpg', 'Agentes del Servicio Marítimo de la Guardia Civil abordando un pesquero', 'publicado', '2027-02-03T06:53:00.000Z', 'acceso-guardia-civil',
+   ARRAY['derecho fiscal', 'contrabando', 'aduanas', 'temario']::text[], '{"title":"Derecho fiscal Guardia Civil: contrabando y aduanas","description":"Tema 23 de Guardia Civil: LO 12/1995 de contrabando, RD 1649/1998 y Código Aduanero de la Unión. Umbrales, sanciones, ejemplos resueltos y mini test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -691,6 +552,159 @@ No se puede valorar desde un artículo. Si te preocupa o te limita en tu día a 
 Pueden animar un rato, pero no sustituyen a un plan. Un mínimo diario y una rutina suelen sostener más que la inspiración.',
    NULL, NULL, 'publicado', '2027-02-07T06:01:00.000Z', 'acceso-guardia-civil',
    ARRAY['motivación', 'hábitos', 'organización', 'opositor']::text[], '{"title":"Motivación para opositar: qué hacer cuando no te apetece","description":"Qué hacer los días que no te apetece estudiar la oposición a Guardia Civil: diagnóstico, mínimos diarios, planes si-entonces, rutinas y cuándo pedir ayuda."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('plan-de-repaso-para-los-ultimos-tres-meses-antes-del-examen', 'articulo', 'Plan de repaso para los últimos tres meses antes del examen', 'Un plan de repaso semana a semana para los tres meses previos al examen de Guardia Civil: cerrar temario, simulacros y corrección, cuaderno de errores, mínimos de cada prueba y última semana. Orientativo, para adaptar a tu nivel y a la fecha que anuncie el Tribunal.', 'Los últimos tres meses no sirven para aprender todo de cero, sino para **consolidar lo que sabes, corregir lo que fallas y ensayar el examen**. Un buen plan pasa de «ver temas» a «recuperarlos y aplicarlos», y mide cada semana si va por buen camino.
+
+**Respuesta corta:** divide las trece semanas en tres fases (cerrar y consolidar, simulacros y corrección, afinar) más una última semana de descarga. Asegura primero los mínimos eliminatorios de cada prueba, después sube nota, y revisa el plan cada semana con los datos de tus simulacros. Es un esquema orientativo y propio: ajústalo a tu punto de partida.
+
+## Antes de empezar: cuenta hacia atrás desde una fecha
+
+La convocatoria no fija la fecha del examen: la anuncia el Tribunal de Selección. Si todavía no la conoces, **fija una fecha provisional** y monta el plan hacia atrás; cuando se publique la fecha real, desplaza las fases. Lo importante es la secuencia, no el calendario exacto.
+
+## Qué tienes que cubrir y qué te elimina
+
+Según la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)), la prueba de conocimientos teórico-prácticos dura **140 minutos** e incluye ortografía, gramática, conocimientos generales e inglés. Aparte va el psicotécnico. Estos son los umbrales que no puedes dejar de superar:
+
+| Prueba | Formato | Te elimina |
+| --- | --- | --- |
+| Ortografía | 5 frases con 4 palabras subrayadas | 6 errores o más |
+| Gramática | 20 frases | 6 errores o más |
+| Conocimientos | 100 preguntas, 4 opciones | Menos de 50 sobre 100 |
+| Inglés | 20 preguntas, 4 opciones | Menos de 8 sobre 20 |
+| Aptitudes intelectuales | 80 preguntas en 55 minutos | Menos de 12 sobre 30 (32 aciertos netos) |
+
+Después vienen las pruebas físicas, el reconocimiento médico y la entrevista. El detalle del examen está en [la estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
+
+## El orden de prioridades
+
+1. **Primero, los mínimos.** Una prueba por debajo del mínimo te deja fuera aunque el resto sea excelente.
+2. **Después, la nota global.** La puntuación final (oposición hasta 150 más concurso hasta 45) ordena a los aspirantes; con ella se convoca a las pruebas físicas y médicas a 1,5 aspirantes por plaza.
+3. **En paralelo, las físicas.** No puntúan, pero un «no apto» te excluye.
+
+## Reparto orientativo del tiempo semanal
+
+Una propuesta propia para quien tiene el temario visto y los mínimos más o menos encarrilados. Si una prueba está en riesgo, súbele el porcentaje:
+
+| Bloque | % del tiempo de estudio |
+| --- | --- |
+| Conocimientos (tests, repaso, simulacros) | 60 % |
+| Inglés | 15 % |
+| Psicotécnico | 10 % |
+| Ortografía y gramática | 10 % |
+| Revisión del plan y cuaderno de errores | 5 % |
+
+El entrenamiento físico va aparte de estas horas.
+
+## Fase 1 (semanas 1-4): cerrar temario y consolidar
+
+- **Termina de ver los temas pendientes.** Si te faltan muchos, prioriza el repaso de lo ya visto y decide con realismo qué entra en tu plan.
+- **Pasa del subrayado a las preguntas.** La práctica de recuperación (intentar recordar sin mirar) y la práctica distribuida (repartir los repasos en el tiempo) son las dos técnicas mejor valoradas en la revisión de [Dunlosky y colaboradores (2013)](https://doi.org/10.1177/1529100612453266). Aplicado a leyes: [cómo memorizar leyes con repaso espaciado](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario).
+- **Abre un cuaderno de errores** (lo explicamos más abajo).
+- **Semana 1: un simulacro completo** para tener un punto de partida. Semana 3: otro.
+
+## Fase 2 (semanas 5-9): simulacros y análisis
+
+Un simulacro completo cada semana o cada dos, con su corrección a fondo. Un esquema:
+
+| Semana | Foco |
+| --- | --- |
+| 5 | Simulacro completo + corrección profunda |
+| 6 | Reforzar los 3 o 4 temas con más fallos |
+| 7 | Simulacro + bloque extra de inglés y psicotécnico |
+| 8 | Tests mixtos de todos los temas + cuaderno de errores |
+| 9 | Simulacro + revisión del plan |
+
+En los tests de esta fase, **mezcla temas** en lugar de hacerlos siempre por bloques: en el examen no sabrás de qué tema viene cada pregunta. La corrección importa más que el simulacro: anota por qué fallaste (no lo sabía, lo confundí, leí mal, dudé y cambié). Método en [simulacros: cada cuánto hacerlos y cómo analizarlos](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados), y para los errores de lectura, [cómo leer un enunciado tipo test](/blog/como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas).
+
+## Fase 3 (semanas 10-12): afinar
+
+- **Un simulacro por semana, en condiciones reales:** 140 minutos seguidos con ortografía, gramática, conocimientos e inglés, sin apuntes, con bolígrafo negro y reloj.
+- **Una sesión de psicotécnico cronometrada** de 80 preguntas en 55 minutos cada semana.
+- **Repaso del cuaderno de errores**, no de todo el temario por igual.
+- **Fija tu estrategia de blancos:** con la penalización de un tercio por error, decide con tus datos cuándo contestas y cuándo no.
+- **Mantén las pruebas físicas** sin sobrecargarte; si tienes dudas sobre cargas o lesiones, consulta con un profesional.
+
+## Semana 13: la última semana
+
+- **Baja el volumen.** No estrenes temas.
+- **Repasa esquemas, cifras y errores recurrentes.**
+- **Cuida el sueño y la rutina:** intenta estudiar a la misma hora a la que será el examen.
+- **Organiza la logística:** documentación, desplazamiento, material permitido. Lo tienes en [qué llevar al examen y qué está prohibido](/blog/que-llevar-al-examen-de-la-guardia-civil-y-que-esta-prohibido), y compruébalo siempre en la convocatoria y en lo que publique el Tribunal.
+- **Evita compararte** con otros opositores en los últimos días.
+
+## El cuaderno de errores, paso a paso
+
+1. **Cada fallo de simulacro o test va al cuaderno** con tres datos: tema, norma y artículo, y causa del fallo.
+2. **Escribe la respuesta correcta como pregunta**, no como frase: «¿Plazo máximo de la detención preventiva?» en lugar de «La detención preventiva dura 72 horas».
+3. **Repásalo con preguntas** al cabo de unos días y otra vez una o dos semanas después. Las investigaciones sobre espaciado, como el metaanálisis de Cepeda y colaboradores (2006), muestran que repartir los repasos ayuda a retener más, aunque el intervalo ideal depende de cuánto tiempo necesites recordarlo.
+4. **Tacha lo que aciertes dos veces seguidas** en días distintos.
+
+## Caso práctico
+
+**Caso hipotético.** A trece semanas de la fecha provisional, un opositor hace su primer simulacro: 55 en conocimientos, 7 en inglés, 5 errores en gramática. Su diagnóstico: el inglés está por debajo del mínimo y la gramática, al límite. Ajusta el reparto: inglés pasa al 25 % del tiempo y la gramática se trabaja 15 minutos al día. En la semana 7 saca 9 en inglés y 3 errores en gramática; en la 9, 61 en conocimientos. A partir de ahí devuelve el inglés al 15 % y dedica más tiempo a subir nota en conocimientos. Ninguna cifra es una promesa: es cómo se usa el dato para decidir.
+
+## Si vas justo
+
+Si a tres meses ves que no llegarás a todo, no abandones el plan: **prioriza por puntos**. Primero asegura los mínimos de cada prueba; después sube nota en lo que más rinda. Cuántas horas puedes dedicar depende de tu situación: lo tienes en [cuántas horas al día estudiar](/blog/cuantas-horas-al-dia-hay-que-estudiar-para-la-guardia-civil). Si el agobio te supera, habla con un profesional.
+
+En el próximo artículo veremos cómo traducir tus simulacros en indicadores medibles para saber si estás preparado.
+
+## Errores frecuentes
+
+- **Empezar temas nuevos en las últimas semanas.**
+- **Hacer simulacros sin corregirlos a fondo.**
+- **Repasar solo lo que te gusta** y no lo que te elimina.
+- **Abandonar inglés y psicotécnico** porque «son pocas preguntas».
+- **Hacer los simulacros sin ortografía, gramática e inglés,** y no entrenar los 140 minutos completos.
+- **Dejar de entrenar las físicas** hasta conocer la nota.
+
+## Checklist semanal
+
+- [ ] He hecho el simulacro o los tests previstos.
+- [ ] He corregido y clasificado cada fallo.
+- [ ] Supero los cinco umbrales eliminatorios, con margen.
+- [ ] He repasado el cuaderno de errores.
+- [ ] He trabajado inglés, psicotécnico y lengua.
+- [ ] He entrenado las físicas.
+- [ ] He ajustado el plan de la semana siguiente con estos datos.
+
+Si necesitas apoyo, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye simulacros y calendario.
+
+## Preguntas frecuentes
+
+### ¿Cuántos simulacros hacer en los últimos tres meses?
+
+No hay una cifra oficial. Una referencia razonable es uno cada una o dos semanas al principio y uno por semana en el último mes, siempre bien corregidos.
+
+### ¿Estudio temas nuevos la última semana?
+
+Es mejor repasar lo que ya conoces y tus errores. Introducir temas nuevos suele generar inseguridad y quita tiempo al repaso.
+
+### ¿Cómo reparto inglés y psicotécnico?
+
+Con bloques fijos cada semana, porque tienen mínimos eliminatorios. Si alguno está en riesgo, súbele el tiempo hasta tener margen.
+
+### ¿Y si no sé la fecha del examen?
+
+La convocatoria no la fija: la anuncia el Tribunal. Pon una fecha provisional, monta el plan hacia atrás y desplázalo cuando se publique la real.
+
+### ¿Tengo que seguir entrenando las físicas?
+
+Sí. Las pruebas físicas llegan después del examen y son eliminatorias. Mantén el entrenamiento sin sobrecargarte.
+
+### ¿Qué hago si en la semana 9 no llego a los mínimos?
+
+Concentra el tiempo en la prueba que te elimina y aparca subir nota en las demás hasta tener margen.',
+   '/blog/plan-de-repaso-para-los-ultimos-tres-meses-antes-del-examen.jpg', 'Opositor repasando fichas ante una pared con un calendario de tres meses y esquemas', 'publicado', '2027-02-04T06:10:00.000Z', 'acceso-guardia-civil',
+   ARRAY['repaso', 'planificación', 'simulacros', 'examen']::text[], '{"title":"Plan de repaso de los últimos 3 meses antes del examen","description":"Plan de repaso de 13 semanas antes del examen de Guardia Civil: temario, simulacros, cuaderno de errores, inglés, psicotécnico, físicas y última semana."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

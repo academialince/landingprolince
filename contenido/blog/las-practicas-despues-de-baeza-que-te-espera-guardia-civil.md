@@ -3,13 +3,15 @@ titulo: Las prácticas después de Baeza: qué te espera en el segundo curso
 slug: las-practicas-despues-de-baeza-que-te-espera-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-08T07:31:00+01:00
+publicado_en: 2027-01-07T07:14:00+01:00
 curso: acceso-guardia-civil
 entradilla: El segundo curso son 40 semanas en una unidad real, con tutor, formación a distancia y evaluación de apto o no apto. Qué recogen el plan de estudios, el Reglamento de destinos y el de enseñanza sobre las prácticas y qué pasa al terminarlas.
 etiquetas: [prácticas, baeza, servicio operativo, segundo curso]
 seo_title: Prácticas después de Baeza en la Guardia Civil
 seo_description: Prácticas tras Baeza: 40 semanas en una unidad, Servicio Operativo, tutor, evaluación apto o no apto, retribuciones y qué ocurre hasta el primer destino.
 datos: {}
+portada: /blog/las-practicas-despues-de-baeza-que-te-espera-guardia-civil.jpg
+portada_alt: Guardia civil veterano y guardia alumno caminando junto a un puesto y un vehículo patrulla en un pueblo
 ---
 Respuesta corta: tras el primer curso en el centro docente, el **segundo curso se hace trabajando en una unidad de la Guardia Civil**: 40 semanas de prácticas, con un tutor que te observa a diario y una formación a distancia que hay que ir superando cada trimestre. Cada parte se califica como «apto» o «no apto». No se acaba la formación al salir de Baeza: se completa en la calle. Y también se puede suspender.
 

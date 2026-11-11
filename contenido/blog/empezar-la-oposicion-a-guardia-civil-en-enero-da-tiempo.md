@@ -10,6 +10,8 @@ etiquetas: [convocatoria, empezar de cero, planificación, calendario]
 seo_title: Empezar la oposición de Guardia Civil en enero: ¿da tiempo?
 seo_description: ¿Da tiempo a preparar la Guardia Civil desde enero? Calendario real de 2026, cómo calcular tu margen con tus horas y qué priorizar, sin prometer plazos.
 datos: {}
+portada: /blog/empezar-la-oposicion-a-guardia-civil-en-enero-da-tiempo.jpg
+portada_alt: Opositor pasando la primera página de un temario grueso junto a una taza y un reloj, con la ciudad nevada al fondo
 ---
 **Respuesta corta:** puede dar tiempo o no, y nadie serio puede asegurártelo sin conocer tu punto de partida, tus horas reales y la fecha de la próxima prueba, que a día de hoy no está publicada. Lo que sí puedes hacer es calcular tu margen con números, decidir qué priorizar y empezar ya, porque esperar no te da ninguna ventaja.
 

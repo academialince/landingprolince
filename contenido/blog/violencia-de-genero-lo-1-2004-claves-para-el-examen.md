@@ -10,6 +10,8 @@ etiquetas: [violencia de género, lo 1/2004, temario, víctimas]
 seo_title: Violencia de género LO 1/2004: resumen para opositores
 seo_description: LO 1/2004 para opositores a Guardia Civil: definición, estructura por títulos, derechos de las víctimas, unidades policiales, juzgados, medidas y test.
 datos: {}
+portada: /blog/violencia-de-genero-lo-1-2004-claves-para-el-examen.jpg
+portada_alt: Guardia civil escuchando con cercanía a una mujer sentada a una mesa con un vaso de agua y un pañuelo
 ---
 La [Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género](https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760) es el **tema 21** del programa de la Escala de Cabos y Guardias, donde figura completa (consulta el [temario](/temario-guardia-civil)). No se estudia solo para el examen: la Guardia Civil la aplica a diario, y su Código de Conducta pide «especial sensibilidad» con estas víctimas (art. 44.2, que vimos en [deontología profesional](/blog/deontologia-profesional-el-codigo-de-conducta-que-entra)).
 

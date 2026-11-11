@@ -3,7 +3,7 @@ titulo: Entrenar y estudiar a la vez: cómo organizar la semana para rendir en l
 slug: entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-22T07:12:00+01:00
+publicado_en: 2026-11-26T07:20:00+01:00
 curso: acceso-guardia-civil
 entradilla: La oposición a Guardia Civil exige cabeza y cuerpo a la vez. Cómo repartir estudio y entrenamiento, tres semanas tipo según tu situación, qué cuidar en el sueño y la comida y cómo ajustar el plan cuando algo falla.
 etiquetas: [organización, entrenamiento, descanso, planificación]

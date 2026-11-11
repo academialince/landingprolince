@@ -2,158 +2,6 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('altura-minima-guardia-civil', 'articulo', 'Altura mínima Guardia Civil: por qué ya no se exige', 'Desde octubre de 2023 no hay estatura mínima ni máxima para entrar en la Guardia Civil. Qué se exigía antes, qué norma lo cambió y por qué, qué se sigue midiendo en el reconocimiento y cómo afecta a las pruebas físicas.', 'Durante años, la estatura fue uno de los requisitos que más aspirantes dejaba fuera antes incluso de empezar a estudiar. Hoy ya no es así, pero en internet siguen circulando cifras antiguas, y todavía hay quien renuncia a la oposición por medir 1,55 m.
-
-La respuesta corta: **para ingresar en la Escala de Cabos y Guardias de la Guardia Civil no hay altura mínima ni máxima desde el 19 de octubre de 2023.** La talla se sigue midiendo, pero solo para calcular el índice de masa corporal.
-
-## ¿Qué se exigía antes?
-
-La redacción original del cuadro médico de exclusiones (anexo I de la Orden PCI/155/2019) excluía a quien midiera:
-
-- menos de **160 cm** en el caso de los hombres,
-- menos de **155 cm** en el caso de las mujeres, o
-- más de **203 cm**, en ambos casos.
-
-Si en algún sitio ves esas cifras como requisito actual, la información está desfasada. Es frecuente en foros antiguos, vídeos de hace años y páginas que no se han actualizado.
-
-## Línea temporal: cómo hemos llegado hasta aquí
-
-| Fecha | Qué pasó |
-|---|---|
-| Febrero de 2019 | La Orden PCI/155/2019 aprueba el cuadro médico con mínimos de 160 cm (hombres) y 155 cm (mujeres) y un máximo de 203 cm |
-| 14 de julio de 2022 | El Tribunal Supremo (sentencia 1000/2022) razona que la estatura inferior a la fijada no parece relacionada con la falta de una aptitud física concreta |
-| Octubre de 2022 | El Real Decreto 853/2022 suprime la estatura mínima para ingresar en la Policía Nacional |
-| 17 de octubre de 2023 | La Orden PCM/1133/2023 deja la talla «sin límite» en el cuadro de la Guardia Civil |
-| 19 de octubre de 2023 | La orden entra en vigor, el mismo día de su publicación en el BOE |
-| Mayo de 2026 | La convocatoria de 2026 aplica el cuadro ya sin límite de estatura |
-
-## ¿Qué norma eliminó la altura mínima?
-
-La **Orden PCM/1133/2023, de 17 de octubre** ([BOE-A-2023-21528](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-21528)), en vigor desde el 19 de octubre de 2023. Su único artículo cambia el apartado de talla del cuadro médico, que queda así:
-
-> «1. Talla. En bipedestación: sin límite.»
-
-Es la redacción que sigue vigente en el [texto consolidado de la Orden PCI/155/2019](https://www.boe.es/buscar/act.php?id=BOE-A-2019-2291) y la que aplica la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)), que se remite a ese cuadro en su base 6.1.3.c).
-
-## ¿Por qué se eliminó?
-
-La propia orden lo explica en su preámbulo. Se apoya en la sentencia 1000/2022 del Tribunal Supremo, de 14 de julio de 2022, que señalaba que tener una estatura inferior a la fijada no parecía relacionado con la falta de una aptitud física concreta, y que esa aptitud ya queda garantizada con las pruebas físicas y médicas del proceso.
-
-Con esa idea, y con dos objetivos declarados, **avanzar en la igualdad de oportunidades entre hombres y mujeres** y **atraer y captar talento**, se suprimieron con carácter general los límites de estatura para el ingreso.
-
-El razonamiento de fondo es sencillo: si alguien supera la carrera, el circuito, las extensiones de brazos, la natación y el reconocimiento médico, su estatura no aporta información adicional sobre si puede o no hacer el trabajo.
-
-## ¿Puede pedirse una altura para algún destino?
-
-Sí, y es un matiz importante. La orden elimina la altura **para ingresar en los centros de formación**, pero deja a salvo los requisitos que puedan exigirse después:
-
-- para ocupar **determinados destinos**, según el Reglamento de destinos del personal de la Guardia Civil (Real Decreto 470/2019), y
-- para acceder a la **enseñanza de especialización**, según el Reglamento de ordenación de la enseñanza.
-
-Es decir: tu estatura no te impide entrar, pero en el futuro podría contar para alguna especialidad o destino concreto si su normativa lo exige. No te fíes de listas de «alturas por especialidad» sin fuente: compruébalo en la convocatoria del curso de especialización que te interese cuando llegue el momento. Tienes una visión general de la carrera en [destinos y especialidades de la Guardia Civil](/blog/destinos-especialidades-guardia-civil).
-
-## Lo que sí se sigue midiendo: el IMC
-
-Que no haya límite de altura no significa que la talla no se mida. Se usa para calcular el **índice de masa corporal**, que debe estar **entre 17 y 30**:
-
-> IMC = peso (kg) / talla (m)²
-
-Esta tabla te da el rango de peso que corresponde a cada estatura (redondeado a una décima):
-
-| Talla | Peso para IMC 17 | Peso para IMC 30 |
-|---|---|---|
-| 1,50 m | 38,2 kg | 67,5 kg |
-| 1,55 m | 40,8 kg | 72,1 kg |
-| 1,60 m | 43,5 kg | 76,8 kg |
-| 1,65 m | 46,3 kg | 81,7 kg |
-| 1,70 m | 49,1 kg | 86,7 kg |
-| 1,75 m | 52,1 kg | 91,9 kg |
-| 1,80 m | 55,1 kg | 97,2 kg |
-| 1,85 m | 58,2 kg | 102,7 kg |
-| 1,90 m | 61,4 kg | 108,3 kg |
-| 1,95 m | 64,6 kg | 114,1 kg |
-
-### Ejemplos resueltos
-
-- **1,58 m y 77 kg.** 1,58² = 2,4964; 77 / 2,4964 = 30,8. Supera el límite de 30. Solo se admitiría si se demuestra que se debe a masa muscular, sin otra patología ni factores de riesgo.
-- **1,92 m y 62 kg.** 1,92² = 3,6864; 62 / 3,6864 = 16,8. Está por debajo de 17: también es causa de exclusión.
-- **1,52 m y 55 kg.** 1,52² = 2,3104; 55 / 2,3104 = 23,8. Dentro del rango, sin problema.
-
-Fíjate en que, para las personas de poca estatura, el margen en kilos es más estrecho: a 1,50 m hay unos 29 kg entre el mínimo y el máximo; a 1,90 m, unos 47. Si estás cerca del límite, controla el peso con tiempo y con asesoramiento profesional, no en las semanas previas al reconocimiento.
-
-Tienes el resto de parámetros del reconocimiento en [cuadro médico de exclusiones de la Guardia Civil](/blog/cuadro-medico-exclusiones-guardia-civil).
-
-## Si mides poco, donde tienes que fijarte es en las físicas
-
-La altura ya no te deja fuera, pero las [pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento) son iguales para todos los aspirantes del mismo sexo y tramo de edad, midan lo que midan. No hay ningún ajuste por estatura.
-
-Qué conviene saber, prueba por prueba:
-
-| Prueba | Qué puede notar alguien de poca estatura | Qué hacer |
-|---|---|---|
-| Carrera de 2.000 m | Zancada más corta | Trabajar frecuencia de paso y ritmo; la estatura no es decisiva en esta distancia |
-| Circuito de agilidad | Vallas proporcionalmente más altas | Practicar el paso de valla y los apoyos hasta automatizarlos |
-| Extensiones de brazos | Recorrido más corto y menos peso que mover: suele ser una ventaja | Cuidar la técnica: barbilla al suelo y cuerpo alineado |
-| Natación 50 m | Brazada más corta | Mejorar la técnica de crol y la respiración |
-
-En el otro extremo, las personas muy altas suelen notarlo en las extensiones de brazos (más recorrido y más peso) y en los giros del circuito. Sea cual sea tu caso, la solución es la misma: entrenar las cuatro pruebas con tiempo, porque basta con no superar una para quedar fuera del proceso.
-
-## ¿Y en la Policía Nacional?
-
-Tampoco hay estatura mínima para ingresar desde el Real Decreto 853/2022, que la suprimió para el ingreso en el cuerpo. El propio reglamento prevé, eso sí, que puedan exigirse estaturas mínimas para algunas unidades o cursos de especialización. Es un esquema parecido al de la Guardia Civil: sin altura para entrar, posibles requisitos para algunos destinos.
-
-## Errores frecuentes
-
-- **Descartar la oposición por la altura.** Con la normativa vigente, no es un motivo.
-- **Confundir la Guardia Civil con las Fuerzas Armadas.** El cuadro médico de los centros docentes militares es otra norma con otros criterios; no lo extrapoles.
-- **Olvidar el IMC.** Que no haya altura mínima no significa que tu talla no cuente: con poca estatura, unos pocos kilos te mueven mucho el índice.
-- **Dar por buenas listas de alturas por especialidad sin fuente oficial.** Si un requisito existe, estará en la norma o en la convocatoria del curso correspondiente.
-
-## Checklist
-
-- [ ] He comprobado que la información que manejo es posterior a octubre de 2023.
-- [ ] He calculado mi IMC y está entre 17 y 30.
-- [ ] Conozco las marcas físicas de mi sexo y tramo de edad.
-- [ ] He revisado el resto de [requisitos para ser Guardia Civil](/blog/requisitos-guardia-civil) y la [edad máxima](/blog/edad-maxima-guardia-civil).
-
-Si quieres prepararte con un plan que combine estudio y entrenamiento, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
-
-## Preguntas frecuentes
-
-### ¿Cuál es la altura mínima para ser Guardia Civil?
-
-Ninguna. Desde la Orden PCM/1133/2023, el cuadro médico establece la talla «sin límite» para ingresar en la Escala de Cabos y Guardias.
-
-### ¿Hay altura máxima en la Guardia Civil?
-
-Tampoco. El antiguo límite de 203 cm desapareció con la misma orden.
-
-### ¿Cuánto había que medir antes?
-
-160 cm los hombres y 155 cm las mujeres, según la redacción original de la Orden PCI/155/2019.
-
-### ¿Se mide la altura en el reconocimiento médico?
-
-Sí, para calcular el índice de masa corporal, que debe estar entre 17 y 30.
-
-### ¿Puede exigirse altura para alguna especialidad?
-
-La orden de 2023 deja a salvo los requisitos que puedan exigirse para determinados destinos o para la enseñanza de especialización. Consulta la normativa o la convocatoria del curso concreto.
-
-### ¿Son más fáciles las físicas si mido poco?
-
-No hay ajuste por estatura: las marcas son las mismas para todos los aspirantes del mismo sexo y tramo de edad. Algunas pruebas pueden favorecerte y otras costarte más; lo decisivo es entrenarlas con tiempo.',
-   '/blog/altura-minima-guardia-civil.jpg', 'Aspirante atándose las zapatillas en una pista de atletismo al amanecer', 'publicado', '2026-11-13T06:39:00.000Z', 'acceso-guardia-civil',
-   ARRAY['altura', 'estatura', 'cuadro médico', 'requisitos']::text[], '{"title":"Altura mínima Guardia Civil: ya no se exige (2026)","description":"¿Hay altura mínima para la Guardia Civil? No desde la Orden PCM/1133/2023. Qué se exigía antes (160 y 155 cm), por qué se eliminó y qué se sigue midiendo."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
   ('carrera-2000-metros-guardia-civil', 'articulo', 'Carrera de 2.000 metros en la Guardia Civil: plan para bajar tu marca', 'La carrera de 2.000 metros se hace con un solo intento: la superas o te quedas fuera. Las marcas oficiales por sexo y edad, los ritmos por vuelta, un plan orientativo de ocho semanas y cómo correr el día de la prueba.', 'De las cuatro pruebas físicas, la carrera suele ser la que más aspirantes subestiman: «son solo dos kilómetros». Pero tiene una particularidad que la hace peligrosa: **hay un único intento**. Si el día de la prueba no sale, no hay segunda oportunidad.
 
 La respuesta corta: **los hombres menores de 35 años deben correr los 2.000 metros en 9 minutos y 25 segundos o menos, y las mujeres de esa edad, en 11 minutos y 14 segundos o menos.** Eso supone mantener unos 4:42 por kilómetro (hombres) o 5:37 (mujeres) de principio a fin.
@@ -301,7 +149,7 @@ De pie, según el apéndice II de la convocatoria.
 ### ¿Qué pasa si no supero la carrera?
 
 Quedas calificado como «no apto» y excluido del proceso en el momento de no superarla.',
-   '/blog/carrera-2000-metros-guardia-civil.jpg', 'Aspirante corriendo la última vuelta de una pista de atletismo', 'publicado', '2026-11-15T06:13:00.000Z', 'acceso-guardia-civil',
+   '/blog/carrera-2000-metros-guardia-civil.jpg', 'Aspirante corriendo la última vuelta de una pista de atletismo', 'publicado', '2026-11-13T06:39:00.000Z', 'acceso-guardia-civil',
    ARRAY['pruebas físicas', 'carrera', '2000 metros', 'entrenamiento']::text[], '{"title":"Carrera 2.000 m Guardia Civil: marcas, ritmos y plan","description":"Marcas de la carrera de 2.000 metros de la Guardia Civil por sexo y edad, ritmo por kilómetro y por vuelta, y plan de ocho semanas para superarla."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -463,7 +311,7 @@ Cuando tocas el suelo con uno o con los dos pies después de que todo tu cuerpo 
 ### ¿Puntúa hacer un tiempo mejor?
 
 No. Es apto o no apto: basta con no superar el tiempo máximo de tu sexo y tramo de edad.',
-   '/blog/circuito-agilidad-coordinacion-guardia-civil.jpg', 'Aspirante saltando una valla en un circuito de agilidad', 'publicado', '2026-11-17T06:47:00.000Z', 'acceso-guardia-civil',
+   '/blog/circuito-agilidad-coordinacion-guardia-civil.jpg', 'Aspirante saltando una valla en un circuito de agilidad', 'publicado', '2026-11-16T06:30:00.000Z', 'acceso-guardia-civil',
    ARRAY['pruebas físicas', 'circuito de agilidad', 'coordinación', 'entrenamiento']::text[], '{"title":"Circuito de agilidad Guardia Civil: marcas y técnica","description":"Circuito de agilidad y coordinación de la Guardia Civil: marcas por sexo y edad, qué lo anula, intentos permitidos y cómo entrenarlo con técnica."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -834,163 +682,156 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('gafas-miopia-operacion-vista-guardia-civil', 'articulo', '¿Puedo ser Guardia Civil con gafas, miopía o si me he operado la vista?', 'Sí puedes llevar gafas o lentillas: lo que cuenta es la agudeza visual y las dioptrías. Los límites exactos del cuadro médico, ejemplos de graduaciones, qué pasa si te has operado con láser y la exclusión que casi nadie revisa.', 'Llevar gafas es probablemente la duda médica más común entre opositores. La buena noticia: **las gafas y las lentillas no te excluyen de la Guardia Civil.** Lo que se mide es cuánto ves y cuántas dioptrías tienes, y ahí hay dos límites que debes conocer al detalle.
+  ('extensiones-de-brazos-guardia-civil', 'articulo', 'Extensiones de brazos en la Guardia Civil: de cero a la marca', 'Dieciséis para ellos y once para ellas, sin parar y tocando el suelo con la barbilla. Las marcas oficiales, las reglas que hacen válida una repetición, cómo se descansa y una progresión para llegar a la marca partiendo de cero.', 'Las extensiones de brazos parecen la prueba más simple: una flexión de las de siempre. Pero la forma en que se miden es más exigente que la del gimnasio, y **muchas repeticiones que tú das por buenas no se cuentan**.
 
-Todo lo que sigue sale del apartado J (aparato de la visión) del cuadro médico de exclusiones, en el [texto consolidado de la Orden PCI/155/2019](https://www.boe.es/buscar/act.php?id=BOE-A-2019-2291), que es el que aplica la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)).
+La respuesta corta: **en 2026, los hombres menores de 40 años debían hacer al menos 16 y las mujeres menores de 40, al menos 11**, tocando el suelo con la barbilla en cada repetición y con el cuerpo alineado. Hay dos intentos.
 
-## La respuesta corta en una tabla
+## Las marcas oficiales
 
-| Situación | ¿Excluye? |
-|---|---|
-| Llevar gafas o lentillas | No, si cumples agudeza y graduación |
-| Agudeza visual de 0,7 o menos en algún ojo, incluso con corrección | Sí |
-| Miopía de más de −3 dioptrías | Sí |
-| Hipermetropía de más de +3 | Sí |
-| Astigmatismo de más de ±2 | Sí |
-| Daltonismo | Sí |
-| Cirugía refractiva con láser en la córnea | No figura como causa; se valora el resultado |
-| Cirugía dentro del ojo o lente intraocular | Figura en el cuadro (lo vemos en un artículo propio) |
+La convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), apéndice II, prueba de potencia del tren superior, P3) exige un número de repeticiones **no inferior** a:
 
-## Los dos números que importan
+| | Menor de 35 años | De 35 a 39 años | 40 años o más |
+|---|---|---|---|
+| Hombres | 16 | 16 | 14 |
+| Mujeres | 11 | 11 | 9 |
 
-### 1. Agudeza visual: más de 0,7 en cada ojo
+Fíjate en que, a diferencia de las otras tres pruebas, aquí la marca **no cambia entre el primer y el segundo tramo de edad**: solo baja a partir de los 40.
 
-El cuadro exige una **agudeza visual superior a 0,7 en ambos ojos, con o sin corrección** (apartado J.18). «Con o sin corrección» es la clave: si con tus gafas o lentillas ves más de 0,7 en cada ojo, cumples este apartado.
+Es apto o no apto: más repeticiones no puntúan, pero menos de la marca te dejan fuera.
 
-Fíjate en dos detalles:
+## Cuándo cuenta una repetición
 
-- Dice **superior a 0,7**: un 0,7 justo no cumple la letra de la norma.
-- Dice **en ambos ojos**: un ojo muy bueno no compensa uno que no llegue. Si tienes un ojo vago (ambliopía) que no alcanza esa cifra ni con corrección, quedarías fuera aunque el otro vea perfectamente.
+La convocatoria describe el ejercicio con detalle:
 
-La agudeza visual se expresa en escala decimal: 1,0 es la visión de referencia y 0,5, la mitad. Es la cifra que te da el optometrista u oftalmólogo cuando lees las letras de la pantalla, ojo por ojo.
+- **Posición inicial:** tierra inclinada, con las palmas de las manos en el suelo, los brazos perpendiculares al suelo y separados a la anchura de los hombros.
+- **Ejecución:** flexiones-extensiones **sin detención**.
+- **Repetición válida:** cuando **tocas con la barbilla en el suelo y vuelves a la posición de partida**, manteniendo en todo momento cabeza, hombros, espalda y piernas en prolongación.
 
-### 2. Refracción: el límite de dioptrías
+No es válida una repetición:
 
-Además de ver bien con corrección, tu graduación no puede superar estos máximos (apartado J.19):
+- que **no sea simultánea** (un brazo antes que el otro), o
+- en la que se apoye en el suelo **una parte distinta** de la barbilla, las puntas de los pies y las manos.
 
-| Defecto | Máximo permitido |
-|---|---|
-| Miopía | −3 dioptrías |
-| Hipermetropía | +3 dioptrías |
-| Astigmatismo | ±2 dioptrías, con independencia del componente esférico |
+La zona de contacto de la barbilla con el suelo **puede almohadillarse** con un grosor máximo de seis centímetros.
 
-Aquí está la trampa: **aunque con gafas veas perfectamente, si tienes −4 de miopía, superas el máximo.** Las dos condiciones se exigen a la vez.
+### Válida o no: ejemplos
 
-«Con independencia del componente esférico» significa que el límite del astigmatismo se mira por separado de la miopía o la hipermetropía: puedes tener −2,50 de miopía y 1,50 de astigmatismo, y cada valor está dentro de su máximo.
-
-## Ejemplos de graduaciones (hipotéticos)
-
-Cómo leer tu receta: la esfera (ESF) indica miopía (negativo) o hipermetropía (positivo), y el cilindro (CIL), el astigmatismo.
-
-| Graduación (en cada ojo) | Agudeza con gafas | Resultado según el cuadro |
+| Lo que haces | ¿Cuenta? | Por qué |
 |---|---|---|
-| ESF −2,50 / CIL −0,75 | 1,0 | Dentro de los límites |
-| ESF −3,00 / CIL 0 | 1,0 | En el límite exacto: no supera −3 |
-| ESF −3,25 / CIL 0 | 1,0 | Supera el máximo de miopía |
-| ESF +1,50 / CIL −2,25 | 0,9 | Supera el máximo de astigmatismo |
-| ESF −1,00 / CIL −0,50, con un ojo que solo llega a 0,6 | 0,6 en ese ojo | No cumple la agudeza |
+| Barbilla al suelo, cuerpo recto, subes hasta extender los brazos | Sí | Cumple todas las condiciones |
+| Tocas con el pecho antes que con la barbilla | No | Apoyas una parte distinta de la barbilla |
+| Dejas caer la cadera y tocas el suelo con los muslos | No | Apoyas otra parte y rompes la prolongación del cuerpo |
+| Subes primero con un brazo y luego con el otro | No | No es simultánea |
+| Bajas hasta que la barbilla queda a dos dedos del suelo | No | La barbilla no toca el suelo |
+| No terminas de extender los brazos al subir | No | No vuelves a la posición de partida |
+| Subes con la cadera muy elevada | No | Cuerpo fuera de prolongación |
 
-Si tus valores están en el filo, la medición del día del reconocimiento es la que cuenta, y puede no coincidir exactamente con la de tu óptica. Por eso conviene saber tu graduación con precisión y con tiempo.
+Por eso es tan habitual que alguien que hace 25 flexiones en casa se quede corto en la prueba: la técnica oficial es más larga y más estricta.
 
-## ¿Y si me he operado con láser?
+## ¿Se puede descansar?
 
-El cuadro de la Guardia Civil **no incluye la cirugía refractiva con láser en la córnea** (LASIK, PRK y técnicas similares) entre las causas de exclusión. Lo que sí incluye es:
+Sí, con condiciones. Durante el ejercicio se permite un descanso en cualquier momento, **siempre que se haga en posición de tierra inclinada hacia delante**, sin realizar movimientos ni separar del suelo las partes del cuerpo que están en contacto con él.
 
-- «Cualquier tipo de cirugía intraocular», es decir, la que se hace dentro del ojo (J.2).
-- Problemas de córnea como el queratocono, las ectasias corneales, las degeneraciones y distrofias, los leucomas que alteren la agudeza visual, el trasplante de córnea o los anillos intraestromales (J.9).
+Eso significa que no puedes apoyar las rodillas ni sentarte a descansar. El descanso es en la posición de partida, sosteniendo tu peso. Sirve para recuperar unos segundos y respirar, pero cuesta energía: no abuses de él.
 
-Por tanto, después de una operación con láser lo que se valora es **el resultado**: tu agudeza visual, tu graduación residual y el estado de la córnea. Si tras la operación ves más de 0,7 en cada ojo, estás dentro de los límites de dioptrías y la córnea no presenta alteraciones de las que excluye el cuadro, la operación por sí sola no debería dejarte fuera.
+Tienes **dos intentos**, espaciados para permitir tu recuperación.
 
-Dos consejos prácticos:
+## Cómo medirte hoy
 
-1. **No te operes a última hora.** Deja que la graduación se estabilice y haz las revisiones que te pida tu oftalmólogo antes del reconocimiento.
-2. **Lleva el informe de la operación** y la última revisión. El cuadro exige que cada exclusión se motive de forma individual, y la documentación te ayuda a explicar tu caso.
+Antes de empezar, haz un test con la técnica oficial: barbilla al suelo, cuerpo recto y subida completa. Mejor si alguien te observa o te grabas de lado. Anota cuántas repeticiones **válidas** haces sin parar.
 
-Las lentes que se implantan dentro del ojo son un caso aparte, con una sentencia del Tribunal Supremo de por medio: lo explicaremos en un artículo propio.
+| Resultado | Punto de partida |
+|---|---|
+| 0 válidas | Fase 1 |
+| 1 a 5 | Fase 2 |
+| 6 a la marca menos 3 | Fase 3 |
+| A 1-3 de la marca | Fase 4 |
 
-## La causa de exclusión que casi nadie revisa: los colores
+## De cero a la marca: una progresión
 
-El cuadro exige **visión cromática normal** (J.16). El daltonismo excluye, y muchas personas que lo tienen en grado leve no lo saben, porque en la vida diaria apenas les afecta. Un test de colores tarda unos minutos en cualquier óptica u oftalmólogo: hazlo antes de invertir un año en la oposición.
+Es un esquema general y orientativo. Entrena tres días por semana, con al menos un día de descanso entre sesiones.
 
-## Otras causas oculares del cuadro
+**Fase 1: construir la base.** Flexiones inclinadas con las manos apoyadas en un banco o una pared, que son más fáciles. Haz 4 series de las repeticiones que puedas con buena técnica. Cuando llegues a 15 repeticiones con facilidad, baja la altura de apoyo.
 
-Además de la agudeza, las dioptrías y los colores, el apartado J excluye, entre otras:
+**Fase 2: el movimiento completo.** Flexiones en el suelo con las rodillas apoyadas, y negativas: bajar muy despacio, en tres o cuatro segundos, hasta tocar con la barbilla, y subir con ayuda de las rodillas. Cuando hagas 3 series de 8 negativas controladas, pasa a la siguiente fase.
 
-- escotomas o reducciones del **campo visual** de más de 15 grados,
-- **glaucoma** o alteraciones de la tensión ocular,
-- **desprendimiento de retina**, agujeros o desgarros retinianos,
-- **cataratas** y opacidades del cristalino,
-- **forias** por encima de ciertos valores (endoforia de más de 8 dioptrías prismáticas, exoforia de más de 10, hiperforia de más de 1),
-- alteraciones de la motilidad ocular, como heterotropias (estrabismos) de más de 3 dioptrías prismáticas, nistagmo o visión doble,
-- conjuntivitis crónica o pterigión de marcado desarrollo.
+**Fase 3: flexiones completas.** Series de las que puedas con técnica perfecta, aunque sean pocas, y aumenta poco a poco. Para cuando la forma empiece a romperse.
 
-Tienes el resto de apartados (oído, tensión, IMC, espalda…) en [cuadro médico de exclusiones de la Guardia Civil](/blog/cuadro-medico-exclusiones-guardia-civil).
+**Fase 4: la marca.** Haz series de simulación: la serie completa de la marca, sin parar y con barbilla al suelo. Cuando la consigas una vez, practica hacerla dos o tres veces por sesión con descansos largos.
 
-## Casos prácticos (hipotéticos)
+### Una semana tipo en la fase 3 (orientativa)
 
-**Caso 1. Pablo, −2,75 de miopía a los 22 años y subiendo un cuarto cada año.** Hoy cumple, pero si la tendencia sigue, puede superar −3 antes de llegar al reconocimiento. Le conviene hablar con su oftalmólogo sobre la evolución y no dar por hecho que mantendrá la cifra.
+| Día | Trabajo |
+|---|---|
+| Día 1 | 5 series de un 60-70 % de tu máximo válido, 2 min de descanso; 3 × 30 s de plancha |
+| Día 2 | Escalera: 1, 2, 3, 4, 5 repeticiones con 30 s entre escalones, dos veces; 3 series de negativas lentas |
+| Día 3 | Test de repeticiones máximas válidas; después, 3 series de 5 con técnica perfecta |
 
-**Caso 2. Laura, operada con láser hace dos años, sin graduación residual.** Ve 1,0 en cada ojo y la córnea está sana. La cirugía refractiva corneal no figura como causa de exclusión: debería llevar el informe de la operación y una revisión reciente.
+Trabajar series submáximas repetidas suele funcionar mejor que ir al fallo en cada sesión.
 
-**Caso 3. Sergio, buena agudeza con gafas pero con dudas en los colores.** Se hace el test y le detectan una alteración en la percepción del rojo y el verde. Con el cuadro vigente, el daltonismo excluye: mejor saberlo ahora que después de aprobar el examen.
+## Caso práctico (hipotético)
 
-## ¿Y en la Policía Nacional?
+Irene, 31 años, hace 3 repeticiones válidas en su primer test. Su marca es 11.
 
-Es muy distinto, y conviene no mezclarlo. El cuadro médico de la Policía Nacional (Real Decreto 326/2021), según figura en su convocatoria de 2026, exige una **agudeza visual de 0,6 en cada ojo sin corrección**, y no incluye límites de dioptrías. Con mucha miopía corregida con gafas, ese requisito es más difícil de cumplir; con poca graduación, puede ser al revés. Compararemos ambas oposiciones más adelante.
+- **Semanas 1-3 (fase 2):** negativas y flexiones con rodillas. Test: 5 válidas.
+- **Semanas 4-8 (fase 3):** series submáximas y escaleras. Test: 9 válidas.
+- **Semanas 9-12 (fase 4):** simulaciones de la marca completa con barbilla al suelo. Test: 13 válidas.
 
-## Qué hacer ahora
-
-1. **Pide una revisión completa** con estas preguntas: agudeza visual con corrección en cada ojo, graduación exacta (esfera y cilindro) y test de colores.
-2. **Si estás en el límite** (por ejemplo, −2,75 y subiendo), coméntalo con tu oftalmólogo con tiempo.
-3. **Si piensas operarte**, explícale que vas a pasar el reconocimiento de la Guardia Civil y enséñale el apartado J del cuadro.
-4. **Guarda los informes.** Te servirán en el reconocimiento.
+Llega con dos repeticiones de margen sobre la marca. Lo que más le costó no fue la fuerza, sino mantener la cadera alineada en las últimas repeticiones: lo resolvió con trabajo de plancha.
 
 ## Errores frecuentes
 
-- **Pensar que «con gafas veo bien» basta.** La graduación tiene su propio límite.
-- **Fijarte solo en el ojo bueno.** Se exige más de 0,7 en cada ojo.
-- **No hacerte nunca un test de colores.**
-- **Aplicar el cuadro de la Policía Nacional o de las Fuerzas Armadas.** Las cifras son otras.
-- **Operarte con el reconocimiento encima**, sin tiempo para que la vista se estabilice.
+- **Entrenar con una técnica distinta a la oficial.** Practica siempre con barbilla al suelo, aunque salgan menos repeticiones.
+- **Hacer las series demasiado rápido.** Se hacen mejores marcas con un ritmo regular y controlado.
+- **No entrenar el core.** La espalda recta depende del abdomen y los glúteos. Añade planchas.
+- **Abrir demasiado las manos.** La convocatoria pide los brazos a la anchura de los hombros.
+- **Llegar fatigado.** La convocatoria permite al Tribunal fijar el orden de las pruebas, así que puedes hacer las extensiones después de otras. Entrénalas también con el cuerpo cansado.
+- **Olvidar el certificado médico.** Debe estar expedido en los 20 días anteriores a las pruebas físicas y entregarse antes de empezar.
 
-## Checklist de la vista
+Si tienes dolor en muñecas, hombros o codos, para y consúltalo con un profesional antes de seguir.
 
-- [ ] Agudeza con corrección superior a 0,7 en cada ojo.
-- [ ] Miopía no superior a −3, hipermetropía no superior a +3 y astigmatismo no superior a ±2.
-- [ ] Test de colores normal.
-- [ ] Informes de cualquier cirugía o patología ocular.
-- [ ] Resto de [requisitos para ser Guardia Civil](/blog/requisitos-guardia-civil) revisados, incluidos la [edad máxima](/blog/edad-maxima-guardia-civil) y el [IMC, que sustituye a la antigua altura mínima](/blog/altura-minima-guardia-civil).
-- [ ] Sé cómo es el día del reconocimiento: lo contamos en [entrevista y reconocimiento médico](/blog/entrevista-reconocimiento-medico-guardia-civil).
+## Cómo encaja con las demás pruebas
 
-Si quieres preparar la oposición con un plan completo, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+Las extensiones requieren poco material y poco tiempo: puedes entrenarlas al final de una sesión de [carrera de 2.000 metros](/blog/carrera-2000-metros-guardia-civil) o después del trabajo de [circuito de agilidad](/blog/circuito-agilidad-coordinacion-guardia-civil). Tienes las cuatro pruebas juntas en [las pruebas físicas de la Guardia Civil](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento).
+
+## Checklist
+
+- [ ] Conozco mi marca según sexo y tramo de edad.
+- [ ] Mi técnica cumple todas las condiciones de la convocatoria.
+- [ ] Me he grabado de lado para comprobar la alineación.
+- [ ] Hago la marca de forma estable con dos o tres repeticiones de margen.
+- [ ] La he practicado también con cansancio previo.
+- [ ] Sé cómo se descansa sin invalidar el intento.
+
+Si quieres un plan que reparta el entrenamiento y el estudio a lo largo de la semana, lo tienes en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
 
 ## Preguntas frecuentes
 
-### ¿Se puede ser Guardia Civil con gafas?
+### ¿Cuántas extensiones de brazos hay que hacer en la Guardia Civil?
 
-Sí. El cuadro exige una agudeza visual superior a 0,7 en ambos ojos, con o sin corrección, siempre que la graduación no supere los máximos permitidos.
+En 2026, 16 los hombres menores de 40 años y 11 las mujeres de esa edad, con descenso a 14 y 9 a partir de los 40.
 
-### ¿Cuántas dioptrías de miopía se permiten en la Guardia Civil?
+### ¿Hay que tocar con el pecho o con la barbilla?
 
-Como máximo −3 dioptrías. La hipermetropía tiene un máximo de +3 y el astigmatismo, de ±2.
+Con la barbilla. Es la que debe tocar el suelo en cada repetición, y no puede apoyarse ninguna otra parte salvo las manos y las puntas de los pies.
 
-### ¿Puedo entrar si me he operado de miopía con láser?
+### ¿Se puede parar a descansar?
 
-El cuadro no excluye la cirugía refractiva corneal en sí. Se valora el resultado: agudeza visual, graduación residual y estado de la córnea. Sí excluye la cirugía intraocular y problemas de córnea como el queratocono o las ectasias.
+Sí, pero solo en posición de tierra inclinada hacia delante, sin moverte ni separar del suelo las partes del cuerpo que están en contacto con él.
 
-### ¿El daltonismo excluye de la Guardia Civil?
+### ¿Cuántos intentos hay?
 
-Sí. El cuadro médico exige visión cromática normal.
+Dos, espaciados para que te recuperes.
 
-### ¿Puedo entrar con un ojo vago?
+### ¿Puedo poner algo bajo la barbilla?
 
-Solo si ese ojo alcanza una agudeza superior a 0,7, con o sin corrección. El requisito se exige en ambos ojos.
+Sí. La convocatoria permite almohadillar la zona de contacto de la barbilla con un grosor máximo de seis centímetros.
 
-### ¿El astigmatismo se suma a la miopía?
+### ¿Valen las flexiones con las rodillas apoyadas?
 
-No para el límite: el cuadro fija ±2 de astigmatismo «con independencia del componente esférico», así que cada valor se compara con su propio máximo.',
-   '/blog/gafas-miopia-operacion-vista-guardia-civil.jpg', 'Oftalmólogo graduando la vista de un aspirante con una montura de prueba', 'publicado', '2026-11-14T06:56:00.000Z', 'acceso-guardia-civil',
-   ARRAY['vista', 'miopía', 'gafas', 'cuadro médico']::text[], '{"title":"Gafas y miopía en la Guardia Civil: límites 2026","description":"¿Puedes ser Guardia Civil con gafas o miopía? Agudeza visual mínima, dioptrías máximas (−3, +3, ±2), operación láser y daltonismo según el cuadro médico."}'::jsonb, '{}'::jsonb)
+No. Solo pueden tocar el suelo la barbilla, las puntas de los pies y las manos. Las flexiones con rodillas son útiles para entrenar, pero no cuentan en la prueba.',
+   '/blog/extensiones-de-brazos-guardia-civil.jpg', 'Aspirante haciendo una extensión de brazos ante un evaluador', 'publicado', '2026-11-17T06:47:00.000Z', 'acceso-guardia-civil',
+   ARRAY['pruebas físicas', 'extensiones de brazos', 'flexiones', 'entrenamiento']::text[], '{"title":"Extensiones de brazos Guardia Civil: marcas y plan","description":"Marcas de las extensiones de brazos de la Guardia Civil por sexo y edad, reglas para que cuente cada repetición y progresión de entrenamiento desde cero."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -1000,141 +841,417 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('lentes-intraoculares-guardia-civil', 'articulo', 'Lentes intraoculares y Guardia Civil: qué cambió con el Supremo', 'En 2023 el Tribunal Supremo anuló la frase del cuadro médico que excluía siempre las lentes fáquicas. Qué anuló exactamente, qué sigue escrito en la norma, en qué se diferencia de la Policía Nacional y qué hacer si llevas una lente implantada.', 'Cada vez más gente corrige la miopía con una lente implantada dentro del ojo en lugar de con láser. Y muchos descubren después que el cuadro médico de la Guardia Civil hablaba de ellas. La situación cambió en 2023 con una sentencia del Tribunal Supremo, pero **no tanto como se dice en algunos foros**.
+  ('palabras-trampa-ortografia-guardia-civil', 'articulo', 'B/V, G/J y H: palabras trampa del examen de ortografía de la Guardia Civil', 'Después de las tildes, el gran bloque de fallos de ortografía son las letras que suenan igual. Las reglas de B/V, G/J y H que sí funcionan, sus excepciones, las parejas que cambian de significado y un ejercicio resuelto con el formato del examen.', 'Cuando se habla de ortografía en la oposición, todo el mundo piensa en las tildes. Pero hay otro bloque de fallos igual de peligroso: **las letras que suenan igual**. **Respuesta corta:** no hace falta memorizar listas infinitas; con una docena de reglas fiables, sus excepciones y unas cuantas parejas de significado distinto resuelves la mayoría de los casos.
 
-La respuesta corta: **el Supremo anuló la frase «En ningún caso se admitirán lentes fáquicas», y la convocatoria de 2026 aplica esa sentencia. Pero el cuadro sigue mencionando la cirugía intraocular y las lentes intraoculares, así que nadie te garantiza el apto: tu caso se valora y debe motivarse de forma individual.**
+Recuerda las condiciones de la prueba (base 6.1.1.a de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)): cinco frases con cuatro palabras o expresiones subrayadas, y es error tanto **no detectar una falta** como **marcar una palabra correcta**. Con **seis errores o más**, quedas excluido. Si aún no has repasado la acentuación, empieza por [las tildes](/blog/tildes-reglas-oposicion-guardia-civil), y tienes el marco general en [ortografía y gramática en el examen](/blog/ortografia-gramatica-examen-guardia-civil).
 
-## Primero: ¿de qué lentes hablamos?
+Las reglas siguen la *Ortografía de la lengua española* (RAE y ASALE). Los ejemplos y el ejercicio son nuestros.
 
-| Tipo | Qué es | Cuándo se usa |
+## B y V
+
+### Se escribe b…
+
+| Regla | Ejemplos | Excepciones |
 |---|---|---|
-| **Lente fáquica** (por ejemplo, ICL) | Se implanta dentro del ojo **sin quitar el cristalino** | Sobre todo, miopías altas o córneas en las que el láser no es buena opción |
-| **Lente pseudofáquica** | **Sustituye al cristalino** | Operación de cataratas o cirugía del cristalino transparente |
+| Después de **m** | ambos, cambiar, tambor, embarcar | — |
+| En los grupos **bl** y **br** | blanco, cable, broma, libro | — |
+| En el pretérito imperfecto de los verbos en **-ar** (-aba, -abas…) y en el de **ir** | cantaba, jugábamos, iba, íbamos | — |
+| En los verbos acabados en **-bir** y sus formas | escribir, recibir, subir, prohibir | **hervir, servir, vivir** y sus derivados (convivir, revivir) |
+| En los verbos acabados en **-buir** | atribuir, contribuir, distribuir | — |
+| En las palabras acabadas en **-bilidad** | amabilidad, posibilidad | **movilidad, civilidad** |
+| En las palabras acabadas en **-bundo, -bunda** | vagabundo, meditabunda | — |
+| En los prefijos **bi-, bis-, biz-** («dos») | bimensual, bisabuelo, bizcocho | — |
+| Al principio de palabra con **bur-** y **bus-** | burla, burbuja, buscar, busto | — |
 
-Las dos son «intraoculares», pero el cuadro médico las trata en apartados distintos, y eso es lo que importa. Y ninguna de las dos es lo mismo que el láser corneal (LASIK, PRK), que actúa sobre la superficie del ojo y no figura como causa de exclusión: lo explicamos en [gafas, miopía y operación de vista](/blog/gafas-miopia-operacion-vista-guardia-civil).
+Ojo con *bu-* a secas: aunque hay muchas palabras con b (*bueno*, *bucear*), también hay palabras muy usadas con v, como *vuelta*, *vuestro* o *vulgar*. No la uses como regla.
 
-## Qué decía el cuadro médico
+### Se escribe v…
 
-El cuadro de exclusiones de la Guardia Civil (anexo I de la Orden PCI/155/2019) menciona las lentes y la cirugía dentro del ojo en tres apartados de su letra J:
+| Regla | Ejemplos | Excepciones |
+|---|---|---|
+| Después de **n** | enviar, invierno, convocar, invitar | — |
+| Después de **ad-**, **sub-** y **ob-** | adverbio, subvención, obvio | — |
+| En el pretérito perfecto simple de **estar, andar, tener** y sus compuestos, y en los tiempos que derivan de él | estuve, anduvo, tuviera, retuvo, sostuvieron | — |
+| En el presente de **ir** | voy, vas, vaya, ve | — |
+| En los adjetivos llanos acabados en **-avo, -ava, -evo, -eva, -eve, -ivo, -iva** | octavo, nueva, breve, activo, decisiva | — |
+| En las palabras acabadas en **-ívoro, -ívora** | carnívoro, herbívora | **víbora** |
+| En los prefijos **vice-, viz-, vi-** («en lugar de») | vicepresidente, vizconde, virrey | — |
 
-| Apartado | Texto |
+### Las trampas de B y V
+
+- **«Hubo» con b, «tuvo» con v.** *Hube, hubo, hubiera* son formas de *haber* y se escriben con b; *tuve, estuvo, anduvo* llevan v por la regla anterior. Es una de las confusiones más rentables de repasar.
+- **«Iba» con b, «vaya» con v.** El imperfecto de *ir* lleva b; el presente, v.
+- **«Prohibir» con b, «hervir» con v.** Los dos acaban en *-ir*, pero *hervir* es una de las tres excepciones de *-bir*.
+- **«Movilidad» con v**, aunque *posibilidad* y *amabilidad* lleven b.
+- **«Envidia», «enviar», «envase»**: v, por ir detrás de n. Y recuerda la otra cara: delante de b se escribe m, no n (*ambos*, *cambio*).
+
+### Parejas con b y con v que cambian el significado
+
+| Con b | Con v |
 |---|---|
-| J.2 | «Pérdida o atrofia de un globo ocular. Cuerpos extraños intraoculares y/o intraorbitarios. Cualquier tipo de cirugía intraocular» |
-| J.9 | «[…] Queratocono. En ningún caso se admitirán lentes fáquicas» |
-| J.12 | «Cristalino: […] Afaquia, Pseudoafaquia. Cualquier tipo de lente intraocular» |
+| **baca** (portaequipajes del coche) | **vaca** (animal) |
+| **bello** (hermoso) | **vello** (pelo corto y suave) |
+| **botar** (saltar, echar al agua un barco) | **votar** (emitir un voto) |
+| **tubo** (pieza hueca) | **tuvo** (de *tener*) |
+| **grabar** (registrar, esculpir) | **gravar** (imponer un tributo o carga) |
+| **rebelar(se)** (sublevarse) | **revelar** (descubrir, dar a conocer) |
+| **sabia** (que tiene sabiduría) | **savia** (líquido de las plantas) |
+| **basto** (tosco, grosero) | **vasto** (muy extenso) |
+| **acerbo** (áspero, cruel) | **acervo** (conjunto de bienes o conocimientos) |
+| **hierba** (planta) | **hierva** (de *hervir*) |
 
-## Qué anuló el Supremo
+## G y J
 
-La sentencia de la Sala Tercera del Tribunal Supremo de 21 de febrero de 2023 (recurso de casación 4551/2021), publicada en el BOE el 29 de mayo de 2023 ([BOE-A-2023-12417](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-12417)), estimó el recurso de un aspirante y, en su fallo:
+### Se escribe g…
 
-1. Anuló la sentencia del Tribunal Superior de Justicia de Madrid que le había dado la razón a la Administración.
-2. Anuló las resoluciones que habían excluido a ese aspirante.
-3. **Declaró nula la frase «En ningún caso se admitirán lentes fáquicas»** del apartado J.9, y ordenó publicarlo en el BOE.
-
-El texto publicado en el BOE es el fallo, que se remite a los fundamentos de la sentencia para su alcance. Lo que se puede afirmar con seguridad es el efecto: **la exclusión automática y sin excepciones de las lentes fáquicas ya no existe**.
-
-La convocatoria de 2026 lo recoge expresamente: en su base 6.1.3.c), el reconocimiento médico se hace con el cuadro de la Orden PCI/155/2019 «y de conformidad con lo dispuesto por la Sentencia de 21 de febrero de 2023».
-
-## Lo que sigue escrito en la norma
-
-Aquí está el matiz que muchos pasan por alto. El fallo anula **solo** esa frase del J.9. En el [texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2019-2291), los apartados **J.2 («Cualquier tipo de cirugía intraocular»)** y **J.12 («Cualquier tipo de lente intraocular»)** siguen apareciendo.
-
-¿Qué significa en la práctica? Que la norma ya no permite excluir a nadie con el argumento de que «en ningún caso» se admiten lentes fáquicas, pero tampoco te garantiza el apto. Tu caso se valorará de forma individual, como exige la introducción del propio cuadro, que obliga a motivar cada exclusión con un informe técnico del servicio médico y a atender a la evidencia científica del momento.
-
-### Resumen por situaciones
-
-| Tu situación | Qué dice la norma hoy | Grado de incertidumbre |
+| Regla | Ejemplos | Excepciones |
 |---|---|---|
-| Lente fáquica (ICL o similar) | Ya no hay exclusión automática; siguen escritos J.2 y J.12 | Alto: depende de la valoración individual |
-| Lente pseudofáquica (sustituye al cristalino) | J.12 menciona afaquia, pseudoafaquia y cualquier lente intraocular; la sentencia no se refiere a ellas | Alto, con menos apoyo en la sentencia |
-| Láser corneal (LASIK, PRK) | No figura como causa de exclusión; se valora el resultado | Bajo, si la agudeza, la graduación y la córnea están bien |
-| Sin cirugía, con miopía alta | Supera el máximo de −3 dioptrías | Excluye mientras no cambie la graduación |
+| En las palabras que empiezan por **geo-** | geografía, geología | — |
+| En los verbos acabados en **-ger, -gir** | coger, proteger, dirigir, elegir | **tejer, crujir** y sus derivados |
+| En las terminaciones **-gia, -gio, -gión, -gional, -gioso** | magia, biología, colegio, religión, regional, prodigioso | **lejía, bujía, herejía** |
 
-## En la Policía Nacional fue distinto
+### Se escribe j…
 
-Si comparas con la Policía Nacional, verás otra situación. Allí, una sentencia del Supremo de 16 de febrero de 2023 ([BOE-A-2023-6376](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-6376)) anuló dos incisos de su cuadro médico (Real Decreto 326/2021):
-
-- «Cuerpos extraños intraoculares. Cualquier tipo de cirugía intraocular», y
-- el apartado sobre técnicas de corrección refractiva, que exigía 60 días desde la cirugía y terminaba con «No se admitirán lentes fáquicas».
-
-Su convocatoria de 2026 dice expresamente que esos puntos no se aplican. En la Guardia Civil, en cambio, solo se anuló la frase de las lentes fáquicas y la referencia a la cirugía intraocular sigue escrita. Son normas y sentencias diferentes, así que **no extrapoles lo que leas de un cuerpo al otro**.
-
-| | Guardia Civil | Policía Nacional |
+| Regla | Ejemplos | Excepciones |
 |---|---|---|
-| Norma | Orden PCI/155/2019, anexo I | Real Decreto 326/2021 |
-| Sentencia | TS 21-2-2023 | TS 16-2-2023 |
-| Qué se anuló | La frase «En ningún caso se admitirán lentes fáquicas» | La cirugía intraocular como exclusión y el apartado de corrección refractiva, incluidas las lentes fáquicas |
-| ¿Sigue escrita la cirugía intraocular? | Sí (J.2) | No se aplica |
+| En las palabras acabadas en **-aje, -eje** | viaje, garaje, mensaje, hereje | **ambages** |
+| En las acabadas en **-jero, -jera, -jería** | extranjero, cerrajera, relojería, consejería | **ligero** |
+| En los verbos acabados en **-jear** | canjear, hojear, ojear, homenajear | — |
+| En las formas con sonido /j/ de verbos que no tienen ni g ni j en el infinitivo | decir → dije; traer → trajo; conducir → conduje | — |
+| En las palabras derivadas de otras con j | caja → cajero; rojo → rojizo; hoja → hojear | — |
 
-## Caso práctico (hipotético)
+### Las trampas de G y J
 
-Elena tiene −7 de miopía. A los 24 años se implanta una lente fáquica en cada ojo y ahora ve 1,0 sin gafas, con una graduación residual de −0,25. Se presenta a la oposición.
+- **Los verbos en -ger y -gir cambian a j delante de a y o:** *coger* → *cojo, coja*; *elegir* → *elijo, elija*; *dirigir* → *dirijo*. Escribir *cogo* o *eliga* es falta.
+- **Al revés, *tejer* y *crujir* mantienen la j en todas sus formas:** *tejía*, *crujieron*.
+- **Los pretéritos de *-ducir* van con j:** *condujo, produjeron, tradujera*. Nunca *condució* ni *produció*.
+- **Palabras que conviene fijar con g:** *cónyuge*, *vigía*, *agenda*, *agilidad*, *vigilar*, *imagen*, *origen*, *margen*.
+- **Palabras que conviene fijar con j:** *jengibre*, *ajeno*, *objeto*, *sujeto*, *majestad*, *berenjena*, *jirafa*.
 
-- **Agudeza y graduación:** cumple (más de 0,7 en cada ojo y graduación dentro de los máximos).
-- **Lente fáquica:** ya no puede excluirse con la frase anulada, pero el servicio médico valorará su caso con los apartados que siguen escritos.
-- **Qué le conviene llevar:** informe de la cirugía con tipo y modelo de lente, fecha, revisiones posteriores (agudeza, presión intraocular, recuento endotelial y estado del cristalino si su oftalmólogo lo considera) y un informe funcional que explique que no le limita.
-- **Si la declaran «no apto»:** puede pedir la revisión ante la Junta Médica de Revisión en el plazo de la convocatoria (no superior a 3 días hábiles en 2026) y, después, valorar con un abogado los recursos que procedan.
+### Parejas de significado distinto
 
-## Si llevas una lente implantada: qué hacer
+- **hojear** (pasar las hojas) / **ojear** (mirar por encima).
+- **ingerir** (tomar alimento o bebida) / **injerir** (meter una cosa en otra; *injerirse*, entrometerse).
+- **gira** (excursión, serie de actuaciones) / **jira** (trozo de tela; también, merienda campestre).
 
-1. **Comprueba el resto de requisitos de la vista.** La lente no te exime de cumplir la agudeza visual (más de 0,7 en cada ojo) ni los límites de graduación.
-2. **Reúne la documentación.** Informe de la cirugía, tipo y modelo de lente, fecha, y revisiones posteriores con agudeza visual, estabilidad y estado del ojo.
-3. **Pide a tu oftalmólogo un informe funcional.** Lo que pesa no es el nombre de la técnica, sino si te limita para el servicio y si hay riesgos previsibles.
-4. **Lleva la referencia de la sentencia** (BOE-A-2023-12417) y la base 6.1.3.c) de la convocatoria, por si necesitas invocarlas en una revisión.
-5. **Si te excluyen, revisa los plazos.** La revisión del «no apto» tiene un plazo muy corto. Si crees que no se ha valorado tu caso de forma individual, consulta con un abogado especializado en oposiciones.
+## La H
 
-## Si todavía no te has operado
+La h no suena, así que no hay pista fonética: solo reglas y memoria.
 
-Si tienes miopía alta y estás pensando en operarte antes de la oposición, coméntale a tu oftalmólogo que vas a pasar el reconocimiento de la Guardia Civil y enséñale el apartado J del cuadro médico. La técnica más adecuada para tu ojo es una decisión médica, pero conviene que la tome sabiendo qué se valorará y con tiempo suficiente para que la vista se estabilice antes del reconocimiento.
+### Se escribe h…
 
-Tienes el resto de exclusiones en [cuadro médico de exclusiones de la Guardia Civil](/blog/cuadro-medico-exclusiones-guardia-civil) y cómo es el día del reconocimiento en [entrevista y reconocimiento médico](/blog/entrevista-reconocimiento-medico-guardia-civil).
+| Regla | Ejemplos |
+|---|---|
+| En las formas de **haber, hacer, hablar, hallar, habitar** y sus derivados | he, hubo, hice, deshacer, hablador, hallazgo, habitante |
+| Delante de los diptongos iniciales **ia-, ie-, ue-, ui-** | hiato, hielo, hierro, hueso, huevo, huida, huir |
+| En los elementos de origen griego **hidr(o)-, hiper-, hipo-, hemi-, hepta-, hexa-, hetero-, homo-, hecto-** | hidrógeno, hipermercado, hipótesis, hemisferio, heptágono, hexágono, heterogéneo, homogéneo, hectárea |
+| En las interjecciones **ah, eh, oh, bah** | ¡Ah, ya lo entiendo! |
+
+### La trampa de la familia de palabras
+
+La regla del diptongo explica por qué palabras de la misma familia **pierden la h** cuando el diptongo desaparece:
+
+| Con *hue-* (h) | Sin diptongo (sin h) |
+|---|---|
+| hueso | óseo, osario, osamenta |
+| huevo | óvulo, ovario, oval |
+| hueco | oquedad |
+| huérfano | orfandad, orfanato |
+| huele, huelo | oler, olemos |
+
+Y al revés: *deshuesar* conserva la h porque mantiene el diptongo *ue*.
+
+### «Ex-» con h y sin h
+
+No hay una regla general: hay que memorizarlas.
+
+- **Con h:** *exhibir, exhalar, exhausto, exhaustivo, exhortar, exhumar*.
+- **Sin h:** *exuberante, exabrupto, exorbitante, exonerar*.
+
+### H intercalada que se escapa
+
+*prohibir, rehén, vehículo, alcohol, ahínco, bahía, zanahoria, búho, almohada, cohete, ahorro*.
+
+### Palabras sin h que parecen llevarla
+
+*abuelo, ermita, oler, orfandad, osario, umbral*.
+
+Un aviso: algunas palabras admiten dos grafías. Por ejemplo, *hierba* y *yerba* son correctas las dos. Si en el examen te encuentras una forma que no te suena, piensa si puede ser una variante admitida antes de marcarla como falta.
+
+## Ejercicio resuelto (propio, con el formato del examen)
+
+Las palabras subrayadas en el examen aquí van en **negrita**. Decide cuáles tienen falta.
+
+1. «El **vagabundo** **iba** a **hervir** el agua, pero **estubo** demasiado cansado».
+2. «La **mensagera** y su **cónyuje** **eligieron** el **garaje** más cercano».
+3. «**Prohibieron** **exibir** el **vehículo** en la **exposición**».
+4. «Le **dije** que **cogiera** la **lejía** y se **protegiera** las manos».
+5. «La **hierva** del jardín **crece** gracias a la **savia** y a la tierra **húmeda**».
+
+**Soluciones:**
+
+1. **Una falta:** *estuvo* (pretérito de *estar*, con v). *Vagabundo* (-bundo), *iba* (imperfecto de *ir*) y *hervir* (excepción de -bir) son correctas.
+2. **Dos faltas:** *mensajera* (-jera) y *cónyuge* (con g). *Eligieron* y *garaje* son correctas.
+3. **Una falta:** *exhibir*. *Prohibieron*, *vehículo* y *exposición* son correctas.
+4. **Ninguna falta.** *Dije* (de *decir*), *cogiera* (g delante de i), *lejía* (excepción de -gía) y *protegiera* son correctas. Si marcas algo aquí, sumas un error.
+5. **Una falta:** *hierba* (la planta). *Hierva* es una forma de *hervir*. *Crece*, *savia* y *húmeda* son correctas.
 
 ## Errores frecuentes
 
-- **Creer que la sentencia «legaliza» todas las lentes intraoculares.** Solo anuló una frase del J.9.
-- **Creer que nada ha cambiado.** La exclusión automática de las lentes fáquicas ya no existe y la convocatoria lo reconoce.
-- **Aplicar a la Guardia Civil lo que se lee sobre la Policía Nacional.** Allí se anuló más.
-- **Ir al reconocimiento sin documentación.** La valoración individual se apoya en informes.
-- **Dejar pasar el plazo de revisión** del «no apto».
+- **Aplicar una regla sin mirar sus excepciones:** *herbir*, *movilidad* con b, *lexía*.
+- **Fiarse del «me suena»:** *estubo*, *cogo*, *exibir* son errores habituales precisamente porque se ven escritos mal con frecuencia.
+- **Olvidar el cambio g → j de *coger* o *elegir*.**
+- **Confundir homófonos:** *tubo/tuvo*, *grabar/gravar*, *hierba/hierva*.
+- **Marcar como falta una variante correcta** por no conocerla.
 
-## Checklist
+## Checklist de repaso
 
-- [ ] Sé qué tipo de lente llevo (fáquica o pseudofáquica) y su modelo.
-- [ ] Mi agudeza supera 0,7 en cada ojo y mi graduación está dentro de los máximos.
-- [ ] Tengo el informe de la cirugía y revisiones recientes.
-- [ ] Tengo un informe funcional del oftalmólogo.
-- [ ] Conozco el plazo de revisión del «no apto».
-- [ ] He repasado el resto de [requisitos para ser Guardia Civil](/blog/requisitos-guardia-civil).
+- [ ] Sé las reglas de b (m, bl/br, -aba, -bir, -buir, -bilidad, -bundo).
+- [ ] Sé las de v (n, ad-/sub-/ob-, *estuve/anduve/tuve*, *voy*, adjetivos en -ivo).
+- [ ] Recuerdo las excepciones: *hervir, servir, vivir, movilidad, civilidad, víbora*.
+- [ ] Conjugo bien *coger, elegir, dirigir, conducir, decir, traer*.
+- [ ] Domino la familia *hueso/óseo*, *huevo/óvulo*, *huérfano/orfandad*.
+- [ ] Me sé las palabras con *exh-* y sin ella.
+- [ ] Repaso las parejas de significado distinto con una frase de ejemplo.
 
-Si quieres centrarte en lo que sí depende de ti, el examen, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+## Cómo repasar
+
+1. **Lleva un cuaderno de palabras trampa** con las que falles en los tests, con la regla al lado.
+2. **Aprende la regla antes que la lista:** una regla cubre cientos de palabras; la lista, solo las que apuntas.
+3. **Repasa las parejas en frases**, no sueltas: «el tubo del agua», «tuvo suerte».
+4. **Haz tests cronometrados** con el formato real. Si estás empezando la preparación, organízalo como te contamos en [preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero).
+
+Si quieres corregir con explicación cada palabra, en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes ejercicios con el formato del examen. Y los homófonos más traicioneros (*haber/a ver*, *echo/hecho*, *porque/por qué*) los veremos en un próximo artículo.
 
 ## Preguntas frecuentes
 
-### ¿Puedo ser Guardia Civil con lentes intraoculares?
+### ¿«Envidia» se escribe con b o con v?
 
-La exclusión automática de las lentes fáquicas fue anulada por el Tribunal Supremo en 2023, y la convocatoria de 2026 aplica esa sentencia. Tu caso se valora de forma individual, y debes cumplir igualmente la agudeza visual y los límites de graduación.
+Con v. Detrás de n siempre se escribe v.
 
-### ¿Qué anuló exactamente la sentencia del Supremo?
+### ¿«Cónyuge» se escribe con g o con j?
 
-La frase «En ningún caso se admitirán lentes fáquicas» del apartado J.9 del cuadro médico de la Orden PCI/155/2019.
+Con g. No hay una regla que lo explique: es una de las palabras que conviene memorizar.
 
-### ¿Siguen apareciendo las lentes intraoculares en el cuadro médico?
+### ¿Por qué «hubo» va con b y «tuvo» con v?
 
-Sí. En el texto consolidado siguen los apartados J.2 («Cualquier tipo de cirugía intraocular») y J.12 («Cualquier tipo de lente intraocular»). Por eso conviene llevar bien documentado tu caso.
+*Hubo* es una forma de *haber*, que se escribe con b. *Tuvo* es una forma de *tener*, y los pretéritos de *tener*, *estar* y *andar* llevan v.
 
-### ¿Y si llevo una lente por una operación de cataratas?
+### ¿«Hojear» y «ojear» son lo mismo?
 
-Es una lente pseudofáquica, que el apartado J.12 menciona junto a la pseudoafaquia. La sentencia de 2023 se refiere a las lentes fáquicas, así que tu caso tiene menos apoyo en ella. Consúltalo con tu oftalmólogo y documéntalo bien.
+No. *Hojear* es pasar las hojas de un libro; *ojear* es mirar por encima.
 
-### ¿Es lo mismo en la Policía Nacional?
+### ¿Cuándo una palabra con «ex-» lleva h?
 
-No. La Policía Nacional tiene su propio cuadro médico y otra sentencia del Supremo, de 16 de febrero de 2023, que anuló también la cirugía intraocular como causa de exclusión.
+No hay una regla general. Llevan h *exhibir, exhalar, exhausto, exhaustivo, exhortar* y *exhumar*; no la llevan *exuberante, exabrupto, exorbitante* ni *exonerar*.
 
-### ¿El láser excluye igual que la lente?
+### ¿Por qué «hueso» lleva h y «óseo» no?
 
-No. La cirugía refractiva con láser en la córnea no figura como causa de exclusión en el cuadro de la Guardia Civil: se valora el resultado.',
-   '/blog/lentes-intraoculares-guardia-civil.jpg', 'Oftalmólogo examinando el ojo de una aspirante con una lámpara de hendidura', 'publicado', '2026-11-16T06:30:00.000Z', 'acceso-guardia-civil',
-   ARRAY['lentes intraoculares', 'vista', 'cuadro médico', 'tribunal supremo']::text[], '{"title":"Lentes intraoculares Guardia Civil: qué dijo el Supremo","description":"¿Excluyen las lentes intraoculares o fáquicas en la Guardia Civil? Qué anuló el Supremo en 2023, qué sigue en el cuadro médico y qué hacer."}'::jsonb, '{}'::jsonb)
+Porque se escriben con h las palabras que empiezan por el diptongo *ue-*. Cuando el diptongo desaparece (*óseo, osario*), desaparece también la h.
+
+### ¿Cuántos errores se permiten en ortografía?
+
+Hasta cinco. Con seis o más respuestas erróneas quedas excluido del proceso.',
+   '/blog/palabras-trampa-ortografia-guardia-civil.jpg', 'Opositora subrayando palabras corregidas en una libreta junto a un diccionario', 'publicado', '2026-11-15T06:13:00.000Z', 'acceso-guardia-civil',
+   ARRAY['ortografía', 'b/v', 'g/j', 'h', 'palabras']::text[], '{"title":"B/V, G/J y H: palabras trampa de ortografía Guardia Civil","description":"Reglas de B/V, G/J y H con excepciones, palabras trampa y parejas que se confunden en la prueba de ortografía de la Guardia Civil, con ejercicio."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('tildes-reglas-oposicion-guardia-civil', 'articulo', 'Tildes en la oposición a Guardia Civil: las reglas que más fallan los opositores', 'La prueba de ortografía excluye con seis errores, y las tildes son una fuente constante de fallos. Reglas generales, diptongos e hiatos, tilde diacrítica, «solo» y «aún», casos especiales y un ejercicio resuelto como el del examen.', 'La prueba de ortografía no suma puntos: es **apto o no apto**. Pero con **seis o más respuestas erróneas** quedas excluido del proceso (base 7.4 de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)). **Respuesta corta:** casi todos los fallos de tildes se evitan con cuatro bloques bien aprendidos: las reglas generales, los hiatos, la tilde diacrítica y los interrogativos. Aquí los tienes con ejemplos y un ejercicio resuelto.
+
+Las reglas siguen la *Ortografía de la lengua española* de la RAE y la ASALE (2010). Los ejercicios son nuestros, no preguntas oficiales.
+
+## Cómo es la prueba
+
+Son **cinco frases con cuatro palabras o expresiones subrayadas cada una**, más una frase de reserva, y tienes que señalar las que presenten falta de ortografía (base 6.1.1.a). Cuenta como **respuesta errónea** tanto dejar sin marcar una palabra con falta como **marcar una que es correcta**. Es decir, de 20 palabras puedes fallar como máximo cinco, y tan grave es dejar pasar una falta como «corregir» algo que estaba bien.
+
+Además, se hace dentro de los **140 minutos** de la prueba de conocimientos teórico-prácticos, junto con la gramática, los conocimientos generales y el inglés. Lo tienes todo encuadrado en [ortografía y gramática en el examen](/blog/ortografia-gramatica-examen-guardia-civil) y en la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
+
+## Paso previo: la sílaba tónica
+
+Antes de aplicar ninguna regla, separa la palabra en sílabas y localiza la que suena más fuerte. Un truco: pronúnciala alargando cada sílaba por turnos («caaanción», «canciooón»); la que suena natural es la tónica.
+
+## Las reglas generales
+
+| Tipo | Sílaba tónica | Lleva tilde si… | Con tilde | Sin tilde |
+|---|---|---|---|---|
+| Aguda | Última | termina en vocal, **-n** o **-s** | canción, café, además, sofá | ciudad, reloj, papel, feliz |
+| Llana | Penúltima | **no** termina en vocal, -n ni -s | árbol, cárcel, lápiz, césped | examen, casa, joven, lunes |
+| Esdrújula | Antepenúltima | **siempre** | médico, teléfono, sábado | — |
+| Sobresdrújula | Anterior a la antepenúltima | **siempre** | cuéntamelo, dígaselo | — |
+
+### Tres matices que confunden
+
+- **Aguda terminada en -s precedida de otra consonante:** no lleva tilde (*robots*, *zigzags*). Y la **llana** en ese caso **sí** la lleva: *bíceps*, *fórceps*, *cómics*.
+- **Terminación en -y:** a efectos de tilde, la *y* final cuenta como consonante. Por eso *virrey*, *convoy* o *estoy* (agudas) no llevan tilde.
+- **«Examen» no lleva tilde, pero «exámenes» sí.** Lo veremos en los plurales.
+
+## Diptongos, triptongos e hiatos
+
+### Diptongos
+
+Son dos vocales en la misma sílaba: una abierta (*a, e, o*) con una cerrada átona (*i, u*), o dos cerradas distintas. Siguen las reglas generales: *camión* (aguda en -n), *después* (aguda en -s), *murciélago* (esdrújula). Si la tilde cae en un diptongo de abierta y cerrada, va sobre la abierta (*camión*); en *ui* o *iu*, sobre la segunda vocal (*cuídate*, *interviú*).
+
+*Jesuita*, *construir* o *destruido* no llevan tilde: son llanas o agudas que no la piden por la regla general.
+
+### Triptongos
+
+Tres vocales en una sílaba. También siguen las reglas generales: *averiguáis* (aguda en -s), *buey* (monosílabo).
+
+### Hiatos
+
+Dos vocales seguidas que pertenecen a sílabas distintas.
+
+- **Dos vocales abiertas** (*poeta*, *caótico*, *aéreo*, *héroe*): siguen las reglas generales. *Poeta* es llana en vocal, sin tilde; *aéreo* y *héroe* la llevan por ser esdrújulas.
+- **Vocal cerrada tónica junto a una abierta:** la cerrada **siempre** lleva tilde, aunque la regla general no lo pida: *país*, *día*, *río*, *baúl*, *maíz*, *oído*, *reír*. La *h* intercalada no lo impide: *búho*, *prohíbe*, *rehúsa*, *ahínco*.
+
+Esta regla explica una trampa clásica: *río* (sustantivo, dos sílabas: *rí-o*) lleva tilde, mientras que *rio* (de *reír*: «se rio») no la lleva, como verás en el apartado siguiente.
+
+## Monosílabos: sin tilde salvo la diacrítica
+
+Las palabras de una sola sílaba **no llevan tilde**: *fe, fue, fui, vio, dio, pie, sol, mar, dos*. La Ortografía de 2010 considera monosílabos, a efectos de tilde, palabras como **guion, truhan, hui, rio, lio, crio o fie**. Así que «se rio», «el guion» o «menudo lio» se escriben sin tilde.
+
+## La tilde diacrítica
+
+Distingue palabras que se escriben igual pero tienen distinta función: la forma tónica lleva tilde y la átona no.
+
+| Con tilde | Sin tilde |
+|---|---|
+| **tú** (pronombre): «tú vienes» | **tu** (posesivo): «tu casa» |
+| **él** (pronombre): «él lo dijo» | **el** (artículo): «el libro» |
+| **mí** (pronombre): «para mí» | **mi** (posesivo o nota musical): «mi coche» |
+| **sí** (afirmación o pronombre): «sí, lo sé»; «lo quiere para sí» | **si** (conjunción o nota): «si vienes» |
+| **té** (infusión) | **te** (pronombre): «te lo dije» |
+| **dé** (verbo *dar*): «que me dé» | **de** (preposición): «de Madrid» |
+| **sé** (verbo *saber* o *ser*): «yo sé»; «sé prudente» | **se** (pronombre): «se fue» |
+| **más** (cantidad): «más tiempo» | **mas** (= *pero*): «quiso, mas no pudo» |
+
+Dos cambios de 2010 que conviene recordar: la conjunción **o** ya **no** lleva tilde entre cifras («3 o 4») y **guion**, **truhan** o **hui** pierden la tilde, como has visto.
+
+## Interrogativos y exclamativos
+
+*Qué, quién, cuál, cómo, cuándo, cuánto, dónde* y *adónde* llevan tilde cuando preguntan o exclaman, **también en las preguntas indirectas** (sin signos de interrogación):
+
+- «¿**Cuándo** llegas?» / «Le pregunté **cuándo** llegaba» (pregunta indirecta: tilde).
+- «Avísame **cuando** llegues» (no pregunta: sin tilde).
+- «No sé **qué** hacer» / «Lo **que** quieras».
+- «¡**Cómo** corre!» (exclamación).
+
+Un caso fino de la propia Ortografía: «No tengo **qué** comer» (no tengo nada para comer) frente a «No tengo **que** comer» (no estoy obligado a comer). Las dos son correctas y significan cosas distintas.
+
+## «Solo», los demostrativos y «aún»
+
+- **«Solo»** (adverbio o adjetivo) y los demostrativos **este, ese, aquel** (con sus femeninos y plurales) **se escriben sin tilde**. En 2023 la RAE aclaró que la tilde en el adverbio *solo* es **optativa únicamente cuando quien escribe aprecia riesgo de ambigüedad**, y que fuera de esos casos debe omitirse. Lo más seguro, y lo que la RAE considera aconsejable, es no tildarlo nunca. En el examen, «solo» sin tilde nunca es falta.
+- **«Aún»** lleva tilde cuando equivale a *todavía* («aún no ha llegado», «es aún más alto»). **«Aun»** se escribe sin tilde cuando equivale a *incluso, hasta* o *siquiera* («aun así», «aun cuando llueva», «ni aun con ayuda»).
+
+## Plurales que ganan o pierden tilde
+
+Al pasar al plural se añade una sílaba y la palabra puede cambiar de tipo:
+
+| Singular | Plural | Por qué |
+|---|---|---|
+| examen (llana en -n) | exámenes (esdrújula) | La esdrújula siempre lleva tilde |
+| joven | jóvenes | Igual |
+| orden | órdenes | Igual |
+| canción (aguda en -n) | canciones (llana en -s) | La llana en -s no la lleva |
+| inglés | ingleses | Igual |
+| carácter | caracteres | Cambia la sílaba tónica (*rac*) |
+| régimen | regímenes | Cambia la sílaba tónica (*gí*) |
+| espécimen | especímenes | Cambia la sílaba tónica (*cí*) |
+
+## Otros casos especiales
+
+- **Adverbios en -mente:** conservan la tilde del adjetivo del que derivan: *fácil* → *fácilmente*, *cortés* → *cortésmente*, *común* → *comúnmente*. Si el adjetivo no la lleva, el adverbio tampoco: *lento* → *lentamente*.
+- **Compuestos sin guion:** se acentúan como una sola palabra: *décimo + séptimo* → *decimoséptimo*; *río + platense* → *rioplatense*; *así + mismo* → *asimismo*.
+- **Compuestos con guion:** cada parte conserva su tilde: *histórico-artístico*, *teórico-práctico*.
+- **Verbos con pronombres pospuestos:** desde 2010 siguen las reglas generales: *dame*, *deme*, *estate* (llanas, sin tilde); *mírame*, *dígaselo* (esdrújula y sobresdrújula, con tilde).
+- **Mayúsculas:** llevan tilde igual que las minúsculas: *África*, *Álvaro*, *ÓRDENES*.
+
+## Ejercicio resuelto (propio, con el formato del examen)
+
+Las palabras subrayadas en el examen aquí van en **negrita**. Decide cuáles tienen falta.
+
+1. «**Aún** no **sé** **por qué** el **examen** dura ciento cuarenta minutos».
+2. «El **guión** de la **película** **fué** muy aplaudido por el **público**».
+3. «Le pregunté **cuando** **vendría** y me dijo que **mas** tarde, **despues** de comer».
+4. «Los **exámenes** de este año fueron **mas** **dificiles** que los de 2025, aunque **solo** un poco».
+5. «**Dígame** **donde** vive y **porqué** ha venido; **aun** así, le atenderé».
+
+**Soluciones:**
+
+1. **Ninguna falta.** *Aún* = todavía; *sé* es verbo; *por qué* introduce una pregunta indirecta; *examen* es llana en -n. Una frase sin faltas también es posible: si marcas algo, sumas un error.
+2. **Dos faltas:** *guion* y *fue* van sin tilde. *Película* (esdrújula) y *público* (esdrújula) son correctas.
+3. **Tres faltas:** *cuándo* (pregunta indirecta), *más* (cantidad) y *después* (aguda en -s). *Vendría* es correcta (hiato con *í* tónica).
+4. **Dos faltas:** *más* y *difíciles*. *Exámenes* y *solo* son correctas.
+5. **Dos faltas:** *dónde* (pregunta indirecta) y *por qué* (pregunta indirecta, en dos palabras). *Dígame* y *aun* (= incluso) son correctas.
+
+En total hay nueve faltas en veinte palabras. Si hubieras dejado pasar *cuándo* y *dónde* y además hubieras marcado *aun* y *solo*, ya llevarías cuatro errores: así de rápido se llega al límite.
+
+## Errores frecuentes
+
+- **Tildar monosílabos:** *fué*, *dió*, *vió*, *guión*.
+- **Olvidar la tilde de las preguntas indirectas:** «no sé cuando…».
+- **Confundir *aun* y *aún*:** pregúntate si puedes decir *todavía*.
+- **Marcar como falta «solo» sin tilde:** es la forma recomendada.
+- **No aplicar la regla del hiato:** *pais*, *baul*, *oido* sin tilde son faltas.
+- **Olvidar los plurales:** *examenes* o *jovenes* sin tilde son faltas, y también *carácteres* o *regimenes*: lo correcto es *exámenes*, *jóvenes*, *caracteres* y *regímenes*.
+
+## Checklist de repaso
+
+- [ ] Sé localizar la sílaba tónica y clasificar la palabra.
+- [ ] Domino las tres reglas generales y sus matices (-s tras consonante, -y final).
+- [ ] Aplico la regla del hiato con *i* o *u* tónicas.
+- [ ] Me sé la tabla de la tilde diacrítica de memoria.
+- [ ] Reconozco las preguntas indirectas.
+- [ ] Distingo *aun* y *aún*, y escribo *solo* sin tilde.
+- [ ] Conozco los plurales que cambian.
+
+## Cómo repasarlas
+
+1. **Memoriza la tabla diacrítica** y la de plurales: son reglas cerradas.
+2. **Practica con frases**, no con palabras sueltas: en el examen todo está en contexto.
+3. **Haz tu lista de fallos** y repásala a intervalos. Si estudias a la vez que trabajas, encájalo como te contamos en [cómo preparar la oposición trabajando](/blog/plan-estudio-guardia-civil-trabajando).
+4. **Haz tests cronometrados** de cinco frases con cuatro palabras, y anota no solo las faltas que no ves, sino también las palabras correctas que marcas por miedo.
+
+En próximos artículos veremos las palabras trampa con B/V, G/J y H y los homófonos. Si quieres practicar con corrección explicada, en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes ejercicios de ortografía con el formato del examen.
+
+## Preguntas frecuentes
+
+### ¿Cuántos errores de ortografía se permiten en la Guardia Civil?
+
+Hasta cinco. Con seis o más respuestas erróneas eres declarado «no apto» y quedas excluido (base 7.4).
+
+### ¿Cuenta como error marcar una palabra correcta?
+
+Sí. Es respuesta errónea tanto no marcar una palabra con falta como marcar una que está bien.
+
+### ¿«Solo» lleva tilde?
+
+Como norma, no. Desde 2023 la RAE admite tildarlo solo si quien escribe aprecia ambigüedad, pero lo aconsejable es no tildarlo nunca. Sin tilde siempre es correcto.
+
+### ¿Cómo distingo «aún» de «aun»?
+
+Con tilde cuando significa *todavía* («aún no»); sin tilde cuando significa *incluso* («aun así»).
+
+### ¿«Guion» lleva tilde?
+
+No. Desde la Ortografía de 2010 se considera monosílabo a efectos de tilde, igual que *truhan*, *hui* o *rio* (de *reír*).
+
+### ¿Por qué «examen» no lleva tilde y «exámenes» sí?
+
+*Examen* es llana terminada en -n; *exámenes* es esdrújula, y las esdrújulas llevan siempre tilde.
+
+### ¿La «o» entre números lleva tilde?
+
+No. Desde 2010 se escribe sin tilde: «3 o 4».',
+   '/blog/tildes-reglas-oposicion-guardia-civil.jpg', 'Hoja de examen con palabras subrayadas y un bolígrafo negro', 'publicado', '2026-11-14T06:56:00.000Z', 'acceso-guardia-civil',
+   ARRAY['ortografía', 'tildes', 'acentuación', 'examen']::text[], '{"title":"Tildes en la oposición a Guardia Civil: reglas y ejercicios","description":"Reglas de acentuación para la prueba de ortografía de la Guardia Civil: agudas, llanas, hiatos, tilde diacrítica, solo y aún, con ejercicio resuelto."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

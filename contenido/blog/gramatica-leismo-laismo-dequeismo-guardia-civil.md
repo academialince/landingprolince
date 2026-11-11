@@ -3,7 +3,7 @@ titulo: Gramática en la Guardia Civil: laísmo, leísmo, dequeísmo y otros err
 slug: gramatica-leismo-laismo-dequeismo-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-05T07:53:00+01:00
+publicado_en: 2026-12-25T07:33:00+01:00
 curso: acceso-guardia-civil
 entradilla: La prueba de gramática pide señalar las frases incorrectas desde el punto de vista morfológico o sintáctico. Leísmo, laísmo, loísmo, dequeísmo, queísmo, «habían» impersonal y otros errores, con trucos para detectarlos y un ejercicio resuelto.
 etiquetas: [gramática, laísmo, leísmo, dequeísmo]

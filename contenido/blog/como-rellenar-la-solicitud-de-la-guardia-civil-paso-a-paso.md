@@ -10,6 +10,8 @@ etiquetas: [solicitud, inscripción, sede electrónica, convocatoria]
 seo_title: Solicitud Guardia Civil: cómo rellenarla paso a paso
 seo_description: Cómo presentar la solicitud de ingreso en la Guardia Civil: sede electrónica, Cl@ve, plazo de 15 días hábiles, méritos y documentos (convocatoria 2026).
 datos: {}
+portada: /blog/como-rellenar-la-solicitud-de-la-guardia-civil-paso-a-paso.jpg
+portada_alt: Aspirante rellenando un formulario en un portátil de noche, con el DNI electrónico junto al teclado y el móvil al lado
 ---
 **Respuesta corta:** la solicitud se presenta **únicamente por vía electrónica**, en la sede electrónica de la Guardia Civil, dentro de un plazo de **15 días hábiles** desde el día siguiente a la publicación de la convocatoria en el BOE. Al inscribirte casi no se adjunta documentación, pero lo que declares en ese momento (méritos incluidos) es lo que después tendrás que acreditar cuando lo pida el Tribunal.
 

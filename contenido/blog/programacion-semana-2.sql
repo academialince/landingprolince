@@ -2,177 +2,149 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil', 'articulo', 'Entrenar y estudiar a la vez: cómo organizar la semana para rendir en las dos cosas', 'La oposición a Guardia Civil exige cabeza y cuerpo a la vez. Cómo repartir estudio y entrenamiento, tres semanas tipo según tu situación, qué cuidar en el sueño y la comida y cómo ajustar el plan cuando algo falla.', 'Lo difícil de esta oposición no es estudiar ni entrenar: es **hacer las dos cosas a la vez durante meses** sin quemarte. La respuesta corta: estudia **todos los días** (aunque sea poco), entrena **tres o cuatro días** a la semana, deja **al menos un día de descanso real** y coloca las sesiones exigentes de cada cosa en momentos distintos. Muchos aspirantes empiezan con un plan heroico que no se puede mantener y lo abandonan al mes; vale más uno modesto que dure.
+  ('altura-minima-guardia-civil', 'articulo', 'Altura mínima Guardia Civil: por qué ya no se exige', 'Desde octubre de 2023 no hay estatura mínima ni máxima para entrar en la Guardia Civil. Qué se exigía antes, qué norma lo cambió y por qué, qué se sigue midiendo en el reconocimiento y cómo afecta a las pruebas físicas.', 'Durante años, la estatura fue uno de los requisitos que más aspirantes dejaba fuera antes incluso de empezar a estudiar. Hoy ya no es así, pero en internet siguen circulando cifras antiguas, y todavía hay quien renuncia a la oposición por medir 1,55 m.
 
-Este artículo no es un manual de nutrición ni un plan de entrenamiento individual, que dependen de cada persona y deben ajustarse con profesionales. Es una guía de **organización**: cómo repartir el tiempo y la energía para que las dos cosas avancen.
+La respuesta corta: **para ingresar en la Escala de Cabos y Guardias de la Guardia Civil no hay altura mínima ni máxima desde el 19 de octubre de 2023.** La talla se sigue midiendo, pero solo para calcular el índice de masa corporal.
 
-## Por qué tienes que preparar las dos cosas desde el principio
+## ¿Qué se exigía antes?
 
-Es tentador pensar «primero apruebo el examen y luego ya entreno». El orden del proceso lo desaconseja. Según la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 7.9), la suma de concurso y oposición ordena a los aspirantes y se convoca a las pruebas psicofísicas a **1,5 aspirantes por plaza**. Las pruebas físicas llegan después del examen, pero la convocatoria no garantiza cuánto tiempo pasará entre uno y otras: no puedes contar con meses de margen para ponerte en forma.
+La redacción original del cuadro médico de exclusiones (anexo I de la Orden PCI/155/2019) excluía a quien midiera:
 
-Además, las pruebas físicas son eliminatorias: o eres apto en las cuatro o quedas fuera, con independencia de tu nota. Tienes los detalles en [las pruebas físicas de la Guardia Civil](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento).
+- menos de **160 cm** en el caso de los hombres,
+- menos de **155 cm** en el caso de las mujeres, o
+- más de **203 cm**, en ambos casos.
 
-| Parte | Qué exige | Cómo se gana |
-|---|---|---|
-| Examen de conocimientos, ortografía, gramática e inglés | 140 minutos, mínimos en cada parte | Horas de estudio y test regulares |
-| Psicotécnico | 80 preguntas en 55 minutos, mínimo 12 sobre 30 | Práctica corta y frecuente con cronómetro |
-| Pruebas físicas | Apto en las cuatro | Meses de entrenamiento progresivo |
+Si en algún sitio ves esas cifras como requisito actual, la información está desfasada. Es frecuente en foros antiguos, vídeos de hace años y páginas que no se han actualizado.
 
-Las dos primeras suman nota para entrar en el corte (lo explicamos en [la nota de corte](/blog/nota-de-corte-guardia-civil)); la tercera es un filtro. Ninguna se puede improvisar.
+## Línea temporal: cómo hemos llegado hasta aquí
 
-## Cuánto tiempo dedicar a cada cosa
-
-No existe una cifra oficial de horas, y cualquier número depende de tu punto de partida, de si trabajas y de cuánto falta para el examen. Lo que sí funciona es pensar en **mínimos sostenibles** y subir poco a poco:
-
-- **Estudio**: un bloque diario fijo, aunque los días malos sea corto. La constancia pesa más que las jornadas largas aisladas.
-- **Entrenamiento**: tres o cuatro sesiones semanales, cubriendo las cuatro pruebas a lo largo de la semana.
-- **Descanso**: un día completo sin entrenar y, a ser posible, con estudio ligero o ninguno.
-
-Si trabajas, mira también [cómo preparar la Guardia Civil trabajando](/blog/plan-estudio-guardia-civil-trabajando).
-
-## Tres semanas tipo (orientativas)
-
-Son ejemplos para que veas cómo encaja todo, no una prescripción. Adáptalos a tu nivel y a tus horarios.
-
-### Si trabajas de mañana
-
-| Día | Estudio (tarde-noche) | Entrenamiento |
-|---|---|---|
-| Lunes | 2 h de temario | Carrera de ritmo |
-| Martes | 2 h de test y repaso | Fuerza: brazos y core |
-| Miércoles | 2 h de temario | Descanso o paseo |
-| Jueves | 2 h de test y repaso | Natación |
-| Viernes | 1,5 h de repaso | Circuito de agilidad |
-| Sábado | 4 h: simulacro y corrección | Carrera larga y suave |
-| Domingo | Repaso ligero o nada | Descanso |
-
-### Si trabajas a turnos
-
-Aquí la semana de lunes a domingo no sirve: organízate por **ciclos de turno**.
-
-- **Días de turno de mañana**: estudio por la tarde; entrenamiento corto (fuerza o técnica).
-- **Días de turno de tarde**: estudio por la mañana, cuando estás más fresco; entrenamiento antes de ir a trabajar, solo si es suave.
-- **Días de noche**: no planifiques nada exigente. Como mucho, repaso con fichas o test cortos al despertar.
-- **Días libres**: aquí van el simulacro y la sesión más dura de carrera, en momentos distintos del día.
-
-### Si te dedicas a tiempo completo
-
-| Franja | Qué hacer |
+| Fecha | Qué pasó |
 |---|---|
-| Mañana (bloque 1) | Temario nuevo: lo más exigente, con la cabeza fresca |
-| Mediodía | Entrenamiento (3-4 días) o paseo |
-| Tarde (bloque 2) | Test, corrección y repaso |
-| Última hora | Psicotécnico (15 minutos) o inglés |
+| Febrero de 2019 | La Orden PCI/155/2019 aprueba el cuadro médico con mínimos de 160 cm (hombres) y 155 cm (mujeres) y un máximo de 203 cm |
+| 14 de julio de 2022 | El Tribunal Supremo (sentencia 1000/2022) razona que la estatura inferior a la fijada no parece relacionada con la falta de una aptitud física concreta |
+| Octubre de 2022 | El Real Decreto 853/2022 suprime la estatura mínima para ingresar en la Policía Nacional |
+| 17 de octubre de 2023 | La Orden PCM/1133/2023 deja la talla «sin límite» en el cuadro de la Guardia Civil |
+| 19 de octubre de 2023 | La orden entra en vigor, el mismo día de su publicación en el BOE |
+| Mayo de 2026 | La convocatoria de 2026 aplica el cuadro ya sin límite de estatura |
 
-El riesgo de la dedicación completa no es la falta de tiempo, sino estudiar muchas horas de baja calidad. Más horas no siempre son mejores horas.
+## ¿Qué norma eliminó la altura mínima?
 
-## Qué va primero: ¿estudio o entreno?
+La **Orden PCM/1133/2023, de 17 de octubre** ([BOE-A-2023-21528](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-21528)), en vigor desde el 19 de octubre de 2023. Su único artículo cambia el apartado de talla del cuadro médico, que queda así:
 
-- **El estudio que exige más concentración**, en tu mejor momento del día. Para la mayoría es la mañana, pero no para todos.
-- **Un entrenamiento suave puede despejarte** antes de estudiar; uno muy duro suele dejarte sin concentración durante un rato.
-- **No entrenes fuerte justo antes de un simulacro** ni hagas un simulacro largo justo antes de unas series de carrera exigentes. Cada cosa necesita llegar con energía.
-- **No juntes en días consecutivos** sesiones intensas que castiguen lo mismo: por ejemplo, series de carrera un día y circuito con muchos cambios de dirección al siguiente.
+> «1. Talla. En bipedestación: sin límite.»
 
-## Cómo cubrir las cuatro pruebas en tres o cuatro sesiones
+Es la redacción que sigue vigente en el [texto consolidado de la Orden PCI/155/2019](https://www.boe.es/buscar/act.php?id=BOE-A-2019-2291) y la que aplica la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)), que se remite a ese cuadro en su base 6.1.3.c).
 
-Puedes combinar trabajos en la misma sesión si son compatibles:
+## ¿Por qué se eliminó?
 
-| Sesión | Contenido | Por qué juntos |
+La propia orden lo explica en su preámbulo. Se apoya en la sentencia 1000/2022 del Tribunal Supremo, de 14 de julio de 2022, que señalaba que tener una estatura inferior a la fijada no parecía relacionado con la falta de una aptitud física concreta, y que esa aptitud ya queda garantizada con las pruebas físicas y médicas del proceso.
+
+Con esa idea, y con dos objetivos declarados, **avanzar en la igualdad de oportunidades entre hombres y mujeres** y **atraer y captar talento**, se suprimieron con carácter general los límites de estatura para el ingreso.
+
+El razonamiento de fondo es sencillo: si alguien supera la carrera, el circuito, las extensiones de brazos, la natación y el reconocimiento médico, su estatura no aporta información adicional sobre si puede o no hacer el trabajo.
+
+## ¿Puede pedirse una altura para algún destino?
+
+Sí, y es un matiz importante. La orden elimina la altura **para ingresar en los centros de formación**, pero deja a salvo los requisitos que puedan exigirse después:
+
+- para ocupar **determinados destinos**, según el Reglamento de destinos del personal de la Guardia Civil (Real Decreto 470/2019), y
+- para acceder a la **enseñanza de especialización**, según el Reglamento de ordenación de la enseñanza.
+
+Es decir: tu estatura no te impide entrar, pero en el futuro podría contar para alguna especialidad o destino concreto si su normativa lo exige. No te fíes de listas de «alturas por especialidad» sin fuente: compruébalo en la convocatoria del curso de especialización que te interese cuando llegue el momento. Tienes una visión general de la carrera en [destinos y especialidades de la Guardia Civil](/blog/destinos-especialidades-guardia-civil).
+
+## Lo que sí se sigue midiendo: el IMC
+
+Que no haya límite de altura no significa que la talla no se mida. Se usa para calcular el **índice de masa corporal**, que debe estar **entre 17 y 30**:
+
+> IMC = peso (kg) / talla (m)²
+
+Esta tabla te da el rango de peso que corresponde a cada estatura (redondeado a una décima):
+
+| Talla | Peso para IMC 17 | Peso para IMC 30 |
 |---|---|---|
-| A | Carrera (series o ritmo) | Es la que más energía consume; mejor sola |
-| B | Extensiones de brazos + core | Fuerza de tren superior, poco impacto |
-| C | Natación + movilidad | Descarga las piernas tras la carrera |
-| D | Circuito de agilidad + carrera suave | Técnica de giros y saltos con piernas frescas |
+| 1,50 m | 38,2 kg | 67,5 kg |
+| 1,55 m | 40,8 kg | 72,1 kg |
+| 1,60 m | 43,5 kg | 76,8 kg |
+| 1,65 m | 46,3 kg | 81,7 kg |
+| 1,70 m | 49,1 kg | 86,7 kg |
+| 1,75 m | 52,1 kg | 91,9 kg |
+| 1,80 m | 55,1 kg | 97,2 kg |
+| 1,85 m | 58,2 kg | 102,7 kg |
+| 1,90 m | 61,4 kg | 108,3 kg |
+| 1,95 m | 64,6 kg | 114,1 kg |
 
-Si solo tienes tres días, alterna B y D por semanas. Las claves técnicas de cada prueba están en sus artículos: [carrera de 2.000 metros](/blog/carrera-2000-metros-guardia-civil), [extensiones de brazos](/blog/extensiones-de-brazos-guardia-civil) y [natación de 50 metros](/blog/natacion-50-metros-guardia-civil).
+### Ejemplos resueltos
 
-## Sueño: el pilar que se sacrifica primero
+- **1,58 m y 77 kg.** 1,58² = 2,4964; 77 / 2,4964 = 30,8. Supera el límite de 30. Solo se admitiría si se demuestra que se debe a masa muscular, sin otra patología ni factores de riesgo.
+- **1,92 m y 62 kg.** 1,92² = 3,6864; 62 / 3,6864 = 16,8. Está por debajo de 17: también es causa de exclusión.
+- **1,52 m y 55 kg.** 1,52² = 2,3104; 55 / 2,3104 = 23,8. Dentro del rango, sin problema.
 
-Cuando el tiempo aprieta, lo primero que se recorta es dormir. Es un error: durmiendo se consolida lo que has estudiado y el cuerpo se recupera del entrenamiento. Las recomendaciones habituales para adultos hablan de **siete horas o más** por noche.
+Fíjate en que, para las personas de poca estatura, el margen en kilos es más estrecho: a 1,50 m hay unos 29 kg entre el mínimo y el máximo; a 1,90 m, unos 47. Si estás cerca del límite, controla el peso con tiempo y con asesoramiento profesional, no en las semanas previas al reconocimiento.
 
-- **Mantén un horario regular** de acostarte y levantarte, también el fin de semana.
-- **No estudies hasta la madrugada** la víspera de un entrenamiento duro o de un simulacro.
-- **Deja las pantallas** un rato antes de dormir si te cuesta conciliar el sueño.
+Tienes el resto de parámetros del reconocimiento en [cuadro médico de exclusiones de la Guardia Civil](/blog/cuadro-medico-exclusiones-guardia-civil).
 
-Si duermes mal de forma sostenida, consúltalo con tu médico.
+## Si mides poco, donde tienes que fijarte es en las físicas
 
-## Comer y beber: lo básico
+La altura ya no te deja fuera, pero las [pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento) son iguales para todos los aspirantes del mismo sexo y tramo de edad, midan lo que midan. No hay ningún ajuste por estatura.
 
-No hay una dieta oficial para opositores y las necesidades cambian mucho de una persona a otra. Algunas ideas generales:
+Qué conviene saber, prueba por prueba:
 
-- **Comidas regulares**, sin saltarte el desayuno los días de entrenamiento o de simulacro.
-- **Hidratación** a lo largo del día, también mientras estudias.
-- **Nada nuevo el día de una prueba o de un simulacro**: ni comidas ni suplementos que no hayas probado.
-- **Ojo al peso**: el reconocimiento médico exige un IMC entre 17 y 30 (más de 30 es admisible si se debe a masa muscular), como explicamos en [el cuadro médico de exclusiones](/blog/cuadro-medico-exclusiones-guardia-civil).
+| Prueba | Qué puede notar alguien de poca estatura | Qué hacer |
+|---|---|---|
+| Carrera de 2.000 m | Zancada más corta | Trabajar frecuencia de paso y ritmo; la estatura no es decisiva en esta distancia |
+| Circuito de agilidad | Vallas proporcionalmente más altas | Practicar el paso de valla y los apoyos hasta automatizarlos |
+| Extensiones de brazos | Recorrido más corto y menos peso que mover: suele ser una ventaja | Cuidar la técnica: barbilla al suelo y cuerpo alineado |
+| Natación 50 m | Brazada más corta | Mejorar la técnica de crol y la respiración |
 
-Para un plan de alimentación o si tienes alguna condición de salud, acude a un dietista-nutricionista o a tu médico.
+En el otro extremo, las personas muy altas suelen notarlo en las extensiones de brazos (más recorrido y más peso) y en los giros del circuito. Sea cual sea tu caso, la solución es la misma: entrenar las cuatro pruebas con tiempo, porque basta con no superar una para quedar fuera del proceso.
 
-## Caso práctico (hipotético)
+## ¿Y en la Policía Nacional?
 
-Javier, 26 años, trabaja de 8 a 15 h. Empieza con cinco días de estudio de tres horas y cinco de entrenamiento. A la tercera semana va cansado, se salta dos días de estudio y abandona la natación. ¿Qué cambiaría?
-
-1. **Baja el estudio a dos horas diarias** de lunes a viernes y mete el bloque largo el sábado.
-2. **Reduce a cuatro sesiones** de entrenamiento: A, B, C y D de la tabla anterior.
-3. **Fija el domingo como descanso** y planifica la semana siguiente en diez minutos.
-4. **Mide**: horas reales de estudio, test hechos y sesiones completadas.
-
-En la práctica, Javier hace menos sobre el papel, pero mucho más en la realidad, porque lo sostiene.
-
-## Señales de que te estás pasando
-
-- **Cansancio que no se va** después de dormir y descansar.
-- **Rendimiento que baja**: marcas que empeoran o te cuesta retener lo que estudias.
-- **Dolores persistentes** que no mejoran con descanso. Si aparecen, para y consulta a un profesional.
-- **Irritabilidad, desmotivación o mal sueño** sostenidos.
-
-Si notas varias a la vez, reduce la carga una semana. Frenar a tiempo cuesta menos que parar un mes.
+Tampoco hay estatura mínima para ingresar desde el Real Decreto 853/2022, que la suprimió para el ingreso en el cuerpo. El propio reglamento prevé, eso sí, que puedan exigirse estaturas mínimas para algunas unidades o cursos de especialización. Es un esquema parecido al de la Guardia Civil: sin altura para entrar, posibles requisitos para algunos destinos.
 
 ## Errores frecuentes
 
-- **Planificar la semana ideal en lugar de la real.** Si tu trabajo cambia cada semana, tu plan también.
-- **Compensar un mal día con una paliza al siguiente.** Rompe el descanso y aumenta el riesgo de lesión.
-- **Entrenar solo la prueba que te gusta.** Las cuatro son eliminatorias.
-- **Recortar sueño para ganar horas.** Las horas ganadas rinden poco.
-- **No medir.** Sin datos, no sabes si el plan funciona.
+- **Descartar la oposición por la altura.** Con la normativa vigente, no es un motivo.
+- **Confundir la Guardia Civil con las Fuerzas Armadas.** El cuadro médico de los centros docentes militares es otra norma con otros criterios; no lo extrapoles.
+- **Olvidar el IMC.** Que no haya altura mínima no significa que tu talla no cuente: con poca estatura, unos pocos kilos te mueven mucho el índice.
+- **Dar por buenas listas de alturas por especialidad sin fuente oficial.** Si un requisito existe, estará en la norma o en la convocatoria del curso correspondiente.
 
-## Checklist semanal
+## Checklist
 
-- [ ] He planificado la semana con horas concretas.
-- [ ] Hay al menos un día de descanso real.
-- [ ] Las cuatro pruebas físicas aparecen en el plan (o en el de la semana siguiente).
-- [ ] No hay dos sesiones intensas de piernas en días seguidos.
-- [ ] El simulacro no coincide con el entrenamiento más duro.
-- [ ] He anotado horas de estudio, test y sesiones completadas.
+- [ ] He comprobado que la información que manejo es posterior a octubre de 2023.
+- [ ] He calculado mi IMC y está entre 17 y 30.
+- [ ] Conozco las marcas físicas de mi sexo y tramo de edad.
+- [ ] He revisado el resto de [requisitos para ser Guardia Civil](/blog/requisitos-guardia-civil) y la [edad máxima](/blog/edad-maxima-guardia-civil).
 
-Si quieres un plan de estudio ya estructurado, con test y seguimiento, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+Si quieres prepararte con un plan que combine estudio y entrenamiento, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
 
 ## Preguntas frecuentes
 
-### ¿Se puede estudiar y entrenar a la vez para la Guardia Civil?
+### ¿Cuál es la altura mínima para ser Guardia Civil?
 
-Sí, y es lo que exige el proceso. La clave es repartir bien el tiempo y mantener la regularidad, no hacer jornadas heroicas.
+Ninguna. Desde la Orden PCM/1133/2023, el cuadro médico establece la talla «sin límite» para ingresar en la Escala de Cabos y Guardias.
 
-### ¿Cuántos días a la semana hay que entrenar?
+### ¿Hay altura máxima en la Guardia Civil?
 
-Depende de tu nivel, pero tres o cuatro sesiones semanales, con al menos un día de descanso completo, suelen bastar para cubrir las cuatro pruebas de forma progresiva.
+Tampoco. El antiguo límite de 203 cm desapareció con la misma orden.
 
-### ¿Es mejor entrenar antes o después de estudiar?
+### ¿Cuánto había que medir antes?
 
-Lo que te resulte más sostenible. Deja el estudio más exigente para tu mejor momento mental y evita entrenar duro justo antes de un simulacro.
+160 cm los hombres y 155 cm las mujeres, según la redacción original de la Orden PCI/155/2019.
 
-### ¿Puedo dejar las pruebas físicas para después del examen?
+### ¿Se mide la altura en el reconocimiento médico?
 
-No es buena idea. Las físicas llegan tras el examen, pero la convocatoria no garantiza un margen de tiempo amplio, y algunas, como la natación si partes de cero, requieren meses.
+Sí, para calcular el índice de masa corporal, que debe estar entre 17 y 30.
 
-### ¿Cuántas horas hay que estudiar al día?
+### ¿Puede exigirse altura para alguna especialidad?
 
-No hay una cifra oficial. Empieza por un bloque diario que puedas mantener y súbelo de forma progresiva según el tiempo que quede hasta el examen.
+La orden de 2023 deja a salvo los requisitos que puedan exigirse para determinados destinos o para la enseñanza de especialización. Consulta la normativa o la convocatoria del curso concreto.
 
-### ¿Hay una dieta para opositar?
+### ¿Son más fáciles las físicas si mido poco?
 
-No hay una oficial. Lo básico: comidas regulares, buena hidratación y cuidar el peso. Para un plan personalizado, consulta a un profesional.',
-   '/blog/entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil.jpg', 'Opositor atándose las zapatillas junto a su mesa de estudio con apuntes subrayados', 'publicado', '2026-11-22T06:12:00.000Z', 'acceso-guardia-civil',
-   ARRAY['organización', 'entrenamiento', 'descanso', 'planificación']::text[], '{"title":"Estudiar y entrenar a la vez: plan semanal para opositar","description":"Cómo compaginar estudio y entrenamiento en la oposición a Guardia Civil: reparto de la semana, tres horarios tipo, sueño, alimentación básica y errores."}'::jsonb, '{}'::jsonb)
+No hay ajuste por estatura: las marcas son las mismas para todos los aspirantes del mismo sexo y tramo de edad. Algunas pruebas pueden favorecerte y otras costarte más; lo decisivo es entrenarlas con tiempo.',
+   '/blog/altura-minima-guardia-civil.jpg', 'Aspirante atándose las zapatillas en una pista de atletismo al amanecer', 'publicado', '2026-11-21T06:55:00.000Z', 'acceso-guardia-civil',
+   ARRAY['altura', 'estatura', 'cuadro médico', 'requisitos']::text[], '{"title":"Altura mínima Guardia Civil: ya no se exige (2026)","description":"¿Hay altura mínima para la Guardia Civil? No desde la Orden PCM/1133/2023. Qué se exigía antes (160 y 155 cm), por qué se eliminó y qué se sigue midiendo."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -182,156 +154,305 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('extensiones-de-brazos-guardia-civil', 'articulo', 'Extensiones de brazos en la Guardia Civil: de cero a la marca', 'Dieciséis para ellos y once para ellas, sin parar y tocando el suelo con la barbilla. Las marcas oficiales, las reglas que hacen válida una repetición, cómo se descansa y una progresión para llegar a la marca partiendo de cero.', 'Las extensiones de brazos parecen la prueba más simple: una flexión de las de siempre. Pero la forma en que se miden es más exigente que la del gimnasio, y **muchas repeticiones que tú das por buenas no se cuentan**.
+  ('certificado-medico-pruebas-fisicas-guardia-civil', 'articulo', 'Certificado médico para las pruebas físicas: qué debe decir y cuándo pedirlo', 'Sin el certificado médico no haces las pruebas físicas: no presentarlo en los términos exigidos te excluye. La frase que debe constar, la ventana de 20 días, la ficha médica alternativa y los errores que dejan fuera a aspirantes.', 'Hay aspirantes que llegan a las pruebas físicas perfectamente entrenados y se quedan fuera en la puerta, **por un papel**. La respuesta corta: antes de empezar las pruebas tienes que entregar al Tribunal un **certificado médico oficial expedido dentro de los 20 días anteriores**, con una frase concreta que menciona los cuatro ejercicios, y en el que conste tu identidad. Si no lo presentas en esos términos, **quedas excluido del proceso**. Es un trámite sencillo, pero con condiciones muy concretas.
 
-La respuesta corta: **en 2026, los hombres menores de 40 años debían hacer al menos 16 y las mujeres menores de 40, al menos 11**, tocando el suelo con la barbilla en cada repetición y con el cuerpo alineado. Hay dos intentos.
+## Qué dice exactamente la convocatoria
 
-## Las marcas oficiales
+La base 6.1.3.a de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) establece que los admitidos, antes del inicio de las pruebas físicas, entregarán al Tribunal de Selección un **Certificado Médico Oficial expedido dentro de los veinte (20) días anteriores** en el que se haga constar expresamente:
 
-La convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), apéndice II, prueba de potencia del tren superior, P3) exige un número de repeticiones **no inferior** a:
+> «que el aspirante se encuentra capacitado físicamente para la realización de las pruebas físicas consistentes en los ejercicios de: resistencia (carrera de 2000 metros); coordinación (circuito de agilidad y coordinación); potencia del tren superior (extensiones de brazos) y soltura acuática (50 metros) sin que ello suponga un riesgo para su salud».
 
-| | Menor de 35 años | De 35 a 39 años | 40 años o más |
-|---|---|---|---|
-| Hombres | 16 | 16 | 14 |
-| Mujeres | 11 | 11 | 9 |
+Los modelos se publican como **apéndices III y IV** de la convocatoria. Y la misma base cierra con una frase que conviene no olvidar: «La no presentación de cualquiera de los documentos citados en los términos expuestos supondrá la exclusión del aspirante del proceso selectivo».
 
-Fíjate en que, a diferencia de las otras tres pruebas, aquí la marca **no cambia entre el primer y el segundo tramo de edad**: solo baja a partir de los 40.
+De ahí salen los cuatro elementos que tu certificado tiene que reunir:
 
-Es apto o no apto: más repeticiones no puntúan, pero menos de la marca te dejan fuera.
-
-## Cuándo cuenta una repetición
-
-La convocatoria describe el ejercicio con detalle:
-
-- **Posición inicial:** tierra inclinada, con las palmas de las manos en el suelo, los brazos perpendiculares al suelo y separados a la anchura de los hombros.
-- **Ejecución:** flexiones-extensiones **sin detención**.
-- **Repetición válida:** cuando **tocas con la barbilla en el suelo y vuelves a la posición de partida**, manteniendo en todo momento cabeza, hombros, espalda y piernas en prolongación.
-
-No es válida una repetición:
-
-- que **no sea simultánea** (un brazo antes que el otro), o
-- en la que se apoye en el suelo **una parte distinta** de la barbilla, las puntas de los pies y las manos.
-
-La zona de contacto de la barbilla con el suelo **puede almohadillarse** con un grosor máximo de seis centímetros.
-
-### Válida o no: ejemplos
-
-| Lo que haces | ¿Cuenta? | Por qué |
-|---|---|---|
-| Barbilla al suelo, cuerpo recto, subes hasta extender los brazos | Sí | Cumple todas las condiciones |
-| Tocas con el pecho antes que con la barbilla | No | Apoyas una parte distinta de la barbilla |
-| Dejas caer la cadera y tocas el suelo con los muslos | No | Apoyas otra parte y rompes la prolongación del cuerpo |
-| Subes primero con un brazo y luego con el otro | No | No es simultánea |
-| Bajas hasta que la barbilla queda a dos dedos del suelo | No | La barbilla no toca el suelo |
-| No terminas de extender los brazos al subir | No | No vuelves a la posición de partida |
-| Subes con la cadera muy elevada | No | Cuerpo fuera de prolongación |
-
-Por eso es tan habitual que alguien que hace 25 flexiones en casa se quede corto en la prueba: la técnica oficial es más larga y más estricta.
-
-## ¿Se puede descansar?
-
-Sí, con condiciones. Durante el ejercicio se permite un descanso en cualquier momento, **siempre que se haga en posición de tierra inclinada hacia delante**, sin realizar movimientos ni separar del suelo las partes del cuerpo que están en contacto con él.
-
-Eso significa que no puedes apoyar las rodillas ni sentarte a descansar. El descanso es en la posición de partida, sosteniendo tu peso. Sirve para recuperar unos segundos y respirar, pero cuesta energía: no abuses de él.
-
-Tienes **dos intentos**, espaciados para permitir tu recuperación.
-
-## Cómo medirte hoy
-
-Antes de empezar, haz un test con la técnica oficial: barbilla al suelo, cuerpo recto y subida completa. Mejor si alguien te observa o te grabas de lado. Anota cuántas repeticiones **válidas** haces sin parar.
-
-| Resultado | Punto de partida |
+| Elemento | Qué exige la convocatoria |
 |---|---|
-| 0 válidas | Fase 1 |
-| 1 a 5 | Fase 2 |
-| 6 a la marca menos 3 | Fase 3 |
-| A 1-3 de la marca | Fase 4 |
+| Tipo de documento | Certificado Médico Oficial (modelos de los apéndices III y IV) o ficha médica válida |
+| Fecha | Expedido dentro de los 20 días anteriores a las pruebas |
+| Contenido | La frase literal que menciona los cuatro ejercicios y «sin que ello suponga un riesgo para su salud» |
+| Identidad | Debe constar la identidad del aspirante |
 
-## De cero a la marca: una progresión
+## La frase, palabra por palabra
 
-Es un esquema general y orientativo. Entrena tres días por semana, con al menos un día de descanso entre sesiones.
+El error más frecuente no es la fecha, sino el contenido. Un certificado que diga «apto para la práctica deportiva» o «no presenta contraindicaciones para el ejercicio físico» **no es lo que pide la convocatoria**. La exigencia es que se haga constar «expresamente» la capacidad para esos cuatro ejercicios concretos.
 
-**Fase 1: construir la base.** Flexiones inclinadas con las manos apoyadas en un banco o una pared, que son más fáciles. Haz 4 series de las repeticiones que puedas con buena técnica. Cuando llegues a 15 repeticiones con facilidad, baja la altura de apoyo.
+La forma más segura de acertar:
 
-**Fase 2: el movimiento completo.** Flexiones en el suelo con las rodillas apoyadas, y negativas: bajar muy despacio, en tres o cuatro segundos, hasta tocar con la barbilla, y subir con ayuda de las rodillas. Cuando hagas 3 series de 8 negativas controladas, pasa a la siguiente fase.
+1. Descarga la convocatoria del BOE y localiza los apéndices III y IV.
+2. Imprime el modelo o copia literalmente la frase entrecomillada de la base 6.1.3.a.
+3. Pide al médico que la incluya **tal cual**, sin resumirla.
 
-**Fase 3: flexiones completas.** Series de las que puedas con técnica perfecta, aunque sean pocas, y aumenta poco a poco. Para cuando la forma empiece a romperse.
+No hace falta que inventes nada: el texto ya está escrito. Tu trabajo es que llegue íntegro al certificado.
 
-**Fase 4: la marca.** Haz series de simulación: la serie completa de la marca, sin parar y con barbilla al suelo. Cuando la consigas una vez, practica hacerla dos o tres veces por sesión con descansos largos.
+## Quién lo firma y en qué impreso
 
-### Una semana tipo en la fase 3 (orientativa)
+La convocatoria habla de «Certificado Médico Oficial» y no concreta más sobre el médico que debe expedirlo. En la práctica, conviene tener en cuenta dos cosas:
 
-| Día | Trabajo |
-|---|---|
-| Día 1 | 5 series de un 60-70 % de tu máximo válido, 2 min de descanso; 3 × 30 s de plancha |
-| Día 2 | Escalera: 1, 2, 3, 4, 5 repeticiones con 30 s entre escalones, dos veces; 3 series de negativas lentas |
-| Día 3 | Test de repeticiones máximas válidas; después, 3 series de 5 con técnica perfecta |
+- **El soporte.** En España, la expresión «certificado médico oficial» se asocia al impreso oficial que editan los colegios de médicos. Pregunta a tu médico en qué impreso lo extenderá y, si te surge la duda de si un formato concreto es válido, consúltalo con antelación a través de los medios de contacto que indique el Tribunal.
+- **El médico.** No todos los centros de salud expiden certificados para oposiciones. Infórmate con tiempo en tu centro; si no lo hacen, tendrás que acudir a una consulta privada o a un centro de reconocimientos, lo que puede tener coste.
 
-Trabajar series submáximas repetidas suele funcionar mejor que ir al fallo en cada sesión.
+Sea quien sea, el certificado debe llevar tu identificación, la fecha, la firma y los datos del médico que lo expide.
 
-## Caso práctico (hipotético)
+## La alternativa: la ficha médica
 
-Irene, 31 años, hace 3 repeticiones válidas en su primer test. Su marca es 11.
+La convocatoria admite, en lugar del certificado, la **ficha médica válida** que establece la Instrucción Técnica 01/2015, de 19 de febrero de 2015, de la Inspección General de Sanidad de la Defensa, sobre «Reconocimientos médicos para la realización de pruebas físicas». Al tratarse de un documento del ámbito de la Sanidad Militar, suele interesar sobre todo a quienes optan desde las Fuerzas Armadas.
 
-- **Semanas 1-3 (fase 2):** negativas y flexiones con rodillas. Test: 5 válidas.
-- **Semanas 4-8 (fase 3):** series submáximas y escaleras. Test: 9 válidas.
-- **Semanas 9-12 (fase 4):** simulaciones de la marca completa con barbilla al suelo. Test: 13 válidas.
+Para la ficha, la convocatoria añade dos reglas específicas:
 
-Llega con dos repeticiones de margen sobre la marca. Lo que más le costó no fue la fuerza, sino mantener la cadera alineada en las últimas repeticiones: lo resolvió con trabajo de plancha.
+- **No puede constar una fecha anterior a la publicación** de la convocatoria en el BOE.
+- Si su fecha es **más de 20 días anterior** a las pruebas, debe ir acompañada de una **declaración del interesado** donde se especifique que no ha padecido ningún proceso patológico desde el reconocimiento hasta el momento de hacer las pruebas.
 
-## Errores frecuentes
+Ojo: esa declaración complementaria está prevista para la **ficha médica**. Para el certificado médico la regla es directa: expedido dentro de los 20 días anteriores.
 
-- **Entrenar con una técnica distinta a la oficial.** Practica siempre con barbilla al suelo, aunque salgan menos repeticiones.
-- **Hacer las series demasiado rápido.** Se hacen mejores marcas con un ritmo regular y controlado.
-- **No entrenar el core.** La espalda recta depende del abdomen y los glúteos. Añade planchas.
-- **Abrir demasiado las manos.** La convocatoria pide los brazos a la anchura de los hombros.
-- **Llegar fatigado.** La convocatoria permite al Tribunal fijar el orden de las pruebas, así que puedes hacer las extensiones después de otras. Entrénalas también con el cuerpo cansado.
-- **Olvidar el certificado médico.** Debe estar expedido en los 20 días anteriores a las pruebas físicas y entregarse antes de empezar.
+## El plazo de 20 días: cómo calcularlo sin sustos
 
-Si tienes dolor en muñecas, hombros o codos, para y consúltalo con un profesional antes de seguir.
+La convocatoria dice «dentro de los veinte (20) días anteriores», pero no especifica si son naturales o hábiles. La interpretación prudente es contar **días naturales**, porque es la ventana más corta: si aciertas con ella, cumples con cualquier lectura.
 
-## Cómo encaja con las demás pruebas
+**Ejemplo resuelto (caso hipotético).** Te citan a las pruebas físicas el día 24 de un mes. Contando 20 días naturales hacia atrás, tu ventana empieza alrededor del día 4. Un certificado del día 3 o anterior te pondría en riesgo. Lo razonable es pedir cita para **una o dos semanas antes** de las pruebas: lejos del límite inicial y con margen por si el médico te da cita más tarde o hay que repetir el documento.
 
-Las extensiones requieren poco material y poco tiempo: puedes entrenarlas al final de una sesión de [carrera de 2.000 metros](/blog/carrera-2000-metros-guardia-civil) o después del trabajo de [circuito de agilidad](/blog/circuito-agilidad-coordinacion-guardia-civil). Tienes las cuatro pruebas juntas en [las pruebas físicas de la Guardia Civil](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento).
+Un criterio práctico, paso a paso:
 
-## Checklist
+1. **Vigila la citación.** El Tribunal anuncia el lugar, la fecha y la hora de las pruebas en la [web de ingreso de la Guardia Civil](https://web.guardiacivil.es/es/tramites/ingresos/ingresocuerpo/) (base 4.11).
+2. **Calcula hacia atrás** y marca en el calendario el primer día válido.
+3. **Pide cita** para una fecha dentro de la ventana, con margen por los dos lados.
+4. **Lleva la frase o el modelo impreso** a la consulta.
+5. **Revísalo antes de salir**: nombre y DNI, fecha, frase completa, firma y datos del médico.
+6. **Haz una foto o fotocopia** por si se extravía, y guarda el original en la carpeta de la prueba.
 
-- [ ] Conozco mi marca según sexo y tramo de edad.
-- [ ] Mi técnica cumple todas las condiciones de la convocatoria.
-- [ ] Me he grabado de lado para comprobar la alineación.
-- [ ] Hago la marca de forma estable con dos o tres repeticiones de margen.
-- [ ] La he practicado también con cansancio previo.
-- [ ] Sé cómo se descansa sin invalidar el intento.
+Pedirlo demasiado pronto es tan arriesgado como demasiado tarde: con mucha antelación caduca; el último día, puede que no haya cita.
 
-Si quieres un plan que reparta el entrenamiento y el estudio a lo largo de la semana, lo tienes en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+## Errores que causan la exclusión
+
+- **Certificado fuera de plazo**: expedido más de 20 días antes de las pruebas.
+- **Certificado genérico**, sin la mención expresa a los cuatro ejercicios.
+- **Frase incompleta**: falta un ejercicio (lo más habitual, la natación) o la coletilla «sin que ello suponga un riesgo para su salud».
+- **Falta la identidad** del aspirante, o es ilegible.
+- **Ficha médica con fecha anterior** a la publicación de la convocatoria, o con más de 20 días y sin la declaración complementaria.
+- **No llevarlo el día de la prueba.** Debe entregarse antes del inicio; prepáralo en la mochila la noche anterior junto al DNI.
+
+## ¿Y si me lesiono o me pongo enfermo antes de las pruebas?
+
+Tu salud va por delante de la oposición. Si tu estado cambia después de obtener el certificado, **no hagas las pruebas sin que un médico te lo autorice**: el certificado acredita que no supone un riesgo para tu salud, y eso deja de ser cierto si has tenido una lesión o una enfermedad.
+
+Lo que conviene saber de las bases:
+
+- **No hay una fecha alternativa general por lesión.** La base 6.2 establece un único llamamiento: no presentarse supone la exclusión «sea cual fuere la causa». La excepción son las medidas del capítulo V del Reglamento de ordenación de la enseñanza en la Guardia Civil ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764)), que protegen la maternidad: embarazo, parto o posparto, y lactancia en los términos del reglamento. Para esos casos, la base 6.3 prevé acreditarlo con informe médico oficial y una fecha alternativa fijada por el Tribunal.
+- **Cambio de día o tanda.** Si las pruebas se reparten en más de un día, el Tribunal **puede** autorizar el cambio a quien lo solicite por causas justificadas, antes del inicio de las pruebas (base 6.2). Es una posibilidad, no un derecho: si te ocurre, solicítalo cuanto antes por los medios que indique la convocatoria.
+
+## Checklist del certificado
+
+- [ ] Tengo la frase literal de la base 6.1.3.a o el modelo de los apéndices III y IV.
+- [ ] Sé qué médico me lo expide y si tiene coste.
+- [ ] He calculado la ventana de 20 días contando días naturales.
+- [ ] Tengo cita dentro de esa ventana, con margen.
+- [ ] El documento incluye mi identidad, la fecha, la frase completa, la firma y los datos del médico.
+- [ ] Tengo una copia y el original está en la mochila de la prueba, con el DNI.
+- [ ] Si uso la ficha médica: fecha posterior a la publicación de la convocatoria y, si tiene más de 20 días, declaración complementaria.
+
+## Dónde encaja en el proceso
+
+Las pruebas físicas forman parte de la prueba de aptitud psicofísica, a la que se convoca a 1,5 aspirantes por plaza según la puntuación de concurso y oposición. Es decir, cuando te pidan el certificado ya habrás superado el examen y el psicotécnico. Para no llegar a ese punto con prisas, repasa con tiempo qué te exige cada ejercicio en [las cuatro pruebas físicas de la Guardia Civil](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento) y, en concreto, la que más preparación exige si partes de cero: [la natación de 50 metros](/blog/natacion-50-metros-guardia-civil).
+
+No confundas este certificado con el **reconocimiento médico** posterior, que hacen los facultativos designados por el Tribunal con el cuadro de exclusiones de la Orden PCI/155/2019. Lo tienes explicado en [el cuadro médico de exclusiones](/blog/cuadro-medico-exclusiones-guardia-civil) y en [la entrevista y el reconocimiento médico](/blog/entrevista-reconocimiento-medico-guardia-civil). Si quieres preparar todo el proceso con un plan, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
 
 ## Preguntas frecuentes
 
-### ¿Cuántas extensiones de brazos hay que hacer en la Guardia Civil?
+### ¿Es obligatorio el certificado médico para las pruebas físicas de la Guardia Civil?
 
-En 2026, 16 los hombres menores de 40 años y 11 las mujeres de esa edad, con descenso a 14 y 9 a partir de los 40.
+Sí. Debe entregarse al Tribunal antes de empezar las pruebas, y no presentarlo en los términos exigidos supone la exclusión del proceso.
 
-### ¿Hay que tocar con el pecho o con la barbilla?
+### ¿Con cuántos días de antelación debo pedirlo?
 
-Con la barbilla. Es la que debe tocar el suelo en cada repetición, y no puede apoyarse ninguna otra parte salvo las manos y las puntas de los pies.
+Debe estar expedido dentro de los 20 días anteriores a las pruebas. Lo prudente es contar días naturales y pedir cita una o dos semanas antes.
 
-### ¿Se puede parar a descansar?
+### ¿Vale un certificado de «apto para el deporte»?
 
-Sí, pero solo en posición de tierra inclinada hacia delante, sin moverte ni separar del suelo las partes del cuerpo que están en contacto con él.
+No, si no menciona expresamente los cuatro ejercicios (carrera de 2.000 metros, circuito de agilidad, extensiones de brazos y natación de 50 metros) y que no suponen un riesgo para tu salud.
 
-### ¿Cuántos intentos hay?
+### ¿Qué pasa si mi ficha médica tiene más de 20 días?
 
-Dos, espaciados para que te recuperes.
+Si usas la ficha médica de la Instrucción Técnica 01/2015, debe acompañarse de una declaración tuya de que no has padecido ningún proceso patológico desde el reconocimiento. Y nunca puede tener fecha anterior a la publicación de la convocatoria.
 
-### ¿Puedo poner algo bajo la barbilla?
+### ¿Dónde está el modelo?
 
-Sí. La convocatoria permite almohadillar la zona de contacto de la barbilla con un grosor máximo de seis centímetros.
+En los apéndices III y IV de la convocatoria publicada en el BOE.
 
-### ¿Valen las flexiones con las rodillas apoyadas?
+### ¿Es lo mismo que el reconocimiento médico?
 
-No. Solo pueden tocar el suelo la barbilla, las puntas de los pies y las manos. Las flexiones con rodillas son útiles para entrenar, pero no cuentan en la prueba.',
-   '/blog/extensiones-de-brazos-guardia-civil.jpg', 'Aspirante haciendo una extensión de brazos ante un evaluador', 'publicado', '2026-11-19T06:21:00.000Z', 'acceso-guardia-civil',
-   ARRAY['pruebas físicas', 'extensiones de brazos', 'flexiones', 'entrenamiento']::text[], '{"title":"Extensiones de brazos Guardia Civil: marcas y plan","description":"Marcas de las extensiones de brazos de la Guardia Civil por sexo y edad, reglas para que cuente cada repetición y progresión de entrenamiento desde cero."}'::jsonb, '{}'::jsonb)
+No. El certificado lo aporta el aspirante antes de las pruebas físicas; el reconocimiento médico lo hacen después los facultativos del Tribunal conforme al cuadro de exclusiones.
+
+### ¿Puedo cambiar el día de las pruebas si estoy lesionado?
+
+No hay una fecha alternativa general por lesión. Si las pruebas duran más de un día, el Tribunal puede autorizar un cambio de día o tanda por causa justificada, solicitado antes del inicio. Las medidas del capítulo V del reglamento de enseñanza se refieren a la protección de la maternidad.',
+   '/blog/certificado-medico-pruebas-fisicas-guardia-civil.jpg', 'Médica firmando y sellando un certificado mientras un aspirante espera en la consulta', 'publicado', '2026-11-19T06:21:00.000Z', 'acceso-guardia-civil',
+   ARRAY['pruebas físicas', 'certificado médico', 'requisitos', 'documentación']::text[], '{"title":"Certificado médico pruebas físicas Guardia Civil: guía","description":"Certificado médico para las pruebas físicas de la Guardia Civil: frase exigida, plazo de 20 días, ficha médica alternativa y errores que excluyen."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('gafas-miopia-operacion-vista-guardia-civil', 'articulo', '¿Puedo ser Guardia Civil con gafas, miopía o si me he operado la vista?', 'Sí puedes llevar gafas o lentillas: lo que cuenta es la agudeza visual y las dioptrías. Los límites exactos del cuadro médico, ejemplos de graduaciones, qué pasa si te has operado con láser y la exclusión que casi nadie revisa.', 'Llevar gafas es probablemente la duda médica más común entre opositores. La buena noticia: **las gafas y las lentillas no te excluyen de la Guardia Civil.** Lo que se mide es cuánto ves y cuántas dioptrías tienes, y ahí hay dos límites que debes conocer al detalle.
+
+Todo lo que sigue sale del apartado J (aparato de la visión) del cuadro médico de exclusiones, en el [texto consolidado de la Orden PCI/155/2019](https://www.boe.es/buscar/act.php?id=BOE-A-2019-2291), que es el que aplica la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)).
+
+## La respuesta corta en una tabla
+
+| Situación | ¿Excluye? |
+|---|---|
+| Llevar gafas o lentillas | No, si cumples agudeza y graduación |
+| Agudeza visual de 0,7 o menos en algún ojo, incluso con corrección | Sí |
+| Miopía de más de −3 dioptrías | Sí |
+| Hipermetropía de más de +3 | Sí |
+| Astigmatismo de más de ±2 | Sí |
+| Daltonismo | Sí |
+| Cirugía refractiva con láser en la córnea | No figura como causa; se valora el resultado |
+| Cirugía dentro del ojo o lente intraocular | Figura en el cuadro (lo vemos en un artículo propio) |
+
+## Los dos números que importan
+
+### 1. Agudeza visual: más de 0,7 en cada ojo
+
+El cuadro exige una **agudeza visual superior a 0,7 en ambos ojos, con o sin corrección** (apartado J.18). «Con o sin corrección» es la clave: si con tus gafas o lentillas ves más de 0,7 en cada ojo, cumples este apartado.
+
+Fíjate en dos detalles:
+
+- Dice **superior a 0,7**: un 0,7 justo no cumple la letra de la norma.
+- Dice **en ambos ojos**: un ojo muy bueno no compensa uno que no llegue. Si tienes un ojo vago (ambliopía) que no alcanza esa cifra ni con corrección, quedarías fuera aunque el otro vea perfectamente.
+
+La agudeza visual se expresa en escala decimal: 1,0 es la visión de referencia y 0,5, la mitad. Es la cifra que te da el optometrista u oftalmólogo cuando lees las letras de la pantalla, ojo por ojo.
+
+### 2. Refracción: el límite de dioptrías
+
+Además de ver bien con corrección, tu graduación no puede superar estos máximos (apartado J.19):
+
+| Defecto | Máximo permitido |
+|---|---|
+| Miopía | −3 dioptrías |
+| Hipermetropía | +3 dioptrías |
+| Astigmatismo | ±2 dioptrías, con independencia del componente esférico |
+
+Aquí está la trampa: **aunque con gafas veas perfectamente, si tienes −4 de miopía, superas el máximo.** Las dos condiciones se exigen a la vez.
+
+«Con independencia del componente esférico» significa que el límite del astigmatismo se mira por separado de la miopía o la hipermetropía: puedes tener −2,50 de miopía y 1,50 de astigmatismo, y cada valor está dentro de su máximo.
+
+## Ejemplos de graduaciones (hipotéticos)
+
+Cómo leer tu receta: la esfera (ESF) indica miopía (negativo) o hipermetropía (positivo), y el cilindro (CIL), el astigmatismo.
+
+| Graduación (en cada ojo) | Agudeza con gafas | Resultado según el cuadro |
+|---|---|---|
+| ESF −2,50 / CIL −0,75 | 1,0 | Dentro de los límites |
+| ESF −3,00 / CIL 0 | 1,0 | En el límite exacto: no supera −3 |
+| ESF −3,25 / CIL 0 | 1,0 | Supera el máximo de miopía |
+| ESF +1,50 / CIL −2,25 | 0,9 | Supera el máximo de astigmatismo |
+| ESF −1,00 / CIL −0,50, con un ojo que solo llega a 0,6 | 0,6 en ese ojo | No cumple la agudeza |
+
+Si tus valores están en el filo, la medición del día del reconocimiento es la que cuenta, y puede no coincidir exactamente con la de tu óptica. Por eso conviene saber tu graduación con precisión y con tiempo.
+
+## ¿Y si me he operado con láser?
+
+El cuadro de la Guardia Civil **no incluye la cirugía refractiva con láser en la córnea** (LASIK, PRK y técnicas similares) entre las causas de exclusión. Lo que sí incluye es:
+
+- «Cualquier tipo de cirugía intraocular», es decir, la que se hace dentro del ojo (J.2).
+- Problemas de córnea como el queratocono, las ectasias corneales, las degeneraciones y distrofias, los leucomas que alteren la agudeza visual, el trasplante de córnea o los anillos intraestromales (J.9).
+
+Por tanto, después de una operación con láser lo que se valora es **el resultado**: tu agudeza visual, tu graduación residual y el estado de la córnea. Si tras la operación ves más de 0,7 en cada ojo, estás dentro de los límites de dioptrías y la córnea no presenta alteraciones de las que excluye el cuadro, la operación por sí sola no debería dejarte fuera.
+
+Dos consejos prácticos:
+
+1. **No te operes a última hora.** Deja que la graduación se estabilice y haz las revisiones que te pida tu oftalmólogo antes del reconocimiento.
+2. **Lleva el informe de la operación** y la última revisión. El cuadro exige que cada exclusión se motive de forma individual, y la documentación te ayuda a explicar tu caso.
+
+Las lentes que se implantan dentro del ojo son un caso aparte, con una sentencia del Tribunal Supremo de por medio: lo explicaremos en un artículo propio.
+
+## La causa de exclusión que casi nadie revisa: los colores
+
+El cuadro exige **visión cromática normal** (J.16). El daltonismo excluye, y muchas personas que lo tienen en grado leve no lo saben, porque en la vida diaria apenas les afecta. Un test de colores tarda unos minutos en cualquier óptica u oftalmólogo: hazlo antes de invertir un año en la oposición.
+
+## Otras causas oculares del cuadro
+
+Además de la agudeza, las dioptrías y los colores, el apartado J excluye, entre otras:
+
+- escotomas o reducciones del **campo visual** de más de 15 grados,
+- **glaucoma** o alteraciones de la tensión ocular,
+- **desprendimiento de retina**, agujeros o desgarros retinianos,
+- **cataratas** y opacidades del cristalino,
+- **forias** por encima de ciertos valores (endoforia de más de 8 dioptrías prismáticas, exoforia de más de 10, hiperforia de más de 1),
+- alteraciones de la motilidad ocular, como heterotropias (estrabismos) de más de 3 dioptrías prismáticas, nistagmo o visión doble,
+- conjuntivitis crónica o pterigión de marcado desarrollo.
+
+Tienes el resto de apartados (oído, tensión, IMC, espalda…) en [cuadro médico de exclusiones de la Guardia Civil](/blog/cuadro-medico-exclusiones-guardia-civil).
+
+## Casos prácticos (hipotéticos)
+
+**Caso 1. Pablo, −2,75 de miopía a los 22 años y subiendo un cuarto cada año.** Hoy cumple, pero si la tendencia sigue, puede superar −3 antes de llegar al reconocimiento. Le conviene hablar con su oftalmólogo sobre la evolución y no dar por hecho que mantendrá la cifra.
+
+**Caso 2. Laura, operada con láser hace dos años, sin graduación residual.** Ve 1,0 en cada ojo y la córnea está sana. La cirugía refractiva corneal no figura como causa de exclusión: debería llevar el informe de la operación y una revisión reciente.
+
+**Caso 3. Sergio, buena agudeza con gafas pero con dudas en los colores.** Se hace el test y le detectan una alteración en la percepción del rojo y el verde. Con el cuadro vigente, el daltonismo excluye: mejor saberlo ahora que después de aprobar el examen.
+
+## ¿Y en la Policía Nacional?
+
+Es muy distinto, y conviene no mezclarlo. El cuadro médico de la Policía Nacional (Real Decreto 326/2021), según figura en su convocatoria de 2026, exige una **agudeza visual de 0,6 en cada ojo sin corrección**, y no incluye límites de dioptrías. Con mucha miopía corregida con gafas, ese requisito es más difícil de cumplir; con poca graduación, puede ser al revés. Compararemos ambas oposiciones más adelante.
+
+## Qué hacer ahora
+
+1. **Pide una revisión completa** con estas preguntas: agudeza visual con corrección en cada ojo, graduación exacta (esfera y cilindro) y test de colores.
+2. **Si estás en el límite** (por ejemplo, −2,75 y subiendo), coméntalo con tu oftalmólogo con tiempo.
+3. **Si piensas operarte**, explícale que vas a pasar el reconocimiento de la Guardia Civil y enséñale el apartado J del cuadro.
+4. **Guarda los informes.** Te servirán en el reconocimiento.
+
+## Errores frecuentes
+
+- **Pensar que «con gafas veo bien» basta.** La graduación tiene su propio límite.
+- **Fijarte solo en el ojo bueno.** Se exige más de 0,7 en cada ojo.
+- **No hacerte nunca un test de colores.**
+- **Aplicar el cuadro de la Policía Nacional o de las Fuerzas Armadas.** Las cifras son otras.
+- **Operarte con el reconocimiento encima**, sin tiempo para que la vista se estabilice.
+
+## Checklist de la vista
+
+- [ ] Agudeza con corrección superior a 0,7 en cada ojo.
+- [ ] Miopía no superior a −3, hipermetropía no superior a +3 y astigmatismo no superior a ±2.
+- [ ] Test de colores normal.
+- [ ] Informes de cualquier cirugía o patología ocular.
+- [ ] Resto de [requisitos para ser Guardia Civil](/blog/requisitos-guardia-civil) revisados, incluidos la [edad máxima](/blog/edad-maxima-guardia-civil) y el [IMC, que sustituye a la antigua altura mínima](/blog/altura-minima-guardia-civil).
+- [ ] Sé cómo es el día del reconocimiento: lo contamos en [entrevista y reconocimiento médico](/blog/entrevista-reconocimiento-medico-guardia-civil).
+
+Si quieres preparar la oposición con un plan completo, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Se puede ser Guardia Civil con gafas?
+
+Sí. El cuadro exige una agudeza visual superior a 0,7 en ambos ojos, con o sin corrección, siempre que la graduación no supere los máximos permitidos.
+
+### ¿Cuántas dioptrías de miopía se permiten en la Guardia Civil?
+
+Como máximo −3 dioptrías. La hipermetropía tiene un máximo de +3 y el astigmatismo, de ±2.
+
+### ¿Puedo entrar si me he operado de miopía con láser?
+
+El cuadro no excluye la cirugía refractiva corneal en sí. Se valora el resultado: agudeza visual, graduación residual y estado de la córnea. Sí excluye la cirugía intraocular y problemas de córnea como el queratocono o las ectasias.
+
+### ¿El daltonismo excluye de la Guardia Civil?
+
+Sí. El cuadro médico exige visión cromática normal.
+
+### ¿Puedo entrar con un ojo vago?
+
+Solo si ese ojo alcanza una agudeza superior a 0,7, con o sin corrección. El requisito se exige en ambos ojos.
+
+### ¿El astigmatismo se suma a la miopía?
+
+No para el límite: el cuadro fija ±2 de astigmatismo «con independencia del componente esférico», así que cada valor se compara con su propio máximo.',
+   '/blog/gafas-miopia-operacion-vista-guardia-civil.jpg', 'Oftalmólogo graduando la vista de un aspirante con una montura de prueba', 'publicado', '2026-11-22T06:12:00.000Z', 'acceso-guardia-civil',
+   ARRAY['vista', 'miopía', 'gafas', 'cuadro médico']::text[], '{"title":"Gafas y miopía en la Guardia Civil: límites 2026","description":"¿Puedes ser Guardia Civil con gafas o miopía? Agudeza visual mínima, dioptrías máximas (−3, +3, ±2), operación láser y daltonismo según el cuadro médico."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -503,8 +624,354 @@ En la Guardia Civil el inglés es una prueba del examen (20 preguntas, mínimo 8
 ### ¿Puedo presentarme a las dos el mismo año?
 
 Ninguna de las dos convocatorias de 2026 lo prohíbe, pero los exámenes, las pruebas y los calendarios son distintos. Si lo haces, prioriza una y planifica la otra como secundaria.',
-   '/blog/guardia-civil-o-policia-nacional.jpg', 'Aspirante sentado en una plaza ante un coche de la Guardia Civil y otro de la Policía Nacional', 'publicado', '2026-11-18T06:04:00.000Z', 'acceso-guardia-civil',
+   '/blog/guardia-civil-o-policia-nacional.jpg', 'Aspirante sentado en una plaza ante un coche de la Guardia Civil y otro de la Policía Nacional', 'publicado', '2026-11-24T06:46:00.000Z', 'acceso-guardia-civil',
    ARRAY['policía nacional', 'comparativa', 'requisitos', 'convocatoria']::text[], '{"title":"Guardia Civil o Policía Nacional: diferencias 2026","description":"Guardia Civil o Policía Nacional: requisitos, edad, titulación, examen, físicas, cuadro médico y formación comparados con las convocatorias de 2026."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('homofonos-ortografia-guardia-civil', 'articulo', 'Haber o a ver, echo o hecho: los homófonos que te pueden excluir', 'Los homófonos suenan igual y se escriben distinto, y en la prueba de ortografía una palabra correcta en el sitio equivocado es falta. Las parejas que más se confunden, un truco de sustitución para cada una y un ejercicio resuelto.', 'En la prueba de ortografía, una palabra bien escrita pero **en el lugar equivocado** es una falta. Escribir *echo* donde va *hecho* o *sino* donde va *si no* cuenta igual que una tilde olvidada. **Respuesta corta:** casi todos los homófonos se resuelven con un truco de sustitución: cambia la palabra por otra que signifique lo mismo y comprueba si la frase sigue funcionando.
+
+Recuerda las reglas de la prueba (base 6.1.1.a de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)): cinco frases con cuatro palabras o expresiones subrayadas; error es tanto dejar pasar una falta como marcar una palabra correcta, y con **seis errores o más** quedas excluido. Si aún no los has visto, repasa [las tildes](/blog/tildes-reglas-oposicion-guardia-civil) y [las palabras trampa con B/V, G/J y H](/blog/palabras-trampa-ortografia-guardia-civil).
+
+Las reglas siguen la *Ortografía* y el *Diccionario panhispánico de dudas* de la RAE y la ASALE. Los ejemplos y el ejercicio son nuestros.
+
+## Haber / a ver
+
+- **Haber** es un verbo («debe **haber** algún error», «va a **haber** tormenta») o un sustantivo («tiene tres medallas en su **haber**»).
+- **A ver** es la preposición *a* más el verbo *ver* («vamos **a ver** la película», «**a ver** qué pasa»).
+
+**Truco:** si puedes sustituirlo por *mirar* o *comprobar*, es **a ver**: «a ver (comprobemos) si llega». Si puedes cambiarlo por *existir* o es parte de un tiempo compuesto, es **haber**: «va a haber (existir) problemas».
+
+## Echo / hecho (y desecho / deshecho)
+
+- **Echo** es del verbo *echar*: «lo **echo** de menos», «**echo** sal a la sopa».
+- **Hecho** es participio de *hacer* o sustantivo: «lo he **hecho**», «un **hecho** probado», «de **hecho**».
+
+**Truco:** si puedes cambiarlo por *tiro* o *pongo*, es **echo**; si encaja *realizado* o *suceso*, es **hecho**.
+
+La misma lógica vale para **desecho** (residuo, de *desechar*: «desechos tóxicos») y **deshecho** (de *deshacer*: «la cama está deshecha»).
+
+## Hay / ahí / ay
+
+- **Hay**: verbo *haber*. «**Hay** un problema».
+- **Ahí**: adverbio de lugar. «Déjalo **ahí**».
+- **Ay**: interjección de dolor o pena. «¡**Ay**, qué daño!».
+
+**Truco:** si puedes poner *allí*, es **ahí**; si puedes poner *existe*, es **hay**.
+
+## Ha / a / ah
+
+- **Ha**: verbo *haber*. «**Ha** venido».
+- **A**: preposición. «Voy **a** casa».
+- **Ah**: interjección. «¡**Ah**, ya lo entiendo!».
+
+**Truco:** si puedes pasarlo a plural (*han*), es **ha**: «ha venido» → «han venido». Con la preposición no funciona: «voy a casa» → «voy *han* casa».
+
+## Haya / halla / aya y otras parejas del yeísmo
+
+En la mayor parte de España se pronuncian igual la *ll* y la *y*, y eso crea homófonos:
+
+| Palabra | Qué es | Ejemplo |
+|---|---|---|
+| **haya** | verbo *haber* o árbol | «Ojalá **haya** plazas»; «un bosque de **hayas**» |
+| **halla** | verbo *hallar* (encontrar) | «Se **halla** en Madrid» |
+| **aya** | persona que cuidaba a los niños | «El **aya** del príncipe» |
+| **vaya** | verbo *ir* o interjección | «Que te **vaya** bien» |
+| **valla** | cerca, vallado | «Saltó la **valla**» |
+| **baya** | fruto carnoso | «Las **bayas** del arbusto» |
+| **cayó** | verbo *caer* | «Se **cayó** de la moto» |
+| **calló** | verbo *callar* | «Se **calló** de golpe» |
+| **rallar** | desmenuzar con el rallador | «**Rallar** queso» |
+| **rayar** | hacer rayas | «**Rayar** el coche» |
+
+## Porque / por que / porqué / por qué
+
+Es el grupo más difícil, y conviene dominarlo entero.
+
+| Forma | Qué es | Ejemplo |
+|---|---|---|
+| **porque** | Conjunción causal | «Estudio **porque** quiero aprobar» |
+| **por que** | Preposición *por* + relativo *que* (equivale a *por el cual*, *por la que*…) | «Esa es la razón **por (la) que** dimitió» |
+| **por que** | Preposición *por* (exigida por el verbo) + conjunción *que* | «Optaron **por que** se repitiera la prueba» (*optar por algo*) |
+| **porqué** | Sustantivo: *el motivo*. Lleva determinante y tiene plural | «No entiendo **el porqué** de su decisión»; «los **porqués**» |
+| **por qué** | Interrogativo o exclamativo, en preguntas directas o indirectas | «¿**Por qué** vienes?»; «No sé **por qué** vino» |
+
+**Trucos:**
+
+- Si puedes poner delante *el* y sustituirlo por *motivo*, es **porqué**: «el porqué (el motivo) de su decisión».
+- Si hay pregunta, aunque no lleve signos, es **por qué**: «Dime por qué te vas».
+- Si puedes cambiarlo por *por el cual* o *por la que*, es **por que**.
+- Si contesta a una pregunta o da una causa, es **porque**: «¿Por qué no viniste? **Porque** estaba de guardia».
+
+## Sino / si no
+
+- **Sino** es una conjunción que contrapone una idea a otra negada: «No es rojo, **sino** azul». Cuando lo que sigue lleva verbo conjugado, se usa **sino que**: «No lo dijo, **sino que** lo escribió». También es un sustantivo, *destino*: «Su **sino** era ese».
+- **Si no** es la conjunción condicional *si* seguida de *no*: «**Si no** estudias, no apruebas».
+
+**Truco:** si puedes meter una palabra entre las dos partes («si **tú** no estudias») o cambiar la frase a afirmativa («si estudias»), es **si no**. Si equivale a *pero sí*, es **sino**.
+
+## Conque / con que / con qué
+
+- **Conque**: conjunción consecutiva, equivale a *así que*. «Ya lo sabes, **conque** actúa».
+- **Con que**: preposición *con* + relativo *que* («la llave **con que** abrí» = con la que) o + conjunción *que* («basta **con que** lo digas»).
+- **Con qué**: interrogativo o exclamativo. «¿**Con qué** lo pagaste?»; «No sé **con qué** escribir».
+
+## También / tan bien; tampoco / tan poco
+
+- **También** expresa afirmación o adición: «Yo **también** voy».
+- **Tan bien**: adverbio *tan* + adverbio *bien*; se opone a *tan mal*. «Lo hace **tan bien** que gana siempre».
+- **Tampoco** añade una negación a otra: «Yo **tampoco** voy».
+- **Tan poco**: *tan* + *poco*; se opone a *tanto*. «Queda **tan poco** tiempo…».
+
+**Truco:** si puedes cambiarlo por *tan mal* o *tanto*, va separado.
+
+## Asimismo / así mismo / a sí mismo
+
+- **Asimismo** significa *también* o *además*: «**Asimismo**, se recuerda que…». Con este sentido se admite también la grafía **así mismo**.
+- **Así mismo** también puede significar *de esa misma manera*: «Hazlo **así mismo**, como te lo he explicado».
+- **A sí mismo** es la preposición *a* + el pronombre *sí* + *mismo*: «Se lo reprochó **a sí mismo**». Se reconoce porque puede variar: *a sí misma*, *a sí mismos*.
+
+## Aparte / a parte
+
+- **Aparte** es adverbio o adjetivo: «Ponlo **aparte**», «punto y **aparte**», «es un caso **aparte**». **Aparte de** equivale a *además de* o *excepto*: «**Aparte de** eso, todo bien».
+- **A parte** es la preposición *a* + el sustantivo *parte*: «No llegaremos **a parte** alguna».
+
+## Otras parejas que conviene repasar
+
+| Junto | Separado |
+|---|---|
+| **sobretodo** (prenda de abrigo) | **sobre todo** (especialmente): «Repasa, **sobre todo**, los plazos» |
+| **demás** (los otros): «los **demás** opositores» | **de más** (de sobra): «Hay sillas **de más**» |
+| **entorno** (ambiente, alrededores): «el **entorno** familiar» | **en torno a** (alrededor de, aproximadamente): «**en torno a** las diez» |
+| **mediodía** (las doce): «Comemos a **mediodía**» | **medio día** (la mitad de un día): «Trabajo **medio día**» |
+| **porvenir** (el futuro): «Pensar en el **porvenir**» | **por venir** (que vendrá): «Lo mejor está **por venir**» |
+
+Y otras parejas con h o sin ella: **hola** (saludo) / **ola** (del mar); **hora** (tiempo) / **ora** (de *orar*); **honda** (profunda) / **onda** (del agua o del sonido); **hasta** (preposición) / **asta** (palo de la bandera, cuerno); **errar** (equivocarse) / **herrar** (poner herraduras). Las parejas de B y V (*tubo/tuvo*, *grabar/gravar*, *hierba/hierva*) las tienes en el artículo de [palabras trampa](/blog/palabras-trampa-ortografia-guardia-civil).
+
+## Ejercicio resuelto (propio, con el formato del examen)
+
+Las palabras subrayadas en el examen aquí van en **negrita**. Decide cuáles tienen falta.
+
+1. «**A ver** si **hay** suerte y el examen **ha** salido **echo** a medida».
+2. «No sé **porqué** no vino; **sino** viene mañana, **tampoco** pasa nada, **conque** tranquilo».
+3. «Está **ahí**, **sobretodo** cuando **hay** partido, y **a parte** de eso no sale».
+4. «Me **echo** a un lado para que **haya** sitio; **también** lo hice **tan bien** como pude».
+5. «Mañana va **a ver** un control **entorno** a la plaza; para los **demás** agentes, basta **con que** les avisen».
+
+**Soluciones:**
+
+1. **Una falta:** *hecho* (participio de *hacer*: «hecho a medida»). *A ver*, *hay* y *ha* son correctas.
+2. **Dos faltas:** *por qué* (pregunta indirecta) y *si no* (condicional: «si no viene»). *Tampoco* y *conque* (= así que) son correctas.
+3. **Dos faltas:** *sobre todo* (= especialmente) y *aparte de* (= además de). *Ahí* y *hay* son correctas.
+4. **Ninguna falta.** *Echo* (de *echar*), *haya* (de *haber*), *también* y *tan bien* (opuesto a *tan mal*) son correctas.
+5. **Dos faltas:** *haber* («va a haber» = va a existir) y *en torno a*. *Demás* y *con que* son correctas.
+
+Son siete faltas en veinte palabras. Observa la frase 4: está bien entera, y quien marca *tan bien* «por si acaso» suma un error.
+
+## Errores frecuentes
+
+- **Escribir *porqué* en preguntas indirectas:** «No sé porqué…» es falta; va separado y con tilde.
+- **Escribir *sino* en condicionales:** «sino estudias…» es falta.
+- **Confundir *haber* y *a ver*** en «va a haber», «tiene que haber».
+- **Unir *sobre todo* y *en torno*** cuando no son sustantivos.
+- **Marcar como falta formas correctas** que suenan raras, como *conque* o *así mismo* con el sentido de *también*.
+
+## Checklist de repaso
+
+- [ ] Aplico el truco de *mirar* para *a ver* y el de *han* para *ha*.
+- [ ] Distingo las cuatro formas de *porque* con sus trucos.
+- [ ] Sé cuándo va *sino*, *sino que* y *si no*.
+- [ ] Distingo *conque*, *con que* y *con qué*.
+- [ ] Sé que *asimismo* y *así mismo* son válidas con el sentido de *también*.
+- [ ] Repaso las parejas del yeísmo: *haya/halla*, *vaya/valla/baya*, *cayó/calló*.
+- [ ] Repaso *sobre todo*, *de más*, *en torno a*, *aparte*.
+
+## Cómo estudiarlos
+
+1. **No memorices pares sueltos:** aprende cada forma dentro de una frase.
+2. **Aplica siempre el truco de sustitución** antes de decidir.
+3. **Apunta tus fallos** de los tests en un cuaderno y repásalos cada semana.
+4. **Lee la frase entera en voz alta:** muchos homófonos se resuelven por el sentido.
+
+Encaja este repaso en tu horario como te contamos en [cómo preparar la oposición trabajando](/blog/plan-estudio-guardia-civil-trabajando). Y si quieres practicar con corrección explicada, en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes ejercicios con el formato real. Tienes el contexto de la prueba en [ortografía y gramática en el examen](/blog/ortografia-gramatica-examen-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Cuántos homófonos pueden aparecer en la prueba?
+
+La convocatoria no lo detalla. Se examinan cinco frases con cuatro palabras o expresiones subrayadas cada una, y cualquier tipo de falta puede aparecer.
+
+### ¿«A ver» y «haber» son lo mismo?
+
+No. *A ver* es preposición más el verbo *ver* (equivale a *mirar* o *comprobar*); *haber* es un verbo o un sustantivo.
+
+### ¿Cuál es la diferencia entre «porque» y «por qué»?
+
+*Porque* da una causa o una respuesta; *por qué* introduce una pregunta, directa o indirecta.
+
+### ¿Es correcto «así mismo» separado?
+
+Sí, con el sentido de *también* se admiten *asimismo* y *así mismo*. Lo que no debe confundirse es *a sí mismo* («se lo dijo a sí mismo»).
+
+### ¿Cuándo se escribe «sino que»?
+
+Cuando lo que se contrapone lleva verbo conjugado: «No lo leyó, sino que lo memorizó».
+
+### ¿Cuántos errores se permiten?
+
+Hasta cinco. Con seis o más respuestas erróneas quedas excluido.',
+   '/blog/homofonos-ortografia-guardia-civil.jpg', 'Mano colocando fichas con parejas de palabras en dos columnas sobre una mesa de madera', 'publicado', '2026-11-20T06:38:00.000Z', 'acceso-guardia-civil',
+   ARRAY['ortografía', 'homófonos', 'porque', 'haber']::text[], '{"title":"Homófonos: haber/a ver, echo/hecho, porque y sino","description":"Homófonos de la prueba de ortografía de la Guardia Civil: haber/a ver, echo/hecho, porque/por qué, sino/si no, asimismo y más, con trucos y ejercicio."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('lentes-intraoculares-guardia-civil', 'articulo', 'Lentes intraoculares y Guardia Civil: qué cambió con el Supremo', 'En 2023 el Tribunal Supremo anuló la frase del cuadro médico que excluía siempre las lentes fáquicas. Qué anuló exactamente, qué sigue escrito en la norma, en qué se diferencia de la Policía Nacional y qué hacer si llevas una lente implantada.', 'Cada vez más gente corrige la miopía con una lente implantada dentro del ojo en lugar de con láser. Y muchos descubren después que el cuadro médico de la Guardia Civil hablaba de ellas. La situación cambió en 2023 con una sentencia del Tribunal Supremo, pero **no tanto como se dice en algunos foros**.
+
+La respuesta corta: **el Supremo anuló la frase «En ningún caso se admitirán lentes fáquicas», y la convocatoria de 2026 aplica esa sentencia. Pero el cuadro sigue mencionando la cirugía intraocular y las lentes intraoculares, así que nadie te garantiza el apto: tu caso se valora y debe motivarse de forma individual.**
+
+## Primero: ¿de qué lentes hablamos?
+
+| Tipo | Qué es | Cuándo se usa |
+|---|---|---|
+| **Lente fáquica** (por ejemplo, ICL) | Se implanta dentro del ojo **sin quitar el cristalino** | Sobre todo, miopías altas o córneas en las que el láser no es buena opción |
+| **Lente pseudofáquica** | **Sustituye al cristalino** | Operación de cataratas o cirugía del cristalino transparente |
+
+Las dos son «intraoculares», pero el cuadro médico las trata en apartados distintos, y eso es lo que importa. Y ninguna de las dos es lo mismo que el láser corneal (LASIK, PRK), que actúa sobre la superficie del ojo y no figura como causa de exclusión: lo explicamos en [gafas, miopía y operación de vista](/blog/gafas-miopia-operacion-vista-guardia-civil).
+
+## Qué decía el cuadro médico
+
+El cuadro de exclusiones de la Guardia Civil (anexo I de la Orden PCI/155/2019) menciona las lentes y la cirugía dentro del ojo en tres apartados de su letra J:
+
+| Apartado | Texto |
+|---|---|
+| J.2 | «Pérdida o atrofia de un globo ocular. Cuerpos extraños intraoculares y/o intraorbitarios. Cualquier tipo de cirugía intraocular» |
+| J.9 | «[…] Queratocono. En ningún caso se admitirán lentes fáquicas» |
+| J.12 | «Cristalino: […] Afaquia, Pseudoafaquia. Cualquier tipo de lente intraocular» |
+
+## Qué anuló el Supremo
+
+La sentencia de la Sala Tercera del Tribunal Supremo de 21 de febrero de 2023 (recurso de casación 4551/2021), publicada en el BOE el 29 de mayo de 2023 ([BOE-A-2023-12417](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-12417)), estimó el recurso de un aspirante y, en su fallo:
+
+1. Anuló la sentencia del Tribunal Superior de Justicia de Madrid que le había dado la razón a la Administración.
+2. Anuló las resoluciones que habían excluido a ese aspirante.
+3. **Declaró nula la frase «En ningún caso se admitirán lentes fáquicas»** del apartado J.9, y ordenó publicarlo en el BOE.
+
+El texto publicado en el BOE es el fallo, que se remite a los fundamentos de la sentencia para su alcance. Lo que se puede afirmar con seguridad es el efecto: **la exclusión automática y sin excepciones de las lentes fáquicas ya no existe**.
+
+La convocatoria de 2026 lo recoge expresamente: en su base 6.1.3.c), el reconocimiento médico se hace con el cuadro de la Orden PCI/155/2019 «y de conformidad con lo dispuesto por la Sentencia de 21 de febrero de 2023».
+
+## Lo que sigue escrito en la norma
+
+Aquí está el matiz que muchos pasan por alto. El fallo anula **solo** esa frase del J.9. En el [texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2019-2291), los apartados **J.2 («Cualquier tipo de cirugía intraocular»)** y **J.12 («Cualquier tipo de lente intraocular»)** siguen apareciendo.
+
+¿Qué significa en la práctica? Que la norma ya no permite excluir a nadie con el argumento de que «en ningún caso» se admiten lentes fáquicas, pero tampoco te garantiza el apto. Tu caso se valorará de forma individual, como exige la introducción del propio cuadro, que obliga a motivar cada exclusión con un informe técnico del servicio médico y a atender a la evidencia científica del momento.
+
+### Resumen por situaciones
+
+| Tu situación | Qué dice la norma hoy | Grado de incertidumbre |
+|---|---|---|
+| Lente fáquica (ICL o similar) | Ya no hay exclusión automática; siguen escritos J.2 y J.12 | Alto: depende de la valoración individual |
+| Lente pseudofáquica (sustituye al cristalino) | J.12 menciona afaquia, pseudoafaquia y cualquier lente intraocular; la sentencia no se refiere a ellas | Alto, con menos apoyo en la sentencia |
+| Láser corneal (LASIK, PRK) | No figura como causa de exclusión; se valora el resultado | Bajo, si la agudeza, la graduación y la córnea están bien |
+| Sin cirugía, con miopía alta | Supera el máximo de −3 dioptrías | Excluye mientras no cambie la graduación |
+
+## En la Policía Nacional fue distinto
+
+Si comparas con la Policía Nacional, verás otra situación. Allí, una sentencia del Supremo de 16 de febrero de 2023 ([BOE-A-2023-6376](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-6376)) anuló dos incisos de su cuadro médico (Real Decreto 326/2021):
+
+- «Cuerpos extraños intraoculares. Cualquier tipo de cirugía intraocular», y
+- el apartado sobre técnicas de corrección refractiva, que exigía 60 días desde la cirugía y terminaba con «No se admitirán lentes fáquicas».
+
+Su convocatoria de 2026 dice expresamente que esos puntos no se aplican. En la Guardia Civil, en cambio, solo se anuló la frase de las lentes fáquicas y la referencia a la cirugía intraocular sigue escrita. Son normas y sentencias diferentes, así que **no extrapoles lo que leas de un cuerpo al otro**.
+
+| | Guardia Civil | Policía Nacional |
+|---|---|---|
+| Norma | Orden PCI/155/2019, anexo I | Real Decreto 326/2021 |
+| Sentencia | TS 21-2-2023 | TS 16-2-2023 |
+| Qué se anuló | La frase «En ningún caso se admitirán lentes fáquicas» | La cirugía intraocular como exclusión y el apartado de corrección refractiva, incluidas las lentes fáquicas |
+| ¿Sigue escrita la cirugía intraocular? | Sí (J.2) | No se aplica |
+
+## Caso práctico (hipotético)
+
+Elena tiene −7 de miopía. A los 24 años se implanta una lente fáquica en cada ojo y ahora ve 1,0 sin gafas, con una graduación residual de −0,25. Se presenta a la oposición.
+
+- **Agudeza y graduación:** cumple (más de 0,7 en cada ojo y graduación dentro de los máximos).
+- **Lente fáquica:** ya no puede excluirse con la frase anulada, pero el servicio médico valorará su caso con los apartados que siguen escritos.
+- **Qué le conviene llevar:** informe de la cirugía con tipo y modelo de lente, fecha, revisiones posteriores (agudeza, presión intraocular, recuento endotelial y estado del cristalino si su oftalmólogo lo considera) y un informe funcional que explique que no le limita.
+- **Si la declaran «no apto»:** puede pedir la revisión ante la Junta Médica de Revisión en el plazo de la convocatoria (no superior a 3 días hábiles en 2026) y, después, valorar con un abogado los recursos que procedan.
+
+## Si llevas una lente implantada: qué hacer
+
+1. **Comprueba el resto de requisitos de la vista.** La lente no te exime de cumplir la agudeza visual (más de 0,7 en cada ojo) ni los límites de graduación.
+2. **Reúne la documentación.** Informe de la cirugía, tipo y modelo de lente, fecha, y revisiones posteriores con agudeza visual, estabilidad y estado del ojo.
+3. **Pide a tu oftalmólogo un informe funcional.** Lo que pesa no es el nombre de la técnica, sino si te limita para el servicio y si hay riesgos previsibles.
+4. **Lleva la referencia de la sentencia** (BOE-A-2023-12417) y la base 6.1.3.c) de la convocatoria, por si necesitas invocarlas en una revisión.
+5. **Si te excluyen, revisa los plazos.** La revisión del «no apto» tiene un plazo muy corto. Si crees que no se ha valorado tu caso de forma individual, consulta con un abogado especializado en oposiciones.
+
+## Si todavía no te has operado
+
+Si tienes miopía alta y estás pensando en operarte antes de la oposición, coméntale a tu oftalmólogo que vas a pasar el reconocimiento de la Guardia Civil y enséñale el apartado J del cuadro médico. La técnica más adecuada para tu ojo es una decisión médica, pero conviene que la tome sabiendo qué se valorará y con tiempo suficiente para que la vista se estabilice antes del reconocimiento.
+
+Tienes el resto de exclusiones en [cuadro médico de exclusiones de la Guardia Civil](/blog/cuadro-medico-exclusiones-guardia-civil) y cómo es el día del reconocimiento en [entrevista y reconocimiento médico](/blog/entrevista-reconocimiento-medico-guardia-civil).
+
+## Errores frecuentes
+
+- **Creer que la sentencia «legaliza» todas las lentes intraoculares.** Solo anuló una frase del J.9.
+- **Creer que nada ha cambiado.** La exclusión automática de las lentes fáquicas ya no existe y la convocatoria lo reconoce.
+- **Aplicar a la Guardia Civil lo que se lee sobre la Policía Nacional.** Allí se anuló más.
+- **Ir al reconocimiento sin documentación.** La valoración individual se apoya en informes.
+- **Dejar pasar el plazo de revisión** del «no apto».
+
+## Checklist
+
+- [ ] Sé qué tipo de lente llevo (fáquica o pseudofáquica) y su modelo.
+- [ ] Mi agudeza supera 0,7 en cada ojo y mi graduación está dentro de los máximos.
+- [ ] Tengo el informe de la cirugía y revisiones recientes.
+- [ ] Tengo un informe funcional del oftalmólogo.
+- [ ] Conozco el plazo de revisión del «no apto».
+- [ ] He repasado el resto de [requisitos para ser Guardia Civil](/blog/requisitos-guardia-civil).
+
+Si quieres centrarte en lo que sí depende de ti, el examen, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Puedo ser Guardia Civil con lentes intraoculares?
+
+La exclusión automática de las lentes fáquicas fue anulada por el Tribunal Supremo en 2023, y la convocatoria de 2026 aplica esa sentencia. Tu caso se valora de forma individual, y debes cumplir igualmente la agudeza visual y los límites de graduación.
+
+### ¿Qué anuló exactamente la sentencia del Supremo?
+
+La frase «En ningún caso se admitirán lentes fáquicas» del apartado J.9 del cuadro médico de la Orden PCI/155/2019.
+
+### ¿Siguen apareciendo las lentes intraoculares en el cuadro médico?
+
+Sí. En el texto consolidado siguen los apartados J.2 («Cualquier tipo de cirugía intraocular») y J.12 («Cualquier tipo de lente intraocular»). Por eso conviene llevar bien documentado tu caso.
+
+### ¿Y si llevo una lente por una operación de cataratas?
+
+Es una lente pseudofáquica, que el apartado J.12 menciona junto a la pseudoafaquia. La sentencia de 2023 se refiere a las lentes fáquicas, así que tu caso tiene menos apoyo en ella. Consúltalo con tu oftalmólogo y documéntalo bien.
+
+### ¿Es lo mismo en la Policía Nacional?
+
+No. La Policía Nacional tiene su propio cuadro médico y otra sentencia del Supremo, de 16 de febrero de 2023, que anuló también la cirugía intraocular como causa de exclusión.
+
+### ¿El láser excluye igual que la lente?
+
+No. La cirugía refractiva con láser en la córnea no figura como causa de exclusión en el cuadro de la Guardia Civil: se valora el resultado.',
+   '/blog/lentes-intraoculares-guardia-civil.jpg', 'Oftalmólogo examinando el ojo de una aspirante con una lámpara de hendidura', 'publicado', '2026-11-23T06:29:00.000Z', 'acceso-guardia-civil',
+   ARRAY['lentes intraoculares', 'vista', 'cuadro médico', 'tribunal supremo']::text[], '{"title":"Lentes intraoculares Guardia Civil: qué dijo el Supremo","description":"¿Excluyen las lentes intraoculares o fáquicas en la Guardia Civil? Qué anuló el Supremo en 2023, qué sigue en el cuadro médico y qué hacer."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -672,552 +1139,8 @@ Depende de cuánto tiempo tengas y de tu punto de partida. Si no sabes nadar, em
 ### ¿Puedo usar gafas de natación o gorro?
 
 La convocatoria no lo regula. Atiende a las instrucciones que publique el Tribunal de Selección y a las que dé en la propia prueba.',
-   '/blog/natacion-50-metros-guardia-civil.jpg', 'Nadador en plena brazada de crol en una piscina cubierta', 'publicado', '2026-11-21T06:55:00.000Z', 'acceso-guardia-civil',
+   '/blog/natacion-50-metros-guardia-civil.jpg', 'Nadador en plena brazada de crol en una piscina cubierta', 'publicado', '2026-11-18T06:04:00.000Z', 'acceso-guardia-civil',
    ARRAY['pruebas físicas', 'natación', '50 metros', 'entrenamiento']::text[], '{"title":"Natación Guardia Civil: marcas de 50 m y plan desde cero","description":"Marcas de los 50 m de natación de la Guardia Civil por sexo y edad, reglas de la prueba, ritmo por largo y un plan por fases para prepararla desde cero."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('nota-de-corte-guardia-civil', 'articulo', 'Nota de corte de la Guardia Civil: cómo funciona y por qué no hay una sola cifra', 'La nota de corte no se fija antes del examen: es la puntuación del último aspirante que consigue plaza, sobre 195 puntos. Las de 2022 a 2026, por qué cambian tanto y cómo traducirlas en aciertos y errores.', '«¿Cuál es la nota de corte?» es la pregunta que más se repite después del examen. Y casi siempre se responde mal, porque se mezclan cifras sobre 10, sobre 100 y sobre 195, de cupos distintos y de momentos distintos del proceso.
-
-La respuesta corta: **en el acceso libre de 2026, el último aspirante que obtuvo plaza tuvo 90,61 puntos sobre 195**, y en los cinco últimos años esa cifra ha oscilado entre 90,61 y 110,58. No es un aprobado fijado de antemano: se conoce al final del proceso.
-
-## Qué es la nota de corte (y qué no es)
-
-La nota de corte **no es un aprobado que se fija antes del examen**. Es la puntuación final que obtuvo **el último aspirante que consiguió plaza** en un cupo. Se conoce al final del proceso, cuando se publica en el BOE la relación de aspirantes propuestos para ingresar como alumnos.
-
-Esa puntuación final es la suma de la fase de concurso y la de oposición (base 7.9 de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)):
-
-| Parte | Puntos máximos |
-|---|---|
-| Fase de concurso (méritos) | 45 |
-| Conocimientos generales | 100 |
-| Lengua inglesa | 20 |
-| Aptitudes intelectuales (psicotécnico) | 30 |
-| **Total** | **195** |
-
-Por eso, cuando leas una nota de corte, lo primero es preguntarte: ¿sobre cuánto está?, ¿de qué cupo?, ¿en qué momento del proceso?
-
-## Las notas de corte de 2022 a 2026
-
-Estas son las puntuaciones finales (sobre 195) del último aspirante propuesto del **cupo de acceso libre**, calculadas por ProLince a partir del anexo de cada resolución de propuestos publicada en el BOE:
-
-| Convocatoria | Nota de corte (libre, sobre 195) | Resolución en el BOE |
-|---|---|---|
-| 2026 | 90,61 | [BOE-A-2026-20936](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20936) |
-| 2025 | 95,80 | [BOE-A-2025-21469](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21469) |
-| 2024 | 103,08 | [BOE-A-2024-24233](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24233) |
-| 2023 | 95,75 | [BOE-A-2023-26041](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26041) |
-| 2022 | 110,58 | [BOE-A-2022-18829](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-18829) |
-
-Entre el corte más alto y el más bajo hay casi 20 puntos. Hay años más asequibles y años más duros, y no se puede adivinar de antemano cuál te va a tocar. La media de estos cinco años ronda los 99 puntos, pero preparar «para la media» es preparar para quedarse fuera en los años más duros: en 2022 y 2024 el corte la superó.
-
-## Por qué no hay una sola cifra
-
-### 1. Hay varios cupos
-
-Las plazas se reparten en cupos: en 2026, 1.704 de acceso libre, 1.296 para militares profesionales de tropa y marinería y 240 para alumnos del Colegio de Guardias Jóvenes. Los propuestos se ordenan dentro de cada modalidad de ingreso (base 9.1), así que cada cupo tiene su propio corte. Las cifras de la tabla son las del acceso libre. Además, las reservadas que quedan sin cubrir se suman al acceso libre, lo que también mueve el corte.
-
-### 2. No es lo mismo pasar a las físicas que conseguir plaza
-
-Tras el examen, la convocatoria llama a las pruebas de aptitud psicofísica (físicas, entrevista y reconocimiento médico) a **1,5 aspirantes por plaza**, por orden de puntuación. Quien no supera alguna de esas pruebas sale de la lista, y la lista se va corriendo hacia abajo. La puntuación del último convocado a las psicofísicas y la del último que consigue plaza no coinciden.
-
-### 3. Depende de cada año
-
-El corte sube o baja según el número de plazas, cuántos aspirantes se presentan, la dificultad del examen y cuántos superan las pruebas psicofísicas. Compararlo de un año para otro te da una horquilla, no una garantía.
-
-### 4. Los mínimos no son el corte
-
-Para no quedar excluido necesitas al menos 50 puntos en conocimientos, 8 en inglés y 12 en el psicotécnico, y no llegar a 6 errores en ortografía ni en gramática. Superar esos mínimos te mantiene en el proceso, pero **con los mínimos justos no se consigue plaza**: 50 + 8 + 12 suman 70, muy lejos de los cortes reales.
-
-## De la nota a los aciertos: cómo se puntúa cada prueba
-
-Con cuatro opciones por pregunta, cada error resta un tercio de acierto y las preguntas en blanco no restan (base 7.3):
-
-| Prueba | Acierto | Error | En blanco |
-|---|---|---|---|
-| Conocimientos (100 preguntas) | +1 | −0,33 | 0 |
-| Inglés (20 preguntas) | +1 | −0,33 | 0 |
-| Psicotécnico (80 preguntas) | +0,375 | −0,125 | 0 |
-
-### Ejemplo resuelto
-
-Supón (caso hipotético) este resultado:
-
-- Conocimientos: 70 aciertos, 15 errores → 70 − 15/3 = **65,00**
-- Inglés: 15 aciertos, 3 errores → 15 − 3/3 = **14,00**
-- Psicotécnico: 58 aciertos, 6 errores → 58 × 0,375 − 6 × 0,125 = 21,75 − 0,75 = **21,00**
-
-Fase de oposición: 65 + 14 + 21 = **100 puntos**. Con 10 puntos de méritos, la puntuación final sería **110**, por encima de todos los cortes del acceso libre de 2022 a 2026 salvo el de 2022 (110,58), que quedaría a menos de un punto.
-
-## Tres caminos para llegar a unos 110 puntos
-
-Los méritos cambian mucho lo que necesitas en el examen. Estas combinaciones son ejemplos hipotéticos para un objetivo de unos 110 puntos sobre 195:
-
-| Méritos | Conocimientos | Inglés | Psicotécnico | Total |
-|---|---|---|---|---|
-| 0 | 72 (76 aciertos, 12 errores) | 15 (16 aciertos, 3 errores) | 23 (64 aciertos, 8 errores) | 110 |
-| 10 | 65 (70 aciertos, 15 errores) | 14 (15 aciertos, 3 errores) | 21 (58 aciertos, 6 errores) | 110 |
-| 20 | 58 (63 aciertos, 15 errores) | 13 (14 aciertos, 3 errores) | 19 (54 aciertos, 10 errores) | 110 |
-
-Fíjate en lo que dice la tabla: **cada punto de méritos es un acierto neto menos que necesitas en el examen**. Por eso conviene revisar cuanto antes qué puntúa en [la fase de concurso](/blog/fase-concurso-guardia-civil-meritos): por ejemplo, un B2 de inglés acreditado vale 5 puntos, y un C1, 7.
-
-## Qué nota deberías buscar tú
-
-Con los cortes de los últimos cinco años entre 90,61 y 110,58 puntos sobre 195, un objetivo razonable es **ir por encima de la parte alta de la horquilla**, no del último corte. Algunas ideas para convertir eso en algo práctico:
-
-1. **Suma tus méritos primero.** Lo que traigas de la fase de concurso ya está en el marcador antes del examen.
-2. **Calcula cuánto necesitas en el examen.** Resta tus méritos al objetivo y reparte el resto entre conocimientos, inglés y psicotécnico.
-3. **Entiende la penalización.** Tu nota no es tu número de aciertos. Te lo explicamos con ejemplos en [cómo se calcula la nota del examen](/blog/calcular-nota-examen-guardia-civil), y puedes probar con nuestra [calculadora de nota](/calculadora-nota-guardia-civil).
-4. **Mide tu nivel con simulacros.** Hasta que no haces un examen completo con cronómetro no sabes dónde estás. Si quieres ver en qué zona andarías hoy, prueba nuestra herramienta de [nota de corte](/nota-de-corte).
-5. **No olvides lo eliminatorio.** Un sobresaliente en conocimientos no sirve si fallas 6 en ortografía. Repasa [ortografía y gramática](/blog/ortografia-gramatica-examen-guardia-civil) aunque no sumen puntos.
-
-## Cómo comprobar tú mismo la nota de corte
-
-Si quieres verificar una cifra que lees en un foro:
-
-1. Busca en el BOE la resolución de aspirantes propuestos para ingresar como alumnos de esa convocatoria.
-2. Localiza el anexo del cupo que te interesa (acceso libre, militares, Colegio de Guardias Jóvenes).
-3. Mira la puntuación del último aspirante de la lista de ese cupo.
-4. Comprueba si la cifra está sobre 195 (concurso más oposición) o solo sobre la oposición.
-
-## Errores frecuentes al interpretar la nota de corte
-
-- **Mezclar escalas.** Una cifra sobre 150 (solo oposición) no se compara con otra sobre 195.
-- **Tomar el corte de las psicofísicas por el de plaza.** No son lo mismo.
-- **Usar el corte de otro cupo.** Militares y Colegio de Guardias Jóvenes tienen sus propias listas.
-- **Apuntar al último corte.** Si el año siguiente es más duro, te quedas fuera.
-- **Olvidar los méritos.** Son puntos que no dependen del día del examen.
-- **Comparar con la Policía Nacional.** Su escala y su sistema son distintos; lo explicamos en [Guardia Civil o Policía Nacional](/blog/guardia-civil-o-policia-nacional).
-
-## Checklist
-
-- [ ] Sé cuántos puntos de méritos tengo (o puedo conseguir antes del plazo).
-- [ ] He fijado un objetivo por encima de la parte alta de la horquilla.
-- [ ] He repartido ese objetivo entre conocimientos, inglés y psicotécnico.
-- [ ] Mido mis simulacros con la fórmula oficial, no por aciertos.
-- [ ] Tengo controlados los mínimos eliminatorios de ortografía y gramática.
-
-Si quieres un plan de estudio y simulacros con corrección según la fórmula oficial, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
-
-## Preguntas frecuentes
-
-### ¿Cuál fue la nota de corte de la Guardia Civil en 2026?
-
-En el acceso libre, 90,61 puntos sobre 195, según nuestro cálculo con la resolución de propuestos publicada en el BOE (BOE-A-2026-20936).
-
-### ¿La nota de corte es sobre 10, sobre 100 o sobre 195?
-
-La puntuación final de la Guardia Civil es sobre 195: hasta 45 de méritos y hasta 150 de la fase de oposición (100 de conocimientos, 20 de inglés y 30 de psicotécnico).
-
-### ¿Publica la Guardia Civil una nota de corte oficial?
-
-No como una cifra aislada. Se publica la relación de aspirantes propuestos con sus puntuaciones, y la nota de corte es la del último propuesto de cada cupo.
-
-### ¿Con 50 en el examen de conocimientos entro?
-
-No. Con 50 superas el mínimo para seguir en el proceso, pero los cortes de los últimos años en acceso libre han estado entre 90,61 y 110,58 puntos sobre 195.
-
-### ¿Las pruebas físicas suben la nota?
-
-No. Las físicas, la entrevista y el reconocimiento médico son apto o no apto. La puntuación final sale solo del concurso y de las pruebas de conocimientos, inglés y psicotécnico.
-
-### ¿Qué pasa si empato con otro aspirante?
-
-La base 7.10 desempata por más nota en conocimientos, después en inglés, después en aptitudes intelectuales y, por último, por mayor edad.
-
-### ¿Se puede predecir la nota de corte de la próxima convocatoria?
-
-No. Depende de las plazas, de los aspirantes, de la dificultad del examen y de cuántos superan las psicofísicas. Los años anteriores solo te dan una horquilla orientativa.',
-   '/blog/nota-de-corte-guardia-civil.jpg', 'Opositor consultando de noche una lista de resultados en el portátil', 'publicado', '2026-11-20T06:38:00.000Z', 'acceso-guardia-civil',
-   ARRAY['nota de corte', 'puntuación', 'concurso-oposición', 'convocatoria']::text[], '{"title":"Nota de corte Guardia Civil 2026 y años anteriores","description":"Nota de corte de la Guardia Civil de 2022 a 2026 sobre 195 puntos, calculada con las resoluciones del BOE. Qué es, por qué varía y qué nota apuntar."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('razonamiento-verbal-psicotecnico-guardia-civil', 'articulo', 'Razonamiento verbal en el psicotécnico: sinónimos, antónimos y analogías', 'Sinónimos, antónimos, analogías y palabras intrusas son formatos verbales muy comunes en las baterías de aptitudes. Cómo se resuelve cada uno, con ejemplos y ejercicios corregidos, y cómo ampliar vocabulario sin pasarte la vida con el diccionario.', 'El razonamiento verbal mide cómo manejas las palabras y las relaciones entre ellas: si captas matices de significado, si ves la lógica que une dos conceptos y si detectas lo que no encaja. La respuesta corta: los formatos más comunes (sinónimos, antónimos, analogías, palabra intrusa y completar frases) se resuelven con un **método de descarte** y mejoran mucho con **vocabulario y práctica cronometrada**.
-
-Como en los demás artículos sobre el psicotécnico, una precisión: la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 6.1.2) habla de una batería de aptitudes intelectuales de **80 preguntas en 55 minutos** que mide «capacidad de aprendizaje, análisis, razonamiento y potencial cognitivo», pero **no detalla los tipos de ejercicio**. Lo que sigue son formatos verbales frecuentes en pruebas de este tipo, útiles para entrenar aunque no se pueda saber con certeza cuáles aparecerán. El resumen de la prueba está en [el artículo sobre el psicotécnico](/blog/psicotecnico-guardia-civil-aptitudes-personalidad).
-
-Todos los ejemplos de este artículo son de elaboración propia.
-
-## Una regla de la convocatoria que debes recordar
-
-La base 6.1.2 dice que cada pregunta tiene una única respuesta válida y que, si consideras correctas varias opciones, **debes señalar la más completa**. En razonamiento verbal esto ocurre a menudo: dos palabras pueden parecerse a la del enunciado, pero una recoge el significado con más precisión. No te quedes con la primera que «más o menos» vale.
-
-## Sinónimos
-
-Se te da una palabra y eliges la de significado igual o más próximo.
-
-> **Ecuánime** → a) violento b) imparcial c) tímido d) lento
-
-Respuesta: **b) imparcial**. Ecuánime es quien juzga con serenidad y sin favorecer a nadie.
-
-> **Exiguo** → a) escaso b) estrecho c) exigente d) excesivo
-
-Respuesta: **a) escaso**. Fíjate en las trampas: «exigente» y «excesivo» empiezan igual, y «estrecho» se le acerca en la idea de «poco», pero exiguo significa insuficiente, escaso.
-
-**Cómo resolverlos:**
-
-- Si no conoces la palabra, **busca su raíz o su familia**: «ecuánime» comparte origen con «ecuanimidad» y con la idea latina de «igual».
-- **Descarta las opciones que no encajan**, aunque no sepas la correcta.
-- Desconfía de las opciones que **se parecen por la forma** (empiezan o suenan igual) pero no por el significado.
-- **Sustituye en una frase**: «un juez ecuánime» / «un juez imparcial». Si la frase conserva el sentido, vas bien.
-
-## Antónimos
-
-Se pide la palabra de significado contrario.
-
-> **Efímero** → a) breve b) duradero c) frágil d) veloz
-
-Respuesta: **b) duradero**. Efímero es lo que dura poco; «breve» es un sinónimo puesto como cebo.
-
-> **Pródigo** → a) generoso b) derrochador c) tacaño d) hijo
-
-Respuesta: **c) tacaño**. Pródigo es quien gasta sin medida; «derrochador» y «generoso» van en la misma dirección.
-
-**Cómo resolverlos:**
-
-- **Primero define la palabra** y luego busca su contrario. Muchos errores vienen de marcar un sinónimo, que suele estar entre las opciones a propósito.
-- **Lee el enunciado dos veces**: con prisa, «antónimo» y «sinónimo» se confunden.
-- Si dudas entre dos contrarios, aplica la regla de la **opción más completa**: el antónimo más exacto, no el aproximado.
-
-## Analogías
-
-Se da una pareja de palabras con una relación y hay que encontrar la que completa otra pareja con **la misma relación**.
-
-> **Médico es a hospital como profesor es a…** a) examen b) colegio c) libro d) alumno
-
-Respuesta: **b) colegio**. La relación es «profesional → lugar donde trabaja».
-
-**Cómo resolverlas:**
-
-1. **Nombra la relación con una frase concreta**: «un médico trabaja en un hospital».
-2. **Aplica la misma frase** a cada opción: «un profesor trabaja en un examen» no tiene sentido; «en un colegio», sí.
-3. Si varias encajan, **afina la frase**: cuanto más precisa, menos opciones sobreviven.
-
-Las relaciones más habituales:
-
-| Relación | Ejemplo |
-|---|---|
-| Profesional y lugar | Médico : hospital :: profesor : colegio |
-| Profesional e instrumento | Pintor : pincel :: cirujano : bisturí |
-| Instrumento y función | Cuchillo : cortar :: lápiz : escribir |
-| Parte y todo | Página : libro :: hoja : árbol |
-| Animal y vivienda | Abeja : colmena :: hormiga : hormiguero |
-| Medio | Pez : agua :: ave : aire |
-| Grado o intensidad | Caliente : hirviendo :: frío : helado |
-| Contrarios | Alto : bajo :: ancho : estrecho |
-| Necesidad y acción | Sed : beber :: sueño : dormir |
-
-Una trampa habitual es **invertir el orden**. En «página es a libro como árbol es a hoja», la relación se ha dado la vuelta (parte → todo frente a todo → parte), así que no es una analogía correcta. Comprueba siempre que el orden se mantiene.
-
-## La palabra intrusa
-
-Hay que encontrar la que no pertenece al grupo.
-
-> **Madrid, Sevilla, París, Valencia**
-
-Respuesta: **París**, la única que no es una ciudad española.
-
-> **Martillo, destornillador, sierra, clavo**
-
-Respuesta: **clavo**: los otros tres son herramientas; el clavo es el material sobre el que se trabaja.
-
-**Cómo resolverlo:** busca la **categoría común** a tres de ellas y comprueba que la cuarta no la cumple. Si se te ocurren dos criterios (por ejemplo, tamaño y función), elige el más claro y general: es el que suele buscar quien diseña la pregunta.
-
-## Completar oraciones
-
-Se pide la palabra o expresión que da sentido a una frase. Aquí mandan las **pistas gramaticales y los conectores**.
-
-> El acusado no mostró arrepentimiento; ______, el juez le impuso la pena máxima. a) sin embargo b) por consiguiente c) aunque d) no obstante
-
-Respuesta: **b) por consiguiente**. La segunda parte es consecuencia de la primera, así que hace falta un conector consecutivo. «Sin embargo» y «no obstante» indican oposición, y «aunque» no encaja tras el punto y coma.
-
-Un repaso rápido de conectores:
-
-| Tipo | Ejemplos |
-|---|---|
-| Oposición | sin embargo, no obstante, aunque, en cambio |
-| Consecuencia | por tanto, por consiguiente, así que, por eso |
-| Causa | porque, ya que, puesto que |
-| Adición | además, asimismo, también |
-
-En otros formatos se pide **ordenar frases** para formar un texto coherente. Busca la frase que introduce el tema (la que no depende de ninguna anterior) y sigue el hilo de pronombres y conectores.
-
-## Practica: seis ejercicios con solución
-
-Date 30 segundos para cada uno.
-
-1. Sinónimo de **inocuo**: a) peligroso b) inofensivo c) inútil d) ingenuo
-2. Antónimo de **diáfano**: a) claro b) transparente c) opaco d) limpio
-3. Pincel es a pintor como bisturí es a: a) hospital b) cirujano c) enfermo d) corte
-4. Intrusa: triángulo, cuadrado, cubo, círculo
-5. Llovía a cántaros; ______, el partido se suspendió: a) no obstante b) por eso c) aunque d) sin embargo
-6. Abeja es a colmena como hormiga es a: a) insecto b) reina c) hormiguero d) tierra
-
-**Soluciones:** 1) **b**, inocuo es lo que no hace daño; «inútil» e «ingenuo» son cebos de forma. 2) **c**, diáfano es claro o transparente. 3) **b**, relación instrumento → profesional. 4) **cubo**, el único cuerpo tridimensional. 5) **b**, conector de consecuencia. 6) **c**, animal → vivienda.
-
-## Cómo ampliar vocabulario sin obsesionarte
-
-- **Lee a diario**, aunque sean quince minutos: prensa, ensayo o novela. Subraya las palabras que no conoces y búscalas en el [Diccionario de la lengua española](https://dle.rae.es/).
-- **Lleva un cuaderno de palabras** con su significado, un sinónimo, un antónimo y una frase de ejemplo.
-- **Repásalo de forma espaciada**: a los dos días, a la semana y al mes.
-- **Aprende por familias**: los prefijos y sufijos te dan el significado de muchas palabras a la vez. Por ejemplo, *a-* o *an-* (negación: amoral, anómalo), *hiper-* (exceso) frente a *hipo-* (debajo, escasez), *-cida* (que mata: homicida, insecticida), *-logía* (estudio o tratado).
-- **Úsalas**: escribir o decir una palabra nueva en contexto ayuda a fijarla.
-
-Ojo con los **parónimos**, palabras que se parecen pero significan cosas distintas: *actitud* y *aptitud*, *prever* y *proveer*, *infligir* e *infringir*. Además de las preguntas verbales, te ayudan en la prueba de [ortografía y gramática](/blog/ortografia-gramatica-examen-guardia-civil).
-
-## Errores frecuentes
-
-- **Elegir la opción más familiar** sin comprobar el significado.
-- **No leer todas las opciones**: la segunda puede valer, pero la cuarta ser «la más completa».
-- **Confundir sinónimo y antónimo** por leer deprisa.
-- **Invertir la relación** en las analogías.
-- **Quedarse atascado en una palabra desconocida.** Con unos 41 segundos de media por pregunta, descarta lo que puedas y decide.
-
-## Contestar o dejar en blanco
-
-Los errores penalizan y las preguntas en blanco no. Con cuatro alternativas, cada error resta un tercio del valor de un acierto: contestar a ciegas no te da ventaja de media, pero **si descartas al menos una opción, contestar compensa**. Lo explicamos con números en [las series numéricas](/blog/series-numericas-psicotecnico-guardia-civil) y en [cómo se calcula la nota del examen](/blog/calcular-nota-examen-guardia-civil).
-
-## Checklist
-
-- [ ] Defino la palabra antes de mirar las opciones.
-- [ ] En analogías, formulo la relación con una frase y compruebo el orden.
-- [ ] Busco la opción más completa, no la primera aceptable.
-- [ ] Domino los conectores de oposición, causa y consecuencia.
-- [ ] Llevo un cuaderno de vocabulario y lo repaso de forma espaciada.
-- [ ] Practico siempre con cronómetro.
-
-Si quieres practicar con ejercicios corregidos y tiempo medido, los tienes en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
-
-## Preguntas frecuentes
-
-### ¿Qué tipos de razonamiento verbal pueden salir en el psicotécnico?
-
-La convocatoria no los detalla. Los formatos habituales en baterías de aptitudes son sinónimos, antónimos, analogías, palabra intrusa, completar oraciones y ordenar frases.
-
-### ¿Cómo mejoro mi vocabulario rápidamente?
-
-Con lectura diaria, un cuaderno de palabras nuevas repasado de forma espaciada, el estudio de prefijos y sufijos, y práctica de ejercicios.
-
-### ¿Penalizan los errores en el psicotécnico?
-
-Sí. Con cuatro alternativas, cada error resta un tercio del valor de un acierto (0,125 frente a 0,375 puntos). Las preguntas en blanco no restan.
-
-### ¿Es mejor dejar en blanco o arriesgar?
-
-Si puedes descartar al menos una opción, contestar compensa de media. A ciegas, ni ganas ni pierdes.
-
-### ¿Qué hago si dos opciones me parecen correctas?
-
-La convocatoria dice que señales la más completa: la que recoge el significado o la relación con más precisión.
-
-### ¿Sirve leer novelas para el psicotécnico?
-
-Sí, como base de vocabulario y comprensión. Pero combínalo con ejercicios cronometrados: leer no entrena el ritmo de 41 segundos por pregunta.',
-   '/blog/razonamiento-verbal-psicotecnico-guardia-civil.jpg', 'Opositora subrayando un libro en una biblioteca con luz de ventana', 'publicado', '2026-11-24T06:46:00.000Z', 'acceso-guardia-civil',
-   ARRAY['psicotécnico', 'razonamiento verbal', 'analogías', 'vocabulario']::text[], '{"title":"Razonamiento verbal psicotécnico: tipos y ejemplos","description":"Razonamiento verbal para el psicotécnico: sinónimos, antónimos, analogías e intrusos con ejemplos resueltos, ejercicios y cómo ganar vocabulario."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('series-numericas-psicotecnico-guardia-civil', 'articulo', 'Series numéricas del psicotécnico: los patrones que más se repiten', 'Las series numéricas se resuelven reconociendo patrones, no a base de cálculo. Los esquemas que explican la mayoría de ejercicios, con ejemplos resueltos, una batería de práctica con soluciones y un método para no perder más de unos segundos en cada una.', 'En el psicotécnico de la Guardia Civil tienes **80 preguntas en 55 minutos**, unos **41 segundos por pregunta** de media, y ese tiempo incluye la lectura de instrucciones. Con ese ritmo no puedes «pensar» cada serie desde cero: tienes que **reconocer el patrón de un vistazo**. La respuesta corta de este artículo: casi todas las series que encontrarás en una batería de práctica se explican con una docena de patrones, y se aprenden con un método fijo y mucha repetición cronometrada.
-
-Una aclaración honesta antes de empezar: la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 6.1.2) describe la prueba como «test de inteligencia general y/o escalas específicas que midan la capacidad de aprendizaje, análisis, razonamiento y potencial cognitivo», y **no detalla qué tipos de ejercicio incluye**. Las series numéricas son un formato muy habitual en este tipo de baterías y sirven para entrenar el razonamiento, pero no se puede asegurar que aparezcan ni en qué forma. Cómo está montada la prueba lo tienes en [el artículo sobre el psicotécnico](/blog/psicotecnico-guardia-civil-aptitudes-personalidad).
-
-## Un método de cuatro pasos
-
-1. **Mira la tendencia.** ¿Crece despacio, se dispara, baja, sube y baja? Eso ya te orienta (ver la tabla de señales más abajo).
-2. **Calcula las diferencias** entre términos consecutivos. Si son constantes o siguen una regla, ya la tienes. Si no, mira las **diferencias de las diferencias**.
-3. **Prueba con cocientes.** Si cada número es el anterior multiplicado por algo, es una serie geométrica.
-4. **Si nada encaja, separa posiciones pares e impares.** Muchas series son dos series entrelazadas o dos operaciones alternas.
-
-Y una regla de oro: **comprueba la regla en todos los términos**, no solo en los dos primeros. Si a los 20 o 25 segundos no ves nada, **marca la pregunta y salta**.
-
-## Los patrones, con ejemplos resueltos
-
-Todos los ejemplos son de elaboración propia.
-
-### 1. Suma o resta constante
-
-3, 7, 11, 15, **?** → se suma 4 cada vez. Respuesta: **19**.
-
-### 2. Multiplicación o división constante
-
-2, 6, 18, 54, **?** → se multiplica por 3. Respuesta: **162**.
-100, 50, 25, 12,5, **?** → se divide entre 2. Respuesta: **6,25**.
-
-### 3. Diferencias que crecen de forma regular
-
-1, 2, 4, 7, 11, **?** → las diferencias son 1, 2, 3, 4; la siguiente es 5. Respuesta: 11 + 5 = **16**.
-
-### 4. Diferencias que se multiplican
-
-2, 3, 5, 9, 17, **?** → diferencias 1, 2, 4, 8: cada una es el doble de la anterior. La siguiente es 16. Respuesta: 17 + 16 = **33**.
-
-### 5. Multiplicar y sumar (o restar)
-
-1, 3, 7, 15, 31, **?** → cada término es el anterior por 2 más 1. Respuesta: 31 × 2 + 1 = **63**.
-
-Fíjate en que esta serie también se puede leer como diferencias que se duplican (2, 4, 8, 16, y la siguiente 32). Ambas lecturas llevan a 63. Es frecuente que una serie admita dos explicaciones coherentes; si coinciden en el resultado, no pierdas tiempo decidiendo cuál es «la buena».
-
-### 6. Cuadrados y cubos
-
-1, 4, 9, 16, 25, **?** → cuadrados de 1 a 5. Respuesta: **36**.
-2, 5, 10, 17, 26, **?** → cuadrados más 1 (1+1, 4+1, 9+1…). Respuesta: 36 + 1 = **37**.
-1, 8, 27, 64, **?** → cubos. Respuesta: **125**.
-
-Memoriza los cuadrados hasta el 15 (225) y los cubos hasta el 6 (216): reconocerlos al instante ahorra mucho tiempo.
-
-### 7. Suma de los dos anteriores
-
-2, 3, 5, 8, 13, **?** → cada número es la suma de los dos anteriores. Respuesta: **21**.
-
-### 8. Multiplicadores que crecen
-
-1, 2, 6, 24, 120, **?** → se multiplica por 2, por 3, por 4, por 5; toca por 6. Respuesta: **720**.
-
-### 9. Dos operaciones alternas
-
-2, 4, 3, 6, 5, 10, **?** → se alterna «por 2» y «menos 1»: 2→4 (×2), 4→3 (−1), 3→6 (×2), 6→5 (−1), 5→10 (×2). Toca −1. Respuesta: **9**.
-
-### 10. Dos series entrelazadas
-
-3, 10, 6, 20, 9, 40, **?** → los términos en posiciones impares (3, 6, 9) suben de 3 en 3, y los de posiciones pares (10, 20, 40) se duplican. El siguiente ocupa una posición impar. Respuesta: **12**.
-
-### 11. Números primos
-
-2, 3, 5, 7, 11, 13, **?** → números primos consecutivos. Respuesta: **17**.
-
-### 12. Series de letras
-
-En algunas baterías aparecen series de letras o mixtas. A, C, E, G, **?** → se salta una letra cada vez. Respuesta: **I**.
-
-Atención a un detalle propio del español: según el test, **la Ñ puede contar o no** en el abecedario. Si las instrucciones no lo aclaran, comprueba si alguna opción solo cuadra contando la Ñ. Pasar las letras a números (A = 1, B = 2…) ayuda a ver los saltos.
-
-## Señales para identificar rápido el tipo
-
-| Lo que ves | Piensa primero en |
-|---|---|
-| Números que crecen despacio y con regularidad | Suma constante o diferencias crecientes |
-| Números que se disparan | Multiplicación, potencias o multiplicadores crecientes |
-| Números que bajan a la mitad, tercio… | División constante |
-| Resultados que suben y bajan | Dos operaciones alternas o dos series entrelazadas |
-| Cuadrados perfectos (1, 4, 9, 16…) o casi | Potencias, o potencias más o menos algo |
-| 2, 3, 5, 7, 11, 13… | Primos |
-| Cada término parece la suma de otros | Suma de los dos anteriores |
-
-## Estimar para descartar: un ejemplo
-
-No siempre hace falta calcular. En la serie 2, 6, 18, 54, **?**, con las opciones a) 108, b) 160, c) 162 y d) 164: como se multiplica por 3, el resultado debe ser múltiplo de 3 y bastante mayor que 108. Solo **162** lo cumple. Has resuelto la pregunta sin hacer la multiplicación.
-
-## Practica: seis series con solución
-
-Intenta resolverlas con un límite de 40 segundos cada una antes de mirar las soluciones.
-
-1. 5, 9, 17, 33, **?**
-2. 81, 27, 9, 3, **?**
-3. 4, 6, 9, 13, 18, **?**
-4. 7, 14, 10, 20, 16, **?**
-5. 2, 12, 4, 15, 6, 18, **?**
-6. 3, 4, 7, 11, 18, **?**
-
-**Soluciones:**
-
-1. **65**. Cada término es el anterior por 2 menos 1 (o diferencias 4, 8, 16 → 32).
-2. **1**. Se divide entre 3.
-3. **24**. Diferencias 2, 3, 4, 5 → toca 6.
-4. **32**. Alterna «por 2» y «menos 4»: 16 × 2 = 32.
-5. **8**. Posiciones impares: 2, 4, 6 → 8; las pares (12, 15, 18) suben de 3 en 3.
-6. **29**. Cada término es la suma de los dos anteriores: 11 + 18 = 29.
-
-Si fallaste alguna, no basta con mirar la solución: apunta **qué patrón era** y por qué no lo viste. Es lo que hará que la próxima vez lo reconozcas en segundos.
-
-## Errores frecuentes
-
-- **Calcular con detalle lo que se puede estimar.** A veces basta ver que la respuesta ha de ser par, múltiplo de algo o mayor que cierto valor.
-- **Obsesionarse con una serie.** Con 41 segundos de media, una pregunta atascada te cuesta varias fáciles al final.
-- **Dar por buena la primera regla que encaja** en los dos primeros términos sin comprobar el resto.
-- **Olvidar las posiciones pares e impares** cuando la serie sube y baja.
-- **Equivocarse en la posición del término pedido** en series entrelazadas: cuenta si el hueco es par o impar.
-
-## ¿Contestar o dejar en blanco?
-
-Las respuestas incorrectas penalizan y las preguntas en blanco no. Con la fórmula de la base 7.3 y cuatro alternativas, cada acierto vale **0,375 puntos** y cada error resta **0,125** (un tercio de acierto). Hecha la cuenta del valor esperado:
-
-| Opciones que quedan tras descartar | Valor medio de contestar al azar |
-|---|---|
-| 4 (no descartas ninguna) | 0 puntos: ni ganas ni pierdes de media |
-| 3 | +0,04 puntos por pregunta |
-| 2 | +0,125 puntos por pregunta |
-
-Es decir: contestar a ciegas no mejora tu nota de media, pero **si descartas al menos una opción con seguridad, contestar compensa**. Para superar la prueba necesitas **12 puntos sobre 30**, que equivalen a **32 aciertos netos**. Lo desarrollamos en [cómo se calcula la nota del examen](/blog/calcular-nota-examen-guardia-civil), y cómo influye esta nota en el total, en [la nota de corte](/blog/nota-de-corte-guardia-civil).
-
-## Cómo entrenarlas
-
-- **Siempre con cronómetro.** Sin presión de tiempo estás practicando otra prueba.
-- **En sesiones cortas y frecuentes**, mejor que un atracón semanal.
-- **Con un cuaderno de patrones**: cada vez que falles, apunta el patrón con un ejemplo.
-- **Mezclando tipos**: en el examen no te avisan de qué viene, así que no entrenes siempre bloques del mismo patrón.
-
-En los próximos días organizaremos todo esto en una rutina de quince minutos diarios que combina series con otros tipos de ejercicio. Si quieres practicar con baterías corregidas y tiempo medido, las tienes en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
-
-## Checklist
-
-- [ ] Aplico el método: tendencia, diferencias, cocientes, pares e impares.
-- [ ] Me sé los cuadrados hasta el 15 y los cubos hasta el 6.
-- [ ] Compruebo la regla en todos los términos.
-- [ ] Salto la pregunta si a los 20-25 segundos no veo nada.
-- [ ] Solo contesto al azar si he descartado alguna opción.
-- [ ] Llevo un cuaderno con los patrones que he fallado.
-
-## Preguntas frecuentes
-
-### ¿Salen series numéricas en el psicotécnico de la Guardia Civil?
-
-La convocatoria no detalla los tipos de ejercicio; solo dice que es una batería de aptitudes intelectuales que mide aprendizaje, análisis, razonamiento y potencial cognitivo. Las series numéricas son un formato habitual en estas baterías, por eso conviene entrenarlas.
-
-### ¿Cuánto tiempo hay por pregunta?
-
-80 preguntas en 55 minutos, incluida la lectura de instrucciones: unos 41 segundos de media.
-
-### ¿Se puede usar calculadora?
-
-No. La base 5.3 prohíbe calculadoras y cualquier otro tipo de ayuda, salvo que lo determine el Tribunal.
-
-### ¿Qué hago si no veo el patrón?
-
-Salta a la siguiente y vuelve al final si te sobra tiempo. Una pregunta atascada cuesta varias fáciles.
-
-### ¿Compensa contestar al azar?
-
-Sin descartar ninguna opción, de media no ganas ni pierdes. Si descartas al menos una, contestar compensa.
-
-### ¿Qué hago si una serie admite dos soluciones?
-
-Comprueba cuál aparece entre las opciones. Si solo una de las dos está, esa es la respuesta; si ambas lecturas dan el mismo número, no pierdas tiempo.
-
-### ¿Cuánto tiempo necesito para dominarlas?
-
-Depende de tu punto de partida. Lo que marca la diferencia es practicar con regularidad y revisar cada fallo, más que el número total de horas.',
-   '/blog/series-numericas-psicotecnico-guardia-civil.jpg', 'Aspirante mirando con el ceño fruncido un cuadernillo de series numéricas en un examen', 'publicado', '2026-11-23T06:29:00.000Z', 'acceso-guardia-civil',
-   ARRAY['psicotécnico', 'series numéricas', 'aptitudes', 'razonamiento']::text[], '{"title":"Series numéricas psicotécnico: patrones y ejemplos","description":"Series numéricas para el psicotécnico de la Guardia Civil: patrones habituales, ejemplos resueltos, ejercicios con solución y método rápido."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

@@ -3,7 +3,7 @@ titulo: Mujeres en la Guardia Civil: acceso, datos y conciliación
 slug: mujeres-en-la-guardia-civil-acceso-datos-y-conciliacion
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-13T07:56:00+01:00
+publicado_en: 2027-01-29T07:28:00+01:00
 curso: acceso-guardia-civil
 entradilla: Misma oposición, marcas físicas propias y medidas específicas si hay embarazo, lactancia o permiso por nacimiento. Qué dice la convocatoria de 2026, qué cifras oficiales hay (con su año) y qué prevén las normas de enseñanza y de destinos.
 etiquetas: [mujeres, igualdad, conciliación, embarazo]

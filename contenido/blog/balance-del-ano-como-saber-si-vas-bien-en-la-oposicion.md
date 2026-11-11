@@ -10,6 +10,8 @@ etiquetas: [balance, planificación, simulacros, nota de corte]
 seo_title: Cómo saber si vas bien en la oposición a Guardia Civil
 seo_description: Indicadores para el balance de fin de año en tu oposición: simulacros, mínimos oficiales, notas de corte 2022-2026, temario, marcas físicas y constancia.
 datos: {}
+portada: /blog/balance-del-ano-como-saber-si-vas-bien-en-la-oposicion.jpg
+portada_alt: Aspirante revisando con bolígrafo rojo simulacros corregidos y una gráfica de tendencia junto a la ventana
 ---
 **Respuesta corta:** sabes si vas bien cuando puedes medirlo con algo que no depende de cómo te sientes. Las sensaciones engañan en los dos sentidos; un simulacro corregido, no. Aquí tienes cinco indicadores propios para hacer balance antes del 31 de diciembre, cómo calcularlos y qué hacer con cada resultado.
 

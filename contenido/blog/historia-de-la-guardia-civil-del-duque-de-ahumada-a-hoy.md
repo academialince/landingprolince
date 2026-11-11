@@ -3,7 +3,7 @@ titulo: Historia de la Guardia Civil: del Duque de Ahumada a hoy
 slug: historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-25T07:33:00+01:00
+publicado_en: 2026-12-20T07:08:00+01:00
 curso: acceso-guardia-civil
 entradilla: De los decretos de 1844 al Código de Conducta de 2022: cronología de la Guardia Civil por etapas, con fechas contrastadas en su web oficial, la trampa de los dos decretos fundacionales, un esquema de estudio y un test propio.
 etiquetas: [historia, duque de ahumada, temario, cronología]

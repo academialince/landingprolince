@@ -3,13 +3,15 @@ titulo: Simulacros: cada cuánto hacerlos y cómo analizar los resultados
 slug: simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-22T07:29:00+01:00
+publicado_en: 2027-01-12T07:39:00+01:00
 curso: acceso-guardia-civil
 entradilla: Un simulacro que no se analiza es tiempo perdido. Qué frecuencia te conviene en cada fase, cómo calcular la nota con la fórmula oficial, cuándo compensa arriesgar y una hoja de análisis para saber exactamente qué repasar.
 etiquetas: [simulacros, test, nota, análisis de resultados]
 seo_title: Simulacros Guardia Civil: frecuencia y análisis de nota
 seo_description: Cada cuánto hacer simulacros de Guardia Civil, cómo calcular la nota con la fórmula oficial, cuándo arriesgar y cómo analizar tus errores.
 datos: {}
+portada: /blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados.jpg
+portada_alt: Aspirante repasando su hoja de respuestas en un aula de simulacro con el escudo de la Guardia Civil al fondo
 ---
 Un simulacro mide dónde estás, pero **solo mejora tu nota si luego lo analizas**. Hacer uno cada día sin revisar los fallos da sensación de avance, no avance. **Respuesta corta:** durante la primera vuelta del temario, tests por tema y algún simulacro parcial; en la segunda vuelta, un simulacro completo cada una o dos semanas; en la fase final, uno por semana, siempre con su análisis al día siguiente.
 

@@ -3,13 +3,15 @@ titulo: "Certificados de idiomas para la Guardia Civil: cuál sacarte y cuánto 
 slug: certificados-de-idiomas-para-la-guardia-civil-cual-sacarte
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-03T07:53:00+01:00
+publicado_en: 2027-01-27T07:54:00+01:00
 curso: acceso-guardia-civil
 entradilla: El baremo de la convocatoria de 2026 puntúa los certificados de idiomas con 5, 7 o 9 puntos según el nivel, dentro de un tope de 27 para los méritos académicos. Qué títulos se admiten, qué condiciones exige el apéndice I y cómo decidir cuál sacarte.
 etiquetas: [idiomas, certificados, fase de concurso, baremo]
 seo_title: Certificados de idiomas Guardia Civil: cuántos puntos suman
 seo_description: Qué certificados de idiomas puntúan en la Guardia Civil 2026: EOI, Cambridge, IELTS, Trinity y CertAcles, con 5, 7 o 9 puntos y tope de 27 académicos.
 datos: {}
+portada: /blog/certificados-de-idiomas-para-la-guardia-civil-cual-sacarte.jpg
+portada_alt: Aspirante entregando una carpeta con un diploma en una ventanilla de una oficina administrativa
 ---
 **Respuesta corta:** según el apéndice I de la convocatoria de 2026, un certificado de nivel **B2 suma 5 puntos**, uno de **C1, 7** y uno de **C2, 9**. Por cada idioma solo cuenta una acreditación, la de mayor puntuación, y todos los méritos académicos juntos tienen un **tope de 27 puntos**. Solo puntúan los títulos que aparecen expresamente en la lista. El baremo puede cambiar entre convocatorias, así que compruébalo en la que se publique.
 

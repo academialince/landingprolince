@@ -2,449 +2,153 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('derecho-penal-para-guardia-civil-delito-penas-y-grados', 'articulo', 'Derecho Penal para Guardia Civil: delito, penas y grados de ejecución', 'Qué es un delito según el Código Penal, cómo se clasifican las penas, en qué se diferencian tentativa y consumación, quién responde como autor o cómplice y cuándo prescribe un delito. La parte general del tema, con casos y un test propio.', 'El tema 8 del programa, «Derecho Penal», se apoya en la Ley Orgánica 10/1995, del Código Penal ([BOE-A-1995-25444](https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444)). **Respuesta corta:** un delito es una acción u omisión dolosa o imprudente penada por la ley (art. 10); las penas se clasifican en graves, menos graves y leves según su naturaleza y duración (art. 33); y son punibles el delito consumado y la tentativa (art. 15).
+  ('deontologia-profesional-el-codigo-de-conducta-que-entra', 'articulo', 'Deontología profesional en la Guardia Civil: el Código de Conducta (RD 176/2022)', 'El tema 19 junta los Principios Básicos de la ONU sobre el empleo de la fuerza (La Habana, 1990) y el Código de Conducta de la Guardia Civil (RD 176/2022). Estructura, artículos clave, Decálogo, comparación entre textos, caso práctico y test.', 'En el programa de la Escala de Cabos y Guardias, el tema 19, «Deontología profesional», tiene dos bloques: los **Principios Básicos sobre el Empleo de la Fuerza y de Armas de Fuego por los Funcionarios Encargados de Hacer Cumplir la Ley**, adoptados por el Octavo Congreso de las Naciones Unidas sobre Prevención del Delito y Tratamiento del Delincuente (La Habana, del 27 de agosto al 7 de septiembre de 1990), y el **Real Decreto 176/2022, de 4 de marzo, por el que se aprueba el Código de Conducta del personal de la Guardia Civil** (consulta el [temario](/temario-guardia-civil)).
 
-Todos los artículos citados se han comprobado en el texto consolidado. El Código Penal se reforma a menudo, así que estudia siempre sobre la versión vigente del BOE.
+**Respuesta corta:** el texto nacional que debes estudiar es el **Código de Conducta** ([BOE-A-2022-3477](https://www.boe.es/buscar/act.php?id=BOE-A-2022-3477)): un real decreto de **seis artículos** que aprueba un Código de **dos títulos y 50 artículos**, más un **Decálogo** en anexo. El texto internacional son **26 principios** de la ONU agrupados en seis apartados.
 
-## Qué entra del Código Penal
+## Qué no entra en el tema 19
 
-Según nuestro [temario](/temario-guardia-civil), el programa incluye:
+La LO 11/2007 (derechos y deberes) y la Ley 29/2014 (régimen del personal) pertenecen al **tema 15**, junto con la [LO 2/1986](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada) y la [historia del Cuerpo](/blog/historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy). Tampoco figura en el tema el Código de Conducta de la ONU para funcionarios encargados de hacer cumplir la ley (1979), aunque el preámbulo del RD 176/2022 lo cita como inspiración. Aun así, conviene saber que el Código de Conducta se dicta para cumplir el mandato del artículo 7 de la Ley 29/2014 y que su preámbulo enlaza con el artículo 5 de la LO 2/1986.
 
-| Parte | Títulos | Contenido |
-|---|---|---|
-| Título Preliminar | Completo | Garantías penales y aplicación de la ley penal |
-| Libro I (parte general) | I, II, III (Cap. I), IV, V (Caps. I y II) y VII | Infracción penal, personas responsables, clases de penas, medidas de seguridad, responsabilidad civil y extinción de la responsabilidad |
-| Libro II (delitos) | I, III, VI, VII, VII bis, VIII, XII (Caps. I y II), XIX, XXI y XXIV | Homicidio, lesiones, delitos contra la libertad, torturas e integridad moral, trata de seres humanos, libertad sexual, relaciones familiares, Administración pública, Constitución y Comunidad Internacional |
+## El Real Decreto 176/2022
 
-Este artículo se centra en la parte general, que es la base para entender cualquier delito concreto.
+Aprobado el 4 de marzo de 2022 y publicado en el BOE del 5 de marzo, entró en vigor **a los veinte días de su publicación**, el 25 de marzo de 2022, a propuesta conjunta de los ministros del Interior y de Defensa. Su parte dispositiva:
 
-## Garantías: el Título Preliminar
-
-- **Legalidad (art. 1):** no se castiga ninguna acción u omisión que no esté prevista como delito por una ley **anterior** a su perpetración.
-- **Irretroactividad (art. 2):** ningún delito se castiga con pena no prevista antes. Excepción: las leyes penales **que favorecen al reo** tienen efecto retroactivo, **incluso si ya hay sentencia firme** y el condenado está cumpliendo condena; en caso de duda, se oye al reo.
-- **Garantía de ejecución (art. 3):** solo se ejecutan penas en virtud de **sentencia firme** de juez o tribunal competente.
-- **Culpabilidad (art. 5):** **no hay pena sin dolo o imprudencia.**
-
-## Qué es un delito
-
-El artículo 10 lo define: **acciones y omisiones dolosas o imprudentes penadas por la ley**. Matices:
-
-- La **imprudencia** solo se castiga cuando la ley lo dispone expresamente (art. 12).
-- **Comisión por omisión (art. 11):** no evitar un resultado equivale a causarlo cuando se infringe un especial deber jurídico, porque hay una **obligación legal o contractual de actuar** o porque el omitente **creó antes el riesgo**.
-- **Error (art. 14):** el error invencible sobre un hecho constitutivo de la infracción excluye la responsabilidad; si es vencible, se castiga como imprudencia, en su caso. El error invencible sobre la **ilicitud** del hecho también la excluye; si es vencible, pena inferior en uno o dos grados.
-- **Menores de dieciocho años (art. 19):** no responden con arreglo al Código Penal, sino a la ley que regula la responsabilidad penal del menor.
-
-## Delitos graves, menos graves y leves
-
-El artículo 13 clasifica los delitos según su pena, y el 33 define cada clase. Si una pena puede encajar a la vez en grave y menos grave, el delito es **grave**; si puede ser leve y menos grave, es **leve** (art. 13.4).
-
-| Clase | Ejemplos de pena (art. 33) |
+| Artículo | Contenido |
 |---|---|
-| **Graves** | Prisión permanente revisable; prisión **superior a cinco años**; inhabilitación absoluta; privación del derecho a conducir o a tener armas por más de ocho años |
-| **Menos graves** | Prisión de **tres meses hasta cinco años**; multa de **más de tres meses**; privación del permiso de conducir de un año y un día a ocho años; trabajos en beneficio de la comunidad de **31 días a un año** |
-| **Leves** | Multa de **hasta tres meses**; localización permanente de **un día a tres meses**; privación del permiso de conducir de tres meses a un año; trabajos en beneficio de la comunidad de **uno a treinta días** |
+| 1 | Objeto: aprobar el Código de Conducta |
+| 2 | El Código es la guía de valores, principios y normas; el Decálogo compendia las virtudes fundamentales |
+| 3 | Se aplica al personal sujeto al régimen de derechos y deberes del Cuerpo y al **alumnado de los centros de formación** de las escalas de Oficiales y de Cabos y Guardias |
+| 4 | Se incorpora a los planes de estudios y los mandos velan por que se conozca |
+| 5 | Los **procesos selectivos de acceso directo** contemplarán su contenido en sus convocatorias y en su desarrollo |
+| 6 | Servirá de referencia a las asociaciones profesionales para fomentar la deontología (art. 36 de la LO 11/2007) |
 
-Otros datos de la parte general:
+Su **disposición adicional única** declara aplicables al personal de la Guardia Civil las Reales Ordenanzas para las Fuerzas Armadas (RD 96/2009), aunque los capítulos I, II, III y V de su título IV solo rigen en conflicto bélico, estado de sitio, misiones militares o integración en unidades militares.
 
-- **Penas privativas de libertad (art. 35):** prisión permanente revisable, prisión, localización permanente y responsabilidad personal subsidiaria por impago de multa.
-- **Duración de la prisión (art. 36.2):** mínimo **tres meses** y máximo **veinte años**, salvo lo que excepcionalmente dispongan otros preceptos.
-- **Personas jurídicas (art. 33.7):** todas sus penas se consideran graves.
+El preámbulo aclara que «Código» no se usa en el sentido de reglamento, sino como compilación de valores, y lo califica de «código ético»: su eficacia depende de que cada guardia civil lo asuma como propio.
 
-## Grados de ejecución
+## Estructura del Código
 
-Piensa en el camino del delito, del pensamiento al resultado:
-
-1. **Actos preparatorios punibles (arts. 17 y 18):** la **conspiración** (dos o más personas se conciertan y resuelven ejecutar un delito), la **proposición** (quien ha resuelto delinquir invita a otros) y la **provocación** (incitación directa con publicidad o ante una concurrencia de personas). Solo se castigan **en los casos expresamente previstos**. Si a la provocación sigue el delito, se castiga como **inducción**.
-2. **Tentativa (art. 16.1):** el sujeto da principio a la ejecución **directamente por hechos exteriores**, practicando todos o parte de los actos que deberían producir el resultado, pero este no se produce por **causas independientes de su voluntad**. Pena inferior en **uno o dos grados** (art. 62).
-3. **Consumación:** se produce el resultado.
-
-**Desistimiento (art. 16.2 y 3):** queda exento de responsabilidad por el delito intentado quien evita **voluntariamente** la consumación, desistiendo o impidiendo el resultado, sin perjuicio de los actos ya ejecutados si constituyen otro delito. Si intervienen varios, solo queda exento el que desiste e impide o intenta impedir, **seria, firme y decididamente**, la consumación.
-
-## Quién responde: autores y cómplices
-
-Son criminalmente responsables **los autores y los cómplices** (art. 27).
-
-| Figura | Definición | Artículo |
+| Parte | Artículos | Contenido |
 |---|---|---|
-| Autor directo, coautor y autor mediato | Realiza el hecho por sí solo, conjuntamente o por medio de otro del que se sirve como instrumento | 28 |
-| Inductor (se considera autor) | Induce directamente a otro a ejecutarlo | 28.a |
-| Cooperador necesario (se considera autor) | Coopera con un acto sin el cual no se habría efectuado | 28.b |
-| Cómplice | Coopera con actos anteriores o simultáneos no imprescindibles | 29 |
+| Título I, capítulo I: valores fundamentales | 1 a 9 | Honor, integridad, lealtad, valor, sentido de la justicia, imparcialidad y neutralidad, responsabilidad, dignidad y espíritu de sacrificio |
+| Título I, capítulo II: principios institucionales | 10 a 23 | Defensa de la Constitución; derechos fundamentales; igualdad y no discriminación; neutralidad ideológica y política; jerarquía; disciplina; subordinación; pluralidad cultural; formación; cooperación; prestigio; espíritu benemérito; espíritu de Cuerpo y compañerismo; historia y tradiciones |
+| Título II, capítulo I: normas generales | 24 a 32 | Disponibilidad permanente; serenidad, prudencia y firmeza; eficacia; reserva; uniforme; sostenibilidad; igualdad, diversidad y conciliación; saludo militar; salud |
+| Título II, capítulo II: normas en el servicio | 33 a 50 | Ciudadanía; autoridades civiles; Justicia; otros cuerpos; Fuerzas Armadas; transparencia; identificación; prevención de riesgos; mando; liderazgo; empleo de la fuerza; víctimas; detenidos; investigaciones; misiones militares y en el exterior; funciones docentes y técnicas |
+| Anexo | — | Decálogo |
 
-## Eximentes, atenuantes y agravantes
+Truco para memorizar los nueve valores del capítulo I: empiezan por **honor** (art. 1) y terminan por **espíritu de sacrificio** (art. 9).
 
-- **Eximentes (art. 20):** anomalía o alteración psíquica, intoxicación plena, alteraciones de la percepción desde el nacimiento o la infancia, **legítima defensa** (agresión ilegítima, necesidad racional del medio empleado y falta de provocación suficiente), **estado de necesidad**, **miedo insuperable** y **cumplimiento de un deber o ejercicio legítimo de un derecho, oficio o cargo**. Esta última es la que ampara, con proporcionalidad, la actuación de un agente.
-- **Atenuantes (art. 21):** eximentes incompletas, grave adicción, arrebato u obcecación, **confesión** antes de conocer que el procedimiento se dirige contra el culpable, **reparación del daño** antes del juicio oral, **dilaciones indebidas** y la de análoga significación.
-- **Agravantes (art. 22):** alevosía, disfraz o abuso de superioridad, precio, motivos discriminatorios, ensañamiento, abuso de confianza, **prevalerse del carácter público** del culpable y **reincidencia**.
+## Los preceptos que conviene leer despacio
 
-## Extinción y prescripción (Título VII)
+- **Art. 1, honor**: «ha de ser la principal divisa» de los hombres y mujeres de la Guardia Civil.
+- **Art. 2, integridad**: no aceptar ofrecimientos, favores o regalos que puedan comprometer su honestidad.
+- **Art. 16.2, subordinación**: ante órdenes que entrañen actos que **manifiestamente** constituyan delito o sean contrarios a la Constitución o a las leyes, **se abstendrán de obedecerlas** y comunicarán su contenido y su emisor, por el medio más rápido y eficaz, a la autoridad superior.
+- **Art. 22.2**: un compañerismo mal entendido nunca puede dar cabida al **encubrimiento** de conductas ilegales.
+- **Art. 27, reserva**: deber de reserva (sigilo) y deber de secreto; prudencia al difundir contenidos en redes que puedan parecer oficiales.
+- **Art. 39, identificación**: obligación de identificarse cuando lo pidan autoridades o ciudadanos, salvo que ello ponga en peligro la misión o la seguridad.
+- **Art. 41.3, mando**: ningún mando puede ordenar actos contrarios a la Constitución, a las leyes o que constituyan delito.
+- **Art. 43, empleo de la fuerza**: «la persuasión y la fuerza moral serán sus primeras armas»; la fuerza, solo si no hay un modo menos lesivo y de forma **gradual**, con **congruencia, oportunidad y proporcionalidad**; las armas de fuego, solo ante un **riesgo racionalmente grave** para la vida o la integridad propias o de terceros, o un grave riesgo para la seguridad ciudadana.
+- **Art. 44**: trato respetuoso a víctimas y testigos y **especial sensibilidad** con las víctimas de violencia de género y las personas vulnerables.
+- **Art. 45**: detener de la forma más respetuosa con la reputación, la imagen y la dignidad, sin vejación, maltrato ni injuria. Relaciónalo con [detención y habeas corpus](/blog/detencion-y-habeas-corpus-los-plazos-que-caen-siempre).
 
-La responsabilidad criminal se extingue por la muerte del reo, el cumplimiento de la condena, la remisión definitiva de la pena, la **amnistía o el indulto**, el perdón del ofendido en los casos previstos y la **prescripción del delito o de la pena** (art. 130).
+## El Decálogo
 
-| Pena máxima del delito | Prescribe a los (art. 131) |
+| N.º | Virtud | Idea |
+|---|---|---|
+| 1.º | Honor | «Una vez perdido, no se recobra jamás» |
+| 2.º | Defensa de España y de la Constitución | Con lealtad al Rey |
+| 3.º | Dignidad | Como exigen el Cuerpo y el uniforme |
+| 4.º | Respeto a los derechos y libertades | Consideración hacia la vida y la dignidad |
+| 5.º | Integridad | El deber cumplido como mayor recompensa |
+| 6.º | Vocación de servicio | Valor, decisión, iniciativa y sacrificio |
+| 7.º | Espíritu benemérito | Ayudar, en especial a los más vulnerables |
+| 8.º | Lealtad y espíritu de cuerpo | Fidelidad a valores y tradiciones |
+| 9.º | Disciplina | Obedecer con lealtad y responsabilidad |
+| 10.º | Serenidad y empleo de la fuerza | «Prudente sin debilidad y firme sin violencia» |
+
+## Los Principios Básicos de la ONU (1990)
+
+| Apartado | Principios |
 |---|---|
-| Prisión de 15 o más años | 20 años |
-| Inhabilitación de más de 10 años o prisión de más de 10 y menos de 15 | 15 años |
-| Prisión o inhabilitación de más de 5 y hasta 10 años | 10 años |
-| Resto de delitos | 5 años |
-| Delitos leves e injurias y calumnias | 1 año |
+| Disposiciones generales | 1 a 8 |
+| Disposiciones especiales | 9 a 11 |
+| Actuación en caso de reuniones ilícitas | 12 a 14 |
+| Vigilancia de personas bajo custodia o detenidas | 15 a 17 |
+| Calificaciones, capacitación y asesoramiento | 18 a 21 |
+| Procedimientos de presentación de informes y recursos | 22 a 26 |
 
-No prescriben nunca los delitos de lesa humanidad, genocidio y contra personas y bienes protegidos en conflicto armado (salvo los del art. 614), ni los de terrorismo que hayan causado la muerte de una persona.
+Los que más conviene dominar:
 
-## Casos prácticos (hipotéticos)
+- **Principio 4**: medios no violentos, en la medida de lo posible, antes de recurrir a la fuerza o a las armas de fuego.
+- **Principio 5**: cuando el uso de armas sea inevitable, moderación y proporción, reducir daños, asistencia médica lo antes posible y aviso a parientes o amigos íntimos.
+- **Principio 8**: ninguna situación excepcional, como la inestabilidad política, justifica quebrantarlos.
+- **Principio 9**: armas de fuego contra personas solo en defensa propia o de otros ante peligro inminente de muerte o lesiones graves, para evitar un delito particularmente grave que entrañe seria amenaza para la vida, o para detener o impedir la fuga de quien represente ese peligro, y solo si no bastan medidas menos extremas. **El uso intencional de armas letales, solo cuando sea estrictamente inevitable para proteger una vida.**
+- **Principio 10**: identificarse y advertir claramente de la intención de disparar, salvo que el aviso ponga en peligro a los agentes o a terceros o resulte evidentemente inútil.
+- **Principios 13 y 14**: reuniones ilícitas no violentas, evitar la fuerza o reducirla al mínimo; reuniones violentas, armas de fuego solo en los supuestos del principio 9.
+- **Principio 26**: no cabe alegar obediencia a órdenes superiores manifiestamente ilícitas que causen muerte o heridas graves si hubo oportunidad razonable de negarse; también responden los superiores que las dieron.
 
-1. **El ladrón sorprendido.** Alguien fuerza la puerta de un coche y la patrulla le detiene antes de que se lleve nada: ha dado principio a la ejecución por hechos exteriores y el resultado no se produce por causas ajenas a su voluntad. Es **tentativa**.
-2. **El arrepentido.** Si, a medio forzar la puerta, se marcha por decisión propia, hay **desistimiento voluntario**: no responde por el delito intentado, pero sí por los daños causados si constituyen delito.
-3. **El vigilante.** Quien vigila la calle mientras otros roban, con una aportación que no es imprescindible, es **cómplice**; quien facilita la única llave sin la cual no se habría cometido el robo, **cooperador necesario**.
+## Tres textos, una misma lógica
 
-## Errores frecuentes
-
-- **Confundir conspiración y proposición:** en la conspiración se conciertan varios; en la proposición, uno que ya ha decidido invita a otros.
-- **Creer que el cooperador necesario es cómplice:** el artículo 28 lo **considera autor**.
-- **Decir que la tentativa se castiga igual que el delito consumado:** pena inferior en uno o dos grados.
-- **Mezclar las multas:** «hasta tres meses», leve; «más de tres meses», menos grave.
-
-## Mini test propio
-
-Preguntas elaboradas por ProLince; no son preguntas oficiales.
-
-**1. Según el artículo 10 del Código Penal, son delitos:**
-a) Las acciones dolosas penadas por la ley. b) Las acciones y omisiones dolosas o imprudentes penadas por la ley. c) Las infracciones de la ley penal y administrativa. d) Las conductas antijurídicas.
-
-**2. La prisión de tres meses a cinco años es una pena:**
-a) Grave. b) Menos grave. c) Leve. d) Accesoria.
-
-**3. Quien coopera con un acto sin el cual el delito no se habría efectuado es considerado:**
-a) Cómplice. b) Encubridor. c) Autor. d) Inductor.
-
-**4. Los delitos leves prescriben:**
-a) Al mes. b) A los seis meses. c) Al año. d) A los cinco años.
-
-**5. A los autores de tentativa se les impone la pena:**
-a) Del delito consumado. b) Inferior en uno o dos grados. c) Inferior en tres grados. d) De multa.
-
-**Soluciones:** 1-b (art. 10); 2-b (art. 33.3); 3-c (art. 28.b); 4-c (art. 131.1); 5-b (art. 62).
-
-## Cómo estudiarlo
-
-- Haz un esquema de un folio con **definiciones literales** (delito, tentativa, conspiración, proposición, autor, cómplice), porque las diferencias están en las palabras.
-- Construye tu propia **tabla de penas** del artículo 33 y otra de **prescripción** del artículo 131.
-- Relaciona las garantías con los artículos 9.3 y 25 de la Constitución, que tienes en [cómo estudiar la Constitución](/blog/constitucion-oposicion-guardia-civil) y en [derechos fundamentales y libertades públicas](/blog/derechos-fundamentales-libertades-publicas-guardia-civil).
-- Compara la analogía prohibida en Derecho Penal con lo que viste en [Derecho Civil](/blog/derecho-civil-en-la-oposicion-a-guardia-civil) (art. 4.2 del Código Civil), y repasa cómo puntúan los errores en la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
-
-Si te falta base jurídica, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te guía por el temario.
-
-## Preguntas frecuentes
-
-### ¿Cuántos delitos hay que estudiar de la parte especial?
-Solo los títulos del Libro II que selecciona el programa: I, III, VI, VII, VII bis, VIII, XII (Caps. I y II), XIX, XXI y XXIV.
-
-### ¿La tentativa se castiga igual que el delito consumado?
-No: se impone la pena inferior en uno o dos grados (art. 62).
-
-### ¿Se castiga siempre la conspiración?
-No. La conspiración y la proposición solo se castigan en los casos especialmente previstos en la ley (art. 17.3).
-
-### ¿Responde penalmente un menor de 18 años?
-No con arreglo al Código Penal; responde conforme a la ley de responsabilidad penal del menor (art. 19).
-
-### ¿Puede aplicarse una ley penal nueva a hechos anteriores?
-Solo si favorece al reo, incluso con sentencia firme (art. 2.2).
-
-### ¿Cuál es la duración máxima ordinaria de la prisión?
-Veinte años, salvo lo que excepcionalmente dispongan otros preceptos (art. 36.2), y sin contar la prisión permanente revisable.',
-   NULL, NULL, 'publicado', '2026-12-16T06:00:00.000Z', 'acceso-guardia-civil',
-   ARRAY['derecho penal', 'código penal', 'delito', 'penas', 'temario']::text[], '{"title":"Derecho Penal Guardia Civil: delito, penas y tentativa","description":"Parte general del Código Penal para la oposición a Guardia Civil: delito, clases de penas, tentativa, autoría, eximentes, prescripción y test propio."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('detencion-y-habeas-corpus-los-plazos-que-caen-siempre', 'articulo', 'Detención y habeas corpus: los plazos que tienes que conocer', '72 horas, 24 horas, 3 horas, 5 días. Cómo encajan los plazos de la detención del artículo 17 de la Constitución y de los artículos 496 y 520 de la LECrim, los derechos del detenido y el habeas corpus de la LO 6/1984, comprobados en el BOE.', 'La detención es uno de los bloques más prácticos del temario jurídico. **Respuesta corta:** la detención preventiva no puede durar más del **tiempo estrictamente necesario** para las averiguaciones y, **en todo caso**, en un máximo de **72 horas** el detenido debe quedar en libertad o a disposición judicial (art. 17.2 de la Constitución y art. 520.1 de la LECrim). La LECrim conserva además las **24 horas** de su artículo 496 para entregar al detenido al juez más próximo. Y el *habeas corpus* es el procedimiento para que un juez compruebe de inmediato si una detención es legal: debe resolverse en **24 horas** desde el auto de incoación.
-
-Fuentes (textos consolidados): la [Constitución](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), la [Ley de Enjuiciamiento Criminal](https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036) y la [LO 6/1984, de Habeas Corpus](https://www.boe.es/buscar/act.php?id=BOE-A-1984-11620). Si aún no has repasado el artículo 17 de la Constitución, empieza por el de [derechos fundamentales](/blog/derechos-fundamentales-libertades-publicas-guardia-civil).
-
-## Todos los plazos en una tabla
-
-| Plazo | Qué mide | Desde cuándo | Norma |
+| Cuestión | LO 2/1986 (art. 5) | Código de Conducta | Principios ONU |
 |---|---|---|---|
-| **El estrictamente necesario** | Duración de la detención preventiva | Detención | Art. 17.2 CE; art. 520.1 LECrim |
-| **72 horas** | Límite máximo absoluto para poner al detenido en libertad o a disposición judicial | Detención | Art. 17.2 CE; art. 520.1 LECrim |
-| **24 horas** | Plazo para que quien detiene (particular, autoridad o agente) libere o entregue al detenido al juez más próximo; si la demora excede de 24 horas, responsabilidad penal | Detención | Art. 496 LECrim |
-| **72 horas** | Plazo del juez para elevar la detención a prisión o dejarla sin efecto | Entrega al juez | Art. 497 LECrim |
-| **24 horas** | Detención de un menor hasta su libertad o puesta a disposición del Ministerio Fiscal | Detención | Art. 17.4 LO 5/2000 |
-| **24 horas** | Plazo para practicar las actuaciones y resolver el habeas corpus | Auto de incoación | Art. 7 LO 6/1984 |
+| Cuándo usar armas | Riesgo racionalmente grave para la vida o integridad, o grave riesgo para la seguridad ciudadana | Art. 43.2: misma fórmula | Principio 9: peligro inminente de muerte o lesiones graves |
+| Criterios | Congruencia, oportunidad y proporcionalidad | Gradualidad, prudencia y firmeza, más esos tres principios | Moderación y proporción (principio 5) |
+| Órdenes ilícitas | La obediencia debida no las ampara | Abstenerse y comunicarlo (art. 16.2) | No eximen de responsabilidad (principio 26) |
 
-## Cómo encajan las 24 y las 72 horas
+## Caso práctico (hipotético)
 
-La LECrim dice dos cosas a la vez:
-
-1. **El techo constitucional es de 72 horas.** El artículo 17.2 de la Constitución, reproducido en el 520.1 de la LECrim, fija dos límites: uno **relativo** (el tiempo estrictamente necesario para esclarecer los hechos) y uno **absoluto** (72 horas). El Tribunal Constitucional ha insistido en que las 72 horas no son un plazo del que la policía pueda disponer libremente: si las diligencias terminan antes, el detenido debe pasar a disposición judicial o quedar libre en ese momento, aunque no hayan transcurrido las 72 horas.
-2. **El artículo 496 sigue vigente con sus 24 horas.** Es un precepto de la redacción original de la ley y obliga al particular, a la autoridad o al agente que detiene a liberar o entregar al detenido **al juez más próximo** en las 24 horas siguientes. El propio artículo 520.1 manda respetar «los plazos establecidos en la presente Ley» **y, en todo caso**, las 72 horas.
-3. **Las 72 horas del artículo 497 son otra cosa:** empiezan cuando el detenido **ya está ante el juez**, que debe decidir si eleva la detención a prisión o la deja sin efecto. No se suman ni se confunden con las 72 horas policiales.
-
-**Regla práctica para el examen:** fíjate en qué norma cita el enunciado. Si pregunta por el artículo 17.2 de la Constitución o por el 520 de la LECrim, la respuesta es **72 horas**; si pregunta por el artículo 496 de la LECrim, **24 horas**; si pregunta por el plazo del juez desde la entrega (art. 497), **72 horas**; y si pregunta por el habeas corpus, **24 horas desde el auto de incoación**. En los menores, la LO 5/2000 fija **24 horas** hasta la puesta a disposición del Ministerio Fiscal.
-
-## Quién puede detener (arts. 489 a 495 LECrim)
-
-- **Nadie** puede ser detenido sino en los casos y en la forma que prevén las leyes (art. 489).
-- **Cualquier persona puede detener** (art. 490), por ejemplo, al delincuente *in fraganti* o a quien vaya a cometer un delito.
-- **La autoridad o el agente de Policía Judicial está obligado** a detener en esos casos y en los del artículo 492, como cuando tenga motivos racionalmente bastantes para creer en un delito y en la participación de la persona.
-- **Por delitos leves** no se detiene, salvo que el autor no tenga domicilio conocido ni dé fianza bastante (art. 495).
-
-## Los derechos del detenido (art. 520 LECrim)
-
-En el atestado deben constar el lugar y la hora de la detención y de la puesta a disposición judicial o en libertad (art. 520.1).
-
-Todo detenido debe ser informado **por escrito, en un lenguaje sencillo y accesible, en una lengua que comprenda y de forma inmediata** de los hechos que se le atribuyen, de las razones de su detención y de sus derechos (art. 520.2):
-
-| Letra | Derecho |
-|---|---|
-| a) | Guardar silencio, no contestar a alguna pregunta o declarar solo ante el juez |
-| b) | No declarar contra sí mismo y no confesarse culpable |
-| c) | Designar abogado y ser asistido por él sin demora injustificada |
-| d) | Acceder a los elementos de las actuaciones esenciales para impugnar la legalidad de la detención |
-| e) | Que se comunique a un familiar o persona que desee su detención y lugar de custodia (a los extranjeros, a su oficina consular) |
-| f) | Comunicarse por teléfono con un tercero de su elección, en presencia de un funcionario |
-| g) | Ser visitado por las autoridades consulares de su país |
-| h) | Intérprete gratuito |
-| i) | Reconocimiento por el médico forense o, en su defecto, por otro médico público |
-| j) | Solicitar asistencia jurídica gratuita |
-
-También se le informa del **plazo máximo legal** de la detención y de cómo impugnar su legalidad.
-
-Detalles concretos:
-
-- **Abogado (art. 520.5):** si no lo designa, se nombra uno de oficio; **ningún agente puede recomendarle** a quién elegir, y debe acudir en un máximo de **tres horas**.
-- **Renuncia al abogado (art. 520.8):** solo si la detención es por hechos tipificables **exclusivamente como delitos contra la seguridad del tráfico**, con información clara previa; puede revocarla en cualquier momento.
-- **Menores (art. 520.4):** se ponen a disposición de las Secciones de Menores de la Fiscalía y se comunica a quienes ejerzan la patria potestad, la tutela o la guarda de hecho.
-
-## Incomunicación y supuestos especiales
-
-- **Incomunicación (art. 509):** la acuerda **excepcionalmente el juez** por resolución motivada, ante la necesidad urgente de evitar graves consecuencias para la vida, la libertad o la integridad de una persona, o de no comprometer gravemente el proceso. Dura lo estrictamente necesario y **no más de cinco días**, prorrogables **otros cinco** en delitos del artículo 384 bis u otros cometidos concertadamente y de forma organizada por dos o más personas. **Nunca a menores de dieciséis años.**
-- **Restricción de derechos (art. 527):** al incomunicado se le puede privar, si se justifica, de designar abogado de confianza, de comunicarse con terceros (salvo juez, fiscal y médico forense), de entrevistarse reservadamente con su abogado y de acceder a las actuaciones; tendrá al menos **dos reconocimientos médicos cada 24 horas**.
-- **Terrorismo (art. 520 bis):** puesta a disposición judicial en 72 horas, prorrogables **hasta 48 horas más** si la prórroga se pide motivadamente **dentro de las primeras 48 horas** y el juez la autoriza **en las 24 siguientes**. Desarrolla la suspensión individual de derechos del artículo 55.2 de la Constitución.
-
-## El habeas corpus (LO 6/1984)
-
-Desarrolla el artículo 17.4 de la Constitución y sirve para obtener la **inmediata puesta a disposición judicial** de cualquier persona detenida ilegalmente. Se consideran ilegalmente detenidas (art. 1):
-
-1. Quienes lo sean sin que concurran los supuestos legales o sin las formalidades exigidas.
-2. Quienes estén ilícitamente internados en cualquier establecimiento o lugar.
-3. Quienes lo estén por plazo superior al legal sin ser liberados o entregados al juez más próximo.
-4. Quienes no vean respetados los derechos que la Constitución y las leyes procesales garantizan a todo detenido.
-
-| Cuestión | Regla | Art. |
-|---|---|---|
-| Juez competente | El de instrucción del lugar donde esté el detenido; si no consta, el del lugar de la detención; si no, el de las últimas noticias. Juez Central de Instrucción en los casos del artículo 55.2 CE; Juez Togado Militar de Instrucción en la jurisdicción militar | 2 |
-| Quién puede instarlo | El privado de libertad, su cónyuge o pareja, descendientes, ascendientes, hermanos, los representantes legales de menores, el apoyo con facultades de representación de personas con discapacidad, el **Ministerio Fiscal**, el **Defensor del Pueblo** y el **abogado defensor**; el juez, también de oficio | 3 |
-| Forma | Escrito o comparecencia, **sin abogado ni procurador** | 4 |
-| Deber de los agentes | Comunicar **inmediatamente** al juez la solicitud del detenido; si no, apercibimiento y posibles responsabilidades penales y disciplinarias | 5 |
-| Admisión | Traslado al fiscal y **auto** de incoación o de denegación, **sin recurso** | 6 |
-| Plazo | Actuaciones y resolución en **24 horas** desde el auto de incoación | 7 |
-| Decisión | Archivo si la detención es conforme a Derecho; si no, libertad, continuación en otro lugar o bajo otra custodia, o puesta inmediata a disposición judicial | 8 |
-| Consecuencias | Testimonio por posibles delitos; costas si hubo temeridad o mala fe | 9 |
-
-## Responsabilidad penal del agente
-
-El Código Penal castiga a la autoridad o funcionario que prolongue una privación de libertad **violando los plazos** u otras garantías (art. 530) y a quien impida la asistencia de abogado o no informe al detenido de sus derechos (art. 537). Repasa la parte general en [Derecho Penal](/blog/derecho-penal-para-guardia-civil-delito-penas-y-grados).
-
-## Casos prácticos (hipotéticos)
-
-1. **Detenido a las 10:00 del lunes.** El límite absoluto vence a las 10:00 del jueves, pero si el atestado se cierra el lunes a las 20:00, ese es el momento de ponerlo a disposición judicial o en libertad.
-2. **Un detenido pide habeas corpus en el calabozo.** El agente no valora si tiene razón: comunica la solicitud inmediatamente al juez (art. 5).
-3. **Un menor de quince años detenido.** 24 horas como máximo hasta la Fiscalía de Menores (LO 5/2000), y nunca incomunicado (art. 509.4 LECrim).
+Un cabo ordena a un guardia que «no anote» en el atestado que un detenido sufrió un golpe durante el traslado. ¿Qué dice el Código? La orden supone ocultar hechos y puede ser delictiva: el guardia debe **abstenerse de cumplirla** y comunicar su contenido y quién la dio a la autoridad superior (art. 16.2); el mando no podía darla (art. 41.3); el compañerismo no ampara el encubrimiento (art. 22.2); y al detenido se le debe proteger su integridad física y moral (art. 45.2).
 
 ## Errores frecuentes
 
-- Creer que las 72 horas son un plazo «disponible» y no un **máximo**.
-- Sumar las 72 horas policiales y las 72 del artículo 497 como si fueran el mismo plazo.
-- Pensar que el habeas corpus exige abogado.
+- Buscar un «Código Ético» distinto: el texto del programa es el **Código de Conducta**, aunque su preámbulo lo describa como código ético.
+- Decir que el Código tiene seis artículos: esos son los del real decreto; el Código tiene 50.
+- Pensar que no se aplica a los alumnos de Baeza: el artículo 3 los incluye.
+- Confundir el Decálogo (anexo del RD 176/2022) con la Cartilla de 1845.
+- Situar los Principios de la ONU en Nueva York o en 1979: son de **La Habana, 1990**.
 
-## Mini test propio
+## Mini test (preguntas propias)
 
-Preguntas elaboradas por ProLince; no son preguntas oficiales.
+1. El Código de Conducta del personal de la Guardia Civil tiene: a) 6 artículos; b) 23 artículos; c) 50 artículos; d) 10 artículos.
+2. El primer valor fundamental del Código es: a) la lealtad; b) el honor; c) la integridad; d) la disciplina.
+3. Ante una orden manifiestamente delictiva, el guardia civil debe: a) cumplirla y denunciarla después; b) pedirla por escrito; c) abstenerse de obedecerla y comunicarlo; d) consultar a un compañero.
+4. Los Principios Básicos sobre el Empleo de la Fuerza se adoptaron en: a) Ginebra, 1979; b) La Habana, 1990; c) Viena, 1993; d) Roma, 1998.
+5. Según el principio 9, el uso intencional de armas letales solo procede cuando: a) lo ordena un superior; b) el sospechoso huye; c) sea estrictamente inevitable para proteger una vida; d) haya alteración del orden público.
 
-**1. Según el artículo 496 de la LECrim, quien detiene debe liberar o entregar al detenido al juez más próximo en:**
-a) 12 horas. b) 24 horas. c) 48 horas. d) 72 horas.
-
-**2. El plazo máximo de la detención preventiva según el artículo 17.2 de la Constitución es:**
-a) 24 horas. b) 48 horas. c) 72 horas. d) 5 días.
-
-**3. El juez debe resolver el habeas corpus en:**
-a) 24 horas desde la detención. b) 24 horas desde el auto de incoación. c) 72 horas. d) 3 días hábiles.
-
-**4. ¿Quién no está legitimado para instar el habeas corpus?**
-a) El Defensor del Pueblo. b) El Ministerio Fiscal. c) Un vecino del detenido. d) El abogado defensor.
-
-**5. ¿Pueden incomunicarse los menores de dieciséis años?**
-a) Sí, con auto judicial. b) Sí, hasta 24 horas. c) Solo en terrorismo. d) En ningún caso.
-
-**Soluciones:** 1-b; 2-c; 3-b (art. 7 LO 6/1984); 4-c (art. 3); 5-d (art. 509.4).
+**Soluciones:** 1-c; 2-b (art. 1); 3-c (art. 16.2); 4-b; 5-c.
 
 ## Cómo estudiarlo
 
-Haz tu propia tabla (plazo, desde cuándo, norma, qué pasa al vencer) y practica con preguntas que mezclen normas, como las del [test de la Constitución](/blog/test-constitucion-20-preguntas-guardia-civil). Repasa también el artículo 55.2 en [cómo estudiar la Constitución](/blog/constitucion-oposicion-guardia-civil). Si quieres apoyo, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye el temario jurídico.
+Lee el Código completo una vez; después, una tabla de los nueve valores, otra de los principios institucionales y otra con los artículos 16, 22, 43, 44 y 45. Memoriza el Decálogo en orden. El Código de Conducta es además una de las competencias que se valoran en la [entrevista personal](/blog/competencias-entrevista-personal-guardia-civil). El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) integra ambos textos.
 
 ## Preguntas frecuentes
 
-### ¿Cuánto puede durar una detención?
-El tiempo estrictamente necesario y, en todo caso, 72 horas como máximo (art. 17.2 CE y art. 520.1 LECrim), con la prórroga del artículo 520 bis en terrorismo.
+### ¿Cuál es el código que se estudia en deontología?
 
-### Entonces, ¿qué son las 24 horas del artículo 496?
-El plazo que esa norma da a quien detiene para liberar o entregar al detenido al juez más próximo. Convive con el techo de 72 horas: en el examen, responde según el artículo por el que te pregunten.
+El Código de Conducta del personal de la Guardia Civil, aprobado por el RD 176/2022, junto con los Principios Básicos de la ONU de 1990.
 
-### ¿Puede renunciar el detenido al abogado?
-Solo en detenciones por delitos exclusivamente contra la seguridad del tráfico, con información previa suficiente (art. 520.8).
+### ¿Cuántos artículos tiene?
 
-### ¿Cuánto puede durar la detención de un menor?
-Lo estrictamente necesario y, como máximo, 24 horas hasta su libertad o puesta a disposición del Ministerio Fiscal (art. 17.4 LO 5/2000).',
-   NULL, NULL, 'publicado', '2026-12-17T06:17:00.000Z', 'acceso-guardia-civil',
-   ARRAY['detención', 'habeas corpus', 'LECrim', 'artículo 17', 'derecho procesal']::text[], '{"title":"Detención y habeas corpus: plazos y derechos (art. 520)","description":"Plazos de la detención (72 h del art. 17.2 CE, 24 h del art. 496 LECrim), derechos del detenido del art. 520 y habeas corpus de la LO 6/1984, con test."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+El Código, 50 artículos más el Decálogo en anexo; el real decreto que lo aprueba, seis artículos, una disposición adicional, una derogatoria y tres finales.
 
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('extranjeria-e-inmigracion-lo-basico-que-pregunta-el-examen', 'articulo', 'Extranjería e inmigración: lo básico que conviene dominar', 'Estructura de la Ley Orgánica 4/2000, derechos de los extranjeros, entrada, estancia y residencia, infracciones, expulsión, devolución e internamiento, y el régimen de los ciudadanos de la UE del Real Decreto 240/2007. Plazos comprobados en el BOE y test propio.', 'El tema 12 del programa, «Extranjería e inmigración», se centra en la Ley Orgánica 4/2000, sobre derechos y libertades de los extranjeros en España y su integración social ([BOE-A-2000-544](https://www.boe.es/buscar/act.php?id=BOE-A-2000-544)), y en el régimen de los ciudadanos de la Unión Europea. **Respuesta corta:** según nuestro [temario](/temario-guardia-civil), entran la **LO 4/2000 completa** y el **Real Decreto 240/2007**, de entrada, libre circulación y residencia de ciudadanos de la UE y del Espacio Económico Europeo ([BOE-A-2007-4184](https://www.boe.es/buscar/act.php?id=BOE-A-2007-4184)).
+### ¿Se aplica a los aspirantes?
 
-Una precisión de vigencia: el reglamento de desarrollo de la LO 4/2000 es hoy el Real Decreto 1155/2024 ([BOE-A-2024-24099](https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099)), en vigor desde el **20 de mayo de 2025** y modificado por el Real Decreto 316/2026, de 14 de abril. El alcance publicado del programa no lo menciona; consulta la convocatoria vigente para saber qué normas reglamentarias te piden.
+A los alumnos de los centros de formación, sí (art. 3). Y el artículo 5 obliga a que los procesos selectivos de acceso directo contemplen su contenido.
 
-## Estructura de la LO 4/2000
+### ¿Se debe obedecer una orden manifiestamente delictiva?
 
-| Título | Contenido | Artículos |
-|---|---|---|
-| Preliminar | Disposiciones generales: concepto de extranjero, exclusiones, política inmigratoria e integración | 1 a 2 ter |
-| I | Derechos y libertades de los extranjeros, reagrupación familiar y garantías | 3 a 24 |
-| II | Régimen jurídico: entrada y salida, situaciones (estancia y residencia), trabajo | 25 a 49 |
-| III | Infracciones en materia de extranjería y régimen sancionador | 50 a 66 |
-| IV | Coordinación de los poderes públicos en materia de inmigración | 67 a 72 |
+No. Hay que abstenerse de obedecerla y comunicar su contenido y su emisor a la autoridad superior por el medio más rápido y eficaz (art. 16.2).
 
-**Quién es extranjero (art. 1):** quien carezca de la nacionalidad española. Los ciudadanos de la UE y quienes estén en régimen comunitario se rigen por sus normas propias, y la LO 4/2000 solo se les aplica en lo que les sea más favorable (art. 1.3).
+### ¿Cuándo puede usar un guardia civil su arma de fuego?
 
-## Derechos: la idea central
+Solo ante un riesgo racionalmente grave para su vida o integridad o las de terceros, o ante un grave riesgo para la seguridad ciudadana, y conforme a los principios de congruencia, oportunidad y proporcionalidad (art. 43.2 del Código y art. 5.2.d de la LO 2/1986).
 
-Los extranjeros gozan en España de los derechos del Título I de la Constitución en los términos de los tratados, de esta ley y de las que regulen cada derecho; como criterio interpretativo general, se entiende que los ejercen **en condiciones de igualdad con los españoles** (art. 3). Es el desarrollo del artículo 13 de la Constitución, que repasamos en [derechos fundamentales y libertades públicas](/blog/derechos-fundamentales-libertades-publicas-guardia-civil).
+### ¿Qué dice el último punto del Decálogo?
 
-- **Documentación (art. 4):** tienen el derecho y el deber de conservar la que acredite su identidad y su situación en España. Quien obtenga un visado o una autorización para permanecer **más de seis meses** recibe la **tarjeta de identidad de extranjero**, que debe solicitar **personalmente en un mes** desde la entrada o la concesión. No pueden ser privados de su documentación salvo en los supuestos legales.
-- **Participación pública (art. 6):** los extranjeros residentes pueden ser titulares del derecho de sufragio en las **elecciones municipales**, en los términos de la Constitución, los tratados y la ley; y los empadronados tienen los derechos que da la legislación local.
-- Reunión, asociación, educación, trabajo y Seguridad Social, sindicación, asistencia sanitaria, vivienda, tutela judicial o asistencia jurídica gratuita se regulan uno a uno (arts. 7 a 22): haz una tabla con cada derecho y si se exige residencia o no.
-
-## Entrada, estancia y residencia
-
-| Figura | Regla | Artículo |
-|---|---|---|
-| **Entrada** | Por puestos habilitados, con pasaporte o documento de viaje válido, sin prohibiciones expresas, justificando objeto y condiciones de la estancia y medios de vida. Además, **visado**, salvo convenios o normativa de la UE. No se aplica a quien pide asilo al entrar | 25 |
-| **Estancia** | Permanencia **no superior a 90 días**; después, prórroga de estancia o autorización de residencia | 30 |
-| **Residencia temporal** | Más de **90 días** y menos de **cinco años**; sin antecedentes penales | 31 |
-| **Residencia y trabajo** | Los **mayores de dieciséis años** necesitan autorización previa para residir y trabajar; la de trabajo se concede junto con la de residencia | 36 |
-
-## Infracciones y sanciones (Título III)
-
-| Clase | Ejemplos | Multa (art. 55) |
-|---|---|---|
-| **Leves** (art. 52) | No comunicar o comunicar con retraso cambios de nacionalidad, estado civil o domicilio; retrasar hasta tres meses la renovación de una autorización caducada | Hasta **500 €** |
-| **Graves** (art. 53) | Estancia irregular por no tener prórroga o autorización (o tenerla caducada más de tres meses sin pedir renovación); trabajar sin autorización ni residencia válida | De **501 a 10.000 €** |
-| **Muy graves** (art. 54) | Actividades contra la seguridad nacional o el orden público muy graves; favorecer con ánimo de lucro la inmigración clandestina; contratar trabajadores sin autorización | De **10.001 a 100.000 €** (con excepciones para transportistas) |
-
-## Expulsión, devolución e internamiento
-
-| Figura | Qué recoge | Artículo |
-|---|---|---|
-| **Expulsión** | Puede imponerse **en lugar de la multa** en infracciones muy graves y en ciertas graves del artículo 53.1, previo expediente; también por condena por conducta dolosa castigada con **pena privativa de libertad superior a un año**, salvo antecedentes cancelados. **Nunca** se imponen juntas expulsión y multa | 57 |
-| **Prohibición de entrada** | Acompaña a la expulsión; máximo **cinco años**, excepcionalmente **diez** si hay amenaza grave para el orden público, la seguridad pública o nacional o la salud pública | 58.1 y 2 |
-| **Devolución** | **Sin expediente de expulsión**: a quien contravenga una prohibición de entrada y a quien pretenda entrar ilegalmente. Si no puede ejecutarse en **72 horas**, se pide al juez el internamiento | 58.3 y 6 |
-| **Denegación de entrada** | Regreso al punto de origen; si se retrasa **más de 72 horas**, el juez de instrucción determina el lugar de internamiento | 60.1 |
-| **Medidas cautelares** | Presentación periódica, residencia obligatoria, retirada del pasaporte, **detención cautelar de hasta 72 horas** previas a la solicitud de internamiento, internamiento preventivo con autorización judicial | 61 |
-| **Internamiento** | Lo autoriza el **juez de instrucción** por auto motivado; dura lo imprescindible, con un **máximo de 60 días**, sin nuevo internamiento por las mismas causas en el mismo expediente; **nunca menores** | 62 |
-| **Procedimiento preferente** | Alegaciones en **48 horas**, prueba en **tres días** y ejecución inmediata de la expulsión | 63 |
-
-Los centros de internamiento **no tienen carácter penitenciario**, y los internados solo están privados del **derecho ambulatorio** (art. 60.2). Fíjate en cómo se repite el plazo de 72 horas del artículo 17.2 de la Constitución: lo tienes desarrollado en [detención y habeas corpus](/blog/detencion-y-habeas-corpus-los-plazos-que-caen-siempre).
-
-**Quién no puede ser expulsado (art. 57.5),** salvo excepciones como la participación en actividades contra la seguridad nacional o la reincidencia: los nacidos en España con residencia legal en los últimos cinco años, los residentes de larga duración, los que fueron españoles de origen y los beneficiarios de ciertas prestaciones. Y la expulsión no se ejecuta si vulnera el principio de **no devolución** o afecta a mujeres embarazadas con riesgo para la gestación o la salud (art. 57.6).
-
-## El régimen de la Unión Europea (RD 240/2007)
-
-Se aplica a los ciudadanos de un Estado de la UE o del Espacio Económico Europeo y a sus familiares:
-
-| Situación | Regla | Artículo |
-|---|---|---|
-| **Hasta tres meses** | Basta pasaporte o documento de identidad en vigor | 6 |
-| **Más de tres meses** | Derecho de residencia si es trabajador por cuenta ajena o propia, si tiene recursos suficientes y seguro de enfermedad, o si es estudiante con seguro y recursos; debe pedir su **inscripción en el Registro Central de Extranjeros en tres meses** | 7 |
-| **Familiares** | Cónyuge, pareja registrada, descendientes **menores de 21 años** o a cargo y ascendientes a cargo (art. 2); otros familiares y la pareja estable no registrada pueden solicitarlo (art. 2 bis) | 2 y 2 bis |
-| **Familiares no comunitarios** | Solicitan la **tarjeta de residencia de familiar de ciudadano de la Unión** en **tres meses**; se expide en otros tres y vale **cinco años** | 8 |
-| **Residencia permanente** | Tras **cinco años** de residencia legal continuada; se pierde por ausencia de **más de dos años** consecutivos | 10 |
-
-Conecta con la ciudadanía de la Unión del artículo 20 del TFUE, que viste en [la Unión Europea en la oposición](/blog/union-europea-en-la-oposicion-las-instituciones).
-
-## Casos prácticos (hipotéticos)
-
-1. **Un turista estadounidense lleva 100 días en España sin prórroga.** Ha superado los 90 días de estancia: es una estancia irregular, infracción **grave** del artículo 53.1.a), sancionable con multa o, por proporcionalidad, con expulsión.
-2. **Una embarcación llega a la costa y sus ocupantes intentan entrar sin pasar por un puesto habilitado.** Es un supuesto de **devolución** (art. 58.3.b), sin expediente de expulsión; si no se puede ejecutar en 72 horas, se pide al juez el internamiento. Si alguno solicita protección internacional, no se le devuelve hasta que se inadmita su solicitud (art. 58.4).
-3. **Una ciudadana italiana se instala en Murcia para trabajar.** No necesita autorización de trabajo, pero debe inscribirse en el Registro Central de Extranjeros en tres meses desde su entrada (art. 7 RD 240/2007).
-
-## Errores frecuentes
-
-- **Confundir expulsión y devolución:** la expulsión exige expediente; la devolución, no.
-- **Sumar multa y expulsión:** el artículo 57.3 lo prohíbe.
-- **Decir que el internamiento es penitenciario o que lo acuerda la policía:** lo autoriza el juez de instrucción y no tiene carácter penitenciario.
-- **Mezclar los 90 días de estancia (LO 4/2000) con los tres meses del RD 240/2007:** son regímenes distintos.
-- **Aplicar a un ciudadano de la UE la LO 4/2000 completa:** se rige por el RD 240/2007 y la ley solo en lo más favorable.
-
-## Mini test propio
-
-Preguntas elaboradas por ProLince; no son preguntas oficiales.
-
-**1. La estancia en España según la LO 4/2000 no puede superar:**
-a) 30 días. b) 60 días. c) 90 días. d) Seis meses.
-
-**2. El internamiento de un extranjero en un centro de internamiento dura como máximo:**
-a) 72 horas. b) 40 días. c) 60 días. d) 90 días.
-
-**3. La prohibición de entrada que acompaña a la expulsión no excede, con carácter general, de:**
-a) Tres años. b) Cinco años. c) Diez años. d) Quince años.
-
-**4. ¿Cuál de estas figuras no exige expediente de expulsión?**
-a) La sanción por estancia irregular. b) La devolución de quien pretende entrar ilegalmente. c) La expulsión por condena penal. d) La expulsión por infracción muy grave.
-
-**5. Un ciudadano de la UE adquiere la residencia permanente tras residir legalmente en España de forma continuada:**
-a) Tres años. b) Cinco años. c) Diez años. d) Un año.
-
-**Soluciones:** 1-c (art. 30); 2-c (art. 62.2); 3-b (art. 58.1); 4-b (art. 58.3); 5-b (art. 10 RD 240/2007).
-
-## Cómo estudiarlo
-
-Este tema se aprende por listas y plazos: 90 días, un mes, cinco y diez años, 72 horas, 48 horas, 60 días, tres meses, cinco años. Hazte una tarjeta por cada cifra con su artículo y su supuesto. Relaciónalo con los organismos de control de fronteras que viste en [instituciones internacionales](/blog/instituciones-internacionales-onu-otan-y-consejo-de-europa) (Frontex) y practica con tests; si quieres apoyo, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) desarrolla todo el programa.
-
-## Preguntas frecuentes
-
-### ¿Cuánto dura la estancia de un extranjero según la LO 4/2000?
-No puede superar los 90 días (art. 30); después hace falta prórroga de estancia o autorización de residencia.
-
-### ¿Cuánto puede durar el internamiento en un centro?
-Un máximo de 60 días, previa autorización del juez de instrucción (art. 62).
-
-### ¿Quién puede ser expulsado por haber delinquido?
-Quien haya sido condenado, dentro o fuera de España, por una conducta dolosa que constituya delito castigado con pena privativa de libertad superior a un año, salvo antecedentes cancelados (art. 57.2).
-
-### ¿Qué diferencia hay entre expulsión y devolución?
-La expulsión es una sanción o consecuencia que requiere expediente; la devolución se aplica sin expediente a quien contraviene una prohibición de entrada o pretende entrar ilegalmente (art. 58.3).
-
-### ¿Pueden votar los extranjeros en España?
-Los residentes pueden ser titulares del derecho de sufragio en las elecciones municipales, en los términos de la Constitución, los tratados y la ley (art. 6).
-
-### ¿Qué reglamento desarrolla la ley?
-El Real Decreto 1155/2024, vigente desde el 20 de mayo de 2025. Para el programa, consulta el alcance exacto publicado.',
-   '/blog/extranjeria-e-inmigracion-lo-basico-que-pregunta-el-examen.jpg', 'Agentes de la Guardia Civil con una embarcación neumática en la costa de noche', 'publicado', '2026-12-18T06:34:00.000Z', 'acceso-guardia-civil',
-   ARRAY['extranjería', 'inmigración', 'LO 4/2000', 'ciudadanos de la UE', 'temario']::text[], '{"title":"Extranjería LO 4/2000: lo básico para la oposición","description":"Tema de extranjería: LO 4/2000, derechos, estancia de 90 días, infracciones, expulsión, devolución, internamiento de 60 días y RD 240/2007, con test."}'::jsonb, '{}'::jsonb)
+«Serenidad y empleo de la fuerza»: «seré prudente sin debilidad y firme sin violencia».',
+   '/blog/deontologia-profesional-el-codigo-de-conducta-que-entra.jpg', 'Guardia civil hablando con calma con un vecino en una carretera al atardecer, con el vehículo oficial al fondo', 'publicado', '2026-12-21T06:25:00.000Z', 'acceso-guardia-civil',
+   ARRAY['deontología', 'código de conducta', 'rd 176/2022', 'uso de la fuerza']::text[], '{"title":"Deontología Guardia Civil: Código de Conducta RD 176/2022","description":"Tema 19 de Guardia Civil: estructura del Código de Conducta (RD 176/2022), Decálogo y Principios Básicos de la ONU sobre el uso de la fuerza, con test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -604,8 +308,301 @@ Agentes de la autoridad a todos los efectos; a efectos de su protección penal, 
 ### ¿Quién preside la Junta Local de Seguridad?
 
 El alcalde; si asiste el representante del Gobierno en la provincia (el «Gobernador civil» del texto), la presidencia es compartida (art. 54.2).',
-   '/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada.jpg', 'Guardias civiles evacuando a los pasajeros de un autobús durante una nevada', 'publicado', '2026-12-22T06:42:00.000Z', 'acceso-guardia-civil',
+   '/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada.jpg', 'Guardias civiles evacuando a los pasajeros de un autobús durante una nevada', 'publicado', '2026-12-19T06:51:00.000Z', 'acceso-guardia-civil',
    ARRAY['lo 2/1986', 'temario', 'competencias', 'fuerzas y cuerpos de seguridad']::text[], '{"title":"LO 2/1986 Fuerzas y Cuerpos de Seguridad: competencias","description":"LO 2/1986 para opositores: niveles policiales, competencias de Guardia Civil y Policía Nacional, principios, policía judicial, coordinación y test."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy', 'articulo', 'Historia de la Guardia Civil: del Duque de Ahumada a hoy', 'De los decretos de 1844 al Código de Conducta de 2022: cronología de la Guardia Civil por etapas, con fechas contrastadas en su web oficial, la trampa de los dos decretos fundacionales, un esquema de estudio y un test propio.', 'El programa oficial incluye en el tema 15 la «Historia de la Guardia Civil» desde los inicios del siglo XIX hasta la democracia, en dos bloques: fundación, consolidación, Sexenio Revolucionario y Restauración; y reinado de Alfonso XIII, Segunda República, Guerra Civil, franquismo, Transición y democracia (consulta el [temario](/temario-guardia-civil)).
+
+**Respuesta corta:** el Cuerpo se creó por el **Real Decreto de 28 de marzo de 1844**, pero ese decreto se derogó sin llegar a entrar en vigor; el que la web oficial llama «auténtico decreto fundacional» es el **Real Decreto de 13 de mayo de 1844**. Su organizador fue **Francisco Javier Girón y Ezpeleta, II Duque de Ahumada**, primer inspector general.
+
+Todos los datos de este artículo proceden de la sección «Historia» de [guardiacivil.es](https://web.guardiacivil.es/es/institucional/conocenos/historiaguacivil/) y, en lo normativo, del BOE. Hemos dejado fuera lo que no hemos podido contrastar allí.
+
+## Antecedentes: los inicios del siglo XIX
+
+Tras la Guerra de la Independencia, la debilidad del Estado llena los caminos de **bandoleros**: excombatientes, desertores y delincuentes que hacen del bandolerismo su forma de vida. La Milicia Nacional, disuelta en 1814, se reconstituye en 1820 y desaparece en 1823.
+
+En **1820**, con el alzamiento de Riego, el teniente general **Pedro Agustín Girón**, primer duque de Ahumada y padre del fundador, es nombrado ministro de la Guerra y concibe la **Legión de Salvaguardias Nacionales**, inspirada en la Gendarmería francesa. Las Cortes no la aprobaron, pero la web oficial la considera inspiración de la futura Guardia Civil.
+
+## La fundación (1844-1845)
+
+| Fecha | Hecho |
+|---|---|
+| 28 de marzo de 1844 | Real Decreto que crea un «cuerpo especial de fuerza armada de Infantería y Caballería» con «la denominación de Guardias Civiles», dependiente de Gobernación; se comisiona al Duque de Ahumada para organizarlo |
+| 20 de abril de 1844 | Informe del Duque, que propone una plantilla selecta y mejor pagada; provoca la derogación del decreto anterior, que «ni siquiera entró en vigor» |
+| 13 de mayo de 1844 | Real Decreto presentado por **Ramón María Narváez**: «auténtico decreto fundacional». Doble dependencia: **Guerra** (organización, personal, disciplina, material y haberes) y **Gobernación** (servicio peculiar y movimiento) |
+| Verano de 1844 | Reclutamiento e instrucción en Leganés y Vicálvaro |
+| 1 de septiembre de 1844 | Presentación oficial con una parada militar de 1.870 guardias; el Duque es designado **Inspector General**; aparece el **tricornio** |
+| 9 de octubre de 1844 | Reglamento para el Servicio |
+| 15 de octubre de 1844 | Reglamento Militar, elaborado por el Ministerio de la Guerra |
+| 20 de diciembre de 1845 | **Cartilla del Guardia Civil**, de la mano del Duque |
+
+La organización inicial fue de **14 jefes, 232 oficiales y 5.769 guardias en 14 tercios**. Del Duque es la frase «servirán más y ofrecerán más garantías de orden cinco mil hombres buenos que quince mil, no malos, sino medianos».
+
+### La Cartilla
+
+La web oficial la describe como «el auténtico código moral de la Institución». Su artículo más famoso: «el honor es la principal divisa del guardia civil; debe, por consiguiente, conservarlo sin mancha. Una vez perdido, no se recobra jamás». El preámbulo del Real Decreto 176/2022, del Código de Conducta, la cita como precedente e incorpora sus principios, y el primer punto de su Decálogo repite esa misma idea del honor.
+
+## Consolidación (1844-1868)
+
+- Contexto de la Segunda (1846-1849) y la Tercera Guerra Carlista (1872-1876) y de bandolerismo endémico.
+- **1847**: primera misión internacional, con una unidad de Caballería patrullando **Oporto**.
+- **1848**: rescate de los náufragos de la goleta *Mary* en Sanlúcar de Barrameda.
+- **1853** (1 de abril): Real Orden que crea la **Compañía de Guardias Jóvenes**, origen del actual [Colegio de Guardias Jóvenes](/blog/colegio-guardias-jovenes-acceso-guardia-civil) «Duque de Ahumada».
+- **1854**: tras la Vicalvarada, en el Bienio progresista, se plantea disolver el Cuerpo por haber sido leal al Gobierno.
+- **1855**: auxilio a la población en la epidemia de cólera.
+- El bandolerismo se considera virtualmente erradicado a finales del siglo XIX.
+
+## Sexenio Revolucionario (1868-1874)
+
+Tras la revolución de 1868, el Gobierno provisional suprime la Guardia Rural para que la Guardia Civil asuma sus cometidos; en **1871**, con Amadeo I, se reorganiza el despliegue. En la Primera República, Pi y Margall hace depender el Cuerpo solo de Gobernación, decisión que el gobierno siguiente revoca para recuperar la **doble dependencia**. En **enero de 1874**, soldados y guardias civiles a las órdenes del general Pavía entran en el Congreso y ponen fin a la República.
+
+## Restauración (1874-1902)
+
+- **1878**: la Ley Constitutiva del Ejército incluye a la Guardia Civil en el Ejército.
+- **1886**: asume a nivel nacional la escolta de los trenes de viajeros.
+- **1898**: tras la pérdida de Cuba, Puerto Rico y Filipinas, se disuelven los tercios de Ultramar y sus efectivos permiten crear la Comandancia de Canarias y las secciones de Ceuta y Melilla.
+
+## Siglo XX hasta la Guerra Civil
+
+| Año | Hecho |
+|---|---|
+| 1902 | Sección de ciclistas |
+| 1913 | La **Virgen del Pilar**, patrona de la Guardia Civil |
+| 1921 | Primer museo del Cuerpo; pistola Star de 9 mm |
+| 1922 | Parque de Máquinas de Locomoción (mayo); estreno del himno (1 de agosto) |
+| 1926 | Se crean las **Zonas**: cuatro, con sede en Madrid, Barcelona, Sevilla y Burgos |
+| 1929 | Gran Cruz de la Orden Civil de Beneficencia (Real Decreto de 4 de octubre), reconocimiento del carácter «benemérito» |
+| 1931-1933 | Sucesos de Castilblanco, Arnedo y Casas Viejas; tras la Sanjurjada (1932), la Dirección General pasa a ser Inspección General dependiente de Gobernación |
+| 1935 | Corbata de la Orden de la República (12 de febrero) |
+
+## Guerra Civil (1936-1939)
+
+En 1936 la componían **33.500 hombres**. El Cuerpo quedó dividido, como España: su inspector general, el general Pozas, se mantuvo fiel a la República. Sufrió **2.714 muertos y 4.117 heridos**. En la zona republicana se reorganizó como **Guardia Nacional Republicana** (agosto de 1936) y desapareció en diciembre de ese año al unificarse los cuerpos policiales.
+
+## Franquismo (1939-1975)
+
+- **15 de marzo de 1940**: ley que suprime el **Cuerpo de Carabineros** y atribuye sus funciones a la Guardia Civil.
+- **1942**: nuevo Reglamento Militar (23 de julio).
+- Lucha contra el maquis, con apogeo entre 1944 y 1948.
+- **1959**: se encomienda al Cuerpo la vigilancia del tráfico y se crea la **Agrupación de Tráfico**.
+- Años sesenta y setenta: Servicio de Montaña, actividades subacuáticas, helicópteros (enero de 1973) y desactivación de explosivos (1974).
+- **1968**: asesinato del guardia civil José Pardines, con el que, según la web oficial, se abre la larga lista de víctimas del terrorismo separatista.
+
+## Transición y democracia
+
+| Fecha | Hecho |
+|---|---|
+| 23-2-1981 | Intento de golpe de Estado, con participación de algunos guardias civiles |
+| 30-10-1981 | Real Decreto 3543/1981: figura del **guardia civil auxiliar** |
+| 13-3-1986 | [LO 2/1986](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada): instituto armado de naturaleza militar |
+| 1988 | **SEPRONA** y Agrupación de Reserva y Seguridad; un real decreto ley regula la incorporación de la mujer a las Fuerzas Armadas y abre su ingreso en el Cuerpo |
+| 1991 | Servicio Marítimo |
+| 2005 | Participación en la Fuerza de Gendarmería Europea (EUROGENDFOR) |
+| 2007 | LO 11/2007 (derechos y deberes) y LO 12/2007 (régimen disciplinario) |
+| 20-10-2011 | ETA anuncia el cese definitivo de su actividad armada |
+| 28-11-2014 | Ley 29/2014, de Régimen del Personal |
+| 2020 | María Gámez, primera mujer directora general (hasta marzo de 2023) |
+| 4-3-2022 | Real Decreto 176/2022, Código de Conducta |
+
+## La trampa de 1844, explicada
+
+Si un enunciado pregunta por el decreto «de creación», la referencia es el de **28 de marzo**; si pregunta por el «decreto fundacional» efectivo o por el que estableció la doble dependencia Guerra-Gobernación, es el de **13 de mayo**. El propio preámbulo del RD 176/2022 lo resume así: creada por el decreto de 28 de marzo y «reorganizada definitivamente» por el de 13 de mayo. Lee siempre el verbo del enunciado.
+
+## Errores frecuentes
+
+- Atribuir la fundación al padre, Pedro Agustín Girón: su proyecto de 1820 no se aprobó.
+- Confundir la Cartilla (1845) con los reglamentos de 1844.
+- Situar la creación de la Agrupación de Tráfico en la democracia: es de 1959.
+- Pensar que el Colegio de Guardias Jóvenes es reciente: su origen es la compañía de 1853.
+
+## Mini test (preguntas propias)
+
+1. El decreto que la web oficial llama «auténtico decreto fundacional» es de: a) 28 de marzo de 1844; b) 20 de abril de 1844; c) 13 de mayo de 1844; d) 1 de septiembre de 1844.
+2. La Cartilla del Guardia Civil está fechada el: a) 9 de octubre de 1844; b) 15 de octubre de 1844; c) 20 de diciembre de 1845; d) 1 de abril de 1853.
+3. ¿Cuántos tercios tenía la organización inicial? a) 10; b) 12; c) 14; d) 19.
+4. El Cuerpo de Carabineros se suprimió y sus funciones pasaron a la Guardia Civil en: a) 1878; b) 1931; c) 1940; d) 1959.
+5. El SEPRONA se creó en: a) 1959; b) 1981; c) 1986; d) 1988.
+
+**Soluciones:** 1-c; 2-c; 3-c; 4-c; 5-d.
+
+## Cómo estudiarla
+
+Haz una línea del tiempo con las etapas del programa y tarjetas de «fecha → hecho». Agrupa los hitos por tipo (normas, unidades, misiones, distinciones). Si quieres ver cómo esas unidades siguen hoy, repasa [destinos y especialidades](/blog/destinos-especialidades-guardia-civil). El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) integra el tema.
+
+## Preguntas frecuentes
+
+### ¿Quién fundó la Guardia Civil?
+
+Francisco Javier Girón y Ezpeleta, II Duque de Ahumada, comisionado en 1844 para organizarla y designado inspector general el 1 de septiembre de ese año.
+
+### ¿Qué es la Cartilla del Guardia Civil?
+
+Un texto de 20 de diciembre de 1845, redactado por el Duque de Ahumada, que la web oficial considera el código moral de la Institución.
+
+### ¿De qué ministerios dependía la Guardia Civil al nacer?
+
+Del de la Guerra en organización, personal, disciplina, material y haberes, y del de la Gobernación en su servicio peculiar y movimiento.
+
+### ¿Cuántos guardias tenía al principio?
+
+Según la web oficial, 14 jefes, 232 oficiales y 5.769 guardias en 14 tercios.
+
+### ¿Desde cuándo pueden ingresar mujeres?
+
+Un real decreto ley de 1988 reguló su incorporación a las Fuerzas Armadas y abrió el camino a su ingreso en el Cuerpo; antes, desde 1948, prestaban servicio las «matronas» uniformadas para el registro aduanero de mujeres, desarmadas y sin la condición de funcionarias públicas.
+
+### ¿La historia entra entera en el examen?
+
+El programa abarca desde los inicios del siglo XIX hasta la democracia, pero ningún dato oficial indica qué se pregunta. Consulta la convocatoria vigente.',
+   '/blog/historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy.jpg', 'Vitrina de museo con un tricornio antiguo y un libro viejo, y detrás un guardia civil de gala observándola', 'publicado', '2026-12-20T06:08:00.000Z', 'acceso-guardia-civil',
+   ARRAY['historia', 'duque de ahumada', 'temario', 'cronología']::text[], '{"title":"Historia de la Guardia Civil: fundación y fechas clave","description":"Historia de la Guardia Civil por etapas: decretos de 1844, Duque de Ahumada, Cartilla de 1845, siglo XX y democracia, con fechas oficiales y test."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('instituciones-internacionales-onu-otan-y-consejo-de-europa', 'articulo', 'Instituciones internacionales: ONU, OTAN y Consejo de Europa para el examen', 'Qué organismos incluye el tema 6 y cómo ordenarlos: ONU, OTAN y Consejo de Europa con sus datos clave, y una tabla de sedes de Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS, comprobadas en fuentes oficiales. Con test propio.', 'El tema 6 del programa de la Escala de Cabos y Guardias es «Instituciones internacionales» y, según nuestro [temario](/temario-guardia-civil), incluye la **ONU, el Consejo de Europa, la Unión Europea, la OTAN, INTERPOL, EUROPOL, EUROJUST, FRONTEX, CEPOL, FAO, FMI y OMS**, con su evolución histórica, ámbito geográfico, estructura y funciones. **Respuesta corta:** haz una ficha de cada organismo con fecha de creación, sede, órganos, función y relación con España. Aquí tienes los datos que hemos podido comprobar en fuentes oficiales (textos publicados en el BOE o en el DOUE y webs de cada organismo); lo que no hemos podido verificar, no lo incluimos.
+
+La Unión Europea tiene su propio artículo: [las instituciones de la UE](/blog/union-europea-en-la-oposicion-las-instituciones).
+
+## Mapa del tema por familias
+
+| Familia | Organismos | Qué los une |
+|---|---|---|
+| Sistema de Naciones Unidas | ONU, FAO, FMI, OMS | Ámbito mundial; FAO, FMI y OMS son organismos especializados vinculados a la ONU |
+| Organizaciones europeas | Consejo de Europa, Unión Europea | Ámbito europeo, pero son organizaciones distintas |
+| Defensa colectiva | OTAN | Europa y América del Norte |
+| Cooperación policial y judicial | INTERPOL (mundial); Europol, Eurojust, Frontex y CEPOL (agencias de la UE) | Lo más cercano al trabajo diario de un guardia civil |
+
+## Naciones Unidas
+
+La **Carta de las Naciones Unidas** se firmó en **San Francisco el 26 de junio de 1945** y entró en vigor el **24 de octubre de 1945**, según la [web de la ONU](https://www.un.org/es/about-us/un-charter). Hoy tiene **193 Estados miembros**, y **España fue admitida el 14 de diciembre de 1955** ([lista oficial de miembros](https://www.un.org/es/about-us/member-states)).
+
+Del [texto de la Carta](https://www.un.org/es/about-us/un-charter/full-text):
+
+- **Propósitos (art. 1):** mantener la paz y la seguridad internacionales; fomentar relaciones de amistad basadas en la igualdad de derechos y la libre determinación de los pueblos; cooperar en problemas económicos, sociales, culturales y humanitarios y en los derechos humanos.
+- **Órganos principales (art. 7):** Asamblea General, Consejo de Seguridad, Consejo Económico y Social, Consejo de Administración Fiduciaria, Corte Internacional de Justicia y Secretaría.
+- **Asamblea General (art. 18):** un voto por miembro; las cuestiones importantes se deciden por **dos tercios** de los miembros presentes y votantes.
+- **Consejo de Seguridad (arts. 23 y 27):** **quince miembros**: cinco permanentes (la Carta cita a China, Francia, la URSS, el Reino Unido y los Estados Unidos) y diez no permanentes elegidos por la Asamblea General por **dos años**, sin reelección inmediata. Las cuestiones de procedimiento requieren **nueve votos afirmativos**; las demás, nueve votos **incluidos los de todos los permanentes** (de ahí el llamado derecho de veto).
+- **Corte Internacional de Justicia (art. 92):** órgano judicial principal.
+- **Secretario General (art. 97):** lo nombra la Asamblea General a recomendación del Consejo de Seguridad.
+
+Ojo: el texto de la Carta sigue nombrando a la URSS; si una pregunta habla de «según la Carta», la respuesta literal es esa.
+
+## OTAN
+
+Según la [web oficial de la OTAN](https://www.nato.int/cps/en/natohq/topics_52044.htm), la Alianza la crearon **12 países el 4 de abril de 1949** (Tratado de Washington), hoy tiene **32 miembros** y **España se adhirió el 30 de mayo de 1982**; esa misma web sitúa su cuartel general en **Bruselas**. El instrumento de adhesión de España se publicó en el [BOE-A-1982-12535](https://www.boe.es/buscar/doc.php?id=BOE-A-1982-12535).
+
+| Art. del Tratado | Contenido |
+|---|---|
+| 1 | Resolver las controversias por medios pacíficos y abstenerse de la amenaza o el uso de la fuerza |
+| 4 | Consultas cuando, a juicio de cualquiera de las Partes, esté amenazada la integridad territorial, la independencia política o la seguridad de alguna |
+| 5 | **Defensa colectiva:** un ataque armado contra una o varias Partes en Europa o América del Norte se considera un ataque contra todas, en ejercicio de la legítima defensa del artículo 51 de la Carta de la ONU |
+| 9 | Creación de un Consejo con representación de todas las Partes |
+| 10 | Invitación a adherirse a cualquier Estado europeo, por acuerdo unánime |
+
+La relación con la UE está en el propio Tratado de la Unión: la política común de seguridad y defensa respeta las obligaciones de los Estados que consideran que su defensa común se realiza en la OTAN (art. 42.2 TUE).
+
+## Consejo de Europa
+
+Es una organización distinta de la Unión Europea. Su **Estatuto se firmó en Londres el 5 de mayo de 1949**. Según el texto publicado en el BOE ([BOE-A-1978-5972](https://www.boe.es/buscar/doc.php?id=BOE-A-1978-5972)):
+
+- **Finalidad (art. 1):** una unión más estrecha entre sus miembros para salvaguardar y promover los ideales y principios de su patrimonio común y favorecer su progreso económico y social.
+- **Ingreso (art. 4):** cualquier Estado europeo capaz de cumplir el artículo 3 puede ser invitado por el Comité de Ministros.
+- **Órganos (art. 10):** el **Comité de Ministros** y la **Asamblea** (en el texto, «Asamblea Consultiva»), asistidos por la **Secretaría**.
+- **Sede (art. 11):** **Estrasburgo**. **Lenguas oficiales (art. 12):** francés e inglés.
+- **España:** miembro de pleno derecho desde el **24 de noviembre de 1977**.
+
+Su web oficial habla hoy de [46 Estados miembros](https://www.coe.int/es/web/portal/spain). En su marco se adoptó el **Convenio Europeo de Derechos Humanos** y funciona el **Tribunal Europeo de Derechos Humanos**, también en Estrasburgo; lo conectamos con la [Declaración Universal](/blog/derechos-humanos-en-el-temario-declaracion-universal).
+
+## Cooperación policial y judicial
+
+| Organismo | Qué es | Sede y fuente |
+|---|---|---|
+| **INTERPOL** | Organización policial mundial; cada país tiene una Oficina Central Nacional; su órgano supremo es la Asamblea General | Secretaría General en **Lyon**; **196 países miembros**, según [interpol.int](https://www.interpol.int/es) |
+| **Europol** | Agencia de la UE que apoya a las policías nacionales contra la delincuencia grave que afecta a dos o más Estados y el terrorismo (art. 88 TFUE) | **La Haya** (Reglamento (UE) 2016/794) |
+| **Eurojust** | Agencia de la UE que coordina a las autoridades que investigan y persiguen la delincuencia grave transfronteriza (art. 85 TFUE) | **La Haya** (art. 79 del Reglamento (UE) 2018/1727) |
+| **Frontex** | Agencia Europea de la Guardia de Fronteras y Costas | **Varsovia** (art. 93.5 del Reglamento (UE) 2019/1896) |
+| **CEPOL** | Agencia de la UE para la formación policial | **Budapest** (art. 25.3 del Reglamento (UE) 2015/2219) |
+
+## Organismos especializados de la ONU
+
+| Organismo | Dato comprobado |
+|---|---|
+| **FAO** | Establecida en **1945**, en la Conferencia de Quebec, como organismo especializado de las Naciones Unidas; su sede se trasladó de Washington a **Roma en 1951** ([FAO](https://www.fao.org/UNFAO/Histo-s.htm)) |
+| **FMI** | Creado, junto con el Banco Mundial, en la conferencia de **Bretton Woods de julio de 1944** ([FMI](https://www.imf.org/es/about/factsheets/sheets/2022/imf-world-bank-new)) |
+| **OMS** | Fundada en **1948**; oficina central en **Ginebra** ([OMS](https://www.who.int/es/about/structure)) |
+
+No incluimos cifras de miembros de FAO, FMI y OMS: cambian y no las hemos podido confirmar con fecha en sus webs. Compruébalas en la documentación oficial de cada organismo si tu material las pide.
+
+## Errores frecuentes
+
+- **Mezclar los «consejos»:** Consejo de Seguridad (ONU), Consejo Europeo y Consejo de la UE (Unión Europea), Consejo de Europa (Estrasburgo) y el Consejo previsto en el artículo 9 del Tratado de la OTAN.
+- **Situar el Tribunal de Estrasburgo en la UE:** es del Consejo de Europa; el órgano judicial de la UE es el Tribunal de Justicia de la Unión Europea.
+- **Confundir Europol con INTERPOL:** Europol es una agencia de la UE en La Haya; INTERPOL es mundial, con sede en Lyon.
+- **Confundir fechas de España:** ONU en **1955**, Consejo de Europa en **1977** y OTAN en **1982**.
+
+## Mini test propio
+
+Preguntas elaboradas por ProLince; no son preguntas oficiales.
+
+**1. ¿Cuántos miembros tiene el Consejo de Seguridad de la ONU?**
+a) Cinco. b) Diez. c) Quince. d) Veinte.
+
+**2. La sede del Consejo de Europa, según su Estatuto, está en:**
+a) Bruselas. b) Estrasburgo. c) Luxemburgo. d) Ginebra.
+
+**3. ¿Qué artículo del Tratado del Atlántico Norte recoge la defensa colectiva?**
+a) 1. b) 4. c) 5. d) 10.
+
+**4. Frontex tiene su sede en:**
+a) La Haya. b) Budapest. c) Varsovia. d) Lyon.
+
+**5. España ingresó en la ONU en:**
+a) 1945. b) 1955. c) 1977. d) 1982.
+
+**Soluciones:** 1-c (art. 23 de la Carta); 2-b (art. 11 del Estatuto); 3-c; 4-c (art. 93.5 del Reglamento 2019/1896); 5-b (14 de diciembre de 1955).
+
+## Cómo estudiarlo
+
+1. **Una ficha por organismo:** año, sede, órganos, función y relación con España.
+2. **Una línea del tiempo:** 1944 (Bretton Woods), 1945 (Carta de la ONU y FAO), 1948 (OMS), 1949 (OTAN y Consejo de Europa), 1955 (España en la ONU), 1977 (España en el Consejo de Europa), 1982 (España en la OTAN).
+3. **Un mapa de sedes:** Bruselas (OTAN), Estrasburgo (Consejo de Europa), La Haya (Europol y Eurojust), Lyon (INTERPOL), Varsovia (Frontex), Budapest (CEPOL), Roma (FAO) y Ginebra (OMS).
+4. Para ver cómo encaja este tema con el resto del examen, repasa la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura), y si quieres un calendario para los 23 temas, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Cuántos miembros tiene el Consejo de Seguridad de la ONU?
+Quince: cinco permanentes y diez no permanentes elegidos por la Asamblea General por dos años (art. 23 de la Carta).
+
+### ¿Cuándo entró España en la OTAN?
+El 30 de mayo de 1982.
+
+### ¿Es lo mismo el Consejo de Europa que la Unión Europea?
+No. El Consejo de Europa, con sede en Estrasburgo, nació con el Estatuto de Londres de 1949; la Unión Europea se rige por sus propios Tratados y tiene sus propias instituciones.
+
+### ¿Dónde tienen sede Europol, Eurojust, Frontex y CEPOL?
+Europol y Eurojust, en La Haya; Frontex, en Varsovia; CEPOL, en Budapest.
+
+### ¿Cuántos países forman INTERPOL?
+196, según su web oficial; su Secretaría General está en Lyon.
+
+### ¿Cuántos miembros tiene la OTAN?
+32, según su web oficial.',
+   '/blog/instituciones-internacionales-onu-otan-y-consejo-de-europa.jpg', 'Opositor tomando apuntes junto a un globo terráqueo y banderas de varios países', 'publicado', '2026-12-22T06:42:00.000Z', 'acceso-guardia-civil',
+   ARRAY['instituciones internacionales', 'ONU', 'OTAN', 'Consejo de Europa', 'temario']::text[], '{"title":"Instituciones internacionales: ONU, OTAN y Consejo de Europa","description":"Tema 6: ONU (Carta y órganos), OTAN (Tratado de 1949), Consejo de Europa, Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS, con sedes y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -768,7 +765,7 @@ Sí, por real decreto y con relativa frecuencia. Consulta el texto consolidado v
 ### ¿Qué normas debo estudiar de este tema?
 
 El programa habla de «estructura orgánica básica» de ambos ministerios sin citar el real decreto, así que debe estudiarse la norma vigente en cada momento: hoy, los RD 207/2024 y 205/2024 con sus reformas.',
-   NULL, NULL, 'publicado', '2026-12-21T06:25:00.000Z', 'acceso-guardia-civil',
+   '/blog/ministerio-del-interior-y-ministerio-de-defensa-estructura.jpg', 'Opositor dibujando un organigrama en una pizarra blanca, con apuntes y dos tazas de café sobre la mesa', 'publicado', '2026-12-18T06:34:00.000Z', 'acceso-guardia-civil',
    ARRAY['ministerio del interior', 'ministerio de defensa', 'estructura orgánica', 'guardia civil', 'temario']::text[], '{"title":"Ministerio del Interior y de Defensa: estructura orgánica","description":"Estructura orgánica de Interior (RD 207/2024) y Defensa (RD 205/2024) para la oposición: órganos, Dirección General de la Guardia Civil, esquemas y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -926,7 +923,7 @@ El archivo del procedimiento iniciado a solicitud que se paraliza por culpa del 
 
 ### ¿Cuándo es estimatorio el silencio?
 Como regla general, en los procedimientos iniciados a solicitud del interesado, salvo las excepciones del artículo 24.1.',
-   NULL, NULL, 'publicado', '2026-12-19T06:51:00.000Z', 'acceso-guardia-civil',
+   '/blog/procedimiento-administrativo-ley-39-2015-en-10-claves.jpg', 'Opositora ante un portátil con un calendario de mesa y un montón de documentos con pestañas de colores', 'publicado', '2026-12-16T06:00:00.000Z', 'acceso-guardia-civil',
    ARRAY['procedimiento administrativo', 'Ley 39/2015', 'plazos', 'recursos', 'derecho administrativo']::text[], '{"title":"Ley 39/2015 en 10 claves: plazos, silencio y recursos","description":"Ley 39/2015 para opositores: interesados, cómputo de plazos, silencio, notificaciones, nulidad, alzada, reposición y revisión, con casos y test propio."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1083,7 +1080,7 @@ No. La investigación privada es exclusiva de los detectives y solo sobre delito
 ### ¿Qué parte de la Ley 5/2014 no entra?
 
 El título VI, de infracciones y sanciones (artículos 56 y siguientes), que no figura en el programa publicado.',
-   '/blog/seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario.jpg', 'Guardias civiles con chaleco reflectante en un control de carretera bajo la lluvia', 'publicado', '2026-12-20T06:08:00.000Z', 'acceso-guardia-civil',
+   '/blog/seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario.jpg', 'Guardias civiles con chaleco reflectante en un control de carretera bajo la lluvia', 'publicado', '2026-12-17T06:17:00.000Z', 'acceso-guardia-civil',
    ARRAY['seguridad ciudadana', 'seguridad privada', 'LO 4/2015', 'Ley 5/2014', 'temario']::text[], '{"title":"Seguridad ciudadana y privada: LO 4/2015 y Ley 5/2014","description":"LO 4/2015 de seguridad ciudadana y Ley 5/2014 de seguridad privada para la oposición: identificación, registros, sanciones, personal, caso práctico y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

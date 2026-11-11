@@ -3,13 +3,15 @@ titulo: Preguntas trampa del examen de Guardia Civil y cómo detectarlas
 slug: preguntas-trampa-del-examen-de-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-28T07:11:00+01:00
+publicado_en: 2027-01-22T07:29:00+01:00
 curso: acceso-guardia-civil
 entradilla: No hay una lista oficial de preguntas trampa, pero las reglas de la convocatoria crean situaciones que conviene dominar: la respuesta más completa, la penalización y los errores que cuentan igual en ortografía. Siete tipos, con ejemplos propios resueltos.
 etiquetas: [técnica de test, penalización, examen, estrategia]
 seo_title: Preguntas trampa del examen de Guardia Civil: 7 tipos
 seo_description: Cómo detectar las preguntas trampa del test de Guardia Civil: respuesta más completa, negaciones, cifras, penalización y ortografía. Con ejemplos propios.
 datos: {}
+portada: /blog/preguntas-trampa-del-examen-de-guardia-civil.jpg
+portada_alt: Primer plano de un bolígrafo dudando entre dos opciones de una pregunta tipo test
 ---
 
 **Respuesta corta:** la convocatoria no habla de «preguntas trampa» y no hay datos oficiales sobre cuáles aparecen ni con qué frecuencia. Lo que sí es oficial son las reglas del test, y de ellas salen las situaciones que más confunden: elegir **la respuesta más completa** cuando varias parecen correctas, saber cuándo **no contestar** por la penalización y entender que en ortografía y gramática **marcar de más cuenta igual que no marcar**. A eso se suman los despistes de siempre: negaciones, cifras parecidas y normas que se confunden entre sí.

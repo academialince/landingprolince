@@ -3,7 +3,7 @@ titulo: Protección de datos para la oposición: RGPD y LOPDGDD
 slug: proteccion-de-datos-para-la-oposicion-rgpd-y-lopdgdd
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-27T07:07:00+01:00
+publicado_en: 2026-12-24T07:16:00+01:00
 curso: acceso-guardia-civil
 entradilla: Cómo se reparten el Reglamento europeo 2016/679 y la Ley Orgánica 3/2018, qué principios y derechos conviene dominar, qué plazos y cifras aparecen en el texto y qué títulos de la ley recoge el programa. Con casos, errores típicos y un test propio.
 etiquetas: [protección de datos, RGPD, LOPDGDD, derechos, temario]

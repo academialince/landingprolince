@@ -2,141 +2,139 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('academia-online-o-por-libre-como-preparar-la-guardia-civil', 'articulo', '"Academia, online o por libre: cómo preparar la Guardia Civil"', 'Tres formas de preparar la oposición, con sus ventajas e inconvenientes reales: academia presencial, curso online y estudio por libre. Cómo elegir según tu tiempo, tu disciplina y tu presupuesto, y qué comprobar antes de pagar.', 'No existe una opción mejor para todos. La respuesta corta: **depende de tu disciplina, del tiempo que tengas y de cuánto necesites que alguien te marque el ritmo**. El formato ayuda o estorba, pero quien aprueba es quien estudia lo que entra, con método y durante los meses necesarios. Ninguna academia, curso o libro puede garantizarte una plaza, y desconfía de quien lo haga.
+  ('bloques-de-estudio-y-tecnica-pomodoro-para-opositores', 'articulo', 'Bloques de estudio y técnica Pomodoro para opositores', 'Cómo dividir tu día en bloques de estudio con objetivo, qué es la técnica Pomodoro y qué se puede decir de ella con honestidad. Plantillas de sesión, una semana tipo y cómo combinar bloques cortos con los 140 minutos del examen.', 'Sentarse cuatro horas «a estudiar» y levantarse sin saber qué has aprendido es una de las formas más comunes de perder el tiempo en una oposición. Dividir el día en **bloques con un objetivo concreto** ayuda a que cada hora cuente y, sobre todo, a saber al final del día qué has hecho.
 
-Este artículo lo escribe una academia online, así que lo decimos de entrada: intentamos ser justos con las tres opciones, porque a cada persona le conviene una distinta.
+**Respuesta corta:** un bloque de estudio es un tramo de tiempo con una tarea definida (qué vas a estudiar y cómo vas a comprobar que lo sabes) y un descanso al final. La técnica Pomodoro es una forma popular de organizarlo, con intervalos de 25 minutos, pero no es obligatoria ni mágica: lo que más pesa es **qué haces dentro del bloque**, no cuánto dura.
 
-## Lo que exige la oposición, sea cual sea el formato
+## Qué es la técnica Pomodoro
 
-Antes de elegir, conviene tener claro qué hay que preparar, porque cualquier opción debe cubrirlo todo. Según la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)):
+La propuso Francesco Cirillo a finales de los años ochenta y le puso el nombre del temporizador de cocina con forma de tomate que usaba. El esquema clásico es:
 
-| Prueba | Formato | Qué necesitas para prepararla |
-|---|---|---|
-| Ortografía y gramática | 5 frases con 4 palabras subrayadas; 20 frases. Con 6 errores o más, no apto | Práctica corta y constante, con corrección |
-| Conocimientos generales | 100 preguntas de 4 opciones sobre 23 temas; mínimo 50 | Temario actualizado, tests por tema, repaso |
-| Inglés | 20 preguntas de nivel ESO; mínimo 8 | Gramática básica, vocabulario y tests |
-| Psicotécnica | 80 preguntas en 55 minutos; mínimo 12 sobre 30 | Entrenamiento con cronómetro |
-| Pruebas físicas | 4 pruebas, apto o no apto | Plan de entrenamiento y piscina |
-| Entrevista y reconocimiento médico | Apto o no apto | Información y, en lo médico, revisión previa |
+1. Eliges una tarea.
+2. Trabajas en ella 25 minutos sin interrupciones (un «pomodoro»).
+3. Descansas unos 5 minutos.
+4. Cada cuatro pomodoros, haces un descanso más largo, de 15 a 30 minutos.
 
-Es mucho. El primer error es elegir formato pensando solo en el temario y olvidar el resto. Si quieres el detalle de cada parte, empieza por [preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero).
+Es una **convención para organizar el tiempo**, no el resultado de un experimento sobre memoria. La investigación específica sobre la técnica es escasa y no permite afirmar que 25 minutos sea la duración óptima para aprender. Lo que sí tiene sentido es la lógica de fondo: **empezar cuesta menos si el compromiso es corto**, el temporizador te protege de interrupciones y la pausa evita seguir leyendo sin enterarte.
 
-## La comparación en una tabla
+Por eso muchas personas lo adaptan: bloques de 40 o 50 minutos con 10 de descanso, o de 45 a 90 minutos según la tarea. Si 25 minutos se te quedan cortos para un tema denso, alárgalos; si te cuesta concentrarte, empieza por menos.
 
-| | Academia presencial | Curso online | Por libre |
-|---|---|---|---|
-| Estructura y calendario | Fijos, te los marcan | Flexibles o guiados, según el curso | Los pones tú |
-| Dudas | Cara a cara | Por plataforma, foro o mensajes | Dependes de ti y de foros |
-| Horarios | Rígidos | Los eliges | Los eliges |
-| Coste | Normalmente el más alto | Intermedio | El más bajo |
-| Desplazamientos | Sí | No | No |
-| Compañeros | Sí, en el aula | A veces, en comunidad online | Solo si los buscas |
-| Riesgo principal | No poder seguir el horario | Abandonar si nadie te exige | Desorden y falta de método |
+## Lo que dice la investigación sobre aprender
 
-Los precios cambian mucho de una oferta a otra. Compara siempre **precio y contenido**: dos cursos con el mismo precio pueden incluir cosas muy distintas.
+Más importante que el reloj es el **tipo de actividad** que pones dentro del bloque. Una revisión muy citada de técnicas de estudio, [Dunlosky y colaboradores (2013)](https://doi.org/10.1177/1529100612453266), evaluó diez estrategias habituales. Las que mejor valoraron fueron:
 
-## Academia presencial
+- **La práctica de recuperación** (*practice testing*): intentar recordar o responder preguntas sin mirar los apuntes.
+- **La práctica distribuida** (*distributed practice*): repartir el estudio de un mismo contenido en varias sesiones separadas en el tiempo, en lugar de concentrarlo.
 
-**Ventajas.** Te impone calendario y rutina, tienes un docente a quien preguntar en el momento y compañeros con el mismo objetivo. Para quien necesita un compromiso externo, ese empujón vale mucho. Algunas academias presenciales también organizan entrenamiento físico.
+En cambio, **subrayar** y **releer** salieron con una utilidad baja. La misma revisión daba una valoración intermedia a otras como la autoexplicación o la práctica intercalada (mezclar tipos de problemas). No damos cifras porque los efectos dependen del material y de la población estudiada; si te interesa, merece la pena leer la fuente.
 
-**Inconvenientes.** Los horarios fijos chocan con un trabajo o con cargas familiares; hay desplazamientos; el coste suele ser el más alto y depende de que haya una cerca. Y el ritmo del grupo no siempre es el tuyo: si vas por delante, te aburres; si vas por detrás, te descuelgas.
+Traducido a bloques: **cada bloque debería terminar con preguntas**, y lo que estudias hoy debe volver a aparecer en bloques de días y semanas posteriores. Cómo programar esas vueltas lo explicamos en [cómo memorizar leyes con repaso espaciado](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario).
 
-**Encaja si:** tienes tiempo en horario fijo, vives cerca, y sabes que sin una cita externa no estudias.
+## Tres tipos de bloque
 
-## Curso online
+No todos los bloques sirven para lo mismo. Distinguirlos te ayuda a colocarlos en el día:
 
-**Ventajas.** Estudias a tu hora y desde cualquier lugar, repites las explicaciones que no entiendes y, si trabajas o vives lejos de una ciudad, muchas veces es la única opción realista. Los buenos cursos permiten hacer tests ilimitados con corrección inmediata y ver tu evolución por temas, algo difícil de replicar con papel.
+| Tipo | Para qué | Duración orientativa | Cuándo colocarlo |
+| --- | --- | --- | --- |
+| Aprender | Temario nuevo: leer, esquematizar, entender | 45-60 min | En tu franja de más energía |
+| Recuperar | Tests, preguntas sin mirar, fichas | 25-30 min | Al final de un bloque de aprender, o en huecos cortos |
+| Ensayar | Simulacro completo en condiciones reales | 140 min seguidos | Una vez por semana o cada dos, según la fase |
 
-**Inconvenientes.** Exige autodisciplina: nadie te espera en un aula a las cinco. Hay quien paga, empieza con fuerza y lo abandona en semanas. Y la calidad varía muchísimo: algunos cursos son poco más que PDF, otros incluyen seguimiento y simulacros.
+El tercero es importante: la prueba de conocimientos dura **140 minutos sin pausas** para ortografía, gramática, 100 preguntas de conocimientos y 20 de inglés. Los pomodoros de 25 minutos están bien para aprender, pero **no entrenan la resistencia que pide el examen**. Necesitas también bloques largos de ensayo. Cada cuánto hacerlos depende de la fase: lo tienes en [simulacros: cada cuánto hacerlos y cómo analizarlos](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados).
 
-**Encaja si:** trabajas, tienes horarios cambiantes o vives lejos, y eres capaz de cumplir un plan sin supervisión diaria (o el curso te da ese seguimiento).
+## Plantilla de una sesión de dos horas
 
-## Preparar la oposición por libre
+Un esquema propio, para un día de temario nuevo:
 
-**Ventajas.** Es lo más barato y lo más flexible. Hay mucho material oficial gratuito: la convocatoria, el programa, los textos consolidados de las leyes en el BOE y, cuando se publican, cuestionarios de exámenes anteriores. Lo tienes recopilado en [recursos oficiales gratuitos](/blog/recursos-oficiales-gratuitos-para-preparar-la-guardia-civil) y en [dónde encontrar exámenes oficiales anteriores](/blog/examenes-oficiales-anteriores-donde-encontrarlos).
+| Tramo | Qué haces |
+| --- | --- |
+| 0-5 min | Escribe el objetivo: «artículos 14 a 29 de la Constitución, y 20 preguntas» |
+| 5-35 min | Lectura activa y esquema |
+| 35-40 min | Pausa (levántate, agua, sin móvil) |
+| 40-70 min | **Preguntas sin mirar** sobre lo que acabas de ver |
+| 70-75 min | Pausa |
+| 75-105 min | Corrige: cada fallo, a una ficha con el artículo |
+| 105-115 min | Repaso de fichas de días anteriores |
+| 115-120 min | Anota qué has hecho y qué toca mañana |
 
-**Inconvenientes.** Debes decidir qué estudiar, en qué orden y con qué profundidad; resumir tú las leyes; buscar o fabricar tests; y corregirte. Es fácil perder semanas en lo que no entra, estudiar una versión derogada de una ley o no detectar a tiempo que fallas siempre lo mismo. Sin un [plan de estudio](/plan-de-estudio) con calendario, lo habitual es ir a trompicones.
+Fíjate en el reparto: el tiempo de lectura es menos de un tercio de la sesión. El resto es recuperar, corregir y repasar.
 
-**Encaja si:** eres muy disciplinado, te organizas bien, tienes tiempo para preparar tu propio material y presupuesto limitado.
+### Variante para días de repaso
 
-## Cómo elegir: cinco preguntas
+Cuando no toca temario nuevo, la misma sesión de dos horas puede ser: 30 minutos de test mixto de varios temas, 5 de pausa, 30 de corrección con el artículo delante, 5 de pausa, 30 de fichas de errores antiguos y 20 de inglés o psicotécnico. Mezclar temas en el test te obliga a identificar de qué norma viene cada pregunta, como en el examen.
 
-1. **¿Cumples calendarios por tu cuenta?** Mira tu historial: estudios, gimnasio, proyectos. Si sueles cumplir, por libre u online funcionan. Si no, busca presión externa.
-2. **¿Cuántas horas reales tienes a la semana?** Haz la cuenta honesta, no la ideal. Si trabajas, mira [cómo estudiar la oposición trabajando](/blog/plan-estudio-guardia-civil-trabajando).
-3. **¿Necesitas explicaciones o te basta con leer la ley?** Si te atascas con el lenguaje jurídico, valora un formato con explicaciones o tutor.
-4. **¿Qué presupuesto tienes y qué incluye cada opción?** Temario, tests, simulacros, correcciones, actualizaciones.
-5. **¿Tienes una academia cerca?** Si no, la comparación real es entre online y por libre.
+## Ejemplo propio: un día con trabajo
 
-## Casos prácticos (hipotéticos)
+**Caso hipotético.** Laura trabaja de 8 a 15 h. Su día de estudio:
 
-**Ana, 24 años, sin trabajo y con una academia a diez minutos.** Tiene tiempo en horario fijo y reconoce que en casa se distrae. Para ella, la presencial tiene sentido, quizá reforzada con tests online por su cuenta.
+- **16:30-17:30:** bloque de aprender (tema de Derecho Penal), con 10 preguntas al final.
+- **17:30-17:45:** pausa y merienda.
+- **17:45-18:15:** bloque de recuperar: test mixto de temas de semanas anteriores.
+- **18:15-18:30:** psicotécnico, una tanda corta (ideas en [entrenar el psicotécnico en 15 minutos](/blog/entrenar-psicotecnico-15-minutos-guardia-civil)).
+- **Noche:** entrenamiento físico; el estudio no se alarga.
 
-**David, 33 años, trabaja a turnos.** Ningún horario fijo de academia le sirve. Un curso online con tests que pueda hacer en ratos sueltos encaja mejor; necesitará fijar con antelación sus bloques de estudio cada semana según el cuadrante.
+Son unas dos horas efectivas, con objetivo en cada tramo. Si trabajas, tienes un reparto semanal completo en [el plan de estudio trabajando](/blog/plan-estudio-guardia-civil-trabajando).
 
-**Lucía, 28 años, ya opositó a otro cuerpo y es muy constante.** Sabe resumir leyes y organizarse. Por libre, con la convocatoria, el BOE y exámenes anteriores, puede funcionarle; quizá pague solo una suscripción de tests o simulacros para medirse.
+## Cuántos bloques al día
 
-**Raúl, 19 años, acaba de terminar Bachillerato y no ha opositado nunca.** Le falta método más que tiempo. Le conviene un formato que le dé estructura (presencial u online guiado) al menos los primeros meses, hasta que aprenda a estudiar este tipo de examen.
+Depende de tu vida, no de lo que hagan otros. Como referencia, ProLince plantea en su web una horquilla de 25 a 40 horas semanales para dedicación completa; lo explicamos en [cuántas horas al día estudiar](/blog/cuantas-horas-al-dia-hay-que-estudiar-para-la-guardia-civil). Un criterio práctico es **contar bloques completos, no horas sentado**: tres bloques con objetivo cumplido valen más que cinco horas con el móvil al lado.
 
-## Combinar también es una opción
+## Una semana tipo, adaptable
 
-No hace falta elegir una sola vía: por ejemplo, temario por libre y simulacros de pago; curso online y grupo de estudio con otros opositores; o preparación teórica en casa y entrenamiento físico con un preparador o un club. Las pruebas físicas se entrenan fuera del temario en cualquier caso: tienes marcas y planes en [pruebas físicas: marcas y entrenamiento](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento).
+- **Lunes a viernes:** 2 o 3 bloques diarios (uno de temario nuevo, uno de test y uno de repaso), más una tanda corta de inglés, lengua o psicotécnico.
+- **Sábado:** bloque largo con simulacro y su corrección.
+- **Domingo:** descanso, o un bloque ligero de fichas.
 
-## Qué comprobar antes de pagar
-
-- **Temario actualizado** a la convocatoria vigente y a las reformas legales recientes.
-- **Tests y simulacros** con corrección y explicación, no solo la letra correcta.
-- **Que cubra todas las pruebas**: [ortografía y gramática](/blog/ortografia-gramatica-examen-guardia-civil), inglés y psicotécnico, no solo los 23 temas.
-- **Muestra gratuita** o periodo de prueba, para ver el material antes de comprometerte.
-- **Condiciones claras**: qué incluye, cuánto dura el acceso, cómo darse de baja.
-- **Ninguna promesa de resultado.** Ni porcentajes de aprobados que no puedas comprobar, ni «plaza asegurada».
-
-## Cómo revisar tu elección a los tres meses
-
-Elegir formato no es una decisión para siempre. Pasados unos tres meses, hazte estas preguntas con datos, no con sensaciones:
-
-| Pregunta | Señal de que funciona | Señal de alarma |
-|---|---|---|
-| ¿Cumples las horas que planificaste? | La mayoría de las semanas, sí | Más semanas fallidas que cumplidas |
-| ¿Avanzas en el temario? | Has cerrado varios temas con test aprobado | Sigues releyendo los primeros |
-| ¿Mejoran tus tests por tema? | La tendencia sube, aunque sea despacio | Notas estancadas o a la baja |
-| ¿Trabajas todas las pruebas? | Ortografía, inglés y psicotécnico tienen hueco cada semana | Solo estudias temario |
-| ¿Resuelves tus dudas? | Sabes a quién o dónde preguntar | Acumulas dudas sin resolver |
-
-Si la mayoría de las respuestas caen en la columna de alarma, el problema puede ser el formato o el método. Antes de cambiar de academia o de curso, revisa el plan: a veces basta con ajustar horarios, reducir el material o añadir tests. Si aun así no funciona, cambia con criterio, no por impulso.
+En los últimos meses antes del examen, el peso se desplaza de los bloques de aprender a los de recuperar y ensayar. Lo veremos en el plan de repaso de los últimos tres meses.
 
 ## Errores frecuentes
 
-- **Pagar y dar por hecho que el formato estudia por ti.** El curso es una herramienta.
-- **Acumular material** de varias fuentes sin terminar ninguna.
-- **Cambiar de método cada mes.** Dale a cualquier opción un periodo razonable antes de juzgarla.
-- **Estudiar solo temario** y descubrir tarde la psicotécnica o las físicas.
-- **No medirse nunca** con [simulacros completos](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados).
+- **Bloques sin objetivo.** «Estudiar el tema 5» es vago; «esquema del tema 5 y 15 preguntas» es medible.
+- **Bloques solo de lectura.** Si nunca te preguntas, no sabes qué has retenido.
+- **Pausas que se alargan.** Si la pausa es de redes sociales, cuesta volver. Mejor caminar o estirar.
+- **Interrumpirte por cada notificación.** El teléfono, en otra habitación o en modo avión.
+- **Usar solo bloques cortos** y llegar al examen sin haber aguantado nunca 140 minutos.
+- **No planificar el repaso.** Lo que no vuelve a aparecer en tu calendario se olvida.
 
-## Una opción más
+## Checklist del bloque
 
-Si te inclinas por el formato online, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) de ProLince es una de las opciones: incluye tests por tema y materia, exámenes de años anteriores (de 2017 a 2026) y simulacros propios, según el pack. Compáralo con lo que necesitas tú, como harías con cualquier otra.
+- [ ] Antes de empezar, he escrito el objetivo.
+- [ ] El móvil está fuera de mi alcance.
+- [ ] El bloque termina con preguntas sin mirar.
+- [ ] Los fallos van a fichas o a un cuaderno de errores.
+- [ ] La pausa es de verdad (moverme, agua), no de pantalla.
+- [ ] Al acabar, anoto lo hecho y lo que toca mañana.
+- [ ] Esta semana tengo reservado un bloque largo de simulacro.
+
+Si prefieres que alguien te estructure los bloques y el calendario, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye planificación.
 
 ## Preguntas frecuentes
 
-### ¿Se puede aprobar la Guardia Civil por libre?
-Sí, es posible: la convocatoria no exige ninguna preparación concreta y el acceso se decide por las pruebas. Exige método, constancia y un buen plan.
+### ¿Son obligatorios los 25 minutos del Pomodoro?
 
-### ¿Es obligatorio ir a una academia?
-No. Ninguna norma lo exige.
+No. Es la propuesta original, pero puedes ajustar los tiempos a tu concentración y a la tarea. Muchos opositores usan bloques de 45 a 60 minutos para temario nuevo.
 
-### ¿Qué es mejor si trabajo?
-Un formato flexible (online o por libre) suele encajar mejor, pero lo decisivo es tu constancia semana a semana.
+### ¿Hay estudios que prueben que el Pomodoro funciona?
 
-### ¿Cuánto cuesta preparar la oposición?
-Varía mucho según el formato y lo que incluya. Compara siempre el precio con el contenido real y la duración del acceso.
+La investigación específica sobre la técnica es escasa y no demuestra que 25 minutos sea lo ideal. Sí hay respaldo sólido para la práctica de recuperación y la práctica distribuida, que puedes meter dentro de tus bloques.
 
-### ¿Cuánto tiempo necesito?
-Depende de tu punto de partida y de tus horas. No hay una cifra oficial ni válida para todos.
+### ¿Qué hago si no consigo concentrarme ni 25 minutos?
 
-### ¿Cómo sé si mi preparación va bien?
-Midiéndote con simulacros completos en condiciones reales y comparando tus resultados con los mínimos de cada prueba.',
-   NULL, NULL, 'publicado', '2027-01-23T06:46:00.000Z', 'acceso-guardia-civil',
-   ARRAY['academia', 'online', 'por libre', 'preparación']::text[], '{"title":"Academia, online o por libre para la Guardia Civil","description":"Comparación honesta entre academia presencial, curso online y preparar la Guardia Civil por libre: ventajas, inconvenientes y cómo elegir según tu caso."}'::jsonb, '{}'::jsonb)
+Empieza con bloques de 10 o 15 minutos y ve subiendo poco a poco. Si es un problema persistente que te preocupa o te limita, consúltalo con un profesional.
+
+### ¿Estudio mejor por la mañana o por la tarde?
+
+Depende de cada persona y de tus horarios. Coloca los bloques de aprender en tu franja de más energía y deja los de recuperar para los huecos.
+
+### ¿Cómo entreno los 140 minutos del examen si estudio en bloques cortos?
+
+Con bloques de ensayo: simulacros completos, sin pausas y con reloj, con la frecuencia que corresponda a tu fase.
+
+### ¿Cuánto deben durar las pausas?
+
+En el esquema clásico, unos 5 minutos entre bloques y entre 15 y 30 cada cuatro. Lo importante es que te despejen y que sepas cuándo terminan.',
+   '/blog/bloques-de-estudio-y-tecnica-pomodoro-para-opositores.jpg', 'Opositora de espaldas tomando notas junto a un temporizador de cocina, un vaso de agua y el móvil boca abajo', 'publicado', '2027-01-23T06:46:00.000Z', 'acceso-guardia-civil',
+   ARRAY['técnica de estudio', 'pomodoro', 'organización', 'planificación']::text[], '{"title":"Técnica Pomodoro para opositores: bloques de estudio","description":"Cómo organizar bloques de estudio con la técnica Pomodoro en la oposición a Guardia Civil: plantillas de sesión, descansos, semana tipo y evidencia."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -300,7 +298,7 @@ Sí, aunque sean diez minutos. La frecuencia pesa más que la duración en el ap
 
 ### ¿Dónde practico con tests corregidos?
 En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) el inglés se trabaja con tests por materia y simulacros completos.',
-   NULL, NULL, 'publicado', '2027-01-26T06:37:00.000Z', 'acceso-guardia-civil',
+   '/blog/como-aprobar-el-ingles-de-la-guardia-civil-partiendo-de-cero.jpg', 'Aspirante con auriculares al cuello leyendo un libro de inglés con gesto de duda en el salón de casa', 'publicado', '2027-01-20T06:55:00.000Z', 'acceso-guardia-civil',
    ARRAY['inglés', 'desde cero', 'plan de estudio', 'examen']::text[], '{"title":"Aprobar el inglés de la Guardia Civil desde cero","description":"Plan por fases para aprobar el inglés de la Guardia Civil partiendo de cero: qué priorizar, ejercicios de arranque, tests y cómo medir tu avance."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -311,454 +309,625 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('derecho-fiscal-en-la-oposicion-hacienda-contrabando', 'articulo', 'Derecho fiscal en la oposición: contrabando y aduanas, las normas que entran', 'El tema 23 no es la Ley General Tributaria: es la represión del contrabando y el Código Aduanero de la Unión. Qué normas y títulos entran, los umbrales que separan delito e infracción, ejemplos resueltos y un mini test.', 'Si buscas «Derecho fiscal» y esperas encontrar impuestos, sorpresa: en esta oposición **no entran la Ley General Tributaria ni el IRPF**. **Respuesta corta:** el tema 23 gira en torno a una misión concreta de la Guardia Civil, el resguardo fiscal del Estado, y tiene dos bloques: la **represión del contrabando** (LO 12/1995 y RD 1649/1998) y una selección de títulos del **Código Aduanero de la Unión**. Lo más importante es dominar los umbrales de valor que separan el delito de la infracción administrativa.
+  ('como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas', 'articulo', 'Cómo leer un enunciado tipo test para reducir los errores de lectura', 'Muchos fallos del test no son de temario, sino de lectura: un «excepto» pasado por alto, una doble negación o una opción más completa que otra. Un método de lectura en cinco pasos, ejemplos propios resueltos y cómo entrenarlo en tus simulacros.', 'Hay preguntas que fallas aunque sepas la respuesta. Lees deprisa, marcas la primera opción que suena bien y, al corregir, ves que el enunciado pedía **lo contrario**. Ese error es el más barato de corregir, porque no depende de cuánto temario sabes, sino de cómo lees.
 
-## Por qué está en el temario
+**Respuesta corta:** lee el enunciado entero antes de mirar las opciones, localiza qué se pide exactamente (lo correcto, lo incorrecto, lo más completo, según qué norma) y lee las cuatro opciones hasta el final antes de marcar. Desconfía de las palabras absolutas, pero no las descartes por sistema. Y entrena todo esto en tus simulacros, porque en esta oposición cada error resta.
 
-La [LO 2/1986, de Fuerzas y Cuerpos de Seguridad](https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859), atribuye a la Guardia Civil, en su artículo 12.1.B, «el resguardo fiscal del Estado y las actuaciones encaminadas a evitar y perseguir el contrabando». Y el RD 1649/1998 prevé que el procedimiento sancionador pueda iniciarse a partir de la actuación de la Guardia Civil en esas funciones. El reparto de competencias entre cuerpos lo tienes en [la LO 2/1986, competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada).
+Todos los ejemplos del artículo son **propios**, creados para practicar la lectura: no son preguntas oficiales.
 
-## Qué normas entran
+## Por qué leer bien vale puntos
 
-Según el [temario oficial](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf) y nuestro [programa](/temario-guardia-civil):
+La prueba de conocimientos tiene 100 preguntas con 4 opciones y, según la base 6.1.1.c) de la [convocatoria de 2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), las contestadas incorrectamente penalizan y las no contestadas no. Con la fórmula oficial, **cada error resta un tercio de acierto** (lo tienes desarrollado en [cómo calcular la nota del examen](/blog/calcular-nota-examen-guardia-civil)).
 
-**Bloque 1. Represión del contrabando**
-- [Ley Orgánica 12/1995, de 12 de diciembre](https://www.boe.es/buscar/act.php?id=BOE-A-1995-26836), de represión del contrabando.
-- [Real Decreto 1649/1998, de 24 de julio](https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017), que desarrolla su Título II (infracciones administrativas).
+Un fallo de lectura, por tanto, no solo deja de sumar: resta. Si en un simulacro pierdes cinco preguntas que sabías por leer mal, la diferencia entre acertarlas y fallarlas es de 5 + 5/3 ≈ **6,7 puntos**. Y el mínimo para no quedar excluido es 50 sobre 100.
 
-**Bloque 2. Reglamento (UE) n.º 952/2013, Código Aduanero de la Unión**, solo en estas partes:
-- Título I: ámbito, misión de las aduanas y definiciones; derechos y obligaciones (suministro de información y representación aduanera).
-- Título III, Capítulo 1: origen de la deuda aduanera de importación y de exportación.
-- Título VI: despacho a libre práctica y exención de derechos de importación.
-- Título VII, Capítulos 1 y 2: disposiciones generales de los regímenes especiales y tránsito.
-- Título VIII: salida de mercancías (formalidades, exportación y reexportación, declaración sumaria de salida).
+## El método en cinco pasos
 
-La Ley General Tributaria solo aparece citada dentro de la LO 12/1995 (por ejemplo, en el artículo 4, sobre responsabilidad civil, o como norma supletoria del Título II), pero no forma parte del programa.
+1. **Lee el enunciado completo, tapando las opciones.** Intenta responder mentalmente antes de verlas. Si ya sabes la respuesta, las opciones solo tienen que confirmarla.
+2. **Localiza la orden.** ¿Pide la correcta, la incorrecta, la que *no* se cumple, la más completa? Rodéala con el bolígrafo.
+3. **Localiza la fuente.** «Según la Constitución», «según la Ley Orgánica 2/1986»: contesta con esa norma y no con otra parecida.
+4. **Marca los términos que acotan:** cifras, plazos, órganos, «siempre», «solo», «al menos», «en todo caso», «podrá», «deberá».
+5. **Lee las cuatro opciones hasta el final** antes de elegir, y compara entre ellas lo que cambia.
 
-## La estructura de la LO 12/1995
+Parece lento, pero con práctica se hace en segundos. El objetivo no es leer despacio, sino leer **en el orden correcto**.
 
-| Parte | Artículos | Contenido |
-| --- | --- | --- |
-| Título preliminar | Art. 1 | Definiciones: mercancía, importación, exportación, géneros estancados, géneros prohibidos… |
-| Título I. Delito de contrabando | Arts. 2 a 10 | Tipos, penas, responsabilidad civil, comiso, intervención, enajenación anticipada y valoración |
-| Título II. Infracciones administrativas | Arts. 11 a 16 | Tipificación, sanciones, graduación, competencia, medidas, no concurrencia y prescripción |
-| Disposiciones adicionales | DA 1.ª a 4.ª | Organización funcional (incluido el Servicio de Vigilancia Aduanera), información de transportistas y liquidación de la deuda |
+## Trampa 1: «incorrecta», «no» y «excepto»
 
-Dos definiciones del artículo 1 que conviene tener claras: **géneros estancados** son los atribuidos por ley al Estado en régimen de monopolio, **incluidas las labores del tabaco**; **géneros prohibidos** son aquellos cuya importación, exportación, comercio, tenencia o producción prohíbe un tratado, una ley o un reglamento de la Unión.
+Un enunciado como «señale la opción **incorrecta**» invierte toda la pregunta. Si lo pasas por alto, marcas una afirmación verdadera.
 
-## Delito o infracción: los umbrales
+**Ejemplo propio.** Señale la afirmación **incorrecta** sobre el Tribunal Constitucional:
 
-Según el artículo 2, hay **delito de contrabando** cuando el valor de los bienes es igual o superior a:
+a) Se compone de 12 miembros.
+b) Sus miembros son designados por un periodo de nueve años.
+c) Se renueva por terceras partes cada tres años.
+d) Sus miembros son designados por un periodo de cinco años.
 
-| Supuesto | Ejemplos | Umbral |
-| --- | --- | --- |
-| Art. 2.1 | Importar o exportar mercancías de lícito comercio sin presentarlas en aduana; comerciar con mercancías no comunitarias sin acreditar su importación lícita | 150.000 € |
-| Art. 2.2 | Exportar bienes del Patrimonio Histórico sin autorización; géneros estancados o prohibidos; especies protegidas por el Convenio de Washington; material de defensa y de doble uso; precursores de drogas | 50.000 € |
-| Art. 2.3.b | Labores de tabaco | 15.000 € |
+**Solución:** d). Las tres primeras recogen lo que dice el artículo 159 de la Constitución; la d) es la falsa. Quien no ve el «incorrecta» marca la a), porque es la primera verdadera.
 
-Además, es delito **con independencia del valor** (art. 2.3.a) cuando el objeto son drogas, estupefacientes, sustancias psicotrópicas, armas, explosivos, agentes biológicos o toxinas, sustancias químicas tóxicas y sus precursores, u otros bienes cuya tenencia es delito, o cuando el contrabando se hace **a través de una organización**. Otras reglas: las acciones fraccionadas con un plan preconcebido se suman (art. 2.4), la **imprudencia grave** también es punible (art. 2.5) y las personas jurídicas pueden ser penalmente responsables (art. 2.6).
+## Trampa 2: las dobles negaciones
 
-**Penas (art. 3):** prisión de **uno a cinco años** y multa **del tanto al séxtuplo** del valor de los bienes. En los supuestos de las letras a), b) y e) del artículo 2.1 (con una salvedad en la e), se imponen en su mitad inferior; en los demás casos del artículo 2, en su mitad superior. Si es imprudente, pena inferior en un grado. Para repasar qué significan mitades y grados, mira [derecho penal: delito, penas y grados](/blog/derecho-penal-para-guardia-civil-delito-penas-y-grados).
+«No es cierto que la Constitución no reconozca el derecho a la vida.» Dos negaciones se anulan: la frase equivale a «la Constitución reconoce el derecho a la vida», que es verdad (artículo 15).
 
-## Las infracciones administrativas (Título II)
+**Técnica:** antes de mirar las opciones, **traduce la frase a una afirmación simple**. Si te pierdes, tacha mentalmente las dos negaciones y lee lo que queda.
 
-Cuando la conducta de los apartados 1 y 2 del artículo 2 no llega a delito, es **infracción administrativa** (art. 11), sea dolosa o con cualquier grado de negligencia. Se clasifica por el valor:
+## Trampa 3: los absolutos
 
-| Clase | Caso general | Supuestos del art. 2.2 | Labores de tabaco |
+Palabras como *siempre, nunca, todos, ninguno, únicamente, en ningún caso* hacen una afirmación más fácil de refutar: basta un caso en contra.
+
+**Ejemplo propio:** «Los derechos fundamentales no pueden suspenderse en ningún caso». Es **falsa**: el artículo 55.1 de la Constitución permite suspender determinados derechos cuando se declara el estado de excepción o de sitio.
+
+Pero cuidado: **un absoluto no es siempre falso**. El artículo 159.5 dice que los miembros del Tribunal Constitucional son independientes e inamovibles en el ejercicio de su mandato, y una opción con «en todo caso» puede ser literal de la norma. La palabra absoluta es una **señal para releer**, no una regla para descartar.
+
+## Trampa 4: «la más completa»
+
+La base 6.1.1.c) dice que, si el aspirante considera correctas varias opciones, **debe señalar la más completa**. Es la misma instrucción que aparece para el inglés y el psicotécnico.
+
+**Ejemplo propio.** Según el artículo 69.2 de la Constitución, en cada provincia se elegirán:
+
+a) Senadores.
+b) Cuatro senadores.
+c) Cuatro senadores por sufragio universal, libre, igual, directo y secreto.
+d) Dos senadores.
+
+**Solución:** c). La a) y la b) son ciertas, pero incompletas; la c) recoge también la forma de elección que fija el mismo apartado. Cuando varias te parezcan correctas, **compara cuál incluye a las demás**. Hay más ejemplos de este tipo en [las preguntas trampa del examen](/blog/preguntas-trampa-del-examen-de-guardia-civil).
+
+## Trampa 5: verbos que cambian el sentido
+
+«Podrá» no es «deberá»; «propone» no es «nombra»; «convoca» no es «preside». Un solo verbo cambiado convierte una frase literal en falsa.
+
+**Ejemplo propio:** «El Rey sancionará en el plazo de quince días las leyes aprobadas por las Cortes Generales». Es lo que dice el artículo 91. Si la opción dijera «en el plazo de un mes» o «podrá sancionar», ya no sería literal. Al estudiar, subraya los verbos de los artículos que te cuesten, no solo los sustantivos.
+
+## Trampa 6: números y listas casi iguales
+
+Plazos o cifras que cambian en una unidad entre opciones. Aquí no hay truco de lectura: hay que saberse el dato. Lo que sí ayuda es **comparar las opciones entre sí** para ver exactamente qué cambia y concentrar tu duda en ese punto.
+
+## Qué hacer cuando dudas: la aritmética del tercio
+
+Con cuatro opciones y un tercio de penalización, contestar a ciegas tiene un valor esperado de cero: un cuarto de probabilidad de sumar 1 y tres cuartos de restar un tercio. Si **descartas al menos una opción** y las restantes te parecen igual de probables, el valor esperado pasa a ser positivo. Es aritmética, no una garantía: comprueba en tus simulacros si arriesgar te ha sumado o restado.
+
+### ¿Cambiar o no la primera respuesta?
+
+Existe la creencia de que la primera intuición suele ser la buena. Algunos estudios lo han puesto en duda: por ejemplo, Kruger, Wirtz y Miller (2005, *Journal of Personality and Social Psychology*) encontraron que, entre los cambios de respuesta de estudiantes, eran más frecuentes los que pasaban de incorrecta a correcta que al revés. Una pauta prudente: **cambia solo cuando tengas un motivo concreto** (has visto el «no», recuerdas el artículo), no por nerviosismo.
+
+## Leer bien sin quedarte sin tiempo
+
+Los 140 minutos de la prueba incluyen ortografía, gramática, las 100 preguntas de conocimientos y las 20 de inglés, seguidas. Un reparto **orientativo y propio**, que debes ajustar con tus simulacros:
+
+| Parte | Tiempo orientativo |
+| --- | --- |
+| Ortografía y gramática | 15-20 min |
+| Conocimientos (100 preguntas) | 85-95 min |
+| Inglés (20 preguntas) | 15-20 min |
+| Repaso de dudosas y comprobación de marcas | 10 min |
+
+Una técnica útil es la de **dos pasadas**: en la primera contestas lo seguro y marcas al margen las dudosas; en la segunda vuelves solo a esas. Así la lectura cuidadosa no se come el tiempo de las preguntas fáciles. La estructura del examen completo está en [el examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
+
+## Caso práctico: revisar los fallos de lectura
+
+**Caso hipotético.** Una opositora corrige un simulacro con 22 errores. Repasa cada uno y anota la causa: 13 «no lo sabía», 5 «leí mal» (tres negaciones no vistas, dos opciones incompletas), 4 «lo confundí con otra norma». Decide tres cambios para el siguiente simulacro: rodear siempre la orden, leer las cuatro opciones y escribir la norma citada al margen. Dos semanas después, los fallos de lectura bajan a 2. El temario no ha cambiado; la forma de leer, sí.
+
+## Errores frecuentes
+
+- **Mirar las opciones antes de terminar el enunciado.**
+- **Responder con la norma equivocada** porque el dato «te suena».
+- **Descartar por sistema** cualquier opción con «siempre» o «nunca».
+- **Cambiar respuestas por nervios**, sin una razón concreta.
+- **Releer cada pregunta tres veces** y quedarte sin tiempo para el inglés.
+
+## Checklist de lectura
+
+- [ ] He leído el enunciado entero tapando las opciones.
+- [ ] He rodeado la orden (correcta, incorrecta, excepto, más completa).
+- [ ] Sé qué norma pregunta.
+- [ ] He leído las cuatro opciones.
+- [ ] He comparado qué cambia entre ellas.
+- [ ] Si dudo, sé cuántas opciones he descartado antes de decidir.
+
+Para entrenarlo con cuestionarios completos, mira [cómo hacer y analizar simulacros](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados). Si quieres practicar con tests corregidos, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye simulacros.
+
+## Preguntas frecuentes
+
+### ¿Debo descartar siempre las opciones con «siempre» o «nunca»?
+
+No. Son una señal para comprobar, no una regla. Hay afirmaciones absolutas verdaderas y algunas son literales de la norma.
+
+### ¿Qué hago si dos opciones parecen correctas?
+
+La convocatoria indica que debes señalar la más completa. Comprueba cuál engloba a la otra.
+
+### ¿Contestar en blanco resta?
+
+Según la convocatoria de 2026, no: solo penalizan las preguntas contestadas incorrectamente.
+
+### ¿Cuánto tiempo tengo por pregunta?
+
+La convocatoria no fija tiempo por pregunta: hay 140 minutos para todas las partes. Reparte según tus simulacros y deja unos minutos para repasar.
+
+### ¿Conviene cambiar una respuesta en el repaso final?
+
+Solo si tienes un motivo concreto. Cambiar por nervios no tiene fundamento; cambiar porque has visto una negación que se te escapó, sí.
+
+### ¿Los ejemplos de este artículo son preguntas oficiales?
+
+No. Son ejemplos propios, creados para practicar la lectura. Consulta siempre la convocatoria vigente.',
+   '/blog/como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas.jpg', 'Opositora subrayando con atención una línea de un cuestionario tipo test junto a una pila de libros', 'publicado', '2027-01-25T06:20:00.000Z', 'acceso-guardia-civil',
+   ARRAY['test', 'técnica de examen', 'lectura', 'penalización']::text[], '{"title":"Cómo leer un enunciado tipo test: método en 5 pasos","description":"Cómo leer los enunciados del test de Guardia Civil: absolutos, dobles negaciones, «excepto», la opción más completa y la gestión del tiempo. Con ejemplos."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('falsos-amigos-en-ingles-los-errores-tipicos-del-opositor', 'articulo', '"Falsos amigos en inglés: los errores clásicos al traducir del español"', 'Palabras inglesas que se parecen a las españolas pero significan otra cosa. Una tabla amplia de falsos amigos con ejemplos propios, los parciales, los que encajan en contextos de seguridad y un método para no caer en un test de cuatro opciones.', '**Respuesta corta:** un falso amigo es una palabra inglesa que se parece a una española pero significa otra cosa. En un test de cuatro opciones son un cebo perfecto, porque la opción que «suena» a español se marca por inercia. La defensa es memorizar los pares más conocidos, aprenderlos dentro de frases y desconfiar de lo que parece demasiado fácil.
+
+Los ejemplos y ejercicios son **propios**, escritos para practicar. No son preguntas oficiales ni sabemos si saldrá alguno en el examen. La prueba, según la base 6.1.1 d) de la [convocatoria de 2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), consta de 20 preguntas tipo test de nivel compatible con la ESO.
+
+## Los falsos amigos más conocidos
+
+| Palabra inglesa | Significa | NO significa | Ejemplo |
 | --- | --- | --- | --- |
-| Leve | Menos de 37.500 € | Menos de 6.000 € | Menos de 1.000 € |
-| Grave | De 37.500 a 112.500 € | De 6.000 a 18.000 € | De 1.000 a 6.000 € |
-| Muy grave | Más de 112.500 € | Más de 18.000 € | Más de 6.000 € |
-
-**Multas (art. 12)**, proporcionales al valor de los bienes, en el caso general: leves, del 100 al 150 %; graves, del 150 al 250 %; muy graves, del 250 al 350 %, con un mínimo de 500 €. Para los bienes del artículo 2.2 y el tabaco hay porcentajes propios, mínimos de 1.000 € (2.000 € en tabaco) y, además, cierre del establecimiento o suspensión de la actividad.
-
-**Otras claves del Título II:**
-- **Competencia (art. 13):** los órganos de la Administración aduanera de la Agencia Estatal de Administración Tributaria. Sus resoluciones se recurren en vía económico-administrativa y después ante la jurisdicción contencioso-administrativa.
-- **No concurrencia (art. 14 bis):** si la Administración aprecia posible delito, pasa el tanto de culpa al juez o al fiscal y suspende el procedimiento; una sentencia condenatoria impide la sanción administrativa.
-- **Prescripción (art. 15):** las infracciones y las sanciones prescriben a los **cuatro años**.
-
-### El reglamento: RD 1649/1998
-
-Desarrolla el procedimiento sancionador. Dos datos útiles: los órganos competentes para imponer multas son los responsables de Aduanas e Impuestos Especiales de la AEAT (art. 16), y el plazo máximo para resolver es de **seis meses** desde el acuerdo de iniciación, prorrogable una sola vez por otros seis (art. 35.5). Esta última fue la pregunta 97 del modelo A de 2026; puedes ver otras en [exámenes oficiales anteriores](/blog/examenes-oficiales-anteriores-donde-encontrarlos).
-
-## Ejemplos resueltos (hipotéticos)
-
-1. **Tabaco por valor de 20.000 €** sin cumplir los requisitos legales. Tabaco: umbral de delito, 15.000 €. 20.000 ≥ 15.000 → **delito**.
-2. **Tabaco por valor de 4.000 €.** No llega a 15.000 → infracción. Escala del tabaco: entre 1.000 y 6.000 → **grave**.
-3. **Mercancía de lícito comercio de 120.000 €** importada sin presentarla en aduana. Art. 2.1: umbral, 150.000 → no es delito. Caso general: más de 112.500 → infracción **muy grave**. Multa entre el 250 y el 350 %: entre 300.000 y 420.000 €.
-4. **Tres envíos de 60.000 €** de la misma mercancía de lícito comercio, con un plan preconcebido. Cada uno no llega a 150.000, pero suman 180.000 → **delito** por el artículo 2.4.
-5. **Cualquier cantidad de droga o de armas** introducida de contrabando → **delito**, sin importar el valor (art. 2.3.a).
-
-## El Código Aduanero de la Unión: lo esencial
-
-Es un reglamento europeo de aplicación directa. Conceptos clave dentro de lo que entra:
-
-- **Misión de las aduanas (art. 3):** supervisar el comercio internacional de la Unión, contribuir a un comercio justo y abierto y aplicar la política comercial común, entre otros fines.
-- **Territorio aduanero (art. 4):** incluye España **salvo Ceuta y Melilla**; de Dinamarca quedan fuera las Islas Feroe y Groenlandia.
-- **Deuda aduanera (art. 5):** obligación de pagar los derechos de importación o exportación aplicables a unas mercancías.
-- **Despacho a libre práctica (art. 201):** confiere a las mercancías no pertenecientes a la Unión el **estatuto aduanero de mercancías de la Unión**, con el pago de los derechos debidos.
-- **Regímenes especiales (art. 210):** tránsito (interno y externo), depósito (depósito aduanero y zonas francas), destinos especiales (importación temporal y destino final) y perfeccionamiento (activo y pasivo). De ellos, el programa solo desarrolla el tránsito.
-
-No es un bloque de memorizar importes, sino de entender el recorrido de la mercancía: entra, se declara, nace la deuda, se despacha o se somete a un régimen especial, y sale.
-
-## Cómo estudiarlo
-
-- **Empieza por la LO 12/1995:** es corta y se entiende bien con las dos tablas de umbrales.
-- **Haz fichas de las cifras** (150.000, 50.000, 15.000; 37.500 y 112.500; cuatro años) con repaso espaciado ([cómo hacerlo](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario)).
-- **Lee el Código Aduanero con el temario al lado**, para no estudiar títulos que no entran.
-- **Practica con tests**, incluidas las preguntas oficiales de 2026 de este tema.
-
-## Errores frecuentes
-
-- Estudiar la Ley General Tributaria.
-- Aplicar el umbral general de 150.000 € al tabaco o a los géneros estancados.
-- Olvidar que drogas, armas, explosivos y organización son delito sin umbral.
-- Confundir las escalas de infracción con los umbrales de delito.
-- Atribuir al Servicio de Vigilancia Aduanera el carácter de policía judicial: la ley le da carácter **colaborador** de las Fuerzas y Cuerpos de Seguridad del Estado.
-
-## Mini test (preguntas propias, salvo la 6)
-
-1. Contrabando de labores de tabaco por valor de 15.000 €:
-   a) Infracción grave · b) Infracción muy grave · c) Delito · d) No es sancionable
-2. La pena de prisión del delito de contrabando es de:
-   a) 6 meses a 3 años · b) 1 a 5 años · c) 2 a 6 años · d) 3 a 8 años
-3. Las infracciones administrativas de contrabando prescriben a los:
-   a) 2 años · b) 3 años · c) 4 años · d) 5 años
-4. ¿Quién es competente para conocer de las infracciones administrativas de contrabando?
-   a) La Guardia Civil · b) La Administración aduanera de la AEAT · c) El juez de instrucción · d) El Ministerio del Interior
-5. ¿Qué confiere el despacho a libre práctica a una mercancía no perteneciente a la Unión?
-   a) El estatuto aduanero de mercancía de la Unión · b) La exención de todo derecho · c) El régimen de tránsito · d) La reexportación
-6. (Oficial, 2026, modelo A, n.º 96) En la persecución de los delitos de contrabando, el Servicio de Vigilancia Aduanera tiene, respecto de las Fuerzas y Cuerpos de Seguridad del Estado, carácter de:
-   a) Policía judicial · b) Colaborador · c) Agente de la autoridad · d) Fuerza auxiliar
-
-**Soluciones:** 1 c (art. 2.3.b: igual o superior a 15.000). 2 b (art. 3.1). 3 c (art. 15). 4 b (art. 13). 5 a (art. 201 del Código Aduanero). 6 b (disposición adicional primera; también según la plantilla oficial).
-
-El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye este tema con tests.
-
-## Preguntas frecuentes
-
-### ¿Entra la Ley General Tributaria?
-No figura entre las normas del tema 23. Solo se cita dentro de la ley de contrabando.
-
-### ¿Hay que saberse los importes?
-Sí: los umbrales son la base para distinguir delito e infracción y para clasificar las infracciones. Comprueba siempre la versión consolidada vigente, porque se han modificado con los años.
-
-### ¿Es lo mismo contrabando que fraude fiscal?
-No. El contrabando afecta a mercancías, a su paso por la aduana o a su comercio y tenencia sin acreditar su licitud; el fraude fiscal es materia tributaria y penal distinta.
-
-### ¿Quién sanciona las infracciones de contrabando?
-Los órganos de la Administración aduanera de la AEAT (art. 13 de la LO 12/1995), conforme al procedimiento del RD 1649/1998.
-
-### ¿El Código Aduanero entra completo?
-No. Solo los títulos y capítulos que enumera el temario: partes de los Títulos I, III, VI, VII y VIII.',
-   '/blog/derecho-fiscal-en-la-oposicion-hacienda-contrabando.jpg', 'Agentes del Servicio Marítimo de la Guardia Civil abordando un pesquero', 'publicado', '2027-01-21T06:12:00.000Z', 'acceso-guardia-civil',
-   ARRAY['derecho fiscal', 'contrabando', 'aduanas', 'temario']::text[], '{"title":"Derecho fiscal Guardia Civil: contrabando y aduanas","description":"Tema 23 de Guardia Civil: LO 12/1995 de contrabando, RD 1649/1998 y Código Aduanero de la Unión. Umbrales, sanciones, ejemplos resueltos y mini test."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('examenes-oficiales-anteriores-donde-encontrarlos', 'articulo', 'Exámenes oficiales anteriores: dónde encontrarlos y cómo sacarles partido', 'La Guardia Civil publica en su web cuestionarios de la prueba de conocimientos y, en 2026, también las plantillas de respuestas. Qué hemos podido comprobar, cómo corregirlos con la fórmula oficial y cómo analizarlos pregunta a pregunta.', 'Trabajar con exámenes reales es de lo mejor que puedes hacer, porque te enseña **cómo pregunta el Tribunal**, no cómo cree una academia que lo hace. **Respuesta corta:** en la web de la Guardia Civil hemos encontrado los cuestionarios de 2026 (modelos A y B) con su plantilla oficial de respuestas, y los de 2022 (modelos 1A, 1B, 2A y 2B). Abajo tienes los enlaces, cómo hacerlos y cómo sacarles todo el jugo.
-
-## Qué hay publicado (comprobado)
-
-| Convocatoria | Cuestionarios | Plantilla de respuestas |
-| --- | --- | --- |
-| 2026 (Resolución 160/38243/2026) | [Modelo A](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/Procesos_Selectivos_2026/INGRESO-GC-2026-TIPO-A.pdf) y [modelo B](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/Procesos_Selectivos_2026/INGRESO-GC-2026-TIPO-B.pdf) | [Plantilla corregida (PDF n.º 2)](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/PLANTILLAS-INGRESO_CABOS_-Y_GUARDIAS.-2026-2.pdf) |
-| 2022 (Resolución 160/38262/2022) | [Modelo 1A](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2022/IngresoGC2022/INGRESO_GC_2022_1A.PDF), [1B](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2022/IngresoGC2022/INGRESO_GC_2022_1B.PDF), [2A](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2022/IngresoGC2022/INGRESO_GC_2022_2A.PDF) y [2B](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2022/IngresoGC2022/INGRESO_GC_2022_2B.PDF) | No la hemos localizado en la web oficial |
-
-Detalles que conviene saber:
-
-- Cada cuestionario recoge las pruebas de **ortografía, gramática, conocimientos generales (100 preguntas más 5 de reserva) e inglés**. El psicotécnico no viene en estos cuadernillos.
-- Los modelos A y B de un mismo año tienen **las mismas preguntas en distinto orden**: la plantilla de 2026 avisa de que una misma pregunta errónea era la 7 del modelo A y la 88 del B. No los cuentes como dos exámenes distintos.
-- La plantilla de 2026 se publicó en la [página oficial del proceso selectivo](https://web.guardiacivil.es/es/tramites/ingresos/ingresocuerpo/) en dos versiones: la primera tenía un error en esa pregunta y el Tribunal publicó una segunda corregida. Usa la n.º 2.
-- No hemos encontrado en la web oficial los cuestionarios de 2023, 2024 y 2025. Puede que no estén publicados o que estén en otra ruta: compruébalo en la web cuando estudies.
-
-Lo que ofrece la Administración aparte de los exámenes lo tienes en [recursos oficiales gratuitos](/blog/recursos-oficiales-gratuitos-para-preparar-la-guardia-civil). Los cursos privados también recopilan exámenes; el [curso de ProLince](/cursos/acceso-guardia-civil) incluye los de 2017 a 2026 como simulacros. Es contenido del curso, no un recurso oficial.
-
-## Cómo es un cuestionario por dentro
-
-En los cuestionarios de 2026, cada pregunta de conocimientos empieza con el nombre de la norma o materia («Ley Orgánica de Represión del Contrabando.», «Topografía.», «Reglamento de Armas.»). Eso te permite clasificar las preguntas por tema en minutos. Algunos rasgos que se repiten:
-
-- **Enunciados negativos:** «Señale la proposición INCORRECTA», en mayúsculas.
-- **Opciones combinadas:** «Son correctas las opciones a) y c)» o «Las descritas en las opciones anteriores».
-- **Literalidad:** preguntas de completar una definición o un plazo con las palabras exactas de la norma.
-- **Cálculo:** en topografía, por ejemplo, convertir 500 m a una escala 1:25.000 (respuesta: 2 cm).
-
-La convocatoria añade una regla importante: cada pregunta tiene una única respuesta válida y, si consideras correctas varias opciones, debes **marcar la más completa**.
-
-## Cómo sacarles partido
-
-### 1. Primero, estudia; después, examínate
-Un examen real no sirve para aprender un tema que no has visto: te desmoraliza y gastas un recurso escaso. Úsalo cuando hayas dado una primera vuelta al temario. Antes, puedes usar solo las preguntas de los temas que ya has estudiado.
-
-### 2. Hazlo como el día del examen
-Sin apuntes, con bolígrafo y reloj, en una sola sesión de **140 minutos** para ortografía, gramática, conocimientos e inglés. La estructura la tienes en [examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
-
-### 3. Corrige con la fórmula oficial
-En conocimientos (100 preguntas, 4 opciones), cada error resta un tercio de acierto y el blanco no resta: **nota = aciertos − errores / 3**, con mínimo de 50 sobre 100. En inglés, igual sobre 20, con mínimo de 8. En ortografía y gramática, 6 errores o más excluyen. Con la [calculadora de nota](/calculadora-nota-guardia-civil) lo haces sin cuentas.
-
-**Ejemplo:** 70 aciertos, 18 errores y 12 en blanco → 70 − 6 = **64**. En inglés, 13 aciertos, 3 errores y 4 en blanco → 13 − 1 = **12**.
-
-### 4. Anota cada fallo y su causa
-Para cada error, apunta si fue **desconocimiento**, **confusión** entre normas o plazos parecidos, **mala lectura** (no viste el «INCORRECTA») o **duda y cambio** de una respuesta correcta.
-
-### 5. Vuelve al texto de la norma
-Abre la ley consolidada en el BOE y localiza el artículo. Así corriges el conocimiento en su origen y no en un resumen.
-
-### 6. Úsalos para conocer el estilo, no para adivinar el próximo
-Los exámenes anteriores enseñan cómo se redacta una pregunta, qué trampas aparecen y cuánta literalidad se exige. No permiten predecir qué entrará: no hay datos oficiales de aparición por tema.
-
-## Ejemplo de análisis (hipotético)
-
-Supón que haces el modelo A de 2026 y obtienes 62 aciertos, 27 errores y 11 en blanco: nota = 62 − 9 = **53**, apenas por encima del mínimo. Al clasificar los 27 errores:
-
-| Causa | Errores | Qué haces |
-| --- | --- | --- |
-| No lo sabía | 12 | Repasar esos temas en el BOE y con fichas |
-| Confusión entre normas | 7 | Tabla comparativa de las normas confundidas |
-| Mala lectura | 5 | Rodear negaciones y «INCORRECTA» al leer |
-| Dudé y cambié | 3 | Regla personal: solo cambio si encuentro un motivo claro |
-
-Conclusión: casi la mitad de los fallos (15 de 27) no eran de conocimiento. Antes de estudiar más horas, corrige cómo lees y cómo decides.
-
-## Tres preguntas oficiales comentadas
-
-Para ver el estilo, estas son tres preguntas del modelo A de 2026, con la respuesta de la plantilla oficial:
-
-- **N.º 84 (Topografía):** dos puntos a 500 m en el terreno, ¿qué separación tienen en un plano 1:25.000? Respuesta: **2 cm** (500 m = 50.000 cm; 50.000 / 25.000 = 2). Es una pregunta de cálculo: si conviertes bien las unidades, es un acierto seguro. Lo practicamos en [topografía para Guardia Civil](/blog/topografia-para-guardia-civil-escalas-curvas-de-nivel).
-- **N.º 96 (Ley Orgánica de Represión del Contrabando):** ¿qué carácter tiene el Servicio de Vigilancia Aduanera respecto de las Fuerzas y Cuerpos de Seguridad del Estado en la persecución del contrabando? Respuesta: **colaborador**. Las otras opciones (policía judicial, agente de la autoridad, fuerza auxiliar) suenan plausibles; solo la literalidad de la norma te saca de dudas.
-- **N.º 85 (Topografía):** señalar la definición incorrecta de unidades de medida. Respuesta: la del grado centesimal que dividía la circunferencia en 100 partes, cuando son 400. Es el clásico «INCORRECTA»: si lees deprisa, marcas la primera definición que reconoces como cierta.
-
-Fíjate en lo que tienen en común: ninguna exige memorizar el temario entero, pero todas castigan la prisa y la falta de precisión. Es lo que un examen real te enseña y un test de academia a veces no.
-
-## Un plan para cada examen real
-
-1. **Sesión 1:** examen completo cronometrado.
-2. **Sesión 2 (al día siguiente):** corrección con la plantilla y clasificación de fallos.
-3. **Sesión 3 (una semana después):** repites **solo las preguntas falladas** sin mirar. Si vuelves a fallar, ese tema necesita otra pasada por la norma.
-
-Reserva en tu [plan de estudio](/plan-de-estudio) una sesión fija semanal para esto en la fase final.
-
-## Un aviso sobre la vigencia
-
-Una pregunta de 2022 puede basarse en una norma modificada después. Antes de memorizar una respuesta, comprueba que sigue siendo correcta con el texto consolidado actual y con el [temario oficial](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf). Incluso con plantilla oficial, la respuesta es la válida para aquel examen, no necesariamente para el texto de hoy.
-
-## Cuándo usar cada examen
-
-Como los exámenes oficiales son pocos, conviene repartirlos:
-
-- **Durante la primera vuelta:** solo las preguntas de los temas que ya has estudiado, como test por tema. Así conoces el estilo sin gastar el examen completo.
-- **En la segunda vuelta:** uno de los cuestionarios de 2022 completo, cronometrado.
-- **En la fase final:** el de 2026, que es el más reciente y el más parecido a lo que te puedes encontrar, en condiciones reales.
-- **Las últimas semanas:** repetir solo las preguntas que fallaste en cada uno.
-
-## Errores frecuentes
-
-- Hacer los exámenes reales en la primera semana y «quemarlos».
-- Contar el modelo A y el B como dos exámenes distintos.
-- Mirar la plantilla pregunta a pregunta mientras haces el examen.
-- Corregir sin aplicar la penalización y sobrestimar tu nota.
-- Memorizar respuestas en lugar de entender por qué son correctas.
-
-## Checklist
-
-- [ ] Cuestionarios de 2026 y 2022 descargados.
-- [ ] Plantilla corregida de 2026 descargada.
-- [ ] Primera vuelta del temario terminada antes del primer examen completo.
-- [ ] Hoja de análisis de fallos preparada.
-- [ ] Sesión de repetición de fallos programada.
-
-## Preguntas frecuentes
-
-### ¿Los exámenes anteriores son oficiales?
-Los que publica la Guardia Civil en su web, sí. Los recopilatorios de academias no son documentos oficiales, aunque se basen en ellos.
-
-### ¿Hay plantilla de respuestas oficial?
-De 2026, sí, publicada en la página del proceso selectivo, con una versión corregida. De 2022 no la hemos localizado; tendrás que corregir con el texto de la norma.
-
-### ¿Cuántos exámenes debería hacer?
-No hay una cifra oficial. Como los reales son pocos, úsalos bien y compleméntalos con simulacros. Lo vemos en un artículo posterior sobre simulacros.
-
-### ¿Valen para el psicotécnico?
-Los cuestionarios que hemos verificado son de la prueba de conocimientos. Para el psicotécnico, mira [psicotécnico: aptitudes y personalidad](/blog/psicotecnico-guardia-civil-aptitudes-personalidad).
-
-### ¿Por qué hay modelos A y B?
-Para que los aspirantes cercanos no tengan el mismo orden de preguntas. El contenido es el mismo.
-
-### ¿Puedo pedir revisión de mi nota?
-La convocatoria de 2026 daba 3 días hábiles desde la publicación de las calificaciones para pedir revisión al Tribunal. Consulta el plazo de la convocatoria vigente.',
-   NULL, NULL, 'publicado', '2027-01-20T06:55:00.000Z', 'acceso-guardia-civil',
-   ARRAY['exámenes anteriores', 'examen oficial', 'test', 'preparación']::text[], '{"title":"Exámenes oficiales anteriores Guardia Civil: dónde están","description":"Dónde descargar exámenes oficiales de Guardia Civil y sus plantillas, cómo corregirlos con la fórmula oficial y cómo analizar cada fallo."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales', 'articulo', '"Gramática inglesa para la Guardia Civil: los tiempos verbales que conviene dominar"', 'El examen de inglés son 20 preguntas de nivel ESO y los tiempos verbales están en casi todas las frases. Repasamos presente, pasado, present perfect, past perfect, futuro y condicionales, con ejemplos propios y un test de diez preguntas resuelto.', '**Respuesta corta:** la convocatoria pide inglés con un nivel compatible con la ESO, así que no necesitas gramática avanzada, sino elegir bien el tiempo verbal en frases cortas. Con seis bloques tienes la base: presente, pasado, *present perfect*, *past perfect*, futuro y condicionales.
-
-Todos los ejemplos y ejercicios de este artículo son **propios**, escritos para practicar. No son preguntas oficiales ni reproducen ningún examen. Cómo es la prueba por dentro lo tienes en [el inglés de la oposición](/blog/ingles-oposicion-guardia-civil).
-
-## Qué dice la convocatoria
-
-La [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 6.1.1 d), fija un cuestionario de **20 preguntas tipo test** (más una de reserva, que solo cuenta si el Tribunal anula alguna) con un nivel «compatible con los contenidos contemplados para la Educación Secundaria Obligatoria en el Real Decreto 217/2022». Cada pregunta tiene una única respuesta válida, los errores penalizan y las preguntas en blanco no. Se califica de 0 a 20 y hay que llegar a **8**. Para ver cómo encaja en la nota total, consulta [cómo se calcula la nota](/blog/calcular-nota-examen-guardia-civil).
-
-La convocatoria no publica una lista de contenidos gramaticales. Lo que sigue es una selección razonable de lo que se trabaja en la ESO, no un temario oficial.
-
-## Mapa rápido de los tiempos
-
-| Tiempo | Forma | Uso principal | Ejemplo |
-|---|---|---|---|
-| Present simple | *work / works* | Hábitos, hechos | *She works in Madrid.* |
-| Present continuous | *am/is/are + -ing* | Ahora; planes cerrados | *They are studying now.* |
-| Past simple | *worked / went* | Acción terminada en un momento pasado | *I went to Cádiz last summer.* |
-| Past continuous | *was/were + -ing* | Acción en curso en el pasado | *I was driving when you called.* |
-| Present perfect | *have/has + participio* | Pasado conectado con el presente | *I have lost my wallet.* |
-| Past perfect | *had + participio* | Pasado anterior a otro pasado | *The train had left when we arrived.* |
-| Future (*will*) | *will + infinitivo* | Decisiones en el momento, predicciones | *I''ll open the window.* |
-| *Going to* | *am/is/are going to + infinitivo* | Planes decididos, evidencias | *Look at those clouds: it''s going to rain.* |
-
-## 1. Presente simple y presente continuo
-
-- **Presente simple**: hábitos, rutinas y hechos generales. *He gets up at seven every day.* *Water boils at 100 degrees Celsius.*
-- **Presente continuo**: lo que ocurre ahora, situaciones temporales y planes ya acordados. *Look, it is raining.* *I''m living with my parents this year.* *We are meeting the sergeant tomorrow.*
-
-**Pistas:** *every day*, *usually*, *often*, *never*, *always* → presente simple. *Now*, *at the moment*, *right now*, *Look!*, *Listen!* → continuo.
-
-**Tercera persona:** *he works*, nunca *he work*. En negativas e interrogativas, la -s pasa al auxiliar: *Does he work here?* / *He doesn''t work here*, nunca *Does he works* ni *He doesn''t works*.
-
-**Verbos de estado** (*know*, *like*, *want*, *need*, *believe*, *understand*) normalmente no van en continuo: *I know the answer*, no *I am knowing the answer*.
-
-## 2. Pasado simple y pasado continuo
-
-- **Pasado simple**: acción terminada en un momento concreto del pasado. *I visited Seville in 2019.* *He didn''t call yesterday.*
-- **Pasado continuo**: acción en curso en un momento del pasado, a menudo interrumpida por otra. *I was watching TV when the phone rang.* *At nine o''clock last night, we were having dinner.*
-
-Con negación o pregunta, el pasado lo lleva el auxiliar *did*: *Did you see him?*, nunca *Did you saw him?*
-
-### Irregulares que conviene tener muy frescos
-
-| Infinitivo | Pasado | Participio |
-|---|---|---|
-| be | was / were | been |
-| go | went | gone |
-| see | saw | seen |
-| take | took | taken |
-| write | wrote | written |
-| buy | bought | bought |
-| bring | brought | brought |
-| think | thought | thought |
-| leave | left | left |
-| catch | caught | caught |
-| choose | chose | chosen |
-| speak | spoke | spoken |
-
-## 3. *Present perfect*: el que más confunde
-
-Se forma con *have/has* + participio. Se usa cuando el pasado conecta con el presente:
-
-| Situación | Ejemplo |
-|---|---|
-| Experiencia sin fecha | *I have never been to London.* |
-| Resultado presente | *She has lost her keys* (y ahora no las tiene). |
-| Duración hasta ahora con *for/since* | *We have lived here for five years / since 2020.* |
-| Algo reciente con *just*, *already*, *yet* | *I have just finished.* *Have you finished yet?* |
-
-**Regla práctica:** si aparece un momento terminado (*yesterday*, *in 2019*, *last week*, *two days ago*), va **pasado simple**. *I saw him yesterday*, nunca *I have seen him yesterday*.
-
-**For y since:** *for* + periodo (*for three months*); *since* + punto de inicio (*since March*, *since 2021*).
-
-**Gone y been:** *She has gone to Paris* (está allí ahora); *She has been to Paris* (estuvo y volvió).
-
-## 4. *Past perfect*: el pasado del pasado
-
-*Had* + participio, para una acción anterior a otra pasada: *When I arrived at the station, the train had already left.* Si quitas *had*, cambia el sentido: *When I arrived, the train left* significa que el tren salió justo cuando llegaste.
-
-## 5. El futuro: *will*, *going to* y presente continuo
-
-- ***Will***: decisiones tomadas en el momento, ofrecimientos, promesas y predicciones. *I''ll help you with that.* *I think it will be cold tomorrow.*
-- ***Going to***: planes ya decididos e indicios presentes. *We are going to visit my aunt; we have already bought the tickets.* *Be careful! You''re going to fall.*
-- **Presente continuo**: citas y planes con hora y lugar. *I''m seeing the doctor at five.*
-
-## 6. Condicionales
-
-| Tipo | Estructura | Uso | Ejemplo |
-|---|---|---|---|
-| Cero | *If* + presente, presente | Verdades generales | *If you heat ice, it melts.* |
-| Primero | *If* + presente, *will* + infinitivo | Situación real o probable | *If it rains, we will stay at home.* |
-| Segundo | *If* + pasado, *would* + infinitivo | Situación hipotética | *If I had more time, I would study more.* |
-| Tercero | *If* + *past perfect*, *would have* + participio | Pasado que no ocurrió | *If you had called me, I would have helped you.* |
-
-**Errores típicos:** poner *will* detrás de *if* en el primer condicional (*If it will rain* es incorrecto en este tipo de frase) y poner *would* en las dos partes del segundo (*If I would have money* es incorrecto). En el segundo condicional, con *I*, es habitual *If I were you, I would…*.
+| actually | en realidad | actualmente (*currently*) | *Actually, I don''t agree.* |
+| assist | ayudar | asistir a un acto (*attend*) | *Can I assist you?* |
+| attend | asistir a | atender a alguien (*serve, look after*) | *She attends English classes.* |
+| embarrassed | avergonzado | embarazada (*pregnant*) | *He was embarrassed by his mistake.* |
+| library | biblioteca | librería (*bookshop*) | *I study in the library.* |
+| sensible | sensato | sensible (*sensitive*) | *It is a sensible decision.* |
+| realize | darse cuenta | realizar (*carry out*) | *I realized I was late.* |
+| eventually | al final, finalmente | eventualmente (*possibly*) | *Eventually, we found the house.* |
+| carpet | alfombra, moqueta | carpeta (*folder*) | *The carpet is new.* |
+| constipated | estreñido | constipado (*to have a cold*) | *He is constipated.* |
+| sympathetic | comprensivo | simpático (*nice, friendly*) | *She was sympathetic to my problem.* |
+| large | grande | largo (*long*) | *They live in a large house.* |
+| parents | padres | parientes (*relatives*) | *My parents live in Jaén.* |
+| lecture | conferencia, clase magistral | lectura (*reading*) | *The lecture starts at ten.* |
+| pretend | fingir | pretender (*intend*) | *He pretended to be asleep.* |
+| resume | reanudar | resumir (*summarize*) | *The meeting will resume at noon.* |
+| fabric | tela | fábrica (*factory*) | *This fabric is soft.* |
+| support | apoyar | soportar (*put up with, stand*) | *My family supports me.* |
+| introduce | presentar a alguien | introducir (*insert, put in*) | *Let me introduce my friend Ana.* |
+| success | éxito | suceso (*event, incident*) | *The operation was a success.* |
+| exit | salida | éxito (*success*) | *Use the emergency exit.* |
+| notice | aviso; darse cuenta | noticia (*news*) | *Did you notice the noise?* |
+| record | grabar; registro | recordar (*remember*) | *They recorded the interview.* |
+| rope | cuerda | ropa (*clothes*) | *He tied the box with a rope.* |
+| career | carrera profesional | carrera universitaria (*degree*) o de atletismo (*race*) | *She has a long career in the police.* |
+| petrol | gasolina | petróleo (*oil*) | *The car needs petrol.* |
+| casualty | víctima, herido (en un accidente) | casualidad (*chance, coincidence*) | *There were no casualties in the accident.* |
+
+Y al revés, para decir en inglés lo que piensas en español: *currently* (actualmente), *to carry out* (realizar), *pregnant* (embarazada), *bookshop* (librería), *folder* (carpeta), *to have a cold* (estar constipado), *success* (éxito), *news* (noticia), *clothes* (ropa), *remember* (recordar), *oil* (petróleo).
+
+## Falsos amigos parciales
+
+Algunas palabras coinciden con el español en un sentido y en otro no. Son las más traicioneras, porque a veces la traducción «obvia» es correcta:
+
+- ***Argument***: puede ser «argumento», pero muy a menudo es «discusión» o «pelea»: *They had an argument about money.*
+- ***Excited***: «ilusionado», «emocionado»: *I''m excited about the trip.*
+- ***Discuss***: «hablar de», «tratar» un tema, sin necesidad de discutir: *We discussed the plan.*
+- ***Agenda***: «orden del día» de una reunión; la agenda personal es *diary* o *planner*.
+- ***College***: centro de estudios superiores; el colegio de primaria es *school*.
+
+## No todo parecido es una trampa
+
+El extremo contrario también hace daño: desconfiar de cualquier palabra que se parezca al español. La mayoría de las palabras parecidas son **cognados verdaderos**, que significan lo mismo en las dos lenguas: *hospital*, *important*, *possible*, *problem*, *decision*, *information*, *family*, *police*, *accident*, *necessary*. Si en una pregunta la opción parecida al español encaja con el sentido de toda la frase, puede ser perfectamente la correcta. La sospecha sirve para **releer**, no para descartar a ciegas.
+
+## Por qué caes aunque lo sepas
+
+Los falsos amigos no fallan por falta de nivel, sino por **velocidad**. Con prisa y cansancio, tu cerebro propone el significado español y lo da por bueno. El inglés comparte los 140 minutos de la prueba de conocimientos con ortografía, gramática y las 100 preguntas del temario, así que es fácil llegar a él con la cabeza cargada; por eso, como explicamos en [el inglés de la oposición](/blog/ingles-oposicion-guardia-civil), conviene entrenarlo dentro de simulacros completos.
 
 ## Ejemplo resuelto paso a paso
 
-*By the time the police arrived, the thief ___.* (a) escapes (b) has escaped (c) had escaped (d) will escape
+*After two hours of searching, they ___ found the missing boy.* (a) actually (b) eventually (c) currently (d) possibly
 
-1. *Arrived* está en pasado: la frase transcurre en el pasado.
-2. *By the time* indica que una acción ya había terminado antes de la otra.
-3. Acción anterior a otra pasada → *past perfect*.
+1. La frase cuenta un proceso largo que termina bien.
+2. Buscamos «al final», «finalmente».
+3. *Eventually* significa exactamente eso, aunque se parezca a «eventualmente».
 
-**Respuesta: (c) *had escaped*.** La (b) sería correcta si el marco fuera presente; la (a) y la (d) no encajan con *arrived*.
+**Respuesta: (b).** La (a) significa «en realidad»; la (c), «actualmente»; la (d), «posiblemente», que no encaja con un hallazgo ya ocurrido.
 
-## Cómo practicarlo
+## Cómo evitarlos
 
-1. **Diez frases con huecos al día**, corregidas en el momento.
-2. **Cuaderno de fallos**: cada error con la regla que lo explica. Verás que se repiten pocas estructuras.
-3. **Tests de cuatro opciones** cuanto antes, porque es el formato del examen.
-4. **Lee la frase entera** antes de mirar las opciones: las pistas (*yesterday*, *since*, *by the time*) suelen estar al final.
+1. **Aprende los pares de dos en dos.** No apuntes solo *library* = biblioteca; apunta también librería = *bookshop*.
+2. **Frases propias.** Una frase tuya con *actually* o *eventually* se queda mejor que la definición.
+3. **Sospecha de las opciones obvias.** Si una opción se parece mucho a una palabra española, lee las demás antes de marcar.
+4. **Vuelve al contexto.** Pregúntate qué significa la frase entera con cada opción.
+5. **Cuaderno de falsos amigos.** Cada vez que falles uno, anótalo con su frase.
+
+Más palabras útiles en [vocabulario y phrasal verbs](/blog/vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles). Si estás empezando, primero la base de [cómo aprobar el inglés desde cero](/blog/como-aprobar-el-ingles-de-la-guardia-civil-partiendo-de-cero).
 
 ## Test propio de diez preguntas (con soluciones)
 
-1. She ___ to work by bus every day. (a) go (b) goes (c) going (d) gone
-2. I ___ never ___ to Rome. (a) have / been (b) did / be (c) am / being (d) was / been
-3. If it ___ tomorrow, we will cancel the trip. (a) will rain (b) rained (c) rains (d) would rain
-4. When I arrived, they ___ dinner. (a) have (b) were having (c) are having (d) has
-5. If I were you, I ___ that offer. (a) will accept (b) would accept (c) accept (d) accepted
-6. We ___ in this town since 2018. (a) live (b) lived (c) have lived (d) are living
-7. I ___ my keys yesterday. (a) have lost (b) lost (c) had lost (d) lose
-8. Look at the sky! It ___ rain. (a) is going to (b) will to (c) goes to (d) is raining to
-9. ___ your brother speak French? (a) Do (b) Does (c) Is (d) Has
-10. If you had studied more, you ___ the exam. (a) will pass (b) would pass (c) would have passed (d) passed
+1. "Actually" means: (a) ahora mismo (b) en realidad (c) antiguamente (d) a veces
+2. My sister is ___ and the baby is due next month. (a) embarrassed (b) pregnant (c) constipated (d) sensible
+3. I want to buy a book. Let''s go to the ___. (a) library (b) bookshop (c) carpet (d) exit
+4. She was ___ when she forgot his name. (a) embarrassed (b) pregnant (c) sensible (d) sympathetic
+5. "I realized my mistake" means: (a) llevé a cabo mi error (b) me di cuenta de mi error (c) resumí mi error (d) apoyé mi error
+6. Put the documents in this blue ___. (a) carpet (b) folder (c) fabric (d) library
+7. I can''t go out tonight; I have a ___. (a) constipation (b) cold (c) rope (d) record
+8. Let me ___ you to my brother, Luis. (a) introduce (b) realize (c) insert (d) resume
+9. "There were three casualties" means: (a) hubo tres casualidades (b) hubo tres víctimas o heridos (c) hubo tres coincidencias (d) hubo tres casos
+10. Did you watch the ___ on TV last night? (a) notices (b) news (c) success (d) lecture
 
-**Soluciones:** 1-b (hábito, tercera persona), 2-a (experiencia sin fecha), 3-c (primer condicional: presente tras *if*), 4-b (acción en curso interrumpida), 5-b (segundo condicional), 6-c (duración con *since*), 7-b (momento terminado: *yesterday*), 8-a (indicio presente), 9-b (auxiliar de tercera persona), 10-c (tercer condicional).
+**Soluciones:** 1-b, 2-b, 3-b (en una *library* se piden libros prestados; se compran en una *bookshop*), 4-a, 5-b, 6-b, 7-b, 8-a, 9-b, 10-b.
+
+## Segundo ejercicio: corrige la frase
+
+Cada frase usa mal un falso amigo. Escribe la palabra correcta. Las frases incorrectas están marcadas como tales y son propias.
+
+1. ✗ *I went to the library and bought two novels.*
+2. ✗ *Actually, she lives in Toledo, but she was born in Ávila.* (Queremos decir «actualmente».)
+3. ✗ *I''m constipated: I have a temperature and a sore throat.*
+4. ✗ *He assisted the meeting yesterday.* (Queremos decir que asistió a la reunión.)
+5. ✗ *I can''t record his name.* (Queremos decir «recordar».)
+6. ✗ *She is very sensible: she cries at every film.*
+
+**Soluciones:**
+
+1. *I went to the **bookshop** and bought two novels.*
+2. ***Currently**, she lives in Toledo, but she was born in Ávila.*
+3. *I **have a cold**: I have a temperature and a sore throat.*
+4. *He **attended** the meeting yesterday.*
+5. *I can''t **remember** his name.*
+6. *She is very **sensitive**: she cries at every film.*
 
 ## Errores frecuentes
 
-- **Present perfect con fecha terminada.** *I have seen him last week* es incorrecto: *I saw him last week*.
-- **Doble marca de pasado.** *Did you went?* es incorrecto: *Did you go?*
-- **Olvidar la -s de tercera persona** en afirmativa, o ponerla también en el verbo con *does*.
-- ***Will* detrás de *if*** en el primer condicional.
-- **Continuo con verbos de estado.** *I am wanting* es incorrecto: *I want*.
+- Traducir *actually* por «actualmente».
+- Decir *I''m constipated* para hablar de un resfriado.
+- Usar *sensible* cuando quieres decir *sensitive*.
+- Llamar *library* a una tienda de libros.
+- Decir *I assisted to the meeting*: es *I attended the meeting*.
 
 ## Preguntas frecuentes
 
-### ¿Hace falta saber todos los tiempos verbales?
-No hay un temario oficial de gramática inglesa; la convocatoria solo habla de un nivel compatible con la ESO. Estos bloques son una base razonable, no una lista oficial.
+### ¿Los falsos amigos caen en el examen?
+No hay datos oficiales de qué contenidos se preguntan y la convocatoria no detalla un listado. Lo sensato es dominar los más conocidos, porque aparecen en cualquier material de inglés general.
 
-### ¿Entra la voz pasiva o el estilo indirecto?
-La convocatoria no detalla contenidos. Son estructuras que se trabajan en la ESO, así que conviene conocerlas una vez dominados los tiempos verbales.
+### ¿Cuántos tengo que aprender?
+No hay cifra oficial. Con los de la tabla tienes una base amplia; añade los que falles en tus tests.
+
+### ¿Qué diferencia hay entre falso amigo total y parcial?
+El total nunca significa lo que sugiere el parecido (*embarrassed*). El parcial a veces sí y a veces no (*argument*). Por eso conviene verlos siempre en una frase.
+
+### ¿Hay falsos amigos con verbos?
+Sí, muchos: *pretend*, *realize*, *resume*, *support*, *assist*, *attend*, *record*, *introduce*.
+
+### ¿Qué hago si no recuerdo si una palabra es falso amigo?
+Prueba cada opción dentro de la frase y pregúntate si el conjunto tiene sentido. Si la opción parecida al español produce una frase rara (*She was embarrassed and the baby arrives next month*), descártala.
+
+### ¿Sirven las listas de falsos amigos de internet?
+Sirven como punto de partida, pero contrasta los significados con un buen diccionario bilingüe y quédate con los de uso cotidiano, que son los propios de un nivel ESO.
+
+### ¿Cómo me preparo con método?
+Con tests de cuatro opciones y cuaderno de fallos, como en el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil).',
+   '/blog/falsos-amigos-en-ingles-los-errores-tipicos-del-opositor.jpg', 'Opositora comparando con el ceño fruncido dos libros abiertos sobre un escritorio', 'publicado', '2027-01-21T06:12:00.000Z', 'acceso-guardia-civil',
+   ARRAY['inglés', 'falsos amigos', 'vocabulario', 'examen']::text[], '{"title":"Falsos amigos en inglés para el examen de la Guardia Civil","description":"Los falsos amigos en inglés más conocidos, con significado y ejemplo, los parciales y cómo evitar caer en ellos en un test de cuatro opciones."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue', 'articulo', '"Inglés: cómo llegar a los 8 puntos mínimos sin ser bilingüe"', 'El inglés vale 20 de los 195 puntos de la oposición, pero quedar por debajo de 8 excluye. Cómo se calcula la nota con la penalización de un tercio, qué combinaciones llegan al mínimo, cuándo compensa arriesgar y cuándo no.', '**Respuesta corta:** necesitas 8 puntos sobre 20; cada acierto suma un punto y cada error resta un tercio. Con 8 aciertos y ningún error ya llegas; con más aciertos puedes permitirte algunos errores. No necesitas ser bilingüe: necesitas asegurar las preguntas que sabes y gestionar bien las dudosas.
+
+## Lo que dice la convocatoria
+
+Según la [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982):
+
+- **20 preguntas tipo test** con cuatro opciones, más una de reserva que solo se valora si el Tribunal anula alguna (base 6.1.1 d).
+- **Nivel compatible con la ESO** (Real Decreto 217/2022).
+- **Las respuestas incorrectas penalizan; las no contestadas, no.**
+- Se valora **de 0 a 20 puntos** y hay que alcanzar un **mínimo de 8** para no quedar excluido.
+
+La fórmula de la base 7.3 es *Puntuación = Y × (A − E/(N−1)) / T*. Para el inglés, Y = 20 (puntuación máxima), T = 20 (preguntas) y N = 4 (opciones). Sustituyendo: 20 × (A − E/3) / 20, es decir:
+
+**Nota de inglés = aciertos − errores / 3**
+
+## ¿Cuánto vale dentro del total?
+
+La puntuación final máxima es de 195 puntos: 45 de la fase de concurso y 150 de la oposición (100 de conocimientos generales, 20 de inglés y 30 de la psicotécnica). El inglés pesa algo más de un 10 % del total, pero es **eliminatorio**: bajar de 8 te deja fuera aunque el resto vaya perfecto.
+
+Y tiene un segundo papel: según la base 7.10, en caso de empate en la puntuación final se mira primero la nota de conocimientos y, si sigue el empate, **la de inglés**. Tienes la visión global en [cómo se calcula la nota](/blog/calcular-nota-examen-guardia-civil).
+
+## Combinaciones que dan exactamente 8
+
+| Aciertos | Errores | En blanco | Nota |
+| --- | --- | --- | --- |
+| 8 | 0 | 12 | 8,00 |
+| 9 | 3 | 8 | 8,00 |
+| 10 | 6 | 4 | 8,00 |
+| 11 | 9 | 0 | 8,00 |
+
+Con más aciertos o menos errores que en cada fila, superas el mínimo. Por ejemplo, 12 aciertos y 8 errores dan 12 − 8/3 = **9,33**.
+
+Dos lecturas prácticas:
+
+- **Si contestas las 20, necesitas al menos 11 aciertos.** Con 10 aciertos y 10 errores sacas 10 − 3,33 = 6,67.
+- **Cada tres errores te «roban» un acierto.** Por eso, más que contestar mucho, importa contestar bien.
+
+### Si contestas las 20 preguntas
+
+Cuando no dejas ninguna en blanco, la nota solo depende de los aciertos: nota = (4 × aciertos − 20) / 3.
+
+| Aciertos | Errores | Nota |
+| --- | --- | --- |
+| 10 | 10 | 6,67 |
+| 11 | 9 | 8,00 |
+| 12 | 8 | 9,33 |
+| 13 | 7 | 10,67 |
+| 14 | 6 | 12,00 |
+| 15 | 5 | 13,33 |
+| 16 | 4 | 14,67 |
+
+Cada acierto que conviertes en error te cuesta 1,33 puntos: el punto que dejas de ganar y el tercio que te restan.
+
+## ¿Compensa arriesgar?
+
+Con cuatro opciones y una penalización de un tercio, **contestar al azar no gana ni pierde nada de media**. La ganancia esperada de cada pregunta depende de cuántas opciones puedas descartar:
+
+| Opciones que descartas | Probabilidad de acertar | Ganancia esperada |
+| --- | --- | --- |
+| Ninguna (al azar) | 1/4 | 0 |
+| Una | 1/3 | +0,11 |
+| Dos | 1/2 | +0,33 |
+
+De media, si descartas **al menos una** opción, contestar sale a cuenta. Pero la media no lo es todo: cuando estás cerca del 8, lo que importa es el riesgo de bajar de esa cifra. Dos ejemplos lo muestran.
+
+### Ejemplo resuelto 1: 8 seguras y 12 al azar
+
+Marina está segura de 8 respuestas (y acierta las 8). Del resto no tiene ni idea.
+
+- **Si deja las 12 en blanco:** nota = 8. Aprueba justo.
+- **Si las contesta al azar:** cada una tiene 1/4 de probabilidad de acierto. Bajaría de 8 si acierta 2 o menos de esas 12, lo que, con esa probabilidad, ocurre aproximadamente **4 de cada 10 veces**.
+
+Aunque de media no pierde nada, se juega la exclusión en casi un 40 % de los casos. **Conclusión: con la nota justa, no contestes al azar.**
+
+### Ejemplo resuelto 2: 9 seguras y 4 dudas entre dos
+
+Iván está seguro de 9 y en otras 4 ha descartado dos opciones; le quedan dos posibles en cada una.
+
+- **Si deja las 4 en blanco:** nota = 9.
+- **Si las contesta:** cada una tiene 1/2 de probabilidad. Solo bajaría de 8 si fallara las 4 (9 − 4/3 = 7,67), algo que ocurre en 1 de cada 16 casos, alrededor de un 6 %. De media, gana 4 × 0,33 = 1,33 puntos.
+
+Aquí arriesgar tiene más sentido, pero no es gratis. La decisión depende de cuánto margen tengas sobre el 8.
+
+### Una regla práctica
+
+1. Cuenta primero cuántas respuestas tienes **seguras**.
+2. Si con ellas pasas de 8 con margen, contesta las dudas en las que hayas descartado una o dos opciones.
+3. Si estás justo en 8 o por debajo, contesta solo las dudas en las que hayas descartado **dos** opciones, y deja en blanco las que serían al azar.
+
+Es una estrategia razonable, no una garantía. Lo importante es que la decidas antes del examen y la ensayes en simulacros.
+
+## Cómo gestionar las 20 preguntas el día del examen
+
+Un método en tres pasadas, para entrenarlo en simulacros:
+
+1. **Primera pasada:** contesta solo las que sabes sin dudar. Deja las dudosas para después (si las instrucciones del Tribunal permiten anotar en el cuadernillo, márcalas; si no, bastará con una segunda lectura completa).
+2. **Segunda pasada:** vuelve a las dudosas y descarta opciones, fijándote en cuántas has podido eliminar en cada una.
+3. **Recuento y decisión:** cuenta tus seguras y aplica la regla práctica del apartado anterior para decidir qué dudas contestas.
+
+Antes de entregar, comprueba que has marcado las respuestas donde y como indiquen las instrucciones del Tribunal y que no has señalado dos opciones en la misma pregunta.
+
+## Caso práctico (hipotético): la misma persona, dos estrategias
+
+Elena hace un simulacro y obtiene 10 seguras correctas, 3 dudas con dos opciones descartadas y 7 preguntas en las que no sabe nada.
+
+- **Estrategia A, contestar todo:** de media, las 3 dudas le dan +1 y las 7 al azar, 0. Pero si las 7 al azar salen mal y fallan además 2 dudas, su nota sería 10 + 1 − 9/3 = 8. Va por el filo.
+- **Estrategia B, contestar seguras y dudas:** deja en blanco las 7 sin pista. En el peor caso, falla las 3 dudas: 10 − 1 = 9. En el mejor, acierta las 3: 13.
+
+La B no maximiza la media de forma apreciable respecto a la A, pero protege mucho mejor el mínimo. Esa es la lógica que conviene aplicar cuando el inglés es tu punto débil.
+
+## Un plan para llegar a 8 con margen
+
+1. **Mide el punto de partida** con un test de 20 preguntas cronometrado, aplicando la penalización.
+2. **Asegura las preguntas de base**: tiempos verbales, vocabulario cotidiano y estructuras básicas. Los repasos están en [los tiempos verbales](/blog/gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales), [vocabulario y phrasal verbs](/blog/vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles) y [falsos amigos](/blog/falsos-amigos-en-ingles-los-errores-tipicos-del-opositor).
+3. **Aprende a descartar**: ante una duda, elimina primero lo que sabes que es incorrecto.
+4. **Simulacros completos**, con el inglés dentro de los 140 minutos, para que el cansancio no te pille por sorpresa.
+5. **Cuaderno de fallos** y repaso semanal.
+
+Si partes de un nivel muy bajo, el plan por fases está en [cómo aprobar el inglés desde cero](/blog/como-aprobar-el-ingles-de-la-guardia-civil-partiendo-de-cero).
+
+## Ejercicio: calcula tu nota
+
+Calcula la nota de estos tres aspirantes hipotéticos y di si superan el mínimo.
+
+1. 10 aciertos, 3 errores, 7 en blanco.
+2. 13 aciertos, 7 errores, 0 en blanco.
+3. 9 aciertos, 6 errores, 5 en blanco.
+
+**Soluciones:** 1) 10 − 1 = **9**, supera. 2) 13 − 2,33 = **10,67**, supera. 3) 9 − 2 = **7**, no llega: queda excluido aunque haya acertado más de 8.
+
+## Errores frecuentes
+
+- **Creer que basta con 8 aciertos** cuando también has fallado varias.
+- **Contestar todo «por si acaso»** cuando estás justo en el mínimo.
+- **Dejar en blanco dudas en las que has descartado dos opciones**, teniendo margen.
+- **No calcular la nota con penalización** en los entrenamientos y llevarte la sorpresa el día del examen.
+- **No ensayar en condiciones reales**, con el resto de la prueba antes.
+
+## Preguntas frecuentes
+
+### ¿Cuántas preguntas tengo que acertar como mínimo?
+Sin ningún error, 8. Con errores, más: cada tres errores restan un acierto. Si contestas las 20, necesitas 11 aciertos.
+
+### ¿Cuenta la pregunta de reserva?
+Solo si el Tribunal anula alguna de las veinte. Si no, no se valora.
+
+### ¿Es mejor dejar en blanco?
+En blanco no resta. Al azar, de media, ni ganas ni pierdes, pero aumentas el riesgo de bajar del mínimo. Cuando descartas opciones, arriesgar suele compensar si tienes margen.
+
+### ¿El inglés cuenta para la nota final?
+Sí, hasta 20 puntos dentro de la fase de oposición, y además es el segundo criterio de desempate.
+
+### ¿Qué pasa si saco 7,67?
+No alcanzas el mínimo de 8 y quedas excluido del proceso.
+
+### ¿Puedo compensar un mal inglés con una buena nota en conocimientos?
+No. El mínimo de 8 es independiente: aunque saques una nota excelente en conocimientos generales, por debajo de 8 en inglés quedas excluido. Solo por encima del mínimo los puntos se suman al total.
+
+### ¿Cuánto tiempo debo dedicar al inglés dentro de los 140 minutos?
+La convocatoria no fija tiempos por parte. Reserva un margen que te permita leer cada frase con calma y hacer la segunda pasada, y ajústalo en tus simulacros.
+
+### ¿Dónde practico con penalización real?
+En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) entrenas el inglés con tests y simulacros corregidos con la misma fórmula.',
+   '/blog/ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue.jpg', 'Aspirante con el bolígrafo en alto ante un cuadernillo de test en un aula de examen, con un reloj de pared al fondo', 'publicado', '2027-01-26T06:37:00.000Z', 'acceso-guardia-civil',
+   ARRAY['inglés', 'nota mínima', 'penalización', 'examen']::text[], '{"title":"Inglés Guardia Civil: cómo llegar a los 8 puntos mínimos","description":"Cómo se puntúa el inglés de la Guardia Civil: 20 preguntas, el error resta un tercio y el mínimo es 8. Combinaciones, cuándo arriesgar y ejemplos."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('preguntas-trampa-del-examen-de-guardia-civil', 'articulo', 'Preguntas trampa del examen de Guardia Civil y cómo detectarlas', 'No hay una lista oficial de preguntas trampa, pero las reglas de la convocatoria crean situaciones que conviene dominar: la respuesta más completa, la penalización y los errores que cuentan igual en ortografía. Siete tipos, con ejemplos propios resueltos.', '**Respuesta corta:** la convocatoria no habla de «preguntas trampa» y no hay datos oficiales sobre cuáles aparecen ni con qué frecuencia. Lo que sí es oficial son las reglas del test, y de ellas salen las situaciones que más confunden: elegir **la respuesta más completa** cuando varias parecen correctas, saber cuándo **no contestar** por la penalización y entender que en ortografía y gramática **marcar de más cuenta igual que no marcar**. A eso se suman los despistes de siempre: negaciones, cifras parecidas y normas que se confunden entre sí.
+
+Las reglas salen de las bases 6 y 7 de la [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982). **Todos los ejemplos de este artículo son propios**, redactados para practicar: no son preguntas oficiales ni pretenden predecir ninguna.
+
+## Qué dice exactamente la convocatoria
+
+Para la prueba de conocimientos generales, la base 6.1.1.c) establece que cada pregunta tiene **una única respuesta válida**; que, si el aspirante considera correctas varias opciones, **debe señalar la más completa**; que las contestadas incorrectamente **penalizan**, y que la no contestada **no se penaliza**. La misma instrucción aparece para el inglés (base 6.1.1.d) y para las aptitudes intelectuales del psicotécnico (base 6.1.2.a).
+
+Con eso ya se ve que la «trampa» no es una mala intención del Tribunal, sino una forma de examinar: comprobar si sabes el dato **entero** y si sabes **cuándo no arriesgar**.
+
+## Tipo 1: varias opciones verdaderas, solo una completa
+
+Es la situación que la propia convocatoria prevé. Una opción es cierta pero incompleta; otra la contiene y añade lo que falta.
+
+**Ejemplo propio:** ¿Cuáles son los valores superiores del ordenamiento jurídico según el artículo 1.1 de la Constitución?
+
+a) Libertad y justicia
+b) Libertad, justicia e igualdad
+c) Libertad, justicia, igualdad y pluralismo político
+d) Libertad, igualdad y pluralismo político
+
+**Solución:** c). Todas las opciones mencionan valores que sí aparecen en el artículo, pero solo la c) los recoge todos. Quien marca la primera que le suena, falla.
+
+**Variante con «todas las anteriores».** Según el artículo 7 de la Carta de las Naciones Unidas, son órganos principales: a) la Asamblea General; b) el Consejo de Seguridad; c) la Corte Internacional de Justicia; d) todas las anteriores son correctas. **Solución:** d). Las tres primeras son ciertas por separado; la d) es la más completa.
+
+**Cómo detectarla:** si al leer la a) piensas «esto es verdad», no marques todavía. Lee las cuatro y pregúntate si alguna **incluye** a otra.
+
+## Tipo 2: la negación y el «salvo»
+
+«¿Cuál NO es…?», «señale la incorrecta», «todas son correctas excepto…». El fallo no es de temario, sino de lectura: sabes la respuesta, pero contestas a la pregunta contraria.
+
+**Ejemplo propio:** ¿Cuál NO es un valor superior del ordenamiento jurídico según el artículo 1.1 de la Constitución? a) Libertad; b) Justicia; c) Igualdad; d) Solidaridad. **Solución:** d).
+
+**Cómo detectarla:** rodea la negación con el bolígrafo antes de mirar las opciones. El método completo de lectura lo desarrollaremos en el próximo artículo.
+
+## Tipo 3: cifras, plazos y mayorías casi iguales
+
+Aquí se gana o se pierde por precisión. Las opciones cambian en una unidad o en una palabra.
+
+**Ejemplo propio:** según el artículo 17.2 de la Constitución, la detención preventiva no podrá durar más del tiempo estrictamente necesario y, en todo caso, en el plazo máximo de: a) 24 horas; b) 48 horas; c) 72 horas; d) 5 días. **Solución:** c), 72 horas, tras las cuales el detenido debe ser puesto en libertad o a disposición judicial.
+
+**Cómo detectarla:** no hay truco de lectura que sustituya al dato. Estudia las cifras con tarjetas o con preguntas sin mirar, no solo releyendo, y apúntalas en una hoja aparte de «números del temario».
+
+## Tipo 4: la norma que pregunta no es la que recuerdas
+
+Muchas confusiones vienen de mezclar lo que dice la Constitución con lo que desarrolla una ley, o una ley con otra.
+
+**Ejemplo propio:** según la Constitución, el Congreso se compone de: a) 350 diputados; b) un mínimo de 300 y un máximo de 400 diputados; c) 4 diputados por provincia; d) un máximo de 350 diputados. **Solución:** b), artículo 68.1. La cifra de 350 la fija la ley electoral, no la Constitución, y los 4 por provincia son los senadores del artículo 69.
+
+**Cómo detectarla:** fíjate en la fuente que cita el enunciado («según la Constitución», «según la Ley Orgánica 2/1986») y contesta solo con esa norma.
+
+## Tipo 5: la penalización, o la trampa de la prisa
+
+Los errores restan y los blancos no. Con la fórmula de la base 7.3 y cuatro alternativas, **cada error resta un tercio de acierto**.
+
+**Ejemplo propio resuelto.** Si contestas las 100 preguntas, aciertas 60 y fallas 40: 60 − 40/3 ≈ **46,67**. No llegas al mínimo de 50. Si con el mismo conocimiento dejas 16 en blanco y fallas 24: 60 − 24/3 = **52**, y sí lo superas. Mismos aciertos, distinto resultado. Para hacer tus propias cuentas tienes [cómo calcular la nota del examen](/blog/calcular-nota-examen-guardia-civil).
+
+La lógica, en números:
+
+| Situación | Probabilidad de acertar | Valor esperado de contestar |
+| --- | --- | --- |
+| No descartas ninguna opción | 1/4 | 0 |
+| Descartas una | 1/3 | +0,11 |
+| Descartas dos | 1/2 | +0,33 |
+
+El valor esperado es una media a largo plazo, no una garantía en cada pregunta, y supone que las opciones que quedan son igual de probables. Comprueba en tus simulacros si arriesgar te suma o te resta.
+
+## Tipo 6: ortografía y gramática, donde marcar de más es fallar
+
+La convocatoria considera respuesta errónea **tanto no marcar una palabra con falta como marcar una correcta**, y con **6 o más errores** en ortografía, o 6 o más en gramática, quedas excluido (bases 7.4 y 7.5).
+
+**Ejemplo propio:** en la frase «**Haber** si llegas pronto a la reunión», la forma correcta es «a ver». Quien marca solo lo que «suena raro» y se salta los homófonos acumula errores sin darse cuenta. Y quien marca palabras correctas «por si acaso» también. Para trabajar estas confusiones: [homófonos](/blog/homofonos-ortografia-guardia-civil) y [palabras trampa de ortografía](/blog/palabras-trampa-ortografia-guardia-civil).
+
+## Tipo 7: el inglés y los falsos amigos
+
+En inglés, el distractor típico es la palabra que se parece al español y significa otra cosa.
+
+**Ejemplo propio:** «She was very *embarrassed* after the mistake». ¿Qué significa *embarrassed*? a) embarazada; b) avergonzada; c) enfadada; d) aburrida. **Solución:** b). «Embarazada» se dice *pregnant*. Otros casos clásicos: *actually* (en realidad), *library* (biblioteca), *sensible* (sensato). Tienes más en [falsos amigos en inglés](/blog/falsos-amigos-en-ingles-los-errores-tipicos-del-opositor).
+
+## Caso práctico: analizar un simulacro por tipos de trampa
+
+**Caso hipotético.** Un opositor hace un simulacro y obtiene 64 aciertos, 27 errores y 9 blancos: 64 − 9 = **55 puntos**. Al revisar los 27 fallos los clasifica así:
+
+| Causa | Fallos | Qué hacer |
+| --- | --- | --- |
+| No sabía el dato | 11 | Repaso de esos temas |
+| Cifra o plazo confundido (tipo 3) | 6 | Hoja de números y tarjetas |
+| No leyó la negación (tipo 2) | 4 | Rodear la negación siempre |
+| Eligió una opción incompleta (tipo 1) | 3 | Leer las cuatro antes de marcar |
+| Arriesgó sin descartar nada (tipo 5) | 3 | Dejar en blanco si no descarta |
+
+Solo 11 fallos eran de temario. Si los 7 de lectura (tipos 1 y 2) se convirtieran en aciertos, pasaría de 55 a 71 − 20/3 ≈ 64,3, sin estudiar nada nuevo. Y dejar en blanco los 3 arriesgados a ciegas le sumaría 1 punto más. Estas cifras son del ejemplo, no una promesa: sirven para ver dónde están los puntos baratos.
+
+## Errores frecuentes
+
+- **Marcar la primera opción verdadera** sin comparar con las demás.
+- **Leer el enunciado a medias** y perder el «no» o el «excepto».
+- **Contestarlo todo** por miedo a dejar huecos.
+- **Dejarlo todo en blanco** por miedo a fallar, incluso cuando has descartado dos opciones.
+- **Estudiar cifras solo leyendo**, sin preguntártelas.
+- **En ortografía, marcar «por si acaso».**
+
+## Checklist para tus simulacros
+
+- [ ] Leo el enunciado entero antes de mirar las opciones.
+- [ ] Rodeo negaciones y excepciones.
+- [ ] Leo las cuatro opciones aunque la primera parezca buena.
+- [ ] Compruebo si una opción incluye a otra.
+- [ ] Miro qué norma cita el enunciado.
+- [ ] Contesto si descarto al menos una opción y he comprobado que me compensa; si no, en blanco.
+- [ ] Al corregir, clasifico cada fallo por su causa.
+
+Practicarlo con cuestionarios completos y [simulacros bien analizados](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados) es lo que convierte estas reglas en reflejos. Si prefieres hacerlo con un método guiado, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye este trabajo.
+
+## Preguntas frecuentes
+
+### ¿Hay preguntas trampa en el examen de la Guardia Civil?
+
+La convocatoria no usa ese término ni hay datos oficiales sobre ellas. Lo oficial son las reglas del test: respuesta única, la más completa y penalización por error. De ahí salen las situaciones que más confunden.
+
+### ¿Qué hago si dos opciones me parecen correctas?
+
+La convocatoria dice que debes señalar la más completa. Comprueba si una contiene a la otra; normalmente esa es la que hay que marcar.
 
 ### ¿Qué hago si dudo entre dos opciones?
-Descarta primero las que sean claramente incorrectas. Si te quedan dos, arriesgar suele compensar, porque el error solo resta un tercio de acierto. Lo explicaremos con números en un artículo posterior.
 
-### ¿Cuántos verbos irregulares tengo que saber?
-No hay cifra oficial. Empieza por los más frecuentes y añade los que te encuentres en tus tests.
+Si has descartado las otras dos, el valor esperado de contestar es positivo: un acierto suma uno y un error resta un tercio. Aun así, comprueba en tus simulacros cómo te funciona.
 
-### ¿Cuánto tiempo al día debería dedicarle?
-Mejor poco y a diario que mucho de golpe. Diez o quince minutos diarios de práctica con corrección rinden más que una sesión larga a la semana.
+### ¿Restan las preguntas en blanco?
 
-### ¿Dónde practico con tests de cuatro opciones?
-En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) el inglés se entrena con tests en el mismo formato del examen. Si dudas entre formatos de preparación, mira [academia, online o por libre](/blog/academia-online-o-por-libre-como-preparar-la-guardia-civil).',
-   NULL, NULL, 'publicado', '2027-01-24T06:03:00.000Z', 'acceso-guardia-civil',
-   ARRAY['inglés', 'gramática', 'tiempos verbales', 'examen']::text[], '{"title":"Gramática inglesa Guardia Civil: tiempos verbales","description":"Tiempos verbales en inglés para el examen de la Guardia Civil: presente, pasado, present perfect, futuro y condicionales, con test resuelto."}'::jsonb, '{}'::jsonb)
+No. La convocatoria dice expresamente que no se penaliza la pregunta no contestada.
+
+### ¿También hay «más completa» en el psicotécnico?
+
+Sí. La base 6.1.2.a) repite la misma instrucción para las aptitudes intelectuales, y también penaliza los errores.
+
+### ¿Cómo practico la «respuesta más completa»?
+
+Al corregir cada test, no te quedes en por qué acertaste: explica por qué cada una de las otras opciones era falsa o incompleta.',
+   '/blog/preguntas-trampa-del-examen-de-guardia-civil.jpg', 'Primer plano de un bolígrafo dudando entre dos opciones de una pregunta tipo test', 'publicado', '2027-01-22T06:29:00.000Z', 'acceso-guardia-civil',
+   ARRAY['técnica de test', 'penalización', 'examen', 'estrategia']::text[], '{"title":"Preguntas trampa del examen de Guardia Civil: 7 tipos","description":"Cómo detectar las preguntas trampa del test de Guardia Civil: respuesta más completa, negaciones, cifras, penalización y ortografía. Con ejemplos propios."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -768,350 +937,124 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados', 'articulo', 'Simulacros: cada cuánto hacerlos y cómo analizar los resultados', 'Un simulacro que no se analiza es tiempo perdido. Qué frecuencia te conviene en cada fase, cómo calcular la nota con la fórmula oficial, cuándo compensa arriesgar y una hoja de análisis para saber exactamente qué repasar.', 'Un simulacro mide dónde estás, pero **solo mejora tu nota si luego lo analizas**. Hacer uno cada día sin revisar los fallos da sensación de avance, no avance. **Respuesta corta:** durante la primera vuelta del temario, tests por tema y algún simulacro parcial; en la segunda vuelta, un simulacro completo cada una o dos semanas; en la fase final, uno por semana, siempre con su análisis al día siguiente.
+  ('que-llevar-al-examen-de-la-guardia-civil-y-que-esta-prohibido', 'articulo', 'Qué llevar al examen de la Guardia Civil y qué está prohibido', 'Bolígrafo negro y DNI sí; móviles, relojes o gafas inteligentes, diccionarios y calculadoras no. Lo que dice la convocatoria de 2026 para cada prueba, qué pasa si lo incumples y una lista para la víspera.', 'La respuesta corta: **lleva bolígrafo de tinta negra y tu documento de identidad, y deja fuera móviles, relojes o gafas inteligentes, diccionarios, libros, apuntes y calculadoras**. Incumplirlo no es una falta menor: la convocatoria prevé la exclusión del proceso y la pérdida de los derechos de examen.
 
-## Cada cuánto hacerlos
+Todo lo que sigue sale de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)), en concreto de las bases 5.3, 6.1, 6.2 y 6.5. Si en tu convocatoria cambia algo, manda la que esté vigente, y el Tribunal de Selección puede dar instrucciones concretas el día de la prueba: escúchalas.
 
-No hay una cifra oficial; esta es la orientación que usamos, coherente con las fases de nuestro [plan mes a mes](/blog/proposito-2027-entrar-en-la-guardia-civil-plan-mes-a-mes):
+## Lo que dice la base 5.3, palabra por palabra
 
-| Fase | Frecuencia orientativa | Para qué sirve |
-| --- | --- | --- |
-| Primera vuelta al temario | Test al cerrar cada tema; un simulacro parcial al mes con lo ya estudiado | Fijar lo aprendido y medir tiempos |
-| Segunda vuelta | Un simulacro completo cada una o dos semanas, más tests mezclados | Detectar lagunas y coger ritmo |
-| Desde la convocatoria hasta la prueba | Uno por semana, en condiciones reales | Ensayar el examen y la gestión del tiempo |
+La norma central es breve y conviene leerla entera:
 
-La regla útil: **cada simulacro completo pide casi tanto tiempo de análisis como de examen**. Si no puedes revisarlo a fondo, haz menos.
+> «Salvo que lo determine el Tribunal de Selección, en ningún caso, se permitirá el uso de diccionarios, libros, apuntes, calculadoras o cualquier otro tipo de ayudas. Además, está prohibida la entrada en las aulas y salas de examen y en las de entrevistas personales con teléfonos móviles, relojes o gafas inteligentes o con cualquier dispositivo que permita la grabación, reproducción, transmisión o recepción de datos, imágenes o sonidos.»
 
-## Hazlos en condiciones reales
+Y el párrafo siguiente fija la consecuencia: «El incumplimiento de estas normas llevará consigo la exclusión del aspirante del proceso de selección y la pérdida de los derechos de examen».
 
-- **140 minutos seguidos** para ortografía, gramática, 100 preguntas de conocimientos y 20 de inglés (es la estructura de la prueba de conocimientos de la convocatoria de 2026).
-- Sin apuntes, sin móvil y sin parar a consultar dudas.
-- Con bolígrafo y una hoja de respuestas aparte, para acostumbrarte a pasar las marcas.
-- Por la mañana, si puedes, para que tu concentración esté entrenada a esa hora.
-- El psicotécnico, por separado y también cronometrado: 80 preguntas en 55 minutos.
+Fíjate en tres matices:
 
-### Un reparto del tiempo (propuesta propia)
+1. **Hay dos prohibiciones distintas.** Una es de **uso** (diccionarios, libros, apuntes, calculadoras, cualquier ayuda). La otra es de **entrada** (móviles, relojes o gafas inteligentes y dispositivos que graben, reproduzcan, transmitan o reciban). Con los dispositivos no basta con no usarlos: no pueden entrar contigo.
+2. **Alcanza a la entrevista personal**, no solo a las aulas de examen.
+3. **La única excepción** es que el Tribunal de Selección determine otra cosa. Si no lo dice expresamente, no se permite.
 
-| Bloque | Minutos orientativos |
-| --- | --- |
-| Ortografía (5 frases) y gramática (20 frases) | 15 |
-| Conocimientos (100 preguntas) | 90-95 |
-| Inglés (20 preguntas) | 20 |
-| Repaso y pasar respuestas a la hoja | 10-15 |
-| **Total** | **140** |
+## Qué llevar según la prueba
 
-No es una regla: mide tus tiempos en los primeros simulacros y ajusta. Lo importante es no llegar al inglés con cinco minutos.
+| Prueba | Qué exige la convocatoria | Base |
+|---|---|---|
+| Ortografía, gramática, conocimientos generales e inglés | Bolígrafo de tinta de color negro | 6.1.1 |
+| Psicotécnica | Lo que indique el Tribunal (la convocatoria no detalla material) | 6.1.2 |
+| Pruebas físicas | Atuendo deportivo adecuado y certificado médico oficial expedido en los 20 días anteriores (o la ficha médica que admite la base) | 6.1.3 a) |
+| Entrevista personal | Informe de vida laboral (o, si eres militar, la Hoja General de Servicios); antes se rellena el cuestionario BIODATA | 6.1.3 b) |
+| Reconocimiento médico | Presentarse en ayunas y con retención de orina | 6.1.3 c) |
+| Todas | DNI u otro documento legal que lo sustituya | 6.5 |
 
-## Calcula la nota con la fórmula oficial
+### El bolígrafo negro
+La base 6.1.1 lo dice para las cuatro pruebas de conocimientos: «irán provistos de bolígrafo de tinta de color negro». Lleva **al menos dos o tres**. La convocatoria no habla de repuestos, pero un bolígrafo que se seca a mitad de los 140 minutos no tiene arreglo rápido. Practica en casa con el mismo modelo que vayas a llevar: si marcas en simulacros con lápiz, el día del examen notarás la diferencia.
 
-Con cuatro opciones, **cada error resta un tercio de acierto** y el blanco no resta:
+### El documento de identidad
+Según la base 6.5, el Tribunal, sus colaboradores y auxiliares pueden pedirte que acredites tu identidad **en cualquier momento**, y para eso debes ir con el DNI «o cualquier otro documento legal que lo sustituya». **No acreditarla supone la exclusión.** Revisa la fecha de caducidad semanas antes: renovar el DNI requiere cita y no siempre la hay de un día para otro.
 
-- **Conocimientos:** aciertos − errores / 3, sobre 100. Mínimo: 50.
-- **Inglés:** aciertos − errores / 3, sobre 20. Mínimo: 8.
-- **Psicotécnico:** 0,375 por acierto y −0,125 por error, sobre 30. Mínimo: 12, que equivale a 32 aciertos netos.
-- **Ortografía y gramática:** 6 errores o más excluyen en cada una.
+### Certificado médico y ropa deportiva
+Para las pruebas físicas debes entregar, antes de empezar, el certificado médico oficial con la frase literal que exige la base, en los modelos de los apéndices III y IV. No presentarlo en esos términos supone la exclusión. Lo explicamos con detalle en [certificado médico de las pruebas físicas](/blog/certificado-medico-pruebas-fisicas-guardia-civil).
 
-Puedes hacerlo en la [calculadora de nota](/calculadora-nota-guardia-civil) y repasar el criterio en [cómo se calcula la nota](/blog/calcular-nota-examen-guardia-civil).
+### Documentación para la entrevista
+La vida laboral (o la Hoja General de Servicios) se aporta en la fecha de citación de la entrevista. El BIODATA no puntúa, pero sirve de apoyo a los entrevistadores. Tienes el proceso en [entrevista y reconocimiento médico](/blog/entrevista-reconocimiento-medico-guardia-civil).
 
-### Ejemplos resueltos
+## Qué no debes llevar (o debes dejar fuera)
 
-1. Conocimientos: 65 aciertos, 24 errores y 11 en blanco → 65 − 8 = **57**.
-2. Inglés: 11 aciertos, 6 errores y 3 en blanco → 11 − 2 = **9**: aprobado justo.
-3. Psicotécnico: 40 aciertos y 16 errores → 40 × 0,375 − 16 × 0,125 = 15 − 2 = **13**.
-4. Ortografía: 4 errores → apto; gramática: 6 errores → **excluido**, aunque todo lo demás esté bien.
+- **Teléfono móvil**, aunque esté apagado: la prohibición es de entrada en el aula.
+- **Reloj inteligente o pulsera con conexión**, y **gafas inteligentes**.
+- **Auriculares**, incluidos los inalámbricos: son dispositivos que reproducen o reciben sonido.
+- **Cualquier aparato que grabe, reproduzca, transmita o reciba** datos, imágenes o sonidos.
+- **Diccionarios, libros, apuntes, calculadoras** y «cualquier otro tipo de ayudas».
 
-## ¿Arriesgar o dejar en blanco? Las cuentas
+### ¿Y un reloj normal?
+La base prohíbe expresamente los relojes **inteligentes**. No dice nada específico de los relojes analógicos o digitales sin conexión, ni garantiza que haya un reloj en el aula. Ese detalle lo concreta el Tribunal, así que no lo des por supuesto: si quieres controlar el tiempo, lleva preparado un reparto de minutos por partes que puedas seguir aunque no tengas reloj, y atiende a las indicaciones del día. Cómo repartir los 140 minutos lo tienes en [la estructura del examen](/blog/examen-conocimientos-guardia-civil-estructura).
 
-Con cuatro opciones y la penalización de un tercio, el valor esperado de contestar al azar es:
+### ¿Dónde dejo el móvil?
+La convocatoria no prevé consignas ni taquillas. Lo más seguro es no llevarlo, o dejarlo en el coche o con un acompañante. Si el Tribunal habilita algún sistema para depositarlo, sigue sus instrucciones, pero no cuentes con ello.
 
-| Situación | Cálculo | Valor esperado por pregunta |
-| --- | --- | --- |
-| Ninguna opción descartada | 1/4 × 1 − 3/4 × 1/3 | 0 |
-| Una descartada (eliges entre 3) | 1/3 × 1 − 2/3 × 1/3 | +0,11 |
-| Dos descartadas (eliges entre 2) | 1/2 × 1 − 1/2 × 1/3 | +0,33 |
+## El único llamamiento: llegar tarde también excluye
 
-Lectura: adivinar a ciegas no gana ni pierde de media, pero **si de verdad puedes descartar opciones, contestar compensa**. El matiz está en el «de verdad»: si tus descartes fallan a menudo, el cálculo cambia. Por eso conviene medirlo en tus simulacros: marca las preguntas en las que arriesgaste y cuenta cuántas acertaste. La cuenta es sencilla: arriesgar suma siempre que aciertes más de una de cada cuatro preguntas arriesgadas, porque cada acierto vale lo mismo que tres errores. Si aciertas menos, te está restando.
+La base 6.2 establece que se te convoca a cada prueba en **único llamamiento**. Si no estás presente cuando el Presidente del Tribunal declara el inicio de la prueba o de tu turno, quedas excluido, «sea cual fuere la causa que al respecto pueda alegarse», salvo los supuestos del capítulo V del Reglamento de ordenación de la enseñanza en la Guardia Civil. Si la prueba se hace en varios días, el Tribunal puede autorizar un cambio de día o tanda **por causas justificadas y antes de que empiecen**.
 
-## Cómo analizar un simulacro: la hoja
+Hay otra regla que mucha gente no conoce: una vez que haces la primera prueba del día, debes hacer **todas las previstas para esa fecha**, en el orden establecido. Si abandonas o no superas alguna, quedas excluido.
 
-Al día siguiente, rellena una tabla así para cada pregunta fallada o dudosa:
+El lugar, la fecha y la hora los anuncia el Tribunal (base 5.4). Y cuando hay que ordenar a los aspirantes, en 2026 se empieza por el primer apellido que comienza por la letra **«U»** (base 6.4).
 
-| N.º | Tema | Causa | Arriesgada | Acción |
-| --- | --- | --- | --- | --- |
-| 23 | Tema 8 | No lo sabía | No | Ficha del art. y repaso del tema |
-| 41 | Tema 12 | Confusión | Sí | Tabla comparativa de plazos |
-| 77 | Tema 18 | Mala lectura | No | Rodear «INCORRECTA» |
+## Casos prácticos (hipotéticos)
 
-### 1. Separa la nota de la causa
+**Caso 1. Laura llega con el reloj inteligente puesto.** Se da cuenta en la puerta del aula. Lo correcto es no entrar con él: dejarlo fuera según indique el personal o volver a dejarlo en el coche si hay tiempo. Entrar con él ya incumple la base 5.3, aunque no lo use.
 
-- **No lo sabía:** tema no estudiado o mal estudiado.
-- **Lo confundí:** dos normas, órganos o plazos parecidos.
-- **Leí mal:** negaciones, «incorrecta», «excepto».
-- **Dudé y cambié:** tenías la correcta.
+**Caso 2. Javier no encuentra el DNI la mañana del examen, pero tiene el pasaporte en vigor.** La base 6.5 admite «cualquier otro documento legal que lo sustituya». Un documento oficial en vigor que acredite la identidad debería servir, pero si tienes dudas sobre un documento concreto, resuélvelas antes con la información del Tribunal, no en la puerta.
 
-Cada causa se corrige de forma distinta: las dos primeras con estudio; las dos últimas, con técnica de examen.
+**Caso 3. A Marta se le acaba la tinta a mitad de la prueba de conocimientos.** Si llevaba un segundo bolígrafo negro, pierde diez segundos. Si no, depende de lo que pueda resolver el personal del aula, y pierde tiempo y calma. Por eso se llevan varios.
 
-### 2. Cuenta los errores por tema
-Los temas que acumulan más errores son tu repaso prioritario de la semana. No te fíes de la sensación: los datos suelen sorprender.
-
-### 3. Controla el tiempo por bloque
-Si agotas el tiempo, el problema es de ritmo, no de conocimiento. Practica bloques de 25 preguntas cronometrados.
-
-### 4. Mira la tendencia, no un resultado aislado
-Un mal simulacro puede ser un mal día. Calcula la media de los últimos tres o cuatro. Y compara con el [corte de años anteriores](/nota-de-corte) solo como referencia: la nota de corte se calcula sobre 195 puntos (concurso y oposición juntos) y cambia cada convocatoria.
-
-## Caso práctico (hipotético): cuatro simulacros
-
-| Simulacro | Conocimientos | Inglés | Errores de lectura |
-| --- | --- | --- | --- |
-| 1 | 48 | 7 | 6 |
-| 2 | 53 | 9 | 5 |
-| 3 | 51 | 10 | 2 |
-| 4 | 58 | 10 | 1 |
-
-Media de los tres últimos en conocimientos: (53 + 51 + 58) / 3 = 54. La tendencia sube, el bajón del tercero no es preocupante y los errores de lectura han caído de 6 a 1 gracias a una regla sencilla (rodear las negaciones). El inglés ha pasado de suspenso a un margen de 2 puntos: hay que seguir, porque es eliminatorio.
-
-## Qué hacer la semana después de un simulacro
-
-El análisis solo sirve si cambia tu semana. Una forma sencilla de convertirlo en acciones:
-
-1. **Los tres temas con más errores** entran en el repaso de la semana, con fichas nuevas para cada fallo.
-2. **Cada confusión** genera una tabla comparativa (por ejemplo, dos plazos o dos órganos parecidos).
-3. **Cada error de lectura** se convierte en una regla personal que escribes en la primera página del siguiente simulacro.
-4. **Las preguntas falladas** se repiten sin mirar a los siete días.
-
-## Con qué hacerlos
-
-Los cuestionarios publicados por la Guardia Civil son el mejor punto de partida, pero son pocos ([exámenes oficiales anteriores](/blog/examenes-oficiales-anteriores-donde-encontrarlos)). Resérvalos para la segunda vuelta y la fase final. Para el resto, usa [tests propios de ProLince](/test-guardia-civil) o los simulacros del [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil), que siguen el mismo formato aunque no son exámenes oficiales.
-
-## Cómo gestionar el día del simulacro
-
-Trata cada simulacro como un ensayo general. Duerme bien la noche anterior, prepara antes el material (bolígrafos, reloj, hoja de respuestas) y decide de antemano tu orden de bloques y tus tiempos. Durante el examen, marca con un símbolo las preguntas dudosas para volver al final y no te quedes atascado en ninguna más de un minuto. Al terminar, no corrijas en caliente: deja el análisis para el día siguiente, con la cabeza fría. Ese hábito es el que querrás tener el día de la prueba real.
+**Caso 4. Pedro se queda dormido y llega cuando ya ha empezado su turno.** El único llamamiento no admite excusas: la base dice «sea cual fuere la causa». Queda excluido. Duerme cerca si el examen es lejos y calcula el viaje con margen.
 
 ## Errores frecuentes
 
-- Hacer simulacros completos antes de terminar la primera vuelta y desmoralizarse.
-- Corregir sin aplicar la penalización.
-- Mirar la solución nada más fallar, sin analizar la causa.
-- Repetir el mismo simulacro hasta sabérselo: mide memoria del examen, no conocimiento.
-- Olvidar ortografía, gramática e inglés en los simulacros «de práctica».
+- **Pensar que el móvil apagado no cuenta.** Cuenta: se prohíbe la entrada.
+- **Olvidar que la prohibición alcanza a la entrevista.** Lo dice la base 5.3.
+- **Llevar un solo bolígrafo**, o uno azul. La convocatoria pide tinta negra.
+- **No mirar la caducidad del DNI** hasta la víspera.
+- **Llegar justo.** Con colas de identificación y cientos de aspirantes, llegar a la hora exacta es llegar tarde.
+- **Ensayar con condiciones distintas.** Si en tus [simulacros](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados) consultas el móvil o paras el cronómetro, el día del examen te faltará el hábito de trabajar 140 minutos seguidos.
 
-## Checklist de cada simulacro
+## Lista para la víspera
 
-- [ ] 140 minutos seguidos, sin interrupciones.
-- [ ] Nota calculada con penalización en cada bloque.
-- [ ] Hoja de fallos con causa y acción.
-- [ ] Errores contados por tema.
-- [ ] Media actualizada de los últimos tres o cuatro.
-- [ ] Repaso de la semana decidido según los datos.
+1. DNI (u otro documento legal que lo sustituya) en vigor, en la cartera o en la mochila.
+2. Tres bolígrafos de tinta negra, probados.
+3. Lugar, fecha, hora y turno anotados en papel, por si no puedes mirar el móvil.
+4. Ruta y tiempo de viaje calculados, con margen para aparcar y hacer cola.
+5. Móvil, reloj inteligente y auriculares fuera del aula.
+6. Ropa cómoda por capas: la temperatura de un aula grande es impredecible.
+7. Para las físicas: certificado médico con la fecha bien calculada y ropa deportiva. Para el reconocimiento: ayunas y retención de orina. Para la entrevista: vida laboral.
 
-## Preguntas frecuentes
-
-### ¿Cuántos simulacros debo hacer antes del examen?
-No hay un número oficial. Más que la cantidad, importa que analices cada uno y que la tendencia esté estable por encima de los mínimos.
-
-### ¿Qué nota debo sacar en los simulacros?
-El mínimo es 50 sobre 100 en conocimientos y 8 sobre 20 en inglés, pero conviene tener margen, porque el día real hay nervios. Y para obtener plaza no basta con el mínimo: cuenta la nota final.
-
-### ¿Es mejor hacer tests por temas o simulacros completos?
-Los tests por temas sirven para aprender; los simulacros, para ensayar el examen. Se complementan según la fase.
-
-### ¿Debo dejar preguntas en blanco?
-A ciegas, contestar no gana ni pierde de media. Si descartas al menos una opción con seguridad, contestar suma. Compruébalo con tus propios datos.
-
-### ¿Hago el psicotécnico el mismo día que el simulacro de conocimientos?
-Puedes, para acostumbrarte al cansancio, pero analízalo por separado. Lo importante es que se haga cronometrado.
-
-### ¿Qué hago si empeoro en un simulacro?
-Mira la causa de los fallos antes de preocuparte. Si son de lectura o de tiempo, se corrigen rápido; si son de conocimiento, ve a esos temas.
-
-### ¿Cuánto tiempo dedico a analizar un simulacro?
-Como orientación, casi tanto como al propio examen: entre una hora y media y dos horas para un simulacro completo. Si un día no lo tienes, analiza al menos los errores de los tres temas con más fallos y deja el resto para el día siguiente.',
-   NULL, NULL, 'publicado', '2027-01-22T06:29:00.000Z', 'acceso-guardia-civil',
-   ARRAY['simulacros', 'test', 'nota', 'análisis de resultados']::text[], '{"title":"Simulacros Guardia Civil: frecuencia y análisis de nota","description":"Cada cuánto hacer simulacros de Guardia Civil, cómo calcular la nota con la fórmula oficial, cuándo arriesgar y cómo analizar tus errores."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles', 'articulo', '"Vocabulario y phrasal verbs útiles para el examen de inglés"', 'Con 20 preguntas de nivel ESO no hace falta un vocabulario enorme, sino el cotidiano bien asentado. Phrasal verbs comunes, verbos con preposición, pares que se confunden, un método para memorizar y un test resuelto.', '**Respuesta corta:** la prueba es de nivel compatible con la ESO, así que lo rentable es dominar el vocabulario de uso diario, los *phrasal verbs* más comunes y las preposiciones que acompañan a verbos y adjetivos, no listas de palabras raras. Memoriza en contexto, con frases, y repasa a menudo.
-
-Todos los ejemplos y ejercicios son **propios**, escritos para practicar. No son preguntas oficiales ni sabemos qué palabras saldrán: nadie lo sabe. Si aún no tienes la base gramatical, empieza por [los tiempos verbales](/blog/gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales).
-
-## Qué vocabulario merece tu tiempo
-
-La convocatoria no publica una lista de palabras. Lo único oficial es el nivel (ESO, según el Real Decreto 217/2022) y el formato: 20 preguntas tipo test de cuatro opciones con una sola respuesta válida, según la base 6.1.1 d) del [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982). Con eso, la apuesta segura es:
-
-- **Vida diaria**: familia, casa, trabajo, estudios, ocio, compras, viajes, salud, tiempo atmosférico.
-- **Verbos frecuentes** y sus preposiciones.
-- **Cuantificadores** (*much*, *many*, *few*, *little*, *some*, *any*).
-- **Conectores** (*although*, *however*, *because*, *so*, *unless*, *while*).
-
-Más contexto sobre la prueba en [el inglés de la oposición](/blog/ingles-oposicion-guardia-civil).
-
-## Phrasal verbs de uso común
-
-Un *phrasal verb* es un verbo + una partícula (preposición o adverbio) que cambia el significado. *Look* es «mirar», pero *look for* es «buscar» y *look after*, «cuidar».
-
-### En casa y en el día a día
-
-| Phrasal verb | Significado | Ejemplo |
-| --- | --- | --- |
-| get up | levantarse | *I get up at seven.* |
-| wake up | despertarse | *She woke up late.* |
-| turn on / turn off | encender / apagar | *Turn off the light, please.* |
-| put on / take off | ponerse / quitarse (ropa) | *Put on your coat; it''s cold.* |
-| look for | buscar | *I''m looking for my keys.* |
-| look after | cuidar | *She looks after her grandmother.* |
-| throw away | tirar a la basura | *Don''t throw away that box.* |
-| pick up | recoger | *I''ll pick you up at eight.* |
-
-### Planes, problemas y trabajo
-
-| Phrasal verb | Significado | Ejemplo |
-| --- | --- | --- |
-| give up | rendirse; dejar (un hábito) | *He gave up smoking last year.* |
-| find out | descubrir, averiguar | *I found out the truth yesterday.* |
-| put off | aplazar | *They put off the meeting until Monday.* |
-| call off | cancelar | *The match was called off because of the rain.* |
-| carry on | continuar | *Carry on reading, please.* |
-| run out of | quedarse sin | *We ran out of milk.* |
-| fill in | rellenar (un impreso) | *Please fill in this form.* |
-| break down | averiarse | *Our car broke down on the motorway.* |
-| set off | salir (de viaje) | *We set off early in the morning.* |
-| come across | encontrar por casualidad | *I came across an old photo.* |
-| work out | resolver; hacer ejercicio | *I can''t work out this problem.* |
-| look forward to | tener ganas de | *I''m looking forward to seeing you.* |
-| get on with | llevarse bien con | *I get on well with my colleagues.* |
-| take off | despegar | *The plane takes off at nine.* |
-
-Dos detalles que suelen caer en tests de nivel básico:
-
-- ***Look forward to* va seguido de -ing**: *I''m looking forward to meeting you*, no *to meet you*. El *to* es preposición.
-- **Los separables admiten el objeto en medio**: *turn the light off* o *turn off the light*. Si el objeto es un pronombre, va en medio obligatoriamente: *turn it off*, no *turn off it*.
-
-## Verbos y adjetivos con su preposición
-
-Es vocabulario «invisible» porque en español la preposición cambia:
-
-| Inglés | Español | Ejemplo |
-| --- | --- | --- |
-| depend on | depender de | *It depends on the weather.* |
-| listen to | escuchar | *Listen to me.* |
-| wait for | esperar a | *I''m waiting for the bus.* |
-| arrive in / at | llegar a | *We arrived in Madrid / at the station.* |
-| be interested in | estar interesado en | *She is interested in history.* |
-| be good at | ser bueno en | *He is good at maths.* |
-| be afraid of | tener miedo de | *I''m afraid of dogs.* |
-| be married to | estar casado con | *She is married to a teacher.* |
-| be responsible for | ser responsable de | *Who is responsible for this?* |
-
-Truco para *arrive*: *in* con ciudades y países; *at* con lugares concretos (estación, aeropuerto, oficina). Y nunca *arrive to*.
-
-## Pares de palabras que se confunden
-
-- ***Make* y *do***: *make a mistake*, *make a decision*, *make a phone call*; *do homework*, *do the shopping*, *do exercise*.
-- ***Say* y *tell***: *say hello*, *say something to someone*; *tell me the truth* (*tell* lleva destinatario).
-- ***Borrow* y *lend***: *Can I borrow your pen?* (tomar prestado); *Can you lend me your pen?* (prestar).
-- ***Bring* y *take***: *bring* hacia donde está quien habla; *take*, hacia otro sitio.
-- ***Hear* y *listen***: *I hear a noise*; *I listen to the radio*.
-- ***Look*, *see* y *watch***: *look at a picture*, *see a car*, *watch a film*.
-- ***Much* y *many***: *much water*, *many people*.
-- ***Few* y *a few***, ***little* y *a little***: *I have few friends* (casi ninguno); *I have a few friends* (algunos). *There is little time* (casi nada); *There is a little time* (un poco).
-- ***Win* y *earn***: *win a match*, *earn money* (con el trabajo).
-
-## Vocabulario cotidiano por temas
-
-Una lista de arranque, no exhaustiva, para comprobar que tienes la base. Si dudas con alguna palabra, apúntala con una frase:
-
-| Tema | Palabras |
-| --- | --- |
-| Familia | *aunt, uncle, cousin, nephew, niece, grandson, father-in-law, husband, wife* |
-| Casa | *bedroom, kitchen, ceiling, floor, stairs, roof, fridge, sink, neighbour* |
-| Trabajo | *job, salary, boss, colleague, shift, retire, hire, apply for, unemployed* |
-| Viajes | *luggage, ticket, platform, flight, delay, departure, arrival, abroad* |
-| Salud | *headache, fever, injury, pill, prescription, wound, ambulance, recover* |
-| Tiempo | *weather, cloudy, foggy, windy, storm, heat, freezing, forecast* |
-| Ciudad | *street, square, crossroads, traffic lights, pavement, bridge, town hall* |
-| Compras | *price, cheap, expensive, receipt, change, discount, size, try on* |
-
-Dos detalles: *luggage* y *information* son incontables (*some luggage*, *a piece of information*, nunca *two luggages* ni *an information*), y *advice* también lo es (*some advice*, no *an advice*).
-
-### Conectores básicos
-
-| Conector | Uso | Ejemplo |
-| --- | --- | --- |
-| *although* | aunque | *Although it was late, we went out.* |
-| *however* | sin embargo | *It was late. However, we went out.* |
-| *because* | porque | *I stayed at home because I was ill.* |
-| *so* | así que | *I was ill, so I stayed at home.* |
-| *unless* | a menos que | *You won''t pass unless you study.* |
-| *while* | mientras | *He called while I was cooking.* |
-
-## Ejemplo resuelto paso a paso
-
-*I''m really looking forward ___ you next week.* (a) to see (b) to seeing (c) seeing (d) see
-
-1. Reconoce el *phrasal verb*: *look forward to*.
-2. El *to* forma parte de él y es preposición, no infinitivo.
-3. Detrás de una preposición, el verbo va en -ing.
-
-**Respuesta: (b) *to seeing*.** La (a) es el error más habitual; la (c) y la (d) olvidan el *to*.
-
-## Método para memorizar sin agobiarte
-
-1. **Frases, no palabras sueltas.** Anota cada *phrasal verb* con una frase tuya.
-2. **Diez minutos al día**, mejor que una hora el domingo.
-3. **Repaso espaciado**: vuelve a lo aprendido a los dos días, a la semana y al mes. Lo explicamos aplicado al temario en [cómo memorizar leyes con repaso espaciado](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario), y funciona igual con el vocabulario.
-4. **Agrupa por temas** (casa, viajes, trabajo) o por verbo base (*look for*, *look after*, *look forward to*).
-5. **Cuaderno de fallos.** Cada error de un test se convierte en una ficha con su frase correcta.
-
-## Test propio de diez preguntas (con soluciones)
-
-1. We ___ of coffee, so I went to the shop. (a) ran out (b) gave up (c) put off (d) looked after
-2. Could you ___ this form, please? (a) fill in (b) carry on (c) break down (d) turn off
-3. I don''t have much time: I have only ___ minutes. (a) a little (b) a few (c) much (d) a lot
-4. Can I ___ your dictionary for a day? (a) lend (b) borrow (c) say (d) tell
-5. The concert was ___ because of the storm. (a) called off (b) found out (c) taken off (d) come across
-6. It''s cold outside. ___ your jacket. (a) Put on (b) Take off (c) Turn on (d) Give up
-7. She is very good ___ languages. (a) in (b) on (c) at (d) for
-8. We arrived ___ the airport at six. (a) to (b) at (c) in (d) on
-9. I always ___ a lot of mistakes when I''m tired. (a) do (b) make (c) take (d) get
-10. My grandparents ___ me when my parents are at work. (a) look for (b) look after (c) look at (d) look forward to
-
-**Soluciones:** 1-a, 2-a, 3-b (*minutes* es contable), 4-b, 5-a, 6-a, 7-c, 8-b (lugar concreto), 9-b (*make a mistake*), 10-b.
-
-## Errores frecuentes
-
-- ***Arrive to***: siempre *arrive in* o *arrive at*.
-- ***Do a mistake***: es *make a mistake*.
-- ***Explain me***: es *explain to me* o *explain it to me*.
-- ***Depend of***: es *depend on*.
-- ***Turn off it***: con pronombre, *turn it off*.
-- **Aprender listas de cien palabras sin frases**: se olvidan en días.
+Si es tu primera oposición, [preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero) te da el contexto general, y el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) de ProLince incluye simulacros para ensayar en condiciones parecidas a las reales.
 
 ## Preguntas frecuentes
 
-### ¿Cuántos phrasal verbs tengo que saber?
-No hay cifra oficial. Unas decenas de los más comunes, bien asentados, rinden más que una lista enorme a medias.
+### ¿Puedo llevar el móvil apagado en la mochila?
+La base 5.3 prohíbe la **entrada** en las aulas y salas de examen con teléfonos móviles, sin distinguir si están encendidos o apagados. Lo más seguro es no llevarlo.
 
-### ¿Los falsos amigos cuentan como vocabulario?
-Sí, y son una fuente clásica de errores. Les dedicaremos un artículo propio más adelante.
+### ¿Vale un bolígrafo azul?
+La convocatoria pide bolígrafo de tinta de color negro para ortografía, gramática, conocimientos generales e inglés. Usa negro.
 
-### ¿Tengo que aprender vocabulario policial o jurídico?
-La convocatoria habla de nivel ESO, sin vocabulario específico. Prioriza el cotidiano.
+### ¿Qué pasa si se me olvida el DNI?
+La base 6.5 admite el DNI «o cualquier otro documento legal que lo sustituya». Sin acreditar la identidad, la consecuencia es la exclusión.
 
-### ¿Sirve ver series en inglés?
-Ayuda a familiarizarte con el idioma, sobre todo con subtítulos en inglés, pero no sustituye a la práctica con tests de cuatro opciones.
+### ¿Se aplican las mismas normas en la entrevista personal?
+Sí. La prohibición de entrar con móviles, relojes o gafas inteligentes y dispositivos de grabación o transmisión menciona expresamente las salas de entrevistas personales.
 
-### ¿Cuál es la mejor manera de practicar?
-Tests de cuatro opciones con corrección inmediata, como los del [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil), y un cuaderno donde apuntar lo que falles.',
-   NULL, NULL, 'publicado', '2027-01-25T06:20:00.000Z', 'acceso-guardia-civil',
-   ARRAY['inglés', 'vocabulario', 'phrasal verbs', 'examen']::text[], '{"title":"Phrasal verbs y vocabulario: inglés de la Guardia Civil","description":"Phrasal verbs, preposiciones y vocabulario cotidiano para el inglés de la Guardia Civil: tablas con ejemplos, pares que se confunden y test resuelto."}'::jsonb, '{}'::jsonb)
+### ¿Puedo llevar calculadora a la psicotécnica?
+No, salvo que el Tribunal lo determine. La base 5.3 prohíbe con carácter general las calculadoras y cualquier otra ayuda.
+
+### ¿Puedo cambiar de día si coincide con algo importante?
+Solo si la prueba se celebra en más de un día, por causas justificadas y pidiéndolo antes de su inicio; lo decide el Tribunal (base 6.2).
+
+### ¿Puedo llevar agua o comida?
+La convocatoria no lo regula. Lo decide el Tribunal o la organización de la sede, así que sigue sus indicaciones y no dependas de ello: come bien antes de entrar.',
+   '/blog/que-llevar-al-examen-de-la-guardia-civil-y-que-esta-prohibido.jpg', 'Aspirante guardando el móvil y el reloj en una bolsa transparente junto al DNI y un bolígrafo ante un aula de examen', 'publicado', '2027-01-24T06:03:00.000Z', 'acceso-guardia-civil',
+   ARRAY['examen', 'normas del examen', 'material permitido', 'convocatoria']::text[], '{"title":"Qué llevar al examen de la Guardia Civil y qué no","description":"Material permitido y prohibido en el examen de la Guardia Civil según la convocatoria de 2026: bolígrafo negro, DNI, móviles y relojes inteligentes."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

@@ -2,6 +2,201 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
+  ('competencias-entrevista-personal-guardia-civil', 'articulo', 'Las seis competencias de la entrevista personal de la Guardia Civil y cómo demostrarlas', 'La convocatoria enumera seis competencias que valora la entrevista personal. Qué significa cada una, cómo demostrarla con ejemplos propios, quién te entrevista, qué documentos llevar y cómo se revisa un «no apto provisional».', 'La entrevista personal es una de las tres pruebas de aptitud psicofísica, junto con las [pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento) y el reconocimiento médico. **Respuesta corta:** no puntúa; se califica como «apto» o «no apto provisional», y la convocatoria dice exactamente qué se valora: **seis competencias**. Saberlas te permite prepararte con criterio, a partir de tu propia experiencia y sin inventar un personaje.
+
+Todo lo que sigue sale de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)), bases 6.1.3.b y 8.2. Los ejemplos y casos prácticos son nuestros y sirven solo para entrenar.
+
+## Qué dice la convocatoria
+
+Según la base 6.1.3.b, la entrevista evalúa «la capacidad de los aspirantes para adecuarse a las exigencias derivadas del desempeño profesional». Permite comprobar que tienes, «en grado adecuado», las competencias necesarias para superar el periodo académico y desempeñar después los cometidos de la Escala de Cabos y Guardias.
+
+Tres rasgos de la prueba que conviene tener claros:
+
+- Es una **prueba independiente** del resto.
+- Consiste en la **recogida de información a través del diálogo y de los test** que consideren pertinentes los entrevistadores.
+- Sigue un **desarrollo semiestructurado**: hay un guion, pero la conversación se adapta a lo que respondes.
+
+Las competencias que se valoran son estas seis:
+
+| N.º | Competencia | En pocas palabras |
+|---|---|---|
+| I | Adecuación a normas y código de conducta | Aceptas y cumples las reglas |
+| II | Responsabilidad/madurez | Asumes tus actos y tus compromisos |
+| III | Espíritu de sacrificio y abnegación | Antepones el objetivo y a los demás a tu comodidad |
+| IV | Autocontrol | Mantienes la calma bajo presión |
+| V | Habilidades sociales y de comunicación | Te expresas con claridad y te relacionas bien |
+| VI | Adaptación | Te ajustas a cambios y entornos nuevos |
+
+La columna de la derecha es nuestra síntesis; los nombres de las competencias son los de la convocatoria. El Jefe de la Jefatura de Enseñanza fija previamente los criterios con los que se valora cada una, y esos criterios no se publican en la convocatoria.
+
+## Quién te entrevista y con qué información
+
+La entrevista la realiza un **órgano de apoyo asesor especialista**, dependiente del Presidente del Tribunal de Selección, compuesto por personal titulado en Psicología y por Oficiales o Suboficiales de la Guardia Civil. En cada entrevista **debe estar presente, al menos, un psicólogo**.
+
+Los entrevistadores no parten de cero. Cuentan con:
+
+1. **El cuestionario BIODATA**, que rellenas antes de la entrevista. No puntúa: es solo un elemento de apoyo. Lo explicamos en el artículo sobre el [cuestionario BIODATA](/blog/cuestionario-biodata-guardia-civil).
+2. **El informe de vida laboral** o, si eres militar, la **Hoja General de Servicios**, que debes aportar el día de la citación.
+3. **Los datos de la prueba psicotécnica**, que pueden usarse de forma instrumental para orientar la conversación. La convocatoria aclara que el resultado de la entrevista **no depende de modo exclusivo** de esa prueba. Si quieres entender esa parte, lee el artículo sobre el [test de personalidad](/blog/test-personalidad-guardia-civil).
+
+La consecuencia práctica es sencilla: **lo que digas tiene que cuadrar** con lo que escribiste en el BIODATA, con tu vida laboral y con tu perfil. No se trata de dar respuestas «correctas», sino coherentes y verdaderas.
+
+## Cómo demostrar cada competencia
+
+Declarar «soy responsable» no demuestra nada. Lo que funciona es **contar situaciones reales** y concretas. Para cada competencia te damos qué se busca, qué tipo de experiencia te sirve y una señal de alarma.
+
+### I. Adecuación a normas y código de conducta
+
+**Qué se busca:** que aceptas las reglas, incluso cuando no te gustan o nadie te vigila, y que entiendes por qué existen.
+
+**Experiencias útiles:** normas de seguridad en un trabajo, reglamentos deportivos, horarios que respetaste aunque te costaran, una situación en la que dijiste que no a algo irregular.
+
+**Señal de alarma:** presentar las normas como un estorbo o presumir de saltártelas «cuando no tienen sentido».
+
+### II. Responsabilidad y madurez
+
+**Qué se busca:** que asumes las consecuencias de tus actos, cumples tus compromisos y reconoces tus errores.
+
+**Experiencias útiles:** un error que cometiste, cómo lo afrontaste y qué cambiaste después; personas que dependían de ti (familia, compañeros, un equipo).
+
+**Señal de alarma:** culpar siempre a otros o afirmar que nunca te equivocas.
+
+### III. Espíritu de sacrificio y abnegación
+
+**Qué se busca:** disposición a renunciar a comodidades por un objetivo o por los demás.
+
+**Experiencias útiles:** la propia preparación de la oposición (horarios, renuncias), cuidado de familiares, voluntariado, temporadas de trabajo duro.
+
+**Señal de alarma:** dramatizar o convertir la respuesta en una lista de quejas.
+
+### IV. Autocontrol
+
+**Qué se busca:** que manejas la tensión, la frustración y la provocación sin perder la compostura.
+
+**Experiencias útiles:** atención al público, conflictos en el trabajo o en el deporte, momentos de presión en los que mantuviste la calma.
+
+**Señal de alarma:** relatos en los que «el otro se lo merecía». Si alguna vez perdiste el control, puedes contarlo, pero explica qué aprendiste.
+
+### V. Habilidades sociales y de comunicación
+
+**Qué se busca:** que te expresas con claridad, escuchas y te relacionas bien con compañeros, ciudadanos y mandos.
+
+**Experiencias útiles:** trabajo en equipo, explicar algo complejo a otra persona, resolver un malentendido.
+
+**Señal de alarma:** respuestas larguísimas que no contestan a la pregunta, o monosílabos. La propia entrevista es la prueba de esta competencia: escucha la pregunta entera y responde a lo que se te pregunta.
+
+### VI. Adaptación
+
+**Qué se busca:** capacidad de ajustarte a cambios, a entornos nuevos y a la vida fuera de tu zona habitual.
+
+**Experiencias útiles:** cambios de ciudad, de trabajo, de grupo o de estudios; convivir con personas distintas.
+
+**Señal de alarma:** decir que te da igual el destino sin haberlo pensado. La movilidad es una realidad de la profesión, y conviene que la hayas valorado de verdad. Puedes leer cómo funcionan [los destinos y especialidades](/blog/destinos-especialidades-guardia-civil).
+
+## El método para contar tus ejemplos
+
+Una forma ordenada de relatar una experiencia es la estructura **situación, acción y resultado**:
+
+1. **Situación:** qué pasó, dónde y cuál era tu papel.
+2. **Acción:** qué hiciste tú, en concreto (no «hicimos»).
+3. **Resultado:** cómo terminó y qué aprendiste.
+
+### Ejemplo resuelto (caso hipotético)
+
+Pregunta: «Cuéntame una situación en la que tuvieras que controlar tus nervios».
+
+- **Respuesta floja:** «Soy una persona muy tranquila, no me altero nunca».
+- **Respuesta sólida:** «Trabajaba de cajero en un supermercado. Un cliente empezó a gritarme porque una oferta no se aplicaba (situación). Le dejé terminar, le pedí el ticket, comprobé que la oferta era de otra marca y se lo enseñé; como seguía molesto, llamé a la encargada para que lo valorase ella (acción). Se marchó más calmado, y desde entonces reviso los carteles al empezar el turno para poder explicarlos (resultado)».
+
+La segunda respuesta muestra autocontrol, comunicación y responsabilidad a la vez, y se puede comprobar con preguntas de seguimiento.
+
+## Cómo preparar la entrevista paso a paso
+
+1. **Relee tu solicitud y tu BIODATA** si conservas copia: fechas, trabajos, estudios.
+2. **Haz una tabla de seis filas** (una por competencia) y busca dos experiencias para cada una. Una misma historia puede servir para varias.
+3. **Escribe cada historia en tres frases** (situación, acción, resultado). No la memorices palabra por palabra: memoriza los hechos.
+4. **Piensa en tu motivación**: por qué la Guardia Civil y no otro empleo, qué sabes de la profesión y de la formación en la [Academia de Baeza](/blog/academia-baeza-guardia-civil).
+5. **Prepara tus puntos débiles** con honestidad: qué te cuesta y qué haces para mejorarlo.
+6. **Ensaya en voz alta** con alguien que te haga preguntas de seguimiento («¿y qué hiciste tú?», «¿qué cambiarías?»).
+7. **Revisa la logística**: citación, documentación (vida laboral u Hoja General de Servicios) y normas de la sala.
+
+Sobre las normas: la base 5.3 prohíbe entrar en las salas de entrevistas con **teléfonos móviles, relojes o gafas inteligentes** o cualquier dispositivo que permita grabar, reproducir, transmitir o recibir datos, imágenes o sonidos. Incumplirlo supone la exclusión. Y la base 6.2 establece el **llamamiento único**: si no te presentas cuando se inicia tu turno, quedas excluido, salvo las excepciones que prevé el Reglamento.
+
+## Cómo se califica y qué es el «no apto provisional»
+
+Los miembros del órgano de apoyo emiten una **propuesta motivada e individualizada** y el Tribunal de Selección califica la entrevista como **«apto»** o **«no apto provisional»** (base 8.2.1). Las calificaciones se exponen en el lugar de la entrevista y en la web de la Guardia Civil.
+
+El «no apto provisional» no es definitivo:
+
+- **Puedes solicitar la revisión**, dirigida al Presidente del Tribunal de Selección, en el plazo que fije la resolución que publique la calificación (base 8.2.2).
+- La revisión la hacen **Juntas de Revisión formadas por titulados en Psicología**, que estudian la documentación de la entrevista, **oyen al interesado** y emiten una propuesta motivada para la calificación definitiva (base 8.2.3).
+- Si **no pides la revisión** en plazo, o si **se confirma** tras revisarla, pasas a «no apto» definitivo y quedas excluido (base 8.2.4).
+
+La convocatoria no fija ese plazo en días: lo marca cada resolución. Por eso, si recibes un «no apto provisional», lo primero es **leer la resolución y no dejar pasar el plazo**.
+
+## Errores frecuentes
+
+| Error | Por qué perjudica | Qué hacer |
+|---|---|---|
+| Respuestas memorizadas | Suenan falsas y se desmontan con una repregunta | Memoriza hechos, no frases |
+| Ejemplos genéricos | No demuestran nada | Situación concreta, con tu papel |
+| Contradecir el BIODATA | Resta credibilidad | Repasa lo que declaraste |
+| Hablar mal de otros | Sugiere conflicto o falta de autocontrol | Describe hechos sin juicios |
+| No haber pensado la motivación | Parece una decisión improvisada | Prepárala con datos reales de la profesión |
+| Fingir un perfil «ideal» | Choca con el psicotécnico y con tu historia | Sé tú, con tus límites y lo que haces con ellos |
+
+## Checklist antes de la entrevista
+
+- [ ] Sé nombrar las seis competencias sin mirar.
+- [ ] Tengo al menos dos experiencias reales por competencia.
+- [ ] Sé contar cada una en el formato situación, acción y resultado.
+- [ ] Mis respuestas coinciden con mi BIODATA y mi vida laboral.
+- [ ] Tengo pensada mi motivación y mi postura sobre la movilidad.
+- [ ] Llevo la vida laboral (o la Hoja General de Servicios).
+- [ ] No llevo móvil, reloj inteligente ni ningún dispositivo a la sala.
+
+Si estás preparando todas las fases, en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes el proceso completo ordenado.
+
+## Preguntas frecuentes
+
+### ¿Cuántas competencias valora la entrevista de la Guardia Civil?
+
+Seis: adecuación a normas y código de conducta; responsabilidad/madurez; espíritu de sacrificio y abnegación; autocontrol; habilidades sociales y de comunicación, y adaptación (base 6.1.3.b).
+
+### ¿Quién hace la entrevista?
+
+Un órgano de apoyo asesor con titulados en Psicología y Oficiales o Suboficiales de la Guardia Civil. En cada entrevista está presente, al menos, un psicólogo.
+
+### ¿Puntúa la entrevista?
+
+No suma puntos a tu nota final. Se califica como «apto» o «no apto provisional», y el «no apto» definitivo excluye del proceso.
+
+### ¿Qué pasa si me dan «no apto provisional»?
+
+Puedes pedir la revisión en el plazo que indique la resolución. La estudia una Junta de Revisión de psicólogos, que te oye. Si no la pides o se confirma, quedas excluido.
+
+### ¿Influye el test de personalidad en la entrevista?
+
+Sus datos pueden usarse de forma instrumental para orientar la conversación, pero la convocatoria dice que el resultado de la entrevista no depende de forma exclusiva de esa prueba.
+
+### ¿Qué documentación tengo que llevar?
+
+El informe de vida laboral o, si eres militar, la Hoja General de Servicios, además de lo que indique la citación. El BIODATA se rellena antes de la entrevista.
+
+### ¿Puedo entrar con el móvil apagado?
+
+La base 5.3 prohíbe entrar en las salas de entrevistas con teléfonos móviles y otros dispositivos de grabación o transmisión, sin distinguir si están apagados. Déjalo fuera.',
+   '/blog/competencias-entrevista-personal-guardia-civil.jpg', 'Aspirante ante una psicóloga y un oficial de la Guardia Civil en la entrevista personal', 'publicado', '2026-12-03T06:19:00.000Z', 'acceso-guardia-civil',
+   ARRAY['entrevista', 'competencias', 'no apto provisional', 'revisión']::text[], '{"title":"Entrevista Guardia Civil: las 6 competencias que valoran","description":"Las seis competencias de la entrevista personal de la Guardia Civil: cómo demostrarlas, quién entrevista, qué llevar y cómo se revisa el no apto."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
   ('corona-cortes-generales-guardia-civil', 'articulo', 'La Corona y las Cortes Generales en el examen: los datos que hay que saberse', 'Los Títulos II y III de la Constitución están llenos de cifras, plazos y atribuciones fáciles de confundir. Funciones del Rey, sucesión, regencia y refrendo; composición del Congreso y del Senado (con la reforma de 2026), estatuto de los parlamentarios y elaboración de las leyes.', 'El Título II (De la Corona, artículos 56 a 65) y el Título III (De las Cortes Generales, artículos 66 a 96) son terreno de **cifras y atribuciones**: cuántos diputados, cuántos senadores, quién refrenda qué, qué mayoría hace falta. **Respuesta corta:** el Rey es el Jefe del Estado, inviolable y sin responsabilidad, y sus actos los refrenda el Gobierno (o el Presidente del Congreso en tres casos); las Cortes son el Congreso (300 a 400 diputados) y el Senado (cuatro senadores por provincia más los designados por las Comunidades Autónomas), elegidos por cuatro años.
 
 Todo lo que sigue sale del texto consolidado de la Constitución ([BOE-A-1978-31229](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229)), que incluye la **reforma del artículo 69.3 de mayo de 2026**. Si vienes del tema anterior, repasa antes [los derechos fundamentales](/blog/derechos-fundamentales-libertades-publicas-guardia-civil).
@@ -200,6 +395,165 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
+  ('cuestionario-biodata-guardia-civil', 'articulo', 'Cuestionario BIODATA de la Guardia Civil: qué es y cómo rellenarlo', 'Antes de la entrevista personal se rellena un cuestionario biográfico que no puntúa, pero sirve de apoyo al entrevistador. Qué dice la convocatoria, qué documentos hay que llevar, cómo preparar tu cronología y cómo contestar sin contradecirte.', 'Quien llega a la entrevista personal se encuentra antes con un cuestionario sobre su propia vida: estudios, trabajos, entorno, aficiones. Es el **BIODATA**. La respuesta corta: **no puntúa**, pero sirve de **apoyo para la entrevista**, y el mismo día de la citación tienes que aportar tu **informe de vida laboral** (y, si eres militar, la **Hoja General de Servicios**). Rellenarlo con exactitud y coherencia es fácil si has preparado antes tu propia cronología.
+
+## Qué dice la convocatoria
+
+La convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 6.1.3.b) lo recoge así: antes de la entrevista «se cumplimentará un cuestionario de información biográfica (BIODATA) el cual no tendrá carácter puntuable, sirviendo, únicamente, como elemento de apoyo para la realización de la misma, del mismo modo que el informe de vida laboral y/o, en el caso del personal militar, la Hoja General de Servicios, que se deberán aportar en la fecha de citación para la ejecución de la entrevista».
+
+Traducido:
+
+| Qué dice | Qué significa |
+|---|---|
+| «No tendrá carácter puntuable» | No suma ni resta puntos |
+| «Elemento de apoyo» para la entrevista | El entrevistador lo usa como punto de partida para preguntar |
+| Informe de vida laboral y, si eres militar, Hoja General de Servicios | Documentos que debes llevar el día de la citación |
+
+La convocatoria no detalla el contenido del cuestionario ni su extensión, así que nadie puede asegurarte qué preguntas trae exactamente.
+
+## Cómo es la entrevista a la que acompaña
+
+Conviene saber dónde encaja el BIODATA. Según la misma base 6.1.3.b:
+
+- La entrevista evalúa seis competencias: **adecuación a normas y código de conducta; responsabilidad y madurez; espíritu de sacrificio y abnegación; autocontrol; habilidades sociales y de comunicación; y adaptación**.
+- Sigue un **desarrollo semiestructurado**: diálogo y los test que consideren pertinentes los entrevistadores.
+- La realiza un órgano de apoyo formado por personal titulado en Psicología y por oficiales o suboficiales de la Guardia Civil, y en cada entrevista debe estar presente **al menos un psicólogo**.
+- Los datos del psicotécnico pueden usarse de forma instrumental, sin que el resultado dependa exclusivamente de ellos.
+- Se califica como **«apto» o «no apto provisional»**; el «no apto provisional» puede revisarse a petición del interesado ante Juntas de Revisión compuestas por titulados en Psicología (base 8.2).
+
+El BIODATA, tu vida laboral, tu perfil del [test de personalidad](/blog/test-personalidad-guardia-civil) y lo que digas en la entrevista son piezas de un mismo puzle. Tienes la visión general de esta fase en [entrevista y reconocimiento médico](/blog/entrevista-reconocimiento-medico-guardia-civil).
+
+## Documentos que tienes que aportar
+
+### Informe de vida laboral
+
+Lo emite la Seguridad Social y puede solicitarse por sus canales electrónicos o presenciales. Recoge tus altas y bajas como trabajador, con empresas y fechas.
+
+- **Pídelo con antelación**, pero no tanta como para que quede desfasado: lo razonable es tenerlo reciente cuando te citen.
+- **Revísalo**: comprueba que las fechas y empresas coinciden con lo que recuerdas y con lo que vas a escribir.
+- Si **no has trabajado nunca**, el informe lo reflejará; llévalo igualmente, porque la convocatoria lo pide.
+
+### Hoja General de Servicios (solo personal militar)
+
+Si te presentas siendo militar, solicítala en tu unidad con tiempo suficiente: no dependes solo de ti para obtenerla.
+
+### Y siempre
+
+- **El DNI**: puedes tener que acreditar tu identidad en cualquier momento (base 6.5).
+- **Copias** de los documentos, por si acaso.
+- **Nada de dispositivos**: la base 5.3 prohíbe entrar en las salas de entrevistas con móviles, relojes o gafas inteligentes o cualquier aparato de grabación o transmisión.
+
+## Qué suele preguntar un cuestionario biográfico
+
+Como la convocatoria no lo detalla, solo podemos hablar de lo habitual en este tipo de cuestionarios:
+
+- **Formación**: estudios, centros, resultados, cambios y abandonos.
+- **Trayectoria laboral**: empleos, funciones, duración y motivos de cada cambio.
+- **Entorno personal y familiar.**
+- **Intereses, aficiones y deporte.**
+- **Experiencias relevantes**: situaciones difíciles y cómo las afrontaste.
+- **Motivación** para ingresar en la Guardia Civil.
+
+## Prepara tu cronología antes de la citación
+
+Es el paso que más tranquilidad da. Con tu vida laboral y tus títulos delante, construye una tabla así:
+
+| Periodo | Qué hacía | Por qué empecé | Por qué lo dejé o cambié | Qué aprendí |
+|---|---|---|---|---|
+| (fechas) | Estudios, trabajo, preparación, búsqueda de empleo… | | | |
+
+**Ejemplo (hipotético).** Lucía estudió un ciclo formativo, trabajó dos años en hostelería, estuvo seis meses sin empleo y desde entonces combina un trabajo a media jornada con la oposición. En su tabla anota los seis meses sin empleo como lo que fueron: búsqueda de trabajo y comienzo de la preparación. En la entrevista, cuando le preguntan por ese periodo, lo explica en dos frases y sin incomodidad. Un hueco no es un problema; un hueco que no sabes explicar, o que explicas de forma distinta en el cuestionario y en la entrevista, sí lo puede ser.
+
+## Cómo rellenarlo: cuatro reglas
+
+### 1. Sé veraz y exacto
+
+El entrevistador tiene tu vida laboral delante. Si escribes fechas o empresas que no coinciden, se nota. Además, la veracidad importa en todo el proceso: la convocatoria prevé la exclusión de quien no reúna o pierda los requisitos (base 2.2) y recuerda la responsabilidad en que se puede incurrir por falsedad en la solicitud o en la consignación de méritos (base 3.2.1).
+
+### 2. Sé coherente
+
+El cuestionario, la solicitud, la vida laboral, el test de personalidad y lo que digas en la entrevista **tienen que contar la misma historia**. Repasa fechas y motivos antes de escribir.
+
+### 3. Sé concreto
+
+Respuestas como «me gusta ayudar a la gente» o «soy responsable» no dicen nada por sí solas. Mejor un dato o un ejemplo: «durante dos años entrené a un equipo infantil los fines de semana».
+
+### 4. Todo lo que escribas es material de preguntas
+
+Si mencionas una afición, una experiencia o un logro, **prepárate para hablar de ello con detalle**. No incluyas nada que no puedas desarrollar con naturalidad.
+
+## Cómo usa el entrevistador el BIODATA
+
+Sirve para **orientar preguntas**. Si detecta un hueco en tu vida laboral, un cambio brusco de estudios o una afición llamativa, es probable que pregunte por ello. No es una trampa: es la base de una conversación semiestructurada. Por eso conviene tener claro:
+
+- Por qué elegiste tus estudios y tus trabajos.
+- Qué aprendiste en cada etapa.
+- Por qué quieres ser guardia civil y por qué ahora.
+
+## Practica en voz alta
+
+Escribir la cronología es la mitad del trabajo; la otra mitad es saber contarla. Pide a alguien de confianza que, con tu tabla delante, te haga preguntas como lo haría un entrevistador: «¿por qué dejaste ese trabajo?», «¿qué hiciste esos meses?», «¿qué te aportó ese ciclo formativo?». Contesta en uno o dos minutos por pregunta, sin leer. Si en algún punto titubeas o tu respuesta cambia cada vez, ahí tienes lo que debes aclarar antes de la citación. No se trata de memorizar un discurso, sino de que tu propia historia te resulte fácil de explicar.
+
+## Errores frecuentes
+
+- **Dejar espacios en blanco** o contestar con vaguedades.
+- **Adornar la trayectoria.** Es contraproducente y arriesgado.
+- **Fechas que no cuadran** con la vida laboral.
+- **Contradecir lo que dijiste en la solicitud** o lo que se desprende del test de personalidad.
+- **Olvidar los documentos** el día de la citación.
+- **Llegar sin haber repasado tu propia historia.**
+
+## Checklist
+
+- [ ] Tengo el informe de vida laboral reciente y lo he revisado.
+- [ ] Si soy militar, he pedido la Hoja General de Servicios con tiempo.
+- [ ] He preparado mi cronología: periodos, motivos y aprendizajes.
+- [ ] Sé explicar en una o dos frases cualquier hueco o cambio.
+- [ ] Puedo hablar con detalle de todo lo que voy a escribir.
+- [ ] Llevo DNI y copias, y ningún dispositivo electrónico.
+
+Si estás al principio del camino y quieres preparar el examen y todas las fases con un plan, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil). Y para repasar qué se exige en cada fase, [la convocatoria de 2026 explicada](/blog/convocatoria-guardia-civil-2026-plazas-calendario).
+
+## Preguntas frecuentes
+
+### ¿Puntúa el cuestionario BIODATA?
+
+No. La convocatoria dice que no tiene carácter puntuable y que sirve solo como apoyo para la entrevista.
+
+### ¿Qué documentos hay que llevar a la entrevista?
+
+El informe de vida laboral y, en el caso del personal militar, la Hoja General de Servicios, que deben aportarse en la fecha de citación para la entrevista. Y, como en todas las pruebas, el DNI.
+
+### ¿Qué pasa si no he trabajado nunca?
+
+Nada en especial. Aporta igualmente el informe de vida laboral y explica con naturalidad a qué te has dedicado: estudios, preparación de la oposición, voluntariado, deporte.
+
+### ¿Qué pasa si hay un hueco en mi vida laboral?
+
+No es un problema en sí. Prepara una explicación sincera y breve, y asegúrate de que coincide con lo que escribas en el cuestionario.
+
+### ¿Cuándo se rellena?
+
+Con anterioridad a la entrevista personal, según indica la convocatoria.
+
+### ¿Quién lee el cuestionario?
+
+Lo utilizan los entrevistadores del órgano de apoyo, en el que hay personal titulado en Psicología y oficiales o suboficiales de la Guardia Civil.
+
+### ¿Puedo suspender la entrevista por lo que ponga en el BIODATA?
+
+El BIODATA no se califica. Lo que se califica es la entrevista, como «apto» o «no apto provisional», según las competencias que demuestres. Un cuestionario incoherente o inexacto, eso sí, puede dar lugar a preguntas difíciles.',
+   '/blog/cuestionario-biodata-guardia-civil.jpg', 'Aspirante esperando con una carpeta en el pasillo de un edificio oficial', 'publicado', '2026-12-02T06:02:00.000Z', 'acceso-guardia-civil',
+   ARRAY['entrevista', 'BIODATA', 'vida laboral', 'documentación']::text[], '{"title":"Cuestionario BIODATA Guardia Civil: qué es y cómo rellenarlo","description":"BIODATA de la Guardia Civil: qué es el cuestionario biográfico previo a la entrevista, qué documentos llevar y cómo rellenarlo con coherencia y sin errores."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
   ('derechos-fundamentales-libertades-publicas-guardia-civil', 'articulo', 'Derechos fundamentales y libertades públicas: lo que tienes que dominar para el examen', 'El Título I de la Constitución es de los que más se estudian y más se confunden. Cómo está organizado, qué recoge cada artículo del 14 al 38, qué garantías tiene cada grupo de derechos y cuáles se pueden suspender, con casos prácticos.', 'El Título I de la Constitución, «De los derechos y deberes fundamentales» (artículos 10 a 55), es uno de los bloques que más conviene tener ordenado. **Respuesta corta:** los derechos fundamentales y las libertades públicas en sentido estricto son los de la **Sección 1.ª del Capítulo segundo (artículos 15 a 29)**, que junto con el **artículo 14** y la **objeción de conciencia** del artículo 30 tienen la máxima protección: procedimiento preferente y sumario ante los tribunales ordinarios y **recurso de amparo** ante el Tribunal Constitucional.
 
 La dificultad está en que no todos los derechos tienen las mismas garantías, y ahí se pierden muchos aspirantes. Todo lo que sigue sale del texto consolidado de la Constitución ([BOE-A-1978-31229](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229)). Para ponerte a prueba después, tienes un [test de 20 preguntas](/blog/test-constitucion-20-preguntas-guardia-civil), y el enfoque general del tema en [la Constitución en la oposición](/blog/constitucion-oposicion-guardia-civil). Recuerda que la Constitución entra en la [prueba de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura), de 100 preguntas con penalización.
@@ -380,432 +734,6 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('gramatica-leismo-laismo-dequeismo-guardia-civil', 'articulo', 'Gramática en la Guardia Civil: laísmo, leísmo, dequeísmo y otros errores del examen', 'La prueba de gramática pide señalar las frases incorrectas desde el punto de vista morfológico o sintáctico. Leísmo, laísmo, loísmo, dequeísmo, queísmo, «habían» impersonal y otros errores, con trucos para detectarlos y un ejercicio resuelto.', 'La prueba de gramática consiste en **veinte frases o expresiones** de las que hay que señalar las que **no son correctas desde el punto de vista morfológico y/o sintáctico**, más cuatro de reserva que solo se valoran si el Tribunal anula alguna (base 6.1.1.b de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)). Es apto o no apto: con **seis respuestas erróneas o más** quedas excluido (base 7.5). Y, como en ortografía, es error tanto dejar sin marcar una frase incorrecta como **marcar una que está bien**.
-
-**Respuesta corta:** la mayoría de los errores típicos se agrupan en unas pocas familias: los pronombres *le/la/lo*, la preposición *de* delante de *que*, el verbo *haber* impersonal, la concordancia y los verbos irregulares. Y casi todos se detectan con un truco de sustitución.
-
-Las reglas siguen la *Nueva gramática* y el *Diccionario panhispánico de dudas* (RAE y ASALE). Los ejemplos y el ejercicio son nuestros. Tienes el marco general de la prueba en [ortografía y gramática en el examen](/blog/ortografia-gramatica-examen-guardia-civil).
-
-## Leísmo, laísmo y loísmo
-
-El problema es elegir entre *le*, *la* y *lo* para sustituir a un complemento de tercera persona.
-
-- **Lo, la, los, las** sustituyen al **complemento directo** (lo que recibe directamente la acción): «Compré **el libro**» → «**Lo** compré».
-- **Le, les** sustituyen al **complemento indirecto** (a quién o para quién): «Di un regalo **a María**» → «**Le** di un regalo».
-
-**Truco para encontrar el complemento directo:** pasa la frase a pasiva. «Vi a María» → «María fue vista»: *María* es complemento directo, así que «**la** vi». «Dije a María la verdad» → «La verdad fue dicha (a María)»: el directo es *la verdad*, y María es indirecto: «**le** dije la verdad».
-
-### Laísmo: «la» en lugar de «le»
-
-- ❌ «**La** dije que viniera». ✅ «**Le** dije que viniera».
-- ❌ «**La** di un abrazo». ✅ «**Le** di un abrazo».
-
-**Truco:** cambia a la mujer por un hombre. «Le dije a Juan que viniera» → con María también es «le».
-
-### Loísmo: «lo» en lugar de «le»
-
-- ❌ «**Lo** di un regalo». ✅ «**Le** di un regalo».
-- ❌ «**Los** dije la verdad». ✅ «**Les** dije la verdad».
-
-### Leísmo: «le» en lugar de «lo» o «la»
-
-- ❌ «El coche, **le** vi aparcado». ✅ «El coche, **lo** vi aparcado».
-- ❌ «A María **le** vi en la calle». ✅ «A María **la** vi en la calle».
-
-**El caso admitido:** la norma acepta *le* como complemento directo cuando se refiere a **una persona de sexo masculino en singular**: «A Juan **le** vi ayer» es correcto, aunque también lo es «A Juan **lo** vi ayer». En plural, *les* por *los* («A tus hermanos **les** vi») no se recomienda. Con cosas, animales o mujeres, el leísmo es incorrecto.
-
-**Consecuencia para el examen:** antes de marcar una frase con *le*, mira a qué se refiere. Si es un hombre en singular, la frase puede ser correcta.
-
-## Dequeísmo y queísmo
-
-Los dos tienen que ver con la preposición *de* delante de la conjunción *que*.
-
-### Dequeísmo: poner «de» donde no va
-
-- ❌ «Pienso **de que** vendrá». ✅ «Pienso **que** vendrá».
-- ❌ «Me dijo **de que** llegaría tarde». ✅ «Me dijo **que** llegaría tarde».
-- ❌ «Es seguro **de que** aprobará». ✅ «Es seguro **que** aprobará».
-
-### Queísmo: quitar «de» donde sí va
-
-- ❌ «Me alegro **que** vengas». ✅ «Me alegro **de que** vengas».
-- ❌ «Me acuerdo **que** lo dijo». ✅ «Me acuerdo **de que** lo dijo».
-- ❌ «Estoy seguro **que** aprobará». ✅ «Estoy seguro **de que** aprobará».
-- ❌ «Me di cuenta **que** era tarde». ✅ «Me di cuenta **de que** era tarde».
-- ❌ «**A pesar que** llovía, salió». ✅ «**A pesar de que** llovía, salió».
-
-Atención a *recordar* y *acordarse*: «**Recuerdo que** lo dijo» es correcto, sin *de*; «**Me acuerdo de que** lo dijo», con *de*.
-
-### Dos trucos
-
-1. **Convierte la frase en pregunta.** Si la pregunta necesita *de*, la frase también: «¿**De** qué te alegras?» → «me alegro **de** que…». «¿Qué piensas?» → «pienso que…».
-2. **Sustituye «que + oración» por «eso».** «Pienso **eso**» (sin *de*) frente a «Me alegro **de eso**» (con *de*).
-
-### Verbos que admiten las dos construcciones
-
-Con **advertir, avisar, cuidar, dudar e informar** son válidas ambas formas: «Te avisé **de que** llegaría tarde» y «Te avisé **que** llegaría tarde». No las marques como error.
-
-## El verbo «haber» impersonal
-
-Cuando *haber* indica existencia, es impersonal: no tiene sujeto y **va siempre en singular**, aunque el sustantivo que lo acompañe esté en plural.
-
-- ❌ «**Habían** muchas personas». ✅ «**Había** muchas personas».
-- ❌ «**Hubieron** problemas». ✅ «**Hubo** problemas».
-- ❌ «**Habrán** cambios». ✅ «**Habrá** cambios».
-- ❌ «**Pueden haber** errores». ✅ «**Puede haber** errores».
-
-Ojo: *hubieron* sí es correcto como auxiliar de un tiempo compuesto con sujeto plural: «Cuando **hubieron llegado** todos, empezó el examen».
-
-Lo mismo ocurre con *hacer* referido al tiempo: ❌ «**Hacen** dos años». ✅ «**Hace** dos años».
-
-## Concordancia
-
-- **Sustantivos femeninos con *a-* tónica:** llevan *el* o *un* delante, pero siguen siendo femeninos. ❌ «El agua está **fresco**». ✅ «El agua está **fresca**». ❌ «**Este** agua». ✅ «**Esta** agua». ❌ «**Mucho** hambre». ✅ «**Mucha** hambre».
-- **Colectivos con complemento en plural:** «La mayoría de los aspirantes **aprobó**» y «La mayoría de los aspirantes **aprobaron**» son las dos correctas. No marques ninguna.
-
-## Adverbios con posesivos
-
-Los adverbios no se combinan con posesivos; se construyen con *de* + pronombre:
-
-- ❌ «**Detrás mía**», «**delante mío**», «**encima suyo**», «**cerca nuestro**».
-- ✅ «**Detrás de mí**», «**delante de mí**», «**encima de él**», «**cerca de nosotros**».
-
-## El relativo «cuyo»
-
-Cuando hay posesión, se usa *cuyo*, no «que su»:
-
-- ❌ «Es el compañero **que su** padre es guardia civil».
-- ✅ «Es el compañero **cuyo** padre es guardia civil».
-
-## «Deber» y «deber de»
-
-- **Deber + infinitivo** expresa obligación: «**Debes estudiar** más».
-- **Deber de + infinitivo** expresa probabilidad: «**Debe de estar** en casa». Con este sentido, la norma también admite *deber* sin *de*: «Debe estar en casa».
-- Lo que se desaconseja es usar *deber de* con sentido de obligación: «Debes de estudiar más» (si quieres decir que tiene la obligación).
-
-## Verbos: formas incorrectas habituales
-
-| ❌ Incorrecto | ✅ Correcto | Verbo |
-|---|---|---|
-| andé, andaste | anduve, anduviste | andar |
-| cabo | quepo | caber |
-| satisfació | satisfizo | satisfacer |
-| conducí, produció | conduje, produjo | conducir, producir |
-| preveyó | previó | prever |
-| haiga | haya | haber |
-| dijistes, vinistes | dijiste, viniste | 2.ª persona del pretérito |
-| ¡Sentaros! ¡Callaros! | ¡Sentaos! ¡Callaos! | imperativo de *vosotros* |
-
-Sobre el imperativo: el plural de *vosotros* se forma con **-d** («sentad», «callad»), y la *d* se pierde ante el pronombre *os* («sentaos», «callaos»). Usar el infinitivo como imperativo (*sentaros*) es incorrecto en la norma culta.
-
-**No los marques como error:** algunos verbos tienen dos participios válidos: *freído* y *frito*, *imprimido* e *impreso*, *proveído* y *provisto*. «He freído un huevo» y «He frito un huevo» son correctas.
-
-## Comparativos
-
-*Mejor*, *peor*, *superior* o *inferior* ya son comparativos: ❌ «**más mejor**», «**más peor**», «**más superior**». ✅ «**mejor**», «**peor**», «**superior**».
-
-## Ejercicio resuelto (propio)
-
-Señala qué frases son incorrectas.
-
-1. «La dije a mi hermana que viniera».
-2. «A Juan le vi ayer en la academia».
-3. «Pienso de que el examen será difícil».
-4. «Me alegro de que hayas aprobado».
-5. «Habían muchos aspirantes en la puerta».
-6. «Puede haber cambios en la convocatoria».
-7. «El agua estaba fría y el hacha, afilada».
-8. «Se sentó detrás mía sin decir nada».
-9. «Te avisé de que llegaría tarde».
-10. «Es el compañero que su padre es guardia civil».
-11. «Debe de haber llegado ya, porque su coche está aparcado».
-12. «¡Sentaros y abrid el cuadernillo!».
-
-**Soluciones:**
-
-1. **Incorrecta** (laísmo): «**Le** dije a mi hermana…».
-2. **Correcta**: leísmo admitido (persona, masculino, singular).
-3. **Incorrecta** (dequeísmo): «Pienso que…».
-4. **Correcta**: *alegrarse de algo*.
-5. **Incorrecta**: *haber* impersonal en plural. «**Había** muchos aspirantes».
-6. **Correcta**: «puede haber», en singular.
-7. **Correcta**: *agua* y *hacha* son femeninos; los adjetivos concuerdan.
-8. **Incorrecta**: «detrás **de mí**».
-9. **Correcta**: *avisar* admite *de que* y *que*.
-10. **Incorrecta**: «cuyo padre».
-11. **Correcta**: *deber de* con sentido de probabilidad.
-12. **Incorrecta**: «¡**Sentaos** y abrid…!».
-
-Seis incorrectas de doce. Fíjate en las frases 2, 9 y 11: son correctas aunque a mucha gente le «suenen» mal. Marcarlas sería sumar errores.
-
-## Errores frecuentes al hacer la prueba
-
-- **Fiarse del oído:** muchos errores (*habían*, *detrás mía*, *la dije*) se oyen a diario y suenan normales.
-- **Marcar todo lo que suena raro:** el leísmo admitido, *deber de* con probabilidad o *avisar que* son correctos.
-- **No leer la frase entera:** a veces el error está al final.
-- **No identificar a quién se refiere el pronombre** antes de decidir.
-
-## Checklist de repaso
-
-- [ ] Identifico el complemento directo con la prueba de la pasiva.
-- [ ] Sé cuándo el leísmo está admitido.
-- [ ] Aplico los trucos de la pregunta y de *eso* para *de que*.
-- [ ] Recuerdo los verbos que admiten las dos construcciones.
-- [ ] Pongo *haber* y *hacer* impersonales en singular.
-- [ ] Conjugo bien *andar, caber, satisfacer, conducir, prever* y el imperativo de *vosotros*.
-- [ ] Uso *cuyo* y evito adverbio + posesivo.
-
-## Cómo practicar
-
-1. **Lee la frase entera**, localiza el verbo y su sujeto, y después los pronombres.
-2. **Aplica los trucos de sustitución** (pasiva, *eso*, pregunta, cambiar mujer por hombre).
-3. **Haz tests de veinte frases** cronometrados y revisa por qué cada error es error.
-4. **Repasa también la ortografía:** [las tildes](/blog/tildes-reglas-oposicion-guardia-civil), [las palabras trampa](/blog/palabras-trampa-ortografia-guardia-civil) y [los homófonos](/blog/homofonos-ortografia-guardia-civil).
-
-En el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes ejercicios de gramática con el formato real y la explicación de cada frase.
-
-## Preguntas frecuentes
-
-### ¿Cuántas frases tiene la prueba de gramática?
-
-Veinte, más cuatro de reserva que solo se valoran si el Tribunal anula alguna de las anteriores.
-
-### ¿Cuántos errores excluyen?
-
-Seis o más respuestas erróneas. Cuenta como error tanto no marcar una frase incorrecta como marcar una correcta.
-
-### ¿Es correcto «le vi» hablando de una persona?
-
-Si es un hombre y en singular, sí: es el leísmo admitido por la norma. Con mujeres, cosas o animales, lo correcto es *la* o *lo*.
-
-### ¿Qué es el dequeísmo?
-
-Usar *de que* donde la construcción no lleva *de*: «pienso de que…» en lugar de «pienso que…».
-
-### ¿Y el queísmo?
-
-Lo contrario: suprimir la *de* que exige la construcción. «Me alegro que vengas» en lugar de «me alegro de que vengas».
-
-### ¿«Hubieron» es siempre incorrecto?
-
-No. Es incorrecto como impersonal («hubieron problemas»), pero correcto como auxiliar con sujeto plural («cuando hubieron llegado todos»).
-
-### ¿«Debe de» es incorrecto?
-
-No, si expresa probabilidad: «Debe de estar en casa». Lo que se desaconseja es usarlo con sentido de obligación.',
-   '/blog/gramatica-leismo-laismo-dequeismo-guardia-civil.jpg', 'Opositora tomando apuntes en un aula con un análisis sintáctico en la pizarra', 'publicado', '2026-12-05T06:53:00.000Z', 'acceso-guardia-civil',
-   ARRAY['gramática', 'laísmo', 'leísmo', 'dequeísmo']::text[], '{"title":"Laísmo, leísmo y dequeísmo: gramática Guardia Civil","description":"Gramática para la oposición a Guardia Civil: leísmo, laísmo, loísmo, dequeísmo, queísmo, haber impersonal y otros errores, con trucos y ejercicio resuelto."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('homofonos-ortografia-guardia-civil', 'articulo', 'Haber o a ver, echo o hecho: los homófonos que te pueden excluir', 'Los homófonos suenan igual y se escriben distinto, y en la prueba de ortografía una palabra correcta en el sitio equivocado es falta. Las parejas que más se confunden, un truco de sustitución para cada una y un ejercicio resuelto.', 'En la prueba de ortografía, una palabra bien escrita pero **en el lugar equivocado** es una falta. Escribir *echo* donde va *hecho* o *sino* donde va *si no* cuenta igual que una tilde olvidada. **Respuesta corta:** casi todos los homófonos se resuelven con un truco de sustitución: cambia la palabra por otra que signifique lo mismo y comprueba si la frase sigue funcionando.
-
-Recuerda las reglas de la prueba (base 6.1.1.a de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)): cinco frases con cuatro palabras o expresiones subrayadas; error es tanto dejar pasar una falta como marcar una palabra correcta, y con **seis errores o más** quedas excluido. Si aún no los has visto, repasa [las tildes](/blog/tildes-reglas-oposicion-guardia-civil) y [las palabras trampa con B/V, G/J y H](/blog/palabras-trampa-ortografia-guardia-civil).
-
-Las reglas siguen la *Ortografía* y el *Diccionario panhispánico de dudas* de la RAE y la ASALE. Los ejemplos y el ejercicio son nuestros.
-
-## Haber / a ver
-
-- **Haber** es un verbo («debe **haber** algún error», «va a **haber** tormenta») o un sustantivo («tiene tres medallas en su **haber**»).
-- **A ver** es la preposición *a* más el verbo *ver* («vamos **a ver** la película», «**a ver** qué pasa»).
-
-**Truco:** si puedes sustituirlo por *mirar* o *comprobar*, es **a ver**: «a ver (comprobemos) si llega». Si puedes cambiarlo por *existir* o es parte de un tiempo compuesto, es **haber**: «va a haber (existir) problemas».
-
-## Echo / hecho (y desecho / deshecho)
-
-- **Echo** es del verbo *echar*: «lo **echo** de menos», «**echo** sal a la sopa».
-- **Hecho** es participio de *hacer* o sustantivo: «lo he **hecho**», «un **hecho** probado», «de **hecho**».
-
-**Truco:** si puedes cambiarlo por *tiro* o *pongo*, es **echo**; si encaja *realizado* o *suceso*, es **hecho**.
-
-La misma lógica vale para **desecho** (residuo, de *desechar*: «desechos tóxicos») y **deshecho** (de *deshacer*: «la cama está deshecha»).
-
-## Hay / ahí / ay
-
-- **Hay**: verbo *haber*. «**Hay** un problema».
-- **Ahí**: adverbio de lugar. «Déjalo **ahí**».
-- **Ay**: interjección de dolor o pena. «¡**Ay**, qué daño!».
-
-**Truco:** si puedes poner *allí*, es **ahí**; si puedes poner *existe*, es **hay**.
-
-## Ha / a / ah
-
-- **Ha**: verbo *haber*. «**Ha** venido».
-- **A**: preposición. «Voy **a** casa».
-- **Ah**: interjección. «¡**Ah**, ya lo entiendo!».
-
-**Truco:** si puedes pasarlo a plural (*han*), es **ha**: «ha venido» → «han venido». Con la preposición no funciona: «voy a casa» → «voy *han* casa».
-
-## Haya / halla / aya y otras parejas del yeísmo
-
-En la mayor parte de España se pronuncian igual la *ll* y la *y*, y eso crea homófonos:
-
-| Palabra | Qué es | Ejemplo |
-|---|---|---|
-| **haya** | verbo *haber* o árbol | «Ojalá **haya** plazas»; «un bosque de **hayas**» |
-| **halla** | verbo *hallar* (encontrar) | «Se **halla** en Madrid» |
-| **aya** | persona que cuidaba a los niños | «El **aya** del príncipe» |
-| **vaya** | verbo *ir* o interjección | «Que te **vaya** bien» |
-| **valla** | cerca, vallado | «Saltó la **valla**» |
-| **baya** | fruto carnoso | «Las **bayas** del arbusto» |
-| **cayó** | verbo *caer* | «Se **cayó** de la moto» |
-| **calló** | verbo *callar* | «Se **calló** de golpe» |
-| **rallar** | desmenuzar con el rallador | «**Rallar** queso» |
-| **rayar** | hacer rayas | «**Rayar** el coche» |
-
-## Porque / por que / porqué / por qué
-
-Es el grupo más difícil, y conviene dominarlo entero.
-
-| Forma | Qué es | Ejemplo |
-|---|---|---|
-| **porque** | Conjunción causal | «Estudio **porque** quiero aprobar» |
-| **por que** | Preposición *por* + relativo *que* (equivale a *por el cual*, *por la que*…) | «Esa es la razón **por (la) que** dimitió» |
-| **por que** | Preposición *por* (exigida por el verbo) + conjunción *que* | «Optaron **por que** se repitiera la prueba» (*optar por algo*) |
-| **porqué** | Sustantivo: *el motivo*. Lleva determinante y tiene plural | «No entiendo **el porqué** de su decisión»; «los **porqués**» |
-| **por qué** | Interrogativo o exclamativo, en preguntas directas o indirectas | «¿**Por qué** vienes?»; «No sé **por qué** vino» |
-
-**Trucos:**
-
-- Si puedes poner delante *el* y sustituirlo por *motivo*, es **porqué**: «el porqué (el motivo) de su decisión».
-- Si hay pregunta, aunque no lleve signos, es **por qué**: «Dime por qué te vas».
-- Si puedes cambiarlo por *por el cual* o *por la que*, es **por que**.
-- Si contesta a una pregunta o da una causa, es **porque**: «¿Por qué no viniste? **Porque** estaba de guardia».
-
-## Sino / si no
-
-- **Sino** es una conjunción que contrapone una idea a otra negada: «No es rojo, **sino** azul». Cuando lo que sigue lleva verbo conjugado, se usa **sino que**: «No lo dijo, **sino que** lo escribió». También es un sustantivo, *destino*: «Su **sino** era ese».
-- **Si no** es la conjunción condicional *si* seguida de *no*: «**Si no** estudias, no apruebas».
-
-**Truco:** si puedes meter una palabra entre las dos partes («si **tú** no estudias») o cambiar la frase a afirmativa («si estudias»), es **si no**. Si equivale a *pero sí*, es **sino**.
-
-## Conque / con que / con qué
-
-- **Conque**: conjunción consecutiva, equivale a *así que*. «Ya lo sabes, **conque** actúa».
-- **Con que**: preposición *con* + relativo *que* («la llave **con que** abrí» = con la que) o + conjunción *que* («basta **con que** lo digas»).
-- **Con qué**: interrogativo o exclamativo. «¿**Con qué** lo pagaste?»; «No sé **con qué** escribir».
-
-## También / tan bien; tampoco / tan poco
-
-- **También** expresa afirmación o adición: «Yo **también** voy».
-- **Tan bien**: adverbio *tan* + adverbio *bien*; se opone a *tan mal*. «Lo hace **tan bien** que gana siempre».
-- **Tampoco** añade una negación a otra: «Yo **tampoco** voy».
-- **Tan poco**: *tan* + *poco*; se opone a *tanto*. «Queda **tan poco** tiempo…».
-
-**Truco:** si puedes cambiarlo por *tan mal* o *tanto*, va separado.
-
-## Asimismo / así mismo / a sí mismo
-
-- **Asimismo** significa *también* o *además*: «**Asimismo**, se recuerda que…». Con este sentido se admite también la grafía **así mismo**.
-- **Así mismo** también puede significar *de esa misma manera*: «Hazlo **así mismo**, como te lo he explicado».
-- **A sí mismo** es la preposición *a* + el pronombre *sí* + *mismo*: «Se lo reprochó **a sí mismo**». Se reconoce porque puede variar: *a sí misma*, *a sí mismos*.
-
-## Aparte / a parte
-
-- **Aparte** es adverbio o adjetivo: «Ponlo **aparte**», «punto y **aparte**», «es un caso **aparte**». **Aparte de** equivale a *además de* o *excepto*: «**Aparte de** eso, todo bien».
-- **A parte** es la preposición *a* + el sustantivo *parte*: «No llegaremos **a parte** alguna».
-
-## Otras parejas que conviene repasar
-
-| Junto | Separado |
-|---|---|
-| **sobretodo** (prenda de abrigo) | **sobre todo** (especialmente): «Repasa, **sobre todo**, los plazos» |
-| **demás** (los otros): «los **demás** opositores» | **de más** (de sobra): «Hay sillas **de más**» |
-| **entorno** (ambiente, alrededores): «el **entorno** familiar» | **en torno a** (alrededor de, aproximadamente): «**en torno a** las diez» |
-| **mediodía** (las doce): «Comemos a **mediodía**» | **medio día** (la mitad de un día): «Trabajo **medio día**» |
-| **porvenir** (el futuro): «Pensar en el **porvenir**» | **por venir** (que vendrá): «Lo mejor está **por venir**» |
-
-Y otras parejas con h o sin ella: **hola** (saludo) / **ola** (del mar); **hora** (tiempo) / **ora** (de *orar*); **honda** (profunda) / **onda** (del agua o del sonido); **hasta** (preposición) / **asta** (palo de la bandera, cuerno); **errar** (equivocarse) / **herrar** (poner herraduras). Las parejas de B y V (*tubo/tuvo*, *grabar/gravar*, *hierba/hierva*) las tienes en el artículo de [palabras trampa](/blog/palabras-trampa-ortografia-guardia-civil).
-
-## Ejercicio resuelto (propio, con el formato del examen)
-
-Las palabras subrayadas en el examen aquí van en **negrita**. Decide cuáles tienen falta.
-
-1. «**A ver** si **hay** suerte y el examen **ha** salido **echo** a medida».
-2. «No sé **porqué** no vino; **sino** viene mañana, **tampoco** pasa nada, **conque** tranquilo».
-3. «Está **ahí**, **sobretodo** cuando **hay** partido, y **a parte** de eso no sale».
-4. «Me **echo** a un lado para que **haya** sitio; **también** lo hice **tan bien** como pude».
-5. «Mañana va **a ver** un control **entorno** a la plaza; para los **demás** agentes, basta **con que** les avisen».
-
-**Soluciones:**
-
-1. **Una falta:** *hecho* (participio de *hacer*: «hecho a medida»). *A ver*, *hay* y *ha* son correctas.
-2. **Dos faltas:** *por qué* (pregunta indirecta) y *si no* (condicional: «si no viene»). *Tampoco* y *conque* (= así que) son correctas.
-3. **Dos faltas:** *sobre todo* (= especialmente) y *aparte de* (= además de). *Ahí* y *hay* son correctas.
-4. **Ninguna falta.** *Echo* (de *echar*), *haya* (de *haber*), *también* y *tan bien* (opuesto a *tan mal*) son correctas.
-5. **Dos faltas:** *haber* («va a haber» = va a existir) y *en torno a*. *Demás* y *con que* son correctas.
-
-Son siete faltas en veinte palabras. Observa la frase 4: está bien entera, y quien marca *tan bien* «por si acaso» suma un error.
-
-## Errores frecuentes
-
-- **Escribir *porqué* en preguntas indirectas:** «No sé porqué…» es falta; va separado y con tilde.
-- **Escribir *sino* en condicionales:** «sino estudias…» es falta.
-- **Confundir *haber* y *a ver*** en «va a haber», «tiene que haber».
-- **Unir *sobre todo* y *en torno*** cuando no son sustantivos.
-- **Marcar como falta formas correctas** que suenan raras, como *conque* o *así mismo* con el sentido de *también*.
-
-## Checklist de repaso
-
-- [ ] Aplico el truco de *mirar* para *a ver* y el de *han* para *ha*.
-- [ ] Distingo las cuatro formas de *porque* con sus trucos.
-- [ ] Sé cuándo va *sino*, *sino que* y *si no*.
-- [ ] Distingo *conque*, *con que* y *con qué*.
-- [ ] Sé que *asimismo* y *así mismo* son válidas con el sentido de *también*.
-- [ ] Repaso las parejas del yeísmo: *haya/halla*, *vaya/valla/baya*, *cayó/calló*.
-- [ ] Repaso *sobre todo*, *de más*, *en torno a*, *aparte*.
-
-## Cómo estudiarlos
-
-1. **No memorices pares sueltos:** aprende cada forma dentro de una frase.
-2. **Aplica siempre el truco de sustitución** antes de decidir.
-3. **Apunta tus fallos** de los tests en un cuaderno y repásalos cada semana.
-4. **Lee la frase entera en voz alta:** muchos homófonos se resuelven por el sentido.
-
-Encaja este repaso en tu horario como te contamos en [cómo preparar la oposición trabajando](/blog/plan-estudio-guardia-civil-trabajando). Y si quieres practicar con corrección explicada, en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes ejercicios con el formato real. Tienes el contexto de la prueba en [ortografía y gramática en el examen](/blog/ortografia-gramatica-examen-guardia-civil).
-
-## Preguntas frecuentes
-
-### ¿Cuántos homófonos pueden aparecer en la prueba?
-
-La convocatoria no lo detalla. Se examinan cinco frases con cuatro palabras o expresiones subrayadas cada una, y cualquier tipo de falta puede aparecer.
-
-### ¿«A ver» y «haber» son lo mismo?
-
-No. *A ver* es preposición más el verbo *ver* (equivale a *mirar* o *comprobar*); *haber* es un verbo o un sustantivo.
-
-### ¿Cuál es la diferencia entre «porque» y «por qué»?
-
-*Porque* da una causa o una respuesta; *por qué* introduce una pregunta, directa o indirecta.
-
-### ¿Es correcto «así mismo» separado?
-
-Sí, con el sentido de *también* se admiten *asimismo* y *así mismo*. Lo que no debe confundirse es *a sí mismo* («se lo dijo a sí mismo»).
-
-### ¿Cuándo se escribe «sino que»?
-
-Cuando lo que se contrapone lleva verbo conjugado: «No lo leyó, sino que lo memorizó».
-
-### ¿Cuántos errores se permiten?
-
-Hasta cinco. Con seis o más respuestas erróneas quedas excluido.',
-   '/blog/homofonos-ortografia-guardia-civil.jpg', 'Mano colocando fichas con parejas de palabras en dos columnas sobre una mesa de madera', 'publicado', '2026-12-03T06:19:00.000Z', 'acceso-guardia-civil',
-   ARRAY['ortografía', 'homófonos', 'porque', 'haber']::text[], '{"title":"Homófonos: haber/a ver, echo/hecho, porque y sino","description":"Homófonos de la prueba de ortografía de la Guardia Civil: haber/a ver, echo/hecho, porque/por qué, sino/si no, asimismo y más, con trucos y ejercicio."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
   ('lesiones-pruebas-fisicas-guardia-civil', 'articulo', 'Lesiones típicas al preparar las pruebas físicas de la Guardia Civil y cómo evitarlas', 'Una lesión a pocas semanas de las pruebas puede tirar por tierra meses de preparación. Cómo progresar sin pasarte, qué señales no ignorar, cómo volver tras parar y qué dice la convocatoria si te lesionas con el proceso en marcha.', 'Muchos aspirantes no se quedan fuera de las físicas por falta de forma, sino por **llegar lesionados**. La respuesta corta: la mayoría de las molestias de los opositores vienen de **subir la carga demasiado deprisa, descansar poco y repetir un gesto con mala técnica**, y se previenen con progresión, calentamiento, fuerza y paciencia. Y si te lesionas con el proceso en marcha, ten claro algo importante: la convocatoria **no prevé una fecha alternativa general por lesión**.
 
 Este artículo es información general, no un diagnóstico ni un tratamiento. Ante cualquier dolor que dure o que te limite, **consulta a un médico o a un fisioterapeuta**: son ellos quienes deben valorar tu caso.
@@ -966,7 +894,7 @@ No es recomendable: puedes agravar la lesión y, si no completas o no superas un
 ### ¿Qué hago si me lesiono meses antes?
 
 Trátala con un profesional, mantén lo que puedas entrenar sin riesgo y vuelve de forma progresiva. Con tiempo por delante, una lesión bien tratada no tiene por qué dejarte fuera.',
-   '/blog/lesiones-pruebas-fisicas-guardia-civil.jpg', 'Fisioterapeuta examinando el tobillo de una aspirante en una camilla', 'publicado', '2026-12-04T06:36:00.000Z', 'acceso-guardia-civil',
+   '/blog/lesiones-pruebas-fisicas-guardia-civil.jpg', 'Fisioterapeuta examinando el tobillo de una aspirante en una camilla', 'publicado', '2026-12-05T06:53:00.000Z', 'acceso-guardia-civil',
    ARRAY['pruebas físicas', 'lesiones', 'prevención', 'entrenamiento']::text[], '{"title":"Lesiones al preparar las pruebas físicas de Guardia Civil","description":"Cómo evitar lesiones al preparar las pruebas físicas de la Guardia Civil: progresión, calentamiento, señales de alarma y qué dicen las bases."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -977,219 +905,136 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('palabras-trampa-ortografia-guardia-civil', 'articulo', 'B/V, G/J y H: palabras trampa del examen de ortografía de la Guardia Civil', 'Después de las tildes, el gran bloque de fallos de ortografía son las letras que suenan igual. Las reglas de B/V, G/J y H que sí funcionan, sus excepciones, las parejas que cambian de significado y un ejercicio resuelto con el formato del examen.', 'Cuando se habla de ortografía en la oposición, todo el mundo piensa en las tildes. Pero hay otro bloque de fallos igual de peligroso: **las letras que suenan igual**. **Respuesta corta:** no hace falta memorizar listas infinitas; con una docena de reglas fiables, sus excepciones y unas cuantas parejas de significado distinto resuelves la mayoría de los casos.
+  ('oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti', 'articulo', 'Oferta de empleo público de la Guardia Civil: qué es y qué pasa con 2027', 'La oferta de empleo público es el real decreto que autoriza cuántas plazas se pueden convocar. Qué es, cómo se calcula, qué fijó el Real Decreto 206/2026 y qué se sabía de una oferta de 2027 al cierre de este artículo.', '**Respuesta corta:** la oferta de empleo público (OEP) es el real decreto del Gobierno que autoriza cuántas plazas puede convocar la Guardia Civil en un año y cómo se reparten. Sin oferta no hay convocatoria, y por eso es la primera señal oficial que conviene vigilar. En noviembre de 2026, cuando se preparó este artículo, **no había publicada ninguna oferta de empleo público de la Guardia Civil para 2027**.
 
-Recuerda las condiciones de la prueba (base 6.1.1.a de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)): cinco frases con cuatro palabras o expresiones subrayadas, y es error tanto **no detectar una falta** como **marcar una palabra correcta**. Con **seis errores o más**, quedas excluido. Si aún no has repasado la acentuación, empieza por [las tildes](/blog/tildes-reglas-oposicion-guardia-civil), y tienes el marco general en [ortografía y gramática en el examen](/blog/ortografia-gramatica-examen-guardia-civil).
+Vamos a ver qué es exactamente, qué fijó la última, de dónde salen sus cifras y qué conviene hacer mientras no hay una nueva.
 
-Las reglas siguen la *Ortografía de la lengua española* (RAE y ASALE). Los ejemplos y el ejercicio son nuestros.
+## Qué es exactamente una oferta de empleo público
 
-## B y V
+Es una norma con rango de real decreto que fija el número de plazas que se pueden convocar en un ejercicio. Lo prevé la [Ley 29/2014, de Régimen del Personal de la Guardia Civil](https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408) (artículo 26), y el Reglamento de ordenación de la enseñanza ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), artículo 6) concreta cómo se aprueba: la aprueba el Consejo de Ministros, a iniciativa conjunta de los Ministerios de Defensa y del Interior, y debe especificar los **cupos** de cada forma de ingreso y si las plazas de un cupo pueden pasar a otro.
 
-### Se escribe b…
+Lo que **no** es: no es la convocatoria. No contiene requisitos, plazos de solicitud ni pruebas. Todo eso llega después, en una resolución de la Dirección General de la Guardia Civil publicada en el BOE.
 
-| Regla | Ejemplos | Excepciones |
-|---|---|---|
-| Después de **m** | ambos, cambiar, tambor, embarcar | — |
-| En los grupos **bl** y **br** | blanco, cable, broma, libro | — |
-| En el pretérito imperfecto de los verbos en **-ar** (-aba, -abas…) y en el de **ir** | cantaba, jugábamos, iba, íbamos | — |
-| En los verbos acabados en **-bir** y sus formas | escribir, recibir, subir, prohibir | **hervir, servir, vivir** y sus derivados (convivir, revivir) |
-| En los verbos acabados en **-buir** | atribuir, contribuir, distribuir | — |
-| En las palabras acabadas en **-bilidad** | amabilidad, posibilidad | **movilidad, civilidad** |
-| En las palabras acabadas en **-bundo, -bunda** | vagabundo, meditabunda | — |
-| En los prefijos **bi-, bis-, biz-** («dos») | bimensual, bisabuelo, bizcocho | — |
-| Al principio de palabra con **bur-** y **bus-** | burla, burbuja, buscar, busto | — |
+### El orden de los documentos
 
-Ojo con *bu-* a secas: aunque hay muchas palabras con b (*bueno*, *bucear*), también hay palabras muy usadas con v, como *vuelta*, *vuestro* o *vulgar*. No la uses como regla.
+| Paso | Documento | Qué fija | Dónde se publica |
+|---|---|---|---|
+| 1 | Real decreto de oferta de empleo público | Número de plazas y reservas | BOE, sección III («Otras disposiciones») |
+| 2 | Resolución de convocatoria | Requisitos, plazo, tasas, pruebas, baremo | BOE, sección II.B («Oposiciones y concursos») |
+| 3 | Listas de admitidos | Admitidos, excluidos y nota del concurso | Web de la Guardia Civil y BOE |
+| 4 | Propuestos como alumnos | Quién ingresa en los centros de formación | BOE |
 
-### Se escribe v…
+## Qué dijo la de 2026
 
-| Regla | Ejemplos | Excepciones |
-|---|---|---|
-| Después de **n** | enviar, invierno, convocar, invitar | — |
-| Después de **ad-**, **sub-** y **ob-** | adverbio, subvención, obvio | — |
-| En el pretérito perfecto simple de **estar, andar, tener** y sus compuestos, y en los tiempos que derivan de él | estuve, anduvo, tuviera, retuvo, sostuvieron | — |
-| En el presente de **ir** | voy, vas, vaya, ve | — |
-| En los adjetivos llanos acabados en **-avo, -ava, -evo, -eva, -eve, -ivo, -iva** | octavo, nueva, breve, activo, decisiva | — |
-| En las palabras acabadas en **-ívoro, -ívora** | carnívoro, herbívora | **víbora** |
-| En los prefijos **vice-, viz-, vi-** («en lugar de») | vicepresidente, vizconde, virrey | — |
+La de 2026 es el [Real Decreto 206/2026, de 11 de marzo (BOE-A-2026-5998)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5998), publicado en el BOE núm. 64, de 13 de marzo de 2026. Para la Escala de Cabos y Guardias fija:
 
-### Las trampas de B y V
+- **3.240 plazas** de ingreso directo (artículo 2).
+- Dentro de ellas, **1.296 reservadas a militares profesionales de tropa y marinería** con al menos cinco años de servicios efectivos y **240 para alumnos del Colegio de Guardias Jóvenes** (artículo 3). Las que no se cubran, por cualquier motivo, pasan al cupo libre.
+- Fuera de la Escala de Cabos y Guardias, autoriza plazas de **promoción profesional**: 96 para la Escala de Oficiales por promoción interna, 26 para la misma escala por cambio de escala y 400 para la de Suboficiales (artículo 4).
 
-- **«Hubo» con b, «tuvo» con v.** *Hube, hubo, hubiera* son formas de *haber* y se escriben con b; *tuve, estuvo, anduvo* llevan v por la regla anterior. Es una de las confusiones más rentables de repasar.
-- **«Iba» con b, «vaya» con v.** El imperfecto de *ir* lleva b; el presente, v.
-- **«Prohibir» con b, «hervir» con v.** Los dos acaban en *-ir*, pero *hervir* es una de las tres excepciones de *-bir*.
-- **«Movilidad» con v**, aunque *posibilidad* y *amabilidad* lleven b.
-- **«Envidia», «enviar», «envase»**: v, por ir detrás de n. Y recuerda la otra cara: delante de b se escribe m, no n (*ambos*, *cambio*).
+La convocatoria que derivó de ella ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) repartió las 3.240 plazas así: 1.296 para militares, 240 para el Colegio y **1.704 libres**. La tienes explicada en [la convocatoria de 2026 y su calendario](/blog/convocatoria-guardia-civil-2026-plazas-calendario).
 
-### Parejas con b y con v que cambian el significado
+## De dónde sale la cifra de plazas
 
-| Con b | Con v |
-|---|---|
-| **baca** (portaequipajes del coche) | **vaca** (animal) |
-| **bello** (hermoso) | **vello** (pelo corto y suave) |
-| **botar** (saltar, echar al agua un barco) | **votar** (emitir un voto) |
-| **tubo** (pieza hueca) | **tuvo** (de *tener*) |
-| **grabar** (registrar, esculpir) | **gravar** (imponer un tributo o carga) |
-| **rebelar(se)** (sublevarse) | **revelar** (descubrir, dar a conocer) |
-| **sabia** (que tiene sabiduría) | **savia** (líquido de las plantas) |
-| **basto** (tosco, grosero) | **vasto** (muy extenso) |
-| **acerbo** (áspero, cruel) | **acervo** (conjunto de bienes o conocimientos) |
-| **hierba** (planta) | **hierva** (de *hervir*) |
+El propio Real Decreto 206/2026 explica el cálculo en su preámbulo:
 
-## G y J
+1. El marco general de incorporaciones de personal lo fija el artículo 20 de la **Ley 31/2022, de Presupuestos Generales del Estado para 2023**, prorrogados en 2024, 2025 y en el momento de aprobar la oferta.
+2. Para las Fuerzas y Cuerpos de Seguridad del Estado, esa ley establece una **tasa de reposición del 125 %** y los considera sector prioritario.
+3. Aplicando ese porcentaje, la oferta «que cabría aprobar» era de 3.240 plazas.
 
-### Se escribe g…
+En la práctica, la tasa de reposición se calcula a partir de las bajas de efectivos, por lo que la cifra depende de cuántas personas dejen el servicio. Por eso no tiene sentido extrapolarla a ojo.
 
-| Regla | Ejemplos | Excepciones |
-|---|---|---|
-| En las palabras que empiezan por **geo-** | geografía, geología | — |
-| En los verbos acabados en **-ger, -gir** | coger, proteger, dirigir, elegir | **tejer, crujir** y sus derivados |
-| En las terminaciones **-gia, -gio, -gión, -gional, -gioso** | magia, biología, colegio, religión, regional, prodigioso | **lejía, bujía, herejía** |
+### Las reservas no son arbitrarias
 
-### Se escribe j…
+El artículo 6.2 del Reglamento de ordenación de la enseñanza fija dos límites para la Escala de Cabos y Guardias:
 
-| Regla | Ejemplos | Excepciones |
-|---|---|---|
-| En las palabras acabadas en **-aje, -eje** | viaje, garaje, mensaje, hereje | **ambages** |
-| En las acabadas en **-jero, -jera, -jería** | extranjero, cerrajera, relojería, consejería | **ligero** |
-| En los verbos acabados en **-jear** | canjear, hojear, ojear, homenajear | — |
-| En las formas con sonido /j/ de verbos que no tienen ni g ni j en el infinitivo | decir → dije; traer → trajo; conducir → conduje | — |
-| En las palabras derivadas de otras con j | caja → cajero; rojo → rojizo; hoja → hojear | — |
+- A los **militares profesionales de tropa y marinería**, un **mínimo del 40 %** de las plazas, sin superar nunca el 50 %.
+- Al **Colegio de Guardias Jóvenes**, **hasta un máximo del 20 %**.
 
-### Las trampas de G y J
+En 2026, las 1.296 plazas militares equivalen exactamente al 40 % de 3.240. El cupo militar lo explicaremos con detalle en un artículo posterior.
 
-- **Los verbos en -ger y -gir cambian a j delante de a y o:** *coger* → *cojo, coja*; *elegir* → *elijo, elija*; *dirigir* → *dirijo*. Escribir *cogo* o *eliga* es falta.
-- **Al revés, *tejer* y *crujir* mantienen la j en todas sus formas:** *tejía*, *crujieron*.
-- **Los pretéritos de *-ducir* van con j:** *condujo, produjeron, tradujera*. Nunca *condució* ni *produció*.
-- **Palabras que conviene fijar con g:** *cónyuge*, *vigía*, *agenda*, *agilidad*, *vigilar*, *imagen*, *origen*, *margen*.
-- **Palabras que conviene fijar con j:** *jengibre*, *ajeno*, *objeto*, *sujeto*, *majestad*, *berenjena*, *jirafa*.
+## Qué efecto tiene sobre ti
 
-### Parejas de significado distinto
+Tres consecuencias prácticas, sacadas del texto del real decreto:
 
-- **hojear** (pasar las hojas) / **ojear** (mirar por encima).
-- **ingerir** (tomar alimento o bebida) / **injerir** (meter una cosa en otra; *injerirse*, entrometerse).
-- **gira** (excursión, serie de actuaciones) / **jira** (trozo de tela; también, merienda campestre).
+- **La convocatoria solo puede publicarse en el año de la oferta.** El artículo 1 dice que las convocatorias derivadas «sólo podrán publicarse en el ejercicio presupuestario al que vienen referidas». Una oferta de 2027 daría lugar a una convocatoria en 2027, no antes.
+- **Cada convocatoria necesita informe favorable** de la Dirección General de la Función Pública.
+- **El Ministerio del Interior debe recoger en su web** un apartado de procesos selectivos con cada convocatoria y sus actos (disposición adicional única).
 
-## La H
+## Cómo han evolucionado las plazas
 
-La h no suena, así que no hay pista fonética: solo reglas y memoria.
+Estas son las cifras de las últimas convocatorias, tomadas de sus bases en el BOE:
 
-### Se escribe h…
+| Año | Total | Militares | Colegio de Guardias Jóvenes | Libres |
+|---|---|---|---|---|
+| 2023 | 2.520 | 1.008 | 185 | 1.327 |
+| 2024 | 2.721 | 1.089 | 200 | 1.432 |
+| 2025 | 3.118 | 1.248 | 240 | 1.630 |
+| 2026 | 3.240 | 1.296 | 240 | 1.704 |
 
-| Regla | Ejemplos |
-|---|---|
-| En las formas de **haber, hacer, hablar, hallar, habitar** y sus derivados | he, hubo, hice, deshacer, hablador, hallazgo, habitante |
-| Delante de los diptongos iniciales **ia-, ie-, ue-, ui-** | hiato, hielo, hierro, hueso, huevo, huida, huir |
-| En los elementos de origen griego **hidr(o)-, hiper-, hipo-, hemi-, hepta-, hexa-, hetero-, homo-, hecto-** | hidrógeno, hipermercado, hipótesis, hemisferio, heptágono, hexágono, heterogéneo, homogéneo, hectárea |
-| En las interjecciones **ah, eh, oh, bah** | ¡Ah, ya lo entiendo! |
+Que subieran estos años **no garantiza** que vuelvan a hacerlo. Y recuerda que las plazas libres reales pueden ser más, porque las reservadas que no se cubren se suman al cupo libre.
 
-### La trampa de la familia de palabras
+## ¿Hay ya una oferta para 2027?
 
-La regla del diptongo explica por qué palabras de la misma familia **pierden la h** cuando el diptongo desaparece:
+En noviembre de 2026 no la habíamos localizado ni en el BOE ni en la web del Ministerio del Interior. Cualquier cifra de plazas para 2027 que circulara entonces era una previsión de terceros, no un dato oficial.
 
-| Con *hue-* (h) | Sin diptongo (sin h) |
-|---|---|
-| hueso | óseo, osario, osamenta |
-| huevo | óvulo, ovario, oval |
-| hueco | oquedad |
-| huérfano | orfandad, orfanato |
-| huele, huelo | oler, olemos |
+Si cuando leas esto ya se ha publicado, manda lo que diga el BOE. Para comprobarlo:
 
-Y al revés: *deshuesar* conserva la h porque mantiene el diptongo *ue*.
+1. Entra en el buscador del BOE y busca «oferta de empleo público del Cuerpo de la Guardia Civil para el año 2027».
+2. Mira la sección III («Otras disposiciones»): ahí se publican estos reales decretos.
+3. Revisa el apartado de procesos selectivos de la Guardia Civil en la web del Ministerio del Interior.
 
-### «Ex-» con h y sin h
+## Un caso práctico (hipotético)
 
-No hay una regla general: hay que memorizarlas.
-
-- **Con h:** *exhibir, exhalar, exhausto, exhaustivo, exhortar, exhumar*.
-- **Sin h:** *exuberante, exabrupto, exorbitante, exonerar*.
-
-### H intercalada que se escapa
-
-*prohibir, rehén, vehículo, alcohol, ahínco, bahía, zanahoria, búho, almohada, cohete, ahorro*.
-
-### Palabras sin h que parecen llevarla
-
-*abuelo, ermita, oler, orfandad, osario, umbral*.
-
-Un aviso: algunas palabras admiten dos grafías. Por ejemplo, *hierba* y *yerba* son correctas las dos. Si en el examen te encuentras una forma que no te suena, piensa si puede ser una variante admitida antes de marcarla como falta.
-
-## Ejercicio resuelto (propio, con el formato del examen)
-
-Las palabras subrayadas en el examen aquí van en **negrita**. Decide cuáles tienen falta.
-
-1. «El **vagabundo** **iba** a **hervir** el agua, pero **estubo** demasiado cansado».
-2. «La **mensagera** y su **cónyuje** **eligieron** el **garaje** más cercano».
-3. «**Prohibieron** **exibir** el **vehículo** en la **exposición**».
-4. «Le **dije** que **cogiera** la **lejía** y se **protegiera** las manos».
-5. «La **hierva** del jardín **crece** gracias a la **savia** y a la tierra **húmeda**».
-
-**Soluciones:**
-
-1. **Una falta:** *estuvo* (pretérito de *estar*, con v). *Vagabundo* (-bundo), *iba* (imperfecto de *ir*) y *hervir* (excepción de -bir) son correctas.
-2. **Dos faltas:** *mensajera* (-jera) y *cónyuge* (con g). *Eligieron* y *garaje* son correctas.
-3. **Una falta:** *exhibir*. *Prohibieron*, *vehículo* y *exposición* son correctas.
-4. **Ninguna falta.** *Dije* (de *decir*), *cogiera* (g delante de i), *lejía* (excepción de -gía) y *protegiera* son correctas. Si marcas algo aquí, sumas un error.
-5. **Una falta:** *hierba* (la planta). *Hierva* es una forma de *hervir*. *Crece*, *savia* y *húmeda* son correctas.
+Pablo lee en una red social que «para 2027 habrá 4.000 plazas». Antes de cambiar su plan, hace tres comprobaciones: busca en el BOE un real decreto de oferta de 2027 (no lo hay), mira si la cifra cita una norma (no la cita) y revisa la web de Interior (sin novedades). Conclusión: es una previsión sin respaldo. Sigue estudiando con el programa de la última convocatoria. Es un ejemplo inventado, pero es exactamente el filtro que conviene aplicar.
 
 ## Errores frecuentes
 
-- **Aplicar una regla sin mirar sus excepciones:** *herbir*, *movilidad* con b, *lexía*.
-- **Fiarse del «me suena»:** *estubo*, *cogo*, *exibir* son errores habituales precisamente porque se ven escritos mal con frecuencia.
-- **Olvidar el cambio g → j de *coger* o *elegir*.**
-- **Confundir homófonos:** *tubo/tuvo*, *grabar/gravar*, *hierba/hierva*.
-- **Marcar como falta una variante correcta** por no conocerla.
+- **Confundir oferta y convocatoria.** La oferta no abre plazo de inscripción.
+- **Creer que hay que «apuntarse» a la oferta.** Solo te inscribes en la convocatoria.
+- **Sumar mal las plazas libres.** Las 1.704 de 2026 son las iniciales; las reservadas sin cubrir se añaden.
+- **Dar por buena una cifra sin real decreto.**
+- **Esperar a la oferta para empezar a estudiar.** Entre la oferta y la convocatoria puede pasar poco tiempo.
 
-## Checklist de repaso
+## Checklist
 
-- [ ] Sé las reglas de b (m, bl/br, -aba, -bir, -buir, -bilidad, -bundo).
-- [ ] Sé las de v (n, ad-/sub-/ob-, *estuve/anduve/tuve*, *voy*, adjetivos en -ivo).
-- [ ] Recuerdo las excepciones: *hervir, servir, vivir, movilidad, civilidad, víbora*.
-- [ ] Conjugo bien *coger, elegir, dirigir, conducir, decir, traer*.
-- [ ] Domino la familia *hueso/óseo*, *huevo/óvulo*, *huérfano/orfandad*.
-- [ ] Me sé las palabras con *exh-* y sin ella.
-- [ ] Repaso las parejas de significado distinto con una frase de ejemplo.
+- [ ] Sé distinguir oferta, convocatoria y listas.
+- [ ] He leído el Real Decreto 206/2026.
+- [ ] Tengo una alerta del BOE para la oferta de 2027.
+- [ ] He comprobado mi [edad para la convocatoria](/blog/edad-maxima-guardia-civil), que se mide por año natural.
+- [ ] Estudio con un plan, no a la espera de la cifra.
 
-## Cómo repasar
+## Qué hacer mientras tanto
 
-1. **Lleva un cuaderno de palabras trampa** con las que falles en los tests, con la regla al lado.
-2. **Aprende la regla antes que la lista:** una regla cubre cientos de palabras; la lista, solo las que apuntas.
-3. **Repasa las parejas en frases**, no sueltas: «el tubo del agua», «tuvo suerte».
-4. **Haz tests cronometrados** con el formato real. Si estás empezando la preparación, organízalo como te contamos en [preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero).
-
-Si quieres corregir con explicación cada palabra, en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes ejercicios con el formato del examen. Y los homófonos más traicioneros (*haber/a ver*, *echo/hecho*, *porque/por qué*) los veremos en un próximo artículo.
+La oferta no cambia lo que tienes que estudiar: el temario y las pruebas los fija la convocatoria, y la última publicada es la mejor referencia disponible. Comprueba tus [requisitos](/blog/requisitos-guardia-civil) y, si empiezas ahora, [prepara la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero) con un plan realista. Si quieres un método y un temario ordenado, lo trabajamos en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
 
 ## Preguntas frecuentes
 
-### ¿«Envidia» se escribe con b o con v?
+### ¿La oferta de empleo público es lo mismo que la convocatoria?
 
-Con v. Detrás de n siempre se escribe v.
+No. La oferta autoriza el número de plazas; la convocatoria, publicada después, fija requisitos, plazos y pruebas.
 
-### ¿«Cónyuge» se escribe con g o con j?
+### ¿Cuánto tarda en salir la convocatoria después de la oferta?
 
-Con g. No hay una regla que lo explique: es una de las palabras que conviene memorizar.
+Varía de un año a otro. En 2026 la oferta salió en el BOE el 13 de marzo y la convocatoria el 8 de mayo. En el artículo sobre la convocatoria de 2027 repasamos las fechas de los últimos años.
 
-### ¿Por qué «hubo» va con b y «tuvo» con v?
+### ¿Puedo apuntarme a una oferta de empleo público?
 
-*Hubo* es una forma de *haber*, que se escribe con b. *Tuvo* es una forma de *tener*, y los pretéritos de *tener*, *estar* y *andar* llevan v.
+No. Solo te inscribes en la convocatoria, una vez publicada, dentro de su plazo de solicitud.
 
-### ¿«Hojear» y «ojear» son lo mismo?
+### ¿Dónde se publica la oferta?
 
-No. *Hojear* es pasar las hojas de un libro; *ojear* es mirar por encima.
+En el BOE, sección III, como real decreto. El Ministerio del Interior recoge además en su web las convocatorias derivadas.
 
-### ¿Cuándo una palabra con «ex-» lleva h?
+### ¿Por qué hay plazas reservadas a militares y al Colegio?
 
-No hay una regla general. Llevan h *exhibir, exhalar, exhausto, exhaustivo, exhortar* y *exhumar*; no la llevan *exuberante, exabrupto, exorbitante* ni *exonerar*.
+Porque el Reglamento de ordenación de la enseñanza obliga a reservar al menos el 40 % a militares de tropa y marinería (sin pasar del 50 %) y permite reservar hasta el 20 % al Colegio de Guardias Jóvenes.
 
-### ¿Por qué «hueso» lleva h y «óseo» no?
+### ¿Hay oferta de 2027?
 
-Porque se escriben con h las palabras que empiezan por el diptongo *ue-*. Cuando el diptongo desaparece (*óseo, osario*), desaparece también la h.
-
-### ¿Cuántos errores se permiten en ortografía?
-
-Hasta cinco. Con seis o más respuestas erróneas quedas excluido del proceso.',
-   '/blog/palabras-trampa-ortografia-guardia-civil.jpg', 'Opositora subrayando palabras corregidas en una libreta junto a un diccionario', 'publicado', '2026-12-02T06:02:00.000Z', 'acceso-guardia-civil',
-   ARRAY['ortografía', 'b/v', 'g/j', 'h', 'palabras']::text[], '{"title":"B/V, G/J y H: palabras trampa de ortografía Guardia Civil","description":"Reglas de B/V, G/J y H con excepciones, palabras trampa y parejas que se confunden en la prueba de ortografía de la Guardia Civil, con ejercicio."}'::jsonb, '{}'::jsonb)
+En noviembre de 2026 no estaba publicada. Comprueba el BOE antes de dar por buena cualquier cifra.',
+   '/blog/oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti.jpg', 'Mano pasando las páginas de un BOE sobre una mesa con una taza de café y unas gafas, junto a una ventana con lluvia', 'publicado', '2026-12-04T06:36:00.000Z', 'acceso-guardia-civil',
+   ARRAY['oferta de empleo público', 'plazas', 'BOE', 'convocatoria']::text[], '{"title":"Oferta de empleo público Guardia Civil: qué es y 2027","description":"Qué es la oferta de empleo público de la Guardia Civil, cómo se calcula, qué fijó el Real Decreto 206/2026 (3.240 plazas) y qué se sabe de 2027."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

@@ -3,13 +3,15 @@ titulo: Oferta de empleo público de la Guardia Civil: qué es y qué pasa con 2
 slug: oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-28T07:24:00+01:00
+publicado_en: 2026-12-04T07:36:00+01:00
 curso: acceso-guardia-civil
 entradilla: La oferta de empleo público es el real decreto que autoriza cuántas plazas se pueden convocar. Qué es, cómo se calcula, qué fijó el Real Decreto 206/2026 y qué se sabía de una oferta de 2027 al cierre de este artículo.
 etiquetas: [oferta de empleo público, plazas, BOE, convocatoria]
 seo_title: Oferta de empleo público Guardia Civil: qué es y 2027
 seo_description: Qué es la oferta de empleo público de la Guardia Civil, cómo se calcula, qué fijó el Real Decreto 206/2026 (3.240 plazas) y qué se sabe de 2027.
 datos: {}
+portada: /blog/oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti.jpg
+portada_alt: Mano pasando las páginas de un BOE sobre una mesa con una taza de café y unas gafas, junto a una ventana con lluvia
 ---
 **Respuesta corta:** la oferta de empleo público (OEP) es el real decreto del Gobierno que autoriza cuántas plazas puede convocar la Guardia Civil en un año y cómo se reparten. Sin oferta no hay convocatoria, y por eso es la primera señal oficial que conviene vigilar. En noviembre de 2026, cuando se preparó este artículo, **no había publicada ninguna oferta de empleo público de la Guardia Civil para 2027**.
 

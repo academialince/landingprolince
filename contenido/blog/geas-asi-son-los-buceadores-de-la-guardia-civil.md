@@ -3,7 +3,7 @@ titulo: GEAS: así son los buceadores de la Guardia Civil
 slug: geas-asi-son-los-buceadores-de-la-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-12T07:39:00+01:00
+publicado_en: 2027-01-16T07:47:00+01:00
 curso: acceso-guardia-civil
 entradilla: Los GEAS son los grupos de especialistas en actividades subacuáticas de la Guardia Civil. Qué misiones tienen, dónde están desplegados, cómo se estructura la especialidad de buceo y qué dice la normativa sobre cómo se obtiene la cualificación.
 etiquetas: [geas, buceadores, subacuáticas, especialidades]

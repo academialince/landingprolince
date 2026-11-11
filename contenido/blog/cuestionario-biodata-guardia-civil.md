@@ -3,7 +3,7 @@ titulo: Cuestionario BIODATA de la Guardia Civil: qué es y cómo rellenarlo
 slug: cuestionario-biodata-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-29T07:11:00+01:00
+publicado_en: 2026-12-02T07:02:00+01:00
 curso: acceso-guardia-civil
 entradilla: Antes de la entrevista personal se rellena un cuestionario biográfico que no puntúa, pero sirve de apoyo al entrevistador. Qué dice la convocatoria, qué documentos hay que llevar, cómo preparar tu cronología y cómo contestar sin contradecirte.
 etiquetas: [entrevista, BIODATA, vida laboral, documentación]

@@ -3,7 +3,7 @@ titulo: Protección civil y desarrollo sostenible en el temario: qué normas ent
 slug: proteccion-civil-y-desarrollo-sostenible-en-el-temario
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-05T07:40:00+01:00
+publicado_en: 2027-01-13T07:56:00+01:00
 curso: acceso-guardia-civil
 entradilla: El tema 16 mezcla tres normas muy distintas: la Ley 17/2015 de Protección Civil, la Ley 42/2007 del Patrimonio Natural y la Directiva 2012/27/UE de eficiencia energética. Qué partes entran, qué dice cada una y cómo ordenarlas.
 etiquetas: [protección civil, desarrollo sostenible, temario, ley 17/2015]

@@ -3,7 +3,7 @@ titulo: Instituciones internacionales: ONU, OTAN y Consejo de Europa para el exa
 slug: instituciones-internacionales-onu-otan-y-consejo-de-europa
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-14T07:26:00+01:00
+publicado_en: 2026-12-22T07:42:00+01:00
 curso: acceso-guardia-civil
 entradilla: Qué organismos incluye el tema 6 y cómo ordenarlos: ONU, OTAN y Consejo de Europa con sus datos clave, y una tabla de sedes de Interpol, Europol, Eurojust, Frontex, CEPOL, FAO, FMI y OMS, comprobadas en fuentes oficiales. Con test propio.
 etiquetas: [instituciones internacionales, ONU, OTAN, Consejo de Europa, temario]
