@@ -3,7 +3,7 @@ titulo: Oferta de empleo público de la Guardia Civil: qué es y qué pasa con 2
 slug: oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-03T07:53:00+01:00
+publicado_en: 2026-12-28T07:24:00+01:00
 curso: acceso-guardia-civil
 entradilla: La oferta de empleo público es el real decreto que autoriza cuántas plazas se pueden convocar. Qué es, cómo se calcula, qué fijó el Real Decreto 206/2026 y qué se sabía de una oferta de 2027 al cierre de este artículo.
 etiquetas: [oferta de empleo público, plazas, BOE, convocatoria]

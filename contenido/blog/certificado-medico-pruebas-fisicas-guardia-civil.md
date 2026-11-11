@@ -3,7 +3,7 @@ titulo: Certificado médico para las pruebas físicas: qué debe decir y cuándo
 slug: certificado-medico-pruebas-fisicas-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-22T07:12:00+01:00
+publicado_en: 2026-11-28T07:54:00+01:00
 curso: acceso-guardia-civil
 entradilla: Sin el certificado médico no haces las pruebas físicas: no presentarlo en los términos exigidos te excluye. La frase que debe constar, la ventana de 20 días, la ficha médica alternativa y los errores que dejan fuera a aspirantes.
 etiquetas: [pruebas físicas, certificado médico, requisitos, documentación]

@@ -302,7 +302,7 @@ Al principio, poco. A partir del segundo mes, una parte fija de la semana. Incl�
 
 ### ¿Esto garantiza aprobar?
 No. Mejora la retención, pero el resultado depende de muchas más cosas: horas, nivel de partida y competencia.',
-   '/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario.jpg', 'Opositora estudiando en una biblioteca con un libro lleno de subrayados y marcadores de colores', 'publicado', '2027-01-04T06:23:00.000Z', 'acceso-guardia-civil',
+   '/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario.jpg', 'Opositora estudiando en una biblioteca con un libro lleno de subrayados y marcadores de colores', 'publicado', '2027-01-03T06:06:00.000Z', 'acceso-guardia-civil',
    ARRAY['memorización', 'repaso espaciado', 'técnicas de estudio', 'temario']::text[], '{"title":"Memorizar leyes: repaso espaciado para oposiciones","description":"Cómo memorizar leyes con repaso espaciado y práctica de recuperación: qué dice la investigación, calendario de repasos para 23 temas y fichas de ejemplo."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -770,6 +770,155 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
+  ('proteccion-civil-y-desarrollo-sostenible-en-el-temario', 'articulo', 'Protección civil y desarrollo sostenible en el temario: qué normas entran', 'El tema 16 mezcla tres normas muy distintas: la Ley 17/2015 de Protección Civil, la Ley 42/2007 del Patrimonio Natural y la Directiva 2012/27/UE de eficiencia energética. Qué partes entran, qué dice cada una y cómo ordenarlas.', 'El tema 16 es de los más heterogéneos del programa: reúne **protección civil, patrimonio natural y eficiencia energética**. Son tres normas sin relación aparente, de tres fuentes distintas (dos leyes estatales y una directiva europea), y la forma más eficaz de estudiarlas es por separado, con un esquema para cada una y sin salirte del alcance que fija el programa.
+
+## Qué entra exactamente
+
+Según el [temario oficial](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf) (lo tienes resumido en nuestro [temario](/temario-guardia-civil)), el tema 16 se divide en tres bloques:
+
+| Bloque | Norma | Qué entra | Qué no entra |
+|---|---|---|---|
+| Protección civil | Ley 17/2015, de 9 de julio, del Sistema Nacional de Protección Civil | Títulos I a V | Título VI (régimen sancionador) |
+| Desarrollo sostenible | Ley 42/2007, de 13 de diciembre, del Patrimonio Natural y de la Biodiversidad | Título preliminar y títulos II, III y IV | Títulos I, V y VI |
+| Eficiencia energética | Directiva 2012/27/UE | Capítulos I y II | Capítulos III a V |
+
+Estudiar fuera de ese alcance es gastar tiempo. Ningún dato oficial dice cuántas preguntas salen de este tema, así que no te fíes de quien te lo asegure.
+
+## Bloque 1: Ley 17/2015 de Protección Civil
+
+Texto consolidado: [BOE-A-2015-7730](https://www.boe.es/buscar/act.php?id=BOE-A-2015-7730). Se ha reformado varias veces (la última versión consolidada es de octubre de 2025), así que estudia siempre la versión vigente.
+
+### Estructura de los títulos que entran
+
+| Título | Artículos | Contenido |
+|---|---|---|
+| I. Disposiciones generales | 1 a 7 quáter | Objeto, definiciones, el Sistema Nacional, la Estrategia, derechos (protección, información, participación) y deberes (colaboración, cautela y autoprotección) y voluntariado |
+| II. Actuaciones del Sistema | 8 a 30 | Siete capítulos: anticipación, prevención, planificación, respuesta inmediata, recuperación, evaluación e inspección, y emergencias de interés nacional |
+| III. Recursos humanos | 31 y 32 | Formación y Escuela Nacional de Protección Civil |
+| IV. Competencias de la AGE | 33 a 38 | Gobierno, Ministro del Interior, otros departamentos, Delegados del Gobierno, Fuerzas Armadas (UME) y Fuerzas y Cuerpos de Seguridad del Estado |
+| V. Cooperación y coordinación | 39 a 42 | Consejo Nacional de Protección Civil, órganos territoriales, Mecanismo de Protección Civil de la UE y cooperación internacional |
+
+### Definiciones del artículo 2
+
+Son siete y se confunden con facilidad: **peligro** (potencial de ocasionar daño), **vulnerabilidad** (característica que hace a personas o bienes susceptibles de ser afectados), **amenaza** (exposición a un peligro inminente o latente), **riesgo** (posibilidad de que una amenaza llegue a afectar), **emergencia de protección civil**, **catástrofe** y **servicios esenciales**. Un truco: el riesgo es una *posibilidad*; la amenaza, una *situación*; el peligro, un *potencial*.
+
+### Las actuaciones del Sistema (artículo 3)
+
+El Sistema integra la actividad de protección civil de todas las Administraciones mediante cinco actuaciones: **prever** los riesgos, **planificar** los medios, **intervenir** con respuesta inmediata, **recuperar** (restablecer infraestructuras y servicios esenciales) y **coordinar, hacer seguimiento y evaluar** el Sistema. El título II las desarrolla en siete capítulos, porque divide la previsión en anticipación y prevención y añade un capítulo propio para las emergencias de interés nacional.
+
+### Planes de protección civil (artículos 14 y 15)
+
+Hay cuatro tipos: **Plan Estatal General** (lo aprueba el Gobierno a propuesta del Ministro del Interior), **Planes Territoriales** (autonómicos o locales), **Planes Especiales** (inundaciones, terremotos, maremotos, volcanes, fenómenos meteorológicos adversos, incendios forestales, accidentes químicos, nucleares o radiactivos, aviación civil, mercancías peligrosas, conflicto bélico…) y **Planes de Autoprotección** (para centros, establecimientos e instalaciones).
+
+### Emergencias de interés nacional (artículos 28 a 30)
+
+Son tres supuestos:
+
+1. Las que requieren aplicar la **Ley Orgánica 4/1981**, de los estados de alarma, excepción y sitio.
+2. Las que afectan a **varias comunidades autónomas** y exigen aportar recursos a nivel supraautonómico.
+3. Las que, por sus dimensiones efectivas o previsibles, requieren una **dirección de carácter nacional**.
+
+Las **declara el titular del Ministerio del Interior**, por iniciativa propia o a instancia de las comunidades autónomas o de los Delegados del Gobierno; si lo hace por iniciativa propia, previa comunicación con la comunidad afectada. Declarada la emergencia, el Ministro **asume su dirección**, y la **Unidad Militar de Emergencias asume la dirección operativa** bajo la dirección del Ministro (art. 37.4). El Centro Nacional de Seguimiento y Coordinación de Emergencias actúa como centro de coordinación operativa (art. 18).
+
+### Otras piezas que conviene distinguir
+
+- **Zona afectada gravemente por una emergencia de protección civil** (art. 23): la declara el **Consejo de Ministros**, no el Ministro del Interior. Las ayudas de recuperación no tienen carácter indemnizatorio (art. 20.3).
+- **Deber de colaboración** (art. 7 bis): en emergencias, cualquier persona mayor de edad está obligada a las prestaciones personales que exijan las autoridades, sin derecho a indemnización por ello; la requisa de bienes sí se indemniza.
+- **Fuerzas y Cuerpos de Seguridad del Estado** (art. 38): colaboran según la LO 2/1986, y los planes pueden asignarles funciones **sin atribuirlas a unidades concretas**. Si necesitas repasar esa ley, la tienes en [competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada).
+- **Consejo Nacional de Protección Civil** (art. 39): lo **preside el Ministro del Interior**; reúne a la AGE, las comunidades autónomas, las ciudades con Estatuto de Autonomía y la FEMP, y funciona en Pleno y en Comisión Permanente.
+- **Escuela Nacional de Protección Civil** (art. 32) y **Red de Alerta Nacional** (art. 12): ambas encuadradas en la Dirección General de Protección Civil y Emergencias, del Ministerio del Interior, cuya estructura repasamos en [Ministerio del Interior y Ministerio de Defensa](/blog/ministerio-del-interior-y-ministerio-de-defensa-estructura).
+
+## Bloque 2: Ley 42/2007 del Patrimonio Natural y de la Biodiversidad
+
+Texto consolidado: [BOE-A-2007-21490](https://www.boe.es/buscar/act.php?id=BOE-A-2007-21490). Su objeto (art. 1) es el régimen jurídico básico de la conservación, uso sostenible, mejora y restauración del patrimonio natural y la biodiversidad, como parte del deber de conservar y del derecho a disfrutar de un medio ambiente adecuado del **artículo 45.2 de la Constitución**.
+
+| Título | Contenido |
+|---|---|
+| Preliminar | Objeto, principios (art. 2), definiciones y deberes de los poderes públicos |
+| II | Catalogación, conservación y restauración de hábitats y espacios: hábitats en peligro, espacios naturales protegidos, Red Natura 2000, otras figuras, inventario e información en el Registro de la Propiedad |
+| III | Conservación de la biodiversidad: conservación *in situ* y *ex situ*, especies exóticas invasoras, caza y pesca continental |
+| IV | Uso sostenible: reservas de la biosfera (Programa MaB), recursos genéticos, comercio internacional de especies y conocimientos tradicionales |
+
+### Lo que más se confunde
+
+- **Cinco categorías de espacios naturales protegidos** (art. 30): **Parques, Reservas Naturales, Áreas Marinas Protegidas, Monumentos Naturales y Paisajes Protegidos**. Los Parques Nacionales se rigen por su legislación específica (art. 31.2).
+- **Red Natura 2000** (art. 42): la forman los **LIC** (Lugares de Importancia Comunitaria) hasta que se transforman en **ZEC** (Zonas Especiales de Conservación), las propias ZEC y las **ZEPA** (Zonas de Especial Protección para las Aves).
+- **Catálogo Español de Especies Amenazadas** (art. 58): dos categorías, **«en peligro de extinción»** y **«vulnerable»**. La primera obliga a un **plan de recuperación en un máximo de tres años**; la segunda, a un **plan de conservación en un máximo de cinco** (art. 59).
+- **Principios** (art. 2): entre otros, la prevalencia de la protección ambiental sobre la ordenación territorial y urbanística y la **precaución** en las intervenciones que puedan afectar a espacios o especies.
+
+Esta ley tiene un vínculo directo con el trabajo del SEPRONA, pero para el examen lo que cuenta es el texto, no la práctica policial.
+
+## Bloque 3: Directiva 2012/27/UE de eficiencia energética
+
+Solo entran los capítulos I y II. Antes de estudiarla, un aviso importante: **la Directiva 2012/27/UE ha sido derogada** con efectos desde el **12 de octubre de 2025** por la Directiva (UE) 2023/1791, que la refunde (art. 38 de esta última, [DO L 231 de 20-9-2023](https://www.boe.es/doue/2023/231/L00001-00111.pdf)). El programa vigente la sigue citando, así que estúdiala como figura en él y comprueba en la próxima convocatoria si el temario se actualiza.
+
+| Capítulo | Artículos | Contenido |
+|---|---|---|
+| I. Objeto, ámbito, definiciones y objetivos | 1 a 3 | Marco común para fomentar la eficiencia energética; objetivo de la Unión de **un 20 % de ahorro para 2020** en su redacción original; objetivos nacionales orientativos |
+| II. Eficiencia del uso de energía | 4 a 13 | Renovación de edificios (4), función ejemplarizante de los edificios públicos (5), adquisiciones públicas (6), sistemas de obligaciones de eficiencia (7), auditorías energéticas (8), contadores (9), facturación (10 y 11), información a consumidores (12) y sanciones (13) |
+
+El dato más conocido del capítulo II: en su versión original, el artículo 5 obligaba a renovar **cada año el 3 %** de la superficie de los edificios con calefacción o refrigeración que tuviera en propiedad y ocupara la Administración central, desde el 1 de enero de 2014. Recuerda que es una **directiva**: obliga a los Estados en cuanto al resultado y estos la transponen; la diferencia con el reglamento la tienes en [la Unión Europea en la oposición](/blog/union-europea-en-la-oposicion-las-instituciones).
+
+## Cómo estudiarlo
+
+1. **Un esquema por norma**, nunca mezclado.
+2. **Empieza por la Ley 17/2015**: es la más ordenada y la más ligada al trabajo del Cuerpo.
+3. **Haz una tabla de «quién hace qué»**: quién declara, quién aprueba, quién preside. Es donde se concentran las confusiones.
+4. **Subraya solo lo que entra** y tacha los títulos fuera de alcance.
+5. **Repasa con espaciado**: este tema se olvida rápido porque no se conecta con otros. Mira [cómo memorizar leyes](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario).
+
+## Errores frecuentes
+
+- Pensar que el **Gobierno** declara la emergencia de interés nacional: la declara el **Ministro del Interior**. El Consejo de Ministros declara la **zona afectada gravemente**.
+- Atribuir a la UME la **dirección** de la emergencia de interés nacional: asume la **dirección operativa**, bajo la dirección del Ministro.
+- Contar **cuatro** categorías de espacios protegidos, olvidando las Áreas Marinas Protegidas.
+- Confundir **ZEC** y **ZEPA**: la ZEPA es la de las aves.
+- Invertir los plazos de los planes: **tres años** para especies en peligro de extinción, **cinco** para vulnerables.
+
+## Test propio de repaso (con soluciones)
+
+Preguntas escritas por ProLince para practicar; no son preguntas oficiales.
+
+1. ¿Quién declara una emergencia de interés nacional? a) El Consejo de Ministros. b) El Presidente del Gobierno. c) El titular del Ministerio del Interior. d) El Consejo Nacional de Protección Civil.
+2. ¿Qué figura NO es una categoría de espacio natural protegido del art. 30 de la Ley 42/2007? a) Monumentos Naturales. b) Paisajes Protegidos. c) Reservas de la Biosfera. d) Áreas Marinas Protegidas.
+3. Los planes de protección civil pueden asignar funciones a las Fuerzas y Cuerpos de Seguridad del Estado: a) Solo con autorización judicial. b) Sin atribuirlas a unidades concretas. c) Designando siempre la unidad. d) Nunca.
+4. La inclusión de una especie como «vulnerable» exige un plan de conservación en un plazo máximo de: a) Un año. b) Tres años. c) Cinco años. d) Diez años.
+5. ¿Quién preside el Consejo Nacional de Protección Civil? a) El Ministro del Interior. b) El Ministro de Defensa. c) El Presidente del Gobierno. d) El Director General de Protección Civil y Emergencias.
+
+**Soluciones:** 1-c (art. 29); 2-c (las reservas de la biosfera están en el título IV, no en el art. 30); 3-b (art. 38.2); 4-c (art. 59.1.b); 5-a (art. 39.2).
+
+Si prefieres trabajar el tema con esquemas y tests ya hechos, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) lo desarrolla dentro de los 23 temas de conocimientos del programa.
+
+## Preguntas frecuentes
+
+### ¿Quién declara una emergencia de interés nacional?
+El titular del Ministerio del Interior, por iniciativa propia o a instancia de las comunidades autónomas o de los Delegados del Gobierno (art. 29 de la Ley 17/2015).
+
+### ¿Entra el régimen sancionador de la Ley 17/2015?
+No. El programa fija los títulos I a V; el régimen sancionador es el título VI.
+
+### ¿Hay que estudiar toda la Ley 42/2007?
+No: solo el título preliminar y los títulos II, III y IV.
+
+### ¿Por qué se estudia una directiva derogada?
+Porque el programa oficial la cita expresamente. La Directiva (UE) 2023/1791 la sustituyó con efectos desde el 12 de octubre de 2025; si una convocatoria futura actualiza el temario, estudia lo que indique esa convocatoria.
+
+### ¿Qué diferencia hay entre emergencia de interés nacional y zona afectada gravemente?
+La primera es una situación de dirección y coordinación de la respuesta, que declara el Ministro del Interior. La segunda es una declaración del Consejo de Ministros para aplicar medidas de recuperación y ayudas.
+
+### ¿La UME dirige las emergencias de interés nacional?
+Asume su dirección operativa, pero actúa bajo la dirección del Ministro del Interior (art. 37.4).',
+   '/blog/proteccion-civil-y-desarrollo-sostenible-en-el-temario.jpg', 'Guardias civiles evacuando a una vecina mayor durante una inundación', 'publicado', '2027-01-05T06:40:00.000Z', 'acceso-guardia-civil',
+   ARRAY['protección civil', 'desarrollo sostenible', 'temario', 'ley 17/2015']::text[], '{"title":"Protección civil Guardia Civil: Ley 17/2015 y tema 16","description":"Tema 16 de Guardia Civil: Ley 17/2015 de Protección Civil, Ley 42/2007 de Patrimonio Natural y Directiva 2012/27/UE. Qué entra, esquemas y test."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
   ('tecnologias-de-la-informacion-en-el-temario-conceptos-que-caen', 'articulo', 'Tecnologías de la información en el temario: qué conceptos estudiar', 'El tema 17 reúne telecomunicaciones, servicios electrónicos de confianza, ciberseguridad e interoperabilidad. Qué partes de cada norma entran, los conceptos clave con su artículo, preguntas oficiales comentadas y un mini test.', '**Respuesta corta:** el tema 17 del programa, *Tecnologías de la información y la comunicación*, no es informática práctica: es un tema normativo con un bloque de buenas prácticas. Tiene cuatro bloques: telecomunicaciones, firma y certificados electrónicos, ciberseguridad (CCN-CERT) e interoperabilidad. No podemos decir qué preguntas saldrán, porque no hay datos oficiales; sí qué partes entran y qué conceptos conviene dominar.
 
 ## Qué entra exactamente
@@ -908,169 +1057,8 @@ No figura en el programa del tema 17. Céntrate en el de Interoperabilidad.
 
 ### ¿Cambia el temario cada año?
 Puede cambiar. Revisa el que cite la convocatoria vigente y los textos consolidados del BOE.',
-   '/blog/tecnologias-de-la-informacion-en-el-temario-conceptos-que-caen.jpg', 'Agentes de la Guardia Civil preparando un dron en un mirador al atardecer', 'publicado', '2027-01-05T06:40:00.000Z', 'acceso-guardia-civil',
+   '/blog/tecnologias-de-la-informacion-en-el-temario-conceptos-que-caen.jpg', 'Agentes de la Guardia Civil preparando un dron en un mirador al atardecer', 'publicado', '2027-01-04T06:23:00.000Z', 'acceso-guardia-civil',
    ARRAY['tecnologías de la información', 'temario', 'ciberseguridad', 'administración electrónica']::text[], '{"title":"Tecnologías de la información en el temario de Guardia Civil","description":"Tema 17 de Guardia Civil: qué partes de cada norma entran, conceptos clave con su artículo, preguntas oficiales comentadas y un mini test con soluciones."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('topografia-para-guardia-civil-escalas-curvas-de-nivel', 'articulo', 'Topografía para Guardia Civil: escalas, curvas de nivel y pendientes', 'El tema 18, Topografía, mezcla conceptos sencillos con cuentas fáciles de fallar. Escalas, unidades angulares, curvas de nivel, pendientes, coordenadas y acimut, con ejemplos resueltos, dos preguntas oficiales y un mini test.', '**Respuesta corta:** el tema 18 del programa, Topografía, cabe en un párrafo del temario oficial: elementos geográficos, unidades de medida y representación del terreno. Casi todo se reduce a seis ideas: escala, unidades angulares, curvas de nivel, pendiente, coordenadas y orientación. Con tres fórmulas y práctica, es de los temas más asequibles; el riesgo está en las cuentas, no en la teoría.
-
-## Qué dice exactamente el programa
-
-El [temario oficial](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf) de la Guardia Civil enumera para este tema:
-
-- **Elementos geográficos:** eje terrestre, polos, meridiano, paralelo, ecuador, puntos cardinales, coordenadas geográficas, acimut y rumbo.
-- **Unidades geométricas de medida:** unidades lineales, escalas numérica y gráfica, unidades angulares.
-- **Representación del terreno:** planimetría y altimetría, clases de terreno, accidentes del terreno, sistema de planos acotados, pendiente entre dos puntos.
-
-No hay una norma que estudiar, así que tu material de referencia será un manual de topografía. Tienes el resumen de los 23 temas en nuestro [temario](/temario-guardia-civil). Los ejemplos de este artículo son propios, salvo las dos preguntas oficiales que se indican.
-
-## Elementos geográficos
-
-- **Eje terrestre:** línea imaginaria sobre la que gira la Tierra; corta la superficie en los **polos** norte y sur.
-- **Meridiano:** semicírculo que va de polo a polo. El de referencia es el de Greenwich (0°).
-- **Paralelo:** círculo perpendicular al eje. El **ecuador** es el paralelo máximo (0°) y divide la Tierra en dos hemisferios.
-- **Coordenadas geográficas:** la **latitud** es la distancia angular al ecuador (de 0° a 90°, norte o sur) y la **longitud**, la distancia angular al meridiano de Greenwich (de 0° a 180°, este u oeste).
-- **Puntos cardinales:** norte, sur, este y oeste.
-
-## Escalas
-
-La escala relaciona una distancia en el mapa con la real. En 1:50.000, **1 cm del mapa son 50.000 cm del terreno, es decir, 500 m**.
-
-| Escala | 1 cm en el mapa | 4 cm en el mapa |
-| --- | --- | --- |
-| 1:10.000 | 100 m | 400 m |
-| 1:25.000 | 250 m | 1 km |
-| 1:50.000 | 500 m | 2 km |
-
-- **Mayor escala = más detalle**, y es la del denominador más pequeño: 1:25.000 es mayor que 1:50.000.
-- La escala **numérica** es la fracción (1:50.000); la **gráfica**, una regla dibujada en el mapa que sigue siendo válida aunque fotocopies el mapa ampliado o reducido.
-
-### Ejemplos resueltos
-
-1. **Pregunta oficial (prueba de 2026, modelo A, n.º 84):** dos puntos están a 500 m en el terreno; ¿qué separación tienen en un plano 1:25.000? 500 m = 50.000 cm; 50.000 / 25.000 = **2 cm**. Es la respuesta a) según la plantilla oficial.
-2. Mides **7,4 cm** en un mapa 1:50.000. Real: 7,4 × 50.000 = 370.000 cm = **3,7 km**.
-3. Quieres dibujar **1,2 km** en un mapa 1:25.000. 1,2 km = 120.000 cm; 120.000 / 25.000 = **4,8 cm**.
-4. En un mapa sin escala, 3 cm equivalen a 1,5 km. 1,5 km = 150.000 cm; 150.000 / 3 = 50.000: escala **1:50.000**.
-
-Truco: pasa siempre todo a centímetros antes de dividir. La mayoría de los errores son ceros que se pierden.
-
-## Unidades angulares
-
-| Sistema | Circunferencia completa | Ángulo recto | Subdivisiones |
-| --- | --- | --- | --- |
-| Sexagesimal | 360° | 90° | 1° = 60 minutos; 1 minuto = 60 segundos |
-| Centesimal | 400ᵍ | 100ᵍ | 1ᵍ = 100 minutos centesimales; 1 minuto = 100 segundos |
-| Radianes | 2π rad | π/2 rad | 1 rad ≈ 57,3° |
-
-- El **radián** es el ángulo cuyo arco mide lo mismo que el radio.
-- La **milésima** se define como la milésima parte del radián, así que una circunferencia tiene unas 6.283. En la práctica militar se usa una milésima convencional de **6.400 por circunferencia** (1.600 en un ángulo recto). Mira cuál usa tu material y no las mezcles.
-- Conversiones rápidas: 1ᵍ = 0,9°; 54° = 60ᵍ; 45° = 50ᵍ.
-
-La pregunta 85 del modelo A de 2026 pedía señalar la definición incorrecta de unidades de medida; la plantilla oficial da como respuesta la del grado centesimal que dividía la circunferencia «en 100 partes»: son **400**. Es justo el tipo de trampa que conviene tener automatizada.
-
-## Planimetría, altimetría y planos acotados
-
-La **planimetría** representa sobre un plano los detalles del terreno prescindiendo de su relieve (ríos, caminos, poblaciones); así se definía en la pregunta 91 del modelo 1A de 2022. La **altimetría** representa el relieve, es decir, las alturas. El **sistema de planos acotados** proyecta el terreno sobre un plano horizontal e indica la altura de los puntos con su **cota**; las curvas de nivel son su aplicación más conocida.
-
-## Curvas de nivel
-
-Una curva de nivel une puntos de **igual altitud**. La diferencia de altura entre dos curvas consecutivas es la **equidistancia**, que figura en el margen del mapa. En el Mapa Topográfico Nacional suele ser de 10 m en 1:25.000 y de 20 m en 1:50.000, pero en el examen manda siempre el dato del enunciado.
-
-Reglas de lectura:
-
-- **Curvas juntas:** terreno empinado. **Separadas:** terreno suave.
-- **Curvas cerradas y concéntricas:** una elevación o una depresión; las cotas te dicen cuál.
-- **Curvas en V o en U:** si el vértice apunta hacia cotas más altas, es una **vaguada** (las dos laderas se unen por abajo y por ahí corre el agua); si apunta hacia cotas más bajas, es una **divisoria** o espolón (las laderas se unen por arriba).
-- **Collado:** zona más baja entre dos elevaciones, por donde se pasa de una vertiente a otra; los manuales lo describen como el lugar donde se encuentran dos vaguadas y dos divisorias.
-- Las curvas **no se cruzan**, salvo en un voladizo, caso excepcional.
-
-### Interpolar una cota: pregunta oficial resuelta
-
-**Prueba de 2022 (modelo 1A, n.º 93):** dos curvas consecutivas A (440 m) y B, con equidistancia de 20 m y pendiente constante, están separadas 6 mm en el plano. Un punto P está a 2,7 mm de A. ¿Cuál es su cota?
-
-- B es la curva de mayor cota: 440 + 20 = 460 m.
-- P está a 2,7 / 6 = 0,45 del camino entre A y B.
-- Sube 0,45 × 20 = 9 m.
-- Cota de P = 440 + 9 = **449 m** (opción d).
-
-## Pendiente
-
-**Pendiente (%) = desnivel / distancia horizontal × 100**
-
-1. Subes 50 m en 500 m horizontales: 50 / 500 = 0,10 → **10 %**. En grados son unos 5,7°: el porcentaje y los grados no son lo mismo, y una pendiente del 100 % equivale a 45°.
-2. Entre las curvas de 440 y 460 m del ejemplo anterior, separadas 6 mm en un mapa 1:25.000: distancia real = 6 × 25.000 = 150.000 mm = 150 m. Pendiente = 20 / 150 = 0,133 → **13,3 %**.
-3. Punto A a 620 m y punto B a 780 m, separados 4 cm en un mapa 1:50.000: distancia = 4 × 50.000 = 200.000 cm = 2.000 m; desnivel = 160 m; pendiente = 160 / 2.000 = **8 %**.
-
-Si te dan la distancia medida en el mapa, **conviértela con la escala antes de dividir**.
-
-## Coordenadas UTM (para leer mapas)
-
-El temario cita las coordenadas geográficas, pero los mapas topográficos españoles traen también la cuadrícula **UTM**. El mundo se divide en **60 husos de 6°** de longitud, numerados hacia el este desde el antimeridiano de Greenwich; la Península queda en los husos 29, 30 y 31, y Canarias se representa en el 28. Las coordenadas se dan en metros: primero la X (este) y luego la Y (norte). El sistema geodésico oficial en España es el ETRS89, fijado por el [Real Decreto 1071/2007](https://www.boe.es/buscar/act.php?id=BOE-A-2007-15822).
-
-## Orientación: acimut, contraacimut y rumbo
-
-- **Acimut:** ángulo que forma una dirección con el norte, medido en sentido horario de 0° a 360°. Este = 90°, sur = 180°, oeste = 270°.
-- **Contraacimut:** el acimut ± 180°. De 70° sale 250°; de 300°, 120°.
-- **Rumbo:** el término tiene definiciones distintas según el manual (en muchos se mide respecto al norte magnético; en otros es un ángulo de 0° a 90° desde el norte o el sur). Apréndete la de tu material y no la mezcles con otra.
-- **Declinación magnética:** diferencia entre el norte geográfico y el magnético. Varía con el lugar y con los años; el mapa trae el dato.
-
-## Errores frecuentes
-
-- Confundir «escala mayor» con «denominador mayor».
-- Dividir metros entre la escala sin pasarlos a centímetros.
-- Calcular la pendiente con la distancia del mapa sin convertir.
-- Sumar la equidistancia hacia el lado equivocado al interpolar: mira qué curva es la más alta.
-- Usar 100ᵍ como circunferencia completa (es el ángulo recto).
-
-## Mini test (preguntas propias)
-
-1. En un mapa 1:25.000 mides 3,2 cm. ¿Cuál es la distancia real?
-   a) 80 m · b) 800 m · c) 8 km · d) 320 m
-2. ¿Cuál de estas escalas es mayor?
-   a) 1:50.000 · b) 1:25.000 · c) 1:10.000 · d) Todas son iguales
-3. El contraacimut de 135° es:
-   a) 45° · b) 225° · c) 315° · d) 270°
-4. 50ᵍ equivalen a:
-   a) 45° · b) 50° · c) 55° · d) 90°
-5. Un camino sube 30 m en 600 m horizontales. Su pendiente es:
-   a) 0,5 % · b) 5 % · c) 20 % · d) 50 %
-6. Equidistancia de 10 m. Un punto está entre las curvas de 300 y 310 m, a tres cuartas partes del camino desde la de 300. Su cota es:
-   a) 302,5 m · b) 305 m · c) 307,5 m · d) 310 m
-
-**Soluciones:** 1 b (3,2 × 25.000 = 80.000 cm = 800 m). 2 c (el denominador más pequeño). 3 c (135 + 180). 4 a (50 × 0,9). 5 b (30 / 600 = 0,05). 6 c (300 + 0,75 × 10).
-
-## Cómo estudiarlo
-
-Haz ejercicios con un mapa real (el Instituto Geográfico Nacional ofrece cartografía gratuita), repasa las fórmulas con repasos espaciados y practica con tests. Cómo encaja en la prueba lo tienes en [el examen de conocimientos por dentro](/blog/examen-conocimientos-guardia-civil-estructura), y cuánto tiempo darle, en [las horas de estudio](/blog/cuantas-horas-al-dia-hay-que-estudiar-para-la-guardia-civil). Puedes practicar en el [test online](/test-guardia-civil) y el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye este tema.
-
-## Preguntas frecuentes
-
-### ¿Hace falta llevar calculadora o brújula?
-No. La prueba de conocimientos es un test escrito; consulta en la convocatoria vigente qué material se permite. Las cuentas de este tema se hacen a mano.
-
-### ¿Qué fórmulas debo saberme sí o sí?
-La conversión de escala, la pendiente y la interpolación entre curvas. Más las equivalencias de las unidades angulares.
-
-### ¿Entran las coordenadas UTM?
-El programa habla de coordenadas geográficas. La UTM ayuda a leer mapas, pero prioriza lo que dice el temario.
-
-### ¿Qué hago si mi material da otra equidistancia?
-Fíate del dato del mapa o del enunciado, nunca de lo que recuerdes.
-
-### ¿Cuántas preguntas hay de topografía?
-No hay un reparto oficial por temas. En las pruebas de 2022 y 2026 aparecieron preguntas identificadas como «Topografía», pero eso no permite predecir cuántas habrá.
-
-### ¿Se puede estudiar solo con teoría?
-Mejor no: dos mapas y un lápiz valen más que una semana de resúmenes.',
-   NULL, NULL, 'publicado', '2027-01-03T06:06:00.000Z', 'acceso-guardia-civil',
-   ARRAY['topografía', 'temario', 'escalas', 'curvas de nivel']::text[], '{"title":"Topografía Guardia Civil: escalas, curvas y pendientes","description":"Tema 18 de Guardia Civil: escalas, unidades angulares, curvas de nivel, pendientes y acimut, con ejemplos resueltos, preguntas oficiales y mini test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

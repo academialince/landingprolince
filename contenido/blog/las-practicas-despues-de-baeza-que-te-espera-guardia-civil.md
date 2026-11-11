@@ -3,7 +3,7 @@ titulo: Las prácticas después de Baeza: qué te espera en el segundo curso
 slug: las-practicas-despues-de-baeza-que-te-espera-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-21T07:12:00+01:00
+publicado_en: 2027-01-08T07:31:00+01:00
 curso: acceso-guardia-civil
 entradilla: El segundo curso son 40 semanas en una unidad real, con tutor, formación a distancia y evaluación de apto o no apto. Qué recogen el plan de estudios, el Reglamento de destinos y el de enseñanza sobre las prácticas y qué pasa al terminarlas.
 etiquetas: [prácticas, baeza, servicio operativo, segundo curso]

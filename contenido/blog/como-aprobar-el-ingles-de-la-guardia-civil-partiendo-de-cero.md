@@ -3,7 +3,7 @@ titulo: "Cómo aprobar el inglés de la Guardia Civil partiendo de cero"
 slug: como-aprobar-el-ingles-de-la-guardia-civil-partiendo-de-cero
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-15T07:30:00+01:00
+publicado_en: 2027-01-26T07:37:00+01:00
 curso: acceso-guardia-civil
 entradilla: Si tu inglés es casi inexistente, la prueba de 20 preguntas de nivel ESO sigue siendo alcanzable con constancia y un orden de trabajo claro. Un plan por fases, qué priorizar, ejercicios de arranque y cómo medir tu avance sin promesas milagrosas.
 etiquetas: [inglés, desde cero, plan de estudio, examen]

@@ -3,7 +3,7 @@ titulo: Armas y explosivos en el temario de la Guardia Civil
 slug: armas-y-explosivos-en-el-temario-de-la-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-29T07:41:00+01:00
+publicado_en: 2027-02-11T07:09:00+01:00
 curso: acceso-guardia-civil
 entradilla: El tema 22 se apoya en dos reglamentos: el de Armas (RD 137/1993) y el de Explosivos (RD 130/2017). Categorías de armas, armas prohibidas, guías de pertenencia, licencias y tarjetas, y claves del control de explosivos, con tablas, caso práctico y test.
 etiquetas: [armas, explosivos, tema 22, reglamentos]

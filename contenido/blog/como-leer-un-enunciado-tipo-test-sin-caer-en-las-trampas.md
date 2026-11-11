@@ -3,7 +3,7 @@ titulo: Cómo leer un enunciado tipo test para reducir los errores de lectura
 slug: como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-11T07:09:00+01:00
+publicado_en: 2027-01-31T07:02:00+01:00
 curso: acceso-guardia-civil
 entradilla: Muchos fallos del test no son de temario, sino de lectura: un «excepto» pasado por alto, una doble negación o una opción más completa que otra. Un método de lectura en cinco pasos, ejemplos propios resueltos y cómo entrenarlo en tus simulacros.
 etiquetas: [test, técnica de examen, lectura, penalización]

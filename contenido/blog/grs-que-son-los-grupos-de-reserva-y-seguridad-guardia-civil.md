@@ -3,7 +3,7 @@ titulo: GRS: qué son los Grupos de Reserva y Seguridad de la Guardia Civil
 slug: grs-que-son-los-grupos-de-reserva-y-seguridad-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-27T07:54:00+01:00
+publicado_en: 2027-01-14T07:13:00+01:00
 curso: acceso-guardia-civil
 entradilla: Los GRS son la fuerza de reserva de la Guardia Civil: refuerzan a otras unidades, garantizan la seguridad en grandes concentraciones y apoyan en catástrofes. Qué hacen, cómo se organizan y cómo se llega a ellos según la Orden PCM/509/2020.
 etiquetas: [grs, especialidades, destinos, reserva y seguridad]

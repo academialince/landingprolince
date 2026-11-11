@@ -3,7 +3,7 @@ titulo: Derecho fiscal en la oposición: contrabando y aduanas, las normas que e
 slug: derecho-fiscal-en-la-oposicion-hacienda-contrabando
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-09T07:48:00+01:00
+publicado_en: 2027-01-21T07:12:00+01:00
 curso: acceso-guardia-civil
 entradilla: El tema 23 no es la Ley General Tributaria: es la represión del contrabando y el Código Aduanero de la Unión. Qué normas y títulos entran, los umbrales que separan delito e infracción, ejemplos resueltos y un mini test.
 etiquetas: [derecho fiscal, contrabando, aduanas, temario]

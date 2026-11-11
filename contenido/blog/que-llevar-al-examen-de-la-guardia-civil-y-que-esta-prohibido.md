@@ -3,7 +3,7 @@ titulo: Qué llevar al examen de la Guardia Civil y qué está prohibido
 slug: que-llevar-al-examen-de-la-guardia-civil-y-que-esta-prohibido
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-10T07:05:00+01:00
+publicado_en: 2027-01-30T07:45:00+01:00
 curso: acceso-guardia-civil
 entradilla: Bolígrafo negro y DNI sí; móviles, relojes o gafas inteligentes, diccionarios y calculadoras no. Lo que dice la convocatoria de 2026 para cada prueba, qué pasa si lo incumples y una lista para la víspera.
 etiquetas: [examen, normas del examen, material permitido, convocatoria]

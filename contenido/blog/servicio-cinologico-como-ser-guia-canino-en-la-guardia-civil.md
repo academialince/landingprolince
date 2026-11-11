@@ -3,7 +3,7 @@ titulo: Servicio Cinológico: qué hace un guía canino de la Guardia Civil y c�
 slug: servicio-cinologico-como-ser-guia-canino-en-la-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-30T07:45:00+01:00
+publicado_en: 2027-01-15T07:30:00+01:00
 curso: acceso-guardia-civil
 entradilla: Seguridad y rescate, drogas y explosivos: así trabajan los guías de perros de la Guardia Civil. Qué es el Servicio Cinológico, qué cursos imparte el CAPEDE y qué exige la normativa para obtener la especialidad.
 etiquetas: [guía canino, servicio cinológico, especialidades, capede]

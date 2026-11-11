@@ -3,7 +3,7 @@ titulo: Procedimiento administrativo (Ley 39/2015) en 10 claves
 slug: procedimiento-administrativo-ley-39-2015-en-10-claves
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-18T07:34:00+01:00
+publicado_en: 2026-12-19T07:51:00+01:00
 curso: acceso-guardia-civil
 entradilla: Diez ideas para ordenar la Ley 39/2015 del Procedimiento Administrativo Común: interesados, relación electrónica, plazos, silencio, notificaciones, nulidad y recursos. Con cifras comprobadas en el BOE, casos prácticos y un test propio.
 etiquetas: [procedimiento administrativo, Ley 39/2015, plazos, recursos, derecho administrativo]

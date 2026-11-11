@@ -156,7 +156,7 @@ Diez con carácter general; cinco para refugiados; dos para iberoamericanos, and
 
 ### ¿Es lo mismo el Registro Civil que el Código Civil?
 No. El Código menciona el Registro Civil en varios artículos (por ejemplo, el 300), pero su regulación está en otra ley. Comprueba qué normas entran en tu convocatoria.',
-   '/blog/derecho-civil-en-la-oposicion-a-guardia-civil.jpg', 'Opositor subrayando de noche un código grueso lleno de pestañas de colores junto a un flexo', 'publicado', '2026-12-15T06:43:00.000Z', 'acceso-guardia-civil',
+   '/blog/derecho-civil-en-la-oposicion-a-guardia-civil.jpg', 'Opositor subrayando de noche un código grueso lleno de pestañas de colores junto a un flexo', 'publicado', '2026-12-11T06:35:00.000Z', 'acceso-guardia-civil',
    ARRAY['Derecho Civil', 'Código Civil', 'temario', 'nacionalidad']::text[], '{"title":"Derecho Civil para la oposición: Título Preliminar y Libro I","description":"Derecho Civil para Guardia Civil: fuentes del Derecho, vigencia de las leyes, nacionalidad, matrimonio, mayoría de edad y apoyos, con casos y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -669,7 +669,7 @@ Que sus normas promoverán la igualdad efectiva en el acceso, la formación, los
 
 ### ¿Hay que saberse toda la ley?
 Solo lo que fija el programa vigente; el Capítulo II del Título II, por ejemplo, queda fuera.',
-   '/blog/igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley.jpg', 'Una guardia civil y un guardia civil revisando un parte sobre el capó del coche patrulla al amanecer', 'publicado', '2026-12-11T06:35:00.000Z', 'acceso-guardia-civil',
+   '/blog/igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley.jpg', 'Una guardia civil y un guardia civil revisando un parte sobre el capó del coche patrulla al amanecer', 'publicado', '2026-12-13T06:09:00.000Z', 'acceso-guardia-civil',
    ARRAY['igualdad', 'LO 3/2007', 'temario', 'discriminación']::text[], '{"title":"Ley de Igualdad LO 3/2007: claves para la oposición","description":"LO 3/2007 de igualdad efectiva: discriminación directa e indirecta, acoso, acciones positivas, regla 60/40, planes de igualdad y Guardia Civil. Con test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -973,7 +973,7 @@ La Ley reconoce el derecho a interrumpir la actividad y abandonar el lugar de tr
 
 ### ¿Hay datos oficiales de cuántas preguntas hay de este tema?
 No. Las bases no desglosan preguntas por tema; lo prudente es estudiarlo completo.',
-   '/blog/prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra.jpg', 'Guardias civiles con chaleco reflectante evacuando vehículos entre el humo de un incendio', 'publicado', '2026-12-12T06:52:00.000Z', 'acceso-guardia-civil',
+   '/blog/prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra.jpg', 'Guardias civiles con chaleco reflectante evacuando vehículos entre el humo de un incendio', 'publicado', '2026-12-15T06:43:00.000Z', 'acceso-guardia-civil',
    ARRAY['prevención de riesgos laborales', 'Ley 31/1995', 'Real Decreto 179/2005', 'temario']::text[], '{"title":"Prevención de riesgos laborales Guardia Civil: temario","description":"Tema de prevención de riesgos laborales: Ley 31/1995 (caps. I, II, III, VI y VII), RD 67/2010 y RD 179/2005 de la Guardia Civil, con casos y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1114,7 +1114,7 @@ El mismo valor jurídico que los Tratados (art. 6.1 TUE).
 
 ### ¿Son estos datos preguntas del examen?
 Son contenidos de los Tratados. No hay datos oficiales de qué preguntas se formularán, así que conviene estudiar el tema completo.',
-   '/blog/union-europea-en-la-oposicion-las-instituciones.jpg', 'Opositor subrayando apuntes junto a un mapa de Europa y banderas de la Unión Europea', 'publicado', '2026-12-13T06:09:00.000Z', 'acceso-guardia-civil',
+   '/blog/union-europea-en-la-oposicion-las-instituciones.jpg', 'Opositor subrayando apuntes junto a un mapa de Europa y banderas de la Unión Europea', 'publicado', '2026-12-12T06:52:00.000Z', 'acceso-guardia-civil',
    ARRAY['Unión Europea', 'instituciones', 'Derecho de la UE', 'temario']::text[], '{"title":"Instituciones de la Unión Europea: guía para la oposición","description":"Las siete instituciones de la UE (art. 13 TUE), mandatos, mayoría cualificada, competencias, reglamento y directiva, y el espacio de libertad y seguridad."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

@@ -3,7 +3,7 @@ titulo: Derecho Civil en la oposición a Guardia Civil: lo que conviene saber
 slug: derecho-civil-en-la-oposicion-a-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-15T07:43:00+01:00
+publicado_en: 2026-12-11T07:35:00+01:00
 curso: acceso-guardia-civil
 entradilla: El tema 7 es el Título Preliminar y el Libro I del Código Civil. Te lo ordenamos: fuentes del Derecho, vigencia de las leyes, nacionalidad, personalidad, domicilio, matrimonio, filiación, patria potestad, mayoría de edad y apoyos, con test propio.
 etiquetas: [Derecho Civil, Código Civil, temario, nacionalidad]

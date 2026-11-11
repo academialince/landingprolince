@@ -3,7 +3,7 @@ titulo: Series numéricas del psicotécnico: los patrones que más se repiten
 slug: series-numericas-psicotecnico-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-25T07:03:00+01:00
+publicado_en: 2026-11-23T07:29:00+01:00
 curso: acceso-guardia-civil
 entradilla: Las series numéricas se resuelven reconociendo patrones, no a base de cálculo. Los esquemas que explican la mayoría de ejercicios, con ejemplos resueltos, una batería de práctica con soluciones y un método para no perder más de unos segundos en cada una.
 etiquetas: [psicotécnico, series numéricas, aptitudes, razonamiento]

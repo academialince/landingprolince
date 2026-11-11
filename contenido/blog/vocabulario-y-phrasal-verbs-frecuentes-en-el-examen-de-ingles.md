@@ -3,7 +3,7 @@ titulo: "Vocabulario y phrasal verbs útiles para el examen de inglés"
 slug: vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-14T07:13:00+01:00
+publicado_en: 2027-01-25T07:20:00+01:00
 curso: acceso-guardia-civil
 entradilla: Con 20 preguntas de nivel ESO no hace falta un vocabulario enorme, sino el cotidiano bien asentado. Phrasal verbs comunes, verbos con preposición, pares que se confunden, un método para memorizar y un test resuelto.
 etiquetas: [inglés, vocabulario, phrasal verbs, examen]

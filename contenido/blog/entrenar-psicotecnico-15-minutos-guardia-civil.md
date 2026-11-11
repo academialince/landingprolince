@@ -3,7 +3,7 @@ titulo: Cómo entrenar el psicotécnico en 15 minutos al día
 slug: entrenar-psicotecnico-15-minutos-guardia-civil
 tipo: guia
 estado: publicado
-publicado_en: 2026-11-29T07:11:00+01:00
+publicado_en: 2026-11-27T07:37:00+01:00
 curso: acceso-guardia-civil
 entradilla: El psicotécnico se entrena mejor en sesiones cortas y constantes que en maratones. Una rutina de quince minutos al día, la nota que necesitas de verdad (con los números de la convocatoria), un plan por fases y cómo medir tu progreso.
 etiquetas: [psicotécnico, rutina, entrenamiento, aptitudes]

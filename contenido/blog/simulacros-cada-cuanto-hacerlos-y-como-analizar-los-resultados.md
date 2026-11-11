@@ -3,7 +3,7 @@ titulo: Simulacros: cada cuánto hacerlos y cómo analizar los resultados
 slug: simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-08T07:31:00+01:00
+publicado_en: 2027-01-22T07:29:00+01:00
 curso: acceso-guardia-civil
 entradilla: Un simulacro que no se analiza es tiempo perdido. Qué frecuencia te conviene en cada fase, cómo calcular la nota con la fórmula oficial, cuándo compensa arriesgar y una hoja de análisis para saber exactamente qué repasar.
 etiquetas: [simulacros, test, nota, análisis de resultados]

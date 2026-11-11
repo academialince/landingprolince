@@ -3,7 +3,7 @@ titulo: Plazas reservadas para militares: cómo funciona el cupo
 slug: plazas-reservadas-para-militares-como-funciona-el-cupo
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-07T07:01:00+01:00
+publicado_en: 2027-02-06T07:44:00+01:00
 curso: acceso-guardia-civil
 entradilla: En 2026, 1.296 de las 3.240 plazas de la Escala de Cabos y Guardias se reservaron a militares de tropa y marinería. Qué exige el cupo, de dónde sale la cifra, qué certificado se presenta y cómo puntúa en el baremo.
 etiquetas: [militares, tropa y marinería, cupo, plazas reservadas]

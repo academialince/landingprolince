@@ -1,902 +1,902 @@
 [
- {
-  "i": 0,
-  "fecha": "2026-11-11",
-  "publicado_en": "2026-11-11T07:05:00+01:00",
-  "semana": 1,
-  "bloque": "Semana 1 · Requisitos y médico (escrita)",
-  "slug": "edad-maxima-guardia-civil",
-  "titulo": "Edad máxima para ser Guardia Civil: de 18 a 40 y cómo se cuenta"
- },
- {
-  "i": 1,
-  "fecha": "2026-11-12",
-  "publicado_en": "2026-11-12T07:22:00+01:00",
-  "semana": 1,
-  "bloque": "Semana 1 · Requisitos y médico (escrita)",
-  "slug": "cuadro-medico-exclusiones-guardia-civil",
-  "titulo": "Cuadro médico de exclusiones de la Guardia Civil explicado"
- },
- {
-  "i": 2,
-  "fecha": "2026-11-13",
-  "publicado_en": "2026-11-13T07:39:00+01:00",
-  "semana": 1,
-  "bloque": "Semana 1 · Requisitos y médico (escrita)",
-  "slug": "altura-minima-guardia-civil",
-  "titulo": "Altura mínima Guardia Civil: por qué ya no se exige"
- },
- {
-  "i": 3,
-  "fecha": "2026-11-14",
-  "publicado_en": "2026-11-14T07:56:00+01:00",
-  "semana": 1,
-  "bloque": "Semana 1 · Requisitos y médico (escrita)",
-  "slug": "gafas-miopia-operacion-vista-guardia-civil",
-  "titulo": "¿Puedo ser Guardia Civil con gafas, miopía o si me he operado la vista?"
- },
- {
-  "i": 4,
-  "fecha": "2026-11-15",
-  "publicado_en": "2026-11-15T07:13:00+01:00",
-  "semana": 1,
-  "bloque": "Semana 1 · Requisitos y médico (escrita)",
-  "slug": "lentes-intraoculares-guardia-civil",
-  "titulo": "Lentes intraoculares y Guardia Civil: qué cambió con el Supremo"
- },
- {
-  "i": 5,
-  "fecha": "2026-11-16",
-  "publicado_en": "2026-11-16T07:30:00+01:00",
-  "semana": 1,
-  "bloque": "Semana 1 · Requisitos y médico (escrita)",
-  "slug": "guardia-civil-o-policia-nacional",
-  "titulo": "Guardia Civil o Policía Nacional: diferencias para elegir oposición"
- },
- {
-  "i": 6,
-  "fecha": "2026-11-17",
-  "publicado_en": "2026-11-17T07:47:00+01:00",
-  "semana": 1,
-  "bloque": "Semana 1 · Requisitos y médico (escrita)",
-  "slug": "nota-de-corte-guardia-civil",
-  "titulo": "Nota de corte de la Guardia Civil: cómo funciona y por qué no hay una sola cifra"
- },
- {
-  "i": 7,
-  "fecha": "2026-11-18",
-  "publicado_en": "2026-11-18T07:04:00+01:00",
-  "semana": 2,
-  "bloque": "Semana 2 · Pruebas físicas a fondo (escrita)",
-  "slug": "carrera-2000-metros-guardia-civil",
-  "titulo": "Carrera de 2.000 metros en la Guardia Civil: plan para bajar tu marca"
- },
- {
-  "i": 8,
-  "fecha": "2026-11-19",
-  "publicado_en": "2026-11-19T07:21:00+01:00",
-  "semana": 2,
-  "bloque": "Semana 2 · Pruebas físicas a fondo (escrita)",
-  "slug": "circuito-agilidad-coordinacion-guardia-civil",
-  "titulo": "Circuito de agilidad y coordinación de la Guardia Civil: técnica paso a paso"
- },
- {
-  "i": 9,
-  "fecha": "2026-11-20",
-  "publicado_en": "2026-11-20T07:38:00+01:00",
-  "semana": 2,
-  "bloque": "Semana 2 · Pruebas físicas a fondo (escrita)",
-  "slug": "extensiones-de-brazos-guardia-civil",
-  "titulo": "Extensiones de brazos en la Guardia Civil: de cero a la marca"
- },
- {
-  "i": 10,
-  "fecha": "2026-11-21",
-  "publicado_en": "2026-11-21T07:55:00+01:00",
-  "semana": 2,
-  "bloque": "Semana 2 · Pruebas físicas a fondo (escrita)",
-  "slug": "natacion-50-metros-guardia-civil",
-  "titulo": "Natación 50 metros Guardia Civil: aprender a nadar para la oposición desde cero"
- },
- {
-  "i": 11,
-  "fecha": "2026-11-22",
-  "publicado_en": "2026-11-22T07:12:00+01:00",
-  "semana": 2,
-  "bloque": "Semana 2 · Pruebas físicas a fondo (escrita)",
-  "slug": "certificado-medico-pruebas-fisicas-guardia-civil",
-  "titulo": "Certificado médico para las pruebas físicas: qué debe decir y cuándo pedirlo"
- },
- {
-  "i": 12,
-  "fecha": "2026-11-23",
-  "publicado_en": "2026-11-23T07:29:00+01:00",
-  "semana": 2,
-  "bloque": "Semana 2 · Pruebas físicas a fondo (escrita)",
-  "slug": "entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil",
-  "titulo": "Entrenar y estudiar a la vez: cómo organizar la semana para rendir en las dos cosas"
- },
- {
-  "i": 13,
-  "fecha": "2026-11-24",
-  "publicado_en": "2026-11-24T07:46:00+01:00",
-  "semana": 2,
-  "bloque": "Semana 2 · Pruebas físicas a fondo (escrita)",
-  "slug": "lesiones-pruebas-fisicas-guardia-civil",
-  "titulo": "Lesiones típicas al preparar las pruebas físicas de la Guardia Civil y cómo evitarlas"
- },
- {
-  "i": 14,
-  "fecha": "2026-11-25",
-  "publicado_en": "2026-11-25T07:03:00+01:00",
-  "semana": 3,
-  "bloque": "Semana 3 · Psicotécnico y entrevista (escrita)",
-  "slug": "series-numericas-psicotecnico-guardia-civil",
-  "titulo": "Series numéricas del psicotécnico: los patrones que más se repiten"
- },
- {
-  "i": 15,
-  "fecha": "2026-11-26",
-  "publicado_en": "2026-11-26T07:20:00+01:00",
-  "semana": 3,
-  "bloque": "Semana 3 · Psicotécnico y entrevista (escrita)",
-  "slug": "razonamiento-verbal-psicotecnico-guardia-civil",
-  "titulo": "Razonamiento verbal en el psicotécnico: sinónimos, antónimos y analogías"
- },
- {
-  "i": 16,
-  "fecha": "2026-11-27",
-  "publicado_en": "2026-11-27T07:37:00+01:00",
-  "semana": 3,
-  "bloque": "Semana 3 · Psicotécnico y entrevista (escrita)",
-  "slug": "aptitud-espacial-psicotecnico-guardia-civil",
-  "titulo": "Aptitud espacial en el psicotécnico: cómo resolver cubos, giros y figuras"
- },
- {
-  "i": 17,
-  "fecha": "2026-11-28",
-  "publicado_en": "2026-11-28T07:54:00+01:00",
-  "semana": 3,
-  "bloque": "Semana 3 · Psicotécnico y entrevista (escrita)",
-  "slug": "test-personalidad-guardia-civil",
-  "titulo": "Test de personalidad de la Guardia Civil: cómo responder con coherencia"
- },
- {
-  "i": 18,
-  "fecha": "2026-11-29",
-  "publicado_en": "2026-11-29T07:11:00+01:00",
-  "semana": 3,
-  "bloque": "Semana 3 · Psicotécnico y entrevista (escrita)",
-  "slug": "entrenar-psicotecnico-15-minutos-guardia-civil",
-  "titulo": "Cómo entrenar el psicotécnico en 15 minutos al día"
- },
- {
-  "i": 19,
-  "fecha": "2026-11-30",
-  "publicado_en": "2026-11-30T07:28:00+01:00",
-  "semana": 3,
-  "bloque": "Semana 3 · Psicotécnico y entrevista (escrita)",
-  "slug": "cuestionario-biodata-guardia-civil",
-  "titulo": "Cuestionario BIODATA de la Guardia Civil: qué es y cómo rellenarlo"
- },
- {
-  "i": 20,
-  "fecha": "2026-12-01",
-  "publicado_en": "2026-12-01T07:45:00+01:00",
-  "semana": 3,
-  "bloque": "Semana 3 · Psicotécnico y entrevista (escrita)",
-  "slug": "competencias-entrevista-personal-guardia-civil",
-  "titulo": "Las seis competencias de la entrevista personal de la Guardia Civil y cómo demostrarlas"
- },
- {
-  "i": 21,
-  "fecha": "2026-12-02",
-  "publicado_en": "2026-12-02T07:02:00+01:00",
-  "semana": 4,
-  "bloque": "Semana 4 · Ortografía, gramática y Constitución (escrita)",
-  "slug": "tildes-reglas-oposicion-guardia-civil",
-  "titulo": "Tildes en la oposición a Guardia Civil: las reglas que más fallan los opositores"
- },
- {
-  "i": 22,
-  "fecha": "2026-12-03",
-  "publicado_en": "2026-12-03T07:19:00+01:00",
-  "semana": 4,
-  "bloque": "Semana 4 · Ortografía, gramática y Constitución (escrita)",
-  "slug": "palabras-trampa-ortografia-guardia-civil",
-  "titulo": "B/V, G/J y H: palabras trampa del examen de ortografía de la Guardia Civil"
- },
- {
-  "i": 23,
-  "fecha": "2026-12-04",
-  "publicado_en": "2026-12-04T07:36:00+01:00",
-  "semana": 4,
-  "bloque": "Semana 4 · Ortografía, gramática y Constitución (escrita)",
-  "slug": "homofonos-ortografia-guardia-civil",
-  "titulo": "Haber o a ver, echo o hecho: los homófonos que te pueden excluir"
- },
- {
-  "i": 24,
-  "fecha": "2026-12-05",
-  "publicado_en": "2026-12-05T07:53:00+01:00",
-  "semana": 4,
-  "bloque": "Semana 4 · Ortografía, gramática y Constitución (escrita)",
-  "slug": "gramatica-leismo-laismo-dequeismo-guardia-civil",
-  "titulo": "Gramática en la Guardia Civil: laísmo, leísmo, dequeísmo y otros errores del examen"
- },
- {
-  "i": 25,
-  "fecha": "2026-12-06",
-  "publicado_en": "2026-12-06T07:10:00+01:00",
-  "semana": 4,
-  "bloque": "Semana 4 · Ortografía, gramática y Constitución (escrita)",
-  "slug": "test-constitucion-20-preguntas-guardia-civil",
-  "titulo": "Día de la Constitución: test de 20 preguntas para repasar la oposición a Guardia Civil"
- },
- {
-  "i": 26,
-  "fecha": "2026-12-07",
-  "publicado_en": "2026-12-07T07:27:00+01:00",
-  "semana": 4,
-  "bloque": "Semana 4 · Ortografía, gramática y Constitución (escrita)",
-  "slug": "derechos-fundamentales-libertades-publicas-guardia-civil",
-  "titulo": "Derechos fundamentales y libertades públicas: lo que tienes que dominar para el examen"
- },
- {
-  "i": 27,
-  "fecha": "2026-12-08",
-  "publicado_en": "2026-12-08T07:44:00+01:00",
-  "semana": 4,
-  "bloque": "Semana 4 · Ortografía, gramática y Constitución (escrita)",
-  "slug": "corona-cortes-generales-guardia-civil",
-  "titulo": "La Corona y las Cortes Generales en el examen: los datos que hay que saberse"
- },
- {
-  "i": 28,
-  "fecha": "2026-12-09",
-  "publicado_en": "2026-12-09T07:01:00+01:00",
-  "semana": 5,
-  "bloque": "Semana 5 · Temario jurídico (I)",
-  "slug": "gobierno-poder-judicial-y-tribunal-constitucional-esquema",
-  "titulo": "Gobierno, Poder Judicial y Tribunal Constitucional: esquema para el examen"
- },
- {
-  "i": 29,
-  "fecha": "2026-12-10",
-  "publicado_en": "2026-12-10T07:18:00+01:00",
-  "semana": 5,
-  "bloque": "Semana 5 · Temario jurídico (I)",
-  "slug": "derechos-humanos-en-el-temario-declaracion-universal",
-  "titulo": "Derechos Humanos en el temario: Declaración Universal y Convenio Europeo"
- },
- {
-  "i": 30,
-  "fecha": "2026-12-11",
-  "publicado_en": "2026-12-11T07:35:00+01:00",
-  "semana": 5,
-  "bloque": "Semana 5 · Temario jurídico (I)",
-  "slug": "igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley",
-  "titulo": "Igualdad efectiva de mujeres y hombres: claves de la Ley Orgánica 3/2007"
- },
- {
-  "i": 31,
-  "fecha": "2026-12-12",
-  "publicado_en": "2026-12-12T07:52:00+01:00",
-  "semana": 5,
-  "bloque": "Semana 5 · Temario jurídico (I)",
-  "slug": "prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra",
-  "titulo": "Prevención de riesgos laborales en la Guardia Civil: qué entra en el examen"
- },
- {
-  "i": 32,
-  "fecha": "2026-12-13",
-  "publicado_en": "2026-12-13T07:09:00+01:00",
-  "semana": 5,
-  "bloque": "Semana 5 · Temario jurídico (I)",
-  "slug": "union-europea-en-la-oposicion-las-instituciones",
-  "titulo": "Unión Europea en la oposición: las instituciones que tienes que dominar"
- },
- {
-  "i": 33,
-  "fecha": "2026-12-14",
-  "publicado_en": "2026-12-14T07:26:00+01:00",
-  "semana": 5,
-  "bloque": "Semana 5 · Temario jurídico (I)",
-  "slug": "instituciones-internacionales-onu-otan-y-consejo-de-europa",
-  "titulo": "Instituciones internacionales: ONU, OTAN y Consejo de Europa para el examen"
- },
- {
-  "i": 34,
-  "fecha": "2026-12-15",
-  "publicado_en": "2026-12-15T07:43:00+01:00",
-  "semana": 5,
-  "bloque": "Semana 5 · Temario jurídico (I)",
-  "slug": "derecho-civil-en-la-oposicion-a-guardia-civil",
-  "titulo": "Derecho Civil en la oposición a Guardia Civil: lo que conviene saber"
- },
- {
-  "i": 35,
-  "fecha": "2026-12-16",
-  "publicado_en": "2026-12-16T07:00:00+01:00",
-  "semana": 6,
-  "bloque": "Semana 6 · Temario jurídico (II)",
-  "slug": "derecho-penal-para-guardia-civil-delito-penas-y-grados",
-  "titulo": "Derecho Penal para Guardia Civil: delito, penas y grados de ejecución"
- },
- {
-  "i": 36,
-  "fecha": "2026-12-17",
-  "publicado_en": "2026-12-17T07:17:00+01:00",
-  "semana": 6,
-  "bloque": "Semana 6 · Temario jurídico (II)",
-  "slug": "detencion-y-habeas-corpus-los-plazos-que-caen-siempre",
-  "titulo": "Detención y habeas corpus: los plazos que tienes que conocer"
- },
- {
-  "i": 37,
-  "fecha": "2026-12-18",
-  "publicado_en": "2026-12-18T07:34:00+01:00",
-  "semana": 6,
-  "bloque": "Semana 6 · Temario jurídico (II)",
-  "slug": "procedimiento-administrativo-ley-39-2015-en-10-claves",
-  "titulo": "Procedimiento administrativo (Ley 39/2015) en 10 claves"
- },
- {
-  "i": 38,
-  "fecha": "2026-12-19",
-  "publicado_en": "2026-12-19T07:51:00+01:00",
-  "semana": 6,
-  "bloque": "Semana 6 · Temario jurídico (II)",
-  "slug": "proteccion-de-datos-para-la-oposicion-rgpd-y-lopdgdd",
-  "titulo": "Protección de datos para la oposición: RGPD y LOPDGDD"
- },
- {
-  "i": 39,
-  "fecha": "2026-12-20",
-  "publicado_en": "2026-12-20T07:08:00+01:00",
-  "semana": 6,
-  "bloque": "Semana 6 · Temario jurídico (II)",
-  "slug": "extranjeria-e-inmigracion-lo-basico-que-pregunta-el-examen",
-  "titulo": "Extranjería e inmigración: lo básico que conviene dominar"
- },
- {
-  "i": 40,
-  "fecha": "2026-12-21",
-  "publicado_en": "2026-12-21T07:25:00+01:00",
-  "semana": 6,
-  "bloque": "Semana 6 · Temario jurídico (II)",
-  "slug": "seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario",
-  "titulo": "Seguridad ciudadana y seguridad privada: qué entra en el temario"
- },
- {
-  "i": 41,
-  "fecha": "2026-12-22",
-  "publicado_en": "2026-12-22T07:42:00+01:00",
-  "semana": 6,
-  "bloque": "Semana 6 · Temario jurídico (II)",
-  "slug": "ministerio-del-interior-y-ministerio-de-defensa-estructura",
-  "titulo": "Ministerio del Interior y Ministerio de Defensa: estructura para el examen"
- },
- {
-  "i": 42,
-  "fecha": "2026-12-23",
-  "publicado_en": "2026-12-23T07:59:00+01:00",
-  "semana": 7,
-  "bloque": "Semana 7 · Navidad y temario (III)",
-  "slug": "como-estudiar-la-oposicion-en-navidad-sin-perder-el-ritmo",
-  "titulo": "Cómo estudiar la oposición en Navidad sin perder el ritmo"
- },
- {
-  "i": 43,
-  "fecha": "2026-12-24",
-  "publicado_en": "2026-12-24T07:16:00+01:00",
-  "semana": 7,
-  "bloque": "Semana 7 · Navidad y temario (III)",
-  "slug": "fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada",
-  "titulo": "Fuerzas y Cuerpos de Seguridad (LO 2/1986): competencias de cada cuerpo"
- },
- {
-  "i": 44,
-  "fecha": "2026-12-25",
-  "publicado_en": "2026-12-25T07:33:00+01:00",
-  "semana": 7,
-  "bloque": "Semana 7 · Navidad y temario (III)",
-  "slug": "historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy",
-  "titulo": "Historia de la Guardia Civil: del Duque de Ahumada a hoy"
- },
- {
-  "i": 45,
-  "fecha": "2026-12-26",
-  "publicado_en": "2026-12-26T07:50:00+01:00",
-  "semana": 7,
-  "bloque": "Semana 7 · Navidad y temario (III)",
-  "slug": "deontologia-profesional-el-codigo-de-conducta-que-entra",
-  "titulo": "Deontología profesional en la Guardia Civil: el Código de Conducta (RD 176/2022)"
- },
- {
-  "i": 46,
-  "fecha": "2026-12-27",
-  "publicado_en": "2026-12-27T07:07:00+01:00",
-  "semana": 7,
-  "bloque": "Semana 7 · Navidad y temario (III)",
-  "slug": "violencia-de-genero-lo-1-2004-claves-para-el-examen",
-  "titulo": "Violencia de género (LO 1/2004): claves para estudiar el tema"
- },
- {
-  "i": 47,
-  "fecha": "2026-12-28",
-  "publicado_en": "2026-12-28T07:24:00+01:00",
-  "semana": 7,
-  "bloque": "Semana 7 · Navidad y temario (III)",
-  "slug": "responsabilidad-penal-de-los-menores-lo-5-2000-lo-que-mas",
-  "titulo": "Responsabilidad penal de los menores (LO 5/2000): claves del tema"
- },
- {
-  "i": 48,
-  "fecha": "2026-12-29",
-  "publicado_en": "2026-12-29T07:41:00+01:00",
-  "semana": 7,
-  "bloque": "Semana 7 · Navidad y temario (III)",
-  "slug": "armas-y-explosivos-en-el-temario-de-la-guardia-civil",
-  "titulo": "Armas y explosivos en el temario de la Guardia Civil"
- },
- {
-  "i": 49,
-  "fecha": "2026-12-30",
-  "publicado_en": "2026-12-30T07:58:00+01:00",
-  "semana": 8,
-  "bloque": "Semana 8 · Año nuevo y método",
-  "slug": "balance-del-ano-como-saber-si-vas-bien-en-la-oposicion",
-  "titulo": "Balance del año: cómo saber si vas bien en la oposición"
- },
- {
-  "i": 50,
-  "fecha": "2026-12-31",
-  "publicado_en": "2026-12-31T07:15:00+01:00",
-  "semana": 8,
-  "bloque": "Semana 8 · Año nuevo y método",
-  "slug": "proposito-2027-entrar-en-la-guardia-civil-plan-mes-a-mes",
-  "titulo": "Propósito 2027: entrar en la Guardia Civil. Plan mes a mes"
- },
- {
-  "i": 51,
-  "fecha": "2027-01-01",
-  "publicado_en": "2027-01-01T07:32:00+01:00",
-  "semana": 8,
-  "bloque": "Semana 8 · Año nuevo y método",
-  "slug": "empezar-la-oposicion-a-guardia-civil-en-enero-da-tiempo",
-  "titulo": "Empezar la oposición a Guardia Civil en enero: ¿da tiempo?"
- },
- {
-  "i": 52,
-  "fecha": "2027-01-02",
-  "publicado_en": "2027-01-02T07:49:00+01:00",
-  "semana": 8,
-  "bloque": "Semana 8 · Año nuevo y método",
-  "slug": "cuantas-horas-al-dia-hay-que-estudiar-para-la-guardia-civil",
-  "titulo": "Cuántas horas al día hay que estudiar para la Guardia Civil"
- },
- {
-  "i": 53,
-  "fecha": "2027-01-03",
-  "publicado_en": "2027-01-03T07:06:00+01:00",
-  "semana": 8,
-  "bloque": "Semana 8 · Año nuevo y método",
-  "slug": "topografia-para-guardia-civil-escalas-curvas-de-nivel",
-  "titulo": "Topografía para Guardia Civil: escalas, curvas de nivel y pendientes"
- },
- {
-  "i": 54,
-  "fecha": "2027-01-04",
-  "publicado_en": "2027-01-04T07:23:00+01:00",
-  "semana": 8,
-  "bloque": "Semana 8 · Año nuevo y método",
-  "slug": "como-memorizar-leyes-repaso-espaciado-aplicado-al-temario",
-  "titulo": "Cómo memorizar leyes: repaso espaciado aplicado al temario"
- },
- {
-  "i": 55,
-  "fecha": "2027-01-05",
-  "publicado_en": "2027-01-05T07:40:00+01:00",
-  "semana": 8,
-  "bloque": "Semana 8 · Año nuevo y método",
-  "slug": "tecnologias-de-la-informacion-en-el-temario-conceptos-que-caen",
-  "titulo": "Tecnologías de la información en el temario: qué conceptos estudiar"
- },
- {
-  "i": 56,
-  "fecha": "2027-01-06",
-  "publicado_en": "2027-01-06T07:57:00+01:00",
-  "semana": 9,
-  "bloque": "Semana 9 · Recursos y examen",
-  "slug": "recursos-oficiales-gratuitos-para-preparar-la-guardia-civil",
-  "titulo": "Recursos oficiales gratuitos para preparar la Guardia Civil"
- },
- {
-  "i": 57,
-  "fecha": "2027-01-07",
-  "publicado_en": "2027-01-07T07:14:00+01:00",
-  "semana": 9,
-  "bloque": "Semana 9 · Recursos y examen",
-  "slug": "examenes-oficiales-anteriores-donde-encontrarlos",
-  "titulo": "Exámenes oficiales anteriores: dónde encontrarlos y cómo sacarles partido"
- },
- {
-  "i": 58,
-  "fecha": "2027-01-08",
-  "publicado_en": "2027-01-08T07:31:00+01:00",
-  "semana": 9,
-  "bloque": "Semana 9 · Recursos y examen",
-  "slug": "simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados",
-  "titulo": "Simulacros: cada cuánto hacerlos y cómo analizar los resultados"
- },
- {
-  "i": 59,
-  "fecha": "2027-01-09",
-  "publicado_en": "2027-01-09T07:48:00+01:00",
-  "semana": 9,
-  "bloque": "Semana 9 · Recursos y examen",
-  "slug": "derecho-fiscal-en-la-oposicion-hacienda-contrabando",
-  "titulo": "Derecho fiscal en la oposición: contrabando y aduanas, las normas que entran"
- },
- {
-  "i": 60,
-  "fecha": "2027-01-10",
-  "publicado_en": "2027-01-10T07:05:00+01:00",
-  "semana": 9,
-  "bloque": "Semana 9 · Recursos y examen",
-  "slug": "que-llevar-al-examen-de-la-guardia-civil-y-que-esta-prohibido",
-  "titulo": "Qué llevar al examen de la Guardia Civil y qué está prohibido"
- },
- {
-  "i": 61,
-  "fecha": "2027-01-11",
-  "publicado_en": "2027-01-11T07:22:00+01:00",
-  "semana": 9,
-  "bloque": "Semana 9 · Recursos y examen",
-  "slug": "proteccion-civil-y-desarrollo-sostenible-en-el-temario",
-  "titulo": "Protección civil y desarrollo sostenible en el temario: qué normas entran"
- },
- {
-  "i": 62,
-  "fecha": "2027-01-12",
-  "publicado_en": "2027-01-12T07:39:00+01:00",
-  "semana": 9,
-  "bloque": "Semana 9 · Recursos y examen",
-  "slug": "academia-online-o-por-libre-como-preparar-la-guardia-civil",
-  "titulo": "\"Academia, online o por libre: cómo preparar la Guardia Civil\""
- },
- {
-  "i": 63,
-  "fecha": "2027-01-13",
-  "publicado_en": "2027-01-13T07:56:00+01:00",
-  "semana": 10,
-  "bloque": "Semana 10 · Inglés y méritos",
-  "slug": "gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales",
-  "titulo": "\"Gramática inglesa para la Guardia Civil: los tiempos verbales que conviene dominar\""
- },
- {
-  "i": 64,
-  "fecha": "2027-01-14",
-  "publicado_en": "2027-01-14T07:13:00+01:00",
-  "semana": 10,
-  "bloque": "Semana 10 · Inglés y méritos",
-  "slug": "vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles",
-  "titulo": "\"Vocabulario y phrasal verbs útiles para el examen de inglés\""
- },
- {
-  "i": 65,
-  "fecha": "2027-01-15",
-  "publicado_en": "2027-01-15T07:30:00+01:00",
-  "semana": 10,
-  "bloque": "Semana 10 · Inglés y méritos",
-  "slug": "como-aprobar-el-ingles-de-la-guardia-civil-partiendo-de-cero",
-  "titulo": "\"Cómo aprobar el inglés de la Guardia Civil partiendo de cero\""
- },
- {
-  "i": 66,
-  "fecha": "2027-01-16",
-  "publicado_en": "2027-01-16T07:47:00+01:00",
-  "semana": 10,
-  "bloque": "Semana 10 · Inglés y méritos",
-  "slug": "falsos-amigos-en-ingles-los-errores-tipicos-del-opositor",
-  "titulo": "\"Falsos amigos en inglés: los errores clásicos al traducir del español\""
- },
- {
-  "i": 67,
-  "fecha": "2027-01-17",
-  "publicado_en": "2027-01-17T07:04:00+01:00",
-  "semana": 10,
-  "bloque": "Semana 10 · Inglés y méritos",
-  "slug": "ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue",
-  "titulo": "\"Inglés: cómo llegar a los 8 puntos mínimos sin ser bilingüe\""
- },
- {
-  "i": 68,
-  "fecha": "2027-01-18",
-  "publicado_en": "2027-01-18T07:21:00+01:00",
-  "semana": 10,
-  "bloque": "Semana 10 · Inglés y méritos",
-  "slug": "certificados-de-idiomas-para-la-guardia-civil-cual-sacarte",
-  "titulo": "\"Certificados de idiomas para la Guardia Civil: cuál sacarte y cuánto suma\""
- },
- {
-  "i": 69,
-  "fecha": "2027-01-19",
-  "publicado_en": "2027-01-19T07:38:00+01:00",
-  "semana": 10,
-  "bloque": "Semana 10 · Inglés y méritos",
-  "slug": "derechos-deberes-y-regimen-disciplinario-del-guardia-civil",
-  "titulo": "\"Derechos, deberes y régimen disciplinario del guardia civil\""
- },
- {
-  "i": 70,
-  "fecha": "2027-01-20",
-  "publicado_en": "2027-01-20T07:55:00+01:00",
-  "semana": 11,
-  "bloque": "Semana 11 · Después de aprobar",
-  "slug": "un-dia-en-la-academia-de-baeza-horarios-normas-y-permisos",
-  "titulo": "Vida en la Academia de Baeza: horarios, normas y permisos según la normativa"
- },
- {
-  "i": 71,
-  "fecha": "2027-01-21",
-  "publicado_en": "2027-01-21T07:12:00+01:00",
-  "semana": 11,
-  "bloque": "Semana 11 · Después de aprobar",
-  "slug": "las-practicas-despues-de-baeza-que-te-espera-guardia-civil",
-  "titulo": "Las prácticas después de Baeza: qué te espera en el segundo curso"
- },
- {
-  "i": 72,
-  "fecha": "2027-01-22",
-  "publicado_en": "2027-01-22T07:29:00+01:00",
-  "semana": 11,
-  "bloque": "Semana 11 · Después de aprobar",
-  "slug": "como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil",
-  "titulo": "Cómo se asignan los primeros destinos al salir de Baeza: lo que dice el reglamento"
- },
- {
-  "i": 73,
-  "fecha": "2027-01-23",
-  "publicado_en": "2027-01-23T07:46:00+01:00",
-  "semana": 11,
-  "bloque": "Semana 11 · Después de aprobar",
-  "slug": "casas-cuartel-como-es-vivir-en-un-pabellon-de-la-guardia-civil",
-  "titulo": "Casas cuartel y pabellones de la Guardia Civil: qué son y qué dice la norma"
- },
- {
-  "i": 74,
-  "fecha": "2027-01-24",
-  "publicado_en": "2027-01-24T07:03:00+01:00",
-  "semana": 11,
-  "bloque": "Semana 11 · Después de aprobar",
-  "slug": "mujeres-en-la-guardia-civil-acceso-datos-y-conciliacion",
-  "titulo": "Mujeres en la Guardia Civil: acceso, datos y conciliación"
- },
- {
-  "i": 75,
-  "fecha": "2027-01-25",
-  "publicado_en": "2027-01-25T07:20:00+01:00",
-  "semana": 11,
-  "bloque": "Semana 11 · Después de aprobar",
-  "slug": "agrupacion-de-trafico-que-hace-y-como-se-entra-guardia-civil",
-  "titulo": "Agrupación de Tráfico de la Guardia Civil: qué hace y cómo se entra"
- },
- {
-  "i": 76,
-  "fecha": "2027-01-26",
-  "publicado_en": "2027-01-26T07:37:00+01:00",
-  "semana": 11,
-  "bloque": "Semana 11 · Después de aprobar",
-  "slug": "seprona-la-especialidad-de-proteccion-de-la-naturaleza",
-  "titulo": "SEPRONA: la especialidad de protección de la naturaleza de la Guardia Civil"
- },
- {
-  "i": 77,
-  "fecha": "2027-01-27",
-  "publicado_en": "2027-01-27T07:54:00+01:00",
-  "semana": 12,
-  "bloque": "Semana 12 · Especialidades",
-  "slug": "grs-que-son-los-grupos-de-reserva-y-seguridad-guardia-civil",
-  "titulo": "GRS: qué son los Grupos de Reserva y Seguridad de la Guardia Civil"
- },
- {
-  "i": 78,
-  "fecha": "2027-01-28",
-  "publicado_en": "2027-01-28T07:11:00+01:00",
-  "semana": 12,
-  "bloque": "Semana 12 · Especialidades",
-  "slug": "rescate-de-montana-en-la-guardia-civil-requisitos-y-formacion",
-  "titulo": "Rescate de montaña en la Guardia Civil: funciones, formación y cómo se accede"
- },
- {
-  "i": 79,
-  "fecha": "2027-01-29",
-  "publicado_en": "2027-01-29T07:28:00+01:00",
-  "semana": 12,
-  "bloque": "Semana 12 · Especialidades",
-  "slug": "geas-asi-son-los-buceadores-de-la-guardia-civil",
-  "titulo": "GEAS: así son los buceadores de la Guardia Civil"
- },
- {
-  "i": 80,
-  "fecha": "2027-01-30",
-  "publicado_en": "2027-01-30T07:45:00+01:00",
-  "semana": 12,
-  "bloque": "Semana 12 · Especialidades",
-  "slug": "servicio-cinologico-como-ser-guia-canino-en-la-guardia-civil",
-  "titulo": "Servicio Cinológico: qué hace un guía canino de la Guardia Civil y cómo se accede"
- },
- {
-  "i": 81,
-  "fecha": "2027-01-31",
-  "publicado_en": "2027-01-31T07:02:00+01:00",
-  "semana": 12,
-  "bloque": "Semana 12 · Especialidades",
-  "slug": "policia-judicial-y-uco-como-se-llega-a-la-especialidad",
-  "titulo": "Policía Judicial y UCO: cómo se llega a la especialidad"
- },
- {
-  "i": 82,
-  "fecha": "2027-02-01",
-  "publicado_en": "2027-02-01T07:19:00+01:00",
-  "semana": 12,
-  "bloque": "Semana 12 · Especialidades",
-  "slug": "servicio-maritimo-y-servicio-aereo-de-la-guardia-civil",
-  "titulo": "Servicio Marítimo y Servicio Aéreo de la Guardia Civil"
- },
- {
-  "i": 83,
-  "fecha": "2027-02-02",
-  "publicado_en": "2027-02-02T07:36:00+01:00",
-  "semana": 12,
-  "bloque": "Semana 12 · Especialidades",
-  "slug": "ascenso-a-cabo-cuando-puedes-presentarte",
-  "titulo": "Ascenso a cabo: cuándo puedes presentarte y cómo es la promoción interna"
- },
- {
-  "i": 84,
-  "fecha": "2027-02-03",
-  "publicado_en": "2027-02-03T07:53:00+01:00",
-  "semana": 13,
-  "bloque": "Semana 13 · Temporada de convocatoria",
-  "slug": "oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti",
-  "titulo": "Oferta de empleo público de la Guardia Civil: qué es y qué pasa con 2027"
- },
- {
-  "i": 85,
-  "fecha": "2027-02-04",
-  "publicado_en": "2027-02-04T07:10:00+01:00",
-  "semana": 13,
-  "bloque": "Semana 13 · Temporada de convocatoria",
-  "slug": "convocatoria-guardia-civil-2027-que-se-sabe-y-cuando-saldra",
-  "titulo": "Convocatoria Guardia Civil 2027: qué se sabe y cómo seguirla"
- },
- {
-  "i": 86,
-  "fecha": "2027-02-05",
-  "publicado_en": "2027-02-05T07:27:00+01:00",
-  "semana": 13,
-  "bloque": "Semana 13 · Temporada de convocatoria",
-  "slug": "como-rellenar-la-solicitud-de-la-guardia-civil-paso-a-paso",
-  "titulo": "Cómo rellenar la solicitud de la Guardia Civil paso a paso"
- },
- {
-  "i": 87,
-  "fecha": "2027-02-06",
-  "publicado_en": "2027-02-06T07:44:00+01:00",
-  "semana": 13,
-  "bloque": "Semana 13 · Temporada de convocatoria",
-  "slug": "tasas-de-examen-de-la-guardia-civil-importe-y-exenciones",
-  "titulo": "Tasas de examen de la Guardia Civil: importe y exenciones"
- },
- {
-  "i": 88,
-  "fecha": "2027-02-07",
-  "publicado_en": "2027-02-07T07:01:00+01:00",
-  "semana": 13,
-  "bloque": "Semana 13 · Temporada de convocatoria",
-  "slug": "plazas-reservadas-para-militares-como-funciona-el-cupo",
-  "titulo": "Plazas reservadas para militares: cómo funciona el cupo"
- },
- {
-  "i": 89,
-  "fecha": "2027-02-08",
-  "publicado_en": "2027-02-08T07:18:00+01:00",
-  "semana": 13,
-  "bloque": "Semana 13 · Temporada de convocatoria",
-  "slug": "colegio-de-guardias-jovenes-requisitos-de-edad",
-  "titulo": "Colegio de Guardias Jóvenes: requisitos de edad y qué está confirmado"
- },
- {
-  "i": 90,
-  "fecha": "2027-02-09",
-  "publicado_en": "2027-02-09T07:35:00+01:00",
-  "semana": 13,
-  "bloque": "Semana 13 · Temporada de convocatoria",
-  "slug": "examen-del-colegio-de-guardias-jovenes-estructura-y-temas",
-  "titulo": "Examen del Colegio de Guardias Jóvenes: qué pruebas tiene y cómo prepararlo"
- },
- {
-  "i": 91,
-  "fecha": "2027-02-10",
-  "publicado_en": "2027-02-10T07:52:00+01:00",
-  "semana": 14,
-  "bloque": "Semana 14 · Estrategia y vida de opositor",
-  "slug": "preguntas-trampa-del-examen-de-guardia-civil",
-  "titulo": "Preguntas trampa del examen de Guardia Civil y cómo detectarlas"
- },
- {
-  "i": 92,
-  "fecha": "2027-02-11",
-  "publicado_en": "2027-02-11T07:09:00+01:00",
-  "semana": 14,
-  "bloque": "Semana 14 · Estrategia y vida de opositor",
-  "slug": "como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas",
-  "titulo": "Cómo leer un enunciado tipo test para reducir los errores de lectura"
- },
- {
-  "i": 93,
-  "fecha": "2027-02-12",
-  "publicado_en": "2027-02-12T07:26:00+01:00",
-  "semana": 14,
-  "bloque": "Semana 14 · Estrategia y vida de opositor",
-  "slug": "bloques-de-estudio-y-tecnica-pomodoro-para-opositores",
-  "titulo": "Bloques de estudio y técnica Pomodoro para opositores"
- },
- {
-  "i": 94,
-  "fecha": "2027-02-13",
-  "publicado_en": "2027-02-13T07:43:00+01:00",
-  "semana": 14,
-  "bloque": "Semana 14 · Estrategia y vida de opositor",
-  "slug": "motivacion-que-hacer-los-dias-que-no-te-apetece-estudiar",
-  "titulo": "Motivación: qué hacer los días que no te apetece estudiar"
- },
- {
-  "i": 95,
-  "fecha": "2027-02-14",
-  "publicado_en": "2027-02-14T07:00:00+01:00",
-  "semana": 14,
-  "bloque": "Semana 14 · Estrategia y vida de opositor",
-  "slug": "opositar-en-pareja-como-compaginarlo-sin-que-se-resienta",
-  "titulo": "Opositar en pareja: cómo organizarlo para cuidar la relación"
- },
- {
-  "i": 96,
-  "fecha": "2027-02-15",
-  "publicado_en": "2027-02-15T07:17:00+01:00",
-  "semana": 14,
-  "bloque": "Semana 14 · Estrategia y vida de opositor",
-  "slug": "si-suspendes-como-replantear-la-siguiente-convocatoria",
-  "titulo": "Si suspendes: cómo replantear la siguiente convocatoria"
- },
- {
-  "i": 97,
-  "fecha": "2027-02-16",
-  "publicado_en": "2027-02-16T07:34:00+01:00",
-  "semana": 14,
-  "bloque": "Semana 14 · Estrategia y vida de opositor",
-  "slug": "opositar-con-hijos-un-plan-de-estudio-realista-guardia-civil",
-  "titulo": "Opositar con hijos: un plan de estudio realista"
- },
- {
-  "i": 98,
-  "fecha": "2027-02-17",
-  "publicado_en": "2027-02-17T07:51:00+01:00",
-  "semana": 15,
-  "bloque": "Cierre",
-  "slug": "plan-de-repaso-para-los-ultimos-tres-meses-antes-del-examen",
-  "titulo": "Plan de repaso para los últimos tres meses antes del examen"
- },
- {
-  "i": 99,
-  "fecha": "2027-02-18",
-  "publicado_en": "2027-02-18T07:08:00+01:00",
-  "semana": 15,
-  "bloque": "Cierre",
-  "slug": "como-saber-si-estas-preparado-para-aprobar-los-indicadores",
-  "titulo": "Cómo saber si estás preparado: indicadores medibles frente a la nota de corte"
- }
+  {
+    "i": 0,
+    "fecha": "2026-11-11",
+    "publicado_en": "2026-11-11T07:05:00+01:00",
+    "semana": 1,
+    "bloque": "Semana 1",
+    "slug": "edad-maxima-guardia-civil",
+    "titulo": "Edad máxima para ser Guardia Civil: de 18 a 40 y cómo se cuenta"
+  },
+  {
+    "i": 1,
+    "fecha": "2026-11-12",
+    "publicado_en": "2026-11-12T07:22:00+01:00",
+    "semana": 1,
+    "bloque": "Semana 1",
+    "slug": "cuadro-medico-exclusiones-guardia-civil",
+    "titulo": "Cuadro médico de exclusiones de la Guardia Civil explicado"
+  },
+  {
+    "i": 2,
+    "fecha": "2026-11-13",
+    "publicado_en": "2026-11-13T07:39:00+01:00",
+    "semana": 1,
+    "bloque": "Semana 1",
+    "slug": "altura-minima-guardia-civil",
+    "titulo": "Altura mínima Guardia Civil: por qué ya no se exige"
+  },
+  {
+    "i": 3,
+    "fecha": "2026-11-14",
+    "publicado_en": "2026-11-14T07:56:00+01:00",
+    "semana": 1,
+    "bloque": "Semana 1",
+    "slug": "gafas-miopia-operacion-vista-guardia-civil",
+    "titulo": "¿Puedo ser Guardia Civil con gafas, miopía o si me he operado la vista?"
+  },
+  {
+    "i": 4,
+    "fecha": "2026-11-15",
+    "publicado_en": "2026-11-15T07:13:00+01:00",
+    "semana": 1,
+    "bloque": "Semana 1",
+    "slug": "carrera-2000-metros-guardia-civil",
+    "titulo": "Carrera de 2.000 metros en la Guardia Civil: plan para bajar tu marca"
+  },
+  {
+    "i": 5,
+    "fecha": "2026-11-16",
+    "publicado_en": "2026-11-16T07:30:00+01:00",
+    "semana": 1,
+    "bloque": "Semana 1",
+    "slug": "lentes-intraoculares-guardia-civil",
+    "titulo": "Lentes intraoculares y Guardia Civil: qué cambió con el Supremo"
+  },
+  {
+    "i": 6,
+    "fecha": "2026-11-17",
+    "publicado_en": "2026-11-17T07:47:00+01:00",
+    "semana": 1,
+    "bloque": "Semana 1",
+    "slug": "circuito-agilidad-coordinacion-guardia-civil",
+    "titulo": "Circuito de agilidad y coordinación de la Guardia Civil: técnica paso a paso"
+  },
+  {
+    "i": 7,
+    "fecha": "2026-11-18",
+    "publicado_en": "2026-11-18T07:04:00+01:00",
+    "semana": 2,
+    "bloque": "Semana 2",
+    "slug": "guardia-civil-o-policia-nacional",
+    "titulo": "Guardia Civil o Policía Nacional: diferencias para elegir oposición"
+  },
+  {
+    "i": 8,
+    "fecha": "2026-11-19",
+    "publicado_en": "2026-11-19T07:21:00+01:00",
+    "semana": 2,
+    "bloque": "Semana 2",
+    "slug": "extensiones-de-brazos-guardia-civil",
+    "titulo": "Extensiones de brazos en la Guardia Civil: de cero a la marca"
+  },
+  {
+    "i": 9,
+    "fecha": "2026-11-20",
+    "publicado_en": "2026-11-20T07:38:00+01:00",
+    "semana": 2,
+    "bloque": "Semana 2",
+    "slug": "nota-de-corte-guardia-civil",
+    "titulo": "Nota de corte de la Guardia Civil: cómo funciona y por qué no hay una sola cifra"
+  },
+  {
+    "i": 10,
+    "fecha": "2026-11-21",
+    "publicado_en": "2026-11-21T07:55:00+01:00",
+    "semana": 2,
+    "bloque": "Semana 2",
+    "slug": "natacion-50-metros-guardia-civil",
+    "titulo": "Natación 50 metros Guardia Civil: aprender a nadar para la oposición desde cero"
+  },
+  {
+    "i": 11,
+    "fecha": "2026-11-22",
+    "publicado_en": "2026-11-22T07:12:00+01:00",
+    "semana": 2,
+    "bloque": "Semana 2",
+    "slug": "entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil",
+    "titulo": "Entrenar y estudiar a la vez: cómo organizar la semana para rendir en las dos cosas"
+  },
+  {
+    "i": 12,
+    "fecha": "2026-11-23",
+    "publicado_en": "2026-11-23T07:29:00+01:00",
+    "semana": 2,
+    "bloque": "Semana 2",
+    "slug": "series-numericas-psicotecnico-guardia-civil",
+    "titulo": "Series numéricas del psicotécnico: los patrones que más se repiten"
+  },
+  {
+    "i": 13,
+    "fecha": "2026-11-24",
+    "publicado_en": "2026-11-24T07:46:00+01:00",
+    "semana": 2,
+    "bloque": "Semana 2",
+    "slug": "razonamiento-verbal-psicotecnico-guardia-civil",
+    "titulo": "Razonamiento verbal en el psicotécnico: sinónimos, antónimos y analogías"
+  },
+  {
+    "i": 14,
+    "fecha": "2026-11-25",
+    "publicado_en": "2026-11-25T07:03:00+01:00",
+    "semana": 3,
+    "bloque": "Semana 3",
+    "slug": "aptitud-espacial-psicotecnico-guardia-civil",
+    "titulo": "Aptitud espacial en el psicotécnico: cómo resolver cubos, giros y figuras"
+  },
+  {
+    "i": 15,
+    "fecha": "2026-11-26",
+    "publicado_en": "2026-11-26T07:20:00+01:00",
+    "semana": 3,
+    "bloque": "Semana 3",
+    "slug": "test-personalidad-guardia-civil",
+    "titulo": "Test de personalidad de la Guardia Civil: cómo responder con coherencia"
+  },
+  {
+    "i": 16,
+    "fecha": "2026-11-27",
+    "publicado_en": "2026-11-27T07:37:00+01:00",
+    "semana": 3,
+    "bloque": "Semana 3",
+    "slug": "entrenar-psicotecnico-15-minutos-guardia-civil",
+    "titulo": "Cómo entrenar el psicotécnico en 15 minutos al día"
+  },
+  {
+    "i": 17,
+    "fecha": "2026-11-28",
+    "publicado_en": "2026-11-28T07:54:00+01:00",
+    "semana": 3,
+    "bloque": "Semana 3",
+    "slug": "certificado-medico-pruebas-fisicas-guardia-civil",
+    "titulo": "Certificado médico para las pruebas físicas: qué debe decir y cuándo pedirlo"
+  },
+  {
+    "i": 18,
+    "fecha": "2026-11-29",
+    "publicado_en": "2026-11-29T07:11:00+01:00",
+    "semana": 3,
+    "bloque": "Semana 3",
+    "slug": "cuestionario-biodata-guardia-civil",
+    "titulo": "Cuestionario BIODATA de la Guardia Civil: qué es y cómo rellenarlo"
+  },
+  {
+    "i": 19,
+    "fecha": "2026-11-30",
+    "publicado_en": "2026-11-30T07:28:00+01:00",
+    "semana": 3,
+    "bloque": "Semana 3",
+    "slug": "competencias-entrevista-personal-guardia-civil",
+    "titulo": "Las seis competencias de la entrevista personal de la Guardia Civil y cómo demostrarlas"
+  },
+  {
+    "i": 20,
+    "fecha": "2026-12-01",
+    "publicado_en": "2026-12-01T07:45:00+01:00",
+    "semana": 3,
+    "bloque": "Semana 3",
+    "slug": "tildes-reglas-oposicion-guardia-civil",
+    "titulo": "Tildes en la oposición a Guardia Civil: las reglas que más fallan los opositores"
+  },
+  {
+    "i": 21,
+    "fecha": "2026-12-02",
+    "publicado_en": "2026-12-02T07:02:00+01:00",
+    "semana": 4,
+    "bloque": "Semana 4",
+    "slug": "palabras-trampa-ortografia-guardia-civil",
+    "titulo": "B/V, G/J y H: palabras trampa del examen de ortografía de la Guardia Civil"
+  },
+  {
+    "i": 22,
+    "fecha": "2026-12-03",
+    "publicado_en": "2026-12-03T07:19:00+01:00",
+    "semana": 4,
+    "bloque": "Semana 4",
+    "slug": "homofonos-ortografia-guardia-civil",
+    "titulo": "Haber o a ver, echo o hecho: los homófonos que te pueden excluir"
+  },
+  {
+    "i": 23,
+    "fecha": "2026-12-04",
+    "publicado_en": "2026-12-04T07:36:00+01:00",
+    "semana": 4,
+    "bloque": "Semana 4",
+    "slug": "lesiones-pruebas-fisicas-guardia-civil",
+    "titulo": "Lesiones típicas al preparar las pruebas físicas de la Guardia Civil y cómo evitarlas"
+  },
+  {
+    "i": 24,
+    "fecha": "2026-12-05",
+    "publicado_en": "2026-12-05T07:53:00+01:00",
+    "semana": 4,
+    "bloque": "Semana 4",
+    "slug": "gramatica-leismo-laismo-dequeismo-guardia-civil",
+    "titulo": "Gramática en la Guardia Civil: laísmo, leísmo, dequeísmo y otros errores del examen"
+  },
+  {
+    "i": 25,
+    "fecha": "2026-12-06",
+    "publicado_en": "2026-12-06T07:10:00+01:00",
+    "semana": 4,
+    "bloque": "Semana 4",
+    "slug": "test-constitucion-20-preguntas-guardia-civil",
+    "titulo": "Día de la Constitución: test de 20 preguntas para repasar la oposición a Guardia Civil"
+  },
+  {
+    "i": 26,
+    "fecha": "2026-12-07",
+    "publicado_en": "2026-12-07T07:27:00+01:00",
+    "semana": 4,
+    "bloque": "Semana 4",
+    "slug": "derechos-fundamentales-libertades-publicas-guardia-civil",
+    "titulo": "Derechos fundamentales y libertades públicas: lo que tienes que dominar para el examen"
+  },
+  {
+    "i": 27,
+    "fecha": "2026-12-08",
+    "publicado_en": "2026-12-08T07:44:00+01:00",
+    "semana": 4,
+    "bloque": "Semana 4",
+    "slug": "corona-cortes-generales-guardia-civil",
+    "titulo": "La Corona y las Cortes Generales en el examen: los datos que hay que saberse"
+  },
+  {
+    "i": 28,
+    "fecha": "2026-12-09",
+    "publicado_en": "2026-12-09T07:01:00+01:00",
+    "semana": 5,
+    "bloque": "Semana 5",
+    "slug": "gobierno-poder-judicial-y-tribunal-constitucional-esquema",
+    "titulo": "Gobierno, Poder Judicial y Tribunal Constitucional: esquema para el examen"
+  },
+  {
+    "i": 29,
+    "fecha": "2026-12-10",
+    "publicado_en": "2026-12-10T07:18:00+01:00",
+    "semana": 5,
+    "bloque": "Semana 5",
+    "slug": "derechos-humanos-en-el-temario-declaracion-universal",
+    "titulo": "Derechos Humanos en el temario: Declaración Universal y Convenio Europeo"
+  },
+  {
+    "i": 30,
+    "fecha": "2026-12-11",
+    "publicado_en": "2026-12-11T07:35:00+01:00",
+    "semana": 5,
+    "bloque": "Semana 5",
+    "slug": "derecho-civil-en-la-oposicion-a-guardia-civil",
+    "titulo": "Derecho Civil en la oposición a Guardia Civil: lo que conviene saber"
+  },
+  {
+    "i": 31,
+    "fecha": "2026-12-12",
+    "publicado_en": "2026-12-12T07:52:00+01:00",
+    "semana": 5,
+    "bloque": "Semana 5",
+    "slug": "union-europea-en-la-oposicion-las-instituciones",
+    "titulo": "Unión Europea en la oposición: las instituciones que tienes que dominar"
+  },
+  {
+    "i": 32,
+    "fecha": "2026-12-13",
+    "publicado_en": "2026-12-13T07:09:00+01:00",
+    "semana": 5,
+    "bloque": "Semana 5",
+    "slug": "igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley",
+    "titulo": "Igualdad efectiva de mujeres y hombres: claves de la Ley Orgánica 3/2007"
+  },
+  {
+    "i": 33,
+    "fecha": "2026-12-14",
+    "publicado_en": "2026-12-14T07:26:00+01:00",
+    "semana": 5,
+    "bloque": "Semana 5",
+    "slug": "instituciones-internacionales-onu-otan-y-consejo-de-europa",
+    "titulo": "Instituciones internacionales: ONU, OTAN y Consejo de Europa para el examen"
+  },
+  {
+    "i": 34,
+    "fecha": "2026-12-15",
+    "publicado_en": "2026-12-15T07:43:00+01:00",
+    "semana": 5,
+    "bloque": "Semana 5",
+    "slug": "prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra",
+    "titulo": "Prevención de riesgos laborales en la Guardia Civil: qué entra en el examen"
+  },
+  {
+    "i": 35,
+    "fecha": "2026-12-16",
+    "publicado_en": "2026-12-16T07:00:00+01:00",
+    "semana": 6,
+    "bloque": "Semana 6",
+    "slug": "derecho-penal-para-guardia-civil-delito-penas-y-grados",
+    "titulo": "Derecho Penal para Guardia Civil: delito, penas y grados de ejecución"
+  },
+  {
+    "i": 36,
+    "fecha": "2026-12-17",
+    "publicado_en": "2026-12-17T07:17:00+01:00",
+    "semana": 6,
+    "bloque": "Semana 6",
+    "slug": "detencion-y-habeas-corpus-los-plazos-que-caen-siempre",
+    "titulo": "Detención y habeas corpus: los plazos que tienes que conocer"
+  },
+  {
+    "i": 37,
+    "fecha": "2026-12-18",
+    "publicado_en": "2026-12-18T07:34:00+01:00",
+    "semana": 6,
+    "bloque": "Semana 6",
+    "slug": "extranjeria-e-inmigracion-lo-basico-que-pregunta-el-examen",
+    "titulo": "Extranjería e inmigración: lo básico que conviene dominar"
+  },
+  {
+    "i": 38,
+    "fecha": "2026-12-19",
+    "publicado_en": "2026-12-19T07:51:00+01:00",
+    "semana": 6,
+    "bloque": "Semana 6",
+    "slug": "procedimiento-administrativo-ley-39-2015-en-10-claves",
+    "titulo": "Procedimiento administrativo (Ley 39/2015) en 10 claves"
+  },
+  {
+    "i": 39,
+    "fecha": "2026-12-20",
+    "publicado_en": "2026-12-20T07:08:00+01:00",
+    "semana": 6,
+    "bloque": "Semana 6",
+    "slug": "seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario",
+    "titulo": "Seguridad ciudadana y seguridad privada: qué entra en el temario"
+  },
+  {
+    "i": 40,
+    "fecha": "2026-12-21",
+    "publicado_en": "2026-12-21T07:25:00+01:00",
+    "semana": 6,
+    "bloque": "Semana 6",
+    "slug": "ministerio-del-interior-y-ministerio-de-defensa-estructura",
+    "titulo": "Ministerio del Interior y Ministerio de Defensa: estructura para el examen"
+  },
+  {
+    "i": 41,
+    "fecha": "2026-12-22",
+    "publicado_en": "2026-12-22T07:42:00+01:00",
+    "semana": 6,
+    "bloque": "Semana 6",
+    "slug": "fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada",
+    "titulo": "Fuerzas y Cuerpos de Seguridad (LO 2/1986): competencias de cada cuerpo"
+  },
+  {
+    "i": 42,
+    "fecha": "2026-12-23",
+    "publicado_en": "2026-12-23T07:59:00+01:00",
+    "semana": 7,
+    "bloque": "Semana 7",
+    "slug": "como-estudiar-la-oposicion-en-navidad-sin-perder-el-ritmo",
+    "titulo": "Cómo estudiar la oposición en Navidad sin perder el ritmo"
+  },
+  {
+    "i": 43,
+    "fecha": "2026-12-24",
+    "publicado_en": "2026-12-24T07:16:00+01:00",
+    "semana": 7,
+    "bloque": "Semana 7",
+    "slug": "policia-judicial-y-uco-como-se-llega-a-la-especialidad",
+    "titulo": "Policía Judicial y UCO: cómo se llega a la especialidad"
+  },
+  {
+    "i": 44,
+    "fecha": "2026-12-25",
+    "publicado_en": "2026-12-25T07:33:00+01:00",
+    "semana": 7,
+    "bloque": "Semana 7",
+    "slug": "historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy",
+    "titulo": "Historia de la Guardia Civil: del Duque de Ahumada a hoy"
+  },
+  {
+    "i": 45,
+    "fecha": "2026-12-26",
+    "publicado_en": "2026-12-26T07:50:00+01:00",
+    "semana": 7,
+    "bloque": "Semana 7",
+    "slug": "deontologia-profesional-el-codigo-de-conducta-que-entra",
+    "titulo": "Deontología profesional en la Guardia Civil: el Código de Conducta (RD 176/2022)"
+  },
+  {
+    "i": 46,
+    "fecha": "2026-12-27",
+    "publicado_en": "2026-12-27T07:07:00+01:00",
+    "semana": 7,
+    "bloque": "Semana 7",
+    "slug": "proteccion-de-datos-para-la-oposicion-rgpd-y-lopdgdd",
+    "titulo": "Protección de datos para la oposición: RGPD y LOPDGDD"
+  },
+  {
+    "i": 47,
+    "fecha": "2026-12-28",
+    "publicado_en": "2026-12-28T07:24:00+01:00",
+    "semana": 7,
+    "bloque": "Semana 7",
+    "slug": "oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti",
+    "titulo": "Oferta de empleo público de la Guardia Civil: qué es y qué pasa con 2027"
+  },
+  {
+    "i": 48,
+    "fecha": "2026-12-29",
+    "publicado_en": "2026-12-29T07:41:00+01:00",
+    "semana": 7,
+    "bloque": "Semana 7",
+    "slug": "violencia-de-genero-lo-1-2004-claves-para-el-examen",
+    "titulo": "Violencia de género (LO 1/2004): claves para estudiar el tema"
+  },
+  {
+    "i": 49,
+    "fecha": "2026-12-30",
+    "publicado_en": "2026-12-30T07:58:00+01:00",
+    "semana": 8,
+    "bloque": "Semana 8",
+    "slug": "balance-del-ano-como-saber-si-vas-bien-en-la-oposicion",
+    "titulo": "Balance del año: cómo saber si vas bien en la oposición"
+  },
+  {
+    "i": 50,
+    "fecha": "2026-12-31",
+    "publicado_en": "2026-12-31T07:15:00+01:00",
+    "semana": 8,
+    "bloque": "Semana 8",
+    "slug": "proposito-2027-entrar-en-la-guardia-civil-plan-mes-a-mes",
+    "titulo": "Propósito 2027: entrar en la Guardia Civil. Plan mes a mes"
+  },
+  {
+    "i": 51,
+    "fecha": "2027-01-01",
+    "publicado_en": "2027-01-01T07:32:00+01:00",
+    "semana": 8,
+    "bloque": "Semana 8",
+    "slug": "empezar-la-oposicion-a-guardia-civil-en-enero-da-tiempo",
+    "titulo": "Empezar la oposición a Guardia Civil en enero: ¿da tiempo?"
+  },
+  {
+    "i": 52,
+    "fecha": "2027-01-02",
+    "publicado_en": "2027-01-02T07:49:00+01:00",
+    "semana": 8,
+    "bloque": "Semana 8",
+    "slug": "cuantas-horas-al-dia-hay-que-estudiar-para-la-guardia-civil",
+    "titulo": "Cuántas horas al día hay que estudiar para la Guardia Civil"
+  },
+  {
+    "i": 53,
+    "fecha": "2027-01-03",
+    "publicado_en": "2027-01-03T07:06:00+01:00",
+    "semana": 8,
+    "bloque": "Semana 8",
+    "slug": "como-memorizar-leyes-repaso-espaciado-aplicado-al-temario",
+    "titulo": "Cómo memorizar leyes: repaso espaciado aplicado al temario"
+  },
+  {
+    "i": 54,
+    "fecha": "2027-01-04",
+    "publicado_en": "2027-01-04T07:23:00+01:00",
+    "semana": 8,
+    "bloque": "Semana 8",
+    "slug": "tecnologias-de-la-informacion-en-el-temario-conceptos-que-caen",
+    "titulo": "Tecnologías de la información en el temario: qué conceptos estudiar"
+  },
+  {
+    "i": 55,
+    "fecha": "2027-01-05",
+    "publicado_en": "2027-01-05T07:40:00+01:00",
+    "semana": 8,
+    "bloque": "Semana 8",
+    "slug": "proteccion-civil-y-desarrollo-sostenible-en-el-temario",
+    "titulo": "Protección civil y desarrollo sostenible en el temario: qué normas entran"
+  },
+  {
+    "i": 56,
+    "fecha": "2027-01-06",
+    "publicado_en": "2027-01-06T07:57:00+01:00",
+    "semana": 9,
+    "bloque": "Semana 9",
+    "slug": "derechos-deberes-y-regimen-disciplinario-del-guardia-civil",
+    "titulo": "\"Derechos, deberes y régimen disciplinario del guardia civil\""
+  },
+  {
+    "i": 57,
+    "fecha": "2027-01-07",
+    "publicado_en": "2027-01-07T07:14:00+01:00",
+    "semana": 9,
+    "bloque": "Semana 9",
+    "slug": "un-dia-en-la-academia-de-baeza-horarios-normas-y-permisos",
+    "titulo": "Vida en la Academia de Baeza: horarios, normas y permisos según la normativa"
+  },
+  {
+    "i": 58,
+    "fecha": "2027-01-08",
+    "publicado_en": "2027-01-08T07:31:00+01:00",
+    "semana": 9,
+    "bloque": "Semana 9",
+    "slug": "las-practicas-despues-de-baeza-que-te-espera-guardia-civil",
+    "titulo": "Las prácticas después de Baeza: qué te espera en el segundo curso"
+  },
+  {
+    "i": 59,
+    "fecha": "2027-01-09",
+    "publicado_en": "2027-01-09T07:48:00+01:00",
+    "semana": 9,
+    "bloque": "Semana 9",
+    "slug": "como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil",
+    "titulo": "Cómo se asignan los primeros destinos al salir de Baeza: lo que dice el reglamento"
+  },
+  {
+    "i": 60,
+    "fecha": "2027-01-10",
+    "publicado_en": "2027-01-10T07:05:00+01:00",
+    "semana": 9,
+    "bloque": "Semana 9",
+    "slug": "agrupacion-de-trafico-que-hace-y-como-se-entra-guardia-civil",
+    "titulo": "Agrupación de Tráfico de la Guardia Civil: qué hace y cómo se entra"
+  },
+  {
+    "i": 61,
+    "fecha": "2027-01-11",
+    "publicado_en": "2027-01-11T07:22:00+01:00",
+    "semana": 9,
+    "bloque": "Semana 9",
+    "slug": "seprona-la-especialidad-de-proteccion-de-la-naturaleza",
+    "titulo": "SEPRONA: la especialidad de protección de la naturaleza de la Guardia Civil"
+  },
+  {
+    "i": 62,
+    "fecha": "2027-01-12",
+    "publicado_en": "2027-01-12T07:39:00+01:00",
+    "semana": 9,
+    "bloque": "Semana 9",
+    "slug": "geas-asi-son-los-buceadores-de-la-guardia-civil",
+    "titulo": "GEAS: así son los buceadores de la Guardia Civil"
+  },
+  {
+    "i": 63,
+    "fecha": "2027-01-13",
+    "publicado_en": "2027-01-13T07:56:00+01:00",
+    "semana": 10,
+    "bloque": "Semana 10",
+    "slug": "mujeres-en-la-guardia-civil-acceso-datos-y-conciliacion",
+    "titulo": "Mujeres en la Guardia Civil: acceso, datos y conciliación"
+  },
+  {
+    "i": 64,
+    "fecha": "2027-01-14",
+    "publicado_en": "2027-01-14T07:13:00+01:00",
+    "semana": 10,
+    "bloque": "Semana 10",
+    "slug": "grs-que-son-los-grupos-de-reserva-y-seguridad-guardia-civil",
+    "titulo": "GRS: qué son los Grupos de Reserva y Seguridad de la Guardia Civil"
+  },
+  {
+    "i": 65,
+    "fecha": "2027-01-15",
+    "publicado_en": "2027-01-15T07:30:00+01:00",
+    "semana": 10,
+    "bloque": "Semana 10",
+    "slug": "servicio-cinologico-como-ser-guia-canino-en-la-guardia-civil",
+    "titulo": "Servicio Cinológico: qué hace un guía canino de la Guardia Civil y cómo se accede"
+  },
+  {
+    "i": 66,
+    "fecha": "2027-01-16",
+    "publicado_en": "2027-01-16T07:47:00+01:00",
+    "semana": 10,
+    "bloque": "Semana 10",
+    "slug": "servicio-maritimo-y-servicio-aereo-de-la-guardia-civil",
+    "titulo": "Servicio Marítimo y Servicio Aéreo de la Guardia Civil"
+  },
+  {
+    "i": 67,
+    "fecha": "2027-01-17",
+    "publicado_en": "2027-01-17T07:04:00+01:00",
+    "semana": 10,
+    "bloque": "Semana 10",
+    "slug": "topografia-para-guardia-civil-escalas-curvas-de-nivel",
+    "titulo": "Topografía para Guardia Civil: escalas, curvas de nivel y pendientes"
+  },
+  {
+    "i": 68,
+    "fecha": "2027-01-18",
+    "publicado_en": "2027-01-18T07:21:00+01:00",
+    "semana": 10,
+    "bloque": "Semana 10",
+    "slug": "rescate-de-montana-en-la-guardia-civil-requisitos-y-formacion",
+    "titulo": "Rescate de montaña en la Guardia Civil: funciones, formación y cómo se accede"
+  },
+  {
+    "i": 69,
+    "fecha": "2027-01-19",
+    "publicado_en": "2027-01-19T07:38:00+01:00",
+    "semana": 10,
+    "bloque": "Semana 10",
+    "slug": "recursos-oficiales-gratuitos-para-preparar-la-guardia-civil",
+    "titulo": "Recursos oficiales gratuitos para preparar la Guardia Civil"
+  },
+  {
+    "i": 70,
+    "fecha": "2027-01-20",
+    "publicado_en": "2027-01-20T07:55:00+01:00",
+    "semana": 11,
+    "bloque": "Semana 11",
+    "slug": "examenes-oficiales-anteriores-donde-encontrarlos",
+    "titulo": "Exámenes oficiales anteriores: dónde encontrarlos y cómo sacarles partido"
+  },
+  {
+    "i": 71,
+    "fecha": "2027-01-21",
+    "publicado_en": "2027-01-21T07:12:00+01:00",
+    "semana": 11,
+    "bloque": "Semana 11",
+    "slug": "derecho-fiscal-en-la-oposicion-hacienda-contrabando",
+    "titulo": "Derecho fiscal en la oposición: contrabando y aduanas, las normas que entran"
+  },
+  {
+    "i": 72,
+    "fecha": "2027-01-22",
+    "publicado_en": "2027-01-22T07:29:00+01:00",
+    "semana": 11,
+    "bloque": "Semana 11",
+    "slug": "simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados",
+    "titulo": "Simulacros: cada cuánto hacerlos y cómo analizar los resultados"
+  },
+  {
+    "i": 73,
+    "fecha": "2027-01-23",
+    "publicado_en": "2027-01-23T07:46:00+01:00",
+    "semana": 11,
+    "bloque": "Semana 11",
+    "slug": "academia-online-o-por-libre-como-preparar-la-guardia-civil",
+    "titulo": "\"Academia, online o por libre: cómo preparar la Guardia Civil\""
+  },
+  {
+    "i": 74,
+    "fecha": "2027-01-24",
+    "publicado_en": "2027-01-24T07:03:00+01:00",
+    "semana": 11,
+    "bloque": "Semana 11",
+    "slug": "gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales",
+    "titulo": "\"Gramática inglesa para la Guardia Civil: los tiempos verbales que conviene dominar\""
+  },
+  {
+    "i": 75,
+    "fecha": "2027-01-25",
+    "publicado_en": "2027-01-25T07:20:00+01:00",
+    "semana": 11,
+    "bloque": "Semana 11",
+    "slug": "vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles",
+    "titulo": "\"Vocabulario y phrasal verbs útiles para el examen de inglés\""
+  },
+  {
+    "i": 76,
+    "fecha": "2027-01-26",
+    "publicado_en": "2027-01-26T07:37:00+01:00",
+    "semana": 11,
+    "bloque": "Semana 11",
+    "slug": "como-aprobar-el-ingles-de-la-guardia-civil-partiendo-de-cero",
+    "titulo": "\"Cómo aprobar el inglés de la Guardia Civil partiendo de cero\""
+  },
+  {
+    "i": 77,
+    "fecha": "2027-01-27",
+    "publicado_en": "2027-01-27T07:54:00+01:00",
+    "semana": 12,
+    "bloque": "Semana 12",
+    "slug": "falsos-amigos-en-ingles-los-errores-tipicos-del-opositor",
+    "titulo": "\"Falsos amigos en inglés: los errores clásicos al traducir del español\""
+  },
+  {
+    "i": 78,
+    "fecha": "2027-01-28",
+    "publicado_en": "2027-01-28T07:11:00+01:00",
+    "semana": 12,
+    "bloque": "Semana 12",
+    "slug": "preguntas-trampa-del-examen-de-guardia-civil",
+    "titulo": "Preguntas trampa del examen de Guardia Civil y cómo detectarlas"
+  },
+  {
+    "i": 79,
+    "fecha": "2027-01-29",
+    "publicado_en": "2027-01-29T07:28:00+01:00",
+    "semana": 12,
+    "bloque": "Semana 12",
+    "slug": "bloques-de-estudio-y-tecnica-pomodoro-para-opositores",
+    "titulo": "Bloques de estudio y técnica Pomodoro para opositores"
+  },
+  {
+    "i": 80,
+    "fecha": "2027-01-30",
+    "publicado_en": "2027-01-30T07:45:00+01:00",
+    "semana": 12,
+    "bloque": "Semana 12",
+    "slug": "que-llevar-al-examen-de-la-guardia-civil-y-que-esta-prohibido",
+    "titulo": "Qué llevar al examen de la Guardia Civil y qué está prohibido"
+  },
+  {
+    "i": 81,
+    "fecha": "2027-01-31",
+    "publicado_en": "2027-01-31T07:02:00+01:00",
+    "semana": 12,
+    "bloque": "Semana 12",
+    "slug": "como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas",
+    "titulo": "Cómo leer un enunciado tipo test para reducir los errores de lectura"
+  },
+  {
+    "i": 82,
+    "fecha": "2027-02-01",
+    "publicado_en": "2027-02-01T07:19:00+01:00",
+    "semana": 12,
+    "bloque": "Semana 12",
+    "slug": "plan-de-repaso-para-los-ultimos-tres-meses-antes-del-examen",
+    "titulo": "Plan de repaso para los últimos tres meses antes del examen"
+  },
+  {
+    "i": 83,
+    "fecha": "2027-02-02",
+    "publicado_en": "2027-02-02T07:36:00+01:00",
+    "semana": 12,
+    "bloque": "Semana 12",
+    "slug": "ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue",
+    "titulo": "\"Inglés: cómo llegar a los 8 puntos mínimos sin ser bilingüe\""
+  },
+  {
+    "i": 84,
+    "fecha": "2027-02-03",
+    "publicado_en": "2027-02-03T07:53:00+01:00",
+    "semana": 13,
+    "bloque": "Semana 13",
+    "slug": "certificados-de-idiomas-para-la-guardia-civil-cual-sacarte",
+    "titulo": "\"Certificados de idiomas para la Guardia Civil: cuál sacarte y cuánto suma\""
+  },
+  {
+    "i": 85,
+    "fecha": "2027-02-04",
+    "publicado_en": "2027-02-04T07:10:00+01:00",
+    "semana": 13,
+    "bloque": "Semana 13",
+    "slug": "convocatoria-guardia-civil-2027-que-se-sabe-y-cuando-saldra",
+    "titulo": "Convocatoria Guardia Civil 2027: qué se sabe y cómo seguirla"
+  },
+  {
+    "i": 86,
+    "fecha": "2027-02-05",
+    "publicado_en": "2027-02-05T07:27:00+01:00",
+    "semana": 13,
+    "bloque": "Semana 13",
+    "slug": "como-rellenar-la-solicitud-de-la-guardia-civil-paso-a-paso",
+    "titulo": "Cómo rellenar la solicitud de la Guardia Civil paso a paso"
+  },
+  {
+    "i": 87,
+    "fecha": "2027-02-06",
+    "publicado_en": "2027-02-06T07:44:00+01:00",
+    "semana": 13,
+    "bloque": "Semana 13",
+    "slug": "plazas-reservadas-para-militares-como-funciona-el-cupo",
+    "titulo": "Plazas reservadas para militares: cómo funciona el cupo"
+  },
+  {
+    "i": 88,
+    "fecha": "2027-02-07",
+    "publicado_en": "2027-02-07T07:01:00+01:00",
+    "semana": 13,
+    "bloque": "Semana 13",
+    "slug": "motivacion-que-hacer-los-dias-que-no-te-apetece-estudiar",
+    "titulo": "Motivación: qué hacer los días que no te apetece estudiar"
+  },
+  {
+    "i": 89,
+    "fecha": "2027-02-08",
+    "publicado_en": "2027-02-08T07:18:00+01:00",
+    "semana": 13,
+    "bloque": "Semana 13",
+    "slug": "colegio-de-guardias-jovenes-requisitos-de-edad",
+    "titulo": "Colegio de Guardias Jóvenes: requisitos de edad y qué está confirmado"
+  },
+  {
+    "i": 90,
+    "fecha": "2027-02-09",
+    "publicado_en": "2027-02-09T07:35:00+01:00",
+    "semana": 13,
+    "bloque": "Semana 13",
+    "slug": "si-suspendes-como-replantear-la-siguiente-convocatoria",
+    "titulo": "Si suspendes: cómo replantear la siguiente convocatoria"
+  },
+  {
+    "i": 91,
+    "fecha": "2027-02-10",
+    "publicado_en": "2027-02-10T07:52:00+01:00",
+    "semana": 14,
+    "bloque": "Semana 14",
+    "slug": "responsabilidad-penal-de-los-menores-lo-5-2000-lo-que-mas",
+    "titulo": "Responsabilidad penal de los menores (LO 5/2000): claves del tema"
+  },
+  {
+    "i": 92,
+    "fecha": "2027-02-11",
+    "publicado_en": "2027-02-11T07:09:00+01:00",
+    "semana": 14,
+    "bloque": "Semana 14",
+    "slug": "armas-y-explosivos-en-el-temario-de-la-guardia-civil",
+    "titulo": "Armas y explosivos en el temario de la Guardia Civil"
+  },
+  {
+    "i": 93,
+    "fecha": "2027-02-12",
+    "publicado_en": "2027-02-12T07:26:00+01:00",
+    "semana": 14,
+    "bloque": "Semana 14",
+    "slug": "casas-cuartel-como-es-vivir-en-un-pabellon-de-la-guardia-civil",
+    "titulo": "Casas cuartel y pabellones de la Guardia Civil: qué son y qué dice la norma"
+  },
+  {
+    "i": 94,
+    "fecha": "2027-02-13",
+    "publicado_en": "2027-02-13T07:43:00+01:00",
+    "semana": 14,
+    "bloque": "Semana 14",
+    "slug": "ascenso-a-cabo-cuando-puedes-presentarte",
+    "titulo": "Ascenso a cabo: cuándo puedes presentarte y cómo es la promoción interna"
+  },
+  {
+    "i": 95,
+    "fecha": "2027-02-14",
+    "publicado_en": "2027-02-14T07:00:00+01:00",
+    "semana": 14,
+    "bloque": "Semana 14",
+    "slug": "opositar-en-pareja-como-compaginarlo-sin-que-se-resienta",
+    "titulo": "Opositar en pareja: cómo organizarlo para cuidar la relación"
+  },
+  {
+    "i": 96,
+    "fecha": "2027-02-15",
+    "publicado_en": "2027-02-15T07:17:00+01:00",
+    "semana": 14,
+    "bloque": "Semana 14",
+    "slug": "opositar-con-hijos-un-plan-de-estudio-realista-guardia-civil",
+    "titulo": "Opositar con hijos: un plan de estudio realista"
+  },
+  {
+    "i": 97,
+    "fecha": "2027-02-16",
+    "publicado_en": "2027-02-16T07:34:00+01:00",
+    "semana": 14,
+    "bloque": "Semana 14",
+    "slug": "tasas-de-examen-de-la-guardia-civil-importe-y-exenciones",
+    "titulo": "Tasas de examen de la Guardia Civil: importe y exenciones"
+  },
+  {
+    "i": 98,
+    "fecha": "2027-02-17",
+    "publicado_en": "2027-02-17T07:51:00+01:00",
+    "semana": 14,
+    "bloque": "Semana 14",
+    "slug": "examen-del-colegio-de-guardias-jovenes-estructura-y-temas",
+    "titulo": "Examen del Colegio de Guardias Jóvenes: qué pruebas tiene y cómo prepararlo"
+  },
+  {
+    "i": 99,
+    "fecha": "2027-02-18",
+    "publicado_en": "2027-02-18T07:08:00+01:00",
+    "semana": 14,
+    "bloque": "Semana 14",
+    "slug": "como-saber-si-estas-preparado-para-aprobar-los-indicadores",
+    "titulo": "Cómo saber si estás preparado: indicadores medibles frente a la nota de corte"
+  }
 ]

@@ -3,7 +3,7 @@ titulo: Extensiones de brazos en la Guardia Civil: de cero a la marca
 slug: extensiones-de-brazos-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-20T07:38:00+01:00
+publicado_en: 2026-11-19T07:21:00+01:00
 curso: acceso-guardia-civil
 entradilla: Dieciséis para ellos y once para ellas, sin parar y tocando el suelo con la barbilla. Las marcas oficiales, las reglas que hacen válida una repetición, cómo se descansa y una progresión para llegar a la marca partiendo de cero.
 etiquetas: [pruebas físicas, extensiones de brazos, flexiones, entrenamiento]

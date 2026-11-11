@@ -3,7 +3,7 @@ titulo: Si suspendes: cómo replantear la siguiente convocatoria
 slug: si-suspendes-como-replantear-la-siguiente-convocatoria
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-15T07:17:00+01:00
+publicado_en: 2027-02-09T07:35:00+01:00
 curso: acceso-guardia-civil
 entradilla: No entrar a la primera es frecuente. Cómo averiguar en qué fase y por qué quedaste fuera, cuánto te faltó frente a las notas de corte de 2022 a 2026, dónde están los puntos más baratos y cómo reorganizar la preparación para la siguiente convocatoria.
 etiquetas: [suspenso, nota de corte, planificación, convocatoria]

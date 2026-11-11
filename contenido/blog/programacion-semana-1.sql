@@ -154,6 +154,326 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
+  ('carrera-2000-metros-guardia-civil', 'articulo', 'Carrera de 2.000 metros en la Guardia Civil: plan para bajar tu marca', 'La carrera de 2.000 metros se hace con un solo intento: la superas o te quedas fuera. Las marcas oficiales por sexo y edad, los ritmos por vuelta, un plan orientativo de ocho semanas y cómo correr el día de la prueba.', 'De las cuatro pruebas físicas, la carrera suele ser la que más aspirantes subestiman: «son solo dos kilómetros». Pero tiene una particularidad que la hace peligrosa: **hay un único intento**. Si el día de la prueba no sale, no hay segunda oportunidad.
+
+La respuesta corta: **los hombres menores de 35 años deben correr los 2.000 metros en 9 minutos y 25 segundos o menos, y las mujeres de esa edad, en 11 minutos y 14 segundos o menos.** Eso supone mantener unos 4:42 por kilómetro (hombres) o 5:37 (mujeres) de principio a fin.
+
+## Las marcas oficiales
+
+La convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), apéndice II) describe la prueba de resistencia (R2) así: carrera de 2.000 metros lisos, **salida en pie**, en un tiempo **no superior** a estos, y **un único intento**:
+
+| | Menor de 35 años | De 35 a 39 años | 40 años o más |
+|---|---|---|---|
+| Hombres | 9 min 25 s | 9 min 48 s | 10 min 33 s |
+| Mujeres | 11 min 14 s | 11 min 35 s | 12 min 49 s |
+
+Es una prueba de **apto o no apto**: ir más rápido que la marca no suma puntos, pero no cumplirla te excluye del proceso en ese momento. Por eso el objetivo no es la marca justa, sino llegar con margen.
+
+## ¿A qué ritmo hay que correr?
+
+Dividiendo cada marca entre la distancia, estos son los ritmos medios que necesitas (redondeados al segundo):
+
+| Marca | Ritmo por km | Por vuelta de 400 m | Por cada 500 m |
+|---|---|---|---|
+| 9:25 (hombres <35) | 4:42-4:43 | 1:53 | 2:21 |
+| 9:48 (hombres 35-39) | 4:54 | 1:58 | 2:27 |
+| 10:33 (hombres ≥40) | 5:16-5:17 | 2:07 | 2:38 |
+| 11:14 (mujeres <35) | 5:37 | 2:15 | 2:48-2:49 |
+| 11:35 (mujeres 35-39) | 5:47-5:48 | 2:19 | 2:54 |
+| 12:49 (mujeres ≥40) | 6:24-6:25 | 2:34 | 3:12 |
+
+En una pista de atletismo, los 2.000 metros son cinco vueltas a la calle 1. Anota tu tiempo en cada vuelta cuando entrenes: la regularidad pesa mucho más que un arranque rápido.
+
+### Ritmo objetivo con margen
+
+Un margen razonable es entrenar para unos segundos por debajo de la marca. Por ejemplo, correr un 5 % más rápido que la marca de hombres menores de 35 serían unos **8:57** (1:47 por vuelta); para las mujeres de esa edad, unos **10:40** (2:08 por vuelta). Ese colchón te protege frente al calor, los nervios o una mala salida.
+
+## Cómo saber dónde estás
+
+Antes de planificar nada, haz **un test de 2.000 metros**, en pista o en un tramo llano y medido, tras un calentamiento suave y con un día de descanso previo. Compara el resultado con tu marca:
+
+| Resultado del test | Diagnóstico | Por dónde empezar |
+|---|---|---|
+| Por debajo de la marca | Ya cumples | Mantener y ganar margen |
+| Hasta 30-40 s por encima | Cerca | Trabajo de ritmo ordenado durante varias semanas |
+| Más de un minuto por encima | Lejos | Construir base de carrera continua antes del ritmo |
+| No puedes correr 2.000 m seguidos | Desde cero | Alternar caminar y correr hasta aguantar 20-30 minutos seguidos |
+
+Repite el test cada tres o cuatro semanas en condiciones parecidas. Sin ese dato estás entrenando a ciegas.
+
+## Plan de ocho semanas (orientativo)
+
+Es un esquema general para alguien sano que ya sale a correr con regularidad. No sustituye a un entrenador, y si no estás acostumbrado al ejercicio, consulta antes a tu médico.
+
+| Semana | Sesión 1 | Sesión 2 | Sesión 3 |
+|---|---|---|---|
+| 1 | Rodaje suave 25 min | Rodaje suave 25 min + 4 progresiones de 80 m | Rodaje suave 30 min |
+| 2 | Rodaje suave 30 min | Rodaje suave 30 min + 4 progresiones | Rodaje suave 35 min |
+| 3 | 4 × 500 m a ritmo de marca, 90 s de recuperación | Rodaje suave 30 min | Rodaje largo 35-40 min |
+| 4 | 5 × 400 m algo más rápido que la marca, 90 s | Rodaje suave 30 min | Rodaje largo 40 min |
+| 5 | 5 × 500 m a ritmo de marca, 75 s | Rodaje suave 30 min | Test de 2.000 m |
+| 6 | 3 × 800 m a ritmo de marca, 2 min | Rodaje suave 30 min | Rodaje largo 40 min |
+| 7 | 2 × 1.000 m algo más rápido que la marca, 3 min | Rodaje suave 30 min | 6 × 300 m rápidos, 90 s |
+| 8 | 2 × 500 m a ritmo objetivo | Rodaje muy suave 20 min | Descanso los dos días previos a la prueba |
+
+«Rodaje suave» es un ritmo con el que podrías mantener una conversación. Si partes de cero, alarga la fase de base: es mejor llegar con más semanas que forzar el ritmo antes de tiempo.
+
+### Ejemplo de sesión de series explicado
+
+Semana 3, hombres menores de 35: **4 × 500 m a 2:21 cada uno**, con 90 segundos caminando o trotando entre repeticiones. Si la última repetición sale mucho más lenta que la primera, has salido demasiado rápido: en la siguiente sesión, empieza a 2:23 y termina a 2:20. Para mujeres menores de 35, el mismo trabajo sería a unos 2:48 por repetición.
+
+## Caso práctico (hipotético)
+
+Daniel, 29 años, corre su primer test en 10:10. Le faltan 45 segundos para la marca de 9:25.
+
+- **Semanas 1-4:** base y primeras series. Segundo test: 9:52.
+- **Semanas 5-8:** series de 500 y 800 m a 2:21 y 3:46. Tercer test: 9:31.
+- **Semanas 9-12:** repite el bloque específico con algo más de volumen. Cuarto test: 9:12.
+
+Su conclusión: ocho semanas no le bastaron para llegar con margen, y necesitó doce. Por eso conviene empezar con tiempo y no fiarlo todo al último plan.
+
+## Cómo correr la prueba
+
+1. **Calienta bien.** De 10 a 15 minutos de trote suave, movilidad y tres o cuatro progresiones cortas.
+2. **Sal a tu ritmo, no al de los demás.** Es el error más común: salir rápido arrastrado por el grupo, vaciarse en la segunda vuelta y arrastrarse el resto.
+3. **Controla las dos primeras vueltas.** Si en la primera vuelta vas cuatro o cinco segundos por debajo de tu parcial, afloja un poco.
+4. **Reparte el esfuerzo.** Si vas justo, es preferible un ritmo parejo que arrancar fuerte y frenar.
+5. **Reserva para el final.** Los últimos 400 metros son los de apretar.
+
+La convocatoria permite al Tribunal fijar el orden de las pruebas y desarrollar varias a la vez, así que no sabrás de antemano si la carrera será la primera o llegarás a ella tras otros ejercicios. Entrena también en condiciones de cansancio.
+
+## Antes del día de la prueba
+
+- **Certificado médico.** Tienes que entregar al Tribunal, antes de empezar las pruebas físicas, un certificado médico oficial expedido en los **20 días anteriores** que diga expresamente que estás capacitado para los cuatro ejercicios (modelos en los apéndices III y IV de la convocatoria). Sin él, quedas excluido.
+- **Atuendo deportivo.** La convocatoria exige ir con ropa deportiva acorde con los ejercicios. Usa unas zapatillas con las que ya hayas entrenado; no estrenes nada ese día.
+- **Documento de identidad.** Pueden pedírtelo en cualquier momento.
+
+## Errores frecuentes
+
+- **Entrenar solo rodajes lentos.** Sin trabajo a ritmo de marca, el cuerpo no sabe qué se le pide.
+- **Hacer todas las sesiones a tope.** Las series son duras; los rodajes deben ser suaves para recuperar.
+- **No medir.** Sin tests periódicos no sabes si progresas.
+- **Dejar la carrera para el final.** La resistencia es lo que más tarda en mejorar. Consulta [las cuatro pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento) para repartir el entrenamiento.
+- **Ignorar los dolores.** Si algo duele más de un par de días, descansa y consulta a un profesional.
+- **Olvidar tu tramo de edad.** Si cumples 35 o 40 cerca de las pruebas, entrena para la marca más exigente; lo explicamos en [edad máxima para ser Guardia Civil](/blog/edad-maxima-guardia-civil).
+
+## Compaginar la carrera con el estudio
+
+Tres sesiones semanales de 30 a 45 minutos caben en casi cualquier horario. Muchas personas las colocan como descanso entre bloques de estudio o a primera hora. Tienes ideas para organizar la semana en [cómo preparar la oposición trabajando](/blog/plan-estudio-guardia-civil-trabajando).
+
+## Checklist
+
+- [ ] Conozco mi marca exacta según sexo y tramo de edad.
+- [ ] He hecho un test de 2.000 m y sé cuánto me falta.
+- [ ] Sé mi parcial por vuelta de 400 m.
+- [ ] Hago al menos una sesión de ritmo a la semana.
+- [ ] Repito el test cada tres o cuatro semanas.
+- [ ] Tendré el certificado médico expedido dentro de los 20 días anteriores.
+
+Si quieres un plan que combine el entrenamiento físico con el estudio, lo tienes en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Cuánto hay que correr los 2.000 metros en la Guardia Civil?
+
+En la convocatoria de 2026, los hombres menores de 35 años, en 9 minutos y 25 segundos o menos, y las mujeres de la misma edad, en 11 minutos y 14 segundos o menos. Los tiempos aumentan a partir de los 35 y de los 40 años.
+
+### ¿Cuántos intentos hay en la carrera?
+
+Uno solo. A diferencia del circuito de agilidad o de las extensiones de brazos, no se repite.
+
+### ¿Puntúa correr más rápido?
+
+No. Las pruebas físicas son apto o no apto: basta con cumplir la marca.
+
+### ¿A qué ritmo por kilómetro hay que ir?
+
+A unos 4:42-4:43 por kilómetro para la marca de hombres menores de 35 años y a 5:37 para la de mujeres de esa edad.
+
+### ¿Cuánto tiempo necesito para prepararla?
+
+Depende de tu punto de partida. Con una base de carrera, ocho semanas de trabajo específico pueden bastar para afinar; si partes de cero, conviene dedicarle varios meses.
+
+### ¿La salida es agachada o de pie?
+
+De pie, según el apéndice II de la convocatoria.
+
+### ¿Qué pasa si no supero la carrera?
+
+Quedas calificado como «no apto» y excluido del proceso en el momento de no superarla.',
+   '/blog/carrera-2000-metros-guardia-civil.jpg', 'Aspirante corriendo la última vuelta de una pista de atletismo', 'publicado', '2026-11-15T06:13:00.000Z', 'acceso-guardia-civil',
+   ARRAY['pruebas físicas', 'carrera', '2000 metros', 'entrenamiento']::text[], '{"title":"Carrera 2.000 m Guardia Civil: marcas, ritmos y plan","description":"Marcas de la carrera de 2.000 metros de la Guardia Civil por sexo y edad, ritmo por kilómetro y por vuelta, y plan de ocho semanas para superarla."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('circuito-agilidad-coordinacion-guardia-civil', 'articulo', 'Circuito de agilidad y coordinación de la Guardia Civil: técnica paso a paso', 'Un recorrido con vallas y banderines que se hace contra el reloj. Las marcas oficiales, cuándo se para el cronómetro, qué anula un intento, cuántos intentos tienes y cómo entrenarlo aunque no tengas el circuito montado.', 'El circuito de agilidad y coordinación es la prueba más técnica de las cuatro. No depende solo de estar en forma: depende de **hacer el recorrido bien y limpio**, y un error de ejecución puede costarte un intento.
+
+La respuesta corta: **en 2026 había que completarlo en 14,00 segundos o menos (hombres menores de 35) o en 16,00 segundos o menos (mujeres menores de 35), sin derribar ni desplazar ningún elemento.** Tienes dos intentos si el primero es nulo o sale fuera de tiempo.
+
+## Las marcas oficiales
+
+La convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), apéndice II, prueba C1) exige completar el recorrido en un tiempo **no superior** a:
+
+| | Menor de 35 años | De 35 a 39 años | 40 años o más |
+|---|---|---|---|
+| Hombres | 14,00 s | 14,40 s | 15,10 s |
+| Mujeres | 16,00 s | 16,40 s | 17,90 s |
+
+Como las demás pruebas físicas, es **apto o no apto**: bajar de la marca no suma puntos, pero superarla en ambos intentos te deja fuera del proceso.
+
+Las diferencias son de décimas. Entre un 13,9 y un 14,1 hay un paso mal dado en un giro. Por eso conviene entrenar para un margen de, al menos, medio segundo por debajo de tu marca.
+
+## Cómo es el recorrido
+
+La convocatoria incluye un gráfico del circuito, con vallas y banderines que hay que rodear en un orden fijo. **Estúdialo en el apéndice II de la convocatoria de tu año**: es el único recorrido válido, y cualquier modificación anula el intento.
+
+Las reglas de salida y llegada son las siguientes:
+
+- La salida es **de pie**, detrás de la línea de partida.
+- Puedes iniciar el recorrido **desde cualquiera de los dos lados** de la valla de inicio.
+- Si empiezas por el lado izquierdo, el recorrido es el mismo que en el gráfico, pero **invirtiendo derecha e izquierda** en los banderines y en las bases de las vallas.
+- El tiempo se mide desde el inicio hasta que **tocas el suelo con uno o con los dos pies después de que todo tu cuerpo haya superado la última valla**.
+
+Ese último detalle importa: el cronómetro no se para cuando tu pecho pasa la valla, sino cuando aterrizas tras haberla superado por completo. No frenes antes de aterrizar.
+
+### ¿Por qué lado empezar?
+
+Prueba los dos en tus entrenamientos y cronométralos. La mayoría de la gente gira mejor hacia un lado que hacia el otro. Elige el lado en el que los giros más cerrados te caigan hacia tu lado bueno y entrénalo siempre igual, para no dudar el día de la prueba.
+
+## Cuántos intentos tienes
+
+Se permiten **dos intentos**, espaciados para facilitar la recuperación, cuando:
+
+- el primero se declara **nulo**, o
+- en el primero superas el tiempo máximo establecido.
+
+Es la diferencia con la carrera y la natación, que tienen un solo intento. Pero no te lo tomes como un colchón: el segundo intento llega con la presión de no tener otro.
+
+## Qué hace nulo un intento
+
+La convocatoria lo dice con claridad. Es nulo todo intento en el que el aspirante:
+
+- **modifique el recorrido** señalado en el gráfico, o
+- **derribe o desplace** cualquiera de los elementos.
+
+Es decir: una valla tirada o un banderín movido invalida el intento, por rápido que seas. Ocurre sobre todo al querer ir demasiado deprisa en las zonas de giro o al pasar la valla con poca altura.
+
+| Situación | ¿Nulo? |
+|---|---|
+| Rozas un banderín y se mueve de su sitio | Sí: lo has desplazado |
+| Tiras una valla | Sí |
+| Rodeas un banderín por el lado contrario al del gráfico | Sí: modificas el recorrido |
+| Empiezas por la izquierda y repites el gráfico sin invertirlo | Sí: el recorrido no corresponde |
+| Te resbalas pero sigues el recorrido sin tocar nada | No, aunque perderás tiempo |
+
+## Técnica: lo que más tiempo ahorra
+
+Estas ideas sirven para cualquier recorrido de vallas y giros:
+
+1. **Aprende el recorrido de memoria** antes de hacerlo, con el gráfico en la mano. Dudar en un giro cuesta más que ir más despacio.
+2. **Mira un elemento por delante.** Mientras superas una valla, tu mirada ya tiene que estar en el siguiente banderín.
+3. **Baja el centro de gravedad en los giros.** Pasos cortos, rodillas flexionadas y empuje con el pie exterior para salir rápido.
+4. **Gira cerca, pero sin tocar.** Cada centímetro de más alrededor de un banderín es tiempo perdido; cada roce es un riesgo de nulo.
+5. **Pasa las vallas con decisión.** Dudar delante de una valla rompe el ritmo y aumenta el riesgo de tirarla.
+6. **Corre el final entero.** El tiempo se para cuando tocas el suelo tras la última valla: no frenes antes.
+
+## Cómo entrenarlo si no tienes el circuito
+
+No hace falta el circuito oficial para preparar lo que importa:
+
+- **Agilidad de pies:** escalera de coordinación, saltos laterales y cambios de dirección con conos.
+- **Paso de valla:** vallas bajas o elementos seguros de altura similar, con aterrizajes controlados.
+- **Cambios de dirección a ritmo:** circuitos con conos que te obliguen a girar a derecha e izquierda.
+- **Simulación:** cuando puedas, monta el recorrido con conos y picas reproduciendo lo más fielmente posible el gráfico, cronométralo y hazlo con la misma ropa y calzado que usarás.
+
+### Una semana tipo (orientativa)
+
+| Día | Trabajo de circuito | Duración aproximada |
+|---|---|---|
+| Día 1 | Calentamiento, escalera de coordinación (6 pasadas), 6 × cambios de dirección con conos, 4 × paso de valla | 30 min |
+| Día 2 | Calentamiento, 6 a 8 recorridos completos cronometrados con 2-3 min de descanso | 30-40 min |
+
+Dos sesiones semanales son suficientes, siempre con calentamiento previo, y pueden ir al final de una sesión de carrera suave. Si tienes alguna lesión en tobillo, rodilla o espalda, consúltala antes con un profesional.
+
+## Caso práctico (hipotético)
+
+Nuria, 26 años, hace su primer recorrido cronometrado en 17,3 segundos. Su marca es 16,00.
+
+- **Semana 1:** aprende el recorrido y lo repite andando y trotando. Descubre que gira mejor hacia la derecha y decide empezar por el lado que le favorece.
+- **Semanas 2-4:** dos sesiones semanales de agilidad y paso de valla. Baja a 16,4 segundos.
+- **Semanas 5-6:** trabaja la salida y el último tramo, que hacía frenando. Baja a 15,6 segundos.
+- **Semanas 7-8:** simulaciones con cansancio previo. Mantiene 15,5-15,7 de forma estable.
+
+La mejora vino más de la técnica y de memorizar el recorrido que de la condición física.
+
+## No lo dejes para el final
+
+La convocatoria permite al Tribunal fijar el orden de las pruebas y desarrollar varias a la vez, así que puedes llegar al circuito después de la [carrera de 2.000 metros](/blog/carrera-2000-metros-guardia-civil) o de otras pruebas. Con las piernas cansadas, la coordinación empeora. Entrénalo también en condiciones de fatiga para saber cómo respondes.
+
+Y recuerda la documentación: antes de las pruebas físicas debes entregar un certificado médico oficial expedido en los 20 días anteriores, según los modelos de la convocatoria.
+
+## Errores frecuentes
+
+- **Ver el gráfico por primera vez el día de la prueba.**
+- **Ir a tope en el primer intento** y tirar una valla: el nulo te deja sin red.
+- **Frenar antes de aterrizar** tras la última valla.
+- **Entrenar siempre empezando por el mismo lado sin haber probado el otro.**
+- **Entrenar con zapatillas que no agarran.** En los giros, el calzado importa.
+- **Olvidar tu tramo de edad.** Si cumples 35 o 40 cerca de las pruebas, entrena para la marca más exigente.
+
+## Checklist
+
+- [ ] He estudiado el gráfico del apéndice II.
+- [ ] He decidido por qué lado empiezo.
+- [ ] Hago el recorrido de forma estable al menos medio segundo por debajo de mi marca.
+- [ ] Lo he practicado también con cansancio previo.
+- [ ] Conozco las cuatro pruebas y cómo encajan: lo tienes en [las pruebas físicas de la Guardia Civil](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento).
+- [ ] Tengo controlados los demás requisitos de la convocatoria, incluida la [edad](/blog/edad-maxima-guardia-civil).
+
+Si quieres un plan de entrenamiento que conviva con el estudio, lo tienes en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Cuánto hay que hacer en el circuito de agilidad de la Guardia Civil?
+
+En 2026, 14,00 segundos o menos los hombres menores de 35 años y 16,00 segundos o menos las mujeres de esa edad. Hay tiempos algo mayores a partir de los 35 y de los 40 años.
+
+### ¿Cuántos intentos hay?
+
+Dos, si el primero es nulo o supera el tiempo máximo.
+
+### ¿Qué anula el circuito?
+
+Modificar el recorrido o derribar o desplazar cualquier elemento.
+
+### ¿Se puede empezar por el lado que prefiera?
+
+Sí, por cualquiera de los dos lados de la valla de inicio, invirtiendo el orden de banderines y bases si empiezas por la izquierda.
+
+### ¿Cuándo se para el cronómetro?
+
+Cuando tocas el suelo con uno o con los dos pies después de que todo tu cuerpo haya superado la última valla.
+
+### ¿Puntúa hacer un tiempo mejor?
+
+No. Es apto o no apto: basta con no superar el tiempo máximo de tu sexo y tramo de edad.',
+   '/blog/circuito-agilidad-coordinacion-guardia-civil.jpg', 'Aspirante saltando una valla en un circuito de agilidad', 'publicado', '2026-11-17T06:47:00.000Z', 'acceso-guardia-civil',
+   ARRAY['pruebas físicas', 'circuito de agilidad', 'coordinación', 'entrenamiento']::text[], '{"title":"Circuito de agilidad Guardia Civil: marcas y técnica","description":"Circuito de agilidad y coordinación de la Guardia Civil: marcas por sexo y edad, qué lo anula, intentos permitidos y cómo entrenarlo con técnica."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
   ('cuadro-medico-exclusiones-guardia-civil', 'articulo', 'Cuadro médico de exclusiones de la Guardia Civil explicado', 'El reconocimiento médico se hace con el cuadro de exclusiones de la Orden PCI/155/2019. Qué norma está vigente, qué cambió en 2021 y 2023, las exclusiones que más dudas generan y cómo revisarte con meses de margen.', 'Hay aspirantes que aprueban el examen, superan las físicas y la entrevista, y se quedan fuera en el reconocimiento médico. Casi siempre por algo que podrían haber comprobado meses antes.
 
 En este artículo te explicamos **qué norma se aplica, qué ha cambiado, cómo se interpreta y qué exclusiones conviene revisar con tiempo**. No sustituye a un médico: es un mapa para saber qué preguntarle.
@@ -680,179 +1000,6 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('guardia-civil-o-policia-nacional', 'articulo', 'Guardia Civil o Policía Nacional: diferencias para elegir oposición', 'Requisitos, examen, pruebas físicas, cuadro médico y formación de las dos oposiciones, comparados con las convocatorias de 2026 en la mano. Qué cambia de verdad, ejemplos de puntuación y preguntas para elegir.', 'Muchos opositores dudan entre las dos. Tiene sentido: las funciones se parecen y parte de los temarios se solapan. Pero los procesos selectivos son bastante distintos, y elegir bien te ahorra meses.
-
-Comparamos las dos con sus convocatorias de 2026: la de la Escala de Cabos y Guardias de la Guardia Civil ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) y la de la Escala Básica, categoría de Policía, de la Policía Nacional ([BOE-A-2026-15055](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15055)).
-
-## La respuesta corta
-
-- **Solo tienes la ESO** → Guardia Civil (la Policía Nacional exige Bachiller).
-- **Cumples 41 años o más en el año de la convocatoria** → Policía Nacional (la Guardia Civil tiene tope de edad).
-- **Eres muy bueno físicamente** → en la Policía Nacional eso puntúa; en la Guardia Civil basta con superar las marcas.
-- **Tienes méritos (titulaciones, idiomas)** → en la Guardia Civil suman hasta 45 puntos en el concurso.
-- **No tienes un A2 de inglés o francés acreditado** → para la Policía Nacional lo necesitas antes de que acabe el plazo de solicitudes.
-
-## La diferencia de fondo
-
-- La **Guardia Civil** es un instituto armado **de naturaleza militar**. Su régimen disciplinario y su formación están marcados por ese carácter.
-- La **Policía Nacional** es un **cuerpo policial de naturaleza civil**.
-
-En el reparto territorial, a grandes rasgos, la Guardia Civil cubre la mayor parte del territorio y las zonas rurales, además del mar territorial, y la Policía Nacional, las capitales de provincia y los municipios que determine el Gobierno. Si te imaginas trabajando en un pueblo, en tráfico, en el monte o en la costa, piensa en la Guardia Civil; si te ves en una ciudad grande, en la Policía Nacional.
-
-## Requisitos: aquí está la primera gran diferencia
-
-| Requisito | Guardia Civil (2026) | Policía Nacional (2026) |
-|---|---|---|
-| Edad | De 18 a 40 años (cumplir 18 y no cumplir 41 en el año) | 18 años, sin más tope que la edad de jubilación |
-| Titulación | ESO o equivalente | Bachiller o equivalente |
-| Permiso de conducir | Clase B | Clase B sin restricciones |
-| Idioma | No es requisito (el inglés es una prueba que puntúa) | Nivel A2 de inglés o francés acreditado |
-| Estatura | Sin límite desde 2023 | Sin límite para ingresar desde 2022 |
-| Tatuajes | Prohibidos los de contenido contrario a valores constitucionales, autoridades o virtudes militares, o a la imagen del cuerpo | La convocatoria no los menciona |
-
-Tienes el detalle en [edad máxima para ser Guardia Civil](/blog/edad-maxima-guardia-civil) y en [requisitos para ser Guardia Civil](/blog/requisitos-guardia-civil).
-
-## Plazas en 2026
-
-| | Guardia Civil | Policía Nacional |
-|---|---|---|
-| Total | 3.240 | 2.704 |
-| Acceso libre | 1.704 | 2.163 |
-| Reservadas a militares de tropa y marinería | 1.296 | 541 |
-| Otras reservas | 240 para alumnos del Colegio de Guardias Jóvenes | — |
-
-En la Guardia Civil, las plazas reservadas que no se cubren se suman al acceso libre.
-
-## Concurso-oposición frente a oposición
-
-- **Guardia Civil:** es **concurso-oposición**. Además del examen, se valoran méritos (titulaciones, idiomas…) que suman hasta 45 puntos de los 195 posibles. Te lo explicamos en [la fase de concurso](/blog/fase-concurso-guardia-civil-meritos).
-- **Policía Nacional:** es **oposición**. Solo a quien ya ha superado la oposición se le suman algunos méritos tasados: empleo alcanzado en las Fuerzas Armadas, condición de deportista de alto nivel e idiomas por encima del A2 (hasta 2 puntos: B1 = 0,50; B2 = 1; C1 = 1,50; C2 = 2).
-
-## El examen teórico
-
-| | Guardia Civil | Policía Nacional |
-|---|---|---|
-| Preguntas de conocimientos | 100 (+5 de reserva) | 100 |
-| Opciones por pregunta | 4 | 3 |
-| Tiempo | 140 minutos para todo el bloque (ortografía, gramática, conocimientos e inglés) | 50 minutos para conocimientos |
-| Penalización | Cada error resta un tercio de acierto | Cada error resta medio acierto |
-| Escala | 0 a 100 (mínimo 50) | 0 a 10 |
-| Ortografía y gramática | Pruebas propias: 6 errores o más excluyen | Sin prueba propia (la ortografía es un tema del temario) |
-| Inglés | Prueba de 20 preguntas que puntúa (mínimo 8 sobre 20) | Requisito A2 acreditado; los niveles superiores suman como mérito |
-| Temario | 23 temas de conocimientos | 45 temas en tres bloques: ciencias jurídicas, ciencias sociales y materias técnico-científicas |
-
-### Ejemplo resuelto: la misma actuación en los dos exámenes
-
-Supón (caso hipotético) 70 aciertos, 20 errores y 10 en blanco en 100 preguntas.
-
-- **Guardia Civil:** 70 − 20/3 = **63,33 sobre 100**.
-- **Policía Nacional:** (70 − 20/2) × 10 / 100 = **6,0 sobre 10**.
-
-Con tres opciones, cada error pesa más (resta medio acierto en lugar de un tercio). En la Policía Nacional conviene ser más prudente con las preguntas en las que dudas entre varias opciones. Tienes la fórmula de la Guardia Civil explicada en [cómo se calcula la nota del examen](/blog/calcular-nota-examen-guardia-civil).
-
-El bloque técnico-científico de la Policía Nacional (sistemas operativos, redes, ciberdelincuencia, seguridad vial…) no tiene equivalente en la Guardia Civil. A cambio, la Guardia Civil exige superar ortografía y gramática como pruebas eliminatorias y puntúa el inglés.
-
-## Psicotécnicos y entrevista
-
-- **Guardia Civil:** psicotécnico de **aptitudes intelectuales** (80 preguntas en 55 minutos, de 0 a 30 puntos, mínimo 12) que **suma a la nota**, más un perfil de personalidad. La entrevista personal es «apto» o «no apto provisional», con revisión.
-- **Policía Nacional:** test psicotécnicos de aptitudes de hasta 60 minutos, calificados **apto o no apto**, y una entrevista profesional y personal, también apto o no apto, que se graba.
-
-## Pruebas físicas: en una son apto o no apto, en la otra puntúan
-
-- **Guardia Civil:** carrera de 2.000 metros, circuito de agilidad y coordinación, extensiones de brazos y 50 metros de natación. Son **apto o no apto**: basta con superar las marcas. Las tienes en [las pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento).
-- **Policía Nacional:** circuito de agilidad, dominadas (hombres) o tiempo de suspensión en barra (mujeres) y carrera de 1.000 metros. **Cada ejercicio puntúa de 0 a 10**; la nota de la prueba es la media y hay que llegar al menos a 5. Un cero en cualquier ejercicio elimina.
-
-Algunos extremos de la tabla de la Policía Nacional en 2026:
-
-| Ejercicio | 0 puntos (hombres) | 10 puntos (hombres) | 0 puntos (mujeres) | 10 puntos (mujeres) |
-|---|---|---|---|---|
-| Circuito de agilidad | 11,7 s o más | 8,2 s o menos | 12,8 s o más | 9,3 s o menos |
-| Dominadas / suspensión | 0 a 4 dominadas | 17 | 35 s o menos | 95 s o más |
-| 1.000 metros | 3:49 o más | Ver anexo II | 4:46 o más | Ver anexo II |
-
-La calificación final de la oposición en la Policía Nacional es la suma de la nota de conocimientos y la de aptitud física. Es decir: **estar muy en forma te sube puestos en la lista**. En la Guardia Civil, cumplir las marcas es suficiente, y la diferencia se hace en el examen y en los méritos.
-
-## Cuadro médico: dos normas distintas
-
-Cada cuerpo tiene la suya y no se parecen tanto como se cree. Un ejemplo claro es la vista:
-
-| | Guardia Civil | Policía Nacional |
-|---|---|---|
-| Norma | Orden PCI/155/2019, anexo I | Real Decreto 326/2021 |
-| Agudeza visual | Superior a 0,7 en cada ojo, **con o sin corrección** | 0,6 en cada ojo **sin corrección** |
-| Límite de dioptrías | Miopía −3, hipermetropía +3, astigmatismo ±2 | No fija límites de dioptrías |
-| Cirugía intraocular | Sigue escrita en el cuadro; la exclusión automática de lentes fáquicas fue anulada | Anulada por el Supremo en 2023 |
-
-Con mucha miopía corregida con gafas, la Policía Nacional es más difícil; con poca graduación y buena vista sin gafas, ambas pueden encajar. Lo explicamos en [gafas, miopía y operación de vista](/blog/gafas-miopia-operacion-vista-guardia-civil) y en [lentes intraoculares](/blog/lentes-intraoculares-guardia-civil).
-
-## Formación
-
-- **Guardia Civil:** curso en la Academia de Cabos y Guardias de Baeza (Jaén) y prácticas. En 2026, la incorporación fue el 13 de octubre.
-- **Policía Nacional:** curso académico selectivo en la Escuela Nacional de Policía, en régimen de internado salvo excepciones, y un módulo de formación práctica en un puesto de trabajo. La Orden INT/632/2024 fija para el curso entre 6 y 12 meses y para las prácticas, entre 9 y 12.
-
-## Casos prácticos (hipotéticos)
-
-**Caso 1. Raúl, 23 años, ESO y ciclo de grado medio, buen corredor.** No tiene Bachiller: en 2026 solo podía optar a la Guardia Civil. Además, conviene que revise en el apéndice I de la convocatoria si su ciclo le suma méritos en el concurso.
-
-**Caso 2. Carmen, 42 años, con Bachiller y B2 de inglés.** Supera el tope de edad de la Guardia Civil. En la Policía Nacional cumple los requisitos y su B2 le sumaría 1 punto como mérito.
-
-**Caso 3. Iván, 27 años, Bachiller, sin certificado de idiomas, −4 de miopía.** Para la Guardia Civil, la miopía supera el máximo de −3. Para la Policía Nacional necesitaría ver 0,6 sin gafas, algo difícil con −4, y además acreditar un A2. Le conviene una revisión oftalmológica antes de decidir.
-
-## ¿Cuál elijo? Cinco preguntas
-
-1. **¿Qué titulación tienes?** Con solo la ESO, Guardia Civil.
-2. **¿Qué edad tienes?** Si cumples 41 o más en el año de la convocatoria, Policía Nacional.
-3. **¿Dónde te ves trabajando?** Rural, carretera, mar o montaña: Guardia Civil. Gran ciudad: Policía Nacional.
-4. **¿Te atrae o te pesa el carácter militar?** Es real, y se nota desde la academia.
-5. **¿Cuál es tu punto fuerte?** El físico puntúa en la Policía Nacional; los méritos, en la Guardia Civil.
-
-Lo que no te recomendamos es preparar las dos a la vez sin un plan: los exámenes, las físicas y los calendarios son distintos, y repartirte suele significar llegar a medias a ambas.
-
-## Errores frecuentes al comparar
-
-- **Creer que el cuadro médico es el mismo.** Las cifras de vista, por ejemplo, son muy distintas.
-- **Olvidar el A2 de la Policía Nacional.** Es requisito de admisión, no mérito.
-- **Pensar que las físicas se preparan igual.** En una basta la marca; en la otra cada décima puntúa.
-- **Comparar notas de corte sin mirar la escala.** La Guardia Civil puntúa sobre 195; la Policía Nacional, con otra escala.
-
-Si eliges la Guardia Civil, tienes el temario, los tests y los simulacros en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
-
-## Preguntas frecuentes
-
-### ¿Qué es más fácil, Guardia Civil o Policía Nacional?
-
-Ninguna es fácil, y depende de tu perfil. La Guardia Civil pide menos titulación (ESO) y tiene concurso de méritos; la Policía Nacional no tiene edad máxima propia y puntúa las pruebas físicas.
-
-### ¿Se puede entrar en la Policía Nacional solo con la ESO?
-
-No. La convocatoria de 2026 exige el título de Bachiller o equivalente. La Guardia Civil sí admite la ESO.
-
-### ¿Hay edad máxima en la Policía Nacional?
-
-No tiene un tope propio: basta con no exceder la edad de jubilación. En la Guardia Civil, en 2026, no se podía cumplir 41 años durante el año de la convocatoria.
-
-### ¿Las pruebas físicas son iguales?
-
-No. En la Guardia Civil son apto o no apto e incluyen natación; en la Policía Nacional puntúan de 0 a 10, hacen media y no hay natación.
-
-### ¿Necesito inglés para las dos?
-
-En la Guardia Civil el inglés es una prueba del examen (20 preguntas, mínimo 8). En la Policía Nacional necesitas acreditar un A2 de inglés o francés como requisito, y los niveles superiores suman hasta 2 puntos.
-
-### ¿Puedo presentarme a las dos el mismo año?
-
-Ninguna de las dos convocatorias de 2026 lo prohíbe, pero los exámenes, las pruebas y los calendarios son distintos. Si lo haces, prioriza una y planifica la otra como secundaria.',
-   '/blog/guardia-civil-o-policia-nacional.jpg', 'Aspirante sentado en una plaza ante un coche de la Guardia Civil y otro de la Policía Nacional', 'publicado', '2026-11-16T06:30:00.000Z', 'acceso-guardia-civil',
-   ARRAY['policía nacional', 'comparativa', 'requisitos', 'convocatoria']::text[], '{"title":"Guardia Civil o Policía Nacional: diferencias 2026","description":"Guardia Civil o Policía Nacional: requisitos, edad, titulación, examen, físicas, cuadro médico y formación comparados con las convocatorias de 2026."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
   ('lentes-intraoculares-guardia-civil', 'articulo', 'Lentes intraoculares y Guardia Civil: qué cambió con el Supremo', 'En 2023 el Tribunal Supremo anuló la frase del cuadro médico que excluía siempre las lentes fáquicas. Qué anuló exactamente, qué sigue escrito en la norma, en qué se diferencia de la Policía Nacional y qué hacer si llevas una lente implantada.', 'Cada vez más gente corrige la miopía con una lente implantada dentro del ojo en lugar de con láser. Y muchos descubren después que el cuadro médico de la Guardia Civil hablaba de ellas. La situación cambió en 2023 con una sentencia del Tribunal Supremo, pero **no tanto como se dice en algunos foros**.
 
 La respuesta corta: **el Supremo anuló la frase «En ningún caso se admitirán lentes fáquicas», y la convocatoria de 2026 aplica esa sentencia. Pero el cuadro sigue mencionando la cirugía intraocular y las lentes intraoculares, así que nadie te garantiza el apto: tu caso se valora y debe motivarse de forma individual.**
@@ -986,170 +1133,8 @@ No. La Policía Nacional tiene su propio cuadro médico y otra sentencia del Sup
 ### ¿El láser excluye igual que la lente?
 
 No. La cirugía refractiva con láser en la córnea no figura como causa de exclusión en el cuadro de la Guardia Civil: se valora el resultado.',
-   '/blog/lentes-intraoculares-guardia-civil.jpg', 'Oftalmólogo examinando el ojo de una aspirante con una lámpara de hendidura', 'publicado', '2026-11-15T06:13:00.000Z', 'acceso-guardia-civil',
+   '/blog/lentes-intraoculares-guardia-civil.jpg', 'Oftalmólogo examinando el ojo de una aspirante con una lámpara de hendidura', 'publicado', '2026-11-16T06:30:00.000Z', 'acceso-guardia-civil',
    ARRAY['lentes intraoculares', 'vista', 'cuadro médico', 'tribunal supremo']::text[], '{"title":"Lentes intraoculares Guardia Civil: qué dijo el Supremo","description":"¿Excluyen las lentes intraoculares o fáquicas en la Guardia Civil? Qué anuló el Supremo en 2023, qué sigue en el cuadro médico y qué hacer."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('nota-de-corte-guardia-civil', 'articulo', 'Nota de corte de la Guardia Civil: cómo funciona y por qué no hay una sola cifra', 'La nota de corte no se fija antes del examen: es la puntuación del último aspirante que consigue plaza, sobre 195 puntos. Las de 2022 a 2026, por qué cambian tanto y cómo traducirlas en aciertos y errores.', '«¿Cuál es la nota de corte?» es la pregunta que más se repite después del examen. Y casi siempre se responde mal, porque se mezclan cifras sobre 10, sobre 100 y sobre 195, de cupos distintos y de momentos distintos del proceso.
-
-La respuesta corta: **en el acceso libre de 2026, el último aspirante que obtuvo plaza tuvo 90,61 puntos sobre 195**, y en los cinco últimos años esa cifra ha oscilado entre 90,61 y 110,58. No es un aprobado fijado de antemano: se conoce al final del proceso.
-
-## Qué es la nota de corte (y qué no es)
-
-La nota de corte **no es un aprobado que se fija antes del examen**. Es la puntuación final que obtuvo **el último aspirante que consiguió plaza** en un cupo. Se conoce al final del proceso, cuando se publica en el BOE la relación de aspirantes propuestos para ingresar como alumnos.
-
-Esa puntuación final es la suma de la fase de concurso y la de oposición (base 7.9 de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)):
-
-| Parte | Puntos máximos |
-|---|---|
-| Fase de concurso (méritos) | 45 |
-| Conocimientos generales | 100 |
-| Lengua inglesa | 20 |
-| Aptitudes intelectuales (psicotécnico) | 30 |
-| **Total** | **195** |
-
-Por eso, cuando leas una nota de corte, lo primero es preguntarte: ¿sobre cuánto está?, ¿de qué cupo?, ¿en qué momento del proceso?
-
-## Las notas de corte de 2022 a 2026
-
-Estas son las puntuaciones finales (sobre 195) del último aspirante propuesto del **cupo de acceso libre**, calculadas por ProLince a partir del anexo de cada resolución de propuestos publicada en el BOE:
-
-| Convocatoria | Nota de corte (libre, sobre 195) | Resolución en el BOE |
-|---|---|---|
-| 2026 | 90,61 | [BOE-A-2026-20936](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20936) |
-| 2025 | 95,80 | [BOE-A-2025-21469](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21469) |
-| 2024 | 103,08 | [BOE-A-2024-24233](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24233) |
-| 2023 | 95,75 | [BOE-A-2023-26041](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26041) |
-| 2022 | 110,58 | [BOE-A-2022-18829](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-18829) |
-
-Entre el corte más alto y el más bajo hay casi 20 puntos. Hay años más asequibles y años más duros, y no se puede adivinar de antemano cuál te va a tocar. La media de estos cinco años ronda los 99 puntos, pero preparar «para la media» es preparar para quedarse fuera en los años más duros: en 2022 y 2024 el corte la superó.
-
-## Por qué no hay una sola cifra
-
-### 1. Hay varios cupos
-
-Las plazas se reparten en cupos: en 2026, 1.704 de acceso libre, 1.296 para militares profesionales de tropa y marinería y 240 para alumnos del Colegio de Guardias Jóvenes. Los propuestos se ordenan dentro de cada modalidad de ingreso (base 9.1), así que cada cupo tiene su propio corte. Las cifras de la tabla son las del acceso libre. Además, las reservadas que quedan sin cubrir se suman al acceso libre, lo que también mueve el corte.
-
-### 2. No es lo mismo pasar a las físicas que conseguir plaza
-
-Tras el examen, la convocatoria llama a las pruebas de aptitud psicofísica (físicas, entrevista y reconocimiento médico) a **1,5 aspirantes por plaza**, por orden de puntuación. Quien no supera alguna de esas pruebas sale de la lista, y la lista se va corriendo hacia abajo. La puntuación del último convocado a las psicofísicas y la del último que consigue plaza no coinciden.
-
-### 3. Depende de cada año
-
-El corte sube o baja según el número de plazas, cuántos aspirantes se presentan, la dificultad del examen y cuántos superan las pruebas psicofísicas. Compararlo de un año para otro te da una horquilla, no una garantía.
-
-### 4. Los mínimos no son el corte
-
-Para no quedar excluido necesitas al menos 50 puntos en conocimientos, 8 en inglés y 12 en el psicotécnico, y no llegar a 6 errores en ortografía ni en gramática. Superar esos mínimos te mantiene en el proceso, pero **con los mínimos justos no se consigue plaza**: 50 + 8 + 12 suman 70, muy lejos de los cortes reales.
-
-## De la nota a los aciertos: cómo se puntúa cada prueba
-
-Con cuatro opciones por pregunta, cada error resta un tercio de acierto y las preguntas en blanco no restan (base 7.3):
-
-| Prueba | Acierto | Error | En blanco |
-|---|---|---|---|
-| Conocimientos (100 preguntas) | +1 | −0,33 | 0 |
-| Inglés (20 preguntas) | +1 | −0,33 | 0 |
-| Psicotécnico (80 preguntas) | +0,375 | −0,125 | 0 |
-
-### Ejemplo resuelto
-
-Supón (caso hipotético) este resultado:
-
-- Conocimientos: 70 aciertos, 15 errores → 70 − 15/3 = **65,00**
-- Inglés: 15 aciertos, 3 errores → 15 − 3/3 = **14,00**
-- Psicotécnico: 58 aciertos, 6 errores → 58 × 0,375 − 6 × 0,125 = 21,75 − 0,75 = **21,00**
-
-Fase de oposición: 65 + 14 + 21 = **100 puntos**. Con 10 puntos de méritos, la puntuación final sería **110**, por encima de todos los cortes del acceso libre de 2022 a 2026 salvo el de 2022 (110,58), que quedaría a menos de un punto.
-
-## Tres caminos para llegar a unos 110 puntos
-
-Los méritos cambian mucho lo que necesitas en el examen. Estas combinaciones son ejemplos hipotéticos para un objetivo de unos 110 puntos sobre 195:
-
-| Méritos | Conocimientos | Inglés | Psicotécnico | Total |
-|---|---|---|---|---|
-| 0 | 72 (76 aciertos, 12 errores) | 15 (16 aciertos, 3 errores) | 23 (64 aciertos, 8 errores) | 110 |
-| 10 | 65 (70 aciertos, 15 errores) | 14 (15 aciertos, 3 errores) | 21 (58 aciertos, 6 errores) | 110 |
-| 20 | 58 (63 aciertos, 15 errores) | 13 (14 aciertos, 3 errores) | 19 (54 aciertos, 10 errores) | 110 |
-
-Fíjate en lo que dice la tabla: **cada punto de méritos es un acierto neto menos que necesitas en el examen**. Por eso conviene revisar cuanto antes qué puntúa en [la fase de concurso](/blog/fase-concurso-guardia-civil-meritos): por ejemplo, un B2 de inglés acreditado vale 5 puntos, y un C1, 7.
-
-## Qué nota deberías buscar tú
-
-Con los cortes de los últimos cinco años entre 90,61 y 110,58 puntos sobre 195, un objetivo razonable es **ir por encima de la parte alta de la horquilla**, no del último corte. Algunas ideas para convertir eso en algo práctico:
-
-1. **Suma tus méritos primero.** Lo que traigas de la fase de concurso ya está en el marcador antes del examen.
-2. **Calcula cuánto necesitas en el examen.** Resta tus méritos al objetivo y reparte el resto entre conocimientos, inglés y psicotécnico.
-3. **Entiende la penalización.** Tu nota no es tu número de aciertos. Te lo explicamos con ejemplos en [cómo se calcula la nota del examen](/blog/calcular-nota-examen-guardia-civil), y puedes probar con nuestra [calculadora de nota](/calculadora-nota-guardia-civil).
-4. **Mide tu nivel con simulacros.** Hasta que no haces un examen completo con cronómetro no sabes dónde estás. Si quieres ver en qué zona andarías hoy, prueba nuestra herramienta de [nota de corte](/nota-de-corte).
-5. **No olvides lo eliminatorio.** Un sobresaliente en conocimientos no sirve si fallas 6 en ortografía. Repasa [ortografía y gramática](/blog/ortografia-gramatica-examen-guardia-civil) aunque no sumen puntos.
-
-## Cómo comprobar tú mismo la nota de corte
-
-Si quieres verificar una cifra que lees en un foro:
-
-1. Busca en el BOE la resolución de aspirantes propuestos para ingresar como alumnos de esa convocatoria.
-2. Localiza el anexo del cupo que te interesa (acceso libre, militares, Colegio de Guardias Jóvenes).
-3. Mira la puntuación del último aspirante de la lista de ese cupo.
-4. Comprueba si la cifra está sobre 195 (concurso más oposición) o solo sobre la oposición.
-
-## Errores frecuentes al interpretar la nota de corte
-
-- **Mezclar escalas.** Una cifra sobre 150 (solo oposición) no se compara con otra sobre 195.
-- **Tomar el corte de las psicofísicas por el de plaza.** No son lo mismo.
-- **Usar el corte de otro cupo.** Militares y Colegio de Guardias Jóvenes tienen sus propias listas.
-- **Apuntar al último corte.** Si el año siguiente es más duro, te quedas fuera.
-- **Olvidar los méritos.** Son puntos que no dependen del día del examen.
-- **Comparar con la Policía Nacional.** Su escala y su sistema son distintos; lo explicamos en [Guardia Civil o Policía Nacional](/blog/guardia-civil-o-policia-nacional).
-
-## Checklist
-
-- [ ] Sé cuántos puntos de méritos tengo (o puedo conseguir antes del plazo).
-- [ ] He fijado un objetivo por encima de la parte alta de la horquilla.
-- [ ] He repartido ese objetivo entre conocimientos, inglés y psicotécnico.
-- [ ] Mido mis simulacros con la fórmula oficial, no por aciertos.
-- [ ] Tengo controlados los mínimos eliminatorios de ortografía y gramática.
-
-Si quieres un plan de estudio y simulacros con corrección según la fórmula oficial, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
-
-## Preguntas frecuentes
-
-### ¿Cuál fue la nota de corte de la Guardia Civil en 2026?
-
-En el acceso libre, 90,61 puntos sobre 195, según nuestro cálculo con la resolución de propuestos publicada en el BOE (BOE-A-2026-20936).
-
-### ¿La nota de corte es sobre 10, sobre 100 o sobre 195?
-
-La puntuación final de la Guardia Civil es sobre 195: hasta 45 de méritos y hasta 150 de la fase de oposición (100 de conocimientos, 20 de inglés y 30 de psicotécnico).
-
-### ¿Publica la Guardia Civil una nota de corte oficial?
-
-No como una cifra aislada. Se publica la relación de aspirantes propuestos con sus puntuaciones, y la nota de corte es la del último propuesto de cada cupo.
-
-### ¿Con 50 en el examen de conocimientos entro?
-
-No. Con 50 superas el mínimo para seguir en el proceso, pero los cortes de los últimos años en acceso libre han estado entre 90,61 y 110,58 puntos sobre 195.
-
-### ¿Las pruebas físicas suben la nota?
-
-No. Las físicas, la entrevista y el reconocimiento médico son apto o no apto. La puntuación final sale solo del concurso y de las pruebas de conocimientos, inglés y psicotécnico.
-
-### ¿Qué pasa si empato con otro aspirante?
-
-La base 7.10 desempata por más nota en conocimientos, después en inglés, después en aptitudes intelectuales y, por último, por mayor edad.
-
-### ¿Se puede predecir la nota de corte de la próxima convocatoria?
-
-No. Depende de las plazas, de los aspirantes, de la dificultad del examen y de cuántos superan las psicofísicas. Los años anteriores solo te dan una horquilla orientativa.',
-   '/blog/nota-de-corte-guardia-civil.jpg', 'Opositor consultando de noche una lista de resultados en el portátil', 'publicado', '2026-11-17T06:47:00.000Z', 'acceso-guardia-civil',
-   ARRAY['nota de corte', 'puntuación', 'concurso-oposición', 'convocatoria']::text[], '{"title":"Nota de corte Guardia Civil 2026 y años anteriores","description":"Nota de corte de la Guardia Civil de 2022 a 2026 sobre 195 puntos, calculada con las resoluciones del BOE. Qué es, por qué varía y qué nota apuntar."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

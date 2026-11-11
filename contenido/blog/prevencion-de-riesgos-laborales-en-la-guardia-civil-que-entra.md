@@ -3,7 +3,7 @@ titulo: Prevención de riesgos laborales en la Guardia Civil: qué entra en el e
 slug: prevencion-de-riesgos-laborales-en-la-guardia-civil-que-entra
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-12T07:52:00+01:00
+publicado_en: 2026-12-15T07:43:00+01:00
 curso: acceso-guardia-civil
 entradilla: El tema 3 combina la Ley 31/1995 con dos reales decretos. Qué capítulos entran, las definiciones, los principios de la acción preventiva y cómo se adapta todo a la Guardia Civil con el Real Decreto 179/2005, con casos y un test propio.
 etiquetas: [prevención de riesgos laborales, Ley 31/1995, Real Decreto 179/2005, temario]

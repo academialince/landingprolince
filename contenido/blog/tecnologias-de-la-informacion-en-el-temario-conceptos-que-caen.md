@@ -3,7 +3,7 @@ titulo: Tecnologías de la información en el temario: qué conceptos estudiar
 slug: tecnologias-de-la-informacion-en-el-temario-conceptos-que-caen
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-05T07:40:00+01:00
+publicado_en: 2027-01-04T07:23:00+01:00
 curso: acceso-guardia-civil
 entradilla: El tema 17 reúne telecomunicaciones, servicios electrónicos de confianza, ciberseguridad e interoperabilidad. Qué partes de cada norma entran, los conceptos clave con su artículo, preguntas oficiales comentadas y un mini test.
 etiquetas: [tecnologías de la información, temario, ciberseguridad, administración electrónica]

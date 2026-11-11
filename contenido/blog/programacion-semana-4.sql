@@ -795,8 +795,179 @@ Cuando lo que se contrapone lleva verbo conjugado: «No lo leyó, sino que lo me
 ### ¿Cuántos errores se permiten?
 
 Hasta cinco. Con seis o más respuestas erróneas quedas excluido.',
-   '/blog/homofonos-ortografia-guardia-civil.jpg', 'Mano colocando fichas con parejas de palabras en dos columnas sobre una mesa de madera', 'publicado', '2026-12-04T06:36:00.000Z', 'acceso-guardia-civil',
+   '/blog/homofonos-ortografia-guardia-civil.jpg', 'Mano colocando fichas con parejas de palabras en dos columnas sobre una mesa de madera', 'publicado', '2026-12-03T06:19:00.000Z', 'acceso-guardia-civil',
    ARRAY['ortografía', 'homófonos', 'porque', 'haber']::text[], '{"title":"Homófonos: haber/a ver, echo/hecho, porque y sino","description":"Homófonos de la prueba de ortografía de la Guardia Civil: haber/a ver, echo/hecho, porque/por qué, sino/si no, asimismo y más, con trucos y ejercicio."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('lesiones-pruebas-fisicas-guardia-civil', 'articulo', 'Lesiones típicas al preparar las pruebas físicas de la Guardia Civil y cómo evitarlas', 'Una lesión a pocas semanas de las pruebas puede tirar por tierra meses de preparación. Cómo progresar sin pasarte, qué señales no ignorar, cómo volver tras parar y qué dice la convocatoria si te lesionas con el proceso en marcha.', 'Muchos aspirantes no se quedan fuera de las físicas por falta de forma, sino por **llegar lesionados**. La respuesta corta: la mayoría de las molestias de los opositores vienen de **subir la carga demasiado deprisa, descansar poco y repetir un gesto con mala técnica**, y se previenen con progresión, calentamiento, fuerza y paciencia. Y si te lesionas con el proceso en marcha, ten claro algo importante: la convocatoria **no prevé una fecha alternativa general por lesión**.
+
+Este artículo es información general, no un diagnóstico ni un tratamiento. Ante cualquier dolor que dure o que te limite, **consulta a un médico o a un fisioterapeuta**: son ellos quienes deben valorar tu caso.
+
+## Por qué se lesionan los opositores
+
+Casi siempre por las mismas causas:
+
+- **Subir la carga demasiado deprisa.** Pasar de correr poco a correr mucho en pocas semanas, o de cero extensiones a series diarias.
+- **Entrenar sin descanso**, sin días libres ni sueño suficiente.
+- **Calentar poco o nada**, sobre todo antes de las series rápidas y del circuito.
+- **Mala técnica** repetida muchas veces, como las extensiones con la espalda hundida.
+- **Calzado inadecuado o gastado.**
+- **Entrenar con dolor** en lugar de parar a tiempo.
+- **Querer recuperar el tiempo perdido**: tras una semana sin entrenar, hacer el doble la siguiente.
+
+El patrón común es la prisa. La oposición tiene plazos y eso empuja a forzar, justo lo que más lesiones provoca.
+
+## Las zonas que más sufren, según la prueba
+
+Cada prueba castiga zonas distintas, por el gesto que repite:
+
+| Prueba | Zonas donde suelen aparecer molestias | Qué las favorece |
+|---|---|---|
+| Carrera de 2.000 m | Espinillas, rodillas, tobillos, gemelos y tendón de Aquiles | Aumentar kilómetros o series de golpe, superficies duras, calzado gastado |
+| Circuito de agilidad | Tobillos, rodillas e isquiotibiales | Giros bruscos y saltos sin calentar, cansancio |
+| Extensiones de brazos | Muñecas, hombros y zona lumbar | Muchas series seguidas, cadera hundida o elevada |
+| Natación | Hombros | Volumen alto con mala técnica de brazada o respiración |
+
+No son lesiones inevitables. La mayoría están ligadas a la progresión y la técnica, que son justo lo que puedes controlar.
+
+## Cómo prevenirlas
+
+### 1. Progresa poco a poco
+
+Una referencia muy citada en el deporte es no aumentar la carga semanal más de un diez por ciento de una semana a otra. No es una ley ni sirve igual para todos, pero ayuda a evitar saltos bruscos.
+
+**Ejemplo (hipotético).** Si esta semana corres 12 kilómetros en total, la siguiente no deberías pasar de unos 13. Si añades series rápidas, compensa reduciendo algo el volumen de esa semana.
+
+Otra pauta útil: **cada tres o cuatro semanas, una semana más suave**, con menos volumen, para que el cuerpo asimile.
+
+### 2. Calienta siempre
+
+De cinco a diez minutos de trote suave y movilidad articular antes de cualquier sesión exigente, y unos progresivos (aceleraciones cortas) antes de las series o del circuito. En las extensiones, dedica un minuto a mover muñecas y hombros; en la piscina, empieza con unos largos suaves.
+
+### 3. Alterna días fuertes y suaves
+
+Entre dos sesiones intensas, un día de descanso o de actividad ligera. Evita hacer series de carrera y circuito en días seguidos, porque ambos castigan las piernas. Para organizar la semana, mira [cómo compaginar estudio y entrenamiento](/blog/entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil).
+
+### 4. Trabaja la fuerza y el core
+
+Unos músculos fuertes protegen las articulaciones. Dos sesiones semanales de fuerza general (sentadillas, zancadas, puentes de glúteo, planchas, trabajo de espalda) con buena técnica y cargas moderadas son un buen complemento. Si nunca has hecho fuerza, que alguien cualificado te enseñe la técnica.
+
+### 5. Cuida la técnica de cada prueba
+
+- **Carrera**: zancada natural, sin alargarla en exceso.
+- **Circuito**: apoyos bajo el cuerpo en los giros y frenadas controladas.
+- **Extensiones**: cuerpo en bloque, manos a la anchura de los hombros, como exige el apéndice II; si la técnica se rompe, para la serie.
+- **Natación**: rotación del cuerpo y respiración lateral, sin forzar el hombro.
+
+Tienes los detalles en [la carrera de 2.000 metros](/blog/carrera-2000-metros-guardia-civil), [el circuito de agilidad](/blog/circuito-agilidad-coordinacion-guardia-civil) y [las extensiones de brazos](/blog/extensiones-de-brazos-guardia-civil).
+
+### 6. Cuida el calzado y la superficie
+
+Unas zapatillas gastadas castigan las articulaciones. Cámbialas cuando notes que han perdido amortiguación, y alterna superficies (tierra, pista) en lugar de correr siempre sobre asfalto.
+
+### 7. Duerme y descansa
+
+El cuerpo se adapta al entrenamiento mientras descansa. Sin sueño suficiente, la misma carga se tolera peor.
+
+## Molestia normal o señal de alarma
+
+No todo dolor es una lesión. Esta tabla orienta, pero no sustituye la valoración de un profesional:
+
+| Suele ser normal | Para y consulta a un profesional |
+|---|---|
+| Agujetas difusas uno o dos días después de una sesión nueva | Dolor localizado en un punto concreto |
+| Cansancio muscular que mejora con el calentamiento | Dolor que va a más durante la sesión |
+| Rigidez leve por la mañana que desaparece al moverte | Dolor que persiste varios días sin mejorar con reposo |
+| | Hinchazón, inestabilidad o bloqueo de una articulación |
+| | Dolor nocturno o que te despierta |
+| | Hormigueo o pérdida de fuerza en brazos o piernas |
+
+Ante la duda, mejor consultar pronto que perder semanas.
+
+## Qué hacer si te lesionas
+
+1. **Reduce o suspende la carga** de la zona afectada y busca un diagnóstico.
+2. **Entrena lo que sí puedes**, si el profesional te lo permite: con una lesión de pierna, quizá puedas trabajar tren superior o nadar, y viceversa.
+3. **No vuelvas sin el visto bueno** del profesional que te trata.
+4. **Vuelve de forma progresiva**, con menos carga de la que hacías y subiendo poco a poco.
+5. **Guarda los informes médicos.** Te servirán para tu seguimiento y, si llega el caso, para justificar una solicitud ante el Tribunal.
+
+### Caso práctico (hipotético)
+
+Laura empieza a notar dolor en la cara interna de la espinilla tras subir de tres a cinco días de carrera en dos semanas. Sigue corriendo y el dolor aparece cada vez antes. ¿Qué habría sido razonable?
+
+- Bajar el volumen de carrera en cuanto el dolor se repite en el mismo punto.
+- Consultar a un profesional para que lo valore.
+- Mantener la forma con natación y fuerza de tren superior, si se lo autorizan.
+- Volver a correr de forma gradual cuando el profesional lo indique, sin intentar recuperar de golpe lo perdido.
+
+El error no fue lesionarse, sino ignorar la señal durante semanas.
+
+## ¿Y si me lesiono con la convocatoria en marcha?
+
+Aquí conviene leer bien las bases de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)), porque circulan ideas equivocadas:
+
+- **Único llamamiento.** La base 6.2 dice que no presentarte a una prueba cuando empieza tu turno supone la exclusión «sea cual fuere la causa que al respecto pueda alegarse».
+- **La excepción es la maternidad.** Las medidas del capítulo V del Reglamento de ordenación de la enseñanza en la Guardia Civil ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764)) protegen el embarazo, el parto o posparto y la lactancia en los términos del reglamento. Para esos supuestos, la base 6.3 prevé acreditarlo con informe médico oficial y una fecha alternativa para las físicas. **Una lesión deportiva no está entre esos supuestos.**
+- **Cambio de día o tanda.** Si las pruebas se reparten en más de un día, el Tribunal **puede** autorizar el cambio a quien lo solicite por causas justificadas antes del inicio. Es una posibilidad que depende del Tribunal, no un derecho.
+- **Todas las pruebas de tu fecha.** Una vez empiezas, debes hacer sucesivamente todas las pruebas fijadas para ese día; si no continúas alguna o no la superas, quedas excluido (bases 6.2 y 8.1.1).
+
+Por eso, si te lesionas cerca de las pruebas, **consulta cuanto antes con tu médico** y, si hay margen, valora con el Tribunal, por los medios que indique la convocatoria, si cabe un cambio de día. Y recuerda que el certificado médico que hay que entregar acredita que puedes hacer los ejercicios **sin riesgo para tu salud**: no tiene sentido obtenerlo ni presentarte si tu estado ha cambiado. Lo explicamos en [el certificado médico de las pruebas físicas](/blog/certificado-medico-pruebas-fisicas-guardia-civil).
+
+## Checklist de prevención
+
+- [ ] Subo la carga de forma gradual y hago una semana suave cada tres o cuatro.
+- [ ] Caliento antes de cada sesión exigente.
+- [ ] No encadeno dos días intensos de piernas.
+- [ ] Hago fuerza general dos veces por semana con buena técnica.
+- [ ] Mis zapatillas no están gastadas.
+- [ ] Duermo lo suficiente la mayoría de las noches.
+- [ ] Sé distinguir una agujeta de un dolor localizado, y paro ante las señales de alarma.
+
+## Resumen: cinco ideas
+
+1. Aumenta la carga poco a poco.
+2. Calienta siempre.
+3. Descansa de verdad, con días libres y sueño.
+4. Trabaja la fuerza y la técnica de cada prueba.
+5. Para a tiempo y consulta a un profesional.
+
+Llegar sano a las pruebas vale más que llegar con una semana más de entrenamiento y una lesión a cuestas. Repasa las cuatro en [las pruebas físicas de la Guardia Civil](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento) y, si quieres preparar el proceso completo con un plan, tienes el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+
+## Preguntas frecuentes
+
+### ¿Cuáles son las lesiones más comunes al preparar las pruebas físicas?
+
+Las molestias por sobrecarga en piernas (espinillas, rodillas, tobillos) por la carrera, en tobillos y rodillas por el circuito, y en muñecas y hombros por las extensiones y la natación. Su diagnóstico corresponde a un profesional.
+
+### ¿Cuánto debo subir la carga cada semana?
+
+Una referencia habitual es no pasar de un diez por ciento de aumento semanal. Es orientativa: depende de tu nivel y de cómo respondas.
+
+### ¿Puedo seguir entrenando con una molestia?
+
+Si es una agujeta difusa que mejora al moverte, suele ser normal. Si es un dolor localizado, va a más o dura varios días, para y consulta a un profesional.
+
+### ¿Hay fecha alternativa para las pruebas físicas si estoy lesionado?
+
+No con carácter general. La fecha alternativa de la base 6.3 se refiere a los supuestos de protección de la maternidad del capítulo V del reglamento de enseñanza. Si las pruebas duran varios días, el Tribunal puede autorizar un cambio de día o tanda por causa justificada, solicitado antes del inicio.
+
+### ¿Puedo presentarme lesionado y probar suerte?
+
+No es recomendable: puedes agravar la lesión y, si no completas o no superas una prueba, quedas excluido. Decide con tu médico.
+
+### ¿Qué hago si me lesiono meses antes?
+
+Trátala con un profesional, mantén lo que puedas entrenar sin riesgo y vuelve de forma progresiva. Con tiempo por delante, una lesión bien tratada no tiene por qué dejarte fuera.',
+   '/blog/lesiones-pruebas-fisicas-guardia-civil.jpg', 'Fisioterapeuta examinando el tobillo de una aspirante en una camilla', 'publicado', '2026-12-04T06:36:00.000Z', 'acceso-guardia-civil',
+   ARRAY['pruebas físicas', 'lesiones', 'prevención', 'entrenamiento']::text[], '{"title":"Lesiones al preparar las pruebas físicas de Guardia Civil","description":"Cómo evitar lesiones al preparar las pruebas físicas de la Guardia Civil: progresión, calentamiento, señales de alarma y qué dicen las bases."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -1017,7 +1188,7 @@ Porque se escriben con h las palabras que empiezan por el diptongo *ue-*. Cuando
 ### ¿Cuántos errores se permiten en ortografía?
 
 Hasta cinco. Con seis o más respuestas erróneas quedas excluido del proceso.',
-   '/blog/palabras-trampa-ortografia-guardia-civil.jpg', 'Opositora subrayando palabras corregidas en una libreta junto a un diccionario', 'publicado', '2026-12-03T06:19:00.000Z', 'acceso-guardia-civil',
+   '/blog/palabras-trampa-ortografia-guardia-civil.jpg', 'Opositora subrayando palabras corregidas en una libreta junto a un diccionario', 'publicado', '2026-12-02T06:02:00.000Z', 'acceso-guardia-civil',
    ARRAY['ortografía', 'b/v', 'g/j', 'h', 'palabras']::text[], '{"title":"B/V, G/J y H: palabras trampa de ortografía Guardia Civil","description":"Reglas de B/V, G/J y H con excepciones, palabras trampa y parejas que se confunden en la prueba de ortografía de la Guardia Civil, con ejercicio."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -1282,204 +1453,6 @@ Sí. Con cuatro opciones, cada error resta un tercio de acierto; las preguntas e
 Cuatro: en 1992 (art. 13.2), 2011 (art. 135), 2024 (art. 49) y 2026 (art. 69.3, que separa Ibiza y Formentera como circunscripciones para el Senado).',
    '/blog/test-constitucion-20-preguntas-guardia-civil.jpg', 'Ejemplar de la Constitución Española junto a un test a medio rellenar y una bandera de España', 'publicado', '2026-12-06T06:10:00.000Z', 'acceso-guardia-civil',
    ARRAY['Constitución', 'test', 'derecho constitucional', 'repaso']::text[], '{"title":"Test de la Constitución: 20 preguntas con respuestas","description":"Test de 20 preguntas de la Constitución Española para opositores a Guardia Civil, con respuestas explicadas, artículos y cálculo de nota con penalización."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('tildes-reglas-oposicion-guardia-civil', 'articulo', 'Tildes en la oposición a Guardia Civil: las reglas que más fallan los opositores', 'La prueba de ortografía excluye con seis errores, y las tildes son una fuente constante de fallos. Reglas generales, diptongos e hiatos, tilde diacrítica, «solo» y «aún», casos especiales y un ejercicio resuelto como el del examen.', 'La prueba de ortografía no suma puntos: es **apto o no apto**. Pero con **seis o más respuestas erróneas** quedas excluido del proceso (base 7.4 de la convocatoria de 2026, [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)). **Respuesta corta:** casi todos los fallos de tildes se evitan con cuatro bloques bien aprendidos: las reglas generales, los hiatos, la tilde diacrítica y los interrogativos. Aquí los tienes con ejemplos y un ejercicio resuelto.
-
-Las reglas siguen la *Ortografía de la lengua española* de la RAE y la ASALE (2010). Los ejercicios son nuestros, no preguntas oficiales.
-
-## Cómo es la prueba
-
-Son **cinco frases con cuatro palabras o expresiones subrayadas cada una**, más una frase de reserva, y tienes que señalar las que presenten falta de ortografía (base 6.1.1.a). Cuenta como **respuesta errónea** tanto dejar sin marcar una palabra con falta como **marcar una que es correcta**. Es decir, de 20 palabras puedes fallar como máximo cinco, y tan grave es dejar pasar una falta como «corregir» algo que estaba bien.
-
-Además, se hace dentro de los **140 minutos** de la prueba de conocimientos teórico-prácticos, junto con la gramática, los conocimientos generales y el inglés. Lo tienes todo encuadrado en [ortografía y gramática en el examen](/blog/ortografia-gramatica-examen-guardia-civil) y en la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
-
-## Paso previo: la sílaba tónica
-
-Antes de aplicar ninguna regla, separa la palabra en sílabas y localiza la que suena más fuerte. Un truco: pronúnciala alargando cada sílaba por turnos («caaanción», «canciooón»); la que suena natural es la tónica.
-
-## Las reglas generales
-
-| Tipo | Sílaba tónica | Lleva tilde si… | Con tilde | Sin tilde |
-|---|---|---|---|---|
-| Aguda | Última | termina en vocal, **-n** o **-s** | canción, café, además, sofá | ciudad, reloj, papel, feliz |
-| Llana | Penúltima | **no** termina en vocal, -n ni -s | árbol, cárcel, lápiz, césped | examen, casa, joven, lunes |
-| Esdrújula | Antepenúltima | **siempre** | médico, teléfono, sábado | — |
-| Sobresdrújula | Anterior a la antepenúltima | **siempre** | cuéntamelo, dígaselo | — |
-
-### Tres matices que confunden
-
-- **Aguda terminada en -s precedida de otra consonante:** no lleva tilde (*robots*, *zigzags*). Y la **llana** en ese caso **sí** la lleva: *bíceps*, *fórceps*, *cómics*.
-- **Terminación en -y:** a efectos de tilde, la *y* final cuenta como consonante. Por eso *virrey*, *convoy* o *estoy* (agudas) no llevan tilde.
-- **«Examen» no lleva tilde, pero «exámenes» sí.** Lo veremos en los plurales.
-
-## Diptongos, triptongos e hiatos
-
-### Diptongos
-
-Son dos vocales en la misma sílaba: una abierta (*a, e, o*) con una cerrada átona (*i, u*), o dos cerradas distintas. Siguen las reglas generales: *camión* (aguda en -n), *después* (aguda en -s), *murciélago* (esdrújula). Si la tilde cae en un diptongo de abierta y cerrada, va sobre la abierta (*camión*); en *ui* o *iu*, sobre la segunda vocal (*cuídate*, *interviú*).
-
-*Jesuita*, *construir* o *destruido* no llevan tilde: son llanas o agudas que no la piden por la regla general.
-
-### Triptongos
-
-Tres vocales en una sílaba. También siguen las reglas generales: *averiguáis* (aguda en -s), *buey* (monosílabo).
-
-### Hiatos
-
-Dos vocales seguidas que pertenecen a sílabas distintas.
-
-- **Dos vocales abiertas** (*poeta*, *caótico*, *aéreo*, *héroe*): siguen las reglas generales. *Poeta* es llana en vocal, sin tilde; *aéreo* y *héroe* la llevan por ser esdrújulas.
-- **Vocal cerrada tónica junto a una abierta:** la cerrada **siempre** lleva tilde, aunque la regla general no lo pida: *país*, *día*, *río*, *baúl*, *maíz*, *oído*, *reír*. La *h* intercalada no lo impide: *búho*, *prohíbe*, *rehúsa*, *ahínco*.
-
-Esta regla explica una trampa clásica: *río* (sustantivo, dos sílabas: *rí-o*) lleva tilde, mientras que *rio* (de *reír*: «se rio») no la lleva, como verás en el apartado siguiente.
-
-## Monosílabos: sin tilde salvo la diacrítica
-
-Las palabras de una sola sílaba **no llevan tilde**: *fe, fue, fui, vio, dio, pie, sol, mar, dos*. La Ortografía de 2010 considera monosílabos, a efectos de tilde, palabras como **guion, truhan, hui, rio, lio, crio o fie**. Así que «se rio», «el guion» o «menudo lio» se escriben sin tilde.
-
-## La tilde diacrítica
-
-Distingue palabras que se escriben igual pero tienen distinta función: la forma tónica lleva tilde y la átona no.
-
-| Con tilde | Sin tilde |
-|---|---|
-| **tú** (pronombre): «tú vienes» | **tu** (posesivo): «tu casa» |
-| **él** (pronombre): «él lo dijo» | **el** (artículo): «el libro» |
-| **mí** (pronombre): «para mí» | **mi** (posesivo o nota musical): «mi coche» |
-| **sí** (afirmación o pronombre): «sí, lo sé»; «lo quiere para sí» | **si** (conjunción o nota): «si vienes» |
-| **té** (infusión) | **te** (pronombre): «te lo dije» |
-| **dé** (verbo *dar*): «que me dé» | **de** (preposición): «de Madrid» |
-| **sé** (verbo *saber* o *ser*): «yo sé»; «sé prudente» | **se** (pronombre): «se fue» |
-| **más** (cantidad): «más tiempo» | **mas** (= *pero*): «quiso, mas no pudo» |
-
-Dos cambios de 2010 que conviene recordar: la conjunción **o** ya **no** lleva tilde entre cifras («3 o 4») y **guion**, **truhan** o **hui** pierden la tilde, como has visto.
-
-## Interrogativos y exclamativos
-
-*Qué, quién, cuál, cómo, cuándo, cuánto, dónde* y *adónde* llevan tilde cuando preguntan o exclaman, **también en las preguntas indirectas** (sin signos de interrogación):
-
-- «¿**Cuándo** llegas?» / «Le pregunté **cuándo** llegaba» (pregunta indirecta: tilde).
-- «Avísame **cuando** llegues» (no pregunta: sin tilde).
-- «No sé **qué** hacer» / «Lo **que** quieras».
-- «¡**Cómo** corre!» (exclamación).
-
-Un caso fino de la propia Ortografía: «No tengo **qué** comer» (no tengo nada para comer) frente a «No tengo **que** comer» (no estoy obligado a comer). Las dos son correctas y significan cosas distintas.
-
-## «Solo», los demostrativos y «aún»
-
-- **«Solo»** (adverbio o adjetivo) y los demostrativos **este, ese, aquel** (con sus femeninos y plurales) **se escriben sin tilde**. En 2023 la RAE aclaró que la tilde en el adverbio *solo* es **optativa únicamente cuando quien escribe aprecia riesgo de ambigüedad**, y que fuera de esos casos debe omitirse. Lo más seguro, y lo que la RAE considera aconsejable, es no tildarlo nunca. En el examen, «solo» sin tilde nunca es falta.
-- **«Aún»** lleva tilde cuando equivale a *todavía* («aún no ha llegado», «es aún más alto»). **«Aun»** se escribe sin tilde cuando equivale a *incluso, hasta* o *siquiera* («aun así», «aun cuando llueva», «ni aun con ayuda»).
-
-## Plurales que ganan o pierden tilde
-
-Al pasar al plural se añade una sílaba y la palabra puede cambiar de tipo:
-
-| Singular | Plural | Por qué |
-|---|---|---|
-| examen (llana en -n) | exámenes (esdrújula) | La esdrújula siempre lleva tilde |
-| joven | jóvenes | Igual |
-| orden | órdenes | Igual |
-| canción (aguda en -n) | canciones (llana en -s) | La llana en -s no la lleva |
-| inglés | ingleses | Igual |
-| carácter | caracteres | Cambia la sílaba tónica (*rac*) |
-| régimen | regímenes | Cambia la sílaba tónica (*gí*) |
-| espécimen | especímenes | Cambia la sílaba tónica (*cí*) |
-
-## Otros casos especiales
-
-- **Adverbios en -mente:** conservan la tilde del adjetivo del que derivan: *fácil* → *fácilmente*, *cortés* → *cortésmente*, *común* → *comúnmente*. Si el adjetivo no la lleva, el adverbio tampoco: *lento* → *lentamente*.
-- **Compuestos sin guion:** se acentúan como una sola palabra: *décimo + séptimo* → *decimoséptimo*; *río + platense* → *rioplatense*; *así + mismo* → *asimismo*.
-- **Compuestos con guion:** cada parte conserva su tilde: *histórico-artístico*, *teórico-práctico*.
-- **Verbos con pronombres pospuestos:** desde 2010 siguen las reglas generales: *dame*, *deme*, *estate* (llanas, sin tilde); *mírame*, *dígaselo* (esdrújula y sobresdrújula, con tilde).
-- **Mayúsculas:** llevan tilde igual que las minúsculas: *África*, *Álvaro*, *ÓRDENES*.
-
-## Ejercicio resuelto (propio, con el formato del examen)
-
-Las palabras subrayadas en el examen aquí van en **negrita**. Decide cuáles tienen falta.
-
-1. «**Aún** no **sé** **por qué** el **examen** dura ciento cuarenta minutos».
-2. «El **guión** de la **película** **fué** muy aplaudido por el **público**».
-3. «Le pregunté **cuando** **vendría** y me dijo que **mas** tarde, **despues** de comer».
-4. «Los **exámenes** de este año fueron **mas** **dificiles** que los de 2025, aunque **solo** un poco».
-5. «**Dígame** **donde** vive y **porqué** ha venido; **aun** así, le atenderé».
-
-**Soluciones:**
-
-1. **Ninguna falta.** *Aún* = todavía; *sé* es verbo; *por qué* introduce una pregunta indirecta; *examen* es llana en -n. Una frase sin faltas también es posible: si marcas algo, sumas un error.
-2. **Dos faltas:** *guion* y *fue* van sin tilde. *Película* (esdrújula) y *público* (esdrújula) son correctas.
-3. **Tres faltas:** *cuándo* (pregunta indirecta), *más* (cantidad) y *después* (aguda en -s). *Vendría* es correcta (hiato con *í* tónica).
-4. **Dos faltas:** *más* y *difíciles*. *Exámenes* y *solo* son correctas.
-5. **Dos faltas:** *dónde* (pregunta indirecta) y *por qué* (pregunta indirecta, en dos palabras). *Dígame* y *aun* (= incluso) son correctas.
-
-En total hay nueve faltas en veinte palabras. Si hubieras dejado pasar *cuándo* y *dónde* y además hubieras marcado *aun* y *solo*, ya llevarías cuatro errores: así de rápido se llega al límite.
-
-## Errores frecuentes
-
-- **Tildar monosílabos:** *fué*, *dió*, *vió*, *guión*.
-- **Olvidar la tilde de las preguntas indirectas:** «no sé cuando…».
-- **Confundir *aun* y *aún*:** pregúntate si puedes decir *todavía*.
-- **Marcar como falta «solo» sin tilde:** es la forma recomendada.
-- **No aplicar la regla del hiato:** *pais*, *baul*, *oido* sin tilde son faltas.
-- **Olvidar los plurales:** *examenes* o *jovenes* sin tilde son faltas, y también *carácteres* o *regimenes*: lo correcto es *exámenes*, *jóvenes*, *caracteres* y *regímenes*.
-
-## Checklist de repaso
-
-- [ ] Sé localizar la sílaba tónica y clasificar la palabra.
-- [ ] Domino las tres reglas generales y sus matices (-s tras consonante, -y final).
-- [ ] Aplico la regla del hiato con *i* o *u* tónicas.
-- [ ] Me sé la tabla de la tilde diacrítica de memoria.
-- [ ] Reconozco las preguntas indirectas.
-- [ ] Distingo *aun* y *aún*, y escribo *solo* sin tilde.
-- [ ] Conozco los plurales que cambian.
-
-## Cómo repasarlas
-
-1. **Memoriza la tabla diacrítica** y la de plurales: son reglas cerradas.
-2. **Practica con frases**, no con palabras sueltas: en el examen todo está en contexto.
-3. **Haz tu lista de fallos** y repásala a intervalos. Si estudias a la vez que trabajas, encájalo como te contamos en [cómo preparar la oposición trabajando](/blog/plan-estudio-guardia-civil-trabajando).
-4. **Haz tests cronometrados** de cinco frases con cuatro palabras, y anota no solo las faltas que no ves, sino también las palabras correctas que marcas por miedo.
-
-En próximos artículos veremos las palabras trampa con B/V, G/J y H y los homófonos. Si quieres practicar con corrección explicada, en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) tienes ejercicios de ortografía con el formato del examen.
-
-## Preguntas frecuentes
-
-### ¿Cuántos errores de ortografía se permiten en la Guardia Civil?
-
-Hasta cinco. Con seis o más respuestas erróneas eres declarado «no apto» y quedas excluido (base 7.4).
-
-### ¿Cuenta como error marcar una palabra correcta?
-
-Sí. Es respuesta errónea tanto no marcar una palabra con falta como marcar una que está bien.
-
-### ¿«Solo» lleva tilde?
-
-Como norma, no. Desde 2023 la RAE admite tildarlo solo si quien escribe aprecia ambigüedad, pero lo aconsejable es no tildarlo nunca. Sin tilde siempre es correcto.
-
-### ¿Cómo distingo «aún» de «aun»?
-
-Con tilde cuando significa *todavía* («aún no»); sin tilde cuando significa *incluso* («aun así»).
-
-### ¿«Guion» lleva tilde?
-
-No. Desde la Ortografía de 2010 se considera monosílabo a efectos de tilde, igual que *truhan*, *hui* o *rio* (de *reír*).
-
-### ¿Por qué «examen» no lleva tilde y «exámenes» sí?
-
-*Examen* es llana terminada en -n; *exámenes* es esdrújula, y las esdrújulas llevan siempre tilde.
-
-### ¿La «o» entre números lleva tilde?
-
-No. Desde 2010 se escribe sin tilde: «3 o 4».',
-   '/blog/tildes-reglas-oposicion-guardia-civil.jpg', 'Hoja de examen con palabras subrayadas y un bolígrafo negro', 'publicado', '2026-12-02T06:02:00.000Z', 'acceso-guardia-civil',
-   ARRAY['ortografía', 'tildes', 'acentuación', 'examen']::text[], '{"title":"Tildes en la oposición a Guardia Civil: reglas y ejercicios","description":"Reglas de acentuación para la prueba de ortografía de la Guardia Civil: agudas, llanas, hiatos, tilde diacrítica, solo y aún, con ejercicio resuelto."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

@@ -3,7 +3,7 @@ titulo: "Inglés: cómo llegar a los 8 puntos mínimos sin ser bilingüe"
 slug: ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-17T07:04:00+01:00
+publicado_en: 2027-02-02T07:36:00+01:00
 curso: acceso-guardia-civil
 entradilla: El inglés vale 20 de los 195 puntos de la oposición, pero quedar por debajo de 8 excluye. Cómo se calcula la nota con la penalización de un tercio, qué combinaciones llegan al mínimo, cuándo compensa arriesgar y cuándo no.
 etiquetas: [inglés, nota mínima, penalización, examen]

@@ -3,7 +3,7 @@ titulo: Motivación: qué hacer los días que no te apetece estudiar
 slug: motivacion-que-hacer-los-dias-que-no-te-apetece-estudiar
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-13T07:43:00+01:00
+publicado_en: 2027-02-07T07:01:00+01:00
 curso: acceso-guardia-civil
 entradilla: Habrá días en que no te apetezca abrir el temario. Cómo seguir avanzando sin depender de las ganas: averiguar qué te frena, mínimos diarios, planes «si… entonces», rutinas y objetivos visibles. Y cuándo conviene hablar con un profesional.
 etiquetas: [motivación, hábitos, organización, opositor]

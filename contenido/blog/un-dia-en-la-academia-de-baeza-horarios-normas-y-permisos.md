@@ -3,7 +3,7 @@ titulo: Vida en la Academia de Baeza: horarios, normas y permisos según la norm
 slug: un-dia-en-la-academia-de-baeza-horarios-normas-y-permisos
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-20T07:55:00+01:00
+publicado_en: 2027-01-07T07:14:00+01:00
 curso: acceso-guardia-civil
 entradilla: Internado, uniforme, guardias, evaluación continua y un horario con límites fijados por norma. Qué dicen las órdenes PCM/6/2021 y PCM/576/2021 sobre el día a día del alumno en Baeza, qué no es público (el horario exacto) y cómo llegar preparado.
 etiquetas: [baeza, academia, alumnos, régimen interior]

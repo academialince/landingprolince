@@ -2,173 +2,6 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('armas-y-explosivos-en-el-temario-de-la-guardia-civil', 'articulo', 'Armas y explosivos en el temario de la Guardia Civil', 'El tema 22 se apoya en dos reglamentos: el de Armas (RD 137/1993) y el de Explosivos (RD 130/2017). Categorías de armas, armas prohibidas, guías de pertenencia, licencias y tarjetas, y claves del control de explosivos, con tablas, caso práctico y test.', 'El **tema 22** del programa de la Escala de Cabos y Guardias, «Armas y explosivos», tiene dos bloques: el **Real Decreto 137/1993, de 29 de enero, Reglamento de Armas**, y el **Real Decreto 130/2017, de 24 de febrero, Reglamento de Explosivos** (consulta el [temario](/temario-guardia-civil)).
-
-**Respuesta corta:** aprende **la clasificación por categorías, qué documento exige cada arma, quién lo concede y cuánto dura**, y en explosivos, **qué administración controla qué**. Y recuerda por qué lo estudia un guardia civil: la LO 2/1986 le atribuye «las derivadas de la legislación vigente sobre armas y explosivos» (art. 12.1.B.a, que vimos en [competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada)). Dentro de la Dirección General, esa tarea la planifica la Jefatura de Armas, Explosivos y Seguridad, como explicamos en [Ministerio del Interior y Ministerio de Defensa](/blog/ministerio-del-interior-y-ministerio-de-defensa-estructura).
-
-## Reglamento de Armas (RD 137/1993)
-
-Publicado en el [BOE-A-1993-6202](https://www.boe.es/buscar/act.php?id=BOE-A-1993-6202), su texto consolidado incorpora numerosas reformas; la más amplia es la del **Real Decreto 726/2020**, en vigor desde el 5 de noviembre de 2020. Estudia siempre el texto vigente.
-
-### Categorías (art. 3)
-
-| Categoría | Armas |
-|---|---|
-| 1.ª | Armas de fuego cortas: pistolas y revólveres |
-| 2.ª | 1. Armas largas para vigilancia y guardería. 2. Armas largas rayadas para caza mayor |
-| 3.ª | 1. Armas largas rayadas deportivas de calibre 5,6 mm (.22) de percusión anular. 2. Escopetas y armas de ánima lisa. 3. Armas de aire o gas comprimido de más de 24,2 julios |
-| 4.ª | Carabinas, pistolas y revólveres de aire o gas comprimido no asimilados a escopetas (4.ª 1, de repetición o semiautomáticas; 4.ª 2, de un solo tiro) |
-| 5.ª | Armas blancas no prohibidas y cuchillos o machetes militares o sus imitaciones |
-| 6.ª | Armas antiguas o históricas, anteriores a 1890, artísticas y de avancarga |
-| 7.ª | 1. Inyección anestésica. 2. Ballestas. 3. Armas para lanzar cabos. 4. Sistema «Flobert». 5. Arcos y fusiles de pesca submarina. 6. Alarma, señales y lanzabengalas |
-| 8.ª | Armas acústicas y de salvas |
-| 9.ª | Armas inutilizadas |
-
-Las categorías 8.ª y 9.ª se añadieron con el RD 726/2020: los apuntes anteriores hablan de siete.
-
-### Armas prohibidas (art. 4)
-
-Entre otras: las fabricadas ilícitamente o modificadas sin autorización; las armas de fuego ocultas en bastones u otros objetos o simuladas bajo otra apariencia; las pistolas y revólveres con culatín; los **bastones-estoque, los puñales y las navajas automáticas** (son puñales las armas blancas de hoja menor de 11 centímetros, de dos filos y puntiaguda); y las armas de fuego o de aire combinadas con armas blancas. Las armas de guerra tienen su propia sección.
-
-### Guías de pertenencia (arts. 88 y 89)
-
-Cada arma de las categorías **1.ª, 2.ª, 3.ª, 6.ª, 7.ª (1 a 4) y 8.ª** debe estar documentada con su **guía de pertenencia**. La expiden las **Intervenciones de Armas** (al personal de las Fuerzas Armadas y de seguridad, sus propias autoridades); recoge los datos del titular, de su licencia y una reseña del arma, y **la acompaña siempre en uso, depósito y transporte**.
-
-### Licencias y tarjetas (arts. 96 a 105)
-
-La tenencia y el uso de armas de las **categorías 1.ª, 2.ª y 3.ª** requieren **licencia**; las de la **4.ª**, **tarjeta**.
-
-| Documento | Para qué | Quién la concede | Validez y límites |
-|---|---|---|---|
-| Licencia **A** | Armas 1.ª, 2.ª y 3.ª de propiedad privada de miembros de las Fuerzas Armadas, Fuerzas y Cuerpos de Seguridad y Vigilancia Aduanera | Su tarjeta de identidad militar o carné profesional, en servicio activo, vale como licencia A (art. 114) | Con la eficacia de las licencias B, D y E |
-| Licencia **B** | Armas cortas de particulares | Dirección General de la Guardia Civil | 5 años; una sola licencia y **un arma** por licencia |
-| Licencia **C** | Armas de dotación del personal de vigilancia y seguridad | Jefe de la Comandancia (art. 121) | Ligada a la función de vigilancia |
-| Licencia **D** | Armas largas rayadas para caza mayor | Jefe de la Comandancia | 5 años; hasta **5 armas** |
-| Licencia **E** | Armas de 3.ª y 7.ª (2 y 3): escopetas, rifles deportivos, ballestas… | Jefe de la Comandancia | 5 años; hasta 6 escopetas o 6 rifles deportivos, **12 en total** |
-| Licencia **F** | Armas de concurso de tiro deportivo de federados | Régimen propio del Reglamento | Vinculada a la federación deportiva |
-| **Tarjeta** A / B | Armas de la 4.ª categoría fuera del domicilio | **Alcalde** del municipio | A: hasta 6 armas, 5 años, desde los 14 años; B: número ilimitado, validez permanente |
-
-Requisitos clave:
-
-- La solicitud se presenta en la **Intervención de Armas de la Guardia Civil** del domicilio, con certificado de antecedentes penales, DNI o tarjeta de residencia e **informe de aptitudes psicofísicas** (art. 97).
-- No pueden tener armas quienes, por sus condiciones psíquicas o físicas, supongan un riesgo propio o ajeno; una condena por delito doloso violento se considera indicativa de ese riesgo (art. 98.1). El personal en activo de las Fuerzas Armadas y de las Fuerzas y Cuerpos de Seguridad está exceptuado del informe de aptitud (art. 98.4).
-- La licencia **B** solo se concede a quien acredite **necesidad**: la defensa de personas o bienes, por sí sola, no la justifica, y su concesión es restrictiva (art. 99).
-- Las licencias de las categorías 1.ª, 2.ª y 3.ª solo se expiden a **mayores de edad** (art. 102.1).
-- A partir de los **67 años**, las licencias deben visarse a los tres años de su expedición con un nuevo informe de aptitud (art. 104).
-
-## Reglamento de Explosivos (RD 130/2017)
-
-Aprobado el 24 de febrero de 2017 ([BOE-A-2017-2313](https://www.boe.es/buscar/act.php?id=BOE-A-2017-2313)), sustituyó al RD 230/1998 e incorporó la Directiva 2014/28/UE.
-
-### Objeto y exclusiones (art. 1)
-
-Regula los **explosivos con fines civiles** en tres planos: la **seguridad ciudadana** (fabricación, almacenamiento, distribución, comercio, transporte, medidas de seguridad, adquisición, tenencia y uso, en el marco de los artículos 28 y 29 de la LO 4/2015, que vimos en [seguridad ciudadana](/blog/seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario)), la **seguridad industrial** y la **seguridad y salud en el trabajo**. Quedan fuera, entre otros, las Fuerzas Armadas y los cuerpos policiales con unidades de desactivación en el ejercicio de sus competencias, y los **artículos pirotécnicos y la cartuchería**, que tienen su propio reglamento (RD 989/2015).
-
-### Competencias (art. 2)
-
-Todas las actividades quedan bajo **intervención administrativa del Estado**, pero participan varios ministerios. Los dos que más interesan:
-
-| Órgano | Papel |
-|---|---|
-| Ministerio competente en energía, a través de la Dirección General de Política Energética y Minas | Autorizaciones, seguridad industrial y laboral; **clasificación** de los explosivos (art. 9) |
-| **Ministerio del Interior, a través de la Dirección General de la Guardia Civil** | **Control e inspección** de fabricación, almacenamiento, circulación, distribución, comercio, adquisición, transporte, medidas de seguridad, tenencia y uso |
-
-Intervienen también, entre otros, Defensa (instalaciones, por razones de defensa nacional), las Delegaciones y Subdelegaciones del Gobierno y Protección Civil. El texto conserva los nombres de los ministerios de 2017.
-
-### Divisiones de riesgo (art. 8)
-
-| División | Riesgo |
-|---|---|
-| 1.1 | Explosión en masa |
-| 1.2 | Proyección, sin explosión en masa |
-| 1.3 | Incendio con ligero riesgo de onda expansiva o proyección |
-| 1.4 | Pequeño riesgo de explosión en caso de ignición o cebado |
-| 1.5 | Materias muy poco sensibles con riesgo de explosión en masa |
-| 1.6 | Objetos extremadamente poco sensibles, sin explosión en masa |
-
-### Clasificación (art. 9)
-
-**Materias explosivas** (iniciadores; rompedores, como los tipos A, dinamitas; B, nafos; C, plásticos; E-a, hidrogeles; y E-b, emulsiones; y propulsores, como las pólvoras) y **objetos explosivos** (mechas, cordones detonantes, detonadores y multiplicadores).
-
-### Estructura
-
-Diez títulos: ordenación preliminar, fábricas, depósitos, envases, comercialización, control de mercado, uso, importación y exportación (con tránsito y transferencia), transporte y régimen sancionador. El reglamento regula también el **carné de artillero** para quien maneja explosivos en voladuras.
-
-## Conexiones con otros temas
-
-- **Violencia de género**: el juez puede suspender la tenencia, porte y uso de armas del investigado (art. 67 de la [LO 1/2004](/blog/violencia-de-genero-lo-1-2004-claves-para-el-examen)).
-- **Menores**: entre las medidas está la privación de licencias de caza o de armas (art. 7.1.n de la LO 5/2000).
-- **Seguridad ciudadana**: portar armas prohibidas o de modo negligente o intimidatorio es infracción grave si no es delito (art. 36.10 de la LO 4/2015).
-
-## Caso práctico (hipotético)
-
-Un cazador de 45 años quiere comprar un rifle para caza mayor y una escopeta para caza menor. ¿Qué necesita?
-
-1. Para el rifle (2.ª categoría, 2), **licencia D**, que concede el Jefe de la Comandancia y dura cinco años.
-2. Para la escopeta (3.ª categoría, 2), **licencia E**.
-3. En ambos casos, solicitud en la Intervención de Armas con antecedentes penales, documento de identidad e informe de aptitud, y superar las pruebas de capacitación (art. 102.2).
-4. Cada arma irá con su **guía de pertenencia**, que deberá llevar siempre al usarla o transportarla.
-
-## Errores frecuentes
-
-- Decir que hay siete categorías: desde 2020 son **nueve**.
-- Pensar que la defensa personal justifica la licencia B.
-- Atribuir la tarjeta de armas a la Guardia Civil: la conceden los **alcaldes**.
-- Creer que el Reglamento de Explosivos regula los petardos: la pirotecnia y la cartuchería tienen su propio reglamento.
-- Confundir quién **clasifica** los explosivos (el ministerio de energía) con quién **controla** su circulación y tenencia (la Guardia Civil).
-
-## Mini test (preguntas propias)
-
-1. Las pistolas y revólveres pertenecen a la categoría: a) 1.ª; b) 2.ª; c) 3.ª; d) 4.ª.
-2. La licencia B la concede: a) el Jefe de la Comandancia; b) la Dirección General de la Guardia Civil; c) el Delegado del Gobierno; d) el alcalde.
-3. La tarjeta de armas es necesaria para las armas de la categoría: a) 3.ª; b) 4.ª; c) 5.ª; d) 7.ª.
-4. ¿Cuántas armas ampara como máximo una licencia D? a) 1; b) 3; c) 5; d) 12.
-5. La división de riesgo 1.1 corresponde a: a) riesgo de proyección; b) riesgo de incendio; c) riesgo de explosión en masa; d) objetos extremadamente poco sensibles.
-
-**Soluciones:** 1-a (art. 3); 2-b (art. 99.1); 3-b (art. 96.6); 4-c (art. 100.2); 5-c (art. 8 del RD 130/2017).
-
-## Cómo estudiarlo
-
-Empieza por la tabla de categorías y la de licencias, que concentran la mayoría de datos. Después, lee los artículos de guías y requisitos y, en explosivos, objeto, competencias, divisiones y clasificación. El programa cita ambos reglamentos sin acotar artículos; consulta la convocatoria vigente. El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) estructura el tema.
-
-Si necesitas tramitar una licencia real, acude a la Intervención de Armas: este artículo es material de estudio, no asesoramiento.
-
-## Preguntas frecuentes
-
-### ¿Cuántas categorías de armas hay?
-
-Nueve en el texto vigente tras el RD 726/2020 (art. 3 del Reglamento de Armas).
-
-### ¿Qué es la guía de pertenencia?
-
-El documento que acredita cada arma de las categorías previstas en el artículo 88 y que la acompaña siempre en uso, depósito y transporte.
-
-### ¿Cuánto dura una licencia de armas para particulares?
-
-Las licencias B, D y E tienen cinco años de validez; a partir de los 67 años, deben visarse a los tres años.
-
-### ¿Quién controla los explosivos?
-
-Varias administraciones; en seguridad ciudadana, el Ministerio del Interior a través de la Dirección General de la Guardia Civil (art. 2 del RD 130/2017).
-
-### ¿Son armas prohibidas las navajas automáticas?
-
-Sí, junto con los bastones-estoque y los puñales (art. 4.1.f del Reglamento de Armas).
-
-### ¿Se estudian los dos reglamentos enteros?
-
-El programa cita los dos reales decretos sin precisar artículos concretos; revisa la convocatoria vigente.',
-   NULL, NULL, 'publicado', '2026-12-29T06:41:00.000Z', 'acceso-guardia-civil',
-   ARRAY['armas', 'explosivos', 'tema 22', 'reglamentos']::text[], '{"title":"Armas y explosivos: temario Guardia Civil (tema 22)","description":"Tema 22 de Guardia Civil: categorías de armas, licencias, tarjetas y guías del RD 137/1993 y claves del Reglamento de Explosivos (RD 130/2017), con test."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
   ('como-estudiar-la-oposicion-en-navidad-sin-perder-el-ritmo', 'articulo', 'Cómo estudiar la oposición en Navidad sin perder el ritmo', 'Las fiestas rompen horarios y tientan a dejarlo todo hasta enero. Un método realista para mantener el hábito de estudio y de entrenamiento sin renunciar a las cenas: mínimos diarios, tipos de día, plan de dos semanas y errores que conviene evitar.', '**Respuesta corta: en Navidad no hace falta estudiar como en octubre, pero sí hace falta estudiar.** Lo que más pesa en estas fechas no es la cantidad de horas, sino que el hábito no se rompa. Retomar tras dos semanas en blanco suele costar bastante más que mantener un ritmo pequeño y constante.
 
 Una advertencia antes de empezar: no existen datos oficiales que midan cuánto temario se olvida por parar unos días. Lo que sigue es organización razonable, basada en técnicas de estudio conocidas (repaso, práctica con preguntas, planificación previa), no una fórmula mágica ni una cifra garantizada.
@@ -472,167 +305,6 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada', 'articulo', 'Fuerzas y Cuerpos de Seguridad (LO 2/1986): competencias de cada cuerpo', 'La Ley Orgánica 2/1986 reparte la seguridad pública entre Estado, comunidades autónomas y ayuntamientos. Qué hace cada cuerpo, dónde actúa la Guardia Civil, los principios de actuación, la policía judicial y la coordinación, con caso práctico y test.', 'La [Ley Orgánica 2/1986, de 13 de marzo](https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859), desarrolla el artículo 104 de la Constitución: fija las **funciones, los principios básicos de actuación y los estatutos** de las Fuerzas y Cuerpos de Seguridad. En el programa de la Escala de Cabos y Guardias figura **completa** como primer bloque del tema 15 (consulta el [temario](/temario-guardia-civil)).
-
-**Respuesta corta:** la seguridad pública es competencia exclusiva del Estado; la ejercen tres niveles de cuerpos (Estado, comunidades autónomas y corporaciones locales); y entre los dos cuerpos estatales, la Policía Nacional actúa en las capitales de provincia y en los núcleos que determine el Gobierno, y la Guardia Civil **en el resto del territorio nacional y su mar territorial**, además de sus competencias materiales propias.
-
-## Estructura de la ley
-
-| Título | Contenido | Artículos |
-|---|---|---|
-| I | Disposiciones generales, principios básicos de actuación y disposiciones estatutarias comunes | 1 a 8 |
-| II | Fuerzas y Cuerpos de Seguridad del Estado: funciones, Guardia Civil, Policía y policía judicial | 9 a 36 |
-| III | Policías de las comunidades autónomas | 37 a 44 |
-| IV | Colaboración y coordinación entre el Estado y las comunidades autónomas | 45 a 50 |
-| V | Policías locales | 51 a 54 |
-
-Trabaja con el texto consolidado: conserva términos de 1986 como «Gobernador civil» (figura que desapareció en 1997 y cuyas funciones asumieron los subdelegados del Gobierno), «Director de la Seguridad del Estado» o «Cuerpo Nacional de Policía», hoy Policía Nacional. Además, la Ley Orgánica 9/2015 **derogó los artículos 16 a 26**, sobre el personal de la Policía.
-
-## Título I: disposiciones comunes
-
-### Los tres niveles (arts. 1 y 2)
-
-El artículo 1 establece que la seguridad pública es **competencia exclusiva del Estado** y que su mantenimiento corresponde al Gobierno de la Nación. Comunidades autónomas y corporaciones locales participan en los términos de sus estatutos y de la Ley de Bases de Régimen Local.
-
-| Nivel | Cuerpos | Naturaleza |
-|---|---|---|
-| Estado | Policía Nacional y Guardia Civil | Civil y militar, respectivamente (art. 9) |
-| Comunidades autónomas | Policías autonómicas | Institutos armados de naturaleza civil (art. 41.2) |
-| Corporaciones locales | Policías locales | Institutos armados de naturaleza civil (art. 52.1) |
-
-El artículo 4 impone a todos el deber de auxiliar a las Fuerzas y Cuerpos de Seguridad en la investigación de delitos, y una **especial obligación** a quienes ejercen funciones de vigilancia y seguridad privadas.
-
-### Principios básicos de actuación (art. 5)
-
-| Bloque | Ideas clave |
-|---|---|
-| 1. Adecuación al ordenamiento jurídico | Respeto a la Constitución; neutralidad política e imparcialidad; integridad y oposición a la corrupción; jerarquía y subordinación, pero **la obediencia debida nunca ampara actos manifiestamente delictivos** o contrarios a la Constitución o a las leyes; colaboración con la Justicia |
-| 2. Relaciones con la comunidad | Impedir prácticas abusivas o discriminatorias; trato correcto y esmerado; actuar sin demora ante un daño grave, inmediato e irreparable, con **congruencia, oportunidad y proporcionalidad**; **armas solo ante un riesgo racionalmente grave** para la vida o la integridad propias o de terceros, o para la seguridad ciudadana |
-| 3. Tratamiento de detenidos | Identificarse al detener; velar por la vida e integridad del detenido; cumplir trámites y plazos |
-| 4. Dedicación profesional | Intervenir siempre, en cualquier tiempo y lugar, **de servicio o no** |
-| 5. Secreto profesional | Riguroso secreto; no obligación de revelar fuentes salvo ley |
-| 6. Responsabilidad | Personal y directa, sin perjuicio de la patrimonial de la Administración |
-
-Estos principios reaparecen casi literalmente en el Código de Conducta de la Guardia Civil, que veremos en el artículo de deontología.
-
-### Estatuto común (arts. 6 a 8)
-
-- Juramento o promesa de acatamiento a la Constitución (art. 6.3).
-- **Prohibición de la huelga** y de acciones sustitutivas (art. 6.8).
-- Carácter de **agentes de la autoridad**; ante atentados con armas de fuego, explosivos u otros medios de análoga peligrosidad, protección penal de **autoridad** (art. 7.1 y 7.2).
-- La Guardia Civil **solo es fuerza armada** en el cumplimiento de misiones de carácter militar (art. 7.3).
-- Jurisdicción ordinaria para los delitos cometidos contra ellos o por ellos en el ejercicio de sus funciones (art. 8.1).
-
-## Título II: las Fuerzas y Cuerpos de Seguridad del Estado
-
-### Naturaleza y dependencia (arts. 9 y 10)
-
-La Policía es un instituto armado **de naturaleza civil** dependiente del Ministro del Interior. La Guardia Civil es un instituto armado **de naturaleza militar**, que depende del Ministro del Interior en las funciones de esta ley y del Ministro de Defensa en las misiones militares; **en tiempo de guerra y durante el estado de sitio, depende exclusivamente del de Defensa**. Al Ministro del Interior le corresponde el mando superior (art. 10.1).
-
-### Funciones comunes (art. 11.1)
-
-Su misión es proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana mediante nueve funciones: a) velar por el cumplimiento de las leyes; b) auxiliar y proteger a las personas y bienes en peligro; c) vigilar edificios e instalaciones públicos; d) proteger a altas personalidades; e) mantener y restablecer el orden y la seguridad ciudadana; f) prevenir delitos; g) investigar delitos; h) captar y analizar datos de interés para el orden y la seguridad; i) colaborar con protección civil.
-
-### Reparto territorial (art. 11.2 a 11.6)
-
-- **Policía Nacional**: capitales de provincia y términos municipales y núcleos urbanos que determine el Gobierno.
-- **Guardia Civil**: el resto del territorio nacional y su mar territorial.
-- La Policía puede investigar y coordinar datos (funciones g y h) en todo el territorio; la Guardia Civil puede investigar en todo el territorio cuando lo exijan sus competencias propias. **Siempre se da cuenta al otro cuerpo.**
-- Fuera de su ámbito, por mandato judicial o fiscal o en casos excepcionales, comunicándolo de inmediato.
-- **Conflicto de competencias**: se hace cargo el cuerpo que haya realizado las **primeras actuaciones** hasta que se resuelva.
-- El Ministerio del Interior puede ordenar que un cuerpo asuma funciones del otro en zonas determinadas.
-
-### Competencias materiales (art. 12)
-
-| Guardia Civil (12.1.B) | Policía Nacional (12.1.A) |
-|---|---|
-| Armas y explosivos | DNI y pasaportes |
-| Resguardo fiscal del Estado y contrabando | Entrada y salida del territorio nacional |
-| Tráfico, tránsito y transporte en vías interurbanas | Extranjería, refugio y asilo, extradición, expulsión, emigración e inmigración |
-| Custodia de vías de comunicación terrestre, costas, fronteras, puertos, aeropuertos e instalaciones | Juego |
-| Naturaleza, medio ambiente, recursos hidráulicos, caza, pesca y riqueza forestal | Delitos relacionados con la droga |
-| Conducción interurbana de presos y detenidos | Colaboración con policías de otros países |
-| Otras que le atribuya la ley | Control de la seguridad privada; otras que le atribuya la ley |
-
-Para ver estas competencias en la práctica, repasa [seguridad ciudadana y seguridad privada](/blog/seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario) y la comparación [Guardia Civil o Policía Nacional](/blog/guardia-civil-o-policia-nacional).
-
-### La Guardia Civil (arts. 13 a 15)
-
-Estructura jerárquica por empleos, conforme a su naturaleza militar. El **Ministerio del Interior** dispone lo relativo a servicios, retribuciones, destinos, acuartelamientos y material; **conjuntamente Interior y Defensa**, la selección, formación, perfeccionamiento, armamento y despliegue territorial, y proponen el nombramiento del director general; **Defensa**, los ascensos, las situaciones del personal y las misiones militares (art. 14). Sus miembros **no pueden pertenecer a partidos políticos ni sindicatos ni hacer peticiones colectivas** (art. 15.2). La estructura actual de su Dirección General la tienes en [Ministerio del Interior y Ministerio de Defensa](/blog/ministerio-del-interior-y-ministerio-de-defensa-estructura).
-
-### Policía judicial (arts. 29 a 36)
-
-Las funciones del artículo 126 de la Constitución las ejercen las Fuerzas y Cuerpos de Seguridad del Estado a través de **unidades de policía judicial**; las policías autonómicas y locales actúan como **colaboradoras**. Sus miembros dependen **orgánicamente del Ministerio del Interior y funcionalmente de jueces, tribunales y fiscales** (art. 31.1), y no pueden ser apartados de una investigación sin decisión o autorización del juez o fiscal (art. 34.1).
-
-## Títulos III a V: policías autonómicas, coordinación y policías locales
-
-- **Policías autonómicas**: solo actúan en su comunidad, salvo emergencia previo requerimiento estatal (art. 42). Cuando concurren con fuerzas estatales en una misma actuación, la dirección corresponde a los mandos de estas últimas (art. 46.2).
-- **Consejo de Política de Seguridad** (art. 48): presidido por el Ministro del Interior, con los consejeros autonómicos y un número igual de representantes del Estado; dentro de él, un **Comité de Expertos** de ocho miembros, cuatro y cuatro (art. 49).
-- **Junta de Seguridad** (art. 50): en las comunidades con policía propia, paritaria.
-- **Policías locales**: actúan en su municipio (art. 51.3); entre sus funciones, ordenar el tráfico en el casco urbano e instruir atestados por accidentes dentro de él, y participar en la policía judicial como colaboradoras (art. 53). La **Junta Local de Seguridad** la preside el alcalde (art. 54).
-
-## Caso práctico (hipotético)
-
-En un polígono industrial de un municipio que no es capital de provincia y no figura entre los núcleos asignados a la Policía Nacional, una patrulla de la Guardia Civil y otra de la Policía Nacional, que investigaba una red de robos, llegan a la vez a un almacén asaltado. ¿Quién se hace cargo?
-
-1. Territorialmente es demarcación de la Guardia Civil (art. 11.2.b).
-2. La Policía puede investigar fuera de su ámbito (art. 11.3), pero debe dar cuenta a la Guardia Civil.
-3. Si surge un conflicto, se hace cargo **quien haya realizado las primeras actuaciones** hasta que resuelva la autoridad competente (art. 11.5).
-4. Si actuaba por mandato judicial, sigue haciéndolo, comunicándolo de inmediato (art. 11.4).
-
-## Errores frecuentes
-
-- Decir que la Guardia Civil depende «solo de Interior»: en guerra y estado de sitio depende **exclusivamente** de Defensa.
-- Atribuir a la Guardia Civil la expedición del DNI o la extranjería: son de la Policía Nacional.
-- Confundir dependencia orgánica (Interior) y funcional (jueces y fiscales) en la policía judicial.
-- Olvidar que las policías autonómicas y locales también son institutos armados de naturaleza civil.
-
-## Mini test (preguntas propias)
-
-1. Según la LO 2/1986, la Guardia Civil es un instituto armado de naturaleza: a) civil; b) militar; c) mixta; d) paramilitar.
-2. En tiempo de guerra y durante el estado de sitio, la Guardia Civil depende exclusivamente del Ministro: a) del Interior; b) de Defensa; c) de la Presidencia; d) de Justicia.
-3. Es competencia de la Guardia Civil según el art. 12: a) el control de entrada y salida del territorio; b) el juego; c) la conducción interurbana de presos y detenidos; d) el control de la seguridad privada.
-4. En un conflicto de competencias entre cuerpos estatales se hace cargo del servicio: a) la Guardia Civil; b) la Policía Nacional; c) el cuerpo que realizó las primeras actuaciones; d) el que designe el juez de guardia.
-5. El Comité de Expertos del Consejo de Política de Seguridad lo forman: a) 4 miembros; b) 6; c) 8; d) 10.
-
-**Soluciones:** 1-b (art. 9.b); 2-b (art. 9.b); 3-c (art. 12.1.B.f); 4-c (art. 11.5); 5-c (art. 49.1).
-
-## Cómo estudiarla
-
-Haz un cuadro de los tres niveles, otro con las dos columnas del artículo 12 y aprende el reparto del artículo 11 con sus excepciones. Para los plazos de la detención que el artículo 5 obliga a respetar, tienes [detención y habeas corpus](/blog/detencion-y-habeas-corpus-los-plazos-que-caen-siempre). El tema 15 incluye además la LO 11/2007, la Ley 29/2014, la estructura de los servicios centrales y la historia del Cuerpo; el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) las organiza por semanas.
-
-## Preguntas frecuentes
-
-### ¿Dónde actúa la Guardia Civil según la LO 2/1986?
-
-En el resto del territorio nacional y su mar territorial, es decir, fuera de las capitales de provincia y de los núcleos que el Gobierno asigne a la Policía (art. 11.2.b), además de sus competencias materiales en todo el territorio.
-
-### ¿La Guardia Civil depende de Interior o de Defensa?
-
-De ambos, según la función: de Interior en las funciones que le atribuye la ley y de Defensa en las misiones militares; en guerra y estado de sitio, solo de Defensa (art. 9.b).
-
-### ¿Pueden hacer huelga los guardias civiles?
-
-No. El artículo 6.8 prohíbe el derecho de huelga a todos los miembros de las Fuerzas y Cuerpos de Seguridad, y el 15.2 impide a los guardias civiles pertenecer a partidos o sindicatos.
-
-### ¿Son agentes de la autoridad o autoridad?
-
-Agentes de la autoridad a todos los efectos; a efectos de su protección penal, autoridad cuando el atentado se comete con armas de fuego, explosivos u otros medios de análoga peligrosidad (art. 7).
-
-### ¿Quién preside la Junta Local de Seguridad?
-
-El alcalde; si asiste el representante del Gobierno en la provincia (el «Gobernador civil» del texto), la presidencia es compartida (art. 54.2).',
-   '/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada.jpg', 'Guardias civiles evacuando a los pasajeros de un autobús durante una nevada', 'publicado', '2026-12-24T06:16:00.000Z', 'acceso-guardia-civil',
-   ARRAY['lo 2/1986', 'temario', 'competencias', 'fuerzas y cuerpos de seguridad']::text[], '{"title":"LO 2/1986 Fuerzas y Cuerpos de Seguridad: competencias","description":"LO 2/1986 para opositores: niveles policiales, competencias de Guardia Civil y Policía Nacional, principios, policía judicial, coordinación y test."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
   ('historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy', 'articulo', 'Historia de la Guardia Civil: del Duque de Ahumada a hoy', 'De los decretos de 1844 al Código de Conducta de 2022: cronología de la Guardia Civil por etapas, con fechas contrastadas en su web oficial, la trampa de los dos decretos fundacionales, un esquema de estudio y un test propio.', 'El programa oficial incluye en el tema 15 la «Historia de la Guardia Civil» desde los inicios del siglo XIX hasta la democracia, en dos bloques: fundación, consolidación, Sexenio Revolucionario y Restauración; y reinado de Alfonso XIII, Segunda República, Guerra Civil, franquismo, Transición y democracia (consulta el [temario](/temario-guardia-civil)).
 
 **Respuesta corta:** el Cuerpo se creó por el **Real Decreto de 28 de marzo de 1844**, pero ese decreto se derogó sin llegar a entrar en vigor; el que la web oficial llama «auténtico decreto fundacional» es el **Real Decreto de 13 de mayo de 1844**. Su organizador fue **Francisco Javier Girón y Ezpeleta, II Duque de Ahumada**, primer inspector general.
@@ -787,145 +459,453 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('responsabilidad-penal-de-los-menores-lo-5-2000-lo-que-mas', 'articulo', 'Responsabilidad penal de los menores (LO 5/2000): claves del tema', 'La LO 5/2000 se aplica a mayores de catorce y menores de dieciocho años. Edad, jueces, detención en 24 y 48 horas, medidas y su duración, prescripción y estructura del tema 20, con caso práctico y test propio.', 'La [Ley Orgánica 5/2000, de 12 de enero, reguladora de la responsabilidad penal de los menores](https://www.boe.es/buscar/act.php?id=BOE-A-2000-641) es el **tema 20** del programa y entra completa (consulta el [temario](/temario-guardia-civil)). Es una ley muy práctica para quien va a detener, custodiar y tomar declaración a menores.
+  ('oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti', 'articulo', 'Oferta de empleo público de la Guardia Civil: qué es y qué pasa con 2027', 'La oferta de empleo público es el real decreto que autoriza cuántas plazas se pueden convocar. Qué es, cómo se calcula, qué fijó el Real Decreto 206/2026 y qué se sabía de una oferta de 2027 al cierre de este artículo.', '**Respuesta corta:** la oferta de empleo público (OEP) es el real decreto del Gobierno que autoriza cuántas plazas puede convocar la Guardia Civil en un año y cómo se reparten. Sin oferta no hay convocatoria, y por eso es la primera señal oficial que conviene vigilar. En noviembre de 2026, cuando se preparó este artículo, **no había publicada ninguna oferta de empleo público de la Guardia Civil para 2027**.
 
-**Respuesta corta:** se aplica a quienes tengan **más de catorce y menos de dieciocho años** cuando cometen el hecho. Por debajo de catorce no hay responsabilidad con arreglo a esta ley, sino medidas de protección de menores. La detención policial de un menor dura como máximo **24 horas** y el Fiscal resuelve dentro de las **48 horas** desde la detención.
+Vamos a ver qué es exactamente, qué fijó la última, de dónde salen sus cifras y qué conviene hacer mientras no hay una nueva.
 
-## Estructura de la ley
+## Qué es exactamente una oferta de empleo público
 
-| Título | Artículos | Contenido |
-|---|---|---|
-| Preliminar | 1 | Declaración general |
-| I | 2 a 6 | Ámbito: jueces, menores de 14, víctimas, bases de la responsabilidad, Fiscal |
-| II | 7 a 15 | Medidas: tipos, duración, reglas especiales, mayoría de edad, prescripción |
-| III | 16 a 30 | Instrucción: incoación, detención, desistimiento, conciliación, medidas cautelares |
-| IV | 31 a 37 | Fase de audiencia |
-| V | 38 a 40 | Sentencia |
-| VI | 41 y 42 | Recursos |
-| VII | 43 a 60 | Ejecución de las medidas, centros y derechos de los internados |
-| VIII | 61 a 64 | Responsabilidad civil |
+Es una norma con rango de real decreto que fija el número de plazas que se pueden convocar en un ejercicio. Lo prevé la [Ley 29/2014, de Régimen del Personal de la Guardia Civil](https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408) (artículo 26), y el Reglamento de ordenación de la enseñanza ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), artículo 6) concreta cómo se aprueba: la aprueba el Consejo de Ministros, a iniciativa conjunta de los Ministerios de Defensa y del Interior, y debe especificar los **cupos** de cada forma de ingreso y si las plazas de un cupo pueden pasar a otro.
 
-## Ámbito: edad, jueces y Fiscal
+Lo que **no** es: no es la convocatoria. No contiene requisitos, plazos de solicitud ni pruebas. Todo eso llega después, en una resolución de la Dirección General de la Guardia Civil publicada en el BOE.
 
-- **Art. 1**: responsabilidad de los mayores de catorce y menores de dieciocho por hechos tipificados como delitos (el texto mantiene «o faltas») en el Código Penal o las leyes penales especiales. Gozan de todos los derechos de la Constitución, de la LO 1/1996 de Protección Jurídica del Menor y de la Convención sobre los Derechos del Niño.
-- **Art. 3**: si el autor es **menor de catorce**, se aplican las normas de protección de menores; el Fiscal remite testimonio a la entidad pública de protección.
-- **Art. 5.3**: las edades se refieren al **momento de la comisión de los hechos**; cumplirlas después no cambia la competencia.
-- **Art. 2**: competen los **Jueces de Menores** del lugar del hecho, también para la responsabilidad civil. Los delitos de terrorismo (arts. 571 a 580 del Código Penal) y los cometidos por menores en el extranjero cuando sean competencia española corresponden al **Juzgado Central de Menores de la Audiencia Nacional**.
-- **Art. 6**: el **Ministerio Fiscal** defiende los derechos del menor, **dirige personalmente la investigación** y ordena a la policía judicial las actuaciones necesarias.
+### El orden de los documentos
 
-Desde 2025, la LO 1/2025 ha transformado los juzgados en secciones de los tribunales de instancia (los de menores, en Secciones de Menores), pero la LO 5/2000 conserva la denominación de «Jueces de Menores»: en el examen, usa la de la ley.
+| Paso | Documento | Qué fija | Dónde se publica |
+|---|---|---|---|
+| 1 | Real decreto de oferta de empleo público | Número de plazas y reservas | BOE, sección III («Otras disposiciones») |
+| 2 | Resolución de convocatoria | Requisitos, plazo, tasas, pruebas, baremo | BOE, sección II.B («Oposiciones y concursos») |
+| 3 | Listas de admitidos | Admitidos, excluidos y nota del concurso | Web de la Guardia Civil y BOE |
+| 4 | Propuestos como alumnos | Quién ingresa en los centros de formación | BOE |
 
-## La detención de menores (art. 17)
+## Qué dijo la de 2026
 
-Es el artículo más relevante para el trabajo policial:
+La de 2026 es el [Real Decreto 206/2026, de 11 de marzo (BOE-A-2026-5998)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5998), publicado en el BOE núm. 64, de 13 de marzo de 2026. Para la Escala de Cabos y Guardias fija:
 
-| Regla | Contenido |
-|---|---|
-| Forma | La que **menos perjudique** al menor; información inmediata y en lenguaje claro de los hechos, las razones y sus derechos (art. 520 LECrim) |
-| Notificación | Inmediata a los **representantes legales** y al **Ministerio Fiscal**; si es extranjero con residencia habitual fuera de España, a las autoridades consulares |
-| Declaración | Siempre en presencia de su **letrado** y de quienes ejerzan la patria potestad, tutela o guarda, salvo que las circunstancias aconsejen lo contrario; en su defecto, ante el Fiscal (persona distinta del instructor). Entrevista reservada con el abogado antes y después |
-| Custodia | En dependencias **adecuadas y separadas** de las de los mayores de edad |
-| Plazo policial | Lo estrictamente necesario y, **como máximo, 24 horas**: libertad o puesta a disposición del Fiscal |
-| Plazo del Fiscal | Resuelve **dentro de las 48 horas desde la detención**: libertad, desistimiento o incoación del expediente |
-| Habeas corpus | Juez de Instrucción del lugar donde esté el menor |
+- **3.240 plazas** de ingreso directo (artículo 2).
+- Dentro de ellas, **1.296 reservadas a militares profesionales de tropa y marinería** con al menos cinco años de servicios efectivos y **240 para alumnos del Colegio de Guardias Jóvenes** (artículo 3). Las que no se cubran, por cualquier motivo, pasan al cupo libre.
+- Fuera de la Escala de Cabos y Guardias, autoriza plazas de **promoción profesional**: 96 para la Escala de Oficiales por promoción interna, 26 para la misma escala por cambio de escala y 400 para la de Suboficiales (artículo 4).
 
-Compáralo con las 72 horas del régimen general que explicamos en [detención y habeas corpus](/blog/detencion-y-habeas-corpus-los-plazos-que-caen-siempre).
+La convocatoria que derivó de ella ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) repartió las 3.240 plazas así: 1.296 para militares, 240 para el Colegio y **1.704 libres**. La tienes explicada en [la convocatoria de 2026 y su calendario](/blog/convocatoria-guardia-civil-2026-plazas-calendario).
 
-## Las medidas (art. 7)
+## De dónde sale la cifra de plazas
 
-El juez puede imponer, ordenadas de mayor a menor restricción de derechos: internamiento en régimen **cerrado, semiabierto o abierto**; internamiento terapéutico; tratamiento ambulatorio; asistencia a centro de día; **permanencia de fin de semana** (hasta 36 horas entre el viernes y el domingo); **libertad vigilada**; prohibición de aproximarse o comunicarse con la víctima; convivencia con otra persona, familia o grupo educativo; **prestaciones en beneficio de la comunidad** (que no pueden imponerse sin su consentimiento); tareas socioeducativas; **amonestación**; privación del permiso de conducir o de licencias de caza o armas; e inhabilitación absoluta.
+El propio Real Decreto 206/2026 explica el cálculo en su preámbulo:
 
-Para elegirlas se atiende «de modo flexible» no solo a los hechos, sino especialmente a la **edad, las circunstancias familiares y sociales, la personalidad y el interés del menor** (art. 7.3). Las medidas de internamiento tienen dos periodos: uno en el centro y otro en libertad vigilada (art. 7.2). En los delitos contra la libertad sexual (capítulos I y II del título VIII del Código Penal) se impone además la obligación de seguir **programas de educación sexual y de educación en igualdad** (art. 7.5, añadido por la LO 10/2022).
+1. El marco general de incorporaciones de personal lo fija el artículo 20 de la **Ley 31/2022, de Presupuestos Generales del Estado para 2023**, prorrogados en 2024, 2025 y en el momento de aprobar la oferta.
+2. Para las Fuerzas y Cuerpos de Seguridad del Estado, esa ley establece una **tasa de reposición del 125 %** y los considera sector prioritario.
+3. Aplicando ese porcentaje, la oferta «que cabría aprobar» era de 3.240 plazas.
 
-## Duración de las medidas (arts. 9 y 10)
+En la práctica, la tasa de reposición se calcula a partir de las bajas de efectivos, por lo que la cifra depende de cuántas personas dejen el servicio. Por eso no tiene sentido extrapolarla a ojo.
 
-| Supuesto | Límite |
-|---|---|
-| Regla general (art. 9.3) | **2 años**; prestaciones, 100 horas; fines de semana, 8 |
-| Internamiento cerrado (art. 9.2) | Solo delitos graves; menos graves con violencia, intimidación o grave riesgo; o cometidos en grupo o banda |
-| Hechos imprudentes (art. 9.4) | Nunca internamiento en régimen cerrado |
-| Casos del 9.2, menor de 14 o 15 años (art. 10.1.a) | Hasta 3 años |
-| Casos del 9.2, menor de 16 o 17 años (art. 10.1.b) | Hasta 6 años |
-| Delitos del art. 10.2 (asesinato, homicidio, ciertos delitos sexuales, terrorismo o penas de 15 años o más), 14-15 años | Internamiento cerrado de 1 a 5 años + libertad vigilada hasta 3 |
-| Mismos delitos, 16-17 años | Internamiento cerrado de 1 a 8 años + libertad vigilada hasta 5 |
+### Las reservas no son arbitrarias
 
-Al cumplir los **18 años** sigue la medida; si es internamiento cerrado y la conducta no responde a los objetivos, el juez puede ordenar su cumplimiento en un centro penitenciario. A los **21 años**, el juez lo ordenará salvo que excepcionalmente aprecie otra solución (art. 14).
+El artículo 6.2 del Reglamento de ordenación de la enseñanza fija dos límites para la Escala de Cabos y Guardias:
 
-## Prescripción (art. 15)
+- A los **militares profesionales de tropa y marinería**, un **mínimo del 40 %** de las plazas, sin superar nunca el 50 %.
+- Al **Colegio de Guardias Jóvenes**, **hasta un máximo del 20 %**.
 
-| Hecho | Prescribe |
-|---|---|
-| Homicidio, asesinato, ciertos delitos sexuales, terrorismo y delitos con pena de 15 años o más | Según el Código Penal |
-| Delito grave con pena superior a 10 años | 5 años |
-| Otros delitos graves | 3 años |
-| Delitos menos graves | 1 año |
+En 2026, las 1.296 plazas militares equivalen exactamente al 40 % de 3.240. El cupo militar lo explicaremos con detalle en un artículo posterior.
 
-## Salidas alternativas al juicio
+## Qué efecto tiene sobre ti
 
-- **Desistimiento** (art. 18): el Fiscal puede no incoar expediente en delitos menos graves sin violencia ni intimidación, salvo que el menor haya cometido antes hechos de la misma naturaleza.
-- **Conciliación o reparación** (art. 19): puede desistir de continuar el expediente si el menor se concilia con la víctima o se compromete a reparar el daño o a cumplir una actividad educativa.
+Tres consecuencias prácticas, sacadas del texto del real decreto:
 
-## Caso práctico (hipotético)
+- **La convocatoria solo puede publicarse en el año de la oferta.** El artículo 1 dice que las convocatorias derivadas «sólo podrán publicarse en el ejercicio presupuestario al que vienen referidas». Una oferta de 2027 daría lugar a una convocatoria en 2027, no antes.
+- **Cada convocatoria necesita informe favorable** de la Dirección General de la Función Pública.
+- **El Ministerio del Interior debe recoger en su web** un apartado de procesos selectivos con cada convocatoria y sus actos (disposición adicional única).
 
-Una patrulla sorprende a un chico de 15 años forzando motos en una zona rural. Lo detienen a las 22:00.
+## Cómo han evolucionado las plazas
 
-1. Le informan en lenguaje claro de los hechos, los motivos y sus derechos, y comunican de inmediato la detención a sus padres y al Fiscal.
-2. Queda custodiado en una dependencia separada de los adultos.
-3. Si se le toma declaración, será con su abogado y, salvo que no proceda, con sus padres.
-4. Como máximo a las 22:00 del día siguiente debe estar en libertad o a disposición del Fiscal.
-5. El Fiscal decide antes de las 22:00 del segundo día (48 horas desde la detención).
+Estas son las cifras de las últimas convocatorias, tomadas de sus bases en el BOE:
 
-Si tuviera 13 años, no se le aplicaría esta ley: el Fiscal remitiría testimonio a la entidad de protección (art. 3).
+| Año | Total | Militares | Colegio de Guardias Jóvenes | Libres |
+|---|---|---|---|---|
+| 2023 | 2.520 | 1.008 | 185 | 1.327 |
+| 2024 | 2.721 | 1.089 | 200 | 1.432 |
+| 2025 | 3.118 | 1.248 | 240 | 1.630 |
+| 2026 | 3.240 | 1.296 | 240 | 1.704 |
+
+Que subieran estos años **no garantiza** que vuelvan a hacerlo. Y recuerda que las plazas libres reales pueden ser más, porque las reservadas que no se cubren se suman al cupo libre.
+
+## ¿Hay ya una oferta para 2027?
+
+En noviembre de 2026 no la habíamos localizado ni en el BOE ni en la web del Ministerio del Interior. Cualquier cifra de plazas para 2027 que circulara entonces era una previsión de terceros, no un dato oficial.
+
+Si cuando leas esto ya se ha publicado, manda lo que diga el BOE. Para comprobarlo:
+
+1. Entra en el buscador del BOE y busca «oferta de empleo público del Cuerpo de la Guardia Civil para el año 2027».
+2. Mira la sección III («Otras disposiciones»): ahí se publican estos reales decretos.
+3. Revisa el apartado de procesos selectivos de la Guardia Civil en la web del Ministerio del Interior.
+
+## Un caso práctico (hipotético)
+
+Pablo lee en una red social que «para 2027 habrá 4.000 plazas». Antes de cambiar su plan, hace tres comprobaciones: busca en el BOE un real decreto de oferta de 2027 (no lo hay), mira si la cifra cita una norma (no la cita) y revisa la web de Interior (sin novedades). Conclusión: es una previsión sin respaldo. Sigue estudiando con el programa de la última convocatoria. Es un ejemplo inventado, pero es exactamente el filtro que conviene aplicar.
 
 ## Errores frecuentes
 
-- Aplicar la ley a los menores de 14 años.
-- Tomar la edad del juicio y no la del hecho (art. 5.3).
-- Confundir las 24 horas de la policía con las 48 del Fiscal, que se cuentan **desde la detención**.
-- Pensar que dirige la investigación el juez: la dirige el **Fiscal** (art. 6).
-- Olvidar que la duración general es de dos años y que las reglas del artículo 10 son excepciones.
+- **Confundir oferta y convocatoria.** La oferta no abre plazo de inscripción.
+- **Creer que hay que «apuntarse» a la oferta.** Solo te inscribes en la convocatoria.
+- **Sumar mal las plazas libres.** Las 1.704 de 2026 son las iniciales; las reservadas sin cubrir se añaden.
+- **Dar por buena una cifra sin real decreto.**
+- **Esperar a la oferta para empezar a estudiar.** Entre la oferta y la convocatoria puede pasar poco tiempo.
 
-## Mini test (preguntas propias)
+## Checklist
 
-1. La LO 5/2000 se aplica a: a) menores de 18; b) mayores de 12 y menores de 18; c) mayores de 14 y menores de 18; d) mayores de 16 y menores de 21.
-2. La detención policial de un menor no puede superar: a) 6 horas; b) 24 horas; c) 48 horas; d) 72 horas.
-3. Dirige la investigación en el procedimiento de menores: a) el Juez de Menores; b) la policía judicial; c) el Ministerio Fiscal; d) el equipo técnico.
-4. Con carácter general, las medidas no pueden exceder de: a) 1 año; b) 2 años; c) 3 años; d) 5 años.
-5. Un delito menos grave cometido por un menor prescribe: a) a los 3 meses; b) al año; c) a los 3 años; d) a los 5 años.
+- [ ] Sé distinguir oferta, convocatoria y listas.
+- [ ] He leído el Real Decreto 206/2026.
+- [ ] Tengo una alerta del BOE para la oferta de 2027.
+- [ ] He comprobado mi [edad para la convocatoria](/blog/edad-maxima-guardia-civil), que se mide por año natural.
+- [ ] Estudio con un plan, no a la espera de la cifra.
 
-**Soluciones:** 1-c (art. 1.1); 2-b (art. 17.4); 3-c (art. 6); 4-b (art. 9.3); 5-b (art. 15.1).
+## Qué hacer mientras tanto
 
-## Cómo estudiarla
-
-Aprende la edad y el art. 17 casi literalmente, haz la tabla de duraciones y esquematiza las fases (instrucción, audiencia, sentencia, recursos y ejecución). Relaciónala con los [conceptos de delito y penas](/blog/derecho-penal-para-guardia-civil-delito-penas-y-grados) y con el trato a colectivos vulnerables del [Código de Conducta](/blog/deontologia-profesional-el-codigo-de-conducta-que-entra). El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye este tema.
+La oferta no cambia lo que tienes que estudiar: el temario y las pruebas los fija la convocatoria, y la última publicada es la mejor referencia disponible. Comprueba tus [requisitos](/blog/requisitos-guardia-civil) y, si empiezas ahora, [prepara la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero) con un plan realista. Si quieres un método y un temario ordenado, lo trabajamos en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
 
 ## Preguntas frecuentes
 
-### ¿Desde qué edad se responde penalmente según esta ley?
+### ¿La oferta de empleo público es lo mismo que la convocatoria?
 
-Desde los catorce años cumplidos y hasta los dieciocho, referidos al momento del hecho (arts. 1 y 5.3).
+No. La oferta autoriza el número de plazas; la convocatoria, publicada después, fija requisitos, plazos y pruebas.
 
-### ¿Qué ocurre con un menor de catorce años?
+### ¿Cuánto tarda en salir la convocatoria después de la oferta?
 
-No se le aplica la LO 5/2000: se aplican las normas de protección de menores y el Fiscal remite testimonio a la entidad pública de protección (art. 3).
+Varía de un año a otro. En 2026 la oferta salió en el BOE el 13 de marzo y la convocatoria el 8 de mayo. En el artículo sobre la convocatoria de 2027 repasamos las fechas de los últimos años.
 
-### ¿Cuánto puede durar la detención policial de un menor?
+### ¿Puedo apuntarme a una oferta de empleo público?
 
-Lo estrictamente necesario y, como máximo, 24 horas; después, libertad o puesta a disposición del Fiscal, que resuelve dentro de las 48 horas desde la detención (art. 17).
+No. Solo te inscribes en la convocatoria, una vez publicada, dentro de su plazo de solicitud.
 
-### ¿Puede declarar un menor sin abogado?
+### ¿Dónde se publica la oferta?
 
-No. Toda declaración del menor detenido se hace en presencia de su letrado (art. 17.2).
+En el BOE, sección III, como real decreto. El Ministerio del Interior recoge además en su web las convocatorias derivadas.
 
-### ¿Qué pasa si cumple 18 años durante la medida?
+### ¿Por qué hay plazas reservadas a militares y al Colegio?
 
-Sigue cumpliéndola; en internamiento cerrado, el juez puede ordenar que continúe en un centro penitenciario si no responde a los objetivos, y a los 21 años lo ordenará salvo excepción (art. 14).
+Porque el Reglamento de ordenación de la enseñanza obliga a reservar al menos el 40 % a militares de tropa y marinería (sin pasar del 50 %) y permite reservar hasta el 20 % al Colegio de Guardias Jóvenes.
 
-### ¿Qué ley regula esta materia hoy?
+### ¿Hay oferta de 2027?
 
-La LO 5/2000, modificada varias veces; la última reforma que recoge el texto consolidado es la de la LO 1/2025, que afectó a los artículos 4 y 23. Trabaja siempre con la versión vigente.',
+En noviembre de 2026 no estaba publicada. Comprueba el BOE antes de dar por buena cualquier cifra.',
    NULL, NULL, 'publicado', '2026-12-28T06:24:00.000Z', 'acceso-guardia-civil',
-   ARRAY['lo 5/2000', 'menores', 'temario', 'detención']::text[], '{"title":"Responsabilidad penal de menores LO 5/2000: resumen","description":"LO 5/2000 para opositores: ámbito de edad, menores de 14 años, detención de menores, medidas y duración, prescripción, estructura de la ley y test."}'::jsonb, '{}'::jsonb)
+   ARRAY['oferta de empleo público', 'plazas', 'BOE', 'convocatoria']::text[], '{"title":"Oferta de empleo público Guardia Civil: qué es y 2027","description":"Qué es la oferta de empleo público de la Guardia Civil, cómo se calcula, qué fijó el Real Decreto 206/2026 (3.240 plazas) y qué se sabe de 2027."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('policia-judicial-y-uco-como-se-llega-a-la-especialidad', 'articulo', 'Policía Judicial y UCO: cómo se llega a la especialidad', 'La UCO no es una especialidad, sino una unidad de la Jefatura de Policía Judicial. Qué funciones tiene, cómo se organiza la Policía Judicial de la Guardia Civil y qué exige la normativa para obtener la especialidad.', 'Cuando se habla de grandes investigaciones de la Guardia Civil, casi siempre aparece la UCO. Pero conviene separar dos cosas que se confunden a menudo: **la Policía Judicial es una función y una especialidad; la UCO es una unidad concreta dentro de la Jefatura de Policía Judicial.**
+
+**Respuesta corta:** a la Policía Judicial se llega después de ingresar en el Cuerpo, obteniendo la cualificación de la especialidad **Policía Judicial (PJU)** mediante el curso de especialización que se convoque y ocupando después un puesto orgánico que la requiera. La especialidad se puede obtener desde el empleo de guardia civil. La UCO es uno de los destinos posibles dentro de esa estructura, no una puerta de entrada independiente.
+
+Aquí tienes lo que dicen las fuentes oficiales. Lo que no se puede confirmar (pruebas, plazas, años de servicio exigidos o duración de los cursos) no lo vamos a escribir. Si necesitas el panorama general de los destinos, lee antes [especialidades y destinos](/blog/destinos-especialidades-guardia-civil).
+
+## Qué es la Policía Judicial
+
+La Constitución establece que la policía judicial depende de los jueces, de los tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente ([artículo 126 de la Constitución, BOE-A-1978-31229](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229)).
+
+La [Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad (BOE-A-1986-6859)](https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859) desarrolla esa idea en sus artículos 29 a 36. Tres ideas clave:
+
+- Las funciones de policía judicial las ejercen las Fuerzas y Cuerpos de Seguridad del Estado a través de **unidades de Policía Judicial**, organizadas con criterios territoriales y de especialización delictual (artículos 29 y 30).
+- Sus miembros dependen **orgánicamente** del Ministerio del Interior y **funcionalmente** de los jueces, tribunales o fiscales que conocen del asunto (artículo 31).
+- La Policía Judicial es una función cuya **especialización se cursa en los centros de formación y perfeccionamiento** de los cuerpos (artículo 32).
+
+Si quieres repasar el reparto de competencias entre cuerpos, lo tienes en [la Ley Orgánica 2/1986 y las competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada).
+
+## La Jefatura de Policía Judicial y sus unidades
+
+La norma de estructura del Cuerpo ([Orden PRE/422/2013, BOE-A-2013-2906](https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906), artículo 10) atribuye a la Jefatura de Policía Judicial la organización y gestión de la investigación y persecución de los delitos y el desarrollo de los servicios de criminalística, identificación, analítica e investigación técnica. De ella dependen:
+
+| Unidad | Misión según la norma |
+|---|---|
+| **Unidad Central Operativa (UCO)** | Investigar y perseguir la delincuencia grave, nacional e internacional, y aquella otra cuyas especiales características lo aconsejen, y mantener el enlace y la colaboración con servicios afines nacionales e internacionales. |
+| **Unidad Técnica de Policía Judicial** | Asesoramiento técnico al mando, análisis criminal, normas técnico-operativas y sistemas de información de apoyo a las investigaciones. Encuadra además al personal destinado en Interpol, Europol, SIRENE y otros órganos compartidos. |
+| **Servicio de Criminalística** | Aplicar técnicas científicas para esclarecer hechos penales, elaborar informes periciales, identificar víctimas en sucesos con víctimas múltiples y prestar apoyo técnico. |
+
+La web oficial añade que el Servicio de Criminalística cuenta con **cerca de 600 especialistas** entre el nivel central y los laboratorios de zona y comandancia.
+
+### Las unidades de las comandancias
+
+La investigación del día a día no se hace solo en Madrid. Las comandancias tienen **unidades orgánicas de Policía Judicial**. Un ejemplo que describe la [web oficial](https://web.guardiacivil.es/es/institucional/conocenos/especialidades/emumes/) son los **Equipos Mujer-Menor (EMUME)**, creados en 1995 dentro de esas unidades. Investigan delitos contra mujeres y menores y aquellos en los que los menores son autores, con este despliegue:
+
+- Un **EMUME Central**, que depende de la Unidad Técnica de Policía Judicial.
+- **Puntos de Atención Especializada (PAE)**: la web cita 212 de ámbito comarcal y 54 de ámbito provincial.
+- Los **puestos** de la Guardia Civil, que conocen e intervienen en primera instancia.
+
+## La especialidad, según la Orden PCM/509/2020
+
+La [Orden PCM/509/2020 (BOE-A-2020-5900)](https://www.boe.es/buscar/act.php?id=BOE-A-2020-5900) enumera las especialidades del Cuerpo. Tres tienen que ver con la investigación:
+
+- **Policía Judicial (PJU)**, sin modalidades.
+- **Criminalística (CRIM)**, con ocho modalidades: dirección, técnico de laboratorio, técnica operativa, antropología, biología, física, ingeniería y química.
+- **Tecnologías de la información (TEIN)**, con modalidades de dirección, técnica y apoyo.
+
+Para todas rige el mismo esquema (artículo 7): hay que **acreditar la cualificación específica** y, para ejercerla, **ocupar un puesto orgánico** que la requiera. El acceso a esos puestos puede condicionarse por escala o empleo, edad, condiciones psicofísicas, titulaciones previas o nivel de idiomas.
+
+### La ficha de Policía Judicial
+
+El anexo de la orden incluye una ficha técnica por especialidad. La de Policía Judicial dice lo siguiente:
+
+| Dato de la ficha | Policía Judicial (PJU) |
+|---|---|
+| Empleos de la Escala de Cabos y Guardias que pueden obtenerla | Guardia civil, cabo y cabo primero |
+| Cualificación previa exigida | Ninguna |
+| Situaciones para ocupar el puesto | Activo y reserva |
+| Límite de edad para acceder a la cualificación | Sí (la ficha no fija la cifra) |
+| Límite de edad para permanecer en el puesto | No |
+| Pruebas de mantenimiento / renovación | Sí / No |
+| Autoridad que propone la pérdida | Jefe de la Jefatura de Policía Judicial |
+| Periodo de servidumbre | 4 años |
+
+La **servidumbre** es la obligación de ocupar puestos ligados a la titulación obtenida durante un tiempo. El Reglamento de destinos ([Real Decreto 470/2019, BOE-A-2019-11398](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398), artículo 53) fija que no puede superar los cinco años.
+
+## Requisitos generales para los cursos de especialización
+
+El Reglamento de ordenación de la enseñanza ([Real Decreto 131/2018, BOE-A-2018-3764](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), artículo 56) recoge requisitos comunes:
+
+- Haber cumplido la servidumbre de un curso de especialización anterior.
+- Aptitud psicofísica y técnica y, en su caso, límites de edad o de altura.
+- Titulaciones, niveles de idioma o habilitaciones, si se exigen.
+- Que pasen tres años desde la última solicitud si has suspendido tres veces el mismo curso.
+- No estar sometido a expediente por insuficiencia de facultades profesionales o psicofísicas.
+- Carecer de antecedentes penales, no estar procesado o investigado por delito doloso y no tener anotadas sin cancelar sanciones por faltas graves o muy graves.
+
+La selección de asistentes se publica, con carácter general, en el Boletín Oficial de la Guardia Civil.
+
+## Cómo se llega, paso a paso
+
+La normativa no publica un «camino a la UCO». Lo que sí permite afirmar es este orden:
+
+1. **Ingresar** en la Escala de Cabos y Guardias y completar la formación.
+2. **Incorporarte a tu primer destino**, que no eliges libremente: depende de tu número y de las vacantes.
+3. **Solicitar el curso** de especialización en Policía Judicial cuando se convoque y reúnas los requisitos.
+4. **Superar el curso** y obtener la cualificación.
+5. **Acceder a un puesto orgánico** que la requiera, conforme a la normativa de destinos, y cumplir la servidumbre.
+6. **Optar a vacantes concretas**, como las de unidades centrales, según los requisitos que fije cada anuncio de vacantes.
+
+Los requisitos de cada curso o vacante, las pruebas, el número de plazas y los plazos **dependen de la convocatoria y de la resolución de anuncio de vacantes**.
+
+## Un caso práctico (hipotético)
+
+Andrés, guardia civil destinado en un puesto ordinario, quiere investigar delitos económicos. Su plan razonable no es «pedir la UCO», sino: comprobar que no tiene sanciones sin cancelar, presentarse al curso de Policía Judicial cuando salga, aceptar que tendrá cuatro años de servidumbre en puestos de la especialidad y, con esa cualificación, ir optando a las vacantes que se anuncien. Si además tuviera una titulación técnica, podría valorar alguna modalidad de Criminalística o de Tecnologías de la información, cuyos requisitos fija cada convocatoria.
+
+Es un ejemplo inventado: no hay plazos ni resultados garantizados.
+
+## Qué puedes hacer ya, mientras opositas
+
+No puedes elegir la Policía Judicial antes de ser guardia civil, pero la base es común:
+
+- **Dominar el temario jurídico.** El derecho penal y procesal es la materia diaria de esta especialidad. Repasa [delito, penas y grados](/blog/derecho-penal-para-guardia-civil-delito-penas-y-grados) y [detención y habeas corpus](/blog/detencion-y-habeas-corpus-los-plazos-que-caen-siempre).
+- **Inglés**, útil para la cooperación internacional: mira cómo es la [prueba de inglés](/blog/ingles-oposicion-guardia-civil).
+- **Cuidar tu historial.** Los requisitos de acceso a cursos hablan de antecedentes y de sanciones.
+
+## Errores frecuentes
+
+- **Llamar «especialidad» a la UCO.** Es una unidad; la especialidad se llama Policía Judicial.
+- **Pensar que hay acceso directo desde la oposición.** La normativa exige cualificación específica y puesto orgánico.
+- **Ignorar la servidumbre** de cuatro años de la ficha.
+- **Fiarse de cifras de foros** sobre plazas, notas o años de antigüedad exigidos.
+- **Creer que solo investiga la UCO.** Las unidades orgánicas de las comandancias y los EMUME también hacen policía judicial.
+
+## Checklist
+
+- [ ] Distingo función, especialidad y unidad.
+- [ ] He leído la ficha de Policía Judicial en la Orden PCM/509/2020.
+- [ ] Sé que hay límite de edad de acceso, que fijará la convocatoria.
+- [ ] Conozco los requisitos del artículo 56 del Real Decreto 131/2018.
+- [ ] Consultaré las convocatorias en el Boletín Oficial de la Guardia Civil.
+
+## Preguntas frecuentes
+
+### ¿La UCO es una especialidad?
+
+No. Es una unidad de la Jefatura de Policía Judicial. La especialidad se llama Policía Judicial (PJU) y la regula la Orden PCM/509/2020.
+
+### ¿Puedo entrar directamente en la UCO?
+
+La normativa exige cualificación específica y un puesto orgánico que la requiera. No hay una vía directa publicada en las fuentes oficiales que hemos revisado.
+
+### ¿Un guardia civil puede obtener la especialidad?
+
+Sí. La ficha de Policía Judicial incluye los empleos de guardia civil, cabo y cabo primero entre los que pueden obtenerla.
+
+### ¿Cuánto dura la servidumbre?
+
+La ficha de la especialidad fija cuatro años.
+
+### ¿Qué estudios ayudan?
+
+Algunas modalidades de Criminalística o de Tecnologías de la información pueden requerir titulaciones. Mira la convocatoria del curso correspondiente.
+
+### ¿Dónde veo las convocatorias?
+
+En el Boletín Oficial de la Guardia Civil. Las cifras que circulan en foros no sustituyen a la convocatoria vigente.',
+   '/blog/policia-judicial-y-uco-como-se-llega-a-la-especialidad.jpg', 'Agentes de la UCO de la Guardia Civil analizando material informático intervenido', 'publicado', '2026-12-24T06:16:00.000Z', 'acceso-guardia-civil',
+   ARRAY['policía judicial', 'uco', 'especialidades', 'investigación']::text[], '{"title":"Policía Judicial y UCO Guardia Civil: cómo se accede","description":"Policía Judicial y UCO de la Guardia Civil: funciones, organización, qué fija la Orden PCM/509/2020 sobre la especialidad y cómo se llega a ella."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('proteccion-de-datos-para-la-oposicion-rgpd-y-lopdgdd', 'articulo', 'Protección de datos para la oposición: RGPD y LOPDGDD', 'Cómo se reparten el Reglamento europeo 2016/679 y la Ley Orgánica 3/2018, qué principios y derechos conviene dominar, qué plazos y cifras aparecen en el texto y qué títulos de la ley recoge el programa. Con casos, errores típicos y un test propio.', 'La protección de datos personales se regula en dos niveles. **Respuesta corta:** el Reglamento (UE) 2016/679 (RGPD) es **directamente aplicable** en toda la Unión desde el **25 de mayo de 2018**, y la Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD), lo **adapta y completa** en España. El programa de la oposición recoge de la ley orgánica los **Títulos I a VIII**, pero no se entiende sin el RGPD, al que la ley remite constantemente.
+
+Fuentes comprobadas: la [LO 3/2018 consolidada (BOE-A-2018-16673)](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673) y el [RGPD (DOUE-L-2016-80807)](https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807). El derecho fundamental nace del **artículo 18.4 de la Constitución**, que viste en el artículo sobre [derechos fundamentales](/blog/derechos-fundamentales-libertades-publicas-guardia-civil). Y recuerda por qué el RGPD se aplica sin ley de transposición: es un **reglamento**, como explicamos en [la Unión Europea en la oposición](/blog/union-europea-en-la-oposicion-las-instituciones).
+
+## Cómo está organizada la LO 3/2018
+
+| Título | Contenido | Artículos | ¿En el programa? |
+|---|---|---|---|
+| I | Disposiciones generales | 1 a 3 | Sí |
+| II | Principios de protección de datos | 4 a 10 | Sí |
+| III | Derechos de las personas | 11 a 18 | Sí |
+| IV | Disposiciones aplicables a tratamientos concretos | 19 a 27 | Sí |
+| V | Responsable y encargado del tratamiento | 28 a 39 | Sí |
+| VI | Transferencias internacionales de datos | 40 a 43 | Sí |
+| VII | Autoridades de protección de datos | 44 a 62 | Sí |
+| VIII | Procedimientos en caso de posible vulneración | 63 a 69 | Sí |
+| IX | Régimen sancionador | 70 a 78 | No |
+| X | Garantía de los derechos digitales | 79 a 97 | No |
+
+Confírmalo en nuestro [temario](/temario-guardia-civil).
+
+## Título I: objeto, ámbito y fallecidos
+
+- **Objeto (art. 1):** adaptar el ordenamiento español al RGPD y completarlo, y garantizar los derechos digitales, ambos al amparo del artículo 18.4 de la Constitución.
+- **Ámbito (art. 2):** tratamientos total o parcialmente automatizados y los no automatizados de datos incluidos en un fichero. No se aplica a los tratamientos excluidos por el artículo 2.2 del RGPD, a los datos de personas fallecidas (salvo el art. 3) ni a las materias clasificadas.
+- **Fallecidos (art. 3):** las personas vinculadas por razones familiares o de hecho y los herederos pueden pedir acceso, rectificación o supresión, **salvo que el fallecido lo hubiera prohibido** expresamente o lo disponga una ley; esa prohibición no impide a los herederos acceder a los datos patrimoniales.
+
+## Los principios (art. 5 RGPD y Título II)
+
+| Principio | Qué significa |
+|---|---|
+| Licitud, lealtad y transparencia | Tratar con una base jurídica y de forma clara para el interesado |
+| Limitación de la finalidad | Fines **determinados, explícitos y legítimos** |
+| Minimización | Datos **adecuados, pertinentes y limitados** a lo necesario |
+| Exactitud | Exactos y actualizados (la LO concreta en su art. 4 cuándo no es imputable la inexactitud) |
+| Limitación del plazo de conservación | No más tiempo del necesario |
+| Integridad y confidencialidad | Seguridad adecuada; la LO extiende el **deber de confidencialidad** a todos los que intervengan, incluso después de terminar su relación (art. 5 LO) |
+| **Responsabilidad proactiva** | El responsable debe cumplir **y ser capaz de demostrarlo** (art. 5.2 RGPD) |
+
+### Bases de licitud (art. 6 RGPD)
+Consentimiento, ejecución de un contrato, obligación legal, intereses vitales, misión de interés público o ejercicio de poderes públicos, e interés legítimo (no aplicable a las autoridades públicas en el ejercicio de sus funciones). La LO precisa que la obligación legal debe estar en una norma de la UE o **con rango de ley**, y la misión de interés público derivar de una competencia atribuida por **ley** (art. 8).
+
+### Menores (art. 7 LO)
+El tratamiento basado en el consentimiento del menor solo es válido si **es mayor de catorce años**. Por debajo, hace falta el del titular de la patria potestad o tutela.
+
+## Derechos de las personas (Título III)
+
+| Derecho | RGPD | LO 3/2018 |
+|---|---|---|
+| Transparencia e información | 12-14 | 11 |
+| Acceso | 15 | 13 |
+| Rectificación | 16 | 14 |
+| Supresión («derecho al olvido») | 17 | 15 |
+| Limitación del tratamiento | 18 | 16 |
+| Portabilidad | 20 | 17 |
+| Oposición | 21 | 18 |
+
+Reglas comunes (art. 12 LO): pueden ejercerse **directamente o por representante**; son **gratuitos**; la prueba de haber respondido recae en el responsable; y los padres pueden ejercerlos en nombre de los **menores de catorce años**. El responsable debe responder **en un mes**, prorrogable **otros dos** por complejidad o número de solicitudes (art. 12.3 RGPD). Pedir acceso **más de una vez en seis meses** puede considerarse repetitivo, salvo causa legítima (art. 13.3 LO).
+
+## Tratamientos concretos (Título IV): la videovigilancia
+
+El artículo 22 es el más cercano a tu profesión:
+
+- Se pueden captar imágenes para **preservar la seguridad** de personas, bienes e instalaciones.
+- De la vía pública, solo lo **imprescindible**.
+- Las imágenes se **suprimen en un mes**, salvo que deban conservarse para acreditar actos contra personas, bienes o instalaciones; en ese caso, se ponen a disposición de la autoridad **en 72 horas** desde que se conozca la grabación.
+- El deber de información se cumple con un **cartel** visible que identifique el tratamiento, al responsable y cómo ejercer los derechos.
+- Las cámaras de las **Fuerzas y Cuerpos de Seguridad** con fines de prevención o investigación penal se rigen por la legislación de transposición de la Directiva (UE) 2016/680, no por este artículo (art. 22.6).
+
+## Responsable, encargado y delegado (Título V)
+
+- **Bloqueo (art. 32):** al rectificar o suprimir, el responsable **bloquea** los datos, que solo quedan a disposición de jueces, fiscales y administraciones competentes durante el plazo de prescripción de las responsabilidades; después se destruyen.
+- **Delegado de protección de datos:** obligatorio, entre otros, cuando el tratamiento lo hace una **autoridad u organismo público** (art. 37 RGPD), y en todo caso en las entidades del artículo 34 LO, como colegios profesionales, centros docentes, entidades financieras, centros sanitarios o **empresas de seguridad privada**. Su designación se comunica a la autoridad de control en **diez días** (art. 34.3).
+
+## Brechas de seguridad
+
+Ante una violación de la seguridad de los datos, el responsable la notifica a la autoridad de control **sin dilación indebida y, de ser posible, en un máximo de 72 horas** desde que tenga constancia (art. 33 RGPD).
+
+## La Agencia Española de Protección de Datos (Títulos VII y VIII)
+
+- Es una **autoridad administrativa independiente**, con personalidad jurídica propia, que se relaciona con el Gobierno a través del **Ministerio de Justicia** (art. 44).
+- Su **Presidencia** y su **Adjunto** tienen un mandato de **cinco años**, renovable por otro período igual (art. 48.5); sus resoluciones agotan la vía administrativa y se recurren ante la Audiencia Nacional (art. 48.6).
+- **Procedimientos (art. 64):** si solo se trata de no haber atendido un derecho, la AEPD resuelve en **seis meses** desde la admisión; pasado ese plazo, la reclamación se entiende estimada. El procedimiento sancionador dura como máximo **doce meses** desde el acuerdo de inicio y después **caduca**. La admisión o inadmisión de una reclamación se notifica en **tres meses** (art. 65.5).
+
+## Multas: una referencia del RGPD
+
+Aunque el régimen sancionador de la LO queda fuera del programa, conviene conocer los topes del artículo 83 RGPD: hasta **10 millones de euros o el 2 %** del volumen de negocio anual global, y hasta **20 millones o el 4 %** en las infracciones más graves, optándose por la cuantía mayor.
+
+## Una precisión útil para la profesión
+
+El RGPD **no se aplica** a los tratamientos de las autoridades competentes con fines de prevención, investigación, detección o enjuiciamiento de infracciones penales (art. 2.2.d). Ese ámbito lo regula la **Ley Orgánica 7/2021** ([BOE-A-2021-8806](https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806)), que no figura en el alcance publicado del tema.
+
+## Casos prácticos (hipotéticos)
+
+1. **Una comunidad de vecinos graba el portal.** Debe poner un cartel informativo, captar de la calle solo lo imprescindible y borrar las imágenes en un mes, salvo que registren un delito: entonces las entrega a la autoridad en 72 horas.
+2. **Una red social y un usuario de trece años.** No puede basar el tratamiento en su consentimiento: necesita el de sus padres o tutores (art. 7).
+3. **Una empresa sufre un robo de su base de clientes un viernes.** Debe notificarlo a la AEPD sin dilación y, si es posible, en las 72 horas siguientes a conocerlo.
+
+## Errores frecuentes
+
+- **Situar el límite de edad en 16 años:** es la regla del artículo 8 RGPD para los servicios de la sociedad de la información, pero permite a los Estados rebajarla, y la LO 3/2018 fija **catorce**.
+- **Confundir los plazos de 72 horas:** brecha de seguridad (RGPD) y entrega de grabaciones a la autoridad (art. 22 LO) son supuestos distintos.
+- **Creer que el RGPD rige la actividad policial penal:** la rige la LO 7/2021.
+- **Estudiar el Título X:** los derechos digitales quedan fuera según el alcance publicado.
+
+## Mini test propio
+
+Preguntas elaboradas por ProLince; no son preguntas oficiales.
+
+**1. Un menor puede consentir por sí mismo el tratamiento de sus datos si es mayor de:**
+a) 12 años. b) 14 años. c) 16 años. d) 18 años.
+
+**2. Las imágenes de videovigilancia se suprimen, con carácter general, en el plazo máximo de:**
+a) 72 horas. b) Quince días. c) Un mes. d) Tres meses.
+
+**3. El plazo general para responder al ejercicio de un derecho es de:**
+a) Diez días. b) Un mes, prorrogable dos más. c) Tres meses. d) Seis meses.
+
+**4. El mandato de la Presidencia de la AEPD dura:**
+a) Cuatro años. b) Cinco años. c) Seis años. d) Nueve años.
+
+**5. El principio que obliga a cumplir y poder demostrarlo es el de:**
+a) Minimización. b) Exactitud. c) Responsabilidad proactiva. d) Transparencia.
+
+**Soluciones:** 1-b (art. 7 LO); 2-c (art. 22.3 LO); 3-b (art. 12.3 RGPD); 4-b (art. 48.5 LO); 5-c (art. 5.2 RGPD).
+
+## Cómo estudiarlo
+
+Haz dos tablas: una con los títulos de la LO 3/2018 y otra con tres columnas (derecho, artículo, plazo). Compara los plazos de la AEPD con los del procedimiento común que viste en la [Ley 39/2015 en 10 claves](/blog/procedimiento-administrativo-ley-39-2015-en-10-claves) y practica con tests para fijar los números; tienes cómo puntúan en la [estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura). El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te acompaña con el temario completo.
+
+## Preguntas frecuentes
+
+### ¿Qué diferencia hay entre el RGPD y la LOPDGDD?
+El RGPD es un reglamento europeo directamente aplicable; la LOPDGDD lo adapta al ordenamiento español, lo completa y añade los derechos digitales.
+
+### ¿A partir de qué edad puede un menor consentir el tratamiento de sus datos?
+Si es mayor de catorce años (art. 7 LO 3/2018), salvo que la ley exija la asistencia de los titulares de la patria potestad o tutela para el acto concreto.
+
+### ¿En cuánto tiempo hay que notificar una brecha de seguridad?
+Sin dilación indebida y, de ser posible, en un máximo de 72 horas desde que se tiene constancia (art. 33 RGPD).
+
+### ¿Cuánto tiempo pueden guardarse las grabaciones de una cámara de seguridad?
+Un mes como máximo, salvo que acrediten actos contra personas, bienes o instalaciones (art. 22.3).
+
+### ¿Ante quién se reclama si no atienden un derecho?
+Ante la Agencia Española de Protección de Datos o, en su ámbito, la autoridad autonómica.
+
+### ¿Entra en el programa todo el texto de la LO 3/2018?
+No: según el alcance publicado, los Títulos I a VIII.',
+   NULL, NULL, 'publicado', '2026-12-27T06:07:00.000Z', 'acceso-guardia-civil',
+   ARRAY['protección de datos', 'RGPD', 'LOPDGDD', 'derechos', 'temario']::text[], '{"title":"Protección de datos en la oposición: RGPD y LO 3/2018","description":"Tema de protección de datos: RGPD y LO 3/2018, principios, derechos, menores, videovigilancia, delegado, brechas, AEPD y títulos del programa."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -1063,7 +1043,7 @@ Con la LO 1/2025 se han integrado como Secciones de Violencia sobre la Mujer de 
 ### ¿Entra la ley entera?
 
 Sí: el programa la incluye completa en el tema 21. Comprueba la convocatoria vigente por si cambia.',
-   NULL, NULL, 'publicado', '2026-12-27T06:07:00.000Z', 'acceso-guardia-civil',
+   NULL, NULL, 'publicado', '2026-12-29T06:41:00.000Z', 'acceso-guardia-civil',
    ARRAY['violencia de género', 'lo 1/2004', 'temario', 'víctimas']::text[], '{"title":"Violencia de género LO 1/2004: resumen para opositores","description":"LO 1/2004 para opositores a Guardia Civil: definición, estructura por títulos, derechos de las víctimas, unidades policiales, juzgados, medidas y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,

@@ -3,7 +3,7 @@ titulo: B/V, G/J y H: palabras trampa del examen de ortografía de la Guardia Ci
 slug: palabras-trampa-ortografia-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-03T07:19:00+01:00
+publicado_en: 2026-12-02T07:02:00+01:00
 curso: acceso-guardia-civil
 entradilla: Después de las tildes, el gran bloque de fallos de ortografía son las letras que suenan igual. Las reglas de B/V, G/J y H que sí funcionan, sus excepciones, las parejas que cambian de significado y un ejercicio resuelto con el formato del examen.
 etiquetas: [ortografía, b/v, g/j, h, palabras]

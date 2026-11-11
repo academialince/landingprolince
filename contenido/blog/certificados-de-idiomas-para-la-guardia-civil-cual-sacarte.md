@@ -3,7 +3,7 @@ titulo: "Certificados de idiomas para la Guardia Civil: cuál sacarte y cuánto 
 slug: certificados-de-idiomas-para-la-guardia-civil-cual-sacarte
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-18T07:21:00+01:00
+publicado_en: 2027-02-03T07:53:00+01:00
 curso: acceso-guardia-civil
 entradilla: El baremo de la convocatoria de 2026 puntúa los certificados de idiomas con 5, 7 o 9 puntos según el nivel, dentro de un tope de 27 para los méritos académicos. Qué títulos se admiten, qué condiciones exige el apéndice I y cómo decidir cuál sacarte.
 etiquetas: [idiomas, certificados, fase de concurso, baremo]

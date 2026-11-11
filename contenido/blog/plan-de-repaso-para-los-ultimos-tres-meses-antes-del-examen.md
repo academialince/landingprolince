@@ -3,7 +3,7 @@ titulo: Plan de repaso para los últimos tres meses antes del examen
 slug: plan-de-repaso-para-los-ultimos-tres-meses-antes-del-examen
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-17T07:51:00+01:00
+publicado_en: 2027-02-01T07:19:00+01:00
 curso: acceso-guardia-civil
 entradilla: Un plan de repaso semana a semana para los tres meses previos al examen de Guardia Civil: cerrar temario, simulacros y corrección, cuaderno de errores, mínimos de cada prueba y última semana. Orientativo, para adaptar a tu nivel y a la fecha que anuncie el Tribunal.
 etiquetas: [repaso, planificación, simulacros, examen]

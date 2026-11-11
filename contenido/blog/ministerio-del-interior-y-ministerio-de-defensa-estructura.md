@@ -3,7 +3,7 @@ titulo: Ministerio del Interior y Ministerio de Defensa: estructura para el exam
 slug: ministerio-del-interior-y-ministerio-de-defensa-estructura
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-22T07:42:00+01:00
+publicado_en: 2026-12-21T07:25:00+01:00
 curso: acceso-guardia-civil
 entradilla: La Guardia Civil depende de dos ministerios. Estructura orgánica básica de Interior (RD 207/2024, reformado en 2026) y de Defensa (RD 205/2024), el lugar de la Dirección General de la Guardia Civil, esquemas, test y cómo comprobar los cambios.
 etiquetas: [ministerio del interior, ministerio de defensa, estructura orgánica, guardia civil, temario]

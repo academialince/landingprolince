@@ -3,7 +3,7 @@ titulo: Exámenes oficiales anteriores: dónde encontrarlos y cómo sacarles par
 slug: examenes-oficiales-anteriores-donde-encontrarlos
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-07T07:14:00+01:00
+publicado_en: 2027-01-20T07:55:00+01:00
 curso: acceso-guardia-civil
 entradilla: La Guardia Civil publica en su web cuestionarios de la prueba de conocimientos y, en 2026, también las plantillas de respuestas. Qué hemos podido comprobar, cómo corregirlos con la fórmula oficial y cómo analizarlos pregunta a pregunta.
 etiquetas: [exámenes anteriores, examen oficial, test, preparación]

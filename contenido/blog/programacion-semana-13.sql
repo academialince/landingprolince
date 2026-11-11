@@ -2,6 +2,156 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
+  ('certificados-de-idiomas-para-la-guardia-civil-cual-sacarte', 'articulo', '"Certificados de idiomas para la Guardia Civil: cuál sacarte y cuánto suma"', 'El baremo de la convocatoria de 2026 puntúa los certificados de idiomas con 5, 7 o 9 puntos según el nivel, dentro de un tope de 27 para los méritos académicos. Qué títulos se admiten, qué condiciones exige el apéndice I y cómo decidir cuál sacarte.', '**Respuesta corta:** según el apéndice I de la convocatoria de 2026, un certificado de nivel **B2 suma 5 puntos**, uno de **C1, 7** y uno de **C2, 9**. Por cada idioma solo cuenta una acreditación, la de mayor puntuación, y todos los méritos académicos juntos tienen un **tope de 27 puntos**. Solo puntúan los títulos que aparecen expresamente en la lista. El baremo puede cambiar entre convocatorias, así que compruébalo en la que se publique.
+
+Todo lo que sigue sale del apéndice I de la [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982). Para ver cómo encaja en el conjunto, mira [los 45 puntos de la fase de concurso](/blog/fase-concurso-guardia-civil-meritos).
+
+## Dónde encajan los idiomas en el baremo
+
+La fase de concurso vale de 0 a 45 puntos y se reparte en tres bloques con su propio tope:
+
+| Bloque | Tope | Qué incluye |
+|---|---|---|
+| Méritos profesionales | 13,5 | Servicios en las Fuerzas Armadas o en la Administración General del Estado, reservista voluntario |
+| Méritos académicos | 27 | Nivel académico (Bachiller o superior, 2 puntos) e **idiomas** |
+| Otros méritos | 4,5 | Permisos de conducción (A o A2; C, D y sus combinaciones) y deportista de alto nivel |
+
+Los idiomas son, con diferencia, la partida que más puntos puede aportar a quien no tiene experiencia profesional previa.
+
+## Las reglas generales
+
+- **Solo cuentan los méritos que figuran en el apéndice**, que se han **alegado en la inscripción telemática** y que **se poseen dentro del plazo de presentación de solicitudes**.
+- **Por cada idioma** se contabiliza una sola acreditación (perfil SLP, título o certificado): la de mayor puntuación. Un B2 y un C1 de inglés no se suman.
+- **Idiomas de interés**: alemán, árabe, francés, inglés, italiano, portugués y ruso. Certificados de idiomas distintos sí pueden sumar entre sí, dentro del tope de 27.
+- Se justifican con la documentación que pida el Tribunal de Selección, en la fecha que disponga.
+- En los certificados no nacionales, **todas las pruebas deben ser 100 % presenciales**.
+
+## Certificados de inglés que puntúan
+
+### Escuela Oficial de Idiomas
+
+Certificado oficial según el artículo 7.9 del Real Decreto 1041/2017:
+
+| Nivel | Puntos |
+| --- | --- |
+| Avanzado C2 | 9 |
+| Avanzado C1 | 7 |
+| Intermedio B2 | 5 |
+
+### Certificados no nacionales
+
+| Entidad | 9 puntos | 7 puntos | 5 puntos |
+| --- | --- | --- | --- |
+| Trinity College London (ISE) | ISE IV (C2) | ISE III (C1) | ISE II (B2) |
+| Cambridge | CPE (C2), grado A, B o C | CAE (C1), grado A, B o C | FCE (B2), grado A, B o C |
+| IELTS (Academic o General Training) | 8 o más en cada rasgo | De 7 a menos de 8 en cada rasgo | De 5,5 a menos de 7 en cada rasgo |
+| CertAcles (ACLES), pruebas presenciales | C2 | C1 | B2 |
+
+En Trinity puntúan los resultados *pass*, *pass with merit* o *pass with distinction*. En IELTS, la puntuación se exige en **cada uno de los rasgos de la nota final**, no en la media: con una nota global alta pero un rasgo por debajo del umbral, bajas de tramo.
+
+### Otras vías
+
+- **Perfil lingüístico SLP del STANAG 6001**: 4.4.4.4 o superior, 9 puntos; 3.3.3.3 o superior, 7; 2.2.2.2 o superior, 5. Solo pueden invocarlo quienes pertenezcan o hayan pertenecido a las Fuerzas Armadas, y debe estar en vigor.
+- **Licenciatura o Grado en Filología** (o equivalente) en un idioma de interés: 9 puntos. También **Traducción e Interpretación** en el idioma B, si es de interés: 9 puntos. En estos casos, esa titulación no puede valorarse además como nivel académico (apartado 2.1).
+
+### Lo que no está en la lista
+
+En la convocatoria de 2026 no figuran otros exámenes de inglés distintos de los citados. Si tu certificado no aparece en el apéndice, no puntúa en esa convocatoria aunque acredite un nivel B2 o superior. Tampoco puntúan niveles por debajo de B2. Antes de matricularte en un examen, comprueba que su nombre exacto está en el baremo vigente.
+
+## Cómo funciona el tope de 27: ejemplos resueltos
+
+Los ejemplos son hipotéticos y usan el baremo de 2026.
+
+| Aspirante | Méritos académicos | Suma | Puntúa |
+|---|---|---|---|
+| A | Bachiller + B2 de inglés | 2 + 5 | **7** |
+| B | Grado universitario + C1 de inglés + B2 de francés | 2 + 7 + 5 | **14** |
+| C | Bachiller + FCE (B2) + C1 de la EOI, ambos de inglés | 2 + 7 (solo el mayor) | **9** |
+| D | Bachiller + C2 de inglés, alemán y francés | 2 + 9 + 9 + 9 = 29 | **27** (tope) |
+| E | Grado en Filología Inglesa + B2 de francés | 9 + 5 (el grado no cuenta también como nivel académico) | **14** |
+
+En el caso E, si además tuviera otro título de Bachiller o superior distinto del de Filología, podría alegarlo como nivel académico; la convocatoria solo valora **una** titulación en ese apartado.
+
+## ¿Cuál sacarte?
+
+Depende de tu nivel real, de tu tiempo y de cuándo se abra el plazo:
+
+- **Si ya tienes un título, localízalo y alégalo.** Es puntuación sin más trabajo.
+- **El salto de B2 a C1 vale 2 puntos; de C1 a C2, otros 2.** Cada salto exige bastante más nivel. Para muchos opositores, asegurar un B2 o un C1 es más realista que perseguir un C2.
+- **Un segundo idioma** suma aparte: un B2 de francés añade 5 puntos aunque ya tengas un C1 de inglés.
+- **Fechas.** Debes poseer el certificado **dentro del plazo de solicitudes**. En 2026 ese plazo fue de 15 días hábiles desde el día siguiente a la publicación de la convocatoria. Mira con tiempo cuándo publica resultados cada examinador: aprobar no basta si el certificado llega tarde.
+- **Presencialidad.** Comprueba que el formato que eliges es presencial en todas sus partes.
+- **Coste.** Los exámenes oficiales tienen tasas que varían según la entidad; consúltalas antes de decidir.
+
+### Cómo comparar opciones antes de matricularte
+
+| Criterio | Qué comprobar |
+|---|---|
+| ¿Está en el baremo? | Nombre exacto del examen y nivel en el apéndice vigente |
+| ¿Es presencial? | Todas las partes, también la oral, en el caso de los no nacionales |
+| ¿Cuándo tendrás el certificado? | Fecha de publicación de resultados y de expedición, frente al plazo de solicitudes |
+| ¿Se ajusta a tu nivel? | Una prueba de nivel previa evita pagar por un examen que no vas a aprobar |
+| ¿Qué cuesta? | Tasa de examen y, si lo necesitas, preparación |
+
+### Alegarlo y justificarlo sin errores
+
+1. **Al rellenar la solicitud**, marca cada mérito en el apartado correspondiente de la inscripción telemática. Lo que no se alega no se valora.
+2. **Guarda el original** del certificado: cuando lo indique el Tribunal, los méritos se justifican con el original o una copia auténtica (base 3.2.1).
+3. **Espera las instrucciones del Tribunal** sobre cómo y cuándo presentar la documentación; en el SLP, la propia convocatoria prevé la consulta a las bases de datos del Ministerio de Defensa.
+4. **Revisa la lista de admitidos**, que se publica con la calificación de la fase de concurso. Según la base 3.4, hay **10 días hábiles** para subsanar errores en esa puntuación o reclamar. Las dudas sobre la puntuación de un mérito las resuelve la Jefatura de Enseñanza (base 3.2.2).
+
+Los pasos de la solicitud los veremos con más detalle en un artículo posterior.
+
+### ¿Cuánto pesan esos puntos?
+
+Mucho, en términos relativos. La puntuación final va sobre 195, y las notas de corte calculadas por ProLince para el acceso libre han oscilado en los últimos años entre 90,61 (2026) y 110,58 (2022); tienes el detalle en [nota de corte](/blog/nota-de-corte-guardia-civil). En ese contexto, 5 o 7 puntos son una diferencia apreciable, aunque nadie puede decirte cuánto pesarán en la próxima convocatoria.
+
+## Recuerda: el certificado no sustituye a la prueba de inglés
+
+El certificado suma en el concurso, pero **no te exime** de la prueba de inglés de la oposición, que sigue siendo eliminatoria con un [mínimo de 8 sobre 20](/blog/ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue). La buena noticia es que preparar un B2 te deja muy por encima del nivel ESO que exige esa prueba.
+
+## Errores frecuentes
+
+- **Sumar dos certificados del mismo idioma.** Solo cuenta el mayor.
+- **Olvidar alegarlo en la inscripción.** Si no lo alegas, no se valora.
+- **Sacarlo después del plazo de solicitudes.** Debes poseerlo dentro del plazo.
+- **Elegir un examen que no está en la lista** o con alguna parte no presencial.
+- **Mirar la media del IELTS** en lugar de cada rasgo.
+- **Contar Filología dos veces**, como idioma y como nivel académico.
+
+## Preguntas frecuentes
+
+### ¿Puedo sumar un B2 de inglés y un C1 de inglés?
+No. Por cada idioma solo cuenta una acreditación, la de mayor puntuación.
+
+### ¿Valen los exámenes online?
+En los certificados no nacionales, el apéndice exige que todas las pruebas sean 100 % presenciales; CertAcles también debe ser presencial.
+
+### ¿Y si me saco el título después de enviar la solicitud?
+El apéndice exige poseer el mérito dentro del plazo de presentación de solicitudes y haberlo alegado en la inscripción telemática.
+
+### ¿Cuántos puntos máximos puedo sacar por idiomas?
+Hasta 9 por idioma, con el tope de 27 de los méritos académicos en su conjunto, que incluyen también los 2 puntos del nivel académico.
+
+### ¿Puntúa un B1?
+No. Los tramos del baremo empiezan en B2 (5 puntos).
+
+### ¿Puntúa un certificado de catalán, gallego o euskera?
+No figuran entre los idiomas de interés del apéndice de 2026, que son alemán, árabe, francés, inglés, italiano, portugués y ruso.
+
+### ¿Me ayuda el certificado a preparar la prueba de inglés?
+Sí, indirectamente: el nivel B2 está por encima del nivel ESO de la prueba. Para entrenar el formato de 20 preguntas con penalización, el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) incluye tests y simulacros.',
+   NULL, NULL, 'publicado', '2027-02-03T06:53:00.000Z', 'acceso-guardia-civil',
+   ARRAY['idiomas', 'certificados', 'fase de concurso', 'baremo']::text[], '{"title":"Certificados de idiomas Guardia Civil: cuántos puntos suman","description":"Qué certificados de idiomas puntúan en la Guardia Civil 2026: EOI, Cambridge, IELTS, Trinity y CertAcles, con 5, 7 o 9 puntos y tope de 27 académicos."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
   ('colegio-de-guardias-jovenes-requisitos-de-edad', 'articulo', 'Colegio de Guardias Jóvenes: requisitos de edad y qué está confirmado', 'En el Colegio de Guardias Jóvenes hay dos momentos con requisitos de edad: el ingreso en el propio Colegio, que fija cada oferta de plazas, y el acceso a las plazas reservadas de la convocatoria del BOE. Qué está confirmado y dónde consultarlo.', '**Respuesta corta:** en el camino del Colegio de Guardias Jóvenes hay **dos momentos con requisitos distintos**. El primero es el **ingreso en el Colegio**, cuyos requisitos, incluida la edad, fija cada año una **oferta de plazas** que publica la Guardia Civil en su Boletín Oficial, no en el BOE. El segundo es el acceso a las **plazas reservadas al alumnado del Colegio** en la convocatoria de la Escala de Cabos y Guardias, que sí sale en el BOE y exige la misma edad que al resto: en 2026, **cumplir 18 años en el año de la convocatoria y no cumplir 41**.
 
 Una advertencia de honestidad: la oferta de plazas del curso 2026/2027 existe y la enlaza la web oficial de la Guardia Civil, pero su texto se aloja en la intranet del Cuerpo y **no hemos podido consultarlo en una fuente pública**. Por eso en este artículo no damos fechas de nacimiento, plazos ni cuantías de esa oferta: solo lo que hemos podido verificar. Si quieres entender primero qué es el Colegio, lee [qué es el Colegio de Guardias Jóvenes](/blog/colegio-guardias-jovenes-acceso-guardia-civil).
@@ -407,279 +557,140 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('examen-del-colegio-de-guardias-jovenes-estructura-y-temas', 'articulo', 'Examen del Colegio de Guardias Jóvenes: qué pruebas tiene y cómo prepararlo', 'Conocimientos, lengua española, inglés y aptitudes intelectuales: son las pruebas escritas que cita la web oficial para el ingreso en el Colegio de Guardias Jóvenes. Qué está confirmado, dónde se publica la oferta y cómo prepararlo.', '**Respuesta corta:** según la web oficial de la Guardia Civil, las pruebas escritas del proceso de ingreso en el Colegio de Guardias Jóvenes del curso 2026/2027 fueron **cuatro: conocimientos, lengua española, lengua inglesa y una prueba psicotécnica de aptitudes intelectuales**, y comenzaron el **27 de agosto de 2026** en el propio Colegio, en Valdemoro. El detalle de cada prueba (número de preguntas, tiempo, temas, puntuaciones mínimas y penalización) lo fija la **oferta de plazas** de cada curso, que se publica en el **Boletín Oficial de la Guardia Civil**, no en el BOE.
+  ('motivacion-que-hacer-los-dias-que-no-te-apetece-estudiar', 'articulo', 'Motivación: qué hacer los días que no te apetece estudiar', 'Habrá días en que no te apetezca abrir el temario. Cómo seguir avanzando sin depender de las ganas: averiguar qué te frena, mínimos diarios, planes «si… entonces», rutinas y objetivos visibles. Y cuándo conviene hablar con un profesional.', 'Opositar dura meses, y nadie tiene ganas todos los días. Esperar a «sentirte motivado» para sentarte es una estrategia que suele fallar justo cuando más hace falta: en semanas de cansancio, después de un mal simulacro o cuando la fecha del examen todavía parece lejana.
 
-Una advertencia de honestidad: la oferta del curso 2026/2027 existe y la enlaza la web oficial, pero su texto se aloja en la intranet del Cuerpo y **no hemos podido consultarlo en una fuente pública**. Por eso aquí no damos número de preguntas, temas, marcas ni fórmulas de esa oferta: te explicamos lo confirmado, dónde mirar el resto y cómo prepararte para unas pruebas de ese tipo. Si aún no tienes claro qué es el Colegio, empieza por [qué es el Colegio de Guardias Jóvenes](/blog/colegio-guardias-jovenes-acceso-guardia-civil); la edad y el resto de requisitos están en [los requisitos de edad del Colegio](/blog/colegio-de-guardias-jovenes-requisitos-de-edad).
+**Respuesta corta:** diseña tu preparación para que no dependa de las ganas. Averigua qué te frena ese día (no es lo mismo cansancio que aburrimiento o miedo), cumple un **mínimo diario pequeño**, decide de antemano qué harás en los días malos y haz visible lo que avanzas. Y si el desánimo es profundo o dura semanas, habla con un profesional: eso ya no es falta de motivación.
 
-## Qué está confirmado y qué no
+## Por qué esperar a tener ganas no funciona
 
-| Dato | ¿Confirmado en fuente oficial pública? | Fuente |
-|---|---|---|
-| Existe una oferta de plazas para el curso 2026/2027 | Sí | [Web de la Guardia Civil, ingreso en el Colegio](https://web.guardiacivil.es/es/tramites/ingresos/Colegio_Guardias_Jovenes/) |
-| Se publicó en el Boletín Oficial de la Guardia Civil, número 41 de 2026 | Sí, por el enlace oficial al documento | Misma página |
-| Pruebas escritas: conocimientos, lengua española, lengua inglesa y aptitudes intelectuales (punto 5.2 de la oferta) | Sí | Misma página |
-| Comienzo de las pruebas escritas: 27 de agosto de 2026, a las 08:00, en el Colegio «Duque de Ahumada» | Sí | Misma página |
-| Número de preguntas, tiempo, temario, mínimos, penalización y fórmula de la nota final | No hemos podido verificarlo | El texto está en la intranet del Cuerpo |
-| Pruebas físicas y sus marcas | No hemos podido verificarlo | Ídem |
+Mucha gente espera a tener ganas para empezar. Con frecuencia ocurre al revés: **empiezas con poco y las ganas llegan después**, o no llegan, pero el trabajo queda hecho. No es una ley universal, pero sí un buen motivo para probar a empezar diez minutos en lugar de decidir si «hoy toca».
 
-Lo que circula en foros y academias sobre esos datos puede ser correcto, pero sin el texto oficial a la vista no lo vamos a afirmar.
+La motivación también se gasta en decidir. Si cada tarde tienes que elegir qué estudiar, dónde y cuánto, llegas a la mesa con menos energía. Por eso las estrategias que funcionan mejor no intentan aumentar las ganas, sino **reducir lo que depende de ellas**.
 
-## Qué es lo que se juega en este examen
+## Paso 1: averigua qué te frena hoy
 
-La [página institucional del Colegio](https://web.guardiacivil.es/es/institucional/conocenos/centros_docentes/guardiasjovenes/) explica que el centro prepara a los **hijos e hijas del personal del Cuerpo** y que la enseñanza dura dos cursos de nueve meses:
+«No me apetece» puede significar cosas muy distintas, y cada una pide una respuesta diferente:
 
-1. **Primer año:** preparar a quienes han superado el **examen de ingreso en el centro** para obtener una de las plazas reservadas al Colegio en la convocatoria de ingreso en la Guardia Civil.
-2. **Segundo año:** formación técnico-profesional de quienes obtienen plaza, completada con 40 semanas de prácticas en unidades.
+| Lo que notas | Qué suele haber detrás | Qué probar |
+| --- | --- | --- |
+| Cuerpo pesado, sueño | Cansancio físico o falta de sueño | Bloque corto de repaso; acostarte antes hoy |
+| «Es siempre lo mismo» | Aburrimiento, monotonía | Cambiar de tarea o de formato: tests, fichas, explicar en voz alta |
+| No sabes por dónde empezar | Tarea demasiado grande o difusa | Partirla: «solo el artículo 14 y 5 preguntas» |
+| Te angustia abrir el tema | Miedo a fallar, sensación de ir tarde | Empezar por algo que dominas para arrancar |
+| Llevas semanas así | Puede haber algo más de fondo | Hablarlo con alguien de confianza o con un profesional |
 
-El examen de este artículo es, por tanto, **el de entrada al primer año**. No es todavía la oposición a la Guardia Civil: esa llega después, por el cupo reservado de la convocatoria del BOE, que en 2026 fue de **240 plazas** de 3.240 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 1.1).
+Ponerle nombre no lo resuelve todo, pero evita aplicar la misma receta a problemas distintos.
 
-## Dónde se publica la oferta y cómo leerla
+## Paso 2: estrategias que puedes aplicar
 
-- **Boletín Oficial de la Guardia Civil.** Es el diario oficial donde sale la oferta. El enlace de la web oficial apunta a la intranet del Cuerpo; si tu padre o tu madre es guardia civil, puede consultarlo desde allí.
-- **Web de la Guardia Civil**, apartado de ingreso en el Colegio. Ahí se anuncian la oferta y avisos como la fecha de las pruebas; la web indica además que las listas de aspirantes se publican en la intranet.
+### 1. Un mínimo innegociable
 
-Cuando tengas el texto delante, localiza en este orden:
+Decide un mínimo que cumplirás incluso en un mal día: por ejemplo, 20 minutos de test o una ronda de fichas. Un mal día con mínimo cumplido mantiene el hábito; un día a cero rompe la racha y hace más difícil el siguiente. Que sea **tan pequeño que no puedas negociarlo**.
 
-1. **Requisitos**, empezando por la edad y el vínculo con el Cuerpo.
-2. **Plazo y forma de solicitud.**
-3. **Descripción de cada prueba**: número de preguntas, tiempo, opciones de respuesta y si los errores restan.
-4. **Temario**: qué temas entran y con qué alcance (no es lo mismo «la Constitución» que «un título concreto»).
-5. **Mínimos** de cada prueba y cómo se calcula la nota final.
-6. **Pruebas físicas y médicas**, con marcas y certificados.
+### 2. Planes «si… entonces»
 
-Anota todo en una hoja: será tu plan de trabajo.
+La investigación de Peter Gollwitzer sobre las llamadas **intenciones de implementación** (por ejemplo, su artículo de 1999 en *American Psychologist*) sugiere que concretar **cuándo, dónde y cómo** vas a actuar ante una situación ayuda a cumplir lo que te propones. En la práctica, se escriben como frases «si… entonces». Ejemplos propios:
 
-## Cómo preparar cada prueba (con independencia de la oferta)
+- «**Si** llego a casa sin ganas, **entonces** hago solo el test de 20 preguntas del tema de la semana.»
+- «**Si** saco menos de 50 en un simulacro, **entonces** anoto los fallos y lo analizo al día siguiente, no esa noche.»
+- «**Si** cojo el móvil en un bloque, **entonces** lo dejo en otra habitación hasta la pausa.»
 
-### Lengua española
+Escríbelos y tenlos a la vista. Funcionan porque la decisión ya está tomada cuando llega el mal momento.
 
-Es la parte donde más se gana con constancia. Trabaja tres frentes: **tildes**, **palabras que se confunden** (homófonos, b/v, g/j, h) y **gramática** (concordancias, leísmo, dequeísmo). La técnica de la oposición ordinaria sirve como referencia: allí se subrayan cuatro palabras por frase y cuenta como error tanto no marcar una falta como marcar algo correcto. Si la oferta del Colegio usa un formato parecido, «marcar por si acaso» penaliza. Lo explicamos en [ortografía y gramática, la parte que elimina](/blog/ortografia-gramatica-examen-guardia-civil).
+### 3. Convierte el estudio en rutina
 
-**Ejercicio propio** (no es una pregunta oficial): ¿cuál de estas tiene falta? A) «Haber si vienes», B) «Echo de menos», C) «Por qué lo dices», D) «Ahí está». Es la A: debe ser «a ver». Repite este tipo de ejercicio diez minutos al día.
+Mismo sitio, misma hora, mismos primeros pasos. Los estudios sobre formación de hábitos, como el de Phillippa Lally y su equipo (2010), describen que las conductas repetidas en el mismo contexto se van volviendo más automáticas con el tiempo, aunque el tiempo necesario varía mucho de una persona a otra. Ayuda tener los bloques definidos: mira [bloques de estudio y técnica Pomodoro](/blog/bloques-de-estudio-y-tecnica-pomodoro-para-opositores).
 
-### Lengua inglesa
+### 4. Objetivos pequeños y visibles
 
-Prioriza lo que aparece en cualquier prueba de nivel escolar: tiempos verbales, preposiciones, vocabulario frecuente y comprensión de textos cortos. Una lectura breve en inglés al día, con un cuaderno de vocabulario, rinde más que una sesión larga a la semana. Ideas concretas en [el inglés de la oposición](/blog/ingles-oposicion-guardia-civil).
+«Aprobar la oposición» es enorme. «Terminar el tema 3 esta semana» es concreto. Apunta lo que completas: una lista de tareas tachadas o una hoja con la nota de cada simulacro pesan más que una sensación vaga de no avanzar. Ideas para medirte en [el balance: cómo saber si vas bien](/blog/balance-del-ano-como-saber-si-vas-bien-en-la-oposicion).
 
-### Conocimientos
+### 5. Cambia de tarea, no abandones
 
-Hasta que tengas el temario de la oferta vigente, no estudies a ciegas un temario completo de adulto. Lo sensato es:
+Si no puedes con el temario, haz tests. Si no puedes con tests, repasa fichas. Si no puedes con nada escrito, escucha un tema o explícalo en voz alta. Cambiar de actividad es mejor que cerrar el libro.
 
-1. Conseguir el **apéndice de temas** de la oferta.
-2. Leer el **alcance** de cada tema y empezar por el más largo.
-3. Hacer **test desde el primer día**, no al final.
-4. Repasar con espaciado: volver a cada tema a los pocos días, a la semana y al mes. La técnica está en [cómo memorizar leyes con repaso espaciado](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario).
+### 6. La regla de los diez minutos
 
-### Aptitudes intelectuales
+Comprométete solo a diez minutos. Si al acabar sigues sin poder, para sin culpa: has cumplido. Muchas veces seguirás; otras no, y también vale.
 
-El psicotécnico se entrena: series, razonamiento verbal, cálculo y aptitud espacial mejoran con práctica breve y frecuente. Dos o tres sesiones cortas por semana, cronometradas. Lo tienes en [el psicotécnico: aptitudes y personalidad](/blog/psicotecnico-guardia-civil-aptitudes-personalidad).
+### 7. Recuerda por qué lo haces
 
-### Si los errores restan
+Escribe en una nota tus razones para entrar en el Cuerpo: concretas, tuyas. Léela cuando flaquees, no como frase motivadora, sino como recordatorio de lo que estás eligiendo.
 
-En la oposición ordinaria de la Escala de Cabos y Guardias, con cuatro opciones, **cada error resta un tercio de acierto** y las respuestas en blanco no restan (base 7.3 de la convocatoria de 2026). Si la oferta del Colegio aplica una regla así, la estrategia es la misma: contestar cuando puedes descartar al menos una opción y dejar en blanco lo que sería puro azar.
+### 8. Descansa de verdad
 
-**Ejemplo propio** con esa regla: 50 aciertos y 15 errores dan 50 − 15/3 = **45 puntos**; si contestas al azar 6 preguntas más y fallas 5, quedas en 51 − 20/3 ≈ **44,3**. Contestar a ciegas te ha bajado la nota.
+No todo es fuerza de voluntad. Dormir, comer bien, moverte y desconectar forman parte de la preparación. Si además entrenas, mira cómo encajarlo en [entrenar y estudiar a la vez](/blog/entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil). Un día libre planificado a la semana no es perder el tiempo.
 
-## Un plan de 12 semanas (orientativo)
+## Plan para un mal día concreto
 
-| Semanas | Prioridad | Rutina tipo |
-|---|---|---|
-| 1-2 | Diagnóstico | Un test de cada prueba; leer la oferta y su temario |
-| 3-6 | Base | Un tema de conocimientos por semana, lengua e inglés a diario, psicotécnico dos días |
-| 7-10 | Consolidación | Repaso espaciado, test por temas y un simulacro parcial semanal |
-| 11-12 | Simulacros | Simulacros completos con el tiempo que fije la oferta y análisis de errores |
+| Situación | Alternativa realista |
+| --- | --- |
+| Sin energía | Solo tests cortos o repaso de fichas |
+| Mala nota en un simulacro | Anotar los fallos y parar; analizar mañana |
+| Cansancio acumulado varios días | Un día de descanso planificado y revisar horarios |
+| Distracción total | Un bloque corto sin móvil y una recompensa pequeña después |
+| Agobio por todo lo que falta | Escribir la lista de tareas de la semana y elegir solo la primera |
 
-Es un esquema propio, no oficial: ajústalo al tiempo real que tengas. Sobre cuándo y cómo hacer simulacros, mira [cada cuánto hacer simulacros](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados).
+Sobre los simulacros, aprende a [analizar los resultados](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados) para no vivir cada nota mala como un fracaso: es información.
 
-## Un caso práctico (hipotético)
+## Caso práctico
 
-Carla, hija de un guardia civil, quiere presentarse el próximo verano. En vez de comprar el primer temario que encuentra, pide a su padre que localice la oferta vigente en la intranet. Con ella delante, apunta la edad exigida, el plazo, los temas y los mínimos. Detecta que su punto débil es el inglés y le dedica veinte minutos diarios, mientras avanza un tema de conocimientos por semana. Es un ejemplo inventado para ilustrar el orden: primero el texto oficial, después el plan.
+**Caso hipotético.** Javi lleva tres tardes sin estudiar. Al pararse a pensarlo, ve que no es cansancio: le bloquea el tema de Derecho Administrativo, que lleva dos semanas «a medias». Aplica tres cambios: parte el tema en cinco trozos de una sesión cada uno, escribe un plan «si… entonces» («si me siento y no arranco, empiezo por 10 preguntas del trozo anterior») y apunta cada trozo terminado en un papel pegado a la pared. La primera tarde solo cumple el mínimo; la segunda, un bloque entero. No ha recuperado las ganas de golpe, pero ha vuelto a la rutina.
+
+## Cuándo no es solo falta de ganas
+
+Si llevas semanas con desánimo persistente, has perdido interés por cosas que antes te gustaban, duermes mucho peor, la ansiedad te desborda o sientes que no puedes con nada, **no es un asunto de fuerza de voluntad ni lo puede resolver un artículo**. Habla con tu médico de cabecera o con un profesional de la salud mental. Pedir ayuda es una decisión sensata, no un fracaso.
+
+Y si en algún momento tienes pensamientos de hacerte daño, llama al **024** (línea de atención a la conducta suicida) o, si hay peligro inmediato, al **112**.
 
 ## Errores frecuentes
 
-- **Estudiar con datos de foros** sin contrastarlos con la oferta vigente.
-- **Buscar la oferta en el BOE.** Se publica en el Boletín Oficial de la Guardia Civil.
-- **Confundir este examen con la oposición a la Escala de Cabos y Guardias.** Son procesos distintos, con requisitos y pruebas distintos.
-- **Dejar la lengua y el inglés para el final.** Son las partes que más mejoran con práctica diaria.
-- **Contestar todo al azar** sin saber si los errores penalizan.
+- **Esperar a tener ganas** para empezar.
+- **Fijar mínimos demasiado altos**, que se incumplen y desmoralizan.
+- **Compensar un mal día con un «día heroico»** de diez horas que te deja agotado.
+- **Compararte con lo que ves en redes:** lo que ves es una selección. Compárate con tu avance de hace un mes.
+- **Castigarte por no estudiar** en lugar de entender qué ha pasado.
+- **Repetir los [errores habituales al preparar la oposición](/blog/errores-preparar-oposicion-guardia-civil)**, como no planificar el repaso.
 
-## Checklist
+## Checklist para los días difíciles
 
-- [ ] Tengo el texto de la oferta vigente.
-- [ ] Sé qué pruebas, temas y mínimos fija.
-- [ ] Practico lengua e inglés a diario.
-- [ ] Hago test de conocimientos desde la primera semana.
-- [ ] Entreno el psicotécnico con tiempo.
-- [ ] He revisado las pruebas físicas que exige la oferta y entreno en paralelo.
+- [ ] He identificado qué me frena hoy (cansancio, aburrimiento, miedo, tarea difusa).
+- [ ] Tengo un mínimo diario definido y pequeño.
+- [ ] Tengo escritos dos o tres planes «si… entonces».
+- [ ] Sé qué tarea alternativa hago si no puedo con el temario.
+- [ ] Apunto lo que termino cada día.
+- [ ] Tengo un día de descanso a la semana.
+- [ ] Si el desánimo dura semanas, sé a quién acudir.
 
-Si quieres prepararlo con un programa organizado, tienes el [curso de acceso al Colegio de Guardias Jóvenes](/cursos/colegio-guardias-jovenes).
-
-## Preguntas frecuentes
-
-### ¿Qué pruebas tiene el examen del Colegio de Guardias Jóvenes?
-
-Según la web oficial, las pruebas escritas de la oferta 2026/2027 fueron de conocimientos, lengua española, lengua inglesa y aptitudes intelectuales. El resto de pruebas y su detalle los fija cada oferta.
-
-### ¿Cuántas preguntas tiene?
-
-No lo hemos podido verificar en una fuente pública: está en el texto de la oferta, publicado en el Boletín Oficial de la Guardia Civil.
-
-### ¿Cuándo es el examen?
-
-En la oferta 2026/2027, las pruebas escritas comenzaron el 27 de agosto de 2026. La fecha de cada año la anuncia la Guardia Civil.
-
-### ¿Dónde se publica la oferta?
-
-En el Boletín Oficial de la Guardia Civil, no en el BOE. La del curso 2026/2027 está en el número 41 de 2026, según el enlace de la web oficial.
-
-### ¿Los errores restan?
-
-Depende de lo que diga la oferta vigente. En la oposición ordinaria a la Escala de Cabos y Guardias, sí: con cuatro opciones, un error resta un tercio de acierto.
-
-### ¿Hay ya oferta para el curso 2027/2028?
-
-No teníamos texto oficial al preparar este artículo. Cada oferta fija sus propias reglas, así que revisa la nueva cuando salga.',
-   NULL, NULL, 'publicado', '2027-02-09T06:35:00.000Z', 'colegio-guardias-jovenes',
-   ARRAY['colegio de guardias jóvenes', 'examen', 'temario', 'preparación']::text[], '{"title":"Examen Colegio de Guardias Jóvenes: pruebas y preparación","description":"Examen del Colegio de Guardias Jóvenes: qué pruebas escritas confirma la web oficial, dónde se publica la oferta de plazas y cómo preparar cada parte."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti', 'articulo', 'Oferta de empleo público de la Guardia Civil: qué es y qué pasa con 2027', 'La oferta de empleo público es el real decreto que autoriza cuántas plazas se pueden convocar. Qué es, cómo se calcula, qué fijó el Real Decreto 206/2026 y qué se sabía de una oferta de 2027 al cierre de este artículo.', '**Respuesta corta:** la oferta de empleo público (OEP) es el real decreto del Gobierno que autoriza cuántas plazas puede convocar la Guardia Civil en un año y cómo se reparten. Sin oferta no hay convocatoria, y por eso es la primera señal oficial que conviene vigilar. En noviembre de 2026, cuando se preparó este artículo, **no había publicada ninguna oferta de empleo público de la Guardia Civil para 2027**.
-
-Vamos a ver qué es exactamente, qué fijó la última, de dónde salen sus cifras y qué conviene hacer mientras no hay una nueva.
-
-## Qué es exactamente una oferta de empleo público
-
-Es una norma con rango de real decreto que fija el número de plazas que se pueden convocar en un ejercicio. Lo prevé la [Ley 29/2014, de Régimen del Personal de la Guardia Civil](https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408) (artículo 26), y el Reglamento de ordenación de la enseñanza ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), artículo 6) concreta cómo se aprueba: la aprueba el Consejo de Ministros, a iniciativa conjunta de los Ministerios de Defensa y del Interior, y debe especificar los **cupos** de cada forma de ingreso y si las plazas de un cupo pueden pasar a otro.
-
-Lo que **no** es: no es la convocatoria. No contiene requisitos, plazos de solicitud ni pruebas. Todo eso llega después, en una resolución de la Dirección General de la Guardia Civil publicada en el BOE.
-
-### El orden de los documentos
-
-| Paso | Documento | Qué fija | Dónde se publica |
-|---|---|---|---|
-| 1 | Real decreto de oferta de empleo público | Número de plazas y reservas | BOE, sección III («Otras disposiciones») |
-| 2 | Resolución de convocatoria | Requisitos, plazo, tasas, pruebas, baremo | BOE, sección II.B («Oposiciones y concursos») |
-| 3 | Listas de admitidos | Admitidos, excluidos y nota del concurso | Web de la Guardia Civil y BOE |
-| 4 | Propuestos como alumnos | Quién ingresa en los centros de formación | BOE |
-
-## Qué dijo la de 2026
-
-La de 2026 es el [Real Decreto 206/2026, de 11 de marzo (BOE-A-2026-5998)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5998), publicado en el BOE núm. 64, de 13 de marzo de 2026. Para la Escala de Cabos y Guardias fija:
-
-- **3.240 plazas** de ingreso directo (artículo 2).
-- Dentro de ellas, **1.296 reservadas a militares profesionales de tropa y marinería** con al menos cinco años de servicios efectivos y **240 para alumnos del Colegio de Guardias Jóvenes** (artículo 3). Las que no se cubran, por cualquier motivo, pasan al cupo libre.
-- Fuera de la Escala de Cabos y Guardias, autoriza plazas de **promoción profesional**: 96 para la Escala de Oficiales por promoción interna, 26 para la misma escala por cambio de escala y 400 para la de Suboficiales (artículo 4).
-
-La convocatoria que derivó de ella ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) repartió las 3.240 plazas así: 1.296 para militares, 240 para el Colegio y **1.704 libres**. La tienes explicada en [la convocatoria de 2026 y su calendario](/blog/convocatoria-guardia-civil-2026-plazas-calendario).
-
-## De dónde sale la cifra de plazas
-
-El propio Real Decreto 206/2026 explica el cálculo en su preámbulo:
-
-1. El marco general de incorporaciones de personal lo fija el artículo 20 de la **Ley 31/2022, de Presupuestos Generales del Estado para 2023**, prorrogados en 2024, 2025 y en el momento de aprobar la oferta.
-2. Para las Fuerzas y Cuerpos de Seguridad del Estado, esa ley establece una **tasa de reposición del 125 %** y los considera sector prioritario.
-3. Aplicando ese porcentaje, la oferta «que cabría aprobar» era de 3.240 plazas.
-
-En la práctica, la tasa de reposición se calcula a partir de las bajas de efectivos, por lo que la cifra depende de cuántas personas dejen el servicio. Por eso no tiene sentido extrapolarla a ojo.
-
-### Las reservas no son arbitrarias
-
-El artículo 6.2 del Reglamento de ordenación de la enseñanza fija dos límites para la Escala de Cabos y Guardias:
-
-- A los **militares profesionales de tropa y marinería**, un **mínimo del 40 %** de las plazas, sin superar nunca el 50 %.
-- Al **Colegio de Guardias Jóvenes**, **hasta un máximo del 20 %**.
-
-En 2026, las 1.296 plazas militares equivalen exactamente al 40 % de 3.240. El cupo militar lo explicaremos con detalle en un artículo posterior.
-
-## Qué efecto tiene sobre ti
-
-Tres consecuencias prácticas, sacadas del texto del real decreto:
-
-- **La convocatoria solo puede publicarse en el año de la oferta.** El artículo 1 dice que las convocatorias derivadas «sólo podrán publicarse en el ejercicio presupuestario al que vienen referidas». Una oferta de 2027 daría lugar a una convocatoria en 2027, no antes.
-- **Cada convocatoria necesita informe favorable** de la Dirección General de la Función Pública.
-- **El Ministerio del Interior debe recoger en su web** un apartado de procesos selectivos con cada convocatoria y sus actos (disposición adicional única).
-
-## Cómo han evolucionado las plazas
-
-Estas son las cifras de las últimas convocatorias, tomadas de sus bases en el BOE:
-
-| Año | Total | Militares | Colegio de Guardias Jóvenes | Libres |
-|---|---|---|---|---|
-| 2023 | 2.520 | 1.008 | 185 | 1.327 |
-| 2024 | 2.721 | 1.089 | 200 | 1.432 |
-| 2025 | 3.118 | 1.248 | 240 | 1.630 |
-| 2026 | 3.240 | 1.296 | 240 | 1.704 |
-
-Que subieran estos años **no garantiza** que vuelvan a hacerlo. Y recuerda que las plazas libres reales pueden ser más, porque las reservadas que no se cubren se suman al cupo libre.
-
-## ¿Hay ya una oferta para 2027?
-
-En noviembre de 2026 no la habíamos localizado ni en el BOE ni en la web del Ministerio del Interior. Cualquier cifra de plazas para 2027 que circulara entonces era una previsión de terceros, no un dato oficial.
-
-Si cuando leas esto ya se ha publicado, manda lo que diga el BOE. Para comprobarlo:
-
-1. Entra en el buscador del BOE y busca «oferta de empleo público del Cuerpo de la Guardia Civil para el año 2027».
-2. Mira la sección III («Otras disposiciones»): ahí se publican estos reales decretos.
-3. Revisa el apartado de procesos selectivos de la Guardia Civil en la web del Ministerio del Interior.
-
-## Un caso práctico (hipotético)
-
-Pablo lee en una red social que «para 2027 habrá 4.000 plazas». Antes de cambiar su plan, hace tres comprobaciones: busca en el BOE un real decreto de oferta de 2027 (no lo hay), mira si la cifra cita una norma (no la cita) y revisa la web de Interior (sin novedades). Conclusión: es una previsión sin respaldo. Sigue estudiando con el programa de la última convocatoria. Es un ejemplo inventado, pero es exactamente el filtro que conviene aplicar.
-
-## Errores frecuentes
-
-- **Confundir oferta y convocatoria.** La oferta no abre plazo de inscripción.
-- **Creer que hay que «apuntarse» a la oferta.** Solo te inscribes en la convocatoria.
-- **Sumar mal las plazas libres.** Las 1.704 de 2026 son las iniciales; las reservadas sin cubrir se añaden.
-- **Dar por buena una cifra sin real decreto.**
-- **Esperar a la oferta para empezar a estudiar.** Entre la oferta y la convocatoria puede pasar poco tiempo.
-
-## Checklist
-
-- [ ] Sé distinguir oferta, convocatoria y listas.
-- [ ] He leído el Real Decreto 206/2026.
-- [ ] Tengo una alerta del BOE para la oferta de 2027.
-- [ ] He comprobado mi [edad para la convocatoria](/blog/edad-maxima-guardia-civil), que se mide por año natural.
-- [ ] Estudio con un plan, no a la espera de la cifra.
-
-## Qué hacer mientras tanto
-
-La oferta no cambia lo que tienes que estudiar: el temario y las pruebas los fija la convocatoria, y la última publicada es la mejor referencia disponible. Comprueba tus [requisitos](/blog/requisitos-guardia-civil) y, si empiezas ahora, [prepara la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero) con un plan realista. Si quieres un método y un temario ordenado, lo trabajamos en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+Si necesitas una estructura que te acompañe, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te da un calendario ya organizado.
 
 ## Preguntas frecuentes
 
-### ¿La oferta de empleo público es lo mismo que la convocatoria?
+### ¿Es normal no tener ganas de estudiar algunos días?
 
-No. La oferta autoriza el número de plazas; la convocatoria, publicada después, fija requisitos, plazos y pruebas.
+Sí, le pasa a cualquiera en una preparación larga. Lo importante es tener un plan para esos días, como un mínimo reducido.
 
-### ¿Cuánto tarda en salir la convocatoria después de la oferta?
+### ¿Cuánto debe durar el mínimo diario?
 
-Varía de un año a otro. En 2026 la oferta salió en el BOE el 13 de marzo y la convocatoria el 8 de mayo. En el artículo sobre la convocatoria de 2027 repasamos las fechas de los últimos años.
+El que puedas cumplir siempre. Veinte minutos constantes suelen funcionar mejor que dos horas esporádicas.
 
-### ¿Puedo apuntarme a una oferta de empleo público?
+### ¿Qué es un plan «si… entonces»?
 
-No. Solo te inscribes en la convocatoria, una vez publicada, dentro de su plazo de solicitud.
+Una decisión tomada por adelantado para una situación concreta: «si pasa X, entonces hago Y». Se basa en la investigación sobre intenciones de implementación y te ahorra decidir en el peor momento.
 
-### ¿Dónde se publica la oferta?
+### ¿Debería tomarme un descanso largo si estoy desmotivado?
 
-En el BOE, sección III, como real decreto. El Ministerio del Interior recoge además en su web las convocatorias derivadas.
+Un descanso corto y planificado puede ayudar. Si el desánimo persiste o empeora, consulta con un profesional.
 
-### ¿Por qué hay plazas reservadas a militares y al Colegio?
+### ¿Cómo sé si lo mío es ansiedad o depresión?
 
-Porque el Reglamento de ordenación de la enseñanza obliga a reservar al menos el 40 % a militares de tropa y marinería (sin pasar del 50 %) y permite reservar hasta el 20 % al Colegio de Guardias Jóvenes.
+No se puede valorar desde un artículo. Si te preocupa o te limita en tu día a día, acude a tu médico o a un profesional de la salud mental.
 
-### ¿Hay oferta de 2027?
+### ¿Sirven las frases motivadoras?
 
-En noviembre de 2026 no estaba publicada. Comprueba el BOE antes de dar por buena cualquier cifra.',
-   NULL, NULL, 'publicado', '2027-02-03T06:53:00.000Z', 'acceso-guardia-civil',
-   ARRAY['oferta de empleo público', 'plazas', 'BOE', 'convocatoria']::text[], '{"title":"Oferta de empleo público Guardia Civil: qué es y 2027","description":"Qué es la oferta de empleo público de la Guardia Civil, cómo se calcula, qué fijó el Real Decreto 206/2026 (3.240 plazas) y qué se sabe de 2027."}'::jsonb, '{}'::jsonb)
+Pueden animar un rato, pero no sustituyen a un plan. Un mínimo diario y una rutina suelen sostener más que la inspiración.',
+   NULL, NULL, 'publicado', '2027-02-07T06:01:00.000Z', 'acceso-guardia-civil',
+   ARRAY['motivación', 'hábitos', 'organización', 'opositor']::text[], '{"title":"Motivación para opositar: qué hacer cuando no te apetece","description":"Qué hacer los días que no te apetece estudiar la oposición a Guardia Civil: diagnóstico, mínimos diarios, planes si-entonces, rutinas y cuándo pedir ayuda."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -809,7 +820,7 @@ A la incorporación al centro de formación, no en la solicitud (base 10.2).
 ### ¿Qué pasa con mi compromiso si apruebo?
 
 Queda resuelto al ser nombrado alumno. Si tenías compromiso de larga duración y no completas el acceso, puedes reincorporarte a las Fuerzas Armadas en los términos de la Ley 8/2006.',
-   NULL, NULL, 'publicado', '2027-02-07T06:01:00.000Z', 'acceso-guardia-civil',
+   NULL, NULL, 'publicado', '2027-02-06T06:44:00.000Z', 'acceso-guardia-civil',
    ARRAY['militares', 'tropa y marinería', 'cupo', 'plazas reservadas']::text[], '{"title":"Plazas para militares en la Guardia Civil: el cupo","description":"Cupo de militares de tropa y marinería en la Guardia Civil: 1.296 plazas en 2026, cinco años de servicio, certificado del apéndice VI y puntos del baremo."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -820,144 +831,155 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('tasas-de-examen-de-la-guardia-civil-importe-y-exenciones', 'articulo', 'Tasas de examen de la Guardia Civil: importe y exenciones', 'En la convocatoria de 2026 la tasa de examen fue de 11,66 euros, con 5,83 euros para familias numerosas de categoría general y exención en tres supuestos. Qué dice la base 3.3, cómo se acredita y cuándo se devuelve.', '**Respuesta corta:** en la convocatoria de 2026, los derechos de examen para ingresar en la Escala de Cabos y Guardias fueron de **11,66 euros** con carácter general. Las familias numerosas de **categoría general** pagaron **5,83 euros** (bonificación del 50 %), y quedaron **exentos** los demandantes de empleo que cumplían ciertas condiciones, las familias numerosas de **categoría especial** y las **víctimas del terrorismo** y determinados familiares. Son datos de la convocatoria de 2026: la de 2027, cuando se publique, puede fijar otros.
+  ('si-suspendes-como-replantear-la-siguiente-convocatoria', 'articulo', 'Si suspendes: cómo replantear la siguiente convocatoria', 'No entrar a la primera es frecuente. Cómo averiguar en qué fase y por qué quedaste fuera, cuánto te faltó frente a las notas de corte de 2022 a 2026, dónde están los puntos más baratos y cómo reorganizar la preparación para la siguiente convocatoria.', 'Si acabas de recibir una mala noticia, primero lo primero: **no entrar no te cierra la puerta**. Las bases de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) no limitan el número de veces que puedes presentarte; el límite que sí fijan es la edad: no cumplir 41 años en el año de la convocatoria (base 2.1.7). Consulta siempre las bases de la convocatoria vigente, porque cada una fija sus reglas.
 
-La fuente es la base 3.3 de la [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982).
+**Respuesta corta:** averigua en qué fase y por qué quedaste fuera, calcula a cuántos puntos te quedaste de la nota de corte, identifica dónde están los puntos más baratos de conseguir y reorganiza la preparación alrededor de ese dato, no de la sensación. Y date unos días para digerirlo antes de decidir nada.
 
-## Resumen en una tabla
+## Paso 0: antes de analizar, comprueba los plazos de revisión
 
-| Situación | Qué pagas | Base |
-|---|---|---|
-| Caso general | 11,66 € | 3.3.1 |
-| Familia numerosa de categoría general | 5,83 € | 3.3.3 |
-| Familia numerosa de categoría especial | 0 € | 3.3.2 |
-| Demandante de empleo con los requisitos de la base | 0 € | 3.3.2 |
-| Víctima del terrorismo y familiares previstos | 0 € | 3.3.2 |
+Si el resultado acaba de publicarse, lo primero es saber si puedes pedir revisión:
 
-## Importe general
+- **Pruebas de ortografía, gramática, conocimientos, inglés y aptitudes intelectuales:** la base 7.11 permitía pedir la revisión de la calificación por escrito en **3 días hábiles** desde la publicación de las calificaciones.
+- **Reconocimiento médico:** la calificación de «no apto» podía revisarse en **3 días hábiles**.
+- **Entrevista personal:** el «no apto provisional» se revisa ante una Junta de psicólogos.
 
-La base 3.3.1 fija **once euros con sesenta y seis céntimos (11,66 euros)** en concepto de derechos de examen «con carácter general». El pago es telemático, dentro del propio procedimiento de [solicitud en la sede electrónica](/blog/como-rellenar-la-solicitud-de-la-guardia-civil-paso-a-paso).
+Los plazos son cortos y los fija cada convocatoria: compruébalos en la tuya en cuanto salgan las listas.
 
-Un dato útil: hemos comprobado en el BOE que las convocatorias de **2023, 2024 y 2025** fijaron exactamente los mismos importes, 11,66 euros y 5,83 euros. Esa estabilidad no garantiza nada para 2027, pero sí indica que no conviene creer cifras muy distintas sin ver el texto. Recuerda también que la tasa no la fija la [oferta de empleo público](/blog/oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti), que solo autoriza plazas, sino la convocatoria de cada año.
+## Paso 1: descubre dónde se quedó el problema
 
-## Bonificación del 50 %: familia numerosa general
+Hay casos muy distintos, y cada uno pide un plan diferente:
 
-Quien acredite ser miembro de una **familia numerosa de categoría general** paga **5,83 euros** (base 3.3.3). La acreditación es el **título de familia numerosa en vigor**, expedido por la comunidad autónoma correspondiente.
+| Qué pasó | Qué significa | Qué cambiar |
+| --- | --- | --- |
+| 6 o más errores en ortografía o en gramática | Excluido antes de que contara el resto | Entrenamiento diario de lengua |
+| No llegaste a un mínimo (conocimientos 50/100, inglés 8/20, aptitudes 12/30) | Fuera por una prueba concreta | Reforzar esa prueba hasta tener margen |
+| Superaste los mínimos, pero tu puntuación no alcanzó para ser convocado a las pruebas psicofísicas (1,5 aspirantes por plaza) o para obtener plaza | Faltaron puntos en conjunto | Subir nota global y revisar el concurso |
+| No superaste las pruebas físicas | Fallo en una prueba apto/no apto | Plan de entrenamiento con margen sobre las marcas |
+| «No apto» en reconocimiento médico o entrevista | Fallo en una prueba de aptitud | Informarte bien de la causa y, si procede, consultar con un profesional |
 
-Atención a dos detalles: el título debe estar **en vigor**, y la bonificación es solo para la categoría general. Si tu familia es de categoría especial, no te corresponde la bonificación, sino la exención total.
+Los mínimos están en las bases 7.4 a 7.8. Si no sabes tu puntuación exacta, consulta las listas publicadas con tus resultados.
 
-## Las exenciones, una por una
+## Paso 2: compara con las notas de corte
 
-### 1. Demandantes de empleo
+La nota de corte, tal como la calculamos en ProLince a partir de las resoluciones de aspirantes propuestos, es la puntuación final del último aspirante que obtuvo plaza en el acceso libre, sobre **195 puntos** (oposición, hasta 150, más concurso, hasta 45). No existe una nota de corte oficial publicada como cifra aislada.
 
-Están exentos quienes cumplan **a la vez** estas tres condiciones (base 3.3.2):
+| Año | Nota de corte (acceso libre, sobre 195) |
+| --- | --- |
+| 2026 | 90,61 |
+| 2025 | 95,80 |
+| 2024 | 103,08 |
+| 2023 | 95,75 |
+| 2022 | 110,58 |
 
-- figurar como demandantes de empleo durante, al menos, **un mes anterior a la fecha de publicación** de la convocatoria;
-- no haber rechazado en ese plazo una oferta de empleo adecuado ni haberse negado, sin causa justificada, a participar en acciones de promoción, formación o reconversión profesionales;
-- **no tener rentas superiores, en cómputo mensual, al salario mínimo interprofesional**.
+Varía mucho de un año a otro y **no se puede predecir** la siguiente. Qué es y por qué cambia está en [nota de corte de la Guardia Civil](/blog/nota-de-corte-guardia-civil). Úsala para medir tu distancia, no como una promesa: si te faltaron 3 puntos con la de 2026, con la de 2022 te habrían faltado más de 20.
 
-Se acredita con una **certificación del Servicio Público de Empleo Estatal** sobre esa condición y requisitos, y con una **declaración escrita** del propio aspirante sobre sus rentas.
+## Paso 3: busca los puntos más baratos
 
-Fíjate en la fecha: el mes se cuenta hacia atrás **desde la publicación de la convocatoria**, no desde que presentas la solicitud. Si te inscribes como demandante después de que salga la convocatoria, no llegas.
+No todos los puntos cuestan lo mismo. Algunas vías, de menos a más esfuerzo habitual:
 
-### 2. Familia numerosa de categoría especial
+| Vía | Cuánto puede sumar | Comentario |
+| --- | --- | --- |
+| Convertir errores de lectura en blancos o aciertos | Cada error evitado suma 1/3; cada error convertido en acierto, 4/3 | Técnica, no temario |
+| Certificado de idiomas | B2 = 5, C1 = 7, C2 = 9 puntos de concurso | Solo cuenta el de mayor puntuación de cada idioma |
+| Inglés | Hasta 20 puntos | Prueba corta; cada acierto vale lo mismo que en conocimientos |
+| Aptitudes intelectuales | Hasta 30 puntos | Cada acierto vale 0,375; entrenable |
+| Conocimientos | Hasta 100 puntos | El grueso, pero el más lento de mejorar |
 
-Exención total, acreditada con el título de familia numerosa en vigor.
+Los méritos se explican en [la fase de concurso](/blog/fase-concurso-guardia-civil-meritos) y los certificados válidos, en [qué certificado de idiomas sacarte](/blog/certificados-de-idiomas-para-la-guardia-civil-cual-sacarte). Los méritos se valoran según el baremo de cada convocatoria: compruébalo cuando salga.
 
-### 3. Víctimas del terrorismo
+## Caso práctico: a 0,6 puntos
 
-Están exentas las personas que hayan sufrido daños físicos o psíquicos como consecuencia de la actividad terrorista y lo acrediten mediante **sentencia judicial firme o resolución administrativa** que reconozca esa condición. La exención alcanza también a:
+**Caso hipotético**, con la nota de corte de 2026. Un aspirante obtuvo 58 en conocimientos (64 aciertos, 18 errores), 10 en inglés y 16 en aptitudes: 84 puntos de oposición. Con 6 de concurso, sumó **90**, a 0,61 de la nota de corte.
 
-- sus **hijos**;
-- su **cónyuge** o la persona con quien hayan convivido en análoga relación de afectividad durante **los últimos dos años**;
-- los **hijos y el cónyuge del fallecido**.
+Su diagnóstico:
 
-## Qué modalidad elegir: árbol de decisión
+- De los 18 errores de conocimientos, 5 fueron de lectura (negaciones y opciones incompletas). Si los hubiera dejado en blanco, habría sumado 5/3 ≈ 1,67 puntos; si los hubiera acertado, 5 × 4/3 ≈ 6,7.
+- No tenía certificado de inglés. Un B2 le habría dado 5 puntos de concurso.
+- En aptitudes, 16 sobre 30 equivale a unos 43 aciertos netos de 80: hay margen de mejora con entrenamiento regular.
 
-Al inscribirte tienes que escoger entre tres modalidades. Hazte estas preguntas en este orden:
+Su plan para la siguiente convocatoria: técnica de lectura desde ya, preparar un certificado de inglés de nivel B2 y psicotécnico tres veces por semana, sin dejar de repasar el temario. Ninguna de estas medidas garantiza la plaza, porque la nota de corte cambia, pero ataca los puntos más accesibles primero.
 
-1. **¿Eres víctima del terrorismo, o hijo, cónyuge o pareja de hecho en los términos de la base?** Si puedes acreditarlo con sentencia firme o resolución administrativa, elige **con exención**.
-2. **¿Tu familia numerosa es de categoría especial y el título está en vigor?** Elige **con exención**.
-3. **¿Eras demandante de empleo al menos un mes antes de la publicación, sin rechazar ofertas ni acciones de formación, y sin rentas mensuales por encima del salario mínimo?** Si cumples las tres cosas, elige **con exención**.
-4. **¿Tu familia numerosa es de categoría general y el título está en vigor?** Elige **con bonificación** y paga 5,83 euros.
-5. **Si no encajas en nada de lo anterior**, elige **sin reducción** y paga 11,66 euros.
+## Paso 4: haz un diagnóstico sin dramatizar
 
-Si dudas entre dos opciones, quédate con la que puedas demostrar con un documento. Y si tu caso no encaja claramente, la convocatoria de 2026 indica que las dudas sobre la inscripción las resuelve la Jefatura de Enseñanza, con los teléfonos y el correo que da su base 4.10.
+Responde con datos, no con impresiones:
 
-## Cuándo y cómo se acredita
+- ¿Cuántos simulacros hice y qué tendencia tenían?
+- ¿Mis fallos eran de **temario**, de **lectura** o de **gestión del tiempo**? Para los de lectura, mira [cómo leer un enunciado tipo test](/blog/como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas).
+- ¿Repasé de forma espaciada o dejé temas sin volver a ver?
+- ¿Llegué a las físicas con margen o justo?
+- ¿Mi horario era sostenible o acabé agotado?
 
-La convocatoria distingue dos momentos:
+## Paso 5: replantea el calendario
 
-1. **Al inscribirte**, eliges la modalidad: sin reducción, con bonificación o con exención.
-2. **Después**, la Jefatura de Enseñanza comprueba los datos. La solicitud lleva implícita tu autorización para consultarlos de oficio en otras administraciones, entre ellas el Servicio Público de Empleo Estatal y la Dirección General de Apoyo a Víctimas del Terrorismo (base 2.3). Si no das esa autorización o falla la consulta, te pedirán los documentos (título de familia numerosa, certificación de demandante de empleo con declaración de rentas o resolución de víctima del terrorismo) cuando lo requiera el Tribunal de Selección.
+1. **Descansa unos días**, pero no semanas: reanudar cuesta más cuanto más tardas.
+2. **Fija un objetivo de puntuación** a partir del histórico de notas de corte, con margen, y repártelo por pruebas.
+3. **Corrige primero lo que más puntos te quitó**, no lo que más te gusta estudiar.
+4. **Reserva simulacros periódicos** y analízalos.
+5. **Mantén el contacto con el temario** aunque no haya convocatoria publicada: se olvida rápido.
 
-Pide solo la exención o la bonificación que puedas acreditar: la comprobación llega, aunque sea más tarde.
+Una distribución orientativa del primer mes tras el resultado:
 
-## Devolución de la tasa
+| Semana | Foco |
+| --- | --- |
+| 1 | Descanso y análisis de resultados por escrito |
+| 2 | Plan nuevo: objetivo por prueba y calendario |
+| 3 | Vuelta al temario con tests de todo lo visto |
+| 4 | Primer simulacro completo para medir el punto de partida |
 
-La base 3.3.4 se remite al artículo 12 de la **Ley 8/1989, de Tasas y Precios Públicos**: **procede devolver** lo pagado cuando **no se realice el hecho imponible por causas no imputables al interesado**. Y lo dice expresamente al revés: **no hay devolución si te excluyen por una causa que te sea imputable**, por ejemplo por no cumplir un requisito.
+Sobre la siguiente convocatoria, no hay fecha ni plazas garantizadas: lo que se sabe está en [qué se sabe de la convocatoria de 2027](/blog/convocatoria-guardia-civil-2027-que-se-sabe-y-cuando-saldra). Planifica con lo que sí controlas.
 
-| Situación | ¿Se devuelve? |
-|---|---|
-| Te excluyen por no cumplir un requisito de la base 2 | No: es causa imputable a ti |
-| No subsanas un defecto en el plazo de diez días | No, por la misma razón |
-| No se realiza el hecho imponible por causas ajenas a ti | Sí, según la Ley 8/1989 |
+## Paso 6: cuida cómo te lo tomas
 
-Por eso conviene comprobar [los requisitos](/blog/requisitos-guardia-civil) antes de pagar, no después.
-
-## Casos prácticos (hipotéticos)
-
-- **Elena** es de una familia numerosa general con el título caducado desde hace dos meses. Antes de inscribirse lo renueva en su comunidad autónoma, porque la base exige el título **en vigor**. Paga 5,83 euros.
-- **Rubén** se apunta al paro el día que sale la convocatoria. No puede pedir la exención: le falta el mes previo a la publicación. Paga 11,66 euros.
-- **Ana** es hija de una víctima del terrorismo con resolución administrativa que reconoce esa condición. Elige la modalidad con exención y conserva la resolución por si el Tribunal se la pide.
-
-Son ejemplos inventados para ilustrar cómo se aplican las bases de 2026.
+Es normal sentir frustración, rabia o tristeza. Hablarlo con alguien de confianza ayuda. Si el desánimo te bloquea durante semanas o notas ansiedad que te desborda, hablar con un profesional de la salud es una buena decisión; no es algo que un artículo pueda resolver. Hay ideas para los días sin ganas en [qué hacer cuando no te apetece estudiar](/blog/motivacion-que-hacer-los-dias-que-no-te-apetece-estudiar).
 
 ## Errores frecuentes
 
-- **Elegir «con exención» sin cumplir los tres requisitos** del demandante de empleo.
-- **Confundir categoría general y especial** de familia numerosa.
-- **Usar un título de familia numerosa caducado.**
-- **Contar el mes de demandante desde la solicitud** y no desde la publicación.
-- **Pagar sin comprobar requisitos** y esperar que te devuelvan la tasa si te excluyen.
+- **Volver a empezar igual,** con el mismo método y el mismo horario.
+- **Empezar el temario desde cero** en lugar de repasar con tests lo que ya sabías.
+- **Culpar solo a la nota de corte** sin mirar tus propios datos.
+- **Olvidar el concurso:** un certificado puede valer más que semanas de temario.
+- **Abandonar las físicas** hasta que salga la convocatoria.
+- **Tardar meses en volver.**
 
-## Checklist
+## Checklist tras el resultado
 
-- [ ] Sé qué modalidad me corresponde: sin reducción, bonificación o exención.
-- [ ] Tengo el documento que lo acredita, en vigor.
-- [ ] Si soy demandante de empleo, lo era al menos un mes antes de la publicación.
-- [ ] He comprobado los requisitos antes de pagar.
-- [ ] Guardo el justificante de pago y de registro.
+- [ ] He comprobado si estoy en plazo para pedir revisión.
+- [ ] Sé en qué fase quedé fuera y por qué.
+- [ ] Sé a cuántos puntos me quedé frente a las notas de corte.
+- [ ] He clasificado mis fallos (temario, lectura, tiempo).
+- [ ] He revisado qué méritos puedo sumar.
+- [ ] Tengo fecha para retomar el estudio.
+- [ ] Sigo cumpliendo el requisito de edad para la próxima convocatoria.
 
-Para saber cómo se estructura el resto del proceso, lee la [convocatoria de 2026 y su calendario](/blog/convocatoria-guardia-civil-2026-plazas-calendario) y, para el año que viene, lo que se sabe de [la convocatoria de 2027](/blog/convocatoria-guardia-civil-2027-que-se-sabe-y-cuando-saldra). Si quieres un método de estudio, está el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+Si quieres reorganizar la preparación con apoyo, mira el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
 
 ## Preguntas frecuentes
 
-### ¿Cuánto cuesta presentarse a la oposición de la Guardia Civil?
+### ¿Puedo volver a presentarme si suspendo?
 
-En la convocatoria de 2026, 11,66 euros de derechos de examen con carácter general. La cifra de 2027 dependerá de su convocatoria.
+Las bases de 2026 no limitan el número de intentos; sí limitan la edad. Revisa las bases de la convocatoria vigente.
 
-### ¿Quién está exento de pagar la tasa?
+### ¿Cuánto tarda en salir la siguiente convocatoria?
 
-En 2026: demandantes de empleo con las condiciones de la base 3.3.2, familias numerosas de categoría especial y víctimas del terrorismo y los familiares que prevé la base.
+No hay una fecha fija ni garantizada. Sigue las publicaciones del BOE y de la Guardia Civil.
 
-### ¿Cuánto paga una familia numerosa?
+### ¿Qué nota debería sacar para entrar?
 
-Categoría general: 5,83 euros (bonificación del 50 %). Categoría especial: nada, porque está exenta.
+No hay una cifra segura: la nota de corte cambia cada año. En los últimos cinco años osciló entre 90,61 y 110,58 sobre 195. Usa el histórico como referencia, con margen.
 
-### ¿Tengo que adjuntar el título de familia numerosa al inscribirme?
+### ¿Conservo algo de un intento anterior?
 
-No necesariamente: la Jefatura de Enseñanza puede consultarlo de oficio. Si no autorizas la consulta o falla, lo presentarás cuando lo pida el Tribunal.
+Las bases de 2026 no prevén conservar notas de un año para otro. Lo que sí conservas son los méritos que tengas acreditados y lo que has aprendido. Consulta siempre las bases vigentes.
 
-### ¿Me devuelven la tasa si no me admiten?
+### ¿Puedo pedir que revisen mi examen?
 
-Solo si la causa no te es imputable. Si te excluyen por algo atribuible a ti, no se devuelve.
+Sí, dentro del plazo que fije la convocatoria; en la de 2026, 3 días hábiles desde la publicación de las calificaciones (base 7.11).
 
-### ¿La tasa ha cambiado en los últimos años?
+### ¿Es mejor cambiar de método o de academia?
 
-No en las convocatorias de 2023 a 2026 que hemos comprobado: 11,66 euros y 5,83 euros con bonificación.',
-   NULL, NULL, 'publicado', '2027-02-06T06:44:00.000Z', 'acceso-guardia-civil',
-   ARRAY['tasas', 'derechos de examen', 'exenciones', 'familia numerosa']::text[], '{"title":"Tasas examen Guardia Civil: importe y exenciones","description":"Tasa de examen de la Guardia Civil en la convocatoria 2026: 11,66 euros, 5,83 para familia numerosa general y quién está exento según la base 3.3."}'::jsonb, '{}'::jsonb)
+Depende de tu diagnóstico. Si tus fallos eran de temario no repasado, quizá baste con cambiar el plan; si no tenías método, puede que necesites apoyo externo. Decide con tus datos.',
+   NULL, NULL, 'publicado', '2027-02-09T06:35:00.000Z', 'acceso-guardia-civil',
+   ARRAY['suspenso', 'nota de corte', 'planificación', 'convocatoria']::text[], '{"title":"Si suspendes la oposición a Guardia Civil: qué hacer","description":"Qué hacer si no apruebas la oposición a Guardia Civil: diagnostica el fallo, compárate con las notas de corte 2022-2026 y replantea la convocatoria."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

@@ -3,7 +3,7 @@ titulo: Opositar con hijos: un plan de estudio realista
 slug: opositar-con-hijos-un-plan-de-estudio-realista-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-16T07:34:00+01:00
+publicado_en: 2027-02-15T07:17:00+01:00
 curso: acceso-guardia-civil
 entradilla: Estudiar una oposición con niños en casa es posible, pero exige renunciar al plan ideal. Cómo auditar tu tiempo real, qué tarea encaja en cada hueco, cómo repartir el cuidado y organizar los simulacros, y una semana tipo para adaptar.
 etiquetas: [conciliación, hijos, planificación, organización]

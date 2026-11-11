@@ -3,7 +3,7 @@ titulo: Rescate de montaña en la Guardia Civil: funciones, formación y cómo s
 slug: rescate-de-montana-en-la-guardia-civil-requisitos-y-formacion
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-28T07:11:00+01:00
+publicado_en: 2027-01-18T07:21:00+01:00
 curso: acceso-guardia-civil
 entradilla: El Servicio de Montaña y sus GREIM rescatan, investigan accidentes y vigilan zonas de difícil acceso. Qué hacen, cómo se despliegan, dónde se forma el personal y qué dice la normativa sobre el acceso a la especialidad, sin cifras inventadas.
 etiquetas: [montaña, greim, especialidades, rescate]

@@ -3,7 +3,7 @@ titulo: Policía Judicial y UCO: cómo se llega a la especialidad
 slug: policia-judicial-y-uco-como-se-llega-a-la-especialidad
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-31T07:02:00+01:00
+publicado_en: 2026-12-24T07:16:00+01:00
 curso: acceso-guardia-civil
 entradilla: La UCO no es una especialidad, sino una unidad de la Jefatura de Policía Judicial. Qué funciones tiene, cómo se organiza la Policía Judicial de la Guardia Civil y qué exige la normativa para obtener la especialidad.
 etiquetas: [policía judicial, uco, especialidades, investigación]

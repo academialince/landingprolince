@@ -3,7 +3,7 @@ titulo: Tasas de examen de la Guardia Civil: importe y exenciones
 slug: tasas-de-examen-de-la-guardia-civil-importe-y-exenciones
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-06T07:44:00+01:00
+publicado_en: 2027-02-16T07:34:00+01:00
 curso: acceso-guardia-civil
 entradilla: En la convocatoria de 2026 la tasa de examen fue de 11,66 euros, con 5,83 euros para familias numerosas de categoría general y exención en tres supuestos. Qué dice la base 3.3, cómo se acredita y cuándo se devuelve.
 etiquetas: [tasas, derechos de examen, exenciones, familia numerosa]

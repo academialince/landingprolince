@@ -2,141 +2,202 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('academia-online-o-por-libre-como-preparar-la-guardia-civil', 'articulo', '"Academia, online o por libre: cómo preparar la Guardia Civil"', 'Tres formas de preparar la oposición, con sus ventajas e inconvenientes reales: academia presencial, curso online y estudio por libre. Cómo elegir según tu tiempo, tu disciplina y tu presupuesto, y qué comprobar antes de pagar.', 'No existe una opción mejor para todos. La respuesta corta: **depende de tu disciplina, del tiempo que tengas y de cuánto necesites que alguien te marque el ritmo**. El formato ayuda o estorba, pero quien aprueba es quien estudia lo que entra, con método y durante los meses necesarios. Ninguna academia, curso o libro puede garantizarte una plaza, y desconfía de quien lo haga.
+  ('agrupacion-de-trafico-que-hace-y-como-se-entra-guardia-civil', 'articulo', 'Agrupación de Tráfico de la Guardia Civil: qué hace y cómo se entra', 'Tráfico no es un destino al que se vaya directo desde Baeza: es una especialidad con tres modalidades que exige una cualificación específica y un puesto que la requiera. Qué hace la Agrupación, cómo se organiza y qué fija la Orden PCM/509/2020.', 'Respuesta corta: la Agrupación de Tráfico se dedica a la **vigilancia, regulación, auxilio y control del tráfico y del transporte** en las vías interurbanas. **No se entra directamente desde la oposición**: es una especialidad y, para ejercerla, hay que obtener una cualificación específica en un curso y ocupar un puesto que la exija. La modalidad de **motorista** solo se obtiene en la Escala de Cabos y Guardias; la de **atestados**, en esa escala y en la de Suboficiales. Lo que no está publicado en las normas generales son las pruebas, plazas o edades de cada curso.
 
-Este artículo lo escribe una academia online, así que lo decimos de entrada: intentamos ser justos con las tres opciones, porque a cada persona le conviene una distinta.
+## De dónde le viene la competencia
 
-## Lo que exige la oposición, sea cual sea el formato
+La [Ley Orgánica 2/1986](https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859), de Fuerzas y Cuerpos de Seguridad, atribuye a la Guardia Civil «la vigilancia del tráfico, tránsito y transporte en las vías públicas interurbanas» (artículo 12.1.B.c). Si quieres repasar cómo se reparten las competencias entre cuerpos, tienes [las competencias de cada fuerza de seguridad](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada).
 
-Antes de elegir, conviene tener claro qué hay que preparar, porque cualquier opción debe cubrirlo todo. Según la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)):
+La Ley sobre Tráfico ([Real Decreto Legislativo 6/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722)) concreta que, para la vigilancia del tráfico, la denuncia de infracciones y las labores de protección y auxilio en las vías, actúa la Guardia Civil, «especialmente su Agrupación de Tráfico, que a estos efectos depende específicamente» de la Jefatura Central de Tráfico (artículo 6.2). Es una doble dependencia singular: orgánicamente es Guardia Civil y, a efectos de tráfico, trabaja para la DGT.
 
-| Prueba | Formato | Qué necesitas para prepararla |
-|---|---|---|
-| Ortografía y gramática | 5 frases con 4 palabras subrayadas; 20 frases. Con 6 errores o más, no apto | Práctica corta y constante, con corrección |
-| Conocimientos generales | 100 preguntas de 4 opciones sobre 23 temas; mínimo 50 | Temario actualizado, tests por tema, repaso |
-| Inglés | 20 preguntas de nivel ESO; mínimo 8 | Gramática básica, vocabulario y tests |
-| Psicotécnica | 80 preguntas en 55 minutos; mínimo 12 sobre 30 | Entrenamiento con cronómetro |
-| Pruebas físicas | 4 pruebas, apto o no apto | Plan de entrenamiento y piscina |
-| Entrevista y reconocimiento médico | Apto o no apto | Información y, en lo médico, revisión previa |
+## Qué hace la Agrupación de Tráfico
 
-Es mucho. El primer error es elegir formato pensando solo en el temario y olvidar el resto. Si quieres el detalle de cada parte, empieza por [preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero).
+Según la [página oficial de la especialidad](https://web.guardiacivil.es/es/institucional/conocenos/especialidades/Seguridad_Vial/), su misión se traduce en:
 
-## La comparación en una tabla
+- **Protección y auxilio** a los usuarios de las vías públicas.
+- **Vigilancia y disciplina** del tráfico, tránsito y transporte en vías interurbanas y travesías, y denuncia de las infracciones.
+- **Investigación e instrucción de diligencias** por accidentes de tráfico.
+- **Vigilancia de la normativa de transporte** por carretera.
 
-| | Academia presencial | Curso online | Por libre |
+Ejemplos de servicios que encajan en esas funciones: auxiliar a un conductor accidentado y señalizar la vía, controlar la velocidad o la alcoholemia, inspeccionar tiempos de conducción y descanso de un camión o reconstruir un siniestro para el atestado. Cuando un hecho es delito, como los delitos contra la seguridad vial de los artículos 379 a 385 ter del [Código Penal](https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444), la actuación es de policía judicial: la norma de estructura del Cuerpo dispone que, en esos casos, la Agrupación se atiene a las normas técnicas de la Jefatura de Policía Judicial ([Orden PRE/422/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906), artículo 12.2). La propia web publica cada año un anuario estadístico de auxilio y control del tráfico.
+
+## Historia en dos líneas
+
+La web oficial recuerda que la Ley 47/1959, de 30 de julio, atribuyó a la Guardia Civil la vigilancia de carreteras y que el **26 de agosto de 1959** la Dirección General creó la Agrupación de Tráfico. Antes existieron el Cuerpo de Vigilantes de Caminos (1929) y la Policía Armada y de Tráfico (1941).
+
+## Cómo se organiza
+
+- **Jefatura de la Agrupación**, al mando de un oficial general, dependiente del Mando de Operaciones (Orden PRE/422/2013, artículos 6 y 12).
+- **Órgano central**, con jefaturas de Operaciones, de Recursos Humanos y de Recursos Materiales, y la **Escuela de Tráfico**, que forma al personal.
+- **Organización periférica**: **sectores** (coordinación e inspección en una o varias comunidades autónomas), **subsectores** (planificación y ejecución en la provincia) y **destacamentos** (ejecución del servicio en una parte de la red viaria provincial).
+
+Se despliega en todo el territorio **excepto Cataluña y el País Vasco**, donde la competencia en tráfico está transferida a las comunidades autónomas, según la web oficial.
+
+## Las tres modalidades y quién puede obtenerlas
+
+La [Orden PCM/509/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-5900), que regula las especialidades, recoge **Tráfico (E18)** con tres modalidades. Su anexo, con una ficha por modalidad ([PDF del BOE](https://www.boe.es/boe/dias/2020/06/10/pdfs/BOE-A-2020-5900.pdf)), fija las escalas en que se obtienen:
+
+| Modalidad | Código | Escalas en que se obtiene | Servidumbre |
 |---|---|---|---|
-| Estructura y calendario | Fijos, te los marcan | Flexibles o guiados, según el curso | Los pones tú |
-| Dudas | Cara a cara | Por plataforma, foro o mensajes | Dependes de ti y de foros |
-| Horarios | Rígidos | Los eliges | Los eliges |
-| Coste | Normalmente el más alto | Intermedio | El más bajo |
-| Desplazamientos | Sí | No | No |
-| Compañeros | Sí, en el aula | A veces, en comunidad online | Solo si los buscas |
-| Riesgo principal | No poder seguir el horario | Abandonar si nadie te exige | Desorden y falta de método |
+| Dirección | TRD | Oficiales y Suboficiales | 4 años |
+| Motorista | TRM | Cabos y Guardias (guardia, cabo y cabo primero) | 4 años |
+| Atestados | TRA | Suboficiales y Cabos y Guardias | 4 años |
 
-Los precios cambian mucho de una oferta a otra. Compara siempre **precio y contenido**: dos cursos con el mismo precio pueden incluir cosas muy distintas.
+Las tres fichas comparten otros rasgos: **ninguna exige una cualificación previa**, **hay límite de edad para acceder a la cualificación** (la ficha no da la cifra), no hay límite de edad para permanecer en el puesto, se pueden ocupar en activo y en **reserva**, y existen **pruebas o condiciones de mantenimiento y renovación**. La pérdida de la cualificación la insta el jefe de la Agrupación de Tráfico.
 
-## Academia presencial
+Las fichas indican también dónde se cumple la servidumbre. En motorista, en puestos como «Motorista Tráfico» o «Mecánico especialista de transmisiones de Tráfico»; en atestados, en «Atestados Tráfico» o «Jefe PLM». Para dirección y motorista, la orden admite además cumplirla en las unidades de seguridad de la Casa de S. M. el Rey y de la Presidencia del Gobierno.
 
-**Ventajas.** Te impone calendario y rutina, tienes un docente a quien preguntar en el momento y compañeros con el mismo objetivo. Para quien necesita un compromiso externo, ese empujón vale mucho. Algunas academias presenciales también organizan entrenamiento físico.
+La orden derogó la anterior regulación de la especialidad, la Orden INT/574/2003, y entró en vigor un año después de su publicación (disposición final segunda), en junio de 2021.
 
-**Inconvenientes.** Los horarios fijos chocan con un trabajo o con cargas familiares; hay desplazamientos; el coste suele ser el más alto y depende de que haya una cerca. Y el ritmo del grupo no siempre es el tuyo: si vas por delante, te aburres; si vas por detrás, te descuelgas.
+## Cómo se accede a la especialidad
 
-**Encaja si:** tienes tiempo en horario fijo, vives cerca, y sabes que sin una cita externa no estudias.
+1. **Ingresar y tener destino.** Primero eres guardia civil: el recorrido empieza en [Baeza](/blog/academia-baeza-guardia-civil) y sigue con [la asignación del primer destino](/blog/como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil).
+2. **Superar el curso.** La cualificación se obtiene con un curso de especialización (artículo 7 de la Orden PCM/509/2020). El [Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764) fija requisitos generales para esos cursos (artículo 56): tener cumplida la servidumbre de un curso anterior, aptitud psicofísica y técnica y, en su caso, límites de edad o de altura, titulaciones o idiomas, no tener antecedentes penales ni sanciones graves o muy graves sin cancelar, y esperar tres años si se ha suspendido el proceso selectivo tres veces. La selección se publica, con carácter general, en el Boletín Oficial de la Guardia Civil (artículo 43.8).
+3. **Ocupar un puesto de especialista.** Los puestos que exigen una especialidad son destinos de **concurso de méritos** ([Orden INT/26/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-897), artículo 10.1).
+4. **Cumplir la servidumbre.** Durante dos años desde que se publica tu aptitud eres destinable forzoso para puestos donde cumplirla, y el Reglamento de destinos limita cualquier servidumbre a un máximo de cinco años (artículos 31 y 53 del [Real Decreto 470/2019](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398)).
 
-## Curso online
+Los requisitos concretos de cada curso (edad máxima, años de servicio, pruebas, plazas) están en la regulación específica que aprueba el director general y en cada convocatoria. **No los he encontrado en una fuente oficial pública, así que no los doy.** Desconfía de cifras cerradas en foros.
 
-**Ventajas.** Estudias a tu hora y desde cualquier lugar, repites las explicaciones que no entiendes y, si trabajas o vives lejos de una ciudad, muchas veces es la única opción realista. Los buenos cursos permiten hacer tests ilimitados con corrección inmediata y ver tu evolución por temas, algo difícil de replicar con papel.
+## Lo que ya te exige la oposición
 
-**Inconvenientes.** Exige autodisciplina: nadie te espera en un aula a las cinco. Hay quien paga, empieza con fuerza y lo abandona en semanas. Y la calidad varía muchísimo: algunos cursos son poco más que PDF, otros incluyen seguimiento y simulacros.
+Para presentarte a la Escala de Cabos y Guardias ya necesitas el **permiso de conducir de clase B** (base 2 de la [convocatoria de 2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)). No he encontrado en las normas revisadas qué permisos adicionales exige el curso de motorista: si te interesa, consulta su convocatoria antes de invertir en un carné.
 
-**Encaja si:** trabajas, tienes horarios cambiantes o vives lejos, y eres capaz de cumplir un plan sin supervisión diaria (o el curso te da ese seguimiento).
+## Errores frecuentes
 
-## Preparar la oposición por libre
+1. **Pensar que se elige Tráfico al salir de Baeza.** Hace falta la cualificación y un destino de concurso de méritos.
+2. **Creer que todo es moto.** Hay modalidades de atestados y de dirección, con funciones distintas.
+3. **Olvidar la servidumbre.** Al obtener la cualificación te comprometes a ocupar esos puestos durante el periodo fijado.
+4. **Dar por hecha la edad.** La ficha confirma que existe un límite de edad para acceder, pero su cifra está en la normativa específica.
 
-**Ventajas.** Es lo más barato y lo más flexible. Hay mucho material oficial gratuito: la convocatoria, el programa, los textos consolidados de las leyes en el BOE y, cuando se publican, cuestionarios de exámenes anteriores. Lo tienes recopilado en [recursos oficiales gratuitos](/blog/recursos-oficiales-gratuitos-para-preparar-la-guardia-civil) y en [dónde encontrar exámenes oficiales anteriores](/blog/examenes-oficiales-anteriores-donde-encontrarlos).
+## Caso práctico (hipotético)
 
-**Inconvenientes.** Debes decidir qué estudiar, en qué orden y con qué profundidad; resumir tú las leyes; buscar o fabricar tests; y corregirte. Es fácil perder semanas en lo que no entra, estudiar una versión derogada de una ley o no detectar a tiempo que fallas siempre lo mismo. Sin un [plan de estudio](/plan-de-estudio) con calendario, lo habitual es ir a trompicones.
+Iván lleva unos años en un puesto territorial y quiere ser motorista. Cuando se publica la convocatoria del curso, comprueba que cumple la edad y los demás requisitos, y que no está cumpliendo la servidumbre de otro curso. Lo supera y obtiene la cualificación TRM. Desde ese momento, durante dos años, puede ser destinado con carácter forzoso a un puesto donde cumplir los cuatro años de servidumbre de la modalidad. El caso es inventado; las reglas, las de las normas citadas.
 
-**Encaja si:** eres muy disciplinado, te organizas bien, tienes tiempo para preparar tu propio material y presupuesto limitado.
+## Qué puedes hacer ya
 
-## Cómo elegir: cinco preguntas
+- Afianza el temario de seguridad vial y derecho penal: es la base del día a día de un atestado.
+- Si te interesan los idiomas o titulaciones, recuerda que algunos cursos pueden exigirlos; varias ya puntúan en la [fase de concurso](/blog/fase-concurso-guardia-civil-meritos).
+- Y primero, aprueba: en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) trabajamos el temario y el plan de estudio.
 
-1. **¿Cumples calendarios por tu cuenta?** Mira tu historial: estudios, gimnasio, proyectos. Si sueles cumplir, por libre u online funcionan. Si no, busca presión externa.
-2. **¿Cuántas horas reales tienes a la semana?** Haz la cuenta honesta, no la ideal. Si trabajas, mira [cómo estudiar la oposición trabajando](/blog/plan-estudio-guardia-civil-trabajando).
-3. **¿Necesitas explicaciones o te basta con leer la ley?** Si te atascas con el lenguaje jurídico, valora un formato con explicaciones o tutor.
-4. **¿Qué presupuesto tienes y qué incluye cada opción?** Temario, tests, simulacros, correcciones, actualizaciones.
-5. **¿Tienes una academia cerca?** Si no, la comparación real es entre online y por libre.
+## Preguntas frecuentes
 
-## Casos prácticos (hipotéticos)
+### ¿Puedo entrar directamente en Tráfico al salir de Baeza?
+No. La normativa exige la cualificación específica, que se obtiene en un curso, y un puesto que la requiera, asignado por concurso de méritos.
 
-**Ana, 24 años, sin trabajo y con una academia a diez minutos.** Tiene tiempo en horario fijo y reconoce que en casa se distrae. Para ella, la presencial tiene sentido, quizá reforzada con tests online por su cuenta.
+### ¿Cuántas modalidades tiene la especialidad de Tráfico?
+Tres: dirección, motorista y atestados (Orden PCM/509/2020).
 
-**David, 33 años, trabaja a turnos.** Ningún horario fijo de academia le sirve. Un curso online con tests que pueda hacer en ratos sueltos encaja mejor; necesitará fijar con antelación sus bloques de estudio cada semana según el cuadrante.
+### ¿Un guardia puede ser motorista y de atestados?
+Las dos modalidades pueden obtenerse en la Escala de Cabos y Guardias, según el anexo de la orden. La de dirección corresponde a oficiales y suboficiales.
 
-**Lucía, 28 años, ya opositó a otro cuerpo y es muy constante.** Sabe resumir leyes y organizarse. Por libre, con la convocatoria, el BOE y exámenes anteriores, puede funcionarle; quizá pague solo una suscripción de tests o simulacros para medirse.
+### ¿Dónde se forma el personal de Tráfico?
+La web oficial indica que la Escuela de Tráfico forma al personal de la Agrupación. Los requisitos de cada curso se publican en su convocatoria.
 
-**Raúl, 19 años, acaba de terminar Bachillerato y no ha opositado nunca.** Le falta método más que tiempo. Le conviene un formato que le dé estructura (presencial u online guiado) al menos los primeros meses, hasta que aprenda a estudiar este tipo de examen.
+### ¿Hay Agrupación de Tráfico en Cataluña y el País Vasco?
+No: la web oficial explica que se despliega en todo el territorio salvo esas dos comunidades, que tienen transferida la competencia.
 
-## Combinar también es una opción
+### ¿De quién depende la Agrupación?
+Orgánicamente, del Mando de Operaciones de la Guardia Civil; a efectos de tráfico, de la Jefatura Central de Tráfico (artículo 6.2 de la Ley sobre Tráfico).',
+   '/blog/agrupacion-de-trafico-que-hace-y-como-se-entra-guardia-civil.jpg', 'Motoristas de Tráfico de la Guardia Civil en una carretera de montaña con niebla', 'publicado', '2027-01-10T06:05:00.000Z', 'acceso-guardia-civil',
+   ARRAY['tráfico', 'especialidades', 'motoristas', 'atestados']::text[], '{"title":"Agrupación de Tráfico Guardia Civil: funciones y acceso","description":"Qué hace la Agrupación de Tráfico de la Guardia Civil, sus modalidades (dirección, motorista, atestados), quién puede obtenerlas y cómo se accede."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
 
-No hace falta elegir una sola vía: por ejemplo, temario por libre y simulacros de pago; curso online y grupo de estudio con otros opositores; o preparación teórica en casa y entrenamiento físico con un preparador o un club. Las pruebas físicas se entrenan fuera del temario en cualquier caso: tienes marcas y planes en [pruebas físicas: marcas y entrenamiento](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento).
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil', 'articulo', 'Cómo se asignan los primeros destinos al salir de Baeza: lo que dice el reglamento', 'Tu nota final fija tu número de escalafón, y los destinos de provisión por antigüedad se asignan por escalafón. Qué dicen el Reglamento de destinos y la Orden INT/26/2021 sobre vacantes, solicitudes y primer destino, y qué decide la resolución de cada promoción.', 'Respuesta corta: **no eliges libremente**, pero tu nota cuenta. Dos normas encajan entre sí: el Reglamento de ordenación de la enseñanza dice que **la calificación obtenida al concluir la formación determina el orden de escalafón**, y el Reglamento de destinos dice que los destinos de **provisión por antigüedad se asignan por el orden de escalafón** de quienes los piden y cumplen los requisitos. Lo que no existe en la normativa es una tabla de «con esta nota, este destino»: qué vacantes se ofrecen a tu promoción y cómo se tramitan lo concreta cada resolución de anuncio de vacantes.
 
-## Qué comprobar antes de pagar
+Contexto previo: tras las prácticas [permaneces en tu unidad hasta el primer destino](/blog/las-practicas-despues-de-baeza-que-te-espera-guardia-civil). Las normas de referencia son el [Real Decreto 470/2019, Reglamento de destinos](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398), y la [Orden INT/26/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-897), que lo desarrolla.
 
-- **Temario actualizado** a la convocatoria vigente y a las reformas legales recientes.
-- **Tests y simulacros** con corrección y explicación, no solo la letra correcta.
-- **Que cubra todas las pruebas**: [ortografía y gramática](/blog/ortografia-gramatica-examen-guardia-civil), inglés y psicotécnico, no solo los 23 temas.
-- **Muestra gratuita** o periodo de prueba, para ver el material antes de comprometerte.
-- **Condiciones claras**: qué incluye, cuánto dura el acceso, cómo darse de baja.
-- **Ninguna promesa de resultado.** Ni porcentajes de aprobados que no puedas comprobar, ni «plaza asegurada».
+## De la nota final al número de escalafón
 
-## Cómo revisar tu elección a los tres meses
+La cadena, paso a paso y con su fuente:
 
-Elegir formato no es una decisión para siempre. Pasados unos tres meses, hazte estas preguntas con datos, no con sensaciones:
+1. **Calificación final.** Resulta de las notas ponderadas de cada asignatura y del Informe Personal del Alumno, y sirve de base para ordenar a la promoción ([Orden PCM/576/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-9632), artículo 23.3).
+2. **Clasificación única.** Quienes se forman en distintos centros se integran mediante la puntuación típica; en empate, prioridad para el de mayor edad. Se publica en una única resolución con la misma fecha de incorporación a la escala (artículo 29).
+3. **Escalafón.** «La calificación obtenida al concluir la enseñanza de formación determinará el orden de escalafón» ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), artículo 37.6).
+4. **Destinos de antigüedad.** Se asignan «por el orden de escalafón de los interesados que cumplan los requisitos» (artículo 10 del Reglamento de destinos) y, con carácter voluntario, al peticionario de mayor empleo y antigüedad, atendiendo a su preferencia (artículo 29).
 
-| Pregunta | Señal de que funciona | Señal de alarma |
+Como toda tu promoción entra en la escala con el mismo empleo y la misma fecha, la lectura conjunta de estas normas es que, entre vosotros, el número de escalafón ordena las peticiones de vacantes de antigüedad. Por eso Baeza no es un trámite.
+
+## Los tres tipos de destino
+
+| Tipo | Cómo se asigna | Ejemplos |
 |---|---|---|
-| ¿Cumples las horas que planificaste? | La mayoría de las semanas, sí | Más semanas fallidas que cumplidas |
-| ¿Avanzas en el temario? | Has cerrado varios temas con test aprobado | Sigues releyendo los primeros |
-| ¿Mejoran tus tests por tema? | La tendencia sube, aunque sea despacio | Notas estancadas o a la baja |
-| ¿Trabajas todas las pruebas? | Ortografía, inglés y psicotécnico tienen hueco cada semana | Solo estudias temario |
-| ¿Resuelves tus dudas? | Sabes a quién o dónde preguntar | Acumulas dudas sin resolver |
+| Libre designación | Por especial confianza y responsabilidad | Mandos de unidad ejercidos por coronel, teniente coronel o comandante, entre otros (artículo 8 del Reglamento) |
+| Concurso de méritos | Mayor puntuación según méritos y baremo | Puestos que exigen una especialidad, aptitud, idioma o titulación; profesores; unidades centrales; USECIC (artículo 10 de la Orden INT/26/2021) |
+| Provisión por antigüedad | Orden de escalafón | **Todos los demás** (artículo 11 de la Orden INT/26/2021) |
 
-Si la mayoría de las respuestas caen en la columna de alarma, el problema puede ser el formato o el método. Antes de cambiar de academia o de curso, revisa el plan: a veces basta con ajustar horarios, reducir el material o añadir tests. Si aun así no funciona, cambia con criterio, no por impulso.
+La consecuencia práctica es importante: los puestos de especialista se cubren por concurso de méritos, y el grueso de los destinos que no exigen cualificación específica son de antigüedad. Por eso, como explicamos en [destinos y especialidades tras Baeza](/blog/destinos-especialidades-guardia-civil), lo normal es empezar en un destino territorial y especializarse después.
+
+## Cómo funciona una convocatoria de vacantes
+
+- **Publicación.** Las vacantes se anuncian al menos una vez cada semestre natural en el Boletín Oficial de la Guardia Civil (artículo 13.1), en resoluciones separadas por forma de asignación (artículo 16).
+- **Contenido.** Cada anuncio recoge la unidad y su residencia oficial, el puesto, los requisitos, las condiciones de permanencia y el componente singular del complemento específico, entre otros datos (artículo 12 de la Orden INT/26/2021).
+- **Solicitud.** Por la aplicación informática de destinos de la intranet, en un plazo máximo de un mes para las vacantes que no son de libre designación; puedes modificar o renunciar a tu petición dentro de plazo (artículos 20 y 21 del Reglamento).
+- **Resolución.** Se dicta en un máximo de tres meses desde el fin del plazo de solicitud y se publica en el Boletín Oficial de la Guardia Civil (artículo 22). El destino es efectivo a los cinco días de la publicación, salvo que la resolución diga otra cosa (artículo 57).
+- **Incorporación.** Tres días hábiles si no cambias de residencia oficial; un mes en los demás casos (artículo 58).
+
+## Voluntario, anuente y forzoso
+
+Las solicitudes pueden ser **voluntarias**, **anuentes** o **en preferencia forzosa** (artículo 18). Es anuente la del guardia civil destinable forzoso, por ejemplo por carecer de destino, que pide vacantes donde extinguir esa condición. El orden de asignación es: primero las peticiones voluntarias; después, las anuentes; y las vacantes sobrantes se asignan con carácter **forzoso**, teniendo en cuenta la preferencia que haya mostrado cada destinable forzoso (artículo 25.2.b). Las vacantes forzosas se asignan por orden de publicación, salvo que el anuncio prevea otro (artículo 30.2).
+
+## Lo que el reglamento dice de quien acaba de salir
+
+Tres previsiones concretas:
+
+1. **Pedir antes de ingresar en la escala.** Si la resolución de anuncio lo especifica, quien vaya a acceder a una escala en los dos meses siguientes, al terminar su formación, puede solicitar las vacantes publicadas. El anuncio indicará los números de escalafón que pueden pedirlas, y el destino no se asigna antes del ingreso (artículo 17.3).
+2. **Alumnos destinables.** A los alumnos próximos a ingresar en una escala se les puede asignar destino en las formas previstas en el reglamento (artículo 30.3).
+3. **Vacantes sin publicar.** Excepcionalmente, al personal de nuevo acceso se le puede asignar destino sin publicación previa, entre las vacantes que quedaron desiertas en anuncios anteriores para el primer empleo de la escala (artículo 14.2). Esos destinos tienen carácter forzoso (artículo 23.4).
+
+Qué combinación se usa con cada promoción no está en el reglamento: lo fija la resolución correspondiente. Ese es el documento que debes leer, no los foros: si una resolución permite pedir antes del ingreso, comprueba si tu número de escalafón está incluido y respeta el plazo.
+
+## Después del primer destino: permanencia y familia
+
+- **Tiempo mínimo de permanencia.** Con carácter general, dos años en destinos asignados con carácter voluntario y uno en los anuentes o forzosos (artículo 51 del Reglamento; artículo 35 de la Orden INT/26/2021). Puede ampliarse en determinados puestos, hasta cinco años en voluntarios y dos en forzosos.
+- **Agrupamiento familiar.** El guardia civil con hijos menores de doce años o con discapacidad igual o superior al 33 % tiene derecho preferente para vacantes de antigüedad en la provincia del cónyuge guardia civil (artículo 50.3.b). Las medidas de agrupamiento se extienden, entre otros, a quienes carecen de destino por ingreso en la escala (artículo 16 de la Orden INT/26/2021).
+- **Parejas de guardias civiles.** El reglamento prevé que dos cónyuges guardias civiles pidan en concurrencia vacantes de antigüedad de la misma resolución, de modo que el más antiguo ceda su derecho hasta coincidir con el más moderno, si hay vacantes suficientes (artículo 19).
 
 ## Errores frecuentes
 
-- **Pagar y dar por hecho que el formato estudia por ti.** El curso es una herramienta.
-- **Acumular material** de varias fuentes sin terminar ninguna.
-- **Cambiar de método cada mes.** Dale a cualquier opción un periodo razonable antes de juzgarla.
-- **Estudiar solo temario** y descubrir tarde la psicotécnica o las físicas.
-- **No medirse nunca** con [simulacros completos](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados).
+1. **Pensar que la nota de la oposición decide el destino.** Lo que fija el escalafón es la calificación al terminar la formación.
+2. **Creer que se elige especialidad al salir.** Los puestos de especialista son de concurso de méritos y exigen cualificación.
+3. **Pedir pocas vacantes o sin orden de preferencia.** La asignación voluntaria atiende a la preferencia mostrada.
+4. **No leer la resolución de vacantes completa.** Requisitos, permanencias y complementos están ahí.
 
-## Una opción más
+## Caso práctico (hipotético)
 
-Si te inclinas por el formato online, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) de ProLince es una de las opciones: incluye tests por tema y materia, exámenes de años anteriores (de 2017 a 2026) y simulacros propios, según el pack. Compáralo con lo que necesitas tú, como harías con cualquier otra.
+Marta y Jorge son de la misma promoción. Marta terminó con mejor calificación final y, por tanto, tiene un número de escalafón anterior. Ambos piden como primera opción la misma vacante de provisión por antigüedad, y ambos cumplen los requisitos. Con los artículos 10 y 29 del Reglamento, la vacante corresponde a Marta, salvo que Jorge invoque un derecho preferente reconocido, como el de agrupamiento familiar. Jorge pasará a su siguiente preferencia. Los nombres y la situación son inventados.
+
+## Cómo prepararte
+
+Aprobar la oposición es entrar; el escalafón se decide en Baeza y en las prácticas. Llegar con el temario asentado, la forma física mantenida y hábito de estudio te da ventaja en una evaluación continua que pondera cada convocatoria. Si estás en esa fase, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te ayuda a construir esa base, y en [la vida en Baeza](/blog/un-dia-en-la-academia-de-baeza-horarios-normas-y-permisos) tienes las reglas del curso.
 
 ## Preguntas frecuentes
 
-### ¿Se puede aprobar la Guardia Civil por libre?
-Sí, es posible: la convocatoria no exige ninguna preparación concreta y el acceso se decide por las pruebas. Exige método, constancia y un buen plan.
+### ¿Se elige el destino por nota en la Guardia Civil?
+No de forma libre. La calificación final de la formación fija tu orden de escalafón (artículo 37.6 del Real Decreto 131/2018) y los destinos de antigüedad se asignan por escalafón entre quienes los piden y cumplen requisitos.
 
-### ¿Es obligatorio ir a una academia?
-No. Ninguna norma lo exige.
+### ¿Cuenta la nota de la oposición para el destino?
+No figura así en las normas revisadas. La que determina el escalafón es la calificación obtenida al concluir la enseñanza de formación.
 
-### ¿Qué es mejor si trabajo?
-Un formato flexible (online o por libre) suele encajar mejor, pero lo decisivo es tu constancia semana a semana.
+### ¿Puedo pedir la provincia que quiera?
+Puedes solicitar las vacantes publicadas, pero la asignación depende de lo ofertado, de tu número de escalafón y de los derechos preferentes de otros solicitantes.
 
-### ¿Cuánto cuesta preparar la oposición?
-Varía mucho según el formato y lo que incluya. Compara siempre el precio con el contenido real y la duración del acceso.
+### ¿Cuándo se publican las vacantes?
+Al menos una vez cada semestre natural, en el Boletín Oficial de la Guardia Civil (artículo 13.1 del Reglamento de destinos).
 
-### ¿Cuánto tiempo necesito?
-Depende de tu punto de partida y de tus horas. No hay una cifra oficial ni válida para todos.
+### ¿Puedo cambiar de destino enseguida?
+Hay tiempos mínimos de permanencia: con carácter general, dos años en destinos voluntarios y uno en el resto.
 
-### ¿Cómo sé si mi preparación va bien?
-Midiéndote con simulacros completos en condiciones reales y comparando tus resultados con los mínimos de cada prueba.',
-   NULL, NULL, 'publicado', '2027-01-12T06:39:00.000Z', 'acceso-guardia-civil',
-   ARRAY['academia', 'online', 'por libre', 'preparación']::text[], '{"title":"Academia, online o por libre para la Guardia Civil","description":"Comparación honesta entre academia presencial, curso online y preparar la Guardia Civil por libre: ventajas, inconvenientes y cómo elegir según tu caso."}'::jsonb, '{}'::jsonb)
+### ¿Qué pasa si no obtengo ninguna de las vacantes que pedí?
+Las vacantes que quedan sin cubrir de forma voluntaria o anuente se asignan con carácter forzoso, atendiendo a la preferencia forzosa que hayas mostrado.',
+   NULL, NULL, 'publicado', '2027-01-09T06:48:00.000Z', 'acceso-guardia-civil',
+   ARRAY['destinos', 'primer destino', 'escalafón', 'reglamento']::text[], '{"title":"Primer destino en la Guardia Civil: cómo se asigna","description":"Cómo se asigna el primer destino al salir de Baeza: escalafón, vacantes de antigüedad, solicitudes voluntarias, anuentes y forzosas, según el RD 470/2019."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -146,703 +207,163 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('derecho-fiscal-en-la-oposicion-hacienda-contrabando', 'articulo', 'Derecho fiscal en la oposición: contrabando y aduanas, las normas que entran', 'El tema 23 no es la Ley General Tributaria: es la represión del contrabando y el Código Aduanero de la Unión. Qué normas y títulos entran, los umbrales que separan delito e infracción, ejemplos resueltos y un mini test.', 'Si buscas «Derecho fiscal» y esperas encontrar impuestos, sorpresa: en esta oposición **no entran la Ley General Tributaria ni el IRPF**. **Respuesta corta:** el tema 23 gira en torno a una misión concreta de la Guardia Civil, el resguardo fiscal del Estado, y tiene dos bloques: la **represión del contrabando** (LO 12/1995 y RD 1649/1998) y una selección de títulos del **Código Aduanero de la Unión**. Lo más importante es dominar los umbrales de valor que separan el delito de la infracción administrativa.
+  ('derechos-deberes-y-regimen-disciplinario-del-guardia-civil', 'articulo', '"Derechos, deberes y régimen disciplinario del guardia civil"', 'Dos leyes orgánicas de 2007 marcan qué puede y qué no puede hacer un guardia civil: la LO 11/2007, de derechos y deberes, y la LO 12/2007, de régimen disciplinario. Un mapa de ambas con sus límites, faltas, sanciones, plazos y un test resuelto.', '**Respuesta corta:** la Ley Orgánica 11/2007 regula los derechos y deberes de los miembros de la Guardia Civil, y la Ley Orgánica 12/2007, su régimen disciplinario, con tres clases de faltas (muy graves, graves y leves) y sus sanciones. El guardia civil conserva sus derechos fundamentales, con límites propios de un Instituto Armado de naturaleza militar: no puede sindicarse ni hacer huelga, no tiene sufragio pasivo en los términos de la ley electoral y debe mantener neutralidad política y sindical.
 
-## Por qué está en el temario
+Este resumen se basa en los textos consolidados del BOE: [LO 11/2007 (BOE-A-2007-18391)](https://www.boe.es/buscar/act.php?id=BOE-A-2007-18391) y [LO 12/2007 (BOE-A-2007-18392)](https://www.boe.es/buscar/act.php?id=BOE-A-2007-18392). Es una guía de estudio, no un sustituto de la ley: lee siempre el texto vigente.
 
-La [LO 2/1986, de Fuerzas y Cuerpos de Seguridad](https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859), atribuye a la Guardia Civil, en su artículo 12.1.B, «el resguardo fiscal del Estado y las actuaciones encaminadas a evitar y perseguir el contrabando». Y el RD 1649/1998 prevé que el procedimiento sancionador pueda iniciarse a partir de la actuación de la Guardia Civil en esas funciones. El reparto de competencias entre cuerpos lo tienes en [la LO 2/1986, competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada).
+## Dónde encaja en la oposición
 
-## Qué normas entran
+La **LO 11/2007 (completa)** figura en el alcance del tema 15 del programa, «Fuerzas y Cuerpos de Seguridad. Guardia Civil», según nuestro [temario](/temario-guardia-civil). El mismo tema reúne la LO 2/1986, que tratamos en [competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada), la Ley 29/2014 de Régimen del Personal y la historia del Cuerpo.
 
-Según el [temario oficial](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf) y nuestro [programa](/temario-guardia-civil):
+La **LO 12/2007 no aparece citada** en ese alcance del programa. Aun así conviene conocerla: los alumnos de los centros docentes de formación, como la [Academia de Baeza](/blog/academia-baeza-guardia-civil), están sujetos a ella en lo que les sea aplicable (art. 2). No hay datos oficiales de qué se pregunta en cada examen.
 
-**Bloque 1. Represión del contrabando**
-- [Ley Orgánica 12/1995, de 12 de diciembre](https://www.boe.es/buscar/act.php?id=BOE-A-1995-26836), de represión del contrabando.
-- [Real Decreto 1649/1998, de 24 de julio](https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017), que desarrolla su Título II (infracciones administrativas).
-
-**Bloque 2. Reglamento (UE) n.º 952/2013, Código Aduanero de la Unión**, solo en estas partes:
-- Título I: ámbito, misión de las aduanas y definiciones; derechos y obligaciones (suministro de información y representación aduanera).
-- Título III, Capítulo 1: origen de la deuda aduanera de importación y de exportación.
-- Título VI: despacho a libre práctica y exención de derechos de importación.
-- Título VII, Capítulos 1 y 2: disposiciones generales de los regímenes especiales y tránsito.
-- Título VIII: salida de mercancías (formalidades, exportación y reexportación, declaración sumaria de salida).
-
-La Ley General Tributaria solo aparece citada dentro de la LO 12/1995 (por ejemplo, en el artículo 4, sobre responsabilidad civil, o como norma supletoria del Título II), pero no forma parte del programa.
-
-## La estructura de la LO 12/1995
-
-| Parte | Artículos | Contenido |
-| --- | --- | --- |
-| Título preliminar | Art. 1 | Definiciones: mercancía, importación, exportación, géneros estancados, géneros prohibidos… |
-| Título I. Delito de contrabando | Arts. 2 a 10 | Tipos, penas, responsabilidad civil, comiso, intervención, enajenación anticipada y valoración |
-| Título II. Infracciones administrativas | Arts. 11 a 16 | Tipificación, sanciones, graduación, competencia, medidas, no concurrencia y prescripción |
-| Disposiciones adicionales | DA 1.ª a 4.ª | Organización funcional (incluido el Servicio de Vigilancia Aduanera), información de transportistas y liquidación de la deuda |
-
-Dos definiciones del artículo 1 que conviene tener claras: **géneros estancados** son los atribuidos por ley al Estado en régimen de monopolio, **incluidas las labores del tabaco**; **géneros prohibidos** son aquellos cuya importación, exportación, comercio, tenencia o producción prohíbe un tratado, una ley o un reglamento de la Unión.
-
-## Delito o infracción: los umbrales
-
-Según el artículo 2, hay **delito de contrabando** cuando el valor de los bienes es igual o superior a:
-
-| Supuesto | Ejemplos | Umbral |
-| --- | --- | --- |
-| Art. 2.1 | Importar o exportar mercancías de lícito comercio sin presentarlas en aduana; comerciar con mercancías no comunitarias sin acreditar su importación lícita | 150.000 € |
-| Art. 2.2 | Exportar bienes del Patrimonio Histórico sin autorización; géneros estancados o prohibidos; especies protegidas por el Convenio de Washington; material de defensa y de doble uso; precursores de drogas | 50.000 € |
-| Art. 2.3.b | Labores de tabaco | 15.000 € |
-
-Además, es delito **con independencia del valor** (art. 2.3.a) cuando el objeto son drogas, estupefacientes, sustancias psicotrópicas, armas, explosivos, agentes biológicos o toxinas, sustancias químicas tóxicas y sus precursores, u otros bienes cuya tenencia es delito, o cuando el contrabando se hace **a través de una organización**. Otras reglas: las acciones fraccionadas con un plan preconcebido se suman (art. 2.4), la **imprudencia grave** también es punible (art. 2.5) y las personas jurídicas pueden ser penalmente responsables (art. 2.6).
-
-**Penas (art. 3):** prisión de **uno a cinco años** y multa **del tanto al séxtuplo** del valor de los bienes. En los supuestos de las letras a), b) y e) del artículo 2.1 (con una salvedad en la e), se imponen en su mitad inferior; en los demás casos del artículo 2, en su mitad superior. Si es imprudente, pena inferior en un grado. Para repasar qué significan mitades y grados, mira [derecho penal: delito, penas y grados](/blog/derecho-penal-para-guardia-civil-delito-penas-y-grados).
-
-## Las infracciones administrativas (Título II)
-
-Cuando la conducta de los apartados 1 y 2 del artículo 2 no llega a delito, es **infracción administrativa** (art. 11), sea dolosa o con cualquier grado de negligencia. Se clasifica por el valor:
-
-| Clase | Caso general | Supuestos del art. 2.2 | Labores de tabaco |
-| --- | --- | --- | --- |
-| Leve | Menos de 37.500 € | Menos de 6.000 € | Menos de 1.000 € |
-| Grave | De 37.500 a 112.500 € | De 6.000 a 18.000 € | De 1.000 a 6.000 € |
-| Muy grave | Más de 112.500 € | Más de 18.000 € | Más de 6.000 € |
-
-**Multas (art. 12)**, proporcionales al valor de los bienes, en el caso general: leves, del 100 al 150 %; graves, del 150 al 250 %; muy graves, del 250 al 350 %, con un mínimo de 500 €. Para los bienes del artículo 2.2 y el tabaco hay porcentajes propios, mínimos de 1.000 € (2.000 € en tabaco) y, además, cierre del establecimiento o suspensión de la actividad.
-
-**Otras claves del Título II:**
-- **Competencia (art. 13):** los órganos de la Administración aduanera de la Agencia Estatal de Administración Tributaria. Sus resoluciones se recurren en vía económico-administrativa y después ante la jurisdicción contencioso-administrativa.
-- **No concurrencia (art. 14 bis):** si la Administración aprecia posible delito, pasa el tanto de culpa al juez o al fiscal y suspende el procedimiento; una sentencia condenatoria impide la sanción administrativa.
-- **Prescripción (art. 15):** las infracciones y las sanciones prescriben a los **cuatro años**.
-
-### El reglamento: RD 1649/1998
-
-Desarrolla el procedimiento sancionador. Dos datos útiles: los órganos competentes para imponer multas son los responsables de Aduanas e Impuestos Especiales de la AEAT (art. 16), y el plazo máximo para resolver es de **seis meses** desde el acuerdo de iniciación, prorrogable una sola vez por otros seis (art. 35.5). Esta última fue la pregunta 97 del modelo A de 2026; puedes ver otras en [exámenes oficiales anteriores](/blog/examenes-oficiales-anteriores-donde-encontrarlos).
-
-## Ejemplos resueltos (hipotéticos)
-
-1. **Tabaco por valor de 20.000 €** sin cumplir los requisitos legales. Tabaco: umbral de delito, 15.000 €. 20.000 ≥ 15.000 → **delito**.
-2. **Tabaco por valor de 4.000 €.** No llega a 15.000 → infracción. Escala del tabaco: entre 1.000 y 6.000 → **grave**.
-3. **Mercancía de lícito comercio de 120.000 €** importada sin presentarla en aduana. Art. 2.1: umbral, 150.000 → no es delito. Caso general: más de 112.500 → infracción **muy grave**. Multa entre el 250 y el 350 %: entre 300.000 y 420.000 €.
-4. **Tres envíos de 60.000 €** de la misma mercancía de lícito comercio, con un plan preconcebido. Cada uno no llega a 150.000, pero suman 180.000 → **delito** por el artículo 2.4.
-5. **Cualquier cantidad de droga o de armas** introducida de contrabando → **delito**, sin importar el valor (art. 2.3.a).
-
-## El Código Aduanero de la Unión: lo esencial
-
-Es un reglamento europeo de aplicación directa. Conceptos clave dentro de lo que entra:
-
-- **Misión de las aduanas (art. 3):** supervisar el comercio internacional de la Unión, contribuir a un comercio justo y abierto y aplicar la política comercial común, entre otros fines.
-- **Territorio aduanero (art. 4):** incluye España **salvo Ceuta y Melilla**; de Dinamarca quedan fuera las Islas Feroe y Groenlandia.
-- **Deuda aduanera (art. 5):** obligación de pagar los derechos de importación o exportación aplicables a unas mercancías.
-- **Despacho a libre práctica (art. 201):** confiere a las mercancías no pertenecientes a la Unión el **estatuto aduanero de mercancías de la Unión**, con el pago de los derechos debidos.
-- **Regímenes especiales (art. 210):** tránsito (interno y externo), depósito (depósito aduanero y zonas francas), destinos especiales (importación temporal y destino final) y perfeccionamiento (activo y pasivo). De ellos, el programa solo desarrolla el tránsito.
-
-No es un bloque de memorizar importes, sino de entender el recorrido de la mercancía: entra, se declara, nace la deuda, se despacha o se somete a un régimen especial, y sale.
-
-## Cómo estudiarlo
-
-- **Empieza por la LO 12/1995:** es corta y se entiende bien con las dos tablas de umbrales.
-- **Haz fichas de las cifras** (150.000, 50.000, 15.000; 37.500 y 112.500; cuatro años) con repaso espaciado ([cómo hacerlo](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario)).
-- **Lee el Código Aduanero con el temario al lado**, para no estudiar títulos que no entran.
-- **Practica con tests**, incluidas las preguntas oficiales de 2026 de este tema.
-
-## Errores frecuentes
-
-- Estudiar la Ley General Tributaria.
-- Aplicar el umbral general de 150.000 € al tabaco o a los géneros estancados.
-- Olvidar que drogas, armas, explosivos y organización son delito sin umbral.
-- Confundir las escalas de infracción con los umbrales de delito.
-- Atribuir al Servicio de Vigilancia Aduanera el carácter de policía judicial: la ley le da carácter **colaborador** de las Fuerzas y Cuerpos de Seguridad del Estado.
-
-## Mini test (preguntas propias, salvo la 6)
-
-1. Contrabando de labores de tabaco por valor de 15.000 €:
-   a) Infracción grave · b) Infracción muy grave · c) Delito · d) No es sancionable
-2. La pena de prisión del delito de contrabando es de:
-   a) 6 meses a 3 años · b) 1 a 5 años · c) 2 a 6 años · d) 3 a 8 años
-3. Las infracciones administrativas de contrabando prescriben a los:
-   a) 2 años · b) 3 años · c) 4 años · d) 5 años
-4. ¿Quién es competente para conocer de las infracciones administrativas de contrabando?
-   a) La Guardia Civil · b) La Administración aduanera de la AEAT · c) El juez de instrucción · d) El Ministerio del Interior
-5. ¿Qué confiere el despacho a libre práctica a una mercancía no perteneciente a la Unión?
-   a) El estatuto aduanero de mercancía de la Unión · b) La exención de todo derecho · c) El régimen de tránsito · d) La reexportación
-6. (Oficial, 2026, modelo A, n.º 96) En la persecución de los delitos de contrabando, el Servicio de Vigilancia Aduanera tiene, respecto de las Fuerzas y Cuerpos de Seguridad del Estado, carácter de:
-   a) Policía judicial · b) Colaborador · c) Agente de la autoridad · d) Fuerza auxiliar
-
-**Soluciones:** 1 c (art. 2.3.b: igual o superior a 15.000). 2 b (art. 3.1). 3 c (art. 15). 4 b (art. 13). 5 a (art. 201 del Código Aduanero). 6 b (disposición adicional primera; también según la plantilla oficial).
-
-El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye este tema con tests.
-
-## Preguntas frecuentes
-
-### ¿Entra la Ley General Tributaria?
-No figura entre las normas del tema 23. Solo se cita dentro de la ley de contrabando.
-
-### ¿Hay que saberse los importes?
-Sí: los umbrales son la base para distinguir delito e infracción y para clasificar las infracciones. Comprueba siempre la versión consolidada vigente, porque se han modificado con los años.
-
-### ¿Es lo mismo contrabando que fraude fiscal?
-No. El contrabando afecta a mercancías, a su paso por la aduana o a su comercio y tenencia sin acreditar su licitud; el fraude fiscal es materia tributaria y penal distinta.
-
-### ¿Quién sanciona las infracciones de contrabando?
-Los órganos de la Administración aduanera de la AEAT (art. 13 de la LO 12/1995), conforme al procedimiento del RD 1649/1998.
-
-### ¿El Código Aduanero entra completo?
-No. Solo los títulos y capítulos que enumera el temario: partes de los Títulos I, III, VI, VII y VIII.',
-   '/blog/derecho-fiscal-en-la-oposicion-hacienda-contrabando.jpg', 'Agentes del Servicio Marítimo de la Guardia Civil abordando un pesquero', 'publicado', '2027-01-09T06:48:00.000Z', 'acceso-guardia-civil',
-   ARRAY['derecho fiscal', 'contrabando', 'aduanas', 'temario']::text[], '{"title":"Derecho fiscal Guardia Civil: contrabando y aduanas","description":"Tema 23 de Guardia Civil: LO 12/1995 de contrabando, RD 1649/1998 y Código Aduanero de la Unión. Umbrales, sanciones, ejemplos resueltos y mini test."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('examenes-oficiales-anteriores-donde-encontrarlos', 'articulo', 'Exámenes oficiales anteriores: dónde encontrarlos y cómo sacarles partido', 'La Guardia Civil publica en su web cuestionarios de la prueba de conocimientos y, en 2026, también las plantillas de respuestas. Qué hemos podido comprobar, cómo corregirlos con la fórmula oficial y cómo analizarlos pregunta a pregunta.', 'Trabajar con exámenes reales es de lo mejor que puedes hacer, porque te enseña **cómo pregunta el Tribunal**, no cómo cree una academia que lo hace. **Respuesta corta:** en la web de la Guardia Civil hemos encontrado los cuestionarios de 2026 (modelos A y B) con su plantilla oficial de respuestas, y los de 2022 (modelos 1A, 1B, 2A y 2B). Abajo tienes los enlaces, cómo hacerlos y cómo sacarles todo el jugo.
-
-## Qué hay publicado (comprobado)
-
-| Convocatoria | Cuestionarios | Plantilla de respuestas |
-| --- | --- | --- |
-| 2026 (Resolución 160/38243/2026) | [Modelo A](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/Procesos_Selectivos_2026/INGRESO-GC-2026-TIPO-A.pdf) y [modelo B](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/Procesos_Selectivos_2026/INGRESO-GC-2026-TIPO-B.pdf) | [Plantilla corregida (PDF n.º 2)](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/PLANTILLAS-INGRESO_CABOS_-Y_GUARDIAS.-2026-2.pdf) |
-| 2022 (Resolución 160/38262/2022) | [Modelo 1A](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2022/IngresoGC2022/INGRESO_GC_2022_1A.PDF), [1B](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2022/IngresoGC2022/INGRESO_GC_2022_1B.PDF), [2A](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2022/IngresoGC2022/INGRESO_GC_2022_2A.PDF) y [2B](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2022/IngresoGC2022/INGRESO_GC_2022_2B.PDF) | No la hemos localizado en la web oficial |
-
-Detalles que conviene saber:
-
-- Cada cuestionario recoge las pruebas de **ortografía, gramática, conocimientos generales (100 preguntas más 5 de reserva) e inglés**. El psicotécnico no viene en estos cuadernillos.
-- Los modelos A y B de un mismo año tienen **las mismas preguntas en distinto orden**: la plantilla de 2026 avisa de que una misma pregunta errónea era la 7 del modelo A y la 88 del B. No los cuentes como dos exámenes distintos.
-- La plantilla de 2026 se publicó en la [página oficial del proceso selectivo](https://web.guardiacivil.es/es/tramites/ingresos/ingresocuerpo/) en dos versiones: la primera tenía un error en esa pregunta y el Tribunal publicó una segunda corregida. Usa la n.º 2.
-- No hemos encontrado en la web oficial los cuestionarios de 2023, 2024 y 2025. Puede que no estén publicados o que estén en otra ruta: compruébalo en la web cuando estudies.
-
-Lo que ofrece la Administración aparte de los exámenes lo tienes en [recursos oficiales gratuitos](/blog/recursos-oficiales-gratuitos-para-preparar-la-guardia-civil). Los cursos privados también recopilan exámenes; el [curso de ProLince](/cursos/acceso-guardia-civil) incluye los de 2017 a 2026 como simulacros. Es contenido del curso, no un recurso oficial.
-
-## Cómo es un cuestionario por dentro
-
-En los cuestionarios de 2026, cada pregunta de conocimientos empieza con el nombre de la norma o materia («Ley Orgánica de Represión del Contrabando.», «Topografía.», «Reglamento de Armas.»). Eso te permite clasificar las preguntas por tema en minutos. Algunos rasgos que se repiten:
-
-- **Enunciados negativos:** «Señale la proposición INCORRECTA», en mayúsculas.
-- **Opciones combinadas:** «Son correctas las opciones a) y c)» o «Las descritas en las opciones anteriores».
-- **Literalidad:** preguntas de completar una definición o un plazo con las palabras exactas de la norma.
-- **Cálculo:** en topografía, por ejemplo, convertir 500 m a una escala 1:25.000 (respuesta: 2 cm).
-
-La convocatoria añade una regla importante: cada pregunta tiene una única respuesta válida y, si consideras correctas varias opciones, debes **marcar la más completa**.
-
-## Cómo sacarles partido
-
-### 1. Primero, estudia; después, examínate
-Un examen real no sirve para aprender un tema que no has visto: te desmoraliza y gastas un recurso escaso. Úsalo cuando hayas dado una primera vuelta al temario. Antes, puedes usar solo las preguntas de los temas que ya has estudiado.
-
-### 2. Hazlo como el día del examen
-Sin apuntes, con bolígrafo y reloj, en una sola sesión de **140 minutos** para ortografía, gramática, conocimientos e inglés. La estructura la tienes en [examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
-
-### 3. Corrige con la fórmula oficial
-En conocimientos (100 preguntas, 4 opciones), cada error resta un tercio de acierto y el blanco no resta: **nota = aciertos − errores / 3**, con mínimo de 50 sobre 100. En inglés, igual sobre 20, con mínimo de 8. En ortografía y gramática, 6 errores o más excluyen. Con la [calculadora de nota](/calculadora-nota-guardia-civil) lo haces sin cuentas.
-
-**Ejemplo:** 70 aciertos, 18 errores y 12 en blanco → 70 − 6 = **64**. En inglés, 13 aciertos, 3 errores y 4 en blanco → 13 − 1 = **12**.
-
-### 4. Anota cada fallo y su causa
-Para cada error, apunta si fue **desconocimiento**, **confusión** entre normas o plazos parecidos, **mala lectura** (no viste el «INCORRECTA») o **duda y cambio** de una respuesta correcta.
-
-### 5. Vuelve al texto de la norma
-Abre la ley consolidada en el BOE y localiza el artículo. Así corriges el conocimiento en su origen y no en un resumen.
-
-### 6. Úsalos para conocer el estilo, no para adivinar el próximo
-Los exámenes anteriores enseñan cómo se redacta una pregunta, qué trampas aparecen y cuánta literalidad se exige. No permiten predecir qué entrará: no hay datos oficiales de aparición por tema.
-
-## Ejemplo de análisis (hipotético)
-
-Supón que haces el modelo A de 2026 y obtienes 62 aciertos, 27 errores y 11 en blanco: nota = 62 − 9 = **53**, apenas por encima del mínimo. Al clasificar los 27 errores:
-
-| Causa | Errores | Qué haces |
-| --- | --- | --- |
-| No lo sabía | 12 | Repasar esos temas en el BOE y con fichas |
-| Confusión entre normas | 7 | Tabla comparativa de las normas confundidas |
-| Mala lectura | 5 | Rodear negaciones y «INCORRECTA» al leer |
-| Dudé y cambié | 3 | Regla personal: solo cambio si encuentro un motivo claro |
-
-Conclusión: casi la mitad de los fallos (15 de 27) no eran de conocimiento. Antes de estudiar más horas, corrige cómo lees y cómo decides.
-
-## Tres preguntas oficiales comentadas
-
-Para ver el estilo, estas son tres preguntas del modelo A de 2026, con la respuesta de la plantilla oficial:
-
-- **N.º 84 (Topografía):** dos puntos a 500 m en el terreno, ¿qué separación tienen en un plano 1:25.000? Respuesta: **2 cm** (500 m = 50.000 cm; 50.000 / 25.000 = 2). Es una pregunta de cálculo: si conviertes bien las unidades, es un acierto seguro. Lo practicamos en [topografía para Guardia Civil](/blog/topografia-para-guardia-civil-escalas-curvas-de-nivel).
-- **N.º 96 (Ley Orgánica de Represión del Contrabando):** ¿qué carácter tiene el Servicio de Vigilancia Aduanera respecto de las Fuerzas y Cuerpos de Seguridad del Estado en la persecución del contrabando? Respuesta: **colaborador**. Las otras opciones (policía judicial, agente de la autoridad, fuerza auxiliar) suenan plausibles; solo la literalidad de la norma te saca de dudas.
-- **N.º 85 (Topografía):** señalar la definición incorrecta de unidades de medida. Respuesta: la del grado centesimal que dividía la circunferencia en 100 partes, cuando son 400. Es el clásico «INCORRECTA»: si lees deprisa, marcas la primera definición que reconoces como cierta.
-
-Fíjate en lo que tienen en común: ninguna exige memorizar el temario entero, pero todas castigan la prisa y la falta de precisión. Es lo que un examen real te enseña y un test de academia a veces no.
-
-## Un plan para cada examen real
-
-1. **Sesión 1:** examen completo cronometrado.
-2. **Sesión 2 (al día siguiente):** corrección con la plantilla y clasificación de fallos.
-3. **Sesión 3 (una semana después):** repites **solo las preguntas falladas** sin mirar. Si vuelves a fallar, ese tema necesita otra pasada por la norma.
-
-Reserva en tu [plan de estudio](/plan-de-estudio) una sesión fija semanal para esto en la fase final.
-
-## Un aviso sobre la vigencia
-
-Una pregunta de 2022 puede basarse en una norma modificada después. Antes de memorizar una respuesta, comprueba que sigue siendo correcta con el texto consolidado actual y con el [temario oficial](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf). Incluso con plantilla oficial, la respuesta es la válida para aquel examen, no necesariamente para el texto de hoy.
-
-## Cuándo usar cada examen
-
-Como los exámenes oficiales son pocos, conviene repartirlos:
-
-- **Durante la primera vuelta:** solo las preguntas de los temas que ya has estudiado, como test por tema. Así conoces el estilo sin gastar el examen completo.
-- **En la segunda vuelta:** uno de los cuestionarios de 2022 completo, cronometrado.
-- **En la fase final:** el de 2026, que es el más reciente y el más parecido a lo que te puedes encontrar, en condiciones reales.
-- **Las últimas semanas:** repetir solo las preguntas que fallaste en cada uno.
-
-## Errores frecuentes
-
-- Hacer los exámenes reales en la primera semana y «quemarlos».
-- Contar el modelo A y el B como dos exámenes distintos.
-- Mirar la plantilla pregunta a pregunta mientras haces el examen.
-- Corregir sin aplicar la penalización y sobrestimar tu nota.
-- Memorizar respuestas en lugar de entender por qué son correctas.
-
-## Checklist
-
-- [ ] Cuestionarios de 2026 y 2022 descargados.
-- [ ] Plantilla corregida de 2026 descargada.
-- [ ] Primera vuelta del temario terminada antes del primer examen completo.
-- [ ] Hoja de análisis de fallos preparada.
-- [ ] Sesión de repetición de fallos programada.
-
-## Preguntas frecuentes
-
-### ¿Los exámenes anteriores son oficiales?
-Los que publica la Guardia Civil en su web, sí. Los recopilatorios de academias no son documentos oficiales, aunque se basen en ellos.
-
-### ¿Hay plantilla de respuestas oficial?
-De 2026, sí, publicada en la página del proceso selectivo, con una versión corregida. De 2022 no la hemos localizado; tendrás que corregir con el texto de la norma.
-
-### ¿Cuántos exámenes debería hacer?
-No hay una cifra oficial. Como los reales son pocos, úsalos bien y compleméntalos con simulacros. Lo vemos en un artículo posterior sobre simulacros.
-
-### ¿Valen para el psicotécnico?
-Los cuestionarios que hemos verificado son de la prueba de conocimientos. Para el psicotécnico, mira [psicotécnico: aptitudes y personalidad](/blog/psicotecnico-guardia-civil-aptitudes-personalidad).
-
-### ¿Por qué hay modelos A y B?
-Para que los aspirantes cercanos no tengan el mismo orden de preguntas. El contenido es el mismo.
-
-### ¿Puedo pedir revisión de mi nota?
-La convocatoria de 2026 daba 3 días hábiles desde la publicación de las calificaciones para pedir revisión al Tribunal. Consulta el plazo de la convocatoria vigente.',
-   NULL, NULL, 'publicado', '2027-01-07T06:14:00.000Z', 'acceso-guardia-civil',
-   ARRAY['exámenes anteriores', 'examen oficial', 'test', 'preparación']::text[], '{"title":"Exámenes oficiales anteriores Guardia Civil: dónde están","description":"Dónde descargar exámenes oficiales de Guardia Civil y sus plantillas, cómo corregirlos con la fórmula oficial y cómo analizar cada fallo."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('proteccion-civil-y-desarrollo-sostenible-en-el-temario', 'articulo', 'Protección civil y desarrollo sostenible en el temario: qué normas entran', 'El tema 16 mezcla tres normas muy distintas: la Ley 17/2015 de Protección Civil, la Ley 42/2007 del Patrimonio Natural y la Directiva 2012/27/UE de eficiencia energética. Qué partes entran, qué dice cada una y cómo ordenarlas.', 'El tema 16 es de los más heterogéneos del programa: reúne **protección civil, patrimonio natural y eficiencia energética**. Son tres normas sin relación aparente, de tres fuentes distintas (dos leyes estatales y una directiva europea), y la forma más eficaz de estudiarlas es por separado, con un esquema para cada una y sin salirte del alcance que fija el programa.
-
-## Qué entra exactamente
-
-Según el [temario oficial](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf) (lo tienes resumido en nuestro [temario](/temario-guardia-civil)), el tema 16 se divide en tres bloques:
-
-| Bloque | Norma | Qué entra | Qué no entra |
-|---|---|---|---|
-| Protección civil | Ley 17/2015, de 9 de julio, del Sistema Nacional de Protección Civil | Títulos I a V | Título VI (régimen sancionador) |
-| Desarrollo sostenible | Ley 42/2007, de 13 de diciembre, del Patrimonio Natural y de la Biodiversidad | Título preliminar y títulos II, III y IV | Títulos I, V y VI |
-| Eficiencia energética | Directiva 2012/27/UE | Capítulos I y II | Capítulos III a V |
-
-Estudiar fuera de ese alcance es gastar tiempo. Ningún dato oficial dice cuántas preguntas salen de este tema, así que no te fíes de quien te lo asegure.
-
-## Bloque 1: Ley 17/2015 de Protección Civil
-
-Texto consolidado: [BOE-A-2015-7730](https://www.boe.es/buscar/act.php?id=BOE-A-2015-7730). Se ha reformado varias veces (la última versión consolidada es de octubre de 2025), así que estudia siempre la versión vigente.
-
-### Estructura de los títulos que entran
+## LO 11/2007: estructura
 
 | Título | Artículos | Contenido |
 |---|---|---|
-| I. Disposiciones generales | 1 a 7 quáter | Objeto, definiciones, el Sistema Nacional, la Estrategia, derechos (protección, información, participación) y deberes (colaboración, cautela y autoprotección) y voluntariado |
-| II. Actuaciones del Sistema | 8 a 30 | Siete capítulos: anticipación, prevención, planificación, respuesta inmediata, recuperación, evaluación e inspección, y emergencias de interés nacional |
-| III. Recursos humanos | 31 y 32 | Formación y Escuela Nacional de Protección Civil |
-| IV. Competencias de la AGE | 33 a 38 | Gobierno, Ministro del Interior, otros departamentos, Delegados del Gobierno, Fuerzas Armadas (UME) y Fuerzas y Cuerpos de Seguridad del Estado |
-| V. Cooperación y coordinación | 39 a 42 | Consejo Nacional de Protección Civil, órganos territoriales, Mecanismo de Protección Civil de la UE y cooperación internacional |
+| I | 1 | Objeto y ámbito (incluye a los alumnos de los centros docentes) |
+| II | 2 a 14 | Ejercicio de derechos fundamentales y libertades públicas |
+| III | 15 a 23 | Deberes |
+| IV | 24 y 25 | Derechos y deberes a la vez: defensa de España, uniforme y armas |
+| V | 26 a 35 | Derechos profesionales |
+| VI | 36 a 51 | Asociaciones profesionales |
+| VII | 52 a 57 | Consejo de la Guardia Civil |
 
-### Definiciones del artículo 2
+### Derechos fundamentales, con límites (título II)
 
-Son siete y se confunden con facilidad: **peligro** (potencial de ocasionar daño), **vulnerabilidad** (característica que hace a personas o bienes susceptibles de ser afectados), **amenaza** (exposición a un peligro inminente o latente), **riesgo** (posibilidad de que una amenaza llegue a afectar), **emergencia de protección civil**, **catástrofe** y **servicios esenciales**. Un truco: el riesgo es una *posibilidad*; la amenaza, una *situación*; el peligro, un *potencial*.
+Los guardias civiles son titulares de los derechos fundamentales y libertades públicas de la Constitución, sin más límites que los de la propia Constitución, sus normas de desarrollo y esta ley (art. 2). Las particularidades:
 
-### Las actuaciones del Sistema (artículo 3)
-
-El Sistema integra la actividad de protección civil de todas las Administraciones mediante cinco actuaciones: **prever** los riesgos, **planificar** los medios, **intervenir** con respuesta inmediata, **recuperar** (restablecer infraestructuras y servicios esenciales) y **coordinar, hacer seguimiento y evaluar** el Sistema. El título II las desarrolla en siete capítulos, porque divide la previsión en anticipación y prevención y añade un capítulo propio para las emergencias de interés nacional.
-
-### Planes de protección civil (artículos 14 y 15)
-
-Hay cuatro tipos: **Plan Estatal General** (lo aprueba el Gobierno a propuesta del Ministro del Interior), **Planes Territoriales** (autonómicos o locales), **Planes Especiales** (inundaciones, terremotos, maremotos, volcanes, fenómenos meteorológicos adversos, incendios forestales, accidentes químicos, nucleares o radiactivos, aviación civil, mercancías peligrosas, conflicto bélico…) y **Planes de Autoprotección** (para centros, establecimientos e instalaciones).
-
-### Emergencias de interés nacional (artículos 28 a 30)
-
-Son tres supuestos:
-
-1. Las que requieren aplicar la **Ley Orgánica 4/1981**, de los estados de alarma, excepción y sitio.
-2. Las que afectan a **varias comunidades autónomas** y exigen aportar recursos a nivel supraautonómico.
-3. Las que, por sus dimensiones efectivas o previsibles, requieren una **dirección de carácter nacional**.
-
-Las **declara el titular del Ministerio del Interior**, por iniciativa propia o a instancia de las comunidades autónomas o de los Delegados del Gobierno; si lo hace por iniciativa propia, previa comunicación con la comunidad afectada. Declarada la emergencia, el Ministro **asume su dirección**, y la **Unidad Militar de Emergencias asume la dirección operativa** bajo la dirección del Ministro (art. 37.4). El Centro Nacional de Seguimiento y Coordinación de Emergencias actúa como centro de coordinación operativa (art. 18).
-
-### Otras piezas que conviene distinguir
-
-- **Zona afectada gravemente por una emergencia de protección civil** (art. 23): la declara el **Consejo de Ministros**, no el Ministro del Interior. Las ayudas de recuperación no tienen carácter indemnizatorio (art. 20.3).
-- **Deber de colaboración** (art. 7 bis): en emergencias, cualquier persona mayor de edad está obligada a las prestaciones personales que exijan las autoridades, sin derecho a indemnización por ello; la requisa de bienes sí se indemniza.
-- **Fuerzas y Cuerpos de Seguridad del Estado** (art. 38): colaboran según la LO 2/1986, y los planes pueden asignarles funciones **sin atribuirlas a unidades concretas**. Si necesitas repasar esa ley, la tienes en [competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada).
-- **Consejo Nacional de Protección Civil** (art. 39): lo **preside el Ministro del Interior**; reúne a la AGE, las comunidades autónomas, las ciudades con Estatuto de Autonomía y la FEMP, y funciona en Pleno y en Comisión Permanente.
-- **Escuela Nacional de Protección Civil** (art. 32) y **Red de Alerta Nacional** (art. 12): ambas encuadradas en la Dirección General de Protección Civil y Emergencias, del Ministerio del Interior, cuya estructura repasamos en [Ministerio del Interior y Ministerio de Defensa](/blog/ministerio-del-interior-y-ministerio-de-defensa-estructura).
-
-## Bloque 2: Ley 42/2007 del Patrimonio Natural y de la Biodiversidad
-
-Texto consolidado: [BOE-A-2007-21490](https://www.boe.es/buscar/act.php?id=BOE-A-2007-21490). Su objeto (art. 1) es el régimen jurídico básico de la conservación, uso sostenible, mejora y restauración del patrimonio natural y la biodiversidad, como parte del deber de conservar y del derecho a disfrutar de un medio ambiente adecuado del **artículo 45.2 de la Constitución**.
-
-| Título | Contenido |
-|---|---|
-| Preliminar | Objeto, principios (art. 2), definiciones y deberes de los poderes públicos |
-| II | Catalogación, conservación y restauración de hábitats y espacios: hábitats en peligro, espacios naturales protegidos, Red Natura 2000, otras figuras, inventario e información en el Registro de la Propiedad |
-| III | Conservación de la biodiversidad: conservación *in situ* y *ex situ*, especies exóticas invasoras, caza y pesca continental |
-| IV | Uso sostenible: reservas de la biosfera (Programa MaB), recursos genéticos, comercio internacional de especies y conocimientos tradicionales |
-
-### Lo que más se confunde
-
-- **Cinco categorías de espacios naturales protegidos** (art. 30): **Parques, Reservas Naturales, Áreas Marinas Protegidas, Monumentos Naturales y Paisajes Protegidos**. Los Parques Nacionales se rigen por su legislación específica (art. 31.2).
-- **Red Natura 2000** (art. 42): la forman los **LIC** (Lugares de Importancia Comunitaria) hasta que se transforman en **ZEC** (Zonas Especiales de Conservación), las propias ZEC y las **ZEPA** (Zonas de Especial Protección para las Aves).
-- **Catálogo Español de Especies Amenazadas** (art. 58): dos categorías, **«en peligro de extinción»** y **«vulnerable»**. La primera obliga a un **plan de recuperación en un máximo de tres años**; la segunda, a un **plan de conservación en un máximo de cinco** (art. 59).
-- **Principios** (art. 2): entre otros, la prevalencia de la protección ambiental sobre la ordenación territorial y urbanística y la **precaución** en las intervenciones que puedan afectar a espacios o especies.
-
-Esta ley tiene un vínculo directo con el trabajo del SEPRONA, pero para el examen lo que cuenta es el texto, no la práctica policial.
-
-## Bloque 3: Directiva 2012/27/UE de eficiencia energética
-
-Solo entran los capítulos I y II. Antes de estudiarla, un aviso importante: **la Directiva 2012/27/UE ha sido derogada** con efectos desde el **12 de octubre de 2025** por la Directiva (UE) 2023/1791, que la refunde (art. 38 de esta última, [DO L 231 de 20-9-2023](https://www.boe.es/doue/2023/231/L00001-00111.pdf)). El programa vigente la sigue citando, así que estúdiala como figura en él y comprueba en la próxima convocatoria si el temario se actualiza.
-
-| Capítulo | Artículos | Contenido |
+| Derecho | Artículo | Qué dice |
 |---|---|---|
-| I. Objeto, ámbito, definiciones y objetivos | 1 a 3 | Marco común para fomentar la eficiencia energética; objetivo de la Unión de **un 20 % de ahorro para 2020** en su redacción original; objetivos nacionales orientativos |
-| II. Eficiencia del uso de energía | 4 a 13 | Renovación de edificios (4), función ejemplarizante de los edificios públicos (5), adquisiciones públicas (6), sistemas de obligaciones de eficiencia (7), auditorías energéticas (8), contadores (9), facturación (10 y 11), información a consumidores (12) y sanciones (13) |
+| Igualdad | 3 | Sin discriminación por nacimiento, raza, sexo, orientación sexual, religión, opinión u otra condición; igualdad real entre mujeres y hombres |
+| Intimidad | 5 | El pabellón asignado se considera domicilio habitual; registro de efectos personales solo con autorización motivada del jefe, ante el interesado y un testigo, cuando lo exija la investigación de un delito |
+| Desplazamiento | 6 | Libre por el territorio nacional; los viajes al extranjero se comunican previamente |
+| Expresión | 7 | Con los límites del régimen disciplinario, el secreto profesional y el respeto a la dignidad de personas e instituciones; en asuntos de servicio, también disciplina, neutralidad y reserva |
+| Reunión | 8 | Las reuniones en dependencias oficiales se comunican al jefe; nunca asistir a manifestaciones o reuniones de uniforme o con armas |
+| Asociación | 9 | Pueden constituir asociaciones profesionales, que no pueden hacer actividades políticas o sindicales |
+| Sufragio | 10 | Votan; no disfrutan del sufragio pasivo en los términos de la legislación electoral general |
+| Sindicación | 11 | No pueden ejercerla |
+| Huelga | 12 | No pueden ejercerla, ni acciones sustitutivas o concertadas para alterar el servicio |
+| Petición | 13 | Solo de forma individual |
+| Defensor del Pueblo | 14 | Pueden dirigirse a él directa e individualmente |
 
-El dato más conocido del capítulo II: en su versión original, el artículo 5 obligaba a renovar **cada año el 3 %** de la superficie de los edificios con calefacción o refrigeración que tuviera en propiedad y ocupara la Administración central, desde el 1 de enero de 2014. Recuerda que es una **directiva**: obliga a los Estados en cuanto al resultado y estos la transponen; la diferencia con el reglamento la tienes en [la Unión Europea en la oposición](/blog/union-europea-en-la-oposicion-las-instituciones).
+### Deberes (título III)
 
-## Cómo estudiarlo
+- **Respeto a la Constitución** y al ordenamiento jurídico, protección del libre ejercicio de derechos y libertades y garantía de la seguridad ciudadana (art. 15).
+- **Jerarquía, disciplina y subordinación** (art. 16). La obediencia debida **nunca** ampara órdenes que entrañen actos manifiestamente delictivos o contrarios a la Constitución o a las leyes.
+- **Respeto a la vida y a la integridad física y moral**, con estricto cumplimiento de las normas sobre el uso legítimo de la fuerza (art. 17).
+- **Neutralidad e imparcialidad** (art. 18): no pueden fundar ni afiliarse a partidos o sindicatos.
+- **Reserva**: secretos oficiales, secreto profesional y sigilo (art. 19).
+- **Cooperación en catástrofes** (art. 20): en estados de alarma, excepción o sitio, o cuando se disponga por emergencia grave, presentarse en su destino o en la dependencia más próxima.
+- **Residencia y domicilio** (art. 21), **incompatibilidades** (art. 22) y **reconocimientos psicofísicos** (art. 23).
 
-1. **Un esquema por norma**, nunca mezclado.
-2. **Empieza por la Ley 17/2015**: es la más ordenada y la más ligada al trabajo del Cuerpo.
-3. **Haz una tabla de «quién hace qué»**: quién declara, quién aprueba, quién preside. Es donde se concentran las confusiones.
-4. **Subraya solo lo que entra** y tacha los títulos fuera de alcance.
-5. **Repasa con espaciado**: este tema se olvida rápido porque no se conecta con otros. Mira [cómo memorizar leyes](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario).
+### Derechos profesionales, asociaciones y Consejo
+
+El título V reconoce, entre otros, formación, carrera, horario (con disponibilidad permanente), vacaciones, quejas y retribuciones. Las **asociaciones profesionales** deben tener ámbito estatal, duración indefinida y carácter no lucrativo (arts. 36 y siguientes). El **Consejo de la Guardia Civil** es un órgano colegiado presidido por el **Ministro del Interior** (o persona en quien delegue), con representantes elegidos por los guardias civiles y otros tantos de la Administración; se reúne en sesión ordinaria al menos una vez cada tres meses (arts. 52 a 55).
+
+## LO 12/2007: régimen disciplinario
+
+### Tres clases de faltas
+
+Las faltas pueden ser **muy graves, graves y leves** (art. 6). Las muy graves lo son «siempre que no constituyan delito» (art. 7). Algunos ejemplos del articulado:
+
+| Clase | Ejemplos |
+| --- | --- |
+| Muy graves (art. 7) | Incumplir el deber de fidelidad a la Constitución; violar la neutralidad política o sindical; pertenecer a partidos o sindicatos; discriminación o acoso; trato inhumano, degradante o vejatorio a personas bajo custodia; omisión de urgente auxilio; participar en huelgas; prestar servicio embriagado o bajo estupefacientes; negarse sin justificación a una prueba de alcoholemia o drogas legítimamente ordenada |
+| Graves (art. 8) | Abuso de autoridad; falta de subordinación; violar el secreto profesional; informes o partes que no se ajusten a la realidad; superar 0,3 g/l de alcohol en sangre o 0,15 mg/l en aire espirado al inicio o durante el servicio; tenencia de drogas fuera de actuaciones del servicio |
+| Leves (art. 9) | Desconsideración o incorrección; retraso o negligencia en los deberes; indiscreción en asuntos del servicio; descuido en el aseo o en la uniformidad; incumplir el horario o falta de puntualidad; omitir intencionadamente el saludo a un superior |
+
+La LO 8/2014 añadió, entre otras, la falta muy grave de organizar o participar activamente en reuniones o manifestaciones políticas o sindicales (art. 7.3 bis) y la grave de manifestaciones públicas contrarias a la neutralidad (art. 8.21 bis).
+
+### Sanciones (art. 11)
+
+| Falta | Sanciones |
+| --- | --- |
+| Muy grave | Separación del servicio; suspensión de empleo de 3 meses y 1 día a 6 años; pérdida de puestos en el escalafón |
+| Grave | Suspensión de empleo de 1 a 3 meses; pérdida de 5 a 20 días de haberes con suspensión de funciones; pérdida de destino |
+| Leve | Reprensión; pérdida de 1 a 4 días de haberes con suspensión de funciones |
+
+Detalles que conviene fijar:
+
+- La **separación del servicio** supone perder la condición de militar de carrera de la Guardia Civil, salvo los derechos pasivos consolidados (art. 12). La impone el **Ministro de Defensa a propuesta del Ministro del Interior** (art. 27).
+- La **pérdida de destino** impide pedir otro en la misma unidad o especialidad durante **dos años** (art. 15).
+- La **reprensión** es una reprobación expresa **por escrito**; la amonestación verbal del superior en el ejercicio del mando **no** es sanción (art. 17).
+- El **arresto** desapareció del cuadro de sanciones, como destaca el preámbulo.
+- Las sanciones se gradúan por proporcionalidad: intencionalidad, reincidencia, historial profesional (solo como atenuante) o incidencia en la seguridad ciudadana, entre otros criterios (art. 19).
+
+### Alumnos de los centros de formación (art. 18)
+
+A los alumnos que no eran ya guardias civiles solo se les pueden imponer: por faltas graves y muy graves, **suspensión de haberes y servicios de 5 a 20 días** o **baja como alumno**; por faltas leves, **reprensión** o **suspensión de haberes y servicios de 1 a 4 días**. Las anotaciones por falta leve de los alumnos se cancelan, en todo caso, al incorporarse a la Escala (art. 71.3).
+
+### Plazos que hay que saber
+
+| Concepto | Muy graves | Graves | Leves | Artículo |
+|---|---|---|---|---|
+| Prescripción de la falta | 3 años | 2 años | 6 meses | 21 |
+| Prescripción de la sanción | 3 años | 2 años | 1 año | 22 |
+| Cancelación de la anotación | 4 años | 2 años | 6 meses | 71 |
+
+La prescripción de la falta se cuenta desde que se comete; la de la sanción, desde que se notifica la resolución (o desde que se quebranta su cumplimiento). La cancelación se cuenta desde el cumplimiento de la sanción, si en ese tiempo no se impone otra; la separación del servicio no se cancela.
+
+### Procedimiento y recursos, en resumen
+
+- Solo se pueden imponer sanciones mediante el **expediente disciplinario** correspondiente (art. 26).
+- En faltas graves y muy graves, la **instrucción no puede exceder de seis meses** (art. 55), y la resolución debe notificarse en **seis meses** desde la incoación; si no, el expediente **caduca** (art. 65, con posibles suspensiones).
+- Las sanciones son **inmediatamente ejecutivas**: recurrir no suspende su cumplimiento (art. 66), aunque en faltas graves y muy graves se puede pedir la suspensión durante el recurso (art. 77).
+- **Recursos**: alzada en el plazo de un mes (art. 74), reposición potestativa contra las resoluciones del Ministro de Defensa, también en un mes (art. 75), y después recurso **contencioso-disciplinario militar** (art. 78).
+
+## Casos prácticos (hipotéticos)
+
+**Caso 1.** Un guardia acude de paisano a una manifestación sindical en la calle, sin uniforme ni armas, y participa activamente en su organización. Aunque no lleve uniforme, organizar o participar activamente en manifestaciones de carácter político o sindical está tipificado como falta muy grave (art. 7.3 bis LO 12/2007).
+
+**Caso 2.** Al iniciar el servicio, un control da 0,20 mg/l en aire espirado. Supera el umbral de 0,15 mg/l: es falta grave (art. 8.27).
+
+**Caso 3.** Un cabo advierte de palabra a un guardia sobre su puntualidad. No es sanción (art. 17.2).
 
 ## Errores frecuentes
 
-- Pensar que el **Gobierno** declara la emergencia de interés nacional: la declara el **Ministro del Interior**. El Consejo de Ministros declara la **zona afectada gravemente**.
-- Atribuir a la UME la **dirección** de la emergencia de interés nacional: asume la **dirección operativa**, bajo la dirección del Ministro.
-- Contar **cuatro** categorías de espacios protegidos, olvidando las Áreas Marinas Protegidas.
-- Confundir **ZEC** y **ZEPA**: la ZEPA es la de las aves.
-- Invertir los plazos de los planes: **tres años** para especies en peligro de extinción, **cinco** para vulnerables.
+- Pensar que los guardias civiles **no pueden asociarse**: pueden, en asociaciones profesionales, pero no sindicarse.
+- Creer que la **obediencia debida** cubre cualquier orden.
+- Confundir **prescripción de faltas** (3 años, 2 años, 6 meses) con **prescripción de sanciones** (3, 2 y 1 año).
+- Atribuir la separación del servicio al Director General: la impone el **Ministro de Defensa**.
 
 ## Test propio de repaso (con soluciones)
 
 Preguntas escritas por ProLince para practicar; no son preguntas oficiales.
 
-1. ¿Quién declara una emergencia de interés nacional? a) El Consejo de Ministros. b) El Presidente del Gobierno. c) El titular del Ministerio del Interior. d) El Consejo Nacional de Protección Civil.
-2. ¿Qué figura NO es una categoría de espacio natural protegido del art. 30 de la Ley 42/2007? a) Monumentos Naturales. b) Paisajes Protegidos. c) Reservas de la Biosfera. d) Áreas Marinas Protegidas.
-3. Los planes de protección civil pueden asignar funciones a las Fuerzas y Cuerpos de Seguridad del Estado: a) Solo con autorización judicial. b) Sin atribuirlas a unidades concretas. c) Designando siempre la unidad. d) Nunca.
-4. La inclusión de una especie como «vulnerable» exige un plan de conservación en un plazo máximo de: a) Un año. b) Tres años. c) Cinco años. d) Diez años.
-5. ¿Quién preside el Consejo Nacional de Protección Civil? a) El Ministro del Interior. b) El Ministro de Defensa. c) El Presidente del Gobierno. d) El Director General de Protección Civil y Emergencias.
+1. Según la LO 11/2007, el pabellón asignado al guardia civil: a) Es dependencia oficial a todos los efectos. b) Se considera domicilio habitual. c) Puede registrarse sin autorización. d) No goza de inviolabilidad.
+2. ¿Quién preside el Consejo de la Guardia Civil? a) El Director General. b) El Ministro de Defensa. c) El Ministro del Interior o persona en quien delegue. d) El Presidente del Gobierno.
+3. Las faltas graves prescriben a los: a) Seis meses. b) Un año. c) Dos años. d) Tres años.
+4. ¿Cuál es una sanción por falta leve? a) Pérdida de destino. b) Reprensión. c) Suspensión de empleo de un mes. d) Arresto.
+5. El derecho de petición de los guardias civiles se ejerce: a) Solo de forma colectiva. b) Solo de forma individual. c) A través de su asociación. d) No lo tienen.
 
-**Soluciones:** 1-c (art. 29); 2-c (las reservas de la biosfera están en el título IV, no en el art. 30); 3-b (art. 38.2); 4-c (art. 59.1.b); 5-a (art. 39.2).
+**Soluciones:** 1-b (art. 5.1 LO 11/2007); 2-c (art. 52); 3-c (art. 21 LO 12/2007); 4-b (art. 11.3); 5-b (art. 13).
 
-Si prefieres trabajar el tema con esquemas y tests ya hechos, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) lo desarrolla dentro de los 23 temas de conocimientos del programa.
+## Cómo estudiarlo
 
-## Preguntas frecuentes
-
-### ¿Quién declara una emergencia de interés nacional?
-El titular del Ministerio del Interior, por iniciativa propia o a instancia de las comunidades autónomas o de los Delegados del Gobierno (art. 29 de la Ley 17/2015).
-
-### ¿Entra el régimen sancionador de la Ley 17/2015?
-No. El programa fija los títulos I a V; el régimen sancionador es el título VI.
-
-### ¿Hay que estudiar toda la Ley 42/2007?
-No: solo el título preliminar y los títulos II, III y IV.
-
-### ¿Por qué se estudia una directiva derogada?
-Porque el programa oficial la cita expresamente. La Directiva (UE) 2023/1791 la sustituyó con efectos desde el 12 de octubre de 2025; si una convocatoria futura actualiza el temario, estudia lo que indique esa convocatoria.
-
-### ¿Qué diferencia hay entre emergencia de interés nacional y zona afectada gravemente?
-La primera es una situación de dirección y coordinación de la respuesta, que declara el Ministro del Interior. La segunda es una declaración del Consejo de Ministros para aplicar medidas de recuperación y ayudas.
-
-### ¿La UME dirige las emergencias de interés nacional?
-Asume su dirección operativa, pero actúa bajo la dirección del Ministro del Interior (art. 37.4).',
-   '/blog/proteccion-civil-y-desarrollo-sostenible-en-el-temario.jpg', 'Guardias civiles evacuando a una vecina mayor durante una inundación', 'publicado', '2027-01-11T06:22:00.000Z', 'acceso-guardia-civil',
-   ARRAY['protección civil', 'desarrollo sostenible', 'temario', 'ley 17/2015']::text[], '{"title":"Protección civil Guardia Civil: Ley 17/2015 y tema 16","description":"Tema 16 de Guardia Civil: Ley 17/2015 de Protección Civil, Ley 42/2007 de Patrimonio Natural y Directiva 2012/27/UE. Qué entra, esquemas y test."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('que-llevar-al-examen-de-la-guardia-civil-y-que-esta-prohibido', 'articulo', 'Qué llevar al examen de la Guardia Civil y qué está prohibido', 'Bolígrafo negro y DNI sí; móviles, relojes o gafas inteligentes, diccionarios y calculadoras no. Lo que dice la convocatoria de 2026 para cada prueba, qué pasa si lo incumples y una lista para la víspera.', 'La respuesta corta: **lleva bolígrafo de tinta negra y tu documento de identidad, y deja fuera móviles, relojes o gafas inteligentes, diccionarios, libros, apuntes y calculadoras**. Incumplirlo no es una falta menor: la convocatoria prevé la exclusión del proceso y la pérdida de los derechos de examen.
-
-Todo lo que sigue sale de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)), en concreto de las bases 5.3, 6.1, 6.2 y 6.5. Si en tu convocatoria cambia algo, manda la que esté vigente, y el Tribunal de Selección puede dar instrucciones concretas el día de la prueba: escúchalas.
-
-## Lo que dice la base 5.3, palabra por palabra
-
-La norma central es breve y conviene leerla entera:
-
-> «Salvo que lo determine el Tribunal de Selección, en ningún caso, se permitirá el uso de diccionarios, libros, apuntes, calculadoras o cualquier otro tipo de ayudas. Además, está prohibida la entrada en las aulas y salas de examen y en las de entrevistas personales con teléfonos móviles, relojes o gafas inteligentes o con cualquier dispositivo que permita la grabación, reproducción, transmisión o recepción de datos, imágenes o sonidos.»
-
-Y el párrafo siguiente fija la consecuencia: «El incumplimiento de estas normas llevará consigo la exclusión del aspirante del proceso de selección y la pérdida de los derechos de examen».
-
-Fíjate en tres matices:
-
-1. **Hay dos prohibiciones distintas.** Una es de **uso** (diccionarios, libros, apuntes, calculadoras, cualquier ayuda). La otra es de **entrada** (móviles, relojes o gafas inteligentes y dispositivos que graben, reproduzcan, transmitan o reciban). Con los dispositivos no basta con no usarlos: no pueden entrar contigo.
-2. **Alcanza a la entrevista personal**, no solo a las aulas de examen.
-3. **La única excepción** es que el Tribunal de Selección determine otra cosa. Si no lo dice expresamente, no se permite.
-
-## Qué llevar según la prueba
-
-| Prueba | Qué exige la convocatoria | Base |
-|---|---|---|
-| Ortografía, gramática, conocimientos generales e inglés | Bolígrafo de tinta de color negro | 6.1.1 |
-| Psicotécnica | Lo que indique el Tribunal (la convocatoria no detalla material) | 6.1.2 |
-| Pruebas físicas | Atuendo deportivo adecuado y certificado médico oficial expedido en los 20 días anteriores (o la ficha médica que admite la base) | 6.1.3 a) |
-| Entrevista personal | Informe de vida laboral (o, si eres militar, la Hoja General de Servicios); antes se rellena el cuestionario BIODATA | 6.1.3 b) |
-| Reconocimiento médico | Presentarse en ayunas y con retención de orina | 6.1.3 c) |
-| Todas | DNI u otro documento legal que lo sustituya | 6.5 |
-
-### El bolígrafo negro
-La base 6.1.1 lo dice para las cuatro pruebas de conocimientos: «irán provistos de bolígrafo de tinta de color negro». Lleva **al menos dos o tres**. La convocatoria no habla de repuestos, pero un bolígrafo que se seca a mitad de los 140 minutos no tiene arreglo rápido. Practica en casa con el mismo modelo que vayas a llevar: si marcas en simulacros con lápiz, el día del examen notarás la diferencia.
-
-### El documento de identidad
-Según la base 6.5, el Tribunal, sus colaboradores y auxiliares pueden pedirte que acredites tu identidad **en cualquier momento**, y para eso debes ir con el DNI «o cualquier otro documento legal que lo sustituya». **No acreditarla supone la exclusión.** Revisa la fecha de caducidad semanas antes: renovar el DNI requiere cita y no siempre la hay de un día para otro.
-
-### Certificado médico y ropa deportiva
-Para las pruebas físicas debes entregar, antes de empezar, el certificado médico oficial con la frase literal que exige la base, en los modelos de los apéndices III y IV. No presentarlo en esos términos supone la exclusión. Lo explicamos con detalle en [certificado médico de las pruebas físicas](/blog/certificado-medico-pruebas-fisicas-guardia-civil).
-
-### Documentación para la entrevista
-La vida laboral (o la Hoja General de Servicios) se aporta en la fecha de citación de la entrevista. El BIODATA no puntúa, pero sirve de apoyo a los entrevistadores. Tienes el proceso en [entrevista y reconocimiento médico](/blog/entrevista-reconocimiento-medico-guardia-civil).
-
-## Qué no debes llevar (o debes dejar fuera)
-
-- **Teléfono móvil**, aunque esté apagado: la prohibición es de entrada en el aula.
-- **Reloj inteligente o pulsera con conexión**, y **gafas inteligentes**.
-- **Auriculares**, incluidos los inalámbricos: son dispositivos que reproducen o reciben sonido.
-- **Cualquier aparato que grabe, reproduzca, transmita o reciba** datos, imágenes o sonidos.
-- **Diccionarios, libros, apuntes, calculadoras** y «cualquier otro tipo de ayudas».
-
-### ¿Y un reloj normal?
-La base prohíbe expresamente los relojes **inteligentes**. No dice nada específico de los relojes analógicos o digitales sin conexión, ni garantiza que haya un reloj en el aula. Ese detalle lo concreta el Tribunal, así que no lo des por supuesto: si quieres controlar el tiempo, lleva preparado un reparto de minutos por partes que puedas seguir aunque no tengas reloj, y atiende a las indicaciones del día. Cómo repartir los 140 minutos lo tienes en [la estructura del examen](/blog/examen-conocimientos-guardia-civil-estructura).
-
-### ¿Dónde dejo el móvil?
-La convocatoria no prevé consignas ni taquillas. Lo más seguro es no llevarlo, o dejarlo en el coche o con un acompañante. Si el Tribunal habilita algún sistema para depositarlo, sigue sus instrucciones, pero no cuentes con ello.
-
-## El único llamamiento: llegar tarde también excluye
-
-La base 6.2 establece que se te convoca a cada prueba en **único llamamiento**. Si no estás presente cuando el Presidente del Tribunal declara el inicio de la prueba o de tu turno, quedas excluido, «sea cual fuere la causa que al respecto pueda alegarse», salvo los supuestos del capítulo V del Reglamento de ordenación de la enseñanza en la Guardia Civil. Si la prueba se hace en varios días, el Tribunal puede autorizar un cambio de día o tanda **por causas justificadas y antes de que empiecen**.
-
-Hay otra regla que mucha gente no conoce: una vez que haces la primera prueba del día, debes hacer **todas las previstas para esa fecha**, en el orden establecido. Si abandonas o no superas alguna, quedas excluido.
-
-El lugar, la fecha y la hora los anuncia el Tribunal (base 5.4). Y cuando hay que ordenar a los aspirantes, en 2026 se empieza por el primer apellido que comienza por la letra **«U»** (base 6.4).
-
-## Casos prácticos (hipotéticos)
-
-**Caso 1. Laura llega con el reloj inteligente puesto.** Se da cuenta en la puerta del aula. Lo correcto es no entrar con él: dejarlo fuera según indique el personal o volver a dejarlo en el coche si hay tiempo. Entrar con él ya incumple la base 5.3, aunque no lo use.
-
-**Caso 2. Javier no encuentra el DNI la mañana del examen, pero tiene el pasaporte en vigor.** La base 6.5 admite «cualquier otro documento legal que lo sustituya». Un documento oficial en vigor que acredite la identidad debería servir, pero si tienes dudas sobre un documento concreto, resuélvelas antes con la información del Tribunal, no en la puerta.
-
-**Caso 3. A Marta se le acaba la tinta a mitad de la prueba de conocimientos.** Si llevaba un segundo bolígrafo negro, pierde diez segundos. Si no, depende de lo que pueda resolver el personal del aula, y pierde tiempo y calma. Por eso se llevan varios.
-
-**Caso 4. Pedro se queda dormido y llega cuando ya ha empezado su turno.** El único llamamiento no admite excusas: la base dice «sea cual fuere la causa». Queda excluido. Duerme cerca si el examen es lejos y calcula el viaje con margen.
-
-## Errores frecuentes
-
-- **Pensar que el móvil apagado no cuenta.** Cuenta: se prohíbe la entrada.
-- **Olvidar que la prohibición alcanza a la entrevista.** Lo dice la base 5.3.
-- **Llevar un solo bolígrafo**, o uno azul. La convocatoria pide tinta negra.
-- **No mirar la caducidad del DNI** hasta la víspera.
-- **Llegar justo.** Con colas de identificación y cientos de aspirantes, llegar a la hora exacta es llegar tarde.
-- **Ensayar con condiciones distintas.** Si en tus [simulacros](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados) consultas el móvil o paras el cronómetro, el día del examen te faltará el hábito de trabajar 140 minutos seguidos.
-
-## Lista para la víspera
-
-1. DNI (u otro documento legal que lo sustituya) en vigor, en la cartera o en la mochila.
-2. Tres bolígrafos de tinta negra, probados.
-3. Lugar, fecha, hora y turno anotados en papel, por si no puedes mirar el móvil.
-4. Ruta y tiempo de viaje calculados, con margen para aparcar y hacer cola.
-5. Móvil, reloj inteligente y auriculares fuera del aula.
-6. Ropa cómoda por capas: la temperatura de un aula grande es impredecible.
-7. Para las físicas: certificado médico con la fecha bien calculada y ropa deportiva. Para el reconocimiento: ayunas y retención de orina. Para la entrevista: vida laboral.
-
-Si es tu primera oposición, [preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero) te da el contexto general, y el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) de ProLince incluye simulacros para ensayar en condiciones parecidas a las reales.
+Lee la LO 11/2007 título a título y haz dos listas: lo que pueden hacer con límites y lo que no pueden hacer. Para la LO 12/2007, fija las cifras con tablas y repásalas con [repaso espaciado](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario); conéctalo con la [deontología profesional](/blog/deontologia-profesional-el-codigo-de-conducta-que-entra).
 
 ## Preguntas frecuentes
 
-### ¿Puedo llevar el móvil apagado en la mochila?
-La base 5.3 prohíbe la **entrada** en las aulas y salas de examen con teléfonos móviles, sin distinguir si están encendidos o apagados. Lo más seguro es no llevarlo.
+### ¿Puede un guardia civil afiliarse a un sindicato?
+No. La LO 11/2007 les prohíbe la sindicación (art. 11) y la huelga (art. 12), y afiliarse a partidos o sindicatos (art. 18). Sí pueden constituir asociaciones profesionales.
 
-### ¿Vale un bolígrafo azul?
-La convocatoria pide bolígrafo de tinta de color negro para ortografía, gramática, conocimientos generales e inglés. Usa negro.
+### ¿Puede un guardia civil presentarse a unas elecciones?
+La ley dice que no disfrutan del sufragio pasivo en los términos que establezca la legislación electoral general (art. 10.2). El derecho de voto sí lo tienen.
 
-### ¿Qué pasa si se me olvida el DNI?
-La base 6.5 admite el DNI «o cualquier otro documento legal que lo sustituya». Sin acreditar la identidad, la consecuencia es la exclusión.
+### ¿Cuánto prescribe una falta leve?
+A los seis meses, según el art. 21 de la LO 12/2007.
 
-### ¿Se aplican las mismas normas en la entrevista personal?
-Sí. La prohibición de entrar con móviles, relojes o gafas inteligentes y dispositivos de grabación o transmisión menciona expresamente las salas de entrevistas personales.
+### ¿Se aplica el régimen disciplinario a los alumnos de Baeza?
+Sí, en la medida en que les sea aplicable y con un régimen específico de sanciones (arts. 2 y 18 de la LO 12/2007).
 
-### ¿Puedo llevar calculadora a la psicotécnica?
-No, salvo que el Tribunal lo determine. La base 5.3 prohíbe con carácter general las calculadoras y cualquier otra ayuda.
+### ¿La LO 12/2007 entra en el examen de acceso?
+El programa vigente cita la LO 11/2007 completa en el tema 15, pero no la LO 12/2007. Comprueba el temario de cada convocatoria.
 
-### ¿Puedo cambiar de día si coincide con algo importante?
-Solo si la prueba se celebra en más de un día, por causas justificadas y pidiéndolo antes de su inicio; lo decide el Tribunal (base 6.2).
-
-### ¿Puedo llevar agua o comida?
-La convocatoria no lo regula. Lo decide el Tribunal o la organización de la sede, así que sigue sus indicaciones y no dependas de ello: come bien antes de entrar.',
-   NULL, NULL, 'publicado', '2027-01-10T06:05:00.000Z', 'acceso-guardia-civil',
-   ARRAY['examen', 'normas del examen', 'material permitido', 'convocatoria']::text[], '{"title":"Qué llevar al examen de la Guardia Civil y qué no","description":"Material permitido y prohibido en el examen de la Guardia Civil según la convocatoria de 2026: bolígrafo negro, DNI, móviles y relojes inteligentes."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('recursos-oficiales-gratuitos-para-preparar-la-guardia-civil', 'articulo', 'Recursos oficiales gratuitos para preparar la Guardia Civil', 'Convocatoria, temario oficial, cuestionarios y plantillas de exámenes reales, textos legales consolidados y cartografía: lo que la Guardia Civil y otras fuentes públicas ofrecen gratis, dónde está y cómo usarlo en tu semana de estudio.', 'Antes de pagar nada, conviene saber qué te da gratis la propia Administración. **Respuesta corta:** la convocatoria, el temario oficial, cuestionarios de exámenes reales con sus plantillas de respuestas (al menos los de 2026), los textos legales consolidados del BOE, los modelos de certificados y fuentes públicas para temas concretos como topografía o ciberseguridad. Lo que no encontrarás es temario explicado ni baterías oficiales de psicotécnicos. Esto es lo que hemos comprobado.
-
-## 1. La convocatoria, en el BOE
-
-Es el documento que manda. La de 2026 es la Resolución 160/38243/2026, de 5 de mayo, publicada en el BOE del 8 de mayo: [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982). Contiene los requisitos, las plazas, el desarrollo y la puntuación de cada prueba, los méritos del concurso (apéndice I), las marcas de las pruebas físicas (apéndice II) y los modelos de certificado médico (apéndices III y IV). Si dudas de algo, la respuesta está ahí. Te explicamos sus fechas y plazas en [convocatoria Guardia Civil 2026](/blog/convocatoria-guardia-civil-2026-plazas-calendario).
-
-**Cómo usarla:** léela entera una vez, y subraya tres cosas: requisitos (base 2), pruebas (bases 6 y 7) y méritos (apéndice I). Cuando salga la de 2027, compárala con la de 2026 para ver qué cambia.
-
-## 2. La página oficial del proceso selectivo
-
-La propia convocatoria (base 4.11) dice que las resoluciones del Tribunal se publican oficialmente en la [página de ingreso en la Escala de Cabos y Guardias](https://web.guardiacivil.es/es/tramites/ingresos/ingresocuerpo/) de la web de la Guardia Civil. Allí se han publicado en 2026 las listas de admitidos, la convocatoria de cada prueba, los resultados provisionales y definitivos, los resultados de las psicofísicas y las **plantillas de respuestas** de la prueba escrita.
-
-Para consultas, la base 4.10 da como contacto el Servicio de Selección y Formación de la Jefatura de Enseñanza, con la dirección de correo ingreso-gc@guardiacivil.org.
-
-## 3. El temario oficial
-
-La Guardia Civil publica en PDF el [temario de las convocatorias de ingreso](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf), con cada tema dividido en bloques y los títulos o capítulos concretos de cada norma. Es el documento más útil para saber **qué partes entran** y no estudiar de más ni de menos.
-
-La convocatoria de 2026 se remite a la Resolución de 26 de junio de 2019, modificada por la Resolución de 3 de octubre de 2022. Antes de fiarte de un PDF, comprueba que coincide con el que cite la convocatoria vigente.
-
-Importante: el temario oficial es un **índice de normas**, no son apuntes.
-
-## 4. Cuestionarios y plantillas de exámenes anteriores
-
-Hemos comprobado que se pueden descargar de la web de la Guardia Civil:
-
-- **2026:** [cuestionario modelo A](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/Procesos_Selectivos_2026/INGRESO-GC-2026-TIPO-A.pdf) y [modelo B](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/Procesos_Selectivos_2026/INGRESO-GC-2026-TIPO-B.pdf), con ortografía, gramática, conocimientos e inglés.
-- **Plantillas de 2026:** la [plantilla corregida (PDF n.º 2)](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/PLANTILLAS-INGRESO_CABOS_-Y_GUARDIAS.-2026-2.pdf), con las respuestas de conocimientos, idioma, ortografía, gramática y aptitudes intelectuales. La primera versión tenía un error en una pregunta (la 7 del modelo A y la 88 del B) que el Tribunal corrigió.
-- **2022:** [cuestionario 1A](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2022/IngresoGC2022/INGRESO_GC_2022_1A.PDF) y sus variantes 1B, 2A y 2B, de la convocatoria de la Resolución 160/38262/2022.
-
-No hemos localizado en la web oficial cuestionarios de todos los años ni la plantilla de 2022. Te contamos cómo trabajarlos en un artículo próximo sobre exámenes oficiales anteriores.
-
-## 5. Las leyes, gratis y actualizadas: el BOE
-
-Todas las normas del temario están en el BOE en **versión consolidada**, es decir, con las modificaciones incorporadas, y cada artículo indica cuándo se modificó. Son gratuitas y descargables en PDF y en ePub. Úsalas como fuente última: si un resumen (incluido el nuestro) no coincide con el texto consolidado, manda el BOE. Algunos ejemplos del programa:
-
-| Norma | Enlace |
-| --- | --- |
-| Constitución Española | [BOE-A-1978-31229](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) |
-| LO 2/1986, de Fuerzas y Cuerpos de Seguridad | [BOE-A-1986-6859](https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859) |
-| LO 12/1995, de Represión del Contrabando | [BOE-A-1995-26836](https://www.boe.es/buscar/act.php?id=BOE-A-1995-26836) |
-| Ley 6/2020, de servicios electrónicos de confianza | [BOE-A-2020-14046](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046) |
-
-Un truco: en la ficha de cada norma consolidada, mira la fecha de la última actualización. Si una pregunta de un examen antiguo no cuadra con el texto actual, probablemente la norma ha cambiado.
-
-## 6. Modelos de documentos
-
-La convocatoria incluye los modelos de certificado médico oficial para las pruebas físicas (apéndices III y IV). En 2026 había que entregarlo expedido dentro de los 20 días anteriores. Lo explicamos en [el certificado médico de las pruebas físicas](/blog/certificado-medico-pruebas-fisicas-guardia-civil).
-
-## 7. Fuentes públicas para temas concretos
-
-- **Topografía:** el Instituto Geográfico Nacional ofrece cartografía oficial gratuita, útil para practicar escalas, curvas de nivel y pendientes. Cómo hacerlo, en [topografía para Guardia Civil](/blog/topografia-para-guardia-civil-escalas-curvas-de-nivel).
-- **Ciberseguridad:** el documento de principios y recomendaciones básicas del CCN-CERT, que forma parte del tema 17, se publica en la web del CCN-CERT. Lo comentamos en [tecnologías de la información](/blog/tecnologias-de-la-informacion-en-el-temario-conceptos-que-caen).
-
-## Cómo combinarlos en una semana de estudio
-
-| Día | Recurso | Qué haces |
-| --- | --- | --- |
-| Lunes | Temario oficial | Marcas qué títulos y capítulos del tema de la semana entran |
-| Martes a jueves | BOE consolidado | Estudias esos artículos y haces tus fichas |
-| Viernes | Tus apuntes | Test del tema |
-| Sábado | Cuestionario oficial | Resuelves las preguntas de ese tema en los exámenes de 2022 y 2026 |
-| Cualquier día | Convocatoria | Árbitro para dudas de plazos, requisitos y pruebas |
-
-En los cuestionarios de 2026 cada pregunta de conocimientos lleva delante el nombre de la norma de la que procede (por ejemplo, «Topografía.» o «Ley Orgánica de Represión del Contrabando.»), lo que facilita localizar las de cada tema.
-
-## Caso práctico (hipotético): preparar un tema solo con recursos oficiales
-
-Supón que te toca el tema 23, Derecho fiscal:
-
-1. El temario oficial te dice que entran la LO 12/1995, el RD 1649/1998 y unos títulos concretos del Código Aduanero de la Unión.
-2. Descargas la LO 12/1995 consolidada del BOE y haces una tabla con los umbrales que separan delito e infracción.
-3. Buscas en el cuestionario de 2026 las preguntas del tema (las últimas del modelo A) y las respondes.
-4. Corriges con la plantilla oficial y, para cada fallo, vuelves al artículo.
-
-Con eso has trabajado el tema con fuentes oficiales y sin gastar dinero. Lo que te falta es lo que más tiempo ahorra: un temario explicado, tests abundantes y un plan.
-
-## Cómo saber si un recurso es oficial
-
-No todo lo que circula como «oficial» lo es. Tres comprobaciones rápidas:
-
-1. **El dominio:** las fuentes que citamos están en boe.es o en web.guardiacivil.es. Un PDF colgado en otra web puede estar modificado o desfasado.
-2. **La fecha y la referencia:** una convocatoria se identifica por su número de resolución y su código BOE; un cuestionario oficial lleva en la portada la resolución de la convocatoria a la que pertenece.
-3. **La versión:** en las normas, mira la fecha de la última actualización del texto consolidado; en las plantillas, usa siempre la versión corregida si el Tribunal ha publicado más de una.
-
-## Qué no encontrarás gratis (y qué hacer)
-
-- **Temario explicado:** no hay apuntes oficiales. Puedes elaborarlos tú a partir del BOE o usar material de una academia.
-- **Psicotécnicos oficiales para practicar:** la plantilla de 2026 incluye las respuestas de aptitudes intelectuales, pero no hemos encontrado publicados los cuadernillos del psicotécnico. Necesitarás material propio o de academia.
-- **Tests abundantes:** los exámenes oficiales son pocos para practicar todo el año.
-
-Si estás empezando, lee [cómo preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero). Y si prefieres el temario ya trabajado y con tests, existe el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) de ProLince. Pero con estos recursos ya tienes una base seria sin gastar un euro.
-
-## Errores frecuentes con los recursos gratuitos
-
-- **Estudiar con un temario de otro año** sin cotejarlo con la convocatoria vigente.
-- **Fiarse de leyes descargadas hace meses:** las normas se modifican y el texto consolidado se actualiza.
-- **Usar la primera versión de una plantilla** cuando el Tribunal ha publicado otra corregida.
-- **Enterarse tarde de las resoluciones:** listas, fechas y resultados se publican en la página del proceso selectivo. Revísala con frecuencia cuando haya convocatoria en marcha.
-- **Acumular recursos sin usarlos:** cinco fuentes bien trabajadas valen más que cincuenta descargadas.
-
-## Checklist de recursos
-
-- [ ] Convocatoria vigente descargada y leída.
-- [ ] Página del proceso selectivo guardada en favoritos.
-- [ ] Temario oficial descargado y cotejado con la convocatoria.
-- [ ] Cuestionarios y plantilla de 2026 descargados.
-- [ ] Normas del tema de la semana en versión consolidada.
-
-## Preguntas frecuentes
-
-### ¿Dónde se publica la convocatoria de la Guardia Civil?
-En el BOE, y la Guardia Civil la recoge en su web. La de 2026 es la BOE-A-2026-9982.
-
-### ¿Dónde se publican las listas y los resultados?
-En la página del proceso selectivo de la web de la Guardia Civil, según la base 4.11 de la convocatoria. Algunas resoluciones, como las listas de admitidos y los propuestos, se publican también en el BOE.
-
-### ¿El temario oficial incluye los apuntes?
-No. Es la relación de normas y partes de cada una que entran. El texto de las leyes está en el BOE.
-
-### ¿Hay plantilla oficial de respuestas?
-De la prueba de 2026, sí: está publicada en la página del proceso selectivo, en una versión corregida. De otros años no la hemos localizado en la web oficial.
-
-### ¿Puedo practicar con exámenes reales gratis?
-Sí, con los cuestionarios que hemos enlazado. Comprueba en la propia web si hay otros años disponibles cuando estudies.
-
-### ¿Basta con los recursos gratuitos para aprobar?
-Pueden darte una base, pero no sustituyen al estudio ni garantizan nada. Son material de referencia, no un método.',
+### ¿Dónde preparo esta parte del temario?
+En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil), con tests por temas.',
    NULL, NULL, 'publicado', '2027-01-06T06:57:00.000Z', 'acceso-guardia-civil',
-   ARRAY['recursos gratuitos', 'convocatoria', 'temario oficial', 'exámenes oficiales']::text[], '{"title":"Recursos oficiales gratis Guardia Civil: dónde están","description":"Qué publican gratis la Guardia Civil y el BOE para opositores: convocatoria, temario, exámenes con plantillas, leyes consolidadas y mapas, con enlaces."}'::jsonb, '{}'::jsonb)
+   ARRAY['derechos y deberes', 'régimen disciplinario', 'temario', 'normativa']::text[], '{"title":"Derechos y deberes del guardia civil: LO 11/2007 y 12/2007","description":"LO 11/2007 de derechos y deberes y LO 12/2007 de régimen disciplinario de la Guardia Civil: límites, faltas, sanciones, prescripción y test resuelto."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -852,167 +373,475 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados', 'articulo', 'Simulacros: cada cuánto hacerlos y cómo analizar los resultados', 'Un simulacro que no se analiza es tiempo perdido. Qué frecuencia te conviene en cada fase, cómo calcular la nota con la fórmula oficial, cuándo compensa arriesgar y una hoja de análisis para saber exactamente qué repasar.', 'Un simulacro mide dónde estás, pero **solo mejora tu nota si luego lo analizas**. Hacer uno cada día sin revisar los fallos da sensación de avance, no avance. **Respuesta corta:** durante la primera vuelta del temario, tests por tema y algún simulacro parcial; en la segunda vuelta, un simulacro completo cada una o dos semanas; en la fase final, uno por semana, siempre con su análisis al día siguiente.
+  ('geas-asi-son-los-buceadores-de-la-guardia-civil', 'articulo', 'GEAS: así son los buceadores de la Guardia Civil', 'Los GEAS son los grupos de especialistas en actividades subacuáticas de la Guardia Civil. Qué misiones tienen, dónde están desplegados, cómo se estructura la especialidad de buceo y qué dice la normativa sobre cómo se obtiene la cualificación.', 'Buscar a una persona desaparecida en un embalse, recuperar pruebas de un río o revisar el casco de una embarcación: dentro de la Guardia Civil, son tareas de las unidades de actividades subacuáticas. **Los GEAS (Grupos de Especialistas en Actividades Subacuáticas) son los grupos descentralizados de esa especialidad**, repartidos por una veintena de provincias y ciudades. La modalidad de **Buceador Guardia Civil** puede obtenerse siendo guardia, cabo o cabo primero; la de **Buceador Técnico** exige haber obtenido antes la primera.
 
-## Cada cuánto hacerlos
+Te contamos lo verificable. Para saber cómo funcionan en general los destinos, consulta antes [especialidades y destinos](/blog/destinos-especialidades-guardia-civil).
 
-No hay una cifra oficial; esta es la orientación que usamos, coherente con las fases de nuestro [plan mes a mes](/blog/proposito-2027-entrar-en-la-guardia-civil-plan-mes-a-mes):
+## Qué hacen los buceadores de la Guardia Civil
 
-| Fase | Frecuencia orientativa | Para qué sirve |
-| --- | --- | --- |
-| Primera vuelta al temario | Test al cerrar cada tema; un simulacro parcial al mes con lo ya estudiado | Fijar lo aprendido y medir tiempos |
-| Segunda vuelta | Un simulacro completo cada una o dos semanas, más tests mezclados | Detectar lagunas y coger ritmo |
-| Desde la convocatoria hasta la prueba | Uno por semana, en condiciones reales | Ensayar el examen y la gestión del tiempo |
+La [web oficial](https://web.guardiacivil.es/es/institucional/conocenos/especialidades/subacuaticas/) define su misión: ejercer las funciones del Cuerpo en medios acuáticos y subacuáticos, con o sin equipos autónomos de respiración. Sus cometidos fundamentales son:
 
-La regla útil: **cada simulacro completo pide casi tanto tiempo de análisis como de examen**. Si no puedes revisarlo a fondo, haz menos.
+- Búsqueda, localización y recuperación de personas y objetos en el agua y bajo ella.
+- Reconocimiento, seguridad y protección de personalidades, instalaciones, embarcaciones, obras u objetos en el agua.
+- Vigilancia y protección del patrimonio cultural, histórico y natural sumergido.
+- Reconocimiento y seguridad en competiciones o actividades lúdicas en el medio acuático.
+- Funciones de policía judicial en su medio específico.
+- Apoyo técnico y operativo a otras unidades del Cuerpo.
+- Búsqueda y localización de artefactos explosivos en el agua y, en determinadas circunstancias, demoliciones subacuáticas.
+- Reconocimiento y exploración de fondos con medios a distancia.
+- Velar por el cumplimiento de la normativa sobre actividades subacuáticas.
+- Colaboración con equipos similares, militares o civiles.
 
-## Hazlos en condiciones reales
+Ejemplos de servicios que encajan en esa lista: buscar a un bañista desaparecido, recuperar un arma arrojada a un río en una investigación, revisar el muelle antes de una visita oficial, vigilar un pecio protegido frente a expolios o asegurar una travesía a nado. Cuando hay delito, por ejemplo un expolio de patrimonio sumergido, actúan como policía judicial; los delitos sobre el patrimonio histórico están en el capítulo II del título XVI del [Código Penal](https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444).
 
-- **140 minutos seguidos** para ortografía, gramática, 100 preguntas de conocimientos y 20 de inglés (es la estructura de la prueba de conocimientos de la convocatoria de 2026).
-- Sin apuntes, sin móvil y sin parar a consultar dudas.
-- Con bolígrafo y una hoja de respuestas aparte, para acostumbrarte a pasar las marcas.
-- Por la mañana, si puedes, para que tu concentración esté entrenada a esa hora.
-- El psicotécnico, por separado y también cronometrado: 80 preguntas en 55 minutos.
+## Dónde encajan en la estructura
 
-### Un reparto del tiempo (propuesta propia)
+Según la web, los primeros grupos se crearon en **1981**, por el elevado número de rescates que exigían equipos autónomos de respiración, y en **1997** se integraron en el **Servicio Marítimo**. La norma de estructura del Cuerpo ([Orden PRE/422/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906), artículo 11.2.c) atribuye al Servicio Marítimo las funciones de la Guardia Civil en aguas marítimas y continentales, «incluidas las actividades en el medio subacuático». Depende de la Jefatura Fiscal y de Fronteras.
 
-| Bloque | Minutos orientativos |
-| --- | --- |
-| Ortografía (5 frases) y gramática (20 frases) | 15 |
-| Conocimientos (100 preguntas) | 90-95 |
-| Inglés (20 preguntas) | 20 |
-| Repaso y pasar respuestas a la hoja | 10-15 |
-| **Total** | **140** |
+La organización tiene dos niveles:
 
-No es una regla: mide tus tiempos en los primeros simulacros y ajusta. Lo importante es no llegar al inglés con cinco minutos.
+- **Unidad de Actividades Subacuáticas (UAS)**, con sede en Valdemoro (Madrid): órgano central. Incluye el **Grupo Central (GRUCEAS)**, que presta servicio en su demarcación y es reserva del mando para todo el territorio, y el **Grupo Técnico (GRUTAS)**, preparado para inmersiones a presiones absolutas superiores a 6 atmósferas y en espacios confinados.
+- **GEAS**: órganos descentralizados. Dependen orgánicamente de la zona o unidad en que se encuadran y, técnicamente, de la UAS.
 
-## Calcula la nota con la fórmula oficial
+## Dónde hay GEAS
 
-Con cuatro opciones, **cada error resta un tercio de acierto** y el blanco no resta:
+La web oficial enumera, en noviembre de 2026, estas ubicaciones:
 
-- **Conocimientos:** aciertos − errores / 3, sobre 100. Mínimo: 50.
-- **Inglés:** aciertos − errores / 3, sobre 20. Mínimo: 8.
-- **Psicotécnico:** 0,375 por acierto y −0,125 por error, sobre 30. Mínimo: 12, que equivale a 32 aciertos netos.
-- **Ortografía y gramática:** 6 errores o más excluyen en cada una.
+| Península | Islas y ciudades autónomas |
+|---|---|
+| Alicante, Almería, Asturias (Gijón), Barcelona, Badajoz, Cádiz (Algeciras), Cuenca, Gerona (L''Estartit), Huesca, La Coruña, La Rioja, Málaga, Murcia (Cartagena), Sevilla, Valencia, Valladolid | Islas Baleares (Palma de Mallorca e Ibiza), Las Palmas, Santa Cruz de Tenerife, Ceuta y Melilla |
 
-Puedes hacerlo en la [calculadora de nota](/calculadora-nota-guardia-civil) y repasar el criterio en [cómo se calcula la nota](/blog/calcular-nota-examen-guardia-civil).
+Fíjate en que hay GEAS de interior, como Cuenca, Valladolid, Huesca o La Rioja: los embalses, lagos y ríos también son su medio de trabajo. El despliegue puede cambiar, así que contrástalo en la web antes de citarlo.
 
-### Ejemplos resueltos
+## La especialidad según la normativa
 
-1. Conocimientos: 65 aciertos, 24 errores y 11 en blanco → 65 − 8 = **57**.
-2. Inglés: 11 aciertos, 6 errores y 3 en blanco → 11 − 2 = **9**: aprobado justo.
-3. Psicotécnico: 40 aciertos y 16 errores → 40 × 0,375 − 16 × 0,125 = 15 − 2 = **13**.
-4. Ortografía: 4 errores → apto; gramática: 6 errores → **excluido**, aunque todo lo demás esté bien.
+La [Orden PCM/509/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-5900) abre su lista de especialidades con **Actividades subacuáticas (ACSUB, E1)**. Su anexo ([PDF del BOE](https://www.boe.es/boe/dias/2020/06/10/pdfs/BOE-A-2020-5900.pdf)) fija:
 
-## ¿Arriesgar o dejar en blanco? Las cuentas
+| | Buceador Guardia Civil (BGC) | Buceador Técnico Guardia Civil (BTGC) |
+|---|---|---|
+| Empleos de obtención | Teniente y capitán; sargento y sargento primero; guardia, cabo y cabo primero | Los mismos |
+| Cualificación previa | Ninguna | Buceador (BGC) |
+| Límite de edad de acceso | Sí (la ficha no da la cifra) | Sí |
+| Límite de edad para permanecer | No | No |
+| Mantenimiento y renovación | Con pruebas o condiciones | Con pruebas o condiciones |
+| Servidumbre | 4 años | 3 años |
 
-Con cuatro opciones y la penalización de un tercio, el valor esperado de contestar al azar es:
+La servidumbre del buceador puede cumplirse también en el Centro de Adiestramientos Especiales, la Unidad Especial de Intervención o las unidades de seguridad de la Casa de S. M. el Rey y de la Presidencia del Gobierno. La pérdida de la cualificación la insta el jefe de la UAS.
 
-| Situación | Cálculo | Valor esperado por pregunta |
-| --- | --- | --- |
-| Ninguna opción descartada | 1/4 × 1 − 3/4 × 1/3 | 0 |
-| Una descartada (eliges entre 3) | 1/3 × 1 − 2/3 × 1/3 | +0,11 |
-| Dos descartadas (eliges entre 2) | 1/2 × 1 − 1/2 × 1/3 | +0,33 |
+Las reglas generales de la orden se aplican igual: el requisito fundamental es acreditar la cualificación y ocupar un puesto que la requiera; el acceso puede condicionarse por empleo, edad, condiciones psicofísicas, titulaciones o idiomas, y las cualificaciones con mantenimiento pueden caducar o perderse (artículos 7, 9 y 10).
 
-Lectura: adivinar a ciegas no gana ni pierde de media, pero **si de verdad puedes descartar opciones, contestar compensa**. El matiz está en el «de verdad»: si tus descartes fallan a menudo, el cálculo cambia. Por eso conviene medirlo en tus simulacros: marca las preguntas en las que arriesgaste y cuenta cuántas acertaste. La cuenta es sencilla: arriesgar suma siempre que aciertes más de una de cada cuatro preguntas arriesgadas, porque cada acierto vale lo mismo que tres errores. Si aciertas menos, te está restando.
+### No confundir con la especialidad Marítima
 
-## Cómo analizar un simulacro: la hoja
+En la misma orden, **Marítima (E13)** es otra especialidad, con cinco modalidades: patrón de embarcaciones, mecánico-marinero, mecánico de mantenimiento, capitán u oficial de puente de buque oceánico y jefe u oficial de máquinas de buque oceánico. Aunque los GEAS formen parte del Servicio Marítimo, la cualificación de buceador es distinta y se obtiene en su propio curso. Cada una tiene su ficha, sus escalas y su servidumbre, así que conviene leer la que te interese antes de planificar tu carrera. El Servicio Marítimo y el Aéreo los veremos en un artículo posterior.
 
-Al día siguiente, rellena una tabla así para cada pregunta fallada o dudosa:
+## Cómo se accede
 
-| N.º | Tema | Causa | Arriesgada | Acción |
-| --- | --- | --- | --- | --- |
-| 23 | Tema 8 | No lo sabía | No | Ficha del art. y repaso del tema |
-| 41 | Tema 12 | Confusión | Sí | Tabla comparativa de plazos |
-| 77 | Tema 18 | Mala lectura | No | Rodear «INCORRECTA» |
+1. **Ingresar** y obtener un primer destino, como explicamos en [cómo se asignan los primeros destinos](/blog/como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil).
+2. **Superar el curso de especialización.** El [Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764) exige con carácter general aptitud psicofísica y técnica, límites de edad o altura si los hay, titulaciones o habilitaciones, servidumbre anterior cumplida y no tener antecedentes penales ni sanciones graves o muy graves sin cancelar (artículo 56). La selección se publica en el Boletín Oficial de la Guardia Civil (artículo 43.8).
+3. **Obtener un puesto de especialista**, que se asigna por **concurso de méritos** ([Orden INT/26/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-897), artículo 10.1).
+4. **Cumplir la servidumbre**, con un máximo legal de cinco años para cualquier titulación ([Real Decreto 470/2019](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398), artículo 53).
 
-### 1. Separa la nota de la causa
+## Lo que no te podemos decir
 
-- **No lo sabía:** tema no estudiado o mal estudiado.
-- **Lo confundí:** dos normas, órganos o plazos parecidos.
-- **Leí mal:** negaciones, «incorrecta», «excepto».
-- **Dudé y cambié:** tenías la correcta.
-
-Cada causa se corrige de forma distinta: las dos primeras con estudio; las dos últimas, con técnica de examen.
-
-### 2. Cuenta los errores por tema
-Los temas que acumulan más errores son tu repaso prioritario de la semana. No te fíes de la sensación: los datos suelen sorprender.
-
-### 3. Controla el tiempo por bloque
-Si agotas el tiempo, el problema es de ritmo, no de conocimiento. Practica bloques de 25 preguntas cronometrados.
-
-### 4. Mira la tendencia, no un resultado aislado
-Un mal simulacro puede ser un mal día. Calcula la media de los últimos tres o cuatro. Y compara con el [corte de años anteriores](/nota-de-corte) solo como referencia: la nota de corte se calcula sobre 195 puntos (concurso y oposición juntos) y cambia cada convocatoria.
-
-## Caso práctico (hipotético): cuatro simulacros
-
-| Simulacro | Conocimientos | Inglés | Errores de lectura |
-| --- | --- | --- | --- |
-| 1 | 48 | 7 | 6 |
-| 2 | 53 | 9 | 5 |
-| 3 | 51 | 10 | 2 |
-| 4 | 58 | 10 | 1 |
-
-Media de los tres últimos en conocimientos: (53 + 51 + 58) / 3 = 54. La tendencia sube, el bajón del tercero no es preocupante y los errores de lectura han caído de 6 a 1 gracias a una regla sencilla (rodear las negaciones). El inglés ha pasado de suspenso a un margen de 2 puntos: hay que seguir, porque es eliminatorio.
-
-## Qué hacer la semana después de un simulacro
-
-El análisis solo sirve si cambia tu semana. Una forma sencilla de convertirlo en acciones:
-
-1. **Los tres temas con más errores** entran en el repaso de la semana, con fichas nuevas para cada fallo.
-2. **Cada confusión** genera una tabla comparativa (por ejemplo, dos plazos o dos órganos parecidos).
-3. **Cada error de lectura** se convierte en una regla personal que escribes en la primera página del siguiente simulacro.
-4. **Las preguntas falladas** se repiten sin mirar a los siete días.
-
-## Con qué hacerlos
-
-Los cuestionarios publicados por la Guardia Civil son el mejor punto de partida, pero son pocos ([exámenes oficiales anteriores](/blog/examenes-oficiales-anteriores-donde-encontrarlos)). Resérvalos para la segunda vuelta y la fase final. Para el resto, usa [tests propios de ProLince](/test-guardia-civil) o los simulacros del [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil), que siguen el mismo formato aunque no son exámenes oficiales.
-
-## Cómo gestionar el día del simulacro
-
-Trata cada simulacro como un ensayo general. Duerme bien la noche anterior, prepara antes el material (bolígrafos, reloj, hoja de respuestas) y decide de antemano tu orden de bloques y tus tiempos. Durante el examen, marca con un símbolo las preguntas dudosas para volver al final y no te quedes atascado en ninguna más de un minuto. Al terminar, no corrijas en caliente: deja el análisis para el día siguiente, con la cabeza fría. Ese hábito es el que querrás tener el día de la prueba real.
+Las pruebas de acceso (natación, apnea u otras), la edad máxima concreta, el número de plazas o la duración del curso **no figuran en ninguna fuente oficial que hayamos podido verificar**. Los fija cada convocatoria. Desconfía de cifras que veas en foros o redes sin referencia a un documento oficial.
 
 ## Errores frecuentes
 
-- Hacer simulacros completos antes de terminar la primera vuelta y desmoralizarse.
-- Corregir sin aplicar la penalización.
-- Mirar la solución nada más fallar, sin analizar la causa.
-- Repetir el mismo simulacro hasta sabérselo: mide memoria del examen, no conocimiento.
-- Olvidar ortografía, gramática e inglés en los simulacros «de práctica».
+1. **Confundir GEAS con el Servicio Marítimo en general.** Los GEAS están integrados en él, pero el Marítimo tiene además patrones, mecánicos y buques con sus propias modalidades.
+2. **Pensar que solo trabajan en el mar.** Hay grupos de interior.
+3. **Creer que un título de buceo deportivo da acceso.** La cualificación se obtiene en el curso del Cuerpo; lo que aporte una titulación previa lo dirá cada convocatoria.
+4. **Olvidar el mantenimiento.** La cualificación exige pruebas periódicas y puede perderse.
 
-## Checklist de cada simulacro
+## Caso práctico (hipotético)
 
-- [ ] 140 minutos seguidos, sin interrupciones.
-- [ ] Nota calculada con penalización en cada bloque.
-- [ ] Hoja de fallos con causa y acción.
-- [ ] Errores contados por tema.
-- [ ] Media actualizada de los últimos tres o cuatro.
-- [ ] Repaso de la semana decidido según los datos.
+Un juzgado investiga un robo y hay indicios de que el arma se arrojó a un pantano. El GEAS de la provincia planifica la búsqueda, delimita la zona y, si la visibilidad es mala, puede apoyarse en medios de reconocimiento a distancia. Si localiza el arma, la recupera preservando la cadena de custodia, porque actúa como policía judicial en su medio. Para inmersiones a presiones superiores a 6 atmósferas o en espacios confinados, la estructura prevé el GRUTAS de la UAS. El caso es inventado; las funciones son las de la web oficial.
+
+## Qué puedes hacer ya como opositor
+
+- **Natación.** Una de las pruebas de ingreso es de natación: prepara bien la [prueba de 50 metros](/blog/natacion-50-metros-guardia-civil).
+- **Condición física general**, con un plan razonable y sin descuidar el descanso. Si tienes dudas médicas, habla con un profesional.
+- **Titulaciones y méritos.** Algunas ya puntúan en la oposición: revisa la [fase de concurso](/blog/fase-concurso-guardia-civil-meritos).
+
+Lo primero es aprobar. Si estás en ello, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te ayuda a llegar a ese punto de partida.
 
 ## Preguntas frecuentes
 
-### ¿Cuántos simulacros debo hacer antes del examen?
-No hay un número oficial. Más que la cantidad, importa que analices cada uno y que la tendencia esté estable por encima de los mínimos.
+### ¿GEAS y buceadores son lo mismo?
+Los GEAS son los grupos; los buceadores son el personal especialista, con las modalidades de Buceador y Buceador Técnico de la orden de especialidades.
 
-### ¿Qué nota debo sacar en los simulacros?
-El mínimo es 50 sobre 100 en conocimientos y 8 sobre 20 en inglés, pero conviene tener margen, porque el día real hay nervios. Y para obtener plaza no basta con el mínimo: cuenta la nota final.
+### ¿Dependen del Servicio Marítimo?
+Sí. Según la web oficial, las unidades subacuáticas se integraron en el Servicio Marítimo en 1997, y la UAS es su órgano central.
 
-### ¿Es mejor hacer tests por temas o simulacros completos?
-Los tests por temas sirven para aprender; los simulacros, para ensayar el examen. Se complementan según la fase.
+### ¿Un guardia puede ser buceador?
+Sí. El anexo de la Orden PCM/509/2020 incluye a guardias, cabos y cabos primeros entre los empleos de obtención.
 
-### ¿Debo dejar preguntas en blanco?
-A ciegas, contestar no gana ni pierde de media. Si descartas al menos una opción con seguridad, contestar suma. Compruébalo con tus propios datos.
+### ¿Qué hacen además de rescatar?
+Protegen el patrimonio sumergido, buscan artefactos explosivos en el agua, revisan instalaciones y embarcaciones y hacen funciones de policía judicial en el medio acuático.
 
-### ¿Hago el psicotécnico el mismo día que el simulacro de conocimientos?
-Puedes, para acostumbrarte al cansancio, pero analízalo por separado. Lo importante es que se haga cronometrado.
+### ¿Cuántos GEAS hay?
+La web oficial enumera una veintena de ubicaciones en provincias, islas y en Ceuta y Melilla.
 
-### ¿Qué hago si empeoro en un simulacro?
-Mira la causa de los fallos antes de preocuparte. Si son de lectura o de tiempo, se corrigen rápido; si son de conocimiento, ve a esos temas.
+### ¿Cómo se entra?
+Con la cualificación que da el curso de especialización y un puesto de especialista asignado por concurso de méritos. Consulta la convocatoria vigente.',
+   '/blog/geas-asi-son-los-buceadores-de-la-guardia-civil.jpg', 'Buceadores de la Guardia Civil recuperando un ánfora del fondo del mar', 'publicado', '2027-01-12T06:39:00.000Z', 'acceso-guardia-civil',
+   ARRAY['geas', 'buceadores', 'subacuáticas', 'especialidades']::text[], '{"title":"GEAS Guardia Civil: así son los buceadores del Cuerpo","description":"GEAS de la Guardia Civil: qué hacen los buceadores, dónde están, cómo se organiza la UAS, las modalidades de la especialidad y qué exige la normativa."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
 
-### ¿Cuánto tiempo dedico a analizar un simulacro?
-Como orientación, casi tanto como al propio examen: entre una hora y media y dos horas para un simulacro completo. Si un día no lo tienes, analiza al menos los errores de los tres temas con más fallos y deja el resto para el día siguiente.',
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('las-practicas-despues-de-baeza-que-te-espera-guardia-civil', 'articulo', 'Las prácticas después de Baeza: qué te espera en el segundo curso', 'El segundo curso son 40 semanas en una unidad real, con tutor, formación a distancia y evaluación de apto o no apto. Qué recogen el plan de estudios, el Reglamento de destinos y el de enseñanza sobre las prácticas y qué pasa al terminarlas.', 'Respuesta corta: tras el primer curso en el centro docente, el **segundo curso se hace trabajando en una unidad de la Guardia Civil**: 40 semanas de prácticas, con un tutor que te observa a diario y una formación a distancia que hay que ir superando cada trimestre. Cada parte se califica como «apto» o «no apto». No se acaba la formación al salir de Baeza: se completa en la calle. Y también se puede suspender.
+
+Este artículo se centra en las prácticas. El resto del recorrido está en [la Academia de Baeza](/blog/academia-baeza-guardia-civil) y en [la vida diaria del alumno](/blog/un-dia-en-la-academia-de-baeza-horarios-normas-y-permisos).
+
+## Dónde encajan las prácticas en el plan de estudios
+
+El plan de estudios de la Escala de Cabos y Guardias, la [Orden PCM/576/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-9632), organiza la formación en dos cursos y 2.416 horas (artículo 9):
+
+| Curso | Dónde | Carga |
+|---|---|---|
+| Primero | Presencial en el centro docente | 1.141 horas, con 13,2 semanas de Instrucción y Adiestramiento |
+| Segundo | Unidades de la Guardia Civil | 1.275 horas a través del módulo de Servicio Operativo |
+
+El artículo 11.1.b precisa que el segundo curso son **40 semanas, equivalentes a 1.020 horas, de prácticas en unidades**, e incluye **255 horas de enseñanza a distancia**. La [convocatoria de 2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982) lo resume igual en su base 11.1. Encaja con el Reglamento de ordenación de la enseñanza ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), artículo 33.2), que permite incluir en la formación un periodo de prácticas en unidades de hasta 40 semanas.
+
+Para pasar al segundo curso hay que haber superado **todo** el primero (artículo 26.1). Si queda algo pendiente, se repite el primer curso.
+
+## El módulo de Servicio Operativo
+
+Las prácticas no son un periodo suelto: forman parte de las actividades de instrucción y adiestramiento, junto con el módulo que se cursa en Baeza (artículo 17.1). Según la orden, estos módulos incluyen las competencias de mando básicas que te permitirán ejercer las funciones de tu empleo y dar continuidad al mando cuando te corresponda.
+
+El módulo de Servicio Operativo se desarrolla **íntegramente en la unidad de prácticas que se asigne a cada alumno** (artículo 17.4). Tiene dos asignaturas (artículo 32):
+
+| Asignatura | Cómo se evalúa |
+|---|---|
+| Prácticas de Unidad | Observación diaria de un tutor o profesor colaborador, según determine la Dirección General |
+| Consolidación de Conocimientos | Formación a distancia: hay que superar cada trimestre un número de horas y todas al acabar |
+
+Cada asignatura se califica solo como **apto o no apto**. Si resultas «no apto» en alguna, **repites el curso con otra unidad y otro tutor**. El máximo son **dos convocatorias**: agotarlas supone la baja en el centro, igual que superar el plazo máximo de tres cursos académicos para todo el plan (artículos 28 y 32).
+
+Dos reglas más que conviene no olvidar:
+
+- **Asistencia.** Quien no pueda asistir a más del 30 % de los periodos de Instrucción y Adiestramiento o de Servicio Operativo permanece en el curso (artículo 26.3).
+- **Informe Personal del Alumno.** Sigue valorándose tu conducta conforme a los principios, valores y código de conducta del Cuerpo; una segunda evaluación negativa abre expediente de baja (artículo 19).
+
+## Tu día a día en la unidad
+
+La [Orden PCM/6/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-520), que regula el régimen del alumnado, fija estas reglas para las prácticas:
+
+- El **régimen diario** lo fija el jefe de la unidad, tomando como referencia el régimen de servicios, la jornada y el horario de esa unidad, y debe favorecer los objetivos que marque el Departamento de Instrucción y Adiestramiento (artículo 40.4).
+- Prestas los **servicios que te ordene el jefe** de la unidad donde completas tu formación (artículo 44.2).
+- Quienes tienen a su cargo tu formación en la unidad pueden **corregir infracciones académicas**, y esas correcciones se comunican al responsable designado de los alumnos en prácticas (artículo 54).
+
+El plan de estudios añade que el límite de 35 horas lectivas semanales no rige en las prácticas, que se ajustan al régimen de prestación del servicio (artículo 11.1.c). Es decir, harás los turnos y servicios de la unidad, no un horario escolar.
+
+Qué servicios concretos harás depende de la unidad. La normativa no publica un reparto de unidades ni una lista cerrada de tareas, así que no voy a inventarlos.
+
+## Situación administrativa y residencia
+
+El [Reglamento de destinos](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398) trata la incorporación a las unidades para hacer las prácticas como una **comisión de servicio** con ocupación temporal de un puesto (artículo 41.2.a). Y la [Orden INT/26/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-897) reserva en el catálogo de puestos un subcatálogo específico de **puestos para personal alumno en prácticas** (artículo 4.1.i).
+
+Sobre dónde vives: el [Real Decreto 274/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-6895) se aplica también a los alumnos (artículo 2.1). Cuando se ocupa temporalmente un puesto, la residencia temporal es la del municipio donde tiene su sede la unidad, aunque puede fijarse en otro con las mismas condiciones generales, entre ellas un desplazamiento de hora y media como máximo en condiciones normales (artículo 3).
+
+## Retribución durante las prácticas
+
+El Real Decreto 131/2018 (artículo 81.3) establece que los alumnos con el empleo eventual de guardia civil que hacen prácticas desempeñando un puesto en una unidad perciben, además del sueldo y las pagas extraordinarias del empleo, las **retribuciones complementarias de carácter general** asignadas a ese empleo y las **complementarias del puesto**. No doy cifras porque dependen de la normativa retributiva de cada año; para orientarte, tienes [el artículo sobre el sueldo](/blog/sueldo-guardia-civil).
+
+## Embarazo o permisos durante las prácticas
+
+El Reglamento de ordenación de la enseñanza reconoce al alumnado en situación de embarazo, lactancia de un hijo menor de doce meses o determinados permisos (nacimiento, adopción, acogimiento) el derecho a **retrasar el inicio o interrumpir, una sola vez, el periodo de prácticas**, siempre que no afecte a otras materias presenciales, y a no computar como consumidas las convocatorias a las que no pudo presentarse (artículo 65.2). Lo veremos con detalle en un artículo posterior sobre las mujeres en la Guardia Civil.
+
+## Qué pasa al terminar
+
+La disposición adicional tercera de la Orden PCM/576/2021 es clara: finalizado el periodo de prácticas, **el alumno permanece en la unidad hasta que obtiene su primer destino**, tras el ingreso en la Escala de Cabos y Guardias.
+
+Al superar el plan de estudios ocurren tres cosas:
+
+1. Adquieres la **condición de guardia civil** y el primer empleo de la escala (artículo 37.1 del Real Decreto 131/2018; base 11.6 de la convocatoria).
+2. Toda la promoción se integra en una **clasificación final única**, ordenada por la nota final (o por la puntuación típica si se forma en varios centros), que se publica en una única resolución con idéntica fecha de incorporación a la escala (artículo 29 de la Orden PCM/576/2021). En empate, prioridad para el de mayor edad.
+3. Esa calificación final **determina tu orden de escalafón** (artículo 37.6 del Real Decreto 131/2018).
+
+Cómo influye eso en el primer destino lo explicamos en el artículo de mañana, con el Reglamento de destinos delante.
+
+## Errores frecuentes
+
+1. **Pensar que las prácticas son un trámite.** Hay dos convocatorias y agotarlas supone la baja.
+2. **Descuidar la formación a distancia.** Consolidación de Conocimientos se mide cada trimestre: no vale recuperarla al final.
+3. **Olvidar que sigues siendo alumno.** Te siguen aplicando el régimen del alumnado, el informe personal y las correcciones académicas.
+4. **Dar por hecho que te quedarás en esa unidad.** La norma solo dice que permaneces en ella hasta obtener el primer destino.
+
+## Caso práctico (hipotético)
+
+Andrés termina Baeza y empieza las prácticas en un puesto territorial. En el segundo trimestre se retrasa con la formación a distancia y no supera las horas exigidas. ¿Qué arriesga? La orden exige superar un número de horas cada trimestre y todas al final; si al terminar la asignatura de Consolidación de Conocimientos es «no apto», tendrá que repetir el curso en otra unidad y con otro tutor, y le quedará una sola convocatoria. El caso es inventado; las consecuencias son las del artículo 32.
+
+## Cómo prepararte desde la oposición
+
+- Lo que estudias ahora es la base jurídica del servicio: Constitución, derechos fundamentales, derecho penal, detención. Un temario bien asentado se nota en Baeza y en la unidad.
+- La formación a distancia exige constancia, así que conviene llegar con el hábito de estudio hecho. Si aún estás opositando, el [plan de estudio para preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero) y el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te ayudan a crearlo.
+- Repasa también tus [derechos y deberes como guardia civil](/blog/derechos-deberes-y-regimen-disciplinario-del-guardia-civil): en la unidad los vivirás a diario.
+
+## Preguntas frecuentes
+
+### ¿Cuánto duran las prácticas de la Guardia Civil?
+Cuarenta semanas, que forman el segundo curso, con 255 horas de enseñanza a distancia incluidas (artículo 11 de la Orden PCM/576/2021).
+
+### ¿Se puede suspender en las prácticas?
+Sí. Cada asignatura del módulo se califica como apto o no apto; quien suspende repite el curso con otra unidad y otro tutor, y agotar las dos convocatorias supone la baja.
+
+### ¿Puedo elegir la unidad de prácticas?
+En lo que he podido verificar, la normativa dice que se asigna una unidad a cada alumno, pero no describe un sistema de elección. Consulta las instrucciones que te dé el centro.
+
+### ¿Cobro durante las prácticas?
+Sí: el sueldo y las pagas del empleo de guardia civil y, al desempeñar un puesto, las complementarias generales del empleo y las del puesto (artículo 81 del Real Decreto 131/2018). Las cuantías dependen de cada año.
+
+### ¿Quién me evalúa?
+En Prácticas de Unidad, un tutor o profesor colaborador mediante observación diaria; en Consolidación de Conocimientos, la superación de las horas de formación a distancia.
+
+### ¿Qué pasa cuando acaban las prácticas?
+Permaneces en la unidad hasta obtener tu primer destino tras ingresar en la Escala de Cabos y Guardias, y tu calificación final fija tu orden de escalafón.',
    NULL, NULL, 'publicado', '2027-01-08T06:31:00.000Z', 'acceso-guardia-civil',
-   ARRAY['simulacros', 'test', 'nota', 'análisis de resultados']::text[], '{"title":"Simulacros Guardia Civil: frecuencia y análisis de nota","description":"Cada cuánto hacer simulacros de Guardia Civil, cómo calcular la nota con la fórmula oficial, cuándo arriesgar y cómo analizar tus errores."}'::jsonb, '{}'::jsonb)
+   ARRAY['prácticas', 'baeza', 'servicio operativo', 'segundo curso']::text[], '{"title":"Prácticas después de Baeza en la Guardia Civil","description":"Prácticas tras Baeza: 40 semanas en una unidad, Servicio Operativo, tutor, evaluación apto o no apto, retribuciones y qué ocurre hasta el primer destino."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('seprona-la-especialidad-de-proteccion-de-la-naturaleza', 'articulo', 'SEPRONA: la especialidad de protección de la naturaleza de la Guardia Civil', 'El SEPRONA es la policía judicial medioambiental de la Guardia Civil. Qué hace, cómo se organiza (UCOMA, equipos, patrullas, parques nacionales), qué delitos investiga y qué dice la Orden PCM/509/2020 sobre cómo se obtiene la especialidad.', 'Respuesta corta: el SEPRONA (Servicio de Protección de la Naturaleza) es la especialidad de la Guardia Civil que vela por la conservación de la naturaleza y el medio ambiente y actúa como **policía judicial específica en materia medioambiental**. No se entra en él desde la oposición: hay que obtener una cualificación específica en un curso y ocupar un puesto que la exija. Las modalidades de **equipos** y **patrullas** pueden obtenerse en la Escala de Cabos y Guardias; la de **dirección** es de oficiales. Los requisitos concretos de cada curso no están en las normas generales, así que no los invento.
+
+## De dónde le viene la competencia
+
+La [Ley Orgánica 2/1986](https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859) atribuye a la Guardia Civil «velar por el cumplimiento de las disposiciones que tiendan a la conservación de la naturaleza y medio ambiente, de los recursos hidráulicos, así como de la riqueza cinegética, piscícola, forestal y de cualquier otra índole relacionada con la naturaleza» (artículo 12.1.B.e).
+
+Según la [web oficial](https://web.guardiacivil.es/es/institucional/conocenos/especialidades/Medio_ambiente/), el compromiso viene de lejos: la Cartilla del Guardia Civil de 1845 ya dedicaba capítulos a la caza, la pesca y los montes, y una Real Orden de 7 de junio de 1876 encomendó al Cuerpo el servicio de policía rural y forestal. El SEPRONA como tal se creó el **21 de junio de 1988**.
+
+## Qué hace
+
+La misión, según la web oficial, es velar por el cumplimiento de las normas de conservación de la naturaleza y del medio ambiente, los espacios protegidos, los recursos hídricos y la riqueza cinegética, piscícola y forestal. En concreto:
+
+- Protección del suelo, el agua y la atmósfera, de la sanidad animal y de la flora y la fauna.
+- Lucha contra vertidos y contaminación, comercio ilegal de especies protegidas, caza y pesca irregulares y maltrato animal.
+- Defensa de los espacios naturales; prevención, investigación y extinción de incendios.
+- Yacimientos arqueológicos y paleontológicos y ordenación del territorio.
+- Concienciación, prevención y vigilancia administrativa.
+
+Ejemplos de servicios que encajan en esas funciones: comprobar si un vertido a un río tiene autorización, inspeccionar una tienda de animales exóticos, investigar el origen de un incendio forestal o denunciar una obra en suelo protegido. La norma de estructura del Cuerpo ([Orden PRE/422/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906), artículo 13) incluye también el patrimonio histórico y la ordenación del territorio entre sus materias.
+
+## Los delitos que investiga
+
+Cuando la infracción es penal, el SEPRONA actúa como policía judicial y, según la orden de estructura, se atiene a las normas técnicas de la Jefatura de Policía Judicial. Los principales delitos están en el [Código Penal](https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444):
+
+| Bloque | Dónde está |
+|---|---|
+| Ordenación del territorio y urbanismo | Título XVI, capítulo I (artículos 319 y siguientes) |
+| Patrimonio histórico | Título XVI, capítulo II |
+| Recursos naturales y medio ambiente | Título XVI, capítulo III (artículo 325 y siguientes) |
+| Flora y fauna (especies protegidas, caza y pesca, venenos) | Título XVI, capítulo IV (artículos 332 a 336) |
+| Incendios forestales | Artículos 352 y siguientes |
+| Delitos contra los animales | Título XVI bis, añadido por la Ley Orgánica 3/2023 |
+
+Si estás repasando la parte penal del temario, el esquema de [delito, penas y grados](/blog/derecho-penal-para-guardia-civil-delito-penas-y-grados) te ayuda a encajar estos tipos.
+
+## Cómo se organiza
+
+- **Jefatura del Servicio**, al mando de un oficial general y dependiente del Mando de Operaciones (Orden PRE/422/2013, artículos 6 y 13).
+- **Unidad Central Operativa Medioambiental (UCOMA):** centraliza la información sobre delincuencia medioambiental, hace análisis criminal, investiga los casos graves y apoya a las unidades periféricas. Según la web, cuenta con 6 grupos de investigación (GIMAS) e integra la unidad adscrita a la Fiscalía Coordinadora de Medio Ambiente y Urbanismo.
+- **Provincias:** oficinas técnicas; **equipos** de protección de la naturaleza, que detectan, cuantifican e investigan las agresiones al medio ambiente; y **patrullas**, las unidades básicas de prevención, vigilancia y denuncia, en el ámbito rural y urbano. La web habla de más de 300 patrullas y más de 50 equipos de investigación.
+- **Parques nacionales:** destacamentos en 14 parques, entre ellos Doñana, Cabañeros, Ordesa y Monte Perdido, Sierra Nevada, Teide, Monfragüe y Sierra de Guadarrama.
+
+En el plano internacional, la web explica que el SEPRONA lideró la prioridad medioambiental de EMPACT en 2024-2025 y que su Oficina Central de Análisis (OCN-Medioambiente) preside la red EnviCrimeNet. La misma página destaca el trabajo de inteligencia medioambiental: estudiar modos de actuar, rutas y lugares de comisión de los ilícitos, y elaborar Boletines de Inteligencia Medioambiental (BIMA) que se distribuyen a otros cuerpos policiales a través de Europol, Interpol y otras redes. Además, la Guardia Civil publica cada año un anuario estadístico en materia de conservación de la naturaleza y el medio ambiente, enlazado desde esa web, útil si quieres hacerte una idea del volumen de actuaciones.
+
+Las cifras son las publicadas en la web en noviembre de 2026 y pueden cambiar; no hay en ella un dato de plantilla total.
+
+## Las tres modalidades
+
+La [Orden PCM/509/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-5900) recoge la **Protección de la naturaleza (PRONA)** como especialidad E17. Su anexo, con una ficha por modalidad ([PDF del BOE](https://www.boe.es/boe/dias/2020/06/10/pdfs/BOE-A-2020-5900.pdf)), establece:
+
+| Modalidad | Código | Escalas en que se obtiene | Servidumbre |
+|---|---|---|---|
+| Dirección | PND | Oficiales (de teniente a coronel) | 4 años |
+| Equipos | PNE | Suboficiales y Cabos y Guardias | 4 años |
+| Patrullas | PNP | Suboficiales y Cabos y Guardias | 4 años |
+
+En las tres hay **límite de edad para acceder a la cualificación** (la ficha no da la cifra), no lo hay para permanecer en el puesto, y existen **pruebas o condiciones de mantenimiento y renovación**. La servidumbre se cumple en puestos como «Especialista SEPRONA-Equipos», «Especialista SEPRONA-Patrullas» o «Especialista SEPRONA-UCOMA». Según el texto publicado, la ficha de Patrullas exige como cualificación previa la de Equipos (PNE); la de Equipos no exige ninguna.
+
+## Cómo se accede
+
+La web oficial no describe cursos ni requisitos. El camino lo marcan las normas generales:
+
+1. **Ingresar y obtener un destino.** El primer destino no suele ser una especialidad: lo explicamos en [destinos y especialidades](/blog/destinos-especialidades-guardia-civil) y en [cómo se asignan los primeros destinos](/blog/como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil).
+2. **Superar el curso de especialización.** El [Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764) fija requisitos generales (artículo 56): servidumbre anterior cumplida, aptitud psicofísica y técnica, límites de edad si los hay, titulaciones o idiomas, y carecer de antecedentes penales y de sanciones graves o muy graves sin cancelar.
+3. **Obtener un puesto de especialista.** Los puestos que exigen especialidad son de **concurso de méritos** ([Orden INT/26/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-897), artículo 10.1).
+
+Es el mismo esquema que en [Tráfico](/blog/agrupacion-de-trafico-que-hace-y-como-se-entra-guardia-civil). Las condiciones concretas (años de servicio, pruebas, plazas) están en la regulación específica de la especialidad y en cada convocatoria, que no he encontrado publicadas en abierto.
+
+## Errores frecuentes
+
+1. **Pensar que el SEPRONA es un cuerpo aparte.** Es un servicio de la Guardia Civil, con su jefatura dentro del Mando de Operaciones, y a él se llega como guardia civil especialista.
+2. **Pensar que solo es campo.** Patrullas y equipos trabajan también en el ámbito urbano, por ejemplo en vertidos o comercio de especies.
+3. **Creer que hace falta una carrera de ciencias.** Las titulaciones pueden ser condición de un puesto, pero no he encontrado publicada ninguna exigencia general.
+4. **Ignorar el derecho penal.** Investigar es instruir diligencias: el temario jurídico es tu herramienta.
+
+## Caso práctico (hipotético)
+
+Una patrulla detecta espuma y peces muertos aguas abajo de una nave industrial. Toma muestras, documenta el lugar y comprueba si la empresa tiene autorización de vertido. Si los indicios apuntan a un delito contra los recursos naturales, el equipo de protección de la naturaleza asume la investigación como policía judicial y, si el caso es grave o supera la provincia, puede pedir apoyo a la UCOMA. El caso es inventado; el reparto de funciones es el que describe la web oficial.
+
+## Antes de pensar en el SEPRONA
+
+Para llegar hasta ahí, primero hay que aprobar. Si estás empezando, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) organiza el temario, que incluye la parte de [protección civil y desarrollo sostenible](/blog/proteccion-civil-y-desarrollo-sostenible-en-el-temario).
+
+## Preguntas frecuentes
+
+### ¿Qué significa SEPRONA?
+Servicio de Protección de la Naturaleza. Se creó el 21 de junio de 1988, según la web oficial de la Guardia Civil.
+
+### ¿Se puede entrar directamente en el SEPRONA?
+No. Hace falta la cualificación específica, que se obtiene en un curso, y un puesto que la exija (Orden PCM/509/2020).
+
+### ¿Qué modalidades tiene la especialidad?
+Tres: dirección, equipos y patrullas. Equipos y patrullas se pueden obtener en la Escala de Cabos y Guardias.
+
+### ¿El SEPRONA puede detener o investigar delitos?
+Sí: es la policía judicial específica en materia medioambiental, según la web oficial, y actúa conforme a las normas técnicas de la Jefatura de Policía Judicial.
+
+### ¿Hace falta formación ambiental previa?
+No lo he podido verificar. Las titulaciones pueden ser una condición del puesto, pero se concretan en la regulación específica y en cada convocatoria.
+
+### ¿Hay SEPRONA en los parques nacionales?
+Sí: la web cita destacamentos en 14 parques nacionales, de Doñana al Teide.',
+   '/blog/seprona-la-especialidad-de-proteccion-de-la-naturaleza.jpg', 'Agentes del SEPRONA atendiendo a un lince herido junto a un incendio forestal', 'publicado', '2027-01-11T06:22:00.000Z', 'acceso-guardia-civil',
+   ARRAY['seprona', 'medio ambiente', 'especialidades', 'protección de la naturaleza']::text[], '{"title":"SEPRONA Guardia Civil: funciones y cómo acceder","description":"Qué es el SEPRONA de la Guardia Civil: funciones, organización, delitos que investiga, modalidades de la especialidad y cómo se accede a ella paso a paso."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('un-dia-en-la-academia-de-baeza-horarios-normas-y-permisos', 'articulo', 'Vida en la Academia de Baeza: horarios, normas y permisos según la normativa', 'Internado, uniforme, guardias, evaluación continua y un horario con límites fijados por norma. Qué dicen las órdenes PCM/6/2021 y PCM/576/2021 sobre el día a día del alumno en Baeza, qué no es público (el horario exacto) y cómo llegar preparado.', 'Respuesta corta: el horario de Baeza hora a hora no es un dato público y lo fija cada curso el régimen interior del centro. Lo que sí está en el BOE son los **límites y las reglas** de la vida del alumno: internado como norma general, un máximo de ocho horas programadas al día y treinta y cinco a la semana, al menos ocho horas de descanso nocturno, uniformidad estricta, guardias y salidas condicionadas al rendimiento y al comportamiento. Aquí tienes lo verificable, sin leyendas de cuartel.
+
+Para el contexto general (duración, convocatorias, prácticas) lee antes [qué pasa en la Academia de Baeza después de aprobar](/blog/academia-baeza-guardia-civil). Este artículo baja al detalle del día a día.
+
+## Las dos normas que tienes que conocer
+
+- La [Orden PCM/6/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-520) regula los centros docentes de formación de la Guardia Civil y el **régimen del alumnado**: régimen de vida, uniformidad, guardias, derechos, deberes, infracciones académicas y bajas.
+- La [Orden PCM/576/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-9632) aprueba el **plan de estudios** de la Escala de Cabos y Guardias y sus normas de evaluación, progreso y permanencia.
+
+La convocatoria de cada año remite a ambas. La de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) fijó la incorporación a Baeza y a Valdemoro el **13 de octubre de 2026** (base 10.1) y recuerda que, desde ese día, el alumnado queda sujeto al régimen de derechos y deberes del Cuerpo, a las leyes penales militares, al régimen disciplinario y al régimen interior del centro (base 11.3).
+
+## Las primeras semanas: periodo de orientación y adaptación
+
+El primer curso empieza con un **periodo de orientación y adaptación**, dentro de la asignatura de Instrucción y Adiestramiento (artículo 10 de la Orden PCM/576/2021). Su duración la fija la convocatoria y su contenido, el programa de estudios.
+
+La convocatoria de 2026 lo define como el tiempo que va desde la presentación en el centro hasta la publicación del nombramiento de alumnos, y prevé que durante ese periodo las plazas que queden libres por renuncias puedan cubrirse con los siguientes aspirantes de la lista (base 10.3). El nombramiento lo hace el director del centro y se publica en el Boletín Oficial de la Guardia Civil (bases 10.4 y 10.5).
+
+Al ser nombrado recibes, con carácter eventual y solo a efectos académicos, de prácticas y retributivos, el empleo de **Guardia Civil Alumno** (disposición adicional segunda de la Orden PCM/576/2021). El Reglamento de ordenación de la enseñanza ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), artículo 81.2) establece que los alumnos de la Escala de Cabos y Guardias perciben el sueldo y las pagas extraordinarias del empleo de guardia civil. Las cuantías cambian cada año: tienes una aproximación en [cuánto cobra un guardia civil](/blog/sueldo-guardia-civil).
+
+## Qué dice la norma sobre el horario
+
+La orden no publica un cuadrante, pero sí fija los criterios del régimen diario (artículo 40.3.a de la Orden PCM/6/2021):
+
+| Criterio | Qué dice la norma |
+|---|---|
+| Actividad programada | No más de **ocho horas diarias** ni, con carácter general, **treinta y cinco semanales**, sumando lo escolar y lo extraescolar |
+| Descanso nocturno | **No inferior a ocho horas**, salvo prácticas de Instrucción y Adiestramiento o servicios nombrados, con finalidad didáctica y descanso posterior |
+| Días lectivos | **De lunes a viernes**; excepcionalmente, sábados, domingos y festivos si la programación lo exige (artículo 11.2 de la Orden PCM/576/2021) |
+| Duración del primer curso | **Máximo 44 semanas**, con 1.141 horas, de las que 13,2 semanas son de Instrucción y Adiestramiento (artículos 9 y 11) |
+
+El horario concreto, con sus variaciones por estación del año o por días festivos, está en las **normas de régimen interior** del centro (artículo 41). Esas normas no se publican en el BOE, pero tienes derecho a conocerlas: al inicio de cada curso se entrega una **guía de acogida** con lo esencial (artículo 29.3) y la orden reconoce el derecho del alumno a ser informado del régimen del alumnado y del régimen interior (artículo 50.d).
+
+## Uniformidad, encuadramiento, guardias y servicios
+
+- **Uniforme.** Vistes el que corresponda, con las peculiaridades que fije el régimen interior. La orden pide «especial énfasis» en las normas sobre cabello, barba, bigote, uñas, accesorios, tatuajes y perforaciones (artículo 42.7). Si tienes dudas con un tatuaje, consulta [qué dice la normativa sobre tatuajes](/blog/tatuajes-guardia-civil).
+- **Encuadramiento.** Los alumnos se agrupan en unidades con sus mandos, y el director puede asignar a algunos cometidos de especial responsabilidad, con los distintivos tradicionales que fije el régimen interior (artículo 43).
+- **Guardias y servicios.** Los fija la dirección del centro según las necesidades de formación en Instrucción y Adiestramiento (artículo 44.1). El régimen interior incluye además funciones de mando que los alumnos van asumiendo a medida que avanza su formación (artículo 44.3).
+- **Armas.** Las normas de régimen interior contienen reglas específicas sobre tenencia, porte, custodia y manejo de armas por los alumnos (artículo 29.2).
+
+## Salidas, fines de semana y externado
+
+El régimen general es el **internado** (artículo 40.1). El externado existe, pero en las condiciones que fije la Dirección General en las normas generales de régimen interior (artículo 40.2). En internado, el alojamiento y, según se determine, la alimentación corren por cuenta del Estado (artículo 45.2).
+
+Sobre las salidas, la orden no da un horario: dice que el alumno puede ausentarse al acabar sus actividades diarias y regresar conforme al régimen interior, siempre que acredite las condiciones y criterios que se fijen (artículo 41.3). Esos criterios se basan en **la progresión en los estudios, el comportamiento, el rendimiento académico y otras circunstancias personales**, y también determinan los fines de semana y la posible retirada del externado (artículo 40.3.d).
+
+Traducido: la libertad de salida se gana con rendimiento y conducta, y el detalle lo marca el centro.
+
+## Vacaciones y permisos
+
+El artículo 46 es breve: disfrutas de los **periodos vacacionales que fije el programa de estudios** y de los permisos por enfermedad u otros motivos justificados que se te concedan, según el plan de estudios y las instrucciones de la Dirección General.
+
+No he encontrado una fuente oficial pública con el número de días de permiso ni con las fechas de vacaciones de Baeza, así que no los doy. Se concretan en el programa de estudios de cada curso.
+
+## Evaluación: lo que pesa cada día
+
+La evaluación es **continua** (artículo 20 de la Orden PCM/576/2021). Lo esencial:
+
+- **Convocatorias.** Cuatro por asignatura, salvo en los módulos de Instrucción y Adiestramiento y de Servicio Operativo, que tienen dos (artículos 21, 30 y 32).
+- **Ponderación.** La nota de cada asignatura se multiplica por 1 si la apruebas en primera convocatoria, 0,90 en segunda, 0,80 en tercera y 0,70 en cuarta (artículo 23.2).
+- **Formación Física.** Se supera alcanzando las marcas mínimas que fija la normativa de pruebas físicas de la Guardia Civil, con al menos dos evaluaciones en el curso (artículo 31).
+- **Inglés.** Para superar el plan de estudios hay que adquirir, como mínimo, las competencias del **nivel A2** del Marco Común Europeo (artículo 18).
+- **Informe Personal del Alumno (IPA).** Valora tus cualidades profesionales en relación con los principios, valores y código de conducta; cuenta para la calificación final y una segunda evaluación negativa abre expediente de baja (artículo 19).
+- **Asistencia.** Si no puedes asistir a más del 30 % de los periodos de Instrucción y Adiestramiento o de Servicio Operativo, permaneces en el curso (artículo 26.3).
+
+La calificación final sirve para ordenar a la promoción (artículo 23.3), y esa ordenación tiene consecuencias después: lo explicaremos al hablar de los primeros destinos.
+
+## Infracciones académicas: no son sanciones disciplinarias
+
+La orden distingue entre la disciplina y la vida académica. Una **infracción académica** es, por ejemplo, incumplir los deberes académicos o el régimen interior, el fraude en exámenes, desconsideraciones leves o replicar de forma injustificada (artículo 52). No da lugar a sanciones disciplinarias (artículo 53.1): se corrige con **amonestaciones verbales o escritas** y acciones de carácter educativo, como trabajos académicos o refuerzo de instrucción o educación física en horario no lectivo, estudio controlado o la limitación de actividades extraescolares (artículo 53.4).
+
+Las amonestaciones escritas solo las imponen el director y el subdirector jefe de estudios, se tienen en cuenta en los informes personales de ese curso y admiten un escrito de descargo en cinco días hábiles (artículos 55 a 57). Las faltas disciplinarias, en cambio, se rigen por la Ley Orgánica 12/2007: tienes un repaso en [derechos, deberes y régimen disciplinario](/blog/derechos-deberes-y-regimen-disciplinario-del-guardia-civil).
+
+## Cuándo se causa baja
+
+La orden enumera las causas (artículos 63 a 69): a petición propia; por **insuficiencia de condiciones psicofísicas**; por **no superar el plan de estudios** en las convocatorias y plazos fijados (el máximo es de tres cursos académicos, ampliable uno por accidente, lesión grave o enfermedad, según el artículo 28 de la Orden PCM/576/2021); por carencia de las cualidades profesionales ligadas al código de conducta; por incumplir las condiciones de ingreso, y por sanción disciplinaria grave o muy grave o condena por delito doloso.
+
+## Errores frecuentes
+
+1. **Creer que el horario de los foros es oficial.** Cambia de un curso a otro y depende del régimen interior.
+2. **Dejar de entrenar tras aprobar.** Formación Física es una asignatura con marcas mínimas.
+3. **Relajarse con el inglés.** El plan exige un A2 para superar la formación; lo que estudiaste en la [prueba de inglés de la oposición](/blog/ingles-oposicion-guardia-civil) es tu base.
+4. **Tomarse a la ligera las amonestaciones.** Las escritas cuentan en el informe personal de ese curso.
+5. **No leer la guía de acogida.** Es el resumen oficial del régimen interior.
+
+## Caso práctico (hipotético)
+
+Lucía se incorpora en octubre. En la segunda semana llega tarde a una formación y recibe una amonestación verbal. En noviembre repite el retraso y el subdirector jefe de estudios le impone una amonestación escrita. ¿Qué consecuencias tiene? No es una sanción disciplinaria, pero se tendrá en cuenta en su informe personal de ese curso, y su régimen de salidas puede verse afectado si el régimen interior lo vincula a la conducta. Lucía puede presentar un escrito de descargo en cinco días hábiles. El caso es inventado; las reglas son las de la orden.
+
+## Antes de incorporarte
+
+1. Lee entera la resolución de aspirantes seleccionados y las instrucciones que te envíe el centro: la documentación y los efectos personales los fija cada año el centro, no los foros.
+2. Llega con rutina de sueño, de entrenamiento y de estudio. Si vienes de preparar la oposición con un horario fijo, el cambio es menor; lo explicamos en el [plan para preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero).
+3. Repasa la parte jurídica del temario: en Baeza vuelve, aplicada al servicio. En el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) trabajamos ese temario con esa vista.
+
+## Preguntas frecuentes
+
+### ¿Cuántas horas al día se trabaja en Baeza?
+La Orden PCM/6/2021 fija un máximo de ocho horas diarias de actividad programada y, con carácter general, treinta y cinco semanales. El horario real lo establece el régimen interior de cada curso.
+
+### ¿Se puede salir de la academia entre semana y los fines de semana?
+Sí, pero condicionado: la norma vincula las salidas a la progresión en los estudios, el comportamiento, el rendimiento académico y otras circunstancias personales. Las condiciones concretas las fija el régimen interior.
+
+### ¿Hay que pagar el alojamiento o la comida?
+En régimen de internado, el alojamiento corre por cuenta del Estado y, según se determine, también la alimentación (artículo 45.2).
+
+### ¿Cuántos días de permiso tiene un alumno?
+No he podido verificarlo en una fuente oficial pública. Dependen del programa de estudios y de las normas de régimen interior; consúltalo en la documentación del centro.
+
+### ¿Cobro desde el primer día?
+Como Guardia Civil Alumno percibes el sueldo y las pagas extraordinarias del empleo de guardia civil (artículo 81.2 del Real Decreto 131/2018). Las cuantías dependen de la normativa retributiva de cada año.
+
+### ¿Qué nivel de inglés exige el curso?
+Para superar el plan de estudios hay que alcanzar, al menos, las competencias del nivel A2 del Marco Común Europeo (artículo 18 de la Orden PCM/576/2021).',
+   NULL, NULL, 'publicado', '2027-01-07T06:14:00.000Z', 'acceso-guardia-civil',
+   ARRAY['baeza', 'academia', 'alumnos', 'régimen interior']::text[], '{"title":"Academia de Baeza: horarios, normas y permisos","description":"Vida en la Academia de Baeza según la normativa: internado, límites de horario, uniformidad, guardias, salidas, permisos, evaluación y causas de baja."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

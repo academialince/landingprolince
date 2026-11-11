@@ -3,7 +3,7 @@ titulo: Cómo se asignan los primeros destinos al salir de Baeza: lo que dice el
 slug: como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-22T07:29:00+01:00
+publicado_en: 2027-01-09T07:48:00+01:00
 curso: acceso-guardia-civil
 entradilla: Tu nota final fija tu número de escalafón, y los destinos de provisión por antigüedad se asignan por escalafón. Qué dicen el Reglamento de destinos y la Orden INT/26/2021 sobre vacantes, solicitudes y primer destino, y qué decide la resolución de cada promoción.
 etiquetas: [destinos, primer destino, escalafón, reglamento]

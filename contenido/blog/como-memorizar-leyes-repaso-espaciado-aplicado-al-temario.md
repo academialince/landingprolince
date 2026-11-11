@@ -3,7 +3,7 @@ titulo: Cómo memorizar leyes: repaso espaciado aplicado al temario
 slug: como-memorizar-leyes-repaso-espaciado-aplicado-al-temario
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-04T07:23:00+01:00
+publicado_en: 2027-01-03T07:06:00+01:00
 curso: acceso-guardia-civil
 entradilla: Releer subrayando es de lo menos eficaz. Qué dice la investigación sobre la curva del olvido, la práctica de recuperación y el repaso espaciado, y cómo montar un calendario de repasos para los 23 temas, con fichas de ejemplo.
 etiquetas: [memorización, repaso espaciado, técnicas de estudio, temario]

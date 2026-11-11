@@ -3,7 +3,7 @@ titulo: "Derechos, deberes y régimen disciplinario del guardia civil"
 slug: derechos-deberes-y-regimen-disciplinario-del-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-19T07:38:00+01:00
+publicado_en: 2027-01-06T07:57:00+01:00
 curso: acceso-guardia-civil
 entradilla: Dos leyes orgánicas de 2007 marcan qué puede y qué no puede hacer un guardia civil: la LO 11/2007, de derechos y deberes, y la LO 12/2007, de régimen disciplinario. Un mapa de ambas con sus límites, faltas, sanciones, plazos y un test resuelto.
 etiquetas: [derechos y deberes, régimen disciplinario, temario, normativa]

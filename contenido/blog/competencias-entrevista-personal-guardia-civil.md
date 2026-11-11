@@ -3,7 +3,7 @@ titulo: Las seis competencias de la entrevista personal de la Guardia Civil y c�
 slug: competencias-entrevista-personal-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-01T07:45:00+01:00
+publicado_en: 2026-11-30T07:28:00+01:00
 curso: acceso-guardia-civil
 entradilla: La convocatoria enumera seis competencias que valora la entrevista personal. Qué significa cada una, cómo demostrarla con ejemplos propios, quién te entrevista, qué documentos llevar y cómo se revisa un «no apto provisional».
 etiquetas: [entrevista, competencias, no apto provisional, revisión]

@@ -3,7 +3,7 @@ titulo: "Falsos amigos en inglés: los errores clásicos al traducir del españo
 slug: falsos-amigos-en-ingles-los-errores-tipicos-del-opositor
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-16T07:47:00+01:00
+publicado_en: 2027-01-27T07:54:00+01:00
 curso: acceso-guardia-civil
 entradilla: Palabras inglesas que se parecen a las españolas pero significan otra cosa. Una tabla amplia de falsos amigos con ejemplos propios, los parciales, los que encajan en contextos de seguridad y un método para no caer en un test de cuatro opciones.
 etiquetas: [inglés, falsos amigos, vocabulario, examen]

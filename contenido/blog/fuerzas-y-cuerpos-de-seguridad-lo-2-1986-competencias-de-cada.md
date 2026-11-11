@@ -3,7 +3,7 @@ titulo: Fuerzas y Cuerpos de Seguridad (LO 2/1986): competencias de cada cuerpo
 slug: fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-24T07:16:00+01:00
+publicado_en: 2026-12-22T07:42:00+01:00
 curso: acceso-guardia-civil
 entradilla: La Ley Orgánica 2/1986 reparte la seguridad pública entre Estado, comunidades autónomas y ayuntamientos. Qué hace cada cuerpo, dónde actúa la Guardia Civil, los principios de actuación, la policía judicial y la coordinación, con caso práctico y test.
 etiquetas: [lo 2/1986, temario, competencias, fuerzas y cuerpos de seguridad]

@@ -3,7 +3,7 @@ titulo: "Academia, online o por libre: cómo preparar la Guardia Civil"
 slug: academia-online-o-por-libre-como-preparar-la-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-12T07:39:00+01:00
+publicado_en: 2027-01-23T07:46:00+01:00
 curso: acceso-guardia-civil
 entradilla: Tres formas de preparar la oposición, con sus ventajas e inconvenientes reales: academia presencial, curso online y estudio por libre. Cómo elegir según tu tiempo, tu disciplina y tu presupuesto, y qué comprobar antes de pagar.
 etiquetas: [academia, online, por libre, preparación]

@@ -2,139 +2,164 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('bloques-de-estudio-y-tecnica-pomodoro-para-opositores', 'articulo', 'Bloques de estudio y técnica Pomodoro para opositores', 'Cómo dividir tu día en bloques de estudio con objetivo, qué es la técnica Pomodoro y qué se puede decir de ella con honestidad. Plantillas de sesión, una semana tipo y cómo combinar bloques cortos con los 140 minutos del examen.', 'Sentarse cuatro horas «a estudiar» y levantarse sin saber qué has aprendido es una de las formas más comunes de perder el tiempo en una oposición. Dividir el día en **bloques con un objetivo concreto** ayuda a que cada hora cuente y, sobre todo, a saber al final del día qué has hecho.
+  ('armas-y-explosivos-en-el-temario-de-la-guardia-civil', 'articulo', 'Armas y explosivos en el temario de la Guardia Civil', 'El tema 22 se apoya en dos reglamentos: el de Armas (RD 137/1993) y el de Explosivos (RD 130/2017). Categorías de armas, armas prohibidas, guías de pertenencia, licencias y tarjetas, y claves del control de explosivos, con tablas, caso práctico y test.', 'El **tema 22** del programa de la Escala de Cabos y Guardias, «Armas y explosivos», tiene dos bloques: el **Real Decreto 137/1993, de 29 de enero, Reglamento de Armas**, y el **Real Decreto 130/2017, de 24 de febrero, Reglamento de Explosivos** (consulta el [temario](/temario-guardia-civil)).
 
-**Respuesta corta:** un bloque de estudio es un tramo de tiempo con una tarea definida (qué vas a estudiar y cómo vas a comprobar que lo sabes) y un descanso al final. La técnica Pomodoro es una forma popular de organizarlo, con intervalos de 25 minutos, pero no es obligatoria ni mágica: lo que más pesa es **qué haces dentro del bloque**, no cuánto dura.
+**Respuesta corta:** aprende **la clasificación por categorías, qué documento exige cada arma, quién lo concede y cuánto dura**, y en explosivos, **qué administración controla qué**. Y recuerda por qué lo estudia un guardia civil: la LO 2/1986 le atribuye «las derivadas de la legislación vigente sobre armas y explosivos» (art. 12.1.B.a, que vimos en [competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada)). Dentro de la Dirección General, esa tarea la planifica la Jefatura de Armas, Explosivos y Seguridad, como explicamos en [Ministerio del Interior y Ministerio de Defensa](/blog/ministerio-del-interior-y-ministerio-de-defensa-estructura).
 
-## Qué es la técnica Pomodoro
+## Reglamento de Armas (RD 137/1993)
 
-La propuso Francesco Cirillo a finales de los años ochenta y le puso el nombre del temporizador de cocina con forma de tomate que usaba. El esquema clásico es:
+Publicado en el [BOE-A-1993-6202](https://www.boe.es/buscar/act.php?id=BOE-A-1993-6202), su texto consolidado incorpora numerosas reformas; la más amplia es la del **Real Decreto 726/2020**, en vigor desde el 5 de noviembre de 2020. Estudia siempre el texto vigente.
 
-1. Eliges una tarea.
-2. Trabajas en ella 25 minutos sin interrupciones (un «pomodoro»).
-3. Descansas unos 5 minutos.
-4. Cada cuatro pomodoros, haces un descanso más largo, de 15 a 30 minutos.
+### Categorías (art. 3)
 
-Es una **convención para organizar el tiempo**, no el resultado de un experimento sobre memoria. La investigación específica sobre la técnica es escasa y no permite afirmar que 25 minutos sea la duración óptima para aprender. Lo que sí tiene sentido es la lógica de fondo: **empezar cuesta menos si el compromiso es corto**, el temporizador te protege de interrupciones y la pausa evita seguir leyendo sin enterarte.
+| Categoría | Armas |
+|---|---|
+| 1.ª | Armas de fuego cortas: pistolas y revólveres |
+| 2.ª | 1. Armas largas para vigilancia y guardería. 2. Armas largas rayadas para caza mayor |
+| 3.ª | 1. Armas largas rayadas deportivas de calibre 5,6 mm (.22) de percusión anular. 2. Escopetas y armas de ánima lisa. 3. Armas de aire o gas comprimido de más de 24,2 julios |
+| 4.ª | Carabinas, pistolas y revólveres de aire o gas comprimido no asimilados a escopetas (4.ª 1, de repetición o semiautomáticas; 4.ª 2, de un solo tiro) |
+| 5.ª | Armas blancas no prohibidas y cuchillos o machetes militares o sus imitaciones |
+| 6.ª | Armas antiguas o históricas, anteriores a 1890, artísticas y de avancarga |
+| 7.ª | 1. Inyección anestésica. 2. Ballestas. 3. Armas para lanzar cabos. 4. Sistema «Flobert». 5. Arcos y fusiles de pesca submarina. 6. Alarma, señales y lanzabengalas |
+| 8.ª | Armas acústicas y de salvas |
+| 9.ª | Armas inutilizadas |
 
-Por eso muchas personas lo adaptan: bloques de 40 o 50 minutos con 10 de descanso, o de 45 a 90 minutos según la tarea. Si 25 minutos se te quedan cortos para un tema denso, alárgalos; si te cuesta concentrarte, empieza por menos.
+Las categorías 8.ª y 9.ª se añadieron con el RD 726/2020: los apuntes anteriores hablan de siete.
 
-## Lo que dice la investigación sobre aprender
+### Armas prohibidas (art. 4)
 
-Más importante que el reloj es el **tipo de actividad** que pones dentro del bloque. Una revisión muy citada de técnicas de estudio, [Dunlosky y colaboradores (2013)](https://doi.org/10.1177/1529100612453266), evaluó diez estrategias habituales. Las que mejor valoraron fueron:
+Entre otras: las fabricadas ilícitamente o modificadas sin autorización; las armas de fuego ocultas en bastones u otros objetos o simuladas bajo otra apariencia; las pistolas y revólveres con culatín; los **bastones-estoque, los puñales y las navajas automáticas** (son puñales las armas blancas de hoja menor de 11 centímetros, de dos filos y puntiaguda); y las armas de fuego o de aire combinadas con armas blancas. Las armas de guerra tienen su propia sección.
 
-- **La práctica de recuperación** (*practice testing*): intentar recordar o responder preguntas sin mirar los apuntes.
-- **La práctica distribuida** (*distributed practice*): repartir el estudio de un mismo contenido en varias sesiones separadas en el tiempo, en lugar de concentrarlo.
+### Guías de pertenencia (arts. 88 y 89)
 
-En cambio, **subrayar** y **releer** salieron con una utilidad baja. La misma revisión daba una valoración intermedia a otras como la autoexplicación o la práctica intercalada (mezclar tipos de problemas). No damos cifras porque los efectos dependen del material y de la población estudiada; si te interesa, merece la pena leer la fuente.
+Cada arma de las categorías **1.ª, 2.ª, 3.ª, 6.ª, 7.ª (1 a 4) y 8.ª** debe estar documentada con su **guía de pertenencia**. La expiden las **Intervenciones de Armas** (al personal de las Fuerzas Armadas y de seguridad, sus propias autoridades); recoge los datos del titular, de su licencia y una reseña del arma, y **la acompaña siempre en uso, depósito y transporte**.
 
-Traducido a bloques: **cada bloque debería terminar con preguntas**, y lo que estudias hoy debe volver a aparecer en bloques de días y semanas posteriores. Cómo programar esas vueltas lo explicamos en [cómo memorizar leyes con repaso espaciado](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario).
+### Licencias y tarjetas (arts. 96 a 105)
 
-## Tres tipos de bloque
+La tenencia y el uso de armas de las **categorías 1.ª, 2.ª y 3.ª** requieren **licencia**; las de la **4.ª**, **tarjeta**.
 
-No todos los bloques sirven para lo mismo. Distinguirlos te ayuda a colocarlos en el día:
+| Documento | Para qué | Quién la concede | Validez y límites |
+|---|---|---|---|
+| Licencia **A** | Armas 1.ª, 2.ª y 3.ª de propiedad privada de miembros de las Fuerzas Armadas, Fuerzas y Cuerpos de Seguridad y Vigilancia Aduanera | Su tarjeta de identidad militar o carné profesional, en servicio activo, vale como licencia A (art. 114) | Con la eficacia de las licencias B, D y E |
+| Licencia **B** | Armas cortas de particulares | Dirección General de la Guardia Civil | 5 años; una sola licencia y **un arma** por licencia |
+| Licencia **C** | Armas de dotación del personal de vigilancia y seguridad | Jefe de la Comandancia (art. 121) | Ligada a la función de vigilancia |
+| Licencia **D** | Armas largas rayadas para caza mayor | Jefe de la Comandancia | 5 años; hasta **5 armas** |
+| Licencia **E** | Armas de 3.ª y 7.ª (2 y 3): escopetas, rifles deportivos, ballestas… | Jefe de la Comandancia | 5 años; hasta 6 escopetas o 6 rifles deportivos, **12 en total** |
+| Licencia **F** | Armas de concurso de tiro deportivo de federados | Régimen propio del Reglamento | Vinculada a la federación deportiva |
+| **Tarjeta** A / B | Armas de la 4.ª categoría fuera del domicilio | **Alcalde** del municipio | A: hasta 6 armas, 5 años, desde los 14 años; B: número ilimitado, validez permanente |
 
-| Tipo | Para qué | Duración orientativa | Cuándo colocarlo |
-| --- | --- | --- | --- |
-| Aprender | Temario nuevo: leer, esquematizar, entender | 45-60 min | En tu franja de más energía |
-| Recuperar | Tests, preguntas sin mirar, fichas | 25-30 min | Al final de un bloque de aprender, o en huecos cortos |
-| Ensayar | Simulacro completo en condiciones reales | 140 min seguidos | Una vez por semana o cada dos, según la fase |
+Requisitos clave:
 
-El tercero es importante: la prueba de conocimientos dura **140 minutos sin pausas** para ortografía, gramática, 100 preguntas de conocimientos y 20 de inglés. Los pomodoros de 25 minutos están bien para aprender, pero **no entrenan la resistencia que pide el examen**. Necesitas también bloques largos de ensayo. Cada cuánto hacerlos depende de la fase: lo tienes en [simulacros: cada cuánto hacerlos y cómo analizarlos](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados).
+- La solicitud se presenta en la **Intervención de Armas de la Guardia Civil** del domicilio, con certificado de antecedentes penales, DNI o tarjeta de residencia e **informe de aptitudes psicofísicas** (art. 97).
+- No pueden tener armas quienes, por sus condiciones psíquicas o físicas, supongan un riesgo propio o ajeno; una condena por delito doloso violento se considera indicativa de ese riesgo (art. 98.1). El personal en activo de las Fuerzas Armadas y de las Fuerzas y Cuerpos de Seguridad está exceptuado del informe de aptitud (art. 98.4).
+- La licencia **B** solo se concede a quien acredite **necesidad**: la defensa de personas o bienes, por sí sola, no la justifica, y su concesión es restrictiva (art. 99).
+- Las licencias de las categorías 1.ª, 2.ª y 3.ª solo se expiden a **mayores de edad** (art. 102.1).
+- A partir de los **67 años**, las licencias deben visarse a los tres años de su expedición con un nuevo informe de aptitud (art. 104).
 
-## Plantilla de una sesión de dos horas
+## Reglamento de Explosivos (RD 130/2017)
 
-Un esquema propio, para un día de temario nuevo:
+Aprobado el 24 de febrero de 2017 ([BOE-A-2017-2313](https://www.boe.es/buscar/act.php?id=BOE-A-2017-2313)), sustituyó al RD 230/1998 e incorporó la Directiva 2014/28/UE.
 
-| Tramo | Qué haces |
-| --- | --- |
-| 0-5 min | Escribe el objetivo: «artículos 14 a 29 de la Constitución, y 20 preguntas» |
-| 5-35 min | Lectura activa y esquema |
-| 35-40 min | Pausa (levántate, agua, sin móvil) |
-| 40-70 min | **Preguntas sin mirar** sobre lo que acabas de ver |
-| 70-75 min | Pausa |
-| 75-105 min | Corrige: cada fallo, a una ficha con el artículo |
-| 105-115 min | Repaso de fichas de días anteriores |
-| 115-120 min | Anota qué has hecho y qué toca mañana |
+### Objeto y exclusiones (art. 1)
 
-Fíjate en el reparto: el tiempo de lectura es menos de un tercio de la sesión. El resto es recuperar, corregir y repasar.
+Regula los **explosivos con fines civiles** en tres planos: la **seguridad ciudadana** (fabricación, almacenamiento, distribución, comercio, transporte, medidas de seguridad, adquisición, tenencia y uso, en el marco de los artículos 28 y 29 de la LO 4/2015, que vimos en [seguridad ciudadana](/blog/seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario)), la **seguridad industrial** y la **seguridad y salud en el trabajo**. Quedan fuera, entre otros, las Fuerzas Armadas y los cuerpos policiales con unidades de desactivación en el ejercicio de sus competencias, y los **artículos pirotécnicos y la cartuchería**, que tienen su propio reglamento (RD 989/2015).
 
-### Variante para días de repaso
+### Competencias (art. 2)
 
-Cuando no toca temario nuevo, la misma sesión de dos horas puede ser: 30 minutos de test mixto de varios temas, 5 de pausa, 30 de corrección con el artículo delante, 5 de pausa, 30 de fichas de errores antiguos y 20 de inglés o psicotécnico. Mezclar temas en el test te obliga a identificar de qué norma viene cada pregunta, como en el examen.
+Todas las actividades quedan bajo **intervención administrativa del Estado**, pero participan varios ministerios. Los dos que más interesan:
 
-## Ejemplo propio: un día con trabajo
+| Órgano | Papel |
+|---|---|
+| Ministerio competente en energía, a través de la Dirección General de Política Energética y Minas | Autorizaciones, seguridad industrial y laboral; **clasificación** de los explosivos (art. 9) |
+| **Ministerio del Interior, a través de la Dirección General de la Guardia Civil** | **Control e inspección** de fabricación, almacenamiento, circulación, distribución, comercio, adquisición, transporte, medidas de seguridad, tenencia y uso |
 
-**Caso hipotético.** Laura trabaja de 8 a 15 h. Su día de estudio:
+Intervienen también, entre otros, Defensa (instalaciones, por razones de defensa nacional), las Delegaciones y Subdelegaciones del Gobierno y Protección Civil. El texto conserva los nombres de los ministerios de 2017.
 
-- **16:30-17:30:** bloque de aprender (tema de Derecho Penal), con 10 preguntas al final.
-- **17:30-17:45:** pausa y merienda.
-- **17:45-18:15:** bloque de recuperar: test mixto de temas de semanas anteriores.
-- **18:15-18:30:** psicotécnico, una tanda corta (ideas en [entrenar el psicotécnico en 15 minutos](/blog/entrenar-psicotecnico-15-minutos-guardia-civil)).
-- **Noche:** entrenamiento físico; el estudio no se alarga.
+### Divisiones de riesgo (art. 8)
 
-Son unas dos horas efectivas, con objetivo en cada tramo. Si trabajas, tienes un reparto semanal completo en [el plan de estudio trabajando](/blog/plan-estudio-guardia-civil-trabajando).
+| División | Riesgo |
+|---|---|
+| 1.1 | Explosión en masa |
+| 1.2 | Proyección, sin explosión en masa |
+| 1.3 | Incendio con ligero riesgo de onda expansiva o proyección |
+| 1.4 | Pequeño riesgo de explosión en caso de ignición o cebado |
+| 1.5 | Materias muy poco sensibles con riesgo de explosión en masa |
+| 1.6 | Objetos extremadamente poco sensibles, sin explosión en masa |
 
-## Cuántos bloques al día
+### Clasificación (art. 9)
 
-Depende de tu vida, no de lo que hagan otros. Como referencia, ProLince plantea en su web una horquilla de 25 a 40 horas semanales para dedicación completa; lo explicamos en [cuántas horas al día estudiar](/blog/cuantas-horas-al-dia-hay-que-estudiar-para-la-guardia-civil). Un criterio práctico es **contar bloques completos, no horas sentado**: tres bloques con objetivo cumplido valen más que cinco horas con el móvil al lado.
+**Materias explosivas** (iniciadores; rompedores, como los tipos A, dinamitas; B, nafos; C, plásticos; E-a, hidrogeles; y E-b, emulsiones; y propulsores, como las pólvoras) y **objetos explosivos** (mechas, cordones detonantes, detonadores y multiplicadores).
 
-## Una semana tipo, adaptable
+### Estructura
 
-- **Lunes a viernes:** 2 o 3 bloques diarios (uno de temario nuevo, uno de test y uno de repaso), más una tanda corta de inglés, lengua o psicotécnico.
-- **Sábado:** bloque largo con simulacro y su corrección.
-- **Domingo:** descanso, o un bloque ligero de fichas.
+Diez títulos: ordenación preliminar, fábricas, depósitos, envases, comercialización, control de mercado, uso, importación y exportación (con tránsito y transferencia), transporte y régimen sancionador. El reglamento regula también el **carné de artillero** para quien maneja explosivos en voladuras.
 
-En los últimos meses antes del examen, el peso se desplaza de los bloques de aprender a los de recuperar y ensayar. Lo veremos en el plan de repaso de los últimos tres meses.
+## Conexiones con otros temas
+
+- **Violencia de género**: el juez puede suspender la tenencia, porte y uso de armas del investigado (art. 67 de la [LO 1/2004](/blog/violencia-de-genero-lo-1-2004-claves-para-el-examen)).
+- **Menores**: entre las medidas está la privación de licencias de caza o de armas (art. 7.1.n de la LO 5/2000).
+- **Seguridad ciudadana**: portar armas prohibidas o de modo negligente o intimidatorio es infracción grave si no es delito (art. 36.10 de la LO 4/2015).
+
+## Caso práctico (hipotético)
+
+Un cazador de 45 años quiere comprar un rifle para caza mayor y una escopeta para caza menor. ¿Qué necesita?
+
+1. Para el rifle (2.ª categoría, 2), **licencia D**, que concede el Jefe de la Comandancia y dura cinco años.
+2. Para la escopeta (3.ª categoría, 2), **licencia E**.
+3. En ambos casos, solicitud en la Intervención de Armas con antecedentes penales, documento de identidad e informe de aptitud, y superar las pruebas de capacitación (art. 102.2).
+4. Cada arma irá con su **guía de pertenencia**, que deberá llevar siempre al usarla o transportarla.
 
 ## Errores frecuentes
 
-- **Bloques sin objetivo.** «Estudiar el tema 5» es vago; «esquema del tema 5 y 15 preguntas» es medible.
-- **Bloques solo de lectura.** Si nunca te preguntas, no sabes qué has retenido.
-- **Pausas que se alargan.** Si la pausa es de redes sociales, cuesta volver. Mejor caminar o estirar.
-- **Interrumpirte por cada notificación.** El teléfono, en otra habitación o en modo avión.
-- **Usar solo bloques cortos** y llegar al examen sin haber aguantado nunca 140 minutos.
-- **No planificar el repaso.** Lo que no vuelve a aparecer en tu calendario se olvida.
+- Decir que hay siete categorías: desde 2020 son **nueve**.
+- Pensar que la defensa personal justifica la licencia B.
+- Atribuir la tarjeta de armas a la Guardia Civil: la conceden los **alcaldes**.
+- Creer que el Reglamento de Explosivos regula los petardos: la pirotecnia y la cartuchería tienen su propio reglamento.
+- Confundir quién **clasifica** los explosivos (el ministerio de energía) con quién **controla** su circulación y tenencia (la Guardia Civil).
 
-## Checklist del bloque
+## Mini test (preguntas propias)
 
-- [ ] Antes de empezar, he escrito el objetivo.
-- [ ] El móvil está fuera de mi alcance.
-- [ ] El bloque termina con preguntas sin mirar.
-- [ ] Los fallos van a fichas o a un cuaderno de errores.
-- [ ] La pausa es de verdad (moverme, agua), no de pantalla.
-- [ ] Al acabar, anoto lo hecho y lo que toca mañana.
-- [ ] Esta semana tengo reservado un bloque largo de simulacro.
+1. Las pistolas y revólveres pertenecen a la categoría: a) 1.ª; b) 2.ª; c) 3.ª; d) 4.ª.
+2. La licencia B la concede: a) el Jefe de la Comandancia; b) la Dirección General de la Guardia Civil; c) el Delegado del Gobierno; d) el alcalde.
+3. La tarjeta de armas es necesaria para las armas de la categoría: a) 3.ª; b) 4.ª; c) 5.ª; d) 7.ª.
+4. ¿Cuántas armas ampara como máximo una licencia D? a) 1; b) 3; c) 5; d) 12.
+5. La división de riesgo 1.1 corresponde a: a) riesgo de proyección; b) riesgo de incendio; c) riesgo de explosión en masa; d) objetos extremadamente poco sensibles.
 
-Si prefieres que alguien te estructure los bloques y el calendario, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye planificación.
+**Soluciones:** 1-a (art. 3); 2-b (art. 99.1); 3-b (art. 96.6); 4-c (art. 100.2); 5-c (art. 8 del RD 130/2017).
+
+## Cómo estudiarlo
+
+Empieza por la tabla de categorías y la de licencias, que concentran la mayoría de datos. Después, lee los artículos de guías y requisitos y, en explosivos, objeto, competencias, divisiones y clasificación. El programa cita ambos reglamentos sin acotar artículos; consulta la convocatoria vigente. El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) estructura el tema.
+
+Si necesitas tramitar una licencia real, acude a la Intervención de Armas: este artículo es material de estudio, no asesoramiento.
 
 ## Preguntas frecuentes
 
-### ¿Son obligatorios los 25 minutos del Pomodoro?
+### ¿Cuántas categorías de armas hay?
 
-No. Es la propuesta original, pero puedes ajustar los tiempos a tu concentración y a la tarea. Muchos opositores usan bloques de 45 a 60 minutos para temario nuevo.
+Nueve en el texto vigente tras el RD 726/2020 (art. 3 del Reglamento de Armas).
 
-### ¿Hay estudios que prueben que el Pomodoro funciona?
+### ¿Qué es la guía de pertenencia?
 
-La investigación específica sobre la técnica es escasa y no demuestra que 25 minutos sea lo ideal. Sí hay respaldo sólido para la práctica de recuperación y la práctica distribuida, que puedes meter dentro de tus bloques.
+El documento que acredita cada arma de las categorías previstas en el artículo 88 y que la acompaña siempre en uso, depósito y transporte.
 
-### ¿Qué hago si no consigo concentrarme ni 25 minutos?
+### ¿Cuánto dura una licencia de armas para particulares?
 
-Empieza con bloques de 10 o 15 minutos y ve subiendo poco a poco. Si es un problema persistente que te preocupa o te limita, consúltalo con un profesional.
+Las licencias B, D y E tienen cinco años de validez; a partir de los 67 años, deben visarse a los tres años.
 
-### ¿Estudio mejor por la mañana o por la tarde?
+### ¿Quién controla los explosivos?
 
-Depende de cada persona y de tus horarios. Coloca los bloques de aprender en tu franja de más energía y deja los de recuperar para los huecos.
+Varias administraciones; en seguridad ciudadana, el Ministerio del Interior a través de la Dirección General de la Guardia Civil (art. 2 del RD 130/2017).
 
-### ¿Cómo entreno los 140 minutos del examen si estudio en bloques cortos?
+### ¿Son armas prohibidas las navajas automáticas?
 
-Con bloques de ensayo: simulacros completos, sin pausas y con reloj, con la frecuencia que corresponda a tu fase.
+Sí, junto con los bastones-estoque y los puñales (art. 4.1.f del Reglamento de Armas).
 
-### ¿Cuánto deben durar las pausas?
+### ¿Se estudian los dos reglamentos enteros?
 
-En el esquema clásico, unos 5 minutos entre bloques y entre 15 y 30 cada cuatro. Lo importante es que te despejen y que sepas cuándo terminan.',
-   NULL, NULL, 'publicado', '2027-02-12T06:26:00.000Z', 'acceso-guardia-civil',
-   ARRAY['técnica de estudio', 'pomodoro', 'organización', 'planificación']::text[], '{"title":"Técnica Pomodoro para opositores: bloques de estudio","description":"Cómo organizar bloques de estudio con la técnica Pomodoro en la oposición a Guardia Civil: plantillas de sesión, descansos, semana tipo y evidencia."}'::jsonb, '{}'::jsonb)
+El programa cita los dos reales decretos sin precisar artículos concretos; revisa la convocatoria vigente.',
+   NULL, NULL, 'publicado', '2027-02-11T06:09:00.000Z', 'acceso-guardia-civil',
+   ARRAY['armas', 'explosivos', 'tema 22', 'reglamentos']::text[], '{"title":"Armas y explosivos: temario Guardia Civil (tema 22)","description":"Tema 22 de Guardia Civil: categorías de armas, licencias, tarjetas y guías del RD 137/1993 y claves del Reglamento de Explosivos (RD 130/2017), con test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -144,149 +169,261 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas', 'articulo', 'Cómo leer un enunciado tipo test para reducir los errores de lectura', 'Muchos fallos del test no son de temario, sino de lectura: un «excepto» pasado por alto, una doble negación o una opción más completa que otra. Un método de lectura en cinco pasos, ejemplos propios resueltos y cómo entrenarlo en tus simulacros.', 'Hay preguntas que fallas aunque sepas la respuesta. Lees deprisa, marcas la primera opción que suena bien y, al corregir, ves que el enunciado pedía **lo contrario**. Ese error es el más barato de corregir, porque no depende de cuánto temario sabes, sino de cómo lees.
+  ('ascenso-a-cabo-cuando-puedes-presentarte', 'articulo', 'Ascenso a cabo: cuándo puedes presentarte y cómo es la promoción interna', 'El ascenso a cabo se logra por concurso-oposición y curso de capacitación, con dos años de servicios como mínimo. Qué exige la Ley 29/2014, qué pruebas fija la Orden PJC/325/2024 y cómo es el curso de 340 horas.', 'Antes de pensar en ser cabo conviene tener claro cómo es el camino, porque no se asciende solo por antigüedad.
 
-**Respuesta corta:** lee el enunciado entero antes de mirar las opciones, localiza qué se pide exactamente (lo correcto, lo incorrecto, lo más completo, según qué norma) y lee las cuatro opciones hasta el final antes de marcar. Desconfía de las palabras absolutas, pero no las descartes por sistema. Y entrena todo esto en tus simulacros, porque en esta oposición cada error resta.
+**Respuesta corta:** el empleo de cabo se alcanza por **concurso-oposición** y tras superar un **curso de capacitación**. Pueden optar los guardias civiles con **al menos dos años de tiempo de servicios** en el Cuerpo, cumplidos en la fecha de inicio del curso. Cada aspirante tiene un máximo de **cinco convocatorias**, y el curso dura **340 horas**. Todo ello está en la Ley 29/2014, en el Reglamento de evaluaciones y ascensos y en la Orden PJC/325/2024; lo que cambia cada año (plazas, fechas, temario concreto) lo fija la convocatoria.
 
-Todos los ejemplos del artículo son **propios**, creados para practicar la lectura: no son preguntas oficiales.
+Es un tema que interesa a quien ya es guardia y a quien está empezando y quiere saber hacia dónde va la carrera. Si estás en el segundo caso, repasa antes [la Academia de Baeza](/blog/academia-baeza-guardia-civil) y [cómo funcionan los destinos](/blog/destinos-especialidades-guardia-civil).
 
-## Por qué leer bien vale puntos
+## Qué dice la ley
 
-La prueba de conocimientos tiene 100 preguntas con 4 opciones y, según la base 6.1.1.c) de la [convocatoria de 2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), las contestadas incorrectamente penalizan y las no contestadas no. Con la fórmula oficial, **cada error resta un tercio de acierto** (lo tienes desarrollado en [cómo calcular la nota del examen](/blog/calcular-nota-examen-guardia-civil)).
+La [Ley 29/2014, de Régimen del Personal de la Guardia Civil (BOE-A-2014-12408)](https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408) establece:
 
-Un fallo de lectura, por tanto, no solo deja de sumar: resta. Si en un simulacro pierdes cinco preguntas que sabías por leer mal, la diferencia entre acertarlas y fallarlas es de 5 + 5/3 ≈ **6,7 puntos**. Y el mínimo para no quedar excluido es 50 sobre 100.
+- **Sistema:** los ascensos al empleo de cabo se hacen por concurso-oposición (artículo 64.2).
+- **Curso:** es requisito superar un curso de capacitación (artículo 71.1).
+- **Quién puede optar:** las plazas se ofertan con carácter general a los guardias civiles con, al menos, dos años de tiempo de servicios en el Cuerpo (artículo 71.1).
+- **Orden:** el ascenso se produce con ocasión de vacante, según el orden que resulta de las puntuaciones del concurso-oposición y del curso (artículo 71.3).
+- **Después:** el ascenso a cabo otorga la aptitud para el de cabo primero, que se hace por antigüedad (artículos 64.1 y 64.2).
+- **Equivalencia académica:** con el título de Bachiller o equivalente, el nombramiento de cabo permite obtener la equivalencia con el título de Técnico Superior de Formación Profesional, a efectos académicos y de acceso directo a los estudios universitarios de grado (artículo 71.4).
 
-## El método en cinco pasos
+## Cuándo puedes presentarte
 
-1. **Lee el enunciado completo, tapando las opciones.** Intenta responder mentalmente antes de verlas. Si ya sabes la respuesta, las opciones solo tienen que confirmarla.
-2. **Localiza la orden.** ¿Pide la correcta, la incorrecta, la que *no* se cumple, la más completa? Rodéala con el bolígrafo.
-3. **Localiza la fuente.** «Según la Constitución», «según la Ley Orgánica 2/1986»: contesta con esa norma y no con otra parecida.
-4. **Marca los términos que acotan:** cifras, plazos, órganos, «siempre», «solo», «al menos», «en todo caso», «podrá», «deberá».
-5. **Lee las cuatro opciones hasta el final** antes de elegir, y compara entre ellas lo que cambia.
+El Reglamento de evaluaciones y ascensos ([Real Decreto 512/2017, BOE-A-2017-5862](https://www.boe.es/buscar/act.php?id=BOE-A-2017-5862), artículo 29.4, en la redacción del Real Decreto 91/2024) concreta tres condiciones:
 
-Parece lento, pero con práctica se hace en segundos. El objetivo no es leer despacio, sino leer **en el orden correcto**.
+1. Tener cumplidos **al menos dos años de tiempo de servicios** en el Cuerpo **en la fecha de inicio del curso de capacitación**, no en la de la solicitud.
+2. Estar en alguna de las **situaciones administrativas** que permiten ascender (artículo 18.1 del reglamento).
+3. Reunir los requisitos de la normativa de enseñanza.
 
-## Trampa 1: «incorrecta», «no» y «excepto»
+El mismo reglamento fija como tiempo mínimo de servicios en el empleo de guardia civil, para el ascenso, **dos años**; en el de cabo, uno; y en el de cabo primero, cinco.
 
-Un enunciado como «señale la opción **incorrecta**» invierte toda la pregunta. Si lo pasas por alto, marcas una afirmación verdadera.
+¿Y la fecha? No hay ninguna fija. Las convocatorias se publican en el **Boletín Oficial de la Guardia Civil**, tras su aprobación por la persona titular de la Jefatura de Enseñanza (artículo 4 de la Orden PJC/325/2024).
 
-**Ejemplo propio.** Señale la afirmación **incorrecta** sobre el Tribunal Constitucional:
+## Requisitos de la orden de bases
 
-a) Se compone de 12 miembros.
-b) Sus miembros son designados por un periodo de nueve años.
-c) Se renueva por terceras partes cada tres años.
-d) Sus miembros son designados por un periodo de cinco años.
+La [Orden PJC/325/2024 (BOE-A-2024-7480)](https://www.boe.es/buscar/act.php?id=BOE-A-2024-7480) aprueba las bases generales del proceso. Se dictó tras anular el Tribunal Supremo, en 2022, la orden general de 2019 que regulaba antes esta materia, porque debía tener rango de orden ministerial. Su artículo 5 añade estos requisitos:
 
-**Solución:** d). Las tres primeras recogen lo que dice el artículo 159 de la Constitución; la d) es la falsa. Quien no ve el «incorrecta» marca la a), porque es la primera verdadera.
+| Requisito | Detalle |
+|---|---|
+| Hoja de servicios | Sin penas ni sanciones por faltas graves o muy graves anotadas y sin cancelar |
+| Antecedentes | Carecer de antecedentes penales |
+| Salud | No estar de baja para el servicio por motivos de salud en los días de las pruebas |
+| Derechos civiles | No estar privado de ellos |
+| Procedimientos | No estar procesado, investigado o acusado con apertura de juicio oral por delito doloso |
+| Convocatorias | **No superar cinco.** Se consume una al alcanzar la condición de aspirante admitido |
 
-## Trampa 2: las dobles negaciones
+Hay excepciones a ese cómputo: si no te presentas por **fuerza mayor justificada**, por **embarazo, parto o posparto** acreditados o por usar el **permiso de lactancia** de un hijo menor de doce meses, puedes pedir, antes de la primera prueba, que no se te compute la convocatoria.
 
-«No es cierto que la Constitución no reconozca el derecho a la vida.» Dos negaciones se anulan: la frase equivale a «la Constitución reconoce el derecho a la vida», que es verdad (artículo 15).
+## Cómo es el proceso selectivo
 
-**Técnica:** antes de mirar las opciones, **traduce la frase a una afirmación simple**. Si te pierdes, tacha mentalmente las dos negaciones y lee lo que queda.
+Tiene **fase de concurso** (valoración de méritos según la normativa de evaluaciones) y **fase de oposición**, que hay que superar. La puntuación del concurso **nunca** puede usarse para alcanzar los mínimos de la oposición (artículo 6.1).
 
-## Trampa 3: los absolutos
+La oposición incluye tres pruebas:
 
-Palabras como *siempre, nunca, todos, ninguno, únicamente, en ningún caso* hacen una afirmación más fácil de refutar: basta un caso en contra.
+1. **Conocimientos profesionales:** cuestionario escrito de materias jurídicas, socioculturales, técnico-científicas y **lengua inglesa** (artículo 8). El temario lo incluye cada convocatoria. Con carácter general no cambia de una a otra; si cambia, debe publicarse con al menos cuatro meses de antelación a las pruebas.
+2. **Psicotécnica:** aptitudes intelectuales y perfil de personalidad. La puntuación de aptitudes intelectuales tiene una incidencia del **20 %** sobre la fase de oposición; el perfil de personalidad se tiene en cuenta en la entrevista (artículo 9).
+3. **Aptitud psicofísica:** pruebas físicas, reconocimiento médico (que puede sustituirse por certificado médico oficial o ficha médica, según la convocatoria) y entrevista personal. Es eliminatoria y se califica como «apto», «no apto» o «no apto circunstancial» (artículo 10).
 
-**Ejemplo propio:** «Los derechos fundamentales no pueden suspenderse en ningún caso». Es **falsa**: el artículo 55.1 de la Constitución permite suspender determinados derechos cuando se declara el estado de excepción o de sitio.
+Solo pasan a la prueba psicofísica los aspirantes declarados aptos en conocimientos y psicotécnico, por orden de puntuación y según el coeficiente que fije la convocatoria (artículo 6).
 
-Pero cuidado: **un absoluto no es siempre falso**. El artículo 159.5 dice que los miembros del Tribunal Constitucional son independientes e inamovibles en el ejercicio de su mandato, y una opción con «en todo caso» puede ser literal de la norma. La palabra absoluta es una **señal para releer**, no una regla para descartar.
+### Cómo se calcula el orden
 
-## Trampa 4: «la más completa»
+- La calificación de la oposición es la suma ponderada de conocimientos profesionales y aptitudes intelectuales (artículo 11).
+- La fase de concurso tiene una **incidencia del 23 %** sobre la puntuación final que da el orden de prelación para el ascenso (disposición adicional, que modifica la Orden PCI/346/2019).
+- **Empates:** primero cuenta la nota de conocimientos profesionales y, si persiste, el número inferior en el escalafón (artículo 12.3).
+- La relación de seleccionados se publica en el Boletín Oficial de la Guardia Civil y nunca puede superar el número de plazas.
 
-La base 6.1.1.c) dice que, si el aspirante considera correctas varias opciones, **debe señalar la más completa**. Es la misma instrucción que aparece para el inglés y el psicotécnico.
+## El curso de capacitación
 
-**Ejemplo propio.** Según el artículo 69.2 de la Constitución, en cada provincia se elegirán:
+La misma orden aprueba el plan de estudios del **Curso de Capacitación para el Ascenso al empleo de Cabo (CCACAB)**:
 
-a) Senadores.
-b) Cuatro senadores.
-c) Cuatro senadores por sufragio universal, libre, igual, directo y secreto.
-d) Dos senadores.
+| Fase | Carga lectiva | Duración máxima |
+|---|---|---|
+| No presencial (a distancia) | 90 horas | 10 semanas |
+| Presencial | 190 horas | 8 semanas |
+| Prácticas en unidades | 60 horas | 2 semanas |
+| **Total** | **340 horas** | |
 
-**Solución:** c). La a) y la b) son ciertas, pero incompletas; la c) recoge también la forma de elección que fija el mismo apartado. Cuando varias te parezcan correctas, **compara cuál incluye a las demás**. Hay más ejemplos de este tipo en [las preguntas trampa del examen](/blog/preguntas-trampa-del-examen-de-guardia-civil).
+Los módulos son Seguridad Ciudadana, Nuevas Tecnologías, Derecho (procesal-penal y administrativo especial), Gestión de Recursos (deontología profesional y habilidades directivas) y Técnica Policial (instrucción y adiestramiento). Para aprobar hace falta una nota final de **5 sobre 10** y superar todas las asignaturas, con un máximo de dos convocatorias por parte de asignatura. El curso se puede repetir una sola vez sin nueva evaluación en supuestos tasados, como faltas de asistencia por encima del 18 % de las horas o bajo rendimiento.
 
-## Trampa 5: verbos que cambian el sentido
+## Un caso práctico (hipotético)
 
-«Podrá» no es «deberá»; «propone» no es «nombra»; «convoca» no es «preside». Un solo verbo cambiado convierte una frase literal en falsa.
+Sara se incorporó a su primer destino tras terminar la formación. Quiere presentarse a cabo en cuanto pueda. Lo que debe comprobar no es cuánto tiempo lleva cuando sale la convocatoria, sino si tendrá **dos años de servicios cumplidos el día que empiece el curso** que fije esa convocatoria. Además, revisa que no tiene sanciones graves sin cancelar y prepara el inglés, porque forma parte de la prueba de conocimientos. Si suspende, sabe que esa convocatoria cuenta como una de sus cinco, porque fue admitida.
 
-**Ejemplo propio:** «El Rey sancionará en el plazo de quince días las leyes aprobadas por las Cortes Generales». Es lo que dice el artículo 91. Si la opción dijera «en el plazo de un mes» o «podrá sancionar», ya no sería literal. Al estudiar, subraya los verbos de los artículos que te cuesten, no solo los sustantivos.
-
-## Trampa 6: números y listas casi iguales
-
-Plazos o cifras que cambian en una unidad entre opciones. Aquí no hay truco de lectura: hay que saberse el dato. Lo que sí ayuda es **comparar las opciones entre sí** para ver exactamente qué cambia y concentrar tu duda en ese punto.
-
-## Qué hacer cuando dudas: la aritmética del tercio
-
-Con cuatro opciones y un tercio de penalización, contestar a ciegas tiene un valor esperado de cero: un cuarto de probabilidad de sumar 1 y tres cuartos de restar un tercio. Si **descartas al menos una opción** y las restantes te parecen igual de probables, el valor esperado pasa a ser positivo. Es aritmética, no una garantía: comprueba en tus simulacros si arriesgar te ha sumado o restado.
-
-### ¿Cambiar o no la primera respuesta?
-
-Existe la creencia de que la primera intuición suele ser la buena. Algunos estudios lo han puesto en duda: por ejemplo, Kruger, Wirtz y Miller (2005, *Journal of Personality and Social Psychology*) encontraron que, entre los cambios de respuesta de estudiantes, eran más frecuentes los que pasaban de incorrecta a correcta que al revés. Una pauta prudente: **cambia solo cuando tengas un motivo concreto** (has visto el «no», recuerdas el artículo), no por nerviosismo.
-
-## Leer bien sin quedarte sin tiempo
-
-Los 140 minutos de la prueba incluyen ortografía, gramática, las 100 preguntas de conocimientos y las 20 de inglés, seguidas. Un reparto **orientativo y propio**, que debes ajustar con tus simulacros:
-
-| Parte | Tiempo orientativo |
-| --- | --- |
-| Ortografía y gramática | 15-20 min |
-| Conocimientos (100 preguntas) | 85-95 min |
-| Inglés (20 preguntas) | 15-20 min |
-| Repaso de dudosas y comprobación de marcas | 10 min |
-
-Una técnica útil es la de **dos pasadas**: en la primera contestas lo seguro y marcas al margen las dudosas; en la segunda vuelves solo a esas. Así la lectura cuidadosa no se come el tiempo de las preguntas fáciles. La estructura del examen completo está en [el examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
-
-## Caso práctico: revisar los fallos de lectura
-
-**Caso hipotético.** Una opositora corrige un simulacro con 22 errores. Repasa cada uno y anota la causa: 13 «no lo sabía», 5 «leí mal» (tres negaciones no vistas, dos opciones incompletas), 4 «lo confundí con otra norma». Decide tres cambios para el siguiente simulacro: rodear siempre la orden, leer las cuatro opciones y escribir la norma citada al margen. Dos semanas después, los fallos de lectura bajan a 2. El temario no ha cambiado; la forma de leer, sí.
+Es un ejemplo inventado: el cómputo exacto del tiempo de servicios depende de tu situación administrativa.
 
 ## Errores frecuentes
 
-- **Mirar las opciones antes de terminar el enunciado.**
-- **Responder con la norma equivocada** porque el dato «te suena».
-- **Descartar por sistema** cualquier opción con «siempre» o «nunca».
-- **Cambiar respuestas por nervios**, sin una razón concreta.
-- **Releer cada pregunta tres veces** y quedarte sin tiempo para el inglés.
+- **Creer que se asciende por antigüedad.** A cabo, no; a cabo primero, sí.
+- **Contar los dos años hasta la solicitud.** Se cuentan hasta el inicio del curso.
+- **No saber que hay un límite de cinco convocatorias** y que se gasta una al ser admitido.
+- **Descuidar el inglés**, que forma parte de la prueba de conocimientos profesionales.
+- **Pensar que el concurso salva una mala oposición.** No puede usarse para alcanzar los mínimos.
 
-## Checklist de lectura
+## Checklist
 
-- [ ] He leído el enunciado entero tapando las opciones.
-- [ ] He rodeado la orden (correcta, incorrecta, excepto, más completa).
-- [ ] Sé qué norma pregunta.
-- [ ] He leído las cuatro opciones.
-- [ ] He comparado qué cambia entre ellas.
-- [ ] Si dudo, sé cuántas opciones he descartado antes de decidir.
+- [ ] Sé cuándo cumplo dos años de tiempo de servicios.
+- [ ] Mi hoja de servicios no tiene sanciones graves o muy graves sin cancelar.
+- [ ] Llevo la cuenta de las convocatorias que he consumido.
+- [ ] He leído el temario de la última convocatoria en el Boletín Oficial de la Guardia Civil.
+- [ ] Mantengo la forma física y el inglés.
 
-Para entrenarlo con cuestionarios completos, mira [cómo hacer y analizar simulacros](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados). Si quieres practicar con tests corregidos, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye simulacros.
+## Qué hacer si aún estás opositando
+
+Ser cabo está lejos, pero hay una conclusión práctica: la base de todo es entrar bien. El inglés, que aparece en la prueba de conocimientos del ascenso, es también una prueba de la oposición actual: repasa la [prueba de inglés](/blog/ingles-oposicion-guardia-civil). El régimen disciplinario, que condiciona el acceso, lo tienes en [derechos, deberes y régimen disciplinario](/blog/derechos-deberes-y-regimen-disciplinario-del-guardia-civil), y lo que se cobra en cada empleo, en [el sueldo](/blog/sueldo-guardia-civil). Todo empieza por aprobar: en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te ayudamos a conseguirlo.
 
 ## Preguntas frecuentes
 
-### ¿Debo descartar siempre las opciones con «siempre» o «nunca»?
+### ¿Cuántos años hay que tener de servicio para ser cabo?
 
-No. Son una señal para comprobar, no una regla. Hay afirmaciones absolutas verdaderas y algunas son literales de la norma.
+Al menos dos años de tiempo de servicios en el Cuerpo, cumplidos en la fecha de inicio del curso de capacitación.
 
-### ¿Qué hago si dos opciones parecen correctas?
+### ¿Se asciende por antigüedad?
 
-La convocatoria indica que debes señalar la más completa. Comprueba cuál engloba a la otra.
+No. El ascenso a cabo es por concurso-oposición y curso de capacitación. El de cabo primero, después, es por antigüedad.
 
-### ¿Contestar en blanco resta?
+### ¿Cuántas veces puedo presentarme?
 
-Según la convocatoria de 2026, no: solo penalizan las preguntas contestadas incorrectamente.
+Un máximo de cinco convocatorias. Se consume una cuando alcanzas la condición de aspirante admitido, salvo las excepciones de la orden.
 
-### ¿Cuánto tiempo tengo por pregunta?
+### ¿Hay pruebas físicas para ascender a cabo?
 
-La convocatoria no fija tiempo por pregunta: hay 140 minutos para todas las partes. Reparte según tus simulacros y deja unos minutos para repasar.
+Sí. La prueba de aptitud psicofísica incluye pruebas físicas, reconocimiento médico y entrevista, y es eliminatoria. Las marcas son las de la normativa de pruebas físicas de la Guardia Civil.
 
-### ¿Conviene cambiar una respuesta en el repaso final?
+### ¿Cuánto dura el curso de capacitación?
 
-Solo si tienes un motivo concreto. Cambiar por nervios no tiene fundamento; cambiar porque has visto una negación que se te escapó, sí.
+340 horas: 90 a distancia, 190 presenciales y 60 de prácticas en unidades.
 
-### ¿Los ejemplos de este artículo son preguntas oficiales?
+### ¿Dónde se publican las convocatorias?
 
-No. Son ejemplos propios, creados para practicar la lectura. Consulta siempre la convocatoria vigente.',
-   NULL, NULL, 'publicado', '2027-02-11T06:09:00.000Z', 'acceso-guardia-civil',
-   ARRAY['test', 'técnica de examen', 'lectura', 'penalización']::text[], '{"title":"Cómo leer un enunciado tipo test: método en 5 pasos","description":"Cómo leer los enunciados del test de Guardia Civil: absolutos, dobles negaciones, «excepto», la opción más completa y la gestión del tiempo. Con ejemplos."}'::jsonb, '{}'::jsonb)
+En el Boletín Oficial de la Guardia Civil, tras su aprobación por la Jefatura de Enseñanza.',
+   NULL, NULL, 'publicado', '2027-02-13T06:43:00.000Z', 'acceso-guardia-civil',
+   ARRAY['ascenso a cabo', 'promoción interna', 'concurso-oposición', 'carrera']::text[], '{"title":"Ascenso a cabo Guardia Civil: requisitos y sistema","description":"Ascenso a cabo en la Guardia Civil: dos años de servicios, concurso-oposición, máximo de cinco convocatorias y curso de 340 horas. Qué dice la normativa."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('casas-cuartel-como-es-vivir-en-un-pabellon-de-la-guardia-civil', 'articulo', 'Casas cuartel y pabellones de la Guardia Civil: qué son y qué dice la norma', 'Vivir en una casa cuartel no es obligatorio ni automático. Qué dicen la Ley Orgánica 11/2007 y el Real Decreto 274/2018 sobre pabellones, residencia y localización, en qué se diferencian de las residencias del Cuerpo y qué no está publicado.', 'Es una de las dudas que más se repiten entre quienes se plantean la oposición: «¿tendré que vivir en un cuartel?». La respuesta corta es que **no hay una obligación general de vivir en una casa cuartel**. Lo que sí hay son reglas sobre dónde puedes fijar tu residencia, sobre qué ocurre si aceptas un pabellón oficial y sobre cómo debes estar localizable. Y hay mucho que se cuenta en los foros que no he podido verificar: no he encontrado una norma pública y vigente con las condiciones de adjudicación, uso o coste de los pabellones. Prefiero decirlo y quedarme con lo comprobado.
+
+## Tres conceptos que conviene no mezclar
+
+| Concepto | Qué es | Norma |
+|---|---|---|
+| Residencia oficial | El municipio donde radica tu unidad de destino | Real Decreto 274/2018 y Reglamento de destinos |
+| Residencia habitual | Donde vives de verdad; por defecto, el municipio de la residencia oficial | Real Decreto 274/2018, artículo 3 |
+| Pabellón oficial | Vivienda del Cuerpo que se adjudica y se acepta; pasa a ser tu residencia habitual y tu domicilio | Real Decreto 274/2018, artículo 3.3; Ley Orgánica 11/2007, artículo 5 |
+
+A estos tres se suma una cuarta figura distinta, las **residencias** de la Guardia Civil, que son alojamientos temporales con precio público. Las veremos al final.
+
+## La regla general: la residencia habitual
+
+El [Real Decreto 274/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-6895) regula la residencia, los desplazamientos y la localización del personal de la Guardia Civil, y se aplica también a los alumnos (artículo 2.1). Su artículo 3 dice, en lo esencial:
+
+- La **residencia habitual** es el término municipal donde radica tu **residencia oficial**, es decir, tu destino.
+- Puedes fijarla **en otro municipio**, previa comunicación, si cumples **todas** estas condiciones: que esté en territorio nacional; que puedas cumplir tus obligaciones profesionales, incluida la disponibilidad permanente para el servicio; que no genere una incompatibilidad manifiesta para hacer tu jornada en buenas condiciones psicofísicas, y que el desplazamiento no pase, en condiciones normales, de **una hora y media**. Algunos mandos pueden fijar un plazo inferior en determinadas unidades, de forma motivada.
+
+Es la concreción del artículo 21 de la [Ley Orgánica 11/2007](https://www.boe.es/buscar/act.php?id=BOE-A-2007-18391), de derechos y deberes de los guardias civiles, que permite fijar el domicilio en un municipio distinto del de destino siempre que se asegure el cumplimiento de las obligaciones profesionales.
+
+### Cómo se comunica
+
+El procedimiento está en el artículo 4 del real decreto:
+
+1. Comunicas por escrito a tu unidad el lugar de residencia y tus medios de localización.
+2. Si es un municipio distinto del de destino, tu jefe lo remite con su informe, en cinco días hábiles, al jefe de zona o de la jefatura correspondiente.
+3. Si no cumples las condiciones, esa autoridad puede denegarlo por resolución motivada en diez días hábiles. Si vence el plazo sin resolución, puedes entender que no hay impedimento.
+
+Además, por necesidades extraordinarias del servicio puede dejarse sin efecto temporalmente, y si desaparece alguna de las condiciones tienes que comunicarlo de nuevo. Existen también autorizaciones especiales por necesidad personal o familiar justificada o por motivos de seguridad personal (artículo 5).
+
+## Qué dice la norma de los pabellones
+
+Hay dos referencias directas que he podido contrastar en el BOE:
+
+1. **Residencia.** Cuando se acepta la adjudicación de un pabellón oficial, la residencia habitual se fija en ese pabellón, con independencia del municipio en que esté (artículo 3.3 del Real Decreto 274/2018).
+2. **Domicilio.** A efectos del derecho a la intimidad y a la inviolabilidad del domicilio, el pabellón que tenga asignado el guardia civil en su unidad se considera su **domicilio habitual** (artículo 5.1 de la Ley Orgánica 11/2007).
+
+De ahí se leen tres ideas, sin añadir nada:
+
+- La norma habla de **aceptar** una adjudicación, no de una asignación obligatoria.
+- Aceptarla implica **residir allí**: tu residencia habitual queda fijada en el pabellón.
+- Aunque esté dentro de un acuartelamiento, **tu pabellón es tu domicilio**, con la protección constitucional que eso supone.
+
+## Localización y disponibilidad: vivas donde vivas
+
+Con independencia de dónde vivas, tienes obligaciones que conviene conocer desde ahora:
+
+- Comunicar en tu unidad la dirección de tu domicilio y tus datos de contacto actualizados (artículo 9.1 del Real Decreto 274/2018 y artículo 21.2 de la Ley Orgánica 11/2007).
+- En estados de alarma, excepción o sitio, o cuando así se disponga ante alteraciones graves de la seguridad ciudadana, catástrofes o emergencias, presentarte en tu unidad o en la más próxima (artículo 20 de la Ley Orgánica 11/2007 y artículo 9.2 del real decreto).
+- Puedes desplazarte libremente por el territorio nacional. Para viajar al extranjero debes comunicarlo antes, salvo viajes a la Unión Europea o a países con frontera terrestre con España de hasta cuatro días sin cambios en tus medios de localización (artículo 8).
+
+## Qué NO he podido verificar
+
+Esto es lo que suele contarse y que, sin una fuente oficial pública, no voy a dar por bueno:
+
+- Quién tiene prioridad para que le adjudiquen un pabellón y cómo se baremea.
+- Si se paga una cuota o canon, y cuánto.
+- Cómo son las viviendas, su tamaño o su estado, que varían mucho de un acuartelamiento a otro.
+- Las normas de convivencia de cada casa cuartel, que suelen estar en el régimen interior del acuartelamiento.
+- Cuánto tiempo puedes permanecer en un pabellón.
+
+Si estas condiciones influyen en tu decisión, pregunta en tu **unidad de destino** cuando lo tengas o a través de los canales oficiales de la Guardia Civil.
+
+## No lo confundas con las residencias del Cuerpo
+
+La Guardia Civil tiene **residencias**, reguladas por la [Orden INT/126/2021](https://www.boe.es/buscar/doc.php?id=BOE-A-2021-2289), que fija su clasificación, usuarios y precios públicos. Son alojamiento temporal, situado en el interior o junto a un acuartelamiento (artículo 3), y hay tres tipos:
+
+- **Residencias de Unidad:** para quien debe desplazarse por necesidades del servicio, con motivo de **destino** o comisión de servicio, a unidades de la misma zona o comandancia (artículo 5). Es la figura pensada para la llegada a un nuevo destino.
+- **Residencias de Descanso:** para vacaciones y descanso del personal y sus familias (artículo 6).
+- **Residencias de Estudiantes:** para hijos del personal que cursan enseñanza superior (artículo 7).
+
+Los alumnos que ingresan por acceso directo en la Escala de Cabos y Guardias son titulares del derecho de uso desde su nombramiento (artículo 4.2.c). Los precios se actualizan cada año, así que no los copio aquí.
+
+Y en Baeza ocurre algo distinto: durante la formación, los alumnos están en [régimen de internado](/blog/un-dia-en-la-academia-de-baeza-horarios-normas-y-permisos), con el alojamiento a cargo del Estado.
+
+## Errores frecuentes
+
+1. **Dar por hecho que te obligarán a vivir en el cuartel.** La norma general es la residencia habitual en el municipio de destino, con posibilidad de vivir en otro.
+2. **Fijar tu vivienda sin comunicarlo.** La comunicación previa es obligatoria y se puede denegar si no cumples las condiciones.
+3. **Calcular el trayecto en un día sin tráfico.** El límite de hora y media se mide «en condiciones normales» y puede ser menor en algunas unidades.
+4. **Tomar como norma lo que cuenta un compañero de otra comandancia.** Las condiciones de cada acuartelamiento cambian.
+
+## Caso práctico (hipotético)
+
+Pablo obtiene su primer destino en un puesto de un pueblo pequeño y quiere vivir en la capital de provincia, a cincuenta minutos en coche. Debe comunicarlo por escrito en su unidad. Si se cumplen todas las condiciones del artículo 3.2, y su unidad no tiene fijado un plazo inferior, la autoridad no tendría motivo para denegarlo; si no responde en diez días hábiles, puede entender que no hay impedimento. Si meses después le ofrecen un pabellón y lo acepta, su residencia habitual pasa a ser ese pabellón. El caso es inventado; las reglas son las del Real Decreto 274/2018.
+
+## Qué te conviene saber ya
+
+- El destino con el que sales de Baeza se asigna según las vacantes ofertadas y tu escalafón: [lo explicamos aquí](/blog/como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil). Dónde vivirás es posterior a eso.
+- Si tienes pareja guardia civil e hijos, el Reglamento de destinos prevé un derecho preferente de agrupamiento familiar, que se explica en ese mismo artículo.
+- La disponibilidad para el servicio es uno de los deberes del Cuerpo: repasa el marco en [derechos, deberes y régimen disciplinario](/blog/derechos-deberes-y-regimen-disciplinario-del-guardia-civil).
+- Para el aspecto económico, consulta [cuánto cobra un guardia civil](/blog/sueldo-guardia-civil).
+
+Si estás empezando, nada de esto decide si te presentas: antes está el temario, y en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) vamos paso a paso.
+
+## Preguntas frecuentes
+
+### ¿Es obligatorio vivir en una casa cuartel?
+No hay una obligación general en la normativa revisada. Si aceptas la adjudicación de un pabellón oficial, tu residencia habitual pasa a ser ese pabellón.
+
+### ¿Puedo vivir en otro pueblo distinto al de mi destino?
+Sí, con comunicación previa y cumpliendo todas las condiciones del artículo 3.2 del Real Decreto 274/2018, entre ellas un desplazamiento máximo de hora y media en condiciones normales.
+
+### ¿El pabellón se considera mi casa a efectos legales?
+Sí: la Ley Orgánica 11/2007 considera domicilio habitual el pabellón asignado, a efectos de intimidad e inviolabilidad del domicilio.
+
+### ¿Cuánto se paga por un pabellón?
+No he encontrado una fuente oficial pública con esa información, así que no doy cifras. Consúltalo en tu unidad.
+
+### ¿Dónde me alojo al llegar a un destino nuevo?
+La Orden INT/126/2021 prevé las Residencias de Unidad para quien se desplaza por destino o comisión de servicio, con precios públicos y sujetas a disponibilidad.
+
+### ¿Los alumnos de Baeza viven en casas cuartel?
+No: durante el curso en el centro docente, los alumnos están, con carácter general, en régimen de internado.',
+   NULL, NULL, 'publicado', '2027-02-12T06:26:00.000Z', 'acceso-guardia-civil',
+   ARRAY['casas cuartel', 'pabellones', 'residencia', 'destinos']::text[], '{"title":"Casas cuartel de la Guardia Civil: qué dice la norma","description":"Casas cuartel y pabellones de la Guardia Civil: residencia habitual, pabellón como domicilio, residencias del Cuerpo y lo que no regula una norma pública."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -477,140 +614,140 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('motivacion-que-hacer-los-dias-que-no-te-apetece-estudiar', 'articulo', 'Motivación: qué hacer los días que no te apetece estudiar', 'Habrá días en que no te apetezca abrir el temario. Cómo seguir avanzando sin depender de las ganas: averiguar qué te frena, mínimos diarios, planes «si… entonces», rutinas y objetivos visibles. Y cuándo conviene hablar con un profesional.', 'Opositar dura meses, y nadie tiene ganas todos los días. Esperar a «sentirte motivado» para sentarte es una estrategia que suele fallar justo cuando más hace falta: en semanas de cansancio, después de un mal simulacro o cuando la fecha del examen todavía parece lejana.
+  ('examen-del-colegio-de-guardias-jovenes-estructura-y-temas', 'articulo', 'Examen del Colegio de Guardias Jóvenes: qué pruebas tiene y cómo prepararlo', 'Conocimientos, lengua española, inglés y aptitudes intelectuales: son las pruebas escritas que cita la web oficial para el ingreso en el Colegio de Guardias Jóvenes. Qué está confirmado, dónde se publica la oferta y cómo prepararlo.', '**Respuesta corta:** según la web oficial de la Guardia Civil, las pruebas escritas del proceso de ingreso en el Colegio de Guardias Jóvenes del curso 2026/2027 fueron **cuatro: conocimientos, lengua española, lengua inglesa y una prueba psicotécnica de aptitudes intelectuales**, y comenzaron el **27 de agosto de 2026** en el propio Colegio, en Valdemoro. El detalle de cada prueba (número de preguntas, tiempo, temas, puntuaciones mínimas y penalización) lo fija la **oferta de plazas** de cada curso, que se publica en el **Boletín Oficial de la Guardia Civil**, no en el BOE.
 
-**Respuesta corta:** diseña tu preparación para que no dependa de las ganas. Averigua qué te frena ese día (no es lo mismo cansancio que aburrimiento o miedo), cumple un **mínimo diario pequeño**, decide de antemano qué harás en los días malos y haz visible lo que avanzas. Y si el desánimo es profundo o dura semanas, habla con un profesional: eso ya no es falta de motivación.
+Una advertencia de honestidad: la oferta del curso 2026/2027 existe y la enlaza la web oficial, pero su texto se aloja en la intranet del Cuerpo y **no hemos podido consultarlo en una fuente pública**. Por eso aquí no damos número de preguntas, temas, marcas ni fórmulas de esa oferta: te explicamos lo confirmado, dónde mirar el resto y cómo prepararte para unas pruebas de ese tipo. Si aún no tienes claro qué es el Colegio, empieza por [qué es el Colegio de Guardias Jóvenes](/blog/colegio-guardias-jovenes-acceso-guardia-civil); la edad y el resto de requisitos están en [los requisitos de edad del Colegio](/blog/colegio-de-guardias-jovenes-requisitos-de-edad).
 
-## Por qué esperar a tener ganas no funciona
+## Qué está confirmado y qué no
 
-Mucha gente espera a tener ganas para empezar. Con frecuencia ocurre al revés: **empiezas con poco y las ganas llegan después**, o no llegan, pero el trabajo queda hecho. No es una ley universal, pero sí un buen motivo para probar a empezar diez minutos en lugar de decidir si «hoy toca».
+| Dato | ¿Confirmado en fuente oficial pública? | Fuente |
+|---|---|---|
+| Existe una oferta de plazas para el curso 2026/2027 | Sí | [Web de la Guardia Civil, ingreso en el Colegio](https://web.guardiacivil.es/es/tramites/ingresos/Colegio_Guardias_Jovenes/) |
+| Se publicó en el Boletín Oficial de la Guardia Civil, número 41 de 2026 | Sí, por el enlace oficial al documento | Misma página |
+| Pruebas escritas: conocimientos, lengua española, lengua inglesa y aptitudes intelectuales (punto 5.2 de la oferta) | Sí | Misma página |
+| Comienzo de las pruebas escritas: 27 de agosto de 2026, a las 08:00, en el Colegio «Duque de Ahumada» | Sí | Misma página |
+| Número de preguntas, tiempo, temario, mínimos, penalización y fórmula de la nota final | No hemos podido verificarlo | El texto está en la intranet del Cuerpo |
+| Pruebas físicas y sus marcas | No hemos podido verificarlo | Ídem |
 
-La motivación también se gasta en decidir. Si cada tarde tienes que elegir qué estudiar, dónde y cuánto, llegas a la mesa con menos energía. Por eso las estrategias que funcionan mejor no intentan aumentar las ganas, sino **reducir lo que depende de ellas**.
+Lo que circula en foros y academias sobre esos datos puede ser correcto, pero sin el texto oficial a la vista no lo vamos a afirmar.
 
-## Paso 1: averigua qué te frena hoy
+## Qué es lo que se juega en este examen
 
-«No me apetece» puede significar cosas muy distintas, y cada una pide una respuesta diferente:
+La [página institucional del Colegio](https://web.guardiacivil.es/es/institucional/conocenos/centros_docentes/guardiasjovenes/) explica que el centro prepara a los **hijos e hijas del personal del Cuerpo** y que la enseñanza dura dos cursos de nueve meses:
 
-| Lo que notas | Qué suele haber detrás | Qué probar |
-| --- | --- | --- |
-| Cuerpo pesado, sueño | Cansancio físico o falta de sueño | Bloque corto de repaso; acostarte antes hoy |
-| «Es siempre lo mismo» | Aburrimiento, monotonía | Cambiar de tarea o de formato: tests, fichas, explicar en voz alta |
-| No sabes por dónde empezar | Tarea demasiado grande o difusa | Partirla: «solo el artículo 14 y 5 preguntas» |
-| Te angustia abrir el tema | Miedo a fallar, sensación de ir tarde | Empezar por algo que dominas para arrancar |
-| Llevas semanas así | Puede haber algo más de fondo | Hablarlo con alguien de confianza o con un profesional |
+1. **Primer año:** preparar a quienes han superado el **examen de ingreso en el centro** para obtener una de las plazas reservadas al Colegio en la convocatoria de ingreso en la Guardia Civil.
+2. **Segundo año:** formación técnico-profesional de quienes obtienen plaza, completada con 40 semanas de prácticas en unidades.
 
-Ponerle nombre no lo resuelve todo, pero evita aplicar la misma receta a problemas distintos.
+El examen de este artículo es, por tanto, **el de entrada al primer año**. No es todavía la oposición a la Guardia Civil: esa llega después, por el cupo reservado de la convocatoria del BOE, que en 2026 fue de **240 plazas** de 3.240 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 1.1).
 
-## Paso 2: estrategias que puedes aplicar
+## Dónde se publica la oferta y cómo leerla
 
-### 1. Un mínimo innegociable
+- **Boletín Oficial de la Guardia Civil.** Es el diario oficial donde sale la oferta. El enlace de la web oficial apunta a la intranet del Cuerpo; si tu padre o tu madre es guardia civil, puede consultarlo desde allí.
+- **Web de la Guardia Civil**, apartado de ingreso en el Colegio. Ahí se anuncian la oferta y avisos como la fecha de las pruebas; la web indica además que las listas de aspirantes se publican en la intranet.
 
-Decide un mínimo que cumplirás incluso en un mal día: por ejemplo, 20 minutos de test o una ronda de fichas. Un mal día con mínimo cumplido mantiene el hábito; un día a cero rompe la racha y hace más difícil el siguiente. Que sea **tan pequeño que no puedas negociarlo**.
+Cuando tengas el texto delante, localiza en este orden:
 
-### 2. Planes «si… entonces»
+1. **Requisitos**, empezando por la edad y el vínculo con el Cuerpo.
+2. **Plazo y forma de solicitud.**
+3. **Descripción de cada prueba**: número de preguntas, tiempo, opciones de respuesta y si los errores restan.
+4. **Temario**: qué temas entran y con qué alcance (no es lo mismo «la Constitución» que «un título concreto»).
+5. **Mínimos** de cada prueba y cómo se calcula la nota final.
+6. **Pruebas físicas y médicas**, con marcas y certificados.
 
-La investigación de Peter Gollwitzer sobre las llamadas **intenciones de implementación** (por ejemplo, su artículo de 1999 en *American Psychologist*) sugiere que concretar **cuándo, dónde y cómo** vas a actuar ante una situación ayuda a cumplir lo que te propones. En la práctica, se escriben como frases «si… entonces». Ejemplos propios:
+Anota todo en una hoja: será tu plan de trabajo.
 
-- «**Si** llego a casa sin ganas, **entonces** hago solo el test de 20 preguntas del tema de la semana.»
-- «**Si** saco menos de 50 en un simulacro, **entonces** anoto los fallos y lo analizo al día siguiente, no esa noche.»
-- «**Si** cojo el móvil en un bloque, **entonces** lo dejo en otra habitación hasta la pausa.»
+## Cómo preparar cada prueba (con independencia de la oferta)
 
-Escríbelos y tenlos a la vista. Funcionan porque la decisión ya está tomada cuando llega el mal momento.
+### Lengua española
 
-### 3. Convierte el estudio en rutina
+Es la parte donde más se gana con constancia. Trabaja tres frentes: **tildes**, **palabras que se confunden** (homófonos, b/v, g/j, h) y **gramática** (concordancias, leísmo, dequeísmo). La técnica de la oposición ordinaria sirve como referencia: allí se subrayan cuatro palabras por frase y cuenta como error tanto no marcar una falta como marcar algo correcto. Si la oferta del Colegio usa un formato parecido, «marcar por si acaso» penaliza. Lo explicamos en [ortografía y gramática, la parte que elimina](/blog/ortografia-gramatica-examen-guardia-civil).
 
-Mismo sitio, misma hora, mismos primeros pasos. Los estudios sobre formación de hábitos, como el de Phillippa Lally y su equipo (2010), describen que las conductas repetidas en el mismo contexto se van volviendo más automáticas con el tiempo, aunque el tiempo necesario varía mucho de una persona a otra. Ayuda tener los bloques definidos: mira [bloques de estudio y técnica Pomodoro](/blog/bloques-de-estudio-y-tecnica-pomodoro-para-opositores).
+**Ejercicio propio** (no es una pregunta oficial): ¿cuál de estas tiene falta? A) «Haber si vienes», B) «Echo de menos», C) «Por qué lo dices», D) «Ahí está». Es la A: debe ser «a ver». Repite este tipo de ejercicio diez minutos al día.
 
-### 4. Objetivos pequeños y visibles
+### Lengua inglesa
 
-«Aprobar la oposición» es enorme. «Terminar el tema 3 esta semana» es concreto. Apunta lo que completas: una lista de tareas tachadas o una hoja con la nota de cada simulacro pesan más que una sensación vaga de no avanzar. Ideas para medirte en [el balance: cómo saber si vas bien](/blog/balance-del-ano-como-saber-si-vas-bien-en-la-oposicion).
+Prioriza lo que aparece en cualquier prueba de nivel escolar: tiempos verbales, preposiciones, vocabulario frecuente y comprensión de textos cortos. Una lectura breve en inglés al día, con un cuaderno de vocabulario, rinde más que una sesión larga a la semana. Ideas concretas en [el inglés de la oposición](/blog/ingles-oposicion-guardia-civil).
 
-### 5. Cambia de tarea, no abandones
+### Conocimientos
 
-Si no puedes con el temario, haz tests. Si no puedes con tests, repasa fichas. Si no puedes con nada escrito, escucha un tema o explícalo en voz alta. Cambiar de actividad es mejor que cerrar el libro.
+Hasta que tengas el temario de la oferta vigente, no estudies a ciegas un temario completo de adulto. Lo sensato es:
 
-### 6. La regla de los diez minutos
+1. Conseguir el **apéndice de temas** de la oferta.
+2. Leer el **alcance** de cada tema y empezar por el más largo.
+3. Hacer **test desde el primer día**, no al final.
+4. Repasar con espaciado: volver a cada tema a los pocos días, a la semana y al mes. La técnica está en [cómo memorizar leyes con repaso espaciado](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario).
 
-Comprométete solo a diez minutos. Si al acabar sigues sin poder, para sin culpa: has cumplido. Muchas veces seguirás; otras no, y también vale.
+### Aptitudes intelectuales
 
-### 7. Recuerda por qué lo haces
+El psicotécnico se entrena: series, razonamiento verbal, cálculo y aptitud espacial mejoran con práctica breve y frecuente. Dos o tres sesiones cortas por semana, cronometradas. Lo tienes en [el psicotécnico: aptitudes y personalidad](/blog/psicotecnico-guardia-civil-aptitudes-personalidad).
 
-Escribe en una nota tus razones para entrar en el Cuerpo: concretas, tuyas. Léela cuando flaquees, no como frase motivadora, sino como recordatorio de lo que estás eligiendo.
+### Si los errores restan
 
-### 8. Descansa de verdad
+En la oposición ordinaria de la Escala de Cabos y Guardias, con cuatro opciones, **cada error resta un tercio de acierto** y las respuestas en blanco no restan (base 7.3 de la convocatoria de 2026). Si la oferta del Colegio aplica una regla así, la estrategia es la misma: contestar cuando puedes descartar al menos una opción y dejar en blanco lo que sería puro azar.
 
-No todo es fuerza de voluntad. Dormir, comer bien, moverte y desconectar forman parte de la preparación. Si además entrenas, mira cómo encajarlo en [entrenar y estudiar a la vez](/blog/entrenar-y-estudiar-a-la-vez-oposicion-guardia-civil). Un día libre planificado a la semana no es perder el tiempo.
+**Ejemplo propio** con esa regla: 50 aciertos y 15 errores dan 50 − 15/3 = **45 puntos**; si contestas al azar 6 preguntas más y fallas 5, quedas en 51 − 20/3 ≈ **44,3**. Contestar a ciegas te ha bajado la nota.
 
-## Plan para un mal día concreto
+## Un plan de 12 semanas (orientativo)
 
-| Situación | Alternativa realista |
-| --- | --- |
-| Sin energía | Solo tests cortos o repaso de fichas |
-| Mala nota en un simulacro | Anotar los fallos y parar; analizar mañana |
-| Cansancio acumulado varios días | Un día de descanso planificado y revisar horarios |
-| Distracción total | Un bloque corto sin móvil y una recompensa pequeña después |
-| Agobio por todo lo que falta | Escribir la lista de tareas de la semana y elegir solo la primera |
+| Semanas | Prioridad | Rutina tipo |
+|---|---|---|
+| 1-2 | Diagnóstico | Un test de cada prueba; leer la oferta y su temario |
+| 3-6 | Base | Un tema de conocimientos por semana, lengua e inglés a diario, psicotécnico dos días |
+| 7-10 | Consolidación | Repaso espaciado, test por temas y un simulacro parcial semanal |
+| 11-12 | Simulacros | Simulacros completos con el tiempo que fije la oferta y análisis de errores |
 
-Sobre los simulacros, aprende a [analizar los resultados](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados) para no vivir cada nota mala como un fracaso: es información.
+Es un esquema propio, no oficial: ajústalo al tiempo real que tengas. Sobre cuándo y cómo hacer simulacros, mira [cada cuánto hacer simulacros](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados).
 
-## Caso práctico
+## Un caso práctico (hipotético)
 
-**Caso hipotético.** Javi lleva tres tardes sin estudiar. Al pararse a pensarlo, ve que no es cansancio: le bloquea el tema de Derecho Administrativo, que lleva dos semanas «a medias». Aplica tres cambios: parte el tema en cinco trozos de una sesión cada uno, escribe un plan «si… entonces» («si me siento y no arranco, empiezo por 10 preguntas del trozo anterior») y apunta cada trozo terminado en un papel pegado a la pared. La primera tarde solo cumple el mínimo; la segunda, un bloque entero. No ha recuperado las ganas de golpe, pero ha vuelto a la rutina.
-
-## Cuándo no es solo falta de ganas
-
-Si llevas semanas con desánimo persistente, has perdido interés por cosas que antes te gustaban, duermes mucho peor, la ansiedad te desborda o sientes que no puedes con nada, **no es un asunto de fuerza de voluntad ni lo puede resolver un artículo**. Habla con tu médico de cabecera o con un profesional de la salud mental. Pedir ayuda es una decisión sensata, no un fracaso.
-
-Y si en algún momento tienes pensamientos de hacerte daño, llama al **024** (línea de atención a la conducta suicida) o, si hay peligro inmediato, al **112**.
+Carla, hija de un guardia civil, quiere presentarse el próximo verano. En vez de comprar el primer temario que encuentra, pide a su padre que localice la oferta vigente en la intranet. Con ella delante, apunta la edad exigida, el plazo, los temas y los mínimos. Detecta que su punto débil es el inglés y le dedica veinte minutos diarios, mientras avanza un tema de conocimientos por semana. Es un ejemplo inventado para ilustrar el orden: primero el texto oficial, después el plan.
 
 ## Errores frecuentes
 
-- **Esperar a tener ganas** para empezar.
-- **Fijar mínimos demasiado altos**, que se incumplen y desmoralizan.
-- **Compensar un mal día con un «día heroico»** de diez horas que te deja agotado.
-- **Compararte con lo que ves en redes:** lo que ves es una selección. Compárate con tu avance de hace un mes.
-- **Castigarte por no estudiar** en lugar de entender qué ha pasado.
-- **Repetir los [errores habituales al preparar la oposición](/blog/errores-preparar-oposicion-guardia-civil)**, como no planificar el repaso.
+- **Estudiar con datos de foros** sin contrastarlos con la oferta vigente.
+- **Buscar la oferta en el BOE.** Se publica en el Boletín Oficial de la Guardia Civil.
+- **Confundir este examen con la oposición a la Escala de Cabos y Guardias.** Son procesos distintos, con requisitos y pruebas distintos.
+- **Dejar la lengua y el inglés para el final.** Son las partes que más mejoran con práctica diaria.
+- **Contestar todo al azar** sin saber si los errores penalizan.
 
-## Checklist para los días difíciles
+## Checklist
 
-- [ ] He identificado qué me frena hoy (cansancio, aburrimiento, miedo, tarea difusa).
-- [ ] Tengo un mínimo diario definido y pequeño.
-- [ ] Tengo escritos dos o tres planes «si… entonces».
-- [ ] Sé qué tarea alternativa hago si no puedo con el temario.
-- [ ] Apunto lo que termino cada día.
-- [ ] Tengo un día de descanso a la semana.
-- [ ] Si el desánimo dura semanas, sé a quién acudir.
+- [ ] Tengo el texto de la oferta vigente.
+- [ ] Sé qué pruebas, temas y mínimos fija.
+- [ ] Practico lengua e inglés a diario.
+- [ ] Hago test de conocimientos desde la primera semana.
+- [ ] Entreno el psicotécnico con tiempo.
+- [ ] He revisado las pruebas físicas que exige la oferta y entreno en paralelo.
 
-Si necesitas una estructura que te acompañe, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te da un calendario ya organizado.
+Si quieres prepararlo con un programa organizado, tienes el [curso de acceso al Colegio de Guardias Jóvenes](/cursos/colegio-guardias-jovenes).
 
 ## Preguntas frecuentes
 
-### ¿Es normal no tener ganas de estudiar algunos días?
+### ¿Qué pruebas tiene el examen del Colegio de Guardias Jóvenes?
 
-Sí, le pasa a cualquiera en una preparación larga. Lo importante es tener un plan para esos días, como un mínimo reducido.
+Según la web oficial, las pruebas escritas de la oferta 2026/2027 fueron de conocimientos, lengua española, lengua inglesa y aptitudes intelectuales. El resto de pruebas y su detalle los fija cada oferta.
 
-### ¿Cuánto debe durar el mínimo diario?
+### ¿Cuántas preguntas tiene?
 
-El que puedas cumplir siempre. Veinte minutos constantes suelen funcionar mejor que dos horas esporádicas.
+No lo hemos podido verificar en una fuente pública: está en el texto de la oferta, publicado en el Boletín Oficial de la Guardia Civil.
 
-### ¿Qué es un plan «si… entonces»?
+### ¿Cuándo es el examen?
 
-Una decisión tomada por adelantado para una situación concreta: «si pasa X, entonces hago Y». Se basa en la investigación sobre intenciones de implementación y te ahorra decidir en el peor momento.
+En la oferta 2026/2027, las pruebas escritas comenzaron el 27 de agosto de 2026. La fecha de cada año la anuncia la Guardia Civil.
 
-### ¿Debería tomarme un descanso largo si estoy desmotivado?
+### ¿Dónde se publica la oferta?
 
-Un descanso corto y planificado puede ayudar. Si el desánimo persiste o empeora, consulta con un profesional.
+En el Boletín Oficial de la Guardia Civil, no en el BOE. La del curso 2026/2027 está en el número 41 de 2026, según el enlace de la web oficial.
 
-### ¿Cómo sé si lo mío es ansiedad o depresión?
+### ¿Los errores restan?
 
-No se puede valorar desde un artículo. Si te preocupa o te limita en tu día a día, acude a tu médico o a un profesional de la salud mental.
+Depende de lo que diga la oferta vigente. En la oposición ordinaria a la Escala de Cabos y Guardias, sí: con cuatro opciones, un error resta un tercio de acierto.
 
-### ¿Sirven las frases motivadoras?
+### ¿Hay ya oferta para el curso 2027/2028?
 
-Pueden animar un rato, pero no sustituyen a un plan. Un mínimo diario y una rutina suelen sostener más que la inspiración.',
-   NULL, NULL, 'publicado', '2027-02-13T06:43:00.000Z', 'acceso-guardia-civil',
-   ARRAY['motivación', 'hábitos', 'organización', 'opositor']::text[], '{"title":"Motivación para opositar: qué hacer cuando no te apetece","description":"Qué hacer los días que no te apetece estudiar la oposición a Guardia Civil: diagnóstico, mínimos diarios, planes si-entonces, rutinas y cuándo pedir ayuda."}'::jsonb, '{}'::jsonb)
+No teníamos texto oficial al preparar este artículo. Cada oferta fija sus propias reglas, así que revisa la nueva cuando salga.',
+   NULL, NULL, 'publicado', '2027-02-17T06:51:00.000Z', 'colegio-guardias-jovenes',
+   ARRAY['colegio de guardias jóvenes', 'examen', 'temario', 'preparación']::text[], '{"title":"Examen Colegio de Guardias Jóvenes: pruebas y preparación","description":"Examen del Colegio de Guardias Jóvenes: qué pruebas escritas confirma la web oficial, dónde se publica la oferta de plazas y cómo preparar cada parte."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -751,7 +888,7 @@ Es una decisión personal. Ten en cuenta la edad máxima: no cumplir 41 años en
 ### ¿Y si tardo más que otros en estar preparado?
 
 Es lo esperable si tienes menos horas. Mide tu avance con tus simulacros, no con el calendario de otros.',
-   '/blog/opositar-con-hijos-un-plan-de-estudio-realista-guardia-civil.jpg', 'Madre estudiando en la mesa de la cocina mientras su hija dibuja a su lado', 'publicado', '2027-02-16T06:34:00.000Z', 'acceso-guardia-civil',
+   '/blog/opositar-con-hijos-un-plan-de-estudio-realista-guardia-civil.jpg', 'Madre estudiando en la mesa de la cocina mientras su hija dibuja a su lado', 'publicado', '2027-02-15T06:17:00.000Z', 'acceso-guardia-civil',
    ARRAY['conciliación', 'hijos', 'planificación', 'organización']::text[], '{"title":"Opositar con hijos: plan de estudio realista","description":"Cómo preparar la oposición a Guardia Civil con hijos: auditar tu tiempo, bloques cortos, reparto del cuidado, simulacros de 140 minutos y semana tipo."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
@@ -896,300 +1033,145 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('plan-de-repaso-para-los-ultimos-tres-meses-antes-del-examen', 'articulo', 'Plan de repaso para los últimos tres meses antes del examen', 'Un plan de repaso semana a semana para los tres meses previos al examen de Guardia Civil: cerrar temario, simulacros y corrección, cuaderno de errores, mínimos de cada prueba y última semana. Orientativo, para adaptar a tu nivel y a la fecha que anuncie el Tribunal.', 'Los últimos tres meses no sirven para aprender todo de cero, sino para **consolidar lo que sabes, corregir lo que fallas y ensayar el examen**. Un buen plan pasa de «ver temas» a «recuperarlos y aplicarlos», y mide cada semana si va por buen camino.
+  ('responsabilidad-penal-de-los-menores-lo-5-2000-lo-que-mas', 'articulo', 'Responsabilidad penal de los menores (LO 5/2000): claves del tema', 'La LO 5/2000 se aplica a mayores de catorce y menores de dieciocho años. Edad, jueces, detención en 24 y 48 horas, medidas y su duración, prescripción y estructura del tema 20, con caso práctico y test propio.', 'La [Ley Orgánica 5/2000, de 12 de enero, reguladora de la responsabilidad penal de los menores](https://www.boe.es/buscar/act.php?id=BOE-A-2000-641) es el **tema 20** del programa y entra completa (consulta el [temario](/temario-guardia-civil)). Es una ley muy práctica para quien va a detener, custodiar y tomar declaración a menores.
 
-**Respuesta corta:** divide las trece semanas en tres fases (cerrar y consolidar, simulacros y corrección, afinar) más una última semana de descarga. Asegura primero los mínimos eliminatorios de cada prueba, después sube nota, y revisa el plan cada semana con los datos de tus simulacros. Es un esquema orientativo y propio: ajústalo a tu punto de partida.
+**Respuesta corta:** se aplica a quienes tengan **más de catorce y menos de dieciocho años** cuando cometen el hecho. Por debajo de catorce no hay responsabilidad con arreglo a esta ley, sino medidas de protección de menores. La detención policial de un menor dura como máximo **24 horas** y el Fiscal resuelve dentro de las **48 horas** desde la detención.
 
-## Antes de empezar: cuenta hacia atrás desde una fecha
+## Estructura de la ley
 
-La convocatoria no fija la fecha del examen: la anuncia el Tribunal de Selección. Si todavía no la conoces, **fija una fecha provisional** y monta el plan hacia atrás; cuando se publique la fecha real, desplaza las fases. Lo importante es la secuencia, no el calendario exacto.
+| Título | Artículos | Contenido |
+|---|---|---|
+| Preliminar | 1 | Declaración general |
+| I | 2 a 6 | Ámbito: jueces, menores de 14, víctimas, bases de la responsabilidad, Fiscal |
+| II | 7 a 15 | Medidas: tipos, duración, reglas especiales, mayoría de edad, prescripción |
+| III | 16 a 30 | Instrucción: incoación, detención, desistimiento, conciliación, medidas cautelares |
+| IV | 31 a 37 | Fase de audiencia |
+| V | 38 a 40 | Sentencia |
+| VI | 41 y 42 | Recursos |
+| VII | 43 a 60 | Ejecución de las medidas, centros y derechos de los internados |
+| VIII | 61 a 64 | Responsabilidad civil |
 
-## Qué tienes que cubrir y qué te elimina
+## Ámbito: edad, jueces y Fiscal
 
-Según la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)), la prueba de conocimientos teórico-prácticos dura **140 minutos** e incluye ortografía, gramática, conocimientos generales e inglés. Aparte va el psicotécnico. Estos son los umbrales que no puedes dejar de superar:
+- **Art. 1**: responsabilidad de los mayores de catorce y menores de dieciocho por hechos tipificados como delitos (el texto mantiene «o faltas») en el Código Penal o las leyes penales especiales. Gozan de todos los derechos de la Constitución, de la LO 1/1996 de Protección Jurídica del Menor y de la Convención sobre los Derechos del Niño.
+- **Art. 3**: si el autor es **menor de catorce**, se aplican las normas de protección de menores; el Fiscal remite testimonio a la entidad pública de protección.
+- **Art. 5.3**: las edades se refieren al **momento de la comisión de los hechos**; cumplirlas después no cambia la competencia.
+- **Art. 2**: competen los **Jueces de Menores** del lugar del hecho, también para la responsabilidad civil. Los delitos de terrorismo (arts. 571 a 580 del Código Penal) y los cometidos por menores en el extranjero cuando sean competencia española corresponden al **Juzgado Central de Menores de la Audiencia Nacional**.
+- **Art. 6**: el **Ministerio Fiscal** defiende los derechos del menor, **dirige personalmente la investigación** y ordena a la policía judicial las actuaciones necesarias.
 
-| Prueba | Formato | Te elimina |
-| --- | --- | --- |
-| Ortografía | 5 frases con 4 palabras subrayadas | 6 errores o más |
-| Gramática | 20 frases | 6 errores o más |
-| Conocimientos | 100 preguntas, 4 opciones | Menos de 50 sobre 100 |
-| Inglés | 20 preguntas, 4 opciones | Menos de 8 sobre 20 |
-| Aptitudes intelectuales | 80 preguntas en 55 minutos | Menos de 12 sobre 30 (32 aciertos netos) |
+Desde 2025, la LO 1/2025 ha transformado los juzgados en secciones de los tribunales de instancia (los de menores, en Secciones de Menores), pero la LO 5/2000 conserva la denominación de «Jueces de Menores»: en el examen, usa la de la ley.
 
-Después vienen las pruebas físicas, el reconocimiento médico y la entrevista. El detalle del examen está en [la estructura del examen de conocimientos](/blog/examen-conocimientos-guardia-civil-estructura).
+## La detención de menores (art. 17)
 
-## El orden de prioridades
+Es el artículo más relevante para el trabajo policial:
 
-1. **Primero, los mínimos.** Una prueba por debajo del mínimo te deja fuera aunque el resto sea excelente.
-2. **Después, la nota global.** La puntuación final (oposición hasta 150 más concurso hasta 45) ordena a los aspirantes; con ella se convoca a las pruebas físicas y médicas a 1,5 aspirantes por plaza.
-3. **En paralelo, las físicas.** No puntúan, pero un «no apto» te excluye.
+| Regla | Contenido |
+|---|---|
+| Forma | La que **menos perjudique** al menor; información inmediata y en lenguaje claro de los hechos, las razones y sus derechos (art. 520 LECrim) |
+| Notificación | Inmediata a los **representantes legales** y al **Ministerio Fiscal**; si es extranjero con residencia habitual fuera de España, a las autoridades consulares |
+| Declaración | Siempre en presencia de su **letrado** y de quienes ejerzan la patria potestad, tutela o guarda, salvo que las circunstancias aconsejen lo contrario; en su defecto, ante el Fiscal (persona distinta del instructor). Entrevista reservada con el abogado antes y después |
+| Custodia | En dependencias **adecuadas y separadas** de las de los mayores de edad |
+| Plazo policial | Lo estrictamente necesario y, **como máximo, 24 horas**: libertad o puesta a disposición del Fiscal |
+| Plazo del Fiscal | Resuelve **dentro de las 48 horas desde la detención**: libertad, desistimiento o incoación del expediente |
+| Habeas corpus | Juez de Instrucción del lugar donde esté el menor |
 
-## Reparto orientativo del tiempo semanal
+Compáralo con las 72 horas del régimen general que explicamos en [detención y habeas corpus](/blog/detencion-y-habeas-corpus-los-plazos-que-caen-siempre).
 
-Una propuesta propia para quien tiene el temario visto y los mínimos más o menos encarrilados. Si una prueba está en riesgo, súbele el porcentaje:
+## Las medidas (art. 7)
 
-| Bloque | % del tiempo de estudio |
-| --- | --- |
-| Conocimientos (tests, repaso, simulacros) | 60 % |
-| Inglés | 15 % |
-| Psicotécnico | 10 % |
-| Ortografía y gramática | 10 % |
-| Revisión del plan y cuaderno de errores | 5 % |
+El juez puede imponer, ordenadas de mayor a menor restricción de derechos: internamiento en régimen **cerrado, semiabierto o abierto**; internamiento terapéutico; tratamiento ambulatorio; asistencia a centro de día; **permanencia de fin de semana** (hasta 36 horas entre el viernes y el domingo); **libertad vigilada**; prohibición de aproximarse o comunicarse con la víctima; convivencia con otra persona, familia o grupo educativo; **prestaciones en beneficio de la comunidad** (que no pueden imponerse sin su consentimiento); tareas socioeducativas; **amonestación**; privación del permiso de conducir o de licencias de caza o armas; e inhabilitación absoluta.
 
-El entrenamiento físico va aparte de estas horas.
+Para elegirlas se atiende «de modo flexible» no solo a los hechos, sino especialmente a la **edad, las circunstancias familiares y sociales, la personalidad y el interés del menor** (art. 7.3). Las medidas de internamiento tienen dos periodos: uno en el centro y otro en libertad vigilada (art. 7.2). En los delitos contra la libertad sexual (capítulos I y II del título VIII del Código Penal) se impone además la obligación de seguir **programas de educación sexual y de educación en igualdad** (art. 7.5, añadido por la LO 10/2022).
 
-## Fase 1 (semanas 1-4): cerrar temario y consolidar
+## Duración de las medidas (arts. 9 y 10)
 
-- **Termina de ver los temas pendientes.** Si te faltan muchos, prioriza el repaso de lo ya visto y decide con realismo qué entra en tu plan.
-- **Pasa del subrayado a las preguntas.** La práctica de recuperación (intentar recordar sin mirar) y la práctica distribuida (repartir los repasos en el tiempo) son las dos técnicas mejor valoradas en la revisión de [Dunlosky y colaboradores (2013)](https://doi.org/10.1177/1529100612453266). Aplicado a leyes: [cómo memorizar leyes con repaso espaciado](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario).
-- **Abre un cuaderno de errores** (lo explicamos más abajo).
-- **Semana 1: un simulacro completo** para tener un punto de partida. Semana 3: otro.
+| Supuesto | Límite |
+|---|---|
+| Regla general (art. 9.3) | **2 años**; prestaciones, 100 horas; fines de semana, 8 |
+| Internamiento cerrado (art. 9.2) | Solo delitos graves; menos graves con violencia, intimidación o grave riesgo; o cometidos en grupo o banda |
+| Hechos imprudentes (art. 9.4) | Nunca internamiento en régimen cerrado |
+| Casos del 9.2, menor de 14 o 15 años (art. 10.1.a) | Hasta 3 años |
+| Casos del 9.2, menor de 16 o 17 años (art. 10.1.b) | Hasta 6 años |
+| Delitos del art. 10.2 (asesinato, homicidio, ciertos delitos sexuales, terrorismo o penas de 15 años o más), 14-15 años | Internamiento cerrado de 1 a 5 años + libertad vigilada hasta 3 |
+| Mismos delitos, 16-17 años | Internamiento cerrado de 1 a 8 años + libertad vigilada hasta 5 |
 
-## Fase 2 (semanas 5-9): simulacros y análisis
+Al cumplir los **18 años** sigue la medida; si es internamiento cerrado y la conducta no responde a los objetivos, el juez puede ordenar su cumplimiento en un centro penitenciario. A los **21 años**, el juez lo ordenará salvo que excepcionalmente aprecie otra solución (art. 14).
 
-Un simulacro completo cada semana o cada dos, con su corrección a fondo. Un esquema:
+## Prescripción (art. 15)
 
-| Semana | Foco |
-| --- | --- |
-| 5 | Simulacro completo + corrección profunda |
-| 6 | Reforzar los 3 o 4 temas con más fallos |
-| 7 | Simulacro + bloque extra de inglés y psicotécnico |
-| 8 | Tests mixtos de todos los temas + cuaderno de errores |
-| 9 | Simulacro + revisión del plan |
+| Hecho | Prescribe |
+|---|---|
+| Homicidio, asesinato, ciertos delitos sexuales, terrorismo y delitos con pena de 15 años o más | Según el Código Penal |
+| Delito grave con pena superior a 10 años | 5 años |
+| Otros delitos graves | 3 años |
+| Delitos menos graves | 1 año |
 
-En los tests de esta fase, **mezcla temas** en lugar de hacerlos siempre por bloques: en el examen no sabrás de qué tema viene cada pregunta. La corrección importa más que el simulacro: anota por qué fallaste (no lo sabía, lo confundí, leí mal, dudé y cambié). Método en [simulacros: cada cuánto hacerlos y cómo analizarlos](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados), y para los errores de lectura, [cómo leer un enunciado tipo test](/blog/como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas).
+## Salidas alternativas al juicio
 
-## Fase 3 (semanas 10-12): afinar
+- **Desistimiento** (art. 18): el Fiscal puede no incoar expediente en delitos menos graves sin violencia ni intimidación, salvo que el menor haya cometido antes hechos de la misma naturaleza.
+- **Conciliación o reparación** (art. 19): puede desistir de continuar el expediente si el menor se concilia con la víctima o se compromete a reparar el daño o a cumplir una actividad educativa.
 
-- **Un simulacro por semana, en condiciones reales:** 140 minutos seguidos con ortografía, gramática, conocimientos e inglés, sin apuntes, con bolígrafo negro y reloj.
-- **Una sesión de psicotécnico cronometrada** de 80 preguntas en 55 minutos cada semana.
-- **Repaso del cuaderno de errores**, no de todo el temario por igual.
-- **Fija tu estrategia de blancos:** con la penalización de un tercio por error, decide con tus datos cuándo contestas y cuándo no.
-- **Mantén las pruebas físicas** sin sobrecargarte; si tienes dudas sobre cargas o lesiones, consulta con un profesional.
+## Caso práctico (hipotético)
 
-## Semana 13: la última semana
+Una patrulla sorprende a un chico de 15 años forzando motos en una zona rural. Lo detienen a las 22:00.
 
-- **Baja el volumen.** No estrenes temas.
-- **Repasa esquemas, cifras y errores recurrentes.**
-- **Cuida el sueño y la rutina:** intenta estudiar a la misma hora a la que será el examen.
-- **Organiza la logística:** documentación, desplazamiento, material permitido. Lo tienes en [qué llevar al examen y qué está prohibido](/blog/que-llevar-al-examen-de-la-guardia-civil-y-que-esta-prohibido), y compruébalo siempre en la convocatoria y en lo que publique el Tribunal.
-- **Evita compararte** con otros opositores en los últimos días.
+1. Le informan en lenguaje claro de los hechos, los motivos y sus derechos, y comunican de inmediato la detención a sus padres y al Fiscal.
+2. Queda custodiado en una dependencia separada de los adultos.
+3. Si se le toma declaración, será con su abogado y, salvo que no proceda, con sus padres.
+4. Como máximo a las 22:00 del día siguiente debe estar en libertad o a disposición del Fiscal.
+5. El Fiscal decide antes de las 22:00 del segundo día (48 horas desde la detención).
 
-## El cuaderno de errores, paso a paso
-
-1. **Cada fallo de simulacro o test va al cuaderno** con tres datos: tema, norma y artículo, y causa del fallo.
-2. **Escribe la respuesta correcta como pregunta**, no como frase: «¿Plazo máximo de la detención preventiva?» en lugar de «La detención preventiva dura 72 horas».
-3. **Repásalo con preguntas** al cabo de unos días y otra vez una o dos semanas después. Las investigaciones sobre espaciado, como el metaanálisis de Cepeda y colaboradores (2006), muestran que repartir los repasos ayuda a retener más, aunque el intervalo ideal depende de cuánto tiempo necesites recordarlo.
-4. **Tacha lo que aciertes dos veces seguidas** en días distintos.
-
-## Caso práctico
-
-**Caso hipotético.** A trece semanas de la fecha provisional, un opositor hace su primer simulacro: 55 en conocimientos, 7 en inglés, 5 errores en gramática. Su diagnóstico: el inglés está por debajo del mínimo y la gramática, al límite. Ajusta el reparto: inglés pasa al 25 % del tiempo y la gramática se trabaja 15 minutos al día. En la semana 7 saca 9 en inglés y 3 errores en gramática; en la 9, 61 en conocimientos. A partir de ahí devuelve el inglés al 15 % y dedica más tiempo a subir nota en conocimientos. Ninguna cifra es una promesa: es cómo se usa el dato para decidir.
-
-## Si vas justo
-
-Si a tres meses ves que no llegarás a todo, no abandones el plan: **prioriza por puntos**. Primero asegura los mínimos de cada prueba; después sube nota en lo que más rinda. Cuántas horas puedes dedicar depende de tu situación: lo tienes en [cuántas horas al día estudiar](/blog/cuantas-horas-al-dia-hay-que-estudiar-para-la-guardia-civil). Si el agobio te supera, habla con un profesional.
-
-En el próximo artículo veremos cómo traducir tus simulacros en indicadores medibles para saber si estás preparado.
+Si tuviera 13 años, no se le aplicaría esta ley: el Fiscal remitiría testimonio a la entidad de protección (art. 3).
 
 ## Errores frecuentes
 
-- **Empezar temas nuevos en las últimas semanas.**
-- **Hacer simulacros sin corregirlos a fondo.**
-- **Repasar solo lo que te gusta** y no lo que te elimina.
-- **Abandonar inglés y psicotécnico** porque «son pocas preguntas».
-- **Hacer los simulacros sin ortografía, gramática e inglés,** y no entrenar los 140 minutos completos.
-- **Dejar de entrenar las físicas** hasta conocer la nota.
+- Aplicar la ley a los menores de 14 años.
+- Tomar la edad del juicio y no la del hecho (art. 5.3).
+- Confundir las 24 horas de la policía con las 48 del Fiscal, que se cuentan **desde la detención**.
+- Pensar que dirige la investigación el juez: la dirige el **Fiscal** (art. 6).
+- Olvidar que la duración general es de dos años y que las reglas del artículo 10 son excepciones.
 
-## Checklist semanal
+## Mini test (preguntas propias)
 
-- [ ] He hecho el simulacro o los tests previstos.
-- [ ] He corregido y clasificado cada fallo.
-- [ ] Supero los cinco umbrales eliminatorios, con margen.
-- [ ] He repasado el cuaderno de errores.
-- [ ] He trabajado inglés, psicotécnico y lengua.
-- [ ] He entrenado las físicas.
-- [ ] He ajustado el plan de la semana siguiente con estos datos.
+1. La LO 5/2000 se aplica a: a) menores de 18; b) mayores de 12 y menores de 18; c) mayores de 14 y menores de 18; d) mayores de 16 y menores de 21.
+2. La detención policial de un menor no puede superar: a) 6 horas; b) 24 horas; c) 48 horas; d) 72 horas.
+3. Dirige la investigación en el procedimiento de menores: a) el Juez de Menores; b) la policía judicial; c) el Ministerio Fiscal; d) el equipo técnico.
+4. Con carácter general, las medidas no pueden exceder de: a) 1 año; b) 2 años; c) 3 años; d) 5 años.
+5. Un delito menos grave cometido por un menor prescribe: a) a los 3 meses; b) al año; c) a los 3 años; d) a los 5 años.
 
-Si necesitas apoyo, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye simulacros y calendario.
+**Soluciones:** 1-c (art. 1.1); 2-b (art. 17.4); 3-c (art. 6); 4-b (art. 9.3); 5-b (art. 15.1).
 
-## Preguntas frecuentes
+## Cómo estudiarla
 
-### ¿Cuántos simulacros hacer en los últimos tres meses?
-
-No hay una cifra oficial. Una referencia razonable es uno cada una o dos semanas al principio y uno por semana en el último mes, siempre bien corregidos.
-
-### ¿Estudio temas nuevos la última semana?
-
-Es mejor repasar lo que ya conoces y tus errores. Introducir temas nuevos suele generar inseguridad y quita tiempo al repaso.
-
-### ¿Cómo reparto inglés y psicotécnico?
-
-Con bloques fijos cada semana, porque tienen mínimos eliminatorios. Si alguno está en riesgo, súbele el tiempo hasta tener margen.
-
-### ¿Y si no sé la fecha del examen?
-
-La convocatoria no la fija: la anuncia el Tribunal. Pon una fecha provisional, monta el plan hacia atrás y desplázalo cuando se publique la real.
-
-### ¿Tengo que seguir entrenando las físicas?
-
-Sí. Las pruebas físicas llegan después del examen y son eliminatorias. Mantén el entrenamiento sin sobrecargarte.
-
-### ¿Qué hago si en la semana 9 no llego a los mínimos?
-
-Concentra el tiempo en la prueba que te elimina y aparca subir nota en las demás hasta tener margen.',
-   '/blog/plan-de-repaso-para-los-ultimos-tres-meses-antes-del-examen.jpg', 'Opositor repasando fichas ante una pared con un calendario de tres meses y esquemas', 'publicado', '2027-02-17T06:51:00.000Z', 'acceso-guardia-civil',
-   ARRAY['repaso', 'planificación', 'simulacros', 'examen']::text[], '{"title":"Plan de repaso de los últimos 3 meses antes del examen","description":"Plan de repaso de 13 semanas antes del examen de Guardia Civil: temario, simulacros, cuaderno de errores, inglés, psicotécnico, físicas y última semana."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('preguntas-trampa-del-examen-de-guardia-civil', 'articulo', 'Preguntas trampa del examen de Guardia Civil y cómo detectarlas', 'No hay una lista oficial de preguntas trampa, pero las reglas de la convocatoria crean situaciones que conviene dominar: la respuesta más completa, la penalización y los errores que cuentan igual en ortografía. Siete tipos, con ejemplos propios resueltos.', '**Respuesta corta:** la convocatoria no habla de «preguntas trampa» y no hay datos oficiales sobre cuáles aparecen ni con qué frecuencia. Lo que sí es oficial son las reglas del test, y de ellas salen las situaciones que más confunden: elegir **la respuesta más completa** cuando varias parecen correctas, saber cuándo **no contestar** por la penalización y entender que en ortografía y gramática **marcar de más cuenta igual que no marcar**. A eso se suman los despistes de siempre: negaciones, cifras parecidas y normas que se confunden entre sí.
-
-Las reglas salen de las bases 6 y 7 de la [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982). **Todos los ejemplos de este artículo son propios**, redactados para practicar: no son preguntas oficiales ni pretenden predecir ninguna.
-
-## Qué dice exactamente la convocatoria
-
-Para la prueba de conocimientos generales, la base 6.1.1.c) establece que cada pregunta tiene **una única respuesta válida**; que, si el aspirante considera correctas varias opciones, **debe señalar la más completa**; que las contestadas incorrectamente **penalizan**, y que la no contestada **no se penaliza**. La misma instrucción aparece para el inglés (base 6.1.1.d) y para las aptitudes intelectuales del psicotécnico (base 6.1.2.a).
-
-Con eso ya se ve que la «trampa» no es una mala intención del Tribunal, sino una forma de examinar: comprobar si sabes el dato **entero** y si sabes **cuándo no arriesgar**.
-
-## Tipo 1: varias opciones verdaderas, solo una completa
-
-Es la situación que la propia convocatoria prevé. Una opción es cierta pero incompleta; otra la contiene y añade lo que falta.
-
-**Ejemplo propio:** ¿Cuáles son los valores superiores del ordenamiento jurídico según el artículo 1.1 de la Constitución?
-
-a) Libertad y justicia
-b) Libertad, justicia e igualdad
-c) Libertad, justicia, igualdad y pluralismo político
-d) Libertad, igualdad y pluralismo político
-
-**Solución:** c). Todas las opciones mencionan valores que sí aparecen en el artículo, pero solo la c) los recoge todos. Quien marca la primera que le suena, falla.
-
-**Variante con «todas las anteriores».** Según el artículo 7 de la Carta de las Naciones Unidas, son órganos principales: a) la Asamblea General; b) el Consejo de Seguridad; c) la Corte Internacional de Justicia; d) todas las anteriores son correctas. **Solución:** d). Las tres primeras son ciertas por separado; la d) es la más completa.
-
-**Cómo detectarla:** si al leer la a) piensas «esto es verdad», no marques todavía. Lee las cuatro y pregúntate si alguna **incluye** a otra.
-
-## Tipo 2: la negación y el «salvo»
-
-«¿Cuál NO es…?», «señale la incorrecta», «todas son correctas excepto…». El fallo no es de temario, sino de lectura: sabes la respuesta, pero contestas a la pregunta contraria.
-
-**Ejemplo propio:** ¿Cuál NO es un valor superior del ordenamiento jurídico según el artículo 1.1 de la Constitución? a) Libertad; b) Justicia; c) Igualdad; d) Solidaridad. **Solución:** d).
-
-**Cómo detectarla:** rodea la negación con el bolígrafo antes de mirar las opciones. El método completo de lectura lo desarrollaremos en el próximo artículo.
-
-## Tipo 3: cifras, plazos y mayorías casi iguales
-
-Aquí se gana o se pierde por precisión. Las opciones cambian en una unidad o en una palabra.
-
-**Ejemplo propio:** según el artículo 17.2 de la Constitución, la detención preventiva no podrá durar más del tiempo estrictamente necesario y, en todo caso, en el plazo máximo de: a) 24 horas; b) 48 horas; c) 72 horas; d) 5 días. **Solución:** c), 72 horas, tras las cuales el detenido debe ser puesto en libertad o a disposición judicial.
-
-**Cómo detectarla:** no hay truco de lectura que sustituya al dato. Estudia las cifras con tarjetas o con preguntas sin mirar, no solo releyendo, y apúntalas en una hoja aparte de «números del temario».
-
-## Tipo 4: la norma que pregunta no es la que recuerdas
-
-Muchas confusiones vienen de mezclar lo que dice la Constitución con lo que desarrolla una ley, o una ley con otra.
-
-**Ejemplo propio:** según la Constitución, el Congreso se compone de: a) 350 diputados; b) un mínimo de 300 y un máximo de 400 diputados; c) 4 diputados por provincia; d) un máximo de 350 diputados. **Solución:** b), artículo 68.1. La cifra de 350 la fija la ley electoral, no la Constitución, y los 4 por provincia son los senadores del artículo 69.
-
-**Cómo detectarla:** fíjate en la fuente que cita el enunciado («según la Constitución», «según la Ley Orgánica 2/1986») y contesta solo con esa norma.
-
-## Tipo 5: la penalización, o la trampa de la prisa
-
-Los errores restan y los blancos no. Con la fórmula de la base 7.3 y cuatro alternativas, **cada error resta un tercio de acierto**.
-
-**Ejemplo propio resuelto.** Si contestas las 100 preguntas, aciertas 60 y fallas 40: 60 − 40/3 ≈ **46,67**. No llegas al mínimo de 50. Si con el mismo conocimiento dejas 16 en blanco y fallas 24: 60 − 24/3 = **52**, y sí lo superas. Mismos aciertos, distinto resultado. Para hacer tus propias cuentas tienes [cómo calcular la nota del examen](/blog/calcular-nota-examen-guardia-civil).
-
-La lógica, en números:
-
-| Situación | Probabilidad de acertar | Valor esperado de contestar |
-| --- | --- | --- |
-| No descartas ninguna opción | 1/4 | 0 |
-| Descartas una | 1/3 | +0,11 |
-| Descartas dos | 1/2 | +0,33 |
-
-El valor esperado es una media a largo plazo, no una garantía en cada pregunta, y supone que las opciones que quedan son igual de probables. Comprueba en tus simulacros si arriesgar te suma o te resta.
-
-## Tipo 6: ortografía y gramática, donde marcar de más es fallar
-
-La convocatoria considera respuesta errónea **tanto no marcar una palabra con falta como marcar una correcta**, y con **6 o más errores** en ortografía, o 6 o más en gramática, quedas excluido (bases 7.4 y 7.5).
-
-**Ejemplo propio:** en la frase «**Haber** si llegas pronto a la reunión», la forma correcta es «a ver». Quien marca solo lo que «suena raro» y se salta los homófonos acumula errores sin darse cuenta. Y quien marca palabras correctas «por si acaso» también. Para trabajar estas confusiones: [homófonos](/blog/homofonos-ortografia-guardia-civil) y [palabras trampa de ortografía](/blog/palabras-trampa-ortografia-guardia-civil).
-
-## Tipo 7: el inglés y los falsos amigos
-
-En inglés, el distractor típico es la palabra que se parece al español y significa otra cosa.
-
-**Ejemplo propio:** «She was very *embarrassed* after the mistake». ¿Qué significa *embarrassed*? a) embarazada; b) avergonzada; c) enfadada; d) aburrida. **Solución:** b). «Embarazada» se dice *pregnant*. Otros casos clásicos: *actually* (en realidad), *library* (biblioteca), *sensible* (sensato). Tienes más en [falsos amigos en inglés](/blog/falsos-amigos-en-ingles-los-errores-tipicos-del-opositor).
-
-## Caso práctico: analizar un simulacro por tipos de trampa
-
-**Caso hipotético.** Un opositor hace un simulacro y obtiene 64 aciertos, 27 errores y 9 blancos: 64 − 9 = **55 puntos**. Al revisar los 27 fallos los clasifica así:
-
-| Causa | Fallos | Qué hacer |
-| --- | --- | --- |
-| No sabía el dato | 11 | Repaso de esos temas |
-| Cifra o plazo confundido (tipo 3) | 6 | Hoja de números y tarjetas |
-| No leyó la negación (tipo 2) | 4 | Rodear la negación siempre |
-| Eligió una opción incompleta (tipo 1) | 3 | Leer las cuatro antes de marcar |
-| Arriesgó sin descartar nada (tipo 5) | 3 | Dejar en blanco si no descarta |
-
-Solo 11 fallos eran de temario. Si los 7 de lectura (tipos 1 y 2) se convirtieran en aciertos, pasaría de 55 a 71 − 20/3 ≈ 64,3, sin estudiar nada nuevo. Y dejar en blanco los 3 arriesgados a ciegas le sumaría 1 punto más. Estas cifras son del ejemplo, no una promesa: sirven para ver dónde están los puntos baratos.
-
-## Errores frecuentes
-
-- **Marcar la primera opción verdadera** sin comparar con las demás.
-- **Leer el enunciado a medias** y perder el «no» o el «excepto».
-- **Contestarlo todo** por miedo a dejar huecos.
-- **Dejarlo todo en blanco** por miedo a fallar, incluso cuando has descartado dos opciones.
-- **Estudiar cifras solo leyendo**, sin preguntártelas.
-- **En ortografía, marcar «por si acaso».**
-
-## Checklist para tus simulacros
-
-- [ ] Leo el enunciado entero antes de mirar las opciones.
-- [ ] Rodeo negaciones y excepciones.
-- [ ] Leo las cuatro opciones aunque la primera parezca buena.
-- [ ] Compruebo si una opción incluye a otra.
-- [ ] Miro qué norma cita el enunciado.
-- [ ] Contesto si descarto al menos una opción y he comprobado que me compensa; si no, en blanco.
-- [ ] Al corregir, clasifico cada fallo por su causa.
-
-Practicarlo con cuestionarios completos y [simulacros bien analizados](/blog/simulacros-cada-cuanto-hacerlos-y-como-analizar-los-resultados) es lo que convierte estas reglas en reflejos. Si prefieres hacerlo con un método guiado, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye este trabajo.
+Aprende la edad y el art. 17 casi literalmente, haz la tabla de duraciones y esquematiza las fases (instrucción, audiencia, sentencia, recursos y ejecución). Relaciónala con los [conceptos de delito y penas](/blog/derecho-penal-para-guardia-civil-delito-penas-y-grados) y con el trato a colectivos vulnerables del [Código de Conducta](/blog/deontologia-profesional-el-codigo-de-conducta-que-entra). El [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye este tema.
 
 ## Preguntas frecuentes
 
-### ¿Hay preguntas trampa en el examen de la Guardia Civil?
+### ¿Desde qué edad se responde penalmente según esta ley?
 
-La convocatoria no usa ese término ni hay datos oficiales sobre ellas. Lo oficial son las reglas del test: respuesta única, la más completa y penalización por error. De ahí salen las situaciones que más confunden.
+Desde los catorce años cumplidos y hasta los dieciocho, referidos al momento del hecho (arts. 1 y 5.3).
 
-### ¿Qué hago si dos opciones me parecen correctas?
+### ¿Qué ocurre con un menor de catorce años?
 
-La convocatoria dice que debes señalar la más completa. Comprueba si una contiene a la otra; normalmente esa es la que hay que marcar.
+No se le aplica la LO 5/2000: se aplican las normas de protección de menores y el Fiscal remite testimonio a la entidad pública de protección (art. 3).
 
-### ¿Qué hago si dudo entre dos opciones?
+### ¿Cuánto puede durar la detención policial de un menor?
 
-Si has descartado las otras dos, el valor esperado de contestar es positivo: un acierto suma uno y un error resta un tercio. Aun así, comprueba en tus simulacros cómo te funciona.
+Lo estrictamente necesario y, como máximo, 24 horas; después, libertad o puesta a disposición del Fiscal, que resuelve dentro de las 48 horas desde la detención (art. 17).
 
-### ¿Restan las preguntas en blanco?
+### ¿Puede declarar un menor sin abogado?
 
-No. La convocatoria dice expresamente que no se penaliza la pregunta no contestada.
+No. Toda declaración del menor detenido se hace en presencia de su letrado (art. 17.2).
 
-### ¿También hay «más completa» en el psicotécnico?
+### ¿Qué pasa si cumple 18 años durante la medida?
 
-Sí. La base 6.1.2.a) repite la misma instrucción para las aptitudes intelectuales, y también penaliza los errores.
+Sigue cumpliéndola; en internamiento cerrado, el juez puede ordenar que continúe en un centro penitenciario si no responde a los objetivos, y a los 21 años lo ordenará salvo excepción (art. 14).
 
-### ¿Cómo practico la «respuesta más completa»?
+### ¿Qué ley regula esta materia hoy?
 
-Al corregir cada test, no te quedes en por qué acertaste: explica por qué cada una de las otras opciones era falsa o incompleta.',
+La LO 5/2000, modificada varias veces; la última reforma que recoge el texto consolidado es la de la LO 1/2025, que afectó a los artículos 4 y 23. Trabaja siempre con la versión vigente.',
    NULL, NULL, 'publicado', '2027-02-10T06:52:00.000Z', 'acceso-guardia-civil',
-   ARRAY['técnica de test', 'penalización', 'examen', 'estrategia']::text[], '{"title":"Preguntas trampa del examen de Guardia Civil: 7 tipos","description":"Cómo detectar las preguntas trampa del test de Guardia Civil: respuesta más completa, negaciones, cifras, penalización y ortografía. Con ejemplos propios."}'::jsonb, '{}'::jsonb)
+   ARRAY['lo 5/2000', 'menores', 'temario', 'detención']::text[], '{"title":"Responsabilidad penal de menores LO 5/2000: resumen","description":"LO 5/2000 para opositores: ámbito de edad, menores de 14 años, detención de menores, medidas y duración, prescripción, estructura de la ley y test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -1199,155 +1181,144 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('si-suspendes-como-replantear-la-siguiente-convocatoria', 'articulo', 'Si suspendes: cómo replantear la siguiente convocatoria', 'No entrar a la primera es frecuente. Cómo averiguar en qué fase y por qué quedaste fuera, cuánto te faltó frente a las notas de corte de 2022 a 2026, dónde están los puntos más baratos y cómo reorganizar la preparación para la siguiente convocatoria.', 'Si acabas de recibir una mala noticia, primero lo primero: **no entrar no te cierra la puerta**. Las bases de la convocatoria de 2026 ([BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982)) no limitan el número de veces que puedes presentarte; el límite que sí fijan es la edad: no cumplir 41 años en el año de la convocatoria (base 2.1.7). Consulta siempre las bases de la convocatoria vigente, porque cada una fija sus reglas.
+  ('tasas-de-examen-de-la-guardia-civil-importe-y-exenciones', 'articulo', 'Tasas de examen de la Guardia Civil: importe y exenciones', 'En la convocatoria de 2026 la tasa de examen fue de 11,66 euros, con 5,83 euros para familias numerosas de categoría general y exención en tres supuestos. Qué dice la base 3.3, cómo se acredita y cuándo se devuelve.', '**Respuesta corta:** en la convocatoria de 2026, los derechos de examen para ingresar en la Escala de Cabos y Guardias fueron de **11,66 euros** con carácter general. Las familias numerosas de **categoría general** pagaron **5,83 euros** (bonificación del 50 %), y quedaron **exentos** los demandantes de empleo que cumplían ciertas condiciones, las familias numerosas de **categoría especial** y las **víctimas del terrorismo** y determinados familiares. Son datos de la convocatoria de 2026: la de 2027, cuando se publique, puede fijar otros.
 
-**Respuesta corta:** averigua en qué fase y por qué quedaste fuera, calcula a cuántos puntos te quedaste de la nota de corte, identifica dónde están los puntos más baratos de conseguir y reorganiza la preparación alrededor de ese dato, no de la sensación. Y date unos días para digerirlo antes de decidir nada.
+La fuente es la base 3.3 de la [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982).
 
-## Paso 0: antes de analizar, comprueba los plazos de revisión
+## Resumen en una tabla
 
-Si el resultado acaba de publicarse, lo primero es saber si puedes pedir revisión:
+| Situación | Qué pagas | Base |
+|---|---|---|
+| Caso general | 11,66 € | 3.3.1 |
+| Familia numerosa de categoría general | 5,83 € | 3.3.3 |
+| Familia numerosa de categoría especial | 0 € | 3.3.2 |
+| Demandante de empleo con los requisitos de la base | 0 € | 3.3.2 |
+| Víctima del terrorismo y familiares previstos | 0 € | 3.3.2 |
 
-- **Pruebas de ortografía, gramática, conocimientos, inglés y aptitudes intelectuales:** la base 7.11 permitía pedir la revisión de la calificación por escrito en **3 días hábiles** desde la publicación de las calificaciones.
-- **Reconocimiento médico:** la calificación de «no apto» podía revisarse en **3 días hábiles**.
-- **Entrevista personal:** el «no apto provisional» se revisa ante una Junta de psicólogos.
+## Importe general
 
-Los plazos son cortos y los fija cada convocatoria: compruébalos en la tuya en cuanto salgan las listas.
+La base 3.3.1 fija **once euros con sesenta y seis céntimos (11,66 euros)** en concepto de derechos de examen «con carácter general». El pago es telemático, dentro del propio procedimiento de [solicitud en la sede electrónica](/blog/como-rellenar-la-solicitud-de-la-guardia-civil-paso-a-paso).
 
-## Paso 1: descubre dónde se quedó el problema
+Un dato útil: hemos comprobado en el BOE que las convocatorias de **2023, 2024 y 2025** fijaron exactamente los mismos importes, 11,66 euros y 5,83 euros. Esa estabilidad no garantiza nada para 2027, pero sí indica que no conviene creer cifras muy distintas sin ver el texto. Recuerda también que la tasa no la fija la [oferta de empleo público](/blog/oferta-de-empleo-publico-2027-que-es-y-que-significa-para-ti), que solo autoriza plazas, sino la convocatoria de cada año.
 
-Hay casos muy distintos, y cada uno pide un plan diferente:
+## Bonificación del 50 %: familia numerosa general
 
-| Qué pasó | Qué significa | Qué cambiar |
-| --- | --- | --- |
-| 6 o más errores en ortografía o en gramática | Excluido antes de que contara el resto | Entrenamiento diario de lengua |
-| No llegaste a un mínimo (conocimientos 50/100, inglés 8/20, aptitudes 12/30) | Fuera por una prueba concreta | Reforzar esa prueba hasta tener margen |
-| Superaste los mínimos, pero tu puntuación no alcanzó para ser convocado a las pruebas psicofísicas (1,5 aspirantes por plaza) o para obtener plaza | Faltaron puntos en conjunto | Subir nota global y revisar el concurso |
-| No superaste las pruebas físicas | Fallo en una prueba apto/no apto | Plan de entrenamiento con margen sobre las marcas |
-| «No apto» en reconocimiento médico o entrevista | Fallo en una prueba de aptitud | Informarte bien de la causa y, si procede, consultar con un profesional |
+Quien acredite ser miembro de una **familia numerosa de categoría general** paga **5,83 euros** (base 3.3.3). La acreditación es el **título de familia numerosa en vigor**, expedido por la comunidad autónoma correspondiente.
 
-Los mínimos están en las bases 7.4 a 7.8. Si no sabes tu puntuación exacta, consulta las listas publicadas con tus resultados.
+Atención a dos detalles: el título debe estar **en vigor**, y la bonificación es solo para la categoría general. Si tu familia es de categoría especial, no te corresponde la bonificación, sino la exención total.
 
-## Paso 2: compara con las notas de corte
+## Las exenciones, una por una
 
-La nota de corte, tal como la calculamos en ProLince a partir de las resoluciones de aspirantes propuestos, es la puntuación final del último aspirante que obtuvo plaza en el acceso libre, sobre **195 puntos** (oposición, hasta 150, más concurso, hasta 45). No existe una nota de corte oficial publicada como cifra aislada.
+### 1. Demandantes de empleo
 
-| Año | Nota de corte (acceso libre, sobre 195) |
-| --- | --- |
-| 2026 | 90,61 |
-| 2025 | 95,80 |
-| 2024 | 103,08 |
-| 2023 | 95,75 |
-| 2022 | 110,58 |
+Están exentos quienes cumplan **a la vez** estas tres condiciones (base 3.3.2):
 
-Varía mucho de un año a otro y **no se puede predecir** la siguiente. Qué es y por qué cambia está en [nota de corte de la Guardia Civil](/blog/nota-de-corte-guardia-civil). Úsala para medir tu distancia, no como una promesa: si te faltaron 3 puntos con la de 2026, con la de 2022 te habrían faltado más de 20.
+- figurar como demandantes de empleo durante, al menos, **un mes anterior a la fecha de publicación** de la convocatoria;
+- no haber rechazado en ese plazo una oferta de empleo adecuado ni haberse negado, sin causa justificada, a participar en acciones de promoción, formación o reconversión profesionales;
+- **no tener rentas superiores, en cómputo mensual, al salario mínimo interprofesional**.
 
-## Paso 3: busca los puntos más baratos
+Se acredita con una **certificación del Servicio Público de Empleo Estatal** sobre esa condición y requisitos, y con una **declaración escrita** del propio aspirante sobre sus rentas.
 
-No todos los puntos cuestan lo mismo. Algunas vías, de menos a más esfuerzo habitual:
+Fíjate en la fecha: el mes se cuenta hacia atrás **desde la publicación de la convocatoria**, no desde que presentas la solicitud. Si te inscribes como demandante después de que salga la convocatoria, no llegas.
 
-| Vía | Cuánto puede sumar | Comentario |
-| --- | --- | --- |
-| Convertir errores de lectura en blancos o aciertos | Cada error evitado suma 1/3; cada error convertido en acierto, 4/3 | Técnica, no temario |
-| Certificado de idiomas | B2 = 5, C1 = 7, C2 = 9 puntos de concurso | Solo cuenta el de mayor puntuación de cada idioma |
-| Inglés | Hasta 20 puntos | Prueba corta; cada acierto vale lo mismo que en conocimientos |
-| Aptitudes intelectuales | Hasta 30 puntos | Cada acierto vale 0,375; entrenable |
-| Conocimientos | Hasta 100 puntos | El grueso, pero el más lento de mejorar |
+### 2. Familia numerosa de categoría especial
 
-Los méritos se explican en [la fase de concurso](/blog/fase-concurso-guardia-civil-meritos) y los certificados válidos, en [qué certificado de idiomas sacarte](/blog/certificados-de-idiomas-para-la-guardia-civil-cual-sacarte). Los méritos se valoran según el baremo de cada convocatoria: compruébalo cuando salga.
+Exención total, acreditada con el título de familia numerosa en vigor.
 
-## Caso práctico: a 0,6 puntos
+### 3. Víctimas del terrorismo
 
-**Caso hipotético**, con la nota de corte de 2026. Un aspirante obtuvo 58 en conocimientos (64 aciertos, 18 errores), 10 en inglés y 16 en aptitudes: 84 puntos de oposición. Con 6 de concurso, sumó **90**, a 0,61 de la nota de corte.
+Están exentas las personas que hayan sufrido daños físicos o psíquicos como consecuencia de la actividad terrorista y lo acrediten mediante **sentencia judicial firme o resolución administrativa** que reconozca esa condición. La exención alcanza también a:
 
-Su diagnóstico:
+- sus **hijos**;
+- su **cónyuge** o la persona con quien hayan convivido en análoga relación de afectividad durante **los últimos dos años**;
+- los **hijos y el cónyuge del fallecido**.
 
-- De los 18 errores de conocimientos, 5 fueron de lectura (negaciones y opciones incompletas). Si los hubiera dejado en blanco, habría sumado 5/3 ≈ 1,67 puntos; si los hubiera acertado, 5 × 4/3 ≈ 6,7.
-- No tenía certificado de inglés. Un B2 le habría dado 5 puntos de concurso.
-- En aptitudes, 16 sobre 30 equivale a unos 43 aciertos netos de 80: hay margen de mejora con entrenamiento regular.
+## Qué modalidad elegir: árbol de decisión
 
-Su plan para la siguiente convocatoria: técnica de lectura desde ya, preparar un certificado de inglés de nivel B2 y psicotécnico tres veces por semana, sin dejar de repasar el temario. Ninguna de estas medidas garantiza la plaza, porque la nota de corte cambia, pero ataca los puntos más accesibles primero.
+Al inscribirte tienes que escoger entre tres modalidades. Hazte estas preguntas en este orden:
 
-## Paso 4: haz un diagnóstico sin dramatizar
+1. **¿Eres víctima del terrorismo, o hijo, cónyuge o pareja de hecho en los términos de la base?** Si puedes acreditarlo con sentencia firme o resolución administrativa, elige **con exención**.
+2. **¿Tu familia numerosa es de categoría especial y el título está en vigor?** Elige **con exención**.
+3. **¿Eras demandante de empleo al menos un mes antes de la publicación, sin rechazar ofertas ni acciones de formación, y sin rentas mensuales por encima del salario mínimo?** Si cumples las tres cosas, elige **con exención**.
+4. **¿Tu familia numerosa es de categoría general y el título está en vigor?** Elige **con bonificación** y paga 5,83 euros.
+5. **Si no encajas en nada de lo anterior**, elige **sin reducción** y paga 11,66 euros.
 
-Responde con datos, no con impresiones:
+Si dudas entre dos opciones, quédate con la que puedas demostrar con un documento. Y si tu caso no encaja claramente, la convocatoria de 2026 indica que las dudas sobre la inscripción las resuelve la Jefatura de Enseñanza, con los teléfonos y el correo que da su base 4.10.
 
-- ¿Cuántos simulacros hice y qué tendencia tenían?
-- ¿Mis fallos eran de **temario**, de **lectura** o de **gestión del tiempo**? Para los de lectura, mira [cómo leer un enunciado tipo test](/blog/como-leer-un-enunciado-tipo-test-sin-caer-en-las-trampas).
-- ¿Repasé de forma espaciada o dejé temas sin volver a ver?
-- ¿Llegué a las físicas con margen o justo?
-- ¿Mi horario era sostenible o acabé agotado?
+## Cuándo y cómo se acredita
 
-## Paso 5: replantea el calendario
+La convocatoria distingue dos momentos:
 
-1. **Descansa unos días**, pero no semanas: reanudar cuesta más cuanto más tardas.
-2. **Fija un objetivo de puntuación** a partir del histórico de notas de corte, con margen, y repártelo por pruebas.
-3. **Corrige primero lo que más puntos te quitó**, no lo que más te gusta estudiar.
-4. **Reserva simulacros periódicos** y analízalos.
-5. **Mantén el contacto con el temario** aunque no haya convocatoria publicada: se olvida rápido.
+1. **Al inscribirte**, eliges la modalidad: sin reducción, con bonificación o con exención.
+2. **Después**, la Jefatura de Enseñanza comprueba los datos. La solicitud lleva implícita tu autorización para consultarlos de oficio en otras administraciones, entre ellas el Servicio Público de Empleo Estatal y la Dirección General de Apoyo a Víctimas del Terrorismo (base 2.3). Si no das esa autorización o falla la consulta, te pedirán los documentos (título de familia numerosa, certificación de demandante de empleo con declaración de rentas o resolución de víctima del terrorismo) cuando lo requiera el Tribunal de Selección.
 
-Una distribución orientativa del primer mes tras el resultado:
+Pide solo la exención o la bonificación que puedas acreditar: la comprobación llega, aunque sea más tarde.
 
-| Semana | Foco |
-| --- | --- |
-| 1 | Descanso y análisis de resultados por escrito |
-| 2 | Plan nuevo: objetivo por prueba y calendario |
-| 3 | Vuelta al temario con tests de todo lo visto |
-| 4 | Primer simulacro completo para medir el punto de partida |
+## Devolución de la tasa
 
-Sobre la siguiente convocatoria, no hay fecha ni plazas garantizadas: lo que se sabe está en [qué se sabe de la convocatoria de 2027](/blog/convocatoria-guardia-civil-2027-que-se-sabe-y-cuando-saldra). Planifica con lo que sí controlas.
+La base 3.3.4 se remite al artículo 12 de la **Ley 8/1989, de Tasas y Precios Públicos**: **procede devolver** lo pagado cuando **no se realice el hecho imponible por causas no imputables al interesado**. Y lo dice expresamente al revés: **no hay devolución si te excluyen por una causa que te sea imputable**, por ejemplo por no cumplir un requisito.
 
-## Paso 6: cuida cómo te lo tomas
+| Situación | ¿Se devuelve? |
+|---|---|
+| Te excluyen por no cumplir un requisito de la base 2 | No: es causa imputable a ti |
+| No subsanas un defecto en el plazo de diez días | No, por la misma razón |
+| No se realiza el hecho imponible por causas ajenas a ti | Sí, según la Ley 8/1989 |
 
-Es normal sentir frustración, rabia o tristeza. Hablarlo con alguien de confianza ayuda. Si el desánimo te bloquea durante semanas o notas ansiedad que te desborda, hablar con un profesional de la salud es una buena decisión; no es algo que un artículo pueda resolver. Hay ideas para los días sin ganas en [qué hacer cuando no te apetece estudiar](/blog/motivacion-que-hacer-los-dias-que-no-te-apetece-estudiar).
+Por eso conviene comprobar [los requisitos](/blog/requisitos-guardia-civil) antes de pagar, no después.
+
+## Casos prácticos (hipotéticos)
+
+- **Elena** es de una familia numerosa general con el título caducado desde hace dos meses. Antes de inscribirse lo renueva en su comunidad autónoma, porque la base exige el título **en vigor**. Paga 5,83 euros.
+- **Rubén** se apunta al paro el día que sale la convocatoria. No puede pedir la exención: le falta el mes previo a la publicación. Paga 11,66 euros.
+- **Ana** es hija de una víctima del terrorismo con resolución administrativa que reconoce esa condición. Elige la modalidad con exención y conserva la resolución por si el Tribunal se la pide.
+
+Son ejemplos inventados para ilustrar cómo se aplican las bases de 2026.
 
 ## Errores frecuentes
 
-- **Volver a empezar igual,** con el mismo método y el mismo horario.
-- **Empezar el temario desde cero** en lugar de repasar con tests lo que ya sabías.
-- **Culpar solo a la nota de corte** sin mirar tus propios datos.
-- **Olvidar el concurso:** un certificado puede valer más que semanas de temario.
-- **Abandonar las físicas** hasta que salga la convocatoria.
-- **Tardar meses en volver.**
+- **Elegir «con exención» sin cumplir los tres requisitos** del demandante de empleo.
+- **Confundir categoría general y especial** de familia numerosa.
+- **Usar un título de familia numerosa caducado.**
+- **Contar el mes de demandante desde la solicitud** y no desde la publicación.
+- **Pagar sin comprobar requisitos** y esperar que te devuelvan la tasa si te excluyen.
 
-## Checklist tras el resultado
+## Checklist
 
-- [ ] He comprobado si estoy en plazo para pedir revisión.
-- [ ] Sé en qué fase quedé fuera y por qué.
-- [ ] Sé a cuántos puntos me quedé frente a las notas de corte.
-- [ ] He clasificado mis fallos (temario, lectura, tiempo).
-- [ ] He revisado qué méritos puedo sumar.
-- [ ] Tengo fecha para retomar el estudio.
-- [ ] Sigo cumpliendo el requisito de edad para la próxima convocatoria.
+- [ ] Sé qué modalidad me corresponde: sin reducción, bonificación o exención.
+- [ ] Tengo el documento que lo acredita, en vigor.
+- [ ] Si soy demandante de empleo, lo era al menos un mes antes de la publicación.
+- [ ] He comprobado los requisitos antes de pagar.
+- [ ] Guardo el justificante de pago y de registro.
 
-Si quieres reorganizar la preparación con apoyo, mira el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
+Para saber cómo se estructura el resto del proceso, lee la [convocatoria de 2026 y su calendario](/blog/convocatoria-guardia-civil-2026-plazas-calendario) y, para el año que viene, lo que se sabe de [la convocatoria de 2027](/blog/convocatoria-guardia-civil-2027-que-se-sabe-y-cuando-saldra). Si quieres un método de estudio, está el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil).
 
 ## Preguntas frecuentes
 
-### ¿Puedo volver a presentarme si suspendo?
+### ¿Cuánto cuesta presentarse a la oposición de la Guardia Civil?
 
-Las bases de 2026 no limitan el número de intentos; sí limitan la edad. Revisa las bases de la convocatoria vigente.
+En la convocatoria de 2026, 11,66 euros de derechos de examen con carácter general. La cifra de 2027 dependerá de su convocatoria.
 
-### ¿Cuánto tarda en salir la siguiente convocatoria?
+### ¿Quién está exento de pagar la tasa?
 
-No hay una fecha fija ni garantizada. Sigue las publicaciones del BOE y de la Guardia Civil.
+En 2026: demandantes de empleo con las condiciones de la base 3.3.2, familias numerosas de categoría especial y víctimas del terrorismo y los familiares que prevé la base.
 
-### ¿Qué nota debería sacar para entrar?
+### ¿Cuánto paga una familia numerosa?
 
-No hay una cifra segura: la nota de corte cambia cada año. En los últimos cinco años osciló entre 90,61 y 110,58 sobre 195. Usa el histórico como referencia, con margen.
+Categoría general: 5,83 euros (bonificación del 50 %). Categoría especial: nada, porque está exenta.
 
-### ¿Conservo algo de un intento anterior?
+### ¿Tengo que adjuntar el título de familia numerosa al inscribirme?
 
-Las bases de 2026 no prevén conservar notas de un año para otro. Lo que sí conservas son los méritos que tengas acreditados y lo que has aprendido. Consulta siempre las bases vigentes.
+No necesariamente: la Jefatura de Enseñanza puede consultarlo de oficio. Si no autorizas la consulta o falla, lo presentarás cuando lo pida el Tribunal.
 
-### ¿Puedo pedir que revisen mi examen?
+### ¿Me devuelven la tasa si no me admiten?
 
-Sí, dentro del plazo que fije la convocatoria; en la de 2026, 3 días hábiles desde la publicación de las calificaciones (base 7.11).
+Solo si la causa no te es imputable. Si te excluyen por algo atribuible a ti, no se devuelve.
 
-### ¿Es mejor cambiar de método o de academia?
+### ¿La tasa ha cambiado en los últimos años?
 
-Depende de tu diagnóstico. Si tus fallos eran de temario no repasado, quizá baste con cambiar el plan; si no tenías método, puede que necesites apoyo externo. Decide con tus datos.',
-   NULL, NULL, 'publicado', '2027-02-15T06:17:00.000Z', 'acceso-guardia-civil',
-   ARRAY['suspenso', 'nota de corte', 'planificación', 'convocatoria']::text[], '{"title":"Si suspendes la oposición a Guardia Civil: qué hacer","description":"Qué hacer si no apruebas la oposición a Guardia Civil: diagnostica el fallo, compárate con las notas de corte 2022-2026 y replantea la convocatoria."}'::jsonb, '{}'::jsonb)
+No en las convocatorias de 2023 a 2026 que hemos comprobado: 11,66 euros y 5,83 euros con bonificación.',
+   NULL, NULL, 'publicado', '2027-02-16T06:34:00.000Z', 'acceso-guardia-civil',
+   ARRAY['tasas', 'derechos de examen', 'exenciones', 'familia numerosa']::text[], '{"title":"Tasas examen Guardia Civil: importe y exenciones","description":"Tasa de examen de la Guardia Civil en la convocatoria 2026: 11,66 euros, 5,83 para familia numerosa general y quién está exento según la base 3.3."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

@@ -3,7 +3,7 @@ titulo: Haber o a ver, echo o hecho: los homófonos que te pueden excluir
 slug: homofonos-ortografia-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-04T07:36:00+01:00
+publicado_en: 2026-12-03T07:19:00+01:00
 curso: acceso-guardia-civil
 entradilla: Los homófonos suenan igual y se escriben distinto, y en la prueba de ortografía una palabra correcta en el sitio equivocado es falta. Las parejas que más se confunden, un truco de sustitución para cada una y un ejercicio resuelto.
 etiquetas: [ortografía, homófonos, porque, haber]

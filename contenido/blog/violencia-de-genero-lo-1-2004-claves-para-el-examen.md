@@ -3,7 +3,7 @@ titulo: Violencia de género (LO 1/2004): claves para estudiar el tema
 slug: violencia-de-genero-lo-1-2004-claves-para-el-examen
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-27T07:07:00+01:00
+publicado_en: 2026-12-29T07:41:00+01:00
 curso: acceso-guardia-civil
 entradilla: La Ley Orgánica 1/2004 forma el tema 21 y entra completa. Qué define como violencia de género, cómo se organiza en un título preliminar y cinco títulos, qué papel tienen las Fuerzas y Cuerpos de Seguridad y qué medidas judiciales prevé, con caso práctico y test.
 etiquetas: [violencia de género, lo 1/2004, temario, víctimas]

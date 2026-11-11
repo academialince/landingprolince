@@ -3,7 +3,7 @@ titulo: Ascenso a cabo: cuándo puedes presentarte y cómo es la promoción inte
 slug: ascenso-a-cabo-cuando-puedes-presentarte
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-02T07:36:00+01:00
+publicado_en: 2027-02-13T07:43:00+01:00
 curso: acceso-guardia-civil
 entradilla: El ascenso a cabo se logra por concurso-oposición y curso de capacitación, con dos años de servicios como mínimo. Qué exige la Ley 29/2014, qué pruebas fija la Orden PJC/325/2024 y cómo es el curso de 340 horas.
 etiquetas: [ascenso a cabo, promoción interna, concurso-oposición, carrera]

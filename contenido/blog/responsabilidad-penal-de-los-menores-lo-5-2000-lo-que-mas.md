@@ -3,7 +3,7 @@ titulo: Responsabilidad penal de los menores (LO 5/2000): claves del tema
 slug: responsabilidad-penal-de-los-menores-lo-5-2000-lo-que-mas
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-28T07:24:00+01:00
+publicado_en: 2027-02-10T07:52:00+01:00
 curso: acceso-guardia-civil
 entradilla: La LO 5/2000 se aplica a mayores de catorce y menores de dieciocho años. Edad, jueces, detención en 24 y 48 horas, medidas y su duración, prescripción y estructura del tema 20, con caso práctico y test propio.
 etiquetas: [lo 5/2000, menores, temario, detención]

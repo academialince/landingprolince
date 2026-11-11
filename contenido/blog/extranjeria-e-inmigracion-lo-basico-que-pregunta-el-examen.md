@@ -3,7 +3,7 @@ titulo: Extranjería e inmigración: lo básico que conviene dominar
 slug: extranjeria-e-inmigracion-lo-basico-que-pregunta-el-examen
 tipo: articulo
 estado: publicado
-publicado_en: 2026-12-20T07:08:00+01:00
+publicado_en: 2026-12-18T07:34:00+01:00
 curso: acceso-guardia-civil
 entradilla: Estructura de la Ley Orgánica 4/2000, derechos de los extranjeros, entrada, estancia y residencia, infracciones, expulsión, devolución e internamiento, y el régimen de los ciudadanos de la UE del Real Decreto 240/2007. Plazos comprobados en el BOE y test propio.
 etiquetas: [extranjería, inmigración, LO 4/2000, ciudadanos de la UE, temario]

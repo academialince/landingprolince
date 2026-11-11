@@ -3,7 +3,7 @@ titulo: Casas cuartel y pabellones de la Guardia Civil: qué son y qué dice la 
 slug: casas-cuartel-como-es-vivir-en-un-pabellon-de-la-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-01-23T07:46:00+01:00
+publicado_en: 2027-02-12T07:26:00+01:00
 curso: acceso-guardia-civil
 entradilla: Vivir en una casa cuartel no es obligatorio ni automático. Qué dicen la Ley Orgánica 11/2007 y el Real Decreto 274/2018 sobre pabellones, residencia y localización, en qué se diferencian de las residencias del Cuerpo y qué no está publicado.
 etiquetas: [casas cuartel, pabellones, residencia, destinos]

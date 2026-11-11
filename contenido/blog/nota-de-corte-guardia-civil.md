@@ -3,7 +3,7 @@ titulo: Nota de corte de la Guardia Civil: cómo funciona y por qué no hay una 
 slug: nota-de-corte-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-17T07:47:00+01:00
+publicado_en: 2026-11-20T07:38:00+01:00
 curso: acceso-guardia-civil
 entradilla: La nota de corte no se fija antes del examen: es la puntuación del último aspirante que consigue plaza, sobre 195 puntos. Las de 2022 a 2026, por qué cambian tanto y cómo traducirlas en aciertos y errores.
 etiquetas: [nota de corte, puntuación, concurso-oposición, convocatoria]

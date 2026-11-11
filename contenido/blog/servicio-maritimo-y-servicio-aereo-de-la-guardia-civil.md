@@ -3,7 +3,7 @@ titulo: Servicio Marítimo y Servicio Aéreo de la Guardia Civil
 slug: servicio-maritimo-y-servicio-aereo-de-la-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-01T07:19:00+01:00
+publicado_en: 2027-01-16T07:47:00+01:00
 curso: acceso-guardia-civil
 entradilla: El Servicio Marítimo patrulla las aguas españolas y el Aéreo opera helicópteros, aviones y drones. Qué hacen, cómo se organizan y qué modalidades de cada especialidad puede obtener un guardia civil según la normativa.
 etiquetas: [servicio marítimo, servicio aéreo, especialidades, destinos]

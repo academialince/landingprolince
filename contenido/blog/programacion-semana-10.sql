@@ -2,312 +2,109 @@
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('certificados-de-idiomas-para-la-guardia-civil-cual-sacarte', 'articulo', '"Certificados de idiomas para la Guardia Civil: cuál sacarte y cuánto suma"', 'El baremo de la convocatoria de 2026 puntúa los certificados de idiomas con 5, 7 o 9 puntos según el nivel, dentro de un tope de 27 para los méritos académicos. Qué títulos se admiten, qué condiciones exige el apéndice I y cómo decidir cuál sacarte.', '**Respuesta corta:** según el apéndice I de la convocatoria de 2026, un certificado de nivel **B2 suma 5 puntos**, uno de **C1, 7** y uno de **C2, 9**. Por cada idioma solo cuenta una acreditación, la de mayor puntuación, y todos los méritos académicos juntos tienen un **tope de 27 puntos**. Solo puntúan los títulos que aparecen expresamente en la lista. El baremo puede cambiar entre convocatorias, así que compruébalo en la que se publique.
+  ('grs-que-son-los-grupos-de-reserva-y-seguridad-guardia-civil', 'articulo', 'GRS: qué son los Grupos de Reserva y Seguridad de la Guardia Civil', 'Los GRS son la fuerza de reserva de la Guardia Civil: refuerzan a otras unidades, garantizan la seguridad en grandes concentraciones y apoyan en catástrofes. Qué hacen, cómo se organizan y cómo se llega a ellos según la Orden PCM/509/2020.', 'Si has visto a guardias civiles en un gran evento deportivo, en una manifestación multitudinaria o ayudando tras una inundación, es muy probable que fueran de un GRS. **Los Grupos de Reserva y Seguridad son las unidades de ejecución de la Agrupación de Reserva y Seguridad (ARS), la principal fuerza de reserva de la Guardia Civil.** No son una unidad «de élite» concreta, sino la reserva que el Cuerpo envía allí donde hace falta reforzar. Para servir en ellos como especialista hay que obtener la cualificación de **Reserva y seguridad**, que se puede conseguir siendo guardia, cabo o cabo primero.
 
-Todo lo que sigue sale del apéndice I de la [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982). Para ver cómo encaja en el conjunto, mira [los 45 puntos de la fase de concurso](/blog/fase-concurso-guardia-civil-meritos).
+Aquí tienes solo lo que se puede comprobar en fuentes oficiales. Si quieres el contexto general, lee antes [especialidades y destinos en la Guardia Civil](/blog/destinos-especialidades-guardia-civil).
 
-## Dónde encajan los idiomas en el baremo
+## Qué es la Agrupación de Reserva y Seguridad
 
-La fase de concurso vale de 0 a 45 puntos y se reparte en tres bloques con su propio tope:
+Según la [web oficial](https://web.guardiacivil.es/es/institucional/conocenos/especialidades/OrdenPublico/), en 1988 surgió la necesidad de agrupar las unidades de reserva para mejorar el apoyo a las unidades territoriales y responder a incendios, inundaciones, catástrofes y alteraciones del orden público, y el **21 de junio de 1988** se creó la ARS.
 
-| Bloque | Tope | Qué incluye |
-|---|---|---|
-| Méritos profesionales | 13,5 | Servicios en las Fuerzas Armadas o en la Administración General del Estado, reservista voluntario |
-| Méritos académicos | 27 | Nivel académico (Bachiller o superior, 2 puntos) e **idiomas** |
-| Otros méritos | 4,5 | Permisos de conducción (A o A2; C, D y sus combinaciones) y deportista de alto nivel |
+La norma de estructura del Cuerpo ([Orden PRE/422/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906), artículo 8.2.a) la define como la «principal Unidad de Reserva de la Guardia Civil, especialmente concebida, preparada y organizada» para la prevención, el mantenimiento y, en su caso, el restablecimiento de la seguridad pública. Como unidad de reserva puede adquirir diversas capacidades para emplearse temporalmente en apoyo de otras unidades, colaborar en casos de grave riesgo, catástrofe o calamidad pública y participar en misiones internacionales.
 
-Los idiomas son, con diferencia, la partida que más puntos puede aportar a quien no tiene experiencia profesional previa.
+Depende de la **Jefatura de Unidades Especiales y de Reserva**, que a su vez depende del Mando de Operaciones (artículos 6 y 8). Esa jefatura dirige, coordina y controla sus unidades y aprueba los procedimientos específicos para emplearlas y para que apoyen a otras unidades del Cuerpo (artículo 8.1). De ella dependen también, entre otros, el Servicio de Montaña, el Servicio Aéreo, el Servicio Cinológico y Remonta y la Unidad de Acción Rural.
 
-## Las reglas generales
+## Qué hacen
 
-- **Solo cuentan los méritos que figuran en el apéndice**, que se han **alegado en la inscripción telemática** y que **se poseen dentro del plazo de presentación de solicitudes**.
-- **Por cada idioma** se contabiliza una sola acreditación (perfil SLP, título o certificado): la de mayor puntuación. Un B2 y un C1 de inglés no se suman.
-- **Idiomas de interés**: alemán, árabe, francés, inglés, italiano, portugués y ruso. Certificados de idiomas distintos sí pueden sumar entre sí, dentro del tope de 27.
-- Se justifican con la documentación que pida el Tribunal de Selección, en la fecha que disponga.
-- En los certificados no nacionales, **todas las pruebas deben ser 100 % presenciales**.
+La web resume tres cometidos fundamentales:
 
-## Certificados de inglés que puntúan
+- **Garantizar el orden y la seguridad en grandes concentraciones de masas.**
+- **Realizar o colaborar en la protección y seguridad de altas personalidades.**
+- **Reforzar los servicios de las unidades territoriales.**
 
-### Escuela Oficial de Idiomas
+Ejemplos de servicios que encajan en esos cometidos: un dispositivo de seguridad en una final deportiva o en una cumbre internacional, el refuerzo de una comandancia en temporada alta, la protección de una visita oficial o el apoyo a la población tras una catástrofe. Conecta con lo que estudias en el temario sobre [seguridad ciudadana](/blog/seguridad-ciudadana-y-seguridad-privada-que-cae-del-temario) y sobre [las competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada).
 
-Certificado oficial según el artículo 7.9 del Real Decreto 1041/2017:
+## Cómo se organiza
 
-| Nivel | Puntos |
-| --- | --- |
-| Avanzado C2 | 9 |
-| Avanzado C1 | 7 |
-| Intermedio B2 | 5 |
+La ARS tiene dos tipos de unidades:
 
-### Certificados no nacionales
-
-| Entidad | 9 puntos | 7 puntos | 5 puntos |
-| --- | --- | --- | --- |
-| Trinity College London (ISE) | ISE IV (C2) | ISE III (C1) | ISE II (B2) |
-| Cambridge | CPE (C2), grado A, B o C | CAE (C1), grado A, B o C | FCE (B2), grado A, B o C |
-| IELTS (Academic o General Training) | 8 o más en cada rasgo | De 7 a menos de 8 en cada rasgo | De 5,5 a menos de 7 en cada rasgo |
-| CertAcles (ACLES), pruebas presenciales | C2 | C1 | B2 |
-
-En Trinity puntúan los resultados *pass*, *pass with merit* o *pass with distinction*. En IELTS, la puntuación se exige en **cada uno de los rasgos de la nota final**, no en la media: con una nota global alta pero un rasgo por debajo del umbral, bajas de tramo.
-
-### Otras vías
-
-- **Perfil lingüístico SLP del STANAG 6001**: 4.4.4.4 o superior, 9 puntos; 3.3.3.3 o superior, 7; 2.2.2.2 o superior, 5. Solo pueden invocarlo quienes pertenezcan o hayan pertenecido a las Fuerzas Armadas, y debe estar en vigor.
-- **Licenciatura o Grado en Filología** (o equivalente) en un idioma de interés: 9 puntos. También **Traducción e Interpretación** en el idioma B, si es de interés: 9 puntos. En estos casos, esa titulación no puede valorarse además como nivel académico (apartado 2.1).
-
-### Lo que no está en la lista
-
-En la convocatoria de 2026 no figuran otros exámenes de inglés distintos de los citados. Si tu certificado no aparece en el apéndice, no puntúa en esa convocatoria aunque acredite un nivel B2 o superior. Tampoco puntúan niveles por debajo de B2. Antes de matricularte en un examen, comprueba que su nombre exacto está en el baremo vigente.
-
-## Cómo funciona el tope de 27: ejemplos resueltos
-
-Los ejemplos son hipotéticos y usan el baremo de 2026.
-
-| Aspirante | Méritos académicos | Suma | Puntúa |
-|---|---|---|---|
-| A | Bachiller + B2 de inglés | 2 + 5 | **7** |
-| B | Grado universitario + C1 de inglés + B2 de francés | 2 + 7 + 5 | **14** |
-| C | Bachiller + FCE (B2) + C1 de la EOI, ambos de inglés | 2 + 7 (solo el mayor) | **9** |
-| D | Bachiller + C2 de inglés, alemán y francés | 2 + 9 + 9 + 9 = 29 | **27** (tope) |
-| E | Grado en Filología Inglesa + B2 de francés | 9 + 5 (el grado no cuenta también como nivel académico) | **14** |
-
-En el caso E, si además tuviera otro título de Bachiller o superior distinto del de Filología, podría alegarlo como nivel académico; la convocatoria solo valora **una** titulación en ese apartado.
-
-## ¿Cuál sacarte?
-
-Depende de tu nivel real, de tu tiempo y de cuándo se abra el plazo:
-
-- **Si ya tienes un título, localízalo y alégalo.** Es puntuación sin más trabajo.
-- **El salto de B2 a C1 vale 2 puntos; de C1 a C2, otros 2.** Cada salto exige bastante más nivel. Para muchos opositores, asegurar un B2 o un C1 es más realista que perseguir un C2.
-- **Un segundo idioma** suma aparte: un B2 de francés añade 5 puntos aunque ya tengas un C1 de inglés.
-- **Fechas.** Debes poseer el certificado **dentro del plazo de solicitudes**. En 2026 ese plazo fue de 15 días hábiles desde el día siguiente a la publicación de la convocatoria. Mira con tiempo cuándo publica resultados cada examinador: aprobar no basta si el certificado llega tarde.
-- **Presencialidad.** Comprueba que el formato que eliges es presencial en todas sus partes.
-- **Coste.** Los exámenes oficiales tienen tasas que varían según la entidad; consúltalas antes de decidir.
-
-### Cómo comparar opciones antes de matricularte
-
-| Criterio | Qué comprobar |
+| Unidad | Qué es, según la web oficial |
 |---|---|
-| ¿Está en el baremo? | Nombre exacto del examen y nivel en el apéndice vigente |
-| ¿Es presencial? | Todas las partes, también la oral, en el caso de los no nacionales |
-| ¿Cuándo tendrás el certificado? | Fecha de publicación de resultados y de expedición, frente al plazo de solicitudes |
-| ¿Se ajusta a tu nivel? | Una prueba de nivel previa evita pagar por un examen que no vas a aprobar |
-| ¿Qué cuesta? | Tasa de examen y, si lo necesitas, preparación |
+| Grupos de Reserva y Seguridad (GRS) | Unidades que ejecutan los servicios. Se articulan en compañías, que encuadran secciones, y para cada servicio se despliegan en módulos: Unidad Básica de Actuación (UBA), reforzada (UBAR), disminuida (UBAD) y Módulo de Intervención Rápida (MIR) |
+| Escuadrón de Caballería | Unidad montada preparada para los cometidos de la agrupación que se ajusten a sus medios; también actúa como unidad de honores y protocolo en actos de especial relevancia |
 
-### Alegarlo y justificarlo sin errores
+La web indica **ocho grupos**, con base en Madrid, Sevilla, Valencia, Barcelona, Zaragoza, León, Pontevedra y Santa Cruz de Tenerife. Es el dato publicado en noviembre de 2026; el despliegue puede cambiar.
 
-1. **Al rellenar la solicitud**, marca cada mérito en el apartado correspondiente de la inscripción telemática. Lo que no se alega no se valora.
-2. **Guarda el original** del certificado: cuando lo indique el Tribunal, los méritos se justifican con el original o una copia auténtica (base 3.2.1).
-3. **Espera las instrucciones del Tribunal** sobre cómo y cuándo presentar la documentación; en el SLP, la propia convocatoria prevé la consulta a las bases de datos del Ministerio de Defensa.
-4. **Revisa la lista de admitidos**, que se publica con la calificación de la fase de concurso. Según la base 3.4, hay **10 días hábiles** para subsanar errores en esa puntuación o reclamar. Las dudas sobre la puntuación de un mérito las resuelve la Jefatura de Enseñanza (base 3.2.2).
+## GRS, GAR y UAR: no son lo mismo
 
-Los pasos de la solicitud los veremos con más detalle en un artículo posterior.
+Es una confusión frecuente. La Orden PRE/422/2013 define la **Unidad de Acción Rural** como la unidad preparada para la lucha contra elementos terroristas y para operaciones de gran riesgo que requieran respuesta rápida (artículo 8.2.b). El **GAR**, con sede en Logroño, es otra unidad con misiones y proceso de selección propios. El Reglamento de destinos los trata de forma distinta: concede un derecho preferente tras tres años ininterrumpidos en el GAR y tras cinco en la ARS (artículo 50.2). Este artículo solo trata de los GRS.
 
-### ¿Cuánto pesan esos puntos?
+## La especialidad: Seguridad e Intervención
 
-Mucho, en términos relativos. La puntuación final va sobre 195, y las notas de corte calculadas por ProLince para el acceso libre han oscilado en los últimos años entre 90,61 (2026) y 110,58 (2022); tienes el detalle en [nota de corte](/blog/nota-de-corte-guardia-civil). En ese contexto, 5 o 7 puntos son una diferencia apreciable, aunque nadie puede decirte cuánto pesarán en la próxima convocatoria.
+La [Orden PCM/509/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-5900) incluye la especialidad **Seguridad e Intervención (SEIN, E20)** con dos modalidades. Su anexo ([PDF del BOE](https://www.boe.es/boe/dias/2020/06/10/pdfs/BOE-A-2020-5900.pdf)) fija:
 
-## Recuerda: el certificado no sustituye a la prueba de inglés
+| Modalidad | Código | Empleos de obtención | Servidumbre |
+|---|---|---|---|
+| Reserva y seguridad | ERS | Teniente y capitán; sargento y sargento primero; guardia, cabo y cabo primero | 3 años |
+| Ecuestre | ECE | Los mismos | 3 años |
 
-El certificado suma en el concurso, pero **no te exime** de la prueba de inglés de la oposición, que sigue siendo eliminatoria con un [mínimo de 8 sobre 20](/blog/ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue). La buena noticia es que preparar un B2 te deja muy por encima del nivel ESO que exige esa prueba.
+Las dos comparten rasgos: **no exigen cualificación previa**, **hay límite de edad para acceder** (la ficha no da la cifra), no lo hay para permanecer, se ejercen en servicio activo y existen **pruebas o condiciones de mantenimiento y renovación**. La servidumbre de Ecuestre se cumple en el Escuadrón de Caballería; la de Reserva y seguridad, en puestos de esa función, y también puede cumplirse en la Unidad Especial de Intervención. La pérdida de la cualificación la insta el jefe de la ARS.
+
+## Cómo se llega a un GRS
+
+No se accede «por oposición» a un GRS. El camino que marcan las normas es:
+
+1. **Ingresar** en la Escala de Cabos y Guardias y obtener un primer destino, como explicamos en [cómo se asignan los primeros destinos](/blog/como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil).
+2. **Superar el curso** que da la cualificación. El [Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764) fija requisitos generales para los cursos de especialización (artículo 56): aptitud psicofísica y técnica, límites de edad o altura si los hay, titulaciones o idiomas, servidumbre anterior cumplida y no tener antecedentes penales ni sanciones graves o muy graves sin cancelar. La selección se publica, con carácter general, en el Boletín Oficial de la Guardia Civil (artículo 43.8).
+3. **Obtener un puesto de especialista**, que se asigna por **concurso de méritos** ([Orden INT/26/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-897), artículo 10.1).
+
+Qué requisitos exactos pide cada convocatoria, qué pruebas incluye, cuántas plazas hay o cuánto dura la formación **no lo escribo**, porque no lo he encontrado en una fuente oficial pública y cambia de una convocatoria a otra.
+
+## Un derecho preferente del Reglamento de destinos
+
+El [Real Decreto 470/2019](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398) reconoce un **derecho preferente con carácter absoluto** para cualquier vacante de provisión por antigüedad a quien haya permanecido al menos **cinco años ininterrumpidos** en unidades de la ARS, en vacante con exigencia de la cualificación específica (artículo 50.2.b). Lo incluye entre las circunstancias de especial responsabilidad o penosidad. Es una muestra de que son destinos exigentes y de que el sistema compensa la permanencia en ellos.
 
 ## Errores frecuentes
 
-- **Sumar dos certificados del mismo idioma.** Solo cuenta el mayor.
-- **Olvidar alegarlo en la inscripción.** Si no lo alegas, no se valora.
-- **Sacarlo después del plazo de solicitudes.** Debes poseerlo dentro del plazo.
-- **Elegir un examen que no está en la lista** o con alguna parte no presencial.
-- **Mirar la media del IELTS** en lugar de cada rasgo.
-- **Contar Filología dos veces**, como idioma y como nivel académico.
-
-## Preguntas frecuentes
-
-### ¿Puedo sumar un B2 de inglés y un C1 de inglés?
-No. Por cada idioma solo cuenta una acreditación, la de mayor puntuación.
-
-### ¿Valen los exámenes online?
-En los certificados no nacionales, el apéndice exige que todas las pruebas sean 100 % presenciales; CertAcles también debe ser presencial.
-
-### ¿Y si me saco el título después de enviar la solicitud?
-El apéndice exige poseer el mérito dentro del plazo de presentación de solicitudes y haberlo alegado en la inscripción telemática.
-
-### ¿Cuántos puntos máximos puedo sacar por idiomas?
-Hasta 9 por idioma, con el tope de 27 de los méritos académicos en su conjunto, que incluyen también los 2 puntos del nivel académico.
-
-### ¿Puntúa un B1?
-No. Los tramos del baremo empiezan en B2 (5 puntos).
-
-### ¿Puntúa un certificado de catalán, gallego o euskera?
-No figuran entre los idiomas de interés del apéndice de 2026, que son alemán, árabe, francés, inglés, italiano, portugués y ruso.
-
-### ¿Me ayuda el certificado a preparar la prueba de inglés?
-Sí, indirectamente: el nivel B2 está por encima del nivel ESO de la prueba. Para entrenar el formato de 20 preguntas con penalización, el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) incluye tests y simulacros.',
-   NULL, NULL, 'publicado', '2027-01-18T06:21:00.000Z', 'acceso-guardia-civil',
-   ARRAY['idiomas', 'certificados', 'fase de concurso', 'baremo']::text[], '{"title":"Certificados de idiomas Guardia Civil: cuántos puntos suman","description":"Qué certificados de idiomas puntúan en la Guardia Civil 2026: EOI, Cambridge, IELTS, Trinity y CertAcles, con 5, 7 o 9 puntos y tope de 27 académicos."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('como-aprobar-el-ingles-de-la-guardia-civil-partiendo-de-cero', 'articulo', '"Cómo aprobar el inglés de la Guardia Civil partiendo de cero"', 'Si tu inglés es casi inexistente, la prueba de 20 preguntas de nivel ESO sigue siendo alcanzable con constancia y un orden de trabajo claro. Un plan por fases, qué priorizar, ejercicios de arranque y cómo medir tu avance sin promesas milagrosas.', '**Respuesta corta:** sí se puede llegar desde cero, porque la prueba pide un nivel compatible con la ESO y un mínimo de 8 puntos sobre 20. Pero requiere constancia: el idioma se aprende con frecuencia, no con atracones, y conviene empezar cuanto antes. Nadie puede decirte cuánto tardarás, porque depende de tu punto de partida y del tiempo que le dediques.
-
-## Qué hay que conseguir exactamente
-
-Según la base 6.1.1 d) y la base 7 de la [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982):
-
-- **20 preguntas tipo test**, más una de reserva que solo se valora si el Tribunal anula alguna.
-- **Cuatro opciones** por pregunta y una sola válida (si crees que varias lo son, debes marcar la más completa).
-- **Nivel compatible con la ESO** (Real Decreto 217/2022).
-- **Cada error penaliza** un tercio de acierto; en blanco no resta.
-- Se califica de 0 a 20 y hay que llegar a **8 puntos** para no quedar excluido.
-
-No se te pide hablar, escuchar ni escribir: solo reconocer la opción correcta. Eso cambia mucho la forma de prepararlo, porque puedes centrarte en **gramática y vocabulario de lectura**.
-
-## Fase 0: mide dónde estás (una semana)
-
-Antes de estudiar, haz una prueba de **20 preguntas de cuatro opciones** y corrígela aplicando la penalización: aciertos menos errores entre tres. Puedes usar la [prueba de nivel de inglés](/nivel-ingles) de la web o cualquier cuestionario básico. Anota tres cosas: tu nota, qué preguntas no entendiste ni siquiera en el enunciado y qué estructuras fallaste.
-
-| Resultado orientativo | Lectura | Por dónde empezar |
-|---|---|---|
-| No entiendes la mayoría de los enunciados | Base muy baja | Fase 1 completa |
-| Entiendes los enunciados pero fallas mucho | Base frágil | Fase 1 rápida y fase 2 |
-| Rondas el 8 | Cerca del mínimo | Fase 2 y fase 3 |
-
-La tabla es orientativa, para decidir por dónde empezar; no es un baremo oficial.
-
-## Fase 1: la base
-
-Aquí está el mayor rendimiento si partes de cero:
-
-1. **Verbos *to be* y *to have*** y el **presente simple**, con sus negativas y preguntas: *I am*, *she is*, *they aren''t*, *Does he work?*
-2. **Pasado simple**, regulares (*worked*) e irregulares frecuentes (*went*, *saw*, *took*).
-3. **Pronombres, posesivos y artículos**: *I / me / my / mine*; *a / an / the*.
-4. **Preguntas con *wh-***: *what*, *where*, *when*, *who*, *why*, *how*.
-5. **Vocabulario cotidiano**: familia, casa, trabajo, comida, tiempo, transporte, números, días y meses.
-
-### Ejercicios de arranque (propios, con soluciones)
-
-1. My sister ___ a nurse. (a) am (b) is (c) are (d) be
-2. ___ you like coffee? (a) Do (b) Does (c) Are (d) Is
-3. They ___ to the cinema last Saturday. (a) go (b) goes (c) went (d) gone
-4. This is Pedro and that is ___ car. (a) he (b) him (c) his (d) he''s
-5. ___ do you live? — In Granada. (a) What (b) Where (c) Who (d) When
-
-**Soluciones:** 1-b, 2-a, 3-c, 4-c, 5-b.
-
-No avances de fase hasta que aciertes con holgura los ejercicios de la actual. Avanzar con la base coja hace que todo lo posterior se tambalee.
-
-## Fase 2: las estructuras que cuestan
-
-Cuando la base aguante, añade lo que más se confunde:
-
-- *Present perfect* y su diferencia con el pasado simple.
-- *Will*, *going to* y presente continuo para el futuro.
-- Comparativos y superlativos: *bigger than*, *the biggest*, *more expensive than*, *the most expensive*, y los irregulares *good / better / the best* y *bad / worse / the worst*.
-- Cuantificadores: *much / many*, *few / a few*, *some / any*.
-- Condicionales de primer y segundo tipo.
-- Verbos modales: *can*, *must*, *should*, *have to*.
-
-Tienes el repaso con ejemplos en [los tiempos verbales](/blog/gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales) y en [vocabulario y phrasal verbs](/blog/vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles).
-
-### Ejemplo resuelto
-
-*This book is ___ than the other one.* (a) more interesting (b) most interesting (c) interestinger (d) the more interesting
-
-1. *Than* exige comparativo.
-2. *Interesting* es un adjetivo largo: se forma con *more*.
-3. **Respuesta: (a).** La (b) es superlativo sin *the*; la (c) no existe; la (d) no encaja con *than*.
-
-## Fase 3: formato de examen
-
-El inglés comparte los 140 minutos de la prueba de conocimientos con ortografía, gramática y las 100 preguntas del temario, y la convocatoria lo enumera en último lugar. En [el inglés de la oposición](/blog/ingles-oposicion-guardia-civil) explicamos por qué conviene entrenarlo en ese contexto, con cansancio acumulado. Desde esta fase:
-
-- Trabaja con **tests de cuatro opciones** y cronómetro.
-- Haz **simulacros completos** con el inglés al final.
-- Practica la **gestión de dudas**: descarta opciones antes de marcar.
-- Lleva un **cuaderno de fallos** y relee cada semana los de las últimas cuatro.
-
-## Cómo encajarlo en tu semana
-
-El inglés es la parte que menos tolera los atracones. Una rutina que cabe en casi cualquier agenda:
-
-| Momento | Tarea | Tiempo orientativo |
-| --- | --- | --- |
-| Diario | Ejercicios o test corto con corrección inmediata | 10 minutos |
-| Diario | Vocabulario con repaso espaciado | 5 minutos |
-| 2-3 veces por semana | Lectura sencilla de algo que te guste | 10 minutos |
-| Semanal | Repaso del cuaderno de fallos | 15 minutos |
-| Cada 2-4 semanas | Test de 20 preguntas con penalización | 20 minutos |
-
-Los tiempos son una propuesta, no una cifra oficial. Si trabajas, el [plan de estudio compatible con un empleo](/blog/plan-estudio-guardia-civil-trabajando) te ayuda a colocarlo.
-
-## Un ejemplo de calendario por bloques
-
-Este reparto es una propuesta propia para quien parte de muy abajo; alarga o acorta cada bloque según tus resultados, no según el calendario:
-
-| Bloque | Contenido | Cómo sabes que puedes pasar al siguiente |
-| --- | --- | --- |
-| 1 | *To be*, *to have*, presente simple, pronombres y posesivos | Aciertas casi todos los ejercicios básicos sin mirar la regla |
-| 2 | Pasado simple, irregulares frecuentes, preguntas con *wh-* | Construyes preguntas y negativas en pasado sin dudar |
-| 3 | Presente continuo, futuro (*will*, *going to*), comparativos | Distingues hábito, acción actual y plan |
-| 4 | *Present perfect* frente a pasado simple, *for* y *since* | Eliges bien con *yesterday*, *ever*, *since* |
-| 5 | Condicionales, modales, cuantificadores | Resuelves frases con *if*, *must*, *much/many* |
-| 6 | Tests completos de 20 preguntas con penalización | Superas el 8 con margen de forma repetida |
-
-Mientras avanzas por los bloques, no abandones lo anterior: dedica una parte de cada sesión a repasar lo ya visto, porque es lo que hace que se quede.
-
-## Cómo leer una pregunta de examen
-
-Muchos fallos de quien empieza no son de gramática, sino de lectura. Un protocolo sencillo para cada pregunta:
-
-1. **Lee la frase entera**, incluido lo que va detrás del hueco.
-2. **Busca la pista**: un marcador de tiempo (*yesterday*, *now*, *since*), un sujeto en tercera persona, una palabra como *than* o *if*.
-3. **Decide qué estructura pide** antes de mirar las opciones.
-4. **Descarta** las que no encajan y elige entre las que quedan.
-
-## Cómo saber si avanzas
-
-Registra la nota de cada test de 20 preguntas en una hoja: fecha, aciertos, errores, en blanco y nota final. Lo que te interesa es la **tendencia**, no un resultado aislado. Una señal útil es que tu nota supere el 8 con margen de forma repetida, no una sola vez: el día del examen habrá nervios y cansancio.
+1. **Llamarlos «antidisturbios».** No es una denominación oficial; los cometidos son más amplios.
+2. **Confundir GRS y GAR.** Son unidades distintas, con selección y misiones distintas.
+3. **Pensar que solo cuenta el físico.** Las fichas prevén condiciones de mantenimiento y renovación, y los cursos piden también requisitos de conducta y de historial.
+4. **Ignorar la servidumbre.** Al obtener la cualificación asumes un periodo mínimo en puestos de la especialidad.
 
 ## Caso práctico (hipotético)
 
-Sergio dejó el inglés en 4.º de ESO y en su primera prueba saca 4 aciertos, 6 errores y 10 en blanco: 4 − 6/3 = **2 puntos**. No entiende bien la mitad de los enunciados. Empieza por la fase 1 con diez minutos al día y una sesión semanal de repaso. Cuando aprueba con soltura los ejercicios básicos, pasa a la fase 2 y repite un test de 20 preguntas cada pocas semanas. El resultado concreto dependerá de su constancia; lo que el plan le da es saber en qué trabajar cada semana.
+Raquel, guardia en un puesto territorial, supera el curso de Reserva y seguridad. Pide vacantes de un GRS, que se asignan por concurso de méritos, y obtiene una en Sevilla. Si permanece cinco años seguidos en unidades de la ARS en vacantes con esa cualificación, podrá invocar el derecho preferente del artículo 50.2.b para una vacante de antigüedad. El caso es inventado; las reglas son las del Reglamento de destinos.
 
-## Errores típicos al empezar desde cero
+## Qué puedes hacer ya
 
-- **Aprender reglas sin practicar tests.** El examen no pide explicar la gramática, sino elegir una opción.
-- **Saltar de nivel demasiado pronto**, sin tener asentada la base.
-- **Dejarlo para el final.** Es la parte que peor responde a las prisas.
-- **Darlo por perdido y confiar solo en el temario.** Quedar por debajo de 8 excluye aunque el resto vaya bien.
-- **Contestar todo a ciegas.** Cada error resta; al azar, de media, ni ganas ni pierdes.
+No puedes elegir un GRS antes de ser guardia civil, pero puedes prepararte:
+
+- **Forma física.** La que trabajas para las [pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento) es la base; las fichas de la especialidad prevén además condiciones de mantenimiento.
+- **Idiomas.** La ARS puede participar en misiones internacionales, y los cursos de especialización pueden exigir niveles de idiomas según el artículo 56 del Real Decreto 131/2018.
+- **Historial limpio.** Las sanciones graves o muy graves sin cancelar impiden optar a los cursos: la disciplina empieza en Baeza.
+- **Temario jurídico.** Derechos fundamentales, reunión y manifestación, seguridad ciudadana: es el marco legal de cada dispositivo. Antes de nada, aprobar: en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te ayudamos con ese primer paso.
 
 ## Preguntas frecuentes
 
-### ¿Es realista aprobar partiendo de cero?
-El nivel exigido es el de la ESO y el mínimo es 8 sobre 20. Con práctica regular es un objetivo razonable, aunque nadie puede garantizar el resultado.
+### ¿GRS es lo mismo que antidisturbios?
+No hay una unidad con ese nombre oficial. La web habla de garantizar el orden y la seguridad en grandes concentraciones, proteger altas personalidades y reforzar a las unidades territoriales.
 
-### ¿Cuánto tiempo necesito?
-No hay una cifra válida para todos. Haz la prueba de nivel y ajusta: cuanta más distancia al nivel ESO, antes debes empezar.
+### ¿Se puede ir a un GRS nada más salir de Baeza?
+La normativa exige la cualificación específica y un puesto que la requiera, asignado por concurso de méritos. Cómo se concreta depende de la convocatoria vigente.
 
-### ¿Necesito un certificado de idiomas?
-Para aprobar la prueba, no. Un certificado de B2 o superior suma puntos en la fase de concurso; lo veremos en otro artículo.
+### ¿Un guardia puede obtener la especialidad?
+Sí. El anexo de la Orden PCM/509/2020 incluye a guardias, cabos y cabos primeros entre los empleos de obtención de Reserva y seguridad.
 
-### ¿Me sirve una aplicación de idiomas?
-Puede ayudarte con el vocabulario y el hábito diario, pero complétala con ejercicios de gramática y tests de cuatro opciones, que es el formato del examen.
+### ¿Cuántos GRS hay?
+La web oficial indica ocho grupos, con las bases citadas arriba.
 
-### ¿Qué hago si fallo muchas preguntas de gramática?
-Vuelve a la fase 1 o 2 con ejercicios cortos de esa estructura y repite un test de 20 preguntas pasada una semana.
+### ¿Qué es el Escuadrón de Caballería?
+La unidad montada de la ARS, que también rinde honores en actos relevantes. Su modalidad es la Ecuestre.
 
-### ¿Debo estudiar inglés todos los días aunque tenga poco tiempo?
-Sí, aunque sean diez minutos. La frecuencia pesa más que la duración en el aprendizaje de un idioma.
-
-### ¿Dónde practico con tests corregidos?
-En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) el inglés se trabaja con tests por materia y simulacros completos.',
-   NULL, NULL, 'publicado', '2027-01-15T06:30:00.000Z', 'acceso-guardia-civil',
-   ARRAY['inglés', 'desde cero', 'plan de estudio', 'examen']::text[], '{"title":"Aprobar el inglés de la Guardia Civil desde cero","description":"Plan por fases para aprobar el inglés de la Guardia Civil partiendo de cero: qué priorizar, ejercicios de arranque, tests y cómo medir tu avance."}'::jsonb, '{}'::jsonb)
+### ¿Dónde veo cómo acceder?
+En la convocatoria del curso, que se publica en el Boletín Oficial de la Guardia Civil. Desconfía de las cifras cerradas que veas en foros.',
+   '/blog/grs-que-son-los-grupos-de-reserva-y-seguridad-guardia-civil.jpg', 'Guardias civiles a caballo atravesando una marisma al amanecer', 'publicado', '2027-01-14T06:13:00.000Z', 'acceso-guardia-civil',
+   ARRAY['grs', 'especialidades', 'destinos', 'reserva y seguridad']::text[], '{"title":"GRS Guardia Civil: qué son, funciones y acceso","description":"GRS de la Guardia Civil: qué son los Grupos de Reserva y Seguridad, sus funciones, su organización, la especialidad de Reserva y Seguridad y el acceso."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
@@ -317,838 +114,830 @@ on conflict (slug) do update set
 insert into public.blog_posts
   (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
 values
-  ('derechos-deberes-y-regimen-disciplinario-del-guardia-civil', 'articulo', '"Derechos, deberes y régimen disciplinario del guardia civil"', 'Dos leyes orgánicas de 2007 marcan qué puede y qué no puede hacer un guardia civil: la LO 11/2007, de derechos y deberes, y la LO 12/2007, de régimen disciplinario. Un mapa de ambas con sus límites, faltas, sanciones, plazos y un test resuelto.', '**Respuesta corta:** la Ley Orgánica 11/2007 regula los derechos y deberes de los miembros de la Guardia Civil, y la Ley Orgánica 12/2007, su régimen disciplinario, con tres clases de faltas (muy graves, graves y leves) y sus sanciones. El guardia civil conserva sus derechos fundamentales, con límites propios de un Instituto Armado de naturaleza militar: no puede sindicarse ni hacer huelga, no tiene sufragio pasivo en los términos de la ley electoral y debe mantener neutralidad política y sindical.
+  ('mujeres-en-la-guardia-civil-acceso-datos-y-conciliacion', 'articulo', 'Mujeres en la Guardia Civil: acceso, datos y conciliación', 'Misma oposición, marcas físicas propias y medidas específicas si hay embarazo, lactancia o permiso por nacimiento. Qué dice la convocatoria de 2026, qué cifras oficiales hay (con su año) y qué prevén las normas de enseñanza y de destinos.', 'Respuesta corta: las mujeres acceden por **el mismo proceso selectivo** que los hombres, con las mismas pruebas y con **marcas físicas propias** por sexo y edad. La normativa prevé medidas específicas para quien esté embarazada, en lactancia o disfrutando de ciertos permisos durante la oposición o el curso, para que no pierda la plaza. En cifras oficiales, las mujeres eran el **11,17 % de la Escala de Cabos y Guardias en 2025** y el **35 % de los aspirantes de acceso libre** en el dato más reciente publicado por Interior en mayo de 2026.
 
-Este resumen se basa en los textos consolidados del BOE: [LO 11/2007 (BOE-A-2007-18391)](https://www.boe.es/buscar/act.php?id=BOE-A-2007-18391) y [LO 12/2007 (BOE-A-2007-18392)](https://www.boe.es/buscar/act.php?id=BOE-A-2007-18392). Es una guía de estudio, no un sustituto de la ley: lee siempre el texto vigente.
+Vamos por partes, y solo con lo que figura en fuentes oficiales.
 
-## Dónde encaja en la oposición
+## Un poco de historia
 
-La **LO 11/2007 (completa)** figura en el alcance del tema 15 del programa, «Fuerzas y Cuerpos de Seguridad. Guardia Civil», según nuestro [temario](/temario-guardia-civil). El mismo tema reúne la LO 2/1986, que tratamos en [competencias de cada cuerpo](/blog/fuerzas-y-cuerpos-de-seguridad-lo-2-1986-competencias-de-cada), la Ley 29/2014 de Régimen del Personal y la historia del Cuerpo.
+La incorporación de la mujer a la Guardia Civil se abrió con el **Real Decreto-ley 1/1988**, de 22 de febrero, que reguló por primera vez el acceso de la mujer a las Fuerzas Armadas, según recordó el Ministerio del Interior en el acto del 35 aniversario, en octubre de 2023 ([La Moncloa](https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/2023/231023-marlaska-aniversario-mujer-guardia-civil.aspx)). Esa misma nota cita como antecedente a las **matronas**, que prestaron servicio desde 1948 sin portar armas.
 
-La **LO 12/2007 no aparece citada** en ese alcance del programa. Aun así conviene conocerla: los alumnos de los centros docentes de formación, como la [Academia de Baeza](/blog/academia-baeza-guardia-civil), están sujetos a ella en lo que les sea aplicable (art. 2). No hay datos oficiales de qué se pregunta en cada examen.
+En aquel acto se reconoció a guardias civiles pioneras en especialidades: la primera mujer en dirigir una comandancia, la primera en superar el curso de Adiestramientos Especiales, la primera mecánica de helicópteros o la primera en superar el curso de desactivación de explosivos y defensa NRBQ, entre otras. Para el marco histórico general, tienes la [historia de la Guardia Civil](/blog/historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy).
 
-## LO 11/2007: estructura
+## Cómo es el acceso
 
-| Título | Artículos | Contenido |
+La [convocatoria de 2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982) declara que tiene en cuenta el principio de igualdad de trato entre mujeres y hombres en el acceso al empleo, conforme al artículo 14 de la Constitución y a la Ley Orgánica 3/2007. Su base 4.2 encarga al Tribunal velar por la igualdad de oportunidades entre aspirantes de ambos sexos, y la 7.2 garantiza que conocimientos y psicotécnico se corrijan sin identificar a la persona.
+
+No hay una oposición distinta: los [requisitos](/blog/requisitos-guardia-civil), el examen, el psicotécnico, la entrevista y el reconocimiento médico son los mismos. La diferencia está en las **marcas de las pruebas físicas** (apéndice II de la convocatoria de 2026):
+
+| Prueba (mujeres) | Menos de 35 años | 35-39 años | 40 o más |
+|---|---|---|---|
+| Carrera de 2.000 m | 11:14 | 11:35 | 12:49 |
+| Circuito de agilidad | 16,00 s | 16,40 s | 17,90 s |
+| Extensiones de brazos | 11 | 11 | 9 |
+| Natación 50 m libre | 81 s | 83 s | 88 s |
+
+Las de los hombres y la técnica de cada prueba están en [pruebas físicas: marcas y entrenamiento](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento). Comprueba siempre las de la convocatoria vigente. Desde la Orden PCM/1133/2023 tampoco hay estatura mínima.
+
+## Datos oficiales, con año
+
+Estas cifras proceden de la nota del Ministerio del Interior sobre el II Plan de Igualdad de la Guardia Civil, de 6 de mayo de 2026 ([La Moncloa](https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/2026/060526-interior-plan-igualdad-guardia-civil.aspx)):
+
+| Presencia femenina | 2019 | 2025 |
 |---|---|---|
-| I | 1 | Objeto y ámbito (incluye a los alumnos de los centros docentes) |
-| II | 2 a 14 | Ejercicio de derechos fundamentales y libertades públicas |
-| III | 15 a 23 | Deberes |
-| IV | 24 y 25 | Derechos y deberes a la vez: defensa de España, uniforme y armas |
-| V | 26 a 35 | Derechos profesionales |
-| VI | 36 a 51 | Asociaciones profesionales |
-| VII | 52 a 57 | Consejo de la Guardia Civil |
+| Escala de Cabos y Guardias | 7,29 % | 11,17 % |
+| Escala de Suboficiales | 2,95 % | 5,09 % |
+| Escala de Oficiales | 3,67 % | 7,12 % |
 
-### Derechos fundamentales, con límites (título II)
+Sobre las aspirantes, la misma nota indica que las mujeres eran el 19,57 % de los aspirantes de acceso libre a Cabos y Guardias en 2019 y que «en la actualidad» son el 35 % (no precisa el año). También informa de que en el primer semestre de 2026 dos mujeres alcanzaron por primera vez el empleo de coronel.
 
-Los guardias civiles son titulares de los derechos fundamentales y libertades públicas de la Constitución, sin más límites que los de la propia Constitución, sus normas de desarrollo y esta ley (art. 2). Las particularidades:
+Un dato anterior, de otra fuente oficial: en octubre de 2023, Interior cifró en **7.741 las guardias civiles en activo**, el 9,47 % de la plantilla (nota del 35 aniversario citada arriba). No mezcles cifras de distintas fechas o que cuenten colectivos distintos: por eso doy cada una con su fuente.
 
-| Derecho | Artículo | Qué dice |
-|---|---|---|
-| Igualdad | 3 | Sin discriminación por nacimiento, raza, sexo, orientación sexual, religión, opinión u otra condición; igualdad real entre mujeres y hombres |
-| Intimidad | 5 | El pabellón asignado se considera domicilio habitual; registro de efectos personales solo con autorización motivada del jefe, ante el interesado y un testigo, cuando lo exija la investigación de un delito |
-| Desplazamiento | 6 | Libre por el territorio nacional; los viajes al extranjero se comunican previamente |
-| Expresión | 7 | Con los límites del régimen disciplinario, el secreto profesional y el respeto a la dignidad de personas e instituciones; en asuntos de servicio, también disciplina, neutralidad y reserva |
-| Reunión | 8 | Las reuniones en dependencias oficiales se comunican al jefe; nunca asistir a manifestaciones o reuniones de uniforme o con armas |
-| Asociación | 9 | Pueden constituir asociaciones profesionales, que no pueden hacer actividades políticas o sindicales |
-| Sufragio | 10 | Votan; no disfrutan del sufragio pasivo en los términos de la legislación electoral general |
-| Sindicación | 11 | No pueden ejercerla |
-| Huelga | 12 | No pueden ejercerla, ni acciones sustitutivas o concertadas para alterar el servicio |
-| Petición | 13 | Solo de forma individual |
-| Defensor del Pueblo | 14 | Pueden dirigirse a él directa e individualmente |
+## El II Plan de Igualdad (2026)
 
-### Deberes (título III)
+Según la nota de Interior, el II Plan se articula en cuatro ejes: acceso, promoción y liderazgo femenino; condiciones laborales, salud, conciliación y corresponsabilidad; prevención y actuación ante el acoso y la violencia contra las mujeres, con la ampliación de la red de asesoría confidencial a todo el territorio; y transformación organizativa. Para el marco legal que entra en la oposición, repasa [las claves de la ley de igualdad](/blog/igualdad-efectiva-de-mujeres-y-hombres-claves-de-la-ley).
 
-- **Respeto a la Constitución** y al ordenamiento jurídico, protección del libre ejercicio de derechos y libertades y garantía de la seguridad ciudadana (art. 15).
-- **Jerarquía, disciplina y subordinación** (art. 16). La obediencia debida **nunca** ampara órdenes que entrañen actos manifiestamente delictivos o contrarios a la Constitución o a las leyes.
-- **Respeto a la vida y a la integridad física y moral**, con estricto cumplimiento de las normas sobre el uso legítimo de la fuerza (art. 17).
-- **Neutralidad e imparcialidad** (art. 18): no pueden fundar ni afiliarse a partidos o sindicatos.
-- **Reserva**: secretos oficiales, secreto profesional y sigilo (art. 19).
-- **Cooperación en catástrofes** (art. 20): en estados de alarma, excepción o sitio, o cuando se disponga por emergencia grave, presentarse en su destino o en la dependencia más próxima.
-- **Residencia y domicilio** (art. 21), **incompatibilidades** (art. 22) y **reconocimientos psicofísicos** (art. 23).
+## Conciliación durante la oposición
 
-### Derechos profesionales, asociaciones y Consejo
+El [Reglamento de ordenación de la enseñanza](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), en su capítulo V, protege a las aspirantes por acceso directo que, por **embarazo, parto o posparto** acreditado mediante informe médico, o por **lactancia de un hijo menor de doce meses**, no puedan hacer las pruebas en igualdad de condiciones (artículo 63.2). Lo esencial del artículo 64:
 
-El título V reconoce, entre otros, formación, carrera, horario (con disponibilidad permanente), vacaciones, quejas y retribuciones. Las **asociaciones profesionales** deben tener ámbito estatal, duración indefinida y carácter no lucrativo (arts. 36 y siguientes). El **Consejo de la Guardia Civil** es un órgano colegiado presidido por el **Ministro del Interior** (o persona en quien delegue), con representantes elegidos por los guardias civiles y otros tantos de la Administración; se reúne en sesión ordinaria al menos una vez cada tres meses (arts. 52 a 55).
+- Sanidad de la Guardia Civil o el Tribunal indican qué pruebas alcanza la limitación. Las demás se hacen en la fecha prevista.
+- Las que no puedas hacer se realizan, a tu elección, en la **fecha alternativa** de la convocatoria, siempre antes de la incorporación al centro, o en la **convocatoria siguiente**, solicitando el aplazamiento. La de 2026 lo recoge en su base 6.3: la fecha alternativa la fija el Tribunal, si es viable, antes de la incorporación a Baeza.
+- Si las haces en otra convocatoria, quedas **exenta del requisito de edad** de la nueva y no se te aplican los cambios de titulación.
+- No repites las pruebas ya superadas, si son iguales.
+- Si superas el proceso, ingresas con la promoción en la que completes las pruebas, pero al incorporarte a la escala se te asigna la **antigüedad** que te habría correspondido en la convocatoria original, con sus efectos económicos.
 
-## LO 12/2007: régimen disciplinario
+La convocatoria de 2026 confirma que quien se acoja a estas medidas y supere el proceso será incluida en la relación de propuestos si cumple las condiciones del capítulo V (bases 9.3 y 12.1).
 
-### Tres clases de faltas
+## Conciliación durante la formación
 
-Las faltas pueden ser **muy graves, graves y leves** (art. 6). Las muy graves lo son «siempre que no constituyan delito» (art. 7). Algunos ejemplos del articulado:
+Si la aspirante propuesta no puede presentarse en el centro por embarazo, lactancia o los permisos citados, tiene derecho a **posponer su incorporación o reservar su plaza**, una sola vez (artículo 65.1). Ya en el curso, el alumnado en esas situaciones tiene derecho a (artículo 65.2):
 
-| Clase | Ejemplos |
-| --- | --- |
-| Muy graves (art. 7) | Incumplir el deber de fidelidad a la Constitución; violar la neutralidad política o sindical; pertenecer a partidos o sindicatos; discriminación o acoso; trato inhumano, degradante o vejatorio a personas bajo custodia; omisión de urgente auxilio; participar en huelgas; prestar servicio embriagado o bajo estupefacientes; negarse sin justificación a una prueba de alcoholemia o drogas legítimamente ordenada |
-| Graves (art. 8) | Abuso de autoridad; falta de subordinación; violar el secreto profesional; informes o partes que no se ajusten a la realidad; superar 0,3 g/l de alcohol en sangre o 0,15 mg/l en aire espirado al inicio o durante el servicio; tenencia de drogas fuera de actuaciones del servicio |
-| Leves (art. 9) | Desconsideración o incorrección; retraso o negligencia en los deberes; indiscreción en asuntos del servicio; descuido en el aseo o en la uniformidad; incumplir el horario o falta de puntualidad; omitir intencionadamente el saludo a un superior |
+- no causar baja por insuficiencia psicofísica ni por no superar las pruebas en plazo, si se debe a su estado;
+- que no se computen como consumidas las convocatorias a las que no pudo presentarse;
+- no repetir lo ya superado, salvo pruebas médicas o físicas determinantes;
+- fijar su residencia fuera del centro docente;
+- retrasar o interrumpir, una sola vez, el periodo de [prácticas](/blog/las-practicas-despues-de-baeza-que-te-espera-guardia-civil);
+- acceder a la escala con la antigüedad que le habría correspondido, con sus efectos económicos. Esta letra la añadió el [Real Decreto 392/2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10512), en vigor desde el 16 de mayo de 2026.
 
-La LO 8/2014 añadió, entre otras, la falta muy grave de organizar o participar activamente en reuniones o manifestaciones políticas o sindicales (art. 7.3 bis) y la grave de manifestaciones públicas contrarias a la neutralidad (art. 8.21 bis).
+El centro facilitará, en la medida de lo posible, la enseñanza a distancia de lo que no exija presencia, exámenes en fechas alternativas y la adaptación de las vacaciones (artículo 65.3). Medidas parecidas existen después para los cursos de perfeccionamiento, como la reserva de plaza en la siguiente convocatoria (artículo 66).
 
-### Sanciones (art. 11)
+## Conciliación en los destinos
 
-| Falta | Sanciones |
-| --- | --- |
-| Muy grave | Separación del servicio; suspensión de empleo de 3 meses y 1 día a 6 años; pérdida de puestos en el escalafón |
-| Grave | Suspensión de empleo de 1 a 3 meses; pérdida de 5 a 20 días de haberes con suspensión de funciones; pérdida de destino |
-| Leve | Reprensión; pérdida de 1 a 4 días de haberes con suspensión de funciones |
+El [Reglamento de destinos](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398) incluye, entre otras:
 
-Detalles que conviene fijar:
+- Asignación en comisión de servicio de un **puesto compatible** a la guardia civil durante el embarazo y la lactancia de un hijo menor de doce meses (artículo 41.1.f).
+- **Derecho preferente de agrupamiento familiar** para quien tenga hijos menores de doce años o con discapacidad igual o superior al 33 %, sobre vacantes de antigüedad en la provincia del cónyuge guardia civil (artículo 50.3.b). Cómo funcionan los destinos, en [este artículo](/blog/como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil).
+- Posibilidad de que dos cónyuges guardias civiles pidan juntos vacantes de antigüedad de la misma resolución (artículo 19).
 
-- La **separación del servicio** supone perder la condición de militar de carrera de la Guardia Civil, salvo los derechos pasivos consolidados (art. 12). La impone el **Ministro de Defensa a propuesta del Ministro del Interior** (art. 27).
-- La **pérdida de destino** impide pedir otro en la misma unidad o especialidad durante **dos años** (art. 15).
-- La **reprensión** es una reprobación expresa **por escrito**; la amonestación verbal del superior en el ejercicio del mando **no** es sanción (art. 17).
-- El **arresto** desapareció del cuadro de sanciones, como destaca el preámbulo.
-- Las sanciones se gradúan por proporcionalidad: intencionalidad, reincidencia, historial profesional (solo como atenuante) o incidencia en la seguridad ciudadana, entre otros criterios (art. 19).
-
-### Alumnos de los centros de formación (art. 18)
-
-A los alumnos que no eran ya guardias civiles solo se les pueden imponer: por faltas graves y muy graves, **suspensión de haberes y servicios de 5 a 20 días** o **baja como alumno**; por faltas leves, **reprensión** o **suspensión de haberes y servicios de 1 a 4 días**. Las anotaciones por falta leve de los alumnos se cancelan, en todo caso, al incorporarse a la Escala (art. 71.3).
-
-### Plazos que hay que saber
-
-| Concepto | Muy graves | Graves | Leves | Artículo |
-|---|---|---|---|---|
-| Prescripción de la falta | 3 años | 2 años | 6 meses | 21 |
-| Prescripción de la sanción | 3 años | 2 años | 1 año | 22 |
-| Cancelación de la anotación | 4 años | 2 años | 6 meses | 71 |
-
-La prescripción de la falta se cuenta desde que se comete; la de la sanción, desde que se notifica la resolución (o desde que se quebranta su cumplimiento). La cancelación se cuenta desde el cumplimiento de la sanción, si en ese tiempo no se impone otra; la separación del servicio no se cancela.
-
-### Procedimiento y recursos, en resumen
-
-- Solo se pueden imponer sanciones mediante el **expediente disciplinario** correspondiente (art. 26).
-- En faltas graves y muy graves, la **instrucción no puede exceder de seis meses** (art. 55), y la resolución debe notificarse en **seis meses** desde la incoación; si no, el expediente **caduca** (art. 65, con posibles suspensiones).
-- Las sanciones son **inmediatamente ejecutivas**: recurrir no suspende su cumplimiento (art. 66), aunque en faltas graves y muy graves se puede pedir la suspensión durante el recurso (art. 77).
-- **Recursos**: alzada en el plazo de un mes (art. 74), reposición potestativa contra las resoluciones del Ministro de Defensa, también en un mes (art. 75), y después recurso **contencioso-disciplinario militar** (art. 78).
-
-## Casos prácticos (hipotéticos)
-
-**Caso 1.** Un guardia acude de paisano a una manifestación sindical en la calle, sin uniforme ni armas, y participa activamente en su organización. Aunque no lleve uniforme, organizar o participar activamente en manifestaciones de carácter político o sindical está tipificado como falta muy grave (art. 7.3 bis LO 12/2007).
-
-**Caso 2.** Al iniciar el servicio, un control da 0,20 mg/l en aire espirado. Supera el umbral de 0,15 mg/l: es falta grave (art. 8.27).
-
-**Caso 3.** Un cabo advierte de palabra a un guardia sobre su puntualidad. No es sanción (art. 17.2).
+Los permisos concretos y su duración dependen de la normativa específica de jornada y permisos del personal. No los desarrollo porque no los he contrastado para este artículo: consúltalos en la normativa vigente y en tu unidad.
 
 ## Errores frecuentes
 
-- Pensar que los guardias civiles **no pueden asociarse**: pueden, en asociaciones profesionales, pero no sindicarse.
-- Creer que la **obediencia debida** cubre cualquier orden.
-- Confundir **prescripción de faltas** (3 años, 2 años, 6 meses) con **prescripción de sanciones** (3, 2 y 1 año).
-- Atribuir la separación del servicio al Director General: la impone el **Ministro de Defensa**.
+1. **Creer que hay menos plazas o una lista aparte.** No: la convocatoria no reserva plazas por sexo.
+2. **No avisar a tiempo.** Las medidas exigen acreditación con informe médico oficial ante el Tribunal o el centro.
+3. **Pensar que aplazar las pruebas hace perder antigüedad.** El reglamento prevé lo contrario.
+4. **Entrenar solo para la marca mínima.** Después, Formación Física es una asignatura evaluable en Baeza.
 
-## Test propio de repaso (con soluciones)
+## Caso práctico (hipotético)
 
-Preguntas escritas por ProLince para practicar; no son preguntas oficiales.
+Sara aprueba el examen y, al llegar las pruebas físicas, está embarazada. Acredita su situación con informe médico oficial. Sanidad indica que puede hacer el circuito de agilidad pero no la carrera ni la natación. Sara elige aplazarlas a la convocatoria siguiente: allí no le exigirán el requisito de edad y conservará lo ya superado. Si aprueba, entrará en Baeza con esa promoción, pero al incorporarse a la escala tendrá la antigüedad de la convocatoria original. El caso es inventado; las reglas son las del artículo 64.
 
-1. Según la LO 11/2007, el pabellón asignado al guardia civil: a) Es dependencia oficial a todos los efectos. b) Se considera domicilio habitual. c) Puede registrarse sin autorización. d) No goza de inviolabilidad.
-2. ¿Quién preside el Consejo de la Guardia Civil? a) El Director General. b) El Ministro de Defensa. c) El Ministro del Interior o persona en quien delegue. d) El Presidente del Gobierno.
-3. Las faltas graves prescriben a los: a) Seis meses. b) Un año. c) Dos años. d) Tres años.
-4. ¿Cuál es una sanción por falta leve? a) Pérdida de destino. b) Reprensión. c) Suspensión de empleo de un mes. d) Arresto.
-5. El derecho de petición de los guardias civiles se ejerce: a) Solo de forma colectiva. b) Solo de forma individual. c) A través de su asociación. d) No lo tienen.
+Si estás en esa fase, consulta el apartado de conciliación de la convocatoria de tu año. Y si quieres empezar el temario, el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te organiza el estudio.
 
-**Soluciones:** 1-b (art. 5.1 LO 11/2007); 2-c (art. 52); 3-c (art. 21 LO 12/2007); 4-b (art. 11.3); 5-b (art. 13).
+## Preguntas frecuentes
+
+### ¿Hay una oposición distinta para mujeres?
+No. Es el mismo proceso selectivo; solo cambian las marcas de las pruebas físicas, que se fijan por sexo y edad.
+
+### ¿Qué pasa si estoy embarazada en las pruebas físicas?
+Puedes hacer las pruebas afectadas en una fecha alternativa anterior a la incorporación o aplazarlas a la convocatoria siguiente, previa acreditación médica.
+
+### ¿Pierdo la plaza si me quedo embarazada en Baeza?
+No causas baja por insuficiencia psicofísica derivada de tu estado, no se consumen convocatorias y puedes retrasar o interrumpir una vez las prácticas.
+
+### ¿Pierdo antigüedad si aplazo?
+No. Tanto en el proceso selectivo como en la formación, la norma prevé asignarte la antigüedad que te habría correspondido, con efectos económicos.
+
+### ¿Qué porcentaje de mujeres hay en la Guardia Civil?
+En la Escala de Cabos y Guardias, el 11,17 % en 2025, según Interior (nota de 6 de mayo de 2026).
+
+### ¿Hay una estatura mínima para mujeres?
+No. Desde la Orden PCM/1133/2023 no se exige estatura mínima.',
+   '/blog/mujeres-en-la-guardia-civil-acceso-datos-y-conciliacion.jpg', 'Agente del SEPRONA liberando un ave rapaz al atardecer', 'publicado', '2027-01-13T06:56:00.000Z', 'acceso-guardia-civil',
+   ARRAY['mujeres', 'igualdad', 'conciliación', 'embarazo']::text[], '{"title":"Mujeres en la Guardia Civil: acceso y conciliación","description":"Mujeres en la Guardia Civil: convocatoria 2026, marcas físicas, cifras oficiales con su año y medidas de conciliación en la formación y los destinos."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('recursos-oficiales-gratuitos-para-preparar-la-guardia-civil', 'articulo', 'Recursos oficiales gratuitos para preparar la Guardia Civil', 'Convocatoria, temario oficial, cuestionarios y plantillas de exámenes reales, textos legales consolidados y cartografía: lo que la Guardia Civil y otras fuentes públicas ofrecen gratis, dónde está y cómo usarlo en tu semana de estudio.', 'Antes de pagar nada, conviene saber qué te da gratis la propia Administración. **Respuesta corta:** la convocatoria, el temario oficial, cuestionarios de exámenes reales con sus plantillas de respuestas (al menos los de 2026), los textos legales consolidados del BOE, los modelos de certificados y fuentes públicas para temas concretos como topografía o ciberseguridad. Lo que no encontrarás es temario explicado ni baterías oficiales de psicotécnicos. Esto es lo que hemos comprobado.
+
+## 1. La convocatoria, en el BOE
+
+Es el documento que manda. La de 2026 es la Resolución 160/38243/2026, de 5 de mayo, publicada en el BOE del 8 de mayo: [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982). Contiene los requisitos, las plazas, el desarrollo y la puntuación de cada prueba, los méritos del concurso (apéndice I), las marcas de las pruebas físicas (apéndice II) y los modelos de certificado médico (apéndices III y IV). Si dudas de algo, la respuesta está ahí. Te explicamos sus fechas y plazas en [convocatoria Guardia Civil 2026](/blog/convocatoria-guardia-civil-2026-plazas-calendario).
+
+**Cómo usarla:** léela entera una vez, y subraya tres cosas: requisitos (base 2), pruebas (bases 6 y 7) y méritos (apéndice I). Cuando salga la de 2027, compárala con la de 2026 para ver qué cambia.
+
+## 2. La página oficial del proceso selectivo
+
+La propia convocatoria (base 4.11) dice que las resoluciones del Tribunal se publican oficialmente en la [página de ingreso en la Escala de Cabos y Guardias](https://web.guardiacivil.es/es/tramites/ingresos/ingresocuerpo/) de la web de la Guardia Civil. Allí se han publicado en 2026 las listas de admitidos, la convocatoria de cada prueba, los resultados provisionales y definitivos, los resultados de las psicofísicas y las **plantillas de respuestas** de la prueba escrita.
+
+Para consultas, la base 4.10 da como contacto el Servicio de Selección y Formación de la Jefatura de Enseñanza, con la dirección de correo ingreso-gc@guardiacivil.org.
+
+## 3. El temario oficial
+
+La Guardia Civil publica en PDF el [temario de las convocatorias de ingreso](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf), con cada tema dividido en bloques y los títulos o capítulos concretos de cada norma. Es el documento más útil para saber **qué partes entran** y no estudiar de más ni de menos.
+
+La convocatoria de 2026 se remite a la Resolución de 26 de junio de 2019, modificada por la Resolución de 3 de octubre de 2022. Antes de fiarte de un PDF, comprueba que coincide con el que cite la convocatoria vigente.
+
+Importante: el temario oficial es un **índice de normas**, no son apuntes.
+
+## 4. Cuestionarios y plantillas de exámenes anteriores
+
+Hemos comprobado que se pueden descargar de la web de la Guardia Civil:
+
+- **2026:** [cuestionario modelo A](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/Procesos_Selectivos_2026/INGRESO-GC-2026-TIPO-A.pdf) y [modelo B](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/Procesos_Selectivos_2026/INGRESO-GC-2026-TIPO-B.pdf), con ortografía, gramática, conocimientos e inglés.
+- **Plantillas de 2026:** la [plantilla corregida (PDF n.º 2)](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/PLANTILLAS-INGRESO_CABOS_-Y_GUARDIAS.-2026-2.pdf), con las respuestas de conocimientos, idioma, ortografía, gramática y aptitudes intelectuales. La primera versión tenía un error en una pregunta (la 7 del modelo A y la 88 del B) que el Tribunal corrigió.
+- **2022:** [cuestionario 1A](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2022/IngresoGC2022/INGRESO_GC_2022_1A.PDF) y sus variantes 1B, 2A y 2B, de la convocatoria de la Resolución 160/38262/2022.
+
+No hemos localizado en la web oficial cuestionarios de todos los años ni la plantilla de 2022. Te contamos cómo trabajarlos en un artículo próximo sobre exámenes oficiales anteriores.
+
+## 5. Las leyes, gratis y actualizadas: el BOE
+
+Todas las normas del temario están en el BOE en **versión consolidada**, es decir, con las modificaciones incorporadas, y cada artículo indica cuándo se modificó. Son gratuitas y descargables en PDF y en ePub. Úsalas como fuente última: si un resumen (incluido el nuestro) no coincide con el texto consolidado, manda el BOE. Algunos ejemplos del programa:
+
+| Norma | Enlace |
+| --- | --- |
+| Constitución Española | [BOE-A-1978-31229](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) |
+| LO 2/1986, de Fuerzas y Cuerpos de Seguridad | [BOE-A-1986-6859](https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859) |
+| LO 12/1995, de Represión del Contrabando | [BOE-A-1995-26836](https://www.boe.es/buscar/act.php?id=BOE-A-1995-26836) |
+| Ley 6/2020, de servicios electrónicos de confianza | [BOE-A-2020-14046](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046) |
+
+Un truco: en la ficha de cada norma consolidada, mira la fecha de la última actualización. Si una pregunta de un examen antiguo no cuadra con el texto actual, probablemente la norma ha cambiado.
+
+## 6. Modelos de documentos
+
+La convocatoria incluye los modelos de certificado médico oficial para las pruebas físicas (apéndices III y IV). En 2026 había que entregarlo expedido dentro de los 20 días anteriores. Lo explicamos en [el certificado médico de las pruebas físicas](/blog/certificado-medico-pruebas-fisicas-guardia-civil).
+
+## 7. Fuentes públicas para temas concretos
+
+- **Topografía:** el Instituto Geográfico Nacional ofrece cartografía oficial gratuita, útil para practicar escalas, curvas de nivel y pendientes. Cómo hacerlo, en [topografía para Guardia Civil](/blog/topografia-para-guardia-civil-escalas-curvas-de-nivel).
+- **Ciberseguridad:** el documento de principios y recomendaciones básicas del CCN-CERT, que forma parte del tema 17, se publica en la web del CCN-CERT. Lo comentamos en [tecnologías de la información](/blog/tecnologias-de-la-informacion-en-el-temario-conceptos-que-caen).
+
+## Cómo combinarlos en una semana de estudio
+
+| Día | Recurso | Qué haces |
+| --- | --- | --- |
+| Lunes | Temario oficial | Marcas qué títulos y capítulos del tema de la semana entran |
+| Martes a jueves | BOE consolidado | Estudias esos artículos y haces tus fichas |
+| Viernes | Tus apuntes | Test del tema |
+| Sábado | Cuestionario oficial | Resuelves las preguntas de ese tema en los exámenes de 2022 y 2026 |
+| Cualquier día | Convocatoria | Árbitro para dudas de plazos, requisitos y pruebas |
+
+En los cuestionarios de 2026 cada pregunta de conocimientos lleva delante el nombre de la norma de la que procede (por ejemplo, «Topografía.» o «Ley Orgánica de Represión del Contrabando.»), lo que facilita localizar las de cada tema.
+
+## Caso práctico (hipotético): preparar un tema solo con recursos oficiales
+
+Supón que te toca el tema 23, Derecho fiscal:
+
+1. El temario oficial te dice que entran la LO 12/1995, el RD 1649/1998 y unos títulos concretos del Código Aduanero de la Unión.
+2. Descargas la LO 12/1995 consolidada del BOE y haces una tabla con los umbrales que separan delito e infracción.
+3. Buscas en el cuestionario de 2026 las preguntas del tema (las últimas del modelo A) y las respondes.
+4. Corriges con la plantilla oficial y, para cada fallo, vuelves al artículo.
+
+Con eso has trabajado el tema con fuentes oficiales y sin gastar dinero. Lo que te falta es lo que más tiempo ahorra: un temario explicado, tests abundantes y un plan.
+
+## Cómo saber si un recurso es oficial
+
+No todo lo que circula como «oficial» lo es. Tres comprobaciones rápidas:
+
+1. **El dominio:** las fuentes que citamos están en boe.es o en web.guardiacivil.es. Un PDF colgado en otra web puede estar modificado o desfasado.
+2. **La fecha y la referencia:** una convocatoria se identifica por su número de resolución y su código BOE; un cuestionario oficial lleva en la portada la resolución de la convocatoria a la que pertenece.
+3. **La versión:** en las normas, mira la fecha de la última actualización del texto consolidado; en las plantillas, usa siempre la versión corregida si el Tribunal ha publicado más de una.
+
+## Qué no encontrarás gratis (y qué hacer)
+
+- **Temario explicado:** no hay apuntes oficiales. Puedes elaborarlos tú a partir del BOE o usar material de una academia.
+- **Psicotécnicos oficiales para practicar:** la plantilla de 2026 incluye las respuestas de aptitudes intelectuales, pero no hemos encontrado publicados los cuadernillos del psicotécnico. Necesitarás material propio o de academia.
+- **Tests abundantes:** los exámenes oficiales son pocos para practicar todo el año.
+
+Si estás empezando, lee [cómo preparar la oposición desde cero](/blog/preparar-oposicion-guardia-civil-desde-cero). Y si prefieres el temario ya trabajado y con tests, existe el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) de ProLince. Pero con estos recursos ya tienes una base seria sin gastar un euro.
+
+## Errores frecuentes con los recursos gratuitos
+
+- **Estudiar con un temario de otro año** sin cotejarlo con la convocatoria vigente.
+- **Fiarse de leyes descargadas hace meses:** las normas se modifican y el texto consolidado se actualiza.
+- **Usar la primera versión de una plantilla** cuando el Tribunal ha publicado otra corregida.
+- **Enterarse tarde de las resoluciones:** listas, fechas y resultados se publican en la página del proceso selectivo. Revísala con frecuencia cuando haya convocatoria en marcha.
+- **Acumular recursos sin usarlos:** cinco fuentes bien trabajadas valen más que cincuenta descargadas.
+
+## Checklist de recursos
+
+- [ ] Convocatoria vigente descargada y leída.
+- [ ] Página del proceso selectivo guardada en favoritos.
+- [ ] Temario oficial descargado y cotejado con la convocatoria.
+- [ ] Cuestionarios y plantilla de 2026 descargados.
+- [ ] Normas del tema de la semana en versión consolidada.
+
+## Preguntas frecuentes
+
+### ¿Dónde se publica la convocatoria de la Guardia Civil?
+En el BOE, y la Guardia Civil la recoge en su web. La de 2026 es la BOE-A-2026-9982.
+
+### ¿Dónde se publican las listas y los resultados?
+En la página del proceso selectivo de la web de la Guardia Civil, según la base 4.11 de la convocatoria. Algunas resoluciones, como las listas de admitidos y los propuestos, se publican también en el BOE.
+
+### ¿El temario oficial incluye los apuntes?
+No. Es la relación de normas y partes de cada una que entran. El texto de las leyes está en el BOE.
+
+### ¿Hay plantilla oficial de respuestas?
+De la prueba de 2026, sí: está publicada en la página del proceso selectivo, en una versión corregida. De otros años no la hemos localizado en la web oficial.
+
+### ¿Puedo practicar con exámenes reales gratis?
+Sí, con los cuestionarios que hemos enlazado. Comprueba en la propia web si hay otros años disponibles cuando estudies.
+
+### ¿Basta con los recursos gratuitos para aprobar?
+Pueden darte una base, pero no sustituyen al estudio ni garantizan nada. Son material de referencia, no un método.',
+   NULL, NULL, 'publicado', '2027-01-19T06:38:00.000Z', 'acceso-guardia-civil',
+   ARRAY['recursos gratuitos', 'convocatoria', 'temario oficial', 'exámenes oficiales']::text[], '{"title":"Recursos oficiales gratis Guardia Civil: dónde están","description":"Qué publican gratis la Guardia Civil y el BOE para opositores: convocatoria, temario, exámenes con plantillas, leyes consolidadas y mapas, con enlaces."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('rescate-de-montana-en-la-guardia-civil-requisitos-y-formacion', 'articulo', 'Rescate de montaña en la Guardia Civil: funciones, formación y cómo se accede', 'El Servicio de Montaña y sus GREIM rescatan, investigan accidentes y vigilan zonas de difícil acceso. Qué hacen, cómo se despliegan, dónde se forma el personal y qué dice la normativa sobre el acceso a la especialidad, sin cifras inventadas.', 'El rescate de un montañero en el Pirineo o de una persona atrapada en una cueva suele llevar detrás a un guardia civil del Servicio de Montaña. **Los GREIM son los grupos de ese servicio, y la especialidad de Montaña tiene dos modalidades: especialista e instructor.** La de especialista puede obtenerse siendo guardia, cabo o cabo primero; la de instructor exige haber sido antes especialista.
+
+Un aviso previo: el título habla de requisitos, pero los de cada curso (pruebas, plazas, duración, edad máxima) los fija la convocatoria vigente y no los he encontrado publicados en abierto. Aquí va solo lo comprobable.
+
+## Qué hace el Servicio de Montaña
+
+La norma de estructura del Cuerpo ([Orden PRE/422/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906), artículo 8.2.f) lo define como el órgano especializado para las funciones de la Guardia Civil en zonas de montaña o en otras que, por su dificultad orográfica o climatológica, requieran una especial preparación física y técnica y medios técnicos adecuados. Depende de la Jefatura de Unidades Especiales y de Reserva.
+
+Según la [web oficial](https://web.guardiacivil.es/es/institucional/conocenos/especialidades/Greim/), sus especialistas:
+
+- Rescatan y auxilian a personas.
+- Investigan accidentes.
+- Velan por la conservación de la naturaleza.
+- Garantizan la seguridad ciudadana en instalaciones deportivas de montaña, estaciones de esquí y competiciones.
+- Colaboran en la prevención de accidentes y en la promoción de la seguridad en montaña.
+
+Ejemplos de servicios que encajan ahí: localizar a un senderista extraviado, evacuar a un escalador herido, intervenir en un barranco o en una cavidad, investigar un accidente mortal en una estación de esquí o dar charlas de prevención. Por la dificultad del terreno, los rescates se hacen a menudo **coordinados con el Servicio Aéreo**.
+
+## Un poco de historia
+
+La web recoge que el auge de las actividades al aire libre en los años sesenta obligó a organizar el rescate. En **1967** se crearon las Unidades de Esquiadores-Escaladores, que se ocupaban del rescate y de la vigilancia de los pasos fronterizos del Pirineo, y en **1981** se reorganizó el servicio con los actuales GREIM. Desde entonces se ha adaptado: barranquismo en los ochenta, cavidades subterráneas y espeleosocorro a principios de los noventa y rescate en medio acuático. La web usa dos nombres para el GREIM («Rescate Especial de Intervención en Montaña» y «Rescate e Intervención en Montaña»): es la misma unidad.
+
+## Cómo se organiza
+
+- **Órgano central, en Jaca (Huesca):** el Área de Instrucción y Doctrina, que apoya a las unidades e investiga nuevas técnicas y materiales, y de la que depende la Unidad Especial de Montaña (UEM); y el **Centro de Adiestramientos Específicos de Montaña (CAEM)**, responsable de la formación del personal de montaña. Cuenta además con equipos de competición de fondo-biatlón y de esquí-alpinismo.
+- **Organización periférica:** grupos distribuidos en áreas que corresponden a uno o varios macizos.
+
+| Área | Algunos GREIM (web oficial, noviembre de 2026) |
+|---|---|
+| Jaca | Huesca, Jaca, Boltaña, Pamplona, Benasque, Panticosa, Tarazona, Rubielos |
+| Cangas de Onís | Cangas de Onís, Mieres, Sabero, Potes, entre otros |
+| Granada | Granada, Mallorca, Tenerife, Onteniente, Álora, Ubrique |
+| Navacerrada | Navacerrada, El Barco de Ávila, Riaza, Arenas de San Pedro, Ezcaray |
+| Viella | Viella |
+
+En total, la web enumera 25 grupos en cinco áreas. El despliegue puede cambiar: consúltalo antes de citarlo.
+
+## Con quién trabaja
+
+El Servicio de Montaña no actúa aislado. Comparte jefatura con el **Servicio Aéreo**, la Agrupación de Reserva y Seguridad o el Servicio Cinológico (Orden PRE/422/2013, artículo 8.2), y la web subraya que sus rescates se coordinan a menudo con los helicópteros del Cuerpo. Y entre sus cometidos está velar por la conservación de la naturaleza, un terreno que comparte con el [SEPRONA](/blog/seprona-la-especialidad-de-proteccion-de-la-naturaleza).
+
+## La especialidad según la normativa
+
+La [Orden PCM/509/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-5900) recoge la especialidad **Montaña (MT, E14)**. Su anexo ([PDF del BOE](https://www.boe.es/boe/dias/2020/06/10/pdfs/BOE-A-2020-5900.pdf)) dedica una ficha a cada modalidad:
+
+| | Especialista en montaña (MTE) | Instructor de montaña (MTI) |
+|---|---|---|
+| Escalas de obtención | Oficiales (teniente a comandante), Suboficiales y Cabos y Guardias | Suboficiales y Cabos y Guardias |
+| Cualificación previa | Ninguna | Especialista (MTE) |
+| Límite de edad de acceso | Sí (la ficha no da la cifra) | Sí |
+| Límite de edad para permanecer | No | No |
+| Mantenimiento y renovación | Con pruebas o condiciones | Con pruebas o condiciones |
+| Servidumbre | 4 años | 3 años |
+
+La servidumbre del especialista puede cumplirse también en algunas unidades distintas, como la Unidad Especial de Intervención o la Unidad de Seguridad de la Casa de S. M. el Rey. La pérdida de la cualificación la insta el jefe del Servicio de Montaña.
+
+## Cómo se accede
+
+1. **Ingresar** en la Escala de Cabos y Guardias y obtener un primer destino; lo explicamos en [cómo se asignan los primeros destinos](/blog/como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil).
+2. **Superar el curso de especialización**, que imparte el CAEM según la web. El [Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764) fija requisitos generales para estos cursos (artículo 56): aptitud psicofísica y técnica y, en su caso, límites de edad o de altura; titulaciones, idiomas o habilitaciones; servidumbre anterior cumplida; no tener antecedentes penales ni sanciones graves o muy graves sin cancelar; y esperar tres años si se ha suspendido el proceso selectivo tres veces o si se causó baja en el curso por no superarlo. La selección se publica, con carácter general, en el Boletín Oficial de la Guardia Civil (artículo 43.8).
+3. **Obtener un puesto de especialista**, que se asigna por **concurso de méritos** ([Orden INT/26/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-897), artículo 10.1).
+4. **Cumplir la servidumbre.** El [Reglamento de destinos](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398) la limita a un máximo de cinco años (artículo 53) y te hace destinable forzoso durante los dos años siguientes a tu aptitud si no puedes cumplirla en tu destino (artículo 31).
+
+## Lo que no podemos contarte
+
+No podemos decirte qué pruebas físicas o técnicas se exigen, cuántas plazas se convocan, qué experiencia previa se pide ni cuánto dura el curso: **no lo hemos podido verificar en una fuente oficial vigente**. Lo que sí dicen las normas es que hay límite de edad de acceso, aptitud psicofísica y técnica exigible y pruebas de mantenimiento: las cifras concretas están en cada convocatoria. Para el panorama del resto de especialidades, consulta [destinos y especialidades](/blog/destinos-especialidades-guardia-civil).
+
+## Errores frecuentes
+
+1. **Pensar que se entra en montaña desde la oposición.** Hace falta la cualificación y un destino de concurso de méritos.
+2. **Querer aprender montaña en el curso.** Es mejor llegar con experiencia y formación de base, adquirida de forma segura.
+3. **Entrenar solo resistencia.** Rescate es técnica, orientación y trabajo en equipo además de físico.
+4. **Olvidar la servidumbre y el mantenimiento.** La cualificación obliga a permanecer en esos puestos y a mantener el nivel.
+
+## Caso práctico (hipotético)
+
+Elena, guardia con varios años en un puesto de León, practica montaña desde joven. Cuando se convoca el curso, comprueba que cumple la edad y no está cumpliendo otra servidumbre. Lo supera en el CAEM y obtiene la cualificación MTE. Pide por concurso de méritos una vacante de especialista en un GREIM del área de Cangas de Onís. Si años después quiere ser instructora, ya cumple la cualificación previa exigida. El caso es inventado; las reglas son las de las normas citadas.
+
+## Qué puedes hacer ya como opositor
+
+- **Cuida tu forma física** con un plan realista, empezando por las [marcas de las pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento). Ante dudas de entrenamiento o salud, consulta a un profesional.
+- **Aprende orientación**: el tema de [topografía](/blog/topografia-para-guardia-civil-escalas-curvas-de-nivel) del temario es la base de leer un mapa en el monte.
+- **Conoce la montaña con criterio**, con formación de federaciones y siempre de forma segura. Y en una emergencia, llama al 112.
+
+Y antes de todo eso, aprobar. En el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te acompañamos hasta ahí.
+
+## Preguntas frecuentes
+
+### ¿Qué es el GREIM?
+El Grupo de Rescate e Intervención en Montaña: la unidad del Servicio de Montaña que actúa en zonas de montaña y de difícil acceso.
+
+### ¿Puedo ir a Montaña al salir de la academia?
+La normativa exige la cualificación específica y un puesto que la requiera, asignado por concurso de méritos. La vía concreta depende de la convocatoria vigente.
+
+### ¿Un guardia puede ser especialista en montaña?
+Sí. El anexo de la Orden PCM/509/2020 incluye a guardias, cabos y cabos primeros entre los empleos en que se obtiene la modalidad de especialista.
+
+### ¿Dónde se forman los especialistas?
+La web oficial indica que el CAEM, en Jaca, es el responsable de la formación del personal de montaña.
+
+### ¿Qué pruebas hay que pasar?
+Las fija cada convocatoria. No hay cifras generales que podamos darte con seguridad.
+
+### ¿Cuántos GREIM hay?
+La web oficial enumera 25 grupos repartidos en cinco áreas (Jaca, Cangas de Onís, Granada, Navacerrada y Viella).
+
+### ¿Hay especialistas de montaña fuera de los Pirineos?
+Sí. Además de las áreas pirenaicas de Jaca y Viella, la web cita grupos como los de Cangas de Onís, Potes, Navacerrada, Granada, Mallorca o Tenerife, entre otros.',
+   '/blog/rescate-de-montana-en-la-guardia-civil-requisitos-y-formacion.jpg', 'Especialistas de montaña de la Guardia Civil ayudando a una montañera a cruzar un río', 'publicado', '2027-01-18T06:21:00.000Z', 'acceso-guardia-civil',
+   ARRAY['montaña', 'greim', 'especialidades', 'rescate']::text[], '{"title":"Rescate de montaña Guardia Civil: GREIM y acceso","description":"Rescate de montaña en la Guardia Civil: qué hacen los GREIM, cómo se despliegan, dónde se forman y qué exige la normativa para la especialidad de montaña."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('servicio-cinologico-como-ser-guia-canino-en-la-guardia-civil', 'articulo', 'Servicio Cinológico: qué hace un guía canino de la Guardia Civil y cómo se accede', 'Seguridad y rescate, drogas y explosivos: así trabajan los guías de perros de la Guardia Civil. Qué es el Servicio Cinológico, qué cursos imparte el CAPEDE y qué exige la normativa para obtener la especialidad.', 'Pocas especialidades despiertan tanta simpatía como la de guía de perros. Pero detrás del binomio guía-perro hay una formación propia, un centro docente específico y una normativa que conviene conocer antes de hacerse ilusiones.
+
+**Respuesta corta:** para ser guía canino de la Guardia Civil primero hay que ingresar en el Cuerpo. Después se obtiene la especialidad **Cinológica**, modalidad **guía de perros**, superando el curso de especialización correspondiente, y se ejerce ocupando un puesto orgánico que la exija. La especialidad se puede obtener desde el empleo de guardia civil, pero la ficha oficial prevé un **límite de edad de acceso** y un **periodo de servidumbre de cinco años**.
+
+En este artículo repasamos solo lo que se puede comprobar en fuentes oficiales: la norma de estructura, la orden de especialidades, el reglamento de enseñanza y la web de la Guardia Civil. Si aún no tienes claro cómo funcionan los destinos en general, empieza por [especialidades y destinos](/blog/destinos-especialidades-guardia-civil).
+
+## El Servicio Cinológico y Remonta
+
+La norma que desarrolla la estructura de los servicios centrales de la Guardia Civil ([Orden PRE/422/2013, BOE-A-2013-2906](https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906), artículo 8) define el **Servicio Cinológico y Remonta** como el órgano especializado para:
+
+- la **dirección técnica y la ejecución** de los servicios en los que participan unidades dotadas de perros;
+- **inspeccionar y evaluar las aptitudes técnicas** de las unidades cinológicas del Cuerpo y de otros organismos que se determinen;
+- la **gestión, administración y apoyo al ganado** y a los animales de utilidad para el servicio (de ahí lo de «Remonta»).
+
+Depende de la **Jefatura de Unidades Especiales y de Reserva**, la misma de la que dependen, según esa orden, el Servicio Aéreo o la Agrupación de Reserva y Seguridad.
+
+## El CAPEDE: donde se forman los guías
+
+El **Centro de Adiestramiento de Perros (CAPEDE)** es, según la [web oficial de la Guardia Civil](https://web.guardiacivil.es/es/institucional/conocenos/centros_docentes/perros/), el centro de perfeccionamiento de referencia de la especialidad cinológica. Sus funciones:
+
+- **Seleccionar y formar** al personal del Cuerpo que presta servicio como guía de perros en las unidades operativas.
+- **Capacitar a guías para labores docentes** de adiestramiento.
+- Instruir a componentes de **otros cuerpos y unidades**: la web cita policías locales, Policía Foral, Mossos d''Esquadra, Guardia Real y otras unidades militares.
+- Formar a componentes de **unidades especiales del propio Cuerpo** que trabajan con perros, como la Unidad de Acción Rural (UAR), los Grupos Especiales de Intervención en Montaña (GREIM) o las unidades de seguridad de Presidencia del Gobierno y de la Casa Real.
+
+Su origen es la Escuela de Adiestramiento de Perros Policía de la Guardia Civil, creada el **9 de octubre de 1951**. Hoy está encuadrado en el Servicio Cinológico y Remonta, del que depende técnica y funcionalmente, y tiene su sede en la antigua carretera de Colmenar, en **El Pardo (Madrid)**.
+
+## Los tres cursos que describe la web oficial
+
+| Curso | Para qué se adiestra al binomio | Subespecialidades citadas |
+|---|---|---|
+| **Seguridad y rescate (SYR)** | Búsqueda y salvamento de personas desaparecidas en grandes áreas, avalanchas o catástrofes; detección de personas ocultas en edificios o vehículos (también en el control de fronteras); rastreo; protección de personas y edificios públicos y control de masas. | Detección de restos biológicos, en apoyo a las unidades de Policía Judicial. |
+| **Detectores de drogas** | Búsqueda de estupefacientes en aeropuertos, puertos, mercancías, controles de carretera, zonas de ocio, registros domiciliarios, naves o paquetería. | Cebos envenenados, indicios de fuego, papel moneda, tabaco y droga en personas. |
+| **Detectores de explosivos** | Búsqueda y localización de artefactos en lugares públicos ante amenazas reales, edificios oficiales, itinerarios de visitas de personalidades, puertos y aeropuertos. | La web no cita subespecialidades. |
+
+Fíjate en que la web no publica ni la duración de los cursos ni el número de plazas: eso lo fija cada convocatoria.
+
+## Qué dice la orden de especialidades
+
+La [Orden PCM/509/2020 (BOE-A-2020-5900)](https://www.boe.es/buscar/act.php?id=BOE-A-2020-5900) regula las especialidades de la Guardia Civil. La **Cinológica (CIN)** tiene dos modalidades: **guía de perros (GPE)** e **instructor de guías de perros (GPI)**. Para todas las especialidades, el artículo 7 fija la misma regla de fondo:
+
+1. Para obtener la especialidad hay que **acreditar la cualificación específica**.
+2. Para ejercerla hay que **ocupar un puesto orgánico** que la requiera.
+3. Ese puesto puede condicionarse por empleo o escala, edad, condiciones psicofísicas, titulaciones previas o nivel de idiomas.
+
+### Lo que dicen las fichas del anexo
+
+El anexo de la orden incluye una ficha técnica por modalidad. Estos son los datos de las dos modalidades cinológicas, leídos en el texto consolidado del BOE:
+
+| Dato de la ficha | Guía de perros | Instructor de guías |
+|---|---|---|
+| Empleos de la Escala de Cabos y Guardias que pueden obtenerla | Guardia civil, cabo y cabo primero | Guardia civil, cabo y cabo primero |
+| Cualificación previa exigida | Ninguna | Ser guía de perros (GPE) |
+| Límite de edad para acceder a la cualificación | Sí | Sí |
+| Límite de edad para permanecer en el puesto | No | No |
+| Situación administrativa para ocupar el puesto | Activo | Activo |
+
+Para la modalidad de **guía de perros**, la ficha añade que hay **pruebas o condiciones de mantenimiento y de renovación** de la cualificación, que la autoridad que propone su pérdida es el **Jefe del Servicio Cinológico y Remonta** y que el **periodo de servidumbre es de cinco años**. También permite cumplir esa servidumbre en otras unidades donde se trabaja con perros, como el Grupo de Acción Rápida, la Unidad Especial de Intervención o las unidades de seguridad de la Casa de S. M. el Rey y de la Presidencia del Gobierno.
+
+Un detalle importante: la ficha dice que **hay límite de edad**, pero no fija la cifra. Esa concreción corresponde a la normativa de desarrollo y a la convocatoria del curso. Desconfía de quien te dé una edad exacta sin enseñarte el texto.
+
+### Qué es la «servidumbre»
+
+El Reglamento de destinos ([Real Decreto 470/2019, BOE-A-2019-11398](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398)) la define como la obligación de ocupar, o seguir ocupando, puestos donde se desempeñan las funciones ligadas a una titulación obtenida en la enseñanza de perfeccionamiento. Su artículo 53 añade que ese periodo **no puede superar los cinco años**. Además, durante los dos años siguientes a la publicación de la aptitud, quien no tenga un destino donde cumplirla puede ser destinado con carácter forzoso a uno en el que sí pueda.
+
+Traducido: si haces el curso, el Cuerpo espera que trabajes como guía durante un tiempo. Es una decisión que conviene tomar sabiendo lo que implica.
+
+## Requisitos generales para optar a un curso de especialización
+
+El Reglamento de ordenación de la enseñanza ([Real Decreto 131/2018, BOE-A-2018-3764](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), artículo 56) enumera los requisitos comunes a todos los cursos de especialización, sin perjuicio de los propios de cada especialidad:
+
+- Haber cumplido la servidumbre ligada a un curso de especialización anterior.
+- Aptitud psicofísica y técnica y, en su caso, edad o altura mínima o máxima.
+- Titulaciones, niveles de idiomas o habilitaciones, si se exigen.
+- Si has suspendido las pruebas del mismo curso tres veces, que hayan pasado al menos tres años desde la última solicitud.
+- Que hayan pasado tres años si causaste baja en un curso por no superar sus pruebas.
+- Que no haya circunstancias que hagan prever que no cumplirás la servidumbre.
+- No estar sometido a un expediente por insuficiencia de facultades profesionales o de condiciones psicofísicas.
+- Carecer de antecedentes penales, no estar procesado o investigado por delito doloso y no tener anotadas sin cancelar sanciones por faltas graves o muy graves.
+
+La selección de asistentes se publica, con carácter general, en el **Boletín Oficial de la Guardia Civil**.
+
+## El camino, paso a paso
+
+1. **Aprobar la oposición** a la Escala de Cabos y Guardias. Sin esto no hay nada más.
+2. **Superar la formación**: el curso en la [Academia de Baeza](/blog/academia-baeza-guardia-civil) y el periodo de [prácticas en unidades](/blog/las-practicas-despues-de-baeza-que-te-espera-guardia-civil).
+3. **Incorporarte a tu primer destino**, que depende de tu número y de las vacantes. Lo explicamos en [cómo se eligen los destinos al salir de Baeza](/blog/como-se-eligen-los-destinos-al-salir-de-baeza-guardia-civil).
+4. **Estar atento a la convocatoria** del curso de guía de perros en el Boletín Oficial de la Guardia Civil y comprobar sus requisitos concretos, incluida la edad.
+5. **Superar la selección y el curso**, que imparte el CAPEDE.
+6. **Ocupar un puesto orgánico** de especialista y cumplir la servidumbre.
+7. **Mantener la cualificación**, porque la ficha prevé pruebas de mantenimiento y renovación.
+
+## Un caso práctico (hipotético)
+
+Lucía, de 24 años, tiene experiencia como voluntaria en una protectora y quiere ser guía canino. Aprueba la oposición, termina la formación y obtiene destino en un puesto de seguridad ciudadana. Dos años después se publica en el Boletín Oficial de la Guardia Civil la convocatoria del curso. Antes de pedirlo, Lucía comprueba tres cosas: que no supera el límite de edad que fije esa convocatoria, que no tiene ningún expediente abierto y que está dispuesta a cumplir cinco años de servidumbre. Su experiencia con animales no le da puntos por sí sola, pero sí le ayuda a saber si ese trabajo diario le encaja.
+
+Es un ejemplo inventado para ilustrar el orden de los pasos; los plazos reales dependen de cada convocatoria.
+
+## Errores frecuentes
+
+- **Creer que se elige al ingresar.** La especialidad exige cualificación específica y un puesto orgánico. No se pide en la solicitud de la oposición.
+- **Confundir «tener perro» con «ser guía».** La formación oficial se recibe dentro del Cuerpo, en el CAPEDE.
+- **Dar por hecho que no hay límite de edad.** La ficha dice expresamente que lo hay.
+- **Olvidar la servidumbre.** Cinco años en la modalidad de guía condicionan tus siguientes destinos.
+- **Fiarse de cifras de foros** sobre plazas o duración del curso. Solo vale la convocatoria vigente.
+
+## Checklist si te interesa esta especialidad
+
+- [ ] Conozco la diferencia entre especialidad, cualificación y puesto orgánico.
+- [ ] Sé que primero tengo que aprobar la oposición y completar la formación.
+- [ ] He leído la ficha de la modalidad en la Orden PCM/509/2020.
+- [ ] Revisaré la convocatoria del curso en el Boletín Oficial de la Guardia Civil, incluida la edad.
+- [ ] Acepto la servidumbre de cinco años.
+- [ ] Mantengo una buena forma física general, empezando por las [marcas de las pruebas físicas](/blog/pruebas-fisicas-guardia-civil-marcas-entrenamiento).
+
+Lo primero sigue siendo aprobar. En el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te ayudamos a prepararlo.
+
+## Preguntas frecuentes
+
+### ¿Quién entrena a los perros de la Guardia Civil?
+
+El Servicio Cinológico y Remonta dirige técnicamente los servicios con perros, y el CAPEDE, que depende de él, selecciona y forma a los guías y a sus perros, según la web oficial.
+
+### ¿Qué tipos de perros hay?
+
+La web describe cursos de seguridad y rescate, detectores de drogas y detectores de explosivos, con subespecialidades como restos biológicos, cebos envenenados, indicios de fuego, papel moneda, tabaco o droga en personas.
+
+### ¿Puedo ser guía siendo guardia civil, sin ascender?
+
+Sí. La ficha de la modalidad de guía de perros incluye el empleo de guardia civil entre los que pueden obtenerla, igual que cabo y cabo primero.
+
+### ¿Hay edad máxima para hacer el curso?
+
+La ficha oficial indica que existe un límite de edad para acceder a la cualificación, pero no fija la cifra. Consúltala en la convocatoria del curso.
+
+### ¿Cuánto tiempo tengo que estar de guía después del curso?
+
+La ficha fija un periodo de servidumbre de cinco años para la modalidad de guía de perros, que es además el máximo que permite el Reglamento de destinos.
+
+### ¿El CAPEDE forma también a otros cuerpos?
+
+Sí. Según la web oficial, instruye a policías locales, Policía Foral, Mossos d''Esquadra, Guardia Real y otras unidades militares, además de a unidades especiales de la propia Guardia Civil.',
+   '/blog/servicio-cinologico-como-ser-guia-canino-en-la-guardia-civil.jpg', 'Guía canina de la Guardia Civil buscando con su perro entre unas ruinas', 'publicado', '2027-01-15T06:30:00.000Z', 'acceso-guardia-civil',
+   ARRAY['guía canino', 'servicio cinológico', 'especialidades', 'capede']::text[], '{"title":"Guía canino Guardia Civil: Servicio Cinológico y acceso","description":"Guía canino de la Guardia Civil: qué hace el Servicio Cinológico, qué cursos imparte el CAPEDE y qué exige la Orden PCM/509/2020 para ser especialista."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('servicio-maritimo-y-servicio-aereo-de-la-guardia-civil', 'articulo', 'Servicio Marítimo y Servicio Aéreo de la Guardia Civil', 'El Servicio Marítimo patrulla las aguas españolas y el Aéreo opera helicópteros, aviones y drones. Qué hacen, cómo se organizan y qué modalidades de cada especialidad puede obtener un guardia civil según la normativa.', 'Dos servicios de la Guardia Civil llevan su trabajo al mar y al aire: el **Servicio Marítimo (SEMAR)** y el **Servicio Aéreo (SAER)**. Los dos corresponden a especialidades con varias modalidades, y en ambos los puestos de especialista exigen una cualificación concreta.
+
+**Respuesta corta:** no se entra en ellos por oposición directa. Primero se ingresa en la Escala de Cabos y Guardias y después se obtiene la cualificación de una modalidad concreta. Y aquí hay un matiz que pocas guías cuentan: según las fichas oficiales, **un guardia civil puede obtener modalidades como mecánico-marinero, mecánico de aeronaves u operador de sistemas, pero no las de piloto de avión o de helicóptero**, reservadas a las escalas de oficiales y suboficiales. La de patrón de embarcaciones, en la Escala de Cabos y Guardias, se obtiene desde el empleo de cabo.
+
+Te contamos lo verificable y dónde consultar lo demás. Para el contexto de los destinos, lee [especialidades y destinos](/blog/destinos-especialidades-guardia-civil); la parte de buceo la tienes en [GEAS](/blog/geas-asi-son-los-buceadores-de-la-guardia-civil).
+
+## Servicio Marítimo
+
+### Qué hace
+
+Según la [web oficial de la Guardia Civil](https://web.guardiacivil.es/es/institucional/conocenos/especialidades/ServicioMaritimo/), el Servicio Marítimo se constituyó en **1991** mediante el Real Decreto 246/1991, que extendió al mar lo que el Cuerpo ya hacía en tierra. Las primeras embarcaciones se entregaron en 1992 y, desde 1997, las unidades de actividades subacuáticas se integran en su estructura.
+
+Su misión es ejercer las funciones policiales de carácter gubernativo, judicial, fiscal y administrativo en las aguas marítimas españolas hasta el límite exterior del mar territorial y, excepcionalmente, en aguas internacionales. Sus cometidos fundamentales, según la web:
+
+| Cometido | Ejemplos que cita la web |
+|---|---|
+| Policía judicial | Prevención y averiguación de delitos, primeras diligencias e informes. |
+| Resguardo fiscal | Perseguir el contrabando. |
+| Control de fronteras | Lucha contra la migración irregular. |
+| Policía administrativa | Medio ambiente, inspección pesquera y de embarcaciones deportivas, patrimonio histórico sumergido. |
+| Misiones en el extranjero | Cooperación policial, mantenimiento de la paz o ayuda humanitaria en el ámbito marítimo. |
+| Colaboración nacional | Salvamento marítimo, marina mercante, aduanas, pesca o la Armada. |
+
+### Cómo se organiza
+
+La web describe esta estructura:
+
+- **Jefatura del Servicio**, en Madrid: dirección técnica y asesoramiento al mando.
+- **Unidad de Formación y Doctrina**, en la Zona Franca de **Cádiz**: es el centro de perfeccionamiento de referencia de la especialidad e imparte los cursos de acceso a sus modalidades.
+- **Grupos Marítimos**, que integran los buques oceánicos: el de Canarias (Las Palmas de Gran Canaria) y el del Estrecho (Cádiz).
+- **Servicios Marítimos Provinciales**, uno por cada provincia con costa, que dependen orgánicamente de su comandancia y técnicamente del órgano central.
+- **Unidad de Actividades Subacuáticas** y, en el territorio, los GEAS.
+
+Sobre su encuadre superior, la [Orden PRE/422/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906) lo sitúa en la Jefatura Fiscal y de Fronteras, mientras que la web oficial describe hoy un Mando de Fronteras y Policía Marítima. Para un opositor, lo relevante es la misión, que en ambos textos coincide: vigilancia marítima, lucha contra el contrabando y control de la inmigración irregular.
+
+## Servicio Aéreo
+
+### Qué hace
+
+Según la [web oficial](https://web.guardiacivil.es/es/institucional/conocenos/especialidades/aire/), la Guardia Civil emplea medios aéreos desde la creación en **1973** de su Sección de Helicópteros: primero helicópteros, después aviones y, más recientemente, drones. Al Servicio Aéreo le corresponde organizar, coordinar, mantener y operar esos medios, además de asesorar técnicamente en materia aeronáutica y colaborar con las autoridades judiciales y con otras unidades del Cuerpo.
+
+La Orden PRE/422/2013 (artículo 8) lo define como la unidad especializada para la organización, coordinación y explotación de los medios aéreos, y lo adscribe a la Jefatura de Unidades Especiales y de Reserva.
+
+### Cómo se organiza
+
+- **Órgano central**, con una Agrupación de Vuelo (grupos de helicópteros, de aviones y de drones y contradrones), un Grupo de Material, el **Centro de Adiestramiento y Estandarización Aérea (CAESA)**, Seguridad de Vuelo y una oficina de prevención de riesgos laborales.
+- **Organización periférica**: bases en Torrejón (Madrid), Logroño, Tenerife, Huesca, Sevilla, León, Valencia, Málaga, A Coruña, Baleares, Rota (Cádiz), Murcia, Oviedo, Fuerteventura y Granada, y dos destacamentos en el extranjero (Mauritania y Senegal), según la web.
+
+El **CAESA**, en Torrejón de Ardoz, es el centro de perfeccionamiento de la especialidad Aérea. Se creó como tal en 2021 y, según la web, imparte las modalidades de piloto de helicóptero, piloto de avión, mecánico de aeronaves y operador de sistemas.
+
+## Las modalidades, una por una
+
+La [Orden PCM/509/2020 (BOE-A-2020-5900)](https://www.boe.es/buscar/act.php?id=BOE-A-2020-5900) regula ambas especialidades. Su anexo tiene una ficha por modalidad. Esto es lo que dicen sobre quién puede obtenerlas dentro de la Escala de Cabos y Guardias:
+
+| Modalidad | ¿Puede obtenerla un guardia civil? | Empleos de la Escala de Cabos y Guardias | Cualificación previa |
+|---|---|---|---|
+| Marítima: patrón de embarcaciones | No | Cabo y cabo primero | Ninguna |
+| Marítima: mecánico-marinero | Sí | Guardia civil, cabo y cabo primero | Ninguna |
+| Marítima: mecánico de mantenimiento | Sí | Guardia civil, cabo y cabo primero | Ninguna |
+| Marítima: capitán u oficial de puente de buque oceánico | No | Cabo y cabo primero | Patrón de embarcaciones |
+| Marítima: jefe u oficial de máquinas de buque oceánico | Sí | Guardia civil, cabo y cabo primero | Mecánico-marinero o mecánico de mantenimiento |
+| Aérea: mecánico de avión, de helicóptero o de aeronaves | Sí | Guardia civil, cabo y cabo primero | Ninguna |
+| Aérea: operador de sistemas | Sí | Guardia civil, cabo y cabo primero | Ninguna |
+| Aérea: piloto de avión o de helicóptero | No | Ninguno (solo oficiales y suboficiales) | Ninguna |
+| Aérea: oficial de mantenimiento | No | Ninguno (solo oficiales) | Una modalidad de mecánico o de piloto |
+
+Todas estas fichas indican que **existe un límite de edad para acceder a la cualificación**, aunque no fijan la cifra. Por ejemplo, la de patrón de embarcaciones y la de piloto de helicóptero recogen un **periodo de servidumbre de cinco años**, el máximo que permite el Reglamento de destinos ([Real Decreto 470/2019](https://www.boe.es/buscar/act.php?id=BOE-A-2019-11398), artículo 53).
+
+Como en el resto de especialidades, el requisito fundamental es acreditar la **cualificación específica** y ocupar un **puesto orgánico** que la requiera (artículo 7 de la orden).
+
+## Requisitos generales de los cursos
+
+El Reglamento de ordenación de la enseñanza ([Real Decreto 131/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-3764), artículo 56) fija requisitos comunes a los cursos de especialización: aptitud psicofísica y técnica, límites de edad o altura si los hay, titulaciones, idiomas o habilitaciones, haber cumplido servidumbres anteriores y carecer de antecedentes penales y de sanciones graves o muy graves sin cancelar, entre otros. La selección de asistentes se publica, con carácter general, en el Boletín Oficial de la Guardia Civil.
+
+## El camino, paso a paso
+
+1. **Aprobar la oposición** y completar la formación.
+2. **Elegir la modalidad realista para tu empleo.** Si eres guardia civil, mira las de mecánico u operador; si te interesa el mando de embarcaciones, piensa que la de patrón se obtiene desde cabo.
+3. **Comprobar los requisitos** de la convocatoria del curso, incluida la edad y las titulaciones que pida.
+4. **Superar la selección y el curso** en la Unidad de Formación y Doctrina de Cádiz o en el CAESA.
+5. **Ocupar el puesto orgánico** y cumplir la servidumbre.
+
+## Un caso práctico (hipotético)
+
+Iván, de 27 años, es técnico de mantenimiento aeronáutico y sueña con volar en la Guardia Civil. Al leer las fichas descubre que, desde la Escala de Cabos y Guardias, no puede obtener la modalidad de piloto, pero sí la de **mecánico de aeronaves** desde el empleo de guardia civil. Decide opositar y, cuando tenga destino, presentarse al curso de esa modalidad. Si más adelante quisiera pilotar, tendría que valorar la promoción a otra escala. Es un ejemplo inventado para ilustrar cómo leer las fichas, no un itinerario garantizado.
+
+## Errores frecuentes
+
+- **Pensar que se entra como piloto desde la oposición.** Las fichas de piloto no incluyen la Escala de Cabos y Guardias.
+- **Dar por hecho que un guardia puede ser patrón.** En esa escala, la ficha empieza en cabo.
+- **Olvidar la edad.** Todas las fichas revisadas prevén un límite de acceso.
+- **Confundir el SEMAR con Salvamento Marítimo.** Son organismos distintos que colaboran.
+- **Fiarse de cifras sueltas** sobre plazas o duración de cursos.
+
+## Checklist
+
+- [ ] He leído la ficha de la modalidad que me interesa en la Orden PCM/509/2020.
+- [ ] Sé qué empleo necesito para obtenerla.
+- [ ] Conozco el periodo de servidumbre que fija su ficha.
+- [ ] Revisaré la convocatoria del curso en el Boletín Oficial de la Guardia Civil.
+- [ ] Mantengo la natación al día: la [prueba de 50 metros](/blog/natacion-50-metros-guardia-civil) es el primer filtro, y el inglés suma ([prueba de inglés](/blog/ingles-oposicion-guardia-civil)).
+
+Primero, aprobar: en el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) te ayudamos con ello.
+
+## Preguntas frecuentes
+
+### ¿El Servicio Marítimo patrulla solo la costa?
+
+Según la web oficial, ejerce sus funciones en las aguas marítimas españolas hasta el límite exterior del mar territorial y, excepcionalmente, en aguas internacionales.
+
+### ¿Un guardia civil puede ser piloto de helicóptero?
+
+No desde la Escala de Cabos y Guardias: las fichas de piloto de avión y de helicóptero solo incluyen empleos de oficiales y suboficiales.
+
+### ¿Y patrón de embarcaciones?
+
+En la Escala de Cabos y Guardias, la ficha permite obtenerla a cabos y cabos primeros, no a guardias.
+
+### ¿Qué puede hacer un guardia civil en el Servicio Aéreo?
+
+Según las fichas, puede obtener las modalidades de mecánico de avión, de helicóptero o de aeronaves y la de operador de sistemas.
+
+### ¿Dónde se forman?
+
+En la Unidad de Formación y Doctrina del Servicio Marítimo, en Cádiz, y en el Centro de Adiestramiento y Estandarización Aérea, en Torrejón de Ardoz.
+
+### ¿Puedo ir al Servicio Aéreo recién salido de Baeza?
+
+Hace falta cualificación específica y un puesto que la requiera. Cómo se concreta depende de la convocatoria vigente.',
+   '/blog/servicio-maritimo-y-servicio-aereo-de-la-guardia-civil.jpg', 'Rescate con grúa desde un helicóptero de la Guardia Civil en un acantilado', 'publicado', '2027-01-16T06:47:00.000Z', 'acceso-guardia-civil',
+   ARRAY['servicio marítimo', 'servicio aéreo', 'especialidades', 'destinos']::text[], '{"title":"Servicio Marítimo y Aéreo Guardia Civil: funciones","description":"Servicio Marítimo y Aéreo de la Guardia Civil: funciones, organización y qué modalidades puede obtener cada empleo según la Orden PCM/509/2020."}'::jsonb, '{}'::jsonb)
+on conflict (slug) do update set
+  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
+  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
+  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
+  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
+
+insert into public.blog_posts
+  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
+values
+  ('topografia-para-guardia-civil-escalas-curvas-de-nivel', 'articulo', 'Topografía para Guardia Civil: escalas, curvas de nivel y pendientes', 'El tema 18, Topografía, mezcla conceptos sencillos con cuentas fáciles de fallar. Escalas, unidades angulares, curvas de nivel, pendientes, coordenadas y acimut, con ejemplos resueltos, dos preguntas oficiales y un mini test.', '**Respuesta corta:** el tema 18 del programa, Topografía, cabe en un párrafo del temario oficial: elementos geográficos, unidades de medida y representación del terreno. Casi todo se reduce a seis ideas: escala, unidades angulares, curvas de nivel, pendiente, coordenadas y orientación. Con tres fórmulas y práctica, es de los temas más asequibles; el riesgo está en las cuentas, no en la teoría.
+
+## Qué dice exactamente el programa
+
+El [temario oficial](https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2024/TEMARIO_INGRESO_GC_ACTUALIZADO_2024.pdf) de la Guardia Civil enumera para este tema:
+
+- **Elementos geográficos:** eje terrestre, polos, meridiano, paralelo, ecuador, puntos cardinales, coordenadas geográficas, acimut y rumbo.
+- **Unidades geométricas de medida:** unidades lineales, escalas numérica y gráfica, unidades angulares.
+- **Representación del terreno:** planimetría y altimetría, clases de terreno, accidentes del terreno, sistema de planos acotados, pendiente entre dos puntos.
+
+No hay una norma que estudiar, así que tu material de referencia será un manual de topografía. Tienes el resumen de los 23 temas en nuestro [temario](/temario-guardia-civil). Los ejemplos de este artículo son propios, salvo las dos preguntas oficiales que se indican.
+
+## Elementos geográficos
+
+- **Eje terrestre:** línea imaginaria sobre la que gira la Tierra; corta la superficie en los **polos** norte y sur.
+- **Meridiano:** semicírculo que va de polo a polo. El de referencia es el de Greenwich (0°).
+- **Paralelo:** círculo perpendicular al eje. El **ecuador** es el paralelo máximo (0°) y divide la Tierra en dos hemisferios.
+- **Coordenadas geográficas:** la **latitud** es la distancia angular al ecuador (de 0° a 90°, norte o sur) y la **longitud**, la distancia angular al meridiano de Greenwich (de 0° a 180°, este u oeste).
+- **Puntos cardinales:** norte, sur, este y oeste.
+
+## Escalas
+
+La escala relaciona una distancia en el mapa con la real. En 1:50.000, **1 cm del mapa son 50.000 cm del terreno, es decir, 500 m**.
+
+| Escala | 1 cm en el mapa | 4 cm en el mapa |
+| --- | --- | --- |
+| 1:10.000 | 100 m | 400 m |
+| 1:25.000 | 250 m | 1 km |
+| 1:50.000 | 500 m | 2 km |
+
+- **Mayor escala = más detalle**, y es la del denominador más pequeño: 1:25.000 es mayor que 1:50.000.
+- La escala **numérica** es la fracción (1:50.000); la **gráfica**, una regla dibujada en el mapa que sigue siendo válida aunque fotocopies el mapa ampliado o reducido.
+
+### Ejemplos resueltos
+
+1. **Pregunta oficial (prueba de 2026, modelo A, n.º 84):** dos puntos están a 500 m en el terreno; ¿qué separación tienen en un plano 1:25.000? 500 m = 50.000 cm; 50.000 / 25.000 = **2 cm**. Es la respuesta a) según la plantilla oficial.
+2. Mides **7,4 cm** en un mapa 1:50.000. Real: 7,4 × 50.000 = 370.000 cm = **3,7 km**.
+3. Quieres dibujar **1,2 km** en un mapa 1:25.000. 1,2 km = 120.000 cm; 120.000 / 25.000 = **4,8 cm**.
+4. En un mapa sin escala, 3 cm equivalen a 1,5 km. 1,5 km = 150.000 cm; 150.000 / 3 = 50.000: escala **1:50.000**.
+
+Truco: pasa siempre todo a centímetros antes de dividir. La mayoría de los errores son ceros que se pierden.
+
+## Unidades angulares
+
+| Sistema | Circunferencia completa | Ángulo recto | Subdivisiones |
+| --- | --- | --- | --- |
+| Sexagesimal | 360° | 90° | 1° = 60 minutos; 1 minuto = 60 segundos |
+| Centesimal | 400ᵍ | 100ᵍ | 1ᵍ = 100 minutos centesimales; 1 minuto = 100 segundos |
+| Radianes | 2π rad | π/2 rad | 1 rad ≈ 57,3° |
+
+- El **radián** es el ángulo cuyo arco mide lo mismo que el radio.
+- La **milésima** se define como la milésima parte del radián, así que una circunferencia tiene unas 6.283. En la práctica militar se usa una milésima convencional de **6.400 por circunferencia** (1.600 en un ángulo recto). Mira cuál usa tu material y no las mezcles.
+- Conversiones rápidas: 1ᵍ = 0,9°; 54° = 60ᵍ; 45° = 50ᵍ.
+
+La pregunta 85 del modelo A de 2026 pedía señalar la definición incorrecta de unidades de medida; la plantilla oficial da como respuesta la del grado centesimal que dividía la circunferencia «en 100 partes»: son **400**. Es justo el tipo de trampa que conviene tener automatizada.
+
+## Planimetría, altimetría y planos acotados
+
+La **planimetría** representa sobre un plano los detalles del terreno prescindiendo de su relieve (ríos, caminos, poblaciones); así se definía en la pregunta 91 del modelo 1A de 2022. La **altimetría** representa el relieve, es decir, las alturas. El **sistema de planos acotados** proyecta el terreno sobre un plano horizontal e indica la altura de los puntos con su **cota**; las curvas de nivel son su aplicación más conocida.
+
+## Curvas de nivel
+
+Una curva de nivel une puntos de **igual altitud**. La diferencia de altura entre dos curvas consecutivas es la **equidistancia**, que figura en el margen del mapa. En el Mapa Topográfico Nacional suele ser de 10 m en 1:25.000 y de 20 m en 1:50.000, pero en el examen manda siempre el dato del enunciado.
+
+Reglas de lectura:
+
+- **Curvas juntas:** terreno empinado. **Separadas:** terreno suave.
+- **Curvas cerradas y concéntricas:** una elevación o una depresión; las cotas te dicen cuál.
+- **Curvas en V o en U:** si el vértice apunta hacia cotas más altas, es una **vaguada** (las dos laderas se unen por abajo y por ahí corre el agua); si apunta hacia cotas más bajas, es una **divisoria** o espolón (las laderas se unen por arriba).
+- **Collado:** zona más baja entre dos elevaciones, por donde se pasa de una vertiente a otra; los manuales lo describen como el lugar donde se encuentran dos vaguadas y dos divisorias.
+- Las curvas **no se cruzan**, salvo en un voladizo, caso excepcional.
+
+### Interpolar una cota: pregunta oficial resuelta
+
+**Prueba de 2022 (modelo 1A, n.º 93):** dos curvas consecutivas A (440 m) y B, con equidistancia de 20 m y pendiente constante, están separadas 6 mm en el plano. Un punto P está a 2,7 mm de A. ¿Cuál es su cota?
+
+- B es la curva de mayor cota: 440 + 20 = 460 m.
+- P está a 2,7 / 6 = 0,45 del camino entre A y B.
+- Sube 0,45 × 20 = 9 m.
+- Cota de P = 440 + 9 = **449 m** (opción d).
+
+## Pendiente
+
+**Pendiente (%) = desnivel / distancia horizontal × 100**
+
+1. Subes 50 m en 500 m horizontales: 50 / 500 = 0,10 → **10 %**. En grados son unos 5,7°: el porcentaje y los grados no son lo mismo, y una pendiente del 100 % equivale a 45°.
+2. Entre las curvas de 440 y 460 m del ejemplo anterior, separadas 6 mm en un mapa 1:25.000: distancia real = 6 × 25.000 = 150.000 mm = 150 m. Pendiente = 20 / 150 = 0,133 → **13,3 %**.
+3. Punto A a 620 m y punto B a 780 m, separados 4 cm en un mapa 1:50.000: distancia = 4 × 50.000 = 200.000 cm = 2.000 m; desnivel = 160 m; pendiente = 160 / 2.000 = **8 %**.
+
+Si te dan la distancia medida en el mapa, **conviértela con la escala antes de dividir**.
+
+## Coordenadas UTM (para leer mapas)
+
+El temario cita las coordenadas geográficas, pero los mapas topográficos españoles traen también la cuadrícula **UTM**. El mundo se divide en **60 husos de 6°** de longitud, numerados hacia el este desde el antimeridiano de Greenwich; la Península queda en los husos 29, 30 y 31, y Canarias se representa en el 28. Las coordenadas se dan en metros: primero la X (este) y luego la Y (norte). El sistema geodésico oficial en España es el ETRS89, fijado por el [Real Decreto 1071/2007](https://www.boe.es/buscar/act.php?id=BOE-A-2007-15822).
+
+## Orientación: acimut, contraacimut y rumbo
+
+- **Acimut:** ángulo que forma una dirección con el norte, medido en sentido horario de 0° a 360°. Este = 90°, sur = 180°, oeste = 270°.
+- **Contraacimut:** el acimut ± 180°. De 70° sale 250°; de 300°, 120°.
+- **Rumbo:** el término tiene definiciones distintas según el manual (en muchos se mide respecto al norte magnético; en otros es un ángulo de 0° a 90° desde el norte o el sur). Apréndete la de tu material y no la mezcles con otra.
+- **Declinación magnética:** diferencia entre el norte geográfico y el magnético. Varía con el lugar y con los años; el mapa trae el dato.
+
+## Errores frecuentes
+
+- Confundir «escala mayor» con «denominador mayor».
+- Dividir metros entre la escala sin pasarlos a centímetros.
+- Calcular la pendiente con la distancia del mapa sin convertir.
+- Sumar la equidistancia hacia el lado equivocado al interpolar: mira qué curva es la más alta.
+- Usar 100ᵍ como circunferencia completa (es el ángulo recto).
+
+## Mini test (preguntas propias)
+
+1. En un mapa 1:25.000 mides 3,2 cm. ¿Cuál es la distancia real?
+   a) 80 m · b) 800 m · c) 8 km · d) 320 m
+2. ¿Cuál de estas escalas es mayor?
+   a) 1:50.000 · b) 1:25.000 · c) 1:10.000 · d) Todas son iguales
+3. El contraacimut de 135° es:
+   a) 45° · b) 225° · c) 315° · d) 270°
+4. 50ᵍ equivalen a:
+   a) 45° · b) 50° · c) 55° · d) 90°
+5. Un camino sube 30 m en 600 m horizontales. Su pendiente es:
+   a) 0,5 % · b) 5 % · c) 20 % · d) 50 %
+6. Equidistancia de 10 m. Un punto está entre las curvas de 300 y 310 m, a tres cuartas partes del camino desde la de 300. Su cota es:
+   a) 302,5 m · b) 305 m · c) 307,5 m · d) 310 m
+
+**Soluciones:** 1 b (3,2 × 25.000 = 80.000 cm = 800 m). 2 c (el denominador más pequeño). 3 c (135 + 180). 4 a (50 × 0,9). 5 b (30 / 600 = 0,05). 6 c (300 + 0,75 × 10).
 
 ## Cómo estudiarlo
 
-Lee la LO 11/2007 título a título y haz dos listas: lo que pueden hacer con límites y lo que no pueden hacer. Para la LO 12/2007, fija las cifras con tablas y repásalas con [repaso espaciado](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario); conéctalo con la [deontología profesional](/blog/deontologia-profesional-el-codigo-de-conducta-que-entra).
+Haz ejercicios con un mapa real (el Instituto Geográfico Nacional ofrece cartografía gratuita), repasa las fórmulas con repasos espaciados y practica con tests. Cómo encaja en la prueba lo tienes en [el examen de conocimientos por dentro](/blog/examen-conocimientos-guardia-civil-estructura), y cuánto tiempo darle, en [las horas de estudio](/blog/cuantas-horas-al-dia-hay-que-estudiar-para-la-guardia-civil). Puedes practicar en el [test online](/test-guardia-civil) y el [curso de acceso a Guardia Civil](/cursos/acceso-guardia-civil) incluye este tema.
 
 ## Preguntas frecuentes
 
-### ¿Puede un guardia civil afiliarse a un sindicato?
-No. La LO 11/2007 les prohíbe la sindicación (art. 11) y la huelga (art. 12), y afiliarse a partidos o sindicatos (art. 18). Sí pueden constituir asociaciones profesionales.
+### ¿Hace falta llevar calculadora o brújula?
+No. La prueba de conocimientos es un test escrito; consulta en la convocatoria vigente qué material se permite. Las cuentas de este tema se hacen a mano.
 
-### ¿Puede un guardia civil presentarse a unas elecciones?
-La ley dice que no disfrutan del sufragio pasivo en los términos que establezca la legislación electoral general (art. 10.2). El derecho de voto sí lo tienen.
+### ¿Qué fórmulas debo saberme sí o sí?
+La conversión de escala, la pendiente y la interpolación entre curvas. Más las equivalencias de las unidades angulares.
 
-### ¿Cuánto prescribe una falta leve?
-A los seis meses, según el art. 21 de la LO 12/2007.
+### ¿Entran las coordenadas UTM?
+El programa habla de coordenadas geográficas. La UTM ayuda a leer mapas, pero prioriza lo que dice el temario.
 
-### ¿Se aplica el régimen disciplinario a los alumnos de Baeza?
-Sí, en la medida en que les sea aplicable y con un régimen específico de sanciones (arts. 2 y 18 de la LO 12/2007).
+### ¿Qué hago si mi material da otra equidistancia?
+Fíate del dato del mapa o del enunciado, nunca de lo que recuerdes.
 
-### ¿La LO 12/2007 entra en el examen de acceso?
-El programa vigente cita la LO 11/2007 completa en el tema 15, pero no la LO 12/2007. Comprueba el temario de cada convocatoria.
+### ¿Cuántas preguntas hay de topografía?
+No hay un reparto oficial por temas. En las pruebas de 2022 y 2026 aparecieron preguntas identificadas como «Topografía», pero eso no permite predecir cuántas habrá.
 
-### ¿Dónde preparo esta parte del temario?
-En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil), con tests por temas.',
-   NULL, NULL, 'publicado', '2027-01-19T06:38:00.000Z', 'acceso-guardia-civil',
-   ARRAY['derechos y deberes', 'régimen disciplinario', 'temario', 'normativa']::text[], '{"title":"Derechos y deberes del guardia civil: LO 11/2007 y 12/2007","description":"LO 11/2007 de derechos y deberes y LO 12/2007 de régimen disciplinario de la Guardia Civil: límites, faltas, sanciones, prescripción y test resuelto."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('falsos-amigos-en-ingles-los-errores-tipicos-del-opositor', 'articulo', '"Falsos amigos en inglés: los errores clásicos al traducir del español"', 'Palabras inglesas que se parecen a las españolas pero significan otra cosa. Una tabla amplia de falsos amigos con ejemplos propios, los parciales, los que encajan en contextos de seguridad y un método para no caer en un test de cuatro opciones.', '**Respuesta corta:** un falso amigo es una palabra inglesa que se parece a una española pero significa otra cosa. En un test de cuatro opciones son un cebo perfecto, porque la opción que «suena» a español se marca por inercia. La defensa es memorizar los pares más conocidos, aprenderlos dentro de frases y desconfiar de lo que parece demasiado fácil.
-
-Los ejemplos y ejercicios son **propios**, escritos para practicar. No son preguntas oficiales ni sabemos si saldrá alguno en el examen. La prueba, según la base 6.1.1 d) de la [convocatoria de 2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), consta de 20 preguntas tipo test de nivel compatible con la ESO.
-
-## Los falsos amigos más conocidos
-
-| Palabra inglesa | Significa | NO significa | Ejemplo |
-| --- | --- | --- | --- |
-| actually | en realidad | actualmente (*currently*) | *Actually, I don''t agree.* |
-| assist | ayudar | asistir a un acto (*attend*) | *Can I assist you?* |
-| attend | asistir a | atender a alguien (*serve, look after*) | *She attends English classes.* |
-| embarrassed | avergonzado | embarazada (*pregnant*) | *He was embarrassed by his mistake.* |
-| library | biblioteca | librería (*bookshop*) | *I study in the library.* |
-| sensible | sensato | sensible (*sensitive*) | *It is a sensible decision.* |
-| realize | darse cuenta | realizar (*carry out*) | *I realized I was late.* |
-| eventually | al final, finalmente | eventualmente (*possibly*) | *Eventually, we found the house.* |
-| carpet | alfombra, moqueta | carpeta (*folder*) | *The carpet is new.* |
-| constipated | estreñido | constipado (*to have a cold*) | *He is constipated.* |
-| sympathetic | comprensivo | simpático (*nice, friendly*) | *She was sympathetic to my problem.* |
-| large | grande | largo (*long*) | *They live in a large house.* |
-| parents | padres | parientes (*relatives*) | *My parents live in Jaén.* |
-| lecture | conferencia, clase magistral | lectura (*reading*) | *The lecture starts at ten.* |
-| pretend | fingir | pretender (*intend*) | *He pretended to be asleep.* |
-| resume | reanudar | resumir (*summarize*) | *The meeting will resume at noon.* |
-| fabric | tela | fábrica (*factory*) | *This fabric is soft.* |
-| support | apoyar | soportar (*put up with, stand*) | *My family supports me.* |
-| introduce | presentar a alguien | introducir (*insert, put in*) | *Let me introduce my friend Ana.* |
-| success | éxito | suceso (*event, incident*) | *The operation was a success.* |
-| exit | salida | éxito (*success*) | *Use the emergency exit.* |
-| notice | aviso; darse cuenta | noticia (*news*) | *Did you notice the noise?* |
-| record | grabar; registro | recordar (*remember*) | *They recorded the interview.* |
-| rope | cuerda | ropa (*clothes*) | *He tied the box with a rope.* |
-| career | carrera profesional | carrera universitaria (*degree*) o de atletismo (*race*) | *She has a long career in the police.* |
-| petrol | gasolina | petróleo (*oil*) | *The car needs petrol.* |
-| casualty | víctima, herido (en un accidente) | casualidad (*chance, coincidence*) | *There were no casualties in the accident.* |
-
-Y al revés, para decir en inglés lo que piensas en español: *currently* (actualmente), *to carry out* (realizar), *pregnant* (embarazada), *bookshop* (librería), *folder* (carpeta), *to have a cold* (estar constipado), *success* (éxito), *news* (noticia), *clothes* (ropa), *remember* (recordar), *oil* (petróleo).
-
-## Falsos amigos parciales
-
-Algunas palabras coinciden con el español en un sentido y en otro no. Son las más traicioneras, porque a veces la traducción «obvia» es correcta:
-
-- ***Argument***: puede ser «argumento», pero muy a menudo es «discusión» o «pelea»: *They had an argument about money.*
-- ***Excited***: «ilusionado», «emocionado»: *I''m excited about the trip.*
-- ***Discuss***: «hablar de», «tratar» un tema, sin necesidad de discutir: *We discussed the plan.*
-- ***Agenda***: «orden del día» de una reunión; la agenda personal es *diary* o *planner*.
-- ***College***: centro de estudios superiores; el colegio de primaria es *school*.
-
-## No todo parecido es una trampa
-
-El extremo contrario también hace daño: desconfiar de cualquier palabra que se parezca al español. La mayoría de las palabras parecidas son **cognados verdaderos**, que significan lo mismo en las dos lenguas: *hospital*, *important*, *possible*, *problem*, *decision*, *information*, *family*, *police*, *accident*, *necessary*. Si en una pregunta la opción parecida al español encaja con el sentido de toda la frase, puede ser perfectamente la correcta. La sospecha sirve para **releer**, no para descartar a ciegas.
-
-## Por qué caes aunque lo sepas
-
-Los falsos amigos no fallan por falta de nivel, sino por **velocidad**. Con prisa y cansancio, tu cerebro propone el significado español y lo da por bueno. El inglés comparte los 140 minutos de la prueba de conocimientos con ortografía, gramática y las 100 preguntas del temario, así que es fácil llegar a él con la cabeza cargada; por eso, como explicamos en [el inglés de la oposición](/blog/ingles-oposicion-guardia-civil), conviene entrenarlo dentro de simulacros completos.
-
-## Ejemplo resuelto paso a paso
-
-*After two hours of searching, they ___ found the missing boy.* (a) actually (b) eventually (c) currently (d) possibly
-
-1. La frase cuenta un proceso largo que termina bien.
-2. Buscamos «al final», «finalmente».
-3. *Eventually* significa exactamente eso, aunque se parezca a «eventualmente».
-
-**Respuesta: (b).** La (a) significa «en realidad»; la (c), «actualmente»; la (d), «posiblemente», que no encaja con un hallazgo ya ocurrido.
-
-## Cómo evitarlos
-
-1. **Aprende los pares de dos en dos.** No apuntes solo *library* = biblioteca; apunta también librería = *bookshop*.
-2. **Frases propias.** Una frase tuya con *actually* o *eventually* se queda mejor que la definición.
-3. **Sospecha de las opciones obvias.** Si una opción se parece mucho a una palabra española, lee las demás antes de marcar.
-4. **Vuelve al contexto.** Pregúntate qué significa la frase entera con cada opción.
-5. **Cuaderno de falsos amigos.** Cada vez que falles uno, anótalo con su frase.
-
-Más palabras útiles en [vocabulario y phrasal verbs](/blog/vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles). Si estás empezando, primero la base de [cómo aprobar el inglés desde cero](/blog/como-aprobar-el-ingles-de-la-guardia-civil-partiendo-de-cero).
-
-## Test propio de diez preguntas (con soluciones)
-
-1. "Actually" means: (a) ahora mismo (b) en realidad (c) antiguamente (d) a veces
-2. My sister is ___ and the baby is due next month. (a) embarrassed (b) pregnant (c) constipated (d) sensible
-3. I want to buy a book. Let''s go to the ___. (a) library (b) bookshop (c) carpet (d) exit
-4. She was ___ when she forgot his name. (a) embarrassed (b) pregnant (c) sensible (d) sympathetic
-5. "I realized my mistake" means: (a) llevé a cabo mi error (b) me di cuenta de mi error (c) resumí mi error (d) apoyé mi error
-6. Put the documents in this blue ___. (a) carpet (b) folder (c) fabric (d) library
-7. I can''t go out tonight; I have a ___. (a) constipation (b) cold (c) rope (d) record
-8. Let me ___ you to my brother, Luis. (a) introduce (b) realize (c) insert (d) resume
-9. "There were three casualties" means: (a) hubo tres casualidades (b) hubo tres víctimas o heridos (c) hubo tres coincidencias (d) hubo tres casos
-10. Did you watch the ___ on TV last night? (a) notices (b) news (c) success (d) lecture
-
-**Soluciones:** 1-b, 2-b, 3-b (en una *library* se piden libros prestados; se compran en una *bookshop*), 4-a, 5-b, 6-b, 7-b, 8-a, 9-b, 10-b.
-
-## Segundo ejercicio: corrige la frase
-
-Cada frase usa mal un falso amigo. Escribe la palabra correcta. Las frases incorrectas están marcadas como tales y son propias.
-
-1. ✗ *I went to the library and bought two novels.*
-2. ✗ *Actually, she lives in Toledo, but she was born in Ávila.* (Queremos decir «actualmente».)
-3. ✗ *I''m constipated: I have a temperature and a sore throat.*
-4. ✗ *He assisted the meeting yesterday.* (Queremos decir que asistió a la reunión.)
-5. ✗ *I can''t record his name.* (Queremos decir «recordar».)
-6. ✗ *She is very sensible: she cries at every film.*
-
-**Soluciones:**
-
-1. *I went to the **bookshop** and bought two novels.*
-2. ***Currently**, she lives in Toledo, but she was born in Ávila.*
-3. *I **have a cold**: I have a temperature and a sore throat.*
-4. *He **attended** the meeting yesterday.*
-5. *I can''t **remember** his name.*
-6. *She is very **sensitive**: she cries at every film.*
-
-## Errores frecuentes
-
-- Traducir *actually* por «actualmente».
-- Decir *I''m constipated* para hablar de un resfriado.
-- Usar *sensible* cuando quieres decir *sensitive*.
-- Llamar *library* a una tienda de libros.
-- Decir *I assisted to the meeting*: es *I attended the meeting*.
-
-## Preguntas frecuentes
-
-### ¿Los falsos amigos caen en el examen?
-No hay datos oficiales de qué contenidos se preguntan y la convocatoria no detalla un listado. Lo sensato es dominar los más conocidos, porque aparecen en cualquier material de inglés general.
-
-### ¿Cuántos tengo que aprender?
-No hay cifra oficial. Con los de la tabla tienes una base amplia; añade los que falles en tus tests.
-
-### ¿Qué diferencia hay entre falso amigo total y parcial?
-El total nunca significa lo que sugiere el parecido (*embarrassed*). El parcial a veces sí y a veces no (*argument*). Por eso conviene verlos siempre en una frase.
-
-### ¿Hay falsos amigos con verbos?
-Sí, muchos: *pretend*, *realize*, *resume*, *support*, *assist*, *attend*, *record*, *introduce*.
-
-### ¿Qué hago si no recuerdo si una palabra es falso amigo?
-Prueba cada opción dentro de la frase y pregúntate si el conjunto tiene sentido. Si la opción parecida al español produce una frase rara (*She was embarrassed and the baby arrives next month*), descártala.
-
-### ¿Sirven las listas de falsos amigos de internet?
-Sirven como punto de partida, pero contrasta los significados con un buen diccionario bilingüe y quédate con los de uso cotidiano, que son los propios de un nivel ESO.
-
-### ¿Cómo me preparo con método?
-Con tests de cuatro opciones y cuaderno de fallos, como en el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil).',
-   NULL, NULL, 'publicado', '2027-01-16T06:47:00.000Z', 'acceso-guardia-civil',
-   ARRAY['inglés', 'falsos amigos', 'vocabulario', 'examen']::text[], '{"title":"Falsos amigos en inglés para el examen de la Guardia Civil","description":"Los falsos amigos en inglés más conocidos, con significado y ejemplo, los parciales y cómo evitar caer en ellos en un test de cuatro opciones."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales', 'articulo', '"Gramática inglesa para la Guardia Civil: los tiempos verbales que conviene dominar"', 'El examen de inglés son 20 preguntas de nivel ESO y los tiempos verbales están en casi todas las frases. Repasamos presente, pasado, present perfect, past perfect, futuro y condicionales, con ejemplos propios y un test de diez preguntas resuelto.', '**Respuesta corta:** la convocatoria pide inglés con un nivel compatible con la ESO, así que no necesitas gramática avanzada, sino elegir bien el tiempo verbal en frases cortas. Con seis bloques tienes la base: presente, pasado, *present perfect*, *past perfect*, futuro y condicionales.
-
-Todos los ejemplos y ejercicios de este artículo son **propios**, escritos para practicar. No son preguntas oficiales ni reproducen ningún examen. Cómo es la prueba por dentro lo tienes en [el inglés de la oposición](/blog/ingles-oposicion-guardia-civil).
-
-## Qué dice la convocatoria
-
-La [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982), base 6.1.1 d), fija un cuestionario de **20 preguntas tipo test** (más una de reserva, que solo cuenta si el Tribunal anula alguna) con un nivel «compatible con los contenidos contemplados para la Educación Secundaria Obligatoria en el Real Decreto 217/2022». Cada pregunta tiene una única respuesta válida, los errores penalizan y las preguntas en blanco no. Se califica de 0 a 20 y hay que llegar a **8**. Para ver cómo encaja en la nota total, consulta [cómo se calcula la nota](/blog/calcular-nota-examen-guardia-civil).
-
-La convocatoria no publica una lista de contenidos gramaticales. Lo que sigue es una selección razonable de lo que se trabaja en la ESO, no un temario oficial.
-
-## Mapa rápido de los tiempos
-
-| Tiempo | Forma | Uso principal | Ejemplo |
-|---|---|---|---|
-| Present simple | *work / works* | Hábitos, hechos | *She works in Madrid.* |
-| Present continuous | *am/is/are + -ing* | Ahora; planes cerrados | *They are studying now.* |
-| Past simple | *worked / went* | Acción terminada en un momento pasado | *I went to Cádiz last summer.* |
-| Past continuous | *was/were + -ing* | Acción en curso en el pasado | *I was driving when you called.* |
-| Present perfect | *have/has + participio* | Pasado conectado con el presente | *I have lost my wallet.* |
-| Past perfect | *had + participio* | Pasado anterior a otro pasado | *The train had left when we arrived.* |
-| Future (*will*) | *will + infinitivo* | Decisiones en el momento, predicciones | *I''ll open the window.* |
-| *Going to* | *am/is/are going to + infinitivo* | Planes decididos, evidencias | *Look at those clouds: it''s going to rain.* |
-
-## 1. Presente simple y presente continuo
-
-- **Presente simple**: hábitos, rutinas y hechos generales. *He gets up at seven every day.* *Water boils at 100 degrees Celsius.*
-- **Presente continuo**: lo que ocurre ahora, situaciones temporales y planes ya acordados. *Look, it is raining.* *I''m living with my parents this year.* *We are meeting the sergeant tomorrow.*
-
-**Pistas:** *every day*, *usually*, *often*, *never*, *always* → presente simple. *Now*, *at the moment*, *right now*, *Look!*, *Listen!* → continuo.
-
-**Tercera persona:** *he works*, nunca *he work*. En negativas e interrogativas, la -s pasa al auxiliar: *Does he work here?* / *He doesn''t work here*, nunca *Does he works* ni *He doesn''t works*.
-
-**Verbos de estado** (*know*, *like*, *want*, *need*, *believe*, *understand*) normalmente no van en continuo: *I know the answer*, no *I am knowing the answer*.
-
-## 2. Pasado simple y pasado continuo
-
-- **Pasado simple**: acción terminada en un momento concreto del pasado. *I visited Seville in 2019.* *He didn''t call yesterday.*
-- **Pasado continuo**: acción en curso en un momento del pasado, a menudo interrumpida por otra. *I was watching TV when the phone rang.* *At nine o''clock last night, we were having dinner.*
-
-Con negación o pregunta, el pasado lo lleva el auxiliar *did*: *Did you see him?*, nunca *Did you saw him?*
-
-### Irregulares que conviene tener muy frescos
-
-| Infinitivo | Pasado | Participio |
-|---|---|---|
-| be | was / were | been |
-| go | went | gone |
-| see | saw | seen |
-| take | took | taken |
-| write | wrote | written |
-| buy | bought | bought |
-| bring | brought | brought |
-| think | thought | thought |
-| leave | left | left |
-| catch | caught | caught |
-| choose | chose | chosen |
-| speak | spoke | spoken |
-
-## 3. *Present perfect*: el que más confunde
-
-Se forma con *have/has* + participio. Se usa cuando el pasado conecta con el presente:
-
-| Situación | Ejemplo |
-|---|---|
-| Experiencia sin fecha | *I have never been to London.* |
-| Resultado presente | *She has lost her keys* (y ahora no las tiene). |
-| Duración hasta ahora con *for/since* | *We have lived here for five years / since 2020.* |
-| Algo reciente con *just*, *already*, *yet* | *I have just finished.* *Have you finished yet?* |
-
-**Regla práctica:** si aparece un momento terminado (*yesterday*, *in 2019*, *last week*, *two days ago*), va **pasado simple**. *I saw him yesterday*, nunca *I have seen him yesterday*.
-
-**For y since:** *for* + periodo (*for three months*); *since* + punto de inicio (*since March*, *since 2021*).
-
-**Gone y been:** *She has gone to Paris* (está allí ahora); *She has been to Paris* (estuvo y volvió).
-
-## 4. *Past perfect*: el pasado del pasado
-
-*Had* + participio, para una acción anterior a otra pasada: *When I arrived at the station, the train had already left.* Si quitas *had*, cambia el sentido: *When I arrived, the train left* significa que el tren salió justo cuando llegaste.
-
-## 5. El futuro: *will*, *going to* y presente continuo
-
-- ***Will***: decisiones tomadas en el momento, ofrecimientos, promesas y predicciones. *I''ll help you with that.* *I think it will be cold tomorrow.*
-- ***Going to***: planes ya decididos e indicios presentes. *We are going to visit my aunt; we have already bought the tickets.* *Be careful! You''re going to fall.*
-- **Presente continuo**: citas y planes con hora y lugar. *I''m seeing the doctor at five.*
-
-## 6. Condicionales
-
-| Tipo | Estructura | Uso | Ejemplo |
-|---|---|---|---|
-| Cero | *If* + presente, presente | Verdades generales | *If you heat ice, it melts.* |
-| Primero | *If* + presente, *will* + infinitivo | Situación real o probable | *If it rains, we will stay at home.* |
-| Segundo | *If* + pasado, *would* + infinitivo | Situación hipotética | *If I had more time, I would study more.* |
-| Tercero | *If* + *past perfect*, *would have* + participio | Pasado que no ocurrió | *If you had called me, I would have helped you.* |
-
-**Errores típicos:** poner *will* detrás de *if* en el primer condicional (*If it will rain* es incorrecto en este tipo de frase) y poner *would* en las dos partes del segundo (*If I would have money* es incorrecto). En el segundo condicional, con *I*, es habitual *If I were you, I would…*.
-
-## Ejemplo resuelto paso a paso
-
-*By the time the police arrived, the thief ___.* (a) escapes (b) has escaped (c) had escaped (d) will escape
-
-1. *Arrived* está en pasado: la frase transcurre en el pasado.
-2. *By the time* indica que una acción ya había terminado antes de la otra.
-3. Acción anterior a otra pasada → *past perfect*.
-
-**Respuesta: (c) *had escaped*.** La (b) sería correcta si el marco fuera presente; la (a) y la (d) no encajan con *arrived*.
-
-## Cómo practicarlo
-
-1. **Diez frases con huecos al día**, corregidas en el momento.
-2. **Cuaderno de fallos**: cada error con la regla que lo explica. Verás que se repiten pocas estructuras.
-3. **Tests de cuatro opciones** cuanto antes, porque es el formato del examen.
-4. **Lee la frase entera** antes de mirar las opciones: las pistas (*yesterday*, *since*, *by the time*) suelen estar al final.
-
-## Test propio de diez preguntas (con soluciones)
-
-1. She ___ to work by bus every day. (a) go (b) goes (c) going (d) gone
-2. I ___ never ___ to Rome. (a) have / been (b) did / be (c) am / being (d) was / been
-3. If it ___ tomorrow, we will cancel the trip. (a) will rain (b) rained (c) rains (d) would rain
-4. When I arrived, they ___ dinner. (a) have (b) were having (c) are having (d) has
-5. If I were you, I ___ that offer. (a) will accept (b) would accept (c) accept (d) accepted
-6. We ___ in this town since 2018. (a) live (b) lived (c) have lived (d) are living
-7. I ___ my keys yesterday. (a) have lost (b) lost (c) had lost (d) lose
-8. Look at the sky! It ___ rain. (a) is going to (b) will to (c) goes to (d) is raining to
-9. ___ your brother speak French? (a) Do (b) Does (c) Is (d) Has
-10. If you had studied more, you ___ the exam. (a) will pass (b) would pass (c) would have passed (d) passed
-
-**Soluciones:** 1-b (hábito, tercera persona), 2-a (experiencia sin fecha), 3-c (primer condicional: presente tras *if*), 4-b (acción en curso interrumpida), 5-b (segundo condicional), 6-c (duración con *since*), 7-b (momento terminado: *yesterday*), 8-a (indicio presente), 9-b (auxiliar de tercera persona), 10-c (tercer condicional).
-
-## Errores frecuentes
-
-- **Present perfect con fecha terminada.** *I have seen him last week* es incorrecto: *I saw him last week*.
-- **Doble marca de pasado.** *Did you went?* es incorrecto: *Did you go?*
-- **Olvidar la -s de tercera persona** en afirmativa, o ponerla también en el verbo con *does*.
-- ***Will* detrás de *if*** en el primer condicional.
-- **Continuo con verbos de estado.** *I am wanting* es incorrecto: *I want*.
-
-## Preguntas frecuentes
-
-### ¿Hace falta saber todos los tiempos verbales?
-No hay un temario oficial de gramática inglesa; la convocatoria solo habla de un nivel compatible con la ESO. Estos bloques son una base razonable, no una lista oficial.
-
-### ¿Entra la voz pasiva o el estilo indirecto?
-La convocatoria no detalla contenidos. Son estructuras que se trabajan en la ESO, así que conviene conocerlas una vez dominados los tiempos verbales.
-
-### ¿Qué hago si dudo entre dos opciones?
-Descarta primero las que sean claramente incorrectas. Si te quedan dos, arriesgar suele compensar, porque el error solo resta un tercio de acierto. Lo explicaremos con números en un artículo posterior.
-
-### ¿Cuántos verbos irregulares tengo que saber?
-No hay cifra oficial. Empieza por los más frecuentes y añade los que te encuentres en tus tests.
-
-### ¿Cuánto tiempo al día debería dedicarle?
-Mejor poco y a diario que mucho de golpe. Diez o quince minutos diarios de práctica con corrección rinden más que una sesión larga a la semana.
-
-### ¿Dónde practico con tests de cuatro opciones?
-En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) el inglés se entrena con tests en el mismo formato del examen. Si dudas entre formatos de preparación, mira [academia, online o por libre](/blog/academia-online-o-por-libre-como-preparar-la-guardia-civil).',
-   NULL, NULL, 'publicado', '2027-01-13T06:56:00.000Z', 'acceso-guardia-civil',
-   ARRAY['inglés', 'gramática', 'tiempos verbales', 'examen']::text[], '{"title":"Gramática inglesa Guardia Civil: tiempos verbales","description":"Tiempos verbales en inglés para el examen de la Guardia Civil: presente, pasado, present perfect, futuro y condicionales, con test resuelto."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('ingles-como-llegar-a-los-8-puntos-minimos-sin-ser-bilingue', 'articulo', '"Inglés: cómo llegar a los 8 puntos mínimos sin ser bilingüe"', 'El inglés vale 20 de los 195 puntos de la oposición, pero quedar por debajo de 8 excluye. Cómo se calcula la nota con la penalización de un tercio, qué combinaciones llegan al mínimo, cuándo compensa arriesgar y cuándo no.', '**Respuesta corta:** necesitas 8 puntos sobre 20; cada acierto suma un punto y cada error resta un tercio. Con 8 aciertos y ningún error ya llegas; con más aciertos puedes permitirte algunos errores. No necesitas ser bilingüe: necesitas asegurar las preguntas que sabes y gestionar bien las dudosas.
-
-## Lo que dice la convocatoria
-
-Según la [convocatoria de 2026 (BOE-A-2026-9982)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982):
-
-- **20 preguntas tipo test** con cuatro opciones, más una de reserva que solo se valora si el Tribunal anula alguna (base 6.1.1 d).
-- **Nivel compatible con la ESO** (Real Decreto 217/2022).
-- **Las respuestas incorrectas penalizan; las no contestadas, no.**
-- Se valora **de 0 a 20 puntos** y hay que alcanzar un **mínimo de 8** para no quedar excluido.
-
-La fórmula de la base 7.3 es *Puntuación = Y × (A − E/(N−1)) / T*. Para el inglés, Y = 20 (puntuación máxima), T = 20 (preguntas) y N = 4 (opciones). Sustituyendo: 20 × (A − E/3) / 20, es decir:
-
-**Nota de inglés = aciertos − errores / 3**
-
-## ¿Cuánto vale dentro del total?
-
-La puntuación final máxima es de 195 puntos: 45 de la fase de concurso y 150 de la oposición (100 de conocimientos generales, 20 de inglés y 30 de la psicotécnica). El inglés pesa algo más de un 10 % del total, pero es **eliminatorio**: bajar de 8 te deja fuera aunque el resto vaya perfecto.
-
-Y tiene un segundo papel: según la base 7.10, en caso de empate en la puntuación final se mira primero la nota de conocimientos y, si sigue el empate, **la de inglés**. Tienes la visión global en [cómo se calcula la nota](/blog/calcular-nota-examen-guardia-civil).
-
-## Combinaciones que dan exactamente 8
-
-| Aciertos | Errores | En blanco | Nota |
-| --- | --- | --- | --- |
-| 8 | 0 | 12 | 8,00 |
-| 9 | 3 | 8 | 8,00 |
-| 10 | 6 | 4 | 8,00 |
-| 11 | 9 | 0 | 8,00 |
-
-Con más aciertos o menos errores que en cada fila, superas el mínimo. Por ejemplo, 12 aciertos y 8 errores dan 12 − 8/3 = **9,33**.
-
-Dos lecturas prácticas:
-
-- **Si contestas las 20, necesitas al menos 11 aciertos.** Con 10 aciertos y 10 errores sacas 10 − 3,33 = 6,67.
-- **Cada tres errores te «roban» un acierto.** Por eso, más que contestar mucho, importa contestar bien.
-
-### Si contestas las 20 preguntas
-
-Cuando no dejas ninguna en blanco, la nota solo depende de los aciertos: nota = (4 × aciertos − 20) / 3.
-
-| Aciertos | Errores | Nota |
-| --- | --- | --- |
-| 10 | 10 | 6,67 |
-| 11 | 9 | 8,00 |
-| 12 | 8 | 9,33 |
-| 13 | 7 | 10,67 |
-| 14 | 6 | 12,00 |
-| 15 | 5 | 13,33 |
-| 16 | 4 | 14,67 |
-
-Cada acierto que conviertes en error te cuesta 1,33 puntos: el punto que dejas de ganar y el tercio que te restan.
-
-## ¿Compensa arriesgar?
-
-Con cuatro opciones y una penalización de un tercio, **contestar al azar no gana ni pierde nada de media**. La ganancia esperada de cada pregunta depende de cuántas opciones puedas descartar:
-
-| Opciones que descartas | Probabilidad de acertar | Ganancia esperada |
-| --- | --- | --- |
-| Ninguna (al azar) | 1/4 | 0 |
-| Una | 1/3 | +0,11 |
-| Dos | 1/2 | +0,33 |
-
-De media, si descartas **al menos una** opción, contestar sale a cuenta. Pero la media no lo es todo: cuando estás cerca del 8, lo que importa es el riesgo de bajar de esa cifra. Dos ejemplos lo muestran.
-
-### Ejemplo resuelto 1: 8 seguras y 12 al azar
-
-Marina está segura de 8 respuestas (y acierta las 8). Del resto no tiene ni idea.
-
-- **Si deja las 12 en blanco:** nota = 8. Aprueba justo.
-- **Si las contesta al azar:** cada una tiene 1/4 de probabilidad de acierto. Bajaría de 8 si acierta 2 o menos de esas 12, lo que, con esa probabilidad, ocurre aproximadamente **4 de cada 10 veces**.
-
-Aunque de media no pierde nada, se juega la exclusión en casi un 40 % de los casos. **Conclusión: con la nota justa, no contestes al azar.**
-
-### Ejemplo resuelto 2: 9 seguras y 4 dudas entre dos
-
-Iván está seguro de 9 y en otras 4 ha descartado dos opciones; le quedan dos posibles en cada una.
-
-- **Si deja las 4 en blanco:** nota = 9.
-- **Si las contesta:** cada una tiene 1/2 de probabilidad. Solo bajaría de 8 si fallara las 4 (9 − 4/3 = 7,67), algo que ocurre en 1 de cada 16 casos, alrededor de un 6 %. De media, gana 4 × 0,33 = 1,33 puntos.
-
-Aquí arriesgar tiene más sentido, pero no es gratis. La decisión depende de cuánto margen tengas sobre el 8.
-
-### Una regla práctica
-
-1. Cuenta primero cuántas respuestas tienes **seguras**.
-2. Si con ellas pasas de 8 con margen, contesta las dudas en las que hayas descartado una o dos opciones.
-3. Si estás justo en 8 o por debajo, contesta solo las dudas en las que hayas descartado **dos** opciones, y deja en blanco las que serían al azar.
-
-Es una estrategia razonable, no una garantía. Lo importante es que la decidas antes del examen y la ensayes en simulacros.
-
-## Cómo gestionar las 20 preguntas el día del examen
-
-Un método en tres pasadas, para entrenarlo en simulacros:
-
-1. **Primera pasada:** contesta solo las que sabes sin dudar. Deja las dudosas para después (si las instrucciones del Tribunal permiten anotar en el cuadernillo, márcalas; si no, bastará con una segunda lectura completa).
-2. **Segunda pasada:** vuelve a las dudosas y descarta opciones, fijándote en cuántas has podido eliminar en cada una.
-3. **Recuento y decisión:** cuenta tus seguras y aplica la regla práctica del apartado anterior para decidir qué dudas contestas.
-
-Antes de entregar, comprueba que has marcado las respuestas donde y como indiquen las instrucciones del Tribunal y que no has señalado dos opciones en la misma pregunta.
-
-## Caso práctico (hipotético): la misma persona, dos estrategias
-
-Elena hace un simulacro y obtiene 10 seguras correctas, 3 dudas con dos opciones descartadas y 7 preguntas en las que no sabe nada.
-
-- **Estrategia A, contestar todo:** de media, las 3 dudas le dan +1 y las 7 al azar, 0. Pero si las 7 al azar salen mal y fallan además 2 dudas, su nota sería 10 + 1 − 9/3 = 8. Va por el filo.
-- **Estrategia B, contestar seguras y dudas:** deja en blanco las 7 sin pista. En el peor caso, falla las 3 dudas: 10 − 1 = 9. En el mejor, acierta las 3: 13.
-
-La B no maximiza la media de forma apreciable respecto a la A, pero protege mucho mejor el mínimo. Esa es la lógica que conviene aplicar cuando el inglés es tu punto débil.
-
-## Un plan para llegar a 8 con margen
-
-1. **Mide el punto de partida** con un test de 20 preguntas cronometrado, aplicando la penalización.
-2. **Asegura las preguntas de base**: tiempos verbales, vocabulario cotidiano y estructuras básicas. Los repasos están en [los tiempos verbales](/blog/gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales), [vocabulario y phrasal verbs](/blog/vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles) y [falsos amigos](/blog/falsos-amigos-en-ingles-los-errores-tipicos-del-opositor).
-3. **Aprende a descartar**: ante una duda, elimina primero lo que sabes que es incorrecto.
-4. **Simulacros completos**, con el inglés dentro de los 140 minutos, para que el cansancio no te pille por sorpresa.
-5. **Cuaderno de fallos** y repaso semanal.
-
-Si partes de un nivel muy bajo, el plan por fases está en [cómo aprobar el inglés desde cero](/blog/como-aprobar-el-ingles-de-la-guardia-civil-partiendo-de-cero).
-
-## Ejercicio: calcula tu nota
-
-Calcula la nota de estos tres aspirantes hipotéticos y di si superan el mínimo.
-
-1. 10 aciertos, 3 errores, 7 en blanco.
-2. 13 aciertos, 7 errores, 0 en blanco.
-3. 9 aciertos, 6 errores, 5 en blanco.
-
-**Soluciones:** 1) 10 − 1 = **9**, supera. 2) 13 − 2,33 = **10,67**, supera. 3) 9 − 2 = **7**, no llega: queda excluido aunque haya acertado más de 8.
-
-## Errores frecuentes
-
-- **Creer que basta con 8 aciertos** cuando también has fallado varias.
-- **Contestar todo «por si acaso»** cuando estás justo en el mínimo.
-- **Dejar en blanco dudas en las que has descartado dos opciones**, teniendo margen.
-- **No calcular la nota con penalización** en los entrenamientos y llevarte la sorpresa el día del examen.
-- **No ensayar en condiciones reales**, con el resto de la prueba antes.
-
-## Preguntas frecuentes
-
-### ¿Cuántas preguntas tengo que acertar como mínimo?
-Sin ningún error, 8. Con errores, más: cada tres errores restan un acierto. Si contestas las 20, necesitas 11 aciertos.
-
-### ¿Cuenta la pregunta de reserva?
-Solo si el Tribunal anula alguna de las veinte. Si no, no se valora.
-
-### ¿Es mejor dejar en blanco?
-En blanco no resta. Al azar, de media, ni ganas ni pierdes, pero aumentas el riesgo de bajar del mínimo. Cuando descartas opciones, arriesgar suele compensar si tienes margen.
-
-### ¿El inglés cuenta para la nota final?
-Sí, hasta 20 puntos dentro de la fase de oposición, y además es el segundo criterio de desempate.
-
-### ¿Qué pasa si saco 7,67?
-No alcanzas el mínimo de 8 y quedas excluido del proceso.
-
-### ¿Puedo compensar un mal inglés con una buena nota en conocimientos?
-No. El mínimo de 8 es independiente: aunque saques una nota excelente en conocimientos generales, por debajo de 8 en inglés quedas excluido. Solo por encima del mínimo los puntos se suman al total.
-
-### ¿Cuánto tiempo debo dedicar al inglés dentro de los 140 minutos?
-La convocatoria no fija tiempos por parte. Reserva un margen que te permita leer cada frase con calma y hacer la segunda pasada, y ajústalo en tus simulacros.
-
-### ¿Dónde practico con penalización real?
-En el [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil) entrenas el inglés con tests y simulacros corregidos con la misma fórmula.',
+### ¿Se puede estudiar solo con teoría?
+Mejor no: dos mapas y un lápiz valen más que una semana de resúmenes.',
    NULL, NULL, 'publicado', '2027-01-17T06:04:00.000Z', 'acceso-guardia-civil',
-   ARRAY['inglés', 'nota mínima', 'penalización', 'examen']::text[], '{"title":"Inglés Guardia Civil: cómo llegar a los 8 puntos mínimos","description":"Cómo se puntúa el inglés de la Guardia Civil: 20 preguntas, el error resta un tercio y el mínimo es 8. Combinaciones, cuándo arriesgar y ejemplos."}'::jsonb, '{}'::jsonb)
-on conflict (slug) do update set
-  tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
-  cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,
-  estado = excluded.estado, publicado_en = excluded.publicado_en, curso = excluded.curso,
-  etiquetas = excluded.etiquetas, seo = excluded.seo, datos = excluded.datos;
-
-insert into public.blog_posts
-  (slug, tipo, titulo, entradilla, cuerpo, portada_url, portada_alt, estado, publicado_en, curso, etiquetas, seo, datos)
-values
-  ('vocabulario-y-phrasal-verbs-frecuentes-en-el-examen-de-ingles', 'articulo', '"Vocabulario y phrasal verbs útiles para el examen de inglés"', 'Con 20 preguntas de nivel ESO no hace falta un vocabulario enorme, sino el cotidiano bien asentado. Phrasal verbs comunes, verbos con preposición, pares que se confunden, un método para memorizar y un test resuelto.', '**Respuesta corta:** la prueba es de nivel compatible con la ESO, así que lo rentable es dominar el vocabulario de uso diario, los *phrasal verbs* más comunes y las preposiciones que acompañan a verbos y adjetivos, no listas de palabras raras. Memoriza en contexto, con frases, y repasa a menudo.
-
-Todos los ejemplos y ejercicios son **propios**, escritos para practicar. No son preguntas oficiales ni sabemos qué palabras saldrán: nadie lo sabe. Si aún no tienes la base gramatical, empieza por [los tiempos verbales](/blog/gramatica-inglesa-para-la-guardia-civil-los-tiempos-verbales).
-
-## Qué vocabulario merece tu tiempo
-
-La convocatoria no publica una lista de palabras. Lo único oficial es el nivel (ESO, según el Real Decreto 217/2022) y el formato: 20 preguntas tipo test de cuatro opciones con una sola respuesta válida, según la base 6.1.1 d) del [BOE-A-2026-9982](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9982). Con eso, la apuesta segura es:
-
-- **Vida diaria**: familia, casa, trabajo, estudios, ocio, compras, viajes, salud, tiempo atmosférico.
-- **Verbos frecuentes** y sus preposiciones.
-- **Cuantificadores** (*much*, *many*, *few*, *little*, *some*, *any*).
-- **Conectores** (*although*, *however*, *because*, *so*, *unless*, *while*).
-
-Más contexto sobre la prueba en [el inglés de la oposición](/blog/ingles-oposicion-guardia-civil).
-
-## Phrasal verbs de uso común
-
-Un *phrasal verb* es un verbo + una partícula (preposición o adverbio) que cambia el significado. *Look* es «mirar», pero *look for* es «buscar» y *look after*, «cuidar».
-
-### En casa y en el día a día
-
-| Phrasal verb | Significado | Ejemplo |
-| --- | --- | --- |
-| get up | levantarse | *I get up at seven.* |
-| wake up | despertarse | *She woke up late.* |
-| turn on / turn off | encender / apagar | *Turn off the light, please.* |
-| put on / take off | ponerse / quitarse (ropa) | *Put on your coat; it''s cold.* |
-| look for | buscar | *I''m looking for my keys.* |
-| look after | cuidar | *She looks after her grandmother.* |
-| throw away | tirar a la basura | *Don''t throw away that box.* |
-| pick up | recoger | *I''ll pick you up at eight.* |
-
-### Planes, problemas y trabajo
-
-| Phrasal verb | Significado | Ejemplo |
-| --- | --- | --- |
-| give up | rendirse; dejar (un hábito) | *He gave up smoking last year.* |
-| find out | descubrir, averiguar | *I found out the truth yesterday.* |
-| put off | aplazar | *They put off the meeting until Monday.* |
-| call off | cancelar | *The match was called off because of the rain.* |
-| carry on | continuar | *Carry on reading, please.* |
-| run out of | quedarse sin | *We ran out of milk.* |
-| fill in | rellenar (un impreso) | *Please fill in this form.* |
-| break down | averiarse | *Our car broke down on the motorway.* |
-| set off | salir (de viaje) | *We set off early in the morning.* |
-| come across | encontrar por casualidad | *I came across an old photo.* |
-| work out | resolver; hacer ejercicio | *I can''t work out this problem.* |
-| look forward to | tener ganas de | *I''m looking forward to seeing you.* |
-| get on with | llevarse bien con | *I get on well with my colleagues.* |
-| take off | despegar | *The plane takes off at nine.* |
-
-Dos detalles que suelen caer en tests de nivel básico:
-
-- ***Look forward to* va seguido de -ing**: *I''m looking forward to meeting you*, no *to meet you*. El *to* es preposición.
-- **Los separables admiten el objeto en medio**: *turn the light off* o *turn off the light*. Si el objeto es un pronombre, va en medio obligatoriamente: *turn it off*, no *turn off it*.
-
-## Verbos y adjetivos con su preposición
-
-Es vocabulario «invisible» porque en español la preposición cambia:
-
-| Inglés | Español | Ejemplo |
-| --- | --- | --- |
-| depend on | depender de | *It depends on the weather.* |
-| listen to | escuchar | *Listen to me.* |
-| wait for | esperar a | *I''m waiting for the bus.* |
-| arrive in / at | llegar a | *We arrived in Madrid / at the station.* |
-| be interested in | estar interesado en | *She is interested in history.* |
-| be good at | ser bueno en | *He is good at maths.* |
-| be afraid of | tener miedo de | *I''m afraid of dogs.* |
-| be married to | estar casado con | *She is married to a teacher.* |
-| be responsible for | ser responsable de | *Who is responsible for this?* |
-
-Truco para *arrive*: *in* con ciudades y países; *at* con lugares concretos (estación, aeropuerto, oficina). Y nunca *arrive to*.
-
-## Pares de palabras que se confunden
-
-- ***Make* y *do***: *make a mistake*, *make a decision*, *make a phone call*; *do homework*, *do the shopping*, *do exercise*.
-- ***Say* y *tell***: *say hello*, *say something to someone*; *tell me the truth* (*tell* lleva destinatario).
-- ***Borrow* y *lend***: *Can I borrow your pen?* (tomar prestado); *Can you lend me your pen?* (prestar).
-- ***Bring* y *take***: *bring* hacia donde está quien habla; *take*, hacia otro sitio.
-- ***Hear* y *listen***: *I hear a noise*; *I listen to the radio*.
-- ***Look*, *see* y *watch***: *look at a picture*, *see a car*, *watch a film*.
-- ***Much* y *many***: *much water*, *many people*.
-- ***Few* y *a few***, ***little* y *a little***: *I have few friends* (casi ninguno); *I have a few friends* (algunos). *There is little time* (casi nada); *There is a little time* (un poco).
-- ***Win* y *earn***: *win a match*, *earn money* (con el trabajo).
-
-## Vocabulario cotidiano por temas
-
-Una lista de arranque, no exhaustiva, para comprobar que tienes la base. Si dudas con alguna palabra, apúntala con una frase:
-
-| Tema | Palabras |
-| --- | --- |
-| Familia | *aunt, uncle, cousin, nephew, niece, grandson, father-in-law, husband, wife* |
-| Casa | *bedroom, kitchen, ceiling, floor, stairs, roof, fridge, sink, neighbour* |
-| Trabajo | *job, salary, boss, colleague, shift, retire, hire, apply for, unemployed* |
-| Viajes | *luggage, ticket, platform, flight, delay, departure, arrival, abroad* |
-| Salud | *headache, fever, injury, pill, prescription, wound, ambulance, recover* |
-| Tiempo | *weather, cloudy, foggy, windy, storm, heat, freezing, forecast* |
-| Ciudad | *street, square, crossroads, traffic lights, pavement, bridge, town hall* |
-| Compras | *price, cheap, expensive, receipt, change, discount, size, try on* |
-
-Dos detalles: *luggage* y *information* son incontables (*some luggage*, *a piece of information*, nunca *two luggages* ni *an information*), y *advice* también lo es (*some advice*, no *an advice*).
-
-### Conectores básicos
-
-| Conector | Uso | Ejemplo |
-| --- | --- | --- |
-| *although* | aunque | *Although it was late, we went out.* |
-| *however* | sin embargo | *It was late. However, we went out.* |
-| *because* | porque | *I stayed at home because I was ill.* |
-| *so* | así que | *I was ill, so I stayed at home.* |
-| *unless* | a menos que | *You won''t pass unless you study.* |
-| *while* | mientras | *He called while I was cooking.* |
-
-## Ejemplo resuelto paso a paso
-
-*I''m really looking forward ___ you next week.* (a) to see (b) to seeing (c) seeing (d) see
-
-1. Reconoce el *phrasal verb*: *look forward to*.
-2. El *to* forma parte de él y es preposición, no infinitivo.
-3. Detrás de una preposición, el verbo va en -ing.
-
-**Respuesta: (b) *to seeing*.** La (a) es el error más habitual; la (c) y la (d) olvidan el *to*.
-
-## Método para memorizar sin agobiarte
-
-1. **Frases, no palabras sueltas.** Anota cada *phrasal verb* con una frase tuya.
-2. **Diez minutos al día**, mejor que una hora el domingo.
-3. **Repaso espaciado**: vuelve a lo aprendido a los dos días, a la semana y al mes. Lo explicamos aplicado al temario en [cómo memorizar leyes con repaso espaciado](/blog/como-memorizar-leyes-repaso-espaciado-aplicado-al-temario), y funciona igual con el vocabulario.
-4. **Agrupa por temas** (casa, viajes, trabajo) o por verbo base (*look for*, *look after*, *look forward to*).
-5. **Cuaderno de fallos.** Cada error de un test se convierte en una ficha con su frase correcta.
-
-## Test propio de diez preguntas (con soluciones)
-
-1. We ___ of coffee, so I went to the shop. (a) ran out (b) gave up (c) put off (d) looked after
-2. Could you ___ this form, please? (a) fill in (b) carry on (c) break down (d) turn off
-3. I don''t have much time: I have only ___ minutes. (a) a little (b) a few (c) much (d) a lot
-4. Can I ___ your dictionary for a day? (a) lend (b) borrow (c) say (d) tell
-5. The concert was ___ because of the storm. (a) called off (b) found out (c) taken off (d) come across
-6. It''s cold outside. ___ your jacket. (a) Put on (b) Take off (c) Turn on (d) Give up
-7. She is very good ___ languages. (a) in (b) on (c) at (d) for
-8. We arrived ___ the airport at six. (a) to (b) at (c) in (d) on
-9. I always ___ a lot of mistakes when I''m tired. (a) do (b) make (c) take (d) get
-10. My grandparents ___ me when my parents are at work. (a) look for (b) look after (c) look at (d) look forward to
-
-**Soluciones:** 1-a, 2-a, 3-b (*minutes* es contable), 4-b, 5-a, 6-a, 7-c, 8-b (lugar concreto), 9-b (*make a mistake*), 10-b.
-
-## Errores frecuentes
-
-- ***Arrive to***: siempre *arrive in* o *arrive at*.
-- ***Do a mistake***: es *make a mistake*.
-- ***Explain me***: es *explain to me* o *explain it to me*.
-- ***Depend of***: es *depend on*.
-- ***Turn off it***: con pronombre, *turn it off*.
-- **Aprender listas de cien palabras sin frases**: se olvidan en días.
-
-## Preguntas frecuentes
-
-### ¿Cuántos phrasal verbs tengo que saber?
-No hay cifra oficial. Unas decenas de los más comunes, bien asentados, rinden más que una lista enorme a medias.
-
-### ¿Los falsos amigos cuentan como vocabulario?
-Sí, y son una fuente clásica de errores. Les dedicaremos un artículo propio más adelante.
-
-### ¿Tengo que aprender vocabulario policial o jurídico?
-La convocatoria habla de nivel ESO, sin vocabulario específico. Prioriza el cotidiano.
-
-### ¿Sirve ver series en inglés?
-Ayuda a familiarizarte con el idioma, sobre todo con subtítulos en inglés, pero no sustituye a la práctica con tests de cuatro opciones.
-
-### ¿Cuál es la mejor manera de practicar?
-Tests de cuatro opciones con corrección inmediata, como los del [curso de acceso a la Guardia Civil](/cursos/acceso-guardia-civil), y un cuaderno donde apuntar lo que falles.',
-   NULL, NULL, 'publicado', '2027-01-14T06:13:00.000Z', 'acceso-guardia-civil',
-   ARRAY['inglés', 'vocabulario', 'phrasal verbs', 'examen']::text[], '{"title":"Phrasal verbs y vocabulario: inglés de la Guardia Civil","description":"Phrasal verbs, preposiciones y vocabulario cotidiano para el inglés de la Guardia Civil: tablas con ejemplos, pares que se confunden y test resuelto."}'::jsonb, '{}'::jsonb)
+   ARRAY['topografía', 'temario', 'escalas', 'curvas de nivel']::text[], '{"title":"Topografía Guardia Civil: escalas, curvas y pendientes","description":"Tema 18 de Guardia Civil: escalas, unidades angulares, curvas de nivel, pendientes y acimut, con ejemplos resueltos, preguntas oficiales y mini test."}'::jsonb, '{}'::jsonb)
 on conflict (slug) do update set
   tipo = excluded.tipo, titulo = excluded.titulo, entradilla = excluded.entradilla,
   cuerpo = excluded.cuerpo, portada_url = excluded.portada_url, portada_alt = excluded.portada_alt,

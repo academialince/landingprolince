@@ -3,7 +3,7 @@ titulo: Razonamiento verbal en el psicotécnico: sinónimos, antónimos y analog
 slug: razonamiento-verbal-psicotecnico-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-26T07:20:00+01:00
+publicado_en: 2026-11-24T07:46:00+01:00
 curso: acceso-guardia-civil
 entradilla: Sinónimos, antónimos, analogías y palabras intrusas son formatos verbales muy comunes en las baterías de aptitudes. Cómo se resuelve cada uno, con ejemplos y ejercicios corregidos, y cómo ampliar vocabulario sin pasarte la vida con el diccionario.
 etiquetas: [psicotécnico, razonamiento verbal, analogías, vocabulario]

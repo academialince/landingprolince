@@ -3,7 +3,7 @@ titulo: Examen del Colegio de Guardias Jóvenes: qué pruebas tiene y cómo prep
 slug: examen-del-colegio-de-guardias-jovenes-estructura-y-temas
 tipo: articulo
 estado: publicado
-publicado_en: 2027-02-09T07:35:00+01:00
+publicado_en: 2027-02-17T07:51:00+01:00
 curso: colegio-guardias-jovenes
 entradilla: Conocimientos, lengua española, inglés y aptitudes intelectuales: son las pruebas escritas que cita la web oficial para el ingreso en el Colegio de Guardias Jóvenes. Qué está confirmado, dónde se publica la oferta y cómo prepararlo.
 etiquetas: [colegio de guardias jóvenes, examen, temario, preparación]

@@ -3,7 +3,7 @@ titulo: Circuito de agilidad y coordinación de la Guardia Civil: técnica paso 
 slug: circuito-agilidad-coordinacion-guardia-civil
 tipo: articulo
 estado: publicado
-publicado_en: 2026-11-19T07:21:00+01:00
+publicado_en: 2026-11-17T07:47:00+01:00
 curso: acceso-guardia-civil
 entradilla: Un recorrido con vallas y banderines que se hace contra el reloj. Las marcas oficiales, cuándo se para el cronómetro, qué anula un intento, cuántos intentos tienes y cómo entrenarlo aunque no tengas el circuito montado.
 etiquetas: [pruebas físicas, circuito de agilidad, coordinación, entrenamiento]
