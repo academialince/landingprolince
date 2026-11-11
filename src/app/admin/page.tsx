@@ -23,7 +23,18 @@ const fechaHora = new Intl.DateTimeFormat("es-ES", {
 });
 
 async function cargar() {
-  return { entradas: await listarTodas(), ahora: Date.now() };
+  const ahora = Date.now();
+  const todas = await listarTodas();
+  const t = (d: string | null) => (d ? new Date(d).getTime() : 0);
+  const programada = (e: (typeof todas)[number]) => e.estado === "publicado" && t(e.publicado_en) > ahora;
+  // Arriba las programadas, la más próxima primero; después el resto, de la más reciente a la más antigua.
+  const entradas = [...todas].sort((a, b) => {
+    const pa = programada(a);
+    const pb = programada(b);
+    if (pa !== pb) return pa ? -1 : 1;
+    return pa ? t(a.publicado_en) - t(b.publicado_en) : t(b.publicado_en) - t(a.publicado_en);
+  });
+  return { entradas, ahora };
 }
 
 export default async function PanelEntradas() {
