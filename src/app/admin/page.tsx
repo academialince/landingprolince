@@ -87,7 +87,12 @@ export default async function PanelEntradas() {
               {entradas.map((e) => {
                 const estado = estadoVisible(e.estado, e.publicado_en, ahora);
                 return (
-                <tr key={e.id} className="border-b border-border last:border-0 hover:bg-surface-subtle">
+                <tr
+                  key={e.id}
+                  className={`border-b border-border last:border-0 ${
+                    e.portada_url ? "hover:bg-surface-subtle" : "bg-danger/15 hover:bg-danger/20"
+                  }`}
+                >
                   <th scope="row" className="px-5 py-3.5 font-medium">
                     <Link href={`/admin/entradas/${e.id}`} className="font-bold hover:underline">
                       {e.titulo}
@@ -95,6 +100,7 @@ export default async function PanelEntradas() {
                     <span className="block text-body-sm font-normal text-muted-foreground">
                       /{e.slug}
                     </span>
+                    {!e.portada_url && <span className="mt-1 block text-body-sm font-semibold text-danger">Sin imagen</span>}
                   </th>
                   <td className="px-5 py-3.5 text-body-sm">{tipoPorClave(e.tipo).etiqueta}</td>
                   <td className="px-5 py-3.5">
