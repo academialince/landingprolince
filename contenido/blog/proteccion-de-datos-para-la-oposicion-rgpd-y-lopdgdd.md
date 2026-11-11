@@ -10,6 +10,8 @@ etiquetas: [protección de datos, RGPD, LOPDGDD, derechos, temario]
 seo_title: Protección de datos en la oposición: RGPD y LO 3/2018
 seo_description: Tema de protección de datos: RGPD y LO 3/2018, principios, derechos, menores, videovigilancia, delegado, brechas, AEPD y títulos del programa.
 datos: {}
+portada: /blog/proteccion-de-datos-para-la-oposicion-rgpd-y-lopdgdd.jpg
+portada_alt: Aspirante con un portátil junto a un candado cerrado, un móvil y un archivador
 ---
 La protección de datos personales se regula en dos niveles. **Respuesta corta:** el Reglamento (UE) 2016/679 (RGPD) es **directamente aplicable** en toda la Unión desde el **25 de mayo de 2018**, y la Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD), lo **adapta y completa** en España. El programa de la oposición recoge de la ley orgánica los **Títulos I a VIII**, pero no se entiende sin el RGPD, al que la ley remite constantemente.
 

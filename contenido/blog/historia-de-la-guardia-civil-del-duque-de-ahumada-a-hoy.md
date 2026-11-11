@@ -10,6 +10,8 @@ etiquetas: [historia, duque de ahumada, temario, cronología]
 seo_title: Historia de la Guardia Civil: fundación y fechas clave
 seo_description: Historia de la Guardia Civil por etapas: decretos de 1844, Duque de Ahumada, Cartilla de 1845, siglo XX y democracia, con fechas oficiales y test.
 datos: {}
+portada: /blog/historia-de-la-guardia-civil-del-duque-de-ahumada-a-hoy.jpg
+portada_alt: Vitrina de museo con un tricornio antiguo y un libro viejo, y detrás un guardia civil de gala observándola
 ---
 El programa oficial incluye en el tema 15 la «Historia de la Guardia Civil» desde los inicios del siglo XIX hasta la democracia, en dos bloques: fundación, consolidación, Sexenio Revolucionario y Restauración; y reinado de Alfonso XIII, Segunda República, Guerra Civil, franquismo, Transición y democracia (consulta el [temario](/temario-guardia-civil)).
 

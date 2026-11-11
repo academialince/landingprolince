@@ -10,6 +10,8 @@ etiquetas: [detención, habeas corpus, LECrim, artículo 17, derecho procesal]
 seo_title: Detención y habeas corpus: plazos y derechos (art. 520)
 seo_description: Plazos de la detención (72 h del art. 17.2 CE, 24 h del art. 496 LECrim), derechos del detenido del art. 520 y habeas corpus de la LO 6/1984, con test.
 datos: {}
+portada: /blog/detencion-y-habeas-corpus-los-plazos-que-caen-siempre.jpg
+portada_alt: Dos guardias civiles en un despacho entregan un documento a una persona sentada frente a ellos
 ---
 La detención es uno de los bloques más prácticos del temario jurídico. **Respuesta corta:** la detención preventiva no puede durar más del **tiempo estrictamente necesario** para las averiguaciones y, **en todo caso**, en un máximo de **72 horas** el detenido debe quedar en libertad o a disposición judicial (art. 17.2 de la Constitución y art. 520.1 de la LECrim). La LECrim conserva además las **24 horas** de su artículo 496 para entregar al detenido al juez más próximo. Y el *habeas corpus* es el procedimiento para que un juez compruebe de inmediato si una detención es legal: debe resolverse en **24 horas** desde el auto de incoación.
 

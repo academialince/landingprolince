@@ -10,6 +10,8 @@ etiquetas: [organización, navidad, planificación, constancia]
 seo_title: Estudiar la oposición en Navidad: plan realista
 seo_description: Estudiar la oposición de Guardia Civil en Navidad: mínimo diario, tipos de día, plan de dos semanas, test y descanso para llegar a enero con ritmo.
 datos: {}
+portada: /blog/como-estudiar-la-oposicion-en-navidad-sin-perder-el-ritmo.jpg
+portada_alt: Opositora estudiando con apuntes subrayados junto a un árbol de Navidad y una taza humeante
 ---
 **Respuesta corta: en Navidad no hace falta estudiar como en octubre, pero sí hace falta estudiar.** Lo que más pesa en estas fechas no es la cantidad de horas, sino que el hábito no se rompa. Retomar tras dos semanas en blanco suele costar bastante más que mantener un ritmo pequeño y constante.
 

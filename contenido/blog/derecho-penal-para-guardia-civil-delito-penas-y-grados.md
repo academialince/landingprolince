@@ -10,6 +10,8 @@ etiquetas: [derecho penal, código penal, delito, penas, temario]
 seo_title: Derecho Penal Guardia Civil: delito, penas y tentativa
 seo_description: Parte general del Código Penal para la oposición a Guardia Civil: delito, clases de penas, tentativa, autoría, eximentes, prescripción y test propio.
 datos: {}
+portada: /blog/derecho-penal-para-guardia-civil-delito-penas-y-grados.jpg
+portada_alt: Opositora subrayando de noche un código abierto bajo la luz de un flexo, con un esquema a mano en el cuaderno
 ---
 El tema 8 del programa, «Derecho Penal», se apoya en la Ley Orgánica 10/1995, del Código Penal ([BOE-A-1995-25444](https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444)). **Respuesta corta:** un delito es una acción u omisión dolosa o imprudente penada por la ley (art. 10); las penas se clasifican en graves, menos graves y leves según su naturaleza y duración (art. 33); y son punibles el delito consumado y la tentativa (art. 15).
 

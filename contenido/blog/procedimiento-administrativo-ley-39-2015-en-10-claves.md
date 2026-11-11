@@ -10,6 +10,8 @@ etiquetas: [procedimiento administrativo, Ley 39/2015, plazos, recursos, derecho
 seo_title: Ley 39/2015 en 10 claves: plazos, silencio y recursos
 seo_description: Ley 39/2015 para opositores: interesados, cómputo de plazos, silencio, notificaciones, nulidad, alzada, reposición y revisión, con casos y test propio.
 datos: {}
+portada: /blog/procedimiento-administrativo-ley-39-2015-en-10-claves.jpg
+portada_alt: Opositora ante un portátil con un calendario de mesa y un montón de documentos con pestañas de colores
 ---
 La Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas ([BOE-A-2015-10565](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565)), es la parte del tema 10, «Derecho Administrativo», con más números que recordar. Según nuestro [temario](/temario-guardia-civil), entran su Título Preliminar y los Títulos I a VI; la otra norma del tema es la Ley 40/2015, de Régimen Jurídico del Sector Público. **Respuesta corta:** si dominas plazos, silencio, notificaciones, invalidez y recursos, tienes la columna vertebral del tema.
 

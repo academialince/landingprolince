@@ -10,6 +10,8 @@ etiquetas: [ministerio del interior, ministerio de defensa, estructura orgánica
 seo_title: Ministerio del Interior y de Defensa: estructura orgánica
 seo_description: Estructura orgánica de Interior (RD 207/2024) y Defensa (RD 205/2024) para la oposición: órganos, Dirección General de la Guardia Civil, esquemas y test.
 datos: {}
+portada: /blog/ministerio-del-interior-y-ministerio-de-defensa-estructura.jpg
+portada_alt: Opositor dibujando un organigrama en una pizarra blanca, con apuntes y dos tazas de café sobre la mesa
 ---
 La Guardia Civil depende de dos ministerios: del **Interior**, en las funciones de seguridad que le atribuye la ley, y de **Defensa**, en las misiones de carácter militar. Por eso el tema 14 del programa pide la «estructura orgánica básica» de ambos (consulta el [temario](/temario-guardia-civil)).
 
