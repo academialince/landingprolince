@@ -12,6 +12,10 @@ const supabaseHost = (() => {
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   turbopack: { root: process.cwd() },
+  /** La storie de cada entrada lee del disco sus fuentes, el logo y la portada. */
+  outputFileTracingIncludes: {
+    "/blog/*/story": ["src/fuentes-og/**/*", "public/brand/prolince-logo-horizontal-negativo.svg", "public/blog/**/*"],
+  },
   images: {
     // 90 conserva texturas y detalle fotográfico sin el peso de una salida sin pérdidas.
     qualities: [75, 90],

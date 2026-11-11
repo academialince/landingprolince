@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Check, Copy } from "lucide-react";
 
-export function CopiarTexto({ texto }: { texto: string }) {
+export function CopiarTexto({ texto, etiqueta = "Copiar texto" }: { texto: string; etiqueta?: string }) {
   const [copiado, setCopiado] = useState(false);
 
   async function copiar() {
@@ -19,7 +19,7 @@ export function CopiarTexto({ texto }: { texto: string }) {
       className="inline-flex min-h-10 items-center gap-2 rounded-md border border-border-strong bg-surface px-3.5 text-body-sm font-bold transition-colors hover:bg-primary-soft"
     >
       {copiado ? <Check size={16} aria-hidden /> : <Copy size={16} aria-hidden />}
-      {copiado ? "Copiado" : "Copiar texto"}
+      {copiado ? "Copiado" : etiqueta}
     </button>
   );
 }

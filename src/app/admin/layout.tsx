@@ -31,6 +31,12 @@ export default async function AdminLayout({ children }: { children: ReactNode })
               Publicaciones
             </Link>
             <Link
+              href="/admin/stories"
+              className="text-body-sm font-semibold text-muted-foreground hover:text-foreground"
+            >
+              Stories
+            </Link>
+            <Link
               href="/admin/waitlist"
               className="text-body-sm font-semibold text-muted-foreground hover:text-foreground"
             >
