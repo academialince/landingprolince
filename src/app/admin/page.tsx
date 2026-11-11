@@ -10,8 +10,24 @@ const colorEstado: Record<string, string> = {
   retirado: "bg-danger/10 text-danger",
 };
 
+/** Una entrada «publicado» con fecha futura aún no es visible: se muestra como programada. */
+function estadoVisible(estado: string, publicadoEn: string | null, ahora: number) {
+  if (estado === "publicado" && publicadoEn && new Date(publicadoEn).getTime() > ahora) return "programado";
+  return estado;
+}
+
+const fechaHora = new Intl.DateTimeFormat("es-ES", {
+  dateStyle: "medium",
+  timeStyle: "short",
+  timeZone: "Europe/Madrid",
+});
+
+async function cargar() {
+  return { entradas: await listarTodas(), ahora: Date.now() };
+}
+
 export default async function PanelEntradas() {
-  const entradas = await listarTodas();
+  const { entradas, ahora } = await cargar();
 
   return (
     <>
@@ -45,18 +61,21 @@ export default async function PanelEntradas() {
         </div>
       ) : (
         <div className="mt-8 overflow-x-auto rounded-xl border border-border bg-surface">
-          <table className="w-full min-w-[44rem] border-collapse text-left">
+          <table className="w-full min-w-[52rem] border-collapse text-left">
             <caption className="sr-only">Entradas del blog</caption>
             <thead>
               <tr className="border-b border-border text-body-sm">
                 <th scope="col" className="px-5 py-3.5 font-bold">Título</th>
                 <th scope="col" className="px-5 py-3.5 font-bold">Tipo</th>
                 <th scope="col" className="px-5 py-3.5 font-bold">Estado</th>
+                <th scope="col" className="px-5 py-3.5 font-bold">Publicación</th>
                 <th scope="col" className="px-5 py-3.5 font-bold">Actualizada</th>
               </tr>
             </thead>
             <tbody>
-              {entradas.map((e) => (
+              {entradas.map((e) => {
+                const estado = estadoVisible(e.estado, e.publicado_en, ahora);
+                return (
                 <tr key={e.id} className="border-b border-border last:border-0 hover:bg-surface-subtle">
                   <th scope="row" className="px-5 py-3.5 font-medium">
                     <Link href={`/admin/entradas/${e.id}`} className="font-bold hover:underline">
@@ -70,17 +89,21 @@ export default async function PanelEntradas() {
                   <td className="px-5 py-3.5">
                     <span
                       className={`inline-block rounded-full px-2.5 py-0.5 text-body-sm font-semibold ${
-                        colorEstado[e.estado] ?? colorEstado.borrador
+                        colorEstado[estado] ?? colorEstado.borrador
                       }`}
                     >
-                      {e.estado}
+                      {estado}
                     </span>
+                  </td>
+                  <td className="px-5 py-3.5 text-body-sm text-muted-foreground">
+                    {e.publicado_en ? fechaHora.format(new Date(e.publicado_en)) : "Sin fecha"}
                   </td>
                   <td className="px-5 py-3.5 text-body-sm text-muted-foreground">
                     {fechaLarga(e.actualizado_en)}
                   </td>
                 </tr>
-              ))}
+                );
+              })}
             </tbody>
           </table>
         </div>
