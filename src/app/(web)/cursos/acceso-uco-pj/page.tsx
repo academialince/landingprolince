@@ -74,6 +74,34 @@ const ventajas = [
   },
 ];
 
+/** Datos de la especialidad Policía Judicial (PJU), según la Orden PCM/509/2020 y la LO 2/1986. */
+const datosPj = [
+  {
+    icono: "ShieldCheck",
+    titulo: "Una función con base constitucional",
+    detalle:
+      "El artículo 126 de la Constitución sitúa a la policía judicial bajo los jueces, los tribunales y el Ministerio Fiscal en la averiguación del delito. La LO 2/1986 la desarrolla en sus artículos 29 a 36.",
+  },
+  {
+    icono: "BookOpen",
+    titulo: "Se obtiene con la especialidad PJU",
+    detalle:
+      "Se accede después de ingresar en el Cuerpo, con el curso de especialización que se convoque, y se ejerce ocupando un puesto orgánico que la requiera.",
+  },
+  {
+    icono: "ListChecks",
+    titulo: "Para guardias, cabos y cabos primeros",
+    detalle:
+      "La ficha de la especialidad incluye esos tres empleos de la Escala de Cabos y Guardias. No exige ninguna cualificación previa, pero sí hay un límite de edad de acceso que fija cada convocatoria.",
+  },
+  {
+    icono: "Clock",
+    titulo: "Cuatro años de servidumbre",
+    detalle:
+      "Quien obtiene la especialidad debe ocupar puestos ligados a ella durante un tiempo; la ficha de Policía Judicial lo fija en cuatro años.",
+  },
+];
+
 const fotosUnidad = [
   { src: "/cursos/uco/llegada-operativo.jpg", alt: "Agentes de la UCO llegando a un domicilio durante un operativo" },
   { src: "/cursos/uco/registro-domicilio.jpg", alt: "Agentes de la UCO durante el registro de una vivienda" },
@@ -81,6 +109,21 @@ const fotosUnidad = [
 ];
 
 const faq = [
+  {
+    pregunta: "¿Es el mismo curso para la UCO y para Policía Judicial?",
+    respuesta:
+      "Sí, es un único acceso. La Policía Judicial es la especialidad y la UCO es una de las unidades de la Jefatura de Policía Judicial, así que el entrenamiento sirve para preparar el examen de la especialidad.",
+  },
+  {
+    pregunta: "¿Qué es la Policía Judicial y cómo se llega a ella?",
+    respuesta:
+      "Es la función de investigar delitos a las órdenes de jueces, tribunales y fiscales, y también una especialidad del Cuerpo (PJU). Se llega después de ingresar, con el curso de especialización que se convoque y un puesto orgánico que la requiera. Los requisitos concretos, las pruebas y las plazas los fija cada convocatoria.",
+  },
+  {
+    pregunta: "¿Cuántos años de servidumbre tiene la especialidad?",
+    respuesta:
+      "La ficha de Policía Judicial de la Orden PCM/509/2020 fija cuatro años: es el tiempo en que hay que ocupar puestos ligados a la especialidad.",
+  },
   {
     pregunta: "¿Es una suscripción?",
     respuesta: "No. Es un pago único de 89 €, sin cuotas mensuales ni renovaciones automáticas.",
@@ -109,7 +152,7 @@ const faq = [
 export const metadata: Metadata = metadataPagina({
   titulo: "Acceso UCO / PJ: tests y simulacros ilimitados",
   descripcion:
-    "Prepara la especialidad de Policía Judicial y el acceso a la UCO con tests y simulacros ilimitados: más de 2.000 preguntas elaboradas por personal en activo de la UCO.",
+    "Prepara la especialidad de Policía Judicial (PJU) y el acceso a la UCO con tests y simulacros ilimitados: más de 2.000 preguntas elaboradas por personal en activo de la UCO.",
   ruta: "/cursos/acceso-uco-pj",
   imagen: "/cursos/uco/investigacion-digital.jpg",
   imagenAlt: "Agentes de la UCO de la Guardia Civil analizando material informático intervenido",
@@ -139,8 +182,9 @@ export default function PaginaAccesoUcoPj() {
               </div>
               <h1 className="text-display-xl mt-4">Acceso UCO / PJ</h1>
               <p className="text-body-lg mt-6 text-muted-foreground">
-                Entrena la especialidad con tests y simulacros ilimitados. Preguntas pensadas por quien trabaja cada día en
-                la Unidad Central Operativa, para que llegues al examen sabiendo cómo se pregunta.
+                Entrena la especialidad de Policía Judicial y el acceso a la UCO con tests y simulacros ilimitados, en un
+                único curso. Preguntas pensadas por quien trabaja cada día en la Unidad Central Operativa, para que
+                llegues al examen sabiendo cómo se pregunta.
               </p>
 
               <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -207,12 +251,39 @@ export default function PaginaAccesoUcoPj() {
         </ul>
       </Section>
 
+      {/* Policía Judicial */}
+      <Section
+        id="policia-judicial"
+        className="scroll-mt-24"
+        eyebrow="La especialidad"
+        titulo="Qué es la Policía Judicial"
+        entradilla="La Policía Judicial es a la vez una función y una especialidad del Cuerpo. La UCO es una de sus unidades, no una puerta de entrada aparte: por eso este curso prepara las dos cosas."
+        fondo="suave"
+      >
+        <ul className="grid gap-5 sm:grid-cols-2">
+          {datosPj.map((d, i) => (
+            <Reveal key={d.titulo} retardo={(i % 2) * 60}>
+              <li className="h-full rounded-xl border border-border bg-surface p-6">
+                <span className="inline-flex size-11 items-center justify-center rounded-lg bg-primary-soft text-primary-soft-fg">
+                  <Icono nombre={d.icono} size={21} />
+                </span>
+                <h3 className="text-h3 mt-5">{d.titulo}</h3>
+                <p className="mt-2 text-muted-foreground">{d.detalle}</p>
+              </li>
+            </Reveal>
+          ))}
+        </ul>
+        <p className="mt-6 text-body-sm text-muted-foreground">
+          Fuentes: artículo 126 de la Constitución, Ley Orgánica 2/1986 y Orden PCM/509/2020. Las plazas, las pruebas y los
+          plazos dependen de cada convocatoria.
+        </p>
+      </Section>
+
       {/* La unidad */}
       <Section
         eyebrow="La unidad"
         titulo="Qué es la UCO"
         entradilla="La Unidad Central Operativa es la unidad de referencia de la Policía Judicial de la Guardia Civil. Llegar a ella exige primero la especialidad, y la especialidad se gana en el examen."
-        fondo="suave"
       >
         <ul className="mb-8 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3">
           {fotosUnidad.map((f, i) => (
@@ -246,6 +317,7 @@ export default function PaginaAccesoUcoPj() {
         eyebrow="Precio"
         titulo="Un solo pago, acceso a todo"
         centrado
+        fondo="suave"
       >
         <Reveal className="mx-auto mb-10 max-w-[36rem]">
           <dl className="grid grid-cols-3 divide-x divide-border rounded-xl border border-border bg-surface">
@@ -296,7 +368,7 @@ export default function PaginaAccesoUcoPj() {
       </Section>
 
       {/* Preguntas */}
-      <Section eyebrow="Preguntas" titulo="Dudas sobre el acceso" ancho="estrecho" fondo="suave">
+      <Section eyebrow="Preguntas" titulo="Dudas sobre el acceso" ancho="estrecho">
         <div className="grid gap-3">
           {faq.map((item, i) => (
             <Reveal key={item.pregunta} retardo={i * 40}>
@@ -321,7 +393,7 @@ export default function PaginaAccesoUcoPj() {
         <Container>
           <Reveal>
             <div className="py-20 text-center">
-              <h2 className="text-display-l mx-auto max-w-[36rem]">Entrena como se pregunta en la UCO</h2>
+              <h2 className="text-display-l mx-auto max-w-[36rem]">Entrena la Policía Judicial como se pregunta en la UCO</h2>
               <p className="text-body-lg mx-auto mt-5 max-w-[34rem] text-white/75">
                 Tests y simulacros ilimitados por {producto.precio} €, en un único pago.
               </p>
