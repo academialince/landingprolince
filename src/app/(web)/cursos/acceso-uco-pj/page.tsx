@@ -8,18 +8,18 @@ import { VolverInicio } from "@/components/layout/volver-inicio";
 import { Button } from "@/components/ui/button";
 import { Icono } from "@/components/ui/icon";
 import { metadataPagina } from "@/lib/seo";
+import { rutas } from "@/lib/links";
 
 /**
  * Curso de especialidad «Acceso UCO / PJ».
  *
- * OCULTO: no está en `cursos` (content/cursos.ts), así que no sale en la portada, el menú, la
- * tienda ni el sitemap, y la página va con `noindex`. Solo se llega con la URL directa.
- * Para activarlo: moverlo a `cursos`/`packs` (o enlazarlo desde allí), quitar `noindex` y sacar
- * «Policía Judicial» de `cursosProximos`.
+ * Publicado: está en `cursosEspecialidad` (content/cursos.ts), que lo enlaza desde la portada,
+ * el menú, el pie y el sitemap. No está en la página de packs porque es un producto único.
  *
- * PENDIENTE: enlace real de pago. De momento todos los botones llevan a stripe.com.
+ * PENDIENTE: enlace de pago de Stripe. Mientras no exista, los botones llevan al formulario de
+ * contacto y el acceso se da a mano. Al tenerlo: cambiar COMPRA y volver a «Comprar».
  */
-const COMPRA = "https://stripe.com";
+const COMPRA = rutas.contacto;
 
 const producto = {
   nombre: "Acceso a tests y simulacros ilimitados",
@@ -156,7 +156,6 @@ export const metadata: Metadata = metadataPagina({
   ruta: "/cursos/acceso-uco-pj",
   imagen: "/cursos/uco/investigacion-digital.jpg",
   imagenAlt: "Agentes de la UCO de la Guardia Civil analizando material informático intervenido",
-  noindex: true,
 });
 
 export default function PaginaAccesoUcoPj() {
@@ -189,7 +188,7 @@ export default function PaginaAccesoUcoPj() {
 
               <div className="mt-9 flex flex-wrap items-center gap-3">
                 <Button href={COMPRA} tamano="lg">
-                  Comprar por {producto.precio} €
+                  Solicitar acceso por {producto.precio} €
                   <ArrowRight size={18} aria-hidden />
                 </Button>
                 <Button href="#producto" variante="secundario" tamano="lg">
@@ -357,7 +356,7 @@ export default function PaginaAccesoUcoPj() {
               </li>
             </ul>
             <Button href={COMPRA} tamano="lg" className="mt-7 w-full">
-              Comprar ahora
+              Solicitar acceso
               <ArrowRight size={18} aria-hidden />
             </Button>
             <p className="mt-4 text-center text-[0.8125rem] text-muted-foreground">
@@ -399,7 +398,7 @@ export default function PaginaAccesoUcoPj() {
               </p>
               <div className="mt-9 flex justify-center">
                 <Button href={COMPRA} variante="claro" tamano="lg">
-                  Comprar por {producto.precio} €
+                  Solicitar acceso por {producto.precio} €
                   <ArrowRight size={18} aria-hidden />
                 </Button>
               </div>

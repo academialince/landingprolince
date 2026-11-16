@@ -1,4 +1,4 @@
-import { cursos, cursosProximos } from "@/content/cursos";
+import { cursos, cursosEspecialidad, cursosProximos } from "@/content/cursos";
 import { formatoPrecio, packsVisibles, rangoPrecios } from "@/content/tienda";
 import { site } from "@/content/site";
 import { listarPublicadas } from "@/lib/blog";
@@ -28,6 +28,7 @@ export async function GET() {
       const precio = r ? ` Packs desde ${formatoPrecio(r.min)} €.` : "";
       return `- [${c.nombre}](${absoluteUrl(rutas.curso(c.slug))}): ${c.entradilla}${precio}`;
     }),
+    ...cursosEspecialidad.map((c) => `- [${c.nombre}](${absoluteUrl(rutas.curso(c.slug))}): ${c.entradilla} Pago único de 89 €.`),
     ...cursosProximos.map((c) => `- ${c.nombre} (próximamente): ${c.entradilla}`),
     "",
     "## Páginas",

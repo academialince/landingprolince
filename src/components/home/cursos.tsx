@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Lock } from "lucide-react";
 import { Section } from "@/components/layout/section";
 import { Reveal } from "@/components/layout/reveal";
-import { cursos, cursosProximos } from "@/content/cursos";
+import { cursos, cursosEspecialidad, cursosProximos } from "@/content/cursos";
 import { cursosAbiertos, rutas } from "@/lib/links";
 import { Proximamente } from "@/components/ui/proximamente";
 
@@ -68,6 +68,56 @@ export function CursosHome() {
                     ))}
                   </dl>
 
+                  <span className="mt-6 inline-flex min-h-11 w-fit items-center gap-2 rounded-md border border-primary bg-transparent px-4 font-bold text-primary transition-colors duration-200 group-hover:bg-primary group-hover:text-primary-fg group-focus-visible:bg-primary group-focus-visible:text-primary-fg">
+                    Ver el curso
+                    <ArrowRight
+                      size={17}
+                      aria-hidden
+                      className="transition-transform duration-200 ease-[var(--ease-product)] group-hover:translate-x-1"
+                    />
+                  </span>
+                </div>
+              </Link>
+            </li>
+          </Reveal>
+        ))}
+      </ul>
+
+      {/* cursos de especialidad: para guardias civiles en activo, con landing propia */}
+      <h3 className="mt-14 text-eyebrow uppercase text-muted-foreground">Cursos de especialidad</h3>
+      <ul className="mt-4 grid gap-6">
+        {cursosEspecialidad.map((c, i) => (
+          <Reveal key={c.slug} retardo={i * 80}>
+            <li>
+              <Link
+                href={rutas.curso(c.slug)}
+                className="group grid overflow-hidden rounded-2xl border border-border bg-surface transition-[border-color,box-shadow,transform] duration-200 ease-[var(--ease-product)] hover:-translate-y-0.5 hover:border-border-strong hover:shadow-[0_18px_40px_-16px_rgba(2,67,52,0.28)] md:grid-cols-[0.9fr_1.1fr]"
+              >
+                <div className="reflejo relative aspect-[16/9] overflow-hidden md:aspect-auto md:min-h-[17rem]">
+                  <Image
+                    src={c.imagen}
+                    alt={c.imagenAlt}
+                    fill
+                    quality={90}
+                    sizes="(max-width: 768px) 100vw, 520px"
+                    className="object-cover object-[50%_38%] transition-transform duration-500 ease-[var(--ease-product)] group-hover:scale-[1.03]"
+                  />
+                  <span className="absolute left-4 top-4 rounded-full bg-background/92 px-3 py-1 text-eyebrow uppercase text-primary backdrop-blur-sm">
+                    {c.eyebrow}
+                  </span>
+                </div>
+                <div className="flex flex-col p-7">
+                  <h3 className="text-h2">{c.nombre}</h3>
+                  <p className="mt-3 grow text-muted-foreground">{c.entradilla}</p>
+                  <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-3 border-t border-border pt-5">
+                    {c.destacados.map((d) => (
+                      <div key={d.etiqueta}>
+                        <dt className="sr-only">{d.etiqueta}</dt>
+                        <dd className="text-h3 tabular text-primary">{d.valor}</dd>
+                        <dd className="text-body-sm text-muted-foreground">{d.etiqueta}</dd>
+                      </div>
+                    ))}
+                  </dl>
                   <span className="mt-6 inline-flex min-h-11 w-fit items-center gap-2 rounded-md border border-primary bg-transparent px-4 font-bold text-primary transition-colors duration-200 group-hover:bg-primary group-hover:text-primary-fg group-focus-visible:bg-primary group-focus-visible:text-primary-fg">
                     Ver el curso
                     <ArrowRight
