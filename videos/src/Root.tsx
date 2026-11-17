@@ -2,6 +2,7 @@ import { Composition } from "remotion";
 import { PreguntaTest, preguntaSchema, duracionPregunta } from "./PreguntaTest";
 import preguntas from "./datos/preguntas.json";
 import { DURACION_DESTINO, MiPrimerDestino } from "./destino/MiPrimerDestino";
+import { AccesoUco, DURACION_UCO } from "./uco/AccesoUco";
 
 export const FPS = 30;
 
@@ -28,6 +29,14 @@ export const RemotionRoot: React.FC = () => {
       height={1920}
       fps={FPS}
       durationInFrames={DURACION_DESTINO}
+    />
+    <Composition
+      id="AccesoUco"
+      component={AccesoUco}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={DURACION_UCO}
     />
     </>
   );
