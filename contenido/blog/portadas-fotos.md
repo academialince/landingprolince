@@ -5,8 +5,7 @@ de OpenAI el 20 de septiembre de 2026. Se exportaron como JPEG a 1600×900 y cal
 
 Cada portada representa una escena concreta del artículo. La serie evita repetir el recurso de
 «persona estudiando» y combina espacios domésticos, administrativos, deportivos, clínicos y de
-examen. No aparecen uniformes, insignias, armas, logotipos ni texto legible para no sugerir un
-respaldo institucional de la Guardia Civil.
+examen.
 
 | Artículo | Escena generada |
 | --- | --- |
@@ -27,8 +26,20 @@ respaldo institucional de la Guardia Civil.
 - Localizaciones y detalles cotidianos reconocibles de España.
 - Expresiones naturales, piel real, encuadres imperfectos y luz ambiental creíble.
 - Cada escena debe contar el conflicto o la acción central del artículo sin depender de texto.
-- Sin texto legible, rótulos superpuestos, marcas de agua, logotipos, uniformes ni insignias.
+- Sin rótulos superpuestos ni marcas de agua.
+- Pueden aparecer uniformes, distintivos y el rótulo «Guardia Civil» cuando la escena lo pida
+  (norma vigente desde el 10 de noviembre de 2026; antes estaban excluidos).
 - Sin sonrisas de foto de stock, piel plástica, propaganda ni estética militar heroica.
 
 `scripts/portadas-blog.py` pertenece al juego anterior de fotografías de Pexels y queda como
 referencia histórica. No debe ejecutarse si se quieren conservar estas portadas generadas.
+
+## Portadas tomadas de «Fotos GC» (10 de noviembre de 2026)
+
+Imágenes generadas de la carpeta `Fotos GC` del SSD, recortadas al centro a 1600×900 y calidad 85.
+Muestran uniformes, distintivos y el rótulo «Guardia Civil», que la especificación ya permite.
+
+| Artículo | Archivo original | Escena |
+| --- | --- | --- |
+| destinos-especialidades-guardia-civil | guardia-civil-accion-01.png | Rescate de montaña en una cresta nevada al amanecer |
+| sueldo-guardia-civil | guardia-civil-accion-20.png | Motoristas de Tráfico escoltan una ambulancia de noche bajo la lluvia |

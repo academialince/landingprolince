@@ -1,5 +1,5 @@
 import { cursosAbiertos, cursosVisibles, inicioVisible, nosotrosVisible, rutas, tiendaVisible } from "@/lib/links";
-import { cursos, cursosProximos } from "./cursos";
+import { cursos, cursosEspecialidad, cursosProximos } from "./cursos";
 
 /**
  * Datos de marca y contacto.
@@ -72,6 +72,11 @@ export const navegacion: ItemNav[] = [
           etiqueta: "Cursos",
           hijos: [
             ...cursos.map((c) => ({
+              etiqueta: c.nombre,
+              descripcion: c.eyebrow,
+              href: rutas.curso(c.slug),
+            })),
+            ...cursosEspecialidad.map((c) => ({
               etiqueta: c.nombre,
               descripcion: c.eyebrow,
               href: rutas.curso(c.slug),

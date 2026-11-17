@@ -341,18 +341,43 @@ export const cursos: Curso[] = [
 export const cursoPorSlug = (slug: string) => cursos.find((c) => c.slug === slug);
 
 /**
+ * Cursos de especialidad: para guardias civiles en activo. Tienen landing propia (fuera de
+ * /cursos/[slug]) y un único producto, así que no comparten la estructura de `Curso`.
+ */
+export type CursoEspecialidad = {
+  slug: string;
+  nombre: string;
+  eyebrow: string;
+  entradilla: string;
+  imagen: string;
+  imagenAlt: string;
+  destacados: { valor: string; etiqueta: string }[];
+};
+
+export const cursosEspecialidad: CursoEspecialidad[] = [
+  {
+    slug: "acceso-uco-pj",
+    nombre: "Acceso UCO / PJ",
+    eyebrow: "Especialidad · Policía Judicial",
+    entradilla:
+      "Para guardias civiles que preparan la especialidad de Policía Judicial y el acceso a la UCO: tests y simulacros ilimitados con preguntas de personal en activo de la UCO.",
+    imagen: "/cursos/uco/investigacion-digital.jpg",
+    imagenAlt: "Agentes de la UCO de la Guardia Civil analizando material informático intervenido",
+    destacados: [
+      { valor: "+2.000", etiqueta: "preguntas" },
+      { valor: "∞", etiqueta: "tests y simulacros" },
+      { valor: "89 €", etiqueta: "pago único" },
+    ],
+  },
+];
+
+/**
  * Especialidades que llegarán más adelante. Se enseñan bloqueadas, con «Próximamente», en el
  * listado de cursos y en el menú; no tienen página propia ni se puede entrar en ellas.
  */
 export type CursoProximo = { id: string; nombre: string; eyebrow: string; entradilla: string };
 
 export const cursosProximos: CursoProximo[] = [
-  {
-    id: "policia-judicial",
-    nombre: "Policía Judicial",
-    eyebrow: "Especialidad",
-    entradilla: "Para guardias civiles que quieren dar el salto a la especialidad de Policía Judicial.",
-  },
   {
     id: "ascenso-cabo",
     nombre: "Ascenso a Cabo",

@@ -63,7 +63,7 @@ Es decir: cuando se publica la convocatoria en mayo, quedan **poco más de dos m
 Lo más útil que puedes hacer en septiembre no es esperar a mayo. Es esto:
 
 - **Comprobar los requisitos con calma**, sobre todo edad y titulación, y resolver lo que falte. Si te falta el permiso B, sácatelo ahora: en marzo no hay hueco.
-- **Empezar el temario**, que son 25 temas y no caben en un verano.
+- **Empezar el temario**, que son 23 temas y no caben en un verano.
 - **Tomar tus marcas físicas de partida.** Correr 2.000 metros cronometrados un sábado te dice más sobre tu situación real que cualquier cálculo.
 - **Mirar los méritos del concurso.** Un título de idiomas o una titulación que ya tengas puede valer puntos que ahora mismo estás dejando sin recoger.
 

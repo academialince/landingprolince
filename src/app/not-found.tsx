@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import WebLayout from "./(web)/layout";
 import { PageHero } from "@/components/layout/page-hero";
 import { Button } from "@/components/ui/button";
-import { cursos } from "@/content/cursos";
+import { cursos, cursosEspecialidad } from "@/content/cursos";
 import { cursosVisibles, inicioVisible, rutas } from "@/lib/links";
 
 export const metadata: Metadata = {
@@ -26,7 +26,7 @@ export default function NoEncontrada() {
         <div className="flex flex-wrap gap-3">
           {inicioVisible && <Button href={rutas.inicio}>Ir al inicio</Button>}
           {cursosVisibles &&
-            cursos.map((c) => (
+            [...cursos, ...cursosEspecialidad].map((c) => (
               <Button key={c.slug} href={rutas.curso(c.slug)} variante="secundario">
                 {c.nombre}
               </Button>

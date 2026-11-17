@@ -32,10 +32,10 @@ Dicho de otra manera: se entra en el Colegio con una oposición, y después se a
 | Momento vital | Al terminar la ESO | A partir de los 18 años |
 | Titulación de partida | Graduado en ESO | Requisitos de acceso a FP de Grado Medio |
 | Qué se estudia | Bachillerato en el Colegio, en régimen interno | Temario de la oposición, por tu cuenta o en academia |
-| Examen | Contenidos de nivel de ESO, inglés y psicotécnico | 25 temas, inglés, ortografía, gramática y psicotécnico |
+| Examen | Contenidos de nivel de ESO, inglés y psicotécnico | 23 temas, inglés, ortografía, gramática y psicotécnico |
 | Resultado | Cupo reservado en el ingreso a Cabos y Guardias | Plaza directa en la Escala de Cabos y Guardias |
 
-La diferencia de fondo es el **temario**. La oposición ordinaria exige 25 temas de contenido jurídico, sociocultural y técnico-científico. La del Colegio se mueve en los contenidos propios de la etapa educativa: lengua castellana, matemáticas, cultura general e inglés.
+La diferencia de fondo es el **temario**. La oposición ordinaria exige 23 temas de contenido jurídico, sociocultural y técnico-científico. La del Colegio se mueve en los contenidos propios de la etapa educativa: lengua castellana, matemáticas, cultura general e inglés.
 
 Eso no la hace fácil. La hace **distinta**: se compite con chavales del mismo nivel por un número reducido de plazas, y el filtro está en la precisión y en la velocidad, no en la extensión de la materia.
 

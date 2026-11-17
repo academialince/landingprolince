@@ -14,7 +14,7 @@ seo_description: Plan de los tres primeros meses para preparar el acceso a la Gu
 datos: {"duracion": "90 días"}
 ---
 
-Casi todo el mundo empieza igual: se descarga un temario de 25 temas, abre el tema 1 y se pone a subrayar. Tres semanas después va por el tema 2, no ha hecho un solo test y no ha corrido todavía.
+Casi todo el mundo empieza igual: se descarga un temario de 23 temas, abre el tema 1 y se pone a subrayar. Tres semanas después va por el tema 2, no ha hecho un solo test y no ha corrido todavía.
 
 No es falta de ganas. Es que nadie le ha dicho por dónde se entra. Esto es lo que hacemos nosotros con un alumno que llega de cero, repartido en tres meses.
 
@@ -91,7 +91,7 @@ A partir de aquí, un simulacro cada dos o tres semanas, siempre a la misma hora
 
 **Estudiar sin hacer preguntas.** Subrayar es cómodo y da sensación de avance. Fallar un test incomoda, y por eso enseña.
 
-**No repasar.** Sin repaso programado, en marzo estarás redescubriendo temas que diste en noviembre y tendrás la sensación de no avanzar. No es falta de capacidad: es que nadie retiene 25 temas dándolos una sola vez.
+**No repasar.** Sin repaso programado, en marzo estarás redescubriendo temas que diste en noviembre y tendrás la sensación de no avanzar. No es falta de capacidad: es que nadie retiene 23 temas dándolos una sola vez.
 
 ## Y a partir del mes cuatro
 

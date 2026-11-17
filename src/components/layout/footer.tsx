@@ -6,7 +6,7 @@ import { MarcaCompleta } from "@/components/ui/logo";
 import { Container } from "./container";
 import { navegacion, redesActivas, site } from "@/content/site";
 import { IconoRed } from "@/components/ui/iconos-redes";
-import { cursos } from "@/content/cursos";
+import { cursos, cursosEspecialidad } from "@/content/cursos";
 import { cursosVisibles, rutas } from "@/lib/links";
 
 const legales = [
@@ -103,7 +103,7 @@ export function Footer() {
           <nav aria-label="Cursos">
             <h2 className="mb-4 text-eyebrow uppercase text-white/50">Cursos</h2>
             <ul className="grid gap-2.5 text-body-sm">
-              {cursos.map((c) => (
+              {[...cursos, ...cursosEspecialidad].map((c) => (
                 <li key={c.slug}>
                   <Link href={rutas.curso(c.slug)} className="text-white/80 hover:text-white">
                     {c.nombre}
