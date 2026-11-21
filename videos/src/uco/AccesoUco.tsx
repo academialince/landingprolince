@@ -8,7 +8,8 @@ import { FPS, en } from "./tokens";
 /**
  * Lanzamiento del curso «Acceso UCO / Policía Judicial» (vertical 1080×1920, ~42 s).
  * Voz: ElevenLabs («Bobby», public/uco/locucion.mp3). Música y efectos: ElevenLabs.
- * Look & feel de prolince.com: tokens del tema claro, Manrope y la banda verde profunda del cierre.
+ * Look & feel de prolinceacademia.com en modo oscuro (rediseño táctico): tokens de `.tactico[data-tema="oscuro"]`,
+ * titulares Barlow Condensed en mayúsculas, etiquetas `//` en JetBrains Mono, botones en ángulo y marco de visor.
  */
 const FIN = DURACION_LOCUCION + 1.6;
 export const DURACION_UCO = Math.ceil(FIN * FPS);
@@ -37,6 +38,8 @@ const useFuentes = () => {
   const [espera] = useState(() => delayRender("Cargando fuentes"));
   useEffect(() => {
     Promise.all([
+      document.fonts.load('800 100px "Barlow Condensed"'),
+      document.fonts.load('700 100px "Barlow Condensed"'),
       document.fonts.load('800 100px "Manrope Variable"'),
       document.fonts.load('500 40px "Manrope Variable"'),
       document.fonts.load('700 40px "JetBrains Mono"'),
@@ -47,7 +50,7 @@ const useFuentes = () => {
 export const AccesoUco: React.FC = () => {
   useFuentes();
   return (
-    <AbsoluteFill style={{ background: "#ffffff" }}>
+    <AbsoluteFill style={{ background: "#090e0a" }}>
       {ESCENAS.map(({ desde, Escena }, i) => {
         const inicio = Math.round(desde * FPS);
         const fin = Math.round((ESCENAS[i + 1]?.desde ?? FIN) * FPS);

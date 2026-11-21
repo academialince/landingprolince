@@ -34,51 +34,116 @@ export const Sube: React.FC<{ p: number; children: React.ReactNode; d?: number; 
   children,
   d = 60,
   style,
-}) => (
-  <div style={{ opacity: p, transform: `translateY(${(1 - p) * d}px)`, ...style }}>{children}</div>
+}) => <div style={{ opacity: p, transform: `translateY(${(1 - p) * d}px)`, ...style }}>{children}</div>;
+
+// ---------- Fondos ----------
+
+/** Fondo `.tactico` de la web: casi negro con matiz verde y rejilla de mapa muy tenue que se desplaza. */
+export const FondoTactico: React.FC<{ profundo?: boolean }> = ({ profundo }) => {
+  const s = useCurrentFrame() / FPS;
+  const paso = 120;
+  return (
+    <AbsoluteFill style={{ background: profundo ? C.profundo : C.fondo, overflow: "hidden" }}>
+      <AbsoluteFill
+        style={{
+          backgroundImage: `linear-gradient(${C.primario}${profundo ? "10" : "0d"} 2px, transparent 2px), linear-gradient(90deg, ${C.primario}${profundo ? "10" : "0d"} 2px, transparent 2px)`,
+          backgroundSize: `${paso}px ${paso}px`,
+          backgroundPosition: `0 ${(s * 14) % paso}px`,
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          width: 1500,
+          height: 1100,
+          left: -260 + 90 * Math.sin(s * 0.5),
+          top: -420 + 60 * Math.cos(s * 0.4),
+          borderRadius: "50%",
+          background: `radial-gradient(circle, ${C.primario}${profundo ? "30" : "1c"} 0%, transparent 62%)`,
+        }}
+      />
+    </AbsoluteFill>
+  );
+};
+
+/** Etiqueta superior de visor (mono, mayúsculas) con el punto «en directo» que parpadea. */
+const EnDirecto: React.FC<{ texto?: string }> = ({ texto = "En directo" }) => {
+  const frame = useCurrentFrame();
+  // hud-parpadeo: 1,6 s, apagado el 40 % final.
+  const encendido = (frame / FPS) % 1.6 < 0.96;
+  return (
+    <span
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        gap: 12,
+        padding: "8px 16px",
+        borderRadius: 6,
+        background: "rgba(0,0,0,0.85)",
+        color: C.primario,
+        fontFamily: F.hud,
+        fontWeight: 700,
+        fontSize: 26,
+        letterSpacing: "0.14em",
+        textTransform: "uppercase",
+        whiteSpace: "nowrap",
+      }}
+    >
+      <span style={{ width: 18, height: 18, borderRadius: 9, background: C.rec, opacity: encendido ? 1 : 0.2 }} />
+      {texto}
+    </span>
+  );
+};
+
+/** Barra de rayas de precaución (.hud-rayas). */
+export const Rayas: React.FC<{ ancho?: number; alto?: number }> = ({ ancho = 230, alto = 16 }) => (
+  <div
+    style={{
+      width: ancho,
+      height: alto,
+      opacity: 0.85,
+      background: `repeating-linear-gradient(-45deg, ${C.primario} 0 24px, transparent 24px 48px)`,
+    }}
+  />
 );
 
-/** Fondo de la web: blanco con el degradado radial menta de la cabecera del curso. */
-export const FondoWeb: React.FC<{ tintado?: boolean }> = ({ tintado }) => {
-  const s = useCurrentFrame() / FPS;
-  return (
-    <AbsoluteFill style={{ background: tintado ? C.sutil : C.fondo }}>
-      <AbsoluteFill
-        style={{
-          background: `radial-gradient(90% 60% at ${20 + 6 * Math.sin(s * 0.6)}% -8%, ${C.suave} 0%, transparent 62%)`,
-        }}
-      />
-    </AbsoluteFill>
-  );
-};
+/** Etiqueta del visor sobre una foto (arriba: objetivo + «en directo»). */
+const CabeceraVisor: React.FC<{ etiqueta: string }> = ({ etiqueta }) => (
+  <div
+    style={{
+      position: "absolute",
+      left: 0,
+      right: 0,
+      top: 0,
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      gap: 20,
+      padding: "34px 40px 90px",
+      background: "linear-gradient(180deg, rgba(0,0,0,0.85), rgba(0,0,0,0.5) 50%, transparent)",
+      color: "rgba(255,255,255,0.9)",
+      ...T.eyebrow,
+      fontSize: 22,
+      letterSpacing: "0.14em",
+    }}
+  >
+    <span>{etiqueta}</span>
+    <EnDirecto />
+  </div>
+);
 
-/** Fondo verde profundo de la banda de cierre de la web. */
-export const FondoProfundo: React.FC = () => {
-  const s = useCurrentFrame() / FPS;
-  return (
-    <AbsoluteFill style={{ background: C.profundo }}>
-      <AbsoluteFill
-        style={{
-          background: `radial-gradient(70% 45% at 50% ${38 + 4 * Math.sin(s * 0.8)}%, ${C.primario} 0%, transparent 70%)`,
-          opacity: 0.9,
-        }}
-      />
-    </AbsoluteFill>
-  );
-};
-
-/** Foto a pantalla completa con zoom lento (Ken Burns) y velo verde profundo abajo. */
-export const FotoFondo: React.FC<{ src: string; desde?: number; hasta?: number; velo?: number; origen?: string }> = ({
-  src,
-  desde = 1.04,
-  hasta = 1.16,
-  velo = 0.75,
-  origen = "50% 40%",
-}) => {
+/** Foto a pantalla completa con zoom lento, el degradado `.hud-foto` y la cabecera de visor. */
+export const FotoFondo: React.FC<{
+  src: string;
+  etiqueta: string;
+  desde?: number;
+  hasta?: number;
+  origen?: string;
+}> = ({ src, etiqueta, desde = 1.04, hasta = 1.16, origen = "50% 40%" }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   return (
-    <AbsoluteFill style={{ overflow: "hidden", background: C.profundo }}>
+    <AbsoluteFill style={{ overflow: "hidden", background: C.fotoFondo }}>
       <Img
         src={staticFile(src)}
         style={{
@@ -91,176 +156,216 @@ export const FotoFondo: React.FC<{ src: string; desde?: number; hasta?: number; 
       />
       <AbsoluteFill
         style={{
-          background: `linear-gradient(180deg, ${C.profundo}66 0%, transparent 28%, transparent 45%, ${C.profundo}${Math.round(
-            velo * 255,
-          )
-            .toString(16)
-            .padStart(2, "0")} 78%, ${C.profundo} 100%)`,
+          background: `linear-gradient(180deg, transparent 38%, rgba(5,10,7,0.72) 60%, rgba(5,10,7,0.95) 82%, ${C.fotoFondo} 100%)`,
         }}
       />
+      <CabeceraVisor etiqueta={etiqueta} />
     </AbsoluteFill>
   );
 };
 
-/** Foto en el marco de la web: esquinas de 2xl, borde fino, sombra verde y el reflejo que cruza. */
-export const FotoMarco: React.FC<{ src: string; ancho: number; alto: number; origen?: string; style?: React.CSSProperties }> = ({
-  src,
-  ancho,
-  alto,
-  origen = "50% 38%",
-  style,
-}) => {
+/**
+ * Marco táctico (MarcoTactico de la web): foto con borde, esquinas en escuadra por fuera, etiqueta de objetivo,
+ * «en directo», rayas de precaución y el pie con el dato destacado.
+ */
+export const FotoMarco: React.FC<{
+  src: string;
+  ancho: number;
+  alto: number;
+  etiqueta: string;
+  pie: string;
+  dato?: string;
+  origen?: string;
+  style?: React.CSSProperties;
+}> = ({ src, ancho, alto, etiqueta, pie, dato, origen = "50% 35%", style }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const brillo = interpolate(frame % 75, [10, 45], [-130, 130], clamp);
+  const L = 70;
+  const G = 4;
+  const c = C.primario;
+  const esquinas = `${[
+    ["top left"],
+    ["top left"],
+    ["top right"],
+    ["top right"],
+    ["bottom left"],
+    ["bottom left"],
+    ["bottom right"],
+    ["bottom right"],
+  ]
+    .map(([pos], i) => `linear-gradient(${c}, ${c}) ${pos} / ${i % 2 === 0 ? `${L}px ${G}px` : `${G}px ${L}px`}`)
+    .join(", ")}`;
   return (
-    <div
-      style={{
-        position: "relative",
-        width: ancho,
-        height: alto,
-        overflow: "hidden",
-        borderRadius: 40,
-        border: `2px solid ${C.borde}`,
-        boxShadow: "0 56px 120px -48px rgba(2,67,52,0.45)",
-        ...style,
-      }}
-    >
-      <Img
-        src={staticFile(src)}
+    <div style={{ position: "relative", width: ancho, height: alto, ...style }}>
+      <div
         style={{
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-          objectPosition: origen,
-          scale: String(interpolate(frame, [0, durationInFrames], [1.02, 1.12])),
+          position: "absolute",
+          inset: -24,
+          zIndex: 2,
+          pointerEvents: "none",
+          background: esquinas,
+          backgroundRepeat: "no-repeat",
         }}
       />
       <div
         style={{
-          position: "absolute",
-          inset: 0,
-          background: "linear-gradient(115deg, transparent 38%, rgb(255 255 255 / 0.16) 50%, transparent 62%)",
-          transform: `translateX(${brillo}%)`,
+          position: "relative",
+          width: "100%",
+          height: "100%",
+          overflow: "hidden",
+          border: `2px solid ${C.bordeFuerte}`,
+          background: C.fotoFondo,
         }}
-      />
+      >
+        <Img
+          src={staticFile(src)}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: origen,
+            scale: String(interpolate(frame, [0, durationInFrames], [1.02, 1.12])),
+          }}
+        />
+        <AbsoluteFill
+          style={{ background: "linear-gradient(180deg, transparent 50%, rgba(5,10,7,0.6) 72%, rgba(5,10,7,0.92) 100%)" }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background: "linear-gradient(115deg, transparent 38%, rgb(255 255 255 / 0.1) 50%, transparent 62%)",
+            transform: `translateX(${brillo}%)`,
+          }}
+        />
+        <CabeceraVisor etiqueta={etiqueta} />
+        <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, padding: "0 40px 36px" }}>
+          <Rayas />
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 20, marginTop: 24 }}>
+            <span style={{ ...T.displayL, fontSize: 96, lineHeight: 1, color: "#fff" }}>{pie}</span>
+            {dato ? (
+              <span
+                style={{
+                  padding: "8px 16px",
+                  borderRadius: 6,
+                  background: "rgba(0,0,0,0.85)",
+                  color: C.primario,
+                  ...T.eyebrow,
+                  fontSize: 28,
+                  letterSpacing: "0.14em",
+                }}
+              >
+                {dato}
+              </span>
+            ) : null}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-/** Etiqueta de mira en JetBrains Mono («OBJ · UCO»), con esquinas de visor. */
-export const Hud: React.FC<{ texto: string; oscuro?: boolean; p?: number }> = ({ texto, oscuro, p = 1 }) => {
-  const color = oscuro ? "#ffffff" : C.primario;
-  const esquina = (pos: React.CSSProperties): React.CSSProperties => ({
-    position: "absolute",
-    width: 18,
-    height: 18,
-    borderColor: oscuro ? C.menta : C.primario,
-    borderStyle: "solid",
-    borderWidth: 0,
-    ...pos,
-  });
-  return (
-    <div
-      style={{
-        position: "relative",
-        display: "inline-block",
-        padding: "14px 26px",
-        fontFamily: F.hud,
-        fontWeight: 700,
-        fontSize: 30,
-        letterSpacing: "0.12em",
-        color,
-        background: oscuro ? "rgba(0,42,21,0.55)" : "rgba(255,255,255,0.85)",
-        opacity: p,
-        clipPath: `inset(0 ${(1 - p) * 100}% 0 0)`,
-      }}
-    >
-      <span style={esquina({ top: 0, left: 0, borderTopWidth: 4, borderLeftWidth: 4 })} />
-      <span style={esquina({ top: 0, right: 0, borderTopWidth: 4, borderRightWidth: 4 })} />
-      <span style={esquina({ bottom: 0, left: 0, borderBottomWidth: 4, borderLeftWidth: 4 })} />
-      <span style={esquina({ bottom: 0, right: 0, borderBottomWidth: 4, borderRightWidth: 4 })} />
-      {texto}
-    </div>
-  );
-};
-
-/** Eyebrow verde en mayúsculas de la web. */
+/** Etiqueta de visor suelta («// CÓMO ENTRENAS»): mono, verde, con el prefijo `// ` atenuado. */
 export const Eyebrow: React.FC<{ children: React.ReactNode; color?: string }> = ({ children, color = C.primario }) => (
-  <p style={{ ...T.eyebrow, margin: 0, color, fontFamily: F.texto }}>{children}</p>
+  <p style={{ ...T.eyebrow, margin: 0, color }}>
+    <span style={{ opacity: 0.6 }}>{"// "}</span>
+    {children}
+  </p>
 );
 
-/** Píldora menta (rounded-full bg-primary-soft). */
+/** Chip de la web: píldora con el fondo suave de marca (o el verde sólido). */
 export const Pildora: React.FC<{ children: React.ReactNode; fuerte?: boolean }> = ({ children, fuerte }) => (
   <span
     style={{
       ...T.eyebrow,
       display: "inline-block",
-      fontFamily: F.texto,
-      padding: "12px 26px",
+      padding: "12px 28px",
       borderRadius: 999,
       background: fuerte ? C.primario : C.suave,
-      color: fuerte ? "#ffffff" : C.suaveTexto,
+      color: fuerte ? C.primarioFg : C.suaveTexto,
     }}
   >
     {children}
   </span>
 );
 
-/** Tarjeta de ventaja de la web: borde, fondo blanco, icono en cuadrado menta, h3 y texto. */
-export const Tarjeta: React.FC<{ Icono: LucideIcon; titulo: string; detalle?: string; style?: React.CSSProperties }> = ({
-  Icono,
-  titulo,
-  detalle,
+/** Botón en ángulo (.cta-button del tema táctico): esquinas cortadas, Barlow en mayúsculas. */
+export const Boton: React.FC<{ children: React.ReactNode; claro?: boolean; style?: React.CSSProperties }> = ({
+  children,
+  claro,
   style,
 }) => (
+  <span
+    style={{
+      display: "inline-flex",
+      alignItems: "center",
+      gap: 20,
+      padding: "34px 62px",
+      background: claro ? "#ffffff" : C.primario,
+      color: claro ? C.profundo : C.primarioFg,
+      fontFamily: F.titular,
+      fontWeight: 800,
+      fontSize: 64,
+      letterSpacing: "0.06em",
+      textTransform: "uppercase",
+      whiteSpace: "nowrap",
+      clipPath: "polygon(30px 0, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 30px)",
+      ...style,
+    }}
+  >
+    {children}
+  </span>
+);
+
+/** Tarjeta de la web: superficie, borde fino, esquinas casi rectas, icono en cuadrado verde oscuro. */
+export const Tarjeta: React.FC<{
+  Icono: LucideIcon;
+  titulo: string;
+  detalle?: string;
+  compacta?: boolean;
+  style?: React.CSSProperties;
+}> = ({ Icono, titulo, detalle, compacta, style }) => (
   <div
     style={{
-      borderRadius: 28,
+      borderRadius: 10,
       border: `2px solid ${C.borde}`,
-      background: "#ffffff",
-      padding: "40px 44px",
-      boxShadow: "0 24px 60px -36px rgba(2,67,52,0.35)",
-      fontFamily: F.texto,
+      background: C.superficie,
+      padding: compacta ? "34px 44px" : "46px 50px",
       ...style,
     }}
   >
     <span
       style={{
         display: "inline-flex",
-        width: 88,
-        height: 88,
-        borderRadius: 20,
+        width: compacta ? 88 : 104,
+        height: compacta ? 88 : 104,
+        borderRadius: 8,
         alignItems: "center",
         justifyContent: "center",
         background: C.suave,
         color: C.suaveTexto,
       }}
     >
-      <Icono size={44} strokeWidth={2} />
+      <Icono size={compacta ? 44 : 52} strokeWidth={2} />
     </span>
-    <h3 style={{ ...T.h3, margin: "28px 0 0", color: C.texto }}>{titulo}</h3>
-    {detalle ? <p style={{ ...T.cuerpo, fontSize: 34, margin: "10px 0 0", color: C.apagado }}>{detalle}</p> : null}
+    <h3 style={{ ...T.h3, fontSize: compacta ? 58 : 66, margin: compacta ? "22px 0 0" : "30px 0 0", color: C.texto }}>{titulo}</h3>
+    {detalle ? <p style={{ ...T.cuerpo, fontSize: compacta ? 34 : 38, margin: "10px 0 0", color: C.apagado }}>{detalle}</p> : null}
   </div>
 );
 
-/** Logo oficial de public/brand (compuesto tal cual, sin redibujar). */
-export const Logo: React.FC<{ negativo?: boolean; ancho: number; style?: React.CSSProperties }> = ({
-  negativo,
-  ancho,
-  style,
-}) => (
+/** Logo oficial de public/brand, versión para fondo oscuro (la que usa la web en modo oscuro). */
+export const Logo: React.FC<{ ancho: number; style?: React.CSSProperties }> = ({ ancho, style }) => (
   <Img
-    src={staticFile(negativo ? "uco/prolince-logo-horizontal-negativo.svg" : "uco/prolince-logo-horizontal.svg")}
+    src={staticFile("uco/prolince-logo-horizontal-negativo.svg")}
     style={{ width: ancho, height: (ancho * 1252) / 4347, ...style }}
   />
 );
 
-/** Entrada de cada escena: empuje rápido con desenfoque, como un corte de cámara. */
+/** Entrada de cada escena: empuje rápido con desenfoque y, después, un acercamiento lento y continuo. */
 export const Entrada: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
-  // Empuje de entrada y, después, un acercamiento lento y continuo para que ningún plano quede quieto.
   const empuje = interpolate(frame, [0, 9], [1.1, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const deriva = interpolate(frame, [0, durationInFrames], [1, 1.035], clamp);
   return (
@@ -276,7 +381,7 @@ export const Entrada: React.FC<{ children: React.ReactNode }> = ({ children }) =
   );
 };
 
-/** Barrido verde que tapa el corte (wipe diagonal de la marca). */
+/** Barrido en ángulo que tapa el corte: verde táctico con borde de rayas de precaución. */
 export const Barrido: React.FC = () => {
   const frame = useCurrentFrame();
   const x = interpolate(frame, [0, 10], [-120, 120], { ...clamp, easing: Easing.inOut(Easing.cubic) });
@@ -288,10 +393,22 @@ export const Barrido: React.FC = () => {
           top: "-20%",
           bottom: "-20%",
           left: `${x}%`,
-          width: "70%",
+          width: "62%",
           transform: "skewX(-14deg)",
-          background: `linear-gradient(90deg, transparent, ${C.acento} 30%, ${C.primario} 50%, ${C.acento} 70%, transparent)`,
+          background: `linear-gradient(90deg, transparent, ${C.primario} 28%, ${C.primario} 72%, transparent)`,
           opacity: 0.95,
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          top: "-20%",
+          bottom: "-20%",
+          left: `${x + 14}%`,
+          width: "5%",
+          transform: "skewX(-14deg)",
+          background: C.profundo,
+          opacity: 0.9,
         }}
       />
     </AbsoluteFill>
@@ -314,7 +431,7 @@ const LINEAS: Linea[] = (() => {
   for (const p of PALABRAS) {
     actual.push(p);
     const largo = actual.map((w) => w.texto).join(" ").length;
-    if (/[.,:…]$/.test(p.texto) || largo > 18) cerrar();
+    if (/[.,:…]$/.test(p.texto) || largo > 22) cerrar();
   }
   cerrar();
   return out;
@@ -326,35 +443,37 @@ const DESTACADAS = new Set([
 ]);
 const limpia = (t: string) => t.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
 
-export const Subtitulos: React.FC<{ ocultar: [number, number][]; abajo?: number }> = ({ ocultar, abajo = 300 }) => {
+/** Subtítulos como etiqueta de visor: rectángulo casi negro, Barlow Condensed en mayúsculas, palabra clave en verde táctico. */
+export const Subtitulos: React.FC<{ ocultar: [number, number][]; abajo?: number }> = ({ ocultar, abajo = 130 }) => {
   const frame = useCurrentFrame();
   const t = frame / FPS;
   if (ocultar.some(([a, b]) => t >= a && t < b)) return null;
   const linea = LINEAS.find((l, i) => t >= l.inicio - 0.05 && t < (LINEAS[i + 1]?.inicio ?? l.fin + 0.4) - 0.05);
   if (!linea || t > linea.fin + 0.4) return null;
-  const pop = interpolate(t, [linea.inicio - 0.05, linea.inicio + 0.1], [0.85, 1], clamp);
+  const pop = interpolate(t, [linea.inicio - 0.05, linea.inicio + 0.1], [0.88, 1], clamp);
   return (
     <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: abajo, pointerEvents: "none" }}>
       <div
         style={{
           scale: String(pop),
-          maxWidth: 900,
-          padding: "18px 34px",
-          borderRadius: 22,
-          background: C.profundo,
-          boxShadow: "0 20px 50px -20px rgba(0,0,0,0.5)",
-          fontFamily: F.texto,
+          maxWidth: 960,
+          padding: "12px 30px 16px",
+          borderRadius: 8,
+          background: "rgba(0,0,0,0.88)",
+          border: `2px solid ${C.bordeFuerte}`,
+          fontFamily: F.titular,
           fontWeight: 800,
-          fontSize: 58,
-          letterSpacing: "-0.02em",
-          lineHeight: 1.15,
+          fontSize: 68,
+          letterSpacing: "0.01em",
+          lineHeight: 1.05,
+          textTransform: "uppercase",
           textAlign: "center",
           color: "#ffffff",
         }}
       >
         {linea.palabras.map((w, i) => {
           const activa = t >= w.inicio - 0.03;
-          const color = activa && DESTACADAS.has(limpia(w.texto)) ? C.menta : activa ? "#ffffff" : "rgba(255,255,255,0.45)";
+          const color = activa && DESTACADAS.has(limpia(w.texto)) ? C.primario : activa ? "#ffffff" : "rgba(255,255,255,0.4)";
           return (
             <span key={i} style={{ color }}>
               {w.texto}
