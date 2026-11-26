@@ -419,8 +419,8 @@ export const Barrido: React.FC = () => {
 
 type Linea = { palabras: Palabra[]; inicio: number; fin: number };
 
-/** Agrupa la locución en líneas cortas: corta tras puntuación o al pasar de ~18 caracteres. */
-const LINEAS: Linea[] = (() => {
+/** Agrupa la locución en líneas cortas: corta tras puntuación o al pasar de ~22 caracteres. */
+export const agruparLineas = (palabras: Palabra[]): Linea[] => {
   const out: Linea[] = [];
   let actual: Palabra[] = [];
   const cerrar = () => {
@@ -428,27 +428,34 @@ const LINEAS: Linea[] = (() => {
     out.push({ palabras: actual, inicio: actual[0].inicio, fin: actual[actual.length - 1].fin });
     actual = [];
   };
-  for (const p of PALABRAS) {
+  for (const p of palabras) {
     actual.push(p);
     const largo = actual.map((w) => w.texto).join(" ").length;
     if (/[.,:…]$/.test(p.texto) || largo > 22) cerrar();
   }
   cerrar();
   return out;
-})();
+};
 
-const DESTACADAS = new Set([
+const DESTACADAS_UCO = new Set([
   "uco", "examen", "policía", "judicial", "dos", "mil", "activo", "ilimitados", "simulacros", "repaso", "errores",
   "ranking", "móvil", "turnos", "ochenta", "nueve", "euros", "cuotas", "renovaciones",
 ]);
+const LINEAS_UCO = agruparLineas(PALABRAS);
 const limpia = (t: string) => t.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
 
 /** Subtítulos como etiqueta de visor: rectángulo casi negro, Barlow Condensed en mayúsculas, palabra clave en verde táctico. */
-export const Subtitulos: React.FC<{ ocultar: [number, number][]; abajo?: number }> = ({ ocultar, abajo = 130 }) => {
+export const Subtitulos: React.FC<{
+  ocultar: [number, number][];
+  abajo?: number;
+  lineas?: Linea[];
+  destacadas?: Set<string>;
+  acento?: string;
+}> = ({ ocultar, abajo = 130, lineas = LINEAS_UCO, destacadas = DESTACADAS_UCO, acento = C.primario }) => {
   const frame = useCurrentFrame();
   const t = frame / FPS;
   if (ocultar.some(([a, b]) => t >= a && t < b)) return null;
-  const linea = LINEAS.find((l, i) => t >= l.inicio - 0.05 && t < (LINEAS[i + 1]?.inicio ?? l.fin + 0.4) - 0.05);
+  const linea = lineas.find((l, i) => t >= l.inicio - 0.05 && t < (lineas[i + 1]?.inicio ?? l.fin + 0.4) - 0.05);
   if (!linea || t > linea.fin + 0.4) return null;
   const pop = interpolate(t, [linea.inicio - 0.05, linea.inicio + 0.1], [0.88, 1], clamp);
   return (
@@ -473,7 +480,7 @@ export const Subtitulos: React.FC<{ ocultar: [number, number][]; abajo?: number 
       >
         {linea.palabras.map((w, i) => {
           const activa = t >= w.inicio - 0.03;
-          const color = activa && DESTACADAS.has(limpia(w.texto)) ? C.primario : activa ? "#ffffff" : "rgba(255,255,255,0.4)";
+          const color = activa && destacadas.has(limpia(w.texto)) ? acento : activa ? "#ffffff" : "rgba(255,255,255,0.4)";
           return (
             <span key={i} style={{ color }}>
               {w.texto}

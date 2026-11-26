@@ -3,6 +3,7 @@ import { PreguntaTest, preguntaSchema, duracionPregunta } from "./PreguntaTest";
 import preguntas from "./datos/preguntas.json";
 import { DURACION_DESTINO, MiPrimerDestino } from "./destino/MiPrimerDestino";
 import { AccesoUco, DURACION_UCO } from "./uco/AccesoUco";
+import { DURACION_SIMULACRO, SimulacroGratis } from "./simulacro/SimulacroGratis";
 
 export const FPS = 30;
 
@@ -37,6 +38,14 @@ export const RemotionRoot: React.FC = () => {
       height={1920}
       fps={FPS}
       durationInFrames={DURACION_UCO}
+    />
+    <Composition
+      id="SimulacroGratis"
+      component={SimulacroGratis}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={DURACION_SIMULACRO}
     />
     </>
   );

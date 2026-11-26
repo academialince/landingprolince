@@ -54,9 +54,12 @@ export const EASE: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 const limpia = (t: string) => t.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
 
-/** Instante (s) en que empieza la n-ésima aparición (desde 0) de la palabra `texto` en la locución. */
-export const en = (texto: string, n = 0) => {
-  const hits = PALABRAS.filter((p) => limpia(p.texto) === limpia(texto));
+/** Devuelve el localizador de palabras de una locución: instante (s) de la n-ésima aparición (desde 0) de `texto`. */
+export const crearEn = (palabras: { texto: string; inicio: number }[]) => (texto: string, n = 0) => {
+  const hits = palabras.filter((p) => limpia(p.texto) === limpia(texto));
   if (!hits[n]) throw new Error(`«${texto}» (${n}) no está en la locución`);
   return hits[n].inicio;
 };
+
+/** Localizador de la locución del vídeo de UCO / Policía Judicial. */
+export const en = crearEn(PALABRAS);
