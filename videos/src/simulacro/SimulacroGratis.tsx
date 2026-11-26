@@ -16,10 +16,10 @@ export const DURACION_SIMULACRO = Math.ceil(FIN * FPS);
 type Corte = "barrido" | "golpe";
 const ESCENAS: { desde: number; Escena: React.FC<{ inicio: number }>; corte?: Corte }[] = [
   { desde: 0, Escena: E.Gancho },
-  { desde: en("Temas", 1) - 0.12, Escena: E.Temas, corte: "golpe" },
-  { desde: en("Por") - 0.08, Escena: E.Anuncio, corte: "barrido" },
+  { desde: en("Empezad") - 0.1, Escena: E.Temas, corte: "golpe" },
+  { desde: en("Por", 1) - 0.08, Escena: E.Anuncio, corte: "barrido" },
   { desde: en("solo") - 0.3, Escena: E.Ranking, corte: "barrido" },
-  { desde: en("Aspirantes") - 0.08, Escena: E.Guardias, corte: "golpe" },
+  { desde: en("Aspirantes", 1) - 0.08, Escena: E.Guardias, corte: "golpe" },
   { desde: en("Es") - 0.1, Escena: E.Llamada, corte: "barrido" },
   { desde: en("Prolince", 2) - 0.1, Escena: E.Cierre, corte: "golpe" },
 ];
@@ -30,7 +30,10 @@ const DESTACADAS = new Set([
 ]);
 const LINEAS = agruparLineas(PALABRAS);
 // Sin subtítulos en la llamada y el cierre: el texto grande ya dice lo mismo que la voz.
-const SIN_SUBTITULOS: [number, number][] = [[en("Es") - 0.1, FIN]];
+const SIN_SUBTITULOS: [number, number][] = [
+  [0, en("Empezad") - 0.1],
+  [en("Es") - 0.1, FIN],
+];
 
 const useFuentes = () => {
   const [espera] = useState(() => delayRender("Cargando fuentes"));
@@ -47,7 +50,10 @@ const useFuentes = () => {
 
 // Efectos de sonido: golpe en cada número, en el sello, en los cambios de bloque y en el cierre; tic-tac en la cuenta atrás.
 const golpes: number[] = [
-  0.1,
+  en("Aspirantes", 0) - 0.02,
+  en("ocho", 0) - 0.04,
+  en("ocho", 1) - 0.04,
+  en("Sabéis") - 0.04,
   ...E.TEMAS.map((t) => en(t.palabra) - 0.06),
   en("excusas") - 0.04,
   ESCENAS[4].desde - 0.02,

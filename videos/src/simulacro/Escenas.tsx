@@ -32,48 +32,150 @@ export const TEMAS = [
 /** Días que faltan para el parcial del CGJ (4 de diciembre) desde la fecha de publicación (26 de noviembre de 2026). */
 export const DIAS_AL_PARCIAL = 8;
 
-// 1 · «Si a estas alturas no dominas estos cinco temas… tenemos un problema.»
+// 1 · «Aspirantes del Colegio de Guardias Jóvenes: os quedan ocho días para el parcial. Ocho. ¿Sabéis de verdad en qué nivel estáis?»
 export const Gancho: React.FC<P> = ({ inicio }) => {
   const frame = useCurrentFrame();
-  const logo = usePop(inicio, 0.12);
-  const l1 = usePop(inicio, 0.75);
-  const l2 = usePop(inicio, 1.5);
-  const l3 = usePop(inicio, 2.4);
-  const destello = interpolate(frame, [3, 5, 16], [0, 0.55, 0], clamp);
-  const parpadeo = (frame / FPS) % 1.6 < 0.96;
-  const linea = (p: number, texto: string, color = "#fff") => (
-    <p
+  const t = inicio + frame / FPS;
+  const tAsp = en("Aspirantes", 0);
+  const tCol = en("Colegio", 0);
+  const tOcho = en("ocho", 0);
+  const tOcho2 = en("ocho", 1);
+  const tSabeis = en("Sabéis");
+  const tFin = en("Empezad") - 0.1;
+  const rayas = interpolate(frame, [0, 600], [0, 1200]);
+  // Temblor de cámara que se amortigua tras cada golpe.
+  const golpes = [tAsp, tOcho, tOcho2, tSabeis];
+  const sacudida = golpes.reduce((m, g) => (t >= g ? Math.max(m, interpolate(t - g, [0, 0.35], [1, 0], clamp)) : m), 0);
+  const tx = Math.sin(frame * 2.7) * 22 * sacudida;
+  const ty = Math.cos(frame * 3.3) * 18 * sacudida;
+  const destello = golpes.reduce((m, g) => (t >= g - 0.02 ? Math.max(m, interpolate(t - g, [0, 0.14], [0.55, 0], clamp)) : m), 0);
+  const parpadeo = (frame / FPS) % 0.8 < 0.5;
+
+  const asp = usePop(inicio, tAsp);
+  const col = usePop(inicio, tCol);
+  const ocho = usePop(inicio, tOcho);
+  const ocho2 = usePop(inicio, tOcho2);
+  const sab = usePop(inicio, tSabeis);
+
+  const faseA = t < tOcho - 0.12;
+  const faseB = t >= tOcho - 0.12 && t < tSabeis - 0.1;
+  const faseC = t >= tSabeis - 0.1 && t < tFin + 0.2;
+
+  const cinta = (y: number) => (
+    <div
       style={{
-        ...T.displayXl,
-        fontSize: 190,
-        margin: 0,
-        color,
-        opacity: p,
-        scale: String(interpolate(p, [0, 1], [1.35, 1])),
-        whiteSpace: "nowrap",
+        position: "absolute",
+        left: -100,
+        right: -100,
+        top: y,
+        height: 56,
+        opacity: 0.95,
+        backgroundImage: `repeating-linear-gradient(-45deg, ${C.aviso} 0 36px, #000 36px 72px)`,
+        backgroundPosition: `${rayas}px 0`,
       }}
-    >
-      {texto}
-    </p>
+    />
   );
+
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       <AbsoluteFill
-        style={{ background: `radial-gradient(60% 40% at 50% 38%, ${C.primario}26 0%, transparent 70%)` }}
+        style={{
+          background: `radial-gradient(75% 50% at 50% 45%, ${faseB ? C.rec : C.aviso}${faseB ? "30" : "22"} 0%, transparent 72%)`,
+        }}
       />
-      <div style={{ position: "absolute", top: 250, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
-        <div style={{ scale: String(interpolate(logo, [0, 1], [0.6, 1])), opacity: logo }}>
-          <Logo ancho={700} />
+      <AbsoluteFill style={{ translate: `${tx}px ${ty}px` }}>
+        {cinta(90)}
+        {cinta(1774)}
+        <div style={{ position: "absolute", top: 190, left: PAD, display: "flex", alignItems: "center", gap: 16 }}>
+          <span style={{ width: 22, height: 22, borderRadius: 11, background: C.rec, opacity: parpadeo ? 1 : 0.2 }} />
+          <span style={{ ...T.eyebrow, fontSize: 28, color: C.aviso }}>Alerta · CGJ</span>
         </div>
-      </div>
-      <div style={{ position: "absolute", top: 640, left: PAD, right: PAD }}>
-        {linea(l1, "¿Llevas los")}
-        {linea(l2, "deberes")}
-        {linea(l3, "hechos?", C.primario)}
-      </div>
-      <div style={{ position: "absolute", top: 150, left: PAD, display: "flex", alignItems: "center", gap: 14 }}>
-        <span style={{ width: 20, height: 20, borderRadius: 10, background: C.rec, opacity: parpadeo ? 1 : 0.2 }} />
-        <span style={{ ...T.eyebrow, fontSize: 26, color: C.apagado }}>Simulacro gratis</span>
+
+        {faseA ? (
+          <div style={{ position: "absolute", top: 520, left: PAD, right: PAD }}>
+            <p
+              style={{
+                ...T.displayXl,
+                fontSize: 188,
+                margin: 0,
+                color: C.aviso,
+                whiteSpace: "nowrap",
+                opacity: asp,
+                scale: String(interpolate(asp, [0, 1], [1.5, 1])),
+                transformOrigin: "left center",
+              }}
+            >
+              Aspirantes
+            </p>
+            <div style={{ opacity: col, translate: `${(1 - col) * -140}px 0` }}>
+              <p style={{ ...T.displayL, fontSize: 118, margin: "6px 0 0", color: "#fff", whiteSpace: "nowrap" }}>del Colegio de</p>
+              <p style={{ ...T.displayL, fontSize: 118, margin: 0, color: "#fff", whiteSpace: "nowrap" }}>Guardias Jóvenes</p>
+            </div>
+          </div>
+        ) : null}
+
+        {faseB ? (
+          <div style={{ position: "absolute", top: 330, left: 0, right: 0, textAlign: "center" }}>
+            <p style={{ ...T.h2, fontSize: 96, margin: 0, color: "#fff" }}>Os quedan</p>
+            <p
+              style={{
+                ...T.displayXl,
+                fontSize: 690,
+                lineHeight: 0.85,
+                margin: "0",
+                color: C.rec,
+                scale: String(
+                  t >= tOcho2 - 0.02
+                    ? interpolate(ocho2, [0, 1], [1.4, 1.04])
+                    : interpolate(ocho, [0, 1], [2.2, 1]),
+                ),
+                opacity: ocho,
+                textShadow: `0 0 120px ${C.rec}88`,
+              }}
+            >
+              8
+            </p>
+            <p style={{ ...T.displayL, fontSize: 190, margin: "20px 0 0", color: "#fff" }}>días</p>
+            <div style={{ display: "flex", justifyContent: "center", marginTop: 40 }}>
+              <span
+                style={{
+                  ...T.h3,
+                  fontSize: 76,
+                  padding: "10px 40px",
+                  background: C.aviso,
+                  color: "#000",
+                  clipPath: "polygon(24px 0, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0 24px)",
+                }}
+              >
+                Parcial · 4 de diciembre
+              </span>
+            </div>
+          </div>
+        ) : null}
+
+        {faseC ? (
+          <div style={{ position: "absolute", top: 470, left: PAD, right: PAD, textAlign: "left" }}>
+            <p
+              style={{
+                ...T.displayXl,
+                fontSize: 180,
+                margin: 0,
+                color: "#fff",
+                whiteSpace: "nowrap",
+                scale: String(interpolate(sab, [0, 1], [1.4, 1])),
+                opacity: sab,
+                transformOrigin: "left center",
+              }}
+            >
+              ¿Sabéis
+            </p>
+            <p style={{ ...T.displayXl, fontSize: 180, margin: 0, color: C.aviso, whiteSpace: "nowrap", opacity: sab }}>vuestro</p>
+            <p style={{ ...T.displayXl, fontSize: 180, margin: 0, color: C.aviso, whiteSpace: "nowrap", opacity: sab }}>nivel real?</p>
+          </div>
+        ) : null}
+      </AbsoluteFill>
+      <div style={{ position: "absolute", top: 1560, left: 0, right: 0, display: "flex", justifyContent: "center", opacity: 0.9 }}>
+        <Logo ancho={460} />
       </div>
       <AbsoluteFill style={{ background: "#fff", opacity: destello, mixBlendMode: "screen" }} />
     </AbsoluteFill>
@@ -211,7 +313,7 @@ export const Anuncio: React.FC<P> = ({ inicio }) => {
   const titulo = useEntrada(inicio, inicio + 0.1, 0.4);
   const gratis = usePop(inicio, en("gratuito"));
   const movil = useEntrada(inicio, en("lanzamos"), 0.6);
-  const nivel = usePop(inicio, en("nivel"));
+  const nivel = usePop(inicio, en("nivel", 1));
   const marca = t >= en("real") - 0.1;
   const opciones = ["El Ministerio Fiscal", "El Defensor del Pueblo", "Cincuenta Senadores", "Los órganos ejecutivos de las CCAA"];
   return (
@@ -472,11 +574,11 @@ export const Guardias: React.FC<P> = ({ inicio }) => {
   const frame = useCurrentFrame();
   const t = inicio + frame / FPS;
   const titulo = usePop(inicio, inicio + 0.05);
-  const colegio = useEntrada(inicio, en("Colegio"), 0.45);
+  const colegio = useEntrada(inicio, en("Colegio", 1), 0.45);
   const cuenta = usePop(inicio, en("cuatro", 1) - 0.1);
   const c1 = usePop(inicio, en("simulacro", 1));
   const c2 = usePop(inicio, en("ranking", 1));
-  const c3 = usePop(inicio, en("nivel", 1));
+  const c3 = usePop(inicio, en("nivel", 2));
   // La cuenta atrás arranca al aparecer el cuadro («El cuatro de diciembre…») desde DIAS_AL_PARCIAL días exactos.
   const seg = Math.max(0, DIAS_AL_PARCIAL * 86400 - Math.floor(Math.max(0, t - (en("cuatro", 1) - 0.1))));
   const d = Math.floor(seg / 86400);
